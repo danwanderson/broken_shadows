@@ -1,0 +1,79 @@
+act_move.c:                char_to_room( ch, get_room_index( ROOM_VNUM_ALTAR ) );
+act_move.c:             ch->pcdata->recall_room = get_room_index( ROOM_VNUM_TEMPLE);
+act_move.c:        ch->pcdata->recall_room = get_room_index( ROOM_VNUM_TEMPLE );
+act_obj.c:            case OBJ_VNUM_MONEY_ONE:
+act_obj.c:            case OBJ_VNUM_MONEY_SOME:
+act_obj.c:        if ( obj->pIndexData->vnum == OBJ_VNUM_EMPTY_VIAL && obj->wear_loc == WEAR_HOLD )
+act_obj.c:        if ( obj->pIndexData->vnum == OBJ_VNUM_BLANK_SCROLL && obj->wear_loc == WEAR_HOLD )
+act_obj.c:    steak = create_object( get_obj_index( OBJ_VNUM_STEAK ), 0 );
+act_obj.c:         steak = create_object( get_obj_index( OBJ_VNUM_STEAK ), 0 );
+act_obj.c:             steak = create_object( get_obj_index( OBJ_VNUM_STEAK ), 0 );
+act_obj.c:             steak = create_object( get_obj_index( OBJ_VNUM_STEAK ), 0 );
+act_obj.c:             steak = create_object( get_obj_index( OBJ_VNUM_STEAK ), 0 );
+act_wiz.c:        obj = create_object( get_obj_index(OBJ_VNUM_SCHOOL_BANNER), 0 );
+act_wiz.c:        obj = create_object( get_obj_index(OBJ_VNUM_SCHOOL_VEST), 0 );
+act_wiz.c:        obj = create_object( get_obj_index(OBJ_VNUM_SCHOOL_SHIELD), 0 );
+act_wiz.c:        vnum = OBJ_VNUM_SCHOOL_SWORD;
+act_wiz.c: * add ROOM_VNUM_JAIL to merc.h - written by Rahl
+act_wiz.c:    jail = get_room_index( ROOM_VNUM_JAIL );
+act_wiz.c:    temple = get_room_index( ROOM_VNUM_TEMPLE );
+comm.c:    ||   ch->in_room != get_room_index(ROOM_VNUM_LIMBO))
+comm.c:                d->character->in_room = get_room_index (ROOM_VNUM_TEMPLE);
+const.c:    { "sword",  OBJ_VNUM_SCHOOL_SWORD,  WEAPON_SWORD,  &gsn_sword  },
+const.c:    { "mace",   OBJ_VNUM_SCHOOL_MACE,   WEAPON_MACE,   &gsn_mace   },
+const.c:    { "dagger", OBJ_VNUM_SCHOOL_DAGGER, WEAPON_DAGGER, &gsn_dagger },
+const.c:    { "axe",    OBJ_VNUM_SCHOOL_AXE,    WEAPON_AXE,    &gsn_axe    },
+const.c:    { "staff",  OBJ_VNUM_SCHOOL_STAFF,  WEAPON_SPEAR,  &gsn_spear  },
+const.c:    { "flail",  OBJ_VNUM_SCHOOL_FLAIL,  WEAPON_FLAIL,  &gsn_flail  },
+const.c:    { "whip",   OBJ_VNUM_SCHOOL_WHIP,   WEAPON_WHIP,   &gsn_whip   },
+const.c:    { "polearm", OBJ_VNUM_SCHOOL_POLEARM, WEAPON_POLEARM, &gsn_polearm },
+const.c:        "Mage", "Mag",  STAT_INT,  OBJ_VNUM_SCHOOL_DAGGER,
+const.c:        "Cleric", "Cle",  STAT_WIS,  OBJ_VNUM_SCHOOL_MACE,
+const.c:        "Thief", "Thi",  STAT_DEX,  OBJ_VNUM_SCHOOL_DAGGER,
+const.c:        "Warrior", "War",  STAT_STR,  OBJ_VNUM_SCHOOL_SWORD,
+const.c:        "Paladin", "Pal", STAT_STR, OBJ_VNUM_SCHOOL_SWORD,
+db.c:/*  pArea->recall       = ROOM_VNUM_TEMPLE;        ROM OLC */
+db.c:            pRoomIndex = get_room_index( ROOM_VNUM_SCHOOL );
+db.c: /*   ch->pcdata->recall_room     = get_room_index( ROOM_VNUM_TEMPLE ); */
+fight.c:        corpse          = create_object(get_obj_index(OBJ_VNUM_CORPSE_NPC), 0);
+fight.c:        corpse          = create_object(get_obj_index(OBJ_VNUM_CORPSE_PC), 0);
+fight.c:            vnum = OBJ_VNUM_GUTS;
+fight.c:            vnum = OBJ_VNUM_SEVERED_HEAD;                               
+fight.c:            vnum = OBJ_VNUM_TORN_HEART;                         
+fight.c:            vnum = OBJ_VNUM_SLICED_ARM;                         
+fight.c:            vnum = OBJ_VNUM_SLICED_LEG;                         
+fight.c:            vnum = OBJ_VNUM_BRAINS;
+flowers.c:        obj = create_object( get_obj_index( OBJ_VNUM_BLACK_ROSE ), 0 );
+flowers.c:        obj = create_object( get_obj_index( OBJ_VNUM_WHITE_ROSE ), 0 );
+flowers.c:        obj = create_object( get_obj_index( OBJ_VNUM_RED_ROSE ), 0 );
+flowers.c:        obj = create_object( get_obj_index( OBJ_VNUM_DOZEN_ROSES ), 0 );
+flowers.c:        obj = create_object( get_obj_index( OBJ_VNUM_PINK_ROSE ), 0 );
+flowers.c:        obj = create_object( get_obj_index( OBJ_VNUM_CORSAGE ), 0 );
+handle_con.c:        obj_to_char(create_object(get_obj_index(OBJ_VNUM_MAP),0),ch);
+handle_con.c:        char_to_room( ch, get_room_index( ROOM_VNUM_SCHOOL ) );
+handle_con.c:        char_to_room( ch, get_room_index( ROOM_VNUM_TEMPLE ) );
+handler.c:    if (obj_to->pIndexData->vnum == OBJ_VNUM_PIT)
+handler.c:        char_to_room( ch, get_room_index( ROOM_VNUM_ALTAR ) );
+handler.c:        obj = create_object( get_obj_index( OBJ_VNUM_MONEY_ONE ), 0 );
+handler.c:        obj = create_object( get_obj_index( OBJ_VNUM_MONEY_SOME ), 0 );
+magic.c:    light = create_object( get_obj_index( OBJ_VNUM_LIGHT_BALL ), 0 );
+magic.c:    mushroom = create_object( get_obj_index( OBJ_VNUM_MUSHROOM ), 0 );
+magic.c:    rose = create_object( get_obj_index( OBJ_VNUM_ROSE ), 0 );
+magic.c:    spring = create_object( get_obj_index( OBJ_VNUM_SPRING ), 0 );
+magic.c:    if ((location = get_room_index( ROOM_VNUM_TEMPLE)) == NULL)
+magic.c:    flame_sword = create_object( get_obj_index( OBJ_VNUM_FLAME_SWORD ), 0);
+magic.c:    portal = create_object(get_obj_index(OBJ_VNUM_PORTAL),0);
+magic.c:    portal = create_object(get_obj_index(OBJ_VNUM_PORTAL),0);
+magic.c:    portal = create_object(get_obj_index(OBJ_VNUM_PORTAL),0);
+magic.c:    mob = create_mobile( get_mob_index( MOB_VNUM_ZOMBIE ) );
+save.c:        (  ch->in_room == get_room_index( ROOM_VNUM_LIMBO )
+save.c:         ch->pcdata->recall_room = get_room_index( ROOM_VNUM_TEMPLE );
+save.c:    ch->pcdata->recall_room             = get_room_index( ROOM_VNUM_TEMPLE );
+save.c:                    ch->pcdata->recall_room = get_room_index( ROOM_VNUM_TEMPLE );
+save.c:                    ch->in_room = get_room_index( ROOM_VNUM_LIMBO );
+save.c:            pet = create_mobile(get_mob_index(MOB_VNUM_FIDO));
+save.c:        pet = create_mobile(get_mob_index(MOB_VNUM_FIDO));
+save.c:                        obj = create_object( get_obj_index( OBJ_VNUM_DUMMY ), 0 );
+special.c:    char_to_room( create_mobile( get_mob_index(MOB_VNUM_CITYGUARD) ),
+special.c:    char_to_room( create_mobile( get_mob_index(MOB_VNUM_CITYGUARD) ),
+update.c:                    char_to_room( ch, get_room_index( ROOM_VNUM_LIMBO ) );

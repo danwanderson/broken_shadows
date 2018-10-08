@@ -1,0 +1,2 @@
+info locals
+backtrace

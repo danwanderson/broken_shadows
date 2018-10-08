@@ -1,0 +1,12 @@
+db.c:            level  = URANGE( 0, pMob->level - 2, LEVEL_HERO - 1 ); /* -1 ROM */
+db.c:                  UMIN(number_fuzzy( level ), LEVEL_HERO -1) );
+db.c:                           UMIN( number_fuzzy( level ), LEVEL_HERO - 1 ) );
+magic.c:    if (obj->level < LEVEL_HERO)
+magic.c:        obj->level = UMIN(LEVEL_HERO - 1,obj->level + 1);
+magic.c:    if (obj->level < LEVEL_HERO - 1)
+magic.c:        obj->level = UMIN(LEVEL_HERO - 1,obj->level + 1);
+magic.c:    ||   (!IS_NPC(victim) && victim->level >= LEVEL_HERO)  /* NOT trust */ 
+magic.c:    ||   (!IS_NPC(victim) && victim->level >= LEVEL_HERO)
+magic.c:    ||   (!IS_NPC(victim) && victim->level >= LEVEL_HERO)  /* NOT trust */ 
+magic.c:    ||   (!IS_NPC(victim) && victim->level >= LEVEL_HERO)  /* NOT trust */
+magic.c:    ||   (!IS_NPC(victim) && victim->level >= LEVEL_HERO)  /* NOT trust */

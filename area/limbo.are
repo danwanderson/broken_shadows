@@ -1,0 +1,384 @@
+#AREADATA
+Name        { all } Diku    Limbo~
+Builders    None~
+VNUMs       1 99
+Security    9
+End
+
+
+
+#MOBILES
+#1
+Puff~
+Puff~
+Puff the Fractal Dragon is here, contemplating a higher reality.
+~
+You see a fantastic, vaguely draconian-shaped mathematical pattern.  
+Even as you watch, though, the form reiterates itself in finer detail--
+with each passing moment, the shape becomes more complex and interesting.
+Almost, almost, you can discern the pattern...
+
+For all her fabulous appearance, though, Puff seems quite... addled.  As 
+the definition of her eyes increases, you realize that the Fractal Dragon 
+is obviously not paying much attention to the mortal world; she seems lost 
+in strange contemplations.
+
+~
+unique~
+A 0 0 1000 S
+26 5 5d10+550 26d5+100 4d6+3 32
+-15 -15 -15 -10
+MNc AB CD 0
+8 8 2 80
+DHZ ACDEFHJKPQUVX M none
+#2
+zombie~
+a zombie~
+A zombie is here, slaving away for its master.
+~
+This zombie has a blank look on its face. Rest assured, it wouldn't stir
+if you held a knife to its throat.
+~
+Human~
+ABT 0 0 0 S
+1 0 1d2+6 1d10+100 1d2+0 3
+9 9 9 9
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M none
+#0
+
+
+
+#OBJECTS
+#1
+dummy object~
+a dummy object~
+Dummy object is used for loading non-existent objects~
+none~
+0 0 0
+0 0 0 0 0
+0 0 0
+#2
+coin gold~
+a gold coin~
+One miserable gold coin.~
+none~
+20 0 A
+A 0 0 0 0
+0 1 0
+#3
+coins gold~
+%d gold coins~
+A pile of gold coins.~
+none~
+20 0 A
+0 0 0 0 0
+0 1 0
+#10
+corpse~
+corpse of %s~
+The corpse of %s is lying here.~
+none~
+23 0 A
+0 0 0 A 0
+0 100 0
+#11
+corpse~
+corpse of %s~
+The corpse of %s is lying here.~
+none~
+24 O A
+0 0 0 A 0
+0 100 0
+#12
+head~
+the head of %s~
+The severed head of %s is lying here.~
+none~
+13 0 A
+0 0 0 0 0
+0 5 0
+#13
+heart~
+the heart of %s~
+The torn-out heart of %s is lying here.~
+none~
+19 0 A
+E 0 0 0 0
+0 2 0
+#14
+arm~
+the arm of %s~
+The sliced-off arm of %s is lying here.~
+none~
+19 0 A
+CE 0 0 0 0
+0 5 0
+#15
+leg~
+the leg of %s~
+The sliced-off leg of %s is lying here.~
+none~
+19 0 A
+CE 0 0 0 0
+0 5 0
+#16
+guts entrails~
+the guts of %s~
+A steaming pile of %s's entrails is lying here.~
+none~
+19 0 A
+AC 0 0 A 0
+0 2 0
+#17
+brains brain~
+the brains of %s~
+The splattered brains of %s are lying here.~
+none~
+19 0 A
+BD 0 0 0 0
+0 2 0
+#20
+hunk edible something~
+a hunk of edible something~
+A hunk of edible something... just sits... there...~
+none~
+19 0 A
+D 0 0 0 0
+0 1 10
+E
+hunk edible something~
+It's a hunk of...  Wel, something.  And it's edible...  You think.  
+~
+#21
+ball light~
+a bright ball of light~
+A bright ball of light shimmers in the air.~
+none~
+1 A A
+0 0 999 0 0
+0 0 0
+#22
+stream starlight~
+a small stream of liquid starlight~
+Liquid starlight sparkles across your path.~
+none~
+25 G 0
+FHJKPQ FHJKPQ 0 0 0
+0 0 0
+#23
+flame sword flamesword~
+a flamesword~
+A magic sword with a blade of flame is here on the ground.~
+none~
+5 G ANPQRSTUVWXYZabcdef
+B 0 AC ACDE F
+0 10 1000
+A
+18 3
+A
+19 3
+#24
+steak~
+a nice, juicy steak~
+A big, juicy steak is here.~
+none~
+19 0 A
+0 0 0 0 0
+0 1 0
+#25
+red rose~
+a pretty red rose~
+A beautiful red rose has been dropped on the floor.~
+none~
+8 0 AO
+0 0 0 0 0
+0 1 100
+#26
+gate portal~
+a portal into the unknown~
+A shimmering gate is here, leading into the unknown.~
+none~
+30 T 0
+0 0 0 0 0
+0 0 0
+#27
+black rose~
+a `Kblack`g rose`w~
+`gA single `Kblack`g, long stemmed rose lies here.`w~
+none~
+8 0 AO
+0 0 0 0 0
+0 1 200
+#28
+white rose~
+a `Wwhite`g rose`w~
+`gA `Wwhite`g rose belonging to someone special lies here.`w~
+none~
+8 0 AO
+0 0 0 0 0
+0 1 200
+#29
+red rose~
+a `Rred`g rose`w~
+`gA beautiful, `Rred`g, long stemed rose lies here for someone special.`w~
+none~
+8 0 AO
+0 0 0 0 0
+0 1 200
+#30
+pink rosebud~
+a `Mpink`g rosebud`w~
+`gA dainty `Mpink`g rosebud belonging to someone special lies here.`w~
+none~
+8 0 AO
+0 0 0 0 0
+0 1 200
+#31
+rose corsage~
+a `Rrose`g corsage`w~
+`gA `Rred `grose corsage waits here for someone special.`w~
+none~
+8 0 AM
+0 0 0 0 0
+0 1 300
+#32
+dozen roses~
+a dozen `Rred`g roses`w~
+`gA dozen, `Rred`g, long stemmed roses lie here waiting for someone special.`w~
+none~
+8 0 AO
+0 0 0 0 0
+0 2 500
+#90
+blade nightmare sword~
+a Blade of `KNightmares`w~
+A keen, dark blade is lying here.~
+none~
+5 AC AN
+0 0 0 ABE D
+0 20 100000
+#91
+black plate armor~
+`KBlack `gPlate`w~
+A large plate of glossy black is here.~
+none~
+9 C AD
+0 0 0 0 0
+0 25 90000
+#92
+shield shadows~
+a shield of `Kshadows`w~
+A pitch black shield with a knight's crest is here.~
+none~
+9 CG AJ
+0 0 0 0 0
+0 15 80000
+#93
+cloak dreams~
+a cloak of `Kdreams`w~
+A pile of black cloth is here, shimmering slightly.~
+none~
+9 C AC
+0 0 0 0 0
+0 5 70000
+#94
+amulet darkness~
+the amulet of `Kdarkness`w~
+A black amulet is here, glowing slightly.~
+none~
+9 AC AC
+0 0 0 0 0
+0 2 60000
+#95
+quest token~
+the `YHoly Grail`w~
+A quest token is here. You wonder which one it is.~
+none~
+18 PT A
+0 0 0 0 0
+0 0 0
+#96
+quest token~
+the Necronomicon~
+A quest token is here. You wonder which one it is.~
+none~
+18 PT A
+0 0 0 0 0
+0 0 0
+#97
+quest token~
+mekare's silver locket~
+A quest token is here. You wonder which one it is.~
+none~
+18 PT A
+0 0 0 0 0
+0 0 0
+#98
+quest token~
+tickets to a Tool concert~
+A quest token is here. You wonder which one it is.~
+none~
+18 PT A
+0 0 0 0 0
+0 0 0
+#99
+quest token~
+`wRahl's `KMetallica`w T-shirt~
+A quest token is here. You wonder which one it is.~
+none~
+18 PT A
+0 0 0 0 0
+0 0 0
+#0
+
+
+
+#ROOMS
+#1
+The Void~
+You are floating in nothing.
+~
+0 8204 1
+S
+#2
+Limbo~
+You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+~
+0 12 1
+S
+#26
+~
+~
+0 4 0
+S
+#55
+~
+~
+0 4 0
+S
+#0
+
+
+
+#SPECIALS
+M 1 spec_puff Load to: Puff
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

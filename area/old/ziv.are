@@ -1,0 +1,71 @@
+#AREADATA
+Name        { X-X } Zivilyn Ziv Island~
+Builders    Zivilyn Becky~
+VNUMs       100 199
+Security    9
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#100
+Flotsam~
+Along the gray sandy beach the tide has left a line of smooth pebbles, rotten
+coconut husks and pock marked logs. Persistant waves reach closer and closer
+towards the line, offering more of their wares to the collection. Softer sand
+crowns the display of flotsam as it shows the way towards the thick tangle of
+jungle beyond.
+ 
+Remember: overcast, like someone forgot to colour it in
+-
+~
+0 5 6
+S
+#101
+Sheltered Bay~
+Gray-blue waves lick tentatively at a beach of marble white
+sand, glorious in its uniform purity. Curiously bubbled rocks,
+sleek black logs, colourful curved shells and coconut husks
+have been flung in a seemingly careless manner above the tide
+line, crowning it like a dark head of hair. Beyond the flat
+waves lies a jagged reef, protecting this pretty little cove
+from the ravages of the sea. The bay curves outwards to the
+north and south.
+~
+0 4 10
+S
+#102
+Sheltered Bay~
+~
+0 0 10
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

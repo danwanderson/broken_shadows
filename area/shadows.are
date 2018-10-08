@@ -1,0 +1,574 @@
+#HELPS
+
+-1 WIZLIST~
+.
+
+        
+                        Implementors 
+                        ************
+                        
+
+                        Creators 
+                        ********
+
+                        Supremacies
+                        ***********
+
+                        
+                        Deities
+                        *******
+                        
+
+                        Gods
+                        ****
+
+    
+                        Immortals
+                        *********
+
+
+                        Demigods
+                        ********
+
+                        
+                        Angels
+                        ******
+
+
+                        Avatars
+                        *******
+
+~
+ 
+
+-1 SOCIALS~
+ 
+This is a complete list of socials for Broken Shadows:
+ 
+accuse       adjust      air          apologize     applaud     babble
+bark         bcatch      beckon       beer          bearhug     beg
+bird         bkiss       bleed        blink         blush       boast
+boggle       bonk        bounce       bow           brb         burp
+cackle       caress      charge       cheer         chuckle     clap
+claw         collapse    comfort      comb          cough       cover
+cower        cringe      criticize    cry           cuddle      curse
+curtsey      dance       daydream     drool         duck        embrace
+explode      eyebrow     faint        fart          flare       flash
+flex         flinch      flip         flirt         flutter     fondle
+french       frown       fume         gasp          giggle      glare
+goose        grimace     grin         groan         grope       grovel
+growl        grumble     hand         head          hiccup      highfive
+hop          howl        hug          hush          ignore      innocent
+insane       judge       kiss         knee          laugh       lick
+love         lust        massage      meditate      moan        moon
+mosh         mutter      nibble       nod           nudge       nuzzle
+pant         passout     pat          peck          pie         pinch
+pissed       plead       point        poke          ponder      pout
+pray         propose     puke         punch         purr        ramble
+raspberry    rofl        roll         rub           ruffle      run
+scratch      scream      serenade     shake         shiver      shrug
+sigh         sing        slap         slobber       smile       smirk
+snap         snarl       sneeze       snicker       sniff       snore
+snort        snowball    snuggle      sob           spam        spank
+spit         squeal      squeeze      squirm        stare       stretch
+strip        stroke      strut        sulk          swoon       tackle
+tease        thank       threaten     tickle        tip         tongue
+twiddle      type        undress      view          wave        whine
+whistle      wiggle      wince        wink          wonder      worry
+worship      yawn        yeehaw       yodel
+ 
+(list and many of the socials written by Sara)
+~
+
+-1 'NEWBIE INFO'~
+Ah! Another mortal, seeking adventure.  You should go through mudschool first,
+to gain experience to face the trials outside.  Be sure to practice a weapon
+in the guild room, or your stay with us shall be very short indeed.  Type
+'equipment' to see what your are wielding, 'spells' to see your spells, 
+'skills' to see your skills, and 'commands' for a list of commands. Help is
+available on most commands and abilities.
+~
+ 
+-1 GREETING~
+.
+`G
+Broken Shadows is based on Rivers of MUD 2.3 and EmberMUD 0.17
+(Original Diku MUD by Nyobe, Madsen, Staerfelt, Seifert, and Hammer)
+Quest code (c) 1996 Ryan Addams
+Portions from Rom2.4 (c) 1995 Russ Taylor
+`K
+ __ )            |                 ___|  |               |                    
+ __ \   __| _ \  |  /  _ \ __ \  \___ \  __ \   _` |  _` |  _ \\ \  \   / __| 
+ |   | |   (   |   <   __/ |   |       | | | | (   | (   | (   |\ \  \ /\__ \ 
+____/ _|  \___/ _|\_\\___|_|  _| _____/ _| |_|\__,_|\__,_|\___/  \_/\_/ ____/ 
+`w
+(c) 1995-2001 by Daniel Anderson
+
+                           Version 1.9.0 alpha
+                
+
+Welcome -- what is your name? ~
+
+-1 MOTD~ 
+
+Please read "help rules". Ignorance is no excuse. Any suggestions are 
+welcomed. Have fun!
+
+*****************************************************************************
+[Hit Return to continue]
+~ 
+ 
+1 IMOTD~
+
+Welcome! Please read "help rules", "help laws", and "help jobs". Failure
+to follow these will result in some sort of disciplinary action.
+
+[Hit Return to continue]
+~
+
+0 CLAN CLANS~
+To get a list of the clans on `KBroken Shadows`w, type "show clans".
+
+To get help on the individual requirements for a clan, type "help <clan
+name>". This will also contain a brief story and a list of the clan
+leaders.
+~
+
+0 GUILD 'THE GUILD'~
+		     
+		    `KT`whe`WGu`wil`Kd`w		
+
+        Since the dawn of time there have been special men and 
+women of all races. While there are those that are interested 
+in power, prestige, wealth or even some fanatical goal, there 
+have been those individuals who are only interested in one 
+thing - Adventure. They are the ones who who are shunned by 
+most as crazy, called glory seekers by the envious, and 
+lamented by those who have achived status as tossing their 
+lives away. But the call to adventure is too strong to resist 
+for these poeple.
+        They are the ones who arrive into town durring the
+middle of the night, weary from their journey, traveling cloak 
+covered in mud and stained with blood. They try to pay for 
+their single drink with coins no one has ever seen before, 
+belonging to a long dead kingdom. Hidden in a worn leather 
+pouch at their side is the lost artifact of Kaldin the mage.
+        The affairs of kings and men interest these people 
+little, unless they broaden their range of knowledge, bring them
+in contact with lost articles of power, or the pay is right. 
+The politics matter not, it is the adventure and the fight that 
+such conflict brings that would draw true adventurers to it 
+like a moth to a flame. 
+        The guild however as a whole cares not for such petty 
+things, usualy it is only the individual members who get 
+involved in such things. It takes a great catastropy or 
+overwhelming need for the highest memebers of the guild to 
+call a council and order the whole guild into action. Even 
+then the guilds history is potmarked with times when action 
+should have been taken and none was, when action was not 
+warrented but given, and even descisions that almost tore the
+guild apart as some memebers stood on one side of an issue and
+other members on the the other side. In recent years the current 
+council has taken to avoid action unless absolutly nessicary.
+        Adventurers however have always been on the outside of 
+most regular society, being too roudy to fit into high 
+society, being too free willed to join a most groups, but 
+always seeming to gravitate towards others of a like mind. 
+It was from this desire the Guild was formed. No one is sure
+who formed the guild or really when, it has been around for as 
+long as anyone can remember. Everytime one of the members 
+thinks they've nailed down the founders another obscure 
+reference to it pops up in some even more ancient tomb.
+The guild just keeps on going from generation to generation, 
+it has never been wiped out, and even on the rare occasions 
+when all the members have been slain or disapeared it was only 
+a matter of time befor new adveturers rose up and took the 
+mantel and the guild continued.
+        People from all walks of life and of all races hear 
+the call of Adventure. The guild cares not for what one did or 
+does befor joining, and even after joining the guild usualy 
+does not care what it's members do. Though most are too 
+wrapped up in their own quest for adventure and knowledge to 
+cause many problems with the world at large. 
+        Their members inclued many as many professions 
+naturaly lead one on to the path of adventure. Warriors lust
+for battle, to search out stronger and more powerfull foes, take
+them to the brink of civilization and further. Thieves desire
+for richs can cause them the decend into the very pits of hell
+for items that will fetch a kings ransom many times over. Clerics
+holy crusades take them all over the the known world and beyond
+in the name of their God. Mages quest for knowledge can lead them
+into areas that haven't been seen for millenia just for the 
+possibilty of a little more arcane knowledge.
+        There is only one requirement to get into the Guild, 
+prove one's worthyness and lust for adventure. New members are 
+constantly scowering the land in search of lost artifacts and 
+lore to prove they have what it takes to truely call themselves
+an Adventurer! But even after joining many adventurers continue 
+their travels, always trying to one up each other and themselves.
+For an adventurer only craves one thing in the end, the thrill
+of the quest and a good companion to share their trials with.        
+
+The current leader in title only is Giaij.
+~
+
+0 NIGHTFALL~
+
+The `BNightfall`w clan was formed relatively recently.
+
+A band of outlaws, mostly murders, outcast and forced to live in the
+forests and other remote areas of the world, the members of `BNightfall`w
+are known for random killing, terrorism, and other acts of violence.
+
+Though all members aren't inherently evil, `RPK`w is required, for members
+have been known to lend assistance and heal others, then kill them when
+they least suspect it.
+
+The only requirements for joining `BNightfall`w are to be above level 20
+and a player killer.
+
+Currently, the leader of this murderous band is Exile.
+~
+
+0 ROSE 'BLACK ROSE'~
+The Clan of the `KBlack Rose`w:
+
+The `KBlack Rose`w was founded many centuries ago, during a brief period
+of violence. The founder, a High Priest of Rahl, gathered as many as he
+could together and told them of a dream he had the previous night...
+
+"The Master came before me last night. 'My Master,' I said, 'what can thy
+humble servant do for thee?'
+
+"He spoke without speaking, 'I know the state of this world, and I say to
+thee that if you take up arms, you, too shall perish. If you embrace those
+ideals that you preach, I shall protect you.'
+
+"'My Master,' I said, 'I shall do as you wish.' but, even as I said this,
+He had gone.
+
+"Come, my friends. We must kneel and pray for His protection. All ye who
+would fight, leave us now, for ye are dead men either way."
+
+One month later, lookouts on the city walls reported armies cresting the
+nearbly hills. Crowds of people flocked to the walls, trying to get a view
+of the approaching masses. The leaders of the armies approached the city
+walls and demanded the city's surrender. When the king, his faith
+unshaken, refused, the leaders turned to their armies and odered them to
+attack. When the lead element of the attacking force got within 100 feet
+of the walls, there was a thunderous roar, combined with the screams of
+thousands, as they were mysteriously cut down. The leaders of the
+attacking armies, realizing that there was no way that they could win,
+knelt and surrendered. 
+
+Later, a group of people, using the High Priest as spiritual guidance,
+formed what is now known as the `KBlack Rose`w.
+
+~
+
+
+1 JOBS~
+This is a partial list of what a god of any given level should be doing. It is
+not complete yet.
+
+
+Heroes:
+You should be helping mortals in minor ways (i.e. not handing out free spells
+right and left).  An ideal example is leading quest parties or missions to 
+get corpses...don't just get the corpse for a person, make them come along and
+help you do it.
+
+Angels:
+Angels and higher level gods may not assist mortals directly in any way.  
+An Angel's main job is to help with quests (via switch), or possibly run
+small quest of their own -- but the rewards should be minimal.
+
+Deities:
+Deities have two main roles: reimbursement and quest running.  Be skeptical
+on reimburses, don't just hand out every piece of gear.  I suggest limiting
+reimbursements to 10 items at a time, and make sure that you do not load things
+at too high a level (new format items have hard-coded levels, so are not a
+problem).  vnum and stat are useful for this.  You can draft Angels to help you
+run a quest, and please note that quests should NOT have huge rewards -- the
+main point should be to have fun.  Deities have no business trying to enforce
+rules -- the most you should do to a player is a NOCHANNEL or similar light
+punishment.
+
+Gods:
+Gods can run quests just like Deities, and it's nice to do reimbursements too.
+However, the main role of a God is keeping the peace.  Gods can enforce (but
+not create rules), using the various NOTELL-class commands, as well as deny,
+purge, freeze, and ban (but be careful with these commands!)  Gods are expected
+to help make the mud run more smoothly, power trips are strictly verbotten.
+
+Not fufilling the roles of your office can result in demotion or deletion.
+~
+
+
+1 COMMANDMENTS LAWS 'GOD RULES' GODS~
+.
+                       ***************************
+                       **       The Rules       **
+                       ***************************
+ 
+1)  Do not kill mortals, do not kill mortals, do not kill mortals.
+    This includes transferring/summoning them to aggressive mobs.
+ 
+2)  Do not cheat for ANY mortal in ANY way, especially your own. 
+    Unless of course you LIKE deletion. Yes this includes tanking,
+    healing/restoring, casting protection spells <armor, sanct>,    
+    and softening up or altering mobs.
+ 
+3)  Do not transfer or summon mobs to mortals or mortals to mobs.
+    They have legs, if they want to kill a mob, they can easilly
+    go there themselves.
+ 
+4)  DO NOT kill the shopkeepers for any reason at ALL.
+ 
+5)  DO NOT use reboot (or shutdown)!  <--- Note, simple English.
+ 
+6)  Do not give out free equipment.  You don't need to win brownie
+    points with the mortals.  Quest are fine but handing out items
+    isn't.
+ 
+7)  A note on quests: Quests are a good thing, more or less, BUT 
+    do not give out overly extravagant prizes.  Exercise some 
+    common sense here folks.  Do not load items more than 4 levels
+    below their normal level (i.e. no level 5 ogre gauntlets).
+ 
+8)  Do not undermine the authority of a higher level god.  If you 
+    see that someone has been frozen or nochannelled do not restore
+    their priveleges.  They are being punished for a reason.
+ 
+9)  Do not try to overrule each other. Raven has the final say on all 
+    rulings. 
+ 
+10) Trusted mortals:  Do not use your god powers to help your mortal
+    character.  If you do, your trust will be taken away.
+
+~
+-1 PUFF~
+No plain fanfold paper could hold that fractal Puff --
+He grew so fast no plotting pack could shrink him far enough.
+Compiles and simulations grew so quickly tame
+And swapped out all their data space when Puff pushed his stack frame.
+CHORUS:
+        Puff the fractal dragon was written in C,
+        And frolicked while processes switched in mainframe memory.
+        Puff the fractal dragon was written in C,
+        And frolicked while processes switched in mainframe memory.
+Puff, he grew so quickly, while others moved like snails
+And mini-Puffs would perch themselves on his gigantic tail.
+All the student hackers loved that fractal Puff
+But DCS did not like Puff, and finally said, "Enough!"
+                (chorus)
+Puff used more resources than DCS could spare.
+The operator killed Puff's job -- he didn't seem to care.
+A gloom fell on the hackers; it seemed to be the end,
+But Puff trapped the exception, and grew from naught again!
+                (chorus)
+~
+
+-1 RULES~
+These are the rules of Broken Shadows.  For other matters, use commom
+sense (if that fails, ask).
+
+* foul language will not be tolerated from anyone (including gods) on 
+  public channels. Punishments range from deletion to NOCHANNELing.
+
+* sexual harassment of any form will not be tolerated, punishable by deletion
+  or site bans.
+
+* your presence here is a privilige not a right <--- please note this! 
+  Broken Shadows is private property, not a public service. Your privelige
+  to connect at any given time is not guaranteed. This means that we do not 
+  necessarily have to have a reason to deny you access or delete your
+  characters.
+ 
+* no multiple logins, multiple playing, or helping your own characters with 
+  other characters you own -- by any arrangment. You may have multile 
+  characters, but if both are on at the same time, they may both be deleted.
+  Tintin, etc. robots will not be tolerated. Your character will be
+  disconnected and/or deleted.
+ 
+* Rules may be ammended/changed at any point and may be done without warning, 
+  notice, or even evidence of sanity. You are also responisble for rules
+  posted in notes or spoken by an immortal until you hear
+  differently.
+
+* no kill stealing.  This means you cannot attack a mob someone else is 
+  fighting, unless they ask you to. Also avoid attacking fleeing mobs. We 
+  realize that accidents do happen, but multiple "accidents" are suspicious.
+  This includes attacking a mob and fleeing so that another player may
+  kill it, as well as casting certain spells, like curse and weaken
+  on it.
+
+* cheating will not be tolerated.  This includes accepting favors from gods
+  and exploiting bugs. If you find a bug, report it, then do not use it.
+
+* if you are asked by an immortal to refrain from doing something and you 
+  fail to comply, you may suffer a penalty. Penalties may be anything that
+  the immortal sees fit.
+
+* Summoning/pushing players to aggressive mobs or vice versa will not be
+  tolerated.
+
+* Spamming non-combat related commands, regardless of whether an immortal
+  is on, is rude. Those found doing it will be punished.
+
+* problems with rules may be brought to Raven and no one else, even if they
+  were spoken/posted by another immortal.
+~
+
+0 DELETE~
+Use the delete command to erase unwanted characters, so the name will be
+available for use.  This command must be typed twice to delete a character,
+and you cannot be forced to delete.  Typing delete with an argument will
+return your character to 'safe' status if you change your mind after the
+first delete.
+~
+
+0 HEALER~
+The healer decided to grab a quick buck, and now charges for his heals.  Some
+services are still free to players of level 10 or below, however.  To see
+a full listing of the healer's services, type 'heal' at his residence. To
+receive healing, bring plenty of money, and type 'heal spell'.
+~ 
+
+-1 TAX TAXES~
+Broken Shadows charges a tax on the wealthiest players, to help pay for
+all the sub issue equipment and guard death benefits.  This tax amounts to
+50% of all gold above 10,000 coins, each and every time you log on.
+
+There is also a surcharge on your bank accounts, which amounts to 25% of
+all gold above 50,000 coins each and every time you log on.
+~
+
+-1 GAIN~
+The gain command is used to learn new skills, once the proper trainer has 
+been found.  The following options can be used with gain:
+
+gain list:    list all groups and skills that can be learned
+gain points:  lower your creation points by 1 (costs two sessions)
+gain <name>:  add a skill or skill group, at the listed cost
+gain convert: turns 10 practices into one training session
+
+Gain uses training sessions, not practices. (see 'help train')
+Gained skills and groups do NOT increase your experience per level or total
+number of creation points. 
+~
+
+0 SKILLS SPELLS~
+The skills and spells commands are used to display your character's list
+of available skills (or spells, as the case may be).  They are listed in
+order of level, with mana cost (for spells) or percentage (for skills)
+listed where applicable.
+~
+
+
+0 OUTFIT~
+The outfit command, usable by levels 5 and below, equips your character with
+a new set of sub issue gear (banner, weapon, helmet, shield, and vest), 
+courtesy of the Mayor's warehouses.  Only empty equipment slots are affected.
+~
+
+0 AUTO AUTOLIST AUTOLOOT AUTOGOLD AUTOSAC AUTOEXIT AUTOASSIST AUTOSPLIT~
+Broken Shadows uses varies automatic actions, to ease the boredom of
+always splitting gold and sacrificing corpses.  The commands are as
+follows:
+
+autolist  : list all automatic actions
+autoloot  : take all equipment from dead mobiles
+autogold  : take all gold from dead mobiles
+autosac   : sacrifice dead monsters (if autoloot is on, only empty corpes)
+autoexit  : display room exits upon entering a room
+autosplit : split up spoils from combat among your group members
+autoassit : makes you help group members in combat
+autodamage: lets you see the amount of damage you do per hit in a fight
+
+Typing a command sets the action (except for autolist), typing it again removes
+it. 
+~ 
+
+-1 COUNT~
+The count command displays the number of people (that you can see) logged
+into the mud.  It also displays the highest number observed that day, if
+it is higher.
+~ 
+ 
+-1 CHANGES~
+To see a list of changes, type 'CHANGES'.
+~
+
+-1 GATE~
+The gate spell is a powerful transportation magic that opens up a portal 
+between your character and another person or creature somewhere else in the
+world.  This portal will transport you and any pet you might have, but not
+other members of your group.  Monsters recieve a save against gate, and
+monster or players more than 3 levels higher than you can not be gated to at 
+all.  God rooms, private rooms, and no recall rooms cannot be gated to, and
+no recall rooms cannot be gated out of.  Finally, any god or hero is also 
+immune to gate, as well as in player who has no summon set.
+~
+
+2 CRITERIA~
+The Immortal Criteria 
+
+Immortal players should realize that their immortal powers are a privilege
+and not a right. The decisions of the imps are final, and will be
+respected, for they are the true law of the land.
+
+The advancement of immortals is a very specific and complicated matter.
+Immortals do not recieve expierience points, therfore they are evaluated
+by expierience and skills aquired by doing tasks required of them. These
+tasks include building, law enforcement, and coding. Also taken into
+consideration the actions off the immortal staff. Immortals are required
+to abide by the ruls of the mud, and by the specific immortal rules stated
+in help commandments/help jobs.
+
+Level advancement criteria:
+
+The immortal staff's main objective is to make the mud a better place for
+the players. Immortals have many responsibilities and must be constantly
+working on them in order to remain part of the imm staff and to advance in
+rank.
+
+Some of the immortal responsibilities include:
+
+Creating an area and being familiar with OLC
+Knowing and abiding by the rules of the MUD
+Helping mortals and responding to their concerns (to an extent)
+Enforcing the rules of the MUD
+Any other specific tasks assigned to you
+You also must have attended immortal meetings (although exceptions may be
+made on this one)
+
+All this is necessary in order to be _considered_ for level advancement.
+There are excptions for every rule though. In some cases a immortal may be
+assigned tasks that are not on this list and those may also be considered
+for level advancememnt.
+
+Proposing for level advancement:
+
+Once an immortal has aquired the criteria necessary for advancement, a
+random group of 4 immortals will be chosen to vote for the advancement of
+said persons. If the vote is resulted in a tie, Rahl will cast the
+deciding vote.
+
+After a immortal reaches level 95, they will be given specific duties that
+will aid them in advancement to the higher levels. You must prove to the
+implementors that you are capable of performing the tasks assigned before
+advancement can be considered. In addition, you will only qualify for such
+advancement if there is a need for someone of that level.
+
+Along with advancement there is the posibility of demotion. If an immortal
+is not completing his or her tasks or is abusing their immortal powers
+they may loose levels or fired from the immortal staff. This is something
+that will be decided among the implementors, and will also be brought
+before to a comittee. The final decision will be made by a combination of
+a vote and the final decision of the implementors. Under some
+circunstances, the immortal may be demoted or fired immediately.
+~
+
+0 $~
+#$

@@ -1,0 +1,21 @@
+Change magic.c/h to remove level from all headers
+
+Change spells in const.c so that difficulty rating is better or remove ratings and change do_practice....
+
+do_affects:
+
+if not detect magic, then if any affects, say something (just once)
+
+for detect magic, show everything but hours
+
+immortals - show hours, too
+
+
+Move OBJ_VNUM definitions to limbo.are
+Move MOB_VNUM to limbo.are ?
+
+
+go through help files and set levels/ranks correctly
+
+
+affect levels/durations

@@ -1,0 +1,35 @@
+Many thanks go to the following people (in addition to those great people 
+who brought you the original Rom2.3 and EmberMUD):
+
+Vassago (moongate@moongate.ams.com) - quest code
+Erwin (erwin@pip.dknet.dk) for copyover, rename, board, last_command,
+    buffer
+Rindar (clogar@concentric.net) - shield block, boot_db fix, and many
+    others
+blade of "- E -" (franzj@email.uc.edu) - .d in string editor
+FRiTZ - bounty
+Judson Knott - bank, page
+Silverhand - bonus 
+John Strange (gambit@wvinter.net) - new slay stuff :)
+Omar Yehia - olevel/mlevel
+jek@conga.oit.unc.edu - underground/cavein rooms 
+Zain Dirkbane - ANSI prompt
+And several other unknown authors who have posted code on the Internet...
+
+Thanks also to Russ Taylor and the Rom2.4 crew, as a quite a few of my
+changes have been based on, if not taken from Rom2.4.
+
+Many thanks also go to my immortal staff over the years: 
+Exar, Lod, Kaitlin, Medea, LadyLily, Raptor, Roderick, Mekare, Arsus, 
+Nyobe, Love, Nefertiti, Nefertari, Tirellius, Aphrodite, Lisen, 
+and anyone else I might have inadvertantly forgotten.
+
+Thanks also to the original EmberMUD staff, Zak, Zane, and Thexder. Great
+work guys.
+
+Thanks to Annalin (shelley@compuage.com) for some of the socials and for 
+keeping me going through it all. I don't think I can ever thank her 
+enough :)
+
+-Rahl (Daniel Anderson, dwa1844@rit.edu)
+

@@ -1,0 +1,22 @@
+12/98 flame channel removed
+      do_dump removed
+      deity worship (pray) added
+      do_old_auction removed
+      do_question and do_answer (Q/A channel) removed
+      magic.c and magic2.c merged
+      ITEM_NOSACRIFICE added
+1/99  trivia_update changed to bonus_update (as with all the trivia
+        stuff)
+      message added if you type "replay" and don't have any messages
+2/99  bin directory added at same level as src, area, etc.
+	  script for removing level 1 pfiles created and placed in bin dir
+	  startup script moved to bin directory
+	  script for automated backups added to the bin directory
+	  dex check in can_see fixed. Was checking ch's dex when trying
+	  	to see if ch could see the person sneaking
+	  room affect code removed
+	  smite command removed
+	  after 10 ticks of idle time, immortals are automatically set
+		AFK, if they aren't already
+	  ANSI prompt added to login
+~

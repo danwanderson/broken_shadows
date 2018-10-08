@@ -1,0 +1,311 @@
+4/96  Ticks removed from the log files (what a waste of space).
+      (KILLER) changed to (PK)
+      Beacon command is now level 0. Help beacon for more information.
+6/96  You can now take up to 40 creation points without penalty!
+      Flame channel added (for swearing, taking out hostility, etc.)
+      Grats channel added.
+      Clan channel added!
+      Polearm bug fixed: they were all set to whips in OLC.
+11/96 Status command for levels 96+
+      SMITE command for 97+
+1/97  experience stuff fixed ( xp formula )
+      NEW COMBAT SPELLS for mages!
+      group level limits (9 levels)
+      "crumbles to dust" changed to "flickers and disappears" (decay
+        message - problem: heads, etc)
+      Damage for most mage spells changed! (now more powerful)
+      Most spells taken away from warriors.
+      kick, trip, and bash damage improved
+      push skill added
+      count fixed (sorta)
+      IMPS can now force players to delete
+      order/mobprog bug fixed
+      Imms cannot force mobs to do mobProgs
+      mshow bug fixed (wouldn't like it if it got anything but a number)
+      CHAOS fixed (it now works!)
+      'instant death' damage changed
+      flee/recall xp penalty changed
+2/97  CHAOS point scoring fixed (I think)
+      CHAOS killer flag fixed
+      trains, practices added to the score sheet
+      % of normal (xp)  removed from score
+      sub-issue eq dissolves on donate/drop
+      title echoes back when you change it
+      Characters under level 2 will not be saved
+      A prompt bug was fixed (it allowed you to minipulate your character)
+3/97  All OLC commands are now 93+
+      One site was permanently banned
+      2 lines were commented out of comm.c to get the code to compile on
+          Slakware Linux 2.0.29
+      A slight problem with the xp formula was fixed (now 1.21 instead of
+          1.2)
+      A lot of the compile warnings have been cleaned up. There are 4
+          (yes, only 4) left.
+      The "evil dwarf" scenario at creation has been fixed (used to be
+          that dwarves were always evil)
+4/97  Wizslap added for levels 95+
+      Oshow all was fixed (crashed the MUD if there was anything other
+          than a number. Now it rejects all non-number arguments)
+      Butcher skill added
+      rlist buffer increased. Should have less crashes due to that.
+      Zap fixed. (I think)
+      Max bonus to stats now +10 (up to a max stat of 25)
+5/97  Slight stat changes to Hobbits and Trolls. Help files added.
+      copyover/hotreboot implemented!!
+      xp changed again (0.75 of what it used to be)
+      new spells - greater harm, greater heal
+      new spells for the healer - mega mana, mega heal
+      pk xp fixed
+      TAR_CHAR_OTHER in (new spell targeting thing)
+      Automatic questing added!
+6/97  new damage message added :)
+      group level limit changed to 10 levels
+      hellfire, thunderbolt, restoration, regeneration given to clerics
+      circle skill added for thieves
+      bonus command added for 99+
+      random logout quotes added
+      trains, questpoints, quest timer added to stat
+      questpoints added to set
+      lore written (basic version till I can find a better one )
+      the wandering wizard has returned :)
+      transfer changed slightly (can't trans people higher in level)
+      Midgaard made a bit more lively
+      vnum now shows levels
+      hero channel added
+      LEVEL_IMMORTAL is now 92 instead of 93 (most OLC stuff is now 92)
+      weapon choice at creation added!
+      can reconnect if link dead (asks to reconnect at login)
+      Wiznet added! :)
+      Paladin class added
+      grip skill added - still a few bugs
+      alignment changes (after kills) changed - no longer so radical
+7/97  ability to cast spells on objects added
+      shocking, vampiric, flaming, poison, frost, vorpal, sharp weapons do
+        stuff
+      a few new spells added - detect/protect/dispel good, fireproof,
+        create rose, slow, recharge, heat metal, ray of truth,
+        nexus, portal
+      new item flags added - nouncurse, no-locate
+      new affect flags added (for spells)
+        AFF_PROTECT_GOOD, AFF_DETECT_GOOD, AFF_SLOW
+      AFF_HOLD, AFF_FLAMING removed to make space for new ones
+      AFF_PROTECT changed to AFF_PROTECT_EVIL (so we can do protect good)
+      new liquids added (Mt. Dew, champagne, etc)
+      grip fixed :)
+      color added to inv/eq lists
+      haste/fly/slow affect movement now
+      envenom skill added
+      incognito added for imms
+      if you drop something in an air sector, it eventually falls below
+      clanrecall added.. now we just need clan halls :)
+      "commands" changed to use page_to_char
+      "page" command added for immortals
+      switched fixed so it won't crash anymore.. I think..
+      bank added. Look for Abe, the manager, somewhere near Zedd
+      resurrect spell added
+      "flickers and disappears" fixed
+8/97  QUIET now shows up in who list
+      shutdown command changed slightly. Now echoes name (and actually
+        shuts down) if you're wizi or incognito
+      fear spell added
+      spec_assassin added ( attacks chars [not thieves, though] when they
+        walk into the room )
+      accept and disown added for clan leaders
+      when players delete, they are removed from the clan member list
+      firenewt.are and juargan.are added. not linked yet (I don't think)
+      ALL the compile warnings have been cleaned up
+      rename command added
+      quest gold reward toned down a bit
+      resting shows up on "affects"
+9/97  security fixed in stat. For some reason it was the char's sec. that
+        was shown, not the person who was being statted..
+      align computation changed again. I hope it works right this time
+      Quest levels changed a bit. (now 7 above instead of 10)
+      new damage messages added - Eviscerate and disintegrate
+      transfer fixed (couldn't trans higher level mobs)
+      do_socials changed so we can use page_to_char
+      clanrecall changed to crecall
+      a rather large security leak in alias was fixed
+      players above MAX_LEVEL are no longer allowed
+      Wyvern, Half-Elf, Drow, and Gnome races added (help files to come)
+      Vampire race added
+      Bounty and bounty hunter added (pk rules changed a little bit)
+      set changed so we can set flags
+      do_clan changed so you can make BH clans that require Bounty Hunter
+        flags. A few other small things cleaned up in there, too
+      olevel and mlevel added after an excruciating bout with bad code
+      slight bug in who fixed (oops)
+10/97 +10 max bonus to stat changed to +5
+      quiet added to prompt (%A)
+      grip syntax changed. now takes an argument
+      the wandering wizard's knowledge of Thera has improved
+      Paladins had some "reworking" done. They were much too powerful
+      beacon improved. Help beacon for more info.
+      note board added
+      most of the autos (autoexit, etc) turned on at creation
+      copyover message changed
+      gecho color changed
+      minimum bounty raised to 20,000 gold
+      %d in prompt - shows current date
+      %T in prompt fixed
+      mobs have all comm flags enabled
+      log files are created by date instead of boot time
+      lore on non-existant objects fixed
+      gate no longer affected by nosummon
+      quest info shows item short desc instead of name
+      email command added
+11/97 helps added for donate and the races which previously had none
+      message/replay added
+      get "gold" corpse changed to get "coins" corpse (in autogold)
+      donated items lose all monetary value
+      chaos check added to do_copyover
+      more gold on saccing!
+      disown should remove chars from the clan member list
+      kill counters added - shown in whois and stat
+      ac after pk deaths fixed ( I think )
+      comment commmand added
+      it is impossible for bountyhunters to collect bounties on themselves
+      you cannot cast offensive spells on yourself anymore
+      the alignment/xp code has been uncommented
+      spell damages for mage spells have been reduced a bit
+      xp changed to xp till next level in do_report and do_group
+      can't push webbed people
+      whirlwhind added for warriors
+      xp for getting better at skills/spells improved
+      breath spells are 3x as powerful as they were
+      shield block activated
+      you can now wear eq up to 2 levels above you
+      last_command added. Shows imps the last command before a crash
+      core file no longer size 0 (gonna play with GDB now that we have
+        disk space)
+      OFF_CIRCLE activated
+      check added to whirlwind for % = 0 (dunno why I had to do it)
+      OFF_WHIRL added and provision for activation. Just have to change
+        pos in const.c
+      petition command added
+      automated auction added
+      security in order beefed up a little
+      some messed up parts flags fixed (tail was fins, etc)
+12/97 disable command added
+      a few of the buffer sizes changed (*crosses his fingers*)
+      you get 0 gold from saccing a player corpse now (no more suicides
+        to get money)
+      can't push mobs that are ACT_SENTINEL (anything that doesn't wander)
+      check_block modified a little bit. Works too well most of the time
+      BUFFER added (dynamic buffer). bprintf() or buffer_strcat() to add to
+        buffer. BUFFER *buffer = buffer_new(size) to create, buffer_free()
+        to delete, send_to_char( buffer->data, ch ) to print
+      underground rooms/sectors added
+      underground rooms can cave in. Watch out!
+      changes mvoed to an external file so we don't have to reboot
+        to update the changes :)
+      slow checks added to do_dirt and do_bash (also fixed a few other
+        minor bugs in that code)
+      heros now show up as "visble mortals"
+      strcmp changed to str_prefix in do_quest, do_note, do_grip
+      Rom2.4 site banning stuff added
+      shield block now using Rom2.4 code instead of parry code
+      jukeboxes/play command added
+      dice games added
+      grab added
+      owhere added
+1/98  jail command added
+      You can buy objects up to 2 levels above you (same as wear limit)
+      taxes reinstated
+      autodamage added for testing
+      do_whoname and do_who changed slightly so we see short descs of
+        switched mobs instead of the name
+      get_cost changed slightly so shopkeepers can buy what they sell
+      check for being switched before entering editors
+      saves the current area when you exit the editor
+      DARK_VISION activated
+      containers can no longer be "nested" (You can't put one in another)
+      ITEM_GEM and ITEM_JEWELRY added
+      auctioning of nodrop items is no longer allowed
+      nobounty added, but not activated
+      brewing and scribing changes the long descs of the item
+      affect2 added (added to OLC, MOBProgs, too)
+      flower shop added
+      gocials (global socials) added
+      skill levels added to gain list, sgroups, and creation
+      WIZ_AFK added
+      Rindar's boot_db fix added (can set resets from other areas, but I
+        don't encourage it )
+      parse_gen_groups changed a little. Will now warn you if you try to
+        gain a group you already have skills from
+      .d added in the string editor
+      slay extensions added
+      random colors for logout quotes
+      play stop added
+      engraver added
+      who listing for immortals changed
+      look of clan channel changed
+      v3 added to portals in OLC (destination)
+      lore changed quite a bit. Get more info with levels
+      ITEM_RARE added. Checks added to prevent repoping of items with this
+        flag if there's already one in the game
+      quest prizes have a larger element of randomness to them. finally.
+        *hop*  add_random_apply added
+      can write notes to clans (use name, not visible)
+      spouses added to whois
+      money changes in the code (and some in areas)
+      a remove obj bug was fixed - if you had a noremove weapon and you
+        tried to remove it, the secondary wield would disappear, letting
+        you wear another weapon. Could get very high hitrolls this way
+      money has weight
+      remort added
+      obj_check changed to take into account the 100 levels
+2/98  mobs wander home after a short period of time
+      bonus expeanded - gold, qp, trains, pracs
+      areport added
+      do_states added
+      do_protect, do_violate, do_gmote, do_smote, do_zecho, do_pmote added
+      is_room_owner added
+      do_prefix added
+      flags written to pfiles instead of numbers for comm flags, etc
+      clan written to pfile as name instead of number (makes for more dynamic
+        clan stuff.. can move/delete better)
+      get_clan added. Takes name as parameter, returns clan number
+      is_clan_leader changed to take CHAR_DATA instead of char *
+      save_clans, load_clans, do_show, etc changed.. clan member list is
+        no longer maintained or saved
+      clan leader now set with "set" or "clan". Can have multiple clan
+        leaders.
+      oload changed so that the level argument is used. Can no longer
+        load objects higher in level than you are
+      spell_update() added. Beware.
+8/98  obj->condition removed, as well as do_repair(), oedit_condition()
+      damage_old() removed. All calls now go to damage()
+      new_format removed - can no longer load "stock" areas (and
+        converters)
+      mlevel/olevel can take a second argument (the upper level limit)
+        so they can do level ranges
+9/98  showwounds added (adds the ROM style enemy wound messages back)
+      do_bug, do_typo, do_idea, do_rent removed
+      %E, %g, %a added to doparseprompt (exits, gold, align)
+      db.c and db2.c combined into a single file
+      trivia_update() added
+      Debug mode added (need to retro debug code everywhere. there's
+        almost none.. like everything's working perfectly all the time.
+        Ha!)
+12/98 flame channel removed
+      do_dump removed
+      deity worship (pray) added
+      do_old_auction removed
+      do_question and do_answer (Q/A channel) removed
+      magic.c and magic2.c merged
+      ITEM_NOSACRIFICE added
+1/99  trivia_update changed to bonus_update (as with all the trivia
+        stuff)
+      message added if you type "replay" and don't have any messages
+2/99  bin directory added at same level as src, area, etc.
+	  script for removing level 1 pfiles created and placed in bin dir
+	  startup script moved to bin directory
+	  script for automated backups added to the bin directory
+	  dex check in can_see fixed. Was checking ch's dex when trying
+	  	to see if ch could see the person sneaking
+	  room affect code removed
+	  smite command removed
+	  after 10 ticks of idle time, players/imms are automatically set
+		AFK, if they aren't already
+      ANSI prompt added to login
