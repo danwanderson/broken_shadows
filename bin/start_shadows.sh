@@ -8,10 +8,13 @@ then
 	PORT="$1"
 fi
 
+SHADOWSDIR=$HOME/shadows/shadows
 # Change to area directory.
-cd $HOME/shadows/area
+cd $SHADOWSDIR/area
 
 # Set limits.
+ulimit -c unlimited
+
 if [ -e shutdown.txt ]
 then
 	rm -f shutdown.txt
@@ -19,14 +22,14 @@ fi
 
 while true
 do 
-    if [ -e $HOME/shadows/area/core ] 
+    if [ -e $SHADOWSDIR/area/core ] 
 	then
 		DAY=`date +%m%d%Y`
 		HOUR=`date +%H%M%S`
 		DATE="${DAY}_${HOUR}"
-        gdb -batch $HOME/shadows/src/shadows $HOME/shadows/area/core | mail -s "Broken Shadows Automatic Core Trace" dwa@nodezero.com 
-        mv $HOME/shadows/area/core $HOME/shadows/core/core.$DATE
-		rm -f $HOME/shadows/area/core
+        gdb -batch $SHADOWSDIR/src/shadows $SHADOWSDIR/area/core | mail -s "Broken Shadows Automatic Core Trace" dan.w.anderson@gmail.com
+        mv $SHADOWSDIR/area/core $SHADOWSDIR/core/core.$DATE
+		rm -f $SHADOWSDIR/area/core
     fi
 
     # Run shadows.

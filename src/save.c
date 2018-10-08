@@ -290,10 +290,11 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
         fprintf( fp, "Email (none)~\n" );
     else
         fprintf( fp, "Email %s~\n",  ch->pcdata->email );
-    if ( ch->pcdata->comment == NULL )
+    if ( ch->pcdata->comment == NULL ) {
         fprintf( fp, "Comnt (none)~\n" );
-    else
+    } else {
         fprintf( fp, "Comnt %s~\n", ch->pcdata->comment );
+    }
 
         /* write alias */
         for (pos = 0; pos < MAX_ALIAS; pos++)

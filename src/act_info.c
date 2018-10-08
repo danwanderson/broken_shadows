@@ -4221,16 +4221,18 @@ void do_email( CHAR_DATA *ch, char *argument )
    }
 
    if ( argument[0] == '\0' )
-     {
+   {
         send_to_char( "Email address deleted.\n\r", ch );
         free_string(ch->pcdata->email);
         ch->pcdata->email = str_dup ( "(none)" );
         buffer_free( buf );
         return;
-     }
+   }
 
    if ( strlen(argument) > 45 )
+   {
      argument[45] = '\0';
+   }
 
    smash_tilde( argument );
 
