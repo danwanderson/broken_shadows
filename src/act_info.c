@@ -2383,7 +2383,7 @@ void do_who( CHAR_DATA *ch, char *argument )
             /*
              * Look for classes to turn on.
              */
-            if ( argument == "imm" )
+            if ( !strcmp(argument, "imm") )
             {
                 fImmortalOnly = TRUE;
             }
@@ -2512,6 +2512,7 @@ void do_who( CHAR_DATA *ch, char *argument )
                 /* class, */
                IS_NPC( who_list[length] ) ?
                    class_table[who_list[length]->ch_class].who_name : ch_class,
+               /* clan */
                IS_NPC(who_list[length]) ? 
                (who_list[length]->pIndexData->clan == 0) ? "" : "`W[`w" :
                (who_list[length]->pcdata->clan ==0) ? "" : "`W[`w",
@@ -4289,7 +4290,7 @@ void do_email( CHAR_DATA *ch, char *argument )
    bprintf(buf,"Ok, your email address is now: %s\n\r",ch->pcdata->email);
    send_to_char( buf->data, ch );
 
-   free( errorstring );
+   /* free( errorstring ); */
    buffer_free( buf );
 
    return;
