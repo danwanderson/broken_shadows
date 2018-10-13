@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-1999 by Daniel Anderson
+////  Broken Shadows (c) 1995-2018 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -547,7 +547,7 @@ bool quest_level_diff(int clevel, int mlevel) {
 
     lower = clevel - 2;  
 
-    if ( ( mlevel >= clevel ) && ( mlevel < upper ) ) {
+    if ( ( mlevel >= lower ) && ( mlevel < upper ) ) {
     	return TRUE;
     } else {
         return FALSE;

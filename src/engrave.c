@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-1999 by Daniel Anderson
+////  Broken Shadows (c) 1995-2018 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -26,9 +26,8 @@
  ***************************************************************************/
 
 /***************************************************************************
- * If you choose to use this code, please retain my name in this file and  *
- * send me an email (dwa1844@rit.edu) saying you are using it. Suggestions *
- * for improvement are welcome.   -- Rahl (Daniel Anderson)                *
+ * If you choose to use this code, please retain my name in this file.     *
+ * Suggestions for improvement are welcome.   -- Rahl (Daniel Anderson)    *
  ***************************************************************************/
 
  /**************************************************************************
