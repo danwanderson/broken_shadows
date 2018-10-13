@@ -534,7 +534,7 @@ void new_descriptor( int control )
     struct sockaddr_in sock;
     struct hostent *from;
     int desc;
-    int size;
+    unsigned int size;
     bool color;
 
     buf[0] = '\0';
@@ -1099,7 +1099,7 @@ bool write_to_descriptor( int desc, char *txt, int length , bool color)
  * Deal with sockets that haven't logged in yet.
  */
 void nanny( DESCRIPTOR_DATA *d, char *argument ) {
-    CHAR_DATA *ch;
+    //CHAR_DATA *ch;
 
     /* Delete leading spaces unless char is writing a note */
     if ( d->connected != CON_NOTE_TEXT )
@@ -1108,7 +1108,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument ) {
             argument++;
     }
 
-    ch = d->character;
+    //ch = d->character;
 
     switch ( d->connected ) {
 
@@ -1153,7 +1153,6 @@ void nanny( DESCRIPTOR_DATA *d, char *argument ) {
 	    case CON_GET_STATS:
 			handle_con_get_stats( d, argument );
     	    break;
-
 
     	case CON_GET_NEW_CLASS:
 			handle_con_get_new_class( d, argument );
@@ -1245,12 +1244,14 @@ bool check_parse_name( char *name )
      * Length restrictions.
      */
 
-    if ( strlen(name) <  2 )
+    if ( strlen(name) <  2 ) {
         return FALSE;
+    }
 
 
-    if ( strlen(name) > 12 )
+    if ( strlen(name) > 12 ) {
         return FALSE;
+    }
 
 	/*
  	 * Make sure someone isn't creating a char with the same name
@@ -1495,7 +1496,7 @@ void show_string(struct descriptor_data *d, char *input)
         {
             *scan = '\0';
             write_to_buffer(d,buffer,strlen(buffer));
-            for (chk = d->showstr_point; isspace(*chk); chk++);
+            for (chk = d->showstr_point; isspace(*chk); chk++)
             {
                 if (!*chk)
                 {
