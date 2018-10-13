@@ -1925,15 +1925,12 @@ void do_zap( CHAR_DATA *ch, char *argument )
 
         if ( victim != NULL ) /*make sure its a char first */
         {
-          if ( !IS_NPC(victim) )
-          {
-        if ( (!chaos && ( !IS_SET(victim->act, PLR_KILLER) || !IS_SET(ch->act,
-        PLR_KILLER) ) )
-        &&
-        ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        !victim->pcdata->bounty > 0 ) ) 
-        && (skill_table[wand->value[3]].target != TAR_CHAR_DEFENSIVE
-        && skill_table[wand->value[3]].target != TAR_IGNORE) ) 
+          if ( !IS_NPC(victim) ) {
+            if ( (!chaos && ( !IS_SET(victim->act, PLR_KILLER) || !IS_SET(ch->act,
+                PLR_KILLER) ) ) && ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
+                victim->pcdata->bounty <= 0 ) ) 
+                && (skill_table[wand->value[3]].target != TAR_CHAR_DEFENSIVE
+                && skill_table[wand->value[3]].target != TAR_IGNORE) ) 
             {
              send_to_char( "You can only kill other player killers.\n\r", ch );
              return;

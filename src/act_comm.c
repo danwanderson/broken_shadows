@@ -1494,16 +1494,18 @@ void do_auction( CHAR_DATA *ch, char *argument ) {
 void talk_auction( char *argument ) {
     DESCRIPTOR_DATA *d;
     BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
-    CHAR_DATA *original;
+    // Commented out - not sure it does anything
+    //CHAR_DATA *original;
 
     bprintf( buf, "`mAUCTION: %s`w\n\r", argument );
 
     for ( d = descriptor_list; d != NULL; d = d->next ) {
-    original = d->original ? d->original : d->character; /* if switched */
-    if ( ( d->connected == CON_PLAYING ) && 
-        !IS_SET( d->character->comm, COMM_NOAUCTION ) &&
-        !IS_SET( d->character->comm, COMM_QUIET ) )
-        send_to_char( buf->data, d->character );
+        //original = d->original ? d->original : d->character; /* if switched */
+        if ( ( d->connected == CON_PLAYING ) && 
+           !IS_SET( d->character->comm, COMM_NOAUCTION ) &&
+           !IS_SET( d->character->comm, COMM_QUIET ) ) {
+            send_to_char( buf->data, d->character );
+        }
     }
     buffer_free( buf );
     return;
