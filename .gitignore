@@ -7,3 +7,4 @@ log/*
 core/*
 area/core
 bin/nohup.out
+src/tags

@@ -605,11 +605,7 @@ void new_descriptor( int control )
         log_string( log_buf );
         from = gethostbyaddr( (char *) &sock.sin_addr,
             sizeof(sock.sin_addr), AF_INET );
-        if (from && (!str_cmp(from->h_name,"ursula.uoregon.edu")
-                 ||  !str_cmp(from->h_name,"monet.ucdavis.edu")))
-            dnew->host = str_dup("white.nextwork.rose-hulman.edu");
-        else
-            dnew->host = str_dup( from ? from->h_name : buf );
+        dnew->host = str_dup( from ? from->h_name : buf );
     }
 
     /*

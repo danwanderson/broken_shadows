@@ -4217,8 +4217,8 @@ void do_email( CHAR_DATA *ch, char *argument )
 
    if ( IS_NPC(ch) )
    {
-     buffer_free( buf );
-     return;
+        buffer_free( buf );
+        return;
    }
 
    if ( argument[0] == '\0' )
@@ -4232,7 +4232,7 @@ void do_email( CHAR_DATA *ch, char *argument )
 
    if ( strlen(argument) > 45 )
    {
-     argument[45] = '\0';
+        argument[45] = '\0';
    }
 
    smash_tilde( argument );
@@ -4261,7 +4261,7 @@ void do_email( CHAR_DATA *ch, char *argument )
                 }
                 break;
             case '.':
-               if (last_char == '@' || last_char == '.' || !at) {
+               if (last_char == '@' || last_char == '.') {
                    send_to_char( errorstring, ch );
                    buffer_free( buf );
                    return;
