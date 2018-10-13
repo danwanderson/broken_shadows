@@ -1805,7 +1805,6 @@ void do_reboo( CHAR_DATA *ch, char *argument )
 }
 
 
-/*
 void do_reboot( CHAR_DATA *ch, char *argument )
 {
     BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
@@ -1846,7 +1845,6 @@ void do_reboot( CHAR_DATA *ch, char *argument )
     return;
 }
 
-*/
 
 void do_shutdow( CHAR_DATA *ch, char *argument )
 {

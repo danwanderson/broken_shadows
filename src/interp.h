@@ -166,6 +166,7 @@ void do_quiet( CHAR_DATA *ch, char *argument );
 void do_quit( CHAR_DATA *ch, char *argument );
 void do_read( CHAR_DATA *ch, char *argument );
 void do_reboo( CHAR_DATA *ch, char *argument );
+void do_reboot( CHAR_DATA *ch, char *argument );
 void do_recall( CHAR_DATA *ch, char *argument );
 void do_recho( CHAR_DATA *ch, char *argument );
 void do_recite( CHAR_DATA *ch, char *argument );

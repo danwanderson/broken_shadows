@@ -319,6 +319,7 @@ const   struct  cmd_type        cmd_table       [] =
      { "freeze",        do_freeze,      POS_DEAD,       R9,  LOG_ALWAYS, 1 },
      { "reboo",         do_reboo,       POS_DEAD,       R1,  LOG_NORMAL, 0 },
      { "reboot",        do_copyover,    POS_DEAD,       R1,  LOG_ALWAYS, 1 },
+     { "hardreboot",    do_reboot,      POS_DEAD,       R1,  LOG_ALWAYS, 1 },
      { "repop",         do_repop,       POS_DEAD,       R7,  LOG_ALWAYS, 1 },
      { "sinfo",         do_sendinfo,    POS_DEAD,       R1,  LOG_ALWAYS, 1 },
      { "set",           do_set,         POS_DEAD,       R2,  LOG_ALWAYS, 1 },
