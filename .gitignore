@@ -6,3 +6,4 @@ player/*
 log/*
 core/*
 area/core
+bin/nohup.out
