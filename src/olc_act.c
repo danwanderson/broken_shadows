@@ -885,9 +885,9 @@ AEDIT( aedit_builder )
 
     name[0] = UPPER( name[0] );
 
-    if ( strstr( pArea->builders, name ) != '\0' )
+    if ( strstr( pArea->builders, name ) != NULL )
     {
-        pArea->builders = string_replace( pArea->builders, name, "\0" );
+        pArea->builders = string_replace( pArea->builders, name, '\0' );
         pArea->builders = string_unpad( pArea->builders );
 
         if ( pArea->builders[0] == '\0' )
@@ -901,9 +901,9 @@ AEDIT( aedit_builder )
     }
     else
     {
-        if ( strstr( pArea->builders, "None" ) != '\0' )
+        if ( strstr( pArea->builders, "None" ) != NULL )
         {
-            pArea->builders = string_replace( pArea->builders, "None", "\0" );
+            pArea->builders = string_replace( pArea->builders, "None", '\0' );
             pArea->builders = string_unpad( pArea->builders );
         }
 
@@ -1374,7 +1374,7 @@ bool change_exit( CHAR_DATA *ch, char *argument, int door )
         
     if ( !str_cmp( command, "dig" ) )
     {
-        char buf[MAX_INPUT_LENGTH];
+        char buf[MAX_INPUT_LENGTH*2];
         
         if ( arg[0] == '\0' || !is_number( arg ) )
         {
