@@ -52,11 +52,11 @@ void    affect_modify   ( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd );
 char *get_curdate()
 {
     time_t tm;
-    struct tm now;
+    struct tm *now;
 
     thedate[11]='\0';
     time(&tm);
-    now = *localtime(&tm);
+    now = localtime(&tm);
     //sprintf(thedate,"%02d/%02d/%04d",now.tm_mon+1,now.tm_mday,now.tm_year+1900);
     strftime(thedate, sizeof(thedate), "%02d/%02d/%04d", now);
     return thedate;
