@@ -1142,7 +1142,8 @@ void affect_join( CHAR_DATA *ch, AFFECT_DATA *paf )
     {
         if ( paf_old->type == paf->type )
         {
-            paf->level = (paf->level += paf_old->level) / 2;
+            int lvl = (paf->level += paf_old->level) / 2;
+            paf->level = lvl;
             paf->duration += paf_old->duration;
             paf->modifier += paf_old->modifier;
             affect_remove( ch, paf_old );
