@@ -562,7 +562,7 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
 {
     static PC_DATA pcdata_zero;
     char strsave[MAX_INPUT_LENGTH];
-    char buf[MAX_INPUT_LENGTH];
+    char buf[MAX_INPUT_LENGTH*2];
     CHAR_DATA *ch;
     FILE *fp;
     bool found;
