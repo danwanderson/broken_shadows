@@ -1630,12 +1630,16 @@ void do_worth( CHAR_DATA *ch, char *argument )
 
 char *statdiff(int normal, int modified)
 {
-    static char tempstr[10];
+    static char tempstr[32];
     
     strcpy(tempstr, "\0");
-    if (normal < modified) sprintf(tempstr, "+%d", modified-normal);
-    else if (normal > modified) sprintf(tempstr, "-%d", normal-modified);
-    else if (normal == modified) sprintf(tempstr, "  ");
+    if (normal < modified) {
+        sprintf(tempstr, "+%d", modified-normal);
+    } else if (normal > modified) {
+        sprintf(tempstr, "-%d", normal-modified);
+    } else if (normal == modified) {
+        sprintf(tempstr, "  ");
+    }
     return (tempstr);
 }
 
