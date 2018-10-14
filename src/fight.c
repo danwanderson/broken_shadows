@@ -273,62 +273,68 @@ void mob_hit (CHAR_DATA *ch, CHAR_DATA *victim, int dt)
 
     one_hit(ch,victim,dt);
 
-    if (ch->fighting != victim)
+    if (ch->fighting != victim) {
         return;
+    }
 
     /* Area attack -- BALLS nasty! */
  
-    if (IS_SET(ch->off_flags,OFF_AREA_ATTACK))
-    {
-        for (vch = ch->in_room->people; vch != NULL; vch = vch_next)
-        {
+    if (IS_SET(ch->off_flags,OFF_AREA_ATTACK)) {
+        for (vch = ch->in_room->people; vch != NULL; vch = vch_next) {
             vch_next = vch->next;
-            if ((vch != victim && vch->fighting == ch))
+            if ((vch != victim && vch->fighting == ch)) {
                 one_hit(ch,vch,dt);
+            }
         }
     }
 
     if (IS_AFFECTED(ch,AFF_HASTE) || ( IS_SET(ch->off_flags,OFF_FAST)
-        && !IS_AFFECTED( ch, AFF_SLOW ) ) )
+        && !IS_AFFECTED( ch, AFF_SLOW ) ) ) {
         one_hit(ch,victim,dt);
+    }
 
-    if (ch->fighting != victim || dt == gsn_backstab)
+    if (ch->fighting != victim || dt == gsn_backstab) {
         return;
+    }
 
     /* new stuff by Rahl for circle */
-    if ( ch->fighting != victim || dt == gsn_circle )
+    if ( ch->fighting != victim || dt == gsn_circle ) {
         return;
+    }
 
     chance = get_skill(ch,gsn_second_attack);
 
     /* new stuff by Rahl for slow */
-    if ( IS_AFFECTED( ch, AFF_SLOW ) )
+    if ( IS_AFFECTED( ch, AFF_SLOW ) ) {
         chance /= 2;
+    }
 
-    if (number_percent() < chance)
-    {
+    if (number_percent() < chance) {
         one_hit(ch,victim,dt);
-        if (ch->fighting != victim)
+        if (ch->fighting != victim) {
             return;
+        }
     }
 
     chance = get_skill(ch,gsn_third_attack)/2;
 
     /* new stuff by Rahl for slow */
-    if ( IS_AFFECTED( ch, AFF_SLOW ) )
+    if ( IS_AFFECTED( ch, AFF_SLOW ) ) {
         chance = 0;
+    }
 
-    if (number_percent() < chance)
-    {
+    if (number_percent() < chance) {
         one_hit(ch,victim,dt);
-        if (ch->fighting != victim)
+        if (ch->fighting != victim) {
             return;
+        }
     } 
 
     /* oh boy!  Fun stuff! */
 
-    if (ch->wait > 0)
+    if (ch->wait > 0) {
         return;
+    }
 
     number = number_range(0,2);
 
@@ -342,70 +348,77 @@ void mob_hit (CHAR_DATA *ch, CHAR_DATA *victim, int dt)
 
     number = number_range(0,9);
 
-    switch(number) 
-    {
-    case (0) :
-        if (IS_SET(ch->off_flags,OFF_BASH))
-            do_bash(ch,"");
-        break;
+    switch(number) {
+        case (0) :
+            if (IS_SET(ch->off_flags,OFF_BASH)) {
+                do_bash(ch,"");
+            }
+            break;
 
-    case (1) :
-        if (IS_SET(ch->off_flags,OFF_BERSERK) && !IS_AFFECTED(ch,AFF_BERSERK))
-            do_berserk(ch,"");
-        break;
+        case (1) :
+            if (IS_SET(ch->off_flags,OFF_BERSERK) && !IS_AFFECTED(ch,AFF_BERSERK)) {
+                do_berserk(ch,"");
+            }
+            break;
 
+        case (2) :
+            if (IS_SET(ch->off_flags,OFF_DISARM) 
+            || (get_weapon_sn(ch) != gsn_hand_to_hand 
+            && (IS_SET(ch->act,ACT_WARRIOR)
+            ||  IS_SET(ch->act,ACT_THIEF)))) {
+                do_disarm(ch,"");
+            }
+            break;
 
-    case (2) :
-        if (IS_SET(ch->off_flags,OFF_DISARM) 
-        || (get_weapon_sn(ch) != gsn_hand_to_hand 
-        && (IS_SET(ch->act,ACT_WARRIOR)
-        ||  IS_SET(ch->act,ACT_THIEF))))
-            do_disarm(ch,"");
-        break;
+        case (3) :
+            if (IS_SET(ch->off_flags,OFF_KICK)) {
+                do_kick(ch,"");
+            }
+            break;
 
-    case (3) :
-        if (IS_SET(ch->off_flags,OFF_KICK))
-            do_kick(ch,"");
-        break;
+        case (4) :
+            if (IS_SET(ch->off_flags,OFF_KICK_DIRT)) {
+                do_dirt(ch,"");
+            }
+            break;
 
-    case (4) :
-        if (IS_SET(ch->off_flags,OFF_KICK_DIRT))
-            do_dirt(ch,"");
-        break;
+        /*case (5) :
+            if (IS_SET(ch->off_flags,OFF_TAIL))
+                do_tail(ch,"");
+            break; */
 
-    /*case (5) :
-        if (IS_SET(ch->off_flags,OFF_TAIL))
-            do_tail(ch,"");
-        break; */
+        case (6) :
+            if (IS_SET(ch->off_flags,OFF_TRIP)) {
+                do_trip(ch,"");
+            }
+            break;
 
-    case (6) :
-        if (IS_SET(ch->off_flags,OFF_TRIP))
-            do_trip(ch,"");
-        break;
+        /*
+        case (7) :
+            if (IS_SET(ch->off_flags,OFF_CRUSH))
+                do_crush(ch,"");
+            break;
+        */
 
-    /*case (7) :
-        if (IS_SET(ch->off_flags,OFF_CRUSH))
-            do_crush(ch,"");
-        break;*/
-
-    /*
-     * both below cases by Rahl, but because of 1) postion and 2) pk
-     * rules, neither works, but they're here if I feel like playing
-     * with them later. I should remove the pk check on circle
-     * cuz you need to be fighting to do it anyways, so that 
-     * check should have already been made.
-     */
-/*    case (8) :
-        if ( IS_SET( ch->off_flags, OFF_WHIRL ) )
-            do_whirlwind( ch, "" );
-        break; */
-/*      case (9) :
-        if ( IS_SET( ch->off_flags, OFF_CIRCLE ) )
-            do_circle( ch, "" );
-        break; 
-*/
-    default:
-        break;
+        /*
+         * both below cases by Rahl, but because of 1) postion and 2) pk
+         * rules, neither works, but they're here if I feel like playing
+         * with them later. I should remove the pk check on circle
+         * cuz you need to be fighting to do it anyways, so that 
+         * check should have already been made.
+         */
+        /*
+        case (8) :
+            if ( IS_SET( ch->off_flags, OFF_WHIRL ) )
+                do_whirlwind( ch, "" );
+            break;
+        case (9) :
+            if ( IS_SET( ch->off_flags, OFF_CIRCLE ) )
+                do_circle( ch, "" );
+            break; 
+        */
+        default:
+            break;
     }
 }
         
