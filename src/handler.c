@@ -51,15 +51,15 @@ void    affect_modify   ( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd );
 /* get_date() - Return current date in mm/dd/yyyy format */
 char *get_curdate()
 {
-   time_t tm;
-   struct tm now;
+    time_t tm;
+    struct tm now;
 
-   thedate[11]='\0';
-   time(&tm);
-   now = *localtime(&tm);
-   sprintf(thedate,"%02d/%02d/%04d",now.tm_mon+1,now.tm_mday+0,now.tm_year+1900);
-
-   return thedate;
+    thedate[11]='\0';
+    time(&tm);
+    now = *localtime(&tm);
+    //sprintf(thedate,"%02d/%02d/%04d",now.tm_mon+1,now.tm_mday,now.tm_year+1900);
+    strftime(thedate, sizeof(thedate), "%02d/%02d/%04d", now)
+    return thedate;
 }
 
 /* get_curtime() - Return current time in hh:mm format */
