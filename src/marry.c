@@ -236,45 +236,37 @@ void do_spousetalk( CHAR_DATA *ch, char *argument )
     DESCRIPTOR_DATA *d;
     int found = FALSE;
  
-    if ( ch->pcdata->spouse == NULL )
-    {
+    if ( ch->pcdata->spouse == NULL ) {
         send_to_char( "You aren't married.\n\r", ch );
         buffer_free( buf );
         return;
     }
 
-    if (argument[0] == '\0' )
-    {
-     send_to_char("What do you wish to tell your other half?\n\r", ch);
-     buffer_free( buf );
-     return;
-    }
-    else  /* message sent */
-    {
-       
-      bprintf( buf, "`MYou say to %s, '%s`M'\n\r`w", ch->pcdata->spouse, 
-        argument );
-      send_to_char( buf->data, ch );
-      for ( d = descriptor_list; d != NULL; d = d->next )
-      {
-        //CHAR_DATA *victim;
-  
-        //victim = d->original ? d->original : d->character;
- 
-        if ( d->connected == CON_PLAYING &&
-            /*  d->character != ch && */
-             !str_cmp( d->character->name, ch->pcdata->spouse) )
-        {
-          act_new( "`M$n says to you, '$t`M'`w", 
-                   ch, argument, d->character, TO_VICT, POS_SLEEPING );
-           found = TRUE;
-        }
-      }
-      if ( !found )
-      {
-        bprintf( buf, "%s isn't here.\n\r", ch->pcdata->spouse );
+    if (argument[0] == '\0' ) {
+        send_to_char("What do you wish to tell your other half?\n\r", ch);
+        buffer_free( buf );
+        return;
+    } else { /* message sent */
+        bprintf( buf, "`MYou say to %s, '%s`M'\n\r`w", ch->pcdata->spouse, argument );
         send_to_char( buf->data, ch );
-      }
+        for ( d = descriptor_list; d != NULL; d = d->next ) {
+            CHAR_DATA *victim;
+  
+            victim = d->original ? d->original : d->character;
+ 
+            if ( d->connected == CON_PLAYING &&
+                /*  d->character != ch && */
+                 !str_cmp( d->character->name, ch->pcdata->spouse) ) {
+                act_new( "`M$n says to you, '$t`M'`w", 
+                       ch, argument, d->character, TO_VICT, POS_SLEEPING );
+               found = TRUE;
+            }
+        }
+
+        if ( !found ) {
+            bprintf( buf, "%s isn't here.\n\r", ch->pcdata->spouse );
+            send_to_char( buf->data, ch );
+        }
     }
     buffer_free( buf );
     return;
