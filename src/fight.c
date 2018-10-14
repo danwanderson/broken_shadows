@@ -72,25 +72,26 @@ void    pk_kill 		( CHAR_DATA *victim );
  */
 void violence_update( void ) {
     CHAR_DATA *ch;
-    CHAR_DATA *ch_next;
     CHAR_DATA *victim;
 
     for ( ch = char_list; ch != NULL; ch = ch->next ) {
+        CHAR_DATA *ch_next;
         ch_next = ch->next;
 
         if ( ( victim = ch->fighting ) == NULL || ch->in_room == NULL ) {
             continue;
 		}
 
-        if ( IS_AWAKE(ch) && ch->in_room == victim->in_room )
+        if ( IS_AWAKE(ch) && ch->in_room == victim->in_room ) {
             multi_hit( ch, victim, TYPE_UNDEFINED );
-        else {
+        } else {
             if (!IS_NPC(victim)) victim->pcdata->nemesis=victim->fighting;      
             stop_fighting( ch, FALSE );
         }
 
-        if ( ( victim = ch->fighting ) == NULL )
+        if ( ( victim = ch->fighting ) == NULL ) {
             continue;
+        }
 
         /*
          * Fun for the whole family!

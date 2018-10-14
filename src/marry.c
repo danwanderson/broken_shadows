@@ -268,9 +268,9 @@ void do_spousetalk( CHAR_DATA *ch, char *argument )
       send_to_char( buf->data, ch );
       for ( d = descriptor_list; d != NULL; d = d->next )
       {
-        CHAR_DATA *victim;
- 
-        victim = d->original ? d->original : d->character;
+        //CHAR_DATA *victim;
+  
+        //victim = d->original ? d->original : d->character;
  
         if ( d->connected == CON_PLAYING &&
             /*  d->character != ch && */
