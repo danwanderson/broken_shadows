@@ -931,14 +931,13 @@ void affect_to_char( CHAR_DATA *ch, AFFECT_DATA *paf )
 }
 
 /* give an affect to an object */
-void affect_to_obj(OBJ_DATA *obj, AFFECT_DATA *paf)
-{
+void affect_to_obj(OBJ_DATA *obj, AFFECT_DATA *paf) {
     AFFECT_DATA *paf_new;
 
-    if (affect_free == NULL)
+    if (affect_free == NULL) {
         paf_new = alloc_perm(sizeof(*paf_new));
-    else
-    {
+    }
+    else {
         paf_new         = affect_free;
         affect_free     = affect_free->next;
     }
@@ -949,10 +948,8 @@ void affect_to_obj(OBJ_DATA *obj, AFFECT_DATA *paf)
 
     /* junk added by Rahl */
     /* apply any affect vectors to the object's extra flags */
-    if ( paf->bitvector )
-    {
-        switch ( paf->where )
-        {
+    if ( paf->bitvector ) {
+        switch ( paf->where ) {
             case TO_OBJECT:
                 SET_BIT( obj->extra_flags, paf->bitvector );
                 break;
@@ -966,7 +963,6 @@ void affect_to_obj(OBJ_DATA *obj, AFFECT_DATA *paf)
 
     return;
 }
-
 
 
 /*
