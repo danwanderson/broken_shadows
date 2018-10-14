@@ -1543,105 +1543,101 @@ void act_new( const char *format, CHAR_DATA *ch, const void *arg1,
     /*
      * Discard null and zero-length messages.
      */
-    if ( format == NULL || format[0] == '\0' )
+    if ( format == NULL || format[0] == '\0' ) {
         return;
+    }
 
     /* discard null rooms and chars */
-    if (ch == NULL || ch->in_room == NULL)
+    if (ch == NULL || ch->in_room == NULL) {
         return;
+    }
 
     to = ch->in_room->people;
-    if ( type == TO_VICT )
-    {
-        if ( vch == NULL )
-        {
+    if ( type == TO_VICT ) {
+        if ( vch == NULL ) {
             bug( "Act: null vch with TO_VICT.", 0 );
             return;
         }
 
-        if (vch->in_room == NULL)
+        if (vch->in_room == NULL) {
             return;
+        }
 
         to = vch->in_room->people;
     }
 
-    for ( ; to != NULL; to = to->next_in_room )
-    {
-        if ( to->desc == NULL || to->position < min_pos )
+    for ( ; to != NULL; to = to->next_in_room ) {
+        if ( to->desc == NULL || to->position < min_pos ) {
             continue;
-
-        if ( type == TO_CHAR && to != ch )
+        }
+        if ( type == TO_CHAR && to != ch ) {
             continue;
-        if ( type == TO_VICT && ( to != vch || to == ch ) )
+        }
+        if ( type == TO_VICT && ( to != vch || to == ch ) ) {
             continue;
-        if ( type == TO_ROOM && to == ch )
+        }
+        if ( type == TO_ROOM && to == ch ) {
             continue;
-        if ( type == TO_NOTVICT && (to == ch || to == vch) )
+        }
+        if ( type == TO_NOTVICT && (to == ch || to == vch) ) {
             continue;
+        }
 
         point   = buf;
         str     = format;
-        while ( *str != '\0' )
-        {
-            if ( *str != '$' )
-            {
+        while ( *str != '\0' ) {
+            if ( *str != '$' ) {
                 *point++ = *str++;
                 continue;
             }
             ++str;
 
-            if ( arg2 == NULL && *str >= 'A' && *str <= 'Z' )
-            {
+            if ( arg2 == NULL && *str >= 'A' && *str <= 'Z' ) {
                 bug( "Act: missing arg2 for code %d.", *str );
                 i = " <@@@> ";
-            }
-            else
-            {
-                switch ( *str )
-                {
-                default:  bug( "Act: bad code %d.", *str );
-                          i = " <@@@> ";                                break;
-                /* Thx alex for 't' idea */
-                case 't': i = (char *) arg1;                            break;
-                case 'T': i = (char *) arg2;                            break;
-                case 'n': i = PERS( ch,  to  );                         break;
-                case 'N': i = PERS( vch, to  );                         break;
-                case 'e': i = he_she  [URANGE(0, ch  ->sex, 2)];        break;
-                case 'E': i = he_she  [URANGE(0, vch ->sex, 2)];        break;
-                case 'm': i = him_her [URANGE(0, ch  ->sex, 2)];        break;
-                case 'M': i = him_her [URANGE(0, vch ->sex, 2)];        break;
-                case 's': i = his_her [URANGE(0, ch  ->sex, 2)];        break;
-                case 'S': i = his_her [URANGE(0, vch ->sex, 2)];        break;
+            } else {
+                switch ( *str ) {
+                    default:  bug( "Act: bad code %d.", *str );
+                              i = " <@@@> ";                                break;
+                    /* Thx alex for 't' idea */
+                    case 't': i = (char *) arg1;                            break;
+                    case 'T': i = (char *) arg2;                            break;
+                    case 'n': i = PERS( ch,  to  );                         break;
+                    case 'N': i = PERS( vch, to  );                         break;
+                    case 'e': i = he_she  [URANGE(0, ch  ->sex, 2)];        break;
+                    case 'E': i = he_she  [URANGE(0, vch ->sex, 2)];        break;
+                    case 'm': i = him_her [URANGE(0, ch  ->sex, 2)];        break;
+                    case 'M': i = him_her [URANGE(0, vch ->sex, 2)];        break;
+                    case 's': i = his_her [URANGE(0, ch  ->sex, 2)];        break;
+                    case 'S': i = his_her [URANGE(0, vch ->sex, 2)];        break;
 
-                case 'p':
-                    i = can_see_obj( to, obj1 )
-                            ? obj1->short_descr
-                            : "something";
-                    break;
+                    case 'p':
+                        i = can_see_obj( to, obj1 )
+                                ? obj1->short_descr
+                                : "something";
+                        break;
 
-                case 'P':
-                    i = can_see_obj( to, obj2 )
-                            ? obj2->short_descr
-                            : "something";
-                    break;
+                    case 'P':
+                        i = can_see_obj( to, obj2 )
+                                ? obj2->short_descr
+                                : "something";
+                        break;
 
-                case 'd':
-                    if ( arg2 == NULL || ((char *) arg2)[0] == '\0' )
-                    {
-                        i = "door";
-                    }
-                    else
-                    {
-                        one_argument( (char *) arg2, fname );
-                        i = fname;
-                    }
-                    break;
+                    case 'd':
+                        if ( arg2 == NULL || ((char *) arg2)[0] == '\0' ) {
+                            i = "door";
+                        } else {
+                            one_argument( (char *) arg2, fname );
+                            i = fname;
+                        }
+                        break;
                 }
             }
 
             ++str;
-            while ( ( *point = *i ) != '\0' )
+            while ( ( *point = *i ) != '\0' ) {
                 ++point, ++i;
+            }
         }
 
         *point++ = '`';
@@ -1650,10 +1646,10 @@ void act_new( const char *format, CHAR_DATA *ch, const void *arg1,
         *point++ = '\r';
         *point++ = '\0'; 
         buf[0]   = UPPER(buf[0]);
-            if (to->desc && (to->desc->connected == CON_PLAYING))
-               // write_to_buffer( to->desc, buf, point - buf );
-               write_to_buffer( to->desc, buf, 0 );
-
+        if (to->desc && (to->desc->connected == CON_PLAYING)) {
+           // write_to_buffer( to->desc, buf, point - buf );
+           write_to_buffer( to->desc, buf, 0 );
+        }
     }
     return;
 }
@@ -1666,10 +1662,8 @@ char *do_color(char *plaintext, bool color)
     bzero(color_text, sizeof(color_text));
     ct_point=color_text;
 
-    while ( *plaintext != '\0' )
-    {
-        if ( *plaintext != '`' )
-        {
+    while ( *plaintext != '\0' ) {
+        if ( *plaintext != '`' ) {
             *ct_point = *plaintext;
             ct_point++;
             plaintext++;
@@ -1677,9 +1671,8 @@ char *do_color(char *plaintext, bool color)
         }
         plaintext++;
 
-        if (!color)
-            switch(*plaintext)
-            {
+        if (!color) {
+            switch(*plaintext) {
                 case 'k':
                 case 'K':
                 case 'r':
@@ -1702,95 +1695,95 @@ char *do_color(char *plaintext, bool color)
                     strcat(color_text, "`");
                     ct_point++;
                     break;
-            }   /* switch */
-            else
-                switch(*plaintext)
-                {
-                    case 'k':
-                        strcat(color_text, "[0;30m");
-                        ct_point+=7;
-                        plaintext++;
-                        break;
-                    case 'K':
-                        strcat(color_text, "[1;30m");
-                        ct_point+=7;
-                        plaintext++;
-                        break;
-                    case 'r':
-                        strcat(color_text, "[0;31m");
-                        ct_point+=7;
-                        plaintext++;
-                        break;
-                    case 'R':
-                        strcat(color_text, "[1;31m");
-                        ct_point+=7;
-                        plaintext++;
-                        break;
-                    case 'g':
-                        strcat(color_text, "[0;32m");
-                        ct_point+=7;
-                        plaintext++;
-                        break;
-                    case 'G':
-                        strcat(color_text, "[1;32m");
-                        ct_point+=7;
-                        plaintext++;
-                        break;
-                    case 'y':
-                        strcat(color_text, "[0;33m");
-                        ct_point+=7;
-                        plaintext++;
-                        break;
-                    case 'Y':
-                        strcat(color_text, "[1;33m");
-                        ct_point+=7;
-                        plaintext++;
-                        break;
-                    case 'b':
-                        strcat(color_text, "[0;34m");
-                        ct_point+=7;
-                        plaintext++;
-                        break;
-                    case 'B':
-                        strcat(color_text, "[1;34m");
-                        ct_point+=7;
-                        plaintext++;
-                        break;
-                    case 'm':
-                        strcat(color_text, "[0;35m");
-                        ct_point+=7;
-                        plaintext++;
-                        break;
-                    case 'M':
-                        strcat(color_text, "[1;35m");
-                        ct_point+=7;
-                        plaintext++;
-                        break;
-                    case 'c':
-                        strcat(color_text, "[0;36m");
-                        ct_point+=7;
-                        plaintext++;
-                        break;
-                    case 'C':
-                        strcat(color_text, "[1;36m");
-                        ct_point+=7;
-                        plaintext++;
-                        break;
-                    case 'w':
-                        strcat(color_text, "[0;37m");
-                        ct_point+=7;
-                        plaintext++;
-                        break;
-                    case 'W':
-                        strcat(color_text, "[1;37m");
-                        ct_point+=7;
-                        plaintext++;
-                        break;
-                    default:
-                        strcat(color_text, "`");
-                        ct_point++;
-                        break;
-                } /* switch */
+            } /* switch */
+        } else {
+            switch(*plaintext) {
+                case 'k':
+                    strcat(color_text, "[0;30m");
+                    ct_point+=7;
+                    plaintext++;
+                    break;
+                case 'K':
+                    strcat(color_text, "[1;30m");
+                    ct_point+=7;
+                    plaintext++;
+                    break;
+                case 'r':
+                    strcat(color_text, "[0;31m");
+                    ct_point+=7;
+                    plaintext++;
+                    break;
+                case 'R':
+                    strcat(color_text, "[1;31m");
+                    ct_point+=7;
+                    plaintext++;
+                    break;
+                case 'g':
+                    strcat(color_text, "[0;32m");
+                    ct_point+=7;
+                    plaintext++;
+                    break;
+                case 'G':
+                    strcat(color_text, "[1;32m");
+                    ct_point+=7;
+                    plaintext++;
+                    break;
+                case 'y':
+                    strcat(color_text, "[0;33m");
+                    ct_point+=7;
+                    plaintext++;
+                    break;
+                case 'Y':
+                    strcat(color_text, "[1;33m");
+                    ct_point+=7;
+                    plaintext++;
+                    break;
+                case 'b':
+                    strcat(color_text, "[0;34m");
+                    ct_point+=7;
+                    plaintext++;
+                    break;
+                case 'B':
+                    strcat(color_text, "[1;34m");
+                    ct_point+=7;
+                    plaintext++;
+                    break;
+                case 'm':
+                    strcat(color_text, "[0;35m");
+                    ct_point+=7;
+                    plaintext++;
+                    break;
+                case 'M':
+                    strcat(color_text, "[1;35m");
+                    ct_point+=7;
+                    plaintext++;
+                    break;
+                case 'c':
+                    strcat(color_text, "[0;36m");
+                    ct_point+=7;
+                    plaintext++;
+                    break;
+                case 'C':
+                    strcat(color_text, "[1;36m");
+                    ct_point+=7;
+                    plaintext++;
+                    break;
+                case 'w':
+                    strcat(color_text, "[0;37m");
+                    ct_point+=7;
+                    plaintext++;
+                    break;
+                case 'W':
+                    strcat(color_text, "[1;37m");
+                    ct_point+=7;
+                    plaintext++;
+                    break;
+                default:
+                    strcat(color_text, "`");
+                    ct_point++;
+                    break;
+            } /* switch */
+        } /* else */
     }
     strcat(color_text, "[0m\0");
     return(color_text);
