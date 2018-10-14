@@ -369,29 +369,29 @@ int get_second_weapon_sn(CHAR_DATA *ch)
 
 int get_weapon_skill(CHAR_DATA *ch, int sn)
 {
-     int skill;
+    int skill;
 
-     /* -1 is exotic */
-    if (IS_NPC(ch))
-    {
-        if (sn == -1)
+    /* -1 is exotic */
+    if (IS_NPC(ch)) {
+        if (sn == -1) {
             skill = 3 * ch->level;
-        else if (sn == gsn_hand_to_hand)
+        } else if (sn == gsn_hand_to_hand) {
             skill = 40 + 2 * ch->level;
-        else 
+        } else {
             skill = 40 + 5 * ch->level / 2;
-    }
-    
-    else
-    {
-        if (sn == -1)
-            skill = 3 * ch->level;
-        else
-            skill = ch->pcdata->learned[sn];
+        }
     }
 
-    return URANGE(0,skill,100);
-} 
+    else {
+        if (sn == -1) {
+            skill = 3 * ch->level;
+        } else {
+            skill = ch->pcdata->learned[sn];
+        }
+    }
+
+    return URANGE(0, skill, 100);
+}
 
 /* used to de-screw characters */
 void reset_char(CHAR_DATA *ch)
@@ -608,15 +608,13 @@ int get_curr_stat( CHAR_DATA *ch, int stat )
 {
     int max;
 
-    if (IS_NPC(ch) || IS_IMMORTAL( ch ) )
+    if (IS_NPC(ch) || IS_IMMORTAL( ch ) ) {
         max = 25;
-
-    else
-    {
+    } else {
         /*
-         * max of +4 to max_stat. Not sure I like it. removed by Rahl. 
+         * max of +4 to max_stat. Not sure I like it. removed by Rahl.
          */
-/*      max = pc_race_table[ch->race].max_stats[stat] + 4; */
+        //max = pc_race_table[ch->race].max_stats[stat] + 4;
 
         /*
          * Ok. now you can get eq/spells/whatever to get your stats up to
@@ -624,16 +622,18 @@ int get_curr_stat( CHAR_DATA *ch, int stat )
          */
         max = pc_race_table[ch->race].max_stats[stat] + 5;
 
-        if (class_table[ch->ch_class].attr_prime == stat)
+        if (class_table[ch->ch_class].attr_prime == stat) {
             max += 2;
+        }
 
-        if ( ch->race == race_lookup("human"))
+        if ( ch->race == race_lookup("human")) {
             max += 1;
+        }
 
-        max = UMIN(max,25);
+        max = UMIN(max, 25);
     }
-  
-    return URANGE(3,ch->perm_stat[stat] + ch->mod_stat[stat], max);
+
+    return URANGE(3, ch->perm_stat[stat] + ch->mod_stat[stat], max);
 }
 
 /* command for returning max training score */
@@ -641,34 +641,37 @@ int get_max_train( CHAR_DATA *ch, int stat )
 {
     int max;
 
-    if (IS_NPC(ch) || IS_IMMORTAL( ch ) )
+    if (IS_NPC(ch) || IS_IMMORTAL( ch ) ) {
         return 25;
+    }
 
     max = pc_race_table[ch->race].max_stats[stat];
     if (class_table[ch->ch_class].attr_prime == stat) {
         if (ch->race == race_lookup("human")) {
-           max += 3;
+            max += 3;
         } else {
-           max += 2;
-		}
-	}
+            max += 2;
+        }
+    }
 
-    return UMIN(max,25);
+    return UMIN(max, 25);
 }
-   
+
         
 /*
  * Retrieve a character's carry capacity.
  */
 int can_carry_n( CHAR_DATA *ch )
 {
-    if ( !IS_NPC(ch) && IS_IMMORTAL( ch ) )
+    if ( !IS_NPC(ch) && IS_IMMORTAL( ch ) ) {
         return 1000;
+    }
 
-    if ( IS_NPC(ch) && IS_SET(ch->act, ACT_PET) )
+    if ( IS_NPC(ch) && IS_SET(ch->act, ACT_PET) ) {
         return 0;
+    }
 
-    return MAX_WEAR +  2 * get_curr_stat(ch,STAT_DEX) + ch->level;
+    return MAX_WEAR +  2 * get_curr_stat(ch, STAT_DEX) + ch->level;
 }
 
 
@@ -678,13 +681,15 @@ int can_carry_n( CHAR_DATA *ch )
  */
 int can_carry_w( CHAR_DATA *ch )
 {
-    if ( !IS_NPC(ch) && IS_IMMORTAL( ch ) )
+    if ( !IS_NPC(ch) && IS_IMMORTAL( ch ) ) {
         return 1000000;
+    }
 
-    if ( IS_NPC(ch) && IS_SET(ch->act, ACT_PET) )
+    if ( IS_NPC(ch) && IS_SET(ch->act, ACT_PET) ) {
         return 0;
+    }
 
-    return str_app[get_curr_stat(ch,STAT_STR)].carry + ch->level  * 5 / 2;
+    return str_app[get_curr_stat(ch, STAT_STR)].carry + ch->level  * 5 / 2;
 }
 
 
@@ -694,20 +699,21 @@ int can_carry_w( CHAR_DATA *ch )
  */
 
 /*
- * bool is_name( const char *str, char *namelist )
- * {
- *   char name[MAX_INPUT_LENGTH];
- * 
- *   for ( ; ; )
- *   {
- *       namelist = one_argument( namelist, name );
- *       if ( name[0] == '\0' )
- *           return FALSE;
- *       if ( !str_cmp( str, name ) )
- *           return TRUE;
- *   }
- * }
- * 
+bool is_name( const char *str, char *namelist )
+{
+    char name[MAX_INPUT_LENGTH];
+
+    for ( ; ; ) {
+        namelist = one_argument( namelist, name );
+        if ( name[0] == '\0' ) {
+            return FALSE;
+        }
+        if ( !str_cmp( str, name ) ) {
+            return TRUE;
+        }
+    }
+}
+  
  */
 
 bool is_exact_name ( char *str, char *namelist )
@@ -718,26 +724,28 @@ bool is_exact_name ( char *str, char *namelist )
 
     string = str;
     /* we need ALL parts of string to match part of namelist */
-    for ( ; ; )  /* start parsing string */
-    {
-        str = one_argument(str,part);
+    for ( ; ; ) { /* start parsing string */
+        str = one_argument(str, part);
 
-        if (part[0] == '\0' )
+        if (part[0] == '\0' ) {
             return TRUE;
+        }
 
         /* check to see if this is part of namelist */
         list = namelist;
-        for ( ; ; )  /* start parsing namelist */
-        {
-            list = one_argument(list,name);
-            if (name[0] == '\0')  /* this name was not found */
+        for ( ; ; ) { /* start parsing namelist */
+            list = one_argument(list, name);
+            if (name[0] == '\0') { /* this name was not found */
                 return FALSE;
+            }
 
-            if (!str_cmp(string,name))
-                return TRUE; /* full pattern match */
+            if (!str_cmp(string, name)) {
+                return TRUE;    /* full pattern match */
+            }
 
-            if (!str_cmp(part,name))
+            if (!str_cmp(part, name)) {
                 break;
+            }
         }
     }
 }
@@ -828,13 +836,10 @@ void affect_modify( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd )
     }
 
 /* removed by Rahl */
-
-/*    if ( fAdd )
-    {
+/*
+    if ( fAdd ) {
         SET_BIT( ch->affected_by, paf->bitvector );
-    }
-    else
-    {
+    } else {
         REMOVE_BIT( ch->affected_by, paf->bitvector );
         mod = 0 - mod;
     }
