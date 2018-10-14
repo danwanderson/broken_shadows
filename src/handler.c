@@ -750,26 +750,28 @@ bool is_name ( char *str, char *namelist )
 
     string = str;
     /* we need ALL parts of string to match part of namelist */
-    for ( ; ; )  /* start parsing string */
-    {
+    for ( ; ; ) { /* start parsing string */
         str = one_argument(str,part);
 
-        if (part[0] == '\0' )
+        if (part[0] == '\0' ) {
             return TRUE;
+        }
 
         /* check to see if this is part of namelist */
         list = namelist;
-        for ( ; ; )  /* start parsing namelist */
-        {
+        for ( ; ; ) { /* start parsing namelist */
             list = one_argument(list,name);
-            if (name[0] == '\0')  /* this name was not found */
+            if (name[0] == '\0') { /* this name was not found */
                 return FALSE;
+            }
 
-            if (!str_prefix(string,name))
+            if (!str_prefix(string,name)) {
                 return TRUE; /* full pattern match */
+            }
 
-            if (!str_prefix(part,name))
+            if (!str_prefix(part,name)) {
                 break;
+            }
         }
     }
 }
@@ -786,46 +788,41 @@ void affect_modify( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd )
 
     mod = paf->modifier;
 /* added by Rahl */
-    if ( fAdd )
-    {
-        switch (paf->where)
-        {
-        case TO_AFFECTS:
-            SET_BIT(ch->affected_by, paf->bitvector);
-            break;
-        case TO_AFFECTS2:
-            SET_BIT( ch->affected2_by, paf->bitvector );
-            break;
-        case TO_IMMUNE:
-            SET_BIT(ch->imm_flags,paf->bitvector);
-            break;
-        case TO_RESIST:
-            SET_BIT(ch->res_flags,paf->bitvector);
-            break;
-        case TO_VULN:
-            SET_BIT(ch->vuln_flags,paf->bitvector);
-            break;
+    if ( fAdd ) {
+        switch (paf->where) {
+            case TO_AFFECTS:
+                SET_BIT(ch->affected_by, paf->bitvector);
+                break;
+            case TO_AFFECTS2:
+                SET_BIT( ch->affected2_by, paf->bitvector );
+                break;
+            case TO_IMMUNE:
+                SET_BIT(ch->imm_flags, paf->bitvector);
+                break;
+            case TO_RESIST:
+                SET_BIT(ch->res_flags, paf->bitvector);
+                break;
+            case TO_VULN:
+                SET_BIT(ch->vuln_flags, paf->bitvector);
+                break;
         }
-    }
-    else
-    {
-        switch (paf->where)
-        {
-        case TO_AFFECTS:
-            REMOVE_BIT(ch->affected_by, paf->bitvector);
-            break;
-        case TO_AFFECTS2:
-            REMOVE_BIT( ch->affected2_by, paf->bitvector );
-            break;
-        case TO_IMMUNE:
-            REMOVE_BIT(ch->imm_flags,paf->bitvector);
-            break;
-        case TO_RESIST:
-            REMOVE_BIT(ch->res_flags,paf->bitvector);
-            break;
-        case TO_VULN:
-            REMOVE_BIT(ch->vuln_flags,paf->bitvector);
-            break;
+    } else {
+        switch (paf->where) {
+            case TO_AFFECTS:
+                REMOVE_BIT(ch->affected_by, paf->bitvector);
+                break;
+            case TO_AFFECTS2:
+                REMOVE_BIT( ch->affected2_by, paf->bitvector );
+                break;
+            case TO_IMMUNE:
+                REMOVE_BIT(ch->imm_flags, paf->bitvector);
+                break;
+            case TO_RESIST:
+                REMOVE_BIT(ch->res_flags, paf->bitvector);
+                break;
+            case TO_VULN:
+                REMOVE_BIT(ch->vuln_flags, paf->bitvector);
+                break;
         }
         mod = 0 - mod;
     }
@@ -843,41 +840,40 @@ void affect_modify( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd )
     }
 */
 
-    switch ( paf->location )
-    {
-    default:
-        bug( "Affect_modify: unknown location %d.", paf->location );
-        return;
+    switch ( paf->location ) {
+        default:
+            bug( "Affect_modify: unknown location %d.", paf->location );
+            return;
 
-    case APPLY_NONE:                                            break;
-    case APPLY_STR:           ch->mod_stat[STAT_STR]    += mod; break;
-    case APPLY_DEX:           ch->mod_stat[STAT_DEX]    += mod; break;
-    case APPLY_INT:           ch->mod_stat[STAT_INT]    += mod; break;
-    case APPLY_WIS:           ch->mod_stat[STAT_WIS]    += mod; break;
-    case APPLY_CON:           ch->mod_stat[STAT_CON]    += mod; break;
-    case APPLY_SEX:           ch->sex                   += mod; break;
-    case APPLY_CLASS:                                           break;
-    case APPLY_AGE:                                             break;
-    case APPLY_HEIGHT:                                          break;
-    case APPLY_WEIGHT:                                          break;
-    case APPLY_MANA:          ch->max_mana              += mod; break;
-    case APPLY_HIT:           ch->max_hit               += mod; break;
-    case APPLY_MOVE:          ch->max_move              += mod; break;
-    case APPLY_GOLD:                                            break;
-    case APPLY_EXP:                                             break;
-    case APPLY_AC:
-        for (i = 0; i < 4; i ++)
-            ch->armor[i] += mod;
-        break;
-    case APPLY_HITROLL:       ch->hitroll               += mod; break;
-    case APPLY_DAMROLL:       ch->damroll               += mod; break;
-    case APPLY_SAVING_PARA:   ch->saving_throw          += mod; break;
-    case APPLY_SAVING_ROD:    ch->saving_throw          += mod; break;
-    case APPLY_SAVING_PETRI:  ch->saving_throw          += mod; break;
-    case APPLY_SAVING_BREATH: ch->saving_throw          += mod; break;
-    case APPLY_SAVING_SPELL:  ch->saving_throw          += mod; break;
-    case APPLY_ALIGN:         ch->alignment             += mod; break;
-    case APPLY_SPELL_AFFECT:                                    break;
+        case APPLY_NONE:                                            break;
+        case APPLY_STR:           ch->mod_stat[STAT_STR]    += mod; break;
+        case APPLY_DEX:           ch->mod_stat[STAT_DEX]    += mod; break;
+        case APPLY_INT:           ch->mod_stat[STAT_INT]    += mod; break;
+        case APPLY_WIS:           ch->mod_stat[STAT_WIS]    += mod; break;
+        case APPLY_CON:           ch->mod_stat[STAT_CON]    += mod; break;
+        case APPLY_SEX:           ch->sex                   += mod; break;
+        case APPLY_CLASS:                                           break;
+        case APPLY_AGE:                                             break;
+        case APPLY_HEIGHT:                                          break;
+        case APPLY_WEIGHT:                                          break;
+        case APPLY_MANA:          ch->max_mana              += mod; break;
+        case APPLY_HIT:           ch->max_hit               += mod; break;
+        case APPLY_MOVE:          ch->max_move              += mod; break;
+        case APPLY_GOLD:                                            break;
+        case APPLY_EXP:                                             break;
+        case APPLY_AC:
+            for (i = 0; i < 4; i ++)
+                ch->armor[i] += mod;
+            break;
+        case APPLY_HITROLL:       ch->hitroll               += mod; break;
+        case APPLY_DAMROLL:       ch->damroll               += mod; break;
+        case APPLY_SAVING_PARA:   ch->saving_throw          += mod; break;
+        case APPLY_SAVING_ROD:    ch->saving_throw          += mod; break;
+        case APPLY_SAVING_PETRI:  ch->saving_throw          += mod; break;
+        case APPLY_SAVING_BREATH: ch->saving_throw          += mod; break;
+        case APPLY_SAVING_SPELL:  ch->saving_throw          += mod; break;
+        case APPLY_ALIGN:         ch->alignment             += mod; break;
+        case APPLY_SPELL_AFFECT:                                    break;
     }
 
     /*
@@ -885,12 +881,10 @@ void affect_modify( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd )
      * Guard against recursion (for weapons with affects).
      */
     if ( !IS_NPC(ch) && ( wield = get_eq_char( ch, WEAR_WIELD ) ) != NULL
-    &&   get_obj_weight(wield) > str_app[get_curr_stat(ch,STAT_STR)].wield )
-    {
+    &&   get_obj_weight(wield) > str_app[get_curr_stat(ch,STAT_STR)].wield ) {
         static int depth;
 
-        if ( depth == 0 )
-        {
+        if ( depth == 0 ) {
             depth++;
             act( "You drop $p.", ch, wield, NULL, TO_CHAR );
             act( "$n drops $p.", ch, wield, NULL, TO_ROOM );
@@ -912,12 +906,9 @@ void affect_to_char( CHAR_DATA *ch, AFFECT_DATA *paf )
 {
     AFFECT_DATA *paf_new;
 
-    if ( affect_free == NULL )
-    {
+    if ( affect_free == NULL ) {
         paf_new         = alloc_perm( sizeof(*paf_new) );
-    }
-    else
-    {
+    } else {
         paf_new         = affect_free;
         affect_free     = affect_free->next;
     }
@@ -936,8 +927,7 @@ void affect_to_obj(OBJ_DATA *obj, AFFECT_DATA *paf) {
 
     if (affect_free == NULL) {
         paf_new = alloc_perm(sizeof(*paf_new));
-    }
-    else {
+    } else {
         paf_new         = affect_free;
         affect_free     = affect_free->next;
     }
