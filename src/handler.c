@@ -79,25 +79,26 @@ char *get_curtime()
 
 char *get_date(time_t tm)
 {
-   struct tm then;
+    struct tm *then;
 
-   thedate[9]='\0';
-   then = *localtime(&tm);
+    thedate[11]='\0';
+    then = localtime(&tm);
 
-sprintf(thedate,"%02d/%02d/%02d",then.tm_mon+1,then.tm_mday,then.tm_year);
-
-   return thedate;
+    //sprintf(thedate,"%02d/%02d/%02d",then.tm_mon+1,then.tm_mday,then.tm_year);
+    strftime(thedate, sizeof(thedate), "%m/%d/%Y", then);
+    return thedate;
 }
 
 char *get_time(time_t tm)
 {
    struct tm stuff;
 
-   thetime[6]='\0';
-   stuff = *localtime(&tm);
-   sprintf(thetime,"%02d:%02d",stuff.tm_hour,stuff.tm_min);
+    thetime[6]='\0';
+    stuff = *localtime(&tm);
+    //sprintf(thetime,"%02d:%02d",stuff.tm_hour,stuff.tm_min);
+    strftime(thetime, sizeof(thetime), "%R", stuff);
 
-   return thetime;
+    return thetime;
 }
 
 /* returns material number */
