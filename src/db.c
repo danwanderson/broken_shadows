@@ -3146,7 +3146,7 @@ void log_string( const char *str )
     char *strtime;
     char logfile[22];
     char buf[12];
-    char temp[22];
+    char temp[30];
     int i, j;
     FILE *log_file;
     FILE *tempfile;
@@ -3157,21 +3157,22 @@ void log_string( const char *str )
     log_file = NULL;
 
     sprintf( buf, "%s", get_curdate() );
-    for ( i = 0; i < 10; i++ )
-    {
-        if ( buf[i] == '/' )
+    for ( i = 0; i < 10; i++ ) {
+        if ( buf[i] == '/' ) {
             buf[i] = '-';
+        }
     }
 
     sprintf( temp, "../log/%s.log", buf );
 
-    if ( strcmp( temp, logfile ) )
-    {
+    if ( strcmp( temp, logfile ) ) {
         tempfile = fopen( temp, "a" );
-        if ( log_file != NULL )
+        if ( log_file != NULL ) {
             fclose( log_file );
-        for ( j = 0; j < 22; j++ )
+        }
+        for ( j = 0; j < 22; j++ ) {
             logfile[j] = temp[j];
+        }
         log_file = fopen( logfile, "a" );
 		if ( tempfile ) {
         	fclose( tempfile );
