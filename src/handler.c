@@ -57,7 +57,7 @@ char *get_curdate()
    thedate[11]='\0';
    time(&tm);
    now = *localtime(&tm);
-   sprintf(thedate,"%02d/%02d/%04d",now.tm_mon+1,now.tm_mday,now.tm_year+1900);
+   sprintf(thedate,"%02d/%02d/%04d",now.tm_mon+1,int (now.tm_mday),now.tm_year+1900);
 
    return thedate;
 }
