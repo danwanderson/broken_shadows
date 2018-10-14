@@ -1489,10 +1489,9 @@ void show_string(struct descriptor_data *d, char *input)
             *scan = '\0';
             write_to_buffer(d,buffer,strlen(buffer));
             /* I don't think this does anything */
-            /* 
             for (chk = d->showstr_point; isspace(*chk); chk++) {
                 ;
-            } */
+            }
             if (!*chk) {
                 if (d->showstr_head) {
                     free_string(d->showstr_head);
