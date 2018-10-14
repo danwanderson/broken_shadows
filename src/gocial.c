@@ -75,49 +75,41 @@ void do_gocial(CHAR_DATA *ch, char *argument)
     buf[0] = '\0';
     buf2[0] = '\0';
 
-    if (command[0] == '\0')
-    {
+    if (command[0] == '\0') {
         send_to_char("What do you wish to gocial?\n\r",ch);
         return;
     }
 
     found = FALSE;
-    for (cmd = 0; social_table[cmd].name[0] != '\0'; cmd++)
-    {
+    for (cmd = 0; social_table[cmd].name[0] != '\0'; cmd++) {
         if (command[0] == social_table[cmd].name[0]
-        && !str_prefix( command,social_table[cmd].name ) )
-        {
+        && !str_prefix( command,social_table[cmd].name ) ) {
             found = TRUE;
             break;
         }
     }
 
-    if (!found)
-    {
+    if (!found) {
         send_to_char("What kind of social is that?!?!\n\r",ch);
         return;
     }
 
-    if (!IS_NPC(ch) && IS_SET(ch->comm,   COMM_QUIET))
-    {
+    if (!IS_NPC(ch) && IS_SET(ch->comm,   COMM_QUIET)) {
         send_to_char("You must turn off quiet mode first.\n\r",ch);
         return;
     }
 
-    if ( !IS_NPC(ch) && IS_SET(ch->comm, COMM_NOGOSSIP))
-    {
+    if ( !IS_NPC(ch) && IS_SET(ch->comm, COMM_NOGOSSIP)) {
         send_to_char("But you have the gossip channel turned off!\n\r",ch);
         return;
     }
 
-    if ( !IS_NPC(ch) && IS_SET(ch->comm, COMM_NOCHANNELS))
-    {
+    if ( !IS_NPC(ch) && IS_SET(ch->comm, COMM_NOCHANNELS)) {
         send_to_char("The gods have revoked your channel priviliges.\n\r",ch);
         return;
     }
 
-    switch (ch->position)
-    {
+    switch (ch->position) {
         case POS_DEAD:
             send_to_char("Lie still; you are DEAD!\n\r",ch);
             return;
@@ -132,52 +124,41 @@ void do_gocial(CHAR_DATA *ch, char *argument)
 
     one_argument(argument,arg);
     victim = NULL;
-    if (arg[0] == '\0')
-    {
+    if (arg[0] == '\0') {
         sprintf(buf, "`gGocial:`w %s`w", social_table[cmd].char_no_arg );
         act_new(buf,ch,NULL,NULL,TO_CHAR,POS_DEAD);
         buf[0] = '\0';
         sprintf(buf, "`gGocial:`w %s`w", social_table[cmd].others_no_arg );
-        for (d = descriptor_list; d != NULL; d = d->next)
-        {
+        for (d = descriptor_list; d != NULL; d = d->next) {
             CHAR_DATA *vch;
             vch = d->original ? d->original : d->character;
             if (d->connected == CON_PLAYING &&
                 d->character != ch &&
                 !IS_SET(vch->comm,COMM_NOGOSSIP) &&
-                !IS_SET(vch->comm,COMM_QUIET))
-            {
+                !IS_SET(vch->comm,COMM_QUIET)) {
                 act_new(buf,ch,NULL,vch,TO_VICT,POS_DEAD);
             }
         }
-    }
-    else if ((victim = get_char_world(ch,arg)) == NULL)
-    {
+    } else if ((victim = get_char_world(ch,arg)) == NULL) {
         send_to_char("They aren't here.\n\r",ch);
         return;
-    }
-    else if (victim == ch)
-    {
+    } else if (victim == ch) {
         buf[0] = '\0';
         sprintf(buf,"`gGocial:`w %s`w", social_table[cmd].char_auto);
         act_new(buf,ch,NULL,NULL,TO_CHAR,POS_DEAD);
         buf[0] = '\0';
         sprintf(buf,"`gGocial:`w %s`w", social_table[cmd].others_auto);
-        for (d = descriptor_list; d != NULL; d = d->next)
-        {
+        for (d = descriptor_list; d != NULL; d = d->next) {
             CHAR_DATA *vch;
             vch = d->original ? d->original : d->character;
             if (d->connected == CON_PLAYING &&
                 d->character != ch &&
                 !IS_SET(vch->comm,COMM_NOGOSSIP) &&
-                !IS_SET(vch->comm,COMM_QUIET))
-            {
+                !IS_SET(vch->comm,COMM_QUIET)) {
                 act_new(buf,ch,NULL,vch,TO_VICT,POS_DEAD);
             }
         }
-    }               
-    else
-    {
+    } else {
         buf[0] = '\0';
         sprintf(buf,"`gGocial:`w %s`w", social_table[cmd].char_found);
         act_new(buf,ch,NULL,victim,TO_CHAR,POS_DEAD);
@@ -185,36 +166,30 @@ void do_gocial(CHAR_DATA *ch, char *argument)
         sprintf(buf,"`gGocial:`w %s`w", social_table[cmd].vict_found);
 
         if ( !IS_SET( victim->comm, COMM_QUIET ) &&
-             !IS_SET( victim->comm, COMM_NOGOSSIP ) )
+             !IS_SET( victim->comm, COMM_NOGOSSIP ) ) {
             act_new(buf,ch,NULL,victim,TO_VICT,POS_DEAD);
+        }
 
         buf[0] = '\0';
         sprintf(buf,"`gGocial:`w %s`w", social_table[cmd].others_found);
-        for (counter = 0; buf[counter+1] != '\0'; counter++)
-        {
-            if (buf[counter] == '$' && buf[counter + 1] == 'N')
-            {
+        for (counter = 0; buf[counter+1] != '\0'; counter++) {
+            if (buf[counter] == '$' && buf[counter + 1] == 'N') {
                 strcpy(buf2,buf);
                 buf2[counter] = '\0';
                 strcat(buf2,victim->name);
-                for (count = 0; buf[count] != '\0'; count++)
-                {
+                for (count = 0; buf[count] != '\0'; count++) {
                     buf[count] = buf[count+counter+2];
                 }
                 strcat(buf2,buf);
                 strcpy(buf,buf2);
                 continue;
-            }
-            else if (buf[counter] == '$' && buf[counter + 1] == 'E')
-            {
-                switch (victim->sex)
-                {
+            } else if (buf[counter] == '$' && buf[counter + 1] == 'E') {
+                switch (victim->sex) {
                     default:
                         strcpy(buf2,buf);
                         buf2[counter] = '\0';
                         strcat(buf2,"it");
-                        for (count = 0; buf[count] != '\0'; count ++)
-                        {
+                        for (count = 0; buf[count] != '\0'; count ++) {
                             buf[count] = buf[count+counter+2];
                         }
                         strcat(buf2,buf);
@@ -224,8 +199,7 @@ void do_gocial(CHAR_DATA *ch, char *argument)
                         strcpy(buf2,buf);
                         buf2[counter] = '\0';
                         strcat(buf2,"it");
-                        for (count = 0; buf[count] != '\0'; count++)
-                        {
+                        for (count = 0; buf[count] != '\0'; count++) {
                             buf[count] = buf[count+counter+2];
                         }
                         strcat(buf2,buf);
@@ -235,8 +209,7 @@ void do_gocial(CHAR_DATA *ch, char *argument)
                         strcpy(buf2,buf);
                         buf2[counter] = '\0';
                         strcat(buf2,"it");
-                        for (count = 0; buf[count] != '\0'; count++)
-                        {
+                        for (count = 0; buf[count] != '\0'; count++) {
                             buf[count] = buf[count+counter+2];
                         }
                         strcat(buf2,buf);
@@ -244,19 +217,15 @@ void do_gocial(CHAR_DATA *ch, char *argument)
                         break;
                 }
                 continue;
-            }    
-            else if (buf[counter] == '$' && buf[counter + 1] == 'M')
-            {
+            } else if (buf[counter] == '$' && buf[counter + 1] == 'M') {
                 buf[counter] = '%';
                 buf[counter + 1] = 's';
-                switch (victim->sex)
-                {
+                switch (victim->sex) {
                     default:
                         strcpy(buf2,buf);
                         buf2[counter] = '\0';
                         strcat(buf2,"it");
-                        for (count = 0; buf[count] != '\0'; count++)
-                        {
+                        for (count = 0; buf[count] != '\0'; count++) {
                             buf[count] = buf[count+counter+2];
                         }
                         strcat(buf2,buf);
@@ -266,8 +235,7 @@ void do_gocial(CHAR_DATA *ch, char *argument)
                         strcpy(buf2,buf);
                         buf2[counter] = '\0';
                         strcat(buf2,"him");
-                        for (count = 0; buf[count] != '\0'; count++)
-                        {
+                        for (count = 0; buf[count] != '\0'; count++) {
                             buf[count] = buf[count+counter+2];
                         }
                         strcat(buf2,buf);
@@ -277,8 +245,7 @@ void do_gocial(CHAR_DATA *ch, char *argument)
                         strcpy(buf2,buf);
                         buf2[counter] = '\0';
                         strcat(buf2,"her");
-                        for (count = 0; buf[count] != '\0'; count++);
-                        {
+                        for (count = 0; buf[count] != '\0'; count++) {
                             buf[count] = buf[count+counter+2];
                         }
                         strcat(buf2,buf);
@@ -286,17 +253,13 @@ void do_gocial(CHAR_DATA *ch, char *argument)
                         break;
                 }
                 continue;
-            }
-            else if (buf[counter] == '$' && buf[counter + 1] == 'S')
-            {
-                switch (victim->sex)
-                {
+            } else if (buf[counter] == '$' && buf[counter + 1] == 'S') {
+                switch (victim->sex) {
                     default:
                         strcpy(buf2,buf);
                         buf2[counter] = '\0';
                         strcat(buf2,"its");
-                        for (count = 0;buf[count] != '\0'; count++)
-                        {
+                        for (count = 0;buf[count] != '\0'; count++) {
                             buf[count] = buf[count+counter+2];
                         }
                         strcat(buf2,buf);
@@ -306,8 +269,7 @@ void do_gocial(CHAR_DATA *ch, char *argument)
                         strcpy(buf2,buf);
                         buf2[counter] = '\0';
                         strcat(buf2,"his");
-                        for (count = 0; buf[count] != '\0'; count++)
-                        {
+                        for (count = 0; buf[count] != '\0'; count++) {
                             buf[count] = buf[count+counter+2];
                         }
                         strcat(buf2,buf);
@@ -317,8 +279,7 @@ void do_gocial(CHAR_DATA *ch, char *argument)
                         strcpy(buf2,buf);
                         buf2[counter] = '\0';
                         strcat(buf2,"her");
-                        for (count = 0; buf[count] != '\0'; count++)
-                        {
+                        for (count = 0; buf[count] != '\0'; count++) {
                             buf[count] = buf[count+counter+2];
                         }
                         strcat(buf2,buf);
@@ -327,18 +288,16 @@ void do_gocial(CHAR_DATA *ch, char *argument)
                 }
                 continue;
             }
-
         }
-        for (d=descriptor_list; d != NULL; d = d->next)
-        {
+
+        for (d=descriptor_list; d != NULL; d = d->next) {
             CHAR_DATA *vch;
             vch = d->original ? d->original : d->character;
             if (d->connected == CON_PLAYING &&
                 d->character != ch &&
                 d->character != victim &&
                 !IS_SET(vch->comm, COMM_NOGOSSIP) &&
-                !IS_SET(vch->comm,COMM_QUIET))
-            {
+                !IS_SET(vch->comm,COMM_QUIET)) {
                 act_new(buf,ch,NULL,vch,TO_VICT,POS_DEAD);
             }
         }
