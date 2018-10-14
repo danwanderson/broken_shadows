@@ -1407,7 +1407,7 @@ bool is_safe_spell(CHAR_DATA *ch, CHAR_DATA *victim, bool area )
             ( !IS_SET(victim->act, PLR_KILLER) 
             || !IS_SET(ch->act, PLR_KILLER) ) )
             && ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) 
-            || !victim->pcdata->bounty > 0 ) ) )
+            || victim->pcdata->bounty <= 0 ) ) )
           {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return TRUE;
@@ -2558,7 +2558,7 @@ void do_bash( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) ) 
         && 
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        !victim->pcdata->bounty > 0 ) ) )
+        victim->pcdata->bounty <= 0 ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return;
@@ -2720,7 +2720,7 @@ void do_dirt( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) )
         &&
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        !victim->pcdata->bounty > 0 ) ) )
+        victim->pcdata->bounty <= 0 ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return;
@@ -2859,7 +2859,7 @@ void do_trip( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) )
         &&
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        !victim->pcdata->bounty > 0 ) ) )
+        victim->pcdata->bounty <= 0 ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return;
@@ -2973,7 +2973,7 @@ void do_kill( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) ) 
         && 
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        !victim->pcdata->bounty > 0 ) ) )
+        victim->pcdata->bounty <= 0 ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return;
@@ -3137,7 +3137,7 @@ void do_backstab( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) )
         &&
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        !victim->pcdata->bounty > 0 ) ) )
+        victim->pcdata->bounty <= 0 ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return;
@@ -3227,7 +3227,7 @@ void do_circle( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) )
         &&
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        !victim->pcdata->bounty > 0 ) ) )
+        victim->pcdata->bounty <= 0 ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r",
                 ch );
@@ -3428,7 +3428,7 @@ void do_kick( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) )
         &&
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        !victim->pcdata->bounty > 0 ) ) )
+        victim->pcdata->bounty <= 0 ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return;
