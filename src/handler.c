@@ -91,10 +91,10 @@ char *get_date(time_t tm)
 
 char *get_time(time_t tm)
 {
-   struct tm stuff;
+   struct tm *stuff;
 
     thetime[6]='\0';
-    stuff = *localtime(&tm);
+    stuff = localtime(&tm);
     //sprintf(thetime,"%02d:%02d",stuff.tm_hour,stuff.tm_min);
     strftime(thetime, sizeof(thetime), "%R", stuff);
 
