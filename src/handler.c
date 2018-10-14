@@ -2855,14 +2855,13 @@ void affect_check(CHAR_DATA *ch,int where,int vector)
 
     for (obj = ch->carrying; obj != NULL; obj = obj->next_content)
     {
-        if (obj->wear_loc == -1)
+        if (obj->wear_loc == -1) {
             continue;
+        }
 
-            for (paf = obj->affected; paf != NULL; paf = paf->next)
-            if (paf->where == where && paf->bitvector == vector)
-            {
-                switch (where)
-                {
+        for (paf = obj->affected; paf != NULL; paf = paf->next) {
+            if (paf->where == where && paf->bitvector == vector) {
+                switch (where) {
                     case TO_AFFECTS:
                         SET_BIT(ch->affected_by,vector);
                         break;
@@ -2881,11 +2880,13 @@ void affect_check(CHAR_DATA *ch,int where,int vector)
                 }
                 return;
             }
+        }
 
-        if (obj->enchanted)
+        if (obj->enchanted) {
             continue;
+        }
 
-        for (paf = obj->pIndexData->affected; paf != NULL; paf = paf->next)
+        for (paf = obj->pIndexData->affected; paf != NULL; paf = paf->next) {
             if (paf->where == where && paf->bitvector == vector)
             {
                 switch (where)
@@ -2908,6 +2909,7 @@ void affect_check(CHAR_DATA *ch,int where,int vector)
                  }
                 return;
             }
+        }
     }
 }
 
