@@ -1836,7 +1836,7 @@ char *doparseprompt(CHAR_DATA *ch)
     char workstr[100];
     char *fp_point;
     char *orig_prompt;
-	char doors[MAX_INPUT_LENGTH];
+	char doors[32];
 	EXIT_DATA *pexit;
 	bool found;
 	const char *dir_name[] = {"N", "E", "S", "W", "U", "D"};
@@ -1966,8 +1966,9 @@ char *doparseprompt(CHAR_DATA *ch)
                     orig_prompt++;
                     break;
                 }
-                else
+                else {
                     break;
+                }
             case 'A':
                 if (IS_SET(ch->act,PLR_AFK))
                 {
