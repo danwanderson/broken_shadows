@@ -58,22 +58,23 @@ char *get_curdate()
     time(&tm);
     now = localtime(&tm);
     //sprintf(thedate,"%02d/%02d/%04d",now.tm_mon+1,now.tm_mday,now.tm_year+1900);
-    strftime(thedate, sizeof(thedate), "%02d/%02d/%04d", now);
+    strftime(thedate, sizeof(thedate), "%m/%d/%Y", now);
     return thedate;
 }
 
 /* get_curtime() - Return current time in hh:mm format */
 char *get_curtime()
 {
-   time_t tm;
-   struct tm now;
+    time_t tm;
+    struct tm *now;
 
-   thetime[6]='\0';
-   time(&tm);
-   now = *localtime(&tm);
-   sprintf(thetime,"%02d:%02d",now.tm_hour,now.tm_min);
+    thetime[6]='\0';
+    time(&tm);
+    now = localtime(&tm);
+    //sprintf(thetime,"%02d:%02d",now.tm_hour,now.tm_min);
+    strftime(thetime, sizeof(thetime), "%R", now);
 
-   return thetime;
+    return thetime;
 }
 
 char *get_date(time_t tm)
