@@ -975,7 +975,8 @@ void affect_to_obj(OBJ_DATA *obj, AFFECT_DATA *paf)
 void affect_remove( CHAR_DATA *ch, AFFECT_DATA *paf )
 {
     /* added by Rahl */
-    int where, vector;
+    //int where, vector;
+    int where;
 
     if ( ch->affected == NULL )
     {
@@ -987,7 +988,7 @@ void affect_remove( CHAR_DATA *ch, AFFECT_DATA *paf )
 
     /* added by Rahl */
     where = paf->where;
-    vector = paf->bitvector;
+    //vector = paf->bitvector;
 
     if ( paf == ch->affected )
     {
