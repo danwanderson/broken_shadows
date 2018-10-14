@@ -1492,17 +1492,14 @@ void show_string(struct descriptor_data *d, char *input)
             /* 
             for (chk = d->showstr_point; isspace(*chk); chk++) {
                 ;
-            }
-            {
-                if (!*chk) {
-                    if (d->showstr_head) {
-                        free_string(d->showstr_head);
-                        d->showstr_head = 0;
-                    }
-                    d->showstr_point  = 0;
+            } */
+            if (!*chk) {
+                if (d->showstr_head) {
+                    free_string(d->showstr_head);
+                    d->showstr_head = 0;
                 }
+                d->showstr_point  = 0;
             }
-            */
             return;
         }
     }
