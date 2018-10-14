@@ -1466,10 +1466,8 @@ void show_string(struct descriptor_data *d, char *input)
     int show_lines;
 
     one_argument(input,buf);
-    if (buf[0] != '\0')
-    {
-        if (d->showstr_head)
-        {
+    if (buf[0] != '\0') {
+        if (d->showstr_head) {
             free_string(d->showstr_head);
             d->showstr_head = 0;
         }
@@ -1477,33 +1475,34 @@ void show_string(struct descriptor_data *d, char *input)
         return;
     }
 
-    if (d->character)
+    if (d->character) {
         show_lines = d->character->lines;
-    else
+    } else {
         show_lines = 0;
+    }
 
-    for (scan = buffer; ; scan++, d->showstr_point++)
-    {
+    for (scan = buffer; ; scan++, d->showstr_point++) {
         if (((*scan = *d->showstr_point) == '\n' || *scan == '\r')
-            && (toggle = -toggle) < 0)
+            && (toggle = -toggle) < 0) {
             lines++;
-
-        else if (!*scan || (show_lines > 0 && lines >= show_lines))
-        {
+        } else if (!*scan || (show_lines > 0 && lines >= show_lines)) {
             *scan = '\0';
             write_to_buffer(d,buffer,strlen(buffer));
-            for (chk = d->showstr_point; isspace(*chk); chk++);
+            /* I don't think this does anything */
+            /* 
+            for (chk = d->showstr_point; isspace(*chk); chk++) {
+                ;
+            }
             {
-                if (!*chk)
-                {
-                    if (d->showstr_head)
-                    {
+                if (!*chk) {
+                    if (d->showstr_head) {
                         free_string(d->showstr_head);
                         d->showstr_head = 0;
                     }
                     d->showstr_point  = 0;
                 }
             }
+            */
             return;
         }
     }
