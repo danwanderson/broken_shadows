@@ -3548,34 +3548,29 @@ void do_slay( CHAR_DATA *ch, char *argument )
 
     argument = one_argument( argument, arg );
     one_argument( argument, arg2 );
-    if ( arg[0] == '\0' )
-    {
+    if ( arg[0] == '\0' ) {
         /* send_to_char( "Slay whom?\n\r", ch ); */
         send_to_char( "Syntax: [Char] [Type]\n\r", ch );
         send_to_char( "Types: Skin, Immolate, Demon, Shatter, Slit, Deheart, Pounce.\n\r", ch);
         return;
     }
 
-    if ( ( victim = get_char_room( ch, arg ) ) == NULL )
-    {
+    if ( ( victim = get_char_room( ch, arg ) ) == NULL ) {
         send_to_char( "They aren't here.\n\r", ch );
         return;
     }
 
-    if ( ch == victim )
-    {
+    if ( ch == victim ) {
         send_to_char( "Suicide is a mortal sin.\n\r", ch );
         return;
     }
 
-    if ( !IS_NPC(victim) && char_getImmRank( victim ) >= char_getImmRank(ch) )
-    {
+    if ( !IS_NPC(victim) && char_getImmRank( victim ) >= char_getImmRank(ch) ) {
         send_to_char( "You failed.\n\r", ch );
         return;
     }
 
-    if ( !str_cmp( arg2, "skin" ) )
-    {
+    if ( !str_cmp( arg2, "skin" ) ) {
         act( "`RYou rip the flesh from $N `Rand send his soul to the fiery "
              "depths of hell.`w", ch, NULL, victim, TO_CHAR );
         act( "`RYour flesh has been torn from your bones and your bodyless "
@@ -3583,10 +3578,7 @@ void do_slay( CHAR_DATA *ch, char *argument )
              ch, NULL, victim, TO_VICT );
         act( "`R$n `Rrips the flesh off of $N`R, releasing his soul into " 
              "the fiery depths of hell.`w", ch, NULL, victim, TO_NOTVICT );
-    }
-
-    else if ( !str_cmp( arg2, "deheart" ) )
-    {
+    } else if ( !str_cmp( arg2, "deheart" ) ) {
         act( "`RYou rip through $N`R's chest and pull out $S beating heart" 
              " in your hand.`w", ch, NULL, victim, TO_CHAR );
         act( "`RYou feel a sharp pain as $n`R rips into your chest and pulls "
@@ -3595,30 +3587,21 @@ void do_slay( CHAR_DATA *ch, char *argument )
         act( "`RSpecks of blood hit your face as $n `Rrips through $N`R's "
              "chest pulling out $S beating heart.`w", ch, NULL, victim,
              TO_NOTVICT );
-    }
-
-    else if ( !str_cmp( arg2, "immolate" ) )
-    {
+    } else if ( !str_cmp( arg2, "immolate" ) ) {
         act( "`RYour fireball turns $N`R into a blazing inferno.`w",  ch, 
             NULL, victim, TO_CHAR    );
       act( "`R$n`R releases a searing fireball in your direction.`w", ch,
             NULL, victim, TO_VICT    );
       act( "`R$n`R points at $N`R, who bursts into a flaming inferno.`w",
            ch, NULL, victim, TO_NOTVICT );
-    }
-
-    else if ( !str_cmp( arg2, "shatter" ) )
-    {
+    } else if ( !str_cmp( arg2, "shatter" ) ) {
       act( "`CYou freeze $N `Cwith a glance and shatter the frozen corpse "
            "into tiny shards.`w",  ch, NULL, victim, TO_CHAR );
       act( "`C$n `Cfreezes you with a glance and shatters your frozen body "
            "into tiny shards.`w", ch, NULL, victim, TO_VICT );
       act( "`C$n `Cfreezes $N with a glance and shatters the frozen body "
            "into tiny shards.`w",  ch, NULL, victim, TO_NOTVICT );
-    }
-
-    else if ( !str_cmp( arg2, "demon" ) )
-    {
+    } else if ( !str_cmp( arg2, "demon" ) ) {
       act( "`YYou gesture, and a slavering demon appears.  With a horrible "
            "grin, the foul creature turns on $N`Y, who screams in panic "
            "before being eaten alive.`w",  ch, NULL, victim, TO_CHAR );
@@ -3628,10 +3611,7 @@ void do_slay( CHAR_DATA *ch, char *argument )
       act( "`Y$n `Ygestures, and a slavering demon appears.  With a horrible"
            " grin, the foul creature turns on $N`Y, who screams in panic"
            " before being eaten alive.`w",  ch, NULL, victim, TO_NOTVICT );
-    }
-
-    else if ( !str_cmp( arg2, "pounce" ) )
-    {
+    } else if ( !str_cmp( arg2, "pounce" ) ) {
       act( "`mLeaping upon $N `mwith bared fangs, you tear open $S throat "
            "and toss the corpse to the ground...`w",  ch, NULL, victim,
            TO_CHAR );
@@ -3641,31 +3621,29 @@ void do_slay( CHAR_DATA *ch, char *argument )
       act( "`mLeaping suddenly, $n`m sinks $s fangs into $N`m's throat. As "
            "blood sprays and gushes to the ground, $n `mtosses $N`m's dying "
            "body away.`w",  ch, NULL, victim, TO_NOTVICT );
-    }
- 
-    else if ( !str_cmp( arg2, "slit" ))
-    {
+    } else if ( !str_cmp( arg2, "slit" )) {
       act( "`RYou calmly slit $N`R's throat.`w", ch, NULL, victim, TO_CHAR );
       act( "`R$n `Rreaches out with a clawed finger and calmly slits your"
            " throat.`w", ch, NULL, victim, TO_VICT );
       act( "`RA claw extends from $n`R's hand as $e calmly slits $N`R's"
            " throat.`w", ch, NULL, victim, TO_NOTVICT );
-    }
-
-    else
-    {
+    } else {
         act( "`RYou slay $M in cold blood!`w",  ch, NULL, victim, TO_CHAR );
         act( "`R$n slays you in cold blood!`w", ch, NULL, victim, TO_VICT );
         act( "`R$n slays $N`R in cold blood!`w",  ch, NULL, victim, TO_NOTVICT );
     }
 
-    if ( !IS_NPC(victim) ) victim->pcdata->nemesis=NULL;
+    if ( !IS_NPC(victim) ) {
+        victim->pcdata->nemesis=NULL;
+    }
 
-   if (chaos)
+    if (chaos) {
         chaos_kill( victim );
+    }
 
-   if (!chaos)
-    raw_kill( victim );
+    if (!chaos) {
+        raw_kill( victim );
+    }
 
     return;
 }
