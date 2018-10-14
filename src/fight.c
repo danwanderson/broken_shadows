@@ -3499,10 +3499,11 @@ void do_disarm( CHAR_DATA *ch, char *argument )
     /* modifiers */
 
     /* skill */
-    if ( get_eq_char(ch,WEAR_WIELD) == NULL)
+    if ( get_eq_char(ch,WEAR_WIELD) == NULL) {
         chance = chance * hth/150;
-    else
+    } else {
         chance = chance * ch_weapon/100;
+    }
 
     chance += (ch_vict_weapon/2 - vict_weapon) / 2; 
 
@@ -3514,14 +3515,11 @@ void do_disarm( CHAR_DATA *ch, char *argument )
     chance += (ch->level - victim->level) * 2;
  
     /* and now the attack */
-    if (number_percent() < chance)
-    {
+    if (number_percent() < chance) {
         WAIT_STATE( ch, skill_table[gsn_disarm].beats );
         disarm( ch, victim );
         check_improve(ch,gsn_disarm,TRUE,1);
-    }
-    else
-    {
+    } else {
         WAIT_STATE(ch,skill_table[gsn_disarm].beats);
         act("`BYou fail to disarm $N`B.`w",ch,NULL,victim,TO_CHAR);
         act("`B$n `Btries to disarm you, but fails.`w",ch,NULL,victim,TO_VICT);
