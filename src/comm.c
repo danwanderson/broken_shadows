@@ -573,8 +573,8 @@ void new_descriptor( int control )
 
     *dnew               = d_zero;
     dnew->descriptor    = desc;
-    dnew->connected     = CON_GET_NAME;
     dnew->ansi          = TRUE;
+    dnew->connected     = CON_GET_NAME;
     dnew->showstr_head  = NULL;
     dnew->showstr_point = NULL;
     dnew->outsize       = 2000;
@@ -645,9 +645,9 @@ void new_descriptor( int control )
     {
         extern char * help_greeting;
         if ( help_greeting[0] == '.' )
-            write_to_buffer( dnew, help_greeting+1, 0 );
+            write_to_descriptor( dnew, help_greeting+1, 0, TRUE);
         else
-            write_to_buffer( dnew, help_greeting  , 0 );
+            write_to_descriptor( dnew, help_greeting  , 0, TRUE );
     }
 
 
