@@ -515,7 +515,8 @@ void init_descriptor( DESCRIPTOR_DATA *dnew, int desc)
 
     *dnew               = d_zero;
     dnew->descriptor    = desc;
-    dnew->connected     = CON_ANSI;
+    dnew->connected     = CON_GET_NAME;
+    dnew->ansi          = TRUE;
     dnew->showstr_head  = NULL;
     dnew->showstr_point = NULL;
     dnew->outsize       = 2000;
@@ -572,7 +573,8 @@ void new_descriptor( int control )
 
     *dnew               = d_zero;
     dnew->descriptor    = desc;
-    dnew->connected     = CON_ANSI;
+    dnew->connected     = CON_GET_NAME;
+    dnew->ansi          = TRUE;
     dnew->showstr_head  = NULL;
     dnew->showstr_point = NULL;
     dnew->outsize       = 2000;
@@ -639,7 +641,7 @@ void new_descriptor( int control )
     /*
      * Send the greeting.
      */
-/*
+
     {
         extern char * help_greeting;
         if ( help_greeting[0] == '.' )
@@ -647,9 +649,11 @@ void new_descriptor( int control )
         else
             write_to_buffer( dnew, help_greeting  , 0 );
     }
-*/
 
+
+/*
 	write_to_buffer( dnew, "\n\rDo you want ANSI color? [Y/n] ", 0 );
+*/
 
     return;
 }
