@@ -644,7 +644,6 @@ void new_descriptor( int control )
 
     {
         extern char * help_greeting;
-        desc->ansi = TRUE;
         if ( help_greeting[0] == '.' )
             write_to_descriptor( desc, help_greeting+1, 0, TRUE );
         else
