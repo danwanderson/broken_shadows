@@ -644,10 +644,11 @@ void new_descriptor( int control )
 
     {
         extern char * help_greeting;
+        dnew->ansi = TRUE;
         if ( help_greeting[0] == '.' )
-            write_to_descriptor( dnew, help_greeting+1, 0, TRUE);
+            write_to_buffer( dnew, help_greeting+1, 0 );
         else
-            write_to_descriptor( dnew, help_greeting  , 0, TRUE );
+            write_to_buffer( dnew, help_greeting  , 0 );
     }
 
 
