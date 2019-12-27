@@ -21,12 +21,12 @@ AREADIR="${HOME}/${MUDDIR}/area"
 SRCDIR="${HOME}/${MUDDIR}/src"
 EXENAME="shadows"
 ARCHIVEDIR="$HOME/archives"
-DATE=`date +%m%d%Y_%H%M` 
+DATE=$(date +%m%d%Y_%H%M)
 ARCHIVENAME="${EXENAME}.${DATE}.tar" 
 MAILUSER=dwa@rochester.rr.com
 
 # Make sure the temp directory is readable and writable
-if [ ! -r "${TEMPDIR}" -o ! -w "${TEMPDIR}" ]
+if [ ! -r "${TEMPDIR}" ] || [ ! -w "${TEMPDIR}" ]
 then
 	echo "Error! Cannot write temp file. Exiting..."
 	exit 1
@@ -35,10 +35,7 @@ fi
 # Create the archive dir, if it doesn't exist already
 if [ ! -e "${ARCHIVEDIR}" ]
 then
-	mkdir "${ARCHIVEDIR}" 
-	
-	# Error creating?
-	if [ $? -ne 0 ]
+ 	if ! mkdir "${ARCHIVEDIR}" 
 	then
 		echo "Error creating archive directory."
 		echo "Setting archive directory to ${HOME}"
@@ -47,16 +44,14 @@ then
 fi
 
 # Change into the MUD directory
-cd "${HOME}/${MUDDIR}" 
-
-if [ $? -ne 0 ]
+if ! cd "${HOME}/${MUDDIR}"
 then
 	echo "Error changing into ${HOME}/${MUDDIR}"
 	echo "Exiting..."
 	exit 1
 fi
 
-if [ ! -d "${AREADIR}" -o ! -d "${SRCDIR}" ]
+if [ ! -d "${AREADIR}" ] || [ ! -d "${SRCDIR}" ]
 then
 	echo "Error. Either ${AREADIR} or ${SRCDIR} does not exist."
 	echo "Exiting..."
@@ -72,7 +67,7 @@ rm -f "${SRCDIR}"/*.o
 # to pad everything with 0s, but it doesn't do the hour, apparently.
 #ARCHIVENAME=`echo "${ARCHIVENAME}" | sed -e 's/ /0/g'`
 
-cd "${HOME}"
+cd "${HOME}" || exit
 
 # Create the tar archive
 tar cf "${TEMPDIR}/${ARCHIVENAME}" "${MUDDIR}" 
@@ -81,9 +76,7 @@ tar cf "${TEMPDIR}/${ARCHIVENAME}" "${MUDDIR}"
 gzip "${TEMPDIR}/${ARCHIVENAME}" 
 
 # Move the archive to the ARCHIVEDIR
-mv "${TEMPDIR}/${ARCHIVENAME}.gz" "${ARCHIVEDIR}" 
-
-if [ $? -ne 0 ]
+if ! mv "${TEMPDIR}/${ARCHIVENAME}.gz" "${ARCHIVEDIR}" 
 then
 	mail -s "Backup failed" "${MAILUSER}" <<EOM
 Backup of ${ARCHIVENAME}.gz failed.
@@ -94,10 +87,10 @@ else
 Backup of ${ARCHIVENAME}.gz succeeded.
 
 List of files backed up:
-`tar tzf "${ARCHIVEDIR}/${ARCHIVENAME}.gz"`
+$(tar tzf "${ARCHIVEDIR}/${ARCHIVENAME}.gz")
 EOM
 fi
  
-cd "${SRCDIR}"
+#cd "${SRCDIR}" || exit
 #make
 #make clean
