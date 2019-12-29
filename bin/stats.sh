@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # S T A T S . S H
 # Script to generate some player statistics by reading through the log file
@@ -16,22 +16,25 @@ STATSFILE="${SHADOWSDIR}/bin/stats.dat"
 REMOVEDFILE="${SHADOWSDIR}/bin/stats.removed"
 PLAYERDIR="${SHADOWSDIR}/player"
 LOGDIR="${SHADOWSDIR}/log"
-CURDATE="`date`"
+CURDATE=$(date)
 
 # Change into the player directory
-cd "${PLAYERDIR}"
+cd "${PLAYERDIR}" || exit
 
 # Grab the old statistics (basically, just the previous number of
 # pfiles, created/updated when this script was last run)
 # If this file doesn't exist, you'll get an error when you first
 # run it. Run it again and it should be ok.
-source "${STATSFILE}"
+if [ -f "{$STATSFILE}" ]
+then
+	source "${STATSFILE}"
+fi
 
 # See if there's any info on the number of pfiles that were removed
 # by clean_pfiles.sh
 if [ -e "${REMOVEDFILE}" ]
 then
-	REMPLAYER=`wc -l < "${REMOVEDFILE}"`
+	REMPLAYER=$(wc -l < "${REMOVEDFILE}")
 	rm -f "${REMOVEDFILE}"
 fi
 
@@ -53,16 +56,16 @@ then
 fi
 
 # Get the current number of pfiles
-CURRPLAYER=`ls | wc -l`
+CURRPLAYER=$(find . -type f | wc -l)
 
 # The number of new players since the script was last run
-NEWPLAYER=`expr ${CURRPLAYER} - ${OLDPLAYER}`
+NEWPLAYER=$(expr "${CURRPLAYER}" - "${OLDPLAYER}")
 
 # Pull out the spaces cuz they're ugly
-REMPLAYER=`echo "${REMPLAYER}" | sed -e 's/ //g'`
-NEWPLAYER=`echo "${NEWPLAYER}" | sed -e 's/ //g'`
-CURRPLAYER=`echo "${CURRPLAYER}" | sed -e 's/ //g'`
-OLDPLAYER=`echo "${OLDPLAYER}" | sed -e 's/ //g'`
+REMPLAYER=$(echo "${REMPLAYER}" | sed -e 's/ //g')
+NEWPLAYER=$(echo "${NEWPLAYER}" | sed -e 's/ //g')
+CURRPLAYER=$(echo "${CURRPLAYER}" | sed -e 's/ //g')
+OLDPLAYER=$(echo "${OLDPLAYER}" | sed -e 's/ //g')
 
 # Remove the old stats file
 if [ -e ${STATSFILE} ]
@@ -165,42 +168,42 @@ do
 		UNDERTEN=`expr ${UNDERTEN} + ${CURLEVEL}`
 	fi
 
-	if [ ${LEVEL} -le 20 -a ${LEVEL} -ge 11 ]
+	if [ ${LEVEL} -le 20 ] && [ ${LEVEL} -ge 11 ]
 	then
-		ELEVENTOTWENY=`expr ${ELEVENTOTWENTY} + ${CURLEVEL}`
+		ELEVENTOTWENTY=`expr ${ELEVENTOTWENTY} + ${CURLEVEL}`
 	fi
 
-	if [ ${LEVEL} -le 30 -a ${LEVEL} -ge 21 ]
+	if [ ${LEVEL} -le 30 ] && [ ${LEVEL} -ge 21 ]
 	then
 		TWENTYTOTHIRTY=`expr ${TWENTYTOTHIRTY} + ${CURLEVEL}`
 	fi
 
-	if [ ${LEVEL} -le 40 -a ${LEVEL} -ge 31 ]
+	if [ ${LEVEL} -le 40 ] && [ ${LEVEL} -ge 31 ]
 	then
 		THIRTYTOFOURTY=`expr ${THIRTYTOFOURTY} + ${CURLEVEL}`
 	fi
 
-	if [ ${LEVEL} -le 50 -a ${LEVEL} -ge 41 ]
+	if [ ${LEVEL} -le 50 ] && [ ${LEVEL} -ge 41 ]
 	then
 		FOURTYTOFIFTY=`expr ${FOURTYTOFIFTY} + ${CURLEVEL}`
 	fi
 
-	if [ ${LEVEL} -le 60 -a ${LEVEL} -ge 51  ]
+	if [ ${LEVEL} -le 60 ] && [ ${LEVEL} -ge 51  ]
 	then
 		FIFTYTOSIXTY=`expr ${FIFTYTOSIXTY} + ${CURLEVEL}`
 	fi
 
-	if [ ${LEVEL} -le 70 -a ${LEVEL} -ge 61 ]
+	if [ ${LEVEL} -le 70 ] && [ ${LEVEL} -ge 61 ]
 	then
 		SIXTYTOSEVENTY=`expr ${SIXTYTOSEVENTY} + ${CURLEVEL}`
 	fi
 
-	if [ ${LEVEL} -le 80 -a ${LEVEL} -ge 71 ]
+	if [ ${LEVEL} -le 80 ] && [ ${LEVEL} -ge 71 ]
 	then
 		SEVENTYTOEIGHTY=`expr ${SEVENTYTOEIGHTY} + ${CURLEVEL}`
 	fi
 
-	if [ ${LEVEL} -le 90 -a ${LEVEL} -ge 81 ]
+	if [ ${LEVEL} -le 90 ] && [ ${LEVEL} -ge 81 ]
 	then
 		EIGHTYTONINETY=`expr ${EIGHTYTONINETY} + ${CURLEVEL}`
 	fi
@@ -210,7 +213,7 @@ do
 		HERO=`expr ${HERO} + ${CURLEVEL}`
 	fi
 
-	if [ ${LEVEL} -le 102 -a ${LEVEL} -ge 92 ]
+	if [ ${LEVEL} -le 102 ] && [ ${LEVEL} -ge 92 ]
 	then
 		IMMORTAL=`expr ${IMMORTAL} + ${CURLEVEL}`
 	fi

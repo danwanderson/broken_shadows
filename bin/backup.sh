@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # B A C K U P . S H
 # This script creates a backup of the MUD. It removes all core files
