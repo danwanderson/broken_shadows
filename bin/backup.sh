@@ -23,7 +23,7 @@ EXENAME="shadows"
 ARCHIVEDIR="$HOME/archives"
 DATE=$(date +%m%d%Y_%H%M)
 ARCHIVENAME="${EXENAME}.${DATE}.tar" 
-MAILUSER=dwa@rochester.rr.com
+MAILUSER="someuser@example.com"
 
 # Make sure the temp directory is readable and writable
 if [ ! -r "${TEMPDIR}" ] || [ ! -w "${TEMPDIR}" ]
