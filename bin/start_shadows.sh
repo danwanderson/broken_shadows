@@ -2,7 +2,7 @@
 # Written by Furey.
 # With additions from Tony.
 # Set the port number.
-PORT=1945
+PORT=4000
 if [ "$1" != "" ]
 then
 	PORT="$1"
@@ -27,7 +27,7 @@ do
 		DAY=$(date +%m%d%Y)
 		HOUR=$(date +%H%M%S)
 		DATE="${DAY}_${HOUR}"
-        gdb -batch "${SHADOWSDIR}/src/shadows" "${SHADOWSDIR}/area/core" | mail -s "Broken Shadows Automatic Core Trace" dan.w.anderson@gmail.com
+        gdb -batch "${SHADOWSDIR}/src/shadows" "${SHADOWSDIR}/area/core" > $SHADOWSDIR/core/core.$DATE.txt
         mv "${SHADOWSDIR}/area/core" "${SHADOWSDIR}/core/core.$DATE"
 		rm -f "${SHADOWSDIR}/area/core"
     fi

@@ -1,7 +1,8 @@
-CC      = gcc
+CC      = clang
 PROF    = -DLINUX 
 NOCRYPT =
-C_FLAGS = -Wall -O2 $(PROF) $(NOCRYPT) -Wno-unused-but-set-variable
+#C_FLAGS = -Wall -O2 $(PROF) $(NOCRYPT) -Wno-unused-but-set-variable
+C_FLAGS = -Wall -O2 $(PROF) $(NOCRYPT)
 L_FLAGS = -O2 $(PROF) -lcrypt
 
 O_FILES = act_comm.o act_enter.o act_info.o act_move.o act_obj.o act_wiz.o \
@@ -28,7 +29,7 @@ clean:
 src:
 	#-rm -f src.*.tar*
 	-ctags *.[ch]
-	#tar cvzf src.`date +%m%d%Y_%H%M`.tar.gz Makefile *.[ch] tags
+	#tar cvzf src.$(date +%m%d%Y_%H%M).tar.gz Makefile *.[ch] tags
 	git push origin master
 
 srcpull:
