@@ -1224,7 +1224,7 @@ bool check_parse_name( char *name )
     /*
      * Reserved words.
      */
-    if ( is_exact_name( name, "all auto immortal self someone something the you fuck shit" )
+    if ( is_exact_name( name, "all auto immortal self someone something the you fuck shit who admin default" )
        || is_name(name, "fuck") || is_name(name, "shit") || is_name(name, "imm") )
         return FALSE;
 
