@@ -8,7 +8,7 @@ then
 	PORT="$1"
 fi
 
-SHADOWSDIR=$HOME/shadows/shadows
+SHADOWSDIR=/srv/shadows
 # Change to area directory.
 cd "${SHADOWSDIR}/area" || exit
 

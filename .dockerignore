@@ -1,0 +1,4 @@
+src/*.c
+src/*.h
+src/Makefile
+src/*.o
