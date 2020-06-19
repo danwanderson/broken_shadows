@@ -17,7 +17,9 @@ COPY src /srv/shadows/src
 RUN chown -R shadows /srv/shadows
 
 USER shadows
+WORKDIR /srv/shadows/src
+RUN make && make clean && cp -v shadows /srv/shadows/bin
+
 WORKDIR /srv/shadows
 
 ENTRYPOINT ["/srv/shadows/bin/start_shadows.sh"]
-#ENTRYPOINT ["/bin/bash"]
