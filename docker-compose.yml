@@ -1,0 +1,16 @@
+version: "2"
+
+services:
+  broken_shadows:
+    container_name: broken_shadows
+    image: danwanderson/broken_shadows:latest
+    ports:
+      - "4000:4000/tcp"
+    # Volumes store your data between container upgrades
+    volumes:
+      - './area/:/srv/shadows/area/'
+      - './gods/:/srv/shadows/gods/'
+      - './log/:/srv/shadows/log/'
+      - './notes/:/srv/shadows/notes/'
+      - './player/:/srv/shadows/player/'
+    restart: unless-stopped

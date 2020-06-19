@@ -33,7 +33,7 @@ do
     fi
 
     # Run shadows.
-    ../src/shadows "${PORT}" > /dev/null 2>&1
+    ../bin/shadows "${PORT}" > /dev/null 2>&1
 
     # Restart, giving old connections a chance to die.
     if [ -e shutdown.txt ] 

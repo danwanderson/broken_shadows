@@ -315,7 +315,7 @@ void game_loop( int control )
     current_time = (time_t) last_time.tv_sec;
 
 	if ( geteuid() == 0 ) {
-		setuid( getpwnam( "dwa" )->pw_uid );
+		setuid( getpwnam( "shadows" )->pw_uid );
 	}
 
     /* Main loop */

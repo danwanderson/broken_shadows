@@ -1,4 +1,4 @@
-src/*.c
-src/*.h
-src/Makefile
+#src/*.c
+#src/*.h
+#src/Makefile
 src/*.o
