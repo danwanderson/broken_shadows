@@ -9,3 +9,4 @@ area/core
 bin/nohup.out
 src/tags
 bin/shadows
+backup/*
