@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2018 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -95,7 +95,7 @@ const   char    go_ahead_str    [] = { IAC, GA, '\0' };
 #if     defined(linux)
 
 int     close           ( int fd );
-int     gettimeofday    ( struct timeval *tp, struct timezone *tzp );
+int     gettimeofday    ( struct timeval *tp, void *__restrict tzp );
 //int     read            ( int fd, char *buf, int nbyte );
 int     select          ( int width, fd_set *readfds, fd_set *writefds,
                             fd_set *exceptfds, struct timeval *timeout );
@@ -146,7 +146,7 @@ time_t              current_time;       /* time of this pulse */
  * OS-dependent local functions.
  */
 void    game_loop               ( int control );
-int     init_socket             ( int port ); 
+int     init_socket             ( int port );
 void    new_descriptor          ( int control );
 bool    read_from_descriptor    ( DESCRIPTOR_DATA *d, bool color );
 bool    write_to_descriptor     ( int desc, char *txt, int length, bool color);
@@ -920,7 +920,7 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
     /*
      * Bust a prompt.
      */
-    if ( ( d->character != NULL ) 
+    if ( ( d->character != NULL )
 	&& IS_SET( d->character->act, PLR_COLOR ) ) {
 		color = TRUE;
     } else {
@@ -950,7 +950,7 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
 
         	if ( IS_SET( ch->comm, COMM_PROMPT ) ) {
 	            BUFFER *buf = buffer_new( 200 );
-	
+
     	        ch = d->character;
         	    if ( !IS_NPC( ch ) ) {
                 	bprintf( buf, "%s`w", doparseprompt(ch));
@@ -1143,7 +1143,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument ) {
         	break;
 
 	    case CON_GET_NEW_RACE:
-			handle_con_get_new_race( d, argument );	
+			handle_con_get_new_race( d, argument );
         	break;
 
     	case CON_GET_NEW_SEX:
@@ -1432,14 +1432,14 @@ void send_to_desc( char *txt, DESCRIPTOR_DATA *d )
 {
     if ( txt != NULL && d != NULL ) {
 		if ( d->ansi ) {
-        	write_to_descriptor( d->descriptor, txt, strlen(txt), 
+        	write_to_descriptor( d->descriptor, txt, strlen(txt),
 				TRUE );
 		} else {
-        	write_to_descriptor( d->descriptor, txt, strlen(txt), 
+        	write_to_descriptor( d->descriptor, txt, strlen(txt),
 				FALSE );
 		}
 	}
-		
+
     return;
 }
 
@@ -1648,7 +1648,7 @@ void act_new( const char *format, CHAR_DATA *ch, const void *arg1,
         *point++ = 'w';
         *point++ = '\n';
         *point++ = '\r';
-        *point++ = '\0'; 
+        *point++ = '\0';
         buf[0]   = UPPER(buf[0]);
         if (to->desc && (to->desc->connected == CON_PLAYING)) {
            // write_to_buffer( to->desc, buf, point - buf );
