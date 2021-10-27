@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2018 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -42,7 +42,7 @@ extern          int                     top_ed;
 extern          int                     top_room;
 
 AREA_DATA               *       area_free;
-EXTRA_DESCR_DATA        *       extra_descr_free;
+/* EXTRA_DESCR_DATA        *       extra_descr_free; - defined in db.c:60 */
 EXIT_DATA               *       exit_free;
 ROOM_INDEX_DATA         *       room_index_free;
 OBJ_INDEX_DATA          *       obj_index_free;
@@ -51,7 +51,7 @@ MOB_INDEX_DATA          *       mob_index_free;
 RESET_DATA              *       reset_free;
 HELP_DATA               *       help_free;
 
-HELP_DATA               *       help_last;
+/*  HELP_DATA               *       help_last; - defined in db.c:54 */
 
 
 RESET_DATA *new_reset_data( void ) {
@@ -149,7 +149,7 @@ EXIT_DATA *new_exit( void )
         exit_free       =   exit_free->next;
     }
 
-    pExit->u1.to_room   =   NULL;                  
+    pExit->u1.to_room   =   NULL;
     pExit->next         =   NULL;
     pExit->exit_info    =   0;
     pExit->key          =   0;
@@ -157,7 +157,7 @@ EXIT_DATA *new_exit( void )
     pExit->description  =   &str_empty[0];
     pExit->rs_flags     =   0;
     pExit->orig_door    =   5;
-    
+
     return pExit;
 }
 
@@ -414,7 +414,7 @@ void free_obj_index( OBJ_INDEX_DATA *pObj )
     {
         free_extra_descr( pExtra );
     }
-    
+
     pObj->next              = obj_index_free;
     obj_index_free          = pObj;
     return;
