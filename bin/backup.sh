@@ -21,8 +21,8 @@ AREADIR="${HOME}/${MUDDIR}/area"
 SRCDIR="${HOME}/${MUDDIR}/src"
 EXENAME="shadows"
 ARCHIVEDIR="$HOME/archives"
-DATE=$(date +%m%d%Y_%H%M)
-ARCHIVENAME="${EXENAME}.${DATE}.tar" 
+DATE=$(date +%Y-%m-%d_%H-%M)
+ARCHIVENAME="${EXENAME}.${DATE}.tar"
 MAILUSER="someuser@example.com"
 
 # Make sure the temp directory is readable and writable
@@ -35,7 +35,7 @@ fi
 # Create the archive dir, if it doesn't exist already
 if [ ! -e "${ARCHIVEDIR}" ]
 then
- 	if ! mkdir "${ARCHIVEDIR}" 
+ 	if ! mkdir "${ARCHIVEDIR}"
 	then
 		echo "Error creating archive directory."
 		echo "Setting archive directory to ${HOME}"
@@ -70,13 +70,13 @@ rm -f "${SRCDIR}"/*.o
 cd "${HOME}" || exit
 
 # Create the tar archive
-tar cf "${TEMPDIR}/${ARCHIVENAME}" "${MUDDIR}" 
+tar cf "${TEMPDIR}/${ARCHIVENAME}" "${MUDDIR}"
 
 # Compress the archive
-gzip "${TEMPDIR}/${ARCHIVENAME}" 
+gzip "${TEMPDIR}/${ARCHIVENAME}"
 
 # Move the archive to the ARCHIVEDIR
-if ! mv "${TEMPDIR}/${ARCHIVENAME}.gz" "${ARCHIVEDIR}" 
+if ! mv "${TEMPDIR}/${ARCHIVENAME}.gz" "${ARCHIVEDIR}"
 then
 	mail -s "Backup failed" "${MAILUSER}" <<EOM
 Backup of ${ARCHIVENAME}.gz failed.
@@ -90,7 +90,7 @@ List of files backed up:
 $(tar tzf "${ARCHIVEDIR}/${ARCHIVENAME}.gz")
 EOM
 fi
- 
+
 #cd "${SRCDIR}" || exit
 #make
 #make clean
