@@ -5,4 +5,4 @@ set -euo pipefail
 
 IPADDR=$(ip addr show | grep "inet " | grep -v "127.0.0.1" | awk '{print $2}' | awk -F '/' '{print $1}')
 
-telnet "${IPADDR}" 4000
+docker run --rm -it danwanderson/telnet "${IPADDR}" 4000

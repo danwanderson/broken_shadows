@@ -2,4 +2,4 @@
 
 set -euo pipefail
 
-nohup ./start_shadows.sh &
+nohup /srv/shadows/bin/start_shadows.sh &

@@ -40,4 +40,4 @@ COPY --from=0 /srv/shadows/src/shadows /srv/shadows/bin/shadows
 
 WORKDIR /srv/shadows
 
-ENTRYPOINT ["/srv/shadows/bin/wrapper.sh"]
+ENTRYPOINT ["/srv/shadows/bin/start_shadows.sh"]
