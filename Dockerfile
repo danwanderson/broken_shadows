@@ -17,7 +17,7 @@ RUN make && make clean
 
 FROM debian:latest
 
-RUN apt-get update && apt-get install -y telnet gdb make clang
+RUN apt-get update && apt-get install -y telnet gdb 
 
 RUN mkdir -p /srv/shadows
 
@@ -40,4 +40,4 @@ COPY --from=0 /srv/shadows/src/shadows /srv/shadows/bin/shadows
 
 WORKDIR /srv/shadows
 
-ENTRYPOINT ["/srv/shadows/bin/start_shadows.sh"]
+ENTRYPOINT ["/srv/shadows/bin/wrapper.sh"]
