@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -63,7 +63,7 @@ void save_bans(void)
         if (IS_SET(pban->ban_flags,BAN_PERMANENT))
         {
             found = TRUE;
-            fprintf(fp,"%-20s %-2d %s\n",pban->name,pban->rank,
+            fprintf(fp,"%-20s %-2d %s\n",pban->name,pban->level,
                 print_flags(pban->ban_flags));
         }
      }
@@ -95,7 +95,7 @@ void load_bans(void)
         pban = new_ban();
  
         pban->name = str_dup(fread_word(fp));
-        pban->rank = fread_number(fp);
+        pban->level = fread_number(fp);
         pban->ban_flags = fread_flag(fp);
         fread_to_eol(fp);
 
@@ -164,7 +164,7 @@ void ban_site(CHAR_DATA *ch, char *argument, bool fPerm)
         }
 
         bprintf(buffer,
-            "Banned sites               rank  type   status\n\r");
+            "Banned sites               level  type   status\n\r");
         for (pban = ban_list;pban != NULL;pban = pban->next)
         {
             bprintf(buf2,"%s%s%s",
@@ -172,7 +172,7 @@ void ban_site(CHAR_DATA *ch, char *argument, bool fPerm)
                 pban->name,
                 IS_SET(pban->ban_flags,BAN_SUFFIX) ? "*" : "");
             bprintf(buf,"%-25s    %-3d  %-7s  %s\n\r",
-                buf2->data, pban->rank,
+                buf2->data, pban->level,
                 IS_SET(pban->ban_flags,BAN_NEWBIES) ? "newbies" :
                 IS_SET(pban->ban_flags,BAN_PERMIT)  ? "permit"  :
                 IS_SET(pban->ban_flags,BAN_ALL)     ? "all"     : "",
@@ -232,7 +232,7 @@ void ban_site(CHAR_DATA *ch, char *argument, bool fPerm)
     {
         if (!str_cmp(name,pban->name))
         {
-            if (pban->rank > char_getImmRank(ch))
+            if (pban->level > get_trust(ch))
             {
                 send_to_char( "That ban was set by a higher power.\n\r", ch );
                 buffer_free( buf );
@@ -253,7 +253,7 @@ void ban_site(CHAR_DATA *ch, char *argument, bool fPerm)
 
     pban = new_ban();
     pban->name = str_dup(name);
-    pban->rank = char_getImmRank(ch);
+    pban->level = get_trust(ch);
 
     /* set ban type */
     pban->ban_flags = type;
@@ -315,7 +315,7 @@ void do_allow( CHAR_DATA *ch, char *argument )
     {
         if ( !str_cmp( arg, curr->name ) )
         {
-            if (curr->rank > char_getImmRank(ch))
+            if (curr->level > get_trust(ch))
             {
                 send_to_char(
                    "You are not powerful enough to lift that ban.\n\r",ch);

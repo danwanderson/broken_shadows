@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -494,6 +494,7 @@ const struct flag_type apply_flags[] =
     {   "constitution",         APPLY_CON,              TRUE    },
     {   "sex",                  APPLY_SEX,              TRUE    },
     {   "class",                APPLY_CLASS,            TRUE    },
+    {   "level",                APPLY_LEVEL,            TRUE    },
     {   "age",                  APPLY_AGE,              TRUE    },
     {   "height",               APPLY_HEIGHT,           TRUE    },
     {   "weight",               APPLY_WEIGHT,           TRUE    },

@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -90,7 +90,6 @@ BUFFER * __buffer_new (int min_size, const char * file, unsigned line)
     buffer->data = malloc (size);
     buffer->overflowed = FALSE;
 
-    buffer->data[0] = '\0';
     buffer->len = 0;
 
     return buffer;
@@ -177,7 +176,6 @@ void buffer_free (BUFFER *buffer)
 
 void buffer_clear (BUFFER *buffer)
 {
-	buffer->data[0] = '\0';
     buffer->overflowed = FALSE;
     buffer->len = 0;
 }

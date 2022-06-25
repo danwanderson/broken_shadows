@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -56,12 +56,12 @@ void handle_con_get_name( DESCRIPTOR_DATA *d, char *argument ) {
     // boredom (gotta love art classes after someone tries to destroy
     // your MUD).
     // Ok.. now the important stuff - This code will "discourage"
-    // people from trying to make imms and hide (imms above MAX_RANK
+    // people from trying to make imms and hide (imms above MAX_LEVEL
     // +2, who can't be seen on the "who" list.
-    if ( char_getImmRank( ch ) > MAX_RANK ) {
+    if ( ch->level > MAX_LEVEL + 2 ) {
         log_buf[0] = '\0';
-        sprintf( log_buf, "%s@%s tried to log in at rank %d.",
-            argument, d->host, char_getImmRank( ch ) );
+        sprintf( log_buf, "%s@%s tried to log in at level %d.",
+            argument, d->host, ch->level );
         log_string( log_buf );
         wiznet( log_buf, ch, NULL, WIZ_SECURE, 0, 0 );
         write_to_buffer( d, "Naughty, naughty. We don't like "
@@ -158,7 +158,7 @@ void handle_con_get_old_password( DESCRIPTOR_DATA *d, char *argument ) {
 
     sprintf( log_buf, "%s@%s has connected.", ch->name, d->host );
     log_string( log_buf );
-    wiznet( log_buf, NULL, NULL, WIZ_SITES, 0, char_getImmRank( ch ) );
+    wiznet( log_buf, NULL, NULL, WIZ_SITES, 0, get_trust( ch ) );
 
 	if ( ch->desc->ansi ) {
 		SET_BIT( ch->act, PLR_COLOR );
@@ -293,12 +293,15 @@ void handle_con_confirm_new_password( DESCRIPTOR_DATA *d, char *argument ) {
     write_to_buffer(d,"The following races are available:\n\r  ",0);
 
     for ( race = 1; race_table[race].name != NULL; race++ ) {
-        if (!race_table[race].pc_race) {
+        if (!race_table[race].pc_race)
             break;
-		}
 
-        write_to_buffer(d,race_table[race].name,0);
-        write_to_buffer(d," ",1);
+        if ( !race_table[race].remort_race ||
+          ( race_table[race].remort_race && IS_SET( ch->act,
+            PLR_REMORT ) ) ) {
+            write_to_buffer(d,race_table[race].name,0);
+            write_to_buffer(d," ",1);
+        } // if
     } // for
 
     write_to_buffer(d,"\n\r",0);
@@ -310,7 +313,7 @@ void handle_con_get_new_race( DESCRIPTOR_DATA *d, char *argument ) {
 	int race;
 	char arg[MAX_INPUT_LENGTH];
 	CHAR_DATA *ch = d->character;
-	int i = 0;
+	int i;
 
     one_argument(argument,arg);
 
@@ -330,16 +333,21 @@ void handle_con_get_new_race( DESCRIPTOR_DATA *d, char *argument ) {
 
     race = race_lookup(argument);
 
-    if (race == 0 || !race_table[race].pc_race  ) {
+    if (race == 0 || !race_table[race].pc_race || ( !IS_SET( ch->act,
+        PLR_REMORT ) && race_table[race].remort_race ) ) {
         write_to_buffer(d,"That is not a valid race.\n\r",0);
         write_to_buffer(d,"The following races are available:\n\r  ",0);
 
         for ( race = 1; race_table[race].name != NULL; race++ ) {
-            if (!race_table[race].pc_race) {
+            if (!race_table[race].pc_race)
                 break;
-			}
-            write_to_buffer(d,race_table[race].name,0);
-            write_to_buffer(d," ",1);
+
+            if ( !race_table[race].remort_race ||
+               ( race_table[race].remort_race && IS_SET( ch->act,
+               PLR_REMORT ) ) ) {
+                write_to_buffer(d,race_table[race].name,0);
+                write_to_buffer(d," ",1);
+            } // if
         } // for
 
         write_to_buffer(d,"\n\r",0);
@@ -421,10 +429,15 @@ void handle_con_get_stats( DESCRIPTOR_DATA *d, char *argument ) {
                 strcpy( buf, "Select a class [" );
                 for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
                 {
-                    if ( iClass > 0 ) {
-                        strcat( buf, " " );
-					}	
-                    strcat( buf, class_table[iClass].name );
+                    if ( !class_table[iClass].remort_class ||
+                       ( class_table[iClass].remort_class &&
+                        IS_SET( ch->act, PLR_REMORT ) ) ) {
+
+                        if ( iClass > 0 ) {
+                            strcat( buf, " " );
+						}
+                        strcat( buf, class_table[iClass].name );
+                    } // if
                 } // for
 
                 strcat( buf, "]: " );
@@ -545,7 +558,8 @@ void handle_con_get_new_class( DESCRIPTOR_DATA *d, char *argument ) {
 
 	iClass = class_lookup(argument);
 
-    if ( iClass == -1 ) {
+    if ( iClass == -1 || ( class_table[iClass].remort_class &&
+        !IS_SET( ch->act, PLR_REMORT ) ) ) {
         write_to_buffer( d,
             "That's not a class.\n\rWhat IS your class? ", 0 );
         return;
@@ -556,7 +570,7 @@ void handle_con_get_new_class( DESCRIPTOR_DATA *d, char *argument ) {
     sprintf( log_buf, "%s@%s new player.", ch->name, d->host );
     log_string( log_buf );
     wiznet( "Newbie alert! $N sighted!", ch, NULL, WIZ_NEWBIE, 0,0);
-    wiznet( log_buf, NULL, NULL, WIZ_SITES, 0, char_getImmRank( ch ) );
+    wiznet( log_buf, NULL, NULL, WIZ_SITES, 0, get_trust( ch ) );
 
     write_to_buffer( d, "\n\r", 2 );
     // Paladins can't be evil.. - Rahl 
@@ -733,6 +747,24 @@ void handle_con_gen_groups( DESCRIPTOR_DATA *d, char *argument ) {
     do_help(ch,"menu choice");
 }
 
+void handle_con_begin_remort( DESCRIPTOR_DATA *d, char *argument ) {
+	int race;
+
+    write_to_buffer( d, "Now beginning the remorting process.\n\r\n\r", 0 );
+    write_to_buffer( d, "The following races are available:\n\r  ", 0 );
+
+    for ( race = 1; race_table[race].name != NULL; race++ ) {
+        if ( !race_table[race].pc_race ) {
+            break;
+		} // if
+        write_to_buffer( d, race_table[race].name, 0 );
+        write_to_buffer( d, "  ", 2 );
+    } // for
+
+    write_to_buffer( d, "\n\r", 0 );
+    write_to_buffer( d, "What is your race (help for more information)? ", 0 );
+	d->connected = CON_GET_NEW_RACE;
+}
 
 void handle_con_read_imotd( DESCRIPTOR_DATA *d, char *argument ) {
 	CHAR_DATA *ch = d->character;
@@ -775,15 +807,15 @@ void handle_con_read_motd( DESCRIPTOR_DATA *d, char *argument ) {
         send_to_char("\n\r",ch);
     } else if ( ch->in_room != NULL ) {
         char_to_room( ch, ch->in_room );
-//    } else if ( IS_IMMORTAL(ch) ) {
-//        char_to_room( ch, get_room_index( ROOM_VNUM_CHAT ) );
+    } else if ( IS_IMMORTAL(ch) ) {
+        char_to_room( ch, get_room_index( ROOM_VNUM_CHAT ) );
     } else {
         char_to_room( ch, get_room_index( ROOM_VNUM_TEMPLE ) );
     } // if
 
     act( "$n has entered the game.", ch, NULL, NULL, TO_ROOM );
     wiznet( "$N has left real life behind.", ch, NULL, WIZ_LOGINS,
-            WIZ_SITES, char_getImmRank( ch ) );
+            WIZ_SITES, get_trust( ch ) );
 
     do_look( ch, "auto" );
 

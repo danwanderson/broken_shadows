@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -66,6 +66,7 @@ char                    bug_buf         [2*MAX_INPUT_LENGTH];
 CHAR_DATA *             char_list;
 char *                  help_greeting;
 char                    log_buf         [2*MAX_INPUT_LENGTH];
+KILL_DATA               kill_table      [MAX_LEVEL];
 OBJ_DATA *              object_list;
 CLAN_DATA *             clan_first;
 CLAN_DATA *             clan_last;
@@ -548,7 +549,7 @@ void boot_db(  )
 void new_load_area( FILE *fp )
 {
     AREA_DATA *pArea;
-    char      *word = NULL;
+    char      *word;
     bool      fMatch;
 
     pArea               = alloc_perm( sizeof(*pArea) );
@@ -616,16 +617,13 @@ void new_load_area( FILE *fp )
  */
 void assign_area_vnum( int vnum )
 {
-    if ( area_last->lvnum == 0 || area_last->uvnum == 0 ) {
+    if ( area_last->lvnum == 0 || area_last->uvnum == 0 )
         area_last->lvnum = area_last->uvnum = vnum;
-	}
-    if ( vnum != URANGE( area_last->lvnum, vnum, area_last->uvnum ) ) {
-        if ( vnum < area_last->lvnum ) {
+    if ( vnum != URANGE( area_last->lvnum, vnum, area_last->uvnum ) )
+        if ( vnum < area_last->lvnum )
             area_last->lvnum = vnum;
-        } else {
+        else
             area_last->uvnum = vnum;
-		}
-	}
     return;
 }
 
@@ -1691,6 +1689,7 @@ void clone_mobile(CHAR_DATA *parent, CHAR_DATA *clone)
     clone->ch_class     = parent->ch_class;
     clone->race         = parent->race;
     clone->level        = parent->level;
+    clone->trust        = 0;
     clone->timer        = parent->timer;
     clone->wait         = parent->wait;
     clone->hit          = parent->hit;
@@ -1919,7 +1918,8 @@ void clone_object(OBJ_DATA *parent, OBJ_DATA *clone)
 /*
  * Clear a new character.
  */
-void clear_char( CHAR_DATA *ch ) {
+void clear_char( CHAR_DATA *ch )
+{
     static CHAR_DATA ch_zero;
     int i;
 
@@ -1936,16 +1936,16 @@ void clear_char( CHAR_DATA *ch ) {
         ch->armor[i]            = 100;
     ch->comm                    = 0;
     ch->position                = POS_STANDING;
-	ch->train					= 0;
     ch->practice                = 0;
-    ch->hit                     = 5;
-    ch->max_hit                 = 5;
-    ch->mana                    = 10;
-    ch->max_mana                = 10;
-    ch->move                    = 50;
-    ch->max_move                = 50;
+    ch->hit                     = 20;
+    ch->max_hit                 = 20;
+    ch->mana                    = 100;
+    ch->max_mana                = 100;
+    ch->move                    = 100;
+    ch->max_move                = 100;
  /*   ch->pcdata->recall_room     = get_room_index( ROOM_VNUM_TEMPLE ); */
-    for (i = 0; i < MAX_STATS; i ++) {
+    for (i = 0; i < MAX_STATS; i ++)
+    {
         ch->perm_stat[i] = 13;
         ch->mod_stat[i] = 0;
     }
@@ -2618,6 +2618,8 @@ void do_areas( CHAR_DATA *ch, char *argument )
     int iAreaHalf;
     BUFFER *buffer = buffer_new( MAX_INPUT_LENGTH );
 
+    buffer->data[0] = '\0';
+
     if (argument[0] != '\0') {
         send_to_char("No argument is used with this command.\n\r",ch);
         buffer_free( buf );
@@ -3146,7 +3148,7 @@ void log_string( const char *str )
     char *strtime;
     char logfile[22];
     char buf[12];
-    char temp[30];
+    char temp[22];
     int i, j;
     FILE *log_file;
     FILE *tempfile;
@@ -3157,22 +3159,21 @@ void log_string( const char *str )
     log_file = NULL;
 
     sprintf( buf, "%s", get_curdate() );
-    for ( i = 0; i < 10; i++ ) {
-        if ( buf[i] == '/' ) {
+    for ( i = 0; i < 10; i++ )
+    {
+        if ( buf[i] == '/' )
             buf[i] = '-';
-        }
     }
 
     sprintf( temp, "../log/%s.log", buf );
 
-    if ( strcmp( temp, logfile ) ) {
+    if ( strcmp( temp, logfile ) )
+    {
         tempfile = fopen( temp, "a" );
-        if ( log_file != NULL ) {
+        if ( log_file != NULL )
             fclose( log_file );
-        }
-        for ( j = 0; j < 22; j++ ) {
+        for ( j = 0; j < 22; j++ )
             logfile[j] = temp[j];
-        }
         log_file = fopen( logfile, "a" );
 		if ( tempfile ) {
         	fclose( tempfile );
@@ -3568,6 +3569,7 @@ void load_mobiles( FILE *fp )
         top_mob_index++;
         top_vnum_mob = top_vnum_mob < vnum ? vnum : top_vnum_mob;  /* OLC */
         assign_area_vnum( vnum );                                  /* OLC */
+        kill_table[URANGE(0, pMobIndex->level, MAX_LEVEL-1)].number++;
     }
  
     return;

@@ -1,0 +1,2437 @@
+#AREADATA
+Name        {20-40} Lod     Koln~
+Builders    None~
+VNUMs       14400 14499
+Security    9
+End
+
+
+
+#MOBILES
+#14400
+weaponsmith shopkeeper~
+the shopkeeper~
+The shopkeeper is here trying to sell you something.
+~
+~
+Dwarf~
+ABTV J 0 400 S
+35 15 10d70+500 0d0+0 6d7+20 17
+-12 -12 -12 -1
+FHK 0 CLQ R
+8 8 1 0
+AHMV ABCDEFGHIJK M none
+#14401
+armorer shopkeeper~
+the armorer~
+The armorer is here trying to get you to buy some of his fine armor.
+~
+YOu see before an old armorer who looks like he has been making and
+selling armor for many decades.  
+~
+Dwarf~
+ABTV J 0 400 S
+35 15 10d70+500 0d0+0 6d7+20 17
+-12 -12 -12 -1
+FHK 0 CLQ R
+8 8 1 0
+AHMV ABCDEFGHIJK M none
+#14402
+dwarf old herbalist~
+the herbalist~
+An old dwarf is here mashing up some dried mushrooms.
+~
+You see the old herbalist of the dwarven city of Koln.  He apears to have
+been making potions and collecting herbs since the begining of time.  He
+temporariy stops mashing up some mushrooms and looks up at you.  He says,
+"Can I help you with something?"  
+~
+Dwarf~
+ABTV J 0 0 S
+35 15 10d70+500 0d0+0 6d7+20 17
+-12 -12 -12 -1
+FH 0 CLQ R
+8 8 1 0
+AHMV ABCDEFGHIJK M none
+#14403
+ghost dead dwarf~
+a ghost dwarf~
+The ghost of a dead dwarf is here.
+~
+You see the ghost of dead dwarf here.  It is chained to the world of the
+living by the invisible bonds of untimely death.  It is not happy about
+being forced to live between the worlds forever.  
+~
+unique~
+ABFOT BJ 0 -400 S
+20 5 7d40+200 0d0+0 4d5+10 5
+-2 -2 -2 4
+0 0 CHILQ R
+8 8 0 0
+AHMV 0 M none
+#14404
+priest dwarf~
+a dwarven priest~
+A powerful-looking dwarven priest is here guarding the dead.
+~
+You see before you a Kri priest-warrior.  It is the job of the Kri to
+keep unruly persons out of the sacred burial caves of the dwarven ancestors.
+The usally politely ask them to leave and if that doesn't work they splatter
+their brians across the floor.  
+~
+Dwarf~
+ABQT J 0 700 S
+25 6 10d50+300 25d10+100 1d1+7 0
+-4 -4 -4 2
+DHKU 0 CLQ R
+8 8 3 30
+AHMV ABCDEFGHIJK M none
+#14405
+bartender~
+the bartender~
+An old dwarven bartender is here trying to get you to buy a drink.
+~
+The bartender is an old dwarf who used to be a great warrior.  Now he
+just likes to sell alcoholic beverages to unsuspecting humans.  
+~
+Dwarf~
+ABTV J 0 0 S
+35 15 10d70+500 0d0+0 6d7+20 0
+0 0 0 0
+CHK 0 CLQ R
+8 8 1 0
+AHMV ABCDEFGHIJK M none
+#14406
+waitress~
+a waitress~
+A waitress is here waiting to take your order.
+~
+~
+Dwarf~
+AB J 0 0 S
+15 0 5d30+160 0d0+0 3d5+8 0
+0 0 0 5
+0 0 CLQ R
+8 8 2 0
+AHMV ABCDEFGHIJK M none
+#14407
+drunken dwarf~
+a drunken dwarf~
+A drunken dwarf is here being drunk.
+~
+You see before you dwarf who had decided to become drunk.  He did this by
+drinking a large amount of alcoholic beverages over the past few hours and
+is now quite inebriated.  He is, among other things, convinced that you are
+his long lost brother, and he is also trying to get you to go off to battle
+enemies long since vanquished.  
+~
+Dwarf~
+ABT J 0 100 S
+20 4 7d40+200 0d0+0 4d5+10 0
+0 0 0 0
+DHR 0 CLQ R
+8 8 1 8
+AHMV ABCDEFGHIJK M none
+#14408
+kri priest dwarf~
+a dwarven priest~
+A powerful-looking dwarf walks among the dead here.
+~
+You see before you a Kri priest-warrior.  It is the job of this Kri to
+walk among the dead to make sure that they are resting comfortbly.  It is
+also their job to protect their anscestors from any attack that may come
+from within the Caves.  
+~
+Dwarf~
+AQT J 0 700 S
+25 6 10d50+300 25d10+100 1d1+7 0
+-4 -4 -4 2
+DHKU 0 CLQ R
+8 8 3 99
+AHMV ABCDEFGHIJK M none
+#14409
+katra dwarf~
+a katra dwarf~
+A Katra dwarf is here.
+~
+The Katra dwarves are a curious sect of dwarven culture that have decided
+to renounce life.  The Katra, along with most of their fellow dwarves,
+believe that they are dead, which is why they spend so much time in the
+burial caves.  Katra dwarves generally hold all living beings in very low
+regard, and often try to make other people dead, because they think it's
+better that way.  
+~
+Dwarf~
+AT J 0 -200 S
+30 12 20d35+415 0d0+0 5d6+15 0
+-9 -9 -9 0
+DEHKU 0 CLQ R
+8 8 3 0
+AHMV ABCDEFGHIJK M none
+#14410
+katra knifemaster master dwarf~
+the Katra Knifemaster~
+The Katra Knifemaster is here twirling some vicious-looking knives.
+~
+The Knifemaster whips around some razor sharp knives in a threatening
+display.  
+~
+Dwarf~
+ABFT J 0 -330 S
+35 0 10d70+600 0d0+0 5d7+18 0
+-12 -12 -12 -1
+BDEFHR 0 CLQ R
+8 8 1 0
+AHMV ABCDEFGHIJK M none
+#14411
+katra dwarf~
+a Katra dwarf~
+A Katra dwarf is here practicing the violent arts.
+~
+You are looking at a Katra dwarf practicing the violent arts.  Because of
+the Katra's desire to bring those who are alive into their blissful realm of
+the dead, they practice for many hours learn easy and fast ways to "correct"
+the living.  Understandibly, they are quite good at that.  
+~
+Dwarf~
+ABT J 0 -200 S
+30 15 20d35+415 0d0+0 5d6+15 0
+-9 -9 -9 0
+DEFHKR 0 CLQ R
+8 8 3 0
+AHMV ABCDEFGHIJK M none
+#14412
+katra guard~
+a katra dwarven guard~
+A Katra guard is here guarding the entranceway.
+~
+The katra guards are selected for their position on the basis of
+aggressiveness.  Consequently, these dwarves are likely to attack any
+foriegn creature that comes through the entrance, regardless of of whether
+the are likely to kill it or not.  These katra throw their lives into every
+fight.  
+~
+Dwarf~
+ABFT J 0 -200 S
+30 15 20d35+415 0d0+0 5d6+15 7
+-9 -9 -9 0
+DEFHKU 0 CLQ R
+8 8 3 48
+AHMV ABCDEFGHIJK M none
+#14413
+kri priest dwarf~
+a dwarven priest~
+A dwarven priest is here.
+~
+You see before you a Kri priest-warrior.  It is the job of this Kri to
+walk among the dead to make sure that they are resting comfortbly.  It is
+also their job to protect their anscestors from any attack that may come
+from within the Caves.  
+~
+Dwarf~
+ABQT J 0 700 S
+25 8 10d50+300 25d10+100 5d5+13 0
+-4 -4 -4 2
+DHKU 0 CLQ R
+8 8 3 0
+AHMV ABCDEFGHIJK M none
+#14414
+rhatka khan deathmaster~
+Rhatka Khan~
+Rhatka Khan, the Katra Deathmaster is here.
+~
+You are looking at Rhatka Khan, the Katra Deathmaster.  So titled because
+of his abillity to make most living things dead.  He is very unstable, torn
+between the world of the living and that of the dead.  This instability
+causes him to lash out at almost everything.  
+~
+Dwarf~
+ABFT JV 0 -700 S
+40 18 10d80+750 0d0+0 5d8+20 0
+-15 -15 -15 -3
+BDEFHR 0 CLQ R
+8 8 1 0
+AHMV ABCDEFGHIJK M none
+#14415
+guard city dwarf~
+a dwarven city guard~
+A burly dwarven city guard is here on the watch.
+~
+This tough-looking dwarf looks ready for any attack.
+~
+Dwarf~
+ABT J 0 0 S
+29 15 20d35+415 0d0+0 5d6+15 0
+-9 -9 -9 0
+DEHKR 0 CLQ R
+8 8 3 250
+AHMV ABCDEFGHIJK M none
+#14416
+dwarf citizen~
+a dwarven citizen~
+A dwarven citizen is here grumbling about nothing.
+~
+This dwarf seems generally unhappy about something, but maybe all dwarves
+are like that.  
+~
+Dwarf~
+A J 0 0 S
+22 9 10d40+250 0d0+0 4d6+10 0
+-3 -3 -3 3
+DHR 0 CLQ R
+8 8 3 106
+AHMV ABCDEFGHIJK M none
+#0
+
+
+
+#OBJECTS
+#14400
+dwarven war hammer~
+a war hammer~
+A strong war hammer of dwarven make is here.~
+none~
+5 0 AN
+C AB ABC D 0
+18 10 10000
+A
+19 2
+#14401
+blade chaos~
+a blade of chaos~
+An very evil looking blade lies here.~
+none~
+5 0 AN
+0 AC AC A 0
+20 9 20000
+A
+19 2
+A
+18 2
+#14402
+dwarven plate mail~
+dwarven plate mail~
+A suit of dwarven plate mail is here.~
+none~
+9 0 AD
+ABCD BCD ABCD BD 0
+20 15 19000
+#14403
+sword divine fire~
+the sword of divine fire~
+The sword of divine fire is here waiting to be commanded.~
+none~
+5 AG AN
+A ABC AC CE A
+30 6 2500
+A
+19 3
+A
+18 1
+E
+sword~
+The sword of divine power is here waiting to be commanded.  It has the
+mark of the goddess Oya etched on the hilt.  
+~
+#14404
+purple mushroom~
+a purple mushroom~
+A large purple mushroom is here.~
+none~
+26 0 A
+20 61 16 43 0
+17 1 200
+#14405
+potion test~
+a test potion~
+A potion that is being used for a test is here.~
+none~
+10 0 A
+100 4 0 0 0
+20 2 300
+#14406
+green mushroom~
+a green mushroom~
+A bright green mushroom is here.~
+none~
+26 0 A
+21 501 16 0 0
+19 1 400
+#14407
+brown mushroom~
+a wrinkly brown mushroom~
+A small wrinkly brown mushroom is here.~
+none~
+26 0 A
+21 502 39 0 0
+20 1 700
+#14408
+hammer holy dwarven~
+a holy dwarven hammer~
+A holy dwarven hammer is here.~
+none~
+5 GK AN
+C BD AB ABDE 0
+25 10 400
+A
+18 1
+A
+19 2
+#14409
+iron key~
+a great iron key~
+A great iron key is here.~
+none~
+18 0 A
+0 0 0 0 0
+0 2 0
+#14410
+shroud light~
+a shroud of light~
+The Shroud of Light is floating here.~
+none~
+9 AG AD
+DGH DGH DGH DGH 0
+93 0 300000
+A
+14 200
+A
+3 5
+A
+1 5
+#14411
+mug grog~
+a mug of grog~
+A mug full of a filthy smelling liquid is here.~
+none~
+17 0 A
+BD BD D 0 0
+5 1 15
+#14412
+mug beer~
+a mug of beer~
+A large, frosty mug 'o beer is here.~
+none~
+17 0 A
+BD BD A 0 0
+5 2 13
+#14413
+ale mug~
+a mug of ale~
+A large, frosty mug o' ale is here.~
+none~
+17 0 A
+ABCD ABCD AB 0 0
+9 2 20
+#14414
+mug dark ale~
+a mug of dark ale~
+A large, frosty mug o' dark ale is here.~
+none~
+17 0 A
+ABCD ABCD C 0 0
+9 2 20
+#14415
+bottle blackend voodoo~
+a large bottle of Blackend Voodoo~
+A large bottle of Blackend Voodoo is here.~
+none~
+17 0 A
+ADE ADE ABC 0 0
+12 3 30
+#14416
+veal~
+a plate of veal~
+A plate of A DEAD BABY COW is here.~
+none~
+19 0 A
+AF 0 0 0 0
+0 1 70
+#14417
+meal big~
+a big meal~
+A complete meal is here making you salivate.~
+none~
+19 0 A
+BEF 0 0 0 0
+0 3 120
+#14418
+katra knife~
+a katra knife~
+A long, vicious, curved knife is here.~
+none~
+5 0 AN
+B C AD A D
+30 3 0
+A
+19 3
+A
+18 2
+#14419
+knife bloodletter~
+a knife named "Bloodletter"~
+A knife named "Bloodletter" is here.~
+none~
+5 0 AN
+B BC ABC B 0
+35 2 200
+A
+19 4
+A
+18 1
+#14420
+bladed whip~
+a long, bladed chain whip~
+A long, bladed chain whip is here.~
+none~
+5 0 AN
+ABC C BD AB D
+30 5 300
+#14421
+katra short sword~
+a katra short sword~
+A vicious-looking short sword is lying here.~
+none~
+5 0 AN
+A AC ABC A D
+30 10 300
+A
+18 2
+A
+19 2
+#14422
+altar~
+the altar~
+The massive altar occupies the center of the room.~
+none~
+15 0 0
+BCDE ACD 0 0 0
+40 200 0
+E
+altar~
+The altar is cut from a massive block of marble and is covered in ancient
+dwarven symbols.  It looks like it could be opened, but probably hasn't been
+for hundreds of years.  
+~
+#14423
+corpse~
+a dwarven corpse~
+The corpse of a dead dwarf is here.~
+none~
+23 H A
+0 0 0 0 0
+25 100 0
+#14424
+old ring light~
+the ring of the light~
+An old, dusty ring is here.~
+none~
+1 AGKQ AB
+0 0 999 0 0
+30 1 250
+A
+25 1000
+A
+4 2
+A
+12 30
+#14425
+ring dark shiny~
+the ring of the dark~
+A shiny ring is here.~
+none~
+9 CJM AB
+BD BD BD B 0
+30 1 300
+A
+25 -1000
+A
+1 1
+A
+19 6
+A
+4 -2
+#14426
+mushrooms shrooms~
+some small dried mushrooms~
+Some small, foul-smelling, dried mushrooms are here.~
+none~
+26 0 A
+25 19 39 44 0
+22 1 0
+#14427
+deep red cloak~
+a deep red cloak~
+A deep red cloak is here.~
+none~
+9 CJM AK
+ABD ABD ABD A 0
+38 7 380
+A
+2 1
+#14428
+dark sword~
+a dark sword~
+A dark sword is here.~
+none~
+5 CJ AN
+A BC AD AB D
+40 11 400
+A
+19 3
+A
+18 2
+#14429
+armor battle dwarven~
+dwarven battle armor~
+Some heavy dwarven battle armor is here.~
+none~
+9 0 AD
+AD AD AD A 0
+28 40 280
+A
+14 -30
+#14430
+huge axe~
+a huge axe~
+A HUGE axe is here.~
+none~
+5 0 ANPQRSTUVWXYZabcdef
+AC AC ABC ADE F
+30 20 300
+A
+18 -2
+A
+19 4
+#14431
+dwarven leg plates~
+a pair of dwarven leg plates~
+A pair of shiny leg plates are here.~
+none~
+9 0 AF
+BD ABC D 0 0
+28 7 200
+#14432
+helm iron~
+an iron helm~
+An iron helm is here.~
+none~
+9 0 AE
+AD D D 0 0
+28 11 200
+#0
+
+
+
+#ROOMS
+#14400
+The Main Entrence to the Dwarven Kingdom~
+You stand at the entrence to the Dwarven Kingdom.  To the north you see a
+massive iron door with the emblem of Durin the Deathless carved into it.  
+~
+0 0 0
+E
+gate~
+Beyond the gate lies the dwarven kingdom.
+~
+D0
+~
+gate~
+1 0 14401
+D2
+~
+~
+0 0 901
+S
+#14401
+A road~
+You on a small stone road just inside the main entrence to the Dwarven
+Kingdom.  To the west lies a the path that leads down to the mines of Ersin.
+Along this road to the north lies the Dwarven city of Koln.  
+~
+0 8 0
+D0
+~
+~
+0 0 14406
+D2
+~
+~
+1 0 14400
+D3
+~
+~
+0 0 14402
+S
+#14402
+A road~
+You are on a small road that leads in to the mines of Ersin.  To the east
+lies the way to the dwarven city of Koln.  
+~
+0 8 0
+D0
+~
+~
+0 0 14403
+D1
+~
+~
+0 0 14401
+S
+#14403
+A road~
+You are on a small road near the entrence to the mines of Ersin.  You see
+grubby dwarves going to and fro with candles attatched to their hats,
+holding pick axes, muttering to each other about the minerals they've dug
+up.  
+~
+0 8 0
+D2
+~
+~
+0 0 14402
+D3
+~
+~
+0 0 14404
+S
+#14404
+A road~
+You are on the road that leads from the city of Koln to the Mines of
+Ersin.  Some grubby dwarves walk by with candles burning on their hats.  
+~
+0 8 0
+D0
+~
+~
+0 0 14405
+D1
+~
+~
+0 0 14403
+S
+#14405
+Entrence to the Mines~
+You are at the entrence to the mines of Ersin.  The is a sort of winch
+and pully contraption here that allows the miners to go straight up and down
+with using a latter.  Down will take to the floor of the mine, while south
+will lead you back to the dwarven city of Koln.  
+There is a sign here.
+~
+0 8 0
+E
+sign~
+The Mines of Ersin are closed for repairs.
+     - Lod
+~
+D2
+~
+~
+0 0 14404
+S
+#14406
+A road~
+You are on the road that leads to the Dwarven city of Koln.  You can here
+the sounds of drunken dwarves from here.  To the east lies another road.  
+~
+0 8 0
+D1
+~
+~
+0 0 14407
+D2
+~
+~
+0 0 14401
+S
+#14407
+A road~
+You are on a road near the Dwarven city of Koln.  To the north lies the
+city and to the east lies a small road which doesnt seem to lead anywhere.  
+~
+0 8 0
+D0
+~
+~
+0 0 14418
+D1
+~
+~
+0 0 14408
+D3
+~
+~
+0 0 14406
+S
+#14408
+End of the road~
+You are at the end of the road.  It seems to run straight into a stone
+wall.  There are some scratches on a stone in the corner of the wall. 
+~
+0 8 0
+E
+stone~
+You probably could move the stone.
+~
+E
+scratches~
+You see some scratches around a large stone in the corner of the wall. 
+The stone probably be moved if you needed to.  
+~
+E
+east~
+You see a loose stone that might be easily moved.
+~
+D1
+~
+stone~
+7 0 14409
+D3
+~
+~
+0 0 14407
+S
+#14409
+The caves~
+You are a dead end in the caves.  To the east lies the way you came.  On
+part of the cave wall to the west you see some scratches.  
+~
+0 9 0
+E
+scratches~
+You see some scratches around a large stone in the corner.  Upon further
+inspection you find you can move the stone.  
+~
+D1
+~
+~
+0 0 14410
+D3
+~
+stone~
+7 0 14408
+S
+#14410
+The caves~
+You are in the caves.  It is very quiet and some what chilly.  You see
+white cave crickets with extremely long antenea and legs walking from rock
+to rock.  To the east and west lie passageways.  To the north lies more of
+the caves.  
+~
+0 9 0
+D0
+~
+~
+0 0 14412
+D1
+~
+~
+0 0 14411
+D3
+~
+~
+0 0 14409
+S
+#14411
+The caves~
+The passage way gets too small for you to fit through.  Water drips on
+you as cave crickets walk by you.  To the west lies the way you came.  
+~
+0 9 0
+D3
+~
+~
+0 0 14410
+S
+#14412
+The caves~
+You are in the caves.  It is dark and wet, and spooky looking cave
+crickets are walking around.  To the north and south lie more of the caves. 
+~
+0 9 0
+D0
+~
+~
+0 0 14413
+D2
+~
+~
+0 0 14410
+S
+#14413
+The caves~
+You are in the caves.  It is wet and dark.  Pale white cave crickets with
+extremely long antenea and legs calmly walk by you.  To the north you think
+it seems lighter.  To the south and west lie more of the caves.  
+~
+0 9 0
+D0
+~
+~
+0 0 14414
+D2
+~
+~
+0 0 14412
+D3
+~
+~
+0 0 14416
+S
+#14414
+The caves~
+You are in the caves.  It is wet, dark, and slightly chilly.  Pale whit
+cave crickets with extremely long antenae and legs walk calmly past you.  To
+the south lies some more dark caves.  To the east you think you can see some
+light.  
+~
+0 0 0
+D1
+~
+~
+0 0 14415
+D2
+~
+~
+0 0 14413
+S
+#14415
+The caves~
+You are in the caves.  It is dark and wet.  Small bats hang overhead as
+pale white cave crickets with extremely long antenae walk past you.  To the
+west lies more of the caves.  To the east lies the exit to the hunting
+plains.  
+~
+0 9 0
+E
+sign~
+The exit to the plains isn't hooked up yet.  I'm working on it.
+     - Lod Lotharang Manhammer
+~
+D1
+~
+~
+0 0 10234
+D3
+~
+~
+0 0 14414
+S
+#14416
+The caves~
+You are at a dead end in the caves.  It is dark and wet and cave crickets
+walk calmly walk past you.  The only exit is the way you came.  
+~
+0 9 0
+D1
+~
+~
+0 0 14413
+S
+#14417
+The Great Hall~
+You are in the Great Hall of Dwarves in the Castle Lotharang.  It is an
+emense passageway carved out of the mountain and slopes slightly down to the
+north.  
+~
+0 8 0
+D0
+~
+~
+0 0 14471
+D2
+~
+~
+0 0 14440
+S
+#14418
+Main Street~
+You are on Main street in the dwarven city of Koln.  To the north lies
+some shops and to the south lies the way to the main entrence to the
+kingdom.  
+~
+0 8 0
+D0
+~
+~
+0 0 14420
+D2
+~
+~
+0 0 14407
+S
+#14419
+The weapon shop~
+You are in the weapon shop in the Dwarven city of Koln.  There are
+display cases of all sorts of weapons from hammers and axes to some really
+weird bladed weapons.  You may look but if you want to try something out
+please ask for assistance.  
+~
+0 8 0
+D1
+~
+~
+0 0 14420
+S
+#14420
+Main Street~
+You are on Main Street in the city of Koln.  To the east you see a dwarf
+promoting the benefits of good dwarven armor.  To the west you see a dwarf
+promoting the benefits of good dwarven weapons.  To the south lies more of
+Main Street and to the north lie more shops and houses.  
+~
+0 8 0
+D0
+~
+~
+0 0 14423
+D1
+~
+~
+0 0 14421
+D2
+~
+~
+0 0 14418
+D3
+~
+~
+0 0 14419
+S
+#14421
+The Armory~
+You are in the Armor shop in the city of Koln.  There are very fine
+peices of armor on the walls and on manekins.  You may look at the armor buy
+if you wish to try something one please ask for assistance.  
+~
+0 8 0
+D3
+~
+~
+0 0 14420
+S
+#14422
+The Good Grub Tavern~
+You have just entered the Good Grub Tavern.  Like the name implies it is
+the source for good grub in Koln.  None of the patrons here look like
+they'll go hungry in the next day or so after they've had a full meal here. 
+To the north lies the bar and many a drunken dwarf.  To the east lies the
+fresh air of the city.  Upstairs is a common sleeping room for people
+recovering from the effects that the bar bestows upon the unsuspecting
+out-of-towners.  
+~
+0 8 0
+D0
+~
+~
+0 0 14472
+D1
+~
+~
+0 0 14423
+D4
+~
+~
+0 0 14425
+S
+#14423
+Main Street~
+You are on a section of Main Street in the city of Koln.  To the west you
+can see drunken dwarves having a grand old time in a tavern.  To the east is
+an unassuming house.  To the north and south lie more of Main Street.  
+~
+0 8 0
+E
+door~
+Odd that a dwarf in the dwarven kingdom would lock the door to his house.  
+~
+D0
+~
+~
+0 0 14427
+D1
+~
+door~
+1 0 14424
+D2
+~
+~
+0 0 14420
+D3
+~
+~
+0 0 14422
+S
+#14424
+A house~
+You are in one of the houses in the dwarven city of Koln.  It is a
+smallish, squattish house that is all together uninteresting.  
+~
+0 8 0
+D3
+~
+none~
+1 0 14423
+S
+#14425
+The tavern~
+You are on the second floor of the Good Grub Tavern in the city of Koln. 
+In this room there are about twenty soft beds in the common slepping room. 
+Off to the sides are private rooms.  
+~
+0 8 0
+D5
+~
+~
+0 0 14422
+S
+#14426
+The Herb Shop~
+You are in the Herb Shop in the dwarven city of Koln.  As you enter the
+shop you are almost overwhellemed by the pleasent smell of herbs and spices.
+On the walls is a spectrum of dried mushrooms, plants, and some stuff you
+aren't sure what it is.  
+~
+0 8 0
+D0
+~
+~
+0 0 14429
+S
+#14427
+Main Street~
+YOu are on Main Street in the dwarven city of Koln.  To the north you can
+see the entrence to the Castle Lotharang.  To the south you can see more of
+Main Street.  
+~
+0 8 0
+D0
+~
+~
+0 0 14430
+D2
+~
+~
+0 0 14423
+S
+#14428
+Side Street~
+You are on the Side Street in the dwarven city of Koln.  The street
+continues to the east and west.  
+~
+0 8 0
+D1
+~
+~
+0 0 14429
+D3
+~
+~
+0 0 14442
+S
+#14429
+Side Street~
+You are on the Side Street in the dwarven city of Koln.  From the south
+float strange smells of spices and herbs and maybe something rotten.  To the
+east lies the intersection of Main and Side.  
+~
+0 8 0
+D1
+~
+~
+0 0 14430
+D2
+~
+~
+0 0 14426
+D3
+~
+~
+0 0 14428
+S
+#14430
+Intersection of Main and Side~
+You are at the intersection of Main Street and Side Street.  To the north
+you can see the Castle Lotharang.  
+~
+0 8 0
+D0
+~
+~
+0 0 14435
+D1
+~
+~
+0 0 14431
+D2
+~
+~
+0 0 14427
+D3
+~
+~
+0 0 14429
+S
+#14431
+Side Street~
+You are on the Side Street in the dwarven city of Koln.  The intersection
+of Main and Side is to the west.  The road continues to the east.  
+~
+0 8 0
+D1
+~
+~
+0 0 14432
+D3
+~
+~
+0 0 14430
+S
+#14432
+Side Street~
+You are at the end of the Side Street in the dwarven city of Koln.  To
+the west lies the Side Street.  To the north you see an old, dilapidated
+dwarven house.  
+~
+0 8 0
+D0
+~
+~
+1 0 14433
+D3
+~
+~
+0 0 14431
+S
+#14433
+Abandoned house~
+You are in an old, run-down dwarven house in the dwarven city of Koln. 
+The walls and ceiling are crumbling.  There is no furniture of anything
+here.  There are some stairs leading up to what's left of the second floor. 
+~
+0 8 0
+D2
+~
+~
+1 0 14432
+D4
+~
+~
+0 0 14434
+S
+#14434
+Abandoned house~
+You are on the second floor of the abandoned house.  Sections of the
+floor have fallen down to the first floor so watch your step.  The old,
+somewhat rotten floor creaks and groans as you walk on it.  It might be a
+good idea to leave before you cause the entire house to collapse.  
+~
+0 8 0
+D5
+~
+~
+0 0 14433
+S
+#14435
+The Castle Gates~
+You are at the gates to the Castle Lotharang, named after the family that
+currently holds the office of king of the dwarves.  On the ornately carved
+iron gates are the crests of Lotharang, Durin, and Koss.  
+~
+0 8 0
+E
+gate~
+The gates are made of heavy iron and look like the have withstood many
+attacks, as well as the passing of the centuries.  
+~
+D0
+~
+gate~
+1 0 14436
+D2
+~
+~
+0 0 14430
+S
+#14436
+Inside the Castle Lotharang~
+You are inside the entrance to the Castle Lotharang.  The room you are in
+now is massive.  Far off to the north lies the Thrown Room.  To the south
+lies the main gate.  
+~
+0 8 0
+D0
+~
+~
+0 0 14440
+D2
+You see the gates of the castle.
+~
+gate~
+1 0 14435
+S
+#14437
+The Castle Lotharang~
+You are in another part of the castle Lotharang.
+~
+0 8 0
+D0
+~
+~
+0 0 14439
+S
+#14438
+The Castle Lotharang~
+You are in another part of the Castle Lotharang.
+~
+0 8 0
+D0
+~
+~
+0 0 14441
+S
+#14439
+Tha Castle Lotharang~
+You are in another part of the Castle Lotharang.
+~
+0 8 0
+D2
+~
+~
+0 0 14437
+S
+#14440
+The Throne Room~
+You are in the throne room in the Castle Lotharang.  You are awed by it's
+massivness.  In the center you see the mighty Throne of the Dwarven Kings,
+which has been sat upon by the great kings of the past for thousands of
+years.  To the north you see the Great Hall of the Dwarves.  
+~
+0 8 0
+E
+throne~
+The throne of the dwarven kings is short; the seat is only a foot off the
+ground.  Dwarves hate the chairs of the humans and elves because there legs
+are always too short and dangle off the ground.  The throne of the Kings has
+a high back and looks somewhat comfortable.  It's very strong and built to
+last forever.  
+~
+D0
+~
+~
+0 0 14417
+D2
+~
+~
+0 0 14436
+S
+#14441
+The Castle Lotharang~
+You are in another part of the Castle Lotharang.
+~
+0 8 0
+D2
+~
+~
+0 0 14438
+S
+#14442
+Side Street~
+You are on the Side Street in the dwarven city of Koln.  The road turns
+to the south here and leads into a residential part of the city.  The Side
+Street contiunes to the east.  
+~
+0 8 0
+D1
+~
+~
+0 0 14428
+D2
+~
+~
+0 0 14443
+S
+#14443
+Side Street~
+You are on the Side Street in the dwarven city of Koln.  To the west lies
+a dwarven house.  The road continues north and south.  
+~
+0 8 0
+D0
+~
+~
+0 0 14442
+D2
+~
+~
+0 0 14444
+D3
+~
+~
+0 0 14445
+S
+#14444
+Side Street~
+You are in one of the residential portions of the dwarven city of Koln. 
+The road continues and there is a house to the east and one to the west.  
+~
+0 8 0
+D0
+~
+~
+0 0 14443
+D1
+~
+~
+0 0 14447
+D3
+~
+~
+0 0 14446
+S
+#14445
+A dwarven house~
+You are in a smallish, squatish dwarven house.  It has low ceilings and
+short furniture.  
+~
+0 8 0
+D1
+~
+~
+0 0 14443
+S
+#14446
+A dwarven house~
+You are in a small dwarven house in the city of Koln.
+~
+0 8 0
+D1
+~
+~
+0 0 14444
+S
+#14447
+A dwarven house~
+You are in a rather cosy, small dwarven house.  A small fires burns in
+the fireplace in on of the walls.  The furniture is strong, plain, and
+functional.  
+~
+0 8 0
+D3
+~
+~
+0 0 14444
+S
+#14448
+Entrence to the Burial Caves~
+You are in the sacred Burial Caves of the dwarves.  It is dark and very
+quiet here.  The dead rest well.  There are parts of the cave walls that
+look like they have been cut out and then bricked up.  To the south lies the
+Great Iron Door of the Dead.  The caves extend to the east.  
+~
+0 9 0
+D1
+~
+~
+0 0 14449
+D2
+~
+gate~
+2 0 14471
+S
+#14449
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D1
+~
+~
+0 0 14450
+D2
+~
+~
+0 0 14451
+D3
+~
+~
+0 0 14448
+S
+#14450
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D1
+~
+~
+0 0 14453
+D2
+~
+~
+0 0 14457
+D3
+~
+~
+0 0 14449
+S
+#14451
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D0
+~
+~
+0 0 14449
+D1
+~
+~
+0 0 14452
+D2
+~
+~
+0 0 14453
+S
+#14452
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D0
+~
+~
+0 0 14454
+D2
+~
+~
+0 0 14458
+D3
+~
+~
+0 0 14451
+S
+#14453
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D0
+~
+~
+0 0 14451
+D2
+~
+~
+0 0 14454
+D3
+~
+~
+0 0 14450
+S
+#14454
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D0
+~
+~
+0 0 14453
+D1
+~
+~
+0 0 14455
+D2
+~
+~
+0 0 14452
+S
+#14455
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D2
+~
+~
+0 0 14456
+D3
+~
+~
+0 0 14454
+S
+#14456
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D0
+~
+~
+0 0 14455
+D1
+~
+~
+0 0 14465
+D2
+~
+~
+0 0 14459
+D3
+~
+~
+0 0 14457
+S
+#14457
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D0
+~
+~
+0 0 14450
+D1
+~
+~
+0 0 14456
+D3
+~
+~
+0 0 14458
+S
+#14458
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D0
+~
+~
+0 0 14452
+D1
+~
+~
+0 0 14457
+S
+#14459
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D0
+~
+~
+0 0 14456
+D3
+~
+~
+0 0 14460
+S
+#14460
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D1
+~
+~
+0 0 14459
+D2
+~
+~
+0 0 14461
+S
+#14461
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D0
+~
+~
+0 0 14460
+D1
+~
+~
+0 0 14462
+D3
+~
+~
+0 0 14467
+S
+#14462
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D1
+~
+~
+0 0 14464
+D2
+~
+~
+0 0 14463
+D3
+~
+~
+0 0 14461
+S
+#14463
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D0
+~
+~
+0 0 14462
+D5
+~
+~
+0 0 14473
+S
+#14464
+The Burial Caves~
+~
+0 9 0
+D3
+~
+~
+0 0 14462
+S
+#14465
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D0
+~
+~
+0 0 14466
+D1
+~
+~
+0 0 14469
+D3
+~
+~
+0 0 14456
+S
+#14466
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D1
+~
+~
+0 0 14467
+D2
+~
+~
+0 0 14465
+S
+#14467
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D0
+~
+~
+0 0 14468
+D1
+~
+~
+0 0 14461
+D3
+~
+~
+0 0 14466
+S
+#14468
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D2
+~
+~
+0 0 14467
+D3
+~
+~
+0 0 14469
+S
+#14469
+The Burial Caves~
+You are in th Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  To the north you see some light.  
+~
+0 9 0
+D0
+~
+~
+0 0 14470
+D1
+~
+~
+0 0 14468
+D3
+~
+~
+0 0 14465
+S
+#14470
+The Altar Room~
+You are in the Altar room for the Goddess Oya.  The room is lit by the
+holy candles that light the way for the dead souls to reach the other side. 
+To the south lies the burial caves.  
+~
+0 1032 0
+D2
+~
+~
+0 0 14469
+S
+#14471
+The Gates~
+You are at the gates to the Burial caves of the dwarven kingdom.  The
+gates are almost as large and ornately decorated as the gates to the kingdom
+itself.  The giant doors are always locked except when a dead dwarf is going
+to be placed in the caves.  The keys to the gate are carrired by the dwarven
+priests-warriors who guard the gates and watch over the dead.  
+~
+0 8 0
+E
+door~
+You see the Great Iron Doors of Death.  They are massive, strong and old.
+Forged hundreds of years ago they, the doors have withstood many attacks by
+humans and goblins and the like.  
+~
+D0
+You see the Great Iron Gates of Death.
+~
+gate~
+2 14409 14448
+D2
+~
+~
+0 0 14417
+S
+#14472
+The Bar~
+You are at the large (and low) bar.  There are many drunken dwarves here
+having fun in a dwarven type of way.  Served here is a fine assortment of
+alcoholic beverages from grog to ale, and even the infamous Blackend Voodoo
+Beer!  (Truely a drinking experience!)  To the south lies the way back to
+the food serving section of the Good Grub tavern.  
+~
+0 8 0
+D2
+~
+~
+0 0 14422
+S
+#14473
+The Burial Caves~
+You are in the Burial Caves of the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D1
+~
+~
+0 0 14487
+D2
+~
+~
+0 0 14490
+D4
+~
+~
+0 0 14463
+S
+#14474
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D1
+~
+~
+0 0 14475
+D2
+~
+~
+0 0 14491
+D3
+~
+~
+0 0 14491
+S
+#14475
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D0
+~
+~
+0 0 14486
+D2
+~
+~
+0 0 14476
+D3
+~
+~
+0 0 14474
+S
+#14476
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  There is something odd about the stone wall to the east.  
+~
+0 9 0
+E
+wall~
+Upon closer inspection, the wall apears to be able to be opened.  
+~
+D0
+~
+~
+0 0 14475
+D1
+~
+wall~
+7 0 14477
+S
+#14477
+Entrance to the Katra Hideout~
+You are in the entrance to the secret hideout of the Katra dwarves.  On
+the floor are old, ornate rugs that are worn thin from years of foot
+tramplings.  On the walls are hung ancient, faded tapestries depicting
+various scenes from dwarven history.  There are passageways cut in the stone
+walls to the north and east.  
+~
+0 8 0
+D0
+~
+~
+0 0 14485
+D1
+~
+~
+0 0 14478
+D3
+~
+~
+7 0 14476
+S
+#14478
+The Katra Hideout~
+You are in another part of the Katra hideout.  There are some flat, old,
+dusty mattresses lying on the cold stone floor.  The smell of mushroom smoke
+is thick in the air.  To the west lies the entrance to the hideout and to
+the north you see the weapons room.  
+~
+0 8 0
+D0
+~
+~
+0 0 14479
+D3
+~
+~
+0 0 14477
+S
+#14479
+The Weapons Room~
+You are in the weapons room in the Katra hideout.  There are many strange
+and wicked looking weapons hanging from the walls and lying about on the
+floor.  
+~
+0 8 0
+D1
+~
+~
+0 0 14480
+D2
+~
+~
+0 0 14478
+S
+#14480
+The Katra Hideout~
+You are in a narrow corridor in the Katra hideout.  To the south there is
+a beam of light streaming out of a door.  To the north lies the Katra
+practice room and to the west is the weapons room.  There is sign on the
+south wall.  
+~
+0 8 0
+E
+sign~
+The sign says:
+Deathmaster Rhatka Khan
+~
+D0
+~
+~
+0 0 14482
+D2
+~
+~
+1 0 14481
+D3
+~
+~
+0 0 14479
+S
+#14481
+The Deathmaster's Room~
+You are in the Deathmaster's room.  There are many old blood stains on
+the walls and floors.  There is very little of intrest here.  It seems the
+Deathmaster lives humbly.  The only exit is north.  
+~
+0 8 0
+D0
+~
+~
+1 0 14480
+S
+#14482
+The Practice room of the Katra~
+You are in the practice and training room for the Katra dwarves.  It is
+in this rooms that the Katra perfect their unique brand of fighting style. 
+In his room there are many unusual and vicious looking weapons hanging on
+the dark stone walls that the Katra make for themselves.  A halway leads to
+the meditaion room to the west and another hall leads to the south.  
+~
+0 8 0
+D2
+~
+~
+0 0 14480
+D3
+~
+~
+0 0 14483
+S
+#14483
+The Katra Meditation Room~
+You are in the Katra meditaion room.  In this room the Katra spend many
+hours of the day comuning with the spirits of the dead that surrond them
+down here in the burial caves.  There air here is thick with musty smelling
+smoke eminating from bowls that rest on the floor.  There are exits to the
+east and west.  
+~
+0 8 0
+D1
+~
+~
+0 0 14482
+D3
+~
+~
+0 0 14484
+S
+#14484
+The Katra Hideout~
+You are in a room in the Katra dwarves' hideout.  Faded red and brown
+tapestries hang on the otherwise bare stone walls.  The air is thick with
+the smell of mushroom smoke.  To the east lies the Katra meditation room and
+to the south lies another part of the hideout.  
+~
+0 8 0
+D1
+~
+~
+0 0 14483
+D2
+~
+~
+0 0 14485
+S
+#14485
+THe Katra Hideout~
+You are in the secret hideout of the Katra dwarves.  The are a number of
+ancient dwarven death tapestries hanging from the otherwise bare stone
+walls.  There is the smells of mushroom smoke in the air.  To the north is
+another part of the hideout and to the south is the entrance.  
+~
+0 8 0
+D0
+~
+~
+0 0 14484
+D2
+~
+~
+0 0 14477
+S
+#14486
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D0
+~
+~
+0 0 14487
+D2
+~
+~
+0 0 14475
+D3
+~
+~
+0 0 14488
+S
+#14487
+The Burial Caves~
+You are in the Burial Caves of the dwarven kingdom.  It is very peacful
+and quiet here.  
+~
+0 9 0
+D2
+~
+~
+0 0 14486
+D3
+~
+~
+0 0 14473
+S
+#14488
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D1
+~
+~
+0 0 14486
+D3
+~
+~
+0 0 14489
+S
+#14489
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here, 
+~
+0 9 0
+D1
+~
+~
+0 0 14488
+D2
+~
+~
+0 0 14492
+S
+#14490
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D0
+~
+~
+0 0 14473
+D3
+~
+~
+0 0 14492
+S
+#14491
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D0
+~
+~
+0 0 14474
+D1
+~
+~
+0 0 14474
+S
+#14492
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D0
+~
+~
+0 0 14489
+D1
+~
+~
+0 0 14490
+D3
+~
+~
+0 0 14495
+S
+#14493
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D0
+~
+~
+0 0 14498
+D1
+~
+~
+0 0 14497
+S
+#14494
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D0
+~
+~
+0 0 14499
+D1
+~
+~
+0 0 14496
+D3
+~
+~
+0 0 14497
+S
+#14495
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D0
+~
+~
+0 0 14496
+D1
+~
+~
+0 0 14492
+S
+#14496
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here, 
+~
+0 9 0
+D0
+~
+~
+0 0 14497
+D2
+~
+~
+0 0 14495
+D3
+~
+~
+0 0 14494
+S
+#14497
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here, 
+~
+0 9 0
+D1
+~
+~
+0 0 14494
+D2
+~
+~
+0 0 14496
+D3
+~
+~
+0 0 14493
+S
+#14498
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D1
+~
+~
+0 0 14499
+D2
+~
+~
+0 0 14493
+S
+#14499
+The Burial Caves~
+You are in the Burial Caves in the dwarven kingdom.  It is very peaceful
+and quiet here.  
+~
+0 9 0
+D2
+~
+~
+0 0 14494
+D3
+~
+~
+0 0 14498
+D4
+~
+~
+0 0 14458
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 14400 0 0
+D 0 14401 2 0
+D 0 14408 1 0
+D 0 14409 3 0
+D 0 14423 1 1
+D 0 14424 3 1
+D 0 14435 0 0
+D 0 14436 2 0
+D 0 14448 2 2
+D 0 14471 0 2
+D 0 14476 1 0
+D 0 14477 3 0
+D 0 14480 2 0
+D 0 14481 0 0
+M 0 14415 2 14400
+E 0 14430 0 16
+E 0 14429 0 5
+E 0 14432 0 6
+M 0 14415 2 14400
+E 0 14430 0 16
+E 0 14429 0 5
+E 0 14431 0 7
+M 0 14400 1 14419
+G 0 14400 0
+G 0 14401 0
+M 0 14416 1 14420
+M 0 14401 1 14421
+G 0 14402 0
+M 0 14406 1 14422
+G 0 14416 0
+G 0 14417 0
+M 0 14402 1 14426
+G 0 14404 0
+G 0 14406 0
+G 0 14407 0
+M 0 14416 1 14429
+M 0 14403 1 14434
+M 0 14416 1 14445
+M 0 14416 1 14446
+M 0 14408 1 14450
+E 0 14400 0 16
+M 0 14409 1 14457
+E 0 14418 0 16
+M 0 14413 2 14462
+E 0 14408 0 16
+M 0 14408 1 14465
+E 0 14408 0 16
+M 0 14413 2 14467
+E 0 14408 0 16
+M 0 14413 1 14467
+E 0 14408 0 16
+O 0 14422 0 14470
+M 0 14404 2 14471
+E 0 14408 0 16
+G 0 14409 0
+M 0 14404 2 14471
+E 0 14408 0 16
+M 0 14405 1 14472
+G 0 14411 0
+G 0 14412 0
+G 0 14414 0
+G 0 14415 0
+G 0 14413 0
+M 0 14407 1 14472
+M 0 14412 2 14477
+E 0 14421 0 16
+M 0 14412 1 14477
+E 0 14421 0 16
+M 0 14410 1 14479
+E 0 14419 0 16
+M 0 14414 1 14481
+E 0 14425 0 1
+E 0 14427 0 12
+E 0 14428 0 16
+M 0 14411 1 14482
+E 0 14420 0 16
+M 0 14409 1 14493
+E 0 14418 0 16
+M 0 14408 1 14495
+E 0 14408 0 16
+M 0 14408 1 14497
+E 0 14408 0 16
+S
+
+
+
+#SHOPS
+14400 0 5 0 0 0 100 50 0 23
+14401 9 0 0 0 0 100 50 0 23
+14402 26 10 0 0 0 300 70 0 23
+14405 17 0 0 0 0 110 20 0 23
+14406 19 0 0 0 0 110 100 0 23
+0
+
+
+
+#$

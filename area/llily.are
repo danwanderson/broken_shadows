@@ -1,0 +1,2013 @@
+#AREADATA
+Name        {??-??} LadyLily LadyLily's area~
+Builders    Ladylily~
+VNUMs       10600 10799
+Security    9
+End
+
+
+
+#MOBILES
+#10600
+guard Lileak mean nastier~
+A Nasty Lileak Guard~
+A guard of the Lileak Kingdom stands here, and she looks ticked.
+~
+She looks at you, and you get this feeling that charming your way into
+the Kingdom isn't going to work.  
+~
+Human~
+ABS DHNV 0 1000 S
+100 310 35d430+3500 10d21+2 10d20+1 2
+-80 -80 -80 -77
+IKQTV AB JQ P
+8 8 2 3231997
+AHMV ABCDEFGHIJK L none
+#10601
+Lileak guard noble~
+A Lileak Guard~
+A guard from the Lileak Kingdom stands here looking stern.
+~
+A guard of the Lileak Kingdom stands here, stern, and demands to know why
+you are present here.  
+
+~
+Human~
+ABGT DFHZ 0 1000 S
+100 300 35d450+3500 100d10+100 10d21+1 21
+-30 -30 -30 -12
+DFQTV L B 0
+8 8 1 1231997
+AHMV ABCDEFGHIJK G none
+#10602
+Sturm shopkeeper dude~
+Sturm the shopkeep~
+Sturm, the keeper of the shop, looks at you nerviously.
+~
+Looking at the mysterious shopkeeper, you feel the evil wrath about him
+and his goods.  
+~
+Human~
+AB V 0 -1000 S
+75 100 21d400+2000 100d10+80 10d20+0 0
+-40 -40 -40 -40
+IKO AB 0 0
+8 8 1 10
+AHMV ABCDEFGHIJK M none
+#10603
+Xalis~
+Xalis~
+Young Xalis is here, showing you ancient papers for a price.
+~
+Handsome young Xalis, son of the wealthy Ghontihs, stands here quietly
+and alertly, asking if you need assistance.  
+~
+Human~
+AB H 0 0 S
+75 200 21d400+2100 100d10+100 10d21+1 0
+-30 -30 -30 -25
+DM B CF H
+8 8 1 2017
+AHMV ABCDEFGHIJK M none
+#10604
+Lileak Citizen~
+Lileak citizen~
+A wealthy citizen rushes past you.
+~
+Giving only a glance in your direction, he rushes off to his destination,
+carrying a briefcase and coffee.  
+~
+Human~
+AG V 0 600 S
+61 400 11d291+292 10d10+30 6d11+21 17
+-36 -36 -36 -30
+IK 0 0 0
+8 8 1 100
+AHMV ABCDEFGHIJK M none
+#10605
+a mounted policeman~
+a mounted policeman~
+A policeman watches the bustle of the marketplace atop a rich, mocha colored horse.
+~
+Acting as overseer and protector of the inhabitants of Lileak, he gives
+you a gentle nod and continues to trot on through the marketplace.  
+~
+Human~
+AGQ a 0 1000 S
+80 450 11d677+2070 100d100+30 8d13+29 7
+-11 -11 -11 -10
+E N Q M
+8 8 1 110
+AHMV ABCDEFGHIJK L none
+#10606
+maid french~
+a maid~
+A french maid sweeps some dust off the crystal vases.
+~
+She is cute, very cute, wearing a form fitting classic french maid's
+outfit.  Almost the epitomy of the perfect woman for a man to have clean his
+home.  
+~
+Human~
+AHR Q 0 130 S
+55 300 11d216+1211 100d100+100 6d10+27 16
+-40 -40 -39 -36
+FJ 0 S Q
+8 8 2 150
+AHMV ABCDEFGHIJK S none
+#10607
+servant~
+a servant~
+A young servant walks calmly past you, wearing a salad bowl on his head.
+~
+He looks surprised to see anyone around these halls, and walks past you
+with graceful humility.  Some salad dressing drips down his back, lettuce is
+caught in his lapel, and he hasn't bothered to remove the bowl carefully
+perched on his head.  
+~
+Human~
+AGT TW 0 500 S
+70 200 11d443+1629 100d100+100 7d12+29 27
+-23 -23 -23 -20
+CDN 0 P S
+8 8 1 500
+AHMV ABCDEFGHIJK M none
+#10608
+cook~
+a cook~
+A cook is here, chopping onions in the air with finesse.
+~
+~
+Human~
+ABGRT AH 0 -300 S
+80 100 11d677+2070 100d100+100 8d13+28 1
+-20 -20 -20 -18
+DEN 0 J I
+8 8 3 600
+AHMV ABCDEFGHIJK L none
+#10609
+soap scum monster~
+a soap scum monster~
+A ball of soap scum is here, threatening to gross you out to death!
+~
+Whoa, this must be what happens when you forget to wash the bathroom
+often!  It moves towards you, gooey and dirty.  
+~
+Human~
+ABR K 0 -500 S
+88 120 12d921+2466 100d100+100 8d16+25 13
+-20 -20 -20 -17
+JX Q S HR
+8 8 0 700
+AHMSV ABCDEFGHIJKV L none
+#10610
+waltzing couple~
+a waltzing couple~
+A graceful couple waltzes past you.
+~
+Their faces are serious and rigid, yet their movements across the
+flawless ballroom floor are graceful.  They are definitely upper class
+citizens, judging from the expensive jewelry and dress.  
+~
+Human~
+ABHQ PV 0 300 S
+84 140 12d792+2263 100d100+100 8d15+23 17
+-20 -20 -20 -19
+IK E 0 0
+8 8 0 623
+AHMV ABCDEFGHIJK M none
+#10611
+young waiter handsome~
+a young waiter~
+A handsome young waiter is here, carrying a tray of champagne.
+~
+He is quite good looking, clean cut, with young vibrant eyes and good
+build.  He easily flirts with some of the women, handing out glasses in the
+process.  
+~
+Human~
+ABCT T 0 700 S
+86 130 12d855+2363 100d100+70 8d16+23 27
+-20 -20 -19 -19
+0 0 N 0
+8 8 1 723
+AHMV ABCDEFGHIJK L none
+#10612
+bright force~
+a bright force~
+A bright force moves towards you, seemingly blending in to the rest of the room.
+~
+You can't even look at this force, the brightness hurts your eyes....  To
+fight it would be deadly.  
+~
+Human~
+ABFRc DFHJTZ 0 -900 S
+90 190 12d991+2571 100d100+110 8d17+23 19
+-12 -12 -12 -9
+ADEFJ JOS CM D
+8 8 0 800
+AHLMV ABCDEFGHIJK G none
+#10613
+angry guard dog~
+an angry little guard dog~
+An angry little guard dog is sitting here, yipping at your entrance.
+~
+If this is what the guests of this room left behind to guard their
+valuables, there must be nothing of value here!  He yips at your entrance,
+and moves his little paws into attack position.  
+~
+dog~
+ABFT DFJ 0 0 S
+79 100 11d650+2023 100d100+90 8d13+28 10
+-20 -20 -18 -17
+FHJK 0 0 0
+8 6 1 700
+AGV ACDEFHJKUV S none
+#10614
+beautiful sleeping woman~
+a beautiful sleeping woman~
+A beautiful woman is lying in bed, sleeping.
+~
+Cascades of her black hair flow over the pillow, and the soft sound of
+her breathing fills the room.  Cream satin sheets cradle her body as she
+sleeps on her side, smiling sweetly in her dreams.  
+~
+Human~
+ABQ c 0 1000 S
+87 100 12d887+2414 100d100+130 8d16+24 22
+-16 -17 -16 -13
+EJKV H N I
+5 5 2 723
+AHMV ABCDEFGHIJK M none
+#10615
+german shepard~
+a german shepard~
+A strong looking German Shepard growls low at you as you approach.
+~
+A purebred German Shepard does not look pleased to see you.  He growls
+quietly, stretches his hind legs, and moves towards you slowly and
+delibrately.  
+~
+dog~
+ABFTc DFJa 0 -780 S
+92 200 12d1064+2679 100d100+130 8d18+21 0
+-9 -9 -9 -7
+EFHKVX K M 0
+8 8 1 780
+AGV ACDEFHJKUV L none
+#10616
+shadowy figure~
+a shadowy figure~
+A shadowy figure is here, hitting you from nowhere and everywhere.
+~
+You know this...  This thing exists, but you can't see it exactly to know
+where to swing your sword.  It is everywhere yet nowhere at once, tangible
+yet intangible all at the same time..  
+~
+Human~
+ABFQc BDFTV 0 -200 S
+78 100 11d624+1977 100d100+100 8d13+27 20
+-20 -17 -17 -13
+EFO FO M P
+8 8 0 780
+AHKMV ABCDEFGHIJK H none
+#10617
+guest suite~
+an angry guest~
+A guest in this suite approaches, questioning the intrusion.
+~
+Demanding ID and an explanation as to your presence here, he walks
+towards you hastily.  His hair is all wet, wearing only a black towel,
+probably just emerging from the pool.  
+~
+Human~
+ABT a 0 405 S
+82 110 11d733+2165 100d100+100 8d14+27 2
+-19 -19 -17 -15
+EKV 0 0 0
+8 8 3 830
+AHMV ABCDEFGHIJK M none
+#10618
+gardener~
+a gardener~
+A gardener is here, humming and watering the gardenias along the wall.
+~
+The gardener is too busy with the plants to notice your entrance.  Dirty
+rags poke from the gardener's pockets, along with some simple garden tools. 
+~
+Human~
+ABQ H 0 1000 S
+89 0 12d955+2518 110d100+110 8d17+22 26
+-12 -12 -11 -9
+AFJK S J E
+8 8 3 711
+AHMV ABCDEFGHIJK M none
+#10619
+woman bloody dying~
+a bloody woman~
+A woman is lying on the floor, bloody and motionless.
+~
+Looking at her, she is slender and pale in color.  She lies on her side,
+eyes closed, her blonde hair in her face.  You aren't even sure if she is
+alive, but she definitely needs medical attention...  
+~
+Human~
+ABQ HNU 0 1000 S
+86 130 12d855+2378 110d110+110 8d16+24 22
+-19 -19 -19 -17
+AF E K 0
+4 4 2 890
+AHMV ABCDEFGHIJK M none
+#10620
+ghost being~
+a ghost-like being~
+A ghost-like being is here, floating over the tables.
+~
+Weaving through, around, and above the tables, this ghost-like being will
+be a tough fight.  The only way you know it exists is the fuzzy appearance
+the room has when looking through it.  
+~
+Human~
+ABR BTV 0 -400 S
+92 180 12d1064+2679 100d190+110 8d18+21 19
+-8 -8 -8 -6
+AF F G S
+8 8 0 1000
+AHLMV ABCDEFGHIJK L none
+#10621
+young Chinese servant woman~
+a Chinese servant~
+A young Chinese woman screams as she sees you here!
+~
+Wearing a cream silk kimono, this exotic servant emerges from behind the
+screen, and screams to see you here.  Her skin tone is light, with her long
+black hair flowing free.  There are a few bruises on her face, and on her
+arms.  She looks upset, but that could be from the sudden intrusion...  
+~
+Human~
+ABHT QVa 0 340 S
+91 190 12d1027+2625 140d100+140 8d18+20 2
+-60 -60 -60 -80
+EFJKNVX 0 M 0
+8 8 2 900
+AHMV ABCDEFGHIJK M none
+#10622
+dying woman~
+a dying woman~
+A dying woman emerges from the shadows.
+~
+From a dark corner of the room, she appears.  She makes not a sound, but
+is clearly afraid and dying.  Ribs protrude from her sides, and bruises
+sprinkle her body.  Whatever she has been through, it seems not over yet.  
+~
+Human~
+ABR NQ 0 900 S
+95 200 12d1182+2846 130d130+140 9d19+10 0
+-90 -90 -90 -87
+AFJK 0 0 0
+8 8 2 990
+AHMV ABCDEFGHIJK M none
+#10624
+duckie ducky~
+a duckie~
+A duckie is happily quacking along.
+~
+The duck is quacking loudly to the others, ducking its head underwater
+occasionally to try and catch some food.  
+~
+water fowl~
+ABR TVb 0 800 S
+50 20 11d216+1190 100d10+10 6d10+25 23
+-30 -30 -30 -25
+FK R IR 0
+8 8 3 500
+AGHVW ACDEFHJKP S none
+#0
+
+
+
+#OBJECTS
+#10601
+water night vial~
+water of the `bnight`w~
+A bubbling vial of water is here. Strange.~
+none~
+10 A AO
+85 509 517 0 0
+75 1 0
+#10602
+dirtiness mind man's filthy~
+`wthe `gdirtiness `wof a `Bman's `mmind`w~
+How filthy it is in here! Now you know the mind of men! *GASP*~
+none~
+3 BEG AO
+DEG C C 7 0
+85 2 0
+#10603
+tainted soul forever~
+`wa `rtainted `Ysoul`w~
+The evilness of a forever tainted soul is here, full of vengence.~
+none~
+3 CE AO
+BDEG AC AC 514 0
+77 1 0
+#10604
+essence woman seduction~
+`wthe `Rseduction `wof a `Mwoman`w~
+The essence of a woman's seduction is here, draining your energy away...~
+none~
+3 CG AO
+CDEG AC AC 25 0
+88 1 0
+#10605
+fountain~
+`gAn ornate, golden fountain bubbles happily here.`w~
+A beautiful fountain is here, supplying aqua water to the inhabitants.~
+none~
+25 O 0
+0 0 0 0 0
+50 100 100
+#10606
+spring fountain~
+happily bubbling fountain~
+A gorgeous fountain is here, bubbling sweetly.~
+none~
+25 O 0
+0 0 0 0 0
+1 10000 0
+#10607
+legplates woven~
+carefully woven legplates~
+A set of hand-woven titanium legplates are here.~
+titanium~
+9 GI AF
+CFG CFG CFG CFG 0
+90 10 1000
+#10608
+briefcase~
+a `ybriefcase`w~
+An executive style briefcase is here, holding important items.~
+leather~
+15 AS AO
+CFG A 0 0 0
+60 0 1020
+#0
+
+
+
+#ROOMS
+#10600
+Entrance to the Kingdom~
+Upon your approach to the rich kingdom before you, a strong gust of wind
+breezes through your hair, causing a slight shiver through your body. 
+Looking through the gates ahead, you can only see a neatly kept road of
+cobblestone, probably the main road in Lileak.  
+~
+0 0 2
+D0
+~
+~
+0 0 10601
+S
+#10601
+Outside the Gates of Lileak~
+Standing outside the gates of this kingdom, the guards on either side of
+the gold gate glance at you, and ask your reason for journeying into the
+kingdom.  After quickly formulating an excuse, the gates open, and you are
+allowed through.  
+ 
+An inscription has been carved in the gatepost.
+~
+0 0 1
+E
+inscription~
+EXAr WVZ HErE
+~
+D0
+~
+~
+0 0 10602
+D2
+~
+~
+0 0 10600
+S
+#10602
+Enormous Cobblestone Road~
+Stretched before you is a gigantic cobblestone road, neatly swept.  Far
+off in the horizon are large snowcapped mountains, upon which sit a large
+palace.  Along this road are numerous mansions, and quaint stores for the
+wealthy people of this kingdom.  You begin to wonder who rules a city of
+such wealth!  
+~
+0 0 1
+D0
+~
+~
+0 0 10603
+D2
+~
+~
+0 0 10601
+S
+#10603
+Enormous Cobblestone Road~
+Further down this road, you spot a few shops on either side of you, as
+well as a large mansion.  I wonder who lives in there?  
+~
+0 0 1
+D0
+~
+~
+0 0 10605
+D2
+~
+~
+0 0 10602
+D3
+~
+~
+0 0 10604
+S
+#10604
+Dark Magic~
+This store is, well....  Dark, as the name suggests, in lighting as well
+as the overall ambiance of the room.  
+~
+0 1024 0
+D1
+~
+~
+0 0 10603
+S
+#10605
+Enormous Cobblestone Road~
+Further down this long road...  Will it ever end?  On your right is a
+beautiful mansion, and on your left is a small store.  Looking ahead of
+you...  This road continues!  
+~
+0 0 1
+D0
+~
+~
+0 0 10648
+D1
+~
+~
+0 0 10607
+D2
+~
+~
+0 0 10603
+D3
+~
+~
+0 0 10606
+S
+#10606
+Papers of Mystery~
+Old parchments are scattered about the room, keeping secrets of long ago.  
+~
+0 1024 0
+D1
+~
+~
+0 0 10605
+S
+#10607
+Mansion Porch~
+You enter a cozy, warm porch.  Deep green vines wrap around the columns
+holding up the mansion, and lilies are scattered both in vases and on the
+porch table.  Your eyes fix on the large oak door, complete with stain
+glass, and you wonder...  Should I go in?  
+~
+0 0 1
+D1
+~
+~
+1 0 10608
+D3
+~
+~
+0 0 10605
+S
+#10608
+Mansion Foyer~
+Whoa!  This is a *really* big house!  Abstract paintings hang from left
+wall.  Over to the right wall, you notice...  A map!  Yay!  Now maybe you
+won't get lost..  
+~
+0 8 0
+D1
+~
+~
+0 0 10609
+D3
+~
+~
+1 0 10607
+S
+#10609
+A Hallway~
+Stretched out before you is a long hallway.  White plush carpeting
+cushions your footsteps, and more abstract paintings adorn the walls.  You
+can either venture futher east, or explore the upstairs.  
+~
+0 8 0
+D1
+~
+~
+0 0 10611
+D3
+~
+~
+0 0 10608
+D4
+~
+~
+0 0 10610
+S
+#10610
+Upstairs Hallway~
+Welp, the upstairs looks vaguely the same as the downstairs, same
+carpeting and designs.  It doesn't look all that big...  Map.  Humph.  You
+don't need it!  Although, looking further down the hall...  There's an
+upstairs!  
+~
+0 8 0
+D1
+~
+~
+0 0 10624
+D2
+~
+~
+0 0 10636
+D5
+~
+~
+0 0 10609
+S
+#10611
+A Hallway~
+Walking further down the hallway, there is a room which looks like a
+dining hall from the large doors which keep it secret.  More expensive
+looking paintings hang from the walls, but you can't make out what they are.
+~
+0 0 0
+D1
+~
+~
+0 0 10614
+D2
+~
+~
+0 0 10612
+D3
+~
+~
+0 0 10609
+S
+#10612
+Dining Hall~
+Wowee!  Stretched before you is a massively long dining table.  A crystal
+chandolier hangs from the ceiling, and upon closer inspection, you notice
+the table is set.  You'd better leave before the company arrives!  
+~
+0 8 0
+D0
+~
+~
+0 0 10611
+D2
+~
+~
+0 0 10613
+S
+#10613
+The Kitchen~
+What luck!  You sneak into the kitchen unseen, and steal some bits of
+food to taste.  You still have this nagging feeling that you should get out
+of here before your luck runs out...  
+~
+0 8 0
+D0
+~
+~
+0 0 10612
+S
+#10614
+A Hallway~
+The hallway continues on, with more rooms stretched out before you...  
+~
+0 8 0
+D1
+~
+~
+0 0 10616
+D2
+~
+~
+0 0 10615
+D3
+~
+~
+0 0 10611
+S
+#10615
+Sitting Room~
+You enter an ornate room, with three plush couches and sitting chairs. 
+This is presumably where the host and hostess serve cocktails before dinner.
+An antique painting hangs over the fireplace, and a fountain bubbles spring
+water.  
+~
+0 0 0
+D0
+~
+~
+0 0 10614
+S
+#10616
+A Hallway~
+You're slowly reaching the end of this hallway, with only a few more
+rooms until the end.  A room glowing with light down the end of the hallway
+looks particularly interesting.  
+~
+0 8 0
+D0
+~
+~
+0 0 10617
+D1
+~
+~
+0 0 10619
+D3
+~
+~
+0 0 10614
+S
+#10617
+Powder Room~
+You enter a warmly decorated bathroom.  It even has a fuzzy toliet cover!
+It is gigantic, complete with a jacuzzi and large vanity.  You hear some
+water running from the other side of the bathroom..  Uh oh..  
+~
+0 8 0
+D2
+~
+~
+0 0 10616
+D3
+~
+~
+0 0 10618
+S
+#10618
+Powder Room~
+Oh no.  You hear the jacuzzi water running and swirling, pray they aren't
+taking a bath yet!  You quickly notice a towel draped on the floor, with
+brushes of dark pink.  Weird.  
+~
+0 8 0
+D1
+~
+~
+0 0 10617
+S
+#10619
+A Hallway~
+This long hallway is coming to a close, finally.  You see only two more
+rooms down this end, and one of them is still glowing..  
+~
+0 8 0
+D1
+~
+~
+0 0 10622
+D2
+~
+~
+0 0 10620
+D3
+~
+~
+0 0 10616
+S
+#10620
+The Ballroom~
+As soon as you set your eyes on this room, you realize the importance and
+expense it holds.  Crystal and glass are abound, as is gold and diamonds. 
+Palm trees are lining the edge of the walls, and the marble floor is perfect
+for dancing.  Many important people have probably been entertained here.  
+~
+0 8 0
+D0
+~
+~
+0 0 10619
+D2
+~
+~
+0 0 10621
+S
+#10621
+The Ballroom~
+Nearing the back of the ballroom, some tables are set up for guests who
+wish to dine in-between musical numbers.  All the tables are set with the
+finest champagne glasses and plates adorned in gold.  Linen tablecloths
+cover the tables, and a bar is set up in the back.  
+~
+0 8 0
+D0
+~
+~
+0 0 10620
+S
+#10622
+A Hallway~
+Whew!  You almost made it to the end of the downstairs hallway.  It's
+much brighter down this end, but you attribute that to the glowing door
+nearby...  
+~
+0 8 0
+D1
+~
+~
+0 0 10623
+D3
+~
+~
+0 0 10619
+S
+#10623
+Bedroom~
+You enter the room...  The light is blinding!  You can almost make out a
+glass globe in the middle of the floor, but you're uncertain as to what is
+radiating that light.  You've got more problems that the blinding light
+however!  A mysterious force moves towards you, and it doesn't look
+friendly...  
+~
+0 8 0
+D3
+~
+~
+0 0 10622
+S
+#10624
+Upstairs Hallway~
+Following the upstairs halllway, the only noticeable difference is that
+the carpeting is grey.  Potted plants decorate the hallway, and many doors
+can be seen further down.  
+~
+0 8 0
+D0
+~
+~
+0 0 10633
+D1
+~
+~
+0 0 10625
+D3
+~
+~
+0 0 10610
+S
+#10625
+Upstairs Hallway~
+Moving farther down the hallway, you notice this floor consists mostly of
+guest bedrooms.  Far off in the distance, you see another staircase, and
+some light shining down over it.  
+~
+0 8 0
+D1
+~
+~
+0 0 10626
+D2
+~
+~
+0 0 10632
+D3
+~
+~
+0 0 10624
+S
+#10626
+Upstairs Hallway~
+More bedrooms can be seen, and a few steps away it looks like the master
+and mistress' bedroom.  Maybe you can take a quick peek?  
+~
+0 8 0
+D1
+~
+~
+0 0 10627
+D2
+~
+~
+0 0 10629
+D3
+~
+~
+0 0 10625
+S
+#10627
+Upstairs Hallway~
+You are nearing the end of the hallway, and the stairs leading up to
+hopefully the last floor.  It's very quiet near this end.  The whole mansion
+is quiet, mind you, but it seems even more eerily quiet here.  Strange.  
+~
+0 8 0
+D1
+~
+~
+0 0 10628
+D3
+~
+~
+0 0 10626
+S
+#10628
+Upstairs Hallway~
+It is the end of the hallway, coming upon the stairs to go up another
+floor.  Do you dare enter?  
+~
+0 8 0
+D3
+~
+~
+0 0 10627
+D4
+~
+~
+0 0 10637
+S
+#10629
+Master Bedroom~
+The bedroom is decorated in flowers and dainty lace, obviously by the
+mistress.  A waterbed stands alone in the middle of the room, with the light
+of a skylight shining down on it.  Three dressers line one wall, and the
+hard wood floor makes subtle noises as you walk on it.  
+~
+0 8 0
+D0
+~
+~
+0 0 10626
+D2
+~
+~
+0 0 10630
+S
+#10630
+Master Bath~
+Walking further south, you come across the master bath.  And the other
+powder rooms were big?  Ha!  This one laughs in comparison.  A pool is
+streched out before you, a gorgeous, blue color.  Some rafts are floating in
+it, and a smaller room is towards the back, undoubtedly the actual bathroom.
+Palm trees delicately wave over the edge of the pool, and music is being
+played here, softly.  
+~
+0 8 0
+D0
+~
+~
+0 0 10629
+D2
+~
+~
+0 0 10631
+S
+#10631
+The Master Powder Room~
+This room is much smaller, and houses the normal facilities found in a
+powder room.  It is decorated in soft lavender, to match the other rooms. 
+The smell of distant flowers tickles your nose, as also a sense of impending
+danger..  
+~
+0 8 0
+D0
+~
+~
+0 0 10630
+S
+#10632
+Guest Bedroom~
+This guest bedroom has more than enough room for a couple, with a lovely
+canopy bed in the center.  White satin draperies flow over the bay window
+and the bed, and the floor is made of black marble.  It looks like a lovely,
+safe place to spend the night...  *grin* 
+~
+0 8 0
+D0
+~
+~
+0 0 10625
+S
+#10633
+Royal Guest Quarters~
+These must be the quarters for the special guests, it is larger and more
+exquisite than the others you have seen so far.  The bedframe is made of a
+deep colored wood, and looks quite heavy.  Dressers and closets made of the
+same wood also fill the room, and you can see another door further in.  A
+mirror is hung from the ceiling, and a palm trees are scattered about the
+room.  
+~
+0 8 0
+D1
+~
+~
+0 0 10634
+D2
+~
+~
+0 0 10624
+S
+#10634
+Royal Guest's Sitting Room~
+After walking into this room, you are now certain these quarters are
+reserved for people only held in the highest esteem.  This room contains
+many odd paintings, one of which is all alone on one of the walls.  Who
+resides here?  Who owns this place?  You want to search for answers, before
+you find out the hard way....  
+~
+0 8 0
+D0
+~
+secret~
+1 0 10635
+D3
+~
+~
+0 0 10633
+S
+#10635
+Inside the Vault~
+Whoa!  You've stumbled inside a walk-in vault!  It's too dark to see
+anything, but you're certain that tons of gold and diamonds must be here! 
+You fumble for a light switch so you can feast your eyes on your new
+treasure, but a quiet, low growling freezes you in mid-action...  
+~
+0 9 0
+D2
+~
+~
+1 0 10634
+S
+#10636
+Guest Bedroom~
+You have arrived at a fairly large bedroom, primarily used for guests,
+you presume.  Ivy lines the walls where it meets the ceiling, and is the
+design on the oak headboard.  The newly waxed hardwood floor is covered only
+by a chinese rug, which sits right under the bed.  The windows to the south
+are open, letting the weather in.  
+~
+0 8 0
+D0
+~
+~
+0 0 10610
+S
+#10637
+The Sun Room~
+The walls and ceiling are made of glass, letting the warm sun shine
+through.  Potted plants are lining the invisible walls, and couches and
+plush chairs are scattered about.  
+~
+0 0 0
+D3
+~
+~
+0 0 10638
+D5
+~
+~
+0 0 10628
+S
+#10638
+A Darkened Hallway~
+This hallway mysteriously got much darker, contrasting to the Sun Room
+you were just in.  Doesn't make sense, really.  Your senses feel heightened
+in the darkness, and you continue on..  
+~
+0 9 0
+D1
+~
+~
+0 0 10637
+D3
+~
+~
+0 0 10639
+S
+#10639
+A Darkened Hallway~
+Your footsteps echo through the hallway as you walk on the hardwood
+floor.  You hear noises further down, it sounds like a man crying.  Doors
+are closed on either side of you, for good reason...  Not everyone would
+want to venture in..  
+~
+0 9 0
+D0
+~
+~
+1 0 10640
+D1
+~
+~
+0 0 10638
+D3
+~
+~
+0 0 10641
+S
+#10640
+Servant's Quarters~
+Your first reaction when you walk into the room is complete horror. 
+Although this room looks like it hasn't been occupied in years, the
+bloodstains on the bed and carpet are still apparent.  You don't think you
+want to know what happened here...  
+~
+0 8 0
+D2
+~
+~
+1 0 10639
+S
+#10641
+A Darkened Hallway~
+Continuing down the hallway, you are certainly more relutant to explore
+than you were before.  Maybe you should just look for an exit, and forget
+you ever saw this place..  
+~
+0 9 0
+D1
+~
+~
+0 0 10639
+D2
+~
+~
+1 0 10642
+D3
+~
+~
+0 0 10643
+S
+#10642
+The Library~
+This room looks definitely more lived in than the servant's quarters. 
+The carpeting appears rather new, and the tables look waxed.  Tall lamps
+tower over the tables, shining pools of light onto the already open books. 
+Peering down at a book at a nearby table, 'Sorcery', you wonder if it is a
+joke...  
+~
+0 9 0
+D0
+~
+~
+1 0 10641
+S
+#10643
+A Darkened Hallway~
+This hallway sure isn't getting any brighter.  The crying is closer now,
+almost choked sobs now.  More rooms line the hallway, but you're not sure if
+you want to go in them...  
+~
+0 9 0
+D0
+~
+~
+1 0 10646
+D1
+~
+~
+0 0 10641
+D3
+~
+~
+0 0 10644
+S
+#10644
+Darkened Hallway~
+The crying is just on the other side of the door facing you.  It sounds
+almost like a tired crying, pitiful.  There is no light peeking out from
+under the door, you can barely see enough to fumble for the doorknob..  
+~
+0 9 0
+D1
+~
+~
+0 0 10643
+D2
+~
+~
+1 0 10647
+D3
+~
+~
+1 0 10645
+S
+#10645
+A Dishevled Room~
+This room is a pig sty, as your mother used to say.  Clothes are
+everywhere, the bed is unmade, and picture frames are thrown about the
+floor.  There is no sign of old dishes though, or of any animals living in
+here.  It's not quite so dirty as it is messy....  
+~
+0 9 0
+D1
+~
+~
+1 0 10644
+S
+#10646
+Servant's Quarters~
+This room looks a little better than the last, which is lucky for your
+stomach.  It is a bit messy, but it looks lived-in.  The bed isn't made, but
+a pad of paper and a pen are on the nightstand.  Peering down at the paper,
+you can't understand the writing, but you do understand that the ink is
+fresh indeed...  
+~
+0 8 0
+D2
+~
+~
+1 0 10643
+S
+#10647
+Servant's Quarters~
+Walking into the room, you hear someone humming from behind a Chinese
+screen.  Now you know this floor isn't abandoned, but you still want to
+leave before this servant discovers you..  
+~
+0 8 0
+D0
+~
+~
+1 0 10644
+S
+#10648
+Enormous Cobblestone Road~
+Trekkin' on down the bumpy road, you see merchants walking around and
+customers chatting with each other.  Everyone seems friendly enough, want
+not make yourself comfortable?  
+~
+0 0 1
+D0
+~
+~
+0 0 10649
+D2
+~
+~
+0 0 10605
+S
+#10649
+Enormous Cobblestone Road~
+You have come to a fork in the road.  To the west is a smaller,
+residential road, while to the east the road becomes much darker.  Rows of
+houses can just about be seen to the west, while to the east is nothing but
+trees.  Directly forward the road abruptly ends, becoming a beautiful jade
+carved gate.  A regal, intricately designed castle lies beyond the gates,
+surrounded by waterfalls and lush landscaping.  However, there appears to be
+no easy way in, and getting through the gates is impossible.  
+~
+0 0 1
+D1
+~
+~
+0 0 10682
+D2
+~
+~
+0 0 10648
+D3
+~
+~
+0 0 10650
+S
+#10650
+Smaller Cobblestone Road~
+You turn the corner and find yourself in a nice surburban neighborhood. 
+The houses are quite smaller than the others you have seen, but still nice
+and appear new.  They all look similiar, except for color variations, and
+children are playing on every lawn.  
+~
+0 0 1
+D1
+~
+~
+0 0 10649
+D3
+~
+~
+0 0 10651
+S
+#10651
+Smaller Cobblestone Road~
+Walking farther down the road, you suddenly get a errie feeling. 
+Glancing around, a pair of children play on every lawn, and swingsets are
+visible in every backyard.  No parents can be seen, but no cars are visible
+either.  It all feels too...  Perfect.  Maybe it's just you...  It has been
+a long day after all, and you are a bit hungry.  Is that a restaraunt
+further down?  
+~
+0 0 1
+D1
+~
+~
+0 0 10650
+D3
+~
+~
+0 0 10652
+S
+#10652
+Smaller Cobblestone Road~
+Now you can smell the scents of dinner, so now you know where the mothers
+are.  The chattering of the children is starting to get on your nerves, and
+something just doesn't feel right.  Everyone is so....  Happy.  Each lawn
+consists of a boy and a girl, with freshly planted flower beds that no dogs
+have got to.  Not far away, you can see a restaraunt, and a happy mailman
+delivering mail.  Now you *know* something isn't right...  Happy mailmen??  
+~
+0 0 1
+D1
+~
+~
+0 0 10651
+D3
+~
+~
+0 0 10653
+S
+#10653
+Smaller Cobblestone Road~
+You are now standing outside Mardeteit's, and the aromas are wonderful
+even outside.  Peering inside, it looks quite fancy, and the decorations,
+flowers, and fabrics are all perfectly matched.  Somehow, you aren't
+surprised.  
+~
+0 0 1
+D0
+~
+~
+0 0 10654
+D1
+~
+~
+0 0 10652
+D3
+~
+~
+0 0 10656
+S
+#10654
+Mardeteit's Foyer~
+Walking inside, a pretty hostess takes your name, and says there will be
+a fifteen minute wait.  Sitting down, you help yourself to a cocktail, and
+take in the lavish surroundings.  Feeling less uneasy, you decide it was
+just your hunger making you sensitive.  
+~
+0 8 0
+D0
+~
+~
+0 0 10655
+D2
+~
+~
+0 0 10653
+S
+#10655
+A Romantic Table~
+Following the young hostess, she seats you at a quiet, dimly lit table in
+the corner.  The mauve tablecloth is accented with a lace overlay.  Matching
+roses are partially opened in a crystal bud vase, and a white candle
+flickers sensually on your face.  Too bad you are dining alone!  
+~
+0 1 0
+D2
+~
+~
+0 0 10654
+S
+#10656
+Smaller Cobblestone Road~
+Only a few more houses can be seen, the end of this block is approaching.
+A library sign can be seen at the corner of the block, but nothing else of
+interest is around.  You'll be glad to get out of this creepy neighborhood
+anyway, everything doesn't seem quite right here..  
+~
+0 0 1
+D1
+~
+~
+0 0 10653
+D3
+~
+~
+0 0 10657
+S
+#10657
+Smaller Cobblestone Road~
+Well, you have come to the end of the block.  A library is here, made of
+brick with large glass windows that allow you to peer inside.  Looking
+around the corner, you are surprised to find a pond, but otherwise a dead
+end.  
+~
+0 0 1
+D0
+~
+~
+0 0 10659
+D1
+~
+~
+0 0 10656
+D3
+~
+~
+0 0 10658
+S
+#10658
+Smaller Cobblestone Road~
+Not far off is a medium size pond, with a few ducks making graceful
+patterns on the water.  Maybe you should check it out?  
+~
+0 0 1
+D0
+~
+~
+0 0 10663
+D1
+~
+~
+0 0 10657
+S
+#10659
+The Library~
+Straight in front of you is the help desk, and the library branches off
+in opposite directions.  It is quite dark in here for a place of reading,
+the potted plants here noticably the variety that need little light.  It is
+almost dead quiet in here, except for the occasional whispers and book
+stampings.  
+~
+0 9 0
+D1
+~
+~
+0 0 10661
+D2
+~
+~
+0 0 10657
+D3
+~
+~
+0 0 10660
+S
+#10660
+The Library~
+To this end of the library is mainly children's books.  Two groups of
+four tables are arranged in the room, at the perfect height for toddlers and
+pre-schoolers.  The sound of childish chatter can be heard, but you don't
+see any children around.  
+~
+0 9 0
+D1
+~
+~
+0 0 10659
+S
+#10661
+The Library~
+At first glance, this looks like the reference section of the library. 
+However, as you walk up and down the aisles, the titles are in a foreign
+language, none of which you have ever seen before.  Picking up one of the
+books, you notice illustrations on a few of the pages.  Beakers and
+solutions are drawn, but you cannot tell what it all means.  Giving up, you
+place the book back on the shelf, and start to walk away.  As you approach
+the next room, you hear a subtle boom, and spin around to see a book fall
+from the section you were just in.  You decide not to pick it up.  
+~
+0 9 0
+D0
+~
+~
+0 0 10662
+D3
+~
+~
+0 0 10659
+S
+#10662
+The Library~
+Ah ha!  This must be where they keep the adult books.  Tables are lined
+neatly in the middle of the room, with bookcases on either side.  This is
+the quietest room so far, too quiet for you.  
+~
+0 9 0
+D2
+~
+~
+0 0 10661
+S
+#10663
+Near the Edge of a Pond~
+Closer to the pond now, it seems on a slant.  Odd.  Well, that can't be
+possible, obviously.  You are just acting silly again.  Anyways, a bunch of
+little duckies are quacking happily in the pond, splashing a bit of water on
+your feet.  Care to go for a swim?  
+~
+0 0 3
+D0
+~
+~
+0 0 10665
+D2
+~
+~
+0 0 10658
+D3
+~
+~
+0 0 10664
+S
+#10664
+The Edge of a Pond~
+You are wading on the very edge of the pond, hesitant on whether or not
+to venture in.  The water is almost the same temperature as the air, and the
+wildlife doesn't seem very threatening.  
+~
+0 0 3
+D1
+~
+~
+0 0 10663
+S
+#10665
+In the Pond~
+The water is up to your ribcage now.  The bottom feels kind of odd, a bit
+too smooth in areas.  Lily pads float a few feet away, and the ducks are
+busy quacking several yards away.  
+~
+0 8192 6
+D0
+~
+~
+0 0 10667
+D2
+~
+~
+0 0 10663
+D3
+~
+~
+0 0 10666
+S
+#10666
+In the Pond~
+The water is around your ribcage now.  The bottom feels kind of odd, a
+bit too smooth in areas.  The whole area is quite serene and calm, an
+example of perfection.  
+~
+0 8192 6
+D1
+~
+~
+0 0 10665
+S
+#10667
+In the Pond~
+You have almost reached the middle of the pond.  The water gently
+splashes against your shoulders as you walk on.  The ducks are quacking in
+an agitated way, calming down from their games to watch you closely.  The
+duckies are awfully cute, but don't take them lightly...  
+~
+0 8192 6
+D0
+~
+~
+0 0 10670
+D1
+~
+~
+0 0 10669
+D2
+~
+~
+0 0 10665
+D3
+~
+~
+0 0 10668
+S
+#10668
+In the Pond~
+Gliding easily in the water, you feel warm and energized.  The water is
+unbelievably clear, aqua in color.  Lily pads are floating nearby, and you
+even see some fishies swimming near the bottom.  
+~
+0 8192 6
+D1
+~
+~
+0 0 10667
+S
+#10669
+In the Pond~
+Gliding easily in the water, you feel warm and energized.  The water is
+unbelievably clear, aqua in color.  Lily pads are floating nearby, and you
+even see some fishies swimming near the bottom.  
+~
+0 8192 6
+D3
+~
+~
+0 0 10667
+S
+#10670
+In the Pond~
+Swimming is a must, the water is now too high for simply standing. 
+Croaks, quacks, and the rustling of trees are crystal clear, the town being
+far away now.  
+~
+0 8192 6
+D0
+~
+~
+0 0 10674
+D1
+~
+~
+0 0 10672
+D2
+~
+~
+0 0 10667
+D3
+~
+~
+0 0 10671
+S
+#10671
+In the Pond~
+Swimming is a must, the water is now too high for simply standing. 
+Croaks, quacks, and the rustling of trees are crystal clear, the town being
+far away now.  
+~
+0 8192 6
+D0
+~
+~
+0 0 10676
+D1
+~
+~
+0 0 10670
+S
+#10672
+In the Pond~
+Swimming is a must, the water is now too high for simply standing. 
+Croaks, quacks, and the rustling of trees are crystal clear, the town being
+far away now.  
+~
+0 0 0
+D1
+~
+~
+0 0 10673
+D3
+~
+~
+0 0 10670
+S
+#10673
+In the Pond~
+Swimming is a must, the water is now too high for simply standing. 
+Croaks, quacks, and the rustling of trees are crystal clear, the town being
+far away now.  
+~
+0 0 0
+D3
+~
+~
+0 0 10672
+S
+#10674
+In the Pond~
+Swimming is a must, the water is now too high for simply standing. 
+Croaks, quacks, and the rustling of trees are crystal clear, the town being
+far away now.  
+~
+0 8192 6
+D0
+~
+~
+0 0 10677
+D1
+~
+~
+0 0 10676
+D2
+~
+~
+0 0 10670
+D3
+~
+~
+0 0 10675
+S
+#10675
+In the Pond~
+Swimming is a must, the water is now too high for simply standing. 
+Croaks, quacks, and the rustling of trees are crystal clear, the town being
+far away now.  
+~
+0 0 6
+D1
+~
+~
+0 0 10674
+S
+#10676
+In the Pond~
+The water is a bit more shallow in this area, but not shallow enough to
+touch the bottom.  Water loving plants grow here, swaying gently in the
+breeze, a beacon for the ducks in this pond.  
+~
+0 8192 6
+D2
+~
+~
+0 0 10671
+D3
+~
+~
+0 0 10674
+S
+#10677
+In the Pond~
+The water is slowly growing more shallow as the banks of the pond are
+closeby.  There seems to be not much of anything beyond the pond.  
+~
+0 8192 7
+D0
+~
+~
+0 0 10680
+D1
+~
+~
+0 0 10679
+D2
+~
+~
+0 0 10674
+D3
+~
+~
+0 0 10678
+S
+#10678
+In the Pond~
+The water is slowly growing more shallow as the banks of the pond are
+closeby.  Trees block climbing out of the pond on this side.  
+~
+0 8192 0
+D1
+~
+~
+0 0 10677
+S
+#10679
+In the Pond~
+The water is slowly growing more shallow as the banks of the pond are
+closeby.  Trees block climbing out of the pond on this side.  
+~
+0 8192 7
+D3
+~
+~
+0 0 10677
+S
+#10680
+The Edge of a Pond~
+The water is quite shallow here, making it easy to climb out of the pond.
+A few ducks are here, quacking at their mates in the water.  Some muddy
+footprints are also here, leading away from the edge of the pond and then
+disappearing into the dead end of the forest.  
+~
+0 8192 7
+D0
+~
+~
+0 0 10681
+D2
+~
+~
+0 0 10677
+S
+#10681
+Near the Edge of the Pond~
+The edge of the pond is south, and to the north is a seemingly
+unpenatrable forest.  The sound of trees rustling, crickets chirping, and
+the low growl of an animal drift from the depths of the forest.  
+~
+0 1 2
+D2
+~
+~
+0 0 10680
+S
+#10682
+The Edge of a Forest~
+This path quickly turned much darker, the sun obstructed from view by the
+many tall trees.  A pack of crows flies dangerously low to the ground,
+squaking painfully while carrying fresh meat in their talons.  
+~
+0 1 2
+D1
+~
+~
+0 0 10683
+D3
+~
+~
+0 0 10649
+S
+#10683
+A Path in the Forest~
+It would be best to enter the overgrown forest cautiously, due to the
+many fallen trees blocking the path.  Many small woodland creatures scamper
+across the path and crunch the leaves underfoot.  Looking forward, the path
+continues on, twisting a bit further down.  
+~
+0 1 3
+D1
+~
+~
+0 0 10684
+D3
+~
+~
+0 0 10682
+S
+#10684
+A Path in the Forest~
+A bloody carcass is lying here, just off the path.  Several birds and
+small animals are gathered around it, living off the dead.  Through closer
+inspection, it appears rather fresh, the blood staining the side of the path
+and the grass a deep red.  
+~
+0 1 3
+D1
+~
+~
+0 0 10685
+D3
+~
+~
+0 0 10683
+S
+#10685
+A Path in the Forest~
+It is becoming colder, the wind briskly shaking the trees, causing some leaves to sprinkle the ground.
+The smell of decay is becoming unbearable, as you undoubtedly step closer to the source.
+~
+0 1 3
+D0
+~
+~
+0 0 10686
+D3
+~
+~
+0 0 10684
+S
+#10686
+A Path in the Forest~
+This section of the path looks like it has not been tread on in months. 
+A decaying tree lies halfway on the road and partially on the grass, acting
+as a home for many bugs.  Leaves completely cover the walkway, and with each
+step, some small animals flee from underneath them.  The end is not near.  
+~
+0 1 3
+D1
+~
+~
+0 0 10687
+D2
+~
+~
+0 0 10685
+S
+#10687
+A Path in the Forest~
+The forest is becoming more dense, the path narrowing a touch.  Foliage
+lines the road and grows in-between the many old trees, along with some
+scattered wildflowers.  Bugs fly and walk all around you, making you itch in
+paranoia.  
+~
+0 1 3
+D3
+~
+~
+0 0 10686
+S
+#10688
+A Path in the Forest~
+The dark and damp forest is completely encapsulating, it is almost as
+though nothing else but this exists.  It is a world of its own, but of what
+and where does it lead?  
+~
+0 1 3
+D1
+~
+~
+0 0 10689
+D3
+~
+~
+0 0 10687
+S
+#10689
+A Path in the Forest~
+Scary enough, there appears to be nothing but trees further down. 
+However, the forest is so dense and dark that it is hard to see much of
+anything.  Squirrels skamper loudly only a foot away, apparently in a hurry
+somewhere.  
+~
+0 1 3
+D1
+~
+~
+0 0 10690
+D3
+~
+~
+0 0 10688
+S
+#10690
+A Path in the Forest~
+The path appears to just....  End.  If the path *does* continue on, it
+would be impossible to do so due to the density of the trees ahead.  The
+path right under your feet is a different shade than the rest of the path,
+and is also an odd texture in comparison.  This journey appears to be a
+waste.  
+~
+0 1 3
+D3
+~
+~
+0 0 10689
+D5
+~
+~
+0 0 10691
+S
+#10691
+The Catacombs~
+There seems to be an underworld underneath the real world.  It is damp
+and completely dark down here, the walls carved out of stone.  Exits lie in
+almost all directions, except down, each one leading to blackness.  
+~
+0 8388617 0
+D4
+~
+~
+0 0 10690
+S
+#0
+
+
+
+#SPECIALS
+M 10608 spec_breath_gas Load to: a cook
+M 10609 spec_breath_gas Load to: a soap scum monster
+M 10610 spec_cast_cleric Load to: a waltzing couple
+M 10612 spec_cast_mage Load to: a bright force
+M 10619 spec_cast_cleric Load to: a bloody woman
+M 10620 spec_breath_any Load to: a ghost-like being
+M 10622 spec_breath_any Load to: a dying woman
+S
+
+
+
+#RESETS
+D 0 10607 1 0
+D 0 10608 3 0
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

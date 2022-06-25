@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -51,26 +51,27 @@ const struct weapon_type weapon_table [] =
 /* wiznet table and prototype for future flag setting - added by Rahl */
 const   struct  wiznet_type     wiznet_table    []              =
 {
-    { "on",             WIZ_ON,         R9 },
-    { "prefix",         WIZ_PREFIX,     R9 },
-    { "ticks",          WIZ_TICKS,      R9 },
-    { "logins",         WIZ_LOGINS,     R9 },
-    { "sites",          WIZ_SITES,      R4 },
-    { "links",          WIZ_LINKS,      R7 },
-    { "newbies",        WIZ_NEWBIE,     R9 },
-    { "spam",           WIZ_SPAM,       R5 },
-    { "deaths",         WIZ_DEATHS,     R9 },
-    { "resets",         WIZ_RESETS,     R4 },
-    { "mobdeaths",      WIZ_MOBDEATHS,  R4 },
-    { "flags",          WIZ_FLAGS,      R5 },
-    { "penalties",      WIZ_PENALTIES,  R5 },
-    { "saccing",        WIZ_SACCING,    R5 },
-    { "load",           WIZ_LOAD,       R2 },
-    { "restore",        WIZ_RESTORE,    R2 },
-    { "snoops",         WIZ_SNOOPS,     R2 },
-    { "switches",       WIZ_SWITCHES,   R2 },
-    { "secure",         WIZ_SECURE,     R1 },
-    { "afk",            WIZ_AFK,        R9 },
+    { "on",             WIZ_ON,         IM },
+    { "prefix",         WIZ_PREFIX,     IM },
+    { "ticks",          WIZ_TICKS,      IM },
+    { "logins",         WIZ_LOGINS,     IM },
+    { "sites",          WIZ_SITES,      L4 },
+    { "links",          WIZ_LINKS,      L7 },
+    { "newbies",        WIZ_NEWBIE,     IM },
+    { "spam",           WIZ_SPAM,       L5 },
+    { "deaths",         WIZ_DEATHS,     IM },
+    { "resets",         WIZ_RESETS,     L4 },
+    { "mobdeaths",      WIZ_MOBDEATHS,  L4 },
+    { "flags",          WIZ_FLAGS,      L5 },
+    { "penalties",      WIZ_PENALTIES,  L5 },
+    { "saccing",        WIZ_SACCING,    L5 },
+    { "levels",         WIZ_LEVELS,     IM },
+    { "load",           WIZ_LOAD,       L2 },
+    { "restore",        WIZ_RESTORE,    L2 },
+    { "snoops",         WIZ_SNOOPS,     L2 },
+    { "switches",       WIZ_SWITCHES,   L2 },
+    { "secure",         WIZ_SECURE,     L1 },
+    { "afk",            WIZ_AFK,        IM },
     { NULL,             0,              0  }
 };
 
@@ -730,6 +731,12 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
         "",                     "",             ""
     },
 
+    {
+        "acid blast",   { 28, 93, 35, 32, 93 }, { 1,  1,  2,  2, 1},
+        spell_acid_blast,       TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(70),       20,     12,
+        "acid blast",           "!Acid Blast!",         ""
+    },
 
     {
         "armor",        {  7,  2, 10, 5, 4 },    { 1,  1,  2,  2, 1},
@@ -754,6 +761,12 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
         "",                     "You can see again.",   ""
     },
 
+    {
+        "burning hands",{  7, 91, 10, 9, 91 },     { 1,  1,  2,2, 1},
+        spell_burning_hands,    TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT( 5),       15,     12,
+        "burning hands",        "!Burning Hands!",      ""
+    },
 
     {
         "call lightning",{ 26, 18, 31, 22, 20 },     { 1,  1,  2,  2,1},
@@ -776,6 +789,26 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
         ""                      "!cancellation!",       ""
     },
 
+    {
+        "cause critical",{ 91,  13, 91, 19, 17 },     { 1,  1,  2,  2,1},
+        spell_cause_critical,   TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(63),       20,     12,
+        "spell",                "!Cause Critical!",     ""
+    },
+
+    {
+        "cause light",  { 91,  1, 91, 3,2 },     { 1,  1,  2,  2,1},
+        spell_cause_light,      TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(62),       15,     12,
+        "spell",                "!Cause Light!",        ""
+    },
+
+    {
+        "cause serious",{ 91,  7, 91, 10,9 },     { 1,  1,  2,  2,1},
+        spell_cause_serious,    TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(64),       17,     12,
+        "spell",                "!Cause Serious!",      ""
+    },
 
     {   
         "chain lightning",{ 33, 91, 39, 36,93 },     { 1,  1,  2,2,1},
@@ -805,6 +838,13 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
         spell_chill_touch,      TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
         NULL,                   SLOT( 8),       15,     12,
         "chilling touch",       "You feel less cold.",  ""
+    },
+
+    {
+        "colour spray", { 16, 91, 22, 20,91 },     { 1,  1,  2,  2,1},
+        spell_colour_spray,     TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(10),       15,     12,
+        "colour spray",         "!Colour Spray!",       ""
     },
 
     {
@@ -850,6 +890,13 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
     },
 
     {
+        "cure critical",{ 91,  13, 91, 19,17 },     { 1,  1,  2,  2,1},
+        spell_cure_critical,    TAR_CHAR_DEFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(15),       20,     0,
+        "",                     "!Cure Critical!",      ""
+    },
+
+    {
         "cure disease", { 91, 13, 91, 14, 14 },     { 1,  1,  2,  2,1},
         spell_cure_disease,     TAR_CHAR_DEFENSIVE,     POS_STANDING,
         NULL,                   SLOT(501),      20,     0,
@@ -857,10 +904,24 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
     },
 
     {
+        "cure light",   { 91,  1, 91, 3, 2 },     { 1,  1,  2,  2,1},
+        spell_cure_light,       TAR_CHAR_DEFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(16),       10,     0,
+        "",                     "!Cure Light!",         ""
+    },
+
+    {
         "cure poison",  { 91,  14, 91, 16, 15 },     { 1,  1,  2,  2,1},
         spell_cure_poison,      TAR_CHAR_DEFENSIVE,     POS_STANDING,
         NULL,                   SLOT(43),        5,     0,
         "",                     "!Cure Poison!",        ""
+    },
+
+    {
+        "cure serious", { 91,  7, 91, 10, 9 },     { 1,  1,  2,  2, 1},
+        spell_cure_serious,     TAR_CHAR_DEFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(61),       15,     0,
+        "",                     "!Cure Serious!",       ""
     },
 
     {
@@ -981,6 +1042,12 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
         "fireball",             "!Fireball!",           ""
     },
 
+    {
+        "flamestrike",  { 91, 20, 91, 27,23 },     { 1,  1,  2,  2,1},
+        spell_flamestrike,      TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(65),       20,     12,
+        "flamestrike",          "!Flamestrike!",        ""
+    },
 
     {
         "fly",          { 10, 18, 20, 22,20 },     { 1,  1,  2,  2,1},
@@ -1165,6 +1232,13 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
     },
 
     {
+        "shocking grasp",{  10, 91, 14, 13,91 },     { 1,  1,  2,  2,1},
+        spell_shocking_grasp,   TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(53),       15,     12,
+        "shocking grasp",       "!Shocking Grasp!",     ""
+    },
+
+    {
         "sleep",        { 10, 91, 11, 91,91 },     { 1,  1,  2,  2,1},
         spell_sleep,            TAR_CHAR_OFFENSIVE,     POS_STANDING,
         &gsn_sleep,             SLOT(38),       15,     12,
@@ -1214,11 +1288,84 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
         "",                     "!Word of Recall!",     ""
     },
 
+/*
+ * Dragon breath - the levels look funky cuz wyverns get dragon breath
+ * all classes
+ */
+    {
+        "acid breath",  { 37, 45, 45, 40,45 },     { 1,  1,  2,  2,1},
+        spell_acid_breath,      TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(200),       0,      4,
+        "blast of acid",        "!Acid Breath!",        ""
+    },
+
+    {
+        "fire breath",  { 39, 47, 47, 42,47 },     { 1,  1,  2,  2,1},
+        spell_fire_breath,      TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(201),       0,      4,
+        "blast of flame",       "The smoke clears from your eyes.",     ""
+    },
+
+    {
+        "frost breath", { 31, 39, 39, 34,39 },     { 1,  1,  2,  2,1},
+        spell_frost_breath,     TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(202),       0,      4,
+        "blast of frost",       "!Frost Breath!",       ""
+    },
+
+    {
+        "gas breath",   { 40, 48, 48, 43,48 },     { 1,  1,  2,  2,1},
+        spell_gas_breath,       TAR_IGNORE,             POS_FIGHTING,
+        NULL,                   SLOT(203),       0,      4,
+        "blast of gas",         "!Gas Breath!",         ""
+    },
+
+    {
+        "lightning breath",{ 34, 42, 42, 37,42 },     { 1,  1,  2,  2,1},
+        spell_lightning_breath, TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(204),       0,      4,
+        "blast of lightning",   "!Lightning Breath!",   ""
+    },
+
+/*
+ * Spells for mega1.are from Glop/Erkenbrand.
+ */
+    {
+        "general purpose", { 91, 91, 91, 91,91 },       { 0, 0, 0, 0,0 },
+        spell_general_purpose,  TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(401),      0,      12,
+        "general purpose ammo", "!General Purpose Ammo!",       ""
+    },
+ 
+    {
+        "high explosive",  { 91, 91, 91, 91,91 },{ 0, 0, 0, 0,0 },
+        spell_high_explosive,   TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(402),      0,      12,
+        "high explosive ammo",  "!High Explosive Ammo!",        ""
+    },
 
 /*
  * Spells added by Thexder
  */
 
+    {
+        "firewind",     { 45, 91, 91, 91,91 },     { 1,  1,  2,  2,1},
+        spell_firewind, TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(500),       33,      12,
+        "flaming winds",   "!Firewind",                 ""
+    },
+    {
+        "meteor swarm",  { 38, 91, 91, 91,91 },     { 1,  1,  2,  2,1},
+        spell_meteor_swarm, TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(501),       25,      12,
+        "fireball",   "!Fireball",              ""
+    },
+    {
+        "multi missile",     { 9, 91, 91, 91,91 },  { 1,  1,  2,  2,1},
+        spell_multi_missile, TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(502),       25,      12,
+        "magic missile",   "!Missile",          ""
+    },
     {
         "disintegrate ",  { 38, 91, 91, 91,91 },     { 1,  1,  2,  2,1},
         spell_disintegrate,  TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
@@ -1226,19 +1373,47 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
         "energy blast",   "!Disint",            ""
     },
     {
+        "ice ray",     { 33, 91, 91, 91,91 },     { 1,  1,  2, 2,1},
+        spell_ice_ray,       TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(504),       20,      8,
+        "ice ray",   "The chill leaves your body.",     ""
+    },
+    {
+        "hellfire",    { 91, 42, 91, 91,45 },     { 1,  1,  2,  2,1},
+        spell_hellfire,      TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(505),       25,      12,
+        "flames",    "!Hellfire",       ""
+    },
+    {
+        "ice storm",   { 47, 91, 91, 91,91 },     { 1,  1,  2,  2,1},
+        spell_ice_storm,     TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(506),       33,      8,
+        "ice ray",   "The chill leaves your body.",             ""
+    },
+    {
         "vision",      { 27, 17, 32, 28,23 },     { 1,  1,  2,  2,1},
         spell_vision,           TAR_IGNORE,             POS_FIGHTING,
         NULL,                   SLOT(507),      40,     20,
         "",                     "!Vision!",             ""
     },
-
+    {
+        "restoration",     { 91, 45, 91, 91,47 },     { 1,  1,  2,2,1},
+        spell_restoration,      TAR_CHAR_DEFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(508),      125,     0,
+        "",                     "!Restore!",            ""
+    },
     {
         "regeneration",     { 91, 25, 40, 40,33 },     { 1,  1,  2, 2,1},
         spell_regeneration,     TAR_CHAR_DEFENSIVE,     POS_STANDING,
         NULL,                   SLOT(509),      50,     0,
         "",                     "Your body slows down.",        ""
     },
-
+    {
+        "test area",    { 14, 91, 91, 91,91 },     { 1,  1,  2,  2,1},
+        spell_test_area,      TAR_CHAR_OFFENSIVE,     POS_FIGHTING,
+        NULL,                   SLOT(510),       25,      12,
+        "breath",    "!TEST",           ""
+    },
     {
         "web",  {  11, 19, 22, 20,20 },     { 1,  1,  2,  2,1},
         spell_web,              TAR_CHAR_DEFENSIVE,             POS_STANDING,
@@ -1253,6 +1428,62 @@ const   struct  skill_type      skill_table     [MAX_SKILL]     =
         spell_flame_sword,      TAR_IGNORE,     POS_STANDING,
         NULL,                   SLOT(512),      50,     0,
         "",                     "!flame sword!",        ""
+    },
+
+    {
+        "flash fire",   { 50, 91, 91, 91,91 },    { 1, 2, 2, 2,2 },
+        spell_flash_fire,       TAR_CHAR_OFFENSIVE, POS_FIGHTING,
+        NULL,                   SLOT(513),      50,     12,
+        "flash fire",           "!Flash Fire!",         ""
+    },
+
+    {
+        "inferno",   { 55 , 91, 91, 91,91 },  { 1, 2, 2, 2,2 },
+        spell_inferno,  TAR_CHAR_OFFENSIVE, POS_FIGHTING,
+        NULL,           SLOT(514),      50,     20,
+        "inferno",      "!inferno!",    ""
+    },
+
+    {
+        "thunderbolt", { 60, 65, 91, 91,67 },  { 1, 1, 2, 2,1 },
+        spell_thunderbolt, TAR_CHAR_OFFENSIVE, POS_FIGHTING,
+        NULL,   SLOT(515),      75,     15,
+        "thunderbolt",          "!thunderbolt!",        ""
+    },
+
+    {
+        "instant death", {90, 91, 91, 91,91}, {1, 2, 2, 2,2},
+        spell_instant_death, TAR_CHAR_OFFENSIVE, POS_FIGHTING,
+        NULL,   SLOT(516),      200,    15,
+        "death spell",          "!instant death!",      ""
+    },
+
+    {
+        "greater heal", { 91, 60, 70, 91,62 }, { 1, 1, 2, 2,1 },
+        spell_greater_heal, TAR_CHAR_DEFENSIVE, POS_FIGHTING,
+        NULL,  SLOT( 517 ),     200,   20,
+        "",             "!greater heal!",       ""
+    },
+
+    {
+        "greater harm", { 91, 60, 60, 91,62 },  {1, 1, 2, 2,1 },
+        spell_greater_harm,   TAR_CHAR_OFFENSIVE, POS_FIGHTING,
+        NULL, SLOT( 518 ),      150,    12,
+        "harm spell",           "!greater harm!",       ""
+    },
+
+    {
+        "mega heal",  { 91, 80, 90, 91,82 }, { 1, 1, 2, 2,1 },
+        spell_mega_heal,        TAR_CHAR_DEFENSIVE, POS_FIGHTING,
+        NULL,   SLOT( 519 ),    350,    12,
+        "",                     "!mega heal!",          ""
+    },
+
+    {
+        "mega mana", {93, 93, 93, 93,93}, {1, 1, 2, 2,1 },
+        spell_mega_mana,        TAR_CHAR_OTHER, POS_FIGHTING,
+        NULL,  SLOT( 520 ),  350, 0,
+        "",             "!mega mana!",          ""
     },
 
     { 
@@ -1745,7 +1976,7 @@ const   struct  group_type      group_table     [MAX_GROUP]     =
 
     {
         "attack",               { -1, 5, -1, -1, 7 },
-        { "demonfire", "dispel evil", "earthquake", 
+        { "demonfire", "dispel evil", "earthquake", "flamestrike",
           "hellfire", "thunderbolt", "dispel good", "heat metal",
           "ray of truth" }
     },
@@ -1762,9 +1993,9 @@ const   struct  group_type      group_table     [MAX_GROUP]     =
     },
     {
         "combat",               { 6, -1, -1, -1, -1 },
-        { "chain lightning", "chill touch",
-           "fireball", "lightning bolt", "magic missile",
-           "disintegrate",
+        { "acid blast", "burning hands", "chain lightning", "chill touch",
+          "colour spray", "fireball", "lightning bolt", "magic missile",
+          "shocking grasp", "ice ray", "meteor swarm", "disintegrate",
           "firewind", "ice storm", "flash fire", "flame sword", "inferno",
            "thunderbolt", "instant death", "multi missile", "heat metal" }
     },
@@ -1805,13 +2036,14 @@ const   struct  group_type      group_table     [MAX_GROUP]     =
 
     {
         "harmful",              { -1, 3, -1, -1, -1 },
-        { "harm" }
+        { "cause critical", "cause light", "cause serious", "harm",
+          "greater harm" }
     },
 
     {   
         "healing",              { -1, 3, -1, -1, 6 },
-        { "heal", 
-          "mass healing", "refresh" }
+        { "cure critical", "cure light", "cure serious", "heal", 
+          "mass healing", "refresh", "restoration", "greater heal"}
     },
 
     {

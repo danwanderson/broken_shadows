@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -118,6 +118,17 @@ void get_obj( CHAR_DATA *ch, OBJ_DATA *obj, OBJ_DATA *container )
 
     if ( container != NULL )
     {
+        if (container->pIndexData->vnum == OBJ_VNUM_PIT
+        &&  get_trust(ch) < obj->level)
+        {
+            send_to_char("You are not powerful enough to use it.\n\r",ch);
+            buffer_free( buffer );
+            return;
+        }
+
+        if (container->pIndexData->vnum == OBJ_VNUM_PIT
+        &&  !CAN_WEAR(container, ITEM_TAKE) && obj->timer)
+            obj->timer = 0;     
         act( "You get $p from $P.", ch, obj, container, TO_CHAR );
         act( "$n gets $p from $P.", ch, obj, container, TO_ROOM );
         obj_from_obj( obj );
@@ -285,6 +296,12 @@ void do_get( CHAR_DATA *ch, char *argument )
                 &&   can_see_obj( ch, obj ) )
                 {
                     found = TRUE;
+                    if (container->pIndexData->vnum == OBJ_VNUM_PIT
+                    &&  !IS_IMMORTAL(ch))
+                    {
+                        send_to_char("Don't be so greedy!\n\r",ch);
+                        return;
+                    }
                     get_obj( ch, obj, container );
                 }
             }
@@ -384,6 +401,17 @@ void do_put( CHAR_DATA *ch, char *argument )
             return;
         }
         
+        if (container->pIndexData->vnum == OBJ_VNUM_PIT 
+        &&  !CAN_WEAR(container,ITEM_TAKE)) {
+            if (obj->timer)
+            {
+                send_to_char( "Only permanent items may go in the pit.\n\r",ch);
+                return;
+            } else {
+                obj->timer = number_range(100,200);
+			}
+		}
+
         obj_from_char( obj );
         obj_to_obj( obj, container );
         act( "$n puts $p in $P.", ch, obj, container, TO_ROOM );
@@ -404,6 +432,15 @@ void do_put( CHAR_DATA *ch, char *argument )
             &&   get_obj_weight( obj ) + get_obj_weight( container )
                  <= container->value[0] )
             {
+                if (container->pIndexData->vnum == OBJ_VNUM_PIT
+                &&  !CAN_WEAR(obj, ITEM_TAKE) ) {
+                    if (obj->timer) {
+                        continue;
+                    } else {
+                        obj->timer = number_range(100,200);
+					}
+				}
+
                 if ( obj->item_type == ITEM_CONTAINER )
                     continue;
                 obj_from_char( obj );
@@ -417,6 +454,117 @@ void do_put( CHAR_DATA *ch, char *argument )
     return;
 }
 
+void do_donate( CHAR_DATA *ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+    OBJ_DATA *obj;
+    OBJ_DATA *obj_next;
+    ROOM_INDEX_DATA *donation,*find_location();
+    ROOM_INDEX_DATA *was_in_room;
+    BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
+    bool found;
+
+    argument = one_argument( argument, arg );
+
+    donation = get_room_index( ROOM_VNUM_DONATION );
+
+    if ( arg[0] == '\0' )
+    {
+        send_to_char( "Donate what?\n\r", ch );
+        buffer_free( buf );
+        return;
+    }
+
+    if ( str_cmp( arg, "all" ) && str_prefix( "all.", arg ) )
+    {
+        /* 'donate obj' */
+        if ( ( obj = get_obj_carry( ch, arg ) ) == NULL )
+        {
+            send_to_char( "You do not have that item.\n\r", ch );
+            buffer_free( buf );
+            return;
+        }
+
+        if ( !can_drop_obj( ch, obj ) )
+        {
+            send_to_char( "You can't let go of it.\n\r", ch );
+            buffer_free( buf );
+            return;
+        }
+
+        obj_from_char( obj );
+        obj->cost = 0;
+        obj_to_room( obj, donation );
+        act( "$n donates $p.", ch, obj, NULL, TO_ROOM );
+        act( "You donate $p.", ch, obj, NULL, TO_CHAR );
+        if ( IS_OBJ_STAT(obj, ITEM_MELT_DROP) )
+        {
+            act("$p dissolves into smoke.",ch,obj,NULL,TO_ROOM);
+            act("$p dissolves into smoke.",ch,obj,NULL,TO_CHAR);
+            extract_obj(obj);
+        }
+        else
+        {
+            was_in_room=ch->in_room;
+            ch->in_room=donation;
+            bprintf( buf, "A shimmering portal appears in midair, and "
+                "through it falls\n\r$n's donation: $p");
+            act( buf->data, ch, obj, NULL, TO_ROOM);
+            ch->in_room=was_in_room;
+        }
+    }
+    else
+    {
+        /* 'donate all' or 'donate all.obj' */
+        found = FALSE;
+        for ( obj = ch->carrying; obj != NULL; obj = obj_next )
+        {
+            obj_next = obj->next_content;
+
+            if ( ( arg[3] == '\0' || is_name( &arg[4], obj->name ) )
+            &&   can_see_obj( ch, obj )
+            &&   obj->wear_loc == WEAR_NONE
+            &&   can_drop_obj( ch, obj ) )
+            {
+                found = TRUE;
+                obj_from_char( obj );
+                obj->cost = 0;
+                obj_to_room( obj, donation );
+                act( "$n donates $p.", ch, obj, NULL, TO_ROOM );
+                act( "You donate $p.", ch, obj, NULL, TO_CHAR );
+                if ( IS_OBJ_STAT(obj, ITEM_MELT_DROP) )
+                {
+                    act("$p dissolves into smoke.",ch,obj,NULL,TO_ROOM);
+                    act("$p dissolves into smoke.",ch,obj,NULL,TO_CHAR);
+                    extract_obj(obj);
+                }
+                else
+                {
+                    was_in_room=ch->in_room;
+                    ch->in_room=donation;
+                    bprintf( buf, "A shimmering portal appears in midair,"
+                        " and through it falls\n\r$n's donation: $p");
+                    act( buf->data, ch, obj, NULL, TO_ROOM);
+                    ch->in_room=was_in_room;
+                }
+            }
+        }
+
+        if ( !found )
+        {
+            if ( arg[3] == '\0' )
+                act( "You are not carrying anything.",
+                    ch, NULL, arg, TO_CHAR );
+            else
+                act( "You are not carrying any $T.",
+                    ch, NULL, &arg[4], TO_CHAR );
+        }
+    }
+    
+    buffer_free( buf );
+
+    return;
+}
 
 void do_drop( CHAR_DATA *ch, char *argument )
 {
@@ -1114,18 +1262,17 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
 {
     BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
 
-/*
- *   if ( ch->level < ( obj->level - 2 ) )
- *   {
- *       bprintf( buf, "You must be level %d to use this object.\n\r",
- *           ( obj->level - 2 ) );
- *       send_to_char( buf->data, ch );
- *       act( "$n tries to use $p, but is too inexperienced.",
- *           ch, obj, NULL, TO_ROOM );
- *       buffer_free( buf );
- *       return;
- *   }
- */
+    if ( ch->level < ( obj->level - 2 ) )
+    {
+        bprintf( buf, "You must be level %d to use this object.\n\r",
+            ( obj->level - 2 ) );
+        send_to_char( buf->data, ch );
+        act( "$n tries to use $p, but is too inexperienced.",
+            ch, obj, NULL, TO_ROOM );
+        buffer_free( buf );
+        return;
+    }
+
     if ( obj->item_type == ITEM_LIGHT )
     {
         if ( !remove_obj( ch, WEAR_LIGHT, fReplace ) )
@@ -1611,8 +1758,15 @@ void do_remove( CHAR_DATA *ch, char *argument )
 void do_sacrifice( CHAR_DATA *ch, char *argument )
 {
     char arg[MAX_INPUT_LENGTH];
+    BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
     OBJ_DATA *obj;
+    int gold;
     
+    /* variables for AUTOSPLIT */
+    CHAR_DATA *gch;
+    int members;
+    BUFFER *buffer = buffer_new( 100 );
+
 
     one_argument( argument, arg );
 
@@ -1622,6 +1776,8 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
             ch, NULL, NULL, TO_ROOM );
         send_to_char(
             "The gods appreciate your offer and may accept it later.\n\r", ch );
+        buffer_free( buf );
+        buffer_free( buffer );
         return;
     }
 
@@ -1629,38 +1785,75 @@ void do_sacrifice( CHAR_DATA *ch, char *argument )
     if ( obj == NULL )
     {
         send_to_char( "You can't find it.\n\r", ch );
+        buffer_free( buf );
+        buffer_free( buffer );
         return;
     }
 
     if ( obj->item_type == ITEM_CORPSE_PC )
     {
-        if ( obj->contains )
+        if (obj->contains)
         {
            send_to_char(
              "The gods wouldn't like that.\n\r",ch);
+           buffer_free( buf );
+           buffer_free( buffer );
            return;
-		}
+        }
     }
 
 
-    /*
     if ( !CAN_WEAR(obj, ITEM_TAKE) 
 	|| IS_SET( obj->extra_flags, ITEM_NOSACRIFICE ) )
     {
         act( "$p is not an acceptable sacrifice.", ch, obj, 0, TO_CHAR );
-        return;
-    }
-*/
-    if ( obj->item_type != ITEM_CORPSE_NPC ) {
-        act( "$p is not an acceptable sacrifice.", ch, obj, 0, TO_CHAR );
+        buffer_free( buf );
+        buffer_free( buffer );
         return;
     }
 
-    send_to_char( "The gods thank you for your sacrifice.\n\r", ch );
+    gold = UMAX(1,obj->level * 2 );
+
+    if (obj->item_type != ITEM_CORPSE_NPC && obj->item_type != ITEM_CORPSE_PC)
+        gold = UMIN(gold, obj->cost);
+
+    if ( obj->item_type == ITEM_CORPSE_PC )
+        gold = 0;
+
+    if (gold == 1)
+        send_to_char(
+            "The gods give you one gold coin for your sacrifice.\n\r", ch );
+    else
+    {
+        bprintf(buf,"The gods give you %d gold coins for your sacrifice.\n\r",
+                gold);
+        send_to_char(buf->data,ch);
+    }
+    
+    ch->gold += gold;
+    
+    if (IS_SET(ch->act,PLR_AUTOSPLIT) )
+    { /* AUTOSPLIT code */
+        members = 0;
+        for (gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
+        {
+            if ( is_same_group( gch, ch ) )
+            members++;
+        }
+
+        if ( members > 1 && gold > 1)
+        {
+            bprintf(buffer,"%d",gold);
+            do_split(ch,buffer->data);  
+        }
+    }
+
     act( "$n sacrifices $p to the gods.", ch, obj, NULL, TO_ROOM );
     /* added by Rahl */
     wiznet("$N sends up $p as an offering.",ch,obj,WIZ_SACCING,0,0);
     extract_obj( obj );
+    buffer_free( buf );
+    buffer_free( buffer );
     return;
 }
 
@@ -1925,12 +2118,15 @@ void do_zap( CHAR_DATA *ch, char *argument )
 
         if ( victim != NULL ) /*make sure its a char first */
         {
-          if ( !IS_NPC(victim) ) {
-            if ( (!chaos && ( !IS_SET(victim->act, PLR_KILLER) || !IS_SET(ch->act,
-                PLR_KILLER) ) ) && ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-                victim->pcdata->bounty <= 0 ) ) 
-                && (skill_table[wand->value[3]].target != TAR_CHAR_DEFENSIVE
-                && skill_table[wand->value[3]].target != TAR_IGNORE) ) 
+          if ( !IS_NPC(victim) )
+          {
+        if ( (!chaos && ( !IS_SET(victim->act, PLR_KILLER) || !IS_SET(ch->act,
+        PLR_KILLER) ) )
+        &&
+        ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
+        !victim->pcdata->bounty > 0 ) ) 
+        && (skill_table[wand->value[3]].target != TAR_CHAR_DEFENSIVE
+        && skill_table[wand->value[3]].target != TAR_IGNORE) ) 
             {
              send_to_char( "You can only kill other player killers.\n\r", ch );
              return;
@@ -2090,7 +2286,10 @@ void do_steal( CHAR_DATA *ch, char *argument )
     {
         int amount;
 
-        amount = victim->gold * number_range(1, 10) / 100;
+        /* 
+         * was 10 instead of ch->level and 100 instead of MAX_LEVEL --Rahl
+         */
+        amount = victim->gold * number_range(1, ch->level) / MAX_LEVEL;
         if ( amount <= 0 )
         {
             send_to_char( "You couldn't get any gold.\n\r", ch );
@@ -2289,6 +2488,7 @@ void do_buy( CHAR_DATA *ch, char *argument )
     if ( IS_SET(ch->in_room->room_flags, ROOM_PET_SHOP) )
     {
         char arg[MAX_INPUT_LENGTH];
+        /* BUFFER *buf = buffer_new( MAX_INPUT_LENGTH ); */
         CHAR_DATA *pet;
         ROOM_INDEX_DATA *pRoomIndexNext;
         ROOM_INDEX_DATA *in_room;
@@ -2338,14 +2538,13 @@ void do_buy( CHAR_DATA *ch, char *argument )
             return;
         }
 
-/*
         if ( ch->level < pet->level )
         {
             send_to_char( "You're not powerful enough to master this pet.\n\r", ch );
             buffer_free( buf );
             return;
         }
-*/
+
         /* haggle */
         roll = number_percent();
         if (!IS_NPC(ch) && roll < ch->pcdata->learned[gsn_haggle])
@@ -2913,6 +3112,154 @@ void do_value( CHAR_DATA *ch, char *argument )
 }
 
 
+void do_junk( CHAR_DATA *ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+    BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
+    OBJ_DATA *obj;
+    OBJ_DATA *obj_next;
+    bool found;
+    int gold;
+    
+
+    one_argument( argument, arg );
+    gold = 0;
+    if ( arg[0] == '\0' )
+    {
+        send_to_char(
+            "What do you wish to junk?\n\r", ch );
+        buffer_free( buf );
+        return;
+    }
+    if ( str_cmp( arg, "all" ) && str_prefix( "all.", arg ) )
+    {
+        /* 'junk obj' */
+        if ( ( obj = get_obj_carry( ch, arg ) ) == NULL )
+        {
+            send_to_char( "You do not have that item.\n\r", ch );
+            buffer_free( buf );
+            return;
+        }
+
+        if ( !can_drop_obj( ch, obj ) )
+        {
+            send_to_char( "You can't let go of it.\n\r", ch );
+            buffer_free( buf );
+            return;
+        }
+
+		if ( IS_SET( obj->extra_flags, ITEM_NOSACRIFICE ) ) {
+        	act( "$p is not an acceptable sacrifice.", ch, obj, 0, TO_CHAR );
+			buffer_free( buf );
+			return;
+		}
+
+        if ( obj->item_type == ITEM_CORPSE_PC )
+        {
+          if (obj->contains)
+            {
+             send_to_char(
+             "The gods wouldn't like that.\n\r",ch);
+             buffer_free( buf );
+             return;
+            }
+         }
+
+        gold = UMAX(1,obj->level * 2);
+
+        if (obj->item_type != ITEM_CORPSE_NPC && obj->item_type != ITEM_CORPSE_PC)
+        gold = UMIN(gold,obj->cost);
+
+        if ( obj->item_type == ITEM_CORPSE_PC )
+            gold = 0;
+
+        if (gold == 1)
+        send_to_char("The gods give you one gold coin for your sacrifice.\n\r", ch );
+        else
+        {
+        bprintf(buf,"The gods give you %d gold coins for your sacrifice.\n\r",gold);
+        send_to_char(buf->data,ch);
+        }
+    
+        ch->gold += gold;
+        act( "$n sacrifices $p to the gods.", ch, obj, NULL, TO_ROOM );
+        wiznet("$N sends up $p as an offering.",ch,obj,WIZ_SACCING,0,0);
+        extract_obj( obj );
+        buffer_free( buf );
+        return;
+   }
+else
+   {
+        /* 'donate all' or 'donate all.obj' */
+        found = FALSE;
+        for ( obj = ch->carrying; obj != NULL; obj = obj_next )
+        {
+            obj_next = obj->next_content;
+
+            if ( ( arg[3] == '\0' || is_name( &arg[4], obj->name ) )
+            &&   can_see_obj( ch, obj )
+            &&   obj->wear_loc == WEAR_NONE
+            &&   can_drop_obj( ch, obj ) )
+            {
+                found = TRUE;
+                if ( !can_drop_obj( ch, obj ) )
+                {
+                send_to_char( "You can't let go of it.\n\r", ch );
+                break;
+                }
+
+				if ( IS_SET( obj->extra_flags, ITEM_NOSACRIFICE ) ) {
+        			act( "$p is not an acceptable sacrifice.", ch, obj,
+						0, TO_CHAR );
+					buffer_free( buf );
+					return;
+				}
+
+                if ( obj->item_type == ITEM_CORPSE_PC )
+                {
+                  if (obj->contains)
+                  {
+                   send_to_char(
+                   "The gods wouldn't like that.\n\r",ch);
+                   break;
+                  }
+                }
+        gold = UMAX(1,obj->level * 2);
+                
+        if (obj->item_type != ITEM_CORPSE_NPC && obj->item_type != ITEM_CORPSE_PC)
+        gold = UMIN(gold,obj->cost);
+
+        if ( obj->item_type == ITEM_CORPSE_PC )
+            gold = 0;
+
+        if (gold == 1)
+        send_to_char("The gods give you one gold coin for your sacrifice.\n\r", ch );
+        else
+        {
+        bprintf(buf,"The gods give you %d gold coins for your sacrifice.\n\r",gold);
+        send_to_char(buf->data,ch);
+        }
+    
+        ch->gold += gold;
+        act( "$n sacrifices $p to the gods.", ch, obj, NULL, TO_ROOM );
+        wiznet("$N sends up $p as an offering.",ch,obj,WIZ_SACCING,0,0);
+        extract_obj( obj );
+       }
+    }
+        if ( !found )
+        {
+            if ( arg[3] == '\0' )
+                act( "You are not carrying anything.",
+                    ch, NULL, arg, TO_CHAR );
+            else
+                act( "You are not carrying any $T.",
+                    ch, NULL, &arg[4], TO_CHAR );
+        }
+  }
+
+    buffer_free( buf );
+    return;
+}
 
 /*
 brew.c by Jason Huang (huangjac@netcom.com) 
@@ -3143,7 +3490,31 @@ void do_butcher(CHAR_DATA *ch, char *argument)
     { 
 /*       numst = dice(1,4); */
        numst = get_skill( ch, gsn_butcher ) / 25;
-         for ( j = 0; j < numst; j++ )
+       switch(numst)
+       {
+       case 1:
+         steak = create_object( get_obj_index( OBJ_VNUM_STEAK ), 0 );
+         
+         bprintf(buf,"A steak of the ");
+         buffer_strcat(buf,str_dup(obj->short_descr));
+         buffer_strcat(buf," is here.");
+         free_string( steak->description );
+         steak->description=str_dup(buf->data); 
+         steak->value[0] = ch->level / 2;
+/*       steak->value[1] = ch->level; */
+
+         bprintf(buf,"A steak of the ");
+         buffer_strcat(buf,str_dup(obj->short_descr));
+         free_string( steak->short_descr );
+         steak->short_descr=str_dup(buf->data); 
+
+         obj_to_room( steak, ch->in_room );
+         act( "$n butchers a corpse and creates a steak.", ch, steak, NULL, TO_ROOM );
+         act( "You butcher a corpse and create a steak.", ch, steak, NULL, TO_CHAR );
+         break;
+       case 2: 
+        
+         for ( j = 0; j < 2; j++ )
          {
 
              steak = create_object( get_obj_index( OBJ_VNUM_STEAK ), 0 );
@@ -3164,9 +3535,62 @@ void do_butcher(CHAR_DATA *ch, char *argument)
              obj_to_room( steak, ch->in_room );
          }      
 
-         act( "$n butchers a corpse.", ch, steak, NULL, TO_ROOM );
-         act( "You butcher a corpse.", ch, steak, NULL, TO_CHAR );
+         act( "$n butchers a corpse and creates two steaks.", ch, steak, NULL, TO_ROOM );
+         act( "You butcher a corpse and create two steaks.", ch, steak, NULL, TO_CHAR );
+         break; 
 
+       case 3:
+
+         for ( j = 0; j < 3; j++ )
+         {
+
+             steak = create_object( get_obj_index( OBJ_VNUM_STEAK ), 0 );
+
+             bprintf(buf,"A steak of the ");
+             buffer_strcat(buf,str_dup(obj->short_descr));
+             buffer_strcat(buf," is here.");
+             free_string( steak->description );
+             steak->description=str_dup(buf->data);
+             steak->value[0] = ch->level / 2;
+/*           steak->value[1] = ch->level; */
+
+             bprintf(buf,"A steak of the ");
+             buffer_strcat(buf,str_dup(obj->short_descr));
+             free_string( steak->short_descr );
+             steak->short_descr=str_dup(buf->data);
+             obj_to_room( steak, ch->in_room );
+        }
+
+
+         act( "$n butchers a corpse and creates three steaks.", ch, steak, NULL, TO_ROOM );
+         act( "You butcher a corpse and create three steaks.", ch, steak, NULL, TO_CHAR );
+         break;
+       case 4:
+
+         for ( j = 0; j < 4; j++ )
+         {
+
+             steak = create_object( get_obj_index( OBJ_VNUM_STEAK ), 0 );
+
+             bprintf(buf,"A steak of the ");
+             buffer_strcat(buf,str_dup(obj->short_descr));
+             buffer_strcat(buf," is here.");
+             free_string( steak->description );
+             steak->description=str_dup(buf->data);
+             steak->value[0] = ch->level / 2;
+/*           steak->value[1] = ch->level; */
+
+             bprintf(buf,"A steak of the ");
+             buffer_strcat(buf,str_dup(obj->short_descr));
+             free_string( steak->short_descr );
+             steak->short_descr=str_dup(buf->data);
+             obj_to_room( steak, ch->in_room );
+        }
+
+         act( "$n butchers a corpse and creates four steaks.", ch, steak, NULL, TO_ROOM );
+         act( "You butcher a corpse and create four steaks.", ch, steak, NULL, TO_CHAR );
+         break;
+      } 
       check_improve(ch,gsn_butcher,TRUE,1);
     }   
     else

@@ -1,0 +1,2215 @@
+#AREADATA
+Name        {50-60} Rahl    Ruins~
+Builders    None~
+VNUMs       20000 20099
+Security    9
+End
+
+
+
+#MOBILES
+#20000
+kraken~
+the kraken~
+A giant squid-like creature that could only be the Kraken!
+~
+It is the largest creature you have ever seen, being more than 200 feet
+long.  Its 8 large tentacles reach for you as its mouth begins to open.  
+~
+Human~
+ABFGQRSTc DFHc 0 -1000 S
+60 100 11d277+1247 10d10+500 6d29+30 12
+-27 -27 -27 -9
+ACEHMO ABIKR FG C
+8 8 1 4000
+AGHMVc ABCDEFGHIJK H none
+#20001
+sea elf~
+a sea elf~
+A sea elf is here, floating in the current.
+~
+It looks just like all the other elves that you've seen except it has a
+tail much as a fish and can stay underwater almost indefinitely.  
+~
+Elf~
+AGQRT JPZb 0 500 S
+50 200 10d169+920 1d1+99 5d10+25 17
+0 0 0 0
+FKRU 0 B Z
+8 8 3 150
+AHMV ABCDEFGHIJK M none
+#20002
+shark~
+a shark~
+A Great White stares at you hungrily!
+~
+The fiercest of the shark family, this one looks like it missed its lunch
+today.  
+~
+Human~
+AFGTU DFVb 0 0 S
+55 200 11d216+1076 0d0+0 6d10+27 10
+-10 -10 -10 -10
+ADHMU BIR 0 C
+8 8 0 175
+AHMV ABCDEFGHIJK M none
+#20003
+ray~
+a large ray~
+A very large ray swims slowly by.
+~
+With its fins spread, it looks more like a plane than a fish as it swims
+toward you.  Its eyes are filled with hate as it prepares to sting you with
+its tail.  
+~
+Human~
+AGTU Pb 0 0 S
+52 200 11d185+980 0d0+0 5d10+27 26
+-10 -10 -10 -10
+AFKMU R 0 0
+8 8 0 150
+AHMV ABCDEFGHIJK M none
+#20004
+seahorse~
+a seahorse~
+A seahorse floats slowly by.
+~
+A peaceful looking little animal who just wants to be left alone.
+~
+Human~
+AGRU bc 0 0 S
+50 75 10d169+920 10d100+1000 5d10+25 23
+-40 -40 -40 -37
+GHKU HR KS F
+8 8 3 100
+AHMV ABCDEFGHIJK M none
+#20005
+octopus~
+an octopus~
+A rather large octopus has taken up residence here.
+~
+It's rather large, measuring more than 50 feet in length, and it doesn't
+look happy to see you in its home.  Its tentacles write and its enormous
+beak opens and closes in rage at seeing you.  
+~
+Human~
+ABFTc BDF 0 -500 S
+60 80 11d277+1247 10d100+1000 6d11+29 12
+0 0 0 0
+0 ABK 0 0
+8 8 1 100
+AHMV ABCDEFGHIJK L none
+#0
+
+
+
+#OBJECTS
+#20000
+rusted lantern~
+a rusted lantern~
+Amid the muck on the floor, you see a rusted old lantern.~
+none~
+8 0 A
+0 0 0 0 0
+10 3 20
+#20001
+necklace pearl~
+a pearl necklace~
+A beautiful pearl necklace has survived the centuries underwater.~
+none~
+8 0 AC
+0 0 0 0 0
+50 3 1000
+#20002
+ring gold~
+a small gold ring~
+You see a glint of gold among the mud on the bottom.~
+none~
+8 AGHI AB
+0 0 0 0 0
+55 5 1000
+A
+13 50
+A
+12 10
+#20003
+rusted sword~
+a rusted sword~
+A rusted sword hangs from the wall on your right.~
+none~
+8 0 AN
+0 0 0 0 0
+50 20 250
+#20004
+rusted dagger~
+a rusted dagger~
+A rusted dagger is here lying on the floor.~
+none~
+8 0 AN
+0 0 0 0 0
+50 5 250
+#20005
+titanium sword~
+a titanium two-handed sword~
+A very large shiny sword is here, hanging on the wall.~
+none~
+5 G AN
+A ABC ABD AB F
+60 27 2000
+A
+19 10
+A
+18 10
+#20006
+titanium dagger~
+a titanium dagger~
+A shiny dagger is here, partially obscured by mud.~
+none~
+5 0 AN
+B D D ABD D
+55 10 10000
+A
+19 1
+A
+18 10
+#20007
+nails~
+a handful of nails~
+A bunch of handmade nails are all over the floor.~
+none~
+13 0 A
+0 0 0 0 0
+0 3 50
+#20008
+horseshoe~
+a horseshoe~
+A hoseshoe hangs from a nail here. Maybe it will bring you luck.~
+none~
+13 0 AO
+0 0 0 0 0
+50 3 1000
+A
+13 25
+#20009
+ruby gem~
+a shiny ruby~
+A very shiny red gem is loosely attached to a wall.~
+none~
+32 0 A
+0 0 0 0 0
+0 1 1000
+#20010
+rusted cleaver~
+a rusted cleaver~
+A rusted old cleaver is stuck in a cutting board.~
+none~
+13 0 AN
+0 0 0 0 0
+40 5 100
+#20011
+rusted helmet~
+a rusted helmet~
+An old rusted helmet is lying on the floor here.~
+none~
+13 0 AE
+0 0 0 0 0
+50 3 0
+#20012
+titanium chest plate~
+a titanium breast plate~
+A very shiny chest plate is half-buried in the rubble.~
+none~
+9 0 AD
+CE BE BE BD 0
+60 20 1000
+#20013
+hulk boat ship~
+a hulk~
+An old hulk, destroyed during the flooding, sits in front of you.~
+none~
+13 0 0
+0 0 0 0 0
+0 10000 0
+#0
+
+
+
+#ROOMS
+#20000
+The Tavern~
+You are in front of what used to be a tavern, from the looks of the
+place.  Long ago, the waters rose and covered the building, but, amazingly,
+it is still intact after numerous decades underwater.  Off to the west and
+to the north, there is a large underwater cliff where the ocean once met the
+shore, but now there is no dry land to be seen for miles around.  To the
+south and to the east, the streets of this once magnificent city extend
+towards the heart of the metropolis.  
+~
+0 9 6
+D1
+~
+~
+0 0 20001
+D2
+~
+~
+0 0 20008
+D4
+~
+~
+0 0 20081
+S
+#20001
+The Wharf~
+Here you see the remains of the peirs that once berthed the fleets of
+fishing boats, which, at one time, provided the city and many more small
+towns with food.  Now, as the water slowly flows through the many hulks, you
+can almost sense the desolation.  This once busy marketplace now abandoned
+and underwater seems to echo the feeling of the entire city - cold and
+empty.  
+~
+0 9 6
+D1
+~
+~
+0 0 20002
+D2
+~
+~
+0 0 20009
+D3
+~
+~
+0 0 20000
+S
+#20002
+The Cock and Bull Inn~
+You hover before what used to be a very nice inn, judging by what's left
+of it.  The door hangs by a single hinge, swinging slowly in the current, as
+does the large sign over the door.  As you gaze upon it, you can almost hear
+the people inside making merry befoere a large fire, mugs of ale in their
+hands and cheer in their hearts, but after a moment you realize that is just
+the water around you.  
+~
+0 9 6
+E
+sign~
+The Cock and Bull Inn
+~
+D1
+~
+~
+0 0 20003
+D2
+~
+~
+0 0 20010
+D3
+~
+~
+0 0 20001
+S
+#20003
+The Docks~
+You are now in front of the main docks of the city.  From here, voyages
+to other cities departed and travellers from other lands arrived.  At one
+time, this used to be one of the busiest parts of the city, but now, they
+lie much as the neighboring wharf does.  To the east, you can see a small
+marina, servicing the smaller boats.  To the south is one of the trade
+streets.  
+~
+0 9 6
+D1
+~
+~
+0 0 20004
+D2
+~
+~
+0 0 20011
+D3
+~
+~
+0 0 20002
+S
+#20004
+The Marina~
+Here you can see what's left of the many small boats that were once used
+by the people of the city.  To your right, you can see the small building
+where the harbormaster must have kept his watch over the busy port, making
+sure that the smaller boats did not get in the way of the larger fishing and
+passenger boats.  To the east there is what looks like another shop, while
+to the west you can see the main part of the docks.  South of you are more
+buildings.  
+~
+0 9 6
+D1
+~
+~
+0 0 20005
+D2
+~
+~
+0 0 20012
+D3
+~
+~
+0 0 20003
+S
+#20005
+The Bakery~
+You are hovering in front of what used to be one of the city's bakeries. 
+As you look at your surroundings, you wonder why someone decided to open a
+bakery here, where the aroma of all the wonderful breads would be lost in
+the smell of the sea and of the fish from the nearby wharf.  
+~
+0 9 6
+D1
+~
+~
+0 0 20006
+D2
+~
+~
+0 0 20013
+D3
+~
+~
+0 0 20004
+S
+#20006
+The Alley~
+You are in a dark alley.  Once, this probably was dingy, but the current
+has washed away everything, leaving it just a narrow channel between
+buildings running toward the cliff that used to mark the shoreline.  To the
+east is the bakery.  To the west is what looks like it was the general
+store.  
+~
+0 9 6
+D1
+~
+~
+0 0 20007
+D2
+~
+~
+0 0 20014
+D3
+~
+~
+0 0 20005
+S
+#20007
+The General Store~
+This is what used to be the general store.  Inside are shelves and cases
+full of goods, most of which are still there, surprisingly.  In the back are
+barrels which used to contain flour, sugar, and other foodstuffs, but which
+have dissolved or attracted the attention of sharks.  To the west is an
+alley and to the south you see a few houses.  
+~
+0 9 6
+D2
+~
+~
+0 0 20015
+D3
+~
+~
+0 0 20006
+S
+#20008
+A House~
+You are in front of one of the city's larger houses.  The owner must have
+loved the sea, as the house had a spectacular view of the shore and the sea
+beyond.  Inside there are many treasures, including quite a collection of
+weapons and armor.  Unfortunately for you, the best you can do is look
+through the windows at them, as all the entrances are effectively blocked. 
+Apparently the owner of the house was very cautious with his treasures.  The
+house is closed up like a fortress.  
+~
+0 9 6
+D0
+~
+~
+0 0 20000
+D1
+~
+~
+0 0 20009
+D2
+~
+~
+0 0 20016
+S
+#20009
+A House~
+You are in front of a rather plain house.  While the owner was not
+wealthy, he wasn't very poor either.  Except for the fact that it's under
+water, it looks much as you'd expect the typical middle-class home to look
+like.  To the west you see a large and opulent house.  To the east is
+another house, much like this one.  
+~
+0 9 6
+D0
+~
+~
+0 0 20001
+D1
+~
+~
+0 0 20010
+D2
+~
+~
+0 0 20017
+D3
+~
+~
+0 0 20008
+S
+#20010
+A House~
+You are in front of a rather ordinary house.  If you wander about the
+city, you will see that most of the citizens have houses much like this one.
+As you snoop around, you realize that there is nothing of interest here.  To
+the west you can see another house.  To the north, you can vaguely see where
+the shore used to be.  To the south is Main Street.  East is what used to be
+the jeweler's.  
+~
+0 9 6
+D0
+~
+~
+0 0 20002
+D1
+~
+~
+0 0 20011
+D2
+~
+~
+0 0 20018
+D3
+~
+~
+0 0 20009
+S
+#20011
+The Jeweler's~
+This used to be the jeweler's shop.  As you look around, you can see that
+the display cases are still intact.  Upon closer inspection, you can see
+that not only are the cases intact, but they still have all sorts of jewelry
+in them.  To the west is a group of houses.  East is the weaponsmith's shop.
+To the north you can see the old shoreline.  South is Main Street.  
+~
+0 9 6
+D0
+~
+~
+0 0 20003
+D1
+~
+~
+0 0 20012
+D2
+~
+~
+0 0 20019
+D3
+~
+~
+0 0 20010
+S
+#20012
+The Weaponsmith's Shop~
+The weaponsmith's shop in this city must have been a busy place, as the
+shop is an impressive looking building and the inside of the building is
+hardly spartan.  As the city flooded, the rushing waters could not lift many
+of the wares of this shop.  On the floor and on the walls are the products
+of the weaponsmith's trade.  On careful inspection, you notice that the
+steel weapons have all rusted in the water.  You also notice a set of
+weapons shining bright in the light of your underwater lantern.  Perhaps
+these warrant closer inspection.  To the west is the jeweler's shop and to
+the east is the blacksmith's.  South is Main Street.  To the distance in the
+north, you can see the old shoreline and to the immediate north is the
+marina.  
+~
+0 9 6
+D0
+~
+~
+0 0 20004
+D1
+~
+~
+0 0 20013
+D2
+~
+~
+0 0 20020
+D3
+~
+~
+0 0 20011
+S
+#20013
+The Blacksmith's Shop~
+As you look around, you notice that you are in the blacksmith's shop. 
+Near the back wall you can see the forge, where the city's blacksmith slaved
+all day to keep the horses shod and provide nails, candlesticks, and other
+household items.  On the walls and the floor you can see various items that
+the blacksmith has made in his years of work.  To the west you can see the
+weaponsmith's shop and to the east a stable.  South is Main Street and to
+the north is what looks like another shop of some sort.  
+~
+0 9 6
+D0
+~
+~
+0 0 20005
+D1
+~
+~
+0 0 20014
+D2
+~
+~
+0 0 20021
+D3
+~
+~
+0 0 20012
+S
+#20014
+A Group of Houses~
+You hover before a small cluster of nondescript houses.  Looking around,
+you notice nothing out of the ordinary.  They're just average homes.  To the
+north you can see an alley and, in the distance, the edge of the cliff.  To
+the south is the main street of the city and to the west is the
+blacksmith's.  East of here you can see more homes.  
+~
+0 9 6
+D0
+~
+~
+0 0 20006
+D1
+~
+~
+0 0 20015
+D2
+~
+~
+0 0 20022
+D3
+~
+~
+0 0 20013
+S
+#20015
+A Group of Houses~
+Around you are several houses, none of which really stands out.  East of
+here there is a ledge, where a large part of the city slid into the abyss
+when the city began flooding.  To the south is Main Street, while to the
+west you can see more houses.  
+~
+0 9 6
+D0
+~
+~
+0 0 20007
+D2
+~
+~
+0 0 20023
+D3
+~
+~
+0 0 20014
+S
+#20016
+West End of Main Street~
+You are hovering over the west end of Main Street, where it, at one time,
+turned into a small path into the woods.  Now, with the flooding of the town
+and much of the surrounding land, the woods have disappeared and the grass
+has died, destroying the lines where the path once lay.  To the east, Main
+Street continues, while to the north and south, you can see houses.  
+~
+0 9 6
+D0
+~
+~
+0 0 20008
+D1
+~
+~
+0 0 20017
+D2
+~
+~
+0 0 20024
+S
+#20017
+The Library~
+You are floating here on Main Street in front of the library.  As you
+look upon the huge building, you can almost see the scholars enterting the
+building to do research.  You swim between the twin pillars and manage to
+push the doors open.  Inside, you can see row upon row of shelves containing
+remnants of many volumes.  This impressive library once held hundreds of
+thousands of books, but now there are few intact books left.  After a while,
+you leave the library and reenter Main Street.  To the west is the city
+entrance and to the east you can see more of Main Street.  North and south
+of you is a cluster of houses.  
+~
+0 9 6
+D0
+~
+~
+0 0 20009
+D1
+~
+~
+0 0 20018
+D2
+~
+~
+0 0 20025
+D3
+~
+~
+0 0 20016
+S
+#20018
+The Temple~
+Definitely one of the most impressive buildings in the city, the temple
+towers above you, its top almost reaching the surface of the sea.  When you
+swim inside, you see the various altars to the various gods of the society. 
+The entire building is soaked (no pun intended) in wealth.  You are tempted
+to take a "prize" back with you.  When you reenter Main Street, you notice
+that the library is just a short walk to the west, convenient for the
+acolytes.  To the east you can see the city fountain.  North and south you
+can see shops of some sort.  
+~
+0 9 6
+D0
+~
+~
+0 0 20010
+D1
+~
+~
+0 0 20019
+D2
+~
+~
+0 0 20026
+D3
+~
+~
+0 0 20017
+S
+#20019
+The Fountain~
+You are hovering in front of a large fountain.  This fountain used to be
+where the people came to get all their water for cooking and other household
+uses.  Now, like everything else in this city, it lies in ruins, swallowed
+by the sea.  As you inspect it closer, you notice that the bottom is not
+solid.  To the north lies the road to what used to be the shore.  To the
+east and west is Main Street.  To the south is the residential district.  
+~
+0 9 6
+D0
+~
+~
+0 0 20011
+D1
+~
+~
+0 0 20020
+D2
+~
+~
+0 0 20027
+D3
+~
+~
+0 0 20018
+D5
+~
+~
+0 0 20059
+S
+#20020
+City Hall~
+You are in front of what was the mayor's home and office.  From here, he
+directed the future of the city and managed the day-to-day operations of the
+metropolis.  Inside, you find the reception room and the mayor's office. 
+The furniture in both offices is still intact and in good shape, considering
+that it has been underwater for more than a century.  In the mayor's office,
+you find the remains of the mayor.  Apparently, he remained at his post
+until the end, his body eaten away by scavengers, leaving the bare skeleton
+behind.  Quickly, you return to Main Street and look around.  West is the
+fountain, while to the north and south are shops of some sort.  To the east
+you can see the guards' office.  
+~
+0 9 6
+D0
+~
+~
+0 0 20012
+D1
+~
+~
+0 0 20021
+D2
+~
+~
+0 0 20028
+D3
+~
+~
+0 0 20019
+S
+#20021
+The Guards' Office~
+You are standing before the cityguards' headquarters.  From here, the
+guards used to patrol the city, keeping the peace and upholding the law. 
+Over the door, the large shield of the guards is prominently displayed.  To
+the west you can see City Hall.  To the east and north you can see shops of
+some sort.  Sout of here is what looks like houses.  
+~
+0 9 6
+D0
+~
+~
+0 0 20013
+D1
+~
+~
+0 0 20022
+D2
+~
+~
+0 0 20029
+D3
+~
+~
+0 0 20020
+S
+#20022
+The Fighting Cock Inn~
+You are in front of a very nice inn.  No doubt this is where off-duty
+guards and city officials spent much of their pay and many hours.  Inside,
+over the fireplace, you see a collection of trophies brought back by lucky
+hunters.  Behind the bar is a large mural protraying the birth of the world
+with depictions of all the major gods.  Outside, to the west, you can see
+the guards' headquarters, while in all other directions are shops and homes.
+~
+0 9 6
+D0
+~
+~
+0 0 20014
+D1
+~
+~
+0 0 20023
+D2
+~
+~
+0 0 20030
+D3
+~
+~
+0 0 20021
+S
+#20023
+The Tax Collector's Office~
+In front of you, you can see the office of the most despised man in the
+entire city.  This is where the tax collector did much of his work.  Then,
+as now, no one liked the tax collector much.  There wasn't all that much
+money to go around.  After taxes, most families had enough money for food
+and a little left over for other things.  This was not a city of poor people
+and many of the families didn't do too badly for themselves, but there were
+not a lot of very wealthy citizens.  To the west is a small inn.  North and
+south are shops and houses.  Directly to the east of you, you can see the
+edge of the drop off where most of the city slid deeper into the sea.  
+~
+0 9 6
+D0
+~
+~
+0 0 20015
+D2
+~
+~
+0 0 20031
+D3
+~
+~
+0 0 20022
+S
+#20024
+The Butcher's Shop~
+You are in front of one of the city's butcher shops.  When you swim
+inside, you can see the back room, where the animals were slaughtered.  The
+walls of this room are covered with various knives and cutting implements. 
+The front room contains a few tables where all kinds of cut meats were in
+display.  
+~
+0 9 6
+D0
+~
+~
+0 0 20016
+D1
+~
+~
+0 0 20025
+D2
+~
+~
+0 0 20032
+S
+#20025
+A Cluster of Houses~
+You are in front of a small cluster of houses.  Next to each house is a
+spot where there was probably once a garden, providing supplimental food
+during the summer months.  The insides of each house are rather plain,
+usually consisting of a bedroom or two, a kitchen, and a few other
+miscellaneous rooms.  
+~
+0 9 6
+D0
+~
+~
+0 0 20017
+D1
+~
+~
+0 0 20026
+D2
+~
+~
+0 0 20033
+D3
+~
+~
+0 0 20024
+S
+#20026
+The Fighter's Guild~
+You are swimming in front of the building that at one time was where the
+soldiers and fighters hung out and practiced.  It was here that the masters
+passed down their knowledge to the good and the bad swordsmen and it was
+here that many blademasters were made.  
+~
+0 9 6
+D0
+~
+~
+0 0 20018
+D1
+~
+~
+0 0 20027
+D2
+~
+~
+0 0 20034
+D3
+~
+~
+0 0 20025
+S
+#20027
+The Magic User's Guild~
+You are in front of the city's guild for magic users.  Here, wizards and
+sorceresses gathered together to teach each other and young apprentices the
+spells and other rituals that defined the way they lived and which caused
+resentment among some.  
+~
+0 9 6
+D0
+~
+~
+0 0 20019
+D1
+~
+~
+0 0 20028
+D2
+~
+~
+0 0 20035
+D3
+~
+~
+0 0 20026
+S
+#20028
+The Market~
+You are in the center of what used to be the farmer's market.  Farmers
+from the outskirts of the city brought fruits and vegetables here to sell
+them.  Most of the stalls were washed away in the flood, but a few remain,
+broken and on their sides.  
+~
+0 9 6
+D0
+~
+~
+0 0 20020
+D1
+~
+~
+0 0 20029
+D2
+~
+~
+0 0 20036
+D3
+~
+~
+0 0 20027
+S
+#20029
+The Armor Shop~
+This is what used to be the armory.  At one point, the armorer stood
+behind this counter selling his wares.  Armor lies strewn about the shop,
+much of it steel and rusted, but, as you look around, you notice a few
+pieces that are still shiny.  The flooding destroyed several of the support
+beams, causing the ceiling to collapse.  Picking your way through the
+rubble, you pick up a few artifacts and make your way back to the door.  
+~
+0 9 6
+D0
+~
+~
+0 0 20021
+D1
+~
+~
+0 0 20030
+D2
+~
+~
+0 0 20037
+D3
+~
+~
+0 0 20028
+S
+#20030
+The Blue Parrot Inn~
+You are before one of the many inns in the city.  During its heyday, the
+Blue Parrot had a reputation for being one of the rowdiest places in the
+area.  There was hardly a night when at least one person didn't get thrown
+out.  Now, the ruins look so peaceful, water flowing slowly through giant
+holes in the walls and the roof.  
+~
+0 9 6
+D0
+~
+~
+0 0 20022
+D1
+~
+~
+0 0 20031
+D2
+~
+~
+0 0 20038
+D3
+~
+~
+0 0 20029
+S
+#20031
+A House~
+Before you stands a small house.  Although not in the greatest location,
+being right next door to the Blue Parrot Inn, the owner of this house was
+known throughout the city.  Old Mrs.  Earl was perhaps the most giving
+person in the city.  When her husband died, and even before, she dedicated
+her life to helping others.  Many people, suddenly losing their livelihood
+and, therefore, their source of income, turned to Mrs.  Earl for a place to
+stay until they could find a new job or another source of income.  Mrs. 
+Earl was also the first to offer food to the poor and the hungry.  For this,
+she was known throughout the countryside and this house, or at least, what
+is left of it, stands a few hundred feet below the surface of the sea as an
+eternal tribute to her.  
+~
+0 9 6
+D0
+~
+~
+0 0 20023
+D2
+~
+~
+0 0 20039
+D3
+~
+~
+0 0 20030
+S
+#20032
+The Southwest Corner~
+You are in the southwestern corner of the city.  Judging by the absence
+of shops, inns, and taverns, there must not have been much traffic here
+except for those living in the houses you see before you.  These are not
+spectacular houses.  In fact, you can see nothing special about them.  This
+must have been a nice, quiet neighborhood.  
+~
+0 9 6
+D0
+~
+~
+0 0 20024
+D1
+~
+~
+0 0 20033
+S
+#20033
+More Houses~
+All around you are more houses, each as ordinary as the rest.  As you
+look around, you realize that this must have been the home of many of the
+sailors, or at least the ones who decided to get married and have a family. 
+On the walls of a few houses, you can see harpoons and other maritime
+equipment.  
+~
+0 9 6
+D0
+~
+~
+0 0 20025
+D1
+~
+~
+0 0 20034
+D3
+~
+~
+0 0 20032
+S
+#20034
+More Houses~
+You are standing among another group of houses, this one almost as
+unspectacular as the rest of them.  As you begin to search through each
+house, you start to lose hope of finding anything other than what you've
+already seen.  Then, all of a sudden, in one of the least conspicuous
+houses, you come across something new: A framed story of some kind.  In
+interest, you stop and read it...  
+~
+0 9 6
+E
+story~
+When we were children, we all heard the legend of the Kraken, the famous
+ship-eating sea monster.  Well, I'm here to tell you that it is entirely
+true.  While I was sitting on the docks one day, I saw a ship come in.  It
+was towing what was left of a great passenger ship and it was carrying the
+survivors, which were few.  Every survivor and many of the crew of the
+rescuing ship gave a descrition of a sea monster that fit the legend of the
+kraken exactly.  I am convinced that they did indeed see a kraken, for who
+knows if there is just one?  Perhaps it does not live as far out in the
+ocean as everyone thinks.  Personally, I think that it lives nearby. 
+Perhaps in the caves beneath the city.  
+~
+D0
+~
+~
+0 0 20026
+D1
+~
+~
+0 0 20035
+D3
+~
+~
+0 0 20033
+S
+#20035
+The Gatehouse~
+Of all the city's gates, this is the only one still standing as far as
+you can tell.  Indeed, the west gate and gatehouse have been so thouroughly
+destroyed that there is no trace of there ever having been a gate or even a
+wall there.  The east gate, the only other gate into the city has slid down
+into the chasm with the rest of the city and no one knows how much of the
+city survied the fall.  No one is even sure how far down the rest of the
+city is.  The large iron gates are now forever rusted closed, their
+usefulness no longer apparent, however, even in the murky water, they still
+look very imposing and very impressive.  The gatehouse, too is formidable. 
+At one time it held a small squad of guards whose job it was to protect the
+city from intruders at night.  
+~
+0 9 6
+D0
+~
+~
+0 0 20027
+D1
+~
+~
+0 0 20036
+D3
+~
+~
+0 0 20034
+S
+#20036
+The Wall~
+At one point, this used to be a very nice neighborhood.  There used to be
+a playground for the children here, but now, there is nothing left of it
+save a few timbers sticking out of the ground.  The only man-made object
+that you can clearly recognize is the wall of the city.  This is one of the
+longest segments of the wall left intact, from the gatehouse west of there
+to the small cottages east of here, almost a quarter mile long.  
+~
+0 9 6
+D0
+~
+~
+0 0 20028
+D1
+~
+~
+0 0 20037
+D3
+~
+~
+0 0 20035
+S
+#20037
+Cottages~
+You are swimming in front of a group of small wooden cottages.  All of
+these cottages are made like log cabins and have only a few rooms each. 
+Once, these cottages were the homes of the tavern maids, the blacksmith's
+apprentices, and others with a low income but could still provide for
+themsleves.  
+~
+0 9 6
+D0
+~
+~
+0 0 20029
+D1
+~
+~
+0 0 20038
+D3
+~
+~
+0 0 20036
+S
+#20038
+Hot Cross Buns Bakery~
+This is the site of another of the city's prominent bakeries.  This
+particular bakery was once famous for its pastries and sweets, but now, like
+its sister in the northern part of the city, lies in ruin, its customers and
+its baker long since gone.  
+~
+0 9 6
+D0
+~
+~
+0 0 20030
+D1
+~
+~
+0 0 20039
+D3
+~
+~
+0 0 20037
+S
+#20039
+The Drop-Off~
+You are hovering over the edge of a deep chasm.  It was into this chasm
+that, more than a century ago, during the flooding, more than half of the
+city fell.  As you peer into the darkness of the abyss, you can't help but
+wonder if wat treasures lie at the bottom.  Caution, however, prevents you
+from going over the edge to find out, for no one knows just how far down the
+remainder of the city is.  For all anyone knows, you might be crushed to
+death by the pressure of hundreds of feet of water before you glimpse the
+spire of the tallest building left standing there.  
+~
+0 9 6
+D0
+~
+~
+0 0 20031
+D3
+~
+~
+0 0 20038
+S
+#20040
+The Cavern~
+You are now in a gigantic cavern, the ceiling of which is more than 50
+feet above you.  In the walls you can see small caves which look like they
+could be the homes of some creature.  
+~
+0 9 6
+D1
+~
+~
+0 0 20041
+D2
+~
+~
+0 0 20048
+S
+#20041
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D1
+~
+~
+0 0 20042
+D2
+~
+~
+0 0 20049
+D3
+~
+~
+0 0 20040
+S
+#20042
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D1
+~
+~
+0 0 20043
+D2
+~
+~
+0 0 20050
+D3
+~
+~
+0 0 20041
+S
+#20043
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D1
+~
+~
+0 0 20044
+D2
+~
+~
+0 0 20051
+D3
+~
+~
+0 0 20042
+S
+#20044
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D1
+~
+~
+0 0 20045
+D2
+~
+~
+0 0 20052
+D3
+~
+~
+0 0 20043
+S
+#20045
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+abov eyou.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D1
+~
+~
+0 0 20046
+D2
+~
+~
+0 0 20053
+D3
+~
+~
+0 0 20044
+S
+#20046
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D1
+~
+~
+0 0 20047
+D2
+~
+~
+0 0 20054
+D3
+~
+~
+0 0 20045
+S
+#20047
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D2
+~
+~
+0 0 20055
+D3
+~
+~
+0 0 20046
+S
+#20048
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20040
+D1
+~
+~
+0 0 20049
+D2
+~
+~
+0 0 20056
+S
+#20049
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20041
+D1
+~
+~
+0 0 20050
+D2
+~
+~
+0 0 20057
+D3
+~
+~
+0 0 20048
+S
+#20050
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20042
+D1
+~
+~
+0 0 20051
+D2
+~
+~
+0 0 20058
+D3
+~
+~
+0 0 20049
+S
+#20051
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20043
+D1
+~
+~
+0 0 20052
+D2
+~
+~
+0 0 20059
+D3
+~
+~
+0 0 20050
+S
+#20052
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20044
+D1
+~
+~
+0 0 20053
+D2
+~
+~
+0 0 20060
+D3
+~
+~
+0 0 20051
+S
+#20053
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20045
+D1
+~
+~
+0 0 20054
+D2
+~
+~
+0 0 20061
+D3
+~
+~
+0 0 20052
+S
+#20054
+The Cavern~
+You are in a giagantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20046
+D1
+~
+~
+0 0 20055
+D2
+~
+~
+0 0 20062
+D3
+~
+~
+0 0 20053
+S
+#20055
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20047
+D2
+~
+~
+0 0 20063
+D3
+~
+~
+0 0 20054
+S
+#20056
+The Cavern~
+You are in a giagantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20048
+D1
+~
+~
+0 0 20057
+D2
+~
+~
+0 0 20064
+S
+#20057
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20049
+D1
+~
+~
+0 0 20058
+D2
+~
+~
+0 0 20065
+D3
+~
+~
+0 0 20056
+S
+#20058
+The Cavern~
+You are in a gigantic cavern, the ceiling of whihc is more than 50 feet
+above you.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20050
+D1
+~
+~
+0 0 20059
+D2
+~
+~
+0 0 20066
+D3
+~
+~
+0 0 20057
+S
+#20059
+The Wellshaft~
+You are in the shaft of the well that services the fountain.  As you look
+up, you can vaguely see the crack in the bottom of the fountain where you
+entered the shaft.  Below you, the water is so murky that you can't see
+anything beyond 50 feet.  
+~
+0 9 6
+D0
+~
+~
+0 0 20051
+D1
+~
+~
+0 0 20060
+D2
+~
+~
+0 0 20067
+D3
+~
+~
+0 0 20058
+D4
+~
+~
+0 0 20019
+D5
+~
+~
+0 0 20080
+S
+#20060
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you see small caves which look like they could be
+the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20052
+D1
+~
+~
+0 0 20061
+D2
+~
+~
+0 0 20068
+D3
+~
+~
+0 0 20059
+S
+#20061
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20053
+D1
+~
+~
+0 0 20062
+D2
+~
+~
+0 0 20069
+D3
+~
+~
+0 0 20060
+S
+#20062
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20054
+D1
+~
+~
+0 0 20063
+D2
+~
+~
+0 0 20070
+D3
+~
+~
+0 0 20061
+S
+#20063
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves which look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20055
+D2
+~
+~
+0 0 20071
+D3
+~
+~
+0 0 20062
+S
+#20064
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves that look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20056
+D1
+~
+~
+0 0 20065
+D2
+~
+~
+0 0 20072
+S
+#20065
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see caves that look like they could be the
+homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20057
+D1
+~
+~
+0 0 20066
+D2
+~
+~
+0 0 20073
+D3
+~
+~
+0 0 20064
+S
+#20066
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see caves that look like they could be the
+homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20058
+D1
+~
+~
+0 0 20067
+D2
+~
+~
+0 0 20074
+D3
+~
+~
+0 0 20065
+S
+#20067
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see caves that look like they could be the
+homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20059
+D1
+~
+~
+0 0 20068
+D2
+~
+~
+0 0 20075
+D3
+~
+~
+0 0 20066
+S
+#20068
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see caves that look like they could be the
+homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20060
+D1
+~
+~
+0 0 20069
+D2
+~
+~
+0 0 20076
+D3
+~
+~
+0 0 20067
+S
+#20069
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see caves that look like they could be the
+homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20061
+D1
+~
+~
+0 0 20070
+D2
+~
+~
+0 0 20077
+D3
+~
+~
+0 0 20068
+S
+#20070
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see caves which look like they could be the
+homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20062
+D1
+~
+~
+0 0 20071
+D2
+~
+~
+0 0 20078
+D3
+~
+~
+0 0 20069
+S
+#20071
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see caves that look like they could be the
+homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20063
+D2
+~
+~
+0 0 20079
+D3
+~
+~
+0 0 20070
+S
+#20072
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves that look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20064
+D1
+~
+~
+0 0 20073
+S
+#20073
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves that look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20065
+D1
+~
+~
+0 0 20074
+D3
+~
+~
+0 0 20072
+S
+#20074
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves that look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20066
+D1
+~
+~
+0 0 20075
+D3
+~
+~
+0 0 20073
+S
+#20075
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves that look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20067
+D1
+~
+~
+0 0 20076
+D3
+~
+~
+0 0 20074
+S
+#20076
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves that look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20068
+D1
+~
+~
+0 0 20077
+D3
+~
+~
+0 0 20075
+S
+#20077
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see small caves that look like they could
+be the homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20069
+D1
+~
+~
+0 0 20078
+D3
+~
+~
+0 0 20076
+S
+#20078
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is more than 50 feet
+above you.  In the walls you can see caves that look like they could be the
+homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20070
+D1
+~
+~
+0 0 20079
+D3
+~
+~
+0 0 20077
+S
+#20079
+The Cavern~
+You are in a gigantic cavern, the ceiling of which is mreo than 50 feet
+above you.  In the walls you can see caves that look like they could be the
+homes of some creature.  
+~
+0 9 6
+D0
+~
+~
+0 0 20071
+D3
+~
+~
+0 0 20078
+S
+#20080
+The Lair of the Kraken.~
+You are in the lair of the gigantic kraken.  All areound you are strewn
+the bones of whales and other large sea animals that were, at one point, his
+dinner.  On the floor of this cave, you can also see bits and pieces of many
+of the ships that the kraken has destroyed.  
+~
+0 9 6
+D4
+~
+~
+0 0 20059
+S
+#20081
+Out to Sea~
+You are now well past the dock and rather far out to sea.  As you begin
+to drown, you think you can see a building below you.  
+~
+0 9 6
+D3
+~
+~
+0 0 20082
+D5
+~
+~
+0 0 20000
+S
+#20082
+Out to Sea~
+You push yourself away from the dock and begin swimming out to sea,
+hoping to find a spectacular wreck or some undiscovered city.  
+~
+0 9 6
+D1
+~
+~
+0 0 20081
+D3
+~
+~
+0 0 9798
+S
+#0
+
+
+
+#SPECIALS
+M 20000 spec_breath_acid Load to: the kraken
+M 20001 spec_cast_mage Load to: a sea elf
+M 20004 spec_cast_undead Load to: a seahorse
+S
+
+
+
+#RESETS
+M 0 20004 15 20000
+M 0 20002 20 20003
+M 0 20003 10 20003
+O 0 20013 0 20003
+M 0 20002 20 20005
+M 0 20004 15 20005
+O 0 20000 0 20007
+M 0 20002 20 20009
+M 0 20004 15 20011
+O 0 20002 0 20011
+O 0 20001 0 20011
+M 0 20005 1 20012
+E 0 20005 0 16
+O 0 20003 0 20012
+O 0 20004 0 20012
+O 0 20006 0 20012
+O 0 20007 0 20013
+O 0 20008 0 20013
+M 0 20004 15 20013
+O 0 20009 0 20018
+P 0 20010 0 1
+M 0 20003 10 20021
+M 0 20002 20 20022
+M 0 20004 15 20022
+M 0 20003 10 20026
+M 0 20004 15 20028
+O 0 20011 0 20029
+O 0 20012 0 20029
+M 0 20002 20 20033
+M 0 20003 10 20034
+M 0 20002 20 20036
+M 0 20002 20 20038
+M 0 20001 20 20040
+M 0 20001 20 20047
+M 0 20001 20 20052
+M 0 20001 20 20064
+M 0 20001 20 20075
+M 0 20000 1 20080
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

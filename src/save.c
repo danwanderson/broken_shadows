@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -71,13 +71,17 @@ void save_char_obj( CHAR_DATA *ch )
 
     if ( IS_NPC(ch) )
         return;
+/*
+    if ( ch->level < 2 )
+        return;
+*/
 
     if ( ch->desc != NULL && ch->desc->original != NULL )
         ch = ch->desc->original;
 
 #if defined(unix)
     /* create god log */
-    if (IS_IMMORTAL(ch) )
+    if (IS_IMMORTAL(ch) || ch->level >= LEVEL_IMMORTAL)
     {
         fclose(fpReserve);
         sprintf(strsave, "%s%s",GOD_DIR, capitalize(ch->name));
@@ -87,8 +91,8 @@ void save_char_obj( CHAR_DATA *ch )
             perror(strsave);
         }
 
-        fprintf(fp,"Lev %2d %s%s\n",
-            ch->level, ch->name, ch->pcdata->title);
+        fprintf(fp,"Lev %2d Trust %2d  %s%s\n",
+            ch->level, get_trust(ch), ch->name, ch->pcdata->title);
         fclose( fp );
         fpReserve = fopen( NULL_FILE, "r" );
     }
@@ -143,6 +147,8 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
     fprintf( fp, "Sex  %d\n",   ch->sex                 );
     fprintf( fp, "Cla  %d\n",   ch->ch_class               );
     fprintf( fp, "Levl %d\n",   ch->level               );
+    if (ch->trust != 0)
+        fprintf( fp, "Tru  %d\n",       ch->trust       );
     fprintf( fp, "Sec  %d\n",    ch->pcdata->security   );      /* OLC */
     fprintf( fp, "Log  %d\n",    (int)(ch->logon)       );   /* Added for finger command */
     fprintf( fp, "Plyd %d\n",
@@ -157,10 +163,6 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
 
     fprintf( fp, "HMV  %d %d %d %d %d %d\n",
         ch->hit, ch->max_hit, ch->mana, ch->max_mana, ch->move, ch->max_move );
-	if ( IS_IMMORTAL( ch ) ) {
-	    fprintf( fp, "Rank %d\n",	char_getImmRank( ch ) );
-	}
-
     if (ch->gold > 0)
       fprintf( fp, "Gold %ld\n",        ch->gold                );
     else
@@ -253,6 +255,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
         fprintf( fp, "Titl %s~\n",      ch->pcdata->title       );
         fprintf( fp, "Pnts %d\n",       ch->pcdata->points      );
         fprintf( fp, "TSex %d\n",       ch->pcdata->true_sex    );
+        fprintf( fp, "LLev %d\n",       ch->pcdata->last_level  );
         fprintf( fp, "HMVP %d %d %d\n", ch->pcdata->perm_hit, 
                                                    ch->pcdata->perm_mana,
                                                    ch->pcdata->perm_move);
@@ -290,11 +293,11 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
         fprintf( fp, "Email (none)~\n" );
     else
         fprintf( fp, "Email %s~\n",  ch->pcdata->email );
-    if ( ch->pcdata->comment == NULL ) {
+    if ( ch->pcdata->comment == NULL )
         fprintf( fp, "Comnt (none)~\n" );
-    } else {
+    else
         fprintf( fp, "Comnt %s~\n", ch->pcdata->comment );
-    }
+    fprintf( fp, "Incr %d\n", ch->pcdata->incarnations );
 
         /* write alias */
         for (pos = 0; pos < MAX_ALIAS; pos++)
@@ -562,7 +565,7 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
 {
     static PC_DATA pcdata_zero;
     char strsave[MAX_INPUT_LENGTH];
-    char buf[MAX_INPUT_LENGTH*2];
+    char buf[100];
     CHAR_DATA *ch;
     FILE *fp;
     bool found;
@@ -619,6 +622,7 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
     ch->train                           = 0;
     ch->hitroll                         = 0;
     ch->damroll                         = 0;
+    ch->trust                           = 0;
     ch->wimpy                           = 0;
     ch->saving_throw                    = 0;
     ch->pcdata->points                  = 0;
@@ -633,6 +637,7 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
     ch->pcdata->perm_mana               = 0;
     ch->pcdata->perm_move               = 0;
     ch->pcdata->true_sex                = 0;
+    ch->pcdata->last_level              = 0;
     ch->pcdata->condition[COND_THIRST]  = 48; 
     ch->pcdata->condition[COND_FULL]    = 48;
     ch->pcdata->security                = 0;    /* OLC */
@@ -649,14 +654,15 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
     ch->pcdata->comment                 = strdup( "(none)" );
 	ch->pcdata->away_message			= NULL;
     ch->pcdata->buffer                  = buffer_new(1000);
+    ch->pcdata->buffer->data[0]         = '\0';
     ch->pcdata->message_ctr             = 0;
     ch->pcdata->kills                   = 0;
     ch->pcdata->killed                  = 0;
     ch->pcdata->pkills                  = 0;
     ch->pcdata->pkilled                 = 0;
+    ch->pcdata->incarnations            = 1;
     ch->pcdata->clan_leader             = 0;
-	ch->bonusPoints						= 0;
-	char_setImmRank( ch, 0 );
+	ch->bonusPoints							= 0;
     found = FALSE;
     fclose( fpReserve );
     
@@ -741,6 +747,38 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
         ch->parts       = race_table[ch->race].parts;
     }
 
+        
+    /* RT initialize skills */
+
+    if (found && ch->version < 2)  /* need to add the new skills */
+    {
+        group_add(ch,"rom basics",FALSE);
+        group_add(ch,class_table[ch->ch_class].base_group,FALSE);
+        group_add(ch,class_table[ch->ch_class].default_group,TRUE);
+        ch->pcdata->learned[gsn_recall] = 50;
+    }
+ 
+    /* fix levels */
+    if (found && ch->version < 3 && (ch->level > 35 || ch->trust > 35))
+    {
+        switch (ch->level)
+        {
+            case(40) : ch->level = 60;  break;  /* imp -> imp */
+            case(39) : ch->level = 58;  break;  /* god -> supreme */
+            case(38) : ch->level = 56;  break;  /* deity -> god */
+            case(37) : ch->level = 53;  break;  /* angel -> demigod */
+        }
+
+        switch (ch->trust)
+        {
+            case(40) : ch->trust = 60;  break;  /* imp -> imp */
+            case(39) : ch->trust = 58;  break;  /* god -> supreme */
+            case(38) : ch->trust = 56;  break;  /* deity -> god */
+            case(37) : ch->trust = 53;  break;  /* angel -> demigod */
+            case(36) : ch->trust = 51;  break;  /* hero -> hero */
+        }
+    }
+   
 
     return found;
 }
@@ -766,9 +804,9 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
 void fread_char( CHAR_DATA *ch, FILE *fp )
 {
     char buf[MAX_STRING_LENGTH];
-    char *word = NULL;
+    char *word;
     int count = 0;
-    bool fMatch = FALSE;
+    bool fMatch;
 
     for ( ; ; )
     {
@@ -1011,6 +1049,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
             KEY( "Invi",        ch->invis_level,        fread_number( fp ) );
         /* added by Rahl */
             KEY( "Inco",        ch->incog_level,        fread_number( fp ) );
+            KEY( "Incr",        ch->pcdata->incarnations, fread_number( fp ) );
             break;
 
         /* added by Rahl */
@@ -1020,6 +1059,8 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
             break;
 
         case 'L':
+            KEY( "LastLevel",   ch->pcdata->last_level, fread_number( fp ) );
+            KEY( "LLev",        ch->pcdata->last_level, fread_number( fp ) );
             KEY( "Level",       ch->level,              fread_number( fp ) );
             KEY( "Lev",         ch->level,              fread_number( fp ) );
             KEY( "Levl",        ch->level,              fread_number( fp ) );
@@ -1062,13 +1103,6 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
         case 'R':
             KEY( "Race",        ch->race,       
                                 race_lookup(fread_string( fp )) );
-
-			if ( !str_cmp( word, "Rank" ) ) {
-		 		char_setImmRank( ch, fread_number( fp ) );
-				fMatch = TRUE;
-				break;
-			}
-
             if ( !str_cmp( word, "Recl" ) )
             {
                 ch->pcdata->recall_room = get_room_index( fread_number( fp ) );
@@ -1124,6 +1158,8 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
             KEY( "TrueSex",     ch->pcdata->true_sex,   fread_number( fp ) );
             KEY( "TSex",        ch->pcdata->true_sex,   fread_number( fp ) );
             KEY( "Trai",        ch->train,              fread_number( fp ) );
+            KEY( "Trust",       ch->trust,              fread_number( fp ) );
+            KEY( "Tru",         ch->trust,              fread_number( fp ) );
 			KEY( "TPoints",		ch->bonusPoints,		fread_number( fp ) );
 
             if ( !str_cmp( word, "Title" )  || !str_cmp( word, "Titl"))
@@ -1160,8 +1196,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
             KEY( "Wizn",        ch->wiznet,             fread_number( fp ) );
             KEY( "WiznF",       ch->wiznet,             fread_flag( fp ) );
             break;
-
-		}
+        }
 
         if ( !fMatch )
         {
@@ -1365,7 +1400,7 @@ void fread_obj( CHAR_DATA *ch, FILE *fp )
     OBJ_DATA *obj;
     char *word;
     int iNest;
-    bool fMatch = FALSE;
+    bool fMatch;
     bool fNest;
     bool fVnum;
     bool first;
@@ -1418,11 +1453,10 @@ void fread_obj( CHAR_DATA *ch, FILE *fp )
 
     for ( ; ; )
     {
-        if (first) {
+        if (first)
             first = FALSE;
-        } else {
+        else
             word   = feof( fp ) ? "End" : fread_word( fp );
-		}
         fMatch = FALSE;
 
         switch ( UPPER(word[0]) )

@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -11,17 +11,18 @@
 /* this is a listing of all the commands and command related data */
 
 /* for command types */
-#define MR		MAX_RANK			//10
-#define R1      MAX_RANK - 1		//9
-#define R2      MAX_RANK - 2		//8
-#define R3      MAX_RANK - 3		//7
-#define R4      MAX_RANK - 4		//6
-#define R5      MAX_RANK - 5		//5
-#define R6      MAX_RANK - 6		//4
-#define R7      MAX_RANK - 7		//3
-#define R8      MAX_RANK - 8		//2
-#define R9      MAX_RANK - 9		//1
-#define R0      0
+#define ML      MAX_LEVEL       /* implementor */
+#define L1      MAX_LEVEL - 1   /* creator */
+#define L2      MAX_LEVEL - 2   /* supreme being */
+#define L3      MAX_LEVEL - 3   /* deity */
+#define L4      MAX_LEVEL - 4   /* god */
+#define L5      MAX_LEVEL - 5   /* immortal */
+#define L6      MAX_LEVEL - 6   /* demigod */
+#define L7      MAX_LEVEL - 7   /* angel */
+#define L8      MAX_LEVEL - 8   /* avatar */
+#define IM      LEVEL_IMMORTAL  /* angel */
+#define HE      LEVEL_HERO      /* hero */
+
 
 /*
  * Structure for a command in the command lookup table.
@@ -43,7 +44,7 @@ extern  const   struct  cmd_type        cmd_table       [];
  * Command functions.
  * Defined in act_*.c (mostly).
  */
-void do_promote( CHAR_DATA *ch, char *argument );
+void do_advance( CHAR_DATA *ch, char *argument );
 void do_afk( CHAR_DATA *ch, char *argument );
 void do_alias( CHAR_DATA *ch, char *argument );
 void do_allow( CHAR_DATA *ch, char *argument );
@@ -57,8 +58,8 @@ void do_autoloot( CHAR_DATA *ch, char *argument );
 void do_autosac( CHAR_DATA *ch, char *argument );
 void do_autosplit( CHAR_DATA *ch, char *argument );
 void do_backstab( CHAR_DATA *ch, char *argument );
-void do_poofin ( CHAR_DATA *ch, char *argument );
-void do_poofout( CHAR_DATA *ch, char *argument );
+void do_bamfin ( CHAR_DATA *ch, char *argument );
+void do_bamfout( CHAR_DATA *ch, char *argument );
 void do_ban( CHAR_DATA *ch, char *argument );
 void do_bash( CHAR_DATA *ch, char *argument );
 void do_berserk( CHAR_DATA *ch, char *argument );
@@ -83,13 +84,14 @@ void do_description( CHAR_DATA *ch, char *argument );
 void do_dirt( CHAR_DATA *ch, char *argument );
 void do_disarm( CHAR_DATA *ch, char *argument );
 void do_disconnect( CHAR_DATA *ch, char *argument );
+void do_donate( CHAR_DATA *ch, char *argument );
 void do_down( CHAR_DATA *ch, char *argument );
 void do_drink( CHAR_DATA *ch, char *argument );
 void do_drop( CHAR_DATA *ch, char *argument );
 void do_east( CHAR_DATA *ch, char *argument );
 void do_eat( CHAR_DATA *ch, char *argument );
 void do_echo( CHAR_DATA *ch, char *argument );
-void do_affects( CHAR_DATA *ch, char *argument );
+void do_effects( CHAR_DATA *ch, char *argument );
 void do_emote( CHAR_DATA *ch, char *argument );
 void do_equipment( CHAR_DATA *ch, char *argument );
 void do_examine( CHAR_DATA *ch, char *argument );
@@ -115,8 +117,10 @@ void do_immtalk( CHAR_DATA *ch, char *argument );
 void do_imotd( CHAR_DATA *ch, char *argument );
 void do_inventory( CHAR_DATA *ch, char *argument );
 void do_invis( CHAR_DATA *ch, char *argument );
+void do_junk( CHAR_DATA *ch, char *argument );
 void do_kick( CHAR_DATA *ch, char *argument );
 void do_kill( CHAR_DATA *ch, char *argument );
+void do_levels( CHAR_DATA *ch, char *argument );
 void do_list( CHAR_DATA *ch, char *argument );
 void do_load( CHAR_DATA *ch, char *argument );
 void do_lock( CHAR_DATA *ch, char *argument );
@@ -133,6 +137,7 @@ void do_murde( CHAR_DATA *ch, char *argument );
 void do_murder( CHAR_DATA *ch, char *argument );
 void do_music( CHAR_DATA *ch, char *argument );
 void do_newlock( CHAR_DATA *ch, char *argument );
+void do_news( CHAR_DATA *ch, char *argument );
 void do_nochannels( CHAR_DATA *ch, char *argument );
 void do_noemote( CHAR_DATA *ch, char *argument );
 void do_nofollow( CHAR_DATA *ch, char *argument );
@@ -208,6 +213,7 @@ void do_sset( CHAR_DATA *ch, char *argument );
 void do_stand( CHAR_DATA *ch, char *argument );
 void do_stat( CHAR_DATA *ch, char *argument );
 void do_steal( CHAR_DATA *ch, char *argument );
+void do_story( CHAR_DATA *ch, char *argument );
 void do_string( CHAR_DATA *ch, char *argument );
 void do_switch( CHAR_DATA *ch, char *argument );
 void do_tell( CHAR_DATA *ch, char *argument );
@@ -216,6 +222,7 @@ void do_title( CHAR_DATA *ch, char *argument );
 void do_train( CHAR_DATA *ch, char *argument );
 void do_transfer( CHAR_DATA *ch, char *argument );
 void do_trip( CHAR_DATA *ch, char *argument );
+void do_trust( CHAR_DATA *ch, char *argument );
 void do_unlock( CHAR_DATA *ch, char *argument );
 void do_up( CHAR_DATA *ch, char *argument );
 void do_value( CHAR_DATA *ch, char *argument );
@@ -253,6 +260,7 @@ void do_test( CHAR_DATA *ch, char *argument );
 void do_new_discon( CHAR_DATA *ch, char *argument );
 
 /* new commands by Rahl */
+void do_grats( CHAR_DATA *ch, char *argument );
 void do_ctell( CHAR_DATA *ch, char *argument );
 void do_status( CHAR_DATA *ch, char *argument );
 void do_push( CHAR_DATA *ch, char *argument );
@@ -263,6 +271,7 @@ void do_quest( CHAR_DATA *ch, char *argument );
 void do_circle( CHAR_DATA *ch, char *argument );
 void do_bonus( CHAR_DATA *ch, char *argument );
 void do_lore( CHAR_DATA *ch, char *argument );
+void do_herochan( CHAR_DATA *ch, char *argument );
 void do_wiznet( CHAR_DATA *ch, char *argument );
 void do_grip( CHAR_DATA *ch, char *argument );
 void do_envenom( CHAR_DATA *ch, char *argument );
@@ -277,6 +286,8 @@ void do_accept( CHAR_DATA *ch, char *argument );
 void do_disown( CHAR_DATA *ch, char *argument );
 void do_rename( CHAR_DATA *ch, char *argument );
 void do_bounty( CHAR_DATA *ch, char *argument );
+void do_olevel( CHAR_DATA *ch, char *argument );
+void do_mlevel( CHAR_DATA *ch, char *argument );
 void do_renam( CHAR_DATA *ch, char *argument );
 void do_board( CHAR_DATA *ch, char *argument );
 void do_email( CHAR_DATA *ch, char *argument );
@@ -286,6 +297,7 @@ void do_whirlwind( CHAR_DATA *ch, char *argument );
 void do_petition( CHAR_DATA *ch, char *argument );
 void do_auction( CHAR_DATA *ch, char *argument );
 void do_disable( CHAR_DATA *ch, char *argument );
+void do_new_dump( CHAR_DATA *ch, char *argument );
 void do_new_changes( CHAR_DATA *ch, char *argument );
 void do_addapply( CHAR_DATA *ch, char *argument );
 void do_permban( CHAR_DATA *ch, char *argument );
@@ -303,6 +315,8 @@ void do_marry( CHAR_DATA *ch, char *argument );
 void do_divorce( CHAR_DATA *ch, char *argument );
 void do_spousetalk( CHAR_DATA *ch, char *argument );
 void do_consent( CHAR_DATA *ch, char *argument );
+void do_remor( CHAR_DATA *ch, char *argument );
+void do_remort( CHAR_DATA *ch, char *argument );
 void do_states( CHAR_DATA *ch, char *argument );
 void do_areport( CHAR_DATA *ch, char *argument );
 void do_protect( CHAR_DATA *ch, char *argument );
@@ -321,4 +335,3 @@ void do_asave( CHAR_DATA *ch, char *argument );
 void do_olc( CHAR_DATA *ch, char *argument );
 void do_resets( CHAR_DATA *ch, char *argument );
 void do_alist( CHAR_DATA *ch, char *argument );
-void do_quote_channel( CHAR_DATA *ch, char *argument );

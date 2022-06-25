@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -65,6 +65,8 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
     ROOM_INDEX_DATA *in_room;
     ROOM_INDEX_DATA *to_room;
     EXIT_DATA *pexit;
+    /* added by Rahl */
+    long xpl;
     BUFFER *buf = buffer_new( 200 );
     int chance;
 
@@ -198,20 +200,36 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
         if ( to_room->sector_type == SECT_UNDERGROUND 
         || IS_SET( to_room->room_flags, ROOM_UNDERGROUND ) )
         {
+          /*
+            chance = number_range( ch->level / 2, ch->level * 3 / 5 );
+           */
+
             chance = 15;
 
-            if ( number_percent( ) < chance )
+          /*
+            if ( get_curr_wis( ch ) <= 18 )
             {
-                to_room->status += 1;
-                send_to_char( "Darkness surrounds you as the walls cave in.\n\r",
-                    ch );
-                char_from_room( ch );
-                char_to_room( ch, get_room_index( ROOM_VNUM_ALTAR ) );
-                do_look( ch, "" );
-                ch->hit -= ( ch->hit -1 );
-                buffer_free( buf );
-                return;
-            }
+           */
+                if ( number_percent( ) < chance )
+                {
+                    to_room->status += 1;
+                    send_to_char( "Darkness surrounds you as the walls cave in.\n\r",
+                        ch );
+                    xpl = exp_per_level( ch, ch->pcdata->points ) / 100;
+                    bprintf( buf, "You lose %ld experience.\n\r", xpl );
+                    gain_exp( ch, 0 - xpl );
+                    send_to_char( buf->data, ch );
+                    char_from_room( ch );
+                    char_to_room( ch, get_room_index( ROOM_VNUM_ALTAR ) );
+                    do_look( ch, "" );
+                    ch->hit -= ( ch->hit -1 );
+                  /*
+                    ch->exp -= 100;
+                   */
+                    buffer_free( buf );
+                    return;
+                }
+          /*  } */
         }
 
         if ( in_room->sector_type == SECT_AIR
@@ -881,7 +899,7 @@ void do_pick( CHAR_DATA *ch, char *argument )
     /* look for guards */
     for ( gch = ch->in_room->people; gch; gch = gch->next_in_room )
     {
-        if ( IS_NPC(gch) && IS_AWAKE(gch) )
+        if ( IS_NPC(gch) && IS_AWAKE(gch) && ch->level + 5 < gch->level )
         {
             act( "$N is standing too close to the lock.",
                 ch, NULL, gch, TO_CHAR );
@@ -1188,21 +1206,20 @@ void do_sneak( CHAR_DATA *ch, char *argument )
     send_to_char( "You attempt to move silently.\n\r", ch );
     affect_strip( ch, gsn_sneak );
 
-    if ( IS_NPC(ch) || number_percent( ) < ch->pcdata->learned[gsn_sneak] ) {
+    if ( IS_NPC(ch) || number_percent( ) < ch->pcdata->learned[gsn_sneak] )
+    {
         check_improve(ch,gsn_sneak,TRUE,3);
         af.where     = TO_AFFECTS;
         af.type      = gsn_sneak;
-//        af.level     = ch->level; 
-		af.level	 = 0;
-//        af.duration  = ch->level;
-        af.duration  = number_range( 2, 10 );
+        af.level     = ch->level; 
+        af.duration  = ch->level;
         af.location  = APPLY_NONE;
         af.modifier  = 0;
         af.bitvector = AFF_SNEAK;
         affect_to_char( ch, &af );
-    } else {
-        check_improve( ch, gsn_sneak, FALSE, 3 );
-	}
+    }
+    else
+        check_improve(ch,gsn_sneak,FALSE,3);
 
     return;
 }
@@ -1292,9 +1309,10 @@ void do_recall( CHAR_DATA *ch, char *argument )
     if ( ( victim = ch->fighting ) != NULL )
     {
         int skill;
+        long xp_loss;
 
         if (IS_NPC(ch))
-            skill = 40 + number_range( 1, 50 );
+            skill = 40 + ch->level;
         else
             skill = ch->pcdata->learned[gsn_recall];
 
@@ -1312,8 +1330,11 @@ void do_recall( CHAR_DATA *ch, char *argument )
         }
 
 		if ( !IS_NPC( ch ) ) {
+        	xp_loss = exp_per_level( ch, ch->pcdata->points ) / 200;
+        	gain_exp( ch, 0 - xp_loss );
         	check_improve(ch,gsn_recall,TRUE,4);
-        	bprintf( buf, "You recall from combat!\n\r" );
+        	bprintf( buf, "You recall from combat! You lose %ld experience.\n\r", 
+            	xp_loss );
         	send_to_char( buf->data, ch );
 		}
         stop_fighting( ch, TRUE );
@@ -1423,9 +1444,6 @@ void do_train( CHAR_DATA *ch, char *argument )
     else if ( !str_cmp(argument, "mana" ) )
         cost = 1;
 
-    else if ( !str_cmp(argument, "move" ) )
-        cost = 1;
-
     else
     {
         bprintf( buf, "You can train:" );
@@ -1440,7 +1458,7 @@ void do_train( CHAR_DATA *ch, char *argument )
         if ( ch->perm_stat[STAT_CON] < get_max_train(ch,STAT_CON))  
             buffer_strcat( buf, " con" );
         if ( !IS_IMMORTAL( ch ) )
-            buffer_strcat( buf, " hp mana move");
+            buffer_strcat( buf, " hp mana");
 
         if ( buf->data[strlen(buf->data)-1] != ':' )
         {
@@ -1449,6 +1467,18 @@ void do_train( CHAR_DATA *ch, char *argument )
         }
         else
         {
+            /*
+             * This message dedicated to Jordan ... you big stud!
+             */
+        /*
+            act( "You have nothing left to train, you $T!",
+                ch, NULL,
+                ch->sex == SEX_MALE   ? "big stud" :
+                ch->sex == SEX_FEMALE ? "hot babe" :
+                                        "wild thing",
+                TO_CHAR );
+        */
+            /* new message by Rahl */
             act( "You have nothing left to train.", ch, NULL, NULL,
                 TO_CHAR );
         }
@@ -1467,9 +1497,9 @@ void do_train( CHAR_DATA *ch, char *argument )
         }
  
         ch->train -= cost;
-        ch->pcdata->perm_hit += 5;
-        ch->max_hit += 5;
-        ch->hit +=5;
+        ch->pcdata->perm_hit += 10;
+        ch->max_hit += 10;
+        ch->hit +=10;
         act( "Your durability increases!",ch,NULL,NULL,TO_CHAR);
         act( "$n's durability increases!",ch,NULL,NULL,TO_ROOM);
         buffer_free( buf );
@@ -1491,25 +1521,6 @@ void do_train( CHAR_DATA *ch, char *argument )
         ch->mana += 10;
         act( "Your power increases!",ch,NULL,NULL,TO_CHAR);
         act( "$n's power increases!",ch,NULL,NULL,TO_ROOM);
-        buffer_free( buf );
-        return;
-    }
-
-    if (!str_cmp("move",argument))
-    {
-        if ( cost > ch->train )
-        {
-            send_to_char( "You don't have enough training sessions.\n\r", ch );
-            buffer_free( buf );
-            return;
-        }
-
-        ch->train -= cost;
-        ch->pcdata->perm_move += 10;
-        ch->max_move += 10;
-        ch->move += 10;
-        act( "Your stamina increases!",ch,NULL,NULL,TO_CHAR);
-        act( "$n's stamina increases!",ch,NULL,NULL,TO_ROOM);
         buffer_free( buf );
         return;
     }
@@ -1538,34 +1549,27 @@ void do_train( CHAR_DATA *ch, char *argument )
 }
 
 
-bool check_web( CHAR_DATA *ch ) {
-    AFFECT_DATA *af;
-    int chance = 0;
-    int orig_dur = 0;
+bool check_web( CHAR_DATA *ch)
+{
+     AFFECT_DATA *af;
+     int chance;
+     int orig_dur;
         
-    if ( IS_IMMORTAL( ch ) ) {
+     if IS_IMMORTAL(ch)
         return TRUE;
-	}
 
      
-    af = affect_find( ch->affected, skill_lookup("web") );
-
-    orig_dur = ( af->level / 3 );
-    chance = ( get_curr_stat( ch, STAT_STR ) );
-
-    if ( af->duration < ( orig_dur / 9 ) ) {
+     af = affect_find(ch->affected , skill_lookup("web") );
+     orig_dur = (af->level / 3);
+     chance = (get_curr_stat(ch,STAT_STR) + (ch->level / 4));
+     if (af->duration < (orig_dur / 9))
         chance += 20;
-	}
-
-    if ( af->duration > ( orig_dur / 3 ) ) {
+     if (af->duration > (orig_dur / 3))
         chance -= 20;
-	}
+     if (number_percent() < chance)
+        return TRUE;
 
-    if ( number_percent() < chance ) {
-	    return TRUE;
-	}
-
-	return FALSE;
+    return FALSE;
 }
 
 void do_beacon( CHAR_DATA *ch, char *argument )

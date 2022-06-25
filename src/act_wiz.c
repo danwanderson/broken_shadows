@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -133,7 +133,7 @@ void do_nochannels( CHAR_DATA *ch, char *argument )
         return;
     }
  
-    if ( char_getImmRank( victim ) >= char_getImmRank( ch ) )
+    if ( get_trust( victim ) >= get_trust( ch ) )
     {
         send_to_char( "You failed.\n\r", ch );
         buffer_free( buf );
@@ -165,7 +165,7 @@ void do_nochannels( CHAR_DATA *ch, char *argument )
     return;
 }
 
-void do_poofin( CHAR_DATA *ch, char *argument )
+void do_bamfin( CHAR_DATA *ch, char *argument )
 {
     BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
 
@@ -201,7 +201,7 @@ void do_poofin( CHAR_DATA *ch, char *argument )
 
 
 
-void do_poofout( CHAR_DATA *ch, char *argument )
+void do_bamfout( CHAR_DATA *ch, char *argument )
 {
     BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
  
@@ -266,7 +266,7 @@ void do_deny( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( char_getImmRank( victim ) >= char_getImmRank( ch ) )
+    if ( get_trust( victim ) >= get_trust( ch ) )
     {
         send_to_char( "You failed.\n\r", ch );
         buffer_free( buf );
@@ -448,7 +448,7 @@ void do_echo( CHAR_DATA *ch, char *argument )
     {
         if ( d->connected == CON_PLAYING )
         {
-            if (char_getImmRank(d->character) >= char_getImmRank(ch))
+            if (get_trust(d->character) >= get_trust(ch))
                 send_to_char( "global> ",d->character);
             send_to_char( "`w", d->character );
             send_to_char( argument, d->character );
@@ -477,7 +477,7 @@ void do_recho( CHAR_DATA *ch, char *argument )
         if ( d->connected == CON_PLAYING
         &&   d->character->in_room == ch->in_room )
         {
-            if (char_getImmRank(d->character) >= char_getImmRank(ch))
+            if (get_trust(d->character) >= get_trust(ch))
                 send_to_char( "local> ",d->character);
             send_to_char( argument, d->character );
             send_to_char( "\n\r`w",   d->character );
@@ -506,8 +506,7 @@ void do_pecho( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if (char_getImmRank(victim) >= char_getImmRank(ch) 
-	&& char_getImmRank(ch) != MAX_RANK )
+    if (get_trust(victim) >= get_trust(ch) && get_trust(ch) != MAX_LEVEL)
         send_to_char( "personal> ",victim);
 
     send_to_char(argument,victim);
@@ -591,7 +590,7 @@ void do_transfer( CHAR_DATA *ch, char *argument )
         }
 
         if ( !is_room_owner(ch,location) && room_is_private( location ) 
-        && char_getImmRank(ch) < MAX_RANK )
+        && get_trust(ch) < MAX_LEVEL)
         {
             send_to_char( "That room is private right now.\n\r", ch );
             return;
@@ -653,7 +652,7 @@ void do_at( CHAR_DATA *ch, char *argument )
     }
 
     if ( !is_room_owner(ch,location) && room_is_private( location ) 
-    && char_getImmRank(ch) < MAX_RANK )
+    && get_trust(ch) < MAX_LEVEL)
     {
         send_to_char( "That room is private right now.\n\r", ch );
         return;
@@ -741,7 +740,7 @@ void do_goto( CHAR_DATA *ch, char *argument )
         count++;
 
     if ( !is_room_owner(ch,location) && room_is_private( location ) 
-    && (count > 1 || char_getImmRank(ch) < MAX_RANK ) )
+    && (count > 1 || get_trust(ch) < MAX_LEVEL ) )
     {
         send_to_char( "That room is private right now.\n\r", ch );
         return;
@@ -752,7 +751,7 @@ void do_goto( CHAR_DATA *ch, char *argument )
 
     for (rch = ch->in_room->people; rch != NULL; rch = rch->next_in_room)
     {
-        if (char_getImmRank(rch) >= ch->invis_level)
+        if (get_trust(rch) >= ch->invis_level)
         {
             if (ch->pcdata != NULL && ch->pcdata->bamfout[0] != '\0')
                 act("$t",ch,ch->pcdata->bamfout,rch,TO_VICT);
@@ -767,7 +766,7 @@ void do_goto( CHAR_DATA *ch, char *argument )
 
     for (rch = ch->in_room->people; rch != NULL; rch = rch->next_in_room)
     {
-        if (char_getImmRank(rch) >= ch->invis_level)
+        if (get_trust(rch) >= ch->invis_level)
         {
             if (ch->pcdata != NULL && ch->pcdata->bamfin[0] != '\0')
                 act("$t",ch,ch->pcdata->bamfin,rch,TO_VICT);
@@ -868,13 +867,15 @@ void do_rstat( CHAR_DATA *ch, char *argument )
     }
 
     if ( !is_room_owner(ch,location) && ch->in_room != location 
-    && room_is_private( location ) && char_getImmRank(ch) < MAX_RANK )
+    && room_is_private( location ) && get_trust(ch) < MAX_LEVEL)
     {
         send_to_char( "That room is private right now.\n\r", ch );
         buffer_free( buf );
         buffer_free( output );
         return;
     }
+
+    output->data[0] = '\0';
 
     bprintf( buf, "Name: '%s.'\n\rArea: '%s'.\n\r",
         location->name,
@@ -1015,6 +1016,8 @@ void do_ostat( CHAR_DATA *ch, char *argument )
         buffer_free( output );
         return;
     }
+
+    output->data[0] = '\0';
 
     bprintf( buf, "Name(s): %s\n\r",
         obj->name );
@@ -1457,10 +1460,12 @@ void do_mstat( CHAR_DATA *ch, char *argument )
     if (!IS_NPC(victim))
     {
         bprintf( buf, 
-            "Age: %d  Played: %d  Timer: %d\n\r",
+            "Age: %d  Played: %d  Last Level: %d  Timer: %d  Incarnations: %d\n\r",
             get_age(victim), 
             (int) (victim->played + current_time - victim->logon) / 3600, 
-            victim->timer);
+            victim->pcdata->last_level, 
+            victim->timer,
+            victim->pcdata->incarnations );
         buffer_strcat( output, buf->data );
     }
 
@@ -1644,6 +1649,8 @@ void do_mfind( CHAR_DATA *ch, char *argument )
     bool fAll;
     bool found;
 
+    buffer->data[0] = '\0';
+
     one_argument( argument, arg );
     if ( arg[0] == '\0' )
     {
@@ -1702,6 +1709,8 @@ void do_ofind( CHAR_DATA *ch, char *argument )
     int nMatch;
     bool fAll;
     bool found;
+
+    buffer->data[0] = '\0';
 
     one_argument( argument, arg );
     if ( arg[0] == '\0' )
@@ -1768,6 +1777,7 @@ void do_mwhere( CHAR_DATA *ch, char *argument )
     }
 
     found = FALSE;
+    buffer->data[0] = '\0';
     for ( victim = char_list; victim != NULL; victim = victim->next )
     {
         if ( IS_NPC(victim)
@@ -1803,6 +1813,7 @@ void do_reboo( CHAR_DATA *ch, char *argument )
     send_to_char( "If you want to REBOOT, spell it out.\n\r", ch );
     return;
 }
+
 
 
 void do_reboot( CHAR_DATA *ch, char *argument )
@@ -1844,6 +1855,7 @@ void do_reboot( CHAR_DATA *ch, char *argument )
     buffer_free( buf );    
     return;
 }
+
 
 
 void do_shutdow( CHAR_DATA *ch, char *argument )
@@ -1952,7 +1964,7 @@ void do_snoop( CHAR_DATA *ch, char *argument )
         send_to_char( "Cancelling all snoops.\n\r", ch );
         /* added by Rahl */
         wiznet( "$N stops being such a snoop.", ch, NULL, WIZ_SNOOPS,
-                WIZ_SECURE, char_getImmRank( ch ) );
+                WIZ_SECURE, get_trust( ch ) );
         for ( d = descriptor_list; d != NULL; d = d->next )
         {
             if ( d->snoop_by == ch->desc )
@@ -1977,7 +1989,7 @@ void do_snoop( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( char_getImmRank( victim ) >= char_getImmRank( ch ) 
+    if ( get_trust( victim ) >= get_trust( ch ) 
     ||   IS_SET( victim->comm,COMM_SNOOP_PROOF ) )
     {
         send_to_char( "You failed.\n\r", ch );
@@ -2002,7 +2014,7 @@ void do_snoop( CHAR_DATA *ch, char *argument )
     /* added by Rahl */
     bprintf( buf, "$N snoops on %s", ( IS_NPC( ch ) ? victim->short_descr
                 : victim->name ) );
-    wiznet( buf->data, ch, NULL, WIZ_SNOOPS, WIZ_SECURE, char_getImmRank( ch ) );
+    wiznet( buf->data, ch, NULL, WIZ_SNOOPS, WIZ_SECURE, get_trust( ch ) );
 
     send_to_char( "Ok.\n\r", ch );
 
@@ -2080,7 +2092,7 @@ void do_switch( CHAR_DATA *ch, char *argument )
 
     /* added by Rahl */
     bprintf( buf, "$N switches into %s", victim->short_descr );
-    wiznet( buf->data, ch, NULL, WIZ_SWITCHES, WIZ_SECURE, char_getImmRank( ch ) );
+    wiznet( buf->data, ch, NULL, WIZ_SWITCHES, WIZ_SECURE, get_trust( ch ) );
 
     ch->desc->character = victim;
     ch->desc->original  = ch;
@@ -2089,7 +2101,6 @@ void do_switch( CHAR_DATA *ch, char *argument )
     /* change communications to match */
     victim->comm = ch->comm;
     victim->lines = ch->lines;
-    char_setImmRank( victim, char_getImmRank( ch ) );
     send_to_char( "Ok.\n\r", victim );
     buffer_free( buf );
     return;
@@ -2127,9 +2138,7 @@ void do_return( CHAR_DATA *ch, char *argument )
     /* added by Rahl */
     bprintf( buf, "$N returns from %s", ch->short_descr );
     wiznet( buf->data, ch->desc->original, 0, WIZ_SWITCHES, WIZ_SECURE, 
-        char_getImmRank( ch->desc->original ) );
-
-	char_setImmRank( ch, 0 );
+        get_trust( ch->desc->original ) );
 
     ch->desc->character       = ch->desc->original;
     ch->desc->original        = NULL;
@@ -2249,7 +2258,7 @@ void do_clone(CHAR_DATA *ch, char *argument )
         act("$n has created $p.",ch,clone,NULL,TO_ROOM);
         act("You clone $p.",ch,clone,NULL,TO_CHAR);
         /* added by Rahl */
-        wiznet( "$N clones $p.", ch, clone, WIZ_LOAD, WIZ_SECURE,char_getImmRank(ch));
+        wiznet( "$N clones $p.", ch, clone, WIZ_LOAD, WIZ_SECURE,get_trust(ch));
         buffer_free( buf );
         return;
     }
@@ -2301,7 +2310,7 @@ void do_clone(CHAR_DATA *ch, char *argument )
 
         /* added by Rahl */
         bprintf( buf, "$N clones %s.", clone->short_descr );
-        wiznet( buf->data, ch, NULL, WIZ_LOAD, WIZ_SECURE, char_getImmRank(ch));
+        wiznet( buf->data, ch, NULL, WIZ_LOAD, WIZ_SECURE, get_trust(ch));
 
         buffer_free( buf );
         return;
@@ -2371,7 +2380,7 @@ void do_mload( CHAR_DATA *ch, char *argument )
     act( "$n has created $N!", ch, NULL, victim, TO_ROOM );
     /* added by Rahl */
     bprintf( buf, "$n loads %s", victim->short_descr );
-    wiznet( buf->data, ch, NULL, WIZ_LOAD, WIZ_SECURE, char_getImmRank( ch ) );
+    wiznet( buf->data, ch, NULL, WIZ_LOAD, WIZ_SECURE, get_trust( ch ) );
 
     send_to_char( "Ok.\n\r", ch );
     buffer_free( buf );
@@ -2396,7 +2405,7 @@ void do_oload( CHAR_DATA *ch, char *argument )
         return;
     }
     
-    level = char_getImmRank(ch);  /* default */
+    level = get_trust(ch);  /* default */
   
     if ( arg2[0] != '\0')  /* load with a level */
     {
@@ -2406,7 +2415,7 @@ void do_oload( CHAR_DATA *ch, char *argument )
           return;
         }
         level = atoi(arg2);
-        if (level < 0 || level > char_getImmRank(ch))
+        if (level < 0 || level > get_trust(ch))
         {
           send_to_char( "Level must be be between 0 and your level.\n\r",ch);
           return;
@@ -2419,7 +2428,7 @@ void do_oload( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( pObjIndex->level > char_getImmRank( ch ) )
+    if ( pObjIndex->level > get_trust( ch ) )
     {
         send_to_char( "Loading that object is beyond your powers.\n\r", ch );
         return;
@@ -2435,7 +2444,7 @@ void do_oload( CHAR_DATA *ch, char *argument )
         obj_to_room( obj, ch->in_room );
     act( "$n has created $p!", ch, obj, NULL, TO_ROOM );
     /* added by Rahl */
-    wiznet( "$N loads $p.", ch, obj, WIZ_LOAD, WIZ_SECURE, char_getImmRank( ch ));
+    wiznet( "$N loads $p.", ch, obj, WIZ_LOAD, WIZ_SECURE, get_trust( ch ));
 
     send_to_char( "Ok.\n\r", ch );
     return;
@@ -2506,7 +2515,7 @@ void do_purge( CHAR_DATA *ch, char *argument )
           return;
         }
 
-        if (char_getImmRank(ch) <= char_getImmRank(victim))
+        if (get_trust(ch) <= get_trust(victim))
         {
           send_to_char("Maybe that wasn't a good idea...\n\r",ch);
           bprintf(buf,"%s tried to purge you!\n\r",ch->name);
@@ -2539,77 +2548,137 @@ void do_purge( CHAR_DATA *ch, char *argument )
 
 
 
-void do_promote( CHAR_DATA *ch, char *argument ) {
+void do_advance( CHAR_DATA *ch, char *argument )
+{
     char arg1[MAX_INPUT_LENGTH];
     char arg2[MAX_INPUT_LENGTH];
     CHAR_DATA *victim;
-    int rank;
+    int level;
+    int iLevel;
 
     argument = one_argument( argument, arg1 );
     argument = one_argument( argument, arg2 );
 
-    if ( arg1[0] == '\0' || arg2[0] == '\0' || !is_number( arg2 ) ) {
-        send_to_char( "Syntax: promote <char> <rank>.\n\r", ch );
+    if ( arg1[0] == '\0' || arg2[0] == '\0' || !is_number( arg2 ) )
+    {
+        send_to_char( "Syntax: advance <char> <level>.\n\r", ch );
         return;
     }
 
-    if ( ( victim = get_char_room( ch, arg1 ) ) == NULL ) {
+    if ( ( victim = get_char_room( ch, arg1 ) ) == NULL )
+    {
         send_to_char( "That player is not here.\n\r", ch);
         return;
     }
 
-    if ( IS_NPC(victim) ) {
+    if ( IS_NPC(victim) )
+    {
         send_to_char( "Not on NPC's.\n\r", ch );
         return;
     }
 
-	if ( victim == ch ) {
-		send_to_char( "Why would you want to do that to yourself?\n\r", ch );
-		return;
-	}
-
-    if ( ( rank = atoi( arg2 ) ) < 0 || ( rank > MAX_RANK ) ) {
+    if ( ( level = atoi( arg2 ) ) < 1 || level > MAX_LEVEL )
+    {
         BUFFER *buf = buffer_new( 100 );
-        bprintf( buf, "Rank must be 0 to %d.\n\r", MAX_RANK );
+        bprintf( buf, "Level must be 1 to %d.\n\r", MAX_LEVEL );
         send_to_char( buf->data, ch );
         buffer_free( buf );
         return;
     }
 
-    if ( rank > char_getImmRank( ch ) ) {
-        send_to_char( "Limited to your rank or below.\n\r", ch );
+    if ( level > get_trust( ch ) )
+    {
+        send_to_char( "Limited to your trust level.\n\r", ch );
         return;
     }
 
     /*
-     *   Reset to rank 0.
+     * Lower level:
+     *   Reset to level 1.
      *   Then raise again.
      *   Currently, an imp can lower another imp.
      *   -- Swiftest
      */
-    if ( rank <= char_getImmRank( victim ) ) {
-        send_to_char( "Lowering a player's rank!\n\r", ch );
-		send_to_char( "You have been demoted!\n\r", victim );
-       	char_setImmRank( victim, rank );
+    if ( level <= victim->level )
+    {
+        /* int temp_prac; */
+        /* why keep practices? --Rahl */
+        
+        send_to_char( "Lowering a player's level!\n\r", ch );
+        send_to_char( "**** OOOOHHHHHHHHHH  NNNNOOOO ****\n\r", victim );
+        /* temp_prac = victim->practice; */
+        victim->level    = 1;
+        victim->exp      = 0;
+        victim->max_hit  = 10;
+        victim->max_mana = 100;
+        victim->max_move = 100;
+        victim->practice = 0;
+        victim->train    = 0; /* added by Rahl */
+        victim->hit      = victim->max_hit;
+        victim->mana     = victim->max_mana;
+        victim->move     = victim->max_move;
+        advance_level( victim );
+        /* victim->practice = temp_prac; */
+    }
+    else
+    {
+        send_to_char( "Raising a player's level!\n\r", ch );
+        send_to_char( "**** OOOOHHHHHHHHHH  YYYYEEEESSS ****\n\r", victim );
+    }
 
-		if ( rank == 0 ) {
-        	victim->exp      = 0;
-        	victim->max_hit  = 10;
-        	victim->max_mana = 100;
-        	victim->max_move = 100;
-        	victim->practice = 0;
-        	victim->train    = 0; 
-        	victim->hit      = victim->max_hit;
-        	victim->mana     = victim->max_mana;
-        	victim->move     = victim->max_move;
-		}
-    } else {
-        send_to_char( "Raising a player's rank!\n\r", ch );
-        send_to_char( "You raise a rank!!", victim );
-        char_setImmRank( victim, rank );
+    for ( iLevel = victim->level ; iLevel < level; iLevel++ )
+    {
+        send_to_char( "You raise a level!!  ", victim );
+        victim->level += 1;
+        advance_level( victim );
     }
     victim->exp   = 0;
+    victim->trust = 0;
     save_char_obj(victim);
+    return;
+}
+
+
+
+void do_trust( CHAR_DATA *ch, char *argument )
+{
+    char arg1[MAX_INPUT_LENGTH];
+    char arg2[MAX_INPUT_LENGTH];
+    CHAR_DATA *victim;
+    int level;
+
+    argument = one_argument( argument, arg1 );
+    argument = one_argument( argument, arg2 );
+
+    if ( arg1[0] == '\0' || arg2[0] == '\0' || !is_number( arg2 ) )
+    {
+        send_to_char( "Syntax: trust <char> <level>.\n\r", ch );
+        return;
+    }
+
+    if ( ( victim = get_char_room( ch, arg1 ) ) == NULL )
+    {
+        send_to_char( "That player is not here.\n\r", ch);
+        return;
+    }
+
+    if ( ( level = atoi( arg2 ) ) < 0 || level > MAX_LEVEL )
+    {
+        BUFFER *buf = buffer_new( 100 );
+        bprintf( buf, "Level must be 0 (reset) or 1 to %d.\n\r", 
+            MAX_LEVEL );
+        send_to_char( buf->data, ch );
+        buffer_free( buf );
+        return;
+    }
+
+    if ( level > get_trust( ch ) )
+    {
+        send_to_char( "Limited to your trust.\n\r", ch );
+        return;
+    }
+
+    victim->trust = level;
     return;
 }
 
@@ -2647,7 +2716,7 @@ void do_restore( CHAR_DATA *ch, char *argument )
         /* added by Rahl */
         bprintf( buf, "$N restored room %d.", ch->in_room->vnum );
         wiznet( buf->data, ch, NULL, WIZ_RESTORE, WIZ_SECURE, 
-            char_getImmRank( ch )); 
+            get_trust( ch )); 
 
         send_to_char("Room restored.\n\r",ch);
         buffer_free( buf );
@@ -2655,7 +2724,7 @@ void do_restore( CHAR_DATA *ch, char *argument )
 
     }
     
-    if ( char_getImmRank(ch) >=  MAX_RANK && !str_cmp(arg,"all"))
+    if ( get_trust(ch) >=  MAX_LEVEL && !str_cmp(arg,"all"))
     {
     /* cure all */
         
@@ -2682,7 +2751,7 @@ void do_restore( CHAR_DATA *ch, char *argument )
         send_to_char("All active players restored.\n\r",ch);
         bprintf( buf, "$N restored everyone." );
         wiznet( buf->data, ch, NULL, WIZ_RESTORE, WIZ_SECURE, 
-            char_getImmRank( ch ) );
+            get_trust( ch ) );
         buffer_free( buf );
         return;
     }
@@ -2709,7 +2778,7 @@ void do_restore( CHAR_DATA *ch, char *argument )
     bprintf( buf, "$N restored %s.", IS_NPC( victim ) ?
                 victim->short_descr : victim->name );
     wiznet( buf->data, ch, NULL, WIZ_RESTORE, WIZ_SECURE, 
-        char_getImmRank( ch ) );
+        get_trust( ch ) );
 
     send_to_char( "Ok.\n\r", ch );
     buffer_free( buf );
@@ -2748,7 +2817,7 @@ void do_freeze( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( char_getImmRank( victim ) >= char_getImmRank( ch ) )
+    if ( get_trust( victim ) >= get_trust( ch ) )
     {
         send_to_char( "You failed.\n\r", ch );
         buffer_free( buf );
@@ -2866,7 +2935,7 @@ void do_noemote( CHAR_DATA *ch, char *argument )
     }
 
 
-    if ( char_getImmRank( victim ) >= char_getImmRank( ch ) )
+    if ( get_trust( victim ) >= get_trust( ch ) )
     {
         send_to_char( "You failed.\n\r", ch );
         buffer_free( buf );
@@ -2921,7 +2990,7 @@ void do_notell( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( char_getImmRank( victim ) >= char_getImmRank( ch ) )
+    if ( get_trust( victim ) >= get_trust( ch ) )
     {
         send_to_char( "You failed.\n\r", ch );
         buffer_free( buf );
@@ -3003,7 +3072,7 @@ void do_newlock( CHAR_DATA *ch, char *argument )
     }
     else
     {
-        send_to_char( "New characters are now allowed.\n\r", ch );
+        send_to_char( "Newlock removed.\n\r", ch );
         /* added by Rahl */
         wiznet( "$N allows new characters back in.", ch, NULL, 0, 0, 0 );
     }
@@ -3202,7 +3271,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
         send_to_char("Syntax:\n\r",ch);
         send_to_char("  set char <name> <field> <value>\n\r",ch); 
         send_to_char( "  Field being one of:\n\r",                      ch );
-        send_to_char( "    str int wis dex con sex class rank\n\r",    ch );
+        send_to_char( "    str int wis dex con sex class level\n\r",    ch );
         send_to_char( "    race gold hp mana move practice align\n\r",  ch );
         send_to_char( "    train thirst drunk full security recall\n\r",ch );
         send_to_char( "    clan questpoints flag clan_leader\n\r",ch );
@@ -3360,7 +3429,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( !str_prefix( arg2, "rank" ) )
+    if ( !str_prefix( arg2, "level" ) )
     {
         if ( !IS_NPC(victim) )
         {
@@ -3369,14 +3438,14 @@ void do_mset( CHAR_DATA *ch, char *argument )
             return;
         }
 
-        if ( value < 0 || value > MAX_RANK )
+        if ( value < 0 || value > MAX_LEVEL )
         {
-            bprintf( buf, "Rank range is 0 to %d.\n\r", MAX_RANK );
+            bprintf( buf, "Level range is 0 to %d.\n\r", MAX_LEVEL );
             send_to_char( buf->data, ch );
             buffer_free( buf );
             return;
         }
-        char_setImmRank( victim, value );
+        victim->level = value;
         buffer_free( buf );
         return;
     }
@@ -4223,7 +4292,10 @@ void do_sockets( CHAR_DATA *ch, char *argument )
     BUFFER *buffer = buffer_new( MAX_INPUT_LENGTH );
     char arg[MAX_INPUT_LENGTH];
     DESCRIPTOR_DATA *d;
-    int count = 0;
+    int count;
+
+    count       = 0;
+    buffer->data[0]     = '\0';
 
     one_argument(argument,arg);
     send_to_char( "\r", ch );
@@ -4243,6 +4315,7 @@ void do_sockets( CHAR_DATA *ch, char *argument )
                 d->character->timer
                 );
             buffer_strcat( buffer, buf->data );
+            buffer_clear( buf );
         }
     }
     if (count == 0)
@@ -4284,7 +4357,7 @@ void do_force( CHAR_DATA *ch, char *argument )
 
     one_argument(argument,arg2);
   
-    if (!str_cmp(arg2,"delete") ) 
+    if (!str_cmp(arg2,"delete") && (ch->level < MAX_LEVEL - 1) ) 
     {
         send_to_char("That will NOT be done.\n\r",ch);
         buffer_free( buf );
@@ -4299,7 +4372,7 @@ void do_force( CHAR_DATA *ch, char *argument )
         CHAR_DATA *vch;
         CHAR_DATA *vch_next;
 
-        if (char_getImmRank(ch) < MAX_RANK - 3)
+        if (get_trust(ch) < MAX_LEVEL - 3)
         {
             send_to_char("Not at your level!\n\r",ch);
             buffer_free( buf );
@@ -4310,7 +4383,7 @@ void do_force( CHAR_DATA *ch, char *argument )
         {
             vch_next = vch->next;
 
-            if ( !IS_NPC(vch) && char_getImmRank( vch ) < char_getImmRank( ch ) )
+            if ( !IS_NPC(vch) && get_trust( vch ) < get_trust( ch ) )
             {
                 act( buf->data, ch, NULL, vch, TO_VICT );
                 interpret( vch, argument );
@@ -4322,7 +4395,7 @@ void do_force( CHAR_DATA *ch, char *argument )
         CHAR_DATA *vch;
         CHAR_DATA *vch_next;
  
-        if (char_getImmRank(ch) < MAX_RANK - 2)
+        if (get_trust(ch) < MAX_LEVEL - 2)
         {
             send_to_char("Not at your level!\n\r",ch);
             buffer_free( buf );
@@ -4333,8 +4406,8 @@ void do_force( CHAR_DATA *ch, char *argument )
         {
             vch_next = vch->next;
  
-            if ( !IS_NPC(vch) && char_getImmRank( vch ) < char_getImmRank( ch ) 
-            &&   char_getImmRank( vch ) < 1 ) // Lowest Rank
+            if ( !IS_NPC(vch) && get_trust( vch ) < get_trust( ch ) 
+            &&   vch->level < LEVEL_HERO)
             {
                 act( buf->data, ch, NULL, vch, TO_VICT );
                 interpret( vch, argument );
@@ -4346,7 +4419,7 @@ void do_force( CHAR_DATA *ch, char *argument )
         CHAR_DATA *vch;
         CHAR_DATA *vch_next;
  
-        if (char_getImmRank(ch) < MAX_RANK - 2)
+        if (get_trust(ch) < MAX_LEVEL - 2)
         {
             send_to_char("Not at your level!\n\r",ch);
             buffer_free( buf );
@@ -4357,8 +4430,8 @@ void do_force( CHAR_DATA *ch, char *argument )
         {
             vch_next = vch->next;
  
-            if ( !IS_NPC(vch) && char_getImmRank( vch ) < char_getImmRank( ch )
-            &&  IS_IMMORTAL( vch ) ) 
+            if ( !IS_NPC(vch) && get_trust( vch ) < get_trust( ch )
+            &&   vch->level >= LEVEL_HERO)
             {
                 act( buf->data, ch, NULL, vch, TO_VICT );
                 interpret( vch, argument );
@@ -4393,14 +4466,14 @@ void do_force( CHAR_DATA *ch, char *argument )
             return;
         }
 
-        if ( char_getImmRank( victim ) >= char_getImmRank( ch ) )
+        if ( get_trust( victim ) >= get_trust( ch ) )
         {
             send_to_char( "Do it yourself!\n\r", ch );
             buffer_free( buf );
             return;
         }
 
-        if ( !IS_NPC(victim) && char_getImmRank(ch) < MAX_RANK -3)
+        if ( !IS_NPC(victim) && get_trust(ch) < MAX_LEVEL -3)
         {
             send_to_char("Not at your level!\n\r",ch);
             buffer_free( buf );
@@ -4423,39 +4496,46 @@ void do_force( CHAR_DATA *ch, char *argument )
  */
 void do_invis( CHAR_DATA *ch, char *argument )
 {
-    int rank;
+    int level;
     char arg[MAX_INPUT_LENGTH];
 
-    if ( IS_NPC(ch) ) {
+    if ( IS_NPC(ch) )
         return;
-	}
 
     /* RT code for taking a level argument */
     one_argument( argument, arg );
 
-    if ( arg[0] == '\0' ) {
+    if ( arg[0] == '\0' ) 
     /* take the default path */
 
-      if ( IS_SET(ch->act, PLR_WIZINVIS) ) {
+      if ( IS_SET(ch->act, PLR_WIZINVIS) )
+      {
           REMOVE_BIT(ch->act, PLR_WIZINVIS);
           ch->invis_level = 0;
           act( "$n slowly fades into existence.", ch, NULL, NULL, TO_ROOM );
           send_to_char( "You slowly fade back into existence.\n\r", ch );
-      } else {
+      }
+      else
+      {
           SET_BIT(ch->act, PLR_WIZINVIS);
-          ch->invis_level = char_getImmRank(ch);
+          ch->invis_level = get_trust(ch);
           act( "$n slowly fades into thin air.", ch, NULL, NULL, TO_ROOM );
           send_to_char( "You slowly vanish into thin air.\n\r", ch );
       }
-    } else { /* do the level thing */
-      rank = atoi(arg);
-      if (rank < 1 || rank > char_getImmRank(ch)) {
-        send_to_char("Invis level must be between 1 and your rank.\n\r",ch);
+    else
+    /* do the level thing */
+    {
+      level = atoi(arg);
+      if (level < 2 || level > get_trust(ch))
+      {
+        send_to_char("Invis level must be between 2 and your level.\n\r",ch);
         return;
-      } else {
+      }
+      else
+      {
           ch->reply = NULL;
           SET_BIT(ch->act, PLR_WIZINVIS);
-          ch->invis_level = rank;
+          ch->invis_level = level;
           act( "$n slowly fades into thin air.", ch, NULL, NULL, TO_ROOM );
           send_to_char( "You slowly vanish into thin air.\n\r", ch );
       }
@@ -4468,14 +4548,16 @@ void do_invis( CHAR_DATA *ch, char *argument )
 
 void do_holylight( CHAR_DATA *ch, char *argument )
 {
-    if ( IS_NPC(ch) ) {
+    if ( IS_NPC(ch) )
         return;
-	}
 
-    if ( IS_SET(ch->act, PLR_HOLYLIGHT) ) {
+    if ( IS_SET(ch->act, PLR_HOLYLIGHT) )
+    {
         REMOVE_BIT(ch->act, PLR_HOLYLIGHT);
         send_to_char( "Holy light mode off.\n\r", ch );
-    } else {
+    }
+    else
+    {
         SET_BIT(ch->act, PLR_HOLYLIGHT);
         send_to_char( "Holy light mode on.\n\r", ch );
     }
@@ -4523,6 +4605,7 @@ void do_rlist(CHAR_DATA *ch, char *argument)
 
     one_argument( argument, arg );
     found   = FALSE;
+    buf1->data[0] = '\0';
 
     if (arg[0]=='\0')
     {
@@ -4840,7 +4923,7 @@ void do_bonus( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( IS_IMMORTAL( victim ) )
+    if ( IS_IMMORTAL( victim ) || victim->level > LEVEL_HERO )
     {
         send_to_char( "You cannot bonus immortals.\n\r", ch );
         buffer_free( buf );
@@ -5067,6 +5150,8 @@ void do_wiznet( CHAR_DATA *ch, char *argument )
     /* show wiznet status */
     if ( !str_prefix( argument, "status" ) )
     {
+        buf->data[0] = '\0';
+
         if ( !IS_SET( ch->wiznet, WIZ_ON ) )
             buffer_strcat( buf, "off " );
 
@@ -5090,9 +5175,11 @@ void do_wiznet( CHAR_DATA *ch, char *argument )
     /* show all the wiznet options */
     if ( !str_prefix( argument, "show" ) )
     {
+        buf->data[0] = '\0';
+
         for ( flag = 0; wiznet_table[flag].name != NULL; flag++ )
         {
-            if ( wiznet_table[flag].level <= char_getImmRank( ch ) )
+            if ( wiznet_table[flag].level <= get_trust( ch ) )
             {
                 buffer_strcat( buf, wiznet_table[flag].name );
                 buffer_strcat( buf, " " );
@@ -5109,7 +5196,7 @@ void do_wiznet( CHAR_DATA *ch, char *argument )
 
     flag = wiznet_lookup( argument );
 
-    if ( flag == -1 || char_getImmRank( ch ) < wiznet_table[flag].level )
+    if ( flag == -1 || get_trust( ch ) < wiznet_table[flag].level )
     {
         send_to_char( "No such option.\n\r", ch );
         buffer_free( buf );
@@ -5151,7 +5238,7 @@ void wiznet( char *string, CHAR_DATA *ch, OBJ_DATA *obj, long flag, long
         && IS_SET( d->character->wiznet, WIZ_ON )
         && ( !flag || IS_SET( d->character->wiznet, flag ) )
         && ( !flag_skip || !IS_SET( d->character->wiznet, flag_skip ) )
-        && char_getImmRank( d->character ) >= min_level
+        && get_trust( d->character ) >= min_level
         && d->character != ch )
         {
             if ( IS_SET( d->character->wiznet, WIZ_PREFIX ) )
@@ -5183,7 +5270,7 @@ void do_incognito( CHAR_DATA *ch, char *argument )
         }
         else
         {
-            ch->incog_level = char_getImmRank( ch );
+            ch->incog_level = get_trust( ch );
             SET_BIT( ch->act, PLR_INCOGNITO );
             act( "$n cloaks $s presence.", ch, NULL, NULL, TO_ROOM );
             send_to_char( "You cloak your presence.\n\r", ch );
@@ -5193,7 +5280,7 @@ void do_incognito( CHAR_DATA *ch, char *argument )
     /* do the level thing */
     {
         level = atoi( arg );
-        if ( level < 1 || level > char_getImmRank( ch ) )
+        if ( level < 2 || level > get_trust( ch ) )
         {
             send_to_char( "Incog level must be between 2 and your level.\n\r", ch );
             return;
@@ -5214,12 +5301,14 @@ void do_incognito( CHAR_DATA *ch, char *argument )
 /*
  * page added by Rahl based on code by Judson Knott
  */
-void do_page( CHAR_DATA *ch, char *argument ) {
+void do_page( CHAR_DATA *ch, char *argument )
+{
     CHAR_DATA *victim;
     char arg[MAX_INPUT_LENGTH];
     BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
 
-    if ( IS_NPC( ch ) ) {
+    if ( IS_NPC( ch ) )
+    {
         send_to_char( "NPC's can't page!\n\r", ch );
         buffer_free( buf );
         return;
@@ -5227,51 +5316,199 @@ void do_page( CHAR_DATA *ch, char *argument ) {
 
     argument = one_argument( argument, arg );
 
-    if ( arg[0] == '\0' || argument[0] == '\0' ) {
+    if ( arg[0] == '\0' || argument[0] == '\0' )
+    {
         send_to_char( "Syntax: page <victim> <message>\n\r", ch );
         buffer_free( buf );
         return;
     }
 
-    if ( ( victim = get_char_world( ch, arg ) ) == NULL ) {
+    if ( ( victim = get_char_world( ch, arg ) ) == NULL )
+    {
         send_to_char( "They aren't here.\n\r", ch );
         buffer_free( buf );
         return;
     }
 
-    if ( IS_NPC( victim ) ) {
+    if ( IS_NPC( victim ) )
+    {
         send_to_char( "You can't page NPCs.\n\r", ch );
         buffer_free( buf );
         return;
     }
 
-    if ( victim == ch ) {
+    if ( victim == ch )
+    {
         send_to_char( "Now why would you want to do that?\n\r", ch );
         buffer_free( buf );
         return;
     }
 
-    if ( !IS_IMMORTAL( victim ) ) {
+    if ( !IS_IMMORTAL( victim ) )
+    {
         bprintf( buf, "You can't page %s.\n\r", victim->name );
         send_to_char( buf->data, ch );
         buffer_free( buf );
         return;
     }
 
-    bprintf( buf, "\a`WYou page %s.\n\r`w", victim->name );
+    bprintf( buf, "\a`rYou page %s.\n\r`w", victim->name );
     send_to_char( buf->data, ch );
-    bprintf( buf, "`RYou tell %s '%s`R'`w\n\r", victim->name, argument );
+    bprintf( buf, "`rYou tell %s '%s`r'`w\n\r", victim->name, argument );
     send_to_char( buf->data, ch );
 
-    bprintf( buf, "\a`W%s has paged you.\n\r`w", ch->name );
+    bprintf( buf, "\a`r%s has paged you.\n\r`w", ch->name );
     send_to_char( buf->data, victim );
-    bprintf( buf, "`R%s tells you '%s`R'`w\n\r", ch->name, argument );
+    bprintf( buf, "`r%s tells you '%s`r'`w\n\r", ch->name, argument );
     send_to_char( buf->data, victim );
 
     buffer_free( buf );
     return;
 }
 
+/*
+ * olevel written by Omar Yehia. Implemented here by Rahl with a
+ * few small modifications to make it work.
+ */
+void do_olevel( CHAR_DATA *ch, char *argument )
+{
+    extern int top_vnum_obj;
+    BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
+    char arg[MAX_INPUT_LENGTH];
+    BUFFER *buffer = buffer_new( MAX_INPUT_LENGTH );
+    OBJ_INDEX_DATA *pObjIndex;
+    int vnum, level, level2, counter;
+    bool found;
+
+    argument = one_argument( argument, arg );
+
+	level2 = 0;
+    buffer->data[0] = '\0';
+
+    if ( !is_number( arg ) )
+    {
+        send_to_char( "Syntax: olevel [level]\n\r", ch );
+        buffer_free( buf );
+        buffer_free( buffer );
+        return;
+    }
+
+	if ( is_number( argument ) )
+		level2 = atoi( argument );
+
+    level = atoi( arg );
+    found = FALSE;
+
+    for ( vnum = 0; vnum < top_vnum_obj; vnum++ )
+    {
+        if ( ( pObjIndex = get_obj_index( vnum ) ) != NULL )
+        {
+            if ( level == pObjIndex->level )
+            {
+                found = TRUE;
+                bprintf( buf, "`W[%d]`w `C(%3d)`w %s`w\n\r",
+                    pObjIndex->vnum, pObjIndex->level,
+                    pObjIndex->short_descr );
+                buffer_strcat( buffer, buf->data ); 
+            } 
+		
+			for ( counter = level + 1; counter <= level2; counter++ )
+			{
+				if ( level2 != 0 && counter == pObjIndex->level )
+				{
+					found = TRUE;
+                	bprintf( buf, "`W[%d]`w `C(%3d)`w %s`w\n\r",
+                    	pObjIndex->vnum, pObjIndex->level,
+                    	pObjIndex->short_descr );
+                	buffer_strcat( buffer, buf->data ); 
+				}
+			}
+        }
+    }
+
+    if ( !found )
+        send_to_char( "No objects of that level.\n\r", ch );
+    else
+        page_to_char( buffer->data, ch );
+
+    buffer_free( buf );
+    buffer_free( buffer );
+
+    return;
+}
+
+
+/*
+ * mlevel written by Omar Yehia. Implemented here by Rahl with a
+ * few small modifications to make it work.
+ */
+void do_mlevel( CHAR_DATA *ch, char *argument )
+{
+    extern int top_vnum_mob;
+    BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
+    char arg[MAX_INPUT_LENGTH];
+    BUFFER *buffer = buffer_new( MAX_INPUT_LENGTH );
+    MOB_INDEX_DATA *pMobIndex;
+    int vnum, level, level2, counter;
+    bool found;
+
+    argument = one_argument( argument, arg );
+
+	level2 = 0;
+    buffer->data[0] = '\0';
+
+    if ( !is_number( arg ) )
+    {
+        send_to_char( "Syntax: mlevel [level]\n\r", ch );
+        buffer_free( buf );
+        buffer_free( buffer );
+        return;
+    }
+
+	if ( is_number( argument ) )
+		level2 = atoi( argument );
+
+    level = atoi( arg );
+    found = FALSE;
+
+    for ( vnum = 0; vnum < top_vnum_mob; vnum++ )
+    {
+        if ( ( pMobIndex = get_mob_index( vnum ) ) != NULL )
+        {
+            if ( level == pMobIndex->level )
+            {
+                found = TRUE;
+                bprintf( buf, "`W[%5d]`w `C(%3d)`w %s`w\n\r",
+                    pMobIndex->vnum, pMobIndex->level,
+                    pMobIndex->short_descr );
+                buffer_strcat( buffer, buf->data );
+            }
+		
+			for ( counter = level + 1; counter <= level2; counter++ )
+			{
+				if ( level2 != 0 && counter == pMobIndex->level )
+				{
+                	found = TRUE;
+                	bprintf( buf, "`W[%5d]`w `C(%3d)`w %s`w\n\r",
+                    	pMobIndex->vnum, pMobIndex->level,
+                    	pMobIndex->short_descr );
+                	buffer_strcat( buffer, buf->data );
+				}
+			}
+        }
+    }
+
+
+    if ( !found )
+        send_to_char( "No mobs of that level.\n\r", ch );
+    else
+        page_to_char( buffer->data, ch );
+
+    buffer_free( buf );
+    buffer_free( buffer );
+
+    return;
+}
 
 void do_addapply(CHAR_DATA *ch, char *argument)
 {
@@ -5461,7 +5698,7 @@ void do_grab (CHAR_DATA *ch, char *argument)
     }
 
         /* was ch->level -- Rahl */
-    if ( char_getImmRank( victim ) >= char_getImmRank( ch ) )
+    if ( victim->level >= get_trust( ch ) )
     {
         send_to_char( "I wouldn't try that if I were you...\r\n", ch );
         return;
@@ -5497,6 +5734,8 @@ void do_owhere(CHAR_DATA *ch, char *argument )
     found = FALSE;
     number = 0;
     max_found = 200;
+
+    buffer->data[0] = '\0';
 
     if (argument[0] == '\0')
     {
@@ -5588,7 +5827,7 @@ void do_jail( CHAR_DATA *ch, char *argument )
         return;
     }
        
-    if ( char_getImmRank( ch ) < char_getImmRank( victim ) )
+    if ( get_trust( ch ) < victim->level )
     {
         send_to_char( "That's NOT a good idea.\n\r", ch );
         buffer_free( buf );
@@ -5717,6 +5956,9 @@ void do_states( CHAR_DATA *ch, char *argument )
                 case CON_NOTE_FINISH:
                     bprintf( buf3, "Note Finish" );
                     break;
+                case CON_BEGIN_REMORT:
+                    bprintf( buf3, "Begin Remort" );
+                    break;
                 case CON_COPYOVER_RECOVER:
                     bprintf( buf3, "Copyover Recover" );
                     break;
@@ -5810,7 +6052,7 @@ void do_violate( CHAR_DATA *ch, char *argument )
 
     for (rch = ch->in_room->people; rch != NULL; rch = rch->next_in_room)
     {
-        if (char_getImmRank(rch) >= ch->invis_level)
+        if (get_trust(rch) >= ch->invis_level)
         {
             if (ch->pcdata != NULL && ch->pcdata->bamfout[0] != '\0')
                 act("$t",ch,ch->pcdata->bamfout,rch,TO_VICT);
@@ -5825,7 +6067,7 @@ void do_violate( CHAR_DATA *ch, char *argument )
 
     for (rch = ch->in_room->people; rch != NULL; rch = rch->next_in_room)
     {
-        if (char_getImmRank(rch) >= ch->invis_level)
+        if (get_trust(rch) >= ch->invis_level)
         {
             if (ch->pcdata != NULL && ch->pcdata->bamfin[0] != '\0')
                 act("$t",ch,ch->pcdata->bamfin,rch,TO_VICT);
@@ -5948,7 +6190,7 @@ void do_zecho(CHAR_DATA *ch, char *argument)
         &&  d->character->in_room != NULL && ch->in_room != NULL
         &&  d->character->in_room->area == ch->in_room->area)
         {
-            if (char_getImmRank(d->character) >= char_getImmRank(ch))
+            if (get_trust(d->character) >= get_trust(ch))
                 send_to_char("zone> ",d->character);
             send_to_char(argument,d->character);
             send_to_char("\n\r",d->character);
@@ -6096,30 +6338,4 @@ void do_debug( CHAR_DATA *ch, char *argument ) {
 		send_to_char( "Debug mode ON.\n\r", ch );
 		log_string( " ***** Debug mode ON. ***** " );
 	}
-}
-
-int char_getImmRank( CHAR_DATA *ch ) {
-	if ( ch == NULL ) {
-		return 0;
-	}
-
-	if ( ( ch->immRank < 0 ) || ( ch->immRank > 10 ) ) {
-		ch->immRank = 0;
-	}
-
-	return ch->immRank;
-}
-
-void char_setImmRank( CHAR_DATA *ch, int newRank ) {
-	if ( ch == NULL ) {
-		return;
-	}
-
-	if ( ( newRank < 0 ) || ( newRank > 10 ) ) {
-		newRank = 0;
-	}
-	
-	ch->immRank = newRank;
-
-	return;
 }

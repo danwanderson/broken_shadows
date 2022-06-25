@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -121,6 +121,7 @@ void show_flag_cmds( CHAR_DATA *ch, const struct flag_type *flag_table )
     int  flag;
     int  col;
  
+    buf1->data[0] = '\0';
     col = 0;
     for (flag = 0; flag_table[flag].name[0] != '\0'; flag++)
     {
@@ -159,6 +160,7 @@ void show_skill_cmds( CHAR_DATA *ch, int tar )
     int  sn;
     int  col;
  
+    buf1->data[0] = '\0';
     col = 0;
     for (sn = 0; sn < MAX_SKILL; sn++)
     {
@@ -201,6 +203,7 @@ void show_spec_cmds( CHAR_DATA *ch )
     int  spec;
     int  col;
  
+    buf1->data[0] = '\0';
     col = 0;
     send_to_char( "Preceed special functions with 'spec_'\n\r\n\r", ch );
     for (spec = 0; spec_table[spec].spec_fun != NULL; spec++)
@@ -234,6 +237,8 @@ bool show_help( CHAR_DATA *ch, char *argument )
     char spell[MAX_INPUT_LENGTH];
     int cnt;
     BUFFER *buffer = buffer_new( MAX_INPUT_LENGTH );
+
+    buffer->data[0] = '\0';
 
     argument = one_argument( argument, arg );
     one_argument( argument, spell );
@@ -349,6 +354,7 @@ REDIT( redit_mlist )
     }
 
     pArea = ch->in_room->area;
+    buf1->data[0] = '\0';
     fAll    = !str_cmp( arg, "all" );
     found   = FALSE;
 
@@ -402,6 +408,7 @@ AEDIT( aedit_rlist )
     one_argument( argument, arg );
 
     pArea = ch->in_room->area;
+    buf1->data[0] = '\0';
     found   = FALSE;
 
     for ( vnum = pArea->lvnum; vnum <= pArea->uvnum; vnum++ )
@@ -457,6 +464,7 @@ REDIT( redit_olist )
     }
 
     pArea = ch->in_room->area;
+    buf1->data[0] = '\0';
     fAll    = !str_cmp( arg, "all" );
     found   = FALSE;
 
@@ -885,9 +893,9 @@ AEDIT( aedit_builder )
 
     name[0] = UPPER( name[0] );
 
-    if ( strstr( pArea->builders, name ) != NULL )
+    if ( strstr( pArea->builders, name ) != '\0' )
     {
-        pArea->builders = string_replace( pArea->builders, name, '\0' );
+        pArea->builders = string_replace( pArea->builders, name, "\0" );
         pArea->builders = string_unpad( pArea->builders );
 
         if ( pArea->builders[0] == '\0' )
@@ -901,9 +909,10 @@ AEDIT( aedit_builder )
     }
     else
     {
-        if ( strstr( pArea->builders, "None" ) != NULL )
+        buf->data[0] = '\0';
+        if ( strstr( pArea->builders, "None" ) != '\0' )
         {
-            pArea->builders = string_replace( pArea->builders, "None", '\0' );
+            pArea->builders = string_replace( pArea->builders, "None", "\0" );
             pArea->builders = string_unpad( pArea->builders );
         }
 
@@ -1085,6 +1094,8 @@ REDIT( redit_show )
     
     EDIT_ROOM(ch, pRoom);
 
+    buf1->data[0] = '\0';
+    
     bprintf( buf, "Description:\n\r%s", pRoom->description );
     buffer_strcat( buf1, buf->data );
 
@@ -1374,7 +1385,7 @@ bool change_exit( CHAR_DATA *ch, char *argument, int door )
         
     if ( !str_cmp( command, "dig" ) )
     {
-        char buf[MAX_INPUT_LENGTH*2];
+        char buf[MAX_INPUT_LENGTH];
         
         if ( arg[0] == '\0' || !is_number( arg ) )
         {
@@ -2075,7 +2086,7 @@ REDIT( redit_oreset )
 
         add_reset( pRoom, pReset, 0/* Last slot*/ );
 
-        olevel  = URANGE( 0, to_mob->level - 2, HERO );
+        olevel  = URANGE( 0, to_mob->level - 2, LEVEL_HERO );
         newobj = create_object( pObjIndex, number_fuzzy( olevel ) );
 
         if ( to_mob->pIndexData->pShop )        /* Shop-keeper? */
@@ -2530,6 +2541,8 @@ OEDIT( oedit_show )
     int cnt;
 
     EDIT_OBJ(ch, pObj);
+
+    buf1->data[0] = '\0';
 
     bprintf( buf, "Name:        [%s]\n\rArea:        [%5d] %s\n\r",
         pObj->name,
@@ -3232,6 +3245,8 @@ MEDIT( medit_show )
     BUFFER *buf1 = buffer_new( MAX_INPUT_LENGTH );
 
     EDIT_MOB(ch, pMob);
+
+    buf1->data[0] = '\0';
 
     bprintf( buf, "Name:        [%s]\n\rArea:        [%5d] %s\n\r",
         pMob->player_name,

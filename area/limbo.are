@@ -140,17 +140,13 @@ none~
 BD 0 0 0 0
 0 2 0
 #20
-hunk edible something~
-a hunk of edible something~
-A hunk of edible something... just sits... there...~
+mushroom~
+a Magic Mushroom~
+A delicious magic mushroom is here.~
 none~
 19 0 A
 D 0 0 0 0
 0 1 10
-E
-hunk edible something~
-It's a hunk of...  Wel, something.  And it's edible...  You think.  
-~
 #21
 ball light~
 a bright ball of light~
@@ -160,9 +156,9 @@ none~
 0 0 999 0 0
 0 0 0
 #22
-stream starlight~
-a small stream of liquid starlight~
-Liquid starlight sparkles across your path.~
+spring~
+a magical spring~
+A magical spring flows from the ground here.~
 none~
 25 G 0
 FHJKPQ FHJKPQ 0 0 0
@@ -176,9 +172,9 @@ none~
 B 0 AC ACDE F
 0 10 1000
 A
-18 3
-A
 19 3
+A
+18 3
 #24
 steak~
 a nice, juicy steak~
@@ -349,7 +345,11 @@ matter, surrounded by swirling glowing light, which fades into the relative
 darkness around you without any trace of edges or shadow.
    There is a "No Tipping" notice pinned to the darkness.
 ~
-0 12 1
+0 8 1
+D4
+~
+~
+0 -1 3001
 S
 #26
 ~

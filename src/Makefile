@@ -9,9 +9,9 @@ O_FILES = act_comm.o act_enter.o act_info.o act_move.o act_obj.o act_wiz.o \
 	alias.o ban.o bit.o board.o bonus_update.o buffer.o clans.o comm.o \
 	const.o db.o dice_games.o engrave.o effects.o fight.o flowers.o \
 	gocial.o handle_con.o handler.o healer.o interp.o magic.o marry.o \
-	mem.o music.o olc.o \
-	olc_act.o olc_save.o quest.o rename.o save.o skills.o \
-	special.o string.o update.o  
+	mem.o music.o new_dump.o olc.o \
+	olc_act.o olc_save.o quest.o remort.o save.o skills.o \
+	special.o string.o update.o wizutil.o 
 
 all: shadows
 
@@ -30,7 +30,7 @@ src:
 	#-rm -f src.*.tar*
 	-ctags *.[ch]
 	#tar cvzf src.$(date +%m%d%Y_%H%M).tar.gz Makefile *.[ch] tags
-	git push origin master
+	# git push origin main
 
 srcpull:
-	git pull origin master
+	git pull origin main

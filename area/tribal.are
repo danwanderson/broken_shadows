@@ -1,0 +1,2061 @@
+#AREADATA
+Name        { 5-15} Lod     Tribal Plains~
+Builders    None~
+VNUMs       10200 10299
+Security    9
+End
+
+
+
+#MOBILES
+#10200
+big guy~
+a giant guy~
+A giant guy is here waiting for someone to bash.
+~
+Big guy.  Wants to bash you.  Nuf said.
+~
+unique~
+A 0 0 0 S
+20 3 6d35+150 0d0+0 5d11+2 0
+-1 -1 3 4
+CDO 0 CHI JP
+8 8 1 30
+AHMV ABCDEFGHIJK G none
+#10201
+dotty~
+Dotty~
+Dotty is here!
+~
+It's Dotty!  Nothing really all that special about here except she's
+kinda good looking and kinda dumb.  She's very friendly.  Be friends with
+her.  
+~
+Human~
+A 0 0 1000 S
+15 0 5d30+161 0d0+0 3d5+8 0
+0 0 0 5
+0 0 0 0
+8 8 2 0
+AHMV ABCDEFGHIJK M none
+#10202
+headman~
+the Headman~
+The Headman of the Bulu village is here.
+~
+You see before the Headman of the Bulu village.  He is the leader of his
+people because he is strong and wise.  He welcomes you into his home.  
+~
+Human~
+AB 0 0 700 S
+14 30 4d30+148 1d1+30 1d2+0 0
+4 4 4 7
+FJ 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M none
+#10203
+child~
+a child~
+A young Bulu child is here, practacing to be a warrior.
+~
+You see before you a young Bulu child.  Children of the Bulu village are
+raised to be strong warriors and hunters.  They run around with little
+clothes on from birth and are concequently resistant to cold.  
+~
+Human~
+A 0 0 200 S
+5 3 1d17+102 0d0+0 1d1+0 0
+7 7 7 8
+JR 0 I 0
+8 8 1 0
+ADHMV ABCDEFGHIJK S none
+#10204
+woman~
+a Bulu woman~
+A Bulu woman is here doing womanly things.
+~
+You see a Bulu woman here.  Bulu women are strong becuase they have to
+deal with Bulu children and Bulu men.  They mostly cook and make clothes and
+are usually peaceful, but if they feel they're children are threatend, they
+can become very, very violent.  
+~
+Human~
+A 0 0 300 S
+7 3 2d20+60 0d0+0 2d4+3 0
+6 6 6 8
+DR 0 0 0
+8 8 2 3
+AHMV ABCDEFGHIJK M none
+#10205
+man~
+a Bulu man~
+A Bulu man is here, doing manly things.
+~
+You are looking at a man of the Bulu tribe.  Bulu men are strong becaused
+they are raised by strong parents and taught to survive.  Men that aren't
+great hunters or warriors generally make weapons and other items that keep
+the Bulu alive.  
+~
+Human~
+AT 0 0 300 S
+9 6 3d22+80 0d0+0 2d5+4 0
+5 5 5 7
+R 0 I 0
+8 8 1 4
+AHMV ABCDEFGHIJK M none
+#10206
+first warrior~
+the First Warrior~
+The First Warrior of the Bulu tribe is here.
+~
+You are looking upon the best warrior in the village.  He is young and in
+his prime.  He has the scars of being a good protector of the village.  
+~
+Human~
+ABT 0 0 300 S
+12 5 4d28+110 0d0+0 1d1+0 0
+2 2 2 6
+FKR 0 I 0
+8 8 1 1
+AHMV ABCDEFGHIJK M none
+#10207
+second warrior~
+the second warrior~
+The Second Warrior of the Bulu tribe is here.
+~
+You see before you the Second warrior of the Bulu village.  He is young,
+strong, and in his prime.  He has the scars of a good warrior and protector
+of his village.  
+~
+Human~
+ABT 0 0 300 S
+12 5 4d28+100 0d0+0 1d1+1 0
+2 2 2 6
+FKR 0 I 0
+8 8 1 0
+AHMV ABCDEFGHIJK M none
+#10208
+hunter bulu~
+a Bulu hunter~
+A Bulu hunter is here, hunting warg.
+~
+~
+Human~
+AT 0 0 300 S
+10 5 3d22+96 0d0+0 1d1+0 0
+4 4 4 7
+FR 0 I 0
+8 8 1 0
+AHMV ABCDEFGHIJK M none
+#10209
+female warg~
+a female warg~
+A female warg is here hunting some hunters.
+~
+You see before you a female warg.  It is slightly smaller than the male,
+but no less fierce.  It's mouth is open showing off it's large,
+saliva-covered teeth.  It's claws look like they would make nice daggers,
+except for the fact that they are likely to be puncturing your skin very
+shortly.  
+~
+dog~
+ACF 0 0 0 S
+10 5 3d22+100 0d0+0 2d5+5 5
+4 4 4 7
+HU 0 0 0
+8 8 2 0
+AGV ACDEFHJKUV M none
+#10210
+male warg~
+a male warg~
+A male warg is here, looking for some one to eat.
+~
+You see before you a male warg.  Male wargs are larger than the females. 
+It takes several hunters to bring down a large male warg.  It has a mouthful
+of sharp teeth and isn't stingy in showing them off to you.  He seems to be
+looking forward to eating you.  
+~
+dog~
+ACFG 0 0 0 S
+13 6 4d46+1102 0d0+0 3d5+5 5
+1 1 1 6
+HU 0 0 0
+8 8 1 0
+AGV ACDEFHJKUV L none
+#10211
+eagle bird~
+eagle~
+A large, majestic eagle is here.
+~
+You see before you a large eagle.  Eagles are known for their strength,
+size, gracefulness, keenness of vision, and powers of flight.  This one is a
+fine specimen of eagle, and is also dissturbed by that fact that you are
+interupting it.  
+~
+song bird~
+ABF TV 0 100 S
+9 5 3d22+90 0d0+0 2d5+3 5
+4 4 4 7
+FH 0 0 0
+8 8 3 0
+AGW ACDEFHKP M none
+#10212
+voodoo witch bitch~
+a voodoo witch~
+An evil-looking voodoo witch is here puting a hex on you.
+~
+You see before you an ugly old hag.  She's missing some teeth and has a
+perpetual sneer.  She is the voodoo witch and she's not happy.  You seem to
+have interupted a very important voodoo ceremony.  Be careful!  She might
+put a hex on you!  
+~
+Human~
+ABFR 0 0 -600 S
+14 3 4d32+161 14d10+100 3d5+4 19
+1 1 1 6
+0 0 0 0
+8 8 2 13
+AHMV ABCDEFGHIJK M none
+#10213
+shuli headman~
+the Shuli Headman~
+The Headman of the Shuli tribe is here.
+~
+You see before you the Headman of the Shuli tribe.  He is tall and strong
+and has the mark of the Shuli warriors on his arm.  He has been Headman for
+many years but that time has not made him soft.  He is as powerful as ever. 
+~
+Human~
+ABT 0 0 -100 S
+15 3 5d30+170 0d0+0 1d1+0 17
+0 0 0 5
+0 0 0 0
+8 8 1 20
+AHMV ABCDEFGHIJK M none
+#10214
+shuli man~
+a Shuli man~
+A Shuli man is here protecting his home.
+~
+You are looking at a man of the Shuli tribe.  All men are taught from a
+young age to do whatever they can to survive.  Because of this, the ones
+that are alive now are the most fit to survive.  They are also very
+protective over what they consider theirs, which is why there is so much
+conflict over the hunting plains.  
+~
+Human~
+AT 0 0 0 S
+9 3 3d22+80 0d0+0 2d5+4 0
+5 5 5 7
+R 0 I 0
+8 8 1 4
+AHMV ABCDEFGHIJK M none
+#10215
+shuli woman~
+a Shuli woman~
+A Shuli woman is here.
+~
+You see before you a woman belonging to the Shuli tribe.  Though women
+are not aloud to become warriors, they are trained to protect their village
+and themselves should either ever become threatend.  
+~
+Human~
+AT 0 0 0 S
+7 3 2d20+60 0d0+0 2d4+3 0
+6 6 6 8
+DR 0 I 0
+8 8 2 0
+AHMV ABCDEFGHIJK M none
+#10216
+shuli child~
+a Shuli child~
+A Shuli child is here trying not to get into trouble.
+~
+~
+Human~
+A 0 0 200 S
+5 3 1d17+102 0d0+0 1d1+0 0
+7 7 7 8
+JR 0 I 0
+8 8 0 0
+AHMV ABCDEFGHIJK M none
+#10217
+warrior shuli~
+a Shuli warrior~
+A Shuli warrior is guarding his village.
+~
+You see before you a warrior of the Shuli village.  The Shuli are
+fiercely protective of their land and dislike intruders.  They have dubbed
+you an intruder.  
+~
+Human~
+ABT 0 0 0 S
+12 3 4d28+120 0d0+0 1d1+0 0
+2 2 2 6
+FKR 0 I 0
+8 8 1 7
+AHMV ABCDEFGHIJK M none
+#10269
+tommy cat~
+Tommy the Cat~
+Tommy the Cat is here, on the prowl.
+~
+"I remember it as though it were a meal ago," said Tommy the Cat as he
+reeled back to clear whatever foreign matter may have nestled its way into
+his mighty throat.  Many a fat alley rat had met its demise while staring
+point-blank down the cavernous barrel of this awesome prowling machine. 
+Truly a wonder of nature this urban predator.  Tommy the Cat had many a
+story to tell, but it was a rare occasion such as this that he did.  "She
+came slidin' down the alleyway like butter dripping over a hot biscut.  The
+aroma, the mean scent, was enough to arouse suspicion in even the oldest of
+Tigers that hung around the hot spot in those days.  The sight was beyond
+belief.  Many a head snapped for double, even triple, takes as this
+vivacious feline made her way into the delta of the alleyway where the most
+verile of young tabbys were known to hang out.  They hung in droves.  Such a
+multitude of masculinity could only be found in one place...  And that was
+O'Malley's Alley.  The air was thick with cat calls (no pun intended) but
+not even a muscle in her neck did twitch as she sauntered straight into the
+heart of the alley.  She knew what she wanted!  She was looking for that
+stud bull, that he cat.  And that was me.  Tommy the Cat is my name and I
+say unto thee...  Say, baby, do you want to lay down with me?"  
+~
+cat~
+AT Z 0 0 S
+90 300 5d1000+1000 0d0+0 10d20+50 5
+-50 -50 -50 -50
+FH 0 0 H
+8 8 1 0
+AGV ACDEFHJKQUV M none
+#10270
+punching bag~
+a punching bag~
+A punching bag is here, bobbing back and forth.
+~
+It's a clown-faced punching bag.
+~
+Human~
+ABT 0 0 0 S
+30 200 50d50+10000 0d0+0 1d1+0 0
+-80 -80 -80 -80
+0 0 0 0
+8 8 0 0
+AHMV ABCDEFGHIJK M none
+#10275
+billy joe bob cyber knight~
+Billy Joe Bob the Cyber Knight~
+Billy Joe Bob the Cyber Knight is here.
+~
+You are looking at Billy Joe Bob the Cyber Knight.  Obviously not from
+your own time, he is clad in reenforced plastic armor and carries a G-73
+compact plasma rifle.  He has a number of plasma grenades hanging off his
+body.  In one hand he holds his psyonic sword, made of light and thought.  
+~
+Human~
+AB DFJ 0 1000 S
+15 0 5d30+170 15d1+1 1d3+2 0
+0 0 0 4
+0 0 0 0
+8 8 1 0
+AHMV ABCDEFGHIJK M none
+#10276
+lurker~
+the lurker~
+The lurker is here lurking.
+~
+You see a slimy, filth covered creature hugging to the rocks.  Though
+it's long arms and legs are thin, they seem powerful.  You don't think that
+it has ever gone hungry.  
+~
+snake~
+ABFT Q 0 -1020 S
+15 0 5d30+165 0d0+0 3d5+8 5
+0 0 0 5
+GM 0 L I
+8 8 0 0
+AGRXYc ADEFKLPQVX M none
+#0
+
+
+
+#OBJECTS
+#10200
+really big axe~
+a really big axe~
+A really, really, really, REALLY big axe is here.~
+none~
+5 BCI AN
+AC AC ABD A D
+102 20 600
+#10201
+axe durin great~
+the Great Axe of Durin~
+The Great Axe of the dwarf Durin lies here.~
+none~
+5 ABG AN
+AC BCG CDEF ACE 0
+90 20 10000
+A
+19 30
+A
+18 15
+E
+axe~
+You see the axe that once belonged to the Durin the Deathless.  It is the
+axe of gods.  It seems to be alive and wanting to slay something.  
+~
+#10202
+dagger warg tooth~
+a warg-tooth dagger~
+A dagger made out of the tooth of a warg is here.~
+none~
+5 0 AN
+B C AC B 0
+15 4 30
+#10203
+bulu tribal mask~
+a Bulu tribal mask~
+An ugly mask of Bulu make is here.~
+none~
+9 N AE
+AB AB AB AB 0
+7 5 102
+#10204
+warg claw necklace~
+a warg claw necklace~
+A necklace made of the claws of a warg is here.~
+none~
+9 0 AC
+A A B 0 0
+13 4 30
+#10205
+anabolic protoplaser~
+a protoplaser~
+An anabolic protoplaser is humming quietly to itself...~
+none~
+3 AB AO
+ABCD BD BD 61 0
+15 5 10000
+#10206
+warg meat~
+some left over warg meat~
+Left here is a nice piece of warg meat.~
+none~
+19 0 A
+BE 0 0 0 0
+1 2 10
+#10207
+toy spear~
+a toy spear~
+A very strong toy spear is here.~
+none~
+5 0 AN
+AB B AC B 0
+4 4 5
+#10208
+spear~
+a strong spear~
+A strong warrior's spear of Bulu make is here.~
+none~
+5 0 AN
+AB AB ABC B 0
+12 7 20
+#10209
+potion swirling black~
+a swirling black potion~
+A potion that looks anger in a bottle is here.~
+none~
+10 G A
+15 504 502 39 0
+13 2 50
+#10210
+pin voodoo~
+a voodoo pin~
+A long, sharp voodoo pin is here.~
+none~
+5 0 AN
+B C AC ABD 0
+10 2 25
+A
+19 2
+A
+18 1
+#10211
+feather eagle necklace~
+an eagle feather necklace~
+An eagle feather necklace is here.~
+none~
+9 GQ AC
+A A A A 0
+9 2 102
+A
+3 1
+#10212
+chest~
+a chest~
+A simple wooden chest is here.~
+none~
+15 0 0
+CFG ACD ABCFGHIJKN 0 0
+0 100 0
+E
+chest~
+You see before a small, wooden chest.  It is rather uninteresting.  It
+does, however, have a strong-looking iron lock on it.  
+~
+#10213
+figure gold~
+a gold figure~
+A figure made of gold is here.~
+none~
+8 0 AO
+0 0 0 0 0
+1 6 100
+A
+18 1
+#10214
+gold ring~
+a golden ring~
+A ring made of gold is here.~
+none~
+9 G AB
+0 0 0 B 0
+10 2 70
+A
+13 5
+A
+19 1
+#10215
+key rusty~
+a rusty key~
+A rusty key is here.~
+none~
+18 0 A
+0 0 0 0 0
+0 2 0
+#10216
+long sword~
+a long sword~
+A long sword with a bone handle is here.~
+none~
+5 0 AN
+A AC C AB 0
+15 6 70
+A
+18 1
+#10234
+trash~
+some trash~
+Some trash is here.~
+none~
+13 0 A
+0 0 0 0 0
+0 4 0
+#10269
+anti sword~
+the anti-sword~
+The anti-sword doesn't lie here.~
+none~
+5 GI AN
+0 A A ABC 0
+5 -3 0
+A
+19 -10
+#10270
+orb~
+an orb~
+An orb is resting here.~
+none~
+1 A A
+0 0 999 0 0
+27 5 100
+#10273
+plasma grenade~
+a plasma grenade~
+A plasma grenade is here.~
+none~
+3 0 AO
+CFG A A 402 0
+1 4 300
+E
+grenade~
+Instructions for using the plasma grenade: first wield it, then zap your
+enemy.  
+~
+#10274
+plasma rifle~
+a G-73 plasma rifle~
+A plasma rifle is here.~
+none~
+5 B AN
+0 C BC BC 0
+15 9 300
+A
+18 2
+#10275
+psyonic sword~
+a Psyonic Sword~
+A sword made of energy and thought is here.~
+none~
+5 AGR AN
+0 C BC AB 0
+0 0 0
+#0
+
+
+
+#ROOMS
+#10240
+The hunting plains~
+You are in the hunting plains grudgingly shared by the Bulu and Shuli
+tribes.  The long grasses here wave in the breezes that flow through them. 
+You see the tracks of a large, four-legged animal.  Off in the distance to
+the north you can see the entrance to the Shuli village.  
+~
+0 0 2
+D0
+~
+~
+0 0 10246
+D2
+~
+~
+0 0 10239
+D3
+~
+~
+0 0 10241
+S
+#10241
+The hunting plains~
+You are in the hunting plains grudgingly shared by the Bulu and Shuli
+tribes.  The grasses here wave pleasantly in the breezes that flow through
+them.  You see the tracks of a large, four-legged animal.  Off in the
+distance to the northeast you can see the entrance of the Shuli village.  
+~
+0 0 2
+D0
+~
+~
+0 0 10245
+D1
+~
+~
+0 0 10240
+D2
+~
+~
+0 0 10238
+D3
+~
+~
+0 0 10242
+S
+#10242
+The hunting plains~
+You are in the hunting plains grudgingly shared by the Bulu and Shuli
+tribes.  The grasses grow a little shorter here than the rest of the plain. 
+The wind doesn't blow much all.  Everthing seems a bit more still and quiet.
+~
+0 0 2
+D1
+~
+~
+0 0 10241
+D2
+~
+~
+0 0 10237
+D3
+~
+~
+0 0 10243
+S
+#10243
+The hunting plains~
+You are in the hunting plains grudgingly shared by the Bulu and Shuli
+tribes.  The grasses here grow a little shorter here than the rest of the
+plain.  You can see the tracks of a large, four-legged animal.  You also see
+a mountain off to the west.  
+~
+0 0 2
+D1
+~
+~
+0 0 10242
+D2
+~
+~
+0 0 10236
+D3
+~
+~
+0 0 10244
+S
+#10244
+A quiet part of the plains~
+You are in a quiet, peaceful part of the plains.  The wind is still here,
+as are the grasses.  You see no tracks of any kind except your own.  The
+mountain expands to the west of you.  
+~
+0 0 2
+D1
+~
+~
+0 0 10243
+D2
+~
+~
+0 0 10235
+S
+#10245
+The hunting plains~
+You are in the hunting plains ear the Shuli village.  The village lies to
+the north but you way is barred by a strong pointed-stick fence.  
+~
+0 0 2
+D1
+~
+~
+0 0 10246
+D2
+~
+~
+0 0 10241
+S
+#10246
+Near the Shuli tribe's village~
+You are near the entrance to the Shuli village.  The grasses here are
+short and matted down by the feet of the Shuli.  
+~
+0 0 2
+D0
+~
+~
+0 0 10247
+D2
+~
+~
+0 0 10240
+D3
+~
+~
+0 0 10245
+S
+#10247
+Entrance to the Shuli Tribe's Village~
+You are at the entrance to the Shuli village.  The pointed stick fence
+converges here to form a gate that forbids entrance to the village.  
+~
+0 4 2
+D0
+~
+gate~
+1 0 10248
+D2
+~
+~
+0 0 10246
+S
+#10248
+Shuli village center~
+You are at the center of the Shuli village.  To the south lies the exit
+to the hunting plains.  To the north lies the Headman's hut.  To the east
+and west lie assorted small huts which house the people of the village.  
+~
+0 0 1
+D0
+~
+~
+0 0 10249
+D1
+~
+~
+0 0 10257
+D2
+~
+~
+1 0 10247
+D3
+~
+~
+0 0 10252
+S
+#10249
+Path to the Headman's hut~
+You are on a small dirt path which leads to the stately hut which belongs
+the Headman of the Shuli tribe.  To the south lies the rest of the village. 
+~
+0 0 1
+D0
+~
+~
+0 0 10250
+D2
+~
+~
+0 0 10248
+S
+#10250
+The Headman's hut~
+You are in the hut of the Headman of the Shuli tribe.  The floor here is
+mostly covered by animal furs.  There are various small trinkets being
+displayed on some wooden shelves, reinforcing that fact that the Headman is
+richer and more important than the other villagers.  
+~
+0 0 0
+D2
+~
+~
+0 0 10249
+D3
+~
+~
+0 0 10251
+S
+#10251
+The Shuli Voodoo-Man's hut~
+You are in the hut that is connected to the Headman's hut.  The floor is
+littered with dolls, blood, long, sharp pins, small knifes, and some warg
+bones.  On the walls hang decapitated chickens, severed chicken feet, sheep
+eyeballs, and other tasty looking stuff. 
+~
+0 0 0
+D1
+~
+~
+0 0 10250
+S
+#10252
+A path~
+You are on a small, dusty little path in the Shuli village.  To the north
+lise a small hut.  To the east list the village center and some more huts. 
+To the west you can see the end of the village.  
+~
+0 0 1
+D0
+~
+~
+0 0 10253
+D1
+~
+~
+0 0 10248
+D3
+~
+~
+0 0 10254
+S
+#10253
+A hut~
+You are in one of the huts in the Shuli village.  Like all the other huts
+in the village, it has a leaky thatch roof, a dirt floor, and walls made out
+of some kind of woven grass.  Lying on the floor are clay pots of various
+sizes, a woven grass rug, some pointed sticks, and other useful tools.  
+~
+0 0 0
+D2
+~
+~
+0 0 10252
+S
+#10254
+West end of the Shuli village~
+You are at the west end of the Shuli village.  To the north lies another
+hut.  To the east lie the rest of the village.  
+~
+0 0 1
+D0
+~
+~
+0 0 10256
+D1
+~
+~
+0 0 10252
+D2
+~
+~
+0 0 10255
+S
+#10255
+A hut~
+You are in one of the huts in the Shuli village.  Like all the other huts
+in the village it has a leaky thatch roof, a dirt floor, and walls made out
+of some kind of woven grass.  Lying on the floor are some clay pots of
+various sizes, a woven grass rug, some pointed sticks, and other assorted
+useful tools.  
+~
+0 0 0
+D0
+~
+~
+0 0 10254
+S
+#10256
+A hut~
+You are in one of the huts in the Shuli village.  Like all the other huts
+in the village it has a leaky thatch roof, a dirt floor, and walls made out
+of some kind of woven grass.  Lying on the floor are some clay pots of
+various sizes, a woven grass rug, some pointed sticks, and other assorted
+useful tools.  
+~
+0 0 0
+D2
+~
+~
+0 0 10254
+S
+#10257
+A path~
+You are on a dirt path in the Shuli village.  To the north is one of the
+villagers huts.  
+~
+0 0 1
+D0
+~
+~
+0 0 10258
+D1
+~
+~
+0 0 10260
+D3
+~
+~
+0 0 10248
+S
+#10258
+A hut~
+You are in one of the huts in the Shuli village.  It has a thatch roof, a
+dirt floor, and walls made of some kind of woven grass.  It would seem the
+Shuli are good hunters and warriors, due to the fact that there are assorted
+weapons lying around.  
+~
+0 0 0
+D2
+~
+~
+0 0 10257
+S
+#10259
+A hut~
+You are in one of the huts in the Shuli village.  Like all the other huts
+in the village it has a thatch roof, a dirt floor, and walls made out of
+some kind of woven grass.  Lying on the floor are some small clay pots, some
+woven grass rugs, some pointed sticks, and other useful tools.  
+~
+0 0 0
+D2
+~
+~
+0 0 10260
+S
+#10260
+East end of the Shuli village~
+You are at the east end of the Shuli village.  To the north lies a small
+hut, and to the west lies the rest of the village.  
+~
+0 0 1
+D0
+~
+~
+0 0 10259
+D2
+~
+~
+0 0 10261
+D3
+~
+~
+0 0 10257
+S
+#10261
+A hut~
+You are in one of the huts in the Shuli village.  Like all the other huts
+in the village, it has a thatch roof, a dirt floor, and walls made out of
+some kind of woven grass.  Lying on the floor are assorted clay pots, a
+woven grass rug, some pointed sticks, and some other useful tools.  
+~
+0 0 0
+D0
+~
+~
+0 0 10260
+S
+#10262
+Near the river~
+You are on the shore near the river that flows through the hunting
+plains.  Various small animals come here and drink from the cool, clear
+water.  
+~
+0 0 2
+D1
+~
+~
+0 0 10268
+D2
+~
+~
+0 0 10263
+D3
+~
+~
+0 0 10224
+S
+#10263
+On the shore by the river~
+You are on the muddy shore near the river.  There are pools of stagnant
+water here which aren't as pleasant as the rest of the river.  
+~
+0 0 3
+D0
+~
+~
+0 0 10262
+D1
+~
+~
+0 0 10267
+D2
+~
+~
+0 0 10264
+S
+#10264
+A pool of stagnant water~
+You are in a pool of stagnant water.  The water isn't clear here as it is
+on the rest of the river.  It smells worse, too.  You think you can see
+something moving below you.  The is something carved on a rock here.  
+~
+0 0 0
+E
+rock~
+Carved on a rock are the words:  Beware the lurker!
+~
+D0
+~
+~
+0 0 10263
+D1
+~
+~
+0 0 10266
+D5
+~
+~
+0 0 10276
+S
+#10265
+South end of the river~
+You are at the begining of the river.  Little steams and creeks converge
+here to form the river.  The river continues to flow north.  
+~
+0 0 7
+D0
+~
+~
+0 0 10266
+S
+#10266
+On the river~
+You are on the river.  It seems to flow north at its own pace.  Off to
+the west it swirls into a stagnant pool of less pleasent smelling water.  
+~
+0 0 7
+D0
+~
+~
+0 0 10267
+D2
+~
+~
+0 0 10265
+D3
+~
+~
+0 0 10264
+S
+#10267
+On the river~
+You are on the river.  It flows slowly to north and soaks up sound like a
+sponge.  It seems like a nice place to have a picnic.  To the west is the
+shore.  
+~
+0 0 7
+D0
+~
+~
+0 0 10268
+D2
+~
+~
+0 0 10266
+D3
+~
+~
+0 0 10263
+S
+#10268
+On the river~
+This part of the river is moving a little faster than that to the south. 
+It's still very pleasant, though.  To the west lies the shore.  To the north
+the river flows into some rapids.  
+~
+0 0 7
+D0
+~
+~
+0 0 10269
+D2
+~
+~
+0 0 10267
+D3
+~
+~
+0 0 10262
+S
+#10269
+In the rapids~
+The river moves swiftly now, churning its way through the woods.  It
+makes a major turn towards the east.  
+~
+0 0 7
+D1
+~
+~
+0 0 10270
+D2
+~
+~
+0 0 10268
+S
+#10270
+In the rapids~
+The rapids here are not at all pleasant.  You feel as though the river
+want's to drown you for some reason.  Fortunately, the rapids diminish up
+ahead.  
+~
+0 0 7
+D0
+~
+~
+0 0 10271
+D3
+~
+~
+0 0 10269
+S
+#10271
+A calm part of the river~
+Here the river is back to its calm old self.  To the south are unpleasant
+looking rapids.  To the north the river seems to continue.  
+~
+0 0 7
+D0
+~
+~
+0 0 10272
+D2
+~
+~
+0 0 10270
+S
+#10272
+Top of the waterfall~
+You are at the top of the waterfall!  Fourtunately for you, it's a small
+waterfall, only about 20 feet tall.  The water isn't moving so fast so that
+you can't decide on which direction you want to go.  
+~
+0 0 7
+D2
+~
+~
+0 0 10271
+D5
+~
+~
+0 0 10273
+S
+#10273
+Bottom of the waterfall~
+You are at the bottom of the waterfall.  You could climb up the rocks or
+you could just lay back and groove, and take in the beautiful scenery.  
+~
+0 0 7
+D4
+~
+~
+0 0 10272
+S
+#10274
+A hidden room~
+You are in a hidden room dirrectly below one of the huts.  In here there
+are various charms and ornaments that decorate the walls and floor.  There
+are also some extremely well crafted metal objects, objects that seem far
+too complex for Bulu tribesmen to make.  There is a glow coming from the
+eastern wall.  
+~
+0 12 0
+D1
+~
+~
+0 0 10275
+D4
+~
+~
+0 0 10208
+S
+#10275
+A portal~
+You are in a portal to other times and other worlds.  Images of strange,
+confusing people and places float through your mind.  
+~
+0 8 0
+D3
+~
+~
+0 0 10274
+S
+#10276
+Bottom of of the stagnant pool~
+You are at the bottom of the stagnant pool.  The water here is murky and
+feels slimy.  Bones of animals and humans litter the ground here.  You think
+you see something lurking underneath a large rock.  
+~
+0 9 0
+D4
+~
+~
+0 0 10264
+S
+#10277
+Path in the forest~
+You are on a path in a dark forest.  To the north the forest seems
+lighter.  
+~
+0 4 3
+S
+#10200
+Dotty's place~
+You are in Dotty's place.  I don't know what it is or anything.  It's
+just sorta here.  Enjoy!  
+~
+0 5 0
+E
+north~
+You see something interesting to the north.
+~
+S
+#10201
+A faded path~
+You are on the path between the dark forest to the south and the Bulu
+village to the north.  
+~
+0 4 3
+D0
+~
+~
+0 0 10202
+D3
+~
+~
+0 0 322
+S
+#10202
+A path~
+You are on the path leading to the Headman's hut.  To the south a less
+worn path winds its way into the forest.  
+~
+0 0 1
+D1
+~
+~
+0 0 10203
+D2
+~
+~
+0 0 10201
+D3
+~
+~
+0 0 10204
+S
+#10203
+The Headman's Hut~
+You are in the hut of the Headman of the Bulu tribe.  His hut is not that
+much different than the others in the village, except the roof doesn't seem
+to leak as much.  
+~
+0 0 0
+D3
+~
+~
+0 0 10202
+S
+#10204
+A path in the village~
+You are on a path in the Bulu village.  Off to the east you can see the
+hut of the Headman.  
+~
+0 0 1
+D1
+~
+~
+0 0 10202
+D3
+~
+~
+0 0 10205
+S
+#10205
+A bend in the path~
+Here the path bends.  To the north is the rest of the Bulu village.  To
+the east is the path that leads to the Headman's hut.  
+~
+0 0 1
+D0
+~
+~
+0 0 10214
+D1
+~
+~
+0 0 10204
+S
+#10206
+A pit~
+You are in at the bottom of the large fire pit that is used for cooking
+the villagers' food.  There are ashes all around.  It smells like a HUGE
+barbeque.  There are left-overs from the last feast.  
+~
+0 0 0
+D4
+~
+~
+0 0 10207
+S
+#10207
+The village center~
+You are in the Bulu village center.  This is where most of the swapping
+of stories and cooking takes place.  There is a large fire pit full of ashes
+here.  
+~
+0 0 1
+D0
+~
+~
+0 0 10210
+D1
+~
+~
+0 0 10214
+D2
+~
+~
+0 0 10218
+D3
+~
+~
+0 0 10208
+D5
+~
+~
+0 0 10206
+S
+#10208
+A hut~
+You are in one of the huts in the Bulu village.  Nothing seems to be out
+of the ordinary except for a hole in one of the corners leading down.  
+~
+0 0 0
+D1
+~
+~
+0 0 10207
+D5
+~
+~
+0 0 10274
+S
+#10209
+First Warrior's hut~
+You are inside the hut of the best warrior in the Bulu village.  His hut
+is no different from the others in the village, except it's very close to
+the plains to enable him to quickly defend the village from any Shuli
+attackers.  
+~
+0 0 0
+D1
+~
+~
+0 0 10210
+S
+#10210
+Inside the Bulu village~
+You are inside the village of the Bulu tribe.  You smell an old barbeque
+to the south.  To the east and west are the huts where the Bulu's greatest
+warriors live.  
+~
+0 0 1
+D0
+~
+~
+0 0 10219
+D1
+~
+~
+0 0 10211
+D2
+~
+~
+0 0 10207
+D3
+~
+~
+0 0 10209
+S
+#10211
+Second Warrior's hut~
+You are in the hut of the second best warrior in the Bulu village.  His
+hut is the same as the First Warrior's hut except that it's to the east of
+the entrence path.  
+~
+0 0 0
+D3
+~
+~
+0 0 10210
+S
+#10212
+A hut~
+The inside of the hut is as uninteresting as the outside.  It has a dirt
+floor and a thatch roof.  The walls are woven together by some sort of
+grass.  There are holes which serve as windows in the walls.  The only exit
+is to the south.  
+~
+0 0 0
+D2
+~
+~
+0 0 10213
+S
+#10213
+A path~
+You are on a path in the Bulu village.  To the north is a small and
+rather uninteresting hut.  To the east lies more of the same.  To the west
+lies the rest of the village.  
+~
+0 0 1
+D0
+~
+~
+0 0 10212
+D1
+~
+~
+0 0 10215
+D3
+~
+~
+0 0 10214
+S
+#10214
+A path~
+You are on a well trodden path in the Bulu village.  To the east are a
+few small huts.  The path continues south and to the west is the Bulu
+village center.  
+~
+0 0 1
+D1
+~
+~
+0 0 10213
+D2
+~
+~
+0 0 10205
+D3
+~
+~
+0 0 10207
+S
+#10215
+A path~
+You are nearing the end of the path.  To the north lies another hut.  
+~
+0 0 1
+D0
+~
+~
+0 0 10216
+D1
+~
+~
+0 0 10217
+D3
+~
+~
+0 0 10213
+S
+#10216
+Another hut~
+You are in another uninteresting hut.  Though it is rather drab, it does
+keep most of the wind and rain out.  
+~
+0 0 0
+D2
+~
+~
+0 0 10215
+S
+#10217
+End of the path~
+You are at the end of the path in the Bulu village.
+~
+0 0 0
+D3
+~
+~
+0 0 10215
+S
+#10218
+A hut~
+You are in one of the huts in the Bulu village.  Like all huts in the
+village it has a dirt floor, thatch roof, and walls made out of some kind of
+grass braided together.  
+~
+0 0 0
+D0
+~
+~
+0 0 10207
+S
+#10219
+Entrance to the Bulu village~
+You are at the entrence to Bulu village.  The stick fence has an opening
+here allowing friends of the Bulu to enter and leave without trouble. 
+Enemies of the Bulu, however, will meet the spears of the tribe's fiercest
+warriors.  
+~
+0 4 0
+D0
+~
+~
+0 0 10220
+D2
+~
+~
+0 0 10210
+S
+#10220
+Near the Bulu village~
+You are at the south western end of the hunting plains.  The grass here
+is shorter than it is in the rest of the plains.  To the south you see a
+small tribal village.  
+~
+0 0 0
+D0
+~
+~
+0 0 10228
+D1
+~
+~
+0 0 10221
+D2
+~
+~
+0 0 10219
+S
+#10221
+The hunting plains~
+You are in the hunting plains.  The grass is a little shorter here than
+in the rest of the plains.  To the south you see a small village, but that
+way is barred by a strong pointed stick fence.  
+~
+0 0 0
+D0
+~
+~
+0 0 10227
+D1
+~
+~
+0 0 10222
+D3
+~
+~
+0 0 10220
+S
+#10222
+The hunting plains~
+You are on the hunting plains.  The grass here is shorter than the rest
+of the plains.  To the south you see a small village, but your way is barred
+by a strong pointed stick fence.  
+~
+0 0 0
+D0
+~
+~
+0 0 10226
+D1
+~
+~
+0 0 10223
+D3
+~
+~
+0 0 10221
+S
+#10223
+South-east end of the hunting plains~
+You are at the south-eastern end of the hunting plains.  The grass here
+is long and waves back and forth in the wind.  In the distance to the south
+you see a small village.  
+~
+0 0 0
+D0
+~
+~
+0 0 10224
+D3
+~
+~
+0 0 10222
+S
+#10224
+The hunting plains~
+You are in the hunting plains.  The tall grasses wave pleasently in the
+breeze here.  You can vaguely hear running water to the east.  Above you is
+a very large tree.  
+~
+0 0 2
+D0
+~
+~
+0 0 10239
+D1
+~
+~
+0 0 10262
+D2
+~
+~
+0 0 10223
+D3
+~
+~
+0 0 10226
+D4
+~
+~
+0 0 10225
+S
+#10225
+The tree~
+You are in a large tree in the hunting plains.  It is old but has many
+strong branches which hold up the nests of small, and not-so-small, birds. 
+The leaves hinder your view of the plains, but you can see a village to the
+south, another to the north, a river to the east, and a mountain to the
+west.  
+~
+0 0 0
+D5
+~
+~
+0 0 10224
+S
+#10226
+The hunting plains~
+You are in the hunting plains grudgingly shared by the Bulu and Shuli
+tribes.  The long grasses wave in the breeze that flows over fields.  You
+see tracks of large, four-legged animals here.  
+~
+0 0 2
+D0
+~
+~
+0 0 10238
+D1
+~
+~
+0 0 10224
+D2
+~
+~
+0 0 10222
+D3
+~
+~
+0 0 10227
+S
+#10227
+The hunting plains~
+You are in the hunting plains grudgingly shared by the Bulu and Shuli
+tribes.  The long grasses here wave in the breezes that blow over the field.
+You see the tracks of a large, four-legged animal.  
+~
+0 0 2
+D0
+~
+~
+0 0 10237
+D1
+~
+~
+0 0 10226
+D2
+~
+~
+0 0 10221
+D3
+~
+~
+0 0 10228
+S
+#10228
+The hunting plains~
+You are in the hunting plains grudgingly shared by the Bulu and Shuli
+tribes.  The long grasses here wave in the breeze that blow over the field. 
+You see the tracks of a large, four-legged animal.  In the distance to the
+south you can see the entrance to the Bulu village.  
+~
+0 0 2
+D0
+~
+~
+0 0 10236
+D1
+~
+~
+0 0 10227
+D2
+~
+~
+0 0 10220
+D3
+~
+~
+0 0 10229
+S
+#10229
+The hunting plains~
+You are in the hunting plains grudgingly shared by the Bulu and Shuli
+tribes.  The long grasses here wave in the breeze that blow over the field. 
+You see the tracks of a large, four-legged animal.  To the west you can see
+a mountain.  
+~
+0 0 2
+D0
+~
+~
+0 0 10235
+D1
+~
+~
+0 0 10228
+D2
+~
+~
+0 0 10230
+D3
+~
+~
+0 0 10232
+S
+#10230
+Edge of the plains~
+You are at the edge of the hunting plains.  The grasses here are short
+and trees are more plentiful.  
+~
+0 0 2
+D0
+~
+~
+0 0 10229
+D3
+~
+~
+0 0 10231
+S
+#10231
+Edge of the plains~
+You are at the edge of the hunting plains.  The long grasses are gone and
+trees are the dominant life form.  
+~
+0 0 2
+D1
+~
+~
+0 0 10230
+S
+#10232
+Near the mountain~
+You are at the edge of the hunting plains and at the base of a mountain. 
+The apears to be an opening in the mountain to the north.  The plains
+stretch out to the east.  
+~
+0 0 4
+D0
+~
+~
+0 0 10233
+D1
+~
+~
+0 0 10229
+S
+#10233
+At the base of the mountain~
+You are at the base of the mountain.  The is an opening in the mountain
+to the west which will allow you to enter the mountain.  The plains stretch
+out to the east.  
+~
+0 0 4
+D1
+~
+~
+0 0 10235
+D2
+~
+~
+0 0 10232
+D3
+~
+~
+0 0 10234
+S
+#10234
+Inside the caves~
+You are inside the caves inside the mountain.  It is a perfectly dry,
+comfortable cave.  The sort of cave a bear would live in...  
+There is a sign here.
+~
+0 13 0
+E
+sign~
+Secret entrance to the dwarven city of Koln.  Shhhh...  Don't tell anyone.  
+    - Lod
+~
+D1
+~
+~
+0 0 10233
+D3
+~
+~
+0 0 14415
+S
+#10235
+The hunting plains~
+You are in the hunting plains grudgingly shared by the Bulu and Shuli
+tribes.  The long grasses here wave in the breezes that blow over them.  You
+see the tracks of a large, four-legged animal.  To the west you can see a
+mountain.  
+~
+0 0 2
+D0
+~
+~
+0 0 10244
+D1
+~
+~
+0 0 10236
+D2
+~
+~
+0 0 10229
+D3
+~
+~
+0 0 10233
+S
+#10236
+The hunting plains~
+You are in the hunting plains grudgingly shared by the Bulu and Shuli
+tribes.  The long grasses here wave in the breezes that blow through them. 
+You see the tracks of a large, four-legged animal.  
+~
+0 0 2
+D0
+~
+~
+0 0 10243
+D1
+~
+~
+0 0 10237
+D2
+~
+~
+0 0 10228
+D3
+~
+~
+0 0 10235
+S
+#10237
+The hunting plains~
+You are in the hunting plains grudgingly shared by the Bulu and Shuli
+tribes.  The long grasses here wave in the breezes that flow through them. 
+You see the tracks of a large, four-legged animal.  
+~
+0 0 2
+D0
+~
+~
+0 0 10242
+D1
+~
+~
+0 0 10238
+D2
+~
+~
+0 0 10227
+D3
+~
+~
+0 0 10236
+S
+#10238
+The hunting plains~
+You are in the hunting plains grudgingly shared by the Bulu and Shuli
+tribes.  The long grasses here wave in the breezes that flow through them. 
+You see the tracks of a large, four-legged animal.  
+~
+0 0 2
+D0
+~
+~
+0 0 10241
+D1
+~
+~
+0 0 10239
+D2
+~
+~
+0 0 10226
+D3
+~
+~
+0 0 10237
+S
+#10239
+The hunting plains~
+You are in the hunting plains grudgingly shared by the Bulu and Shuli
+tribes.  The long grasses here wave in the breezes that flow through them. 
+You see the tracks of a large, four-legged animal.  
+~
+0 0 2
+D0
+~
+~
+0 0 10240
+D2
+~
+~
+0 0 10224
+D3
+~
+~
+0 0 10238
+S
+#0
+
+
+
+#SPECIALS
+M 10269 spec_fido Load to: Tommy the Cat
+M 10212 spec_cast_mage Load to: a voodoo witch
+S
+
+
+
+#RESETS
+D 0 10247 0 0
+D 0 10248 2 0
+M 0 10210 1 10241
+M 0 10217 2 10247
+E 0 10208 0 16
+O 0 10212 0 10250
+P 0 10213 0 10212
+P 0 10214 0 10212
+M 0 10213 1 10250
+E 0 10216 0 16
+G 0 10215 0
+M 0 10212 1 10251
+O 0 10209 0 10251
+M 0 10216 1 10252
+E 0 10207 0 16
+M 0 10214 1 10253
+M 0 10215 1 10253
+M 0 10214 1 10255
+M 0 10215 1 10256
+M 0 10216 1 10256
+E 0 10207 0 16
+M 0 10214 1 10258
+M 0 10215 1 10258
+M 0 10216 1 10258
+E 0 10207 0 16
+M 0 10215 1 10259
+M 0 10214 1 10261
+M 0 10275 1 10275
+E 0 10275 0 16
+E 0 10273 0 17
+G 0 10274 0
+G 0 10273 0
+G 0 10273 0
+G 0 10273 0
+G 0 10205 0
+M 0 10276 1 10276
+M 0 10201 1 10200
+O 0 10203 0 10203
+M 0 10202 1 10203
+E 0 10202 0 16
+E 0 10204 0 3
+M 0 10203 1 10204
+E 0 10207 0 16
+M 0 10205 1 10205
+O 0 10206 0 10206
+M 0 10204 1 10207
+M 0 10205 1 10208
+M 0 10206 1 10209
+E 0 10208 0 16
+M 0 10207 1 10211
+E 0 10208 0 16
+M 0 10203 2 10212
+E 0 10207 0 16
+M 0 10204 1 10212
+M 0 10203 1 10213
+E 0 10207 0 16
+M 0 10205 2 10216
+M 0 10204 2 10216
+M 0 10204 1 10218
+M 0 10205 1 10218
+M 0 10210 1 10222
+M 0 10211 1 10225
+G 0 10211 0
+E 0 10208 0 16
+M 0 10208 2 10226
+M 0 10208 1 10227
+E 0 10208 0 16
+M 0 10208 2 10228
+E 0 10208 0 16
+M 0 10209 1 10235
+M 0 10210 1 10238
+M 0 10208 1 10239
+E 0 10208 0 16
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

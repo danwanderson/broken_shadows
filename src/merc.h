@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -78,7 +78,7 @@ typedef struct  descriptor_data         DESCRIPTOR_DATA;
 typedef struct  exit_data               EXIT_DATA;
 typedef struct  extra_descr_data        EXTRA_DESCR_DATA;
 typedef struct  help_data               HELP_DATA;
-//typedef struct  kill_data               KILL_DATA;
+typedef struct  kill_data               KILL_DATA;
 typedef struct  mob_index_data          MOB_INDEX_DATA;
 typedef struct  note_data               NOTE_DATA;
 typedef struct  obj_data                OBJ_DATA;
@@ -129,11 +129,11 @@ typedef void SPELL_FUN  args( ( int sn, int level, CHAR_DATA *ch, void
 #define MAX_CLASS                   5
 #define MAX_PC_RACE                13
 #define MAX_LEVEL                 100
-#define MAX_RANK                 10
 #define MAX_CLAN                   10
 #define MAX_CLAN_MEMBERS           30
 #define MAX_ATTACK_TYPE            32
 #define LEVEL_HERO                 (MAX_LEVEL - 9)
+#define LEVEL_IMMORTAL             (MAX_LEVEL - 8)
 /* added by Rahl for ramdom quotes */
 #define MAX_QUOTES                 12
 
@@ -143,16 +143,16 @@ typedef void SPELL_FUN  args( ( int sn, int level, CHAR_DATA *ch, void
 #define PULSE_TICK                (30 * PULSE_PER_SECOND)
 #define PULSE_AREA                (60 * PULSE_PER_SECOND)
 
-#define IMPLEMENTOR             MAX_RANK
-#define CREATOR                 (MAX_RANK - 1)
-#define SUPREME                 (MAX_RANK - 2)
-#define DEITY                   (MAX_RANK - 3)
-#define GOD                     (MAX_RANK - 4)
-#define IMMORTAL                (MAX_RANK - 5)
-#define DEMI                    (MAX_RANK - 6)
-#define ANGEL                   (MAX_RANK - 7)
-#define AVATAR                  (MAX_RANK - 8)
-#define HERO                    (MAX_RANK - 9)
+#define IMPLEMENTOR             MAX_LEVEL
+#define CREATOR                 (MAX_LEVEL - 1)
+#define SUPREME                 (MAX_LEVEL - 2)
+#define DEITY                   (MAX_LEVEL - 3)
+#define GOD                     (MAX_LEVEL - 4)
+#define IMMORTAL                (MAX_LEVEL - 5)
+#define DEMI                    (MAX_LEVEL - 6)
+#define ANGEL                   (MAX_LEVEL - 7)
+#define AVATAR                  (MAX_LEVEL - 8)
+#define HERO                    LEVEL_HERO
 
 /* added by Rahl */
 #define PULSE_AUCTION           ( 10 * PULSE_PER_SECOND ) 
@@ -179,7 +179,7 @@ struct  ban_data
     BAN_DATA *  next;
     bool        valid;
     sh_int      ban_flags;
-    sh_int      rank;
+    sh_int      level;
     char *      name;
 };
 
@@ -276,6 +276,7 @@ struct  weather_data
 #define CON_NOTE_EXPIRE                 19
 #define CON_NOTE_TEXT                   20
 #define CON_NOTE_FINISH                 21
+#define CON_BEGIN_REMORT                22
 #define CON_ANSI						24
 #define CON_COPYOVER_RECOVER            25
 
@@ -499,13 +500,12 @@ struct  affect_data
 /*
  * A kill structure (indexed by level).
  */
-/*
 struct  kill_data
 {
     sh_int              number;
     sh_int              killed;
 };
-*/
+
 
 
 /***************************************************************************
@@ -521,6 +521,7 @@ struct  kill_data
  */
 #define MOB_VNUM_FIDO              3090
 #define MOB_VNUM_CITYGUARD         3060
+#define MOB_VNUM_VAMPIRE           3404
 /* added by Rahl */
 #define MOB_VNUM_ZOMBIE            2
 
@@ -885,6 +886,8 @@ struct  kill_data
 #define OBJ_VNUM_PORTAL              26
 /* end stuff by Rahl */
 
+#define OBJ_VNUM_PIT               3010
+
 #define OBJ_VNUM_SCHOOL_MACE       3700
 #define OBJ_VNUM_SCHOOL_DAGGER     3701
 #define OBJ_VNUM_SCHOOL_SWORD      3702
@@ -1040,6 +1043,7 @@ struct  kill_data
 #define APPLY_CON                     5
 #define APPLY_SEX                     6
 #define APPLY_CLASS                   7
+#define APPLY_LEVEL                   8
 #define APPLY_AGE                     9
 #define APPLY_HEIGHT                 10
 #define APPLY_WEIGHT                 11
@@ -1076,9 +1080,12 @@ struct  kill_data
  * Defined in #ROOMS.
  */
 #define ROOM_VNUM_LIMBO               2
+#define ROOM_VNUM_CHAT             1200
 #define ROOM_VNUM_TEMPLE           3001
 #define ROOM_VNUM_ALTAR            3054
 #define ROOM_VNUM_SCHOOL           3700
+/* donation room added by Rahl */
+#define ROOM_VNUM_DONATION         3300
 /* jail room added by Rahl */
 #define ROOM_VNUM_JAIL                1
 
@@ -1100,6 +1107,7 @@ struct  kill_data
 #define ROOM_HEROES_ONLY        (Q)
 #define ROOM_NEWBIES_ONLY       (R)
 #define ROOM_LAW                (S)
+#define ROOM_DONATION           (T)
 #define ROOM_NOTELEPORT         (U)
 /* added by Rahl */
 #define ROOM_BANK               (V)
@@ -1259,11 +1267,12 @@ struct  kill_data
 #define COMM_NOWIZ              (C)
 #define COMM_NOAUCTION          (D)
 #define COMM_NOGOSSIP           (E)
-#define COMM_NOQUOTE			(F)
 #define COMM_NOMUSIC            (G)
 #define COMM_NOINFO             (H)
 /* new stuff by Rahl */
 #define COMM_NOCLAN             (K)
+#define COMM_NOGRATS            (I)
+#define COMM_NOHERO             (X)
 
 /* display flags */
 #define COMM_COMPACT            (L)
@@ -1380,6 +1389,7 @@ struct  char_data
     sh_int              ch_class;
     sh_int              race;
     sh_int              level;
+    sh_int              trust;
     int                 played;
     int                 lines;  /* for the pager */
     time_t              logon;
@@ -1444,7 +1454,6 @@ struct  char_data
     char *              prefix;
 	bool				fBonusMob;
 	int 				bonusPoints;
-	int					immRank;
 };
 
 
@@ -1491,6 +1500,8 @@ struct  pc_data
     int                 kills;
     char *              comment;
     char *              spouse;
+    int                 incarnations;
+    bool                confirm_remort;
     sh_int              clan_leader;
 	char *				away_message;
 };
@@ -1589,7 +1600,6 @@ struct  obj_data
     long                material;
     sh_int              timer;
     int                 value   [5];
-	bool immortalObject;
 };
 
 
@@ -1858,9 +1868,9 @@ extern sh_int  gsn_whirlwind;
  * Character macros.
  */
 #define IS_NPC(ch)              (IS_SET((ch)->act, ACT_IS_NPC))
-#define IS_IMMORTAL(ch)         ((ch)->immRank >= 1)
-#define IS_HERO(ch)             (char_getImmRank(ch) >= HERO)
-#define IS_TRUSTED(ch,level)    (char_getImmRank((ch)) >= (level))
+#define IS_IMMORTAL(ch)         (get_trust(ch) >= LEVEL_IMMORTAL)
+#define IS_HERO(ch)             (get_trust(ch) >= LEVEL_HERO)
+#define IS_TRUSTED(ch,level)    (get_trust((ch)) >= (level))
 #define IS_AFFECTED(ch, sn)     (IS_SET((ch)->affected_by, (sn)))
 
 #define GET_AGE(ch)             ((int) (17 + ((ch)->played \
@@ -1970,7 +1980,7 @@ extern          char                    bug_buf         [];
 extern          time_t                  current_time;
 extern          bool                    fLogAll;
 extern          FILE *                  fpReserve;
-//extern          KILL_DATA               kill_table      [];
+extern          KILL_DATA               kill_table      [];
 extern          char                    log_buf         [];
 extern          TIME_INFO_DATA          time_info;
 extern          WEATHER_DATA            weather_info;
@@ -2205,6 +2215,7 @@ int     get_second_weapon_sn    ( CHAR_DATA *ch );
 int     get_weapon_skill ( CHAR_DATA *ch, int sn );
 int     get_age         ( CHAR_DATA *ch );
 void    reset_char      ( CHAR_DATA *ch );
+int     get_trust       ( CHAR_DATA *ch );
 int     get_curr_stat   ( CHAR_DATA *ch, int stat );
 int     get_max_train   ( CHAR_DATA *ch, int stat );
 int     can_carry_n     ( CHAR_DATA *ch );
@@ -2290,6 +2301,7 @@ void handle_con_get_alignment( DESCRIPTOR_DATA *d, char *argument );
 void handle_con_default_choice( DESCRIPTOR_DATA *d, char *argument );
 void handle_con_pick_weapon( DESCRIPTOR_DATA *d, char *argument );
 void handle_con_gen_groups( DESCRIPTOR_DATA *d, char *argument );
+void handle_con_begin_remort( DESCRIPTOR_DATA *d, char *argument );
 void handle_con_read_imotd( DESCRIPTOR_DATA *d, char *argument );
 void handle_con_read_motd( DESCRIPTOR_DATA *d, char *argument );
 void handle_con_ansi( DESCRIPTOR_DATA *d, char *argument );
@@ -2302,7 +2314,7 @@ int     number_argument ( char *argument, char *arg );
 char *  one_argument    ( char *argument, char *arg_first );
 
 /* magic.c */
-int mana_cost( int min_mana, int percent );
+int     mana_cost       (CHAR_DATA *ch, int min_mana, int level);
 int     skill_lookup    ( const char *name );
 int     slot_lookup     ( int slot ); 
 bool    saves_spell     ( int level, CHAR_DATA *victim, int dam_type );
@@ -2318,6 +2330,7 @@ char *  print_flags     ( int flag );
 bool    parse_gen_groups ( CHAR_DATA *ch,char *argument );
 void    list_group_costs ( CHAR_DATA *ch );
 void    list_group_known ( CHAR_DATA *ch );
+long    exp_per_level   ( CHAR_DATA *ch, int points );
 void    check_improve   ( CHAR_DATA *ch, int sn, bool success, int multiplier );
 int     group_lookup    (const char *name );
 void    gn_add          ( CHAR_DATA *ch, int gn );
@@ -2329,6 +2342,7 @@ void    group_remove    ( CHAR_DATA *ch, const char *name );
 SF *    spec_lookup     ( const char *name );
 
 /* update.c */
+void    advance_level   ( CHAR_DATA *ch );
 void    gain_exp        ( CHAR_DATA *ch, int gain );
 void    gain_condition  ( CHAR_DATA *ch, int iCond, int value );
 void    update_handler  ( void );
@@ -2512,11 +2526,13 @@ extern const struct flag_type   weapon_type[];
  *                                 OLC END                                   *
  *****************************************************************************/
 
+/************************
+* Mob Programs Funcs    *
+************************/
 /* act_wiz.c */
 ROOM_INDEX_DATA *       find_location   ( CHAR_DATA *ch, char *arg );
 
 /* fight.c */
 void                    death_cry       ( CHAR_DATA *ch );
 
-int char_getImmRank( CHAR_DATA *ch );
-void char_setImmRank( CHAR_DATA *ch, int newRank );
+

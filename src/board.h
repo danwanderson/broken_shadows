@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -14,7 +14,7 @@
 /* This is version 2 of the board system, (c) 1995-96 erwin@pip.dknet.dk */
 
 
-#define NOTE_DIR    "../notes/" /* set it to something you like */
+#define NOTE_DIR                                "../notes/" /* set it to something you like */
 
 #define DEF_NORMAL  0 /* No forced change, but default (any string)   */
 #define DEF_INCLUDE 1 /* 'names' MUST be included (only ONE name!)    */

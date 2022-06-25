@@ -1,0 +1,853 @@
+#AREADATA
+Name        { IMM } Rahl    Office Area~
+Builders    All~
+VNUMs       10000 10099
+Security    1
+End
+
+
+
+#MOBILES
+#10000
+Peace~
+Peace~
+An immense red dragon is here, glaring at you with her yellow eyes.
+~
+She is a large creature who likes her master.  You'd better stay on her
+good side...  
+~
+Wyvern~
+AIRTVd DEFSTZc 0 0 S
+101 130 1d1+30000 101d10+100 1d1+300 5
+-50 -50 -50 -10
+CFHM L CDHIPQ S
+8 8 2 500
+BZc ACDEFHJKQUVX G iron
+#10001
+pet shop clerk~
+pet shop clerk~
+A clerk is here, tending to the pets in his store.
+~
+He's a middle aged, blue collar, American worker. What else do you want?
+~
+Human~
+ABGd 0 0 0 S
+0 0 1d1+0 0d0+0 1d1+0 0
+0 0 0 0
+0 ABCD 0 0
+8 8 0 1000000
+AHMV ABCDEFGHIJK M none
+#10003
+fjord fuzzy duckie~
+Fjord the cute duckie~
+Fjord, the large fuzzy duckie dear to Lady Lily's heart, is quacking here.
+~
+Awwwww!  A huge `Yyellow`w fuzzy duckie is here, quacking happily at you.  He
+waddles up and down the room, apparently waiting for someone or something.
+~
+water fowl~
+ABRT DFHTVZabc 0 1000 S
+110 300 13d1910+3769 140d130+130 10d20+10 23
+-3 -3 -2 -1
+DEFJKNV IR CDJOQR 0
+8 8 1 1020
+AGW ACDEFHKP H none
+#10020
+stormy~
+Stormy~
+Stormy is wandering here, looking for Raptor.
+~
+You see a beautiful young brunette here.  She seems to be nervous, as if
+she is looking for someone.  You hope she finds them soon!  
+~
+Human~
+AGQ CHNb 0 1000 S
+101 60 21d400+2000 10d20+1200 3d20+75 16
+-55 -55 -55 -25
+FHI NPS LQ K
+8 8 2 10000
+AHMV ABCDEFGHIJK M none
+#10021
+big owl~
+a large owl~
+A large owl circles overhead.
+~
+A really big owl is here, who-ing at you.
+~
+song bird~
+ATUc T 0 0 S
+91 100 10d10+2000 1d1+150 5d10+10 23
+30 30 30 15
+FHX R 0 0
+8 8 0 10
+AGW ACDEFHKP L none
+#10022
+dr pepper machine~
+`rDr. Pepper Machine`w~
+`WA `rDr. Pepper`W Machine is humming here.`w
+~
+Wow!  It's a Dr.  Pepper machine, and if you type list, you can see what
+you can buy from it.  Then type 'buy <item>' to puchase your choice of
+liquid refreshment.  
+~
+Human~
+ABd 0 0 1000 S
+50 0 1d1+500 0d0+0 0d0+0 0
+0 0 0 0
+0 BCDEHLNQRS 0 0
+8 8 0 100000
+AHJMVc ABCDEFGHIJK M none
+#10050
+cow~
+a cow~
+A cow stands here grazing.
+~
+~
+Human~
+ABG 0 0 0 S
+100 0 1d1+0 0d0+0 1d1+0 0
+0 0 0 0
+0 0 0 F
+8 8 0 0
+AHMV ABCDEFGHIJK M none
+#0
+
+
+
+#OBJECTS
+#10000
+wedding ring~
+a wedding ring~
+An intricate golden wedding ring is here.~
+iron~
+9 IM AB
+DFGHIJ DFGHIJ DFGHIJ DFGHIJ 0
+93 0 0
+#10001
+mountain dew bottle~
+a bottle of Mt. Dew~
+A liter of Mt. Dew has been carelessly left here.~
+none~
+17 N A
+BCDE BCDE ABE 0 0
+0 2 1000
+#10002
+whip pain pleasure~
+`KWhip 'O `RPain`w...and `KImmense `RPleasure`w...~
+A fun looking whip lies here, with a menacing aura.~
+none~
+5 B AN
+0 CEFH CEFH ACD G
+93 1 100000
+#10004
+class ring~
+`gRahl's class ring`w~
+A silver class ring with a blue stone is lying here.~
+none~
+9 GI AB
+CFG CFG CFG CFG 0
+93 2 10000
+#10005
+jeans~
+a pair of blue jeans~
+A pair of blue jeans sits here, neatly folded.~
+none~
+11 0 AF
+0 0 0 0 0
+93 3 0
+#10006
+golden necklace~
+`ga `Ygolden necklace`g with a small pendant`w~
+An intricate golden necklace with a small heart pendant is here, a gift from Rahl with love to LadyLily.~
+none~
+11 IST AC
+0 0 0 0 0
+93 1 0
+#10008
+shoes sneakers Nike~
+a pair of black Nikes~
+A large pair of black Nikes are lying jumbled in the corner.~
+none~
+11 0 AG
+0 0 0 0 0
+93 5 0
+#10010
+dozen red roses~
+a dozen red roses~
+A dozen red roses sit here in a pretty vase.~
+none~
+8 0 AO
+0 0 0 0 0
+0 1 300
+#10013
+NIN shirt~
+a NIN t-shirt~
+A NIN shirt is lying here.~
+none~
+9 E AD
+CEFGHI CEFGHI CEFGHI CEFGHI 0
+93 1 10000
+#10017
+gun 9mm~
+a blue steel 9mm~
+A very nice Baretta is here on the floor, probably dropped by some fleeing hoodlum.~
+none~
+5 0 AN
+0 A A BC 0
+93 2 100000
+A
+18 100
+A
+19 15000
+#10019
+ring engagement~
+a golden engagement ring~
+A small, beautiful ring of gold is lying here, carelessly forgotten.~
+none~
+8 AGI AB
+0 0 0 0 0
+0 1 1000
+#10021
+bed sensual erotic fun playtime~
+an inviting bed is here~
+An inviting bed is here.~
+none~
+12 O 0
+0 0 0 0 0
+0 0 666
+E
+bed~
+An inviting bed is here, it makes you want to slip into something more
+comfortable and get under the silk covers!  
+~
+#10022
+shoes~
+`WA pair of `RF`Bi`Rl`Ba`W's`w~
+A pair of Fila shoes lie here in the dirt....~
+none~
+9 ABIS AG
+DGH DGH DGH DGH 0
+92 5 1000000
+#10023
+Tommy Hilfiger Jeans~
+`WA pair of `RTommy `BHilfiger `WJeans`w~
+A pair of Tommy Hilfiger Jeans lie crumpled in the dirt....~
+none~
+9 S AF
+DGH DGH DGH DGH 0
+93 5 1000000
+#10024
+gown~
+`wAn elegant `Kgrey`w, silk gown~
+A pile of grey silk, smooth to the touch, lies here.~
+none~
+9 0 AD
+BDEFGH BDEFGH BDEFGH BDEFGH 0
+95 10 1000000
+#10025
+cape~
+`KA flowing black velvet cape`w~
+A pile of black velvet shimmers magically, hiding the secrets of its owner.~
+none~
+15 G AK
+DGH 0 0 0 0
+95 15 1000000
+#10026
+Romanov~
+`wA `Wbrilliant `bsapphire `won a silver chain~
+A gleaming sapphire hanging from a silver chain belonging to someone important, the initials T.N.R. are engraved on the clasp.~
+none~
+9 GTV AC
+BDEFGH BDEFGH BDEFGH BDEFGH 0
+95 2 1000000
+#10027
+blue water crystal~
+a necklace with a blue crystal~
+A blue crystal is here, hanging from a silver chain.~
+none~
+1 A AC
+0 0 999 0 0
+95 0 0
+#10028
+wide round hat~
+a wide black hat~
+A very wide hat is here, almost three feet in diameter!~
+none~
+11 T AE
+0 0 0 0 0
+95 1 100
+#10029
+trench coat~
+a long black trenchcoat~
+A long black trenchcoat is hanging on a strnage hook on the wall.~
+none~
+15 ST AK
+DHIJM A 0 0 0
+95 5 500
+A
+2 5
+A
+5 5
+#10030
+levis 565 jeans~
+`wReal. Comfortable. Jeans.~
+A fairly new pair of Levis 565's are sitting in a folded pile.~
+none~
+11 0 AF
+0 0 0 0 0
+95 2 100
+#10031
+light denim shirt~
+a light blue denim shirt~
+A denim shirt hangs from a strange peg on the wall.~
+none~
+11 0 AD
+0 0 0 0 0
+95 1 100
+#10032
+staff~
+the Traveller~
+A short staff stands here of it's own accord.~
+none~
+5 STV AN
+AB BD BC ACD D
+94 4 100000
+#10033
+walking staff gold~
+a walking staff, with gold inlays~
+There is a wooden staff here, with gold inlayed around one end.~
+wood~
+5 STV AN
+0 C BC ACD 0
+20 6 500
+#10034
+towel hhgttg~
+a white towel~
+A large white towel is here.~
+cloth~
+13 S AC
+0 0 0 0 0
+99 0 0
+#10040
+Handcuffs~
+handcuffs~
+Handcuffs are here to have fun with!~
+none~
+9 0 AM
+0 0 0 0 0
+1 1 10000
+#10041
+chinese take out bucket~
+a bucket of Chinese take-out~
+A small bucket with oriental markings on the side is here, sitting on a table.~
+none~
+19 0 A
+BD 0 0 0 0
+0 1 100
+#10043
+potato chip~
+a potato chip~
+A potato chip is here!~
+none~
+19 0 A
+AC 0 0 0 0
+0 0 10
+#10047
+wedding tux~
+a nice black tuxedo~
+A nice, pressed tuxedo is hanging here.~
+none~
+11 0 AK
+0 0 0 0 0
+0 1 100
+#10048
+wedding dress~
+a beautiful white wedding dress~
+A white wedding dress is hanging here.~
+none~
+11 0 AK
+0 0 0 0 0
+0 1 0
+#10049
+pajamas~
+a pair of beautiful silk pajamas~
+A wad of silk is lying on the floor here.~
+none~
+11 0 AD
+0 0 0 0 0
+93 1 10000
+#10054
+champagne glass~
+a glass of champagne~
+A beautiful glass filled with champagne is sitting on a table.~
+none~
+17 0 A
+BD BD E 0 0
+0 1 100
+#10055
+piece wedding cake~
+a piece of wedding cake~
+A piece of a beautiful wedding cake on a decorative plate is on the table.~
+none~
+19 0 A
+BD 0 0 0 0
+0 1 100
+#10060
+Claw~
+a Dragon Claw~
+The claw of a dragon is here, you wonder where the rest of it is.~
+none~
+5 O AN
+AC BD CE AC ABDE
+93 0 0
+#10063
+locket necklace chain awwww LL~
+`wa `Ygold`w locket `Bnecklace`w~
+`wA `Yshimmery`w gold locket lies here, given with `Rlove`w from `MLadyLily`w.~
+none~
+8 AGIS AC
+0 0 0 0 0
+95 2 5000000
+#10064
+vacation~
+a really long vacation~
+A really long vacation sits here, waiting for Rahl to claim it.~
+none~
+8 A AK
+0 0 0 0 0
+102 1 100000000
+#10065
+coupon free restring~
+a coupon for a free restring~
+A coupon for a free item restring is here.~
+none~
+13 ABOS AO
+0 0 0 0 0
+1 1 1
+E
+coupon~
+This is a coupon for a free restring of the item of your choice.
+To redeem this coupon, you must have:
+1) This coupon
+2) The item to be restrung
+ 
+Redeemable by immortals of GOD status or higher.
+~
+#10066
+book dead~
+`Kthe Book of the Dead`w~
+A large powerful book is here.~
+none~
+5 EG AN
+0 DEFG DEFG ABE 0
+92 2 10
+A
+19 200
+A
+18 200
+#10067
+mohogany chair~
+a large comfortable chair~
+`gA large, comfortable `rred leather`g chair is here, behind the desk.`w~
+none~
+12 O 0
+0 0 0 0 0
+90 100 0
+#10068
+large mohogany desk~
+a large mohogany desk~
+A large mohogany desk is here, sitting in the corner by the window.~
+none~
+12 O 0
+0 0 0 0 0
+0 200 0
+#10069
+9mm pistol~
+a 9mm pistol~
+A 9mm pistol is lying here~
+none~
+5 AB AN
+0 BEF BEF BC A
+100 15 1000
+#10070
+lightning bolt~
+`Ya lightning bolt`w~
+A long piece of electricity lies here.~
+none~
+5 AG AN
+0 A A A EG
+92 5 100000
+A
+19 5000
+A
+18 1000
+#10071
+boots hermes winged~
+`Wwinged boots of Hermes`w~
+A pair of boots with wings on them lie here.~
+none~
+9 BI AG
+DGH DGH DGH DGH 0
+92 2 10000
+#10072
+shield thunder~
+`Ka thunderous shield`w~
+A large rumbling shield lies here.~
+none~
+9 BI AJ
+DGH DGH DGH DGH 0
+92 5 100000
+#10073
+breastplate truth plate~
+`Wa Breastplate of `YTruth`w~
+`gA large `Wwhite`g breastplate lies here.`w~
+none~
+9 IK AD
+CDFI CDFI CDFI CDFI 0
+92 10 500000
+#10074
+helmet fire~
+`Ra flaming helmet`w~
+A helmet lies here, covered in flames.~
+none~
+9 A AE
+DGH DGH DGH DGH 0
+92 5 100000
+#10075
+robe silk sensual~
+`gA long `Yflowing `Mpink silk robe`w~
+A long silk robe lies here, carelessly tossed aside....HmMmmmmm....~
+none~
+11 AFGS AD
+0 0 0 0 0
+93 0 1000
+#10088
+goodie bag fun LL~
+`ML`Wa`MD`Wy`ML`Wi`Ml`WY`M'`Ws `Bg`WO`Bo`Wd`BI`We `YB`Wa`YG`w~
+A goodie bag full of toys, belonging to LadyLily, lies here...I wonder what's inside?~
+none~
+15 GI A
+DFGHIJ A 0 0 0
+93 0 3231996
+#10089
+wild sex multiple screaming orgasms kinky Whooooooo~
+`RW`Yi`BL`GD `YS`Me`RX `GW`Mi`YT`BH `MM`Gu`BL`Yt`Ri`BP`YL`Ge `BS`Mc`Gr`BE`Ya`Rm`YI`Gn`MG `YO`Rr`BG`Ma`GS`Ym`RS`w~
+The *GREAT* sex you've always been looking for is here!~
+none~
+9 GI A
+0 0 0 0 0
+5 1 100000
+#10090
+ring promise LL Awwww~
+`wa ring of `Bpromise`w from `MLadyLily`w~
+A `Ygold `wring of promise, given to `BRahl`w from `MLadyLily`w, with `Rlove`w.~
+none~
+8 GIMS AB
+0 0 0 0 0
+93 0 1000000
+E
+ring~
+A gold band with the inscription 'RL' intertwined inside, symbolizing
+their togetherness.  Through it all, love and friendship will prevail.  A
+band that promises love, hope, happiness, friendship, courage, trust, and
+above all, an unbreakable vine.  
+~
+#10091
+radio~
+a small radio~
+A small radio sits on a table in the corner, softly playing music.~
+none~
+31 0 0
+0 0 0 0 0
+0 0 0
+#10095
+sunglasses~
+`wa `Kblack `wpair of `MVersache`w `Ysun`Bglasses`w~
+`wA pair of `MVersache`w `Ysun`Bglasses`w with the `RMedusa symbol`w on the side lie here.~
+none~
+9 0 AE
+CFG CFG CFG CFG 0
+92 1 0
+#0
+
+
+
+#ROOMS
+#10000
+Rahl's chamber~
+As you look around, you wonder if anything could survive here.  All
+around you are books, papers, computer disks, and small weapons.  Just your
+typical, everyday college student's room...  
+~
+0 1081352 0
+D0
+~
+~
+7 0 10001
+D4
+~
+~
+0 0 10009
+S
+#10001
+God's Pet Shop~
+This is GOD's pet shop.  You feel a godly presence as you shop for a
+companion.  
+~
+0 266248 0
+D1
+~
+~
+1 0 10020
+D2
+~
+~
+7 0 10000
+S
+#10002
+storeroom~
+As you look at the room before you, you see miles of shelves and cabinets
+covered with boxes and bags of stored items.  The dust in this room is
+almost unbareable.  
+~
+0 1048580 0
+S
+#10003
+The Tower Room~
+You enter the tower chamber through a heavy oak door.  Long, narrow
+windows face the remaining three cardinal directions overlooking the forest
+beyond.  The thick stone walls are cold to the touch yet the room is warm
+and inviting.  Candles are scattered throughout casting a soft glow and
+filling the room with the sweet scent of vanilla.  A deep blue velvet sofa
+sits between two of the windows and a huge canopy bed rests in the center of
+the tower.  Heavy drapes of ivory silk surround the feather mattress, which
+appears deep and comforting.  Finally, on the wall opposite the sofa is a
+oil painting.  It portrays two young girls dressed in simple grey robes. 
+They share identical features, and identical long, wavy red hair.  Their
+identical green eyes peer through you and the expression they hold is not
+that of sadness or joy, but of complete silence.  They are holding hands. 
+The title of the painting is emblazoned below in fine gold lettering, it
+simply reads "The Twins".  
+~
+0 1114124 0
+D3
+~
+~
+0 0 10096
+S
+#10004
+Awenyedd's Love Shack~
+A dimly lit room with quiet music and a wonderful almost vanilla smell
+wafting through.  High stained glass windows add dapples of colour to the
+plushly carpeted floor.  There are pillows and flowers scattered about the
+room.
+~
+0 1048577 0
+D4
+~
+~
+0 0 10005
+S
+#10005
+The Bedroom~
+This room is darker than the main room.  The windows are stained glass
+here as well, though smaller and higher up on the walls, creating the
+splashes of colour over the soft-looking bed.  There are more flowers about
+the room, and the wonderful vanilla smell is a little stronger here, coming
+from a few candles deeply set in the walls.
+~
+0 513 0
+D5
+~
+~
+0 0 10004
+S
+#10009
+LadyLily's Bedroom~
+Upon entering her beautiful bedroom, you eyes lay on the gigantic king
+size bed draped with rich fabrics and surrounded by lilies, lavender, and
+daffodils.  The lively , innocent scents and the cute teddybear on the
+pillow remind you of a little child's room, but when you open her
+closet.....  Whoa!  Hanging on bowed hangers are tight leather outfits,
+whips, chains, and many boxes are on the floor.  Love letters are scattered
+on the table, and many gifts are strewn along the couch.  Erotic Goddess
+indeed!  You wonder is she can get any man she wants....  And you'd love to
+find out...  
+~
+0 520 0
+D0
+~
+~
+0 0 10010
+D5
+~
+~
+0 0 10000
+S
+#10010
+LadyLily's Conservatory~
+Glass walls and a glass ceiling frame a room of elegance.  A black grand
+piano is in the middle of the room, and some sheet music lays on it. 
+Orchids, lilies, roses, tulips, and daffodils are sprinkled throughtout the
+room, and a large palm tree gives shade to the musician.  Frames are found
+on the desk, with pictures old and new within.  A large golden frame
+contains Medea's picture, and some medium size frames contain pictures of
+other friends, including The Demonic One and Hammer.  The sun floats into
+the glass sanctuary, and a feminine voice is heard, humming softly.  
+~
+0 8 0
+D2
+~
+~
+0 0 10009
+S
+#10011
+Rahl's Private Study~
+You have entered the private sanctuary of Rahl.  Unlike his office, the
+study is quiet and orderly.  Around you, on many shelves, are books on all
+subjects.  In the center of the room is a large desk with a large,
+comfortable chair.  Facing the desk are several large and equally
+comfortable chairs.  On the desktop is an hourglass, slowly counting the
+minutes and hours since time began.  
+~
+0 1064972 0
+S
+#10020
+Raptor's Office~
+This room is practically empty, because Raptor hasn't had time to move in
+yet.  Enjoy the cleanliness.  It won't be this neat again for a
+looooooooooong time....  Well, actually, the room has a couple things in it,
+as there is now a desk pushed up against the wall here.  Whoa!  Now there is
+a small cot against another wall.  I guess Raptor decided that sleep is a
+GOOD thing!  
+~
+0 8 0
+E
+cot~
+~
+E
+desk~
+Here is Raptor's new desk, already has a stack of papers on it.
+Hmm, looks like a print-out of the builder's help file....
+~
+D0
+~
+~
+0 0 10021
+D1
+~
+~
+0 0 10022
+D3
+~
+~
+1 0 10001
+S
+#10021
+Raptor's Den~
+This is where Raptor meets with mortals outside his office.  This way
+they can talk without being disturbed by people walking through, or wizards
+yelling advertisements.  
+~
+0 1544 0
+D2
+~
+~
+0 0 10020
+S
+#10022
+Raptor's Kitchen~
+Here is `RRaptor`w's kitchen, where he attempts to cook.  He can manage
+to do ok with simple stuff, so if it's complicated, he doesn't eat it. 
+Don't open the fridge, or something might jump out at you.  
+~
+0 0 0
+D3
+~
+~
+0 0 10020
+S
+#10025
+The Immortal Conference Room~
+You are in a large conference room.  In the center of the room is a large
+table.  Surrounding the table are a number of comfortable, high-backed
+chairs, one for each immortal.  At the head of the table is a slightly
+larger chair for the administrator.  
+~
+0 1056780 0
+S
+#10096
+Mekare's Private Balcony~
+You are standing on a wrough-iron balcony overlooking a beautiful garden.
+The sky is a breathtaking shade of violet, twilight, Mekare's favorite time
+of day.  You close your eyes and inhale deeply...  The sweet scent of
+night-blooming jasmine overwelming you.  You hear the soft trickling of
+water pouring from a nearby fountain, you feel yourself relax.  You open
+your eyes and peer down into the garden, giant willow trees shelter the
+area, roses grow wildly...  Wisteria climbs the walls, wrapping around the
+iron bars of the balcony.  Serveral stone statues are scattered randomly. 
+You suddenly feel yourself being watched and realize that these statues are
+watching you intently.  You feel tense, perhaps they don't like you being
+here?  Afterall, they are the guardians of the lovely Vampire Queen and this
+is her private balcony.  Perhaps you should come back when Mekare herself is
+with you.  You eyes suddenly fix upon a large, dark statue of a demon with
+goat's hoofs and huge black wings.  You quickly realize that he wasn't there
+when you scanned the garden previously...  Mekare's guardian indeed, and one
+you'd rather not mess with.  You quickly pray for transportation.  
+~
+0 1114628 3
+D1
+~
+~
+0 0 10003
+S
+#10099
+The Waterfall~
+You are standing at the base of a very large and beautiful waterfall.  At
+your feet is a large pool, collecting some of the water before it all runs
+off into the depths of the forest.  Around you is a small clearing, with a
+soft carpet of green.  A few yards away, the trees of the forest stand their
+guard against intruders, while above you, the stars and the moon keep their
+silent vigil, their ever-watchful eyes staring down from the heavens.  There
+are few who know the path here, but those who do will agree that this is the
+most peaceful and serene place in the entire world.  
+~
+0 1049100 3
+S
+#0
+
+
+
+#SPECIALS
+M 10000 spec_breath_fire Load to: Peace
+M 10003 spec_breath_lightning Load to: Fjord the cute duckie
+M 10020 spec_cast_cleric Load to: Stormy
+S
+
+
+
+#RESETS
+D 0 10000 0 0
+D 0 10001 1 0
+D 0 10001 2 0
+D 0 10020 3 0
+O 0 10091 0 10000
+M 0 10001 1 10001
+M 0 10000 1 10002
+E 0 10069 0 16
+O 0 10021 0 10009
+O 0 10068 0 10011
+O 0 10067 0 10011
+M 0 10020 1 10020
+S
+
+
+
+#SHOPS
+10001 0 0 0 0 0 75 125 0 23
+10022 17 0 0 0 0 100 100 0 24
+0
+
+
+
+#$

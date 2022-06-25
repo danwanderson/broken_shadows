@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -15,24 +15,33 @@
  * Defined in magic.c.
  */
 void spell_null            ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_acid_blast      ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_armor           ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_bless           ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_blindness       ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_burning_hands   ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_call_lightning  ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_calm            ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_cancellation    ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_cause_critical  ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_cause_light     ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_cause_serious   ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_change_sex      ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_chain_lightning ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_charm_person    ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_chill_touch     ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_colour_spray    ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_continual_light ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_control_weather ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_create_food     ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_create_spring   ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_create_water    ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_cure_blindness  ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_cure_critical   ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_cure_disease    ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_cure_light      ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_cure_poison     ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_cure_serious    ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_curse           ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_demonfire       ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_detect_evil     ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
@@ -49,6 +58,7 @@ void spell_energy_drain    ( int sn, int level, CHAR_DATA *ch, void *vo, int tar
 void spell_faerie_fire     ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_faerie_fog      ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_fireball        ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_flamestrike     ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_fly             ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_frenzy          ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_gate            ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
@@ -73,6 +83,7 @@ void spell_protection_evil ( int sn, int level, CHAR_DATA *ch, void *vo, int tar
 void spell_refresh         ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_remove_curse    ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_sanctuary       ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_shocking_grasp  ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_shield          ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_sleep           ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_stone_skin      ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
@@ -81,14 +92,37 @@ void spell_teleport        ( int sn, int level, CHAR_DATA *ch, void *vo, int tar
 void spell_ventriloquate   ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_weaken          ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_word_of_recall  ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_acid_breath     ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_fire_breath     ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_frost_breath    ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_gas_breath      ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_lightning_breath( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_general_purpose ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_high_explosive  ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_firewind        ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_meteor_swarm    ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_multi_missile   ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_disintegrate    ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_ice_ray         ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_hellfire        ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_ice_storm       ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_vision          ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_restoration     ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_regeneration    ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_test_area       ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_web             ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_imprint         ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 
 /* new spells by Rahl */
 void spell_flame_sword     ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_flash_fire      ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_inferno         ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_thunderbolt     ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_instant_death   ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_greater_heal    ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_mega_heal       ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_greater_harm    ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
+void spell_mega_mana       ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_protection_good ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_create_rose     ( int sn, int level, CHAR_DATA *ch, void *vo, int target );
 void spell_detect_good     ( int sn, int level, CHAR_DATA *ch, void *vo, int target );

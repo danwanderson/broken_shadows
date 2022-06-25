@@ -481,7 +481,7 @@ as indicated.
   %l - tank status (as above) - See help tank
   %r - new line
   %A - Act bits AFK,KILLER,THIEF,WIZI(immort only)
-  %x - current xp 
+  %x - current xp               %X - xp left to level
   %# - current room vnum(immort only)
 
 Also, you may replace the %h, %m, and %v codes with the following, which
@@ -510,14 +510,14 @@ as bonks Alander by everyone else).
 POSE is a variant of EMOTE.
 ~
 
-9 PROTECT~
+99 PROTECT~
 Syntax: protect <character>
 
 Protect is used to protect a character from unwanted snooping.  Removing
 protected status from a character WILL be seen by that character.
 ~
 
-2 SMOTE~
+92 SMOTE~
 Syntax: smote <action>
 
 Smote works exactly like pmote, except you must place your name somewhere in
@@ -881,7 +881,15 @@ In the long run, your character will be most powerful if you train
 WIS and CON both to 18 before practising or training anything else.
 ~
 
-10 TRUST~
+100 ADVANCE~
+Syntax: advance <character> <level>
+
+ADVANCE sets a character's level to the specified value.  It is the
+only way to create new immortal characters within the game.  ADVANCE
+may also be used to demote characters.
+~
+
+100 TRUST~
 Syntax: trust <character> <level>
 
 TRUST sets a character's trust to the specified level.  This is similar to
@@ -894,7 +902,7 @@ natural level.
 A trust of 0 means to use the character's natural level again.
 ~
 
-8 ALLOW BAN PERMBAN~
+98 ALLOW BAN PERMBAN~
 Syntax: allow   <site>
         ban     <site> <newbies|all|permit>
         ban
@@ -912,7 +920,7 @@ sites with a wildcard.  Bans do not save unless the permban command is
 used.
 ~
 
-9 REBOOT SHUTDOWN HARDREBOOT~
+99 REBOOT SHUTDOWN HARDREBOOT~
 Syntax: reboot
 	shutdown
 
@@ -929,7 +937,7 @@ Never, ever, shutdown the mud without consulting Rahl.
 ~
 
 
-6 WIZLOCK NEWLOCK~
+96 WIZLOCK NEWLOCK~
 Syntax: wizlock
 	newlock
 
@@ -943,7 +951,7 @@ Rahl.
 A god must be at least Supreme level to wizlock the game.
 ~
 
-9 DENY~
+99 DENY~
 Syntax: deny <name>
 
 Deny locks a character out of a game permanently, rendering their character
@@ -951,7 +959,7 @@ name unusable.  It may only be removed by editing the file, for this reason
 freeze is usually preferred.
 ~
 
-7 DISCONNECT~
+97 DISCONNECT~
 Syntax: disconnect <name>
 
 Disconnect breaks a player's link to the game, dumping them back to the telnet
@@ -959,7 +967,7 @@ prompt.  This is a non-lethal way of getting rid of spammers and annoying
 players.
 ~
 
-2 FREEZE~
+92 FREEZE~
 Syntax: freeze <name>
 
 FREEZE <character> is a toggle which prevents a character from issuing any
@@ -967,21 +975,21 @@ commands at all. It can be removed from within the game, so freezing a
 troublemaker is usually a better option than they deny command.
 ~
 
-3 FORCE~
+93 FORCE~
 Syntax: force <character> <command>
 Syntax: force all <command>
 
 FORCE forces one character to execute a command, except of course delete
 (unless you are an Implementor).
 
-Below level 7 (Deity) force can only be used on mobiles, and force all is
+Below level 97 (Deity) force can only be used on mobiles, and force all is
 unavailable.  You also cannot 'force orc murder hugo', for example. 
 
 FORCE 'all' forces all player characters to execute a command.
 This is typically used for 'force all save'.
 ~
 
-6 SOCKETS~
+96 SOCKETS~
 Syntax: sockets
 	sockets <name> 
 
@@ -995,7 +1003,7 @@ to identify switched gods (i.e. socket orc shows the name of anyone switched
 into an orc).
 ~
 
-2 LOAD~
+92 LOAD~
 Syntax: load mob <vnum>
 	load obj <vnum> <level>
 
@@ -1010,7 +1018,7 @@ format objects have a preset level that cannot be changed without set.
 (see also clone, vnum, stat)
 ~
 
-8 SET~
+98 SET~
 Syntax: set mob   <mobile> <field> <value>
 	set obj   <object> <field> <value>
 	set room  <number> <field> <value>
@@ -1025,7 +1033,7 @@ given.  Use string to change the strings on an object or mobile.
 (see also string, stat)
 ~
 
-5 STRING~
+95 STRING~
 Syntax: string obj  <field> <string>
 	string mob  <field> <string>
 	string char <name>  <field>  <string>
@@ -1035,7 +1043,7 @@ mobile.  A full list of fields can be viewed by typing string obj, string
 mob, or string char.  Sorry, multi-line strings are not yet supported.
 ~
 
-3 WIZSLAP~
+93 WIZSLAP~
 Syntax: wizslap <character>
 
 Wizslap is a command for when you're annoyed at someone, but not quite to
@@ -1044,7 +1052,7 @@ random room on the MUD and gives them a 5 tick curse and weaken. It
 doesn't last long, but it's around -20 to str, con, hitroll and damroll.
 ~
 
-9 BONUS~
+99 BONUS~
 Syntax: bonus <character> <type> <amount>
 
 Type "bonus" without an argument to show the currently available types 
@@ -1056,7 +1064,7 @@ trains, questpoints, etc. This is used for reimbursements, quest prizes, etc.
 It can, with a negative value entered, also be used as a penalty.
 ~
 
-3 NOCHANNEL NOEMOTE NOSHOUT NOTELL~
+93 NOCHANNEL NOEMOTE NOSHOUT NOTELL~
 Syntax: nochannel <character>
 	noemote   <character>
 	noshout   <character>
@@ -1072,7 +1080,7 @@ from using any of the channels (gossip, auction, Q/A, music) on the game.
 Nochannels usually result from swearing or spamming on public channels.
 ~
 
-10 PARDON~
+100 PARDON~
 Syntax: pardon <character> killer
 	pardon <character> thief
 
@@ -1081,7 +1089,7 @@ are sure they deserve it.  Being killed by Hassan acts as an automatic
 pardon.  This command can also be used to remove freeze, log, and killer 
 flags. ~
 
-2 PURGE~
+92 PURGE~
 Syntax: purge
 	purge <character>
 	purge <object>
@@ -1095,7 +1103,7 @@ set (i.e. the pit, the fountain, shopkeepers, Hassan).  Mobiles and
 objects may be purged if they are called directly by name.
 ~
 
-6 RESTORE~
+96 RESTORE~
 Syntax: restore <character>
 	restore room
 	restore all
@@ -1109,7 +1117,7 @@ is only usable by creators and implementors.  Restore should be used sparingly
 or not at all.
 ~
 
-7 SLAY SMITE~
+97 SLAY SMITE~
 Syntax: slay <character> [message]
 	smite <character>
 
@@ -1117,7 +1125,7 @@ Slay kills a character in cold blood, no saving throw.  Best not to use this
 command on players if you enjoy being a god.
 ~
 
-5 TRANSFER TELEPORT~
+95 TRANSFER TELEPORT~
 Syntax: transfer <character>
 	transfer all
 	transfer <character> <location>
@@ -1130,7 +1138,7 @@ horrible effects on slow links. Teleport is a synonym for transfer.
 You cannot transfer someone of a higher level. 
 ~
 
-4 AT~
+94 AT~
 Syntax: at <location> <command>
 
 At executes the given command (which may have arguments) at the given
@@ -1142,7 +1150,7 @@ command, and then moving you back (if the command didn't change your
 location).
 ~
 
-2 ECHO GECHO PECHO~
+92 ECHO GECHO PECHO~
 Syntax: echo  <message>
 	gecho <message>
 	pecho <character> <message>
@@ -1155,7 +1163,7 @@ god will see a prompt in front of your message, informing him or her that it
 is an echo.
 ~
 
-2 GOTO~
+92 GOTO~
 Syntax: goto <location>
 
 Goto takes you to a location.  The location may be specified as a vnum,
@@ -1169,7 +1177,7 @@ god level.
 Implementors can use the violate command to get into private rooms.
 ~
 
-2 HOLYLIGHT WIZINVIS~
+92 HOLYLIGHT WIZINVIS~
 Syntax: holylight
 	wizinvis <level>
 
@@ -1183,7 +1191,7 @@ a lower level than your invisibility level.  It defaults to the maximum
 invisible.
 ~
 
-2 MEMORY~
+92 MEMORY~
 Syntax: memory
 
 Memory reports the size of your mud.
@@ -1198,7 +1206,7 @@ The 'Perms' line shows permanently allocated memory blocks.  There is no limit
 on the number and size of these blocks.
 ~
 
-2 VNUM~
+92 VNUM~
 Syntax: vnum <name>
 	vnum <obj or mob> <name>
 	vnum skill <name>
@@ -1210,7 +1218,7 @@ the slot number (for making new zones) of a skill name.
 (see also load)
 ~
 
-2 STAT~
+92 STAT~
 Syntax: stat <name>
 	stat mob  <name>
 	stat obj  <name>
@@ -1224,20 +1232,20 @@ standing in.  Stat can be used to find room vnums for goto.
 (see also goto, transfer)
 ~
 
-2 MWHERE~
+92 MWHERE~
 Syntax: mwhere <name>
 
 Mwhere shows you the locations of all mobiles with a particular name.
 ~
 
-5 PEACE~
+95 PEACE~
 Syntax: peace
 
 Peace causes all characters in a room to stop fighting. It also strips the
 AGGRESSIVE bit from mobiles.
 ~
 
-2 POOFIN POOFOUT~
+92 POOFIN POOFOUT~
 Syntax: poofin  <message>
 Syntax: pooffout <message>
 
@@ -1250,7 +1258,7 @@ Poofin and poofout only show to characters who can see you.
 (see also goto)
 ~
 
-5 LOG SNOOP~
+95 LOG SNOOP~
 Syntax: log   <character>
 	log   all
 	snoop <character>
@@ -1273,7 +1281,7 @@ character at a time. Try to respect privacy.
 Snoop yourself to cancel all outstanding snoops.
 ~
 
-4 SWITCH RETURN~
+94 SWITCH RETURN~
 Syntax: switch <character>
 	return
 
@@ -1284,7 +1292,7 @@ switch into link-dead PCs.
 Return returns you to your original body.
 ~
 
-1 HERO >~
+91 HERO >~
 Syntax: hero <message>
 	hero
 
@@ -1293,7 +1301,7 @@ Using this command with no argument turns off the hero channel (or turns
 it back on).
 ~
 
-2 IMMTALK ,~
+92 IMMTALK ,~
 Syntax: immtalk <message>
 	immtalk
 
@@ -1301,13 +1309,13 @@ Immtalk sends a message to all immortals.  , is a synonym for immtalk.
 Using this command with no argument turns off the immortal channel (or
 turns it back on).
 ~
-1 WIZHELP~
+91 WIZHELP~
 Syntax: wizhelp
 
 Wizhelp provides a list of all the immortal commands.
 ~
 
-4 STATUS~
+94 STATUS~
 Syntax: status
 
 Status shows the current game status.
@@ -1391,7 +1399,7 @@ These spells inflict damage on the victim.  The higher-level spells do
 more damage.
 ~
 
-0 'CHANGE SEX'~
+53 'CHANGE SEX'~
 Syntax: cast 'change sex' <victim>
 
 This spell changes the sex of the victim (temporarily).
@@ -1854,7 +1862,12 @@ several effects of this command.
 
 NOTE: pfiles are not saved!
 ~
+93 MPSTAT~
+Syntax: mpstat <mob>
 
+This command is similiar to stat, except that it shows any Mob_Progs
+that belong to a mobile.
+~
 0 BEACON~
 Syntax: beacon
 	beacon reset
@@ -1894,7 +1907,7 @@ Syntax: grip primary
 This makes your primary or secondary weapon noremove for a time.
 ~
 
-2 INCOGNITO~
+92 INCOGNITO~
 Syntax: incognito
 	incognito <level>
 
@@ -1910,7 +1923,7 @@ Syntax: crecall
 This command will take you to your clan hall, if you are in a clan.
 ~
 
-2 PAGE~
+92 PAGE~
 Syntax: page <victim>
 
 This command will send a message to the victim, along with a beep,
@@ -1918,7 +1931,7 @@ informing them that you wish to commumicate. The vicitm must be immortal
 and not switched.
 ~
 
-2 WIZNET~
+92 WIZNET~
 Syntax: wiznet 
 	wiznet show
 	wiznet status
@@ -1960,11 +1973,19 @@ This will remove a character from your clan, providing you are the clan
 leader and that the victim is in your clan.
 ~
 
-10 RENAME~
+100 RENAME~
 Syntax: rename <character> <new name>
 
 This renames a character, removes the old player file and creates a new
 one.
+~
+
+93 OLEVEL MLEVEL~
+Syntax: olevel <level>
+	mlevel <level>
+
+This command shows all the mobs/objects (depending on which command you
+type) of the specified level.
 ~
 
 0 BOUNTY BOUNTIES 'BOUNTY HUNTER' BOUNTYHUNTER~
@@ -2026,14 +2047,14 @@ Game by itself gives you a list of the games available.
 Game <game name> gives you the syntax for that particular game.
 ~
 
-2 MURDER~
+92 MURDER~
 Syntax: murder <player>
 
 This will attack the player, regardless of pk status. Remember: MURDERing
 players for no reason is BAD.
 ~
 
-3 JAIL~
+93 JAIL~
 Syntax: jail <player>
 
 This sends the player to JAIL. The player does not pass go, he does not
@@ -2052,7 +2073,7 @@ Show <item> <name> will often yield more information, eg "show clan <clan
 name>"
 ~
 
-2 CLONE~
+92 CLONE~
 Syntax:
   clone obj <object>
   clone mob <mobile>
@@ -2064,6 +2085,18 @@ the same room as you, or in your posession.  Strung and set information is
 preserved by clone, as well as any spell effects and container contents or
 mobile inventory, except for items which are too high for you to clone.
 Strung extended descriptions on objects are not kept, however.
+~
+
+0 DONATE~
+Syntax: donate <item>
+        donate all.<item>
+
+This will remove the item from your inventory and put it in the donation
+room for others to pick up.
+
+WARNING: If you type "donate all .<item>" and someone takes your
+equipment, the immortals are not responsible and will not reimburse you
+for your loss.
 ~
 
 0 EMAIL~
@@ -2101,7 +2134,7 @@ This will send a note to the clan leader informing him or her as to your
 desire to enter his or her clan.
 ~
 
-5 GRAB~
+95 GRAB~
 Syntax: grab <item> <player>
 
 This reposesses an item from the player without having to force them to
@@ -2110,7 +2143,7 @@ remove it and give it to you.
 This command is always logged.
 ~
 
-2 OWHERE~
+92 OWHERE~
 Syntax: owhere <item>
 
 This locates the item, much as locate, but the results are not affected by
@@ -2137,7 +2170,7 @@ If you add a message, the card will contain that message.
 When buying a selection, use the keywords in parenthesis () as the <item>.
 ~
 
-9 DISABLE~
+99 DISABLE~
 Syntax: disable <command>
 
 This disables the specified command, making it unusable by anyone. Disable
@@ -2168,7 +2201,7 @@ This will to the given social to anyone anywhere. The rest of the MUD will
 also see it as long as they have gossip on and aren't quiet.
 ~
 
-9 ADDAPPLY~
+99 ADDAPPLY~
 Syntax: Type addapply to see the full syntax and options
 
 This will allow you to set permanent spell effects on objects, as well as
@@ -2206,13 +2239,13 @@ This command is similar to the "report" command, but it reports the
 spells that you are affected by to the room.
 ~
 
-2 STATES~
+92 STATES~
 Syntax: states
 
 This shows the connected state of everyone currently on the MUD.
 ~
 
-2 PREFIX~
+92 PREFIX~
 Syntax: prefix <strnig>
 
 This will place the current string before anything you type as part of 
@@ -2220,7 +2253,7 @@ the command. For instance, "prefix say" will place the word "say" before
 anything you type as part of the command (you will say everything you type).
 ~
 
-2 ZECHO~
+92 ZECHO~
 Syntax: zecho <message>
 
 This will send the message to everyone in the current area.

@@ -1,0 +1,82 @@
+#AREADATA
+Name        {-----} Rahl    Clan area~
+Builders    Rahl~
+VNUMs       10800 10999
+Security    9
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#10901
+the long table~
+a long forboding table is in the center of the room~
+A long forboding table is in the center of the room.~
+none~
+12 CEGJT 0
+0 0 0 0 0
+1000 0 10000
+E
+table~
+This long table is used in cerimonial gatherings of the Sith clan. The large chair at the end is where the High Lord Exar sits when he is among his people. This table, even if looking quite plain, obviously has some great importance among its people.
+~
+#10906
+The great fountain~
+a fountain is here~
+The great fountain is here.~
+none~
+25 ACI 0
+0 0 0 0 0
+0 10000 2147483647
+E
+fountain~
+This fountain is spouting what looks to be red blood.
+~
+#0
+
+
+
+#ROOMS
+#10900
+Black Rose Clan Hall~
+~
+0 1048588 0
+S
+#10905
+`ySith War Hall`w~
+`R You stand in complete awe of your surroundings. What you see before you looks as if it came straight from the depths of hell. 
+The walls are a shade of red that can only be described as  bloody. The floor is carved with many symbols that seem omnious all by themselves. 
+The long stone table in the center of the room obviously has some great importance here.
+~
+0 4 0
+S
+#10906
+Sith Recall ~
+~
+0 4 0
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

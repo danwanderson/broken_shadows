@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -51,24 +51,58 @@ void do_heal(CHAR_DATA *ch, char *argument)
         /* infuse and flux added by Rahl */
 
         act("$N says 'I offer the following spells:'",ch,NULL,mob,TO_CHAR);
+        send_to_char("  light: cure light wounds        25 gold\n\r",ch);
+        send_to_char("  serious: cure serious wounds    75 gold\n\r",ch);
+        send_to_char("  critic: cure critical wounds   150 gold\n\r",ch);
         send_to_char("  heal: healing spell            500 gold\n\r",ch);
+        send_to_char("  infuse: mega heal             1000 gold\n\r",ch);
         send_to_char("  blind: cure blindness           50 gold\n\r",ch);
         send_to_char("  disease: cure disease          100 gold\n\r",ch);
         send_to_char("  poison:  cure poison           150 gold\n\r",ch); 
         send_to_char("  uncurse: remove curse          200 gold\n\r",ch);
         send_to_char("  refresh: restore movement       50 gold\n\r",ch);
         send_to_char("  mana:  restore mana            500 gold\n\r",ch);
+        send_to_char("  flux:  mega mana              1250 gold\n\r",ch);
         send_to_char(" Type heal <type> to be healed.\n\r",ch);
         return;
     }
 
     switch (arg[0])
     {
+        case 'l' :
+            spell = spell_cure_light;
+            sn    = skill_lookup("cure light");
+            words = "judicandus dies";
+            cost  = 25;
+            break;
+
+        case 's' :
+            spell = spell_cure_serious;
+            sn    = skill_lookup("cure serious");
+            words = "judicandus gzfuajg";
+            cost  = 75;
+            break;
+
+        case 'c' :
+            spell = spell_cure_critical;
+            sn    = skill_lookup("cure critical");
+            words = "judicandus qfuhuqar";
+            cost  = 150;
+            break;
+
         case 'h' :
             spell = spell_heal;
             sn = skill_lookup("heal");
             words = "pzar";
             cost  = 500;
+            break;
+
+        /* infuse/mega heal by Rahl */
+        case 'i' :
+            spell = spell_mega_heal;
+            sn = skill_lookup( "mega heal" );
+            words = "infuse";
+            cost = 1000;
             break;
 
         case 'b' :
@@ -112,6 +146,14 @@ void do_heal(CHAR_DATA *ch, char *argument)
             words = "energizer";
           /* used to be 1000 gold - changed by Rahl */
             cost = 500;
+            break;
+
+        /* flux/mega mana by Rahl */
+        case 'f' :
+            spell = spell_mega_mana;
+            sn = skill_lookup("mega mana");
+            words = "flux";
+            cost = 1250;
             break;
 
         default :

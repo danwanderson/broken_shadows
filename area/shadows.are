@@ -4,39 +4,39 @@
 .
 
         
-                        Implementors 
+                        Implementors [100]
+                        ******************
+                        Rahl  Lisen
+
+                        Creators [99]
+                        *************
+
+                        Supremacies [98]
+                        ****************
+
+                        
+                        Deities [97]
                         ************
-                        Rahl
-
-                        Creators 
-                        ********
-
-                        Supremacies
-                        ***********
-
-                        
-                        Deities
-                        *******
                         
 
-                        Gods
-                        ****
-
-    
-                        Immortals
+                        Gods [96]
                         *********
 
+    
+                        Immortals [95]
+                        **************
 
-                        Demigods
-                        ********
+
+                        Demigods [94]
+                        *************
 
                         
-                        Angels
-                        ******
+                        Angels [93]
+                        ***********
 
 
-                        Avatars
-                        *******
+                        Avatars [92]
+                        ************
 
 ~
  
@@ -102,28 +102,30 @@ Portions from Rom2.4 (c) 1995 Russ Taylor
  |   | |   (   |   <   __/ |   |       | | | | (   | (   | (   |\ \  \ /\__ \ 
 ____/ _|  \___/ _|\_\\___|_|  _| _____/ _| |_|\__,_|\__,_|\___/  \_/\_/ ____/ 
 `w
-(c) 1995-2018 by Daniel Anderson
+(c) 1995-1999 by Daniel Anderson
 
-                           Version 1.9.0 alpha
+                           Version 1.0
                 
+                      Implementors - Rahl, Lisen
+
 
 Welcome -- what is your name? ~
 
 -1 MOTD~ 
 
-Please read `M"help rules"`w. Ignorance is no excuse. Any suggestions are 
+Please read "help rules". Ignorance is no excuse. Any suggestions are 
 welcomed. Have fun!
 
 *****************************************************************************
-`W[Hit Return to continue]`w
+[Hit Return to continue]
 ~ 
  
-1 IMOTD~
+51 IMOTD~
 
-Welcome! Please read `M"help rules"`w, `M"help laws"`w, and `M"help jobs"`w. Failure
+Welcome! Please read "help rules", "help laws", and "help jobs". Failure
 to follow these will result in some sort of disciplinary action.
 
-`W[Hit Return to continue]`w
+[Hit Return to continue]
 ~
 
 0 CLAN CLANS~
@@ -264,10 +266,13 @@ knelt and surrendered.
 Later, a group of people, using the High Priest as spiritual guidance,
 formed what is now known as the `KBlack Rose`w.
 
+The only requirement to join the `KBlack Rose`w is to be above level 10.
+
+The Patron god of the clan is Rahl and the current High Priest is Xanth.
 ~
 
 
-1 JOBS~
+91 JOBS~
 This is a partial list of what a god of any given level should be doing. It is
 not complete yet.
 
@@ -305,7 +310,7 @@ Not fufilling the roles of your office can result in demotion or deletion.
 ~
 
 
-1 COMMANDMENTS LAWS 'GOD RULES' GODS~
+91 COMMANDMENTS LAWS 'GOD RULES' GODS~
 .
                        ***************************
                        **       The Rules       **
@@ -420,6 +425,29 @@ sense (if that fails, ask).
   were spoken/posted by another immortal.
 ~
 
+
+
+-1 NEWS~
+
+No real news at this point.
+
+
+~
+
+-1 STORY~
+
+In the beginning, there was ROM. (Actually, it was in February, but that's
+beside the point) Then, ROM was updated to ROM II, and for a while there
+were two ROMs, separate but not equal.  Sadly, all good things must come to
+an end, and in a mighty flash of write heads, ROM I was taken from this earth.
+Now there is ROM II, the mightier of the two, and many mortals eager to 
+perish in the quest for glory. In further development, ROM II was released.
+
+Then came the EmberMUD team.  
+
+After that, there was a bunch of guys from RIT... That's where we are now...
+~
+
 0 DELETE~
 Use the delete command to erase unwanted characters, so the name will be
 available for use.  This command must be typed twice to delete a character,
@@ -511,7 +539,7 @@ no recall rooms cannot be gated out of.  Finally, any god or hero is also
 immune to gate, as well as in player who has no summon set.
 ~
 
-2 CRITERIA~
+92 CRITERIA~
 The Immortal Criteria 
 
 Immortal players should realize that their immortal powers are a privilege

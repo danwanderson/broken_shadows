@@ -1,0 +1,321 @@
+#AREADATA
+Name        {??-??} Nyobe   Nyobe's area~
+Builders    Nyobe~
+VNUMs       11000 11099
+Security    1
+End
+
+
+
+#MOBILES
+#11000
+Sir George ~
+Sir George the Royal Tailor ~
+Sir George the Royal Tailor is standing here holding a tape measure waiting to take your measurements.
+~
+~
+Human~
+ACVd 0 0 0 S
+0 0 0d0+0 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 1 1000000
+AHMV ABCDEFGHIJK M none
+#0
+
+
+
+#OBJECTS
+#11000
+A Shopping Bag~
+`yA small brown paper bag`w~
+`yA small brown paper bag is sitting here waiting to be filled`w~
+none~
+15 AB A
+BCEH A 0 0 0
+1 2 50
+#11030
+FLUFF~
+a small ball of fluff ~
+A small ball of fluff is fluffing here.~
+none~
+32 ABCPT AO
+0 0 0 0 0
+0 0 0
+#11031
+10 reasons why you shouldnt join strife brochure~
+a very important brochure about the meaning of Strife~
+A brochure explaining why one shouldnt join `RS`wT`RR`WI`RF`WE is sitting here.~
+none~
+13 C AO
+0 0 0 0 0
+0 0 0
+E
+brochure~
+SO you wanna know why you shouldnt join strife? Well let me tell you why.
+1. Baratus
+2. Daeldoln
+3. They have cheezy unimaginatve colors `RS`WT`RR`WI`RF`WE
+4. They do things `RFOR `wnewbies instead of teaching them how to do it themselves
+5. Baratus (again)
+6. They dont stop bugging people about joining their clan. They harp on newbies the second they logon.
+7. They were letting people into the clan that were not the level of the requirements for joining the clan, therfor they have members who arent the right level
+8.THey all have very lame autogratz.
+9. Baratus
+10. If you asked any of the members of STRIFE what strife meant, not one of them would know the actual meaning of the word
+ 
+*this informational brochure was brought to you by `B<`Y*`RC`Gh`Ca`Mo`yS`Y*`B>
+~
+E
+desc~
+~
+#11032
+Chaos Clan Brochure~
+`wA brochure entitled "So, youre thinking of joining the `B<`Y*`RC`Gh`Ca`Mo`yS`Y*`B>`w clan...."~
+`g A `Yvery `B<`Y*`Rc`Gh`Ca`Mo`yt`ci`Rc`Y*`B>`w `mbrochure `Ris `Blaying `Con `wthe `yground `Ghere....~
+none~
+13 0 AO
+0 0 0 0 0
+5 0 0
+E
+brochure~
+`Y IT THE NEW AND IMPROVED CHAOS CLAN!
+`B its better than a new tube of toothpaste!
+`M it wont fry your brain like drugs!
+`R its not as annoying as `WS`RT`WR`RI`WF`RE!
+`BAll you have to do is contact the goddess `M NYOBE
+`C and for 19.99 and yur left leg, YOU CAN BE A MEMBER of the fastest growing clan since Mumahad!
+`yThats right folks, and with this special introductory offer, you will also get...
+your own `B<`Y*`RC`Gh`Ca`Mo`ys`Y*`B> `wflag
+a kewl new channel to talk on
+`w Your own IM A `MCHAOS CLAN MEMBER`w t-shirt
+`Y and MUCH MUCH MORE
+`R just call today, and YOU can be a member of the `B<`Y*`RC`Gh`Ca`MO`ys`Y*`B> `wCLAN!!!!
+`Gthe `B<`Y*`RC`Gh`Ca`MO`ys`Y*`B> `w clan is a trademark of nyobe incorperated, all rights reserved!!!!
+~
+#0
+
+
+
+#ROOMS
+#11000
+The Royal Armor Shoppe~
+This is the Royal Armor Shoppe.  It is run by Sir George, the royal
+tailor.  To your left is all the silver armor, to your right is all the
+gold.  Directly in front of you is a glass showcase containing gauntlets of
+all different shapes Directly in front of you is a glass showcase containing
+gauntlets of all different shapes and sizes.  Behind the counter is a empty
+shelf that you assume contains all the invisible armor.  
+~
+0 263177 1
+D0
+~
+~
+0 0 11001
+S
+#11001
+In front of the Hotel California~
+This is the leather shoppe
+~
+0 0 0
+E
+sign~
+`y -------------------------
+`y |        `MWelecome        `y|
+`y |           `MTo           `y|
+`y |        `MThe Hotel       `y|
+`y |       `MCalifornia       `y|
+`y |       `M                 `y|
+`y =========================
+`y ===========||============
+`y            ||
+`y            ||
+`y            ||
+`y            ||
+`G =========================
+`w
+~
+D2
+~
+~
+0 0 11000
+S
+#11002
+Alasdair's Caffine House~
+This is the Coffee shop
+~
+0 12 0
+S
+#11003
+The bakery~
+This is the bakery
+~
+0 4 0
+E
+list~
+`Y 
+ 
+1 bottle scottish ale ---$4.95
+1 bottle Irish ale ---$4.95
+1 bottle Ginger ale ---$.95
+1 bottle ale ---$2.95
+1 bottle of lager---$2.50
+1 bottle of Russian Vodka---$11.95
+1 tequilia sunrise---$3.00
+~
+S
+#11004
+The Temple~
+This is the Bar
+~
+0 0 0
+D1
+~
+~
+0 0 11005
+S
+#11005
+THE LIBRARY~
+`Y___ ___  ___  ____   ____  ___   ___            `BThis library gives you the 
+  `Y|*| |@|  |=|  |==|   |++|  | |   \S\            `Bcreeps. There is a feeling   
+  `Y|S| |D|__|W|  |C |   | *|  |E|___ \T\            `Bof pure `Revil`B in this room  
+  `Y|P| |E||||I|  | H|   |* |  |A||M|  \A\           `BThe books on the shelf are
+  `Y|E| |A||||T|  |A |   | *|  |R||A|   \R\          `Ball bound in hard dark 
+  `Y|L| |M||||C|  | O|   |* |  |T||G|    \S\         `Bleather and look rather old 
+  `Y|L| |O||||H|  |S |   | *|  |H||I|     \*\         `BThe books all have strange
+  `Y|s| |N||||E|  | @|   |* |  |^||C|      \*\         `Bmarkings on them.
+  `Y|*| |@||||S|  |==|   |++|  |^||=|       \=\         `B
+`y++=============================================++
+`y++=============================================++
+`r*`K(to look at a book type look book)
+~
+0 8388617 0
+E
+book~
+`r As you open the first book you see, you are horrified to see the grotesk images
+within its pages. As you turn the page you see lots of gibberish written below 
+other disgusting pictures and you find yourself wanting to throw the book. At this
+point the book bursts into `RFLAME`r and you drop it. 
+   As the book is hurling to the floor, it dissolves, vanishing into mid-air.
+You better get outta here, and quickly before someone discovers your tampering.
+~
+D3
+~
+~
+0 0 11004
+S
+#11006
+~
+This is McBurgerland
+~
+0 4 0
+S
+#11007
+~
+this is a fashionable clothing establishment
+~
+0 4 0
+S
+#11008
+~
+this is Wands-R-US
+~
+0 4 0
+S
+#11009
+~
+This is Lights Made to order
+~
+0 4 0
+S
+#11010
+~
+this is the pie shoppe
+~
+0 4 0
+S
+#11011
+~
+this is the sword shoppe
+~
+0 4 0
+S
+#11012
+~
+this is the mace shoppe
+~
+0 4 0
+S
+#11013
+~
+this is the Dagger shoppe
+~
+0 4 0
+S
+#11014
+~
+this is the whip shoppe
+~
+0 4 0
+S
+#11015
+~
+this is the ATM machine
+~
+0 4 0
+S
+#11016
+~
+this is the Pet shop
+~
+0 4 0
+S
+#11017
+~
+this is the Hotel de'lavive
+~
+0 4 0
+S
+#11018
+~
+This is the Post Office
+~
+0 4 0
+S
+#11019
+~
+this is WallyMart
+~
+0 4 0
+S
+#11020
+~
+This is a department shop
+~
+0 4 0
+S
+#0
+
+
+
+#RAFFECTS
+#0
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+11000 0 0 0 0 9 50 100 12 12
+0
+
+
+
+#$

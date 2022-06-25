@@ -1,0 +1,5011 @@
+#AREADATA
+Name        {60-90} Kaitlin Castle Sengir~
+Builders    None~
+VNUMs       20100 20299
+Security    9
+End
+
+
+
+#MOBILES
+#20101
+Small Black Bat~
+Small Black Bat~
+The small black bat mesmerizes you with it's wings.
+~
+This "small" black bat has a wing span of about 6 feet. His long, sharp wings 
+tell you quickly how this animal attacks. He is a graceful flier and calms 
+you as you watch him swoop in and out of the trees. His sharp canine teeth 
+points out his love of meat. Obviously a member of the Phyllostomadae.
+
+
+~
+bat~
+AG TVZ 0 -1000 S
+60 450 11d277+1300 100d1+100 6d11+29 0
+-27 -27 -27 -20
+CFHN 0 EGLO CSY
+8 8 1 200
+AGHMVW ABCDEFGHIJKOPUV M none
+#20103
+Ancient Healer~
+Ancient Healer~
+An Ancient Healer fluffs your pillow for you.
+~
+This man's weathered face shows the scars of many hard battles. His long guant fingers have that aura of goodness and you feel comforted by his soft smile. 
+
+~
+Human~
+Aa BDFHNP 0 1000 S
+100 100 1d1+10000 100d100+100 1d1+1 0
+0 0 0 0
+0 ACD 0 0
+8 8 0 0
+ACHMV ABCDEFGHIJK M none
+#20104
+Tickle me~
+Tickle-me-Rahl~
+There is a cute little stuffed creature here.
+~
+This guy is really cute.  He just sits there looking at you with adoring
+eyes.  You want to just wrap your arms around him and drag him everywhere
+you go all day...  Everyday!  Oh well maybe someday you will have your very
+own...  (they are very hard to come by!)  
+~
+Human~
+ABIa S 0 1000 S
+93 100 100d100+100 0d0+0 100d100+100 0
+-50 -50 -50 -50
+0 0 0 0
+8 8 0 50000
+AHMV ABCDEFGHIJK M none
+#20105
+Large Black Bat~
+Large Black Bat~
+The mesmerizing flapping of thie HUGE bat keeps you at ease.
+~
+This is a huge, friendly bat.  He loves you.  You can understand why. 
+You let him eat whatever he wants, which is good because he is a huge bat. 
+I would be thankful that he is on your side.  
+~
+Human~
+AI DFJT 0 200 S
+60 100 1000d1+1000 1d1+99 10d20+10 0
+-10 -10 -10 -2
+DFHMS R D CO
+8 8 0 100
+AHMVW ABCDEFGHIJKO M none
+#20116
+noble guest palace~
+The Noble Guest~
+A Once noble guest floats about this room.
+~
+This man was once a well off individual who was staying as a guest of the
+king himself.  Now he is dressed in tattered burned up clothes.  His nails
+are long and formidable although he doesn't look very aggressive.   
+~
+Human~
+AB Y 0 -300 S
+82 35 11d733+2165 999d1+1 8d14+27 5
+-43 -43 -40 -10
+EN LQ E G
+8 8 1 5000
+AHMV ABCDEFGHIJK M none
+#20137
+royal guard~
+The Royal Guard~
+The Royal Guard of the King of Sengir.
+~
+These are the personal guards of the King's inner sanctum.  These
+guards work 12 hour shifts...  2 at a time.  They (all 4 of them) are 6' to
+6'5", muscular with long blonde hair.  They wear breastplates with crosses
+on them.  They hold traditional swords as weapons and will fight to the
+death.   
+~
+Human~
+AB DFV 0 -100 S
+85 35 12d823+2313 999d1+1 8d15+24 3
+-30 -30 -30 -10
+DET Q G N
+8 8 1 4000
+AHMV ABCDEFGHIJK M none
+#20143
+ghost guard warrior~
+Ghost of a Guard~
+A Ghost of a Guard flys here.
+~
+This poor fellow once protected the very castle in which he still
+haunts.  He was killed in one of the great battles which took this great
+castle.  His arms are badly scarred and his head isn't even attached to his
+body anymore.  You feel sorry for him until he readies his armor for yet
+another battle.   
+~
+Human~
+AB HTU 0 -700 S
+80 18 11d677+100 999d1+1 6d10+22 6
+-30 -25 -30 -1
+FGN 0 CLQ FG
+8 8 0 1000
+AHIMV ABCDEFGHIJK M none
+#20144
+burned shepard man~
+A young shepard~
+A young shepard stands here confused.
+~
+This poor fellow wandered in after the battle he used to trade with the
+good folks that once lived here.  He can no longer understand what is going
+on.  He is now a man without a mind...  A quivering vegetable if you will.  
+~
+Human~
+AB WY 0 500 S
+60 100 11d277+1247 99d1+1 6d11+29 13
+-27 -40 -27 -9
+FI 0 E C
+8 8 1 500
+AHMV ABCDEFGHIJK M none
+#20146
+man noble nobleman dressed~
+Undead Nobleman~
+A man wearing rich noble clothes wanders here.
+~
+This fellow was once a great businessman but he is now reduced to torn
+clothes and no shoes.  He still stands tall and looks like a grand character
+but he no long contols anything.  
+~
+Human~
+A Dc 0 -145 S
+70 100 11d443+1629 999d1+1 7d12+29 0
+-36 -36 -35 -13
+NQ F H I
+8 8 1 5000
+AHMV ABCDEFGHIJK M none
+#20148
+Ancient Citizen~
+The Ancient Citizen~
+The Ancient Citizen threatens you!
+~
+This old man hates everyone who is not like him...  So he attacks.  Born
+in the very olden days...  He is just awful!  
+~
+Human~
+AB HLVa 0 -400 S
+78 100 11d624+1977 999d1+1 7d13+32 18
+-30 -35 -35 -10
+FI 0 EGNQ CI
+8 8 1 6000
+AHMV ABCDEFGHIJK M none
+#20152
+Wretched Hag~
+Wretched Hag~
+The Wretched Hag Brews for you.
+~
+This Horrible old woman stirs her cauldron of ingredients in the hopes of
+creating the ultimate batch.  Her short stature and long raglike clothes
+make you wonder how long she has been here...  Her face is long and thin and
+you think that she is transparent...  
+~
+Human~
+ABGc DJ 0 0 S
+90 30 10d10+10 0d0+0 0d0+0 0
+0 0 0 0
+0 0 0 0
+8 8 2 2000000
+AHIMV ABCDEFGHIJK M none
+#20153
+The Ghostly Forger~
+The Ghostly Forger~
+A ghostly apparation with a hammer is here.
+~
+This poor fellow was a great blacksmith at one time.  His armor was known
+across the lands as the best that can be made.  He now stands in front of
+you as a thin guant creature of the night.  You feel sadness for this poor
+soul, although his wears are still being made even now in his undead form.  
+~
+Human~
+ABGcd D 0 0 S
+93 100 100d100+100 0d0+0 100d100+100 0
+0 0 0 0
+0 0 0 0
+8 8 1 3000000
+AHMV ABCDEFGHIJK M none
+#20154
+illusionist illusion man creater~
+A Master Illusionist~
+A man performs grand illusions here.
+~
+This man is amazing.  He appears as a dragon...  He appears as a
+goblin...  He appears as a dog.  He appears to be many many things.  His
+mastery of this skill is unmatched.  
+~
+Human~
+AB BDHQTV 0 -35 S
+80 100 11d677+2070 999d1+1 8d13+29 8
+-40 -40 -40 -15
+CN 0 FG C
+8 8 1 10000
+AHMV ABCDEFGHIJK M none
+#20155
+Ghostly Wife Woman Armorer's~
+The Ghostly Wife of the Armorer~
+The Armorer's Wife is cleaning up here.
+~
+This is obviouisly the wife of the great armorer.  Her long, dark hair is
+covered by a silver helmet and she is wearing a beautiful silver breastplate
+with a Golden dragon insignia on it.  Her father, the weaponsmith, has
+outfitted this powerful fighter with a silver sword also.  You approach this
+ghostly adversary with caution.  
+-
+~
+Human~
+AGO V 0 -1000 S
+90 100 12d991+2571 300d1+200 10d5+10 0
+-30 -30 -30 -15
+FHIJ OQR EI GH
+8 8 2 7000
+ABHIMV ABCDEFGHIJK M none
+#20156
+huge dragon illusion illusionary~
+The illusionary dragon~
+A Huge Dragon with Large Teeth growls upon your approach.
+~
+This abomination is nearly 20' long and has huge scales as armor.  His
+large teeth are the basis of his attacks and his claws look formidable also.
+~
+snake~
+AB H 0 -100 S
+1 100 99d1+1 99d1+1 9d1+1 3
+-60 -60 -60 -60
+GHM D L CDI
+8 8 1 1
+AGRXYc ADEFKLQVX M none
+#20157
+ancient weaponsmith smith man~
+Ancient Weaponsmith~
+A man who seems older than time shows you his wears.
+~
+His clothes are in immaculate condition.  His nobleman's armor is shined
+to a perfect glint.  He carries a two-handed sword which carries the mark of
+Golden Dragon on it.  His face is grizzled and worn, as if he hs been in
+more battles than days.  He has many nice wares to show you.  
+~
+Human~
+ABd 0 0 1000 S
+93 100 1d1+99 1d1+99 1d1+99 0
+0 0 0 0
+0 0 0 0
+8 8 1 1000000
+AHMV ABCDEFGHIJK M none
+#20158
+silly man ribbons butchered old~
+Butchered Old Man~
+A man stands here, his skin is sliced to ribbons.
+~
+You feel really bad for this man.  He was obviously a victim of the last
+war.  His small store seems to have been right where a grand battle took
+place.  His short stature shows his weight but the most horrific sight is
+his face.  His face has many long gashes in it.  He attempts a weak smile as
+you enter.  
+~
+Human~
+ABd D 0 0 S
+0 100 1d1+99 1d1+99 1d1+99 0
+0 0 0 0
+0 0 0 0
+8 8 0 1000000
+AHMV ABCDEFGHIJK M none
+#20159
+Sengir pet shop~
+Sengir Pet Shop Owner~
+You kind of wonder what kind of salesman would hide his shop...well here he is.
+~
+This little man has all kinds of obscure pets for you to play with.  If
+you had a million gold you could buy a llama or an emu but instead you think
+a more suitable pet would be something with claws.  Anyway this little man
+sticks of manure.  
+~
+Human~
+ABId 0 0 0 S
+93 100 100d100+1000 100d100+100 10d10+100 0
+0 0 0 0
+0 0 0 0
+8 8 1 5000000
+AHMV ABCDEFGHIJK M none
+#20162
+young vampress vampire~
+A Young Vampress~
+An attractive young Vampress is here.
+~
+A woman stands here with an evil grin.  Her whole face is flushed white
+with dark features around the eyes.  Her long black dress touches the ground
+and her hands are soft and comforting.  Her smile reveals perfect white
+teeth and somewhat large canines.  Thus is the plight of the undead.   
+~
+Human~
+AB DFJZc 0 -1000 S
+70 100 11d443+1629 1d1+99 7d12+29 10
+-35 -36 -40 -15
+CFIN ABLOQ 0 N
+8 8 2 5000
+AHIMV ABCDEFGHIJK M none
+#20164
+Pliaaps personal bodyguard body guard~
+Pliaaps the King's personal bodyguard ~
+Pliaaps, the King's personal bodyguard stands beside his King.
+~
+Another man with a look, Pliaaps is about 6'5" with long flowing black
+hair.  His weapon, a polearm has a bright glow from it as does his
+immaculate Battle plate.  A man sworn to protect...  The bodyguard is a
+force to be reckoned with.    
+~
+Human~
+AB DFV 0 -300 S
+90 200 12d991+2571 9999d1+1 8d17+23 3
+-40 -40 -40 -20
+ENQU FG Q HJN
+8 8 1 12000
+AHMV ABCDEFGHIJK M none
+#20165
+partially changed change vampire vampiress~
+A partially changed vampire~
+A partially changed vampire hovers here in between forms.
+~
+This poor soul is halfway in between a bat and a vampire.  It flaps
+here and hovers here not really any one form...  It seems to be stuck.  
+~
+Human~
+ABG Te 0 -500 S
+74 0 11d528+1798 99d1+1 7d13+30 3
+-35 -20 -35 -10
+CHV ILQ 0 H
+8 8 2 1000
+AHMV ABCDEFGHIJK M none
+#20166
+Myramir personal bodyguard guard body~
+Myramir, the King's personal bodyguard~
+Myramir, the King's personal bodyguard stands beside his King.
+~
+This is the king's right hand man.  He stands here with a polearm and a
+look...  A look that says...  DO NOT MESS WITH ME!!!  An extremely tough
+man...   
+~
+Human~
+AB DFV 0 -300 S
+90 150 12d991+2571 999d1+1 8d17+23 18
+-50 -50 -50 -15
+EHKQU C Q G
+8 8 1 5000
+AHMV ABCDEFGHIJK M none
+#20167
+king sengir man~
+The King of Sengir~
+The King of Sengir sits here high atop a golden throne.
+~
+A fair and just ruler for a long long time, the King of Sengir 
+has seen better days.  His fair is long and drawn out although he is still
+many pounds overweight.  There is a look across his face as if he lost it
+long ago.  Although old and probrably just reincarnated from the dead... 
+The King will ALWAYS be a formidable enemy.   
+~
+Human~
+AB DFHPVa 0 -300 S
+100 150 12d1396+3136 9999d1+1 10d20+10 0
+-60 -60 -60 -25
+EHIMOQV ENQ G J
+8 8 1 10000
+AHMV ABCDEFGHIJK M none
+#20170
+Sengir Guard ~
+A Sengir Guard~
+A Sengir Guard who defends to the death, stands here.
+~
+Once a fine fighting guard, this man is now reduced to protecting the
+undead.   His long sword is often drawn as if he is expecting a rush
+anytime.  You feel that he was a great warrior and protector at one time. 
+You feel proud to be in his presence.  
+~
+Human~
+A Kc 0 -1000 S
+85 100 12d823+2325 99d1+1 7d12+30 3
+-35 -45 -30 -20
+JKT AIJLMOPR L GHK
+8 8 1 100
+AHIMV ABCDEFGHIJK M none
+#20177
+Lesser Demon~
+Lesser Demon~
+A small demon flies around here looking for prey.
+~
+This creature has deep red skin and small horns on his fat round face. 
+His wings are a midnight black and the tips are his slashing talons.  He
+looks quite hungry and you probrably shouldn't be here.  I would leave right
+now If I had the opportunity.  
+~
+Human~
+A DPTV 0 -1000 S
+70 150 11d443+1629 1d1+99 7d12+29 3
+-20 -20 -20 -10
+HIM KP E HYZ
+8 8 0 1000
+ACHIMV ABCDEFGHIJKO M none
+#20195
+citizen sengir man~
+A Short Citizen~
+A short citizen mills about here.
+~
+This poor fellow has nothing to do except wander...  You guess that is
+the nature of the undead...  
+~
+Human~
+A V 0 -100 S
+80 100 11d677+2070 99d1+1 8d15+22 0
+-40 -40 -40 -15
+C 0 G 0
+8 8 1 100
+AHMV ABCDEFGHIJK M none
+#20200
+Citizen Sengir ~
+A Citizen of Sengir~
+A Citizen of Sengir wanders around.
+~
+This poor person was once a citizen of the Castle Sengir.  A quick
+glance at this creature shows you nothing but after closer examination you
+realize that this poor being is of the undead variety.  Still it's features
+are in quite good shape considering...   
+~
+Human~
+A UZc 0 -950 S
+80 100 11d677+2070 1d1+99 8d13+25 18
+-30 -40 -50 -15
+HN R LMP KN
+8 8 2 3000
+AHIMV ABCDEFGHIJK M none
+#20202
+lobby attendant porter~
+The Lobby Attendant~
+The lobby attendant sits here counting money.
+~
+This was once a very rich man.  He was the manager of the richest inn in
+the world.  You realize that he could no longer still be living for the time
+of his roam was a long long time before now.  He is wearing a long black
+suit with a top hat...  A very well dressed man.  
+~
+Human~
+ABR NQ 0 -950 S
+77 100 11d599+1931 1000d1+4000 7d13+23 22
+-30 -30 -25 0
+IK Q D C
+8 8 1 2000
+AHIMV ABCDEFGHIJK M none
+#20203
+bard singer sing man dressed wandering minstrel~
+The Wandering Minstrel~
+A nicely dressed man sings a song to the crowd.
+~
+This wandering minstrel still holds a small lute which he strums.  The
+soft melody of his voice soothes and mesmerizes you.  You wonder how anyone
+or anything could hurt a man with a voice as pure and melodious as his. 
+Your thoughts are swept away into the night...   
+~
+Human~
+ABOQ H 0 100 S
+85 50 9d829+2363 99d1+1 8d15+33 19
+-40 -30 -40 -3
+CF NQ I MP
+8 8 1 3000
+AHMV ABCDEFGHIJK M none
+#20204
+big fat cook~
+Big Fat Cook~
+A big fat cook sits here.
+~
+This guy is huge.  He looks like instead of tasting the steak he ate
+the cow.  You notice that his uniform is covered in blood but the only thing
+he carries of worth is his large cleaver.  He has large stains under each
+arm and his breath is hort even for someone who is transparent...  He is
+obviously dead.  
+~
+Human~
+ABGO V 0 -1000 S
+85 200 90d100+4000 99d1+1 8d15+20 21
+-40 -40 -40 -10
+FH AB GIP CF
+8 8 1 1000
+ACHIMV ABCDEFGHIJK M none
+#20206
+Zorvax holy crusader~
+Zorvax the Holy Crusader~
+Zorvax the Holy Crusader stands here
+~
+A Holy crusader from long ago, this ancient warrior stands in front of
+you.  His face is long and guant with long scars down both sides of his worn
+face.  He stands 6 feet tall and his armor is that which only the armorer
+could have made.  His long sword is the product of the other famous man of
+Sengir, the weaponsmith.  Zorvax is the essense of everything that is pure
+and good, and his power shows it.  
+~
+Human~
+ABGH DHJVa 0 1000 S
+100 200 15d1400+3500 1000d1+1000 10d10+100 3
+-25 -25 -25 -10
+CDFHILN ABC G CF
+8 8 1 2000
+AHMV ABCDEFGHIJK M none
+#20214
+key master keymaster~
+The Keymaster~
+The KeyMaster sits here...protecting you from the door.
+~
+This little fellow holds the key which in all actuality protects you
+from the likes of the horrible Beast.  You can't see anything on this guy
+that could hurt you but of course you don't know everytihing.  , Anyway just
+make sure you are ready for the beast before you go charging in there.   
+~
+Human~
+AB V 0 -10000 S
+30 500 10d60+416 10d1+90 10d1+10 19
+-20 -20 -20 -15
+0 C L D
+8 8 0 3000
+AHMV ABCDEFGHIJK M none
+#20215
+The Beast~
+A Horrible Beast~
+A Horrible Beast flys here.
+~
+This horrible beast sits atop his pile of treasure.  The thick scaled
+wings make you think that normal weapons won't hurt him too much.  His large
+head is filled with many rows of razor sharp teeth which slash at cut at you
+as if you are a piece of meat.  The soft glow of his eyes chill you to the
+bone and you wonder if you even have a chance here.  Perhaps you should just
+flee...  No point in worrying about this now.   
+~
+lizard~
+ABF BDFHNQTac 0 -1000 S
+95 400 1000d5+10000 1000d10+1000 9d19+10 3
+-40 -40 -40 -20
+ACIKMNO JKMN DL CI
+8 8 1 9000
+AGXc ABCDEFHKPQV H none
+#20217
+Creature Deep monster~
+The Creature of the Deep~
+The Creature of the Deep crawls here.
+~
+This horrible beast came from the depths of the sewers and now resides
+here in the bottom of the pool waiting for unwelcome visitors to wander down
+to their deaths.  It has many long tentacles with a large maw which drips of
+blood.  You can't see the other side of him although you don't want to get
+anywhere near that huge mouth, full of sharp teeth.   
+~
+Human~
+AB HV 0 -500 S
+73 100 100d100+10 100d1+100 25d2+5 10
+-36 -60 -36 -20
+DIM ABD C 0
+8 8 1 3000
+AHMVX ABCDEFGHIJK M none
+#20224
+undead juggler jug dead~
+An undead JUGGLER~
+An undead JUGGLER entertains here.
+~
+This man stands here juggling small balls.  His eyes are clear and his
+skin is almost transparent it is so white.  His clothes are colorful as is
+his occupation.  
+~
+Human~
+A H 0 -230 S
+75 100 11d551+1842 999d1+1 7d13+31 7
+-30 -20 -15 -10
+CDHJKN Q C EG
+8 8 1 13000
+AHMV ABCDEFGHIJK M none
+#20225
+Palace Royal Guard man~
+Palace Royal Guard~
+A Palace Royal guard stops you here.
+~
+These are the palaces royal guards. They are not to be messed with.
+~
+Human~
+AB HV 0 -10 S
+88 100 12d991+2571 99d1+1 8d16+25 3
+-50 -50 -50 -20
+EIKNOT F C EH
+8 8 1 300
+AHMV ABCDEFGHIJK M none
+#20243
+Maid dead woman~
+The Maid~
+A small woman with a broom stands here swaying...like she is trying to sweep.
+~
+A short fat woman, this lady was a valuable person to have in the house. 
+The floors are clean and well maintained The walls are shiney like they
+should be.  This woman got killed in the melee but i think down deep the
+Vampire Lord is mad that she got killed.   
+~
+Human~
+AF V 0 -200 S
+78 200 11d624+1977 999d1+1 8d13+27 16
+-20 -20 -30 -20
+CN C 0 G
+8 8 2 100
+AHMV ABCDEFGHIJK M none
+#20247
+minion bat~
+Lord's Minion~
+A large bat flaps here...hellbent on serving the Lord.
+~
+These are large bats that serve as the Lord's minions.  These creatures
+are designed to deal lots of damage quickly although they aren't too tough. 
+They have long fangs and breath fire.   
+~
+bat~
+ABF HTVZ 0 -900 S
+80 100 11d600+1800 999d1+1 8d10+20 5
+-18 -18 -15 -2
+AEFH JQ E NS
+8 8 2 1000
+AGW ACDEFHJKP M none
+#20248
+vampire lord man prince undead~
+The Vampire Lord~
+A man with large features stands here with a look in his eye...
+~
+Well this is it...  He is the lord of darkness.  The murderer of
+thousands, the prince of death, or the shredder of peace.  This being is the
+cause of many many deaths including all the deaths involved in the castle. 
+Yes The lord and his minions killed all the people in Sengir...  No one is
+really alive all just ghosts...   
+~
+Human~
+ABF DHJTV 0 -1000 S
+100 300 23d350+3000 19999d1+1 10d20+30 18
+-80 -80 -80 -20
+ABCDEFHIKN ABJLQRS EG N
+8 8 1 3000
+AHMV ABCDEFGHIJK M none
+#20279
+jamison jameson knight first~
+Jamison, First Knight~
+Jamison, the King's First Knight stands here protecting the passage.
+~
+This is a large man dressed in a tight chainmail tunic and no helm. 
+His arms are covered by a thin, paper-like armor which glows a dull blue. 
+His face is grim and he looks about shaking his head in disbelief.  It
+doesn't look like the armies of the undead have found him yet...  If they
+do...   
+~
+Human~
+AB DFHV 0 650 S
+100 200 12d1397+3130 999d1+1 10d19+5 18
+-30 -30 -30 -10
+ACN N Q M
+8 8 1 1000
+AHMV ABCDEFGHIJK M none
+#20281
+Gideon mage~
+Gideon~
+Gideon the mage stands here.
+~
+This is the royal mage.  He stands here conjuring various things.  He
+is strong and very old.  You think twice about messing with him.   
+~
+Human~
+AB HV 0 200 S
+110 400 13d1910+3700 999d1+1 10d20+10 18
+-50 -50 -50 -20
+CN C 0 FG
+8 8 1 2000
+AHMV ABCDEFGHIJK M none
+#20282
+queen regal~
+The Queen of Sengir~
+The Queen sits here on her throne waiting for the threat to subside.
+~
+This is a beautiful woman with a long flowing dress on.  Her weapon of
+choice is a staff with a cross on top of it.  The throne she sits in is well
+made with a high back and gold inlays.  She truely is magnificent and well
+loved.   
+~
+Human~
+AB HV 0 250 S
+90 300 12d991+2600 999d1+1 8d17+23 0
+-40 -40 -40 -20
+CNV AB G E
+8 8 2 2000
+AHMV ABCDEFGHIJK M none
+#0
+
+
+
+#OBJECTS
+#20101
+Kaitlin's Hammer of the Gods~
+a Hammer of the Gods~
+If you find this better sac it or else Kaitlin would be mad!~
+none~
+5 FGHMP ANOPQRSTUVWXYZabcdef
+C BEF CFG BE ACDEHIJKLMNOPQRSTUVWXYZabcdef
+93 1 0
+A
+1 10
+A
+2 10
+A
+4 10
+A
+5 10
+#20102
+Key castle skull engraved~
+a Key engraved with a Skull on it~
+This key is long and truely is a skelton key. The engraved skull creates the shaft for this long, thin key.~
+none~
+18 0 AO
+0 0 0 0 0
+40 0 200
+#20103
+Dominatrix's Whip~
+dominatrix's Whip~
+This Whip is FOR FUN!~
+none~
+13 0 AH
+0 0 0 0 0
+93 0 0
+#20110
+bit bits flesh food~
+some Bits of Flesh~
+There are bits of edible flesh lying here.~
+none~
+19 B A
+CDEGHIK 0 0 0 0
+60 0 10
+#20111
+flesh water bag flask waterbag milk~
+a Flesh Flask~
+There is a human skin flask lying here.~
+none~
+17 0 A
+CFG CFG BD 0 0
+60 10 1000
+#20113
+wash basin washbasin~
+A small washbasin~
+There is a small washbasin with clean water in it~
+none~
+25 A 0
+0 0 0 0 0
+1 1000 100
+#20135
+key inner sanctum~
+A Key to the Inner Sanctum~
+A Key to the Inner Sanctum sits here.~
+none~
+18 AQR A
+0 0 0 0 0
+70 100 10
+#20136
+royal sword ~
+A Royal Sword~
+A Royal Sword rests here.~
+none~
+5 A AN
+A D ACD AB E
+80 10 10000
+#20137
+armor field plate royal~
+Royal Field Plate~
+Royal Field Plate sits here.~
+none~
+9 A AD
+BDE BDE BDE CE 0
+80 35 40000
+A
+17 -20
+A
+18 10
+A
+19 10
+#20144
+shepard cloak robe~
+A torn shepard's cloak~
+A torn shepard's cloak lies in a heap here.~
+none~
+9 A AC
+ABCD ADE ABCD CE 0
+60 2 1000
+A
+1 2
+A
+18 30
+A
+19 -15
+#20145
+shepard staff ~
+A short staff~
+A short staff used to heard sheep is here.~
+none~
+5 0 AN
+AB BC CD 0 0
+60 10 10
+A
+1 2
+A
+18 20
+#20146
+Ancient shield ages age~
+Ancient's Shield of the Ages~
+An Ancient's Shield of the Ages glows here.~
+none~
+9 AB AJ
+CE CE ACDE CE 0
+75 175 10000
+A
+12 65
+A
+13 50
+#20147
+ancient whip egos~
+Ancient's Whip of Egos~
+An Ancient's Whip of Egos is coiled here.~
+none~
+5 A AN
+ABC AD CD BE DE
+72 20 5000
+A
+19 -5
+A
+18 20
+#20148
+small burning candle~
+A small candle~
+A small candle burns and flickers here.~
+none~
+1 AI A
+0 0 10000 0 0
+20 10 10
+A
+18 1
+A
+17 -5
+A
+4 2
+#20152
+Potion of Equality~
+a Potion of Equality~
+A potion that makes life equal...lies here.~
+none~
+10 0 AO
+60 70 502 36 0
+40 1 600
+#20153
+Potion of Mass Healing~
+a Potion of Mass Healing~
+A potion that looks quite healing is here.~
+none~
+10 0 AO
+50 508 508 508 0
+70 20 20000
+#20154
+Light Undead~
+Light of the Undead~
+A Light of the Undead illuminates the room.~
+none~
+1 A AO
+0 0 100000 0 0
+70 15 50000
+A
+17 -20
+A
+1 2
+A
+19 14
+#20155
+Shroud Ghost~
+Shroud of a Ghost~
+The Shroud of a Ghost floats here.~
+none~
+9 AFG AC
+CE ABCD CE CE 0
+75 35 800000
+A
+18 3
+A
+4 1
+A
+19 10
+#20156
+illusionist illusion belt of magic~
+The Master Illusionist's Belt of Magic~
+The Master Illusionist's Belt of Magic is curled up here.~
+none~
+9 AB AK
+BCDE CE BCDE ABCD 0
+78 1 10000
+A
+12 250
+A
+4 3
+A
+19 -5
+A
+18 -5
+#20157
+black sword~
+a Black Long Sword~
+A Black Long Sword is resting here.~
+none~
+5 A AN
+A D CD AB C
+65 10 100000
+A
+19 20
+A
+18 -5
+#20158
+Dragon plate breastplate breast armor silver~
+a Silver Breastplate with a Golden Dragon Insignia~
+A Silver Breastplate with a Golden Dragon Insignia is here~
+none~
+9 AIL AD
+BCDE DF ABF DF 0
+80 30 2000
+A
+17 -30
+#20159
+sword dragon insignia golden silver~
+a Silver Sword with a Golden Dragon Insignia~
+A Silver Sword with a Golden Dragon Insignia rests here.~
+none~
+5 AI AN
+A BD BD AB DE
+70 10 10000
+A
+18 12
+A
+19 10
+#20160
+Axe Golden insignia great~
+a Great Axe with a Golden Insignia~
+A Great Axe with a Golden Insignia is here.~
+none~
+5 0 AN
+AC ABC ABCD ADE D
+70 20 150000
+A
+19 20
+A
+5 3
+#20164
+battle plate mail royal~
+Royal Battle Plate Mail~
+A Suit of Royal Battle Plate Mail rests here.~
+none~
+9 AB AD
+DF DF DF ADE 0
+85 50 1000
+A
+19 -5
+A
+18 2
+A
+12 100
+A
+13 100
+#20166
+royal pole arm polearm~
+A Royal Polearm~
+A Royal Polearm glows softly here.~
+none~
+5 AB AN
+D D CE AB D
+85 25 15000
+A
+19 12
+A
+18 12
+#20167
+king mace sengir~
+The King's Mace~
+The King of Sengir's Mace rests here.~
+none~
+5 BI AN
+C AD BE ABC ACH
+86 40 25000
+A
+19 25
+A
+18 20
+#20176
+Demon's teeth demon tooth~
+Demon's Teeth~
+A Set ofDemon's Teeth are here.~
+none~
+5 0 AN
+0 ABC CD BD D
+70 1 1000
+#20200
+fountain spring sengir water clean~
+Sengir Square Fountain~
+Sengir Square Fountain pours clean water here.~
+none~
+25 AIO 0
+0 0 0 0 0
+1 10 1000
+#20201
+key~
+key to the Table~
+A Key to the Table sits here.~
+none~
+18 FGPQR A
+0 0 0 0 0
+80 1 1
+#20202
+Kaitlin's Long White Robes~
+Long White Robes~
+Kaitlin's Long White Robes~
+none~
+9 F AD
+EGHIJK EGHIJK EGHIJK EGHIJK 0
+95 0 0
+A
+18 300
+A
+19 300
+#20203
+beautiful table dark wood~
+A Beautiful Table~
+A beautiful table made of an dark wood is here.~
+none~
+15 G 0
+DFGHIJ ABCD ADFGHJKLO 0 0
+100 10000 10
+#20204
+fine made mug~
+a Finely Made Mug ~
+A Finely Made Mug is here.~
+none~
+3 FP A
+CFG DFGHIJ DFGHIJ 12 0
+80 20 2000
+#20205
+Large Cleaver~
+a large meat cleaver~
+A large meat clever is here.~
+none~
+5 AI NO
+0 BCDE AB ACE DE
+85 10 1000
+#20206
+cross plate breastplate armor silver~
+A Silver Breastplate with a Golden Cross~
+A Silver Breastplate with a Golden Cross is lying here.~
+none~
+9 AI AD
+BCDE BCDE BCDE BCDE 0
+90 25 20000
+A
+12 100
+A
+13 100
+#20207
+white blade cross golden~
+a White Blade with a Golden Cross~
+A White Blade with a Golden Cross is here.~
+none~
+5 AGIKL AN
+A AD AE AB DE
+90 2 15000
+#20214
+beast glowing key~
+a Glowing key with a Beast on it~
+A Glowing key with a Beast on it is here.~
+none~
+18 ABGIPR AO
+0 0 0 0 0
+90 1 10000
+A
+5 8
+A
+13 200
+#20217
+creature creatures tail~
+The Creatures Tail~
+The Creatures Tail sits here.~
+none~
+9 AI AL
+CE AC AE D 0
+73 8 1000
+A
+5 2
+A
+18 -2
+A
+17 -5
+#20224
+juggler juggler's ball balls~
+A Juggler's ball~
+A Juggler's ball bounces here magically.~
+none~
+5 ABI AN
+0 D BCD BC C
+75 1 1000
+A
+19 20
+#20225
+Gate key~
+Palace Gate Key~
+A Palace Gate Key sits here.~
+none~
+18 A A
+0 0 0 0 0
+60 10 1
+#20243
+broom stick ~
+A Broom~
+A Long Broom with the handle shapened...sits here.~
+none~
+5 A AN
+D D ACD AB E
+70 2 10
+A
+4 -2
+A
+19 -5
+A
+18 20
+#20245
+burning carcass bat~
+The Burning Carcass of a Bat~
+The Burning Carcass of a Bat sits here.~
+none~
+1 A A
+0 0 100000 0 0
+80 5 1000
+A
+17 -20
+A
+19 10
+#20246
+lord blood potion~
+The Lord's Blood~
+A Small Bottle of Reddish Liquid sits here.~
+none~
+10 0 A
+82 517 517 517 0
+80 2 10
+#20248
+lord's wrist cuff cufflink~
+The Lord's Cufflink~
+A shiney cufflink sits here.~
+none~
+9 0 AM
+BD BD BD BD 0
+85 1 1000
+A
+13 100
+A
+19 10
+#20277
+blade jameson hang~
+Jameson's Blade~
+Jameson's Blade just hangs here in mid-air.~
+none~
+5 A AN
+0 BD ACD AB AE
+90 0 1000
+#20278
+painting paint wonderful~
+A Painting~
+A Wonderful Painting is here.~
+none~
+30 0 0
+0 0 0 ABCEFIJKLO 0
+60 0 0
+#20279
+arm plates paper~
+Armplates of the Gods~
+A paper thin set of armplates sits here in a heap.~
+none~
+9 A AI
+CE CE CE CE 0
+90 0 2000
+A
+2 3
+A
+1 3
+#20281
+dress queen~
+The Queen's Dress~
+The Queen's dress sits here in a heap.~
+none~
+9 A AD
+DF DF DF DF 0
+90 1 100
+A
+13 100
+A
+12 100
+#20282
+Queen's staff queen~
+The Queen's Staff~
+The Queen's Staff lays on the ground here.~
+none~
+5 A AN
+0 D BCD ABDE ACH
+90 3 1000
+#0
+
+
+
+#ROOMS
+#20100
+The Forest~
+You are at the edge of the forest.  Ahead of you, behind a wide moat, you
+can see a large fortress.  Whoever lives here must not like visitors much. 
+As you pick your way through the underbrush, the drawbridge opens and a
+rider passes over it, heading for a small path off to your right. 
+Fortunately, he didn't see you.  
+~
+0 4 3
+S
+#20101
+Entrance to Castle Sengir~
+The huge palace is surrounded by a large metal fence.  You pull your
+cloak tighter as the wind picks up.  Looking up you see a large black stone
+palace with five towers, one extending high above the rest.  The gate creaks
+as you go onward on the path.  Looking south you see a path leading away
+from this quite intimidating Castle.  Looking north you see the path, which
+leads to the Castle.   
+~
+0 0 4
+D0
+~
+~
+0 0 20102
+D2
+~
+~
+0 0 9783
+S
+#20102
+The Path Leading to the Castle~
+The path is made up of a hard, packed dirt, although there is no dust. 
+The path leads up to what appears to be two huge doors, several hundred
+yards to the north.  There is a huge hedge to the east and west of you which
+stands around 12' high.  The razor sharp thorns forces you to continue north
+or south.  You think you see a break in the hedge big enough to go through
+to the northeast but you can't be sure.   
+~
+0 0 4
+D0
+~
+~
+0 0 20104
+D1
+~
+~
+7 0 20103
+D2
+~
+~
+0 0 20101
+S
+#20103
+The Alcove~
+The break in the bush offers a small alcove cut into the hedge.  The
+high walls and razor sharp thorns offer you protection from the elements as
+well as black, flying creatures..  The air almost feels warmer here as if
+there is someone wathing over you.  There is a bed here offering a safe
+place to sleep.   
+~
+0 1028 0
+E
+bed~
+The large bed invites you to sleep.  The calming room and gentle touch of
+the healer calls out...  
+~
+D3
+~
+~
+7 0 20102
+S
+#20104
+The Path Outside of the Castle~
+The path continues quite haphazardly in a northern direction.  You can
+barely see for the night?  Is thrust into complete darkness.  You start to
+doubt yourself as you pass the large gates you saw from afar.  You now
+realize that the fence surrounded nothing except a large wall.  The doorway
+is now only a short distance away.  You want to turn around but you trek
+onward...  The wall is now in front of you...  The cold gray stone extend to
+the east and west.  The walls end in high towers on both sides.   
+~
+0 4 4
+D0
+~
+~
+0 0 20140
+D1
+~
+~
+0 0 20125
+D2
+~
+~
+0 0 20102
+D3
+~
+~
+0 0 20120
+S
+#20105
+The Palace Doors~
+You look up at the largest doors you have ever seen.  These 30' high
+doors are as black as the night you just came in on.  The mohogony is
+accented with reinforced iron plates which are, of course, jet-black.  The
+arched doorway is a deep grey stone which extends to the two towers which
+are visible to you from here.  You wonder if you can even open the massive
+doors without an army.  Nevertheless you must try.   
+~
+0 0 0
+D0
+~
+~
+1 20102 20106
+D1
+~
+~
+0 0 20275
+D2
+~
+~
+0 0 20226
+D3
+~
+~
+0 0 20267
+S
+#20106
+The Foyer of the Palace~
+Your light cuts through the darkness producing an ornate foyer.  You
+feel the warmth of the light because the room is brightly decorated.  The
+floor is covered in bright, colorful rugs and the walls are covered with
+painting.  There is a stairway leading up to the next level, although you
+can't see for the lack of light.  The large door remains open behind you and
+there are archways leading to the east and west.   
+~
+0 0 0
+D0
+~
+~
+0 0 20136
+D1
+~
+~
+0 0 20107
+D2
+~
+~
+1 0 20105
+D3
+~
+~
+0 0 20108
+D4
+~
+~
+0 0 20117
+S
+#20107
+Dining Room~
+This huge room is as sterotypical a dining room as it gets.  There is a
+long table in the middle of the room which has chairs on either side.  The
+walls are richly decorated with paintings and tapestries.  The only thing
+that is strange about this room is that the windows are blacked out.  The
+thick layer of dust points out how long this place has been uninhabited for
+a while.  There is still the remains of a long forgotten meal on the table. 
+You start to wonder where the people who were eating it went.   
+~
+0 0 0
+D0
+~
+~
+0 0 20135
+D1
+~
+~
+0 0 20134
+D3
+~
+~
+0 0 20106
+S
+#20108
+Study~
+This elegently decorated room has a soft couch in the middle with a
+single arm chair to it's side.  There is an archway leading back to the
+foyer or there is an archway leading to the north.  The only thing you
+notice about this room is that the windows are blacked out.  You look around
+and think you see some kind of latch or keyhole but you are not sure.   
+~
+0 0 0
+D0
+~
+~
+0 0 20260
+D1
+~
+~
+0 0 20106
+D3
+~
+~
+0 0 20109
+D5
+~
+~
+7 0 20110
+S
+#20109
+Base of the SW Tower~
+This is the bottom of the stair leading up to the top of the SW tower. 
+The stairs are in good condition still with the handrails still intact. 
+There is an archway leading back to the east and up you can see a second
+landing a story or so up.   
+~
+0 0 0
+D1
+~
+~
+0 0 20108
+D4
+~
+~
+0 0 20111
+S
+#20110
+Underground Tunnel~
+You are caught by surprise as you find this secret area.  The entrance
+you just came through is now gone.  The tunnel leads to the south and there
+is,of course, no light to speak of.  A soft breeze startles you as you are
+forced to head into the darkness.   
+~
+0 0 0
+D4
+~
+~
+7 0 20108
+S
+#20111
+Second Floor of the SW Tower~
+This is the second level of the SW tower.  There is an archway leading
+back to the east and there are still several floors above you.  There is a
+small opening, like an arrow slit here and you look out upon the southern
+courtyards of the palace.  The floor here is clean and there is even a faint
+glow coming from the tile which makes up the floor and walls.   
+~
+0 0 0
+D1
+~
+~
+0 0 20112
+D4
+~
+~
+0 0 20276
+D5
+~
+~
+0 0 20109
+S
+#20112
+East/West Hallway~
+This is the hallway which links the SE tower with the SW tower.  It has
+many furs covering the cold tile and there is a large tapestry here.  There
+is a door leading north into a bedroom and to the east you see a stairwell
+off in the hall.  There is a tower to the west.   
+~
+0 0 0
+E
+tapestry~
+This ornate tapestry depicts a large number of undead and demons lying
+siege to the castle and the palace.  There are flames and fire everywhere
+with people lying dead or dying.   
+~
+D0
+~
+~
+1 0 20113
+D1
+~
+~
+0 0 20114
+D3
+~
+~
+0 0 20111
+S
+#20113
+Eastern Guest Bedroom~
+This is one of the many guest bedrooms of the palace.  It is still in
+good condition with a large canopy bed in the middle of the room.  To the
+south is the door which lead into here.  There is a small washbasin where
+the people staying here could freshen up.  The ceiling is pretty high with a
+nice drawing on it.   
+~
+0 0 0
+D2
+~
+~
+1 0 20112
+S
+#20114
+East/West Hallway~
+Another part of the hallway.  There isn't anything of interest here
+except for the door leading to the north.  There isn't any fur covering the
+tile here and you can feel the cool draft whipping up through the hall.   
+~
+0 0 0
+D0
+~
+~
+1 0 20115
+D1
+~
+~
+0 0 20117
+D3
+~
+~
+0 0 20112
+S
+#20115
+Guest Bedroom~
+This is one of the nicer guest bedrooms.  The canopy bed is in perfect
+condition and The drawing on the ceiling depicts a battle where many many
+humans died.  There is a small desk here and there is also a dresser.  There
+isn't anything of interest in them though.  To the south is the hallway and
+to the east is a small washroom.   
+~
+0 0 0
+D1
+~
+~
+1 0 20116
+D2
+~
+~
+1 0 20114
+S
+#20116
+Small Washroom~
+There is a small washbasin here and there is a hole which looks to be
+some sort of urinal facility.  There is a door leading back to the east. 
+There is a contraption which looks like a fireplace.  You realize that it
+was used to heat the water for baths which took place in the huge cast-iron
+tub.   
+~
+0 0 0
+D3
+~
+~
+1 0 20115
+S
+#20117
+Middle of the Second Floor~
+This is where the stairwell leads down to the first floor.  There is
+another hallway leading north and to the east and west are halls leading to
+the towers.  The little foyer is down below you and you can see it off of a
+little balcony.  The floor is covered here with more furs and this was once
+an unbelievable view.   
+~
+0 0 0
+D0
+~
+~
+0 0 20227
+D1
+~
+~
+0 0 20118
+D3
+~
+~
+0 0 20114
+D5
+~
+~
+0 0 20106
+S
+#20118
+East/West Hallway~
+This is a small hallway that leads from the SW tower to the SE tower. 
+There is a small door leading to the north which appears to be a guest
+bedroom.  To the east is the SE tower and to the west is more hallway
+leading to the SW tower.  There isn't anything of interest otherwise.   
+~
+0 0 0
+D0
+~
+~
+1 0 20119
+D1
+~
+~
+0 0 20131
+D3
+~
+~
+0 0 20117
+S
+#20119
+A Guest Bedroom~
+Another nice, large guest bedroom, this room has a bed right in the
+middle of the room.  There is a small wash basin for cleaning up and there
+is a fireplace to heat the room.  The floor is cold tile and there is no
+place to put any type of clothing at all.  Back to the south is the hallway.
+> 
+~
+0 0 0
+D2
+~
+~
+1 0 20118
+S
+#20120
+Outside Northwest Wall~
+The high gray walls stand about 30' high.  The smooth rock makes
+climbing impossible although a magical being could perhaps fly up to the
+battlements.  The path leads back to the front of the castle and to the west
+to the corner of the wall.   
+~
+0 0 0
+D1
+~
+~
+0 0 20104
+D3
+~
+~
+0 0 20121
+D4
+~
+~
+0 0 20130
+S
+#20121
+The NW Tower Outside the Castle~
+The tall, thin tower rises up out of the dark soil.  It is almost 70'
+tall with what seems to be a small guard room on the top.  A single blacked
+out window faces this northerly direction.  The path returns you to the
+front entrance to the east and around to the western wall to the north.   
+~
+0 0 0
+D0
+~
+~
+0 0 20122
+D1
+~
+~
+0 0 20120
+S
+#20122
+Outside the Western Wall~
+This wall has long black streaks down it.  The streaks were obviously
+oil being poured down them in the effort of protection these once sacred
+walls.  The ground is still covered in gray earth which compliments the dark
+gray stone of the wall.  The path leads south and north.   
+~
+0 0 0
+D0
+~
+~
+0 0 20123
+D2
+~
+~
+0 0 20121
+S
+#20123
+The SE Tower Outside the Castle~
+As with the other towers, this one has a single blacked out window
+facing the south.  The high tower walls are clean and the gray rock seems
+bleached by the sun.  The smooth rock reflects the dim sunlight and you can
+barely see the top of this tower.  To the east you see a thin trail leading
+to the north wall and to the south is the western wall.   
+~
+0 0 0
+D1
+~
+~
+0 0 20124
+D2
+~
+~
+0 0 20122
+S
+#20124
+Outside the Southern Wall~
+You wonder why this castle wasn't equiped with a "backdoor" until you
+take a peek over the cliff to the south.  The castle's walls are still
+heavily stained with oil and tar stains as well as bits of armor strewn
+about the thin path leading off in both directions.  The south is a cliff,
+the north is the castle, the west is a path, and the east is a path.   
+~
+0 0 0
+D1
+~
+~
+0 0 20126
+D3
+~
+~
+0 0 20123
+S
+#20125
+The NE Tower Outisde the Castle~
+This wall rises up out of the landscape posing an inpenetrable boundry
+to the south.  There is great staining and burn scars all along the wall. 
+This was obviously a key position for the battle that conquered this realm. 
+A pile of rubble lies to the east and blocks the path to the SE tower.  A
+path returns you to the front gate.   
+~
+0 0 0
+D0
+~
+~
+0 0 20127
+D3
+~
+~
+0 0 20104
+S
+#20126
+The SE Tower Outside the Castle~
+You stand at the base of a huge tower.  The base of a cliff is directly
+behind you.  The long smooth stone wall runs to the south and to the west. 
+Your mind starts to wander as you walk along the wall but as you turn the
+tight corner onto the eastern half of the castle a strong gust of wind
+almost blows you off the ground.  You crouch down and pull your cloak
+tighter just knowing it is going to be a long night...   
+~
+0 0 0
+D2
+~
+~
+0 0 20127
+D3
+~
+~
+0 0 20124
+S
+#20127
+Outside the Eastern Wall~
+The light shines off of the tall gray wall.  You notice that each brick
+is set into the wall almost perfectly.  The path is only a few meters wide
+and there is a sheer cliff opposite the great wall.  The cliff drops several
+dozen feet and ends in a small patch of stalagmites.  The path leads north
+and south, there is no way down the cliff.   
+~
+0 0 0
+D0
+~
+~
+0 0 20126
+D2
+~
+~
+0 0 20125
+S
+#20128
+Far Northern Navigator Way~
+This is the last block to the north before the palace fence.  The
+southern wall is far to the south, perhaps 6 city blocks with intersections
+along the way.  There is the high castle wall to the east and to the west is
+a small shop...  You are not sure what kind.  This part of town is still
+pretty busy although you are not sure why.   
+~
+0 0 0
+D0
+~
+~
+0 0 20129
+D2
+~
+~
+0 0 20154
+S
+#20129
+End of Navigator Way~
+The huge palace fence sits in front of you.  There is a tower above you
+with guards sitting in them looking down across the castle.  To the east is
+the gate leading into the palace, complete with guards and outposts.  To the
+south continues the way and you can see many people in the distance.   
+~
+0 0 0
+D2
+~
+~
+0 0 20128
+D3
+~
+~
+0 0 20224
+S
+#20130
+Flying in Front of Castle Sengir~
+You are flying up to the battlements.  The cool air refreshes you as you
+glide up the smooth rock.  You are almost atop the 30' wall.   Better
+watch out.  There may be guards.  
+~
+0 0 9
+D5
+~
+~
+0 0 20120
+S
+#20131
+Eastern Part of the East/West Hallway~
+This is the farthest east in the hallway.  The only thing left to the
+east is a tower which would be the SE tower.  To the north is a small door
+leading to a guest bedroom.  To the west is the hallway leading off to the
+SW tower.  The floor is cold and the hall has a terrific breeze, which is
+cold...  Very cold.   
+~
+0 0 0
+D0
+~
+~
+1 0 20132
+D1
+~
+~
+0 0 20133
+D3
+~
+~
+0 0 20118
+S
+#20132
+A Small Guest Bedroom~
+This is by far the smallest of the guest bedrooms.  There is only a
+single bed and it is not too ornate.  There are large burn marks across the
+middle of the room and were there was once a tapestry there is nothing but a
+pile of ash.  To the south is the hallway.   
+~
+0 0 0
+D2
+~
+~
+1 0 20131
+S
+#20133
+Second Level of the SE Tower~
+This is just another level of the tower.  To the west is the hallway
+which links the two corner towers.  The tower is still in good condition
+considering the fierce battles that took place here.  The stairs lead both
+up and down.   
+~
+0 0 0
+D3
+~
+~
+0 0 20131
+D4
+~
+~
+0 0 20277
+D5
+~
+~
+0 0 20134
+S
+#20134
+First Floor of the SE Tower~
+This is the first floor of the SE tower.  There is an archway leading
+west and stairs leading up into darkness.  The floor isn't covered and the
+walls are nothing except bare stone.  The stairs are made of chipped up
+marble although they were once very beautiful.   
+~
+0 0 0
+D3
+~
+~
+0 0 20107
+D4
+~
+~
+0 0 20133
+S
+#20135
+Kitchen of the Palace~
+This is the large kitchen that serves as the food providor of the whole
+palace.  There are little slaves that run around making all the delicious
+food that is served(or was served) here.  The kitchen table has scraps of
+human flesh strewn about it.  The floor is a bloody mess with dirt caked in
+amoungst the blood.  To the south is the dining room.   
+~
+0 0 0
+D0
+~
+~
+0 0 20261
+D2
+~
+~
+0 0 20107
+S
+#20136
+Hall Leading to the Inner Rooms of the Palace~
+This is the hall that leads from the foyer to the inner sanctum of the
+palace.  This sanctum is where the throne room and the private quarters of
+the king is...  Or was.  The hall is in pristene condition with polished
+walls and floors.  The tile is even kept warm here by some unknown source. 
+To the south is the foyer, to the north the sanctum.  The sun slowly
+disappears in the west.   
+~
+0 0 0
+D0
+~
+~
+0 0 20137
+D2
+~
+~
+0 0 20106
+S
+#20137
+Guard Station before the Inner Sanctum~
+This is the guard station checking for would be assassins.  These are
+part of the King's high guard and are second in power only to the king's
+personal bodyguard.  The station includes four bunks for the rotating guard.
+To the east is the bunkhouse proper and through the portugulus to the north
+is the Hall of Kings.   
+~
+0 0 0
+D0
+~
+~
+6 20135 20139
+D1
+~
+~
+0 0 20138
+D2
+~
+~
+0 0 20136
+S
+#20138
+Bunkhouse of the Inner Sanctum~
+This is where the guards sleep.  Although simply decorated with various
+pictures of the guard's families, there is a certain amount of class
+conveyed here.  There are four simple beds with four footlockers.  There is
+nothing of interest upon examination though.   
+~
+0 0 0
+D3
+~
+~
+0 0 20137
+S
+#20139
+Hall of Kings~
+This is the Hall where the King himself rules from.  The hall itself is
+about 100 feet long with huge pillars and ornate ornamentations all about
+the hall.  The pillars reach to the top of the high ceiling with torches
+lighting the marble and gold detail work.  To the north is far more hall
+until in the distance you can see a large golden throne with a big man
+sitting in the throne.  The man is flanked by two big armored men wielding
+polearms.   
+~
+0 0 0
+D0
+~
+~
+0 0 20166
+D2
+~
+~
+6 0 20137
+S
+#20140
+Front Portulagus of Castle Sengir~
+The front of the castle has old banners hanging from the battlements. 
+The dark gray stone has stains of oil and blood as it looks to have been the
+home of a great battle not to far in the past.  The arrow slits are still
+wide open and you are quite fearful that an arrow could still exit the small
+opening.  The huge grate is raised and you just know that you shouldn't
+continue much farther but something drives you onward.  There are two small
+guard rooms on either side of the grate as you walk into the castle.   
+~
+0 0 0
+D0
+~
+~
+0 0 20150
+D1
+~
+~
+0 0 20142
+D2
+~
+~
+0 0 20104
+D3
+~
+~
+0 0 20141
+S
+#20141
+Western Guard Station~
+This is just a normal guard room.  There is a small empty table sitting
+in the middle of the room.  There are playing cards scattered all about the
+room.  The chairs that once accompanied the table are now smashed into
+splinters and you think that something strong must have done the damage. 
+The only exit is to the west and even after searching the room you realize
+that there are no other exits but west.   
+~
+0 0 0
+D1
+~
+~
+0 0 20140
+S
+#20142
+Eastern Guard Station~
+This is the small room in which the castle guards monitor the people
+who enter and exit the castle.  The room has a large table covered in
+interesting documents which you think may be worth looking at.  The weapon
+rack sitting beside the door is empty as is the stand for the guard's armor.
+There is a door leading to the east which you suppose is a place where the
+guards sleep.  To the west is the castle gate, which stands open.   
+~
+0 4 0
+E
+documents~
+These are the official papers of the castle.  These were the names and
+ranks of the fallen soldiers.  There is little left on them that you can
+read for they have been stained with a thick coating of blood.   
+~
+E
+document~
+These are the official papers of the castle.  These were the names and
+ranks of the fallen soldiers.  There is little left on them that you can
+read for they have been stained with a thick coating of blood.   
+~
+E
+record~
+Log of the Month of Futility
+1st-Small Raid on Castle 3 human casualties 12 enemy casualties(orc)
+6th-Large raid 24 human casualties 83 enemy casualties(zombies)
+9th-Small raid on castle 0 human casualties 10 enemy (human raiders)
+10th-large raid 10 human casualties 121 enemy (skeletons)
+16th-Huge raid 21 human casualties 221 enemy casualties (skeletons)
+17th-Small raid 0 human casualties 9 enemy 1 known flee (dark elves)
+18th-large raid 11 human casualties 33 enemy casualties (skeletons)
+30th-Giagantic raid 81 human casualties 442 known enemy casualties...(zombies)
+Comments: The raids are coming more and more frequently. I am not afraid to die but I fear for my life. I hope the best for the castle and for Lord Sengir. God bless all that protect it.
+~
+E
+record~
+~
+E
+books~
+This is a record of all the wars that took place in this castle up
+until the castle was overtaken a couple of weeks into the war.  The books
+are in great condition and it seems that whoever took the castle either
+wanted these records to be seen or they didn't know what they were. 
+Nevertheless these books are very interesting even if not valuable.  You are
+quite sure that they are safer here than on your person so you leave them
+here.  
+~
+E
+book~
+This is a record of all the wars that took place in this castle up
+until the castle was overtaken a couple of weeks into the war.  The books
+are in great condition and it seems that whoever took the castle either
+wanted these records to be seen or they didn't know what they were. 
+Nevertheless these books are very interesting even if not valuable.  You are
+quite sure that they are safer here than on your person so you leave them
+here.  
+~
+E
+table~
+The table is covered in books and documents you should look at.  
+~
+D1
+~
+~
+0 0 20143
+D3
+~
+~
+0 0 20140
+S
+#20143
+Guard Sleeping Quarters~
+This is where the guards sleep when they are not on duty.  You are
+quite sure that these beds are not standard issue.  The long beds are
+covered in a soft quilt.  The normal millitary quarters have been taken over
+by someone or something else.  You start to wonder who would try to
+transform normal quarters into someplace nice.  Do not make a rash decision.
+ 
+~
+0 0 0
+D3
+~
+~
+0 0 20142
+S
+#20144
+Eastern Innes Street~
+The sky seems more clear here as you stray from the center of the
+castle.  The clouds are thin and raspy with dark tints beside the fluff. 
+The street itself is well traveled and there are many hoofprints along this
+path.  To the north is a small garden with hanging plants.  The garden seems
+pleasent enough until you realize that this has been the only plantlife
+short of the grass.  To the south is an old burned down warehouse. 
+Continuing to the east is a north/south intersection.   
+~
+0 0 0
+D1
+~
+~
+0 0 20145
+D3
+~
+~
+0 0 20198
+S
+#20145
+Corner of Navigator and Innes Streets~
+Here is where two of the largest streets run together beside the
+Eastern Wall.  The corner is busy and there are many people milling about. 
+To the south is the SE tower and to the north is the palace fence a couple
+of blocks up.  Back to the east is the center square of the castle.  There
+is an unusually pleasant odor in the air...  It doesn't even smell like
+burning flesh anymore.   
+~
+0 0 0
+D0
+~
+~
+0 0 20154
+D2
+~
+~
+0 0 20147
+D3
+~
+~
+0 0 20144
+S
+#20146
+Southern Navigator Way~
+This is the eastern most north/south road in the castle proper.  This
+road links the palace fence with the SE tower.  To the east is the Central
+Courtyard and to the north are some houses then ultimitely the palace.  The
+high wall that protects the Castle is to the east.   
+~
+0 0 0
+D0
+~
+~
+0 0 20147
+D2
+~
+~
+0 0 20190
+S
+#20147
+Navigator Way~
+This is a normal road in the Castle.  There is a small house to the
+east and a burned out house to the west.  The ground here is soft and
+exposed, turned up by something large.  To the north continues the road
+leading to the palace fence and to the south is the courtyard.  Perhaps an
+examination of the eastern house would be appropriate.   
+~
+0 0 0
+D0
+~
+~
+0 0 20145
+D1
+~
+~
+1 0 20148
+D2
+~
+~
+0 0 20146
+S
+#20148
+Small House~
+This is the ground floor of a small house.  There are stairs that lead
+up into another level.  Here the once elegant hardwood floors were scratched
+beyond repair by some sort of claw or claws.  The furniture has been moved
+around and sits in a somewhat orderly fashion around a single burning
+candle.  The small candle burns without heat and without wax.  To the west
+is the exit to the house.   
+~
+0 0 0
+D3
+~
+~
+1 0 20147
+D4
+~
+~
+0 0 20149
+S
+#20149
+Second Floor of Small House~
+This is the small upstairs loft of the small house.  There isn't any
+furniture left here although there is a small washbasin.  From the southern
+window you can see across the southern half of the castle and off into the
+deep fog just outside of the castle.  You see the guards below and the small
+citizens from here.  Down is the first, main floor, of the house.   
+~
+0 0 0
+D5
+~
+~
+0 0 20148
+S
+#20150
+Central Courtyard~
+As you walk into this massive fortress you realize that there is a
+smaller palace within the main walls.  There is a path leading to the west
+and to the east.  These paths lead to what look to be old stores and other
+streets.  The main road leads straight ahead and toward the Palace of
+Sengir.  There are human remains scattered around the castle.  You surge
+forward.   
+~
+0 0 0
+D0
+~
+~
+0 0 20151
+D1
+~
+~
+0 0 20190
+D2
+~
+~
+0 0 20140
+D3
+~
+~
+0 0 20170
+S
+#20151
+Sengir Street~
+This was the main street within the Castle.  To the west is an old
+magic shop.  To the east is an old armor shop.  The ground is a hard packed
+dirt and the shops are made of the same gray stone of the castle.  Some of
+the shops along the way do have second floors but you wonder if the floors
+could hold your weight anyway.  The palace lies to the north, and is looking
+quite interesting.   
+~
+0 0 0
+D0
+~
+~
+0 0 20161
+D1
+~
+~
+0 0 20153
+D2
+~
+~
+0 0 20150
+D3
+~
+~
+0 0 20152
+S
+#20152
+The Magical Hack~
+This room is filled with small vials and scrolls.  There was once a
+second floor but it was lost in some sort of battle long ago.  You think
+that you could maybe get up there...  But you decide the risk is not worth
+it as you start up the rubble.  There are no exits from the room except for
+the door to the west.   
+~
+0 0 0
+D1
+~
+~
+0 0 20151
+S
+#20153
+The Magical Anvil~
+Armor and shields lay strewn around the ground as you enter this small
+shop.  There is a huge anvil in the middle of the room, obviously used to
+forge protective plates and shields.  There is an upstairs to this place and
+it seems that it could support your weight.  The only exit is to the west. 
+Or of course you could to climb up the rubble.   
+~
+0 0 0
+E
+rubble~
+A huge pile of covers a small trapdoor leading up into a second level.  
+~
+D3
+~
+~
+0 0 20151
+D4
+~
+~
+7 0 20155
+S
+#20154
+Northern Navigator Way~
+You are approaching the palace fence.  It rises up in front of you like
+a huge tower...  Which makes you realize that it IS a tower in front of you.
+To the north continues Navigator Way and to the south is the intersection
+leading to the square.  There is a large wall to the east and a burned out
+house to your east.   
+~
+0 0 0
+D0
+~
+~
+0 0 20128
+D2
+~
+~
+0 0 20145
+S
+#20155
+The Blacksmith's Abode~
+This is what is left of the armorer's house.  You wonder if he was
+married and if he had kids.  The small four room area has no doors left and
+the whole area can be searched in a matter of seconds.  The rest of the
+apartment has little left in it except for the human remains of a young
+person.   
+~
+0 0 0
+D5
+~
+~
+7 0 20153
+S
+#20156
+Sengir Street~
+The street contiunues on toward the palace.  The shops are in the same
+bad condition as the shops on the first half of the street.  The hard packed
+dirt kicks up dust as you walk.  To the east you see an old weaponsmiths
+shop and to the west you see an old general store.  The south leads you back
+to the front gate and the north takes you toward the magnificant palace. 
+The tower that was so visible through the midnight black sky is now directly
+in front of you.  It extends over a 100' high and is decorated with gold
+trim on a dark stone foundation.  It is a work of art.   
+~
+0 0 0
+D0
+~
+~
+0 0 20192
+D1
+~
+~
+0 0 20157
+D2
+~
+~
+0 0 20161
+D3
+~
+~
+0 0 20158
+S
+#20157
+Cutting Stone~
+The walls are covered in beautiful creations of the anvil.  There are
+sharp edged swords, axes, and daggers everywhere.  The quality of
+workmanship is unmatched in all of your travels.  The prices of the items
+show you why.  Nevertheless, this room is in excellent condition even
+through the war that this part of town endured.  The silver blades shine
+even today.   
+~
+0 0 0
+D3
+~
+~
+0 0 20156
+S
+#20158
+Wares of the Average Man~
+This seems to be a simple enough room.  There are old flasks and skins
+hanging from the walls.  There is also a counter with what look to be some
+sort of vegetable soaked in some sort of preservative.  They look really
+good.  Other than that this room is pretty PLAIN.   
+~
+0 0 0
+E
+plain~
+Plain Hmm...  Maybe too plain...  I would look around a bit more.  
+~
+D1
+~
+~
+0 0 20156
+D3
+~
+~
+7 0 20159
+S
+#20159
+The Hidden Pet Shop of Sengir~
+This is a completely hidden room.  You would never have thought it here. 
+It is hidden in a tiny little niche in the wall.  Oh well you can still buy
+a pet from here.  There may be a nice one for you to use.  It is always nice
+to have a companion.  
+~
+0 4096 0
+D1
+~
+~
+7 0 20158
+S
+#20160
+Pet Storeroom :)~
+~
+0 1057796 0
+S
+#20161
+Sengir Street~
+This is the same road as before.  Here there are houses in between a
+line of shops.  The area isn't as badly damaged as the surrounding area. 
+You can still make out some of the signs that are still in the ground here. 
+You can continue north toward the palace or to the south toward the front of
+the castle.  The houses to the east and west look appealing also.   
+~
+0 0 0
+E
+sign~
+These houses belong to the rich of the town.  You could gain access to a
+tour...  If you had a key.  You notice a small insignia on the sign that
+resembles a key with a skull engraved on it.  You wonder what could be
+hidden behind such thick doors.  
+~
+E
+signs~
+These houses belong to the rich of the town.  You could gain access to a
+tour if you had a key...  You notice a small insignia on the sign that
+resembles a key with a skull engraved on it.  You wonder what could be
+hidden behind such thick doors...  
+~
+D0
+~
+~
+0 0 20156
+D1
+~
+~
+1 20102 20163
+D2
+~
+~
+0 0 20151
+D3
+~
+~
+1 20102 20162
+S
+#20162
+Sengir Noble House~
+Although quite similar to the house across the street in size and
+appearance, this house has been almost destroyed.  The stairs have been
+reduced to rubble and the furniture could be mistaken for matchsticks.  You
+rumage through what you can and you still can't find anything of value.  The
+only place to go is back out the door you came in.   
+~
+0 0 0
+D1
+~
+~
+1 0 20161
+S
+#20163
+Sengir Noble House~
+This house has been untouched.  There are still vases perched up on a
+shelf with an inch thick layer of dust on it.  You notice a second level to
+this building and consider staggering up them.  You see that there is nice
+furniture throughout the lower level and wonder who owned this house.  The
+door behind you takes you to the street and the beautifully forged steps
+will take you to the second floor.   
+~
+0 0 0
+D3
+~
+~
+1 0 20161
+D4
+~
+~
+0 0 20164
+S
+#20164
+Upstairs of Sengir House~
+This floor is in as good of condition as the first floor was.  The soft
+carpeting of the floor makes you realize that this ws once owned by a
+nobleman of Sengir.  The rooms are all opened as there are no doors.  The
+clock still ticks even today.  The only exit is back down the steps.  As far
+as you can tell the only thing bizarre about this room is that the windows
+are blacked out and the bed has been replaced by four small coffins.  You
+wonder why there would be coffins in a house...   
+~
+0 0 0
+D1
+~
+~
+0 0 20165
+D5
+~
+~
+0 0 20163
+S
+#20165
+Bedroom of Sengir House~
+This is an ornate room in the back of the house.  This is where the
+coffins are.  You examine the coffins and notice that they are clean and
+have been used?  Recently.  You again notice that there are no windows and
+the rooms are completely dark.  The stairs are to the west.   
+~
+0 0 0
+D3
+~
+~
+0 0 20164
+S
+#20166
+Hall of Kings~
+The throne is only a dozen feet away and you already feel the sheer
+power radiating from it.  You start to realize that the king was a kind and
+just ruler and was heartlessly slain by the undead that now control his
+kingdom.  The hall is still immaculate and you can see your reflection in
+the highly polished marble pillars.  To the south is more of the hall
+including the rest of the palace.  To the north is the precious throne.   
+~
+0 0 0
+D0
+~
+~
+0 0 20167
+D2
+~
+~
+0 0 20139
+S
+#20167
+Hall of Kings~
+Here you stand in front of the mighty King of Sengir.  The floor is
+scattered with rose petals and there are feight signs of burns across the
+floor.  The King's bodyguards stand, one on each side, with grim looks
+across there gentle faces.  The throne itself is 9 feet tall with solid gold
+posts and a leather based chair.  There are passages going to the east and
+west here.   
+~
+0 0 0
+D1
+~
+~
+0 0 20179
+D2
+~
+~
+0 0 20166
+D3
+~
+~
+0 0 20168
+S
+#20168
+Western Antechambers~
+Another of the King's chambers, this room sits mostly empty except for
+the rug on the ground.  This room was once richly decorated but now it sits
+without much in it.  To the east is the Throne room.  In the northern wall
+is an archway which leads off into another group of chambers.   
+~
+0 0 0
+D0
+~
+~
+0 0 20278
+D1
+~
+~
+0 0 20167
+S
+#20170
+Western Courtyard of Castle Sengir~
+Here is where the largest battle of the town was fought.  The southern
+wall been damaged and the ground is still scorched.  The SW guard tower is
+to the west or south of you here.  It rises many feet above you.  Winkle
+street is directly north of you and the entrence to the Castle is to the
+east.  There are areas of absolute armaggedon and then areas untouched by
+anything.  You wonder why.   
+~
+0 0 0
+D0
+~
+~
+0 0 20223
+D1
+~
+~
+0 0 20150
+D2
+~
+~
+0 0 20171
+D3
+~
+~
+0 0 20171
+S
+#20171
+Bottom Floor of the SW Tower~
+This is the lowest level of the SW guard tower.  There is a small table
+here for the off duty guards and there are a few small, now empty, quarters.
+The dust is thick as there is little going on in these towers anymore. 
+These were once the second line of defense for the Castle.  The guards used
+to flood out of the towers and annihilate anything in there way...  Course
+that was the past.   
+~
+0 0 0
+D0
+~
+~
+0 0 20170
+D1
+~
+~
+0 0 20170
+D4
+~
+~
+0 0 20172
+S
+#20172
+Second level of SW Tower~
+This is the battlement level of the tower.  The battlements go to the
+south and west.  The long spiral stairs continue up or down.  This room is
+small and has little of importance.  There is an empty weapons rack here. 
+Many arrows and arrow slits line the walls as do fire pits for the hot oil
+cualdrons.   
+~
+0 0 0
+D0
+~
+~
+0 0 20180
+D1
+~
+~
+0 0 20174
+D4
+~
+~
+0 0 20173
+D5
+~
+~
+0 0 20171
+S
+#20173
+Top of SW Tower~
+This is the top of the tower.  You could see for miles from up here
+were it not for the thick fog that envelops the land.  This was a marksmans'
+spot for shooting down raiders and invaders so there are many broken bow
+strings and such littering the cold stone floor.  The tower is well
+protected as it is some 50' tall and has stone walls protecting it.  To the
+north you can make out parts of the small Sengir town along with the ornate
+Palace in the north part of town.   
+~
+0 0 0
+D5
+~
+~
+0 0 20172
+S
+#20174
+Southern Battlements~
+This level runs right behind the huge front wall of the castle.  This
+is where the arrows and the oil are released from.  The huge cualdrons are
+still filled with oil.  The quivers still sit leaning against the wall where
+they are still filled with dozens of arrows.  There are several sets of
+remains laying strewn about here.  The battlement leads to the SE and the SW
+towers in there respective directions.   
+~
+0 0 0
+D1
+~
+~
+0 0 20175
+D3
+~
+~
+0 0 20172
+S
+#20175
+Second Level of SE Tower~
+Many remains of human guards lay scattered along this second level of
+the tower.  The stairs lead up to the top and down to the courtyard.  You
+are most surprised by the thick boards that make up the battlements to the
+south and the east.  This small room has nothing else of interest.   
+~
+0 4 0
+D0
+~
+~
+0 0 20178
+D3
+~
+~
+0 0 20174
+D4
+~
+~
+0 0 20176
+D5
+~
+~
+0 0 20191
+S
+#20176
+Top of the SE Tower~
+Through the dense fog you can make out the cliff edges that protect the
+castle to the East, West, and South.  The gray stone shows its' years here
+for it ws obviously key in protecting the castle at one point.  The smooth,
+hard rock looks inviting to your tired soul, yet you know that you are in
+danger here...  You hear the flapping of wings here but you don't know if
+you can see anything.   
+~
+0 0 0
+D4
+~
+~
+0 0 20177
+D5
+~
+~
+0 0 20175
+S
+#20177
+Air Above SE Tower~
+This is where the flapping sound was coming from alright.  This seems to
+be the airspace of a rather unhappy creature.  You think that you would be
+better off down on the tower where you can protect yourself better.  
+~
+0 0 9
+D5
+~
+~
+0 0 20176
+S
+#20178
+Eastern Battlements of Castle Sengir~
+The wall is in perfect condition here.  It seems that there was
+absolutly no battles held on this quadrant of the castle.  The dirt is thick
+here for it hasn't been cleaned in quite some time but other than that it is
+pretty normal.  The battlement leads to the NE Tower and the SE Tower.  You
+can see quite far through the fog...  You still can't see anything of
+importance.   
+~
+0 0 0
+D0
+~
+~
+0 0 20183
+D2
+~
+~
+0 0 20175
+S
+#20179
+Eastern Antechambers~
+These are where the King retires to when he is not on the throne.  A
+large room with a desk in one corner.  This room also has a door leading
+south into another set of chambers.  This room is elegently decorated with
+furs and other warm things.  There is a fireplace in the corner of the room
+which is burning hotly.    
+~
+0 0 0
+D3
+~
+~
+0 0 20167
+S
+#20180
+Western Battlement~
+Barely together, this part of the wall is nearly destroyed.  The huge
+concrete blocks that once formed a dark gray wall is now reduced to rubble. 
+You wonder what could have caused such mass destruction.  The walkway to the
+north, leading to the NW Tower, is almost impassible but you think that you
+can make it across.  It would be a long way to fall if the walkway fails. 
+ 
+~
+0 0 0
+D0
+~
+~
+0 0 20181
+D2
+~
+~
+0 0 20172
+S
+#20181
+Second Level of the NW Tower~
+This is just another floor in the Tower.  The battlements lead to the
+east and to the south.  There is one little table covered in paper here. 
+Other than that there is nothing of any interest here.   
+~
+0 4 0
+E
+table~
+You hope for some cool scrolls or something but you find nothing.
+~
+D1
+~
+~
+0 0 20182
+D2
+~
+~
+0 0 20180
+D4
+~
+~
+0 0 20188
+S
+#20182
+Northern Battlements~
+This small walkway joins the NW and the NE tower.  Tradicionally
+speaking, battlements were used in the protection of the castle.  These
+small planks are protected with about 3 feet of cement and stone.  The
+battlements were where the volleys of arrows would rain down on enemies
+approaching the castle.  From the battlements huge cauldrons of hot oil
+would also be poured on the heads of unsuspecting troops.  You could go east
+and west to either of the towers.   
+~
+0 0 0
+D1
+~
+~
+0 0 20183
+D3
+~
+~
+0 0 20181
+S
+#20183
+Second Level of the NE Tower~
+This is the second level of the NE tower.  There is nothing here of
+interest.  The hard gray stone floor is covered in dust.  There are stairs
+leading up and down.  The battlements lead to the other towers of the
+castle.   
+~
+0 4 0
+D2
+~
+~
+0 0 20178
+D3
+~
+~
+0 0 20182
+D4
+~
+~
+0 0 20184
+S
+#20184
+Top of the NE Tower~
+This is the top of the NE tower.  You can see for miles around from
+here.  The cool wind blows across the open aired tower and sends a chill
+through your cloak.  You hear a strange flapping sound but you aren't sure
+what is causing it.  The stairs lead down to the battlements.   
+~
+0 0 0
+D4
+~
+~
+0 0 20185
+D5
+~
+~
+0 0 20183
+S
+#20185
+Air above NE Tower~
+You are in the air above the NE tower.  There is no real reason to be
+here but you still fly here high above the tower.  Oh well...  Hope no
+strange beings appear here.  
+~
+0 0 9
+D5
+~
+~
+0 0 20184
+S
+#20188
+Top Floor of NW Tower~
+Several long scorch marks run along this top floor.  The jagged burns
+are black and sink several inches into the cement.  You wonder what kind of
+horrific creature could cause such a cut in the stone of a tower.  The view,
+you suppose, would be spectacular from here were it not so foggy out.  The
+only exit is down.   
+~
+0 0 0
+D4
+~
+~
+0 0 20189
+D5
+~
+~
+0 0 20181
+S
+#20189
+Air above NW Tower~
+This is the air above the NW Tower.  The cold wind blows as you rise up
+above the cold tile of the tower.  You fly here looking in all directions
+but you don't see anywhere else to go.  You can see the scorch marks
+from way up here and you think it spells out a word.  
+~
+0 0 0
+E
+scorch~
+The word is Demon.   You start to get worried.  
+~
+D5
+~
+~
+0 0 20188
+S
+#20190
+Eastern Courtyard of Castle Sengir~
+This, being the eastern half of the courtyard, is covered in lush green
+grass.  You wonder if there is anything of interest in this tall grass, but
+you won't know until you look through it.  The SE tower is to your south or
+east and the Central courtyard is to the west.  A small alleyway leads to
+the north.  You feel like just curling up and having a nap on this soft
+ground.   
+~
+0 1024 0
+E
+green~
+You don't find anything of interest but maybe this is a safe place to
+rest.  
+~
+E
+grass~
+You don't find anything of interest but maybe this is a safe place to
+rest.  
+~
+E
+grass~
+You don't find anything of interest but maybe this is a safe place to
+rest.  
+~
+D0
+~
+~
+0 0 20146
+D1
+~
+~
+0 0 20191
+D2
+~
+~
+0 0 20191
+D3
+~
+~
+0 0 20150
+S
+#20191
+Bottom Floor of the SE Tower~
+This is the bottom level of the SE Tower.  There are stairs leading up
+to the second level and an exit leading outside to the north and west. 
+There is really nothing of interest in this small room.  It seems to have
+been a small guard room at one time but it has been long since abandoned. 
+ 
+~
+0 0 0
+D0
+~
+~
+0 0 20190
+D3
+~
+~
+0 0 20190
+D4
+~
+~
+0 0 20175
+S
+#20192
+Southern Sengir Square~
+This is what joins Sengir Square and Sengir Street.  The hard packed
+dirt of the street gives way to the lush green grass.  To the north you
+still see the tall palace and it's tower.  There are various houses and
+shops in the square and you see the exit of the castle to the south.  There
+center of the square is north, and you see a pretty fountain still pouring
+water.   
+~
+0 0 0
+D0
+~
+~
+0 0 20200
+D1
+~
+~
+0 0 20199
+D2
+~
+~
+0 0 20156
+D3
+~
+~
+0 0 20193
+S
+#20193
+Southwestern Sengir Square~
+This corner of the square is completely barren.  There were once two
+big houses here but some rather large creature has reduced them to rubble. 
+You start to wonder what kind of creature could do this kind of mass
+destruction.  The rest of the sqaure seems to be in fair to good condition
+but this corner has large cuts deep into the ground and then there are large
+piles of rock.  Innes street runs east and west to your north and Sengir
+street runs North and South to your east.   
+~
+0 0 0
+E
+cuts~
+These cuts were made by the talons of a large flying creature landing in
+the soft ground.  You are sure that this creature was carrying something to
+eat...  And this was NOT his first hunting trip.  
+~
+E
+cut~
+These cuts were made by the talons of a large flying creature landing in
+the soft ground.  You are sure that this creature was carrying something to
+eat...  And this was NOT his first hunting trip.  
+~
+E
+rubble~
+Amongst the rubble you see a large hole which goes into what seems to
+have been the foundation.  You are quite sure that something large lives
+down there.  
+~
+D0
+~
+~
+0 0 20194
+D1
+~
+~
+0 0 20192
+D5
+~
+~
+0 0 20210
+S
+#20194
+Western Sengir Square~
+The famous Innes street is to the west, starting the area where the
+nobles were to have lived.  The soft grass is much shorter here but is still
+quite thick.  The cool air blows down the corridor of the houses causing you
+to bundle up a little more.  Sengir Street is to the west of you as is the
+center of the square.  You can see a little fountain sputtering out some
+fresh water from this part of the square.  You continue onward.   
+~
+0 0 0
+D0
+~
+~
+0 0 20195
+D1
+~
+~
+0 0 20200
+D2
+~
+~
+0 0 20193
+D3
+~
+~
+0 0 20219
+S
+#20195
+Northwestern Sengir Square~
+The famous Innes street is to the southwest, starting the area where
+the nobles were to have lived.  There is a small house to the north of you
+and there is a tiny shack to the west.  You know that these were probrably
+large houses but the wars were quite fierce in this section of town.  Sengir
+street is to the west hidden amongst some tall grass.   
+~
+0 0 0
+D0
+~
+~
+1 0 20207
+D1
+~
+~
+0 0 20196
+D2
+~
+~
+0 0 20194
+D3
+~
+~
+1 0 20206
+S
+#20196
+Northern Sengir Square~
+You are only a block or two from the palace now.  The tall grass is
+starting to thin as you apprach the northern half of Sengir Street.  The
+grass starts to give way to the hard packed dirt of the well-traveled city
+streets.  To the east and west you can see little houses and shops.  A
+pretty fountain is to the south as well as the exit of the castle.   
+~
+0 0 0
+D0
+~
+~
+0 0 20215
+D1
+~
+~
+0 0 20197
+D2
+~
+~
+0 0 20200
+D3
+~
+~
+0 0 20195
+S
+#20197
+Northeastern Sengir Square~
+This is the NW corner of the castle's once busy square.  This corner
+was once the locatation of the famous Innes Street Inn.   This fine
+establishment was known throughout the region as the world's finest inn. 
+People used to travel from miles around to hear the stories of the bards and
+see the juggling of the finest jugglers in the land.  Since then, the third
+story has been destroyed but the lower levels seem to be in good shape.  The
+stands open to the north.   
+~
+0 0 0
+E
+street~
+This was once a beautiful inn.  There were originally three levels with
+many immaculate rooms.  Now there are two levels and you are not sure if you
+would stay here for any amount of money.  
+~
+E
+inn~
+This was once a beautiful inn.  There were originally three levels with
+many immaculate rooms.  Now there are two levels and you are not sure if you
+would stay here for any amount of money.  
+~
+E
+innes~
+This was once a beautiful inn.  There were originally three levels with
+many immaculate rooms.  Now there are two levels and you are not sure if you
+would stay here for any amount of money.  
+~
+D0
+~
+~
+0 0 20201
+D2
+~
+~
+0 0 20198
+D3
+~
+~
+0 0 20196
+S
+#20198
+Eastern Sengir Square~
+This part of Sengir Square hooks Innes street to Sengir street.  This
+part of town was heavily damaged during the wars.  There are still many
+broken weapons and arrows lying here.  The grass is pretty high here and you
+can't really see anything to the west.  To the east you see the center of
+the square and the little gurgling fountain.  The sun is particularly warm
+here and you think you can almost see a break in the clouds too.   
+~
+0 0 0
+E
+grass~
+This is a tall grass that grows here very well.  The direct sunlight here
+on the east allows it to grow at remarkable rates.  The roots are a dull
+red color.  
+~
+E
+weapons~
+There are bunches of broken weapons here, none of value though.
+~
+E
+weapon~
+There are bunches of broken weapons here, none of value though.
+~
+D0
+~
+~
+0 0 20197
+D1
+~
+~
+0 0 20144
+D2
+~
+~
+0 0 20199
+D3
+~
+~
+0 0 20200
+S
+#20199
+Southeastern Sengir Square~
+A small hole was dug here by a large creature.  It isn't nearly as deep
+as the one to the west of here but still noticable.  The two houses here are
+still in good shape and can be entered by way of the closed doors to the
+south and east of here.  To the North is Innes Street and to the west is
+Sengir Street.  Other than that there isn't really anything of interest.  
+~
+0 0 0
+D0
+~
+~
+0 0 20198
+D1
+~
+~
+0 0 20218
+D2
+~
+~
+0 0 20216
+D3
+~
+~
+0 0 20192
+S
+#20200
+Sengir Center Square~
+This was the center of the once powerful Castle Sengir.  It is now
+reduced to an overgrown field surrounded by walls.  The Palace looms to the
+north of you and the exit to the castle is to the south.  Innes Street runs
+east and west of here and offers some interesting advenures in both
+directions.   
+~
+0 0 0
+D0
+~
+~
+0 0 20196
+D1
+~
+~
+0 0 20198
+D2
+~
+~
+0 0 20192
+D3
+~
+~
+0 0 20194
+S
+#20201
+The Lobby of the Innes Street Inn~
+This is the main lobby of the once great inn.  The front desk is right
+in front of you and there is a grand staircase that is on both sides of the
+desk.  The cathedral high ceilings are covered in an ornate gold trim and
+the smooth painted walls are now covered in fine, beautifully painted
+tapestries.  You examine the hard floor and see that there was once a carpet
+that covered the entire floor.  The commonroom is to the east through a
+grand archway.  There is a small office to the north, behind the desk.   
+~
+0 4 0
+E
+tapestries~
+These once priceless tapestries are still beyond value but someone will
+have to clean them up.  Other than that there is little of interest.   
+~
+E
+tapestries~
+These once priceless tapestries are still beyond value but someone will
+have to clean them up.  Other than that there is little of interest.  
+~
+D0
+~
+~
+0 0 20202
+D1
+~
+~
+0 0 20203
+D2
+~
+~
+0 0 20197
+S
+#20202
+The Small Office of the Innes Street Inn.~
+This was the administrative area of the Inn.  There is a desk that was
+obviously used for the bookkeeping and a small cabinet which was used to
+keep the money.  Both have been broken into and looted long ago.  The small
+door to the south leads back to the Lobby.  You notice the smell of burnt
+hair faintly permeating this room.   
+~
+0 0 0
+D2
+~
+~
+0 0 20201
+S
+#20203
+The Commonroom of the Innes Street Inn~
+Ahh!!!  You bet there were some good times here.  There are many
+tables here still with large mugs of beer.  There is a stage to the north of
+you that was where the jugglers and bards used to entertain the high class
+people who frequented this fine establishment.  There is a doorway, which
+stands opens, to the east that leads to the kitchen.  The room is more
+brightly lit than anywhere else you have seen in the castle and you can see
+all the decorations which are all over the room.  The only complaint of such
+a place is the odor of burning hair.  Nevertheless this room is one of the
+nicest that you have ever seen.  The archway to the west leads back to the
+lobby of the inn.   
+~
+0 0 0
+E
+tables~
+These tables are made of a fine hardwood found only on an island
+thousands of miles away.  The mugs which the beer is in is made of a fine
+bone china and you are sure the mugs alone are worth thousands.  
+~
+E
+table~
+These tables are made of a fine hardwood found only on an island
+thousands of miles away.  The mugs which the beer is in is made of a fine
+bone china and you are sure the mugs alone are worth thousands.  
+~
+D1
+~
+~
+0 0 20204
+D3
+~
+~
+0 0 20201
+S
+#20204
+The Kitchen of the Innes Street Inn~
+This is a rather large kitchen.  There are large open flame fires with
+long spits slowly being turned over them.  On the spits you can't really
+make out what they are but you believe that they look to be something either
+human or at least humanoid.  There are many slaves running around here
+cleaning and cooking although they don't look to be of much interest.  There
+is one door to the south and the door leads back to the dining hall to the
+west.  You start to wonder just what goes on around here.   
+~
+0 0 0
+D0
+~
+~
+0 0 20205
+D3
+~
+~
+0 0 20203
+S
+#20205
+Kitchen Storeroom~
+This is a large storeroom that has nothing in it.  You see some spices
+and a little bit of food for yourself so why not...  Help yourself.  The
+worst that that can happen is that you will have nightmares for a while... 
+ 
+~
+0 0 0
+E
+nightmares~
+Who wants to feel bad about eating human flesh?
+~
+E
+nightmare~
+Who wants to feel bad about eating human flesh?
+~
+D1
+~
+~
+0 0 20195
+D2
+~
+~
+0 0 20204
+S
+#20206
+Small Shack~
+This is a small shack that was once a slave quarters when this part of
+town was affluent.  The low ceiling has hides covering up the holes but
+somehow this place feels safe.  The room has a large circle in it and there
+is a strange symbol in the circle.  You feel very powerful wards in this
+room.  And for some reason they are of a good nature.   
+~
+0 1028 0
+D1
+~
+~
+1 0 20195
+S
+#20207
+Small Noble House~
+This is a small house that also has very powerful wards on it.  The
+small foyer opens up to a large room where the bed and kitchen are.  There
+are no doors to anywhere and the room is very messy with clothes thrown
+about the area.  The bed is unmade and there are stacks of dishes in a
+bucket.  You think you smell some stew brewing but you are not sure, why
+would there be food worthy of mortals in a place of the undead?  
+~
+0 0 0
+D2
+~
+~
+1 0 20195
+S
+#20208
+Northern Winkle Street~
+An otherwising uninteresting part of town.  This was once where the old
+arena was but of course it is nothing but rubble.  To the south is the road
+leading to the square and to the north is the palace courtyard.  The ground
+here is pretty well traveled and there is a slight odor in the air.   
+~
+0 0 0
+D0
+~
+~
+0 0 20209
+D2
+~
+~
+0 0 20221
+S
+#20209
+End of Winkle Street~
+This is the western front of the palace fence.  There is a large wooden
+fence still in wonderful condition in front of you.  The fence looks as
+though it hasn't been touched in years.  There is a dull glow from the fence
+which makes you think that it is magically protected.  To the west is the
+front gate leading to the palace proper.  To south leads back to the
+intersection which is home to the square.   
+~
+0 0 0
+D1
+~
+~
+0 0 20224
+D2
+~
+~
+0 0 20208
+S
+#20210
+Entrance to the Lair~
+This it a dark hole that leads to the home of a rather large beast. 
+You are not sure that you want to meet something as big as the beast that
+scratched a cave like this.  There is 8 feets worth of clearance to the
+ceiling and there are 10-12 feet between walls.  The path leads to the
+north.  
+~
+0 4 0
+D0
+~
+~
+0 0 20211
+D4
+~
+~
+0 0 20193
+S
+#20211
+Hall Leading to the Lair~
+This is the Hall that leads to the lair of the beast.  You can tell
+from all the dust that the creatuire has wings.  You examine the depth of
+the scratches and you realize that the claws are about 7-8 inches long each.
+You arean't quite sure if you want to continue but you surge forth anyway. 
+ 
+~
+0 0 0
+D0
+~
+~
+0 0 20212
+D2
+~
+~
+0 0 20210
+S
+#20212
+Portal to the Other World~
+There is a tall portal that rises out of the ground on the north wall. 
+The tall skinny portal can be examined for more detail but you are sure that
+you do not want to attack whatever you are about to encounter here.   
+~
+0 0 0
+E
+portal~
+Through the portal you can see the large beast curled up resting with
+it's large wings wrapped around it's body.  
+~
+D0
+~
+~
+1 0 20213
+D2
+~
+~
+0 0 20211
+S
+#20213
+Portal to the Other World~
+This is the final room before the beast.  You can see through the
+transparent walls his large sharp teeth and the light that glistens off of
+his maw.  You are not sure what is driving you to attack this beast but you
+think that you need to do it.  You see a sign here.  I would suggest
+reading it.  
+
+~
+0 0 0
+E
+sign~
+*********Warning*******
+This is extremely tough creature. If you are not with many high level heros or chararcters turn around...
+CR will be a pain here...Perhaps you should get Zorvax to help .
+Good Luck.
+~
+D0
+~
+~
+6 20214 20214
+D2
+~
+~
+1 0 20212
+S
+#20214
+Lair of the Beast~
+You don't know what to think.  This Beast sits on top of a massive pile
+of treasure.  His huge gaping teeth instill the fear of God upon you but yet
+you fight onward.  Perhaps you can get all the treasure when you kill this
+menace to the generations to coem.  Nevertheless...  Good luck...  You are
+going to need it.   
+~
+0 0 0
+D2
+~
+~
+6 20214 20213
+S
+#20215
+Northern Sengir Street~
+This road leads straight to the palace.  The tall sloping roof of the
+palace is straight in front of you.  To the east and west are the remnants
+of houses.  To the south is the town square.   
+~
+0 0 0
+D0
+~
+~
+0 0 20224
+D2
+~
+~
+0 0 20196
+S
+#20216
+Empty House~
+A small room with a large pool in the middle of it makes you think that
+this wasn't a house.  Perhaps a bath house at some point, but certainly not
+a residence.  There is a solid iron rod that surrounds the bath tub.  The
+steps that lead into the tub are broken although with some effort you think
+that you could make it down into the bottom.  The water was deep at some
+point but of course now it is empty.  You can see anything at the bottom of
+the pool.   
+~
+0 0 0
+D0
+~
+~
+0 0 20199
+D5
+~
+~
+0 0 20217
+S
+#20217
+Bottom of the Bath~
+This is the bottom of the pool.  There are several spouts which lead to
+the large pipes under the city.  You don't feel that you need to explore
+down there although you can see some lights to the south.  The pipes are
+covered in slime and there is a trail of blood leading into the biggest
+pipe, which is to the north.  You know that you can fit due to your
+equipment but you want to try...   
+~
+0 0 0
+D4
+~
+~
+0 0 20216
+S
+#20218
+Small House~
+This house is just a small home that was probrably owned by the person
+who operated the bath house or the deskkeeper of the Innes Street Inn.  You
+can't see anything of interest and there is no steps leading up.  There is a
+small carpet in the middle of the room, and the edges are frayed and
+decaying.  There isn't anything on the walls and the ceiling shows nothing
+except watermarks.  To the west is the only exit.   
+~
+0 0 0
+D3
+~
+~
+0 0 20199
+S
+#20219
+Western Innes Street~
+You are walking among the nobleman's houses of the Castle.  The large
+homes are still in good condition, with the second stories still intact. 
+There are two house entrences, one to the north and one to the south.  Innes
+street continues to the intersection of Winkle Street and Innes to the west.
+There are more house there, although they are not as nice as the two you see
+here.  The Sengir Square is to the east.   
+~
+0 0 0
+D0
+~
+~
+0 0 20220
+D1
+~
+~
+0 0 20194
+D3
+~
+~
+0 0 20221
+S
+#20220
+Entrance to Nobleman's House~
+Tall grass covers this once immaculate property.  The dark gate that
+surrounds the property is almost invisible among the thick reeds that cover
+the land.  A small pond has grown in the fron of the house but there
+isn't anything of interest in or around it.  To the North is the noble house
+in all it's glory, and to the south is Innes street.   
+~
+0 0 0
+E
+pond~
+The pond is small with little waterfowl flapping around all near it. 
+The small pond is also full of fish, although you don't think that you want
+to fish here.   
+~
+E
+grass~
+There is a large patch of a bluish grass here although there isn't
+anything of interest in it.   
+~
+D2
+~
+~
+0 0 20219
+S
+#20221
+Corner of Winkle and Innes Streets~
+The famous Innes Street starts here and extends to the east.  To the
+west is the large castle wall and to the north is the palace.  The air is
+comfortable and the sun shines brightly here during the day.  There are many
+people to the east near the square as if there is something important there.
+Small stone cover the normally dirt ground, especially in the direction of
+the northern palace.   
+~
+0 0 0
+D0
+~
+~
+0 0 20208
+D1
+~
+~
+0 0 20219
+D2
+~
+~
+0 0 20222
+S
+#20222
+South Winkle Street~
+The wall of the Castle is directly to the west.  It is not damaged here
+and the ground looks as if it had a glyph cast on to it.  To the south you
+can see the southern wall of the castle.  To the north, far in the distance,
+you can see the palace.   
+~
+0 0 0
+D0
+~
+~
+0 0 20221
+D2
+~
+~
+0 0 20223
+S
+#20223
+Southern Winkle Street~
+This part of town got completely destroyed in the battle.  The once
+large beautiful houses are now just piles of rubble.  There are long slashes
+in the ground and the pieces of stone are now all but powder.  There is the
+courtyard to the south and more of Winkle Street to the north.   
+~
+0 0 0
+E
+powder~
+The powder seems to be some sort of granite powder.  It isn't worth
+anything but is certainly interesting.  
+~
+D0
+~
+~
+0 0 20222
+D2
+~
+~
+0 0 20170
+S
+#20224
+End of Sengir Street~
+This is the end of the Sengir Street.  There is a medium height wooden
+fence which surrounds the palace.  To the west is another road off in the
+distance as is the case to the east.  South is the square of the city
+proper.   
+~
+0 0 0
+D0
+~
+~
+0 0 20225
+D1
+~
+~
+0 0 20129
+D2
+~
+~
+0 0 20215
+D3
+~
+~
+0 0 20209
+S
+#20225
+Palace of Sengir Guard Post~
+There is a small guard house here with a heavy gate closing the gate
+from intruders.  The ground here is heavily worn and there are shouts coming
+from within the shack itself.  The palace itself rises up in front of you as
+a magestic high roofed building.  There are the standard 5 towers in the
+palace with 4 in the corners and one huge one rising up in the middle.  Back
+to the south you see the majority of the fortress.   
+~
+0 0 0
+D0
+~
+~
+6 20225 20226
+D2
+~
+~
+0 0 20224
+S
+#20226
+In Front of Sengir Palace~
+You stand right in front of the large palace.  To the east and west are
+the courtyards of this once immaculate royal house.  Although the building
+itself is still in great condition, there are large burns up and down a few
+of the towers.  There is a large door which leads into the palace proper to
+the north and back to the south is the fence.   
+~
+0 0 0
+D0
+~
+~
+0 0 20105
+D2
+~
+~
+6 20225 20225
+S
+#20227
+North/South Hall~
+This is the Hall which connects the north half of the palace with the
+south part.  The walls are hard gray slate.  The floor is cold and hard.  To
+the north is the NE and NW hall and to the south is the SW and SE towers. 
+ 
+~
+0 0 0
+D0
+~
+~
+0 0 20228
+D2
+~
+~
+0 0 20117
+S
+#20228
+Base of the Center Tower~
+This is the largest of the towers.  Starting here on the second floor,
+the center tower is where the Royal suite was.  A magnificent set of stairs
+starts here leading up out of sight.  The floor is clean and polished as is
+everything in sight.  To the north leads some guest bedrooms as does the
+hall to the south.   
+~
+0 8192 0
+D0
+~
+~
+0 0 20229
+D2
+~
+~
+0 0 20227
+D4
+~
+~
+0 0 20230
+S
+#20229
+North/South Hallway~
+A small hallway that leads fron the center tower to the northern
+hallway.  There isn't anything of interest in this walkway although the
+center tower strangely pulls you toward it...   
+~
+0 8192 0
+D0
+~
+~
+0 0 20249
+D2
+~
+~
+0 0 20228
+S
+#20230
+First Floor of the Center Tower~
+This is the first floor leading up to the Royal suite.  There is a
+stairwell leading down and a archway to the north.  The room is clean and
+there is a small window looking out over the castle proper.  Other than the
+window there isn't much of interest.   
+~
+0 8192 0
+D0
+~
+~
+0 0 20231
+D5
+~
+~
+0 0 20228
+S
+#20231
+First Floor of the Center Tower~
+Another room in the center tower.  This room has an archway to the
+south and to the east.  There isn't anything of interest here though.  The
+floor and walls are slightly worn but other than that nothing.   
+~
+0 8192 0
+D1
+~
+~
+0 0 20232
+D2
+~
+~
+0 0 20230
+S
+#20232
+First Floor of the Center Tower~
+This small room has been damaged by some sort of attack.  The small
+window that once looked out over the countryside now is much larger.  The
+floor is scorched here and there are blood stains across a good part of the
+ground.  To the south is an archway leading to a starwell up and to the west
+is an archway leading to another room.   
+~
+0 8192 0
+D2
+~
+~
+0 0 20233
+D3
+~
+~
+0 0 20231
+S
+#20233
+First Floor of the Center Tower~
+This is the base of the stairwell leading up.  There is a small archway
+leading north into another small room that appears to be heavily damaged. 
+The room you are in now is in moderate condition with a small sofa that
+served as a landing comfort.  The floor is uncovered although it is clean
+however cold.   
+~
+0 8192 0
+D0
+~
+~
+0 0 20232
+D4
+~
+~
+0 0 20234
+S
+#20234
+Second Floor of the Center Tower~
+This is the first room of the second floor.  The stairs that you just
+traveled up are in good condition.  There is a small window here looking out
+over the castle.  There isn't as much fog when looking from here as there
+was below.  To the north is a small archway leading to another small room. 
+The floors here are clean stone as are the walls.  
+~
+0 8192 0
+D0
+~
+~
+0 0 20235
+D5
+~
+~
+0 0 20233
+S
+#20235
+Second Floor of the Center Tower~
+This is just another room in the long path to the top of the tower. 
+The walls and floors are uncovered stone with interesting work done within
+the stone itself.  There is a small archway to the south leading to the
+stairwell down.  To the east is a door leading to another room.   
+~
+0 8192 0
+D1
+~
+~
+1 0 20236
+D2
+~
+~
+0 0 20234
+S
+#20236
+Second Floor of the Center Tower~
+You can sense some sort of great evil here.  Although you can't
+actually see anything particularly bad here you still sense something very
+evil although quite distant.  The floors and the walls are a cold stone and
+they have been painted a dull black color.  To the east is a door leading
+into another room.  To the south is an archway leading to another room...  A
+room with a stairwell.   
+~
+0 8192 0
+D2
+~
+~
+0 0 20237
+D3
+~
+~
+1 0 20235
+S
+#20237
+Second Floor of the Center Tower~
+This small room has been painted black also.  There are small markings
+around the room indicating that this room is used by something for
+something.  There was once a small sofa sitting here but now it has been
+reduced into ash.  To the north is a small room also painted black.  There
+is a spiral stairwell leading up into another set of rooms...  Much closer
+to the royal suite.   
+~
+0 8192 0
+D0
+~
+~
+0 0 20236
+D4
+~
+~
+0 0 20238
+S
+#20238
+Third Floor of the Center Tower~
+This is the third floor of the tower.  You are not quite sure how many
+levels the center tower has but you are sure it is more than five.  There is
+a stairwell that leads down into the second level of the tower.  To the
+north is another small room that looks to be well decorated.  You can sense
+evil here...  A bit stronger.   
+~
+0 8192 0
+D0
+~
+~
+0 0 20239
+D5
+~
+~
+0 0 20237
+S
+#20239
+Third Floor of the Center Tower~
+A small elegantly room amongst many that aren't so well decorated. 
+This room has an open window looking over the castle.  You think you can
+hear something flapping loudly outside but you can't see anything.  To the
+east is an archway leading to another room.  To the south is the stairwell
+leading down into another level of rooms.   
+~
+0 8192 0
+D1
+~
+~
+0 0 20240
+D2
+~
+~
+0 0 20238
+S
+#20240
+Third Floor of the Center Tower~
+This is a small room that looks like it was nothing more that a small
+library.  It has a few small shelves that hold few books.  It looks like it
+held some tomes in addition to the large library on the main floor of the
+palace.  To the south is a door which is large and painted black.  To the
+west is a small archway which leads to another room.   
+~
+0 8192 0
+D2
+~
+~
+1 0 20241
+D3
+~
+~
+0 0 20239
+S
+#20241
+Third Floor of the Center Tower~
+This is a small sitting room.  There is a spiral stairwell leading up
+out of sight.  There is a small door leading north although you are pretty
+sure it is not locked.  There are curtains around a blacked out window and
+you can see small blood stains on the curtains.   
+~
+0 8192 0
+D0
+~
+~
+1 0 20240
+D4
+~
+~
+0 0 20242
+S
+#20242
+Fourth Floor of the Center Tower~
+This room looks as if it were used for music at some point.  There are
+sheets of words all over the place.  There is a small wooden board with
+different length slats lying across the board.  There are small mallets
+lying beside the object.  There is also a small drum and a few bells here
+too.  To the north is another room and there is a small spiral stairwell
+leading down to the third level.   
+~
+0 8192 0
+D0
+~
+~
+0 0 20243
+D5
+~
+~
+0 0 20241
+S
+#20243
+Fourth Floor of the Center Tower~
+This looks to be another guard room.  There are small arms here and
+there is a pile of shields lying here.  There are two beds here although
+they do not have any linens on them now.  To the east is another room and
+you can see a stairwell to the south.   
+~
+0 8192 0
+D1
+~
+~
+0 0 20244
+D2
+~
+~
+0 0 20242
+S
+#20244
+Fourth Floor of the Center Tower~
+This room has been stripped of all furnishings.  There are burns across
+the entire floor and the walls are scorched also.  You can sense great evil
+was here...  And not too long ago.  To the south is another stairwell
+leading up and to the west is another guard room.   
+~
+0 8192 0
+D2
+~
+~
+0 0 20245
+D3
+~
+~
+0 0 20243
+S
+#20245
+Fourth Floor of the Center Tower~
+This is the final room in the square floors, from here on up is one
+room complete with a spiral stairwell leading up and down.  There is nothing
+in this room of interest except for the chill you get as you enter the room.
+A small trapdoor leads up to the next level and to the north is another
+room.   
+~
+0 8192 0
+D0
+~
+~
+0 0 20244
+D4
+~
+~
+1 0 20246
+S
+#20246
+Fifth Floor of the Center Tower~
+You can feel unending dread here.  You can't quite put your finger on
+the cause but you know that many things have died at the hand of what is
+directly above you.  The room you are in has nothing except the stairs... 
+But you are scared...  So scared of what is above you.   
+~
+0 8192 0
+D4
+~
+~
+1 0 20247
+D5
+~
+~
+1 0 20245
+S
+#20247
+Sixth Floor of the Center Tower~
+You are practically frozen with fear as you enter this level.  Your
+sheer willpower is all that is helping you go on.  Above you is something so
+evil that only the strongest and most powerful beings should antagonize. 
+Not just one person should attack either...  Many many people should go on. 
+You can flee down or continue on above but either way you still feel the
+evil.   
+~
+0 8193 0
+D4
+~
+~
+1 0 20248
+D5
+~
+~
+1 0 20246
+S
+#20248
+Seventh Floor of the Center Tower~
+This is the royal suite.  This is where the King slept when he used to
+have to sleep.  Now the room is covered in webs and absolute blackness.  The
+entire room is painted black and the windows are covered in total darkness. 
+You can see nothing but you feel something here...  Actually not
+something...  Somethings...  You have just walked into a room of vampires...
+And their leader...!   
+~
+0 8193 0
+D5
+~
+~
+1 0 20247
+S
+#20249
+Middle of the Second Floor~
+To the north is a large guest bedroom complete with a small cleaning
+area.  The hall that you stand in now is richly decorated in comparison to
+the other parts of the hall.  To the south is the center tower and to the
+east and west are more hall with more guest bedrooms in the distance.   
+~
+0 0 0
+D0
+~
+~
+0 0 20254
+D1
+~
+~
+0 0 20250
+D2
+~
+~
+0 0 20229
+D3
+~
+~
+0 0 20255
+S
+#20250
+Eastern Half of the Second Floor~
+There is a small amount of damage to this once clean, well-maintained
+hallway.  Now it has small holes in the stone walls and scratches in the
+floor.  To the north is another small guest bedroom.  To the east and west
+are more hallway which link the towers.   
+~
+0 0 0
+D0
+~
+~
+0 0 20253
+D1
+~
+~
+0 0 20251
+D3
+~
+~
+0 0 20249
+S
+#20251
+Eastern End of the East/West Hallway~
+This is just another part of the long hallway that connects the eastern
+and western wings of the palace.  On opposite ends of the hall are towers
+which are the protection for the palace.  The hall itself is in good
+condition and there is little damage to it.  There is a small guest bedroom
+to the north.   
+~
+0 0 0
+D0
+~
+~
+0 0 20252
+D1
+~
+~
+0 0 20258
+D3
+~
+~
+0 0 20250
+S
+#20252
+Guest Bedroom~
+A small guest bedroom that has no furniture in it.  There are
+bloodstains on the floor and it looks as though someone or something
+bleeding was dragged from the room.  To the south is the hallway that
+connects the towers.  There is no window in this room.   
+~
+0 0 0
+D2
+~
+~
+0 0 20251
+S
+#20253
+Guest Bedroom~
+With a large window looking out over the cliffs...  It is no surprise
+that there was a large battle here where the demons flooded in through the
+window.  There are large scorch marks on the floor and wall.  There are also
+large scratches throughout the rooms.  To the south is the hallway.   
+~
+0 0 0
+D2
+~
+~
+0 0 20250
+S
+#20254
+Guest Bedroom~
+The largest of the guest bedrooms on this wings, this was reserved for
+the royal guests of the palace.  There is a small bathing area off to the
+west and there is the hall to the south.  The furnishings of the room have
+been destoyed and moved off to other places for other things.   
+~
+0 0 0
+D2
+~
+~
+0 0 20249
+D3
+~
+~
+0 0 20266
+S
+#20255
+Western Half of the Second Floor~
+This is the western part of the hallway which connects the NE and NW
+towers.  The hall is no different than the other halls of the palace and
+this part seems to be in fair condition with only minimal dirt and grime
+around.   
+~
+0 0 0
+D1
+~
+~
+0 0 20249
+D3
+~
+~
+0 0 20256
+S
+#20256
+Western End of the Second Floor~
+This part of the hallway has almost been destroyed.  There are large
+gaping holes in the roof and in the walls.  There is no bedroom to the north
+which you notice as strange as the palace seems to be very symmetrical
+overall.  To the east and west are more hall and then the towers eventually.
+ 
+~
+0 0 0
+D0
+~
+~
+7 0 20265
+D1
+~
+~
+0 0 20255
+D3
+~
+~
+0 0 20257
+S
+#20257
+Second Floor of the NW Tower ~
+This is the second floor of the NW tower.  There are steps leading up
+to the top of the tower and down leads to the first floor and to the
+library.  To the east leads to the hallway and to some guest bedrooms.  This
+part of the tower is in good condition though.   
+~
+0 0 0
+D1
+~
+~
+0 0 20256
+D4
+~
+~
+0 0 20264
+D5
+~
+~
+0 0 20259
+S
+#20258
+Second Floor of the NE Tower~
+This tower overlooks the cliffs to the NE part of the castle.  There is
+a small window that hasn't been blacked out here.  There are stairs leading
+up and down.  To the west you can see a small hallway leading east/west. 
+The tower is in good condition and reasonably clean.   
+~
+0 0 0
+D3
+~
+~
+0 0 20251
+D4
+~
+~
+0 0 20262
+D5
+~
+~
+0 0 20261
+S
+#20259
+First Floor of the NW Tower~
+At every corner of the palace and the castle are towers which are used
+as protection for the respective dwelling.  This is a three story tower with
+arrow slits along the walls.  To the south is the palace library and there
+is a set of stairs leading to the second level.  Overall this part of the
+tower is in good condition.   
+~
+0 0 0
+D2
+~
+~
+0 0 20260
+D4
+~
+~
+0 0 20257
+S
+#20260
+Library of the Palace~
+This is the royal library.  Where there were once large bookshelves
+there is now piles of broken up wood and burned books.  Obviously whomever
+took over the palace thought that it is better not to have such propaganda
+sitting around here.  To the south is the study and to the north is the
+tower.  This room is very large with no windows and no intact furniture.  
+~
+0 0 0
+D0
+~
+~
+0 0 20259
+D2
+~
+~
+0 0 20108
+S
+#20261
+First Floor of the NE Tower~
+This is the first floor of the small NE tower which defends the palace.
+There are no indications of any sort of battles here.  The stairs lead up
+and there is a hallway to the south.   
+~
+0 0 0
+D2
+~
+~
+0 0 20135
+D4
+~
+~
+0 0 20258
+S
+#20262
+Third Floor of the NE Tower~
+This is the highest part of this tower.  There are arrow slits which
+face out into what appears to be nothing but you think that they were put
+there to fend off flying creatures.  There are some small blood stains which
+are on the floor which indicates a fair sized fight was fought here at some
+point.   
+~
+0 0 0
+D5
+~
+~
+0 0 20258
+S
+#20264
+Third Floor of the NW Tower~
+This is the top of the NW tower.  There was a large battle here
+whenever the main siege was occuring.  There is a set of stairs which leads
+down to the second level of the palace and to the bedrooms and other parts
+of the palace.  The tower is still intact although there are many
+bloodstains and scratches in the walls and on the floor.   
+~
+0 0 0
+D5
+~
+~
+0 0 20257
+S
+#20265
+Hidden Room~
+This small room was once used for the rest of the royal family when
+there was a siege or battle close by.  There are three small but clean beds
+across the three walls away from the door.  There is a small rack where
+weapons were once kept which is now empty.  There is little else of interest
+in here though.   
+~
+0 0 0
+D2
+~
+~
+7 0 20256
+S
+#20266
+Small Washroom~
+This is a small washroom that was used by the royal guests.  There is a
+small tub here and a hole in the floor which appears to be for human wastes.
+There is a somewhat acrid smell here and the small washbasin is lying on the
+floor broken in many places.   
+~
+0 0 0
+D1
+~
+~
+0 0 20254
+S
+#20267
+Outside the South Wall of the Palace~
+A small path leads around the palace.  The fence is directly behind you
+and to the east and west are paths.  Other than that there isn't anything
+interesting.   
+~
+0 0 0
+D1
+~
+~
+0 0 20105
+D3
+~
+~
+0 0 20268
+S
+#20268
+Outside the SW Tower of the Palace~
+You stand in the grassy outskirts of the palace.  There is the wall
+directly in front of you and the gate is to the east.  To the west is the
+tower and a path leading around to the back of the palace.  Behimd you to
+the south is the palace fence which protects the palace from invasion.   
+~
+0 0 0
+D0
+~
+~
+0 0 20269
+D1
+~
+~
+0 0 20267
+S
+#20269
+Outside the West Wall of the Palace~
+A small path leads around the palace here.  There isn't anything of
+interest though.  The palace rises to your east high above you.  To the west
+is the fence which protects the palace from with in the castle walls.   
+~
+0 0 0
+D0
+~
+~
+0 0 20270
+D2
+~
+~
+0 0 20268
+S
+#20270
+Outside the NW Tower of the Palace~
+Another part of the path around the palace.  To the SE is the NW tower
+which rises high into the sky.  You see a path to the south and to the east.
+There are burns on the outside of the palace and you think the fence has a
+slight glow here.  Examination of the fence shows nothing though.  
+~
+0 0 0
+D1
+~
+~
+0 0 20271
+D2
+~
+~
+0 0 20269
+S
+#20271
+Outside the North Wall of the Palace~
+To the east and west are paths.  Other than that there is nothing here
+except for the palace to the south and the fence to the north.  The ground
+is flattened from the guard's tracks and you see on the outside of the
+palace where there were battles, marked by the scortch marks and arrow
+slits.  
+~
+0 0 0
+D1
+~
+~
+0 0 20272
+D3
+~
+~
+0 0 20270
+S
+#20272
+Outside the NW Tower of the Palace~
+This is the corner of the palace property.  The palace rises up in
+front of you piercing the sky with its high towers.  To the south is a path
+leading to the front of the palace.  The fence which is pretty high itself
+protects the palace further even though the castle walls surround the palace
+in it's entirety.   
+~
+0 0 0
+D2
+~
+~
+0 0 20273
+D3
+~
+~
+0 0 20271
+S
+#20273
+Outside the East Wall of the Palace~
+This path is nothing more than a place that the guards can search.  The
+area in between the palace and the fence is in good condition even though
+there are almost always guards floating through here.  To the north is the
+path going around the corner of the palace and to the south the same.  To
+the west it the palace itself and to the east is the fence.  
+~
+0 0 0
+D0
+~
+~
+0 0 20272
+D2
+~
+~
+0 0 20274
+S
+#20274
+Outside the SE Tower of the Palace~
+Here is where the path turns and leads north around the corner of the
+palace.  In front of you is the tower which serves as more protection for
+the king.  To west is the actually entrance to the palace and to the south
+is the palace fence.  
+~
+0 0 0
+D0
+~
+~
+0 0 20273
+D3
+~
+~
+0 0 20275
+S
+#20275
+Outside the South Wall of the Palace~
+A small path leads away from the entrance to the palace.  You are now
+within the fence of the palace.  To the east and west are paths which seem
+to lead all around the palace.  To the north is the palace itself and to the
+south is the fence which protects the palace from siege although the castle
+walls completely enclose the palace itself.  
+~
+0 0 0
+D1
+~
+~
+0 0 20274
+D3
+~
+~
+0 0 20105
+S
+#20276
+Third Floor of the SW Tower~
+This is an open air floor of the tower.  You can see the start of the
+Winkle street.  The tower seems to be in good condition and there is little
+damage like there were on some of the other towers.  There is a small spiral
+staircase leading back down to the palace proper.   
+~
+0 0 0
+D5
+~
+~
+0 0 20111
+S
+#20277
+Third Level of the SE Tower~
+This is the third level to the SE tower.  There are empty hot oil
+cauldrons that were used to douse the enemy trying to climb the walls. 
+There is a small spiral stairwell leading back down into the palace.  Other
+than that there is nothing of interest.   
+~
+0 0 0
+D5
+~
+~
+0 0 20133
+S
+#20278
+King's Retreat~
+This small room once was built for the king to retreat to if there was
+an attempt on his life.  The room is plain, although it still has that royal
+touch of a grand gold boardered painting on the north wall.  Perhaps a
+closer look at the painting would be appropriate.  To the south is the only
+exit which leads to the western antechamber.   
+~
+0 0 0
+E
+painting~
+This painting is truely magnificent.  You look closely at it and see
+the delicate colors and the perfect brush strike that was used to create
+such a fine peace.  You also notice that there is a perfectly hidden passage
+that the painting covers.  Perhaps you should ENTER PAINTING.   
+~
+D2
+~
+~
+0 0 20168
+S
+#20279
+Hidden Passageway~
+This is amazing...  You step through the passage into the painting and
+end up here.  You are not sure where here is but you know that the
+passageway you just came through is no longer open.  The painting swung back
+and sealed itself leaving nowhere to go but into the darkness...  To the
+north.   
+~
+0 5 0
+D0
+~
+~
+0 0 20280
+S
+#20280
+Hidden Passage~
+The passageway continues to the north and back to the south.  There
+is really nothing to be seen in the darkness.  The walls are a smooth stone
+with no lighting nor decoration.  The ground is a hard packed dirt with no
+covering.  Perhaps a search farther to the north will show something of
+interest.   
+~
+0 0 0
+D0
+~
+~
+0 0 20281
+D2
+~
+~
+0 0 20279
+S
+#20281
+Hidden Passage~
+This is just another passageway.  There appears to be a large room to
+the north that is lit with a number of torches.  The passageway leads back
+to the south and appears to lead no where important.  You can feal the evil
+to the north.  Approach with fear.   
+~
+0 0 0
+D0
+~
+~
+0 0 20282
+D2
+~
+~
+0 0 20280
+S
+#20282
+Hidden Chamber~
+This appears to be the room where the queen is rushed during times of
+seige.  You don't recall the decline in altitude but you realize that the
+room seems to be below the ground.  The room is cool and fairly well lit. 
+There are two thrones sitting on the northern half of the room and a
+passageway to the south.   
+~
+0 0 0
+D2
+~
+~
+0 0 20281
+S
+#0
+
+
+
+#SPECIALS
+M 20144 spec_cast_cleric Load to: A young shepard
+M 20154 spec_cast_mage Load to: A Master Illusionist
+M 20156 spec_breath_any Load to: The illusionary dragon
+M 20164 spec_cast_cleric Load to: Pliaaps the King's personal bodyguard 
+M 20167 spec_cast_mage Load to: The King of Sengir
+M 20206 spec_cast_cleric Load to: Zorvax the Holy Crusader
+M 20217 spec_cast_mage Load to: The Creature of the Deep
+M 20248 spec_cast_mage Load to: The Vampire Lord
+M 20279 spec_cast_mage Load to: Jamison, First Knight
+M 20281 spec_cast_mage Load to: Gideon
+M 20282 spec_cast_cleric Load to: The Queen of Sengir
+S
+
+
+
+#RESETS
+D 0 20102 1 0
+D 0 20103 3 0
+D 0 20105 0 0
+D 0 20106 2 0
+D 0 20112 0 0
+D 0 20113 2 0
+D 0 20114 0 0
+D 0 20115 1 0
+D 0 20115 2 0
+D 0 20116 3 0
+D 0 20118 0 0
+D 0 20119 2 0
+D 0 20131 0 0
+D 0 20132 2 0
+D 0 20137 0 2
+D 0 20139 2 2
+D 0 20147 1 0
+D 0 20148 3 0
+D 0 20153 4 0
+D 0 20155 5 0
+D 0 20158 3 0
+D 0 20159 1 0
+D 0 20161 1 1
+D 0 20161 3 1
+D 0 20162 1 1
+D 0 20163 3 1
+D 0 20195 0 0
+D 0 20195 3 0
+D 0 20206 1 0
+D 0 20207 2 0
+D 0 20212 0 0
+D 0 20213 0 2
+D 0 20213 2 0
+D 0 20214 2 2
+D 0 20225 0 2
+D 0 20226 2 2
+D 0 20235 1 0
+D 0 20236 3 0
+D 0 20240 2 0
+D 0 20241 0 0
+D 0 20245 4 0
+D 0 20246 4 0
+D 0 20246 5 0
+D 0 20247 4 0
+D 0 20247 5 0
+D 0 20248 5 0
+D 0 20256 0 0
+D 0 20265 2 0
+M 0 20101 1 20101
+E 0 20102 0 9
+M 0 20101 1 20102
+M 0 20101 3 20102
+M 0 20103 1 20103
+G 0 20113 0
+M 0 20116 1 20116
+M 0 20137 4 20137
+E 0 20137 0 5
+E 0 20136 0 16
+M 0 20137 4 20137
+E 0 20137 0 5
+E 0 20136 0 16
+E 0 20135 0 17
+M 0 20137 4 20138
+E 0 20137 0 5
+E 0 20136 0 16
+M 0 20137 4 20138
+E 0 20137 0 5
+E 0 20136 0 16
+M 0 20143 2 20143
+M 0 20144 1 20144
+E 0 20144 0 3
+E 0 20145 0 16
+M 0 20146 2 20146
+O 0 20148 0 20148
+M 0 20148 1 20148
+E 0 20147 0 16
+E 0 20146 0 11
+M 0 20170 10 20150
+M 0 20152 1 20152
+G 0 20153 0
+G 0 20152 0
+M 0 20153 1 20153
+G 0 20154 0
+G 0 20155 0
+M 0 20154 1 20154
+E 0 20156 0 13
+M 0 20156 1 20154
+M 0 20155 1 20155
+E 0 20158 0 5
+E 0 20159 0 16
+M 0 20157 1 20157
+E 0 20158 0 5
+E 0 20159 0 9
+G 0 20157 0
+G 0 20160 0
+M 0 20158 1 20158
+G 0 20110 0
+G 0 20111 0
+M 0 20159 1 20159
+M 0 20104 1 20160
+M 0 20105 1 20160
+M 0 20162 10 20162
+M 0 20162 10 20162
+M 0 20162 10 20163
+M 0 20162 10 20163
+M 0 20162 10 20164
+M 0 20162 10 20164
+M 0 20162 10 20164
+M 0 20162 10 20165
+M 0 20162 10 20165
+M 0 20162 10 20165
+M 0 20167 1 20167
+E 0 20167 0 16
+M 0 20166 1 20167
+E 0 20166 0 16
+E 0 20164 0 5
+M 0 20164 1 20167
+E 0 20164 0 5
+E 0 20166 0 16
+M 0 20170 5 20170
+M 0 20177 5 20177
+M 0 20177 1 20177
+E 0 20176 0 9
+M 0 20177 4 20185
+E 0 20176 0 9
+M 0 20177 6 20189
+M 0 20170 10 20190
+M 0 20195 4 20192
+M 0 20200 10 20193
+M 0 20200 10 20195
+M 0 20200 10 20197
+M 0 20200 10 20200
+O 0 20200 0 20200
+M 0 20202 1 20202
+M 0 20203 1 20203
+G 0 20201 0
+O 0 20203 0 20203
+P 0 20204 0 20203
+M 0 20204 1 20204
+E 0 20205 0 9
+M 0 20206 1 20207
+E 0 20206 0 5
+E 0 20207 0 9
+M 0 20214 1 20213
+E 0 20214 0 9
+M 0 20215 1 20214
+G 0 20214 0
+M 0 20217 1 20217
+E 0 20217 0 13
+M 0 20162 10 20218
+M 0 20224 1 20224
+E 0 20224 0 16
+M 0 20225 3 20225
+E 0 20157 0 16
+G 0 20225 0
+M 0 20243 1 20243
+E 0 20243 0 16
+M 0 20247 3 20247
+E 0 20245 0 0
+M 0 20248 1 20248
+E 0 20248 0 15
+G 0 20246 0
+G 0 20246 0
+G 0 20246 0
+G 0 20246 0
+O 0 20278 0 20278
+M 0 20279 1 20279
+E 0 20279 0 10
+E 0 20277 0 16
+M 0 20282 1 20282
+E 0 20282 0 16
+E 0 20281 0 5
+S
+
+
+
+#SHOPS
+20152 9 10 5 0 15 75 125 0 23
+20153 0 9 0 0 0 125 75 0 23
+20157 5 0 0 0 0 100 100 0 24
+20158 13 9 17 19 0 100 100 0 23
+20159 9 0 0 0 0 100 100 0 23
+0
+
+
+
+#$

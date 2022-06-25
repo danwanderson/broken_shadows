@@ -1,0 +1,1756 @@
+#AREADATA
+Name        {??-??} Raptor  Cheshire~
+Builders    Raptor~
+VNUMs       10400 10499
+Security    9
+End
+
+
+
+#MOBILES
+#10401
+shakespeare armorer legend~
+Shakespeare, the armorer~
+Shakespeare is here, showing off his latest piece of work.
+~
+You see a miidle aged man with great skill in his chosen profession.  He
+puts such great care into each piece that he will be known by his works,
+even long after he has died.  
+~
+Human~
+ABQ DFHN 0 750 S
+75 40 11d551+1842 20d20+1000 7d13+31 19
+25 25 25 25
+FNO AB NQ 0
+8 8 1 5000000
+AHMV ABCDEFGHIJK M none
+#10402
+rupert~
+Rupert, weaponmaster~
+Rupert grins and says, "You want some of me?"
+~
+You see before you a huge dragon.  Though he appears to be clumsy, his
+weapons are very fine, and well crafted.  
+~
+Wyvern~
+ABT DFT 0 1000 S
+76 50 11d574+1886 10d100+1000 7d13+31 5
+0 0 0 0
+CFHK ABL 0 S
+8 8 1 5000000
+ABHMVZc ABCDEFGHIJKQUVX H none
+#10403
+Emily~
+Emily Dickinson~
+Emily is here baking, and selling food.
+~
+The woman before you reminds you of your grandmother.  She wants to give
+you food!  
+~
+Human~
+ABR HN 0 1000 S
+75 100 11d551+1842 20d20+2000 7d13+35 16
+-25 -25 -25 -10
+0 AB C 0
+8 8 0 5000000
+AHMV ABCDEFGHIJK M none
+#10404
+mayor cheshire~
+the Mayor of Cheshire~
+The mayor of Cheshire is here, trying to look busy.
+~
+~
+cat~
+AG Z 0 600 S
+55 50 11d216+1076 10d100+800 6d10+27 5
+18 18 18 9
+FH AB 0 0
+8 8 1 10000
+AGHV ACDEFHJKQUV M none
+#10405
+citizen man~
+a Cheshire male~
+A male citizen of Cheshire is passing by.
+~
+You see a citizen of Cheshire.  These people are an intellegent cat-like
+race.  These have developed a small community here in the woods, overcoming
+their natural territorial instincts to band together against the force
+outside the walls.  
+~
+cat~
+AGT JPZ 0 1000 S
+46 35 10d135+802 5d100+500 5d9+24 5
+15 15 15 7
+FH 0 0 0
+8 8 1 5000
+AGHV ACDEFHJKQUV L none
+#10406
+chesire woman~
+a Cheshire woman~
+A female citizen of Cheshire is here, talking.
+~
+This woman is helping her race adapt to living within these walls, by
+turning their minds to other things.  Just why they are living together,
+something so unnatural for most cat-like races, remains a mystery.  
+~
+cat~
+AGT JPZ 0 1000 S
+46 35 10d135+802 5d100+500 5d9+24 5
+15 15 15 7
+FH 0 0 0
+8 8 2 1000
+AGV ACDEFHJKQUV L none
+#10407
+guard cheshire north~
+North Cheshire Guard~
+A member of the North Cheshire Guards stands at attention here.
+~
+A very clean, tidy guard stands here, paying rapt attention to the
+surrounding scene.  You get the sense that not much can get past the steely
+gaze of this guard.  
+~
+cat~
+ABT Z 0 1000 S
+55 40 11d216+1076 10d60+400 6d10+27 5
+24 24 24 7
+FH 0 0 0
+8 8 3 600
+AGV ACDEFHJKQUV L none
+#10408
+guard cheshire south~
+South Cheshire Guard~
+A member of the South Cheshire Guards leans against a nearby building.
+~
+It's a large, sloppy, cat-like guard.  You laugh at his obvious
+incompetance, and think you can prolly whip his tail any time.  
+~
+cat~
+ABT Z 0 1000 S
+55 40 11d200+1076 10d60+400 6d10+22 5
+24 24 24 7
+FH 0 0 0
+8 8 1 500
+AGV ACDEFHJKQUV L none
+#10409
+stormy healer~
+Stormy~
+Stormy is here to heal the wounded.
+~
+You see a beautiful young brunette here, dressed in the robes of a
+healer.  She has spent many years searching for Raptor, and has now found a
+temple dedicated to him.  She waits here in this temple for him, and helps
+all those who come in.  
+~
+Human~
+ABQa CHN 0 1000 S
+101 60 21d400+2000 10d20+1200 3d20+75 16
+55 55 55 25
+FHI NPS LQ K
+8 8 2 8000
+AHMV ABCDEFGHIJK M none
+#10410
+museum curator~
+the Museum's curator~
+The Poetry Museum's curator is here, talking to patrons.
+~
+The curator is one of the oldest members of this race that you have ever
+seen.  One must know a great deal about the history of this place to even
+apply to work at the museum, and she is the curator.  You could probably
+learn alot from her, if you asked the right questions.  
+~
+cat~
+ABR Z 0 700 S
+46 30 10d135+802 10d135+500 5d9+25 5
+-19 -19 -19 -4
+FH 0 0 0
+8 8 3 450
+AGV ACDEFHJKQUV L none
+#0
+
+
+
+#OBJECTS
+#10401
+mayor desk~
+the Cheshire Mayor's Desk~
+The Mayor's desk is here, covered with papers.~
+none~
+15 OS 0
+CFG ABCD ABFHLN 0 0
+60 1500 20000
+E
+desk~
+You see the mayor's desk, with stacks of important looking papers all
+over it.  However, he only keeps it that way so people will think he's
+really busy...  Now, you know the truth.  
+~
+#10402
+bills money~
+a large pile of bills~
+A huge stack of bills, worth a ton of gold.~
+none~
+20 0 A
+EIJKN 0 0 0 0
+0 0 0
+#10403
+purple key~
+`Ma purple key`w~
+There is a small purple key, lying here in the dirt.~
+none~
+18 N A
+0 0 0 0 0
+25 1 100
+#10404
+statue raptor~
+a statue of the minor god Raptor~
+`wA large statue of `RRaptor`w is standing here.~
+none~
+12 BO 0
+0 0 0 0 0
+0 500 2000
+#10405
+bed~
+a bed~
+A large bed is here, waiting for occupants.~
+none~
+12 0 0
+0 0 0 0 0
+40 200 1000
+#10408
+bottle dp dr pepper~
+a 20 oz `rDr. Pepper`w~
+A bottle of `rDr. Pepper`g is here.  `YJOY!`w~
+none~
+17 N A
+BEF BEF ABCD 0 0
+25 2 100
+#10409
+orange pill~
+`Ban `yorange`B pill`w~
+An `yorange`g pill lies here.`w~
+none~
+26 N A
+40 66 0 0 0
+40 3 40000
+E
+pill~
+You see a pill here, but you don't know what it does.  There is but one
+word on the side of it.  The word is: 'rock' Hmmmmm.  
+~
+#10410
+feathered pen~
+a feathered pen~
+A sharp-looking feathered pen is here.~
+none~
+5 G AN
+B AC AD ABD D
+45 3 265000
+A
+19 10
+E
+pen~
+You see a feathered pen, but you think it might make a decent weapon.
+~
+#10411
+potion odd red~
+an odd red potion~
+A odd little bottle of red fluid lies here.~
+none~
+10 N A
+50 512 66 0 0
+45 15 300000
+#10412
+cap blarney poet's~
+poet's cap of blarney~
+An odd floppy hat lies here.~
+none~
+9 0 AE
+CE CE CE B 0
+40 3 20000
+A
+4 1
+#10413
+cloak bard~
+cloak of the Bard~
+A long, flowing cloak lies here in a heap.~
+none~
+9 0 0
+BCDE BCDE BCDE AB 0
+40 5 30000
+#10414
+great tome poetry~
+a great tome of poetry~
+A HUGE tome is crushing everything under it.~
+none~
+5 0 AN
+C AC D D 0
+40 8 100000
+A
+18 -10
+A
+19 30
+A
+2 -1
+#10415
+jukebox~
+an old jukebox~
+An old jukebox is here, ready for your selection.~
+none~
+31 B 0
+0 0 0 0 0
+40 100 10000
+E
+jukebox~
+You see an old jukebox standing in the corner.  You are surprised at how
+well it still works given its apparent age.  
+~
+#10428
+glass case~
+a glass case~
+A large glass case is here, filled with poetry.~
+none~
+15 0 0
+ADE AC 0 0 0
+20 20 2
+#10429
+combination slip paper~
+a safe combination~
+A crumpled slip of paper is here.~
+none~
+18 N A
+0 0 0 0 0
+25 0 0
+#10430
+tree large~
+a hollow tree~
+A large tree stands here.~
+none~
+15 0 0
+CDEGHIK CD BILN 0 0
+0 50 100
+E
+tree~
+You see a large oak standing here in a large forest.  It is an aging tree, and the wood is beautiful, probably destined for some rich CEO's desk.
+~
+#10431
+tree stump~
+a tree stump~
+A hollow tree stump is here, filled with leaves.~
+none~
+15 O 0
+CFG 0 0 0 0
+20 100 5
+#10459
+portal~
+`RRaptor's `WImmortal `YPortal`w~
+A portal to `RRaptor's`w pad is here.~
+none~
+30 0 A
+0 0 0 ACFIJKN 0
+25 0 25
+#10496
+vorpal blade hero~
+the VORPAL blade~
+A large glowing sword lies here.~
+none~
+5 A AN
+A BC E A E
+60 10 750
+A
+19 14
+A
+18 8
+#10497
+tooth jaberwock~
+a tooth from the Jabberwock~
+A large tooth is here.  It might make a good weapon.~
+none~
+5 MV AN
+B ABC BCD BD C
+60 5 1200
+A
+18 8
+A
+19 14
+#10498
+wood cutter's axe~
+a woodcutter's axe~
+A large sharp axe lies here against a tree.~
+none~
+18 0 ANPQRSTUVWXYZabcdef
+0 0 0 0 0
+40 30 10000
+A
+18 4
+A
+19 3
+#10499
+scroll vogon poetry~
+a scroll of Vogon poetry~
+A well-traveled scroll of poetry is here.~
+none~
+2 N A
+60 27 533 503 0
+40 2 25000
+#0
+
+
+
+#ROOMS
+#10400
+Before the South Gate~
+You stand gazing up at the high walls around the town of Cheshire.  They
+tower over you, and you wonder why they are so tall.  The gate into the town
+is to the north.  
+~
+0 0 1
+D0
+~
+gate~
+1 0 10401
+S
+#10401
+`RSouth Gate of Cheshire`w~
+This is the south gate of Cheshire, the home town of Lewis Carroll.  The
+large rock wall surrounding the town makes you wonder what it protects them
+from.  You then wonder if you really want to know...  
+~
+0 262144 1
+D0
+~
+~
+0 0 10403
+D2
+~
+~
+1 0 10400
+D3
+~
+~
+0 0 10402
+S
+#10402
+`RSouth Cheshire Guard Shack`w~
+Here is a musty guard shack, carved out of the stone of the wall.  It is
+filled with all kinds of police equipment, from radios to nightsticks.  My,
+this place could use a good cleaning!  
+~
+0 262152 0
+D1
+~
+~
+0 0 10401
+S
+#10403
+`RSouth Lewis Road`w~
+You stand in the middle of Lewis Road, the main North - South road in
+Cheshire.  To the north is the town square, and to the south is the south
+gate.  Off to the west is the Armorer of Legend, and to the east is the Town
+Hall.  
+~
+0 262144 1
+D0
+~
+~
+0 0 10406
+D1
+~
+~
+0 0 10404
+D2
+~
+~
+0 0 10401
+D3
+~
+~
+0 0 10410
+S
+#10404
+`RCheshire Town Hall`w~
+This is the Cheshire Town Hall.  To the east is the Mayor's office, and
+exits to the north and west lead outside.  On the wall is the great seal of
+the town of Cheshire.  The citizens are really proud of their town.  
+There is a stairway here, leading down.
+~
+0 262152 0
+E
+seal~
+`B A beautiful round seal hangs on the wall.  It has two red circles on
+a field of blue.  In the center of the inner circle, there is a large,
+toothy grin, with no face.  The sight of it sends a shiver down your spine.
+`w
+~
+D0
+~
+~
+0 0 10407
+D1
+~
+~
+0 0 10405
+D3
+~
+~
+0 0 10403
+D5
+You see an opening to a staircase leading down.  Above it on the wall is
+a large `RR`w.  I wonder what's down there?  
+~
+~
+0 0 10425
+S
+#10405
+`RThe Mayor's Office`w~
+This is the office of the Mayor of Cheshire.  I wonder where he is?
+~
+0 262152 0
+D3
+~
+~
+0 0 10404
+S
+#10406
+`RCheshire Town Center`w~
+This is the Cheshire town center, the meeting of the two roads of
+Cheshire, Carroll Road and Dodgson Drive.  East and west are the residential
+areas of the town.  North and south are the gates of the city.  
+~
+0 262144 1
+D0
+~
+~
+0 0 10409
+D1
+~
+~
+0 0 10407
+D2
+~
+~
+0 0 10403
+D3
+~
+~
+0 0 10408
+S
+#10407
+`REast Dodgson Drive`w~
+This is an eastern part of Dodgson Drive.  To the north is a diner, where
+you can get a byte to eat.  To the south is the Cheshire Town Hall.  Off to
+the east you spot what looks like a group of small buildings, a low-rent
+residential district.  The road continues east and west.  
+~
+0 262144 1
+D0
+~
+~
+0 0 10412
+D1
+~
+~
+0 0 10416
+D2
+~
+~
+0 0 10404
+D3
+~
+~
+0 0 10406
+S
+#10408
+`RWest Dodgson Drive`w~
+This is a western part of Dodgson Drive.  To the north is a weapons shop,
+and to the south is an armor shop.  To the east is the town center.  Off in
+the distance to the west is a residential area.  Go ahead, meet some of the
+locals.  They'll probably read some of their poetry to you!  
+~
+0 262144 1
+D0
+~
+~
+0 0 10411
+D1
+~
+~
+0 0 10406
+D2
+~
+~
+0 0 10410
+D3
+~
+~
+0 0 10420
+S
+#10409
+`RNorth Carroll Road`w~
+Here you stand, in the middle of a major road.  Watch out for carts! 
+Anyway, south is to the town square, and there are shops to the east and
+west.  Up ahead is the north gate.  Have fun!  
+~
+0 262144 1
+D0
+~
+~
+0 0 10413
+D1
+~
+~
+0 0 10412
+D2
+~
+~
+0 0 10406
+D3
+~
+~
+0 0 10411
+S
+#10410
+`RArmorer of Legends`w~
+Here you stand, before Shakespeare.  You think, "Shakespeare runs an
+armory?"  But you must realize that poetry has weaved itself into the fabric
+of reality in this land, with many strange effects on life here. 
+Shakespeare offers to show you a piece he just finished this morning.  
+~
+0 262152 0
+D0
+~
+~
+0 0 10408
+D1
+~
+~
+0 0 10403
+S
+#10411
+`RPoetic Justice`w~
+Here you can find some odd, yet powerful, weapons.  However, you'd better
+expect to pay some serious cash for them.  Just talk to Rupert, he'll set
+you up.  
+~
+0 262152 0
+D1
+~
+~
+0 0 10409
+D2
+~
+~
+0 0 10408
+S
+#10412
+`RThe Lewis Diner and Caffiene Shop`w~
+Here you find your basic diner.  Try the food, but you might want to get
+some Tums!  
+~
+0 262152 0
+D2
+~
+~
+0 0 10407
+D3
+~
+~
+0 0 10409
+S
+#10413
+`RNorth Gate of Cheshire`w~
+This is the north gate of Cheshire.  Maybe out here you will discover the
+secret of this town and its immense fear of things from outside the wall. 
+Dare you venture outside?  
+~
+0 262144 1
+D0
+~
+~
+1 0 10430
+D1
+~
+~
+0 0 10414
+D2
+~
+~
+0 0 10409
+S
+#10414
+`RNorth Cheshire Guard Shack`w~
+You have entered the guard shack for the north gate guards.  These guards
+pride themseleves on being the neatest in the town, hence this room is
+spotless.  Everything has a place and is in its proper place.  Doesn't it
+just make you sick?  
+~
+0 262152 0
+D3
+~
+~
+0 0 10413
+S
+#10415
+`RA Small House`w~
+This is just a small house in the town of Cheshire, nothing really
+special about it.  A small family lives here.  
+The door back out to the street is south.
+~
+0 262152 0
+D2
+~
+~
+1 0 10416
+S
+#10416
+`REast End of Dodgson`w~
+This is the east end of Dodgson Drive, which ends in a small residential
+area.  All around you are houses, but to the west is the main part of town. 
+~
+0 262144 1
+D0
+~
+~
+1 0 10415
+D1
+~
+~
+1 0 10422
+D2
+~
+~
+1 0 10417
+D3
+~
+~
+0 0 10407
+S
+#10417
+`RAnother House in Cheshire`w~
+Here is another copy-cat house in Cheshire.  I guess the lack of space
+within the walls has made them resort to a single, space-saving design.  Too
+bad they aren't too big on individuality.  
+~
+0 262152 0
+D0
+~
+~
+1 0 10416
+S
+#10418
+`RA Large House`w~
+This large house belongs to the Dodgson family.  Charles, the head of
+this family, has become somewhat of a recluse, and lives in a room upstairs.
+Mrs.  Dodgson, however, is just fine, and is here to deal with the family's
+outside connections, such as keeping the utilities paid, etc.  
+~
+0 262152 0
+D0
+~
+~
+0 0 10420
+D4
+~
+~
+0 0 10426
+S
+#10419
+`RThe Cheshire Poetry Museum`w~
+This is the begining of Broken Shadows only museum dedicated to poetry,
+the Cheshire Poetry Museum.  Here they keep all kinds of poetry, from the
+exciting to the drab, from the Great to the truely horrifying.  Why don't
+you look around for a bit, this museum is free!  
+~
+0 262152 0
+D2
+~
+~
+0 0 10420
+D3
+~
+~
+0 0 10427
+S
+#10420
+`RWest End of Dodgson`w~
+This is the richer side of town.  The Mayor's mansion is to the west, and
+there is another large house to the south.  Off to the north is the Cheshire
+Poetry Museum.  Isn't this a lovely little town?  
+~
+0 262144 1
+D0
+~
+~
+0 0 10419
+D1
+~
+~
+0 0 10408
+D2
+~
+~
+0 0 10418
+D3
+~
+~
+0 0 10421
+S
+#10421
+`RThe Mayor's House`w~
+You have entered the mansion of the Cheshire Mayor.  It is a beautiful
+building, with columns in the front, outer walls made of imported red brick.
+Inside it is warm and comfy, and there servants to bring you anything you
+want at a gesture.  There appears to be a kitchen off to the west, and to
+the north is the Mayor's bedroom.  
+~
+0 262152 0
+D0
+This door leads to the Mayor's bedroom.  I'd stay out of there if I were you.  His wife doesn't like unexpected visitors...
+~
+~
+1 0 10423
+D1
+~
+~
+0 0 10420
+D3
+~
+~
+0 0 10424
+S
+#10422
+`RA Medium-sized House`w~
+Just another house in Cheshire, host to family of cat-like beings.  There
+are pictures of the family on the walls, and other similar family house
+paraphenalia, but that's about it.  
+The exit is to the west.
+~
+0 262152 0
+D3
+~
+~
+1 0 10416
+S
+#10423
+`RThe Mayor's Bedroom`w~
+You have entered the inner sanctum of one of the most powerful men in
+town.  Why you would want to check out the Mayor's bedroom, I have no idea. 
+However, the Mayor's wife is here, and she might be a good reason to enter,
+if you're into large female cats...  
+~
+0 262152 0
+D2
+~
+~
+1 0 10421
+S
+#10424
+`RThe Kitchen`w~
+You have entered the Mayor's kitchen.  There are all kinds of food
+preparation tools lying around in here.  You better watch out, the cooks are
+really territorial!  
+~
+0 262152 0
+D1
+~
+~
+0 0 10421
+S
+#10425
+`RThe Cave Temple`w~
+You wander about this temple curiously, because you've never seen a
+temple built underground before.  But then you realize that this temple was
+built for `RRaptor`w, and a cave would make a fitting temple for a dwarf. 
+You feel safe here, knowing that `RRaptor`w is watching over you.  
+~
+0 263176 0
+D4
+You see a set of stairs leading back up to the town hall.
+~
+~
+0 0 10404
+S
+#10426
+`RAt the Top of the Stairs`w~
+~
+0 262152 0
+D2
+~
+~
+5 0 10429
+D5
+~
+~
+0 0 10418
+S
+#10427
+`RThe Poetry Museum`w~
+Further into the museum, there are a greater variety of poetic works. 
+Everything from Shakespeare to Dickinson, even some by unknown poets.  To
+the north, there are guards standing before a vault door.  There is a sign
+on the door, with large warning labels on it, as well as some much smaller
+text.  
+~
+0 262152 0
+E
+sign~
+`Y        WARNING!!!!!`w
+ 
+This vault contains some very
+bad poetry, which has been locked
+up for the protection of the
+innocent.
+`RENTER AT YOUR OWN RISK!!`w
+~
+D0
+~
+vault~
+2 10429 10428
+D1
+~
+~
+0 0 10419
+S
+#10428
+`RInside the Vault`w~
+You are inside a large vault in the poetry museum.  You wonder what they
+could have that they needed to lock up and guard with this much protection. 
+There was a guard outside, and a couple in here...  And all those warning
+labels.  Look, there's another one in here!  
+~
+0 262153 0
+E
+warning~
+WARNING: The Cheshire Poetry Museum holds NO liability for what will
+happen when you read this poetry.  
+CAUTION: Read this poetry at your own risk!
+~
+E
+label~
+WARNING: The Cheshire Poetry Museum holds NO liability for what will
+happen when you read this poetry.  
+CAUTION: Read this poetry at your own risk!
+~
+D2
+~
+~
+2 10429 10427
+S
+#10429
+`RCharles Dodgson's Room`w~
+~
+0 262153 0
+D0
+~
+~
+5 0 10426
+S
+#10430
+`RBefore the North Gate`w~
+You stand here, where the forest meets the north gate of Cheshire.  Do
+you want to continue, or retreat?  There are some odd scratches on the wall
+beside the gate.  
+~
+0 0 3
+E
+scratches~
+You look closer, and see:
+ 
+Beware the Jab'
+Hmmm, I wonder why they didn't finish it?
+~
+D0
+~
+~
+0 0 10431
+D2
+~
+gate~
+1 0 10413
+S
+#10431
+`REntering the Dark Wood`w~
+You have just entered a VERY dark forest.  There is no telling what kinds
+of creepy beings could be around the next turn.  If you're smart, you'll
+examine the light to the south a little more carefully.  It looks like an
+exit to this scary place.  
+~
+0 1 3
+D0
+~
+~
+0 0 10433
+D1
+~
+~
+0 0 10434
+D2
+~
+~
+0 0 10430
+D3
+~
+~
+0 0 10432
+S
+#10432
+`RWithin the Dark Wood`w~
+You decided to walk further into the forest, and decide that that may not
+have been the best plan of action.  Wandering through a strange forest has
+gotten you lost again.  
+~
+0 1 3
+D0
+~
+~
+0 0 10436
+D1
+~
+~
+0 0 10431
+D2
+~
+~
+0 0 10446
+D3
+~
+~
+0 0 10435
+S
+#10433
+`RWithin the Dark Wood`w~
+You decided to walk further into the forest, and decide that that may not
+have been the best plan of action.  Wandering through a strange forest has
+gotten you lost again.  
+~
+0 1 3
+D0
+~
+~
+0 0 10443
+D1
+~
+~
+0 0 10439
+D2
+~
+~
+0 0 10431
+D3
+~
+~
+0 0 10437
+S
+#10434
+`RWithin the Dark Wood`w~
+You decided to walk further into the forest, and decide that that may not
+have been the best plan of action.  Wandering through a strange forest has
+gotten you lost again.  
+~
+0 1 3
+D0
+~
+~
+0 0 10440
+D1
+~
+~
+0 0 10441
+D2
+~
+~
+0 0 10435
+D3
+~
+~
+0 0 10431
+S
+#10435
+`RWithin the Dark Wood`w~
+You decided to walk further into the forest, and decide that that may not
+have been the best plan of action.  Wandering through a strange forest has
+gotten you lost again.  
+~
+0 1 3
+D0
+~
+~
+0 0 10434
+D1
+~
+~
+0 0 10432
+D2
+~
+~
+0 0 10442
+D3
+~
+~
+0 0 10440
+S
+#10436
+`RWithin the Dark Wood`w~
+You decided to walk further into the forest, and decide that that may not
+have been the best plan of action.  Wandering through a strange forest has
+gotten you lost again.  
+~
+0 1 3
+D0
+~
+~
+0 0 10449
+D1
+~
+~
+0 0 10437
+D2
+~
+~
+0 0 10432
+D3
+~
+~
+0 0 10441
+S
+#10437
+`RWithin the Dark Wood`w~
+You decided to walk further into the forest, and decide that that may not
+have been the best plan of action.  Wandering through a strange forest has
+gotten you lost again.  Odd, there appears to be a small clearing to the
+south.  
+~
+0 1 3
+D0
+~
+~
+0 0 10438
+D1
+~
+~
+0 0 10433
+D2
+~
+~
+0 0 10451
+D3
+~
+~
+0 0 10436
+S
+#10438
+`RDeep Within the Dark Wood`w~
+You decided to walk even further into the forest, and decide that now you
+are completely lost.  The more you wander through this place, the more
+hopeless you feel.  
+~
+0 1 3
+D0
+~
+~
+0 0 10442
+D1
+~
+~
+0 0 10446
+D2
+~
+~
+0 0 10437
+D3
+~
+~
+0 0 10443
+S
+#10439
+`RWithin the Dark Wood`w~
+You decided to walk further into the forest, and decide that that may not
+have been the best plan of action.  Wandering through a strange forest has
+gotten you lost again.  
+~
+0 1 3
+D0
+~
+~
+0 0 10448
+D1
+~
+~
+0 0 10440
+D2
+~
+~
+0 0 10441
+D3
+~
+~
+0 0 10433
+S
+#10440
+`RDeep Within the Dark Wood`w~
+You decided to walk even further into the forest, and decide that now you
+are completely lost.  The more you wander through this place, the more
+hopeless you feel.  
+~
+0 1 3
+D0
+~
+~
+0 0 10450
+D1
+~
+~
+0 0 10435
+D2
+~
+~
+0 0 10434
+D3
+~
+~
+0 0 10439
+S
+#10441
+`RDeep Within the Dark Wood`w~
+You decided to walk even further into the forest, and decide that now you
+are completely lost.  The more you wander through this place, the more
+hopeless you feel.  
+~
+0 1 3
+D0
+~
+~
+0 0 10439
+D1
+~
+~
+0 0 10436
+D2
+~
+~
+0 0 10449
+D3
+~
+~
+0 0 10434
+S
+#10442
+`RDeep Within the Dark Wood`w~
+You decided to walk even further into the forest, and decide that now you
+are completely lost.  The more you wander through this place, the more
+hopeless you feel.  
+~
+0 1 3
+D0
+~
+~
+0 0 10435
+D1
+~
+~
+0 0 10444
+D2
+~
+~
+0 0 10438
+D3
+~
+~
+0 0 10450
+S
+#10443
+`RDeep Within the Dark Wood`w~
+You decided to walk even further into the forest, and decide that now you
+are completely lost.  The more you wander through this place, the more
+hopeless you feel.  
+~
+0 1 3
+D0
+~
+~
+0 0 10446
+D1
+~
+~
+0 0 10438
+D2
+~
+~
+0 0 10433
+D3
+~
+~
+0 0 10449
+S
+#10444
+`RWithin the Dark Wood`w~
+You decided to walk even further into the forest, and decide that now you
+are completely lost.  The more you wander through this place, the more
+hopeless you feel.  Don'tcha just hate these mazes?  
+~
+0 1 3
+D0
+~
+~
+0 0 10460
+D1
+~
+~
+0 0 10445
+D2
+~
+~
+0 0 10445
+D3
+~
+~
+0 0 10442
+S
+#10445
+`RDeep Within the Dark Wood`w~
+You decided to walk even further into the forest, and decide that now you
+are completely lost.  The more you wander through this place, the more
+hopeless you feel.  It seems that you are merely walking around in circles,
+going past the same trees over and over.  
+~
+0 1 3
+D0
+~
+~
+0 0 10444
+D1
+~
+~
+0 0 10447
+D2
+~
+~
+0 0 10447
+D3
+~
+~
+0 0 10444
+S
+#10446
+`RDeep Within the Dark Wood`w~
+You decided to walk even further into the forest, and decide that now you
+are completely lost.  The more you wander through this place, the more
+hopeless you feel.  
+~
+0 1 3
+D0
+~
+~
+0 0 10432
+D1
+~
+~
+0 0 10450
+D2
+~
+~
+0 0 10443
+D3
+~
+~
+0 0 10438
+S
+#10447
+`RDeep Within the Dark Wood`w~
+You decided to walk even further into the forest, and decide that now you
+are completely lost.  The more you wander through this place, the more
+hopeless you feel.  
+~
+0 1 3
+D0
+~
+~
+0 0 10445
+D1
+~
+~
+0 0 10448
+D2
+~
+~
+0 0 10450
+D3
+~
+~
+0 0 10445
+S
+#10448
+`RWithin the Dark Wood`w~
+You decided to walk even further into the forest, and decide that now you
+are completely lost.  This forest must be HUGE!  You begin to wonder just
+how big this forest really is.  
+~
+0 1 3
+D1
+~
+~
+0 0 10449
+D2
+~
+~
+0 0 10439
+D3
+~
+~
+0 0 10447
+S
+#10449
+`RDeep Within the Dark Wood`w~
+You decided to walk even further into the forest, and decide that now you
+are completely lost.  The more you wander through this place, the more
+hopeless you feel.  
+~
+0 1 3
+D0
+~
+~
+0 0 10441
+D1
+~
+~
+0 0 10443
+D2
+~
+~
+0 0 10436
+D3
+~
+~
+0 0 10448
+S
+#10450
+`RDeep Within the Dark Wood`w~
+You decided to walk even further into the forest, and decide that now you
+are completely lost.  The more you wander through this place, the more
+hopeless you feel.  
+~
+0 1 3
+D0
+~
+~
+0 0 10447
+D1
+~
+~
+0 0 10442
+D2
+~
+~
+0 0 10440
+D3
+~
+~
+0 0 10446
+S
+#10451
+`RA Small Clearing in the Dark Wood`w~
+You seem to have stumbled upon a small forested spot in the middle of the
+Dark Wood.  It is nice and calm, and some sunlight shines in between the
+tops of the surrounding trees.  You feel safe, as if nothing could attack
+you here.  
+~
+0 1024 2
+D0
+~
+~
+0 0 10437
+S
+#10460
+`RBefore the TumTum Tree`w~
+You stand before the mighty Tumtum tree, and wonder how it got it's name.
+There seems to be an odd moss growing on the tree off to the west.  You are
+also curious as to why this "horrible monster" the villagers were so afraid
+of hasn't appeared yet.  You notice a sign, stuck into the ground here.  
+~
+0 0 3
+E
+sign~
+The sign reads:
+Watch for large attacking monsters.
+Thanks,
+`R    Raptor`w
+~
+D1
+~
+~
+0 0 10462
+D2
+~
+~
+0 0 10444
+D3
+~
+~
+0 0 10463
+S
+#10461
+`RInside the Tumtum Tree`w~
+~
+0 8200 0
+D0
+~
+~
+1 0 10466
+D4
+~
+~
+0 0 10469
+S
+#10462
+`RNear the Tumtum Tree`w~
+You walk around the tree, and it suddenly gets very dark.  The tree-tops
+here seem to be closer together, so that even in the middle of the day,
+almost no light comes through.  You can still feel the tree, so you think
+you can continue on around it.  Maybe there will be more light as you
+proceed, but you doubt it.  
+~
+0 1 3
+D0
+~
+~
+0 0 10468
+D3
+~
+~
+0 0 10460
+S
+#10463
+`RNear the Tumtum Tree`w~
+You begin to wander around the mighty tree, and notice the moss growing
+on it.  You remember hearing somewhere that moss only grew on the north side
+of trees.  Apparently, this is not the case here, because the moss continues
+around the tree in both directions.  
+~
+0 1 3
+D0
+~
+~
+0 0 10464
+D1
+~
+~
+0 0 10460
+S
+#10464
+`RBeside the Tumtum Tree`w~
+~
+0 0 3
+D0
+~
+~
+0 0 10465
+D2
+~
+~
+0 0 10463
+S
+#10465
+`RNear the Tumtum Tree`w~
+~
+0 0 3
+D1
+~
+~
+0 0 10466
+D2
+~
+~
+0 0 10464
+S
+#10466
+`RBehind the Tumtum Tree`w~
+~
+0 0 3
+D1
+~
+~
+0 0 10467
+D2
+~
+~
+1 10498 10461
+D3
+~
+~
+0 0 10465
+S
+#10467
+`RNear the Tumtum Tree`w~
+There is even more moisture on this side of the tree, to the point that
+moss is growing all over the bark.  It's somewhat slimy, and you are glad
+that there is some light off to the west, so you don't have to hold onto the
+tree anymore.  
+~
+0 0 3
+D2
+~
+~
+0 0 10468
+D3
+~
+~
+0 0 10466
+S
+#10468
+`RBeside the Tumtum Tree`w~
+It's still quite dark, you can't even see to brush the branches from
+nearby plants out of the way.  You begin to feel a little damp, as moisture
+from the surrounding leaves falls on you as you walk around the tree. 
+Hopefully there will be someplace dry and light around, so you don't die
+from mildew...  
+~
+0 0 3
+D0
+~
+~
+0 0 10467
+D2
+~
+~
+0 0 10462
+S
+#10469
+`RWithin the Tree`w~
+This is a normal description for a room in a tree.. Ya know, a laddar...
+Andf light shafting down.
+ 
+There are words carved in the wall here.
+~
+0 8200 0
+E
+words~
+EXAR WVZ HERE
+~
+D0
+~
+~
+0 0 10470
+D1
+~
+~
+0 0 10471
+D4
+~
+~
+0 0 10472
+D5
+~
+~
+0 0 10461
+S
+#10470
+`RWithin the Tree`w~
+~
+0 8200 0
+D2
+~
+~
+0 0 10469
+S
+#10471
+`RWithin the Tree`w~
+~
+0 8200 0
+D3
+~
+~
+0 0 10469
+S
+#10472
+`RThe Third Level of the Tree`w~
+~
+0 0 0
+D5
+~
+~
+0 0 10469
+S
+#0
+
+
+
+#SPECIALS
+M 10401 spec_cast_cleric Load to: Shakespeare, the armorer
+M 10403 spec_cast_mage Load to: Emily Dickinson
+M 10407 spec_guard Load to: North Cheshire Guard
+M 10408 spec_guard Load to: South Cheshire Guard
+M 10409 spec_cast_cleric Load to: Stormy
+M 10410 spec_cast_mage Load to: the Museum's curator
+S
+
+
+
+#RESETS
+D 0 10400 0 0
+D 0 10401 2 0
+D 0 10413 0 0
+D 0 10415 2 0
+D 0 10416 0 0
+D 0 10416 1 0
+D 0 10416 2 0
+D 0 10417 0 0
+D 0 10421 0 0
+D 0 10422 3 0
+D 0 10423 2 0
+D 0 10426 2 0
+D 0 10427 0 2
+D 0 10428 2 2
+D 0 10429 0 0
+D 0 10430 2 0
+D 0 10461 0 1
+D 0 10466 2 1
+M 0 10408 4 10400
+M 0 10408 4 10401
+M 0 10408 4 10402
+M 0 10405 6 10403
+O 0 10401 0 10405
+P 0 10402 0 10401
+M 0 10404 1 10406
+G 0 10403 0
+M 0 10406 6 10409
+M 0 10401 1 10410
+G 0 10412 0
+G 0 10413 0
+M 0 10402 1 10411
+G 0 10410 0
+G 0 10414 0
+M 0 10403 1 10412
+G 0 10408 0
+G 0 10409 0
+O 0 10415 0 10412
+M 0 10407 4 10413
+M 0 10407 4 10414
+M 0 10406 6 10415
+M 0 10405 6 10415
+M 0 10406 6 10417
+M 0 10405 6 10417
+M 0 10406 6 10419
+M 0 10410 1 10419
+G 0 10429 0
+O 0 10428 0 10419
+M 0 10405 6 10422
+M 0 10406 6 10422
+O 0 10405 0 10423
+O 0 10404 0 10425
+M 0 10409 1 10425
+M 0 10405 6 10427
+O 0 10428 0 10427
+O 0 10431 0 10451
+P 0 10498 0 10431
+S
+
+
+
+#SHOPS
+10401 9 0 0 0 0 100 100 0 23
+10402 5 0 0 0 0 50 50 0 23
+10403 19 17 26 0 0 50 50 0 23
+0
+
+
+
+#$

@@ -1,0 +1,1231 @@
+#AREADATA
+Name        {55-70} Exar    Ghost Ship~
+Builders    None~
+VNUMs       20900 20950
+Security    9
+End
+
+
+
+#MOBILES
+#20900
+space vacuum ~
+the vacuum of space~
+The vacuum of outer space tears the life out of you.
+~
+Its really quite beautiful, if harsh.  The stars shine, and distant
+galaxies are born.  Except you seem to be outside without a spacesuit. 
+Sucks to be you!  
+~
+Giant~
+ABFT DF 0 0 S
+90 300 11d443+1629 0d0+0 8d17+23 12
+-30 -30 -30 -30
+H CDHINOP HI JP
+8 8 0 0
+AHMV ABCDEFGHIJK M none
+#20901
+mynock~
+a mynock~
+A mynock sucks power from the ship.
+~
+These are nasty little suckers, getting into conduits, sucking power,
+leaving radioactive slime EVERYWHERE, and theyre ugly and smell bad to boot.
+~
+Human~
+AS Tc 0 0 S
+60 100 11d277+1247 0d0+0 6d11+65 28
+-16 -16 -16 -3
+FV I JO 0
+8 8 0 0
+AHMV ABCDEFGHIJK M none
+#20902
+evil spectre ghost~
+an evil spectre~
+An evil spectre sees you and attacks!
+~
+You cant even tell if its real or not, until you feel your life slipping
+away...  
+~
+Human~
+AFOR BDFT 0 -1000 S
+65 150 11d352+1451 0d0+0 6d12+31 18
+-20 -20 -20 -7
+BH 0 0 N
+8 8 0 0
+AHMV ABCDEFGHIJK M none
+#0
+
+
+
+#OBJECTS
+#20900
+captain corpse body~
+the Captain's corpse~
+The long-dead corpse of the Captain sits in his throne.~
+none~
+15 0 A
+DGH 0 0 0 0
+0 400 0
+E
+corpse~
+The Captain has handcuffed himself to his Throne; no one can say that he
+did not go down with his ship.  He also appears to have commmitted suicide. 
+~
+E
+captain~
+The Captain has handcuffed himself to his Throne; no one can say that he
+did not go down with his ship.  He also appears to have commmitted suicide. 
+~
+E
+body~
+The Captain has handcuffed himself to his Throne; no one can say that he
+did not go down with his ship.  He also appears to have commmitted suicide. .f
+~
+#20901
+key keycad card~
+a keycard~
+A keycard has been lost here.~
+none~
+18 0 A
+0 0 0 0 0
+0 1 0
+#20902
+dagger~
+a wicked looking dagger~
+A daggerwith a serated edge and sharp claws has been dropped on the floor.~
+none~
+5 0 AN
+B CE AB B 0
+57 5 500
+A
+19 10
+E
+dagger~
+The dagger is about 5 inches long.  One edge is serated and there are 2
+sharp claws at the base of the blade.  They extend inside the victim at the
+ouch of a button.  The blade is caked with blood.  
+~
+#20903
+desk drawer~
+the Captain's desk~
+The Captain's desk sits against the wall.~
+none~
+15 O 0
+CEFGHI ABCD ACFHIMO 0 0
+0 200 0
+E
+desk~
+The desk is very neat; pretty much the only thing on it is a model of the
+ship.  There is a drawer in the desk.  
+~
+E
+drawer~
+There is a slot for some kind of card.
+~
+#20904
+medal~
+a shiny medal~
+A shiney medal for Bravery and Heroism is here.~
+none~
+33 0 AC
+0 0 0 0 0
+0 5 5995
+E
+metal~
+The metal is gold with several small gems set into its surface.  It looks
+quite valuable.  
+~
+#20905
+book log~
+the Captain's log~
+A bound book titled "Captain's Log" rests here.~
+none~
+13 0 A
+0 0 0 0 0
+0 1 1
+E
+log~
+The last entry in the log reads:
+ 
+The ship has been taken over by an evil apparition of
+space like none I have ever seen.  The specters kill,
+but cannot be seen.  We cannot fight what we cannot
+see.  I have orderd my crew to abandon ship. Perhaps
+they can be saved.  I will remain aboard, as is my
+last duty.
+ 
+This will be my final entry in this log.
+ 
+Captain Kaleth, Commander KHW Kalothar
+2943.1, 21:94
+~
+#20906
+book orders~
+the ship's order book~
+A bound book titled "Orders and Operations" is here.~
+none~
+13 0 A
+0 0 0 0 0
+0 1 1
+E
+orders~
+The latest entry reads:
+ 
+TO: Captain Kaleth, Commander, KHW Kalothar
+FROM: Klingon Imperial High Command
+VERIFICATION CODE GROUP: GAALAKIN-KRONUS-THREE
+ 
+Proceed with all haste to GalCor 3245.54-8343.22-897.34
+ 
+Investigate the status/whereabouts of KHW Levisthan.
+Contact with KHW Levisthan was lost on SD 4673.54. 
+ 
+<STOP>
+~
+#20907
+jukebox~
+the jukebox~
+A jukebok is sitting in the corner.~
+none~
+31 O 0
+0 0 0 0 0
+0 100 0
+E
+jukebox~
+The jukebox is dark and its case is cracked, but it might still work...  
+~
+#20908
+sandwich rotten~
+a rotten sandwich~
+A rotten sandwich sits half eaten on a plate.~
+none~
+19 O A
+B 0 0 A 0
+0 1 0
+#20909
+dirty socks~
+a pair of dirty socks~
+A pungent pair of dirty socks is on the floor.~
+none~
+11 0 AG
+0 0 0 0 0
+0 1 2
+#20910
+protoplaser~
+a protopolaser~
+A protoplaser hums quietly to itself.~
+none~
+3 AB AO
+DF BD BD 28 0
+40 2 400
+#20911
+laser scalpel~
+a laser scalpel~
+A laser scalpel glows brightly.~
+none~
+5 AB AN
+B ABD AC A 0
+50 3 500
+#20912
+blue pill bactifry~
+a Bactifry~
+A blue pill marked "Bactifry" is in its protective capsule.~
+none~
+26 0 A
+40 501 0 0 0
+40 1 25
+#20913
+green pill Antiphage~
+an Antiphage~
+A green pill marked "Antiphage" is in its protective capsule.~
+none~
+26 0 A
+40 43 0 0 0
+40 0 30
+#20914
+red pill Zipatril~
+a Zipatril~
+A red pill marked "Zipatril" is in its protective capsule.~
+none~
+26 0 A
+40 81 502 0 0
+40 0 20
+#20915
+lavendar pill Schnozix~
+a Schnozix~
+A lavendar pill marked "Schnozix" is inside its protective capsule.~
+none~
+26 0 A
+40 509 38 0 0
+40 0 0
+#20916
+big gun phaser rifle~
+a phaser rifle~
+A VERY large phaser rifle hums to itself.~
+none~
+5 B AN
+0 CD AD BC AF
+65 18 625
+A
+19 10
+A
+18 15
+#20917
+ceramic leg~
+ceramic leg armor~
+Armored leg plates of the strangest composition lay here.~
+none~
+9 0 AF
+BE BE BE BCD 0
+65 7 500
+#20918
+ceramic boots~
+ceramic boots~
+Armored boots of the strangest composition rest here.~
+none~
+9 0 AG
+BE BE BE BCD 0
+65 6 300
+#20919
+ceramic sleeves~
+ceramic sleeves~
+Armored sleeves of the strangest composition have been laid here.~
+none~
+9 0 AI
+BE BE BE BCD 0
+65 5 300
+#20920
+ceramic helmet~
+a ceramic helmet~
+A helmet of a strange material is here.~
+none~
+9 0 AE
+BE BE BE BCD 0
+65 4 200
+#20921
+ceramic body armor~
+ceramic body armor~
+Body armor of an odd material is stacked here.~
+none~
+9 0 AD
+BE BE BE BCD 0
+65 10 400
+#20922
+ceramic girth~
+a ceramic girth~
+An armored girth of a strange compund is here.~
+none~
+9 0 AL
+BE BE BE BCD 0
+65 3 100
+#20923
+light spotlight~
+a spotlight~
+A magical torch is on the ground here.~
+none~
+1 A A
+0 0 700 0 0
+65 1 100
+#20924
+ceramic gauntlets gloves~
+ceramic gauntlets~
+Gauntlets of a strange material are here.~
+none~
+9 0 AH
+BD BD BD D 0
+65 1 100
+A
+19 5
+#20925
+gravitometric field generator~
+a gravitometric static shield generator~
+A very large and very odd looking device sits here.~
+none~
+3 AB AO
+BCDE D D 36 0
+65 80 630
+#20926
+rocket launcher~
+a rocket launcher~
+A rather large gun with 4 barrels rests here.~
+none~
+3 0 AO
+AG C C 515 0
+65 25 600
+#20927
+container cargo~
+a cargo container~
+A large metal cargo container is bloted to the floor.~
+none~
+15 O 0
+DFGHIJ AC 0 0 0
+0 100 0
+#20928
+uniform shirt~
+a uniform shirt~
+A uniform shirt with a tri-foil insignia looks freshly laundered.~
+none~
+11 0 AD
+0 0 0 0 0
+0 2 10
+#20929
+bar ration food~
+an unappetizing emergency ration~
+A small dried out bar of, well, stuff is here.~
+none~
+19 0 A
+CE 0 0 0 0
+0 1 20
+E
+bar~
+The label on the package says "Emergency Ration"
+~
+#20930
+emergency water ration~
+an emergancy water ration~
+A large hermeticlly sealed package of water waits to be needed.~
+none~
+17 0 A
+DGH DGH 0 0 0
+0 200 10
+#20931
+equipment stuff spares~
+spares, equipment, and stuff~
+A pile of equipment, parts, spares, and stuff is here.~
+none~
+8 0 A
+0 0 0 0 0
+0 30 100
+#20932
+jenga game~
+a Jenga (tm) set~
+A collapsed Jenga (tm) tower sits on a table.~
+none~
+13 0 A
+0 0 0 0 0
+0 1 10
+#20933
+bottle whisky~
+a bottle of whisky~
+A bottle of whisky is here.~
+none~
+17 0 A
+BCDE BD AC 0 0
+0 50 49
+#20934
+medkit~
+a medkit~
+A small leather pouch labeled "Medkit" is here.~
+none~
+15 0 AL
+CE 0 0 0 0
+0 5 20
+#20935
+gold coins stack~
+some gold coins~
+A pile of gold coins is here.~
+none~
+20 0 0
+BFG 0 0 0 0
+0 0 0
+#0
+
+
+
+#ROOMS
+#20900
+Torpedo Room~
+Racks and racks of metal torpedoes line the walls; shells large enough
+to carve out the heart of God himself.  A winch system hangs from the
+ceiling, apparently designed to carry the tools of destruction into their
+breech.  The muzzle of the great cannon extends into the stars, perhaps to
+seige the gates of Heaven themselves.  A door leads south.  
+~
+0 8 0
+D2
+~
+~
+1 0 20901
+S
+#20901
+Gangway~
+Most of this room is taken up by an extendable ramp set into the floor. 
+This is the lower deck of the ship, so it must be the gangway through which
+the crew may disembark.  The room opens south into a larger section of the
+ship, and a ladder leads up.  There is also a door leading north.  
+~
+0 8 0
+D0
+~
+~
+1 0 20900
+D2
+~
+~
+0 0 20902
+D4
+~
+~
+0 0 20915
+S
+#20902
+Cargo Hold~
+The hold of the ship is filled with homogenous containers bolted to the
+floor.  To the north you see a ladder and to the south you see a door.  
+~
+0 8 0
+D0
+~
+~
+0 0 20901
+D2
+~
+~
+0 0 20903
+S
+#20903
+Cargo Hold~
+The hold of the ship is filled with homogeneous containers bolted to the
+floor.  To the north you see a ladder and to the south you see a door.  
+~
+0 8 0
+D0
+~
+~
+0 0 20902
+D2
+~
+~
+0 0 20904
+S
+#20904
+Cargo Hold~
+The hold of the ship is filled witjh homogeneous containers bolted to the
+floor.  To the north you see a ladder, and there are doors to the east and
+west.  To the south is another door behind which you hear a humming sound.  
+~
+0 8 0
+D0
+~
+~
+0 0 20903
+D1
+~
+~
+1 0 20906
+D2
+~
+~
+1 0 20907
+D3
+~
+~
+1 0 20905
+S
+#20905
+Gun Room~
+A platform hangs on a dual axle frame of some sort, allowing the platform
+to pivot to all directions.  What could only be a cannon rests on the
+platform; there is also a chair sitting behind the gunsight.  No munitions
+can be found...  
+~
+0 8 0
+D1
+~
+~
+1 0 20904
+S
+#20906
+Gun Room~
+A platform hangs on a dual axle frame of some sort, allowing the platform
+to pivot to all directions.  What could only be a cannon rests on the
+platform; there is also a chair positioned on the platform behind the
+gunsight.  No munitions are in sight.  
+~
+0 8 0
+D3
+~
+~
+1 0 20904
+S
+#20907
+Lower Core~
+You are on the bottom floor of a massive 3 story room.  This is the nexus
+of the magic that drives the ship: A tall collumn stretches from floor to
+ceiling glowing and throbbing with barely contained energy.  A ladder leads
+to the 2 decks above.  
+~
+0 8 0
+D0
+~
+~
+1 0 20904
+D4
+~
+~
+0 0 20924
+S
+#20908
+Bridge~
+You stand in the middle of what could only be a control room, but it is
+unlike any you have ever seen.  Replacing the normal levers, pulleys, and
+valves are panels with many keys, as many as an organ or piano.  This must
+reflect that the machines they control are like none other as well, with
+operation so precice and fine tuned it is operated as an instrument of
+music.  A Throne sits in the center of the room, and a large window of sorts
+is all that separates you from the naked Heavens beyond.  
+~
+0 8 0
+E
+south~
+Past the rooms door you see a long corridor heading south.
+~
+D2
+~
+~
+0 0 20909
+S
+#20909
+Main Corridor~
+You are in a long corridor that streatches north and south.  You hear a
+deep throbbing sound to the south.  There is a door to the north.  
+~
+0 8 0
+E
+north~
+A door sign says: Main Bridge
+~
+E
+south~
+You see a long corridor.
+~
+D0
+~
+~
+0 0 20908
+D2
+~
+~
+0 0 20910
+S
+#20910
+Main Corridor~
+You are in a long corridor that streatches north and south.  You hear a
+deep throbbing sound to the south.  
+~
+0 8 0
+E
+north~
+You see a long corridor ending at a doorway.
+~
+E
+south~
+You see a long corridor.
+~
+D0
+~
+~
+0 0 20909
+D2
+~
+~
+0 0 20912
+S
+#20911
+Captain's Quarters~
+These must be the Captain's quarters.  There is a table, chair, desk,
+bookshelf.  A single bunk is against the outer wall, above which is a
+porthole looking out apon what looks like a beautiful blue and white gem. 
+Traces of green and brown peek from below the white.  A model of the ship
+rests on the desk; it resembles a brooding bird of prey.  
+~
+0 9 0
+D1
+~
+~
+2 20901 20912
+S
+#20912
+Main Corridor~
+You are in a long corridor that streatches north and south.  You hear a
+deep throbbing sound to the south.  There are doors to the east and west.  
+~
+0 8 0
+E
+north~
+You see a long corridor.
+~
+E
+south~
+You see a long corridor.
+~
+E
+east~
+A door sign says: Infirmiry
+~
+E
+west~
+A door sign says: Captains Quarters
+~
+D0
+~
+~
+0 0 20910
+D1
+~
+~
+1 0 20913
+D2
+~
+~
+0 0 20915
+D3
+~
+~
+2 20901 20911
+S
+#20913
+Infirmary~
+A pair of beds sit in the center of the room, apon one of which rests a
+long dead body of an ill-fated soldier.  His chest has been blasted open by
+a magic so evil and so powerful that it is hard to comprehend.  There is an
+oddly colored bloodstain on the other bed, and a porthole looks out into the
+vastness of space.  
+~
+0 8 0
+D3
+~
+~
+1 0 20912
+S
+#20914
+Galley~
+This room is the common area on the ship.  There are 2 tables, a couple
+of comfortable couches, diversions of some sort, and a galley at one end. 
+There is a porthole in this room as well, looking onto a blue and white gem
+floating in space.  
+~
+0 8 0
+D1
+~
+~
+1 0 20915
+S
+#20915
+Main Corridor~
+You are in a long corridor that streatches north and south.  You hear a
+deep throbbing sound to the south.  There are doors to the east and west. 
+There is a ladder leading down to the lower deck.  
+~
+0 8 0
+E
+west~
+A door sign says: Galley
+~
+E
+east~
+A door sign says: Crew Quarters
+~
+E
+north~
+You see a long corridor.
+~
+E
+south~
+You see a long corridor.
+~
+E
+down~
+You see a ladder shaftway heading down.
+~
+D0
+~
+~
+0 0 20912
+D1
+~
+~
+1 0 20916
+D2
+~
+~
+0 0 20921
+D3
+~
+~
+1 0 20914
+D5
+~
+~
+0 0 20901
+S
+#20916
+Crew Quarters~
+This room smells like dirty socks, as it should.  There seems to be an
+errant one on the floor.  The dimly lit room is crammed full of more than a
+dozen bunks stacked 3 high to the ceiling.  A porthole looks out into empty
+space.  
+~
+0 9 0
+D3
+~
+~
+1 0 20915
+S
+#20917
+Machine Room~
+The room is very hot and noisy.  It is crammed full of indecipherable
+machines doing god only knows what.  Pipes, conduits, cables, and ducting
+snake everywhere, even under the grated floor.  
+~
+0 8 0
+D1
+~
+~
+1 0 20918
+S
+#20918
+Engineering Control Room~
+This room is packed full of controls for the most complex machines you
+have ever seen.  Complex enought to control the flow of magic and power in
+the universe?  Perhaps.  Its the only explanation.  There is a very powerful
+throbbing sound coming from the south, and doors lead east and west.  
+~
+0 8 0
+E
+north~
+Beyond the doorway is a long corridor.
+~
+E
+east~
+A door sign says: Machine Room A
+~
+E
+west~
+A door sign says: Machine Room B
+~
+E
+south~
+You see the engine core.
+~
+D0
+~
+~
+1 0 20921
+D1
+~
+~
+1 0 20919
+D2
+~
+~
+0 0 20924
+D3
+~
+~
+1 0 20917
+S
+#20919
+Machine Room~
+The room is very hot and noisy.  It is crammed full of indecipherable
+machinery doing God only knows what.  Pipes, conduits, cables, and ducting
+snake everywhere, even under the grated floor.  
+~
+0 8 0
+D3
+~
+~
+1 0 20918
+S
+#20920
+Armoury and Equipment Locker~
+The room is dilled with racks of guns, armor, and equipment.  A distant
+alarm sounds at your presance, unheard by anyone but yourself.  
+~
+0 8 0
+D1
+~
+~
+2 0 20921
+S
+#20921
+Main Corridor~
+You are in a long corridor that streatches north and south.  You hear a
+deep throbbing sound to the south.  Doors lead east, west, and south.  A
+ladder leads to the upper deck.  
+~
+0 8 0
+E
+north~
+You see a long corridor.
+~
+E
+south~
+A door sign says: Main Engineering
+~
+E
+east~
+A door sign says: Transproter Room
+~
+E
+west~
+A door sign says: Equipment and Armoury
+~
+E
+up~
+You see a ladder heading up to the top deck.
+~
+D0
+~
+~
+0 0 20915
+D1
+~
+~
+0 0 20922
+D2
+~
+~
+1 0 20918
+D3
+~
+~
+2 0 20920
+D4
+~
+~
+0 0 20927
+S
+#20922
+Transporter Room~
+You are in a room of a very odd configuration.  There is a raised
+platform at one end with 4 circular tiles on it.  They are mirrored by
+corresponding panels of a stained glass on the ceiling.  Near the door is a
+panel covers with many knobs, keys, and dials.  
+~
+0 8 0
+D3
+~
+~
+0 0 20921
+S
+#20923
+Engine Room~
+The device operating in this room and its mate on the other side of the
+ship seem to be accepting the magical energy channeled by the Core and are
+redirecting it elsewhere, probably behind the ship.  
+~
+0 8 0
+D1
+~
+~
+0 0 20924
+S
+#20924
+Central Core~
+You are standing on a catwalk at the mid-level of a three story room. 
+The most remarkable attribute is the three story tall collumn stretching
+from the floor below to the ceiling above.  It glows and throbs with energy,
+and conduits run from it to adjacent rooms.  The room extends east and west,
+and a ladder runs up and down.  
+~
+0 8 0
+E
+west~
+You see the portside engine room.
+~
+E
+east~
+You see the starboard engine room.
+~
+E
+down~
+You look throught the grated catwalk and see the bottom of the engine core.
+A ladder leads down.
+~
+E
+north~
+You see the main control room.
+~
+E
+up~
+You see another catwalk above, as well as the upper end of the core.
+~
+E
+core~
+It pulses and throbs with a rainbow of barely contained energy.
+~
+D0
+~
+~
+0 0 20918
+D1
+~
+~
+0 0 20925
+D3
+~
+~
+0 0 20923
+D4
+~
+~
+0 0 20934
+D5
+~
+~
+0 0 20907
+S
+#20925
+Engine Room~
+The device operating in this room and its mate on the opposite side of
+the ship seem to be accepting the maical energy channeled by the Core and
+are redirecting it elsewhere, perhaps behind the ship.  
+~
+0 8 0
+D3
+~
+~
+0 0 20924
+S
+#20926
+Gun Room~
+A platform hangs on a dual axle frame, allowing it to pivot to all
+directions.  What could only be a gun sits on the platform; there is a chair
+behind the gunsight.  
+~
+0 0 0
+D2
+~
+~
+1 0 20927
+S
+#20927
+Top Of Ladder~
+There is a door to the north and an open room to the south.  The ladder
+leads back down.  There is a throbbing sound coming from the south.  
+~
+0 8 0
+D0
+~
+~
+1 0 20926
+D2
+~
+~
+0 0 20930
+D5
+~
+~
+0 0 20921
+S
+#20928
+Outer Space~
+You step off the ship and float amoung the stars.  At first, you are at
+peace.  Then you scream in agony as your cells are ripped apart from within.
+You thrash madly trying to return to the saftey of the ship.  
+~
+0 13 0
+S
+#20929
+Launch Bay~
+Whatever was here is gone now, apparently through the large door through
+which you can see the blackness of space.  A magical field to the west
+separates you from the outside.  
+~
+0 8 0
+D1
+~
+~
+1 0 20930
+D3
+~
+~
+0 0 20928
+S
+#20930
+Staging Area~
+You are standin in a relativley open room.  There is a ladder to the
+north, and doors in the remaining three directions.  
+~
+0 8 0
+D0
+~
+~
+0 0 20927
+D1
+~
+~
+1 0 20931
+D2
+~
+~
+1 0 20934
+D3
+~
+~
+1 0 20929
+S
+#20931
+Launch Bay~
+Whatever was here is gone now, apparently through the large door through
+which you can see the blackness of space.  A magical field to the east
+separates you from the outside.  
+~
+0 8 0
+D1
+~
+~
+0 0 20932
+D3
+~
+~
+1 0 20930
+S
+#20932
+Outer Space~
+You step off the ship and float amoung the stars...  At first, you are at
+peace, but then you scream in agony as your cells are torn apart from
+within.  You thrash wildly trying to return to the saftey of the ship.  
+~
+0 13 0
+S
+#20933
+Gun Room~
+A platform hangs on a dual axis frame, allowing it to turn in any
+direction.  On the platform rests a large gun with a chair behind its sight.
+~
+0 8 0
+D1
+~
+~
+1 0 20934
+S
+#20934
+Upper Core~
+You are on a catwalk on the third level of the core room.  There are
+doors north, east, and west.  A ladder leads down.  
+~
+0 8 0
+D0
+~
+~
+1 0 20930
+D1
+~
+~
+1 0 20935
+D3
+~
+~
+1 0 20933
+D5
+~
+~
+0 0 20924
+S
+#20935
+Gun Room~
+A platform hangs on a dual axis fram allowing it to point in any
+direction.  On the platform is a large gun with a chair behind the gunsight.
+~
+0 8 0
+D3
+~
+~
+1 0 20934
+S
+#0
+
+
+
+#RAFFECTS
+#0
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 20900 2 0
+D 0 20901 0 0
+D 0 20904 1 0
+D 0 20906 3 0
+D 0 20911 1 2
+D 0 20912 3 2
+D 0 20920 1 2
+D 0 20921 3 2
+D 0 20930 1 0
+D 0 20930 2 0
+D 0 20931 3 0
+D 0 20933 1 0
+D 0 20934 0 0
+D 0 20934 1 0
+D 0 20934 3 0
+D 0 20935 3 0
+O 0 20927 0 20902
+P 0 20928 0 20927
+P 0 20929 0 20927
+O 0 20927 0 20903
+M 0 20901 20 20903
+P 0 20930 0 20927
+O 0 20927 0 20904
+M 0 20902 5 20904
+P 0 20931 0 20927
+M 0 20901 20 20907
+O 0 20900 0 20908
+P 0 20901 0 20900
+P 0 20902 0 20900
+P 0 20935 0 20900
+M 0 20901 20 20910
+M 0 20902 5 20910
+O 0 20903 0 20911
+P 0 20904 0 20903
+P 0 20905 0 20903
+P 0 20906 0 20903
+P 0 20933 0 20903
+O 0 20934 0 20913
+P 0 20910 0 20934
+P 0 20911 0 20934
+P 0 20912 0 20934
+P 0 20913 0 20934
+P 0 20914 0 20934
+P 0 20915 0 20934
+O 0 20932 0 20914
+M 0 20901 20 20914
+O 0 20907 0 20914
+O 0 20908 0 20914
+M 0 20902 5 20915
+O 0 20909 0 20916
+M 0 20901 20 20917
+M 0 20901 20 20918
+M 0 20901 20 20919
+O 0 20916 0 20920
+O 0 20917 0 20920
+O 0 20918 0 20920
+O 0 20919 0 20920
+O 0 20920 0 20920
+O 0 20921 0 20920
+O 0 20922 0 20920
+O 0 20924 0 20920
+O 0 20923 0 20920
+O 0 20925 0 20920
+O 0 20926 0 20920
+M 0 20901 20 20924
+M 0 20902 5 20927
+M 0 20900 2 20928
+M 0 20900 2 20932
+M 0 20901 20 20934
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

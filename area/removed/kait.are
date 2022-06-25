@@ -1,0 +1,1101 @@
+#AREADATA
+Name        { 5-20} Kaitlin Farm of Tornados~
+Builders    Kaitlin~
+VNUMs       20951 20999
+Security    2
+End
+
+
+
+#MOBILES
+#20951
+rooster big~
+`YA big rooster`w~
+`YA big rooster struts here.`w
+~
+`RBoy is this guy cocky(get the pun), he struts around and has sex with
+all the hens.  What a life.  If they just fed chickens beer...  Wow.  `w 
+~
+song bird~
+ABG T 0 0 S
+12 0 4d26+150 99d1+1 3d4+2 23
+0 0 0 4
+FHIJ Q H I
+8 8 0 5
+AGW ACDEFHKP M none
+#20952
+sow mama fat~
+`YA big fat sow`w~
+`YA big fat sow eats slop here.`w
+~
+Man is she fat.  The fattest creature ever.  Fat fat Fat.  Just sits and
+eats all day.  Is that ok?  SURE it is.  `w 
+~
+pig~
+AB 0 0 0 S
+15 10 5d31+160 9d1+1 3d5+5 15
+-1 -1 1 5
+NR 0 0 0
+8 8 0 8
+AGV ACDEFHJK M none
+#20953
+Cow big ~
+`rA big cow`w~
+`rA big cow lays here chewing it's cud.`w
+~
+This thing could care less if WWIII is going on.  It just eats and lays
+here.  It contemplates many things, for it is an epistomological being.  Ahh
+to be a cow.  `w 
+~
+rabbit~
+ABG V 0 0 S
+20 8 6d39+235 9d1+1 4d5+5 15
+-1 -1 1 5
+FHIJ Q I O
+8 8 2 10
+AGV ACDEFHJK M none
+#20956
+little squirrel sq~
+`GA small squirrel`w~
+`GA small squirrel eats a nut here.`w
+~
+`GThis little guys just eats and stores, but always looking out for the
+nasty fox.  That fox can be such pain?!  Maybe you should look out for it
+too!  `w 
+~
+fox~
+A Z 0 0 S
+7 2 2d17+63 99d1+1 2d4+0 10
+7 7 7 10
+FH 0 0 0
+8 8 1 2
+AGV ACDEFHJKQV S none
+#20957
+field mouse small~
+`BA small field mouse`w~
+`BA small field mouse sits here.`w
+~
+This little guys just wanders around not really caring about anything
+except the big angry fox.  The mouse is small with nothing important on it. 
+~
+fox~
+A Z 0 0 S
+5 2 1d12+42 99d1+1 2d3+2 10
+10 10 10 10
+FH 0 0 C
+8 8 0 1
+AGV ACDEFHJKQV M none
+#20980
+horse old~
+`KAn old horse`w~
+`KAn old horse rests here.`w
+~
+`KBoy is this guy old.  I mean really old.  He can't run anymore which is
+sad because horses like to run very much.  His coat is all gray and his
+nostrils are drippy.  He is so very handsome.  `w 
+~
+Wolf~
+AB Z 0 0 S
+17 0 5d34+189 9d1+1 3d6+8 10
+0 0 0 0
+FHIJ Q R O
+8 8 1 5
+AGV ACDEFJKQV M none
+#20985
+piglet baby ~
+`BA baby piglet`w~
+`BA baby piglet sits here...confused.`w
+~
+Aww this guy is so cute.  He just eats and poops.  Doing nothing too
+crazy.  His name is Bacon.  Isn't that a nice name for a piglet?  
+~
+pig~
+AB 0 0 0 S
+4 1 10d1+5 9d1+1 1d1+1 15
+8 8 8 10
+0 0 HIQ 0
+8 8 1 0
+AGV ACDEFHJK S none
+#20986
+baby calf~
+`gA calf`w~
+`gA calf takes it's first steps here.`w
+~
+This is a cure baby cow.  It was named veal.  Know why?  Because it will
+stand up it's whole life just so you get a nice cut of meat.  Pretty nice
+huh.  Don't worry it is only in agony like 90% of the time.  Think of Veal
+next time you eat Veal.  `w 
+~
+rabbit~
+ABG 0 0 100 S
+8 10 2d19+74 9d1+1 2d4+0 15
+7 7 5 10
+FHI 0 0 0
+8 8 0 3
+AGV ACDEFHJK M none
+#20987
+chicken~
+`RA goofy chicken`w~
+`RA goofy chicken clucks here.`w
+~
+This is just a middle aged chicken.  You can't tell what it does...  If
+it lays eggs or is just a food product.  It just wanders around and pecks at
+the ground.  `w 
+~
+song bird~
+ABG T 0 35 S
+10 10 3d23+96 99d1+1 2d5+5 23
+1 1 2 1
+FH 0 0 0
+8 8 1 0
+AGW ACDEFHKP S none
+#20991
+hermit old~
+`rA short hobbled hermit`w~
+`rA short hobbled hermit staggers around here.`w
+~
+This guy is wasted.  He looks like he has been drunk for like a year
+straight.  His house is greate but he is discusting.  His clothes are
+destroyed and he is covered in vomit.  What a wretch.  `w 
+~
+Human~
+AB 0 0 -100 S
+25 10 8d48+320 99d1+1 4d6+5 8
+-1 -1 -1 10
+0 E G C
+8 8 1 1000
+AHMV ABCDEFGHIJK M none
+#20992
+fish transparent~
+`mA small fish`w~
+`mA small transparent fish swims along here.`w
+~
+These are nice little fish...  With razor sharp teeth.  I would think
+twice before attacking them!  There are numerous small fish here.  `w 
+~
+snake~
+ABG 0 0 0 S
+17 7 5d34+189 9d1+1 3d6+8 10
+1 1 0 7
+M 0 L I
+8 8 1 8
+AGRXYc ADEFKLQVX M none
+#0
+
+
+
+#OBJECTS
+#20951
+cow hide~
+`yA cow hide`w~
+`yA cow hide sits here in the dirt.`w~
+none~
+9 0 AL
+AB AC AB A 0
+10 3 10
+A
+5 2
+A
+2 -2
+#20956
+nut little ~
+`yA little nut`w~
+`yA little nut sits here.`w~
+none~
+19 0 AO
+CE 0 0 0 0
+2 1 1
+#20960
+tornado huge suck sucks~
+`RA HUGE TORNADO`w~
+`BA HUGE `RTORNADO`B SUCKS YOU UP!`w~
+none~
+30 0 0
+0 0 0 CDEFGHIMO 0
+1 0 0
+#20962
+rose red rose~
+`RA red rose`w~
+`RA beautiful red rose sits here.`w~
+none~
+13 0 A
+0 0 0 0 0
+0 0 100
+#20963
+Garden garden~
+`kA garden`w~
+`w~
+none~
+15 0 0
+CFG 0 0 0 0
+0 0 0
+#20964
+house enter~
+the doorway of the house~
+`REnter House`w~
+none~
+30 0 0
+0 0 0 ACFGHIMO 0
+0 0 0
+#20965
+exit house enter doorway door~
+the doorway~
+`REnter Doorway`w~
+none~
+30 0 0
+0 0 0 ABFGHIMO 0
+0 0 0
+#20976
+steak beef ~
+`rA dried beef steak`w~
+`rA large beef steak sits here.`w~
+none~
+19 0 A
+BEF 0 0 0 0
+2 2 25
+#20977
+side beef whole~
+`RA large side of beef`w~
+`RA whole side of beef roasts here.`w~
+none~
+15 0 0
+DFGHIJ 0 0 0 0
+5 1000 0
+#20978
+meat hanging ham smoked~
+`KA large smoked ham`w~
+`KA large smoked ham dries here.`w~
+none~
+19 0 A
+BD 0 0 0 0
+4 5 3
+#20979
+barn enter~
+into the barn~
+`RENTER BARN`w~
+none~
+30 0 0
+0 0 0 CEFGHIMO 0
+0 0 0
+#20980
+no name~
+(no short description)~
+(no description)~
+none~
+13 0 0
+0 0 0 0 0
+0 0 0
+#20984
+pig pigpen~
+the barnyard and into the pigpen~
+`REnter Pigpen`w~
+none~
+30 0 0
+0 0 0 ADEFGHIMO 0
+0 0 0
+#20985
+cowpen cow~
+into the cowpen~
+`REnter Cowpen`w~
+none~
+30 0 0
+0 0 0 BDEFGHIMO 0
+0 0 0
+#20986
+chicken coop~
+into the chicken coop~
+`REnter Chicken Coop`w~
+none~
+30 0 0
+0 0 0 ABDEFGHIMO 0
+0 0 0
+#20992
+stream~
+`bA small stream`w~
+`bA stream flows here.`w~
+none~
+25 0 0
+0 0 0 0 0
+0 0 0
+#0
+
+
+
+#ROOMS
+#20951
+`gEntrance to the Farm`w~
+`yAll around are fields of flowing grain.  There is a small dirt path
+which leads off into the distance.  The ground is well trampled and there is
+evidence of much travel upon it.  In the distance, off to the north, is a
+farm.  There is a couple of silos visible and a house surrounded by some
+small pens.  A aromatic smell is coming from the farm which reminds you of
+the country.  `w 
+~
+0 0 0
+D0
+~
+~
+0 0 20952
+S
+#20952
+`gPath Leading to the Farm`w~
+`yThe small path still plods north toward the farm.  There is a small
+hill to the north which impedes the view of the farm.  There are fields all
+around the path still.  The grain, which makes up the fields, looks
+succulent and desirable.  Still that gentle country smell permiates the
+path.  `w 
+~
+0 0 0
+D0
+~
+~
+0 0 20953
+D2
+~
+~
+0 0 20951
+D3
+~
+~
+0 0 20955
+S
+#20953
+`gTop of the Hill`w~
+`yFrom this small hill you can oversee the whole farm.  The view is
+spectacular even though there isn't much to be seen.  This farm seems to
+provide much of the food to the local consumers.  The grain produced here is
+the staple for the bakery and for the diners.  The small farm has a large
+house which is surrounded by many pens.  The fields are in long rows and
+still, that gentle country aroma is present.  `w 
+~
+0 0 0
+D0
+~
+~
+0 0 20954
+D2
+~
+~
+0 0 20952
+D3
+~
+~
+0 0 20959
+S
+#20954
+`gSmall Path Close to the Farmhouse`w~
+`yA little bit farther down the path is the farmhouse.  The walls are
+made of stone and there are small windows around the house.  It is a two
+story job with a tar roof and small silos behind it.  You don't see too many
+animals although there are chicken sounds and moos coming from a barn which
+you can just now see as you approach the house.  To the south is the path
+which leads out of the farm's yard.  `w 
+~
+0 0 0
+D0
+~
+~
+0 0 20963
+D1
+~
+~
+0 0 20964
+D2
+~
+~
+0 0 20953
+D3
+~
+~
+0 0 20962
+S
+#20955
+`gWestern Field Following the Southern Fence`w~
+`yThe southern fence serves to protect the farm from invasion and it
+seems it regulates the climate and such of the area also.  To the east and
+west are more rows of the low grain.  To the almost due north is the
+farmhouse with grain surrounding a majority of it.  An almost unnoticeable
+gust introduces the the sweet smell of the grain to your nose.  `w 
+~
+0 0 0
+D1
+~
+~
+0 0 20952
+D3
+~
+~
+0 0 20956
+S
+#20956
+`gWestern Field Following the Southern Fence`w~
+`yAnother small plot of land along one of the rows.  There are rows
+leading east and west here where the short grain grows low to the ground.  A
+gentle breeze makes the moist warm air comfortable.  To the NE is the
+farmhouse although you have to go east and then north to get there.  A sweet
+aroma blankets the area.  `w 
+~
+0 0 0
+D1
+~
+~
+0 0 20955
+D3
+~
+~
+0 0 20957
+S
+#20957
+`gWestern Field Following the Southern Fence`w~
+`yA rather sturdy looking fence protects the fields from unknown invaders
+to the south.  There are rows running east and west here although you can
+see the farmhouse to the north.  The grain is healthy and well maintained
+with little buds on it.  The fence seems to protect the farm tempurature and
+climate wise also because it is warm, sunny, and moist here all the time. 
+The sweet smell is being produced by the plants at your feet.  `w 
+~
+0 0 0
+D1
+~
+~
+0 0 20956
+D3
+~
+~
+0 0 20958
+S
+#20958
+`gSouthwestern Corner of the Field`w~
+`yThis is the SW corner of the grain fields.  The low grain doesn't
+affect your view of the flowing fields.  To the west and the south are
+fences which seem to be glowing, like some magical aura keeps creatures
+either in or out of the fields.  To the northeast is the farmhouse so by
+following the rows to the north you will run into a path soon enough.  A
+sweet smell is here.  `w 
+~
+0 0 0
+D1
+~
+~
+0 0 20957
+S
+#20959
+`gRow Leading East and West`w~
+`yNothing but more rows of crops here.  The ground is cool although it
+seems fertile.  The gentle breeze makes the crops sway gently.  It is
+certainly a peaceful place.  There are little stumps from where the grain
+was cut back here although upon examination you see nothing of interest `w 
+~
+0 0 0
+D1
+~
+~
+0 0 20953
+D3
+~
+~
+0 0 20960
+S
+#20960
+`gWestern Half of the Row`w~
+`yA normal extension of the corn rows.  There are deep lines in the soil
+where the soil was tilled.  The corn stands about 6 feet tall here although
+the corn has all been hand harvested.  The corn is just waiting to be cut
+down and reintroduced into the soil.  `w 
+~
+0 0 0
+D1
+~
+~
+0 0 20959
+D3
+~
+~
+0 0 20961
+S
+#20961
+`gEnd of Row`w~
+`yThis row ends abruptly leaving no where to go.  There is a large fence
+to the west which you can't seem to cross, you think that some magical force
+contains it.  To the east is more rows of corn leading really no where.  It
+is a calm area...  Far from normal thought.  `w 
+~
+0 0 0
+D1
+~
+~
+0 0 20960
+S
+#20962
+`gA Short Row of Corn`w~
+`yThis is just a small row of corn.  It seems to grow bigger and more
+healthily than the other stalks although it seems to be the same soil.  To
+the east is the path leading to the house and south to the larger part of
+the corn field.  `w 
+~
+0 0 0
+D1
+~
+~
+0 0 20954
+S
+#20963
+`gIn Front of the Farmhouse`w~
+`yTo the east is the farmhouse and to the north is the large, noisy barn.
+The farmhouse is big with two levels and you presume a large basement
+complete with a big pantry.  There is another small building to the west
+with a small trail of smoke coming out of it.  The yard, which you are
+standing in, is normal with neatly trimmed grass and a properly maintained
+garden.  You see a pretty rose that you think you could pick if you got it
+out of the garden.  `w 
+~
+0 0 0
+D0
+~
+~
+0 0 20979
+D2
+~
+~
+0 0 20954
+D3
+~
+~
+1 0 20978
+S
+#20964
+`RTornado!`w~
+`yThis is crazy...  You start down a row of corn and BLAM you are in the
+middle of a tornado.  You gasp as the twister rips you off your feet.  You
+twist and turn realizing that there is no way to get out of the twister. 
+You think that if you `RENTER TORNADO`y you might be able to get enough
+speed to be thrown free.  You hope...  `w 
+~
+0 4 0
+S
+#20965
+`KFoyer of the House`w~
+This is a pretty normal farmhouse...  You see the living room here to the
+north and you can smell something gently wafting from the kitchen which is
+to the east.  There is a stairwell to the west although it looks to be in
+another room.  Otherwise there isn't anything of real interest.  `w 
+~
+0 0 0
+D0
+~
+~
+0 0 20968
+D1
+~
+~
+0 0 20970
+S
+#20966
+`KIn Front of Stairwell`w~
+This stairwell leads to the second floor of the farmhouse.  There seems
+to be a small closet behind the stairwell.  You think you can squeeze
+through the little opening that goes into darkness.  The stairwell looks
+well built and as normal well maintained.  
+~
+0 0 0
+D1
+~
+~
+0 0 20965
+D4
+~
+~
+0 0 20967
+S
+#20967
+`KHallway on Second Floor`w~
+This is a small hallway which leads east from here.  There are all the
+bedrooms lined up to the east.  It appears as though there are 5 bedrooms,
+the one at the opposite end of the hallway being the master bedroom.  Like
+all old houses there is no such thing as indoor plumbing.  The stairwell
+leads back down from here as well.  
+~
+0 0 0
+D1
+~
+~
+0 0 20971
+D5
+~
+~
+0 0 20966
+S
+#20968
+`KLiving Room`w~
+This seems to be the gathering room for the various family get togethers
+that a family would have.  The floor is hardwood and there are various
+pieces of furniture that line the walls.  There is a small fire burning in
+the fireplace which needs tending to.  To the east is the formal dining room
+which was used for the big meals every Sunday.  
+~
+0 0 0
+D1
+~
+~
+0 0 20969
+D2
+~
+~
+0 0 20965
+S
+#20969
+`KDining Room`w~
+A long skinny room which has a grand table in the middle is decorated
+with nice curtains and many well made chairs all around it.  There is an
+entrance to the kitchen to the south and the living room is back to the
+west.  The floor is hardwood and the whole room is in great condition, well
+maintained.  
+~
+0 0 0
+D2
+~
+~
+0 0 20970
+D3
+~
+~
+0 0 20968
+S
+#20970
+`KKitchen`w~
+This room is a nice large kitchen with a small table for eating quick
+meals at.  The counters are all handmade from oak and there is a small box
+which was used to keep parishables.  There are large loaves of bread left
+rising on the counter and the floor is very clean.  To the west is the foyer
+and to the north is the formal dining room.  
+~
+0 0 0
+D0
+~
+~
+0 0 20969
+D3
+~
+~
+0 0 20965
+S
+#20971
+`KHallway of the Farmhouse`w~
+This is a normal hallway.  There is a door to the north and one to the
+south.  The hallway leads east to more doors and west to the stairwell. 
+There is a small carpet here, which upon examination is covering nothing of
+interest.  
+~
+0 0 0
+D0
+~
+~
+1 0 20972
+D1
+~
+~
+0 0 20974
+D2
+~
+~
+1 0 20973
+D3
+~
+~
+0 0 20967
+S
+#20972
+`KSmall Bedroom`w~
+This was just a normal small bedroom which was used by a couple of the
+many children which live here.  There is a small set of bunkbeds and a small
+desk here.  The walls are plain white and there is a small pile of clothes
+on the floor.  A small ball sits in the corner beside a basket, which looks
+to be a wastepaper basket.  To the south is the hallway.  
+~
+0 0 0
+D2
+~
+~
+1 0 20971
+S
+#20973
+`KSmall Bedroom`w~
+This is a room that is used by the youngest girls of the family.  The
+walls are a soft pink and there are small stuffed animals sitting on the
+beds.  The window overlooks the front of the house where you can see a small
+tornado coming through the fields.  To the north is the hallway of the
+second floor.  
+~
+0 0 0
+D0
+~
+~
+1 0 20971
+S
+#20974
+`KHallway of the Farmhouse`w~
+You stand at the end of the hallway.  To the east is the master bedroom,
+to the south is a smaller bedroom , and to the north is the last of the
+bedrooms.  The floor, like the rest of the house, is immaluate.  To the west
+is the hallway leading eventually back to the stairwell.  
+~
+0 0 0
+D0
+~
+~
+1 0 20975
+D1
+~
+~
+1 0 20977
+D2
+~
+~
+1 0 20976
+D3
+~
+~
+0 0 20971
+S
+#20975
+`KSmall Bedroom`w~
+This room looks like it is used by two of the older boys.  There are
+small wooden statues and whittilings here.  The floor is clean and the walls
+are bare save a nice painting which looks to be handmade.  The dresser is
+almost empty and the two small beds are neatly made with out anything of
+interest.  To the south is the hallway.  
+~
+0 0 0
+D2
+~
+~
+1 0 20974
+S
+#20976
+`KSmall Bedroom`w~
+This room is a room for teenage girls.  There is a large vanity mirror,
+which looks valuable but entirely too bulky to carry, here.  The beds are
+neatly made and the dresser, like all the rest, is almost empty and without
+anything of value.  On the small desk along the north wall is a bunch of
+costume lewwelry and upon examination you see that there isn't anything of
+great value.  To the north is the hallway.  
+~
+0 0 0
+D0
+~
+~
+1 0 20974
+S
+#20977
+`KMaster Bedroom`w~
+A large room with a grand canopied bed in the middle of it.  There are
+large windows to the north and south with a small fireplace in the corner. 
+There is a small wardrobe which holds a nice suit, although the wrong size
+for you, and a nice dress.  The floor has a nice carpet covering it and upon
+examination it covers nothing.  To the west is the hallway and the exit to
+this house.  
+~
+0 0 0
+D3
+~
+~
+1 0 20974
+S
+#20978
+`KSmokehouse`w~
+`yThere are large pieces of meat hanging here from the top of the
+rafters.  There is the harsh smell of ash and burning although the meat
+smells very good.  There is a small fire which heats the room nicely.  The
+exit to the smokehouse is to the west which leads back toward the house. 
+The floor is cement and looks very clean.  `w 
+~
+0 0 0
+D1
+~
+~
+1 0 20963
+S
+#20979
+`gIn Front of the Barn`w~
+`yYou stand in front of a large barn with two large doors.  The red wood
+siding is in good condition, like it was just painted a week ago.  The
+barnyard has lots of little animals running around it.  To the south is the
+house and the trail leading to the cornfield.  Off in the distance you think
+you see a small tornado...  But who can say for sure.  `w 
+~
+0 0 0
+D2
+~
+~
+0 0 20963
+S
+#20980
+`RFloor of the Barn`w~
+`yThis is the large barn which is used to store the farm tools and the
+small animals also live here.  The ground is piled with hay, which is clean
+as hay goes.  The doors stand open and to the west is the hay silo which
+stores the vast surplus of the animals food.  To the north is a small gate
+that opens into another room of animals.  The high room shows no real
+ladders or anything to climb so you think the ground would be the most safe.
+`w 
+~
+0 0 0
+D0
+~
+~
+0 0 20984
+D2
+~
+~
+0 0 20979
+D3
+~
+~
+0 0 20981
+S
+#20981
+`gHay Silo`w~
+`yThis is just a normal hay silo which holds thousands of bushels of hay.
+There seems to be a magical spell cast on this area so that it doesn't break
+down and the hay doesn't get too hot.  To the east is the barn proper and up
+is more hay silo.  The smell is normal hay like scent and you can't really
+see anything of interest.  `w 
+~
+0 0 0
+D1
+~
+~
+0 0 20980
+D4
+~
+~
+0 0 20982
+S
+#20982
+`gTop of the Silo`w~
+`yThis is just the top of the silo.  There is a small opening in the top
+here and you can look down over the rest of the farm.  There appears to be a
+small tornado somewhere in the field.  The tornado reaches high up out of
+sight and appears to be strong for such a skinny tornado.  Below you is the
+bottom of the silo and then the barn.  `w 
+~
+0 0 0
+D5
+~
+~
+0 0 20981
+S
+#20984
+`RAnimal Pens in the Barn`w~
+`yThis is where the little animals live.  There are chicken pens, baby
+cow areas, and a pig pen.  To the south is more barn and the hay silo.  This
+part of the barnyard is pretty plain and there isn't anything of interest. 
+`w 
+~
+0 0 0
+D2
+~
+~
+0 0 20980
+S
+#20985
+`RPigpen`w~
+`yThis is where all the pigs just run around and roll in their slop.  The
+ground is covered in cool dark mud and the walls are wooden.  The gate is
+easily opened and closed.  To the south is the barnyard.  `w 
+~
+0 0 0
+D2
+~
+~
+0 0 20984
+S
+#20986
+`RCow Pen`w~
+`yThis is the pen which holds the baby cows.  There are lots of small
+pens which help the cow stand up so that their muscles don't relax too much.
+To the south is the barnyard.  `w 
+~
+0 0 0
+D2
+~
+~
+0 0 20984
+S
+#20987
+`RChicken Coop`w~
+`yThis is where the chickens all live.  There is a large high fenced pen
+here with tons of grain lying on the ground.  The chickens all cluck when
+you enter and there are little nests where the eggs sit.  To the south is
+the barnyard.  `w 
+~
+0 0 0
+D2
+~
+~
+0 0 20984
+S
+#20988
+The Landing~
+`yYou fall through the sky and land here.  That tornado really tossed
+you!  The ground is pretty soft so you land without any real damage although
+your feelings are a bit dashed.  There is a small path through what appears
+to be dense jungle to the north.  Other than that there isn't anything of
+interest and there is no where to go nor any sign of the tornado.  `w 
+~
+0 0 0
+D0
+~
+~
+0 0 20989
+S
+#20989
+A Different Place~
+`yYou stand here...  Still shaken after the tornado experience.  To the
+south is the landing spot.  To the north is a path leading futher away from
+where you got thrown into here.  `w `yAll around you is jungle.  You notice
+that the trees and the bushes off the path are covered in brambles and you
+are quite fearful of entering it.  What to do what to do...  `w 
+~
+0 0 0
+D0
+~
+~
+0 0 20990
+D2
+~
+~
+0 0 20988
+S
+#20990
+A Small Clearing~
+`yAs you storm through the jungle, you see a small clearing that allows
+for some sunlight to enter into ground.  There is a small waterway to the
+west and to the west is a small hut.  The hut is made of pieces of rough
+wood.  Not pretty but it seems to do the job of protection from the rains. 
+To the north the path continues.  `w 
+~
+0 0 0
+D0
+~
+~
+0 0 20993
+D1
+~
+~
+0 0 20992
+D2
+~
+~
+0 0 20989
+D3
+~
+~
+1 0 20991
+S
+#20991
+A Small Hut~
+`yThis is a small hut that looks very rough from the outside and very
+nice from the inside.  The walls are nice and smooth on the inside and there
+is a nice little bed which looks very comfortable.  The inside is clean and
+bright with paintings secured to the walls.  The only exit is to the east
+with the door being there.  `w 
+~
+0 0 0
+D1
+~
+~
+1 0 20990
+S
+#20992
+A Small Waterway~
+`yA small tributary which really doesn't lead anywhere, this stream is
+just deep enough to effectively stop you from crossing it.  There are some
+small fish in the water and upon examination the water does look clean
+enough to drink.  There is a path back to the west away from the stream... 
+And the jungle.  `w 
+~
+0 0 0
+D3
+~
+~
+0 0 20990
+S
+#20993
+A Small Path~
+`yA small path which leads from the clearing to...  Who knows.  Behind
+you to the south is the small clearing where the crazy, drunk hermit lives. 
+To the north is the unidentifable something.  You are in the middle of the
+jungle so...  Who knows!  `w 
+~
+0 0 0
+D2
+~
+~
+0 0 20990
+S
+#0
+
+
+
+#RAFFECTS
+#0
+
+
+#SPECIALS
+M 20991 spec_cast_mage Load to: `rA short hobbled hermit`w
+S
+
+
+
+#RESETS
+D 0 20963 3 0
+D 0 20971 0 0
+D 0 20971 2 0
+D 0 20972 2 0
+D 0 20973 0 0
+D 0 20974 0 0
+D 0 20974 1 0
+D 0 20974 2 0
+D 0 20975 2 0
+D 0 20976 0 0
+D 0 20977 3 0
+D 0 20978 1 0
+D 0 20990 3 0
+D 0 20991 1 0
+M 0 20956 3 20956
+E 0 20956 0 17
+M 0 20957 5 20957
+O 0 20964 0 20963
+O 0 20963 0 20963
+P 0 20962 0 20963
+O 0 20960 0 20964
+O 0 20965 0 20965
+O 0 20978 0 20978
+O 0 20977 0 20978
+P 0 20976 0 20977
+O 0 20979 0 20979
+M 0 20980 1 20980
+O 0 20984 0 20984
+O 0 20985 0 20984
+O 0 20986 0 20984
+M 0 20985 2 20985
+M 0 20952 2 20985
+M 0 20986 2 20986
+M 0 20953 2 20986
+E 0 20951 0 13
+M 0 20987 2 20987
+M 0 20951 2 20987
+M 0 20991 1 20991
+O 0 20992 0 20992
+M 0 20992 2 20992
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

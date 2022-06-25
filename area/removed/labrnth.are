@@ -1,0 +1,2739 @@
+#AREADATA
+Name        {??-??} Rahl    The Labyrinth~
+Builders    Rahl~
+VNUMs       20300 20499
+Security    9
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#20300
+The Entrance~
+You are standing in a narrow passageway.  The darkness seeps all around
+you as the door which led you here is closed behind you.  Up ahead, you can
+tell that the tunnel continues, but not much else.  There is an overwhelming
+stench, something of a mix between the musty air and the foul smell of
+decay.  
+~
+0 13 0
+D0
+~
+~
+0 0 20301
+S
+#20301
+In the Labyrinth~
+The stench is slowly getting worse as you press your way further down the
+corridor.  Feeling along the walls, you discover that you can continue north
+or turn east here.  From somewhere in the darkness you hear a low rumble. 
+Perhaps it's your imagination, but perhaps not...  
+~
+0 8201 0
+D0
+~
+~
+0 0 20302
+D1
+~
+~
+0 0 20318
+D2
+~
+~
+0 0 20300
+S
+#20302
+In the Labyrinth~
+The darkness envelops you, pressing on you, it seems.  Your eyesight
+seems to be adapting to the darkness, but you still can't see much.  As you
+peer around, you briefly see a set of glowing eyes, or was it just your
+imagination?  
+~
+0 8201 0
+D0
+~
+~
+0 0 20303
+D2
+~
+~
+0 0 20301
+S
+#20303
+In the Labyrinth~
+Your torch begins to sputter as you proceed deeper into the labyrinth. 
+The air is musty, damp, and still, creating a feeling of lonliness and
+despair.  The only sound you can hear is the beating of your heart and your
+short, quick breaths.  As you take another step forward, the terror just
+increases.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20304
+D2
+~
+~
+0 0 20302
+S
+#20304
+In the Labyrinth~
+The corridor just seems to keep going, laeding further into the darkness.
+As you stop to listen, you think you can hear faint footsteps up ahead. 
+Perhaps it's your imagination.  Perhaps not.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20305
+D2
+~
+~
+0 0 20303
+S
+#20305
+In the Labyrinth~
+The corridor continues north and south from here.  It seems to be getting
+darker the further into the labyrinth you go.  The continuing silence is
+terrifying.  You let out a long scream, only to hear it echo back and fade
+into nothing.  
+~
+0 9 0
+D0
+~
+~
+0 0 20306
+D2
+~
+~
+0 0 20304
+S
+#20306
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20307
+D2
+~
+~
+0 0 20305
+S
+#20307
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20308
+D2
+~
+~
+0 0 20306
+S
+#20308
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20309
+D2
+~
+~
+0 0 20307
+S
+#20309
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20310
+D2
+~
+~
+0 0 20308
+S
+#20310
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20311
+D2
+~
+~
+0 0 20309
+S
+#20311
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20312
+D2
+~
+~
+0 0 20310
+S
+#20312
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20313
+D1
+~
+~
+0 0 20329
+D2
+~
+~
+0 0 20311
+S
+#20313
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20314
+D1
+~
+~
+0 0 20330
+D2
+~
+~
+0 0 20312
+S
+#20314
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20315
+D2
+~
+~
+0 0 20313
+S
+#20315
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 9 0
+D0
+~
+~
+0 0 20316
+D2
+~
+~
+0 0 20314
+S
+#20316
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20317
+D2
+~
+~
+0 0 20315
+S
+#20317
+In the Labyrinth~
+You appear to be at a dead end.  Perhaps "dead" wasn't the best choice of
+words, as you can see several sets of eyes staring at you in the darkness.  
+~
+0 8201 0
+D2
+~
+~
+0 0 20316
+S
+#20318
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20335
+D3
+~
+~
+0 0 20301
+S
+#20319
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20320
+D1
+~
+~
+0 0 20336
+S
+#20320
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20337
+D2
+~
+~
+0 0 20319
+S
+#20321
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20338
+S
+#20322
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20323
+S
+#20323
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20340
+D2
+~
+~
+0 0 20322
+S
+#20324
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20325
+D1
+~
+~
+0 0 20341
+S
+#20325
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 9 0
+D0
+~
+~
+0 0 20326
+D2
+~
+~
+0 0 20324
+S
+#20326
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20327
+D2
+~
+~
+0 0 20325
+S
+#20327
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20328
+D2
+~
+~
+0 0 20326
+S
+#20328
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20345
+D2
+~
+~
+0 0 20327
+S
+#20329
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20346
+D3
+~
+~
+0 0 20312
+S
+#20330
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20331
+D1
+~
+~
+0 0 20347
+D3
+~
+~
+0 0 20313
+S
+#20331
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20332
+D1
+~
+~
+0 0 20348
+D2
+~
+~
+0 0 20330
+S
+#20332
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20333
+D1
+~
+~
+0 0 20350
+D2
+~
+~
+0 0 20331
+S
+#20333
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D2
+~
+~
+0 0 20332
+S
+#20334
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20351
+S
+#20335
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 9 0
+D1
+~
+~
+0 0 20368
+D3
+~
+~
+0 0 20318
+S
+#20336
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20367
+D3
+~
+~
+0 0 20319
+S
+#20337
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20366
+D3
+~
+~
+0 0 20320
+S
+#20338
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20339
+D3
+~
+~
+0 0 20321
+S
+#20339
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20340
+D2
+~
+~
+0 0 20338
+S
+#20340
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20363
+D2
+~
+~
+0 0 20339
+D3
+~
+~
+0 0 20323
+S
+#20341
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20362
+D3
+~
+~
+0 0 20324
+S
+#20342
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20343
+D1
+~
+~
+0 0 20361
+S
+#20343
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20344
+D2
+~
+~
+0 0 20342
+S
+#20344
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20359
+D2
+~
+~
+0 0 20343
+S
+#20345
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 9 0
+D0
+~
+~
+0 0 20346
+D3
+~
+~
+0 0 20328
+S
+#20346
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D2
+~
+~
+0 0 20345
+D3
+~
+~
+0 0 20329
+S
+#20347
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20356
+D3
+~
+~
+0 0 20330
+S
+#20348
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20355
+D3
+~
+~
+0 0 20331
+S
+#20349
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20350
+D1
+~
+~
+0 0 20354
+S
+#20350
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20353
+D2
+~
+~
+0 0 20349
+D3
+~
+~
+0 0 20332
+S
+#20351
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20352
+D3
+~
+~
+0 0 20334
+S
+#20352
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20385
+D3
+~
+~
+0 0 20351
+S
+#20353
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20384
+D3
+~
+~
+0 0 20350
+S
+#20354
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20383
+D3
+~
+~
+0 0 20349
+S
+#20355
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20382
+D3
+~
+~
+0 0 20348
+S
+#20356
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20390
+D2
+~
+~
+0 0 20357
+D3
+~
+~
+0 0 20347
+S
+#20357
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20356
+D2
+~
+~
+0 0 20358
+S
+#20358
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20357
+D1
+~
+~
+0 0 20379
+S
+#20359
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20378
+D3
+~
+~
+0 0 20344
+S
+#20360
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20377
+D2
+~
+~
+0 0 20361
+S
+#20361
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20360
+D3
+~
+~
+0 0 20342
+S
+#20362
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20375
+D2
+~
+~
+0 0 20363
+D3
+~
+~
+0 0 20341
+S
+#20363
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20362
+D2
+~
+~
+0 0 20364
+D3
+~
+~
+0 0 20340
+S
+#20364
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20363
+D2
+~
+~
+0 0 20365
+S
+#20365
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20364
+D2
+~
+~
+0 0 20366
+S
+#20366
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20365
+D3
+~
+~
+0 0 20337
+S
+#20367
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20370
+D3
+~
+~
+0 0 20336
+S
+#20368
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20369
+D3
+~
+~
+0 0 20335
+S
+#20369
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D3
+~
+~
+0 0 20368
+S
+#20370
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20401
+D3
+~
+~
+0 0 20367
+S
+#20371
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20372
+S
+#20372
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20373
+D2
+~
+~
+0 0 20371
+S
+#20373
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20374
+D2
+~
+~
+0 0 20372
+S
+#20374
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20397
+D2
+~
+~
+0 0 20373
+S
+#20375
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20376
+D1
+~
+~
+0 0 20396
+D3
+~
+~
+0 0 20362
+S
+#20376
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20395
+D2
+~
+~
+0 0 20375
+S
+#20377
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20394
+D3
+~
+~
+0 0 20360
+S
+#20378
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20393
+D3
+~
+~
+0 0 20359
+S
+#20379
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D3
+~
+~
+0 0 20358
+S
+#20380
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20391
+D5
+~
+~
+0 0 20465
+S
+#20381
+~
+~
+0 4 0
+S
+#20382
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20389
+D3
+~
+~
+0 0 20355
+S
+#20383
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20387
+D1
+~
+~
+0 0 20388
+D3
+~
+~
+0 0 20354
+S
+#20384
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D3
+~
+~
+0 0 20353
+S
+#20385
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20386
+D3
+~
+~
+0 0 20352
+S
+#20386
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20417
+D2
+~
+~
+0 0 20387
+D3
+~
+~
+0 0 20385
+S
+#20387
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20386
+D2
+~
+~
+0 0 20383
+S
+#20388
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D3
+~
+~
+0 0 20383
+S
+#20389
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D3
+~
+~
+0 0 20382
+S
+#20390
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20413
+D3
+~
+~
+0 0 20356
+S
+#20391
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20412
+D3
+~
+~
+0 0 20380
+S
+#20392
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D2
+~
+~
+0 0 20393
+S
+#20393
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20392
+D1
+~
+~
+0 0 20410
+D3
+~
+~
+0 0 20378
+S
+#20394
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20409
+D3
+~
+~
+0 0 20377
+S
+#20395
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20408
+D3
+~
+~
+0 0 20376
+S
+#20396
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20407
+D3
+~
+~
+0 0 20375
+S
+#20397
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D2
+~
+~
+0 0 20398
+D3
+~
+~
+0 0 20374
+S
+#20398
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20397
+D1
+~
+~
+0 0 20405
+D2
+~
+~
+0 0 20399
+S
+#20399
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20398
+D2
+~
+~
+0 0 20400
+S
+#20400
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20399
+D2
+~
+~
+0 0 20401
+S
+#20401
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20400
+D1
+~
+~
+0 0 20402
+D3
+~
+~
+0 0 20370
+S
+#20402
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20433
+D3
+~
+~
+0 0 20401
+S
+#20403
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20404
+D1
+~
+~
+0 0 20432
+S
+#20404
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20405
+D2
+~
+~
+0 0 20403
+S
+#20405
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D2
+~
+~
+0 0 20404
+D3
+~
+~
+0 0 20398
+S
+#20406
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20407
+S
+#20407
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D2
+~
+~
+0 0 20406
+D3
+~
+~
+0 0 20396
+S
+#20408
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20427
+D3
+~
+~
+0 0 20395
+S
+#20409
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20426
+D3
+~
+~
+0 0 20394
+S
+#20410
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20425
+D3
+~
+~
+0 0 20393
+S
+#20411
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20412
+S
+#20412
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20423
+D2
+~
+~
+0 0 20411
+D3
+~
+~
+0 0 20391
+S
+#20413
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20414
+D1
+~
+~
+0 0 20422
+D3
+~
+~
+0 0 20390
+S
+#20414
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20421
+D2
+~
+~
+0 0 20413
+S
+#20415
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20420
+S
+#20416
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20417
+D1
+~
+~
+0 0 20419
+S
+#20417
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20418
+D2
+~
+~
+0 0 20416
+D3
+~
+~
+0 0 20386
+S
+#20418
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20449
+D3
+~
+~
+0 0 20417
+S
+#20419
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20448
+D3
+~
+~
+0 0 20416
+S
+#20420
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D2
+~
+~
+0 0 20421
+D3
+~
+~
+0 0 20415
+S
+#20421
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20420
+D3
+~
+~
+0 0 20414
+S
+#20422
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20446
+D3
+~
+~
+0 0 20413
+S
+#20423
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20444
+D3
+~
+~
+0 0 20412
+S
+#20424
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D2
+~
+~
+0 0 20425
+S
+#20425
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20424
+D1
+~
+~
+0 0 20442
+D3
+~
+~
+0 0 20410
+S
+#20426
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20441
+D3
+~
+~
+0 0 20409
+S
+#20427
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D3
+~
+~
+0 0 20408
+S
+#20428
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20439
+S
+#20429
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20438
+D2
+~
+~
+0 0 20430
+S
+#20430
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20429
+D2
+~
+~
+0 0 20431
+S
+#20431
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20430
+D1
+~
+~
+0 0 20436
+S
+#20432
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20435
+D3
+~
+~
+0 0 20403
+S
+#20433
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D1
+~
+~
+0 0 20434
+D3
+~
+~
+0 0 20402
+S
+#20434
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D3
+~
+~
+0 0 20433
+S
+#20435
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20436
+D3
+~
+~
+0 0 20432
+S
+#20436
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D2
+~
+~
+0 0 20435
+D3
+~
+~
+0 0 20431
+S
+#20437
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20438
+S
+#20438
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20439
+D2
+~
+~
+0 0 20437
+D3
+~
+~
+0 0 20429
+S
+#20439
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D2
+~
+~
+0 0 20438
+D3
+~
+~
+0 0 20428
+S
+#20440
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20441
+S
+#20441
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D2
+~
+~
+0 0 20440
+D3
+~
+~
+0 0 20426
+S
+#20442
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20443
+D3
+~
+~
+0 0 20425
+S
+#20443
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20444
+D2
+~
+~
+0 0 20442
+S
+#20444
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20445
+D2
+~
+~
+0 0 20443
+D3
+~
+~
+0 0 20423
+S
+#20445
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20446
+D2
+~
+~
+0 0 20444
+S
+#20446
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20447
+D2
+~
+~
+0 0 20445
+D3
+~
+~
+0 0 20422
+S
+#20447
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D0
+~
+~
+0 0 20448
+D2
+~
+~
+0 0 20446
+S
+#20448
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D2
+~
+~
+0 0 20447
+D3
+~
+~
+0 0 20419
+S
+#20449
+In the Labyrinth~
+You are somewhere in the labyrinth.  The darkness and all the turns have
+made it impossible to tell which way you came and where you have been.  For
+all you know, you may never find your way out.  To make matters worse, you
+can hear a low growling, sometimes distant, sometimes near.  Not only are
+you lost, you're being hunted.  
+~
+0 8201 0
+D3
+~
+~
+0 0 20418
+S
+#20465
+The Center of the Labyrinth~
+You have reached the center of the labyrinth, home of the largest
+minotaur you've ever seen, and he doesn't look too happy to see you.  It's
+also the only way out.  
+~
+0 9 0
+D4
+~
+~
+0 0 20380
+S
+#0
+
+
+
+#RAFFECTS
+#0
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

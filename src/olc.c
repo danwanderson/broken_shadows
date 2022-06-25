@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -143,6 +143,7 @@ void show_olc_cmds( CHAR_DATA *ch, const struct olc_cmd_type *olc_table )
     int  cmd;
     int  col;
  
+    buf1->data[0] = '\0';
     col = 0;
     for (cmd = 0; olc_table[cmd].name[0] != '\0'; cmd++)
     {

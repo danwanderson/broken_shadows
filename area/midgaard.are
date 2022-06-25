@@ -2,7 +2,7 @@
 Name        { All } Diku    Midgaard~
 Builders    None~
 VNUMs       3000 3399
-Security    2
+Security    9
 End
 
 
@@ -83,13 +83,11 @@ CEFJKN ABCD 0 0
 8 8 1 25000
 AHMV ABCDEFGHIJK M none
 #3005
-thief purple elephant~
-a purple elephant~
-A purple elephant strolls past you with a bored expression.
+thief~
+the thief~
+A thief, all dressed in black.
 ~
-This is an elephant not to be underestimated. Deep within those huge, solemn
-eyes gleams the sharp wit and cunning of a deft thief. Perhaps this large body
-is merely a disguise?
+Well COUNT your money!
 ~
 Human~
 ACHS PQ 0 -100 S
@@ -1092,9 +1090,9 @@ This is where you put money and items to help Doz expand this shrine and
 convert more people to the belief of Mota, lord of the gods.
 ~
 #3011
-foo~
-some foo~
-Some foo, looking a lot like a loaf of bread, lays here.~
+bread~
+a bread~
+A loaf of bread is here. It doesn't look too stale.~
 none~
 19 0 A
 CD 0 0 0 0
@@ -1399,16 +1397,6 @@ none~
 9 0 AL
 A AB AB 0 A
 3 2 100
-#3055
-soft sweet kiss~
-the softest sweetest kiss~
-A warm feeling moves through the room.~
-none~
-33 0 AH
-0 0 0 0 0
-20 1 0
-A
-13 69
 #3060
 jerkin leather~
 a leather jerkin~
@@ -1577,6 +1565,38 @@ none~
 10 ABGI AO
 35 36 66 1 0
 20 1 2000
+#3083
+potion cure light~
+a potion of cure light wounds~
+A potion of cure light wounds is here.~
+none~
+10 G AO
+5 16 0 0 0
+0 1 50
+#3084
+potion cure serious~
+a potion of cure serious wounds~
+A potion of cure serious wounds is here.~
+none~
+10 G AO
+10 61 0 0 0
+5 1 150
+#3085
+potion cure critical critic~
+a potion of cure critical wounds~
+A potion of cure critical wounds is here.~
+none~
+10 G AO
+15 15 0 0 0
+8 1 500
+#3086
+potion antidote bottle~
+a bottle of antidote~
+A bottle of antidote is here.~
+none~
+10 G AO
+14 43 16 501 0
+0 1 150
 #3087
 potion cure blindness~
 a potion of cure blindness~
@@ -2646,16 +2666,6 @@ none~
 32 NST A
 0 0 0 0 0
 5 0 100
-#3375
-well deserved death~
-lark's well deserved death~
-Lark's well deserved death is looking to be worn by it's owner.~
-none~
-9 A AN
-0 0 0 0 0
-0 0 0
-A
-13 -100
 #3398
 blank scroll~
 a blank scroll~
@@ -2816,12 +2826,9 @@ You Austral Square.
 S
 #3105
 Park Entrance~
-An iron gate which has been overgrown with ivy so that it cannot be closed
-stands under an elegantly designed rose archway marking the entrance to the
-Midgaard Park. Lush foliage and beds of warm green grass lie within reach
-along a neat, small path to the south. The sweet smell of tea wafts from a
-cosy cafe to the east. The promenade continues to circle Southern Midgaard
-to the north.
+You are standing just inside the small park of Midgaard.  To the north is
+the promenade and a small path leads south into the park.  To your east is
+the famous Park Cafe.
 ~
 0 262148 1
 D0
@@ -2842,14 +2849,10 @@ You see the park.
 S
 #3106
 Park Cafe~
-Park Cafe is built entirely from large logs, smoothed and carved with loving
-attention to detail. The warm colours and the scent of hot drinks give off a
-comfortable, cosy ambience, aided by effective lighting along the walls. Large
-windows on either side of the cafe give an attractive contrasting view of both
-the idle flow of the river northwards and of the vibrantly coloured plants in
-the park to the south. The few round tables scattered around the room have two
-to three chairs circled around them to create a more intimate setting. An exit
-to the west leads out onto the path through the park.
+You are inside Park Cafe, a very well lighted, cosy place. The cafe
+is built from large logs. Through the windows in the northern wall you
+see the river, and through the southern window you see many vigorous
+colorful plants.
 ~
 0 262152 0
 D3
@@ -3091,6 +3094,11 @@ D0
 ~
 ~
 0 -1 3117
+D1
+You see some dangerous looking slums...just the right place for a gang.
+~
+~
+0 -1 2101
 D3
 ~
 ~
@@ -3139,6 +3147,10 @@ D3
 ~
 ~
 0 -1 3135
+D4
+The chain disappears in the clouds.~
+~
+0 -1 7914
 S
 #3121
 Emerald Avenue~
@@ -3218,6 +3230,11 @@ You see the concourse.
 ~
 ~
 0 -1 3273
+D2
+Through the solid iron bars you see the graveyard.
+~
+grate~
+2 3121 3600
 D3
 ~
 ~
@@ -3574,6 +3591,11 @@ You see Austral Square.
 ~
 ~
 0 -1 3103
+D4
+You see the far-off halls of Valhalla.
+~
+~
+0 -1 1219
 S
 #3160
 Melancholy's Maps~
@@ -3627,6 +3649,10 @@ A small door to the south leads out into the map shop.
 ~
 door~
 2 3161 3160
+D4
+~
+~
+0 -1 1219
 S
 #3170
 Temple Of Stupid~
@@ -3647,6 +3673,10 @@ Poor Alley is to the north.
 ~
 ~
 0 -1 3044
+D4
+~
+~
+0 -1 1219
 S
 #3200
 Under the Bridge~
@@ -3664,6 +3694,10 @@ D1
 ~
 ~
 0 -1 3201
+D3
+You see the river flowing west into the Forest of Haon-Dor.~
+~
+0 -1 9772
 S
 #3201
 On the River~
@@ -3744,21 +3778,16 @@ blocked by several vertically positioned iron bars set into the wall. Overhead
 you can see the stone buttresses of the eastern bridge.
 ~
 0 262144 7
+D1
+The iron bars are broken, allowing passage through the hole in the wall.
+Beyond the bars you see a dark tunnel.
+bars~
+~
+0 -1 5001
 D3
 ~
 ~
 0 -1 3204
-S
-#3210
-The Banana Republic of Morgonquin~
-Among a plethora of pregneant chads and slutty marked up
-ballots, you manage to find a nice plastic chair to rest
-your cute butt in.  Obviously the owner needs to take
-better care to keep this place in order, but for some
-reason, your attention is diverted to the posters on the
-walls, which show some pretty cute elf guys...
-~
-0 262156 9
 S
 #3250
 Wall Road~
@@ -3905,6 +3934,11 @@ You see the southern gate.
 ~
 ~
 1 3133 3255
+D2
+The green forests of the Miden'nir are south, hiding countless goblin warriors.
+~
+~
+0 -1 3505
 S
 #3257
 Wall Road~
@@ -4132,6 +4166,11 @@ Further north are the wide expanses of the northern plains, leading to the
 village of Ofcol.  You can return to Midgaard to the south.
 ~
 0 262144 2
+D0
+You see a dusty trail leading around the city.
+~
+~
+0 -1 3904
 D2
 You see the north gate of Midgaard.
 ~
@@ -4225,7 +4264,11 @@ S
 Donation Room~
 You are standing in the middle of a room cluttered with discarded objects.
 ~
-0 262156 0
+0 262152 0
+D3
+~
+~
+0 0 3001
 S
 #3301
 Market Road~
@@ -4651,150 +4694,6 @@ The stairs lead back down to the pub.
 ~
 0 -1 3356
 S
-#3360
-The willow shaded brook~
-Description pending.  Suffice it to say lots of willow tendrils looming
-over the area.  Should be gorgeous.  Wait with breathless desire.  
-~
-0 1318916 3
-D3
-~
-~
-1 0 3362
-S
-#3361
-The Clearing~
-The worn and pitted stone tiles on which you stand spiral out from
-beneath your feet in an intricate pattern, stopping at a low stone wall 
-that keeps at bay a tangled undergrowth of ferns and moss.  Enormous 
-evergreens loom up from behind the wall, blocking off the small circular
-enclosure in which you stand almost totally.  An icy breeze begins to 
-blow through the thickly bristled branches of the surrounding trees,
-breathing life into several rusty and archaic wind chimes, producing a
-melancholy aria.  A chill suddenly comes over you that you try desperately
-to dismiss as nothing more than a result of the frigid winds.
-~
-0 262148 3
-E
-sky~
-The amber coloured stars blink slowly from their position in the
-darkened skies.
-~
-E
-leaves~
-You gently pluck a golden leaf from the tree and realize with
-moderate surprise that it's made of a glassy substance.  Although
-hard and cool to the touch, it can be bent and molded with only
-slight pressure.
-~
-E
-leaf~
-You gently pluck a golden leaf from the tree and realize with
-moderate surprise that it's made of a glassy substance.  Although
-hard and cool to the touch, it can be bent and molded with only
-slight pressure.
-~
-E
-trunk~
-~
-D4
-The inky blues of the heavens are filled with points of amber
-starlight.  Though randomly dispersed at the edges of the night
-sky, the stars begin to form a spiral pattern, it's center positioned
-directly above you.
- 
-~
-portal~
-1 0 3362
-D5
-~
-tunnel~
-1 0 3008
-S
-#3362
-The shoe store~
-The scent of new shoes floods your sense of smell as you enter this
-store.  New shoes in new boxes are stacked endlessly upon the metallic
-shelves, confusing and exciting all at once.  Noises of busy salespeople are
-all around, bouncing off the shelves and colorful displays.  There are
-outlines of a trap door under the thin carpeting, for some odd reason. 
-Sounds of running water seep from the eastern entrance.  
-~
-0 262156 0
-E
-displays~
-The tall displays contain brightly colored Skechers sandals and cool Vans
-biblical desert survival sandals.  
-~
-E
-displays~
-The bright displays contain brightly colored Skechers and cool Vans shoes.
-~
-D1
-The eastern entrance to the store. Outside is the willow shaded brook.
-~
-entrance~
-1 0 3360
-D5
-Through the blue carpeting there are noticable outlines of a trap door.
-~
-trap~
-1 0 3361
-S
-#3363
-A Silent Grove~
-Broad high trees shelter a circle of grass from view. The sounds
-of animals and the dripping of dew off leaves is strangely absent
-from this little grove. Deep footprints move in a zigzag pattern in
-the soft red dirt surrounding the patch of grass.
-~
-0 264196 3
-S
-#3364
-A narrow passageway in the Labyrinth~
-The smell of eternal dew is in the air between green wild hedges.  The
-hedges tower over this passageway, only a few holes open somehow in three
-directions - almost as if someone cut them intentionally.  Through the gaps
-in the thick shrubs lay dusty outlines of other green, musty trails between the tall plants, much
-like this one.  Each step leads deeper into the labyrinth.  
- 
-  A crumpled old note is on the ground.
- 
- You examine the note and it reads:
-   There is more than one way to find the end of the labyrinth...
-   Consider the unexpected a given.
- 
-            George Clooney, goblin minister of labyrinths and kidnapping.
-~
-0 262156 1
-S
-#3365
-Pond of Dreams~
-This room is dominated by a little pond of icy water.  The pool is
-surrounded by many trees and bushes, and translucent spirits wander between
-them.  As the pool sends a gentle chill to the room, a small palm tree
-offers some shade, and a safe haven from the day's worries.  This place was
-planned by the greater gods, so they can take the time and relax, and have a
-small chat if they wish to.  
-~
-0 1311744 3
-E
-pond~
-This pond truly is a marvel to behold.  It is filled with crystal clear
-water, and sends off a nice chill.  The pond sparkles with a mysterious
-light, that seems to reflect endlessly by the pond.  
-~
-D3
-To the west, a grassy hill starts, and a path leads to it's top, the Muse' resting place.
-~
-~
-0 0 3055
-S
-#3374
-~
-~
-0 262148 0
-S
 #3001
 The Temple Of Mota~
 You are in the southern end of the temple hall in the Temple of Mota.
@@ -4818,6 +4717,10 @@ At the northern end of the temple hall is a statue and a huge altar.
 ~
 ~
 0 -1 3054
+D1
+~
+~
+0 0 3300
 D2
 You see the temple square.
 ~
@@ -4842,6 +4745,12 @@ You see your favorite place, the bar of divination.
 ~
 ~
 0 -1 3003
+D5
+You can't see what is down there, it is too dark.  Looks like it would be
+impossible to climb back up.
+~
+~
+0 -1 7026
 S
 #3003
 Cleric's Bar~
@@ -5256,6 +5165,12 @@ You see the bar.
 ~
 ~
 0 -1 3018
+D5
+You can't see what is down there, it is too dark.  Looks like it would be
+impossible to climb back up.
+~
+~
+0 -1 7017
 S
 #3020
 The Armoury~
@@ -5329,6 +5244,12 @@ You see the bar.
 ~
 ~
 0 -1 3022
+D5
+You can't see what is down there, it is too dark.  Looks like it would be
+impossible to climb back up.
+~
+~
+0 -1 7048
 S
 #3024
 Eastern End of Poor Alley~
@@ -5470,6 +5391,12 @@ You see the bar.
 ~
 ~
 0 -1 3028
+D5
+You can't see what is down there, it is too dark.  Looks like it would be
+impossible to climb back up.
+~
+~
+0 -1 7043
 S
 #3030
 The Dump~
@@ -5490,6 +5417,11 @@ spans the flow.
 ~
 ~
 0 -1 3254
+D5
+You see the sewers.
+~
+~
+0 -1 7030
 S
 #3031
 The Pet Shop~
@@ -5878,6 +5810,11 @@ You see the road.
 ~
 ~
 0 -1 3043
+D1
+You see the purple-and-orange Mob Factory.  Someone has no taste.
+~
+~
+0 -1 9400
 D2
 You see the bridge.
 ~
@@ -5926,6 +5863,11 @@ You see the alley.
 ~
 ~
 0 -1 3046
+D4
+You see machine dreams and taste violet phosphor.
+~
+~
+0 0 8604
 S
 #3051
 On the Bridge~
@@ -5988,11 +5930,21 @@ bridge footbridge~
 It is too high up to reach but it looks as if one easily could walk across it
 from one tower to the other.
 ~
+D0
+The trail continues around the City of Midgaard.
+~
+~
+0 -1 3900
 D1
 The city gate is to the east.
 ~
 gate~
 1 3133 3040
+D3
+The forest edge is to the west.
+~
+~
+0 -1 6000
 S
 #3053
 Outside the East Gate of Midgaard~
@@ -6023,6 +5975,15 @@ bridge footbridge~
 It is too high up to reach but it looks as if one easily could walk across it
 from one tower to the other.
 ~
+D0
+The trail continues around the City of Midgaard.
+~
+~
+0 -1 3908
+D1
+You see the plains.~
+~
+0 -1 3503
 D3
 You see the city gate.
 ~
@@ -6054,17 +6015,11 @@ You see the southern end of the temple.
 ~
 ~
 0 -1 3001
-S
-#3055
-Place of the Muse~
-The must hath visited, yet the artists strokes have not yet been applied 
-on this canvas.  Indeed, as of yet, they still adorn the canvas of another.
-~
-0 264200 0
-D1
+D4
+Bifrost, the Rainbow Bridge, hangs in the sky above you.
 ~
 ~
-0 0 3365
+0 -1 1215
 S
 #3056
 The Fountain of Youth Apothecary~
@@ -6084,6 +6039,11 @@ In the air...~
 WOW you can fly!  You are floating in the air above Temple Square of Midgaard.
 ~
 0 262148 9
+D4
+More of the same.
+~
+~
+0 0 1017
 D5
 Back down on the earth where you should be!
 ~
@@ -6145,7 +6105,7 @@ M 3301 spec_questmaster Load to: Zedd
 M 3304 spec_gamemaster Load to: the gamemaster
 M 3305 spec_flower_shop Load to: the florist
 M 3000 spec_cast_mage Load to: the wizard
-M 3005 spec_thief Load to: a purple elephant
+M 3005 spec_thief Load to: the thief
 M 3009 spec_engraver Load to: the jeweller
 M 3011 spec_executioner Load to: Hassan
 M 3012 spec_cast_adept Load to: the healer
@@ -6166,16 +6126,12 @@ S
 
 #RESETS
 D 0 3110 3 2
+D 0 3124 2 2
 D 0 3142 1 2
 D 0 3142 2 2
 D 0 3143 0 2
 D 0 3160 0 2
 D 0 3161 2 2
-D 0 3360 3 0
-D 0 3361 4 0
-D 0 3361 5 0
-D 0 3362 1 0
-D 0 3362 5 0
 O 0 3134 0 3101
 O 0 3134 0 3102
 O 0 3134 0 3103
@@ -6257,6 +6213,7 @@ G 0 3154 0
 G 0 3152 0
 G 0 3153 0
 G 0 3151 0
+G 0 1103 0
 G 0 3150 0
 G 0 3100 0
 M 0 3160 1 3160
@@ -6488,6 +6445,11 @@ M 0 3070 1 3056
 G 0 3080 0
 G 0 3081 0
 G 0 3082 0
+G 0 3083 0
+G 0 3084 0
+G 0 3085 0
+G 0 3086 0
+G 0 3087 0
 G 0 3088 0
 G 0 3089 0
 G 0 3090 0

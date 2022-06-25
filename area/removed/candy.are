@@ -1,0 +1,419 @@
+#AREADATA
+Name        {xx-xx} Medea   Candyland~
+Builders    Medea~
+VNUMs       11600 11699
+Security    2
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#11600
+The Anti-Area~
+There used to be an area here, but now there's not!  
+~
+0 4 0
+D0
+~
+~
+0 0 11601
+S
+#11601
+The No-Area Path~
+Neener neener!
+~
+0 0 2
+D0
+~
+~
+0 0 11602
+D2
+~
+~
+0 0 11600
+S
+#11602
+The Anti-Area Continues~
+This area has been trashed as a favor to the former owner.
+~
+0 0 2
+D0
+~
+~
+0 0 11603
+D2
+~
+~
+0 0 11601
+S
+#11603
+Turn in the No-Area Path~
+Look! There's no area here! Omigosh!
+~
+0 1 2
+D1
+~
+~
+0 0 11604
+D2
+~
+~
+0 0 11602
+S
+#11604
+The Figment Area Continues~
+Lalalalala, you're in a figment of an builder's imaginiation!
+~
+0 0 1
+D1
+~
+~
+0 0 11605
+D3
+~
+~
+0 0 11603
+S
+#11605
+Some More Non-Area Path~
+Wheeeeeeeeeeeeeeeee! You are trampling through nothingness!
+~
+0 0 1
+D1
+~
+~
+0 0 11607
+D2
+~
+~
+0 0 11606
+D3
+~
+~
+0 0 11604
+S
+#11606
+There Is No Shop~
+Zipppo here sold! A void! Muahahahahha!
+~
+0 1032 0
+D0
+~
+~
+0 0 11605
+S
+#11607
+An Intersection of Nothingness~
+Wah-oo! So many non directions to choose!
+~
+0 0 1
+D0
+~
+~
+0 0 11623
+D2
+~
+~
+0 0 11608
+D3
+~
+~
+0 0 11605
+S
+#11608
+Absent Avenue~
+All things are absent from here! *rofl*
+~
+0 0 1
+D0
+~
+~
+0 0 11607
+D2
+~
+~
+0 0 11609
+S
+#11609
+Absent Avenue~
+Zippo is here. Nada. Zilch. Just you. Neener.
+~
+0 0 1
+D0
+~
+~
+0 0 11608
+D1
+~
+~
+0 0 11610
+D2
+~
+~
+0 0 11612
+S
+#11610
+A Spacious Absence~
+A big space is here. Of nothing. What else is new?
+~
+0 8 0
+D2
+~
+~
+0 0 11611
+D3
+~
+~
+0 0 11609
+S
+#11611
+A Bedroom That Isn't Anymore~
+Warmth is here. Doh! It can't be. Know why? Cause there's nothing!!! Gotcha!
+~
+0 8 0
+D0
+~
+~
+0 0 11610
+S
+#11612
+Absent Avenue~
+Nothing is bright here.  You aren't bright either.  Why be in an area of
+nothingness?  Silly.  
+~
+0 0 1
+D0
+~
+~
+0 0 11609
+D2
+~
+~
+0 0 11614
+D3
+~
+~
+0 0 11613
+S
+#11613
+NOTHING~
+There is nothing here. Sorry.
+~
+0 0 0
+D1
+~
+~
+0 0 11612
+S
+#11614
+A Void of Zilch~
+Muahahahhahaha! There isn't even a black hole here! Because there is nothing here!
+~
+0 0 1
+D0
+~
+~
+0 0 11612
+D1
+~
+~
+0 0 11615
+D2
+~
+~
+0 0 11617
+S
+#11615
+A Cozy Blank Slate~
+Imagine a blank chalkboard.  Cause there certainly isn't an object
+around.  :P 
+~
+0 8 0
+D3
+~
+~
+0 0 11614
+D4
+~
+~
+0 0 11616
+S
+#11616
+Chaos!!~
+Omigosh!!! What chaos! There's Nothing to do or to control!! Oh lordy!
+~
+0 8 0
+D5
+~
+~
+0 0 11615
+S
+#11617
+*PoOf*~
+*PoOf* There's nothing! What a shock!
+~
+0 1 1
+D0
+~
+~
+0 0 11614
+D2
+~
+~
+0 0 11619
+D3
+~
+~
+0 0 11618
+S
+#11618
+Small Shack of Space~
+Boy, you are getting boredaroony.  There's nothing to do!  Who thought
+this up?  
+~
+0 8 0
+D1
+~
+~
+0 0 11617
+S
+#11619
+Neener Road~
+Nyah nyah poo poo!
+~
+0 1 1
+D0
+~
+~
+0 0 11617
+D1
+~
+~
+0 0 11620
+D2
+~
+~
+0 0 11622
+S
+#11620
+Another Shack that Lacks Substance~
+*yawn* Where are you???  Who is this no one sicko??  Did someone make
+this place of nada up, or is it just being??  
+~
+0 8 0
+D1
+~
+~
+0 0 11621
+D3
+~
+~
+0 0 11619
+S
+#11621
+A Non Garden~
+A Garden is not here, growing nothing.  Nothing sprouts from flowers, and
+no one is here.  
+~
+0 0 2
+D3
+~
+~
+0 0 11620
+S
+#11622
+Dead End. That makes no sense.~
+How can nothing end? How philosophical!!
+~
+0 1 1
+D0
+~
+~
+0 0 11619
+S
+#11623
+Trashed Road~
+This road is a mess! Why? Cause there is no road!
+~
+0 0 1
+D0
+~
+~
+0 0 11624
+D2
+~
+~
+0 0 11607
+S
+#11624
+Trashed Road~
+Look at the wreckage! Oh the HUMANITY!!!
+~
+0 0 1
+D0
+~
+~
+0 0 11625
+D2
+~
+~
+0 0 11623
+S
+#11625
+Trashed Road Continues~
+You hear a feminine voice cackle.  There's nothing!!!!!!!  
+~
+0 0 1
+D0
+~
+~
+0 0 11626
+D2
+~
+~
+0 0 11624
+S
+#11626
+Trashed Room Stops~
+It ends here. The non area I mean.
+~
+0 0 1
+D2
+~
+~
+0 0 11625
+S
+#0
+
+
+
+#RAFFECTS
+#0
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

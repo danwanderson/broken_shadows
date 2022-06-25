@@ -1,0 +1,262 @@
+#AREADATA
+Name        {xx-xx} Exar       FoxGrove~
+Builders    Exar~
+VNUMs       11200 11299
+Security    1
+End
+
+
+
+#MOBILES
+#11200
+Will Smith~
+Will Smith~
+Will Smith, of the elite M.I.B, is standing here selling you pets.
+~
+~
+Human~
+ABVd H 0 1000 S
+100 300 21d350+1500 20d20+35 10d20+0 6
+-40 -40 -40 -15
+EIN AH LP CEY
+8 8 1 10000
+AHMV ABCDEFGHIJK G none
+#11201
+a vampyre~
+a Vampyre~
+A Vampyre is standing here ready to sink it's teeth into enemies
+~
+~
+Vampire~
+AIO HSac 0 -1000 S
+55 80 12d192+825 8d8+15 6d10+27 19
+-30 -30 -30 -10
+EVX ILMP LN NS
+8 8 1 20004
+ABGHIMXc ABCDEFGHIJKQV M none
+#11202
+wolf werewolf~
+a Werewolf~
+A Werewolf is here ready to rip you to pieces
+~
+~
+Wolf~
+AIT HSVZa 0 -1000 S
+65 65 14d227+975 8d8+15 6d12+31 10
+-30 -30 -30 -10
+FH O K NS
+8 8 3 10000
+AGV ACDEFJKQV M none
+#0
+
+
+
+#OBJECTS
+#11200
+Black Ray-Bans~
+black Ray-Bans~
+Black Ray-Bans are lying here~
+none~
+9 ABLS AE
+EFGJKLMNOPQRSTUVWXYZabcdef EFGJKLMNOPQRSTUVWXYZabcdef EFGJKLMNOPQRSTUVWXYZabcdef EFGJKLMNOPQRSTUVWXYZabcdef 0
+92 15 5000
+#11201
+Black Armani Suit and Tie~
+a Black Armani Suit~
+A Black Armani Suit is hanging here waiting for a M.I.B. to put it on~
+none~
+9 ABGIK AD
+EFGJKLMNOPQRSTUVWXYZabcdef EFGJKLMNOPQRSTUVWXYZabcdef EFGJKLMNOPQRSTUVWXYZabcdef EFGJKLMNOPQRSTUVWXYZabcdef 0
+92 5 1000
+#11202
+noisy cricket~
+a noisy cricket~
+A noisy cricket is lying here humming~
+none~
+5 ABIK AN
+0 AC ABD BC E
+92 5 10000
+#11203
+ring engagement~
+a 24k engagement ring~
+A 24k diamond engagement ring is lying here~
+none~
+11 ABGI AB
+0 0 0 0 0
+92 3 2000
+#0
+
+
+
+#ROOMS
+#11267
+Foxgrove Trail~
+There is a bend in the trail here.  It continues through the woods to the
+north, and there is a small bridge to the east.  
+~
+0 0 3
+D1
+~
+~
+0 0 11269
+S
+#11269
+Foxgrove Trail~
+~
+0 0 3
+D2
+~
+~
+0 0 11270
+D3
+~
+~
+0 0 11267
+S
+#11270
+Foxgrove Trail~
+You are walking through through the cool shade of a quiet forest.  Birds
+twitter, and a gentle breeze wafts through the trees.  The trail opens into
+a clearing to the east, and wanders north, deeper into the woods.  
+~
+0 0 3
+D0
+~
+~
+0 0 11269
+D1
+~
+~
+0 0 11271
+S
+#11271
+Entrance to FoxGrove~
+You are standing at the edge of a beautiful forest.  From within you hear
+the soft chirping of birds and smell the fresh scent of pine.  A trail leads
+deep into the woods.  There is a sign here.  
+~
+0 0 3
+E
+sign~
+The sign reads:
+ 
+Take only pictures, leave only footprints.
+Do not feed the bears.
+~
+D3
+~
+~
+0 0 11270
+S
+#11200
+Entrance to L.A.~
+You are at the entrance to L.  A.  It is the year 2035 and many changes
+have taken place in time and technology.  Enter with caution.  WARNING: IF
+YOU ARE BELOW LEVEL 45 WHATEVER HAPPENS WILL BE YOUR FAULT....  
+~
+0 0 1
+D1
+~
+gate~
+1 0 11201
+S
+#11201
+On a street in L.A.~
+You are on a crowded street in L.  A.  You look around and see all sorts
+of bright lights, shops, people, and casinos.  You think you might just like
+it here.  To the north you see a pet shop and to the south you see a weapon
+shop.  The east leads further into L.  A.  
+~
+0 0 1
+D0
+~
+~
+0 0 11202
+D2
+~
+~
+0 0 11204
+D3
+~
+~
+1 0 11200
+S
+#11202
+L.A.'s Premiere Pet Shop~
+You are standing in the premiere pet shop of L.  A.  You wonder what kind
+of pets could possibly be sold here.  You decide you might by one for
+protection.  
+~
+0 5128 0
+D1
+~
+~
+8 0 11203
+D2
+~
+~
+0 0 11201
+S
+#11203
+Storeroom~
+You are standing in the storeroom for the pets.  You a lot of cages
+containing odd looking creatures and decide to go buy one.  
+~
+0 1036 0
+D3
+~
+~
+8 0 11202
+S
+#11204
+~
+~
+0 0 0
+D0
+~
+~
+0 0 11201
+S
+#11206
+~
+~
+0 4 0
+S
+#0
+
+
+
+#RAFFECTS
+#0
+
+
+#SPECIALS
+M 11200 spec_assassin Load to: Will Smith
+M 11201 spec_assassin Load to: a Vampyre
+M 11202 spec_poison Load to: a Werewolf
+S
+
+
+
+#RESETS
+D 0 11200 1 0
+D 0 11201 3 0
+D 0 11202 1 2
+D 0 11203 3 2
+M 0 11200 1 11202
+E 0 11200 0 6
+E 0 11201 0 5
+E 0 11202 0 16
+M 0 11201 1 11203
+M 0 11202 1 11203
+S
+
+
+
+#SHOPS
+11200 0 0 0 0 0 65 65 7 21
+0
+
+
+
+#$

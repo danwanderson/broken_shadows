@@ -1,0 +1,1591 @@
+#AREADATA
+Name        {xx-xx} Mekare  Russia~
+Builders    Rahl Mekare~
+VNUMs       11500 11599
+Security    9
+End
+
+
+
+#MOBILES
+#11500
+palace guard~
+a palace guard~
+A palace guard is standing here, guarding the gate.
+~
+~
+Human~
+ABFT Jc 0 0 S
+0 0 0d0+0 0d0+0 0d0+0 3
+0 0 0 0
+CDFIJKT A B 0
+8 8 1 0
+AHMV ABCDEFGHIJK M none
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#11500
+A Winding Road~
+You are traveling along a winding road on your way to the great city of
+St.  Petersburg.  The peaks of the Gora Roman-Kos Mountain pierce the sky to
+your south.  You may continue your journey into the city or turn back now to
+more familiar territory.  
+~
+0 0 4
+D0
+~
+~
+0 0 11501
+S
+#11501
+The Road to Pertograd~
+As you continue your journey into the Russian capitol you start to recall
+stories about the wandering monks that lurk in these parts.  The starets are
+said to have mystical powers of the mind and can be very unpredictable.  You
+quickly check for your weapon before continuing.  
+~
+0 0 4
+D0
+~
+~
+0 0 11502
+D2
+~
+~
+0 0 11500
+S
+#11502
+The City Awaits~
+You can start to make out the form of St.  Petersburg in the distance but
+your view of the great city becomes distorted due to the driving wind and
+the falling snow.  You pull your cloak around you to stay warm.  Not too
+long before you are safe within the walls of the city.  
+~
+0 0 4
+D0
+~
+~
+0 0 11503
+D2
+~
+~
+0 0 11501
+S
+#11503
+Approaching the Gates~
+As you approach the gates you notice the presence of cossack troops, of
+the Imperial Guard.  You hestitate and wonder if you should find a different
+way into the city.  
+~
+0 0 4
+D0
+~
+~
+0 0 11505
+D2
+~
+~
+0 0 11502
+D3
+~
+~
+0 0 11504
+S
+#11504
+Cossack Troops~
+Soldiers of the Imperial Guard stand here blocking your entry into the
+city.  
+~
+0 0 1
+D1
+~
+~
+0 0 11503
+D3
+~
+~
+0 0 11506
+S
+#11505
+Outskirts of Pertograd~
+You continue along the edge of the city in the hopes of finding another,
+less populated entrance.  You can hear voices further to the north but can't
+see anyone.  Do you continue?  
+~
+0 0 1
+D0
+~
+~
+0 0 11508
+D2
+~
+~
+0 0 11503
+S
+#11506
+The Gates~
+You stand before the gates of the Russian capitol.  Now all you have to
+do is gain entry.  Looking through the gates you see more cossack troops. 
+This isn't going to be as easy as you thought.  
+~
+0 0 1
+D1
+~
+~
+0 0 11504
+S
+#11508
+More Guards~
+There are Imperial Guards everywhere.  Maybe you should just turn back
+and try the gate.  Unless, of course, you can simply get a key.  
+~
+0 0 1
+D0
+~
+~
+0 0 11509
+D2
+~
+~
+0 0 11505
+S
+#11509
+The Captain~
+You've managed to stumble upon the captain of the guard.  It seems that
+he's pleased to make your aquaintance...  Or not.  It's do or die now!  
+~
+0 0 1
+D2
+~
+~
+0 0 11508
+S
+#11510
+Inside the Gates of Petrograd~
+You are standing just inside the gates of the city.  Imperial troops are
+everywhere.  You'd love to spend some time wandering around St.  Petersburg
+but you sense that the only place you must explore is the palace.  Many
+great things await you behind those palace walls.  
+~
+0 4 1
+D3
+~
+~
+0 0 11511
+S
+#11511
+In Town~
+You've decided to take a less conspicuous route to the palace, sneaking
+your way through the back alleys.  It is keeps you protected from the harsh,
+winter elements.  
+~
+0 0 1
+D1
+~
+~
+0 0 11510
+D2
+~
+~
+0 0 11512
+S
+#11512
+The Alley~
+It is much darker going this way, but perhaps that's a good thing.  It
+will make it harder for the troops to find you.  That is, if they're looking
+for you.  
+~
+0 0 1
+D0
+~
+~
+0 0 11511
+D3
+~
+~
+0 0 11513
+S
+#11513
+The Alley~
+You continue to make your way through the alley and realize that there's
+another perfectly good reason for it to be so dark, so you can't see what it
+is that you're stepping in!  Ugh!  
+~
+0 0 1
+D1
+~
+~
+0 0 11512
+D3
+~
+~
+0 0 11514
+S
+#11514
+A Clearing in the Alley~
+You come to a sort of clearing in the alley.  There is a door to your
+north with a small light above the entrance.  You figure it must be a bar of
+some sort.  
+~
+0 0 1
+D0
+~
+~
+1 0 11515
+D1
+~
+~
+0 0 11513
+D3
+~
+~
+0 0 11516
+S
+#11515
+A Quiet, Dirty Pub~
+You are standing in a poorly lit pub.  A bartender stands behind the bar
+wiping it down with a dirty rag.  There are a few men sitting at the bar
+arguing.  You listen to part of their conversation, they mention that the
+palace has several secret passages.  Interesting, this information might
+prove to be useful.  
+~
+0 8 0
+D2
+~
+~
+1 0 11514
+S
+#11516
+The Alley~
+You continue your way through the alley.  Further to the west you can see
+the spires of the palace.  
+~
+0 1 1
+D1
+~
+~
+0 0 11514
+D3
+~
+~
+0 0 11517
+S
+#11517
+The Alley~
+You are nearing the walls of the palace and of course, you are
+anticipating more guards.  Better prepare yourself.  They may not take
+kindly to a stranger lurking in the shadows.  
+~
+0 1 1
+D1
+~
+~
+0 0 11516
+D3
+~
+~
+0 0 11518
+S
+#11518
+The Palace Awaits~
+You've finally made your way out of the dark alley and find yourself on a
+small side street.  It appears to lead north into the city and south into
+the forest, and ultimately, the palace.  You feel your heart race as you
+realize just how close you are.  
+~
+0 0 1
+D0
+~
+~
+0 0 11519
+D1
+~
+~
+0 0 11517
+D2
+~
+~
+0 0 11520
+S
+#11519
+A Road Into The City~
+For some reason you've decided to take your chances and venture into the
+city.  So far, so good, no problems yet!  Maybe a nice warm bed and a hot
+meal in town will do you good!  You hear a faint noise, hmmm, sounds almost
+like dogs barking.  
+~
+0 0 1
+D0
+~
+~
+0 0 11521
+D2
+~
+~
+0 0 11518
+S
+#11520
+An Old Road into the Forest~
+You decide to follow the old road, at least it will get you away from the
+dangers that await you in the city.  Although, who knows what you'll run
+into amongst the trees.  None the less, you continue your journey.  
+~
+0 1 3
+D0
+~
+~
+0 0 11518
+D2
+~
+~
+0 0 11522
+S
+#11521
+Road Block!~
+Well, now you've done it!  Barking dogs indeed!  With razor sharp teeth! 
+Trained just for such an event!  
+~
+0 0 1
+D2
+~
+~
+0 0 11519
+S
+#11522
+Further into the Dark, Russian Forest~
+You notice that the road narrows as you venture deeper into the forest,
+turning more into a trail.  The trees shelter you from the harsh Russian
+winter as you continue your way south.  
+~
+0 1 3
+D0
+~
+~
+0 0 11520
+D2
+~
+~
+0 0 11523
+S
+#11523
+Further into the Dark, Russian Forest~
+You wonder how much further it is to the Palace, or if you should maybe
+turn back.  It's cold, and dark in this deep forest.  No one around for
+miles, except maybe the wolves.  
+~
+0 1 3
+D0
+~
+~
+0 0 11522
+D2
+~
+~
+0 0 11524
+S
+#11524
+Further into the Dark, Russian Forest~
+It seems you have some choices to make.  Choose wisely, this is not the
+place to get lost.  
+~
+0 1 3
+D0
+~
+~
+0 0 11523
+D1
+~
+~
+0 0 11526
+D2
+~
+~
+0 0 11525
+D3
+~
+~
+0 0 11527
+S
+#11525
+Darkness~
+Nothing but darkness surrounds you, and there's no way out.
+~
+0 5 3
+S
+#11526
+Darkness~
+Nothing but darkness surrounds you, and there's no way out.
+~
+0 5 3
+S
+#11527
+A Lighter Path~
+Wise choice!  Although, as you look around, you don't see much of a
+difference.  You're tired, and wish this journey would end.  But you know
+the rewards of the Palace can't be too far off.  You push yourself further. 
+~
+0 1 3
+D1
+~
+~
+0 0 11524
+D3
+~
+~
+0 0 11528
+S
+#11528
+A Lighter Path~
+The forest isn't as dark and threatening here and you can definately see
+the end of the trail in the distance.  Although, you're not exactly sure
+where the trail will end.  
+~
+0 1 3
+D1
+~
+~
+0 0 11527
+D3
+~
+~
+0 0 11529
+S
+#11529
+A Lighter Path~
+You now figure you'll end up somewhere on the north side of the town of
+Tsarskoe Selo.  That means you may be closer to the palace than you thought!
+You quicken your pace through the forest.  
+~
+0 1 3
+D1
+~
+~
+0 0 11528
+D3
+~
+~
+0 0 11530
+S
+#11530
+Babylon Park~
+How pleasant!  You find yourself, as you thought, on the north side of
+the town.  This is Babylon Park, but you're not in the mood for a leisurely
+stroll.  Surely the Tsar's guards will be on the lookout.  
+~
+0 0 3
+D1
+~
+~
+0 0 11529
+D3
+~
+~
+0 0 11531
+S
+#11531
+Babylon Park~
+The park itself is huge!  Trees shelter most of the area and prevent you
+from instantly seeing an exit.  Better keep searching.  
+~
+0 0 3
+D0
+~
+~
+0 0 11533
+D1
+~
+~
+0 0 11530
+D3
+~
+~
+0 0 11532
+S
+#11532
+Babylon Park~
+The park itself is huge!  Trees shelter most of the area and prevent you
+from instantly seeing an exit.  Better keep searching.  
+~
+0 0 3
+D0
+~
+~
+0 0 11534
+D1
+~
+~
+0 0 11531
+S
+#11533
+Babylon Park~
+The park itself is huge!  Trees shelter most of the area and prevent you
+from instantly seeing an exit.  Better keep searching.  
+~
+0 0 3
+D2
+~
+~
+0 0 11531
+D3
+~
+~
+0 0 11534
+S
+#11534
+Babylon Park~
+The park itself is huge!  Trees shelter most of the area and prevent you
+from instantly seeing an exit.  Better keep searching.  
+~
+0 0 3
+D0
+~
+~
+0 0 11535
+D1
+~
+~
+0 0 11533
+D2
+~
+~
+0 0 11532
+S
+#11535
+Towards the Palace~
+The awe-inspiring Fyodorovsky Catherdral rises to your west, you can
+almost feel the power raidiating from behind its heavy, engraved oak doors. 
+The Imperial Palace should be towards the west.  
+~
+0 0 3
+D0
+~
+~
+0 0 11536
+D2
+~
+~
+0 0 11534
+D3
+~
+~
+0 0 11541
+S
+#11536
+The Imperial Fyodorovsky Cathedral~
+This cathedral was designed to emmulate the Annunciation Church in
+Moscow.  There are several entrances to the cathedral, for visitors to enter
+according to rank.  The spires and domes of the cathedral are like those of
+the Kremlin in Moscow.  A pair of enormous oak doors are before you.  
+~
+0 0 3
+D0
+~
+~
+0 0 11537
+D2
+~
+~
+0 0 11535
+S
+#11537
+The Imperial Fyodorovsky Cathedral~
+You can't believe how incredibly huge this place is!  Paintings of saints
+cover the walls and domes.  Religious ikons rest in niches in the walls, and
+before you, towers a beautiful marble altar, enchantingly mysterious and
+holding many secrets.  
+~
+0 8 0
+D2
+~
+~
+0 0 11536
+S
+#11538
+The Fyodorovsky Cathedral~
+~
+0 12 0
+S
+#11539
+The Fyodorovsky Cathedral~
+~
+0 12 0
+S
+#11540
+The Fyodorovsky Cathedral~
+~
+0 12 0
+S
+#11541
+Towards the Palace~
+You can now see the gates of the palace to the west.  Beyond the gates
+and across Alexander Park you will see the enormous palace amongst the
+fountains and finely manicured lawns.  
+~
+0 0 3
+D1
+~
+~
+0 0 11535
+D3
+~
+~
+0 0 11542
+S
+#11542
+The Alexander Palace~
+The Imperial Palace stands regally before you is all its mighty splendor.
+You immediately realize that you can't simply walk through the front doors
+and expect to be welcomed.  Better find your own way in.  
+~
+0 0 3
+D1
+~
+~
+0 0 11541
+S
+#11543
+An Underground Tunnel~
+You've discovered a secret tunnel behind the altar!  Could this be like
+the ones you've heard about in the Palace?  The altar slams shut behind you,
+guess you're stuck down here.  
+~
+0 1 0
+D3
+~
+~
+0 0 11544
+S
+#11544
+An Underground Tunnel~
+It's damp, and dark, and cold down here.  What person could possibly want
+to use this method?  You are getting discouraged.  
+~
+0 1 0
+D1
+~
+~
+0 0 11543
+D3
+~
+~
+0 0 11545
+S
+#11545
+An Underground Tunnel~
+Guck oozes from the tunnel ceiling.  You are not amused.  You can't see a
+thing.  
+ 
+~
+0 1 0
+D1
+~
+~
+0 0 11544
+D3
+~
+~
+0 0 11546
+S
+#11546
+A Dead End~
+Nothing.  Absolutely nothing.  Now what do you do?  There MUST be a way
+out!  
+~
+0 1 0
+D1
+~
+~
+0 0 11545
+S
+#11550
+Semi-Circular Hall~
+This is the main hall of the Parade Rooms.  The walls are covered, in
+typical Russian style, in the same white marble as some of the other halls. 
+The central doors of the apse open out onto a terrace overlooking the
+Alexander Gardens.  White marble fireplaces are situated on either side of
+the main entrance.  
+~
+0 8 0
+D1
+~
+~
+0 0 11552
+D2
+~
+~
+0 0 11582
+D3
+~
+~
+0 0 11551
+S
+#11551
+Portrait Hall~
+This hall is sparsely furnished, with only a dozen or so chairs and
+sofas, all guilded pieces covered in fine blue silk.  On the walls hang
+portraits documenting several generations of the Romanov Dynasty.  Again,
+these walls are covered in the same white marble as the other Great Halls.  
+~
+0 8 0
+D1
+~
+~
+0 0 11550
+D2
+~
+~
+0 0 11584
+S
+#11552
+Billiard Hall~
+This room is rather large and is connected to the room on the right by
+wide arched column arcades.  The walls are all covered in a white polished
+marble and is the reason why some call this the "Marble Hall".  The false
+windows over the cornices have clouds delicately painted on them.  There are
+several oil paintings hanging on the walls, one is of the Tsarina Aleksandra
+and there is even one of the great Queen Victoria herself.  To your north is
+a huge guilded pier mirror and it may be worth your while to take a closer
+look.  
+~
+0 8 0
+D2
+~
+~
+0 0 11581
+D3
+~
+~
+0 0 11550
+S
+#11553
+Mountain Hall~
+Upon entering this room you immediately notice a great wooden slide! 
+This is where the Tsar's children spent much of their time entertaining
+friends.  Several bird cages are hung throughout the room holding
+magnificent parrots of all colors.  
+~
+0 8 0
+D1
+~
+~
+0 0 11584
+D2
+~
+~
+0 0 11554
+S
+#11554
+Great Library~
+This room is unlike any library you've ever seen!  Books of all sizes and
+all topics fill the empire style mahogany bookcases.  Three great glass,
+crystal and guilded bronze lanterns hang in a row down the center of the
+room.  On top of the cases are models of mounted cavalrymen.  Several bronze
+statuettes and ship models are placed neatly on tables throughout the room. 
+~
+0 8 0
+D0
+~
+~
+0 0 11553
+D1
+~
+~
+0 0 11555
+S
+#11555
+Smaller Library~
+This room is much smaller than the Great Library, but its appearance is
+just as magnificent.  The same empire style mahogany bookcases line the
+walls of this room and are all filled with a unique collection of rare and
+historical books.  In the center of the room is a chippendale style table
+and chairs where the Tsar and his family sometimes prefer to dine.  
+~
+0 8 0
+D2
+~
+~
+0 0 11556
+D3
+~
+~
+0 0 11554
+S
+#11556
+Smaller Library~
+More books!!  The size of this collection is outstanding!  You could
+spend days in here just reading the covers of these books!  This library
+contains the private collection of the Royal Family.  Two mahogany desks are
+situated in the center of the room and are used by the two full time
+librarians employed by the Tsar.  
+~
+0 8 0
+D0
+~
+~
+0 0 11555
+S
+#11557
+Palace Chapel~
+This room is long and very narrow with an arcade running along the right
+side of the room.  The altar, in front of you, is quite spectacular.  There
+are several columns running the length of the chapel, the cornices and
+capitals are intricately carved.  Artificial marble, in an icy sea green,
+cover the columns and walls.  The wall panels are framed in a darker color
+marble.  
+~
+0 8 0
+D3
+~
+~
+0 0 11581
+S
+#11558
+The Tsar's Reception Room~
+This is where guests wait to be admitted to the Tsar's office.  The walls
+are covered in a dark panelling and above this is a deep, rich blue fabric
+stamped with a gold fleur-d-lis pattern.  A portrait of Aleksandra hangs on
+the west wall.  The furniture is also dark wood and covered in a soft
+studded leather.  A mable-faced fireplace with a tall wooden chimney keeps
+this room warm and cozy.  
+~
+0 8 0
+D0
+~
+~
+0 0 11591
+D1
+~
+~
+0 0 11559
+S
+#11559
+Working Study~
+This room is dark and masuline and is decorated with only materials of
+the richest kind.  The walls are panelled half-way up in walnut and then
+painted a deep red.  The furniture is all carved in dark oak or walnut, some
+new, and some pieces of the Romanov family collection.  The Tsar's desk is
+L-shaped and is covered with family pictures, folders, appointment books and
+a clock.  There is also a marble-faced fireplace in this room, similar to
+the one in his reception room but on a smaller scale.  
+~
+0 8 0
+D3
+~
+~
+0 0 11558
+S
+#11560
+The Tsar's Bathroom~
+A giant heated swimming tubs sit on a platform on the north wall of this
+magnificent room.  On the west wall are two dressing tables and a cage
+hanging from above holds a brightly colored parrot.  A table sits under the
+window opposite the tub and on it are many of the Tsar's personal treasures
+including gifts from his children.  Above the doorway is draped a
+embroidered cloth with a double eagle.  
+~
+0 8 0
+D1
+~
+~
+0 0 11561
+S
+#11561
+Wardrobe Room~
+The Tsar's dressing room is not nearly as magnificent as the Tsarina's
+but the size is just as grand.  The walls are covered in a dark mahogany
+panelling as are the closet doors.  A comfortable looking armchair rests in
+the corner, other than that, there is no furniture at all.  The Tsar's
+wardrobe consists mainly of uniforms, but when he's dressed up in one for a
+formal affair he looks just as regal as his lovely wife.  
+~
+0 8 0
+D0
+~
+~
+0 0 11594
+D3
+~
+~
+0 0 11560
+S
+#11562
+New Study Room~
+This is where the Tsar takes care of any official affairs and is
+therefore designed with an international flair.  The walls and ceiling are
+panelled in a dark, tropical mahogany and grey Austrian marble columns
+rivited with gilded bronze stand regally on either side of the Tsar's
+Chippendale desk.  The Tsar also has a large pool table made of mahogany
+behind his desk where he sometimes passes the time with guests.  
+~
+0 8 0
+D0
+~
+~
+0 0 11595
+S
+#11563
+Formal Reception Room~
+This room is one of the sunniest areas of the palace.  Seven big windows
+look out from this room onto the Alexander Park.  The walls are covered with
+white artificial marble and topped by a beautifully molded entablature.  The
+stark whiteness of the room is set off by heavy cranberry colored curtains. 
+Two ivory screens covered in tapestry bear the Royal Monogram.  
+~
+0 8 0
+D0
+~
+~
+0 0 11570
+D3
+~
+~
+0 0 11595
+S
+#11564
+Maple Room~
+This is one of the largest of Aleksandra's private rooms, and possibly
+one of the most exquisite.  The walls of the room are painted pink with
+trellises of carved plaster cabbage roses rising into a swirled pale green
+circle in the center of the ceiling.  Bearskin rugs sprawl across the
+gray-green castor carpet.  
+~
+0 8 0
+D2
+~
+~
+0 0 11595
+S
+#11565
+Pallisander Room~
+This is where the Tsar and Tsarina play hosts to their special guests and
+close friends.  The room is panelled in a highly polished rosewood, making
+the room warm and inviting.  The furniture is of the same rosewood.  This is
+where the family oftens sits down for tea together.  The Tsarina keeps most
+of her personal treasures in this very room.  
+~
+0 8 0
+D2
+~
+~
+0 0 11594
+S
+#11566
+Mauve Room~
+This room got it's name from the opal colored silk on the walls and was
+the Tsarina's favorite.  The same silk, in a textured brocade, covers the
+cream lemonwood furniture.  This room is the traditional family gathering
+room and contains many interesting and personal items belonging to the
+Imperial Royal Family.  
+~
+0 8 0
+D2
+~
+~
+0 0 11593
+S
+#11567
+The Imperial Bedroom~
+The walls of this room are covered in a lively cotton-chintz material,
+printed with green wreaths laced with pink ribbon.  The room is divided into
+two sections by a beautiful ivory silk curtain supported by two great
+columns.  The sitting area, is made up of a few chairs and a sofa all
+darkwood that has been painted ivory and covered in the same material as the
+walls.  The sleeping area has a majestic gilt bronze bed covered in silk and
+lace coverlets and topped by piles of down-filled pillows.  
+~
+0 8 0
+D2
+~
+~
+0 0 11592
+D3
+~
+~
+0 0 11568
+S
+#11568
+Aleksandra's Dressing Room~
+This is where the Tsarina stores her many, many pieces of fine clothing. 
+The room itself is small by royal standards and contains a couple of
+armchairs in the same style as her bedroom.  It's amazing that one women
+could wear all these clothes in a lifetime!  The Tsarina changes her clothes
+an average of 5 times daily.  Two maids make sure that her clothes are laid
+out and ready for Aleksandra in a timely manner.  
+~
+0 8 0
+D1
+~
+~
+0 0 11567
+D2
+~
+~
+0 0 11591
+D3
+~
+~
+0 0 11569
+S
+#11569
+Aleksandra's Bathroom~
+For a bathroom, this isn't so bad.  One could live in this entire space
+alone!  A huge, deep clawfoot bathtub sits on a raised platform and is
+filled every evening (by hand) by the Tsarina's two chamber maids.  A
+beautiful ivory wood vanity rests against the wall and on it is many
+personal momentos of the Tsarina's.  One the opposite wall is a elegant
+marble fireplace which is also lit for the Tsarina's bath every evening to
+ensure that her Royal Highness doesn't catch a chill.  
+~
+0 8 0
+D1
+~
+~
+0 0 11568
+S
+#11570
+The Tsarina's Balcony~
+You find yourself on a large, beautiful and spacious balcony.  One could
+quite easily entertain many guests here and the Tsarina does just that,
+serving tea to a dozen or so guests.  The balocony overlooks Alexander Park
+and in the distance you can see the spires of the cathedral.  
+~
+0 0 0
+D2
+~
+~
+0 0 11563
+S
+#11571
+Children's Dining Room~
+This is where the children receive their meals, those that are not taken
+with their parents that is.  Unlike the formal dining room this one is quite
+comfortable.  The walls are decorated with a lively print and the furniture
+is light oak.  The table is covered in a beautiful antique white, lace table
+cloth.  
+~
+0 8 0
+D2
+~
+~
+0 0 11585
+S
+#11572
+Sitting Room~
+This is where the oldest of the children entertain their guests, or just
+gather together for long talks.  The walls are panelled in a dark wood and
+the furniture is gilded bronze with deep, red velvet coverings.  Personal
+pictures of the girls with their family and friends are placed on the tables
+and hang on the walls.  A desk is in the corner and on it is writing paper
+and ink for the Duchesses' personal correspondence.  
+~
+0 8 0
+D2
+~
+~
+0 0 11586
+S
+#11573
+Class Room~
+The classroom is very simple in appearance but still is not totally free
+of Romanov elegance.  The walls are panelled in a rich mahogany with a
+chalkboard on the west wall.  Mahogany desks are lined up facing the board
+in an orderly fashion.  There are bookshelves along the other walls
+containing the neccessary tools required for the children's daily studies
+with their tutors.  
+~
+0 8 0
+D2
+~
+~
+0 0 11587
+S
+#11574
+Bathroom~
+The girl's bathroom is fashioned in the same style as their mother's.  A
+deep, clawfoot tub rests on a platform and there are four dressing tables
+along the east and north walls.  Each of the girls have personal belongings
+and momentos cluttering the tables as well as jeweled hairbrushes and
+matching mirrors.  This room, depite it's incredible size, doesn't seem like
+enough room for four girls, but then again, is any room?  
+~
+0 8 0
+D2
+~
+~
+0 0 11588
+S
+#11575
+Olga and Tatiana's Room~
+The walls of this room are painted pink and above the cornice they are
+stencilled in a lively frieze of flowered vines and bronze colored
+dragonflies.  The same design is in the chintz material that covers the
+chairs and the fabric partition that seperates Tatiana's sleeping area from
+the rest of the room.  There are also chairs covered in a striped green
+silk.  The furniture is all made of maple, stained grey.  Photographs and
+paintings cover the walls and personal mementos scatter this room as well.  
+~
+0 8 0
+D1
+~
+~
+0 0 11576
+D2
+~
+~
+0 0 11589
+S
+#11576
+Maria and Anastasia's Room~
+This room is very similar to their sisters' room to the west.  The walls
+are painted the same pink and the same stencil runs around the top of the
+room.  Here, Anastasia is the one who sleeps behind the screen and Maria's
+bed is placed neatly in the center of the room.  A beautiful fireplace,
+surrounded by German tiles keeps the dampness out of the room.  
+~
+0 8 0
+D2
+~
+~
+0 0 11590
+D3
+~
+~
+0 0 11575
+S
+#11577
+Playroom~
+This is the childern's playroom, and although it is named as such it is
+still as elegant and regal as any other room in the palace.  This is,
+essentially, where the Grand Duchesses and the young Tsarevich entertain
+their own guests.  The room, despite it's enormous size, can not hold all of
+the many toys and dolls that the children own and each evening they place an
+order for the toys they require for the next day and the selected toys are
+brought up from the basement by palace servants before the children awake.  
+~
+0 8 0
+D2
+~
+~
+0 0 11578
+D3
+~
+~
+0 0 11590
+S
+#11578
+Aleksey's Room~
+The Tsarevich's room is quite simple in fact.  The walls are covered in a
+light blue fabric and the furniture is dark oak.  On the west wall of the
+room is a display case housing many magnificent ikons from monsasteries and
+holy convents across Russia.  These were all given to Aleksey in the hopes
+that they will somehow aid him as he struggles against his dreadful disease.
+Above his bed is an ikon of St.  Seraphim of Sarovskii, Aleksey's patron
+saint.  
+~
+0 8 0
+D0
+~
+~
+0 0 11577
+S
+#11579
+Music Room~
+The walls of this room are covered in the typical white artificial mable
+with grand columns and arches in molded plaster.  There are two grand pianos
+in the center of the room with several antique chairs scattered throughout
+as well.  This is where the three oldest Grand Duchesses practice their
+lessons, a teacher is brought in every afternoon the ensure that they keep
+playing magnificently.  
+~
+0 8 0
+D0
+~
+~
+0 0 11585
+S
+#11580
+Corridor Elevator~
+You find yourself enclosed in a small, dark elevator.  There are only two
+buttons, up and down.  This should be easy to figure out.  
+~
+0 9 0
+D0
+~
+~
+0 0 11584
+D4
+~
+~
+0 0 11596
+S
+#11581
+A Majestic Hallway~
+This hallway is long and spacious, with many exits leading to majestic
+rooms.  The walls are covered in a chaste, white artificial marble that is
+typical throughout this rooms on this floor.  
+~
+0 9 0
+D0
+~
+~
+0 0 11552
+D1
+~
+~
+0 0 11557
+D3
+~
+~
+0 0 11582
+S
+#11582
+A Majestic Hallway~
+This hallway is long and spacious, with many exits leading to majestic
+rooms.  The walls are covered in a chaste, white artificial marble that is
+typical throughout this rooms on this floor.  
+~
+0 9 0
+D0
+~
+~
+0 0 11550
+D1
+~
+~
+0 0 11581
+D3
+~
+~
+0 0 11584
+S
+#11583
+The White Room~
+~
+0 13 0
+S
+#11584
+A Majestic Hallway~
+This hallway is long and spacious, with many exits leading to majestic
+rooms.  The walls are covered in a chaste, white artificial marble that is
+typical throughout this rooms on this floor.  
+There is an iron gate to your south.
+~
+0 9 0
+D0
+~
+~
+0 0 11551
+D1
+~
+~
+0 0 11582
+D2
+~
+gate~
+0 0 11580
+D3
+~
+~
+0 0 11553
+S
+#11585
+A Majestic Hallway~
+This hallway is long and spacious, with many exits leading to majestic
+rooms.  The walls are covered in a chaste, white artificial marble that is
+typical throughout this rooms on this floor.  
+There is an iron gate to the west.
+~
+0 9 0
+D0
+~
+~
+0 0 11571
+D1
+~
+~
+0 0 11586
+D2
+~
+~
+0 0 11579
+D3
+~
+~
+0 0 11597
+S
+#11586
+A Majestic Hallway~
+This hallway is long and spacious, with many exits leading to majestic
+rooms.  The walls are covered in a chaste, white artificial marble that is
+typical throughout this rooms on this floor.  
+~
+0 9 0
+D0
+~
+~
+0 0 11572
+D1
+~
+~
+0 0 11587
+D3
+~
+~
+0 0 11585
+S
+#11587
+A Majestic Hallway~
+This hallway is long and spacious, with many exits leading to majestic
+rooms.  The walls are covered in a chaste, white artificial marble that is
+typical throughout this rooms on this floor.  
+~
+0 9 0
+D0
+~
+~
+0 0 11573
+D1
+~
+~
+0 0 11588
+D3
+~
+~
+0 0 11586
+S
+#11588
+A Majestic Hallway~
+This hallway is long and spacious, with many exits leading to majestic
+rooms.  The walls are covered in a chaste, white artificial marble that is
+typical throughout this rooms on this floor.  
+~
+0 9 0
+D0
+~
+~
+0 0 11574
+D1
+~
+~
+0 0 11589
+D3
+~
+~
+0 0 11587
+S
+#11589
+A Majestic Hallway~
+This hallway is long and spacious, with many exits leading to majestic
+rooms.  The walls are covered in a chaste, white artificial marble that is
+typical throughout this rooms on this floor.  
+~
+0 9 0
+D0
+~
+~
+0 0 11575
+D1
+~
+~
+0 0 11590
+D3
+~
+~
+0 0 11588
+S
+#11590
+A Majestic Hallway~
+This hallway is long and spacious, with many exits leading to majestic
+rooms.  The walls are covered in a chaste, white artificial marble that is
+typical throughout this rooms on this floor.  
+~
+0 9 0
+D0
+~
+~
+0 0 11576
+D1
+~
+~
+0 0 11577
+D3
+~
+~
+0 0 11589
+S
+#11591
+A Majestic Hallway~
+This hallway is long and spacious, with many exits leading to majestic
+rooms.  The walls are covered in a chaste, white artificial marble that is
+typical throughout this rooms on this floor.  
+There is an iron gate to your west.
+~
+0 9 0
+D0
+~
+~
+0 0 11568
+D1
+~
+~
+0 0 11592
+D2
+~
+~
+0 0 11558
+D3
+~
+~
+0 0 11596
+S
+#11592
+A Majestic Hallway~
+This hallway is long and spacious, with many exits leading to majestic
+rooms.  The walls are covered in a chaste, white artificial marble that is
+typical throughout this rooms on this floor.  
+~
+0 9 0
+D0
+~
+~
+0 0 11567
+D1
+~
+~
+0 0 11593
+D3
+~
+~
+0 0 11591
+S
+#11593
+A Majestic Hallway~
+This hallway is long and spacious, with many exits leading to majestic
+rooms.  The walls are covered in a chaste, white artificial marble that is
+typical throughout this rooms on this floor.  
+~
+0 9 0
+D0
+~
+~
+0 0 11566
+D1
+~
+~
+0 0 11594
+D3
+~
+~
+0 0 11592
+S
+#11594
+A Majestic Hallway~
+This hallway is long and spacious, with many exits leading to majestic
+rooms.  The walls are covered in a chaste, white artificial marble that is
+typical throughout this rooms on this floor.  
+~
+0 9 0
+D0
+~
+~
+0 0 11565
+D1
+~
+~
+0 0 11595
+D2
+~
+~
+0 0 11561
+D3
+~
+~
+0 0 11593
+S
+#11595
+A Majestic Hallway~
+This hallway is long and spacious, with many exits leading to majestic
+rooms.  The walls are covered in a chaste, white artificial marble that is
+typical throughout this rooms on this floor.  
+~
+0 9 0
+D0
+~
+~
+0 0 11564
+D1
+~
+~
+0 0 11563
+D2
+~
+~
+0 0 11562
+D3
+~
+~
+0 0 11594
+S
+#11596
+Corridor Elevator~
+You find yourself enclosed in a small, dark elevator.  There are only two
+buttons, up and down.  This should be easy to figure out.  
+~
+0 9 0
+D1
+~
+gate~
+0 0 11591
+D4
+~
+~
+0 0 11597
+D5
+~
+~
+0 0 11580
+S
+#11597
+Corridor Elevator~
+You find yourself enclosed in a small, dark elevator.  There are only two
+buttons, up and down.  This should be easy to figure out.  
+~
+0 9 0
+D1
+~
+gate~
+0 0 11585
+D5
+~
+~
+0 0 11596
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 11514 0 0
+D 0 11515 2 0
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

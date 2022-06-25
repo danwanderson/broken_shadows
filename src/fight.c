@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -70,28 +70,28 @@ void    pk_kill 		( CHAR_DATA *victim );
  * Control the fights going on.
  * Called periodically by update_handler.
  */
-void violence_update( void ) {
+void violence_update( void )
+{
     CHAR_DATA *ch;
+    CHAR_DATA *ch_next;
     CHAR_DATA *victim;
 
-    for ( ch = char_list; ch != NULL; ch = ch->next ) {
-        CHAR_DATA *ch_next;
+    for ( ch = char_list; ch != NULL; ch = ch->next )
+    {
         ch_next = ch->next;
 
-        if ( ( victim = ch->fighting ) == NULL || ch->in_room == NULL ) {
+        if ( ( victim = ch->fighting ) == NULL || ch->in_room == NULL )
             continue;
-		}
 
-        if ( IS_AWAKE(ch) && ch->in_room == victim->in_room ) {
+        if ( IS_AWAKE(ch) && ch->in_room == victim->in_room )
             multi_hit( ch, victim, TYPE_UNDEFINED );
-        } else {
+        else {
             if (!IS_NPC(victim)) victim->pcdata->nemesis=victim->fighting;      
             stop_fighting( ch, FALSE );
         }
 
-        if ( ( victim = ch->fighting ) == NULL ) {
+        if ( ( victim = ch->fighting ) == NULL )
             continue;
-        }
 
         /*
          * Fun for the whole family!
@@ -273,68 +273,62 @@ void mob_hit (CHAR_DATA *ch, CHAR_DATA *victim, int dt)
 
     one_hit(ch,victim,dt);
 
-    if (ch->fighting != victim) {
+    if (ch->fighting != victim)
         return;
-    }
 
     /* Area attack -- BALLS nasty! */
  
-    if (IS_SET(ch->off_flags,OFF_AREA_ATTACK)) {
-        for (vch = ch->in_room->people; vch != NULL; vch = vch_next) {
+    if (IS_SET(ch->off_flags,OFF_AREA_ATTACK))
+    {
+        for (vch = ch->in_room->people; vch != NULL; vch = vch_next)
+        {
             vch_next = vch->next;
-            if ((vch != victim && vch->fighting == ch)) {
+            if ((vch != victim && vch->fighting == ch))
                 one_hit(ch,vch,dt);
-            }
         }
     }
 
     if (IS_AFFECTED(ch,AFF_HASTE) || ( IS_SET(ch->off_flags,OFF_FAST)
-        && !IS_AFFECTED( ch, AFF_SLOW ) ) ) {
+        && !IS_AFFECTED( ch, AFF_SLOW ) ) )
         one_hit(ch,victim,dt);
-    }
 
-    if (ch->fighting != victim || dt == gsn_backstab) {
+    if (ch->fighting != victim || dt == gsn_backstab)
         return;
-    }
 
     /* new stuff by Rahl for circle */
-    if ( ch->fighting != victim || dt == gsn_circle ) {
+    if ( ch->fighting != victim || dt == gsn_circle )
         return;
-    }
 
     chance = get_skill(ch,gsn_second_attack);
 
     /* new stuff by Rahl for slow */
-    if ( IS_AFFECTED( ch, AFF_SLOW ) ) {
+    if ( IS_AFFECTED( ch, AFF_SLOW ) )
         chance /= 2;
-    }
 
-    if (number_percent() < chance) {
+    if (number_percent() < chance)
+    {
         one_hit(ch,victim,dt);
-        if (ch->fighting != victim) {
+        if (ch->fighting != victim)
             return;
-        }
     }
 
     chance = get_skill(ch,gsn_third_attack)/2;
 
     /* new stuff by Rahl for slow */
-    if ( IS_AFFECTED( ch, AFF_SLOW ) ) {
+    if ( IS_AFFECTED( ch, AFF_SLOW ) )
         chance = 0;
-    }
 
-    if (number_percent() < chance) {
+    if (number_percent() < chance)
+    {
         one_hit(ch,victim,dt);
-        if (ch->fighting != victim) {
+        if (ch->fighting != victim)
             return;
-        }
     } 
 
     /* oh boy!  Fun stuff! */
 
-    if (ch->wait > 0) {
+    if (ch->wait > 0)
         return;
-    }
 
     number = number_range(0,2);
 
@@ -348,77 +342,70 @@ void mob_hit (CHAR_DATA *ch, CHAR_DATA *victim, int dt)
 
     number = number_range(0,9);
 
-    switch(number) {
-        case (0) :
-            if (IS_SET(ch->off_flags,OFF_BASH)) {
-                do_bash(ch,"");
-            }
-            break;
+    switch(number) 
+    {
+    case (0) :
+        if (IS_SET(ch->off_flags,OFF_BASH))
+            do_bash(ch,"");
+        break;
 
-        case (1) :
-            if (IS_SET(ch->off_flags,OFF_BERSERK) && !IS_AFFECTED(ch,AFF_BERSERK)) {
-                do_berserk(ch,"");
-            }
-            break;
+    case (1) :
+        if (IS_SET(ch->off_flags,OFF_BERSERK) && !IS_AFFECTED(ch,AFF_BERSERK))
+            do_berserk(ch,"");
+        break;
 
-        case (2) :
-            if (IS_SET(ch->off_flags,OFF_DISARM) 
-            || (get_weapon_sn(ch) != gsn_hand_to_hand 
-            && (IS_SET(ch->act,ACT_WARRIOR)
-            ||  IS_SET(ch->act,ACT_THIEF)))) {
-                do_disarm(ch,"");
-            }
-            break;
 
-        case (3) :
-            if (IS_SET(ch->off_flags,OFF_KICK)) {
-                do_kick(ch,"");
-            }
-            break;
+    case (2) :
+        if (IS_SET(ch->off_flags,OFF_DISARM) 
+        || (get_weapon_sn(ch) != gsn_hand_to_hand 
+        && (IS_SET(ch->act,ACT_WARRIOR)
+        ||  IS_SET(ch->act,ACT_THIEF))))
+            do_disarm(ch,"");
+        break;
 
-        case (4) :
-            if (IS_SET(ch->off_flags,OFF_KICK_DIRT)) {
-                do_dirt(ch,"");
-            }
-            break;
+    case (3) :
+        if (IS_SET(ch->off_flags,OFF_KICK))
+            do_kick(ch,"");
+        break;
 
-        /*case (5) :
-            if (IS_SET(ch->off_flags,OFF_TAIL))
-                do_tail(ch,"");
-            break; */
+    case (4) :
+        if (IS_SET(ch->off_flags,OFF_KICK_DIRT))
+            do_dirt(ch,"");
+        break;
 
-        case (6) :
-            if (IS_SET(ch->off_flags,OFF_TRIP)) {
-                do_trip(ch,"");
-            }
-            break;
+    /*case (5) :
+        if (IS_SET(ch->off_flags,OFF_TAIL))
+            do_tail(ch,"");
+        break; */
 
-        /*
-        case (7) :
-            if (IS_SET(ch->off_flags,OFF_CRUSH))
-                do_crush(ch,"");
-            break;
-        */
+    case (6) :
+        if (IS_SET(ch->off_flags,OFF_TRIP))
+            do_trip(ch,"");
+        break;
 
-        /*
-         * both below cases by Rahl, but because of 1) postion and 2) pk
-         * rules, neither works, but they're here if I feel like playing
-         * with them later. I should remove the pk check on circle
-         * cuz you need to be fighting to do it anyways, so that 
-         * check should have already been made.
-         */
-        /*
-        case (8) :
-            if ( IS_SET( ch->off_flags, OFF_WHIRL ) )
-                do_whirlwind( ch, "" );
-            break;
-        case (9) :
-            if ( IS_SET( ch->off_flags, OFF_CIRCLE ) )
-                do_circle( ch, "" );
-            break; 
-        */
-        default:
-            break;
+    /*case (7) :
+        if (IS_SET(ch->off_flags,OFF_CRUSH))
+            do_crush(ch,"");
+        break;*/
+
+    /*
+     * both below cases by Rahl, but because of 1) postion and 2) pk
+     * rules, neither works, but they're here if I feel like playing
+     * with them later. I should remove the pk check on circle
+     * cuz you need to be fighting to do it anyways, so that 
+     * check should have already been made.
+     */
+/*    case (8) :
+        if ( IS_SET( ch->off_flags, OFF_WHIRL ) )
+            do_whirlwind( ch, "" );
+        break; */
+/*      case (9) :
+        if ( IS_SET( ch->off_flags, OFF_CIRCLE ) )
+            do_circle( ch, "" );
+        break; 
+*/
+    default:
+        break;
     }
 }
         
@@ -592,23 +579,19 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
      else if (victim->position < POS_FIGHTING)
         dam = dam * 3 / 2;
 
-    if ( dt == gsn_backstab && wield != NULL) {
-        if ( wield->value[0] != 2 ) {
+    if ( dt == gsn_backstab && wield != NULL) 
+        if ( wield->value[0] != 2 )
             dam *= 2 + ch->level / 10; 
-        } else { 
+        else 
             dam *= 2 + ch->level / 8;
-		}
-	}
 
     /* new stuff by Rahl for circle */
     /* This is where the damage is.. half of backstab right now */
-    if ( dt == gsn_circle && wield != NULL ) {
-        if ( wield->value[0] != 2 ) {
+    if ( dt == gsn_circle && wield != NULL )
+        if ( wield->value[0] != 2 )
             dam *= 2 + ch->level / 20;
-        } else {
+        else
             dam *= 2 + ch->level / 16;
-		}
-	}
 
     dam += GET_DAMROLL(ch) * UMIN(100,skill) /100;
 
@@ -883,22 +866,18 @@ void second_one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
      else if (victim->position < POS_FIGHTING)
         dam = dam * 3 / 2;
 
-    if ( dt == gsn_backstab && wield != NULL) {
-        if ( wield->value[0] != 2 ) {
+    if ( dt == gsn_backstab && wield != NULL) 
+        if ( wield->value[0] != 2 )
             dam *= 2 + ch->level / 10; 
-        } else {
+        else 
             dam *= 2 + ch->level / 8;
-		}
-	}
 
     /* new stuff by Rahl for circle */
-    if ( dt == gsn_circle && wield != NULL ) {
-        if ( wield->value[0] != 2 ) {
+    if ( dt == gsn_circle && wield != NULL )
+        if ( wield->value[0] != 2 )
             dam *= 2 + ch->level / 20;
-        } else {
+        else
             dam *= 2 + ch->level / 16;
-		}
-	}
 
     dam += GET_DAMROLL(ch) * UMIN(100,skill) /100;
 
@@ -1075,7 +1054,7 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
      */
     victim->hit -= dam;
     if ( !IS_NPC(victim)
-    &&   IS_IMMORTAL( victim) 
+    &&   victim->level >= LEVEL_IMMORTAL
     &&   victim->hit < 1 )
         victim->hit = 1;
     update_pos( victim );
@@ -1144,13 +1123,13 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 
             /*
              * Dying penalty:
-             * Lose a stat?
+             * 1/2 way back to previous level.
              */
-            if ( !chaos /* && stat > 0 */  &&
-			( !IS_SET( ch->act, PLR_KILLER ) 
-			|| !IS_SET( victim->act, PLR_KILLER ) ) ) {
-            	// stat --
-			}
+            if ( !chaos && victim->exp > 0 && ( (victim->pcdata->nemesis == NULL) || 
+              IS_NPC(victim->pcdata->nemesis) ) &&
+			  ( !IS_SET( ch->act, PLR_KILLER ) 
+			  || !IS_SET( victim->act, PLR_KILLER ) ) )
+                gain_exp( victim, -1*(victim->exp/2) );
         }
         if ( chaos )
         {
@@ -1170,7 +1149,7 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
             /* added by Rahl */
             wiznet( buf, NULL, NULL, WIZ_DEATHS, 0, 0 );
 
-            //do_sendinfo(ch, buf);
+            do_sendinfo(ch, buf);
         }
         /* added by Rahl */
         else
@@ -1249,13 +1228,11 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
                 !IS_SET(ch->act,PLR_AUTOLOOT))
               do_get(ch, "coins corpse");
             
-            if ( IS_SET(ch->act, PLR_AUTOSAC) ) {
-              if ( IS_SET(ch->act,PLR_AUTOLOOT) && corpse && corpse->contains) {
+            if ( IS_SET(ch->act, PLR_AUTOSAC) )
+              if ( IS_SET(ch->act,PLR_AUTOLOOT) && corpse && corpse->contains)
                 return TRUE;  /* leave if corpse has treasure */
-              } else {
+              else
                 do_sacrifice( ch, "corpse" );
-			  }
-			}
         }
 
         return TRUE;
@@ -1407,7 +1384,7 @@ bool is_safe_spell(CHAR_DATA *ch, CHAR_DATA *victim, bool area )
             ( !IS_SET(victim->act, PLR_KILLER) 
             || !IS_SET(ch->act, PLR_KILLER) ) )
             && ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) 
-            || victim->pcdata->bounty <= 0 ) ) )
+            || !victim->pcdata->bounty > 0 ) ) )
           {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return TRUE;
@@ -1481,7 +1458,7 @@ void check_killer( CHAR_DATA *ch, CHAR_DATA *victim )
      */
     if ( IS_NPC(ch)
     ||   ch == victim
-    ||   IS_IMMORTAL( ch ) 
+    ||   ch->level >= LEVEL_IMMORTAL
     ||   IS_SET(ch->act, PLR_KILLER)
     ||   chaos 
     ||  ( IS_SET( ch->act, PLR_BOUNTY_HUNTER ) && victim->pcdata->bounty ) )
@@ -1881,6 +1858,7 @@ void raw_kill( CHAR_DATA *victim )
     if ( IS_NPC(victim) )
     {
         victim->pIndexData->killed++;
+        kill_table[URANGE(0, victim->level, MAX_LEVEL-1)].killed++;
         extract_char( victim, TRUE );
         return;
     }
@@ -1917,6 +1895,7 @@ void pk_kill( CHAR_DATA *victim )
     if ( IS_NPC(victim) )
     {
         victim->pIndexData->killed++;
+        kill_table[URANGE(0, victim->level, MAX_LEVEL-1)].killed++;
         extract_char( victim, TRUE );
         return;
     }
@@ -1941,7 +1920,8 @@ void pk_kill( CHAR_DATA *victim )
 
 
 
-void group_gain( CHAR_DATA *ch, CHAR_DATA *victim ) {
+void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
+{
     BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
     CHAR_DATA *gch;
     CHAR_DATA *lch;
@@ -1954,7 +1934,8 @@ void group_gain( CHAR_DATA *ch, CHAR_DATA *victim ) {
      * P-killing doesn't help either.
      * Dying of mortal wounds or poison doesn't give xp to anyone!
      */
-    if ( !IS_NPC(victim) || victim == ch ) {
+    if ( !IS_NPC(victim) || victim == ch )
+    {
         buffer_free( buf );
         return;
     }
@@ -1987,6 +1968,19 @@ void group_gain( CHAR_DATA *ch, CHAR_DATA *victim ) {
         if ( !is_same_group( gch, ch ) || IS_NPC(gch))
             continue;
 
+/*
+        if ( gch->level - lch->level >= 10 )
+        {
+            send_to_char( "You are too high for this group.\n\r", gch );
+            continue;
+        }
+
+        if ( gch->level - lch->level <= -10 )
+        {
+            send_to_char( "You are too low for this group.\n\r", gch );
+            continue;
+        }
+*/
 
         if (IS_SET(ch->act, PLR_QUESTOR) && IS_NPC(victim))
         {
@@ -2034,28 +2028,115 @@ void group_gain( CHAR_DATA *ch, CHAR_DATA *victim ) {
  */
 int xp_compute( CHAR_DATA *gch, CHAR_DATA *victim, int total_levels, int members )
 {
-    int xp = 0;
-	int base_exp = 0;
+    int xp,base_exp=0;
     int align;
     int change;
 
     /* compute the base exp */
-    int gch_hp = gch->max_hit;
-    int victim_hp = victim->max_hit;
-
-    if ( victim_hp >= gch_hp ) {
-		base_exp = 50;
-	} else if ( victim_hp >= ( gch_hp - ( gch_hp * 0.1 ) ) ) {
-		base_exp = 40;
-    } else if ( victim_hp >= ( gch_hp - ( gch_hp * 0.25 ) )  ) {
-		base_exp = 25;
-	} else if ( victim_hp >= ( gch_hp - ( gch_hp * 0.5 ) ) ) {
-		base_exp = 10;
-	} else if ( victim_hp >= ( gch_hp - ( gch_hp * 0.75 ) ) ) {
-		base_exp = 5;
-	} else {
-		base_exp = 1;
-	}
+    switch (victim->level)
+    {
+        case 0  :       base_exp =   50;                break;
+        case 1  :       base_exp =   100;               break;
+        case 2  :       base_exp =   200;               break;
+        case 3  :       base_exp =   250;               break;
+        case 4  :       base_exp =   350;               break;
+        case 5  :       base_exp =   550;               break;
+        case 6  :       base_exp =   1000;              break;
+        case 7  :       base_exp =   3000;              break;
+        case 8  :       base_exp =   5000;              break;
+        case 9  :       base_exp =   7500;              break;
+        case 10 :       base_exp =   10000;             break;
+        case 11 :       base_exp =   15000;             break;
+        case 12 :       base_exp =   23000;             break;
+        case 13 :       base_exp =   35000;             break;
+        case 14 :       base_exp =   50000;             break;
+        case 15 :       base_exp =   65000;             break;
+        case 16 :       base_exp =   80000;             break;
+        case 17 :       base_exp =   95000;             break;
+        case 18 :       base_exp =   110000;            break;
+        case 19 :       base_exp =   135000;            break;
+        case 20 :       base_exp =   150000;            break;
+        case 21 :       base_exp =   165000;            break;
+        case 22 :       base_exp =   180000;            break;
+        case 23 :       base_exp =   200000;            break;
+        case 24 :       base_exp =   220000;            break;
+        case 25 :       base_exp =   240000;            break;
+        case 26 :       base_exp =   260000;            break;
+        case 27 :       base_exp =   280000;            break;
+        case 28 :       base_exp =   300000;            break;
+        case 29 :       base_exp =   320000;            break;
+        case 30 :       base_exp =   340000;            break;
+        case 31 :       base_exp =   360000;            break;
+        case 32 :       base_exp =   380000;            break;
+        case 33 :       base_exp =   400000;            break;
+        case 34 :       base_exp =   420000;            break;
+        case 35 :       base_exp =   440000;            break;
+        case 36 :       base_exp =   460000;            break;
+        case 37 :       base_exp =   480000;            break;
+        case 38 :       base_exp =   500000;            break;
+        case 39 :       base_exp =   520000;            break;
+        case 40 :       base_exp =   540000;            break;
+        case 41 :       base_exp =   560000;            break;
+        case 42 :       base_exp =   580000;            break;
+        case 43 :       base_exp =   600000;            break;
+        case 44 :       base_exp =   620000;            break;
+        case 45 :       base_exp =   640000;            break;
+        case 46 :       base_exp =   660000;            break;
+        case 47 :       base_exp =   680000;            break;
+        case 48 :       base_exp =   700000;            break;
+        case 49 :       base_exp =   720000;            break;
+        case 50 :       base_exp =   740000;            break;
+        case 51 :       base_exp =   760000;            break;
+        case 52 :       base_exp =   780000;            break;
+        case 53 :       base_exp =   800000;            break;
+        case 54 :       base_exp =   820000;            break;
+        case 55 :       base_exp =   840000;            break;
+        case 56 :       base_exp =   860000;            break;
+        case 57 :       base_exp =   880000;            break;
+        case 58 :       base_exp =   900000;            break;
+        case 59 :       base_exp =   920000;            break;
+        case 60 :       base_exp =   940000;            break;
+        case 61 :       base_exp =   960000;            break;
+        case 62 :       base_exp =   1000000;           break;
+        case 63 :       base_exp =   1100000;           break;
+        case 64 :       base_exp =   1200000;           break;
+        case 65 :       base_exp =   1300000;           break;
+        case 66 :       base_exp =   1400000;           break;
+        case 67 :       base_exp =   1500000;           break;
+        case 68 :       base_exp =   1600000;           break;
+        case 69 :       base_exp =   1700000;           break;
+        case 70 :       base_exp =   1800000;           break;
+        case 71 :       base_exp =   1900000;           break;
+        case 72 :       base_exp =   2000000;           break;
+        case 73 :       base_exp =   2100000;           break;
+        case 74 :       base_exp =   2200000;           break;
+        case 75 :       base_exp =   2300000;           break;
+        case 76 :       base_exp =   2400000;           break;
+        case 77 :       base_exp =   2500000;           break;
+        case 78 :       base_exp =   2600000;           break;
+        case 79 :       base_exp =   2700000;           break;
+        case 80 :       base_exp =   2800000;           break;
+        case 81 :       base_exp =   2900000;           break;
+        case 82 :       base_exp =   3000000;           break;
+        case 83 :       base_exp =   3100000;           break;
+        case 84 :       base_exp =   3200000;           break;
+        case 85 :       base_exp =   3300000;           break;
+        case 86 :       base_exp =   3400000;           break;
+        case 87 :       base_exp =   3500000;           break;
+        case 88 :       base_exp =   3600000;           break;
+        case 89 :       base_exp =   3700000;           break;
+        case 90 :       base_exp =   3800000;           break;
+        case 91 :       base_exp =   4000000;           break;
+        case 92 :       base_exp =   4500000;           break;
+        case 93 :       base_exp =   5000000;           break;
+        case 94 :       base_exp =   5500000;           break;
+        case 95 :       base_exp =   6000000;           break;
+        case 96 :       base_exp =   6500000;           break;
+        case 97 :       base_exp =   7000000;           break;
+        case 98 :       base_exp =   7500000;           break;
+        case 99 :       base_exp =   8000000;           break;
+        case 100 :      base_exp =   10000000;          break;
+    } 
     
     /* do alignment computations */
     /*
@@ -2179,6 +2260,26 @@ int xp_compute( CHAR_DATA *gch, CHAR_DATA *victim, int total_levels, int members
             xp = base_exp;
     }
 
+    /* more exp at the low levels */
+/*    if (gch->level < 6)
+        xp = 10 * xp / (gch->level + 4);*/
+
+    /* less at high */
+/*    if (gch->level > 35 )
+        xp =  15 * xp / (gch->level - 20 );*/
+
+    /* reduce for playing time */
+/*    else
+    {
+        / compute quarter-hours per level /
+        time_per_level = 4 *
+                         (gch->played + (int) (current_time - gch->logon))/3600
+                         / gch->level;
+        time_per_level = URANGE(2,time_per_level,12);
+        if (gch->level < 15)  / make it a curve /
+            time_per_level = UMAX(time_per_level,(15 - gch->level));
+        xp = xp * time_per_level / 12;
+    }*/
    
     /* randomize the rewards */
     xp = number_range (xp * 3/4, xp * 5/4);
@@ -2558,7 +2659,7 @@ void do_bash( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) ) 
         && 
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        victim->pcdata->bounty <= 0 ) ) )
+        !victim->pcdata->bounty > 0 ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return;
@@ -2720,7 +2821,7 @@ void do_dirt( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) )
         &&
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        victim->pcdata->bounty <= 0 ) ) )
+        !victim->pcdata->bounty > 0 ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return;
@@ -2859,7 +2960,7 @@ void do_trip( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) )
         &&
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        victim->pcdata->bounty <= 0 ) ) )
+        !victim->pcdata->bounty > 0 ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return;
@@ -2973,7 +3074,7 @@ void do_kill( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) ) 
         && 
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        victim->pcdata->bounty <= 0 ) ) )
+        !victim->pcdata->bounty > 0 ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return;
@@ -3137,7 +3238,7 @@ void do_backstab( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) )
         &&
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        victim->pcdata->bounty <= 0 ) ) )
+        !victim->pcdata->bounty > 0 ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return;
@@ -3227,7 +3328,7 @@ void do_circle( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) )
         &&
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        victim->pcdata->bounty <= 0 ) ) )
+        !victim->pcdata->bounty > 0 ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r",
                 ch );
@@ -3282,6 +3383,7 @@ void do_flee( CHAR_DATA *ch, char *argument )
     ROOM_INDEX_DATA *now_in;
     CHAR_DATA *victim;
     int attempt;
+    long xp_loss = 0;
     BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
 
     if ( ( victim = ch->fighting ) == NULL )
@@ -3314,6 +3416,15 @@ void do_flee( CHAR_DATA *ch, char *argument )
         ch->in_room = was_in;
         act( "$n has fled!", ch, NULL, NULL, TO_ROOM );
         ch->in_room = now_in;
+
+        if ( !IS_NPC(ch) )
+        {
+            xp_loss = exp_per_level( ch, ch->pcdata->points ) / 400;
+            bprintf( buf, "You flee from combat!" 
+                " You lose %ld experience.\n\r", xp_loss );
+            send_to_char( buf->data, ch);
+            gain_exp( ch, ( 0 - xp_loss ) );
+        }
 
         stop_fighting( ch, TRUE );
         buffer_free( buf );
@@ -3428,7 +3539,7 @@ void do_kick( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) )
         &&
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        victim->pcdata->bounty <= 0 ) ) )
+        !victim->pcdata->bounty > 0 ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return;
@@ -3499,11 +3610,10 @@ void do_disarm( CHAR_DATA *ch, char *argument )
     /* modifiers */
 
     /* skill */
-    if ( get_eq_char(ch,WEAR_WIELD) == NULL) {
+    if ( get_eq_char(ch,WEAR_WIELD) == NULL)
         chance = chance * hth/150;
-    } else {
+    else
         chance = chance * ch_weapon/100;
-    }
 
     chance += (ch_vict_weapon/2 - vict_weapon) / 2; 
 
@@ -3515,11 +3625,14 @@ void do_disarm( CHAR_DATA *ch, char *argument )
     chance += (ch->level - victim->level) * 2;
  
     /* and now the attack */
-    if (number_percent() < chance) {
+    if (number_percent() < chance)
+    {
         WAIT_STATE( ch, skill_table[gsn_disarm].beats );
         disarm( ch, victim );
         check_improve(ch,gsn_disarm,TRUE,1);
-    } else {
+    }
+    else
+    {
         WAIT_STATE(ch,skill_table[gsn_disarm].beats);
         act("`BYou fail to disarm $N`B.`w",ch,NULL,victim,TO_CHAR);
         act("`B$n `Btries to disarm you, but fails.`w",ch,NULL,victim,TO_VICT);
@@ -3546,29 +3659,34 @@ void do_slay( CHAR_DATA *ch, char *argument )
 
     argument = one_argument( argument, arg );
     one_argument( argument, arg2 );
-    if ( arg[0] == '\0' ) {
+    if ( arg[0] == '\0' )
+    {
         /* send_to_char( "Slay whom?\n\r", ch ); */
         send_to_char( "Syntax: [Char] [Type]\n\r", ch );
         send_to_char( "Types: Skin, Immolate, Demon, Shatter, Slit, Deheart, Pounce.\n\r", ch);
         return;
     }
 
-    if ( ( victim = get_char_room( ch, arg ) ) == NULL ) {
+    if ( ( victim = get_char_room( ch, arg ) ) == NULL )
+    {
         send_to_char( "They aren't here.\n\r", ch );
         return;
     }
 
-    if ( ch == victim ) {
+    if ( ch == victim )
+    {
         send_to_char( "Suicide is a mortal sin.\n\r", ch );
         return;
     }
 
-    if ( !IS_NPC(victim) && char_getImmRank( victim ) >= char_getImmRank(ch) ) {
+    if ( !IS_NPC(victim) && victim->level >= get_trust(ch) )
+    {
         send_to_char( "You failed.\n\r", ch );
         return;
     }
 
-    if ( !str_cmp( arg2, "skin" ) ) {
+    if ( !str_cmp( arg2, "skin" ) )
+    {
         act( "`RYou rip the flesh from $N `Rand send his soul to the fiery "
              "depths of hell.`w", ch, NULL, victim, TO_CHAR );
         act( "`RYour flesh has been torn from your bones and your bodyless "
@@ -3576,7 +3694,10 @@ void do_slay( CHAR_DATA *ch, char *argument )
              ch, NULL, victim, TO_VICT );
         act( "`R$n `Rrips the flesh off of $N`R, releasing his soul into " 
              "the fiery depths of hell.`w", ch, NULL, victim, TO_NOTVICT );
-    } else if ( !str_cmp( arg2, "deheart" ) ) {
+    }
+
+    else if ( !str_cmp( arg2, "deheart" ) )
+    {
         act( "`RYou rip through $N`R's chest and pull out $S beating heart" 
              " in your hand.`w", ch, NULL, victim, TO_CHAR );
         act( "`RYou feel a sharp pain as $n`R rips into your chest and pulls "
@@ -3585,21 +3706,30 @@ void do_slay( CHAR_DATA *ch, char *argument )
         act( "`RSpecks of blood hit your face as $n `Rrips through $N`R's "
              "chest pulling out $S beating heart.`w", ch, NULL, victim,
              TO_NOTVICT );
-    } else if ( !str_cmp( arg2, "immolate" ) ) {
+    }
+
+    else if ( !str_cmp( arg2, "immolate" ) )
+    {
         act( "`RYour fireball turns $N`R into a blazing inferno.`w",  ch, 
             NULL, victim, TO_CHAR    );
       act( "`R$n`R releases a searing fireball in your direction.`w", ch,
             NULL, victim, TO_VICT    );
       act( "`R$n`R points at $N`R, who bursts into a flaming inferno.`w",
            ch, NULL, victim, TO_NOTVICT );
-    } else if ( !str_cmp( arg2, "shatter" ) ) {
+    }
+
+    else if ( !str_cmp( arg2, "shatter" ) )
+    {
       act( "`CYou freeze $N `Cwith a glance and shatter the frozen corpse "
            "into tiny shards.`w",  ch, NULL, victim, TO_CHAR );
       act( "`C$n `Cfreezes you with a glance and shatters your frozen body "
            "into tiny shards.`w", ch, NULL, victim, TO_VICT );
       act( "`C$n `Cfreezes $N with a glance and shatters the frozen body "
            "into tiny shards.`w",  ch, NULL, victim, TO_NOTVICT );
-    } else if ( !str_cmp( arg2, "demon" ) ) {
+    }
+
+    else if ( !str_cmp( arg2, "demon" ) )
+    {
       act( "`YYou gesture, and a slavering demon appears.  With a horrible "
            "grin, the foul creature turns on $N`Y, who screams in panic "
            "before being eaten alive.`w",  ch, NULL, victim, TO_CHAR );
@@ -3609,7 +3739,10 @@ void do_slay( CHAR_DATA *ch, char *argument )
       act( "`Y$n `Ygestures, and a slavering demon appears.  With a horrible"
            " grin, the foul creature turns on $N`Y, who screams in panic"
            " before being eaten alive.`w",  ch, NULL, victim, TO_NOTVICT );
-    } else if ( !str_cmp( arg2, "pounce" ) ) {
+    }
+
+    else if ( !str_cmp( arg2, "pounce" ) )
+    {
       act( "`mLeaping upon $N `mwith bared fangs, you tear open $S throat "
            "and toss the corpse to the ground...`w",  ch, NULL, victim,
            TO_CHAR );
@@ -3619,29 +3752,31 @@ void do_slay( CHAR_DATA *ch, char *argument )
       act( "`mLeaping suddenly, $n`m sinks $s fangs into $N`m's throat. As "
            "blood sprays and gushes to the ground, $n `mtosses $N`m's dying "
            "body away.`w",  ch, NULL, victim, TO_NOTVICT );
-    } else if ( !str_cmp( arg2, "slit" )) {
+    }
+ 
+    else if ( !str_cmp( arg2, "slit" ))
+    {
       act( "`RYou calmly slit $N`R's throat.`w", ch, NULL, victim, TO_CHAR );
       act( "`R$n `Rreaches out with a clawed finger and calmly slits your"
            " throat.`w", ch, NULL, victim, TO_VICT );
       act( "`RA claw extends from $n`R's hand as $e calmly slits $N`R's"
            " throat.`w", ch, NULL, victim, TO_NOTVICT );
-    } else {
+    }
+
+    else
+    {
         act( "`RYou slay $M in cold blood!`w",  ch, NULL, victim, TO_CHAR );
         act( "`R$n slays you in cold blood!`w", ch, NULL, victim, TO_VICT );
         act( "`R$n slays $N`R in cold blood!`w",  ch, NULL, victim, TO_NOTVICT );
     }
 
-    if ( !IS_NPC(victim) ) {
-        victim->pcdata->nemesis=NULL;
-    }
+    if ( !IS_NPC(victim) ) victim->pcdata->nemesis=NULL;
 
-    if (chaos) {
+   if (chaos)
         chaos_kill( victim );
-    }
 
-    if (!chaos) {
-        raw_kill( victim );
-    }
+   if (!chaos)
+    raw_kill( victim );
 
     return;
 }
@@ -3755,7 +3890,8 @@ void do_push( CHAR_DATA *ch, char *argument )
     chance = get_skill( ch, gsn_push );
 
     /* can't use if haven't practiced or if don't have */
-    if ( chance == 0 ) 
+    if ( chance == 0 
+       || ch->level < skill_table[gsn_push].skill_level[ch->ch_class] )
     {
         send_to_char( "Push? What's that?\n\r", ch );
         return;

@@ -1,0 +1,2910 @@
+#AREADATA
+Name        { 5-25} Lisen   Place of the Tombs Pt. 1~
+Builders    Lisen~
+VNUMs       10500 10599
+Security    9
+End
+
+
+
+#MOBILES
+#10500
+brown field mouse~
+a brown field mouse~
+A tiny little field mouse hops past your feet.
+~
+The little field mouse hops all over the place.  It blends in with the grass
+very well, and can scurry into the smallest little holes, so it seems to
+constantly disappear.
+~
+rabbit~
+ACGH JP 0 1000 S
+8 4 2d19+44 1d100+0 2d4+1 10
+3 3 3 8
+FHMU J S F
+8 8 3 1
+AGV ACDEFHJKQ T none
+#10501
+milch goat~
+A milch-goat~
+A milch-goat stands here, grazing contently.
+~
+The goat's eyes are half closed with pleasure at the sweet taste of sun-warmed
+grass.
+~
+pig~
+ACGHS 0 0 1000 S
+10 5 3d23+98 1d100+1 2d5+5 32
+-1 -1 -1 0
+J Q P R
+8 8 3 5
+AGV ACDEFHJK M none
+#10502
+wind howl~
+the howling wind~
+The howling wind blows through here.
+~
+It howls at you angrily for violating the Tombs!
+~
+modron~
+AOT BJTZ 0 -1000 S
+22 28 5d42+362 2d100+50 5d9+15 4
+-9 -9 -9 -4
+GMQR BMNPQ HIJK H
+8 8 0 150
+HL ABCGHJKNPQ L none
+#10503
+eunuch~
+a eunuch~
+A eunuch hurries past you in fear, continuing on his task.
+~
+He, or should I say it, is quite plump and pampered, yet strong and tall.
+~
+Human~
+AHT Na 0 750 S
+18 16 5d36+204 0d0+0 5d6+10 13
+-4 -4 -4 3
+CK 0 P M
+8 8 0 110
+AHMV ABCDEFGHIJK L none
+#10504
+novice~
+a novice of the Godking's Temple~
+A novice of the Godking's Temple is gardening here.
+~
+She bends over her patch and doesn't notice you walking by.
+~
+Human~
+ABH 0 0 1000 S
+14 10 4d30+177 0d0+0 2d8+7 22
+-1 -1 -1 8
+F 0 N Z
+8 8 2 72
+AHMV ABCDEFGHIJK M none
+#10505
+novice~
+a novice of the God-Brothers' Temple~
+A novice of the God-Brothers' Temple is picking fruit from the trees.
+~
+She's quite a beautiful girl, but you know she's off limits.  Those fruits, 
+however, look very good.
+~
+Human~
+AB 0 0 1000 S
+16 10 5d33+174 0d0+0 3d5+9 17
+-2 -2 -2 5
+Q 0 N M
+8 8 2 120
+AHMV ABCDEFGHIJK M none
+#10506
+novice~
+a novice of the Temple of the Godking~
+A novice of the Temple of the Godking glares at you.
+~
+This is a novice of the Godking's Temple, distinguishable by the blue dress
+of the Godking.
+~
+Human~
+AH 0 0 1000 S
+9 5 2d21+85 0d0+0 3d3+2 17
+1 1 1 7
+0 0 N M
+8 8 2 28
+AHMV ABCDEFGHIJK M none
+#10507
+novice~
+a novice of the Temple of the God-Brothers~
+A novice of the God-Brothers walks by with her head buried in her book.
+~
+She looks formidable, for all that she's currently caught up in her reading.
+~
+Human~
+AH 0 0 1000 S
+12 9 4d26+121 0d0+0 3d5+5 22
+-2 -2 -2 4
+0 0 N M
+8 8 2 120
+AHMV ABCDEFGHIJK M none
+#10508
+priestess~
+a priestess of the Godking~
+A priestess of the Godking is ready to call her wrath upon you.
+~
+This Godking's priestess is full of holy wrath.
+~
+Human~
+AQ 0 0 1000 S
+23 25 5d44+384 4d10+100 5d5+11 18
+-6 -6 -6 -1
+0 0 N M
+8 8 2 100
+AHMV ABCDEFGHIJK M none
+#10509
+novice~
+a novice of the Nameless Ones~
+A novice of the Nameless Ones glares down at you.
+~
+She stands prepared to call the wrath of the Nameless Ones upon you at one
+wrong move.
+~
+Human~
+AH 0 0 1000 S
+19 19 5d37+257 0d0+0 4d7+10 17
+-4 -4 -4 3
+H 0 N M
+8 8 2 80
+AHMV ABCDEFGHIJK M none
+#10510
+priestess~
+a priestess of the God-Brothers~
+A priestess from the God-Brother's Temple is ready to call her wrath upon you.
+~
+She is not happy that you have intruded upon these holy lands.
+~
+Human~
+AQ 0 0 1000 S
+22 22 7d42+310 4d50+100 4d6+11 18
+-5 -5 -5 -3
+0 0 N M
+8 8 2 110
+AHMV ABCDEFGHIJK M none
+#10511
+priestess~
+a priestess of the Nameless Ones~
+A priestess of the Nameless Ones threatens you with their power!
+~
+This priestess has formidable power behind her attack!
+~
+Human~
+AQT H 0 1000 S
+25 24 6d48+420 4d50+100 5d7+11 20
+-8 -8 -8 -2
+0 0 N M
+8 8 2 200
+AHMV ABCDEFGHIJK M none
+#10512
+plains sheep~
+a plains sheep~
+A plains sheep wanders through, looking for green grass.
+~
+This sheep survives on whatever it can possibly forage.
+~
+pig~
+A 0 0 0 S
+6 6 1d15+52 0d0+0 2d3+3 15
+5 5 5 12
+CO M IK H
+8 8 3 10
+AGV ACDEFHJKQ M none
+#0
+
+
+
+#OBJECTS
+#10500
+bush shrub copse~
+a dessicated bush~
+A dessicated bush shades the area only barely.~
+none~
+12 O 0
+0 0 0 0 0
+1 10 0
+E
+bush~
+The nearly leafless bush provides only enough shade to make it seem a bit
+cooler.  Your sweat still drips off your nose.
+~
+E
+leaves~
+They're few, and far betwee, yet green.
+~
+#10501
+spring water~
+a spring of water~
+`B~
+none~
+25 O 0
+0 0 0 0 0
+0 0 0
+E
+spring~
+The spring seems to be fresh enough.  Why don't you fill your waterskin here?
+~
+E
+water~
+The water looks clear, despite the sulpher smell.  
+~
+#10502
+wooden bench~
+a wooden bench~
+A wooden bench sits beneath a tree.~
+none~
+12 0 0
+0 0 0 0 0
+0 0 0
+E
+bench~
+It looks as if it were once carefully carved in vines and scenes of worship,
+but those have long since been worn off.
+~
+#10503
+cabbage head~
+a head of cabbage~
+A head of cabbage flourishes in the rich soil.~
+none~
+19 0 A
+CD 0 0 0 0
+3 2 10
+E
+cabbage~
+It's green, and looks very fresh and wonderful.
+~
+E
+head~
+It's certainly a head shape!
+~
+#10504
+tomato plant~
+a tomato plant~
+A tomato plant twists upwards on the wall.~
+none~
+19 0 0
+AC 0 0 0 0
+0 0 0
+E
+plant~
+It's a healthy green plant!
+~
+E
+tomato~
+It doesn't have any tomatoes growing on it right now.
+~
+#10505
+wall crack~
+a crack in the Tomb Wall~
+There appears to be a small crack in the Tomb Wall here. You wonder if you could fit through.~
+none~
+30 0 0
+0 0 0 ACDEGILN 0
+0 0 0
+E
+wall~
+It's not very big.  You might want to throw your stuff through first.
+~
+#10506
+turnip~
+a turnip~
+You can see the top of a turnip in the ground, why not pull it up?~
+none~
+19 0 A
+AB 0 0 0 0
+0 3 10
+E
+turnip~
+You're not sure you like turnips that much.
+~
+#10507
+potato~
+a very small potato~
+A potato sits here, kicked up from the ground before it's time.~
+none~
+19 0 A
+AC 0 0 0 0
+0 3 5
+E
+potato~
+It's really too small to pull up yet.  Too late.
+~
+#10508
+tree~
+the tree~
+`k`w~
+none~
+15 0 0
+CFG 0 0 0 0
+0 0 0
+E
+tree~
+You just want to reach out and get the fruit from the tree!
+~
+#10509
+apple~
+an apple~
+A fresh apple is on the tree.~
+none~
+19 0 A
+AB 0 0 0 0
+0 3 10
+E
+apple~
+It can be plucked, just reach out and get it!
+~
+#10510
+grapes~
+a bunch of grapes~
+A bunch of grapes grows on the tree/vine.~
+none~
+19 0 A
+AB 0 0 0 0
+0 3 0
+#10511
+pear~
+a pear~
+A juicy pear is sitting on a low branch.~
+none~
+19 0 A
+C 0 0 0 0
+0 3 10
+#10512
+golden apple~
+a golden delicious apple~
+A beautifully golden apple hangs from a low branch.~
+none~
+19 0 A
+AC 0 0 0 0
+0 2 10
+#10513
+cherry cherries~
+a bunch of cherries~
+A bunch of cherries hangs low enough for you to pick.~
+none~
+19 0 A
+AC 0 0 0 0
+0 1 25
+#10514
+bell goat~
+a shiny goat bell~
+A bell from the neck of a goat lays here.~
+none~
+9 K AC
+AB B AB A 0
+10 7 100
+A
+12 5
+E
+goat~
+Smells like it belonged to a goat all right!
+~
+E
+bell~
+*ring*
+~
+#10515
+tombstone stone tomb~
+a Tombstone of the Nameless Ones~
+A Tombstone of the Nameless Ones looms above you here.~
+none~
+12 B 0
+0 0 0 0 0
+0 0 0
+E
+tombstone~
+The power within this stone makes you very afraid.
+~
+#10516
+tombstone stone tomb~
+a leaning Tombstone of the Nameless Ones~
+There is a Tombstone of the Nameless Ones here, leaning as if it's about to fall.~
+none~
+12 B 0
+0 0 0 0 0
+0 0 0
+E
+tombstone~
+Despite its lean, the power of this stone is incredible, and awful.
+~
+#10517
+tombstone stone tomb~
+a fallen Tombstone of the Nameless Ones~
+There is a Tombstone of the Nameless Ones lying fallen on the ground.~
+none~
+12 B 0
+0 0 0 0 0
+0 0 0
+E
+tombstone~
+Although it is fallen, its power is such that you would not even touch it.
+~
+#10518
+black tombstone tomb stone~
+a large black blood-stained Tombstone~
+A large deep black Tombstone stands here, admist a pool of dried blood.~
+none~
+30 AB 0
+0 0 0 CILN 0
+0 0 0
+E
+black~
+This one has obviously received most of the sacrificial attention.  It is
+stained with blood, and the ground around it is caked with it.  However, it
+is still almost clear enough to suggest you could want into it.
+~
+#10519
+stiks game~
+stiks pieces~
+The pieces used to play Stiks are laying here.~
+none~
+3 0 AO
+ABCD BD BD 72 0
+15 5 180
+#10520
+laundry pile~
+a pile of laundry~
+A pile of laundry sits here, stinking up the place.~
+none~
+13 0 AO
+0 0 0 0 0
+0 10 0
+#10521
+book~
+a book of the sayings of Atwah and Wuluah~
+A book containing the words of the God-Brothers lays here.~
+none~
+13 0 AO
+0 0 0 0 0
+0 5 5
+E
+book~
+Atuwah and Wuluah are the God-Brothers.  However, you can't read Kargish, so
+you do not know what this book says.
+~
+#10522
+holy robe~
+holy robes of the Godking~
+The blue holy robes of the Godking lay here.~
+none~
+9 A AK
+BC BC ABC A 0
+23 5 230
+A
+4 2
+#10523
+holy robes~
+holy robes of the God-Brothers~
+The yellow holy robes of the God-Brothers lay here.~
+none~
+9 A AK
+BC ABC BC B 0
+22 5 220
+A
+3 2
+#10524
+holy pendant~
+a holy pendant of the Nameless Ones~
+A holy pendant of the Nameless Ones lays here.~
+none~
+33 A AC
+0 0 0 0 0
+25 5 250
+A
+5 2
+#10525
+blood basin~
+a basin of blood~
+A basin of blood overflows onto the ground.~
+none~
+17 B A
+ABCD ABCD ACD A 0
+25 5 5
+#0
+
+
+
+#ROOMS
+#10500
+A dusty road through the plains~
+The plains here seem dry and simple, almost desert-like.  You are surrounded
+by acres of hills and grass, but the grass is all a dry brown.  There is scrub
+brush surrounding the path that you are on.  Strange, the path seems to be
+made of some black material, very hard, and all one piece.  It is a fairly
+wide road due to its use for religious procession.
+All you can see from here is hills.
+~
+0 0 4
+D0
+~
+~
+0 0 10501
+D1
+~
+~
+0 0 10503
+D2
+~
+~
+0 0 3530
+D3
+~
+~
+0 0 10502
+S
+#10501
+A dusty road through the plains~
+The plains continue here, dry as ever.  The sun seems to be getting a bit
+warmer as you go.  The hills, however, seem endless.  You can't quite
+remember where it was you were supposed to be heading anymore.
+~
+0 0 4
+D0
+~
+~
+0 0 10504
+D1
+~
+~
+0 0 10506
+D2
+~
+~
+0 0 10500
+D3
+~
+~
+0 0 10505
+S
+#10502
+Lost in the hills~
+You are lost in the endless hills of this plain!  You know the road is
+somewhere to the east, possibly you could get back to it.
+You're sure you don't want to travel any further in any other direction
+since you don't know what is out here, particularly at night...
+~
+0 0 4
+D0
+~
+~
+0 0 10502
+D1
+~
+~
+0 0 10500
+D2
+~
+~
+0 0 10502
+S
+#10503
+Lost in the hills~
+You are lost in the endless hills of grass!  You know the road is somewhere
+off to the west, but besides that everything is just grass and hills.
+You don't want to travel further in any direction but back to the road
+particuarly since you don't know what is out here... especially at night.
+~
+0 0 0
+D0
+~
+~
+0 0 10503
+D2
+~
+~
+0 0 10503
+D3
+~
+~
+0 0 10500
+S
+#10504
+A dusty road through the plains~
+The dust you've kicked up seems to be clogging your lungs.  You feel like
+you need water, and soon, as well as fresh air.  You really hope your
+destination, the Tom something?  Well, anyway, you hope it's over the next hill.
+If it's not... well, you may turn back.
+~
+0 0 4
+D0
+~
+~
+0 0 10509
+D1
+~
+~
+0 0 10508
+D2
+~
+~
+0 0 10501
+D3
+~
+~
+0 0 10507
+S
+#10505
+A copse of dry brush~
+Ah, the relief of even a little shade.  This dry copse has probably not seen
+better days, but you are sure you have.  You can rest here on your journey,
+where was it you were going again?  The road it directly to the east, but
+you don't want to go any other way, for fear of becoming lost.
+~
+0 0 4
+D1
+~
+~
+0 0 10501
+S
+#10506
+Lost in the plains~
+You're truly lost, all directions are endless grass.  
+You think you came here from the west, maybe, hopefully, you could go back...
+~
+0 0 4
+D0
+~
+~
+0 0 10506
+D2
+~
+~
+0 0 10506
+D3
+~
+~
+0 0 10501
+S
+#10507
+At a small tepid spring~
+Amidst the grass here is a small spring, reeking of sulphur.  You wonder
+whether or not it is safe to drink from. It runs only a few inches before it
+seeps into the hungry ground.  The grass here is a bit more green for it.
+~
+0 0 4
+D1
+~
+~
+0 0 10504
+S
+#10508
+On top of a hill~
+From this hill, you can see the whole plain.  It's mostly grass, except, wait
+is that your destination up ahead?  Yes, finally you can see the Place of the
+Tombs of Atuan.  Beyond them is the river, yet unnamed.  The Place seems
+almost forboding.  Is it a place of ill will or worship? Are the Nameless Ones
+good or evil?  No way to know except to turn back to the road that leads up to
+the walls.
+~
+0 0 4
+D3
+~
+~
+0 0 10504
+S
+#10509
+On the road on top of a hill~
+You can finally see your destination: The Place of the Tombs of Atuan.
+Now you finally feel like the journey has been worth it.  But what will you find
+there?  Hatred and despair or glorious worship?  That you have yet to find out
+Still, the walls of the Place are in this next valley, and they look rundown
+enough to climb over.  Soon you will find out.
+The hill is too treacherous on either side to go anyway but north.
+~
+0 0 4
+D0
+~
+~
+0 0 10510
+D2
+~
+~
+0 0 10504
+S
+#10510
+By the crumbling wall~
+You have finally reached the Place of the Tombs.  You can see the Temple of 
+the Godking before you, and beyond it the Hall of the Throne.  You feel
+ecstatic at the idea of finally reaching the goal of this pilgramage.
+Now you just wonder if you will survive long enough to find the Undertomb
+and the Great Treasure of the Nameless ones.  The wall here is crumbling, so
+it should be fairly easy to enter the Place.  Even where it is not crumbling
+it has been worn low enough that you would be able to climb over easily.
+You wonder at such little security here... what does that mean is waiting for
+you inside?
+~
+0 0 0
+E
+wall~
+The wall is made of a mud stone such as hasn't been used in over a thousand
+years.  It must have been here for quite some time then, yet why is it not
+in worse shape now, if it is so old?
+~
+D0
+~
+~
+0 0 10511
+D2
+~
+~
+0 0 10509
+S
+#10511
+Inside the walls~
+You are now within the walls of the Place.  Before you, you see the golden
+spires of the Temple of the God Brothers.  To the east and west runs the wall.
+Off to the east, some, is the Big House and a couple other building, you don't
+know what they are for.  The wall starts to turn north off to the west.
+The temple grounds seem drier than even the plains.  Yet to the north some
+you can see green.
+~
+0 0 2
+E
+wall~
+On this side of the wall, it seems even more in ruins.  The stones have fallen
+mostly inwards, so the ground is littered with them.
+~
+D0
+~
+~
+0 0 10514
+D1
+~
+~
+0 0 10513
+D2
+~
+~
+0 0 10510
+D3
+~
+~
+0 0 10512
+S
+#10512
+Along the wall~
+You've started along the wall around the Place.  Everything here seems fairly
+featureless.  The grass waves a bit in the wind, and to the north you can 
+see the Hall of the Throne.
+The wall turns here, sloping gradually to the north.
+~
+0 0 2
+E
+north~
+The Hall of the Throne stands to the north.  It was once greater than the
+Temple of the Godking, but now is beginning, like the wall, to crumble.
+~
+D0
+~
+~
+0 0 10517
+D1
+~
+~
+0 0 10511
+S
+#10513
+Along the wall~
+The wall here is a bit higher than the part you came through.  It also seems
+to be in a bit better repair.  Off to the north east you can see a group of
+buildings that look to be barrack style.  You wonder who lives there. The 
+Temple gardens are to your north.
+~
+0 0 2
+D0
+~
+~
+0 0 10516
+D1
+~
+~
+0 0 10527
+D3
+~
+~
+0 0 10511
+S
+#10514
+Beside the Temple of the God-Brothers~
+From here you can tell the spires on this temple are not as great as those on
+the Temple of the Godking.  The whole roof of the Godking's temple has been 
+washed with gold, while this temple is made with white brick, and roofed with
+shale.  The temple entrance is around the east side of the building.
+~
+0 0 2
+E
+temple~
+You think you see the entrance somewhere to the east.  Besides that, the white
+of the bricks is blinding in the bright sun.
+~
+D1
+~
+~
+0 0 10516
+D2
+~
+~
+0 0 10511
+D3
+~
+~
+0 0 10515
+S
+#10515
+At the corner of the Temple~
+The ground here is a bit marshy, probably due to the spring nearby.  However, 
+that same spring is being used to water the gardens in front of the Temple.
+You don't think you should sit, but at least you could get something to 
+drink.
+~
+0 0 2
+D0
+~
+~
+0 0 10521
+D1
+~
+~
+0 0 10514
+D3
+~
+~
+0 0 10517
+S
+#10516
+`GThe Temple Gardens`w~
+To think that such a wealth of flowers could bloom here!  You are mesmerized
+by their scents and colors amidst all this dryness.  A lot of water must go 
+into keeping these gardens so lush.  Yet there are no full trees or bushes
+here to drink up too much water, merely flowers.  And many of them!
+`m@  `Y@   `r@    `B@ `W@   `c@ `C@   `M@  `r@  `w@ `r@   `Y@    `W@      `R@
+`G"  "   "    " "   " "   "  "  " "   "    "      "
+~
+0 0 0
+E
+flowers~
+`G---'---,--{`R@ `c They're just so beautiful!
+~
+D0
+~
+~
+0 0 10518
+D1
+~
+~
+0 0 10588
+D2
+~
+~
+0 0 10513
+D3
+~
+~
+0 0 10514
+S
+#10517
+Along the wall~
+You continue to travel along the wall.  The Hall of the Throne is ahead, 
+getting closer as you walk.  The wall continues to be broken down along here.
+The grass, however, is getting a bit greener.  Off to the east you see the 
+Temple of the God-Brothers.
+~
+0 0 2
+D0
+~
+~
+0 0 10520
+D1
+~
+~
+0 0 10515
+D2
+~
+~
+0 0 10512
+S
+#10518
+Before the Temple of the God-Brothers~
+The great Temple doors loom above you.  Their bronze massiveness must have
+once been magnificent when they were buffed and in repair.  You can imagine how
+bright the rising sun would be reflected in such huge bronze mirrors. Now,
+they are dented and dim.  They've obviously seen more years than you can 
+even fathom.  You feel dwarfed and young within their shadow.
+~
+0 0 2
+D0
+~
+~
+0 0 10519
+D1
+~
+~
+0 0 10525
+D2
+~
+~
+0 0 10516
+D3
+~
+~
+0 0 11100
+S
+#10519
+`GThe Temple Gardens`w~
+Flowers everywhere!
+`R@    `W@      `Y@            `C@                `r@
+`G"    `G"  `c@   `G"            `G"   `W@    `M@       `G"
+   `m@    `G"        `W@ `r@     `R@   `G"    `G"          `R@
+   `G"          `M@  `G" `G"     `G"           `C@       `G"
+ `W@    `R@       `G"            `Y@         `G"   `M@
+ `G"    `G"         `c@     `W@    `G"     `R@       `G"
+                `G"     `G"          `G"
+`w
+~
+0 0 2
+D0
+~
+~
+0 0 10563
+D1
+~
+~
+0 0 10561
+D2
+~
+~
+0 0 10518
+D3
+~
+~
+0 0 10524
+S
+#10520
+Along the wall~
+Right here is another completely crumbled spot in the wall.  Leaning out, you
+see a river off to the north running east-west.  Careful leaning there! You
+might fall!  Closer now to the north you see the Hall of the Throne.  Directly
+to the east you see the Temple of the God-Brothers.
+~
+0 0 0
+D0
+~
+~
+0 0 10522
+D1
+~
+~
+0 0 10521
+D2
+~
+~
+0 0 10517
+S
+#10521
+Behind the Temple of the God-Brothers~
+The back of the temple has high windows on it, but most of them look to 
+be shuttered, and without glass.  A couple of shards on the edges show that
+they were at one time beautiful stained glass windows, but are there no longer
+for which you grieve.  A bench again sits here, inviting you to rest.
+~
+0 0 2
+D0
+~
+~
+0 0 10523
+D2
+~
+~
+0 0 10515
+D3
+~
+~
+0 0 10520
+S
+#10522
+Along the wall~
+The world seems almost barren here.  Why would they let this land go to 
+waste?  Well, the Place surely seems to be in the middle of nowhere. It's
+hard to believe that at one point this was the center of the Kargish 
+civilization.  In fact, even now this religion is significant, but it
+seems thrown to the side.  Off to the east you see the Temple of the God-
+Brothers.
+~
+0 0 0
+D0
+~
+~
+0 0 10557
+D1
+~
+~
+0 0 10523
+D2
+~
+~
+0 0 10520
+S
+#10523
+At the corner of the Temple~
+You stand now at the corner of the Temple of the God-Brothers.  There is a 
+bench here to rest on, for the Priestesses of the Temple.  There is also a 
+tree here to provide some shade from the dry heat.  From the downtrodden state
+of the grass, this is obviously a favorite place for the Priestesses and 
+novices of the God-Brothers, Atwah and Wuluah.
+~
+0 0 0
+D0
+~
+~
+0 0 10566
+D1
+~
+~
+0 0 10524
+D2
+~
+~
+0 0 10521
+D3
+~
+~
+0 0 10522
+S
+#10524
+Besides the Temple of the God-Brothers~
+You travel along the wall of the Temple.  From here, it looks fairly plain.
+The walls are beginning to crack from age, and moss grows out from the cracks.
+However, the roof looks fairly new.
+~
+0 0 0
+D1
+~
+~
+0 0 10519
+D3
+~
+~
+0 0 10523
+S
+#10525
+Before the Big House~
+You're standing in front of the dormitories for the priestesses of the three
+Temples of the Place.  The novices are also boarded in this house, called the 
+Big House by those who live here.  You hear the sound of giggling girls just 
+inside the doors.  Off to the west is the Temple of the God-Brothers.
+~
+0 0 2
+D0
+~
+~
+0 0 10558
+D1
+~
+double~
+1 0 11109
+D2
+~
+~
+0 0 10526
+D3
+~
+~
+0 0 10518
+S
+#10526
+Before the Eunuch's House~
+What is a eunuch anyway?  Maybe you should ask how to become one, because
+this house, while nothing too ornate, looks quite comfortable.  The men
+that wander in and out of it don't seem particularly slim either, suggesting
+that they are pampered somehow.  Yet all seem very strong as well.
+~
+0 0 2
+D0
+~
+~
+0 0 10525
+D2
+~
+~
+0 0 10527
+D3
+~
+~
+0 0 10588
+S
+#10527
+Along the wall~
+The wall reaches a high point here, protecting the houses in its shadow and
+their inhabitants.  The entrance to these houses is directly to the north.
+You see what looks like some names scratched into the wall, perhaps the
+priestesses are not as devoted to their faith as they seem.
+~
+0 0 2
+D0
+~
+~
+0 0 10526
+D1
+~
+~
+0 0 10528
+D3
+~
+~
+0 0 10513
+S
+#10528
+Along the wall~
+Here you are walking on the side of the eunuch's house.  The house to the 
+north seems plain, but comfortable.  A window overlooks a small patch of
+flowers here.  The eunuchs must have a nice life looking out on these.
+`R@`W@`Y@`C@`M@
+`G"""""
+`wThe wall looms above the flowers, so not more than these could grow here.
+~
+0 0 2
+D1
+~
+~
+0 0 10529
+D3
+~
+~
+0 0 10527
+S
+#10529
+Along the wall~
+You are still walking beside the eunuch's house.  Here, there are no windows.
+The wall puts you in the shade here.
+~
+0 0 2
+D1
+~
+~
+0 0 10530
+D3
+~
+~
+0 0 10528
+S
+#10530
+Along the wall~
+Something smells here... not too bad, but definitely manure like!  Oh, that's
+what it is!  Off to the north and east is a milch-goat pasture!  You can see
+the white goats wandering through there.
+~
+0 0 2
+D0
+~
+~
+0 0 10531
+D1
+~
+~
+0 0 10532
+D3
+~
+~
+0 0 10529
+S
+#10531
+By the gate to the milch-goat pasture~
+The smell of goats is very strong here.  You see the gates keeping them in
+their pasture to the east.  To your west is the back of the eunuch's home.
+The grass here is long enough to reach your knees, except a neck's length away
+from the goat pasture, where it is completely cropped back.
+~
+0 0 2
+D0
+~
+~
+0 0 10534
+D1
+~
+gate~
+1 0 10533
+D2
+~
+~
+0 0 10530
+S
+#10532
+Along the wall by the goat pasture~
+You're standing beside the goat pasture, and the scent of goat manure is
+very strong here.  It's not a particularly foul scent, just quite strong
+and much like bruised grass.  I suppose that makes sense, since that's
+what they eat the most of.  Off to the east you can see the wall turning
+northward, heading behind the buildings.
+~
+0 0 0
+D1
+~
+~
+0 0 10536
+D3
+~
+~
+0 0 10530
+S
+#10533
+In the milch-goat pasture~
+Baa!  Baa!  The white goats won't leave you alone!  They're trying to eat
+your pack, your scabbard, even your weapon!  Watch it, that one has got
+your best piece of armor!  Come back here goat!
+~
+0 0 0
+D1
+~
+~
+0 0 10535
+D3
+~
+gate~
+1 0 10531
+S
+#10534
+Between the pasture and the Big House~
+You are in a cul-de-sac created by the Big House, the goat pasture, and the
+eunuch's house.  This looks like a spot where the novices must gather to 
+gossip.  The grass has been matted down by many feet.  Or perhaps it's just
+the way the priestesses take to get to the goats.  There's a door leading
+into the Big House to the north.
+~
+0 0 2
+D2
+~
+~
+0 0 10531
+S
+#10535
+The far end of the milch-goat pasture~
+This was obviously NOT the way to go to get away from the goats.  Now you're
+trapped by them in this dead end of a pasture!  They keep trying to eat your
+clothes!  Aaaah!  Get away goats!  You feel inclined to kill them, but you're
+not sure the priestesses would approve.
+~
+0 0 0
+D3
+~
+~
+0 0 10533
+S
+#10536
+A turn in the wall~
+The smell of the goats begins to lessen here.  You also finally have a clear
+view of the north.  You see the back of the Big House, and beyond that what
+looks like a vegetable garden and a quite large patch of trees.  Perhaps
+they are fruit trees, you're beginning to get hungry.
+~
+0 0 2
+D0
+~
+~
+0 0 10537
+D3
+~
+~
+0 0 10532
+S
+#10537
+Along the wall~
+You are now behind the goat pasture.  The scent grows strong again here, 
+but perhaps even more prominent is that goat leaning over the fence trying
+to eat your money pouch!  You pull that away, and he goes for your scabbard!
+Will this goat not leave you alone?  Perhaps if you threw food to the other
+end of the goat pasture that would help.  So you try that, but he knows he
+can get that later, while the delictible you could leave, so he continues
+to reach his head out, this time to taste your clothes.  You hope he doesn't
+ruin your armor!  Maybe it's time to move on.
+~
+0 0 2
+D0
+~
+~
+0 0 10538
+D2
+~
+~
+0 0 10536
+S
+#10538
+Along the wall~
+Finally away from those goats!  You swore they were going to eat everything
+they could get their grazing teeth on!  You can see the Big House to the 
+north-east and here what sounds like a teacher droning on about the duties
+of the priestess to the Godking.  You're not sure you would ever want to join
+that order.  Off to the north is more wall, will it ever end?
+~
+0 0 2
+D0
+~
+~
+0 0 10539
+D2
+~
+~
+0 0 10537
+S
+#10539
+Along the wall behind the Big House~
+The wall and the back of the Big House are so close together that you can 
+hardly fit yourself through with all the stuff you're carrying.  You can see
+from here that the Big House is only one story high, but it still seems huge.
+Off to the north you see gardens, and an orchard.
+~
+0 0 2
+D0
+~
+~
+0 0 10540
+D2
+~
+~
+0 0 10538
+S
+#10540
+In the garden by the wall~
+You are standing in a cabbage patch next to the wall.  Those cabbages look
+well watered and delicious, despite the dry quality of the grass around
+here.  Your mouth begins to water at the thought of such things as cabbage 
+stew, or coleslaw.  You actually think you can smell cabbage stew, where is
+that smell coming from?  Ah, you see now, the Big House's kitchen is right off
+the garden.
+The wall takes a turn to the north.
+~
+0 0 2
+D0
+~
+~
+0 0 10541
+D2
+~
+~
+0 0 10539
+D3
+~
+~
+0 0 10560
+S
+#10541
+At a corner of the wall~
+The wall takes a turn to the right here, creating a corner.  All around that 
+corner is planted what look like tomato plants, growing up into a mesh
+that has been placed around the wall.  There aren't any tomatoes growing
+right now, which is a disappointment to you.
+~
+0 0 2
+D0
+~
+~
+0 0 10583
+D1
+~
+~
+0 0 10542
+D2
+~
+~
+0 0 10540
+D3
+~
+~
+0 0 10582
+S
+#10542
+A turn in the wall.~
+There's a beautiful shade tree arched over this corner.  You can tell this
+is a favorite place for the novices of the Temples to sit and read, or gossip
+about Thar or Kossil.  None of them gossip about Arha, though.  The Eaten One,
+the One Priestess of the Nameless Ones, was never to be talked about.  Even
+though she was the same age as most of these novices.
+~
+0 0 2
+D0
+~
+~
+0 0 10543
+D3
+~
+~
+0 0 10541
+S
+#10543
+Along the wall by the orchard~
+There are many fruit trees off to the north.  Your mouth waters at the thought
+of sinking your teeth into a ripe apple or pear.  You wonder what grows
+in that orchard.  The wall turns again here, allowing more room for the trees
+to grow, although none grow up against the wall, because they would be
+making it too easy to climb down into the Place of the Tombs.  Not that the wall
+is in good enough shape to keep anyone out anyway.
+~
+0 0 2
+D0
+~
+~
+0 0 10585
+D1
+~
+~
+0 0 10544
+D2
+~
+~
+0 0 10542
+D3
+~
+~
+0 0 10583
+S
+#10544
+Along the wall near the orchard.~
+Those trees off to the west make this area so much more shady.  That helps
+a lot to alleviate the pounding sun on your head.  The wall is crumbled here 
+from the bottom, where the roots of these long standing trees have made 
+the ground uneven for the walls to stand on.  However, the other side of the
+wall is dry brush, preventing you to walk through it here.  That brush 
+probably thrives on the same water used to keep these trees so green.
+~
+0 0 2
+D0
+~
+~
+0 0 10545
+D3
+~
+~
+0 0 10543
+S
+#10545
+Along the wall near the orchard~
+You feel like you might just want to lay here for a while in the cool shade.
+That idea is almost too tempting, you have to remember that the people here
+aren't necessarily friendly!  There are those who would kill you for 
+catching one unconsecrated to the Temples AND uninvited on their land.
+Perhaps it's time to get up and move along.
+~
+0 0 2
+D0
+~
+~
+0 0 10586
+D2
+~
+~
+0 0 10544
+D3
+~
+~
+0 0 10585
+S
+#10546
+A corner of the wall~
+The wall takes another sharp turn here, off to the north.  You can see the
+Small House of the One Priestess, Arha, off to the north west.  Beyond that is
+the hill that bears the Hall of the Throne.  It's crumbling huge structure
+seems to glow with power in the sunlight.
+~
+0 0 2
+D0
+~
+~
+0 0 10547
+D1
+~
+~
+0 0 10587
+D2
+~
+~
+0 0 10584
+D3
+~
+~
+0 0 10578
+S
+#10547
+Along the wall behind the Small House~
+You shiver with fear.  To the west is the Small House, traditional home of
+Arha, the Eaten One, the One Priestess of the Nameless Ones.  Her power is 
+legendary, and you are sure you don't want to encounter her here on her own
+land.  You hurry off to avoid her.
+~
+0 0 2
+D0
+~
+~
+0 0 10548
+D2
+~
+~
+0 0 10546
+S
+#10548
+Along the wall~
+The entrance to the Small House is in your view now. 
+Perhaps you should move along before Arha emerges and strikes you down with
+the power of the Nameless Ones.
+~
+0 0 2
+D0
+~
+~
+0 0 10549
+D2
+~
+~
+0 0 10547
+S
+#10549
+A turn in the wall~
+The wall turns to the west again here.  Off to the west you can see the 
+beginning of the Tomb Wall, where the stones that mark the Tombs of Atuan
+stand.  They are the grave markers for the Nameless Ones, so one person told
+you.  Another said they are the Nameless Ones, imprisoned in those stones.
+Even others have said they are the focuses for the Nameless Ones.  Despite
+all these stories, all anyone knows for sure is that they are held sacred by
+the Kargish people, and in particular, the One Priestess, Arha.
+~
+0 0 2
+D2
+~
+~
+0 0 10548
+D3
+~
+~
+0 0 10577
+S
+#10550
+The intersection of the wall, and the Tomb Wall~
+The Tomb Wall begins here, where the wall about the Place ends.  The stones
+this wall is made out of are much bigger than any you've ever seen used for
+a wall before.  It must have taken tremendous power to move these here, 
+because there is no way human strength alone could do it.  The Wall seems
+to be forboding, and you don't feel comfortable in its shadow.  You know
+you don't belong here.
+~
+0 0 2
+D1
+~
+~
+0 0 10576
+D2
+~
+~
+0 0 10551
+S
+#10551
+By the Hall of the Throne~
+You are now standing beside the Hall of the Throne, the sacred palace of the
+Nameless Ones.  You are really beginning to feel uncomfortable.  Is it possible
+that the Nameless Ones know you are here?  You are not sure you want to go any 
+nearer to the Hall.
+~
+0 0 2
+D0
+~
+~
+0 0 10550
+D1
+~
+~
+0 0 10575
+D2
+~
+~
+0 0 10574
+D3
+~
+~
+0 0 10552
+S
+#10552
+Before the Hall of the Throne~
+The Hall is certainly imposing, yet that is probably what the makers had in
+mind.  You feel dwarfed by the height of the walls, which you know are 
+emphasized more by the height of the hill.  Here, at the top of the hill, they
+still seem grand.  However, it is obvious that over time the greatness of
+this Hall has diminished.  The walls, once white, are now tawny and blend in
+with the sands and grass surrounding the Place of the Tombs.  The dome on
+top of this structure has become flattened and is beginning to crumble in
+many places.  You can also see a lot of patchwork done on these walls.  It is
+evident, however, that this is the oldest of the three main buildings here, 
+and a Temple of sorts as well.
+~
+0 0 2
+D1
+~
+~
+0 0 10551
+D2
+~
+~
+0 0 10573
+D3
+~
+~
+0 0 10553
+S
+#10553
+By the Hall of the Throne~
+There is a great patch done on a wall here, where obviously at some point 
+there was a hole.  The patch itself, however, is now yellowed and crumbling.
+Obviously this building has been here longer than you could ever imagine.
+The fallen plaster makes the ground dangerous to the south and west.
+~
+0 0 2
+D0
+~
+~
+0 0 10554
+D1
+~
+~
+0 0 10552
+S
+#10554
+The Tomb Wall~
+You stand beside the forboding wall that surrounds the Tombstones.  The stones
+of this wall are too huge to have been moved here by mere human strength.
+You've heard, however, that the actual Tombstones are much larger than these.
+You feel very nervous here, perhaps it's time to move on.
+~
+0 0 2
+D2
+~
+~
+0 0 10553
+D3
+~
+~
+0 0 10555
+S
+#10555
+The intersection of the wall and the Tomb Wall~
+The wall around the Place of the Tombs ends here.  It is the beginning, 
+instead, of the Tomb Wall.  The Wall is a bit crumbled here, despite the huge
+stones.  One of the stones has fallen on this side of the wall, and you think
+you can climb on top of it.  You do so, and you can see the Tombstones within.
+They are about twice the size of the stone you are standing on, which is only
+barely shorter than you are, and twice as long as you are tall.  You feel 
+by laying eyes on the Tombstones, you have already committed sacrilege.
+~
+0 0 0
+D1
+~
+~
+0 0 10554
+D2
+~
+~
+0 0 10556
+S
+#10556
+Along the wall heading uphill~
+To the north you can see the Tomb Wall.  The sight of such huge stones sends
+shivers down your spine.  There is no way those stones were put there by human
+hands.  Perhaps the tales of the Nameless Ones are not exaggerated.  You are not
+sure you want to find out.
+~
+0 0 2
+D0
+~
+~
+0 0 10555
+D1
+~
+~
+0 0 10572
+D2
+~
+~
+0 0 10557
+S
+#10557
+Along the wall heading uphill~
+You feel a bit in the middle of nowhere right now.  There's nothing too 
+significant nearby in any direction.  Of course, you can still see the Temple
+of the God-Brothers to the south-east.  To the north-east, you can see the
+Hall of the Throne, on top of it's great hill.  You are in fact climbing that 
+hill right now.  Off to the east is the Temple of the Godking.  Yet none of 
+these three Temple structures are near you right now.
+~
+0 0 2
+D0
+~
+~
+0 0 10556
+D1
+~
+~
+0 0 10566
+D2
+~
+~
+0 0 10522
+S
+#10558
+By the vegetable garden~
+There is a wonderful looking vegetable garden to the east.  That explains
+how all the people here get fed.  You imagine that they also get a lot of 
+food from religious donations, and the wheat fields you can see over the walls.
+Still... those vegetables sure look good.  Maybe they wouldn't miss just a
+few...
+~
+0 0 2
+D0
+~
+~
+0 0 10564
+D1
+~
+~
+0 0 10559
+D2
+~
+~
+0 0 10525
+D3
+~
+~
+0 0 10561
+S
+#10559
+In the vegetable gardens~
+There are potatoes growing in this garden.  You wouldn't know that, except
+you accidently kicked one out of the ground.  Unfortuantely, this potato
+is very young.  It doesn't really look ready to eat yet.  In fact, it's
+even smaller than the baby potatoes you usually eat.  Oh well, if you're 
+hungry, you eat what you can get.
+~
+0 0 0
+D0
+~
+~
+0 0 10568
+D1
+~
+~
+0 0 10560
+D3
+~
+~
+0 0 10558
+S
+#10560
+In the vegetable gardens~
+This appears to be a turnip patch.  You're not quite as fond of turnips as
+you are cabbage, but it's ok.  You can see the entrance to the Big House's 
+kitchen to the south.  There are gardening tools resting next to the door.
+~
+0 0 0
+D0
+~
+~
+0 0 10582
+D1
+~
+~
+0 0 10540
+D3
+~
+~
+0 0 10559
+S
+#10561
+By the Temple Gardens~
+You can see the Temple Gardens off to the west, and you're very tempted to go
+pick a few flowers to take to your beloved.  You know better than that though,
+those flowers are sacred, and part of the Temple of the God-Brothers.  You
+will just have to avoid your itchy hands.
+~
+0 0 0
+D0
+~
+~
+0 0 10562
+D1
+~
+~
+0 0 10558
+D2
+~
+~
+0 0 10588
+D3
+~
+~
+0 0 10519
+S
+#10562
+Before the Temple of the Godking~
+The Temple of the Godking rises above you. This is by far the most magnificent
+of all the Temples, even though the Hall of the Throne is on the top of a much
+higher hill.  The roof of the Temple is completely washed in gold, as well as
+the doors.  It is also the Temple in the best repair, with truly gleaming white
+walls assisting the gold in reflecting sunlight everywhere.  There are diamonds
+embedded above the door as well. You wonder why this Temple is so beautiful
+and awful compared to the other two you've seen.
+~
+0 0 0
+D1
+~
+~
+0 0 10564
+D2
+~
+~
+0 0 10561
+D3
+~
+~
+0 0 10563
+S
+#10563
+At the south-west corner of the Temple of the Godking~
+You are standing beside a pillar like none of the others you've seen yet on
+this Temple.  This one has a battle scene carved into it.  It shows what you 
+assume is the first Godking of the Kargad lands (by the age of the pillar)
+in battle with his lieutenants behind him, fighting the men from the western 
+lands.  The scene is somewhat awesome, and with the sun hitting it, it almost
+seems like blood is actually pouring out of the pillar.
+~
+0 0 0
+D0
+~
+~
+0 0 10565
+D1
+~
+~
+0 0 10562
+D2
+~
+~
+0 0 10519
+D3
+~
+~
+0 0 10566
+S
+#10564
+At the corner of the Temple of the Godking~
+You are standing next to one of the massive pillars of the Godking's Temple.
+The pillar towers so high overhead, you can't crane your neck back far enough
+from here to see the whole thing.  You try laying down, and lo and behold you
+can see the top, way up there.
+~
+0 0 0
+D0
+~
+~
+0 0 10567
+D1
+~
+~
+0 0 10568
+D2
+~
+~
+0 0 10558
+D3
+~
+~
+0 0 10562
+S
+#10565
+At the north-west corner of the Temple of the Godking~
+This pillar is also carved in a relief scene. This scene does not show a great
+battle but instead a one on one confrontation between Erreth-Akbe and the
+great High-Priest Intathin from whom the line of the Godkings is descended.
+In this scene, Intathin has beaten Erreth-Akbe down, and takes from him the
+ring he wear about his neck.  In the taking, the ring has broken in half.
+It is for that ring that you came here.  You hope you find it.
+The pillar is so grand, it blocks your exit to the north.
+~
+0 0 2
+D1
+~
+~
+0 0 10571
+D2
+~
+~
+0 0 10563
+D3
+~
+~
+0 0 10572
+S
+#10566
+In the long grass between the Temples~
+The grass here is flourishing, despite the shade cast on it from both Temples.
+Then again, the Temples are to the north and south of this patch of grass, so
+the sun, rising and setting in the east and west, can reach it easily.  Although
+the grass looks comfortable, you know this is not a safe place to stop, in 
+view of two of the three Temples in the Place.
+~
+0 0 2
+D0
+~
+~
+0 0 10572
+D1
+~
+~
+0 0 10563
+D2
+~
+~
+0 0 10523
+D3
+~
+~
+0 0 10557
+S
+#10567
+The Temple Courtyard~
+This is the courtyard of the Temple.  Here is where those who feel unworthy
+to enter the great Temple of the Godking may pray or leave their offerings.
+You notice that this Temple has such a place while neither of the other ones
+do.  Kind of points towards the preferences of the Godking, eh?
+~
+0 0 2
+D1
+~
+~
+0 0 10569
+D2
+~
+~
+0 0 10564
+S
+#10568
+In the grass~
+The grass reaches up to your knees here.  You really feel like laying down and
+watching the clouds move across the sky.  If you did so your whole body would
+be hidden by the grass.  You remember playing games in grass like this when
+you were young.  Ah, to be young again.
+~
+0 0 2
+D0
+~
+~
+0 0 10580
+D1
+~
+~
+0 0 10582
+D2
+~
+~
+0 0 10559
+D3
+~
+~
+0 0 10564
+S
+#10569
+Another corner of the Temple of the Godking~
+Another great pillar rises above you here.  This one is completely encased
+in silver instead of gold.  You wonder if this is because the Godking had
+less money to donate at the time this one was plated, or if it simply to
+provide some contrast to the gold, while still be incredibly reflective.
+~
+0 0 0
+D0
+~
+~
+0 0 10570
+D1
+~
+~
+0 0 10579
+D2
+~
+~
+0 0 10580
+D3
+~
+~
+0 0 10567
+S
+#10570
+The north east corner of the Temple of the Godking~
+From this corner you have a wonderful view of the gilded stained glass 
+windows adorning the sides of the Temple of the Godking.  Depicted in these
+windows you see the various Godkings of Kargeo-At, in succession.  The 
+latest one is the best quality, and you're not sure if that is due to its age
+or the relative wealth of the Kargad lands since his ascension to the immortal
+throne.
+~
+0 0 2
+D0
+~
+~
+0 0 10575
+D1
+~
+~
+0 0 10578
+D2
+~
+~
+0 0 10569
+D3
+~
+~
+0 0 10571
+S
+#10571
+Behind the Temple of the Godking~
+You are standing at the base of one of the tallest hills you seen in these
+plains as of yet.  It certainly won't be difficult to climb, but it's height
+makes it seem more lofty than any of the others.  On top of the hill you can
+see, tawny even in the sunlight, the grand but dilapidated Hall of the Throne.
+~
+0 0 0
+D0
+~
+~
+0 0 10574
+D1
+~
+~
+0 0 10570
+D3
+~
+~
+0 0 10565
+S
+#10572
+In the grass near the Temple~
+The grass is close cropped and well tended here, as if the priestess of the
+Godking feel it an affrontery to their religion to have grass grow so wild
+near the Temple.  This part was obviously not eaten by the goats, it's far
+too even for that.  Obviously the novices have this cutting as part of their
+duty.
+~
+0 0 0
+D0
+~
+~
+0 0 10573
+D1
+~
+~
+0 0 10565
+D2
+~
+~
+0 0 10566
+D3
+~
+~
+0 0 10556
+S
+#10573
+Heading uphill~
+*Grunt* you pull yourself forward another step.  *Moan* you're not sure you're
+going to make it much further.  *Sigh* perhaps you could just collapse here?
+*Fear* but what if a priestess came along? *More fear* what if it were Arha?
+The hill to the west drops off too quickly to make climbing safe.
+~
+0 0 2
+D0
+~
+~
+0 0 10552
+D1
+~
+~
+0 0 10574
+D2
+~
+~
+0 0 10572
+S
+#10574
+The hill behind the Godking's Temple~
+This is a very steep hill, and you find yourself running out of breath very
+quickly.  At the top, you can still see the immensity of the Hall of the Throne,
+but if you don't get there soon, you're going to collapse right here.  The grass
+looks so inviting, perhaps you could just lay down for a bit.
+~
+0 0 0
+D0
+~
+~
+0 0 10551
+D2
+~
+~
+0 0 10571
+D3
+~
+~
+0 0 10573
+S
+#10575
+In the grass by the Small House~
+The grass is tall enough here that if you crouch down, you shouldn't be seen
+from the Small House of Arha, the One Priestess of the Nameless Ones.  You're
+still not very comfortable, despite that cover.  Her reputation for killing
+intruders with her bare hands is not very comforting.  You still would like
+to get a better look...
+~
+0 0 0
+D0
+~
+~
+0 0 10576
+D2
+~
+~
+0 0 10570
+D3
+~
+~
+0 0 10551
+S
+#10576
+Along the wall~
+Off to the west is the beginning of the Tomb Wall.  It seems to loom over you
+even here.  You're not sure you want to get any closer to it.  Perhaps it's be
+safer to go to the south instead?
+~
+0 0 2
+D1
+~
+~
+0 0 10577
+D2
+~
+~
+0 0 10575
+D3
+~
+~
+0 0 10550
+S
+#10577
+Along the Wall near the Small House~
+You can see the Small House that is the ceremonial home for the priestess
+Arha to the south.  You're afraid she's going to come out on the porch and see
+you there.  Perhaps this isn't a good place to linger.
+~
+0 0 2
+D1
+~
+~
+0 0 10549
+D3
+~
+~
+0 0 10576
+S
+#10578
+Behind the Small House~
+The Small House of Arha the One Priestess of the Nameless Ones is beside you.
+Fortunately, you're at the back of the house, and all you have to risk
+is whether or not she looks out the window and sees you.  This is probably not
+a very good place to linger.
+~
+0 0 0
+D1
+~
+~
+0 0 10546
+D2
+~
+~
+0 0 10579
+D3
+~
+~
+0 0 10570
+S
+#10579
+In the grass~
+You are once again immersed in the grass.  You feel like crawling through 
+it here.  It just seems like so much fun, almost like stalking something
+as you would pretend when you were little.  For that matter, it might not be 
+a bad idea.  That way the priestesses of the Temples might not see you, and
+they command all the power of their gods.
+~
+0 0 0
+D0
+~
+~
+0 0 10578
+D1
+~
+~
+0 0 10584
+D2
+~
+~
+0 0 10581
+D3
+~
+~
+0 0 10569
+S
+#10580
+In the grass~
+The grass here has been cropped short.  You wonder if they allow the milch-
+goats to graze here sometimes.  It makes even more sense, since you can see some
+goat droppings sitting here too.  You wonder why no one has cleaned them up yet
+Or perhaps a goat has gotten free?
+~
+0 0 2
+D0
+~
+~
+0 0 10569
+D1
+~
+~
+0 0 10581
+D2
+~
+~
+0 0 10568
+S
+#10581
+The orchard~
+The grape vines here have grown so big they look like a tree!
+     `G(\   (|)   /)
+      `G|    \)    \
+      `G\)    ()   `m%`G(/
+      `G\)   ()  `m%`G</
+     `m%`G/|   |   /
+       `G\  \`m%`G/  /
+        `G\`m%`G || /
+         `G\|||/
+          `G\|/
+`w
+~
+0 0 0
+D0
+~
+~
+0 0 10579
+D1
+~
+~
+0 0 10583
+D2
+~
+~
+0 0 10582
+D3
+~
+~
+0 0 10580
+S
+#10582
+The orchard~
+This tree is an apple tree.
+      `G<)(>  <)  (>
+       `G<)(>`R@`G<)`R@`G<)
+     `G()>&`R@`G<>&)(>^)
+     `G\()`y|`G^)`R@`G<>`y>`G)`R@`G/
+      `G\(`y\`G)()<`R@`y|`G)/
+       `G\`R@`G)`y|||`G()/
+          `y|||
+          `y|||
+          `y|||
+          `y|||
+        `y_/|||\_
+`w
+~
+0 0 2
+D0
+~
+~
+0 0 10581
+D1
+~
+~
+0 0 10541
+D2
+~
+~
+0 0 10560
+D3
+~
+~
+0 0 10568
+S
+#10583
+The orchard~
+There is a pear tree standing here.
+     `G/^\   ()  <\
+     `G\`y|`G\  /`Y&`G\  ()
+    `G/"`y\`G)"<`y|`G)>"`Y&`G/
+    `G\""`Y&`G\/`y\`G())")
+     `G\)`y>`G()(>`Y&`G</
+       `G\^)`Y&`G<)`y|`G/
+        `G\(`y||`G</
+          `y||
+          `y||
+          `y||
+          `y||
+        `y_/||\_
+`w
+~
+0 0 0
+D0
+~
+~
+0 0 10584
+D1
+~
+~
+0 0 10543
+D2
+~
+~
+0 0 10541
+D3
+~
+~
+0 0 10581
+S
+#10584
+The orchard~
+This is a golden delicious apple tree. 
+     `G/-\_/-\__/^\
+    `G/`Y@`G()^<`y|`G>^<)(|
+    `G|`y<`G(>\/(>`Y@`G<)(>\
+    `G\()`y\`G(>`Y@`G<)`y\`G()>/
+     `G\`Y@`G<)(>()^`y/`G/
+      `G\`y>`G()(>`Y@`G^/
+       `G\(`y|||`G)/
+         `y|||
+         `y|||
+         `y|||
+         `y|||
+         `y|||
+       `y_/|||\_`w
+~
+0 0 0
+D0
+~
+~
+0 0 10546
+D1
+~
+~
+0 0 10585
+D2
+~
+~
+0 0 10583
+D3
+~
+~
+0 0 10579
+S
+#10585
+The orchard~
+This tree is a cherry tree!
+     `G/(\  |\  /)
+     `G\`r"`G|  \|  |/
+     `G/`y|`G()<)()<`r"`G\
+    `G/()<)`r"`G(>(`y/`G()\
+      `G\`r"`G<)()^(`r"`G(>\
+     `G())`y>`G^`r"`G()<)`y|`G(/
+      `G\()<`y|||`G<)(/
+          `y|||
+          `y|||
+          `y|||
+          `y|||
+        `y_/|||\_
+`w
+~
+0 0 0
+D0
+~
+~
+0 0 10587
+D1
+~
+~
+0 0 10545
+D2
+~
+~
+0 0 10543
+D3
+~
+~
+0 0 10584
+S
+#10586
+At another corner in the wall~
+Another corner! Boy this wall is doing some funny movement around here.
+You are still in the shade of the orchard trees, but the wall here has
+been warmed by the sun.  You lean back against the warm wall, which feels 
+good in this shade.  Perhaps you'll just rest here for a while, where no one
+should see you.
+~
+0 0 0
+D2
+~
+~
+0 0 10545
+D3
+~
+~
+0 0 10587
+S
+#10587
+Along the wall by the orchard~
+You continue along the wall.  The orchard trees are shading the area, 
+keeping you cool.  You consider trying to climb one to find out where
+you need to go.  You wish you knew where you were actually trying to go,
+that might help.  The trees look like they could be climbed, however, and
+it's always so much fun to do so...
+~
+0 0 0
+D1
+~
+~
+0 0 10586
+D2
+~
+~
+0 0 10585
+D3
+~
+~
+0 0 10546
+S
+#10588
+A gazebo~
+You are standing inside a gazebo, placed near the Temple Gardens.  The 
+gazebo has no exit to the south, but is open every other way.  From here
+you can see all of the beautiful Temple Gardens, and you are also within
+sight of the Big House.  You imagine that this is done so that novices
+can study here under the watchful eye of the priestesses.
+~
+0 0 0
+D0
+~
+~
+0 0 10561
+D1
+~
+~
+0 0 10526
+D3
+~
+~
+0 0 10516
+S
+#10589
+At the Tombs~
+You have entered the Over-Tomb, the above ground place for the Tombs to stand.
+You know there will be nine Tombstones, one for each of the Nameless Ones,
+and the idea of that much power contained right here is frightening.  There
+appear to be blood stains on the ground from numerous sacrifices... were they
+human?  You feel your flesh begin to creep.  You don't like it here much.
+~
+0 1048576 2
+D0
+~
+~
+0 0 10591
+D1
+~
+~
+0 0 10590
+S
+#10590
+A Tombstone leaning againt the Hall of the Throne~
+The Tombstone here leans against the Hall of the Throne, and the wall sags
+a little in the wall here because of its weight.  Both the wall and the 
+Tombstone are stained with centuries of sacrifical blood.  This place makes
+you very nervious.
+~
+0 0 0
+D0
+~
+~
+0 0 10592
+D3
+~
+~
+0 0 10589
+S
+#10591
+A Tombstone~
+This is one of the Tombstones of the Nameless Ones.  It is a large grey stone,
+in fact far larger than the stones in the wall.  It stands about twice your
+height, and you feel dwarfed in its immensity.  It seems to hum with power.
+~
+0 0 0
+D0
+~
+~
+0 0 10594
+D1
+~
+~
+0 0 10592
+D2
+~
+~
+0 0 10589
+S
+#10592
+A Tombstone by the Hall of the Throne~
+This Tombstone seems to stand in the shadow of the Hall of the Throne, 
+if the Tombstone could ever be in the shadow of anything.  It still hums with
+power despite it's shadowy neighbor.  You really want to leave right now.
+~
+0 0 0
+D0
+~
+~
+0 0 10595
+D1
+~
+~
+0 0 10593
+D2
+~
+~
+0 0 10590
+D3
+~
+~
+0 0 10591
+S
+#10593
+An entrance to the Hall of the Throne~
+You are standing in the doorway between the Hall of the Throne and the
+Tombstones.  You know that, except for yours, no other feet but those of Arha,
+the First and One Priestesses, have tread here. You hope the Nameless Ones do
+not strike you down for your intrusion on their holy land.
+~
+0 0 0
+D0
+~
+~
+0 0 10596
+D3
+~
+~
+0 0 10592
+S
+#10594
+A Tombstone by the Wall~
+This Tombstone reaches almost as high as the wall.  It stands proudly here, 
+humming with power and making your whole body vibrate.  You can feel anger.
+Anger and... well, overwhelming rage, but it's not yours.  Someone is feeling
+this towards you.  Perhaps you should move on.
+~
+0 0 0
+D0
+~
+~
+0 0 10597
+D1
+~
+~
+0 0 10595
+D2
+~
+~
+0 0 10591
+S
+#10595
+A large black Tombstone~
+The Tombstone here is larger and seems more proud than any of the others.
+It is so black it seems almost clear, except for the copious amounts of blood
+stains on it.  This one seems to have gotten about 9 times the amount of
+blood as any other Tombstone here.  There is, in fact, a puddle of blood at your
+feet.  It makes you very uncomfortable, particularly as you have no idea whose
+blood it is, or if it is even imagined or real.  Perhaps the Nameless Ones are
+projecting an image of the blood you will shed here.  You don't know.  The stone
+looks as if you might walk right into it.
+~
+0 0 0
+D0
+~
+~
+0 0 10598
+D1
+~
+~
+0 0 10596
+D2
+~
+~
+0 0 10592
+D3
+~
+~
+0 0 10594
+S
+#10596
+A fallen Tombstone by the Wall~
+This Tombstone seems even angrier than the last, despite it's fallen status.
+You feel wave upon wave of rage directed at you, threatening your 
+conciousness.  You really really don't like it here.  The humming of the stone
+only amplifies the anger.  Perhaps you should leave.
+~
+0 0 0
+D0
+~
+~
+0 0 10599
+D2
+~
+~
+0 0 10593
+D3
+~
+~
+0 0 10595
+S
+#10597
+A Tombstone leaning against the Wall~
+The Tombstone leans against the wall here, and has pushed one of the huge
+stones of the wall outwards into the desert like hills and field beyond. Its
+constant humming seems to make the whole Tomb Wall shiver in this area.  You're
+afraid it might fall on you.  The anger of the Nameless Ones is very strong, and
+you think it's not a good idea to stick around.
+~
+0 0 0
+D1
+~
+~
+0 0 10598
+D2
+~
+~
+0 0 10594
+S
+#10598
+A fallen Tombstone by the Wall~
+The Tombstone here has fallen, and created an indentation in the ground from 
+its great fall.  The blood on the Tombstone does not appear as fresh as on
+some of the others, but despite that, it is still there.  The humming of the
+stone makes you uncomfortable.  You really would like to leave now.
+~
+0 0 0
+D1
+~
+~
+0 0 10599
+D2
+~
+~
+0 0 10595
+D3
+~
+~
+0 0 10597
+S
+#10599
+A Tombstone in a bend of the Wall~
+This Tombstone is tucked in the corner of the Tomb Wall, almost as if it's 
+trying to peer out over the Wall.  It is covered in blood stains, some of
+that blood looks really fresh.  You're not comfortable here, as you have
+been in some other corners.  Although you may be somewhat hidden from the eyes
+of Arha, you are not hidden fron the anger of the Nameless Ones.
+~
+0 0 2
+D2
+~
+~
+0 0 10596
+D3
+~
+~
+0 0 10598
+S
+#0
+
+
+
+#SPECIALS
+M 10502 spec_cast_undead Load to: the howling wind
+M 10508 spec_cast_cleric Load to: a priestess of the Godking
+M 10510 spec_cast_cleric Load to: a priestess of the God-Brothers
+M 10511 spec_cast_cleric Load to: a priestess of the Nameless Ones
+S
+
+
+
+#RESETS
+D 0 10525 1 0
+D 0 10531 1 0
+D 0 10533 3 0
+M 0 10512 8 10500
+M 0 10500 15 10501
+M 0 10500 15 10502
+M 0 10500 15 10502
+M 0 10512 8 10503
+O 0 10500 0 10505
+M 0 10500 15 10505
+M 0 10500 15 10505
+M 0 10500 15 10506
+M 0 10500 15 10507
+M 0 10500 15 10507
+O 0 10501 0 10507
+M 0 10512 8 10508
+M 0 10500 15 10509
+M 0 10512 8 10509
+M 0 10507 15 10511
+E 0 10521 0 17
+M 0 10503 30 10512
+E 0 10519 0 17
+M 0 10510 2 10515
+E 0 10523 0 12
+O 0 10501 0 10515
+M 0 10503 30 10516
+M 0 10510 2 10518
+E 0 10523 0 12
+M 0 10507 15 10518
+E 0 10521 0 17
+M 0 10503 30 10519
+E 0 10520 0 17
+M 0 10507 15 10519
+M 0 10503 30 10520
+M 0 10507 15 10521
+E 0 10521 0 17
+O 0 10502 0 10521
+M 0 10503 30 10523
+E 0 10520 0 17
+O 0 10502 0 10523
+M 0 10507 15 10523
+M 0 10507 15 10524
+E 0 10521 0 17
+M 0 10503 30 10526
+E 0 10520 0 17
+M 0 10504 15 10528
+M 0 10503 30 10528
+E 0 10519 0 17
+M 0 10507 15 10530
+E 0 10521 0 17
+M 0 10503 30 10531
+M 0 10504 15 10532
+M 0 10501 5 10533
+E 0 10514 0 3
+M 0 10501 5 10533
+E 0 10514 0 3
+M 0 10504 15 10534
+M 0 10501 5 10535
+E 0 10514 0 3
+M 0 10501 5 10535
+E 0 10514 0 3
+M 0 10501 5 10535
+E 0 10514 0 3
+M 0 10507 15 10536
+E 0 10521 0 17
+M 0 10504 15 10538
+M 0 10507 15 10539
+E 0 10521 0 17
+M 0 10506 15 10539
+M 0 10504 5 10540
+O 0 10503 0 10540
+O 0 10503 0 10540
+M 0 10507 15 10541
+E 0 10521 0 17
+O 0 10504 0 10541
+O 0 10502 0 10542
+M 0 10503 30 10545
+E 0 10519 0 17
+M 0 10503 30 10546
+E 0 10519 0 17
+M 0 10503 30 10547
+E 0 10520 0 17
+M 0 10509 5 10549
+G 0 10525 0
+M 0 10503 30 10549
+E 0 10520 0 17
+M 0 10503 30 10550
+M 0 10511 2 10551
+E 0 10524 0 3
+M 0 10503 30 10552
+E 0 10520 0 17
+M 0 10511 2 10553
+E 0 10524 0 3
+M 0 10503 30 10553
+O 0 10505 0 10554
+M 0 10503 30 10557
+M 0 10504 5 10559
+G 0 10506 0
+M 0 10503 30 10559
+E 0 10520 0 17
+O 0 10507 0 10559
+M 0 10504 5 10560
+O 0 10506 0 10560
+M 0 10503 30 10561
+E 0 10520 0 17
+M 0 10508 2 10562
+E 0 10522 0 12
+M 0 10506 15 10562
+M 0 10506 15 10562
+M 0 10503 30 10566
+E 0 10520 0 17
+M 0 10504 15 10567
+M 0 10504 15 10569
+M 0 10503 30 10570
+E 0 10519 0 17
+M 0 10508 2 10572
+M 0 10506 15 10574
+M 0 10503 30 10574
+E 0 10520 0 17
+M 0 10503 30 10575
+E 0 10519 0 17
+M 0 10509 5 10576
+G 0 10525 0
+M 0 10509 5 10577
+G 0 10525 0
+M 0 10503 30 10577
+E 0 10520 0 17
+M 0 10503 30 10578
+M 0 10503 30 10579
+E 0 10520 0 17
+M 0 10503 30 10580
+E 0 10519 0 17
+M 0 10505 10 10581
+O 0 10508 0 10581
+P 0 10510 0 10508
+M 0 10505 10 10582
+O 0 10508 0 10582
+P 0 10509 0 10508
+O 0 10508 0 10583
+P 0 10511 0 10508
+M 0 10505 10 10583
+M 0 10505 10 10583
+O 0 10508 0 10584
+P 0 10512 0 10508
+M 0 10505 10 10584
+O 0 10508 0 10585
+P 0 10513 0 10508
+M 0 10505 10 10585
+M 0 10505 10 10585
+M 0 10507 40 10586
+E 0 10521 0 17
+M 0 10506 15 10588
+O 0 10516 0 10590
+M 0 10502 8 10590
+O 0 10515 0 10591
+O 0 10515 0 10592
+M 0 10502 8 10592
+O 0 10515 0 10594
+M 0 10502 8 10594
+M 0 10502 8 10595
+O 0 10518 0 10595
+O 0 10517 0 10596
+M 0 10502 8 10596
+O 0 10516 0 10597
+M 0 10502 8 10597
+O 0 10517 0 10598
+M 0 10502 8 10598
+O 0 10515 0 10599
+M 0 10502 8 10599
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

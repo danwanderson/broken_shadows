@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -66,20 +66,22 @@
 
 */
 
-#define L_IMM R9
+#define L_SUP (MAX_LEVEL - 1) /* if not already defined */
+#define L_IMM LEVEL_IMMORTAL
+#define L_HER LEVEL_HERO
 
 BOARD_DATA boards[MAX_BOARD] =
 {
 
-	{ "General",    "General discussion",            0,     0,     "all", 
+	{ "General",    "General discussion",            0,     2,     "all", 
 		DEF_INCLUDE, 21, NULL, FALSE },
-	{ "Ideas",      "Suggestion for improvement",    0,     0,     "all", 
+	{ "Ideas",      "Suggestion for improvement",    0,     2,     "all", 
 		DEF_NORMAL,  60, NULL, FALSE },
 	{ "Announce",   "Announcements from Immortals",  0,     L_IMM, "all", 
 		DEF_NORMAL,  60, NULL, FALSE },
-	{ "Bugs",   "Typos, bugs, errors",               0,     0,     "imm", 
+	{ "Bugs",   "Typos, bugs, errors",               0,     1,     "imm", 
 		DEF_NORMAL,  60, NULL, FALSE },
-	{ "Personal",   "Personal messages",             0,     0,     "all", 
+	{ "Personal",   "Personal messages",             0,     1,     "all", 
 		DEF_EXCLUDE, 28, NULL, FALSE },
 	{ "Penalties",  "Penalties",                     0,     L_IMM, "imm",
 		DEF_NORMAL,  60, NULL, FALSE },
@@ -260,7 +262,7 @@ static void save_board (BOARD_DATA *board)
 {
     FILE *fp;
     char filename[200];
-    char buf[MAX_STRING_LENGTH];
+    char buf[200];
     NOTE_DATA *note;
 
     sprintf (filename, "%s%s", NOTE_DIR, board->short_name);
@@ -459,7 +461,7 @@ bool is_note_to (CHAR_DATA *ch, NOTE_DATA *note)
         is_name ("immortals", note->to_list)))
         return TRUE;
 
-    if ((char_getImmRank(ch) == MAX_RANK) && (
+    if ((get_trust(ch) == MAX_LEVEL) && (
         is_name ("imp", note->to_list) ||
         is_name ("imps", note->to_list) ||
         is_name ("implementor", note->to_list) ||
@@ -470,7 +472,7 @@ bool is_note_to (CHAR_DATA *ch, NOTE_DATA *note)
         return TRUE;
 
     /* Allow a note to e.g. 40 to send to characters level 40 and above */
-    if (is_number(note->to_list) && char_getImmRank( ch ) >= atoi(note->to_list))
+    if (is_number(note->to_list) && get_trust(ch) >= atoi(note->to_list))
         return TRUE;
 
     return FALSE;
@@ -484,7 +486,7 @@ int unread_notes (CHAR_DATA *ch, BOARD_DATA *board)
     time_t last_read;
     int count = 0;
 
-    if (board->read_level > char_getImmRank(ch))
+    if (board->read_level > get_trust(ch))
         return BOARD_NOACCESS;
 
     last_read = ch->pcdata->last_note[board_number(board)];
@@ -509,7 +511,7 @@ static void do_nwrite (CHAR_DATA *ch, char *argument)
     if (IS_NPC(ch)) /* NPC cannot post notes */
         return;
 
-    if (char_getImmRank(ch) < ch->pcdata->board->write_level)
+    if (get_trust(ch) < ch->pcdata->board->write_level)
     {
         send_to_char ("You cannot post notes on this board.\n\r",ch);
         return;
@@ -673,7 +675,7 @@ static void do_nremove (CHAR_DATA *ch, char *argument)
         return;
     }
 
-    if (str_cmp(ch->name,p->sender) && (char_getImmRank(ch) < MAX_RANK))
+    if (str_cmp(ch->name,p->sender) && (get_trust(ch) < MAX_LEVEL))
     {
         send_to_char ("You are not authorized to remove this note.\n\r",ch);
         return;
@@ -748,7 +750,7 @@ static void do_ncatchup (CHAR_DATA *ch, char *argument)
     else
     {
         ch->pcdata->last_note[board_number(ch->pcdata->board)] = p->date_stamp;
-        send_to_char ("All messages skipped.\n\r",ch);
+        send_to_char ("All mesages skipped.\n\r",ch);
     }
 }
 
@@ -823,9 +825,9 @@ void do_board (CHAR_DATA *ch, char *argument)
         send_to_char (buf,ch);
 
         /* Inform of rights */
-        if (ch->pcdata->board->read_level > char_getImmRank(ch))
+        if (ch->pcdata->board->read_level > get_trust(ch))
             send_to_char ("You cannot read nor write notes on this board.\n\r",ch);
-        else if (ch->pcdata->board->write_level > char_getImmRank(ch))
+        else if (ch->pcdata->board->write_level > get_trust(ch))
             send_to_char ("You can only read notes from this board.\n\r",ch);
         else
             send_to_char ("You can both read and write on this board.\n\r",ch);
@@ -853,7 +855,7 @@ void do_board (CHAR_DATA *ch, char *argument)
         {
             ch->pcdata->board = &boards[i];
             sprintf (buf, "Current board changed to `C%s`w. %s.\n\r",boards[i].short_name,
-                (char_getImmRank(ch) < boards[i].write_level)
+                (get_trust(ch) < boards[i].write_level)
                 ? "You can only read here"
                 : "You can both read and write here");
             send_to_char (buf,ch);
@@ -885,7 +887,7 @@ void do_board (CHAR_DATA *ch, char *argument)
 
     ch->pcdata->board = &boards[i];
     sprintf (buf, "Current board changed to `C%s`w. %s.\n\r",boards[i].short_name,
-                  (char_getImmRank(ch) < boards[i].write_level)
+                  (get_trust(ch) < boards[i].write_level)
                   ? "You can only read here"
                   : "You can both read and write here");
     send_to_char (buf,ch);

@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
-////
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
+////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -95,7 +95,7 @@ const   char    go_ahead_str    [] = { IAC, GA, '\0' };
 #if     defined(linux)
 
 int     close           ( int fd );
-int     gettimeofday    ( struct timeval *tp, void *__restrict tzp );
+//int     gettimeofday    ( struct timeval *tp, struct timezone *tzp );
 //int     read            ( int fd, char *buf, int nbyte );
 int     select          ( int width, fd_set *readfds, fd_set *writefds,
                             fd_set *exceptfds, struct timeval *timeout );
@@ -136,7 +136,7 @@ DESCRIPTOR_DATA *   d_next;             /* Next descriptor in loop      */
 FILE *              fpReserve;          /* Reserved file handle         */
 bool                merc_down;          /* Shutdown                     */
 bool                wizlock;            /* Game is wizlocked            */
-bool                newlock = FALSE;            /* Game is newlocked            */
+bool                newlock;            /* Game is newlocked            */
 bool                chaos;              /* Game in CHAOS!               */
 bool				DEBUG;				/* game is in debug mode */
 char                str_boot_time[MAX_INPUT_LENGTH];
@@ -146,7 +146,7 @@ time_t              current_time;       /* time of this pulse */
  * OS-dependent local functions.
  */
 void    game_loop               ( int control );
-int     init_socket             ( int port );
+int     init_socket             ( int port ); 
 void    new_descriptor          ( int control );
 bool    read_from_descriptor    ( DESCRIPTOR_DATA *d, bool color );
 bool    write_to_descriptor     ( int desc, char *txt, int length, bool color);
@@ -315,7 +315,7 @@ void game_loop( int control )
     current_time = (time_t) last_time.tv_sec;
 
 	if ( geteuid() == 0 ) {
-		setuid( getpwnam( "shadows" )->pw_uid );
+		setuid( getpwnam( "dwa" )->pw_uid );
 	}
 
     /* Main loop */
@@ -365,7 +365,7 @@ void game_loop( int control )
             {
                 FD_CLR( d->descriptor, &in_set  );
                 FD_CLR( d->descriptor, &out_set );
-                if ( d->character )
+                if ( d->character && d->character->level > 1)
                     save_char_obj( d->character );
                 d->outtop       = 0;
                 close_socket( d );
@@ -392,7 +392,7 @@ void game_loop( int control )
                 if ( !read_from_descriptor( d, color ) )
                 {
                     FD_CLR( d->descriptor, &out_set );
-                    if ( d->character != NULL )
+                    if ( d->character != NULL && d->character->level > 1)
                         save_char_obj( d->character );
                     d->outtop   = 0;
                     close_socket( d );
@@ -451,7 +451,7 @@ void game_loop( int control )
             {
                 if ( !process_output( d, TRUE ) )
                 {
-                    if ( d->character != NULL )
+                    if ( d->character != NULL && d->character->level > 1)
                         save_char_obj( d->character );
                     d->outtop   = 0;
                     close_socket( d );
@@ -515,8 +515,7 @@ void init_descriptor( DESCRIPTOR_DATA *dnew, int desc)
 
     *dnew               = d_zero;
     dnew->descriptor    = desc;
-    dnew->connected     = CON_GET_NAME;
-    dnew->ansi          = TRUE;
+    dnew->connected     = CON_ANSI;
     dnew->showstr_head  = NULL;
     dnew->showstr_point = NULL;
     dnew->outsize       = 2000;
@@ -535,7 +534,7 @@ void new_descriptor( int control )
     struct sockaddr_in sock;
     struct hostent *from;
     int desc;
-    unsigned int size;
+    int size;
     bool color;
 
     buf[0] = '\0';
@@ -573,8 +572,7 @@ void new_descriptor( int control )
 
     *dnew               = d_zero;
     dnew->descriptor    = desc;
-    dnew->ansi          = TRUE;
-    dnew->connected     = CON_GET_NAME;
+    dnew->connected     = CON_ANSI;
     dnew->showstr_head  = NULL;
     dnew->showstr_point = NULL;
     dnew->outsize       = 2000;
@@ -607,7 +605,11 @@ void new_descriptor( int control )
         log_string( log_buf );
         from = gethostbyaddr( (char *) &sock.sin_addr,
             sizeof(sock.sin_addr), AF_INET );
-        dnew->host = str_dup( from ? from->h_name : buf );
+        if (from && (!str_cmp(from->h_name,"ursula.uoregon.edu")
+                 ||  !str_cmp(from->h_name,"monet.ucdavis.edu")))
+            dnew->host = str_dup("white.nextwork.rose-hulman.edu");
+        else
+            dnew->host = str_dup( from ? from->h_name : buf );
     }
 
     /*
@@ -641,19 +643,17 @@ void new_descriptor( int control )
     /*
      * Send the greeting.
      */
-
+/*
     {
         extern char * help_greeting;
         if ( help_greeting[0] == '.' )
-            write_to_descriptor( desc, help_greeting+1, 0, TRUE );
+            write_to_buffer( dnew, help_greeting+1, 0 );
         else
-            write_to_descriptor( desc, help_greeting, 0, TRUE );
+            write_to_buffer( dnew, help_greeting  , 0 );
     }
-
-
-/*
-	write_to_buffer( dnew, "\n\rDo you want ANSI color? [Y/n] ", 0 );
 */
+
+	write_to_buffer( dnew, "\n\rDo you want ANSI color? [Y/n] ", 0 );
 
     return;
 }
@@ -865,17 +865,17 @@ void read_from_buffer( DESCRIPTOR_DATA *d, bool color )
                 log_string( log_buf );
                 /* added by Rahl */
                 wiznet( log_buf, d->character, NULL, WIZ_SPAM, 0,
-                        char_getImmRank(d->character) );
+                        get_trust(d->character) );
                 if ( d->incomm[0] == '!' )
                 {
                     wiznet(d->inlast, d->character, NULL, WIZ_SPAM, 0,
-                        char_getImmRank(d->character) );
+                        get_trust(d->character) );
                     log_string( d->inlast );
                 }
                 else
                 {
                     wiznet(d->incomm, d->character, NULL, WIZ_SPAM, 0,
-                        char_getImmRank(d->character) );
+                        get_trust(d->character) );
                     log_string( d->incomm );
                 }
                 d->repeat = 0;
@@ -920,75 +920,68 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
     /*
      * Bust a prompt.
      */
-    if ( ( d->character != NULL )
-	&& IS_SET( d->character->act, PLR_COLOR ) ) {
-		color = TRUE;
-    } else {
-        color = FALSE;
-	}
-
-    if ( !merc_down ) {
-        if ( d->showstr_point ) {
+    if ( (d->character != NULL) && IS_SET(d->character->act,PLR_COLOR))
+        color=TRUE;
+      else
+        color=FALSE;
+    if ( !merc_down ) 
+        if ( d->showstr_point )
             write_to_buffer( d, "`W[Hit Return to continue]\n\r`w", 0 );
-        } else if ( fPrompt && d->pString && d->connected == CON_PLAYING ) {
+        else if ( fPrompt && d->pString && d->connected == CON_PLAYING )
             write_to_buffer( d, "> ", 2 );
-        } else if ( fPrompt && d->connected == CON_PLAYING ) {
-	        CHAR_DATA *ch;
+        else if ( fPrompt && d->connected == CON_PLAYING )
+    {
+        CHAR_DATA *ch;
 
-        	ch = d->character;
-        	if ( IS_SET( ch->act, PLR_COLOR ) ) {
-            	color = TRUE;
-          	} else {
-            	color = FALSE;
-			}
+        ch = d->character;
+        if (IS_SET(ch->act,PLR_COLOR))
+            color=TRUE;
+          else
+            color=FALSE;
 
 
-        	ch = d->original ? d->original : d->character;
-        	if ( !IS_SET( ch->comm, COMM_COMPACT ) ) {
-            	write_to_buffer( d, "\n\r", 2 );
-			}
+        ch = d->original ? d->original : d->character;
+        if (!IS_SET(ch->comm, COMM_COMPACT) )
+            write_to_buffer( d, "\n\r", 2 );
 
-        	if ( IS_SET( ch->comm, COMM_PROMPT ) ) {
-	            BUFFER *buf = buffer_new( 200 );
+        if ( IS_SET(ch->comm, COMM_PROMPT) )
+        {
+            BUFFER *buf = buffer_new( 200 );
 
-    	        ch = d->character;
-        	    if ( !IS_NPC( ch ) ) {
-                	bprintf( buf, "%s`w", doparseprompt(ch));
-            	} else {
-					bprintf( buf, "<H%d/%d M%d/%d V%d/%d> ",
-                		ch->hit, ch->max_hit,
-                		ch->mana, ch->max_mana, ch->move, ch->max_move );
-				}
-            	write_to_buffer( d, buf->data, 0 );
-            	buffer_free( buf );
+            ch = d->character;
+            if (!IS_NPC(ch))
+            {
+                bprintf( buf, "%s`w", doparseprompt(ch));
+            }
+            else bprintf( buf, "<H%d/%d M%d/%d V%d/%d> ",
+                ch->hit, ch->max_hit,
+                ch->mana, ch->max_mana, ch->move, ch->max_move );
+            write_to_buffer( d, buf->data, 0 );
+            buffer_free( buf );
+            if ( ch->prefix[0] != '\0' )
+            {
+                write_to_buffer( d, ch->prefix, 0 );
+                write_to_buffer( d, " ", 0 );
+            }
+        }
 
-            	if ( ch->prefix[0] != '\0' ) {
-	                write_to_buffer( d, ch->prefix, 0 );
-   		            write_to_buffer( d, " ", 0 );
-            	}
-        	}
-
-        	if ( IS_SET( ch->comm, COMM_TELNET_GA ) ) {
-            	write_to_buffer( d, go_ahead_str, 0 );
-			}
-    	}
-	}
+        if (IS_SET(ch->comm,COMM_TELNET_GA))
+            write_to_buffer(d,go_ahead_str,0);
+    }
 
     /*
      * Short-circuit if nothing to write.
      */
-    if ( d->outtop == 0 ) {
+    if ( d->outtop == 0 )
         return TRUE;
-	}
 
     /*
      * Snoop-o-rama.
      */
-    if ( d->snoop_by != NULL ) {
-        if ( d->character != NULL ) {
-            write_to_buffer( d->snoop_by, d->character->name, 0 );
-		}
-
+    if ( d->snoop_by != NULL )
+    {
+        if (d->character != NULL)
+            write_to_buffer( d->snoop_by, d->character->name,0);
         write_to_buffer( d->snoop_by, "> ", 2 );
         write_to_buffer( d->snoop_by, d->outbuf, d->outtop );
     }
@@ -996,13 +989,17 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
     /*
      * OS-dependent output.
      */
-    if ( !write_to_descriptor( d->descriptor, d->outbuf, d->outtop , color ) ) {
+    if ( !write_to_descriptor( d->descriptor, d->outbuf, d->outtop , color) )
+    {
         d->outtop = 0;
         return FALSE;
-    } else {
+    }
+    else
+    {
         d->outtop = 0;
         return TRUE;
     }
+	
 }
 
 
@@ -1099,7 +1096,7 @@ bool write_to_descriptor( int desc, char *txt, int length , bool color)
  * Deal with sockets that haven't logged in yet.
  */
 void nanny( DESCRIPTOR_DATA *d, char *argument ) {
-    //CHAR_DATA *ch;
+    CHAR_DATA *ch;
 
     /* Delete leading spaces unless char is writing a note */
     if ( d->connected != CON_NOTE_TEXT )
@@ -1108,7 +1105,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument ) {
             argument++;
     }
 
-    //ch = d->character;
+    ch = d->character;
 
     switch ( d->connected ) {
 
@@ -1143,7 +1140,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument ) {
         	break;
 
 	    case CON_GET_NEW_RACE:
-			handle_con_get_new_race( d, argument );
+			handle_con_get_new_race( d, argument );	
         	break;
 
     	case CON_GET_NEW_SEX:
@@ -1153,6 +1150,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument ) {
 	    case CON_GET_STATS:
 			handle_con_get_stats( d, argument );
     	    break;
+
 
     	case CON_GET_NEW_CLASS:
 			handle_con_get_new_class( d, argument );
@@ -1172,6 +1170,10 @@ void nanny( DESCRIPTOR_DATA *d, char *argument ) {
 
     	case CON_GEN_GROUPS:
 			handle_con_gen_groups( d, argument );
+        	break;
+
+    	case CON_BEGIN_REMORT:
+			handle_con_begin_remort( d, argument );
         	break;
 
 	    case CON_READ_IMOTD:
@@ -1224,7 +1226,7 @@ bool check_parse_name( char *name )
     /*
      * Reserved words.
      */
-    if ( is_exact_name( name, "all auto immortal self someone something the you fuck shit who admin default" )
+    if ( is_exact_name( name, "all auto immortal self someone something the you fuck shit" )
        || is_name(name, "fuck") || is_name(name, "shit") || is_name(name, "imm") )
         return FALSE;
 
@@ -1244,14 +1246,12 @@ bool check_parse_name( char *name )
      * Length restrictions.
      */
 
-    if ( strlen(name) <  2 ) {
+    if ( strlen(name) <  2 )
         return FALSE;
-    }
 
 
-    if ( strlen(name) > 12 ) {
+    if ( strlen(name) > 12 )
         return FALSE;
-    }
 
 	/*
  	 * Make sure someone isn't creating a char with the same name
@@ -1432,14 +1432,14 @@ void send_to_desc( char *txt, DESCRIPTOR_DATA *d )
 {
     if ( txt != NULL && d != NULL ) {
 		if ( d->ansi ) {
-        	write_to_descriptor( d->descriptor, txt, strlen(txt),
+        	write_to_descriptor( d->descriptor, txt, strlen(txt), 
 				TRUE );
 		} else {
-        	write_to_descriptor( d->descriptor, txt, strlen(txt),
+        	write_to_descriptor( d->descriptor, txt, strlen(txt), 
 				FALSE );
 		}
 	}
-
+		
     return;
 }
 
@@ -1470,8 +1470,10 @@ void show_string(struct descriptor_data *d, char *input)
     int show_lines;
 
     one_argument(input,buf);
-    if (buf[0] != '\0') {
-        if (d->showstr_head) {
+    if (buf[0] != '\0')
+    {
+        if (d->showstr_head)
+        {
             free_string(d->showstr_head);
             d->showstr_head = 0;
         }
@@ -1479,29 +1481,32 @@ void show_string(struct descriptor_data *d, char *input)
         return;
     }
 
-    if (d->character) {
+    if (d->character)
         show_lines = d->character->lines;
-    } else {
+    else
         show_lines = 0;
-    }
 
-    for (scan = buffer; ; scan++, d->showstr_point++) {
+    for (scan = buffer; ; scan++, d->showstr_point++)
+    {
         if (((*scan = *d->showstr_point) == '\n' || *scan == '\r')
-            && (toggle = -toggle) < 0) {
+            && (toggle = -toggle) < 0)
             lines++;
-        } else if (!*scan || (show_lines > 0 && lines >= show_lines)) {
+
+        else if (!*scan || (show_lines > 0 && lines >= show_lines))
+        {
             *scan = '\0';
             write_to_buffer(d,buffer,strlen(buffer));
-            /* I don't think this does anything */
-            for (chk = d->showstr_point; isspace(*chk); chk++) {
-                ;
-            }
-            if (!*chk) {
-                if (d->showstr_head) {
-                    free_string(d->showstr_head);
-                    d->showstr_head = 0;
+            for (chk = d->showstr_point; isspace(*chk); chk++);
+            {
+                if (!*chk)
+                {
+                    if (d->showstr_head)
+                    {
+                        free_string(d->showstr_head);
+                        d->showstr_head = 0;
+                    }
+                    d->showstr_point  = 0;
                 }
-                d->showstr_point  = 0;
             }
             return;
         }
@@ -1511,10 +1516,10 @@ void show_string(struct descriptor_data *d, char *input)
 
 
 /* quick sex fixer */
-void fix_sex(CHAR_DATA *ch) {
-    if (ch->sex < 0 || ch->sex > 2) {
+void fix_sex(CHAR_DATA *ch)
+{
+    if (ch->sex < 0 || ch->sex > 2)
         ch->sex = IS_NPC(ch) ? 0 : ch->pcdata->true_sex;
-    }
 }
 
 void act (const char *format, CHAR_DATA *ch, const void *arg1, const void *arg2,
@@ -1547,113 +1552,117 @@ void act_new( const char *format, CHAR_DATA *ch, const void *arg1,
     /*
      * Discard null and zero-length messages.
      */
-    if ( format == NULL || format[0] == '\0' ) {
+    if ( format == NULL || format[0] == '\0' )
         return;
-    }
 
     /* discard null rooms and chars */
-    if (ch == NULL || ch->in_room == NULL) {
+    if (ch == NULL || ch->in_room == NULL)
         return;
-    }
 
     to = ch->in_room->people;
-    if ( type == TO_VICT ) {
-        if ( vch == NULL ) {
+    if ( type == TO_VICT )
+    {
+        if ( vch == NULL )
+        {
             bug( "Act: null vch with TO_VICT.", 0 );
             return;
         }
 
-        if (vch->in_room == NULL) {
+        if (vch->in_room == NULL)
             return;
-        }
 
         to = vch->in_room->people;
     }
 
-    for ( ; to != NULL; to = to->next_in_room ) {
-        if ( to->desc == NULL || to->position < min_pos ) {
+    for ( ; to != NULL; to = to->next_in_room )
+    {
+        if ( to->desc == NULL || to->position < min_pos )
             continue;
-        }
-        if ( type == TO_CHAR && to != ch ) {
+
+        if ( type == TO_CHAR && to != ch )
             continue;
-        }
-        if ( type == TO_VICT && ( to != vch || to == ch ) ) {
+        if ( type == TO_VICT && ( to != vch || to == ch ) )
             continue;
-        }
-        if ( type == TO_ROOM && to == ch ) {
+        if ( type == TO_ROOM && to == ch )
             continue;
-        }
-        if ( type == TO_NOTVICT && (to == ch || to == vch) ) {
+        if ( type == TO_NOTVICT && (to == ch || to == vch) )
             continue;
-        }
 
         point   = buf;
         str     = format;
-        while ( *str != '\0' ) {
-            if ( *str != '$' ) {
+        while ( *str != '\0' )
+        {
+            if ( *str != '$' )
+            {
                 *point++ = *str++;
                 continue;
             }
             ++str;
 
-            if ( arg2 == NULL && *str >= 'A' && *str <= 'Z' ) {
+            if ( arg2 == NULL && *str >= 'A' && *str <= 'Z' )
+            {
                 bug( "Act: missing arg2 for code %d.", *str );
                 i = " <@@@> ";
-            } else {
-                switch ( *str ) {
-                    default:  bug( "Act: bad code %d.", *str );
-                              i = " <@@@> ";                                break;
-                    /* Thx alex for 't' idea */
-                    case 't': i = (char *) arg1;                            break;
-                    case 'T': i = (char *) arg2;                            break;
-                    case 'n': i = PERS( ch,  to  );                         break;
-                    case 'N': i = PERS( vch, to  );                         break;
-                    case 'e': i = he_she  [URANGE(0, ch  ->sex, 2)];        break;
-                    case 'E': i = he_she  [URANGE(0, vch ->sex, 2)];        break;
-                    case 'm': i = him_her [URANGE(0, ch  ->sex, 2)];        break;
-                    case 'M': i = him_her [URANGE(0, vch ->sex, 2)];        break;
-                    case 's': i = his_her [URANGE(0, ch  ->sex, 2)];        break;
-                    case 'S': i = his_her [URANGE(0, vch ->sex, 2)];        break;
+            }
+            else
+            {
+                switch ( *str )
+                {
+                default:  bug( "Act: bad code %d.", *str );
+                          i = " <@@@> ";                                break;
+                /* Thx alex for 't' idea */
+                case 't': i = (char *) arg1;                            break;
+                case 'T': i = (char *) arg2;                            break;
+                case 'n': i = PERS( ch,  to  );                         break;
+                case 'N': i = PERS( vch, to  );                         break;
+                case 'e': i = he_she  [URANGE(0, ch  ->sex, 2)];        break;
+                case 'E': i = he_she  [URANGE(0, vch ->sex, 2)];        break;
+                case 'm': i = him_her [URANGE(0, ch  ->sex, 2)];        break;
+                case 'M': i = him_her [URANGE(0, vch ->sex, 2)];        break;
+                case 's': i = his_her [URANGE(0, ch  ->sex, 2)];        break;
+                case 'S': i = his_her [URANGE(0, vch ->sex, 2)];        break;
 
-                    case 'p':
-                        i = can_see_obj( to, obj1 )
-                                ? obj1->short_descr
-                                : "something";
-                        break;
+                case 'p':
+                    i = can_see_obj( to, obj1 )
+                            ? obj1->short_descr
+                            : "something";
+                    break;
 
-                    case 'P':
-                        i = can_see_obj( to, obj2 )
-                                ? obj2->short_descr
-                                : "something";
-                        break;
+                case 'P':
+                    i = can_see_obj( to, obj2 )
+                            ? obj2->short_descr
+                            : "something";
+                    break;
 
-                    case 'd':
-                        if ( arg2 == NULL || ((char *) arg2)[0] == '\0' ) {
-                            i = "door";
-                        } else {
-                            one_argument( (char *) arg2, fname );
-                            i = fname;
-                        }
-                        break;
+                case 'd':
+                    if ( arg2 == NULL || ((char *) arg2)[0] == '\0' )
+                    {
+                        i = "door";
+                    }
+                    else
+                    {
+                        one_argument( (char *) arg2, fname );
+                        i = fname;
+                    }
+                    break;
                 }
             }
 
             ++str;
-            while ( ( *point = *i ) != '\0' ) {
+            while ( ( *point = *i ) != '\0' )
                 ++point, ++i;
-            }
         }
 
         *point++ = '`';
         *point++ = 'w';
         *point++ = '\n';
         *point++ = '\r';
-        *point++ = '\0';
+        *point++ = '\0'; 
         buf[0]   = UPPER(buf[0]);
-        if (to->desc && (to->desc->connected == CON_PLAYING)) {
-           // write_to_buffer( to->desc, buf, point - buf );
-           write_to_buffer( to->desc, buf, 0 );
-        }
+            if (to->desc && (to->desc->connected == CON_PLAYING))
+               // write_to_buffer( to->desc, buf, point - buf );
+               write_to_buffer( to->desc, buf, 0 );
+
     }
     return;
 }
@@ -1666,8 +1675,10 @@ char *do_color(char *plaintext, bool color)
     bzero(color_text, sizeof(color_text));
     ct_point=color_text;
 
-    while ( *plaintext != '\0' ) {
-        if ( *plaintext != '`' ) {
+    while ( *plaintext != '\0' )
+    {
+        if ( *plaintext != '`' )
+        {
             *ct_point = *plaintext;
             ct_point++;
             plaintext++;
@@ -1675,8 +1686,9 @@ char *do_color(char *plaintext, bool color)
         }
         plaintext++;
 
-        if (!color) {
-            switch(*plaintext) {
+        if (!color)
+            switch(*plaintext)
+            {
                 case 'k':
                 case 'K':
                 case 'r':
@@ -1699,95 +1711,95 @@ char *do_color(char *plaintext, bool color)
                     strcat(color_text, "`");
                     ct_point++;
                     break;
-            } /* switch */
-        } else {
-            switch(*plaintext) {
-                case 'k':
-                    strcat(color_text, "[0;30m");
-                    ct_point+=7;
-                    plaintext++;
-                    break;
-                case 'K':
-                    strcat(color_text, "[1;30m");
-                    ct_point+=7;
-                    plaintext++;
-                    break;
-                case 'r':
-                    strcat(color_text, "[0;31m");
-                    ct_point+=7;
-                    plaintext++;
-                    break;
-                case 'R':
-                    strcat(color_text, "[1;31m");
-                    ct_point+=7;
-                    plaintext++;
-                    break;
-                case 'g':
-                    strcat(color_text, "[0;32m");
-                    ct_point+=7;
-                    plaintext++;
-                    break;
-                case 'G':
-                    strcat(color_text, "[1;32m");
-                    ct_point+=7;
-                    plaintext++;
-                    break;
-                case 'y':
-                    strcat(color_text, "[0;33m");
-                    ct_point+=7;
-                    plaintext++;
-                    break;
-                case 'Y':
-                    strcat(color_text, "[1;33m");
-                    ct_point+=7;
-                    plaintext++;
-                    break;
-                case 'b':
-                    strcat(color_text, "[0;34m");
-                    ct_point+=7;
-                    plaintext++;
-                    break;
-                case 'B':
-                    strcat(color_text, "[1;34m");
-                    ct_point+=7;
-                    plaintext++;
-                    break;
-                case 'm':
-                    strcat(color_text, "[0;35m");
-                    ct_point+=7;
-                    plaintext++;
-                    break;
-                case 'M':
-                    strcat(color_text, "[1;35m");
-                    ct_point+=7;
-                    plaintext++;
-                    break;
-                case 'c':
-                    strcat(color_text, "[0;36m");
-                    ct_point+=7;
-                    plaintext++;
-                    break;
-                case 'C':
-                    strcat(color_text, "[1;36m");
-                    ct_point+=7;
-                    plaintext++;
-                    break;
-                case 'w':
-                    strcat(color_text, "[0;37m");
-                    ct_point+=7;
-                    plaintext++;
-                    break;
-                case 'W':
-                    strcat(color_text, "[1;37m");
-                    ct_point+=7;
-                    plaintext++;
-                    break;
-                default:
-                    strcat(color_text, "`");
-                    ct_point++;
-                    break;
-            } /* switch */
-        } /* else */
+            }   /* switch */
+            else
+                switch(*plaintext)
+                {
+                    case 'k':
+                        strcat(color_text, "[0;30m");
+                        ct_point+=7;
+                        plaintext++;
+                        break;
+                    case 'K':
+                        strcat(color_text, "[1;30m");
+                        ct_point+=7;
+                        plaintext++;
+                        break;
+                    case 'r':
+                        strcat(color_text, "[0;31m");
+                        ct_point+=7;
+                        plaintext++;
+                        break;
+                    case 'R':
+                        strcat(color_text, "[1;31m");
+                        ct_point+=7;
+                        plaintext++;
+                        break;
+                    case 'g':
+                        strcat(color_text, "[0;32m");
+                        ct_point+=7;
+                        plaintext++;
+                        break;
+                    case 'G':
+                        strcat(color_text, "[1;32m");
+                        ct_point+=7;
+                        plaintext++;
+                        break;
+                    case 'y':
+                        strcat(color_text, "[0;33m");
+                        ct_point+=7;
+                        plaintext++;
+                        break;
+                    case 'Y':
+                        strcat(color_text, "[1;33m");
+                        ct_point+=7;
+                        plaintext++;
+                        break;
+                    case 'b':
+                        strcat(color_text, "[0;34m");
+                        ct_point+=7;
+                        plaintext++;
+                        break;
+                    case 'B':
+                        strcat(color_text, "[1;34m");
+                        ct_point+=7;
+                        plaintext++;
+                        break;
+                    case 'm':
+                        strcat(color_text, "[0;35m");
+                        ct_point+=7;
+                        plaintext++;
+                        break;
+                    case 'M':
+                        strcat(color_text, "[1;35m");
+                        ct_point+=7;
+                        plaintext++;
+                        break;
+                    case 'c':
+                        strcat(color_text, "[0;36m");
+                        ct_point+=7;
+                        plaintext++;
+                        break;
+                    case 'C':
+                        strcat(color_text, "[1;36m");
+                        ct_point+=7;
+                        plaintext++;
+                        break;
+                    case 'w':
+                        strcat(color_text, "[0;37m");
+                        ct_point+=7;
+                        plaintext++;
+                        break;
+                    case 'W':
+                        strcat(color_text, "[1;37m");
+                        ct_point+=7;
+                        plaintext++;
+                        break;
+                    default:
+                        strcat(color_text, "`");
+                        ct_point++;
+                        break;
+                } /* switch */
     }
     strcat(color_text, "[0m\0");
     return(color_text);
@@ -1840,7 +1852,7 @@ char *doparseprompt(CHAR_DATA *ch)
     char workstr[100];
     char *fp_point;
     char *orig_prompt;
-	char doors[32];
+	char doors[MAX_INPUT_LENGTH];
 	EXIT_DATA *pexit;
 	bool found;
 	const char *dir_name[] = {"N", "E", "S", "W", "U", "D"};
@@ -1970,9 +1982,8 @@ char *doparseprompt(CHAR_DATA *ch)
                     orig_prompt++;
                     break;
                 }
-                else {
+                else
                     break;
-                }
             case 'A':
                 if (IS_SET(ch->act,PLR_AFK))
                 {
@@ -2016,6 +2027,13 @@ char *doparseprompt(CHAR_DATA *ch)
                 break;
             case 'x':
                 sprintf(workstr, "%ld", ch->exp);
+                strcat(finished_prompt, workstr);
+                fp_point+=strlen(workstr);
+                orig_prompt++;
+                break;
+            case 'X':
+                sprintf(workstr, "%ld",
+                    exp_per_level(ch,ch->pcdata->points)-ch->exp);
                 strcat(finished_prompt, workstr);
                 fp_point+=strlen(workstr);
                 orig_prompt++;
@@ -2128,6 +2146,17 @@ void do_copyover (CHAR_DATA *ch, char * argument) {
             close_socket (d); /* throw'em out */
         } else {
             fprintf (fp, "%d %s %s\n", d->descriptor, och->name, d->host);
+            /* This is not necessary for ROM */
+        /*
+            if (och->level == 1) {
+                write_to_descriptor(d->descriptor,
+                    "Since you are level one, and level one characters do"
+                    " not save, you gain a free level!\n\r", 0, TRUE);
+                advance_level (och);
+                och->level++;
+            }
+        */
+
             save_char_obj (och);
 
             write_to_descriptor (d->descriptor, buf, 0, TRUE);

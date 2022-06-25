@@ -1,0 +1,147 @@
+#AREADATA
+Name        {xx-xx} Aphrodite Aphrodite's new area~
+Builders    Aphrodite~
+VNUMs       11300 11399
+Security    2
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#11300
+A Rabbit Hole~
+Ahead is a large rabbit hole. The hole is completely dark. You wonder what's inside...
+~
+0 0 0
+D5
+~
+~
+0 0 11301
+S
+#11301
+Inside the Hole~
+You seem to be falling, yet floating? What's going on?
+Then it hits you! (Not the floor, an idea). This reminds you
+of a movie you once saw called " Alice in Wonderland".
+You become very anxious to see what is at the bottom
+of this strange hole.
+~
+0 0 0
+D4
+~
+~
+0 0 11300
+S
+#11302
+Under A Large Wooden Table~
+You look up to see a huge piece of wood about a million
+miles above you. Ahead of you are two large wooden legs.
+Everything here is so small. Then you see a doorknob
+with a face to the north of you.
+~
+0 4 0
+S
+#11303
+In Front of A Talking Door~
+There is a tiny door in front of you and the doorknob has a face.
+The doorknob is actually talking. You start to think you ate too
+many vigorous herbs. But then you peek through the keyhole
+and see a whole other world beyond that door. One problem though.
+The door is locked, and this nasty little doorknob has the key.
+~
+0 4 0
+S
+#11304
+A New World~
+You open the small door and squint at the blinding sunlight. Ahead,
+you see a world of flowers and hills and, peacefulness. Then,
+out of absolutely nowhere, a giant white rabbit POPS up in
+front of you and scares you half out of your wits. He seems to be
+singing a strange song " I'm late, I'm late.." and stares intently at
+his gold round stopwatch. He runs off into the distance and you try to catch him.
+~
+0 4 0
+S
+#11305
+An Island in the Middle of Nowhere~
+Ok, now you KNOW you are going crazy. If you thought the talking rabbit
+was weird enough well..... Here you are....in the middle of nowhere and
+there are various animals running around in circles. Ok this you can get 
+used to. Suddenly, a blonde girl floats by, in a bottle! Geeze!
+~
+0 4 0
+S
+#11306
+In the forest~
+You are now wandering through a dark, dense, strange forest.
+The floor is not moist, in fact it feels like a linoleum floor, with a pink 
+and blue swirls pattern. Just looking down at it makes you awfully dizzy.
+You hear something in the trees. A bird, a squirrel? You wish!
+Congratualtions! You have just had your first confusing conversation
+with the Cheshire Cat!
+~
+0 4 0
+S
+#11307
+This way, or That?~
+The Cheshire Cat was no help to you at all. You are at a point in
+the fork in the road. You could go this way. Which has a warning. Or
+go that way. Which, well, just has a sign. You hear crying from this way.
+Yet you hear laughter and singing from that. Hmmm. Which way are you
+going to go down?
+~
+0 4 0
+S
+#11308
+That Way~
+It sounds like a glorious birthday party for some wonderful little girl.
+You walk towards ahead and see a whole bunch of smoke lingering
+over a long table with a white fence surrounding the area. You look down 
+to see a gate blocking you from all of the fun.
+~
+0 4 0
+S
+#11309
+This Way~
+The crying gets louder and louder. Yet, something draws you
+closer and closer to it. You see a small house up ahead. There is
+a warm and cozy look to it, with smoke coming out of the chimney. You
+think there is no way the crying could possibley come from
+such a happy place.
+~
+0 4 0
+S
+#0
+
+
+
+#RAFFECTS
+#0
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

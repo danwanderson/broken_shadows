@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -68,7 +68,8 @@ bool chance(int num)
 
 /* The main quest function */
 
-void do_quest(CHAR_DATA *ch, char *argument) {
+void do_quest(CHAR_DATA *ch, char *argument)
+{
     CHAR_DATA *questman;
     OBJ_DATA *obj=NULL, *obj_next;
     OBJ_INDEX_DATA *questinfoobj;
@@ -77,141 +78,162 @@ void do_quest(CHAR_DATA *ch, char *argument) {
     char arg1 [MAX_INPUT_LENGTH];
     char arg2 [MAX_INPUT_LENGTH];
     char arg3 [MAX_INPUT_LENGTH];
+    AFFECT_DATA af;
 
     argument = one_argument(argument, arg1);
     argument = one_argument(argument, arg2);
     argument = one_argument(argument, arg3);
 
-    if( IS_NPC( ch ) ) {
+    if( IS_NPC( ch ) )
+    {
         buffer_free( buf );
         return;
     }
 
-    if( !( arg3[0] == '\0') ) {
+    if( !( arg3[0] == '\0') )
+    {
         buffer_free( buf );
         return;
     }
 
-    if( IS_SET( ch->act, PLR_QUESTOR ) && ch->countdown == 0 ) {
-        REMOVE_BIT(ch->act,PLR_QUESTOR);
-	}
+    if(IS_SET(ch->act,PLR_QUESTOR) && ch->countdown == 0)
+      REMOVE_BIT(ch->act,PLR_QUESTOR);
 
-    if (arg1[0] == '\0') {
+    if (arg1[0] == '\0')
+    {
         send_to_char("QUEST commands: POINTS INFO TIME REQUEST COMPLETE "
-            "GIVEUP.\n\r",ch);
+            "LIST BUY GIVEUP.\n\r",ch);
         send_to_char("For more information, type 'HELP QUEST'.\n\r",ch);
         buffer_free( buf );
         return;
     }
 
-    if ( !str_prefix( arg1, "giveup" ) ) {
-        if ( IS_SET( ch->act, PLR_QUESTOR ) ) {
-            REMOVE_BIT( ch->act, PLR_QUESTOR );
+    if (!str_prefix(arg1, "giveup"))
+    {
+        if (IS_SET(ch->act, PLR_QUESTOR))
+        {
+            REMOVE_BIT(ch->act,PLR_QUESTOR);
             ch->nextquest = 10;
             ch->countdown = 0;
             ch->questmob = 0;
             ch->questgiver = NULL;
-            send_to_char("You have given up on your quest!\n\r",ch);
+            send_to_char("You have given up on your quest! Shame on"
+                " you!\n\r",ch);
             send_to_char("You must wait 10 minutes before you may quest"
                 " again.\n\r",ch);
             buffer_free( buf );
             return;
-        } else {
+        }
+        else
+        {
             send_to_char("You're not on a quest.\n\r",ch);
             buffer_free( buf );
             return;
         }
-    } // giveup
+    }
  
-    if ( !str_prefix( arg1, "info" ) ) {
-        if ( IS_SET( ch->act, PLR_QUESTOR ) ) {
-            if (ch->questmob == -1 && ch->questgiver->short_descr != NULL) {
+    if (!str_prefix(arg1, "info"))
+    {
+        if (IS_SET(ch->act, PLR_QUESTOR))
+        {
+            if (ch->questmob == -1 && ch->questgiver->short_descr != NULL)
+            {
                 bprintf(buf, "Your quest is ALMOST complete!\n\rGet back"
                     " to %s before your time runs out!\n\r",
                     ch->questgiver->short_descr);
                 send_to_char(buf->data, ch);
-            } else if ( ch->questobj > 0 ) {
-                questinfoobj = get_obj_index( ch->questobj );
-                if ( questinfoobj != NULL ) {
+            }
+            else if (ch->questobj > 0)
+            {
+                questinfoobj = get_obj_index(ch->questobj);
+                if (questinfoobj != NULL)
+                {
                     /* was name */
                     bprintf(buf, "You are on a quest to recover the fabled"
                         " %s!\n\r", questinfoobj->short_descr);
                     send_to_char(buf->data, ch);
-                } else {
+                }
+                else 
                     send_to_char("You aren't currently on a quest.\n\r",
                         ch);
-				}
                 buffer_free( buf );
                 return;
-            } else if ( ch->questmob > 0 ) {
+            }
+            else if (ch->questmob > 0)
+            {
                 questinfo = get_mob_index(ch->questmob);
-                if ( questinfo != NULL ) {
+                if (questinfo != NULL)
+                {
                     bprintf(buf, "You are on a quest to slay the dreaded"
                         " %s!\n\r", questinfo->short_descr);
                     send_to_char(buf->data, ch);
-                } else {
-					send_to_char("You aren't currently on a quest.\n\r",
+                }
+                else 
+                    send_to_char("You aren't currently on a quest.\n\r",
                         ch);
-				}
                 buffer_free( buf );
                 return;
             }
-        } else {
-            send_to_char( "You aren't currently on a quest.\n\r", ch );
-		}
-        buffer_free( buf );
-        return;
-    } // info
-
-    if ( !str_prefix( arg1, "points" ) ) {
-        bprintf( buf, "You have %d quest points.\n\r", ch->questpoints );
-        send_to_char( buf->data, ch );
+        }
+        else
+            send_to_char("You aren't currently on a quest.\n\r",ch);
         buffer_free( buf );
         return;
     }
-
-    if ( !str_prefix( arg1, "time" ) ) {
-        if ( !IS_SET( ch->act, PLR_QUESTOR ) ) {
-            send_to_char( "You aren't currently on a quest.\n\r", ch );
-            if ( ch->nextquest > 1 ) {
-                bprintf( buf, "There are %d minutes remaining until you can" 
-                    " go on another quest.\n\r", ch->nextquest );
+    if (!str_prefix(arg1, "points"))
+    {
+        bprintf(buf, "You have %d quest points.\n\r",ch->questpoints);
+        send_to_char(buf->data, ch);
+        buffer_free( buf );
+        return;
+    }
+    else if (!str_prefix(arg1, "time"))
+    {
+        if (!IS_SET(ch->act, PLR_QUESTOR))
+        {
+            send_to_char("You aren't currently on a quest.\n\r",ch);
+            if (ch->nextquest > 1)
+            {
+                bprintf(buf, "There are %d minutes remaining until you can" 
+                    " go on another quest.\n\r",ch->nextquest);
                 send_to_char(buf->data, ch);
-            } else if ( ch->nextquest == 1 ) {
-                bprintf( buf, "There is less than a minute remaining until"
-                    " you can go on another quest.\n\r" );
-                send_to_char( buf->data, ch );
             }
-        } else if ( ch->countdown > 0 ) {
-            bprintf( buf, "Time left for current quest: %d\n\r", 
-                ch->countdown );
-            send_to_char( buf->data, ch );
+            else if (ch->nextquest == 1)
+            {
+                bprintf(buf, "There is less than a minute remaining until"
+                    " you can go on another quest.\n\r");
+                send_to_char(buf->data, ch);
+            }
+        }
+        else if (ch->countdown > 0)
+        {
+            bprintf(buf, "Time left for current quest: %d\n\r", 
+                ch->countdown);
+            send_to_char(buf->data, ch);
         }
         buffer_free( buf );
         return;
-    } // time
+    }
 
 /* Checks for a character in the room with spec_questmaster set. This special
    procedure must be defined in special.c. You could instead use an
    ACT_QUESTMASTER flag instead of a special procedure. */
 
-    for ( questman = ch->in_room->people; questman != NULL; questman = questman->next_in_room) {
-        if ( !IS_NPC( questman ) ) {
-			continue;
-		}
-
-        if ( questman->spec_fun == spec_lookup( "spec_questmaster" ) ) {
-			break;
-		}
+    for ( questman = ch->in_room->people; questman != NULL; questman = questman->next_in_room)
+    {
+        if (!IS_NPC(questman)) continue;
+        if (questman->spec_fun == spec_lookup( "spec_questmaster" )) break;
     }
 
-    if ( questman == NULL || questman->spec_fun != spec_lookup( "spec_questmaster" ) ) {
+    if (questman == NULL || questman->spec_fun != spec_lookup( "spec_questmaster"))
+    {
         send_to_char("You can't do that here.\n\r",ch);
         buffer_free( buf );
         return;
     }
 
-    if ( questman->fighting != NULL) {
+    if ( questman->fighting != NULL)
+    {
         send_to_char("Wait until the fighting stops.\n\r",ch);
         buffer_free( buf );
         return;
@@ -219,18 +241,232 @@ void do_quest(CHAR_DATA *ch, char *argument) {
 
     ch->questgiver = questman;
 
-    if ( !str_prefix(arg1, "request" ) ) {
+/* And, of course, you will need to change the following lines for YOUR
+   quest item information. Quest items on Moongate are unbalanced, very
+   very nice items, and no one has one yet, because it takes awhile to
+   build up quest points :> Make the item worth their while. */
+
+    if (!str_prefix(arg1, "list"))
+    {
+        act( "$n asks $N for a list of quest items.", ch, NULL, questman, TO_ROOM);
+        act ("You ask $N for a list of quest items.",ch, NULL, questman, TO_CHAR);
+        bprintf(buf, "Current Quest Items available for Purchase:\n\r\
+1000qp.........Blade of `KNightmares`w\n\r\
+900qp..........`KBlack`w Plate\n\r\
+800qp..........Shield of `KShadows`w\n\r\
+700qp..........Cloak of `KDreams`w\n\r\
+600qp..........Amulet of `KDarkness`w\n\r\
+700qp..........30 Practices\n\r\
+600qp..........50,000 gold pieces\n\r\
+To buy an item, type 'QUEST BUY <item>'.\n\r");
+        send_to_char(buf->data, ch);
+        buffer_free( buf );
+        return;
+    }
+
+    else if (!str_prefix(arg1, "buy"))
+    {
+        if (arg2[0] == '\0')
+        {
+            send_to_char("To buy an item, type 'QUEST BUY <item>'.\n\r",ch);
+            buffer_free( buf );
+            return;
+        }
+        if (is_name(arg2, "blade"))
+        {
+            if ((ch->questpoints >= 1000) && (ch->level >= 40))
+            {
+                ch->questpoints -= 1000;
+                obj = create_object(get_obj_index(QUEST_ITEM1),ch->level);
+                obj->value[1] = 5;
+                obj->value[2] = ( ch->level / 4 );
+                obj->level = ch->level;
+
+                af.where = TO_OBJECT;
+                af.type = 0;
+                af.level = questman->level;
+                af.duration = -1;
+                af.location = APPLY_HITROLL;
+                af.modifier = number_fuzzy( ch->level / 10 );
+                af.bitvector = ITEM_MAGIC;
+                affect_to_obj( obj, &af );
+
+                af.location = APPLY_DAMROLL;
+                af.modifier = number_fuzzy( ( ch->level / 10 ) * 2 );
+                affect_to_obj( obj, &af );
+            }
+            else
+            {
+                bprintf(buf, "Sorry, %s, but you can't have that right"
+                    " now.",ch->name);
+                do_say(questman,buf->data);
+                buffer_free( buf );
+                return;
+            }
+        }
+        else if (is_name(arg2, "plate"))
+        {
+            if ((ch->questpoints >= 900) && (ch->level >=30))
+            {
+                ch->questpoints -= 900;
+                obj = create_object(get_obj_index(QUEST_ITEM2),ch->level);
+                obj->level = ch->level;
+                obj->value[0] = ch->level / 3;
+                obj->value[1] = ch->level / 3;
+                obj->value[2] = ch->level / 3;
+                obj->value[3] = ch->level / 4;
+
+                add_random_apply( ch, obj );
+            }
+            else
+            {
+                bprintf(buf, "Sorry, %s, but you can't have that right now.", 
+                    ch->name);
+                do_say(questman,buf->data);
+                buffer_free( buf );
+                return;
+            }
+        }
+        else if (is_name(arg2, "shield"))
+        {
+            if ((ch->questpoints >= 800) && (ch->level >= 20))
+            {
+                ch->questpoints -= 800;
+                obj = create_object(get_obj_index(QUEST_ITEM3),ch->level);
+                obj->level = ch->level;
+                obj->value[0] = ch->level / 3.5;
+                obj->value[1] = ch->level / 3.5;
+                obj->value[2] = ch->level / 3.5;
+                obj->value[3] = ch->level / 4;
+
+                add_random_apply( ch, obj );
+            }
+            else
+            {
+                bprintf(buf, "Sorry, %s, but you can't have that right now.",
+                    ch->name);
+                do_say(questman,buf->data);
+                buffer_free( buf );
+                return;
+            }
+        }
+        else if (is_name(arg2, "cloak"))
+        {
+            if ((ch->questpoints >= 700) && (ch->level >= 10))
+            {
+                ch->questpoints -= 700;
+                obj = create_object(get_obj_index(QUEST_ITEM4),ch->level);
+                obj->level = ch->level;
+                obj->value[0] = ch->level/3 + 5;
+                obj->value[1] = ch->level/3;
+                obj->value[2] = ch->level/3;
+                obj->value[3] = ch->level/3 - 2;
+        
+                add_random_apply( ch, obj );
+            }
+            else
+            {
+                bprintf(buf, "Sorry, %s, but you can't have that right now.",
+                    ch->name);
+                do_say(questman,buf->data);
+                buffer_free( buf );
+                return;
+            }
+        }
+        else if (is_name(arg2, "amulet"))
+        {
+            if ((ch->questpoints >= 600) && (ch->level >= 10))
+            {
+                ch->questpoints -= 600;
+                obj = create_object(get_obj_index(QUEST_ITEM5),ch->level);
+                obj->level = ch->level;
+                obj->value[0] = ch->level/4 + 3;
+                obj->value[1] = ch->level/4 + 1;
+                obj->value[2] = ch->level/4 + 1;
+                obj->value[3] = ch->level/4;
+
+                add_random_apply( ch, obj );
+            }
+            else
+            {
+                bprintf(buf, "Sorry, %s, but you can't have that right now.",
+                    ch->name);
+                do_say(questman,buf->data);
+                buffer_free( buf );
+                return;
+            }
+        }
+        else if (is_name(arg2, "practices pracs prac practice"))
+        {
+            if (ch->questpoints >= 700)
+            {
+                ch->questpoints -= 700;
+                ch->practice += 30;
+                act( "$N gives 30 practices to $n.", ch, NULL, questman, 
+                    TO_ROOM);
+                act( "$N gives you 30 practices.",   ch, NULL, questman, 
+                    TO_CHAR);
+                buffer_free( buf );
+                return;
+            }
+            else
+            {
+                bprintf(buf, "Sorry, %s, but you don't have enough quest"
+                    " points for that.", ch->name);
+                do_say(questman,buf->data);
+                buffer_free( buf );
+                return;
+            }
+        }
+        else if (is_name(arg2, "gold gp"))
+        {
+            if (ch->questpoints >= 600)
+            {
+                ch->questpoints -= 600;
+                ch->gold += 50000;
+                act( "$N gives 50,000 gold pieces to $n.", ch, NULL,
+                        questman, TO_ROOM);
+                act( "$N has 50,000 in gold transfered from $s Swiss account"
+                    " to your balance.",ch,NULL,questman,TO_CHAR);
+                buffer_free( buf );
+                return;
+            }
+            else
+            {
+                bprintf(buf, "Sorry, %s, but you don't have enough quest"
+                    " points for that.", ch->name);
+                do_say(questman,buf->data);
+                buffer_free( buf );
+                return;
+            }
+        }
+        else
+        {
+            bprintf(buf, "I don't have that item, %s.",ch->name);
+            do_say(questman, buf->data);
+        }
+        if (obj != NULL)
+        {
+            act( "$N gives $p to $n.", ch, obj, questman, TO_ROOM );
+            act( "$N gives you $p.",   ch, obj, questman, TO_CHAR );
+            obj_to_char(obj, ch);
+        }
+        buffer_free( buf );
+        return;
+    }
+    else if (!str_prefix(arg1, "request"))
+    {
         act( "$n asks $N for a quest.", ch, NULL, questman, TO_ROOM);
         act ("You ask $N for a quest.",ch, NULL, questman, TO_CHAR);
-
-        if ( IS_SET( ch->act, PLR_QUESTOR ) ) {
+        if (IS_SET(ch->act, PLR_QUESTOR))
+        {
             bprintf(buf, "But you're already on a quest!");
             do_say(questman, buf->data);
             buffer_free( buf );
             return;
         }
-
-        if ( ch->nextquest > 0 ) {
+        if (ch->nextquest > 0)
+        {
             bprintf(buf, "You're very brave, %s, but let someone else have" 
                 " a chance.", ch->name);
             do_say(questman, buf->data);
@@ -239,8 +475,8 @@ void do_quest(CHAR_DATA *ch, char *argument) {
             buffer_free( buf );
             return;
         }
-
-        if ( IS_IMMORTAL( ch ) ) {
+        if ( IS_IMMORTAL( ch ) )
+        {
             bprintf( buf, "I humble myself before you, %s, but I'm afraid"
                 " I have nothing worthy of your attention.", ch->name );
             do_say( questman, buf->data );
@@ -249,59 +485,68 @@ void do_quest(CHAR_DATA *ch, char *argument) {
         }
 
         bprintf(buf, "Thank you, brave %s!",ch->name);
-        do_say( questman, buf->data );
+        do_say(questman, buf->data);
         ch->questmob = 0;
         ch->questobj = 0;
 
         generate_quest(ch, questman);
 
-        if ( ( ch->questmob > 0 ) || ( ch->questobj > 0 ) ) {
-            ch->countdown = number_range( 10, 30 );
-            SET_BIT( ch->act, PLR_QUESTOR );
-            bprintf( buf, "You have %d minutes to complete this quest.",
-                ch->countdown );
-            do_say( questman, buf->data );
-            bprintf( buf, "May the gods go with you!" );
-            do_say( questman, buf->data );
+        if (ch->questmob > 0 || ch->questobj > 0)
+        {
+            ch->countdown = number_range(10,30);
+            SET_BIT(ch->act, PLR_QUESTOR);
+            bprintf(buf, "You have %d minutes to complete this quest.",
+                ch->countdown);
+            do_say(questman, buf->data);
+            bprintf(buf, "May the gods go with you!");
+            do_say(questman, buf->data);
         }
-
         buffer_free( buf );
         return;
-		// end of "request"
-    } else if ( !str_prefix( arg1, "complete" ) ) {
+    }
+    else if (!str_prefix(arg1, "complete"))
+    {
         act( "$n informs $N $e has completed $s quest.", ch, NULL, questman, 
             TO_ROOM);
         act ("You inform $N you have completed $s quest.",ch, NULL, questman, 
             TO_CHAR);
-        if ( ch->questgiver != questman ) {
-            bprintf(buf, "I did not send you on a quest. Perhaps you're"
+        if (ch->questgiver != questman)
+        {
+            bprintf(buf, "I never sent you on a quest! Perhaps you're"
                 " thinking of someone else.");
             do_say(questman,buf->data);
             buffer_free( buf );
             return;
         }
 
-        if ( IS_SET( ch->act, PLR_QUESTOR ) ) {
-            if ( ( ch->questmob == -1 ) && ( ch->countdown > 0 ) ) {
-                int reward, pointreward, pracreward = 0;
+        if (IS_SET(ch->act, PLR_QUESTOR))
+        {
+            if (ch->questmob == -1 && ch->countdown > 0)
+            {
+                int reward, pointreward, pracreward;
 
-                reward = number_range( 15, 250 );
-                pointreward = number_range( 10,40 );
+                /* 
+                 * I removed a zero from the reward. I think players are
+                 * getting too much money from quests. - Rahl
+                 */
+                reward = number_range(15,250);
+                pointreward = number_range(10,40);
                 
                 bprintf(buf, "Congratulations on completing your quest!");
-                do_say( questman,buf->data );
-                bprintf( buf, "As a reward, I am giving you %d quest points"
+                do_say(questman,buf->data);
+                bprintf(buf,"As a reward, I am giving you %d quest points"
                     " and %d gold.",pointreward,reward);
-                do_say( questman, buf->data );
+                do_say(questman,buf->data);
 
-                if ( chance( 15 ) ) {
+                if (chance(15))
+                {
                     pracreward = number_range(1,6);
                     bprintf(buf, "You gain %d practices!\n\r",pracreward);
                     send_to_char(buf->data, ch);
                     ch->practice += pracreward;
                 }
 
-                REMOVE_BIT( ch->act, PLR_QUESTOR );
+                REMOVE_BIT(ch->act, PLR_QUESTOR);
                 ch->questgiver = NULL;
                 ch->countdown = 0;
                 ch->questmob = 0;
@@ -312,35 +557,44 @@ void do_quest(CHAR_DATA *ch, char *argument) {
         
                 buffer_free( buf );
                 return;
-            } else if ( ( ch->questobj > 0 ) && ( ch->countdown > 0 ) ) {
+            }
+            else if (ch->questobj > 0 && ch->countdown > 0)
+            {
                 bool obj_found = FALSE;
 
-                for ( obj = ch->carrying; obj != NULL; obj = obj_next ) {
+                for (obj = ch->carrying; obj != NULL; obj= obj_next)
+                {
                     obj_next = obj->next_content;
 
-                    if ( ( obj != NULL ) && ( obj->pIndexData->vnum == ch->questobj ) ) {
+                    if (obj != NULL && obj->pIndexData->vnum == ch->questobj)
+                    {
                         obj_found = TRUE;
                         break;
                     }
                 }
+                if (obj_found == TRUE)
+                {
+                    int reward, pointreward, pracreward;
 
-				if ( obj_found == TRUE ) {
-                    int reward, pointreward, pracreward = 0;
-
+                /* 
+                 * I removed a zero from the reward. I think players are
+                 * getting too much money from quests. - Rahl
+                 */
                     reward = number_range(150,2500);
                     pointreward = number_range(10,40);
                     
                     act("You hand $p to $N.",ch, obj, questman, TO_CHAR);
                     act("$n hands $p to $N.",ch, obj, questman, TO_ROOM);
 
-                    bprintf( buf, "Congratulations on completing your"
-                        " quest!" );
+                    bprintf(buf, "Congratulations on completing your"
+                        " quest!");
                     do_say(questman,buf->data);
                     bprintf(buf,"As a reward, I am giving you %d quest"
                         " points and %d gold.", pointreward, reward);
                     do_say(questman,buf->data);
 
-                    if ( chance( 15 ) ) {
+                    if (chance(15))
+                    {
                         pracreward = number_range(1,6);
                         bprintf(buf, "You gain %d practices!\n\r", 
                             pracreward);
@@ -360,7 +614,9 @@ void do_quest(CHAR_DATA *ch, char *argument) {
         
                     buffer_free( buf );
                     return;
-                } else {
+                }
+                else
+                {
                     bprintf(buf, "You haven't completed the quest yet, but"
                         " there is still time!");
                     do_say(questman, buf->data);
@@ -369,7 +625,9 @@ void do_quest(CHAR_DATA *ch, char *argument) {
                 }
                 buffer_free( buf );
                 return;
-            } else if ( ( ( ch->questmob > 0 ) || ( ch->questobj > 0 ) ) && ( ch->countdown > 0 ) ) {
+            }
+            else if ((ch->questmob > 0 || ch->questobj > 0) && ch->countdown > 0)
+            {
                 bprintf(buf, "You haven't completed the quest yet, but"
                     " there is still time!");
                 do_say(questman, buf->data);
@@ -377,25 +635,25 @@ void do_quest(CHAR_DATA *ch, char *argument) {
                 return;
             }
         }
-        if ( ch->nextquest > 0 ) {
+        if (ch->nextquest > 0)
             bprintf(buf,"But you didn't complete your quest in time!");
-        } else { 
+        else 
             bprintf(buf, "You have to REQUEST a quest first, %s.",
                 ch->name);
-		}
         do_say(questman, buf->data);
         buffer_free( buf );
         return;
     }
 
-    send_to_char("QUEST commands: POINTS INFO TIME REQUEST COMPLETE"
-        " GIVEUP.\n\r",ch);
+    send_to_char("QUEST commands: POINTS INFO TIME REQUEST COMPLETE LIST"
+        " BUY GIVEUP.\n\r",ch);
     send_to_char("For more information, type 'HELP QUEST'.\n\r",ch);
     buffer_free( buf );
     return;
 }
 
-void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman) {
+void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman)
+{
     CHAR_DATA *victim;
     ROOM_INDEX_DATA *room;
     OBJ_DATA *questitem;
@@ -408,10 +666,9 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman) {
         quest the mob is not used. This is done to assure the level
         of difficulty for the area isn't too great for the player. */
 
-    for (victim = char_list; victim != NULL; victim = victim->next) {
-        if ( !IS_NPC( victim ) ) {
-			continue;
-		}
+    for (victim = char_list; victim != NULL; victim = victim->next)
+    {
+        if (!IS_NPC(victim)) continue;
 
         if (quest_level_diff(ch->level, victim->level) == TRUE
             && !IS_SET(victim->imm_flags, IMM_SUMMON)
@@ -426,7 +683,8 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman) {
             && chance(30)) break;
     }
 
-    if ( victim == NULL  ) {
+    if ( victim == NULL  )
+    {
         do_say(questman, "I'm sorry, but I don't have any quests for you"
             " at this time.");
         do_say(questman, "Try again later.");
@@ -435,7 +693,8 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman) {
         return;
     }
 
-    if ( ( room = find_location( ch, victim->name ) ) == NULL ) {
+    if ( ( room = find_location( ch, victim->name ) ) == NULL )
+    {
         do_say( questman, "I'm sorry, but I don't have any quests for you"
             " at this time.");
         do_say( questman, "Try again later.");
@@ -446,25 +705,31 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman) {
 
     /*  40% chance it will send the player on a 'recover item' quest. */
 
-    if ( chance( 40 ) ) {
+    if (chance(40))
+    {
         int objvnum = 0;
 
-        switch( number_range( 0,4 ) ) {
+        switch(number_range(0,4))
+        {
             case 0:
-            	objvnum = QUEST_OBJQUEST1;
-            	break;
+            objvnum = QUEST_OBJQUEST1;
+            break;
+
             case 1:
-            	objvnum = QUEST_OBJQUEST2;
-            	break;
+            objvnum = QUEST_OBJQUEST2;
+            break;
+
             case 2:
-            	objvnum = QUEST_OBJQUEST3;
-            	break;
+            objvnum = QUEST_OBJQUEST3;
+            break;
+
             case 3:
-            	objvnum = QUEST_OBJQUEST4;
-            	break;
+            objvnum = QUEST_OBJQUEST4;
+            break;
+
             case 4:
-            	objvnum = QUEST_OBJQUEST5;
-            	break;
+            objvnum = QUEST_OBJQUEST5;
+            break;
         }
 
         questitem = create_object( get_obj_index(objvnum), ch->level );
@@ -488,45 +753,52 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman) {
 
         buffer_free( buf );
         return;
-    } else {
-    	switch( number_range( 0, 1 ) ) {
-        	case 0:
-        		bprintf(buf, "An enemy of mine, %s`G, is making vile threats"
-            	" against the crown.",victim->short_descr);
-        		do_say(questman, buf->data);
-        		do_say( questman, "This threat must be eliminated!");
-        		break;
-        	case 1:
-        		bprintf(buf, "Shadows' most heinous criminal, %s`G, has escaped"
-            	" from the dungeon!",victim->short_descr);
-        		do_say(questman, buf->data);
-        		bprintf(buf, "Since the escape, %s `Ghas murdered %d "
-            	" civillians!",victim->short_descr,number_range(2,20));
-        		do_say(questman, buf->data);
-        		do_say(questman,"The penalty for this crime is death, and you"
-            	" are to deliver the sentence!");
-        		break;
-    	}
+    }
 
-    	if ( room->name != NULL ) {
-	        bprintf(buf, "%s whispers to you, 'Seek %s`w out somewhere in the"
+    /* Quest to kill a mob */
+
+    else
+    {
+    switch(number_range(0,1))
+    {
+        case 0:
+        bprintf(buf, "An enemy of mine, %s`G, is making vile threats"
+            " against the crown.",victim->short_descr);
+        do_say(questman, buf->data);
+        do_say( questman, "This threat must be eliminated!");
+        break;
+
+        case 1:
+        bprintf(buf, "Shadows' most heinous criminal, %s`G, has escaped"
+            " from the dungeon!",victim->short_descr);
+        do_say(questman, buf->data);
+        bprintf(buf, "Since the escape, %s `Ghas murdered %d "
+            " civillians!",victim->short_descr,number_range(2,20));
+        do_say(questman, buf->data);
+        do_say(questman,"The penalty for this crime is death, and you"
+            " are to deliver the sentence!");
+        break;
+    }
+
+    if (room->name != NULL)
+    {
+        bprintf(buf, "%s whispers to you, 'Seek %s`w out somewhere in the"
             " vicinity of %s`w...'\n\r",
             questman->short_descr,victim->short_descr,room->name);
-    	    send_to_char(buf->data,ch);
+        send_to_char(buf->data,ch);
 
-        	/* I changed my area names so that they have just the name of the area
-           	and none of the level stuff. You may want to comment these next two
-           	lines. - Vassago */
+        /* I changed my area names so that they have just the name of the area
+           and none of the level stuff. You may want to comment these next two
+           lines. - Vassago */
 
-        	bprintf(buf, "%s whispers to you, 'That location is in the "
+        bprintf(buf, "%s whispers to you, 'That location is in the "
             "general area of %s.'\n\r",
             questman->short_descr,&room->area->name[16]);
- 	        send_to_char(buf->data,ch);
+        send_to_char(buf->data,ch);
  
-   		}
-
-    	ch->questmob = victim->pIndexData->vnum;
-	}
+   }
+    ch->questmob = victim->pIndexData->vnum;
+   }
     buffer_free( buf );
     return;
 }
@@ -535,78 +807,87 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman) {
    levels, so you will want to tweak these greater or
    less than statements for yourself. - Vassago */
 
-bool quest_level_diff(int clevel, int mlevel) {
+bool quest_level_diff(int clevel, int mlevel)
+{
     int upper = 0;
     int lower = 0;
     
     /* was clevel+10 - changed by Rahl */
-    upper = clevel + 7;
-    if ( upper > 100 ) {
-    	upper = 90;
-	}
-
+    upper = clevel+7;
+    if(upper > 100)
+      upper = 90;
     lower = clevel - 2;  
 
-    if ( ( mlevel >= lower ) && ( mlevel < upper ) ) {
-    	return TRUE;
-    } else {
-        return FALSE;
-	}
+    if(mlevel >= clevel && mlevel < upper)
+      return TRUE;
+    else
+      return FALSE;
+
 }
                 
 /* Called from update_handler() by pulse_area */
 
-void quest_update( void ) {
+void quest_update(void)
+{
     DESCRIPTOR_DATA *d;
     CHAR_DATA *ch;
 
-    for ( d = descriptor_list; d != NULL; d = d->next ) {
-        if ( ( d->character != NULL ) && ( d->connected == CON_PLAYING ) ) {
+    for ( d = descriptor_list; d != NULL; d = d->next )
+    {
+        if (d->character != NULL && d->connected == CON_PLAYING)
+        {
 
-        	ch = d->character;
+        ch = d->character;
 
-        	if (ch->nextquest > 0) {
-            	ch->nextquest--;
+        if (ch->nextquest > 0)
+        {
+            ch->nextquest--;
+            if (ch->nextquest == 0)
+            {
+                send_to_char("You may now quest again.\n\r",ch);
+                return;
+            }
+        }
+        else if (IS_SET(ch->act,PLR_QUESTOR))
+        {
+            if (--ch->countdown <= 0)
+            {
+                BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
 
-	            if (ch->nextquest == 0) {
-        	        send_to_char("You may now quest again.\n\r",ch);
-            	    return;
-            	}
-        	} else if (IS_SET(ch->act,PLR_QUESTOR)) {
-            	if (--ch->countdown <= 0) {
-               		BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
-
-                	ch->nextquest = 15;
-                	bprintf(buf, "You have run out of time for your"
+                ch->nextquest = 15;
+                bprintf(buf, "You have run out of time for your"
                     " quest!\n\rYou may quest again in %d minutes.\n\r",
                     ch->nextquest);
-                	send_to_char(buf->data, ch);
-                	REMOVE_BIT(ch->act, PLR_QUESTOR);
-                	ch->questgiver = NULL;
-                	ch->countdown = 0;
-                	ch->questmob = 0;
-                	buffer_free( buf );
-            	}
-
-	            if (ch->countdown > 0 && ch->countdown < 6) {
-	                send_to_char("Better hurry, you're almost out of time for"
+                send_to_char(buf->data, ch);
+                REMOVE_BIT(ch->act, PLR_QUESTOR);
+                ch->questgiver = NULL;
+                ch->countdown = 0;
+                ch->questmob = 0;
+                buffer_free( buf );
+            }
+            if (ch->countdown > 0 && ch->countdown < 6)
+            {
+                send_to_char("Better hurry, you're almost out of time for"
                     " your quest!\n\r",ch);
-    	            return;
-        	    }
-        	}
+                return;
+            }
+        }
         }
     }
 
     return;
 }
 
-void add_random_apply( CHAR_DATA *ch, OBJ_DATA *obj ) {
+void add_random_apply( CHAR_DATA *ch, OBJ_DATA *obj )
+{
     AFFECT_DATA af;
     int applies, x;
 
     applies = number_fuzzy( ( ch->level / 6 ) - 2 );
-    for ( x = 0; x < applies; x++ ) {
-        switch( number_range( 0, 17 ) ) {
+    for ( x = 0; x < applies; x++ )
+    {
+        switch( number_range( 0, 17 ) )
+        {
             case 0:
                 af.where = TO_OBJECT;
                 af.type = 0;

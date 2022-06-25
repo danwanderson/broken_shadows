@@ -1,0 +1,254 @@
+#AREADATA
+Name        {60-80} Awenyed Labyrinth~
+Builders    Awenyedd~
+VNUMs       11800 11999
+Security    9
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#11800
+owl feather~
+a white owl feather~
+A white owl's feather floats softly to the ground.~
+none~
+8 KR AB
+0 0 0 0 0
+60 1 0
+A
+13 10
+#11802
+portal~
+a shimmering portal~
+A shimmering portal floats just above the ground here.~
+none~
+30 0 0
+0 0 0 ADEJKLN 0
+0 0 0
+#0
+
+
+
+#ROOMS
+#11800
+The Owl and The Statue~
+A large gargoyle statue sits nestled amoung some dark bushes.  A snowy
+owl sits on the gargoyle's wing and stares at you with big yellow eyes,
+luring you closer.  As you draw near, the owl hoots and flies away, leaving
+a shimmering portal in front of you.  
+~
+0 4 3
+S
+#11801
+On A Hilltop~
+You look about you and find yourself in a strange world.  Far off to the
+north, you see a magnificent castle through the hazy morning sun.  All
+around the castle, from this advantage point atop a small hill, you can see
+a huge maze surrounding it...  The Labyrinth...  Beside you is an old dead
+tree with a beautiful snowy owl sitting on a gnarled branch, watching you
+closely.  
+~
+0 0 4
+D5
+~
+~
+0 0 11802
+S
+#11802
+The Great Doors~
+Reaching the bottom of the hill, you come to a flat area infront of a high
+stone wall surrounding the Labyrinth.  Flying around you are tiny fairies.
+One flies up to you and gives a sharp bite.  Not as nice as you thought
+fairies were!  Looking to your left, you see a startled goblin quickly doing
+his pants up again after using the pond for 'other' things.  He points
+you in the direction of the Doors as to the enterance to the Labyrinth and 
+continues to kill fairies -- 51...52...53...
+~
+0 0 2
+D0
+~
+~
+7 0 11803
+D1
+~
+~
+0 0 11805
+D3
+~
+~
+0 0 11804
+D4
+~
+~
+0 0 11801
+S
+#11803
+The Corridor~
+You gasp in astonishment as the doors suddenly close behind you with a
+resounding 'clang', and you find yourself very alone in a long corridor. 
+You shiver slightly as it seems much colder and darker here.  Looking to
+your left and right, all you see is the same corridor, never ending or
+turning.  Around you lie stumps of logs and strange little bushes trying to
+grow.  The stone walls stand maybe thirteen feet high, and look to be
+covered in a strange slime.  You come to realise that there is no turning
+back now...  
+~
+0 4 2
+D1
+~
+~
+0 0 11807
+D3
+~
+~
+0 0 11806
+S
+#11804
+Outside the Labyrinth~
+The area is flat with little grass growing around the base of a great
+vine-covered stone wall which surrounds the Labyrinth.  Peeking out from
+some bluebell flowers are some fairies, and others are flying about
+seemingly on an errand of great importance.  The wall seems to continue off
+into the horizon in a straight line from here, and the only difference is
+where you just came from with the small pond.  
+~
+0 0 2
+D1
+~
+~
+0 0 11802
+S
+#11805
+Outside the Labyrinth~
+The area is flat with little grass growing around the base of a great
+vine-covered stone wall which surrounds the Labyrinth.  Peeking out from
+some bluebell flowers are some fairies, and others are flying about
+seemingly on an errand of great importance.  The wall seems to continue off
+into the horizon in a straight line from here, and the only difference is
+where you just came from with the small pond.  
+~
+0 0 2
+D3
+~
+~
+0 0 11802
+S
+#11806
+The Corridor~
+Never turning or changing in any way, the corridor continues on.  Dodging
+dead branches, you continue onward, needing to get into the Labyrinth ... 
+to the Goblin King's Castle.  
+~
+0 0 2
+D1
+~
+~
+0 0 11803
+D3
+~
+~
+0 0 11810
+S
+#11807
+The Corridor~
+Never turning or changing in any way, the corridor continues on.  Dodging
+dead branches, you continue onward, needing to get into the Labyrinth ... 
+to the Goblin King's Castle.  
+~
+0 0 2
+D1
+~
+~
+0 0 11808
+D3
+~
+~
+0 0 11803
+S
+#11808
+The Corridor~
+This part looks exactly like the rest of the corridor, except for one
+small, very small, difference.  Along a small ledge in the wall, a tiny blue
+worm is looking at you.  With a thick British accent, he says, "'Allo.  Why
+don't you come in and meet the missus for a nice spot of tea?"  Frusterated,
+and not needing to waste time, you lean against one wall and feel something
+change...  
+~
+0 0 2
+D1
+~
+~
+0 0 11809
+D2
+~
+~
+7 0 11811
+D3
+~
+~
+0 0 11807
+S
+#11809
+The Corridor~
+Never turning or changing in any way, the corridor continues on.  Dodging
+dead branches, you continue onwards, though you don't seem to be getting
+anywhere, as yet nothing changes around you.  
+~
+0 0 2
+D3
+~
+~
+0 0 11808
+S
+#11810
+The Corridor~
+Never turning or changing in any way, the corridor continues on.  Dodging
+dead branches, you continue onwards, though you don't seem to be getting
+anywhere, as yet nothing changes around you.  
+~
+0 0 2
+D1
+~
+~
+0 0 11806
+S
+#11811
+Another Corridor~
+Emerging from the grey corridor, you step out into a much more friendly
+and bright setting.  The walls are still made of stone, but they are barren
+of growth and stone sculptures can be seen in nooks and crannies.  Even the
+atmosphere seems friendly with birds chirping and the sun shining down on
+you.  
+~
+0 4 2
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 11802 0 0
+D 0 11808 2 0
+O 0 11802 0 11800
+O 0 11800 0 11801
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

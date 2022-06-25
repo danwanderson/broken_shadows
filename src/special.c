@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -251,8 +251,8 @@ bool spec_cast_adept( CHAR_DATA *ch )
         return TRUE;
 
     case 3:
-        act( "$n utters the word 'pzar'.", ch, NULL, NULL, TO_ROOM );
-        spell_heal( skill_lookup( "heal" ),
+        act( "$n utters the word 'judicandus dies'.", ch, NULL, NULL, TO_ROOM );
+        spell_cure_light( skill_lookup( "cure light" ),
             ch->level, ch, victim, TARGET_CHAR );
         return TRUE;
 
@@ -1012,7 +1012,7 @@ bool spec_thief( CHAR_DATA *ch )
         v_next = victim->next_in_room;
 
         if ( IS_NPC(victim)
-        ||   IS_IMMORTAL( victim )
+        ||   victim->level >= LEVEL_IMMORTAL
         ||   number_bits( 5 ) != 0 
         ||   !can_see(ch,victim))
             continue;

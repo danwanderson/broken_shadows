@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////
-////  Broken Shadows (c) 1995-2018 by Daniel Anderson
+////  Broken Shadows (c) 1995-1999 by Daniel Anderson
 ////  
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
@@ -49,8 +49,12 @@ void    regen_update    ( void );
 void    obj_update      ( void );
 void    aggr_update     ( void );
 void    room_update     ( void );
+
+/* added by Rahl for autoquesting */
 void    quest_update    ( void ); /* quest.c */
+/* added by Rahl */
 void    auction_update  ( void );
+void    spell_update    ( void );
 
 /* used for saving */
 
@@ -61,77 +65,86 @@ int     save_number = 0;
 /*
  * Advancement stuff.
  */
-/*
- *void advance_level( CHAR_DATA *ch ) {
- *    BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
- *    int add_hp;
- *    int add_mana;
- *    int add_move;
- *    int add_prac;
- *
- *    ch->pcdata->last_level = 
- *        ( ch->played + (int) (current_time - ch->logon) ) / 3600;
- *    add_hp      = con_app[get_curr_stat(ch,STAT_CON)].hitp + number_range(
- *                    class_table[ch->ch_class].hp_min,
- *                    class_table[ch->ch_class].hp_max );
- *    add_mana    = number_range(2,(2*get_curr_stat(ch,STAT_INT)
- *                                  + get_curr_stat(ch,STAT_WIS))/5);
- *    if (!class_table[ch->ch_class].fMana)
- *        add_mana /= 2;
- *    add_move    = number_range( 1, (get_curr_stat(ch,STAT_CON)
- *                                  + get_curr_stat(ch,STAT_DEX))/6 );
- *    add_prac    = wis_app[get_curr_stat(ch,STAT_WIS)].practice;
- *
- *    add_hp = add_hp * 9/10;
- *    add_mana = add_mana * 9/10;
- *    add_move = add_move * 9/10;
- *
- *    add_hp      = UMAX(  1, add_hp   );
- *    add_mana    = UMAX(  1, add_mana );
- *    add_move    = UMAX(  6, add_move );
- *
- *    ch->max_hit         += add_hp;
- *    ch->max_mana        += add_mana;
- *    ch->max_move        += add_move;
- *    ch->practice        += add_prac;
- *    ch->train           += 1;
- *
- *    ch->pcdata->perm_hit        += add_hp;
- *    ch->pcdata->perm_mana       += add_mana;
- *    ch->pcdata->perm_move       += add_move;
- *
- *    if ( !IS_NPC(ch) )
- *        REMOVE_BIT( ch->act, PLR_BOUGHT_PET );
- *
- *    bprintf( buf,
- *        "Your gain is: %d/%d hp, %d/%d m, %d/%d mv %d/%d prac.\n\r",
- *        add_hp,         ch->max_hit,
- *        add_mana,       ch->max_mana,
- *        add_move,       ch->max_move,
- *        add_prac,       ch->practice
- *        );
- *    send_to_char( buf->data, ch );
- *    buffer_free( buf );
- *    return;
- *}   
- */
+void advance_level( CHAR_DATA *ch )
+{
+    BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
+    int add_hp;
+    int add_mana;
+    int add_move;
+    int add_prac;
 
-void gain_exp( CHAR_DATA *ch, int gain ) {
-	int xp = 0;
-    if ( IS_NPC(ch) || IS_IMMORTAL( ch ) ) {
+    ch->pcdata->last_level = 
+        ( ch->played + (int) (current_time - ch->logon) ) / 3600;
+    add_hp      = con_app[get_curr_stat(ch,STAT_CON)].hitp + number_range(
+                    class_table[ch->ch_class].hp_min,
+                    class_table[ch->ch_class].hp_max );
+    add_mana    = number_range(2,(2*get_curr_stat(ch,STAT_INT)
+                                  + get_curr_stat(ch,STAT_WIS))/5);
+    if (!class_table[ch->ch_class].fMana)
+        add_mana /= 2;
+    add_move    = number_range( 1, (get_curr_stat(ch,STAT_CON)
+                                  + get_curr_stat(ch,STAT_DEX))/6 );
+    add_prac    = wis_app[get_curr_stat(ch,STAT_WIS)].practice;
+
+    add_hp = add_hp * 9/10;
+    add_mana = add_mana * 9/10;
+    add_move = add_move * 9/10;
+
+    add_hp      = UMAX(  1, add_hp   );
+    add_mana    = UMAX(  1, add_mana );
+    add_move    = UMAX(  6, add_move );
+
+    ch->exp             -= exp_per_level(ch,ch->pcdata->points);
+    ch->max_hit         += add_hp;
+    ch->max_mana        += add_mana;
+    ch->max_move        += add_move;
+    ch->practice        += add_prac;
+    ch->train           += 1;
+
+    ch->pcdata->perm_hit        += add_hp;
+    ch->pcdata->perm_mana       += add_mana;
+    ch->pcdata->perm_move       += add_move;
+
+    if ( !IS_NPC(ch) )
+        REMOVE_BIT( ch->act, PLR_BOUGHT_PET );
+
+    bprintf( buf,
+        "Your gain is: %d/%d hp, %d/%d m, %d/%d mv %d/%d prac.\n\r",
+        add_hp,         ch->max_hit,
+        add_mana,       ch->max_mana,
+        add_move,       ch->max_move,
+        add_prac,       ch->practice
+        );
+    send_to_char( buf->data, ch );
+    buffer_free( buf );
+    return;
+}   
+
+
+
+void gain_exp( CHAR_DATA *ch, int gain )
+{
+    if ( IS_NPC(ch) || ch->level >= LEVEL_HERO )
         return;
-	}
 
-    ch->exp += gain;
+/*    ch->exp = UMAX( exp_per_level(ch,ch->pcdata->points), ch->exp + gain );*/
+    ch->exp+=gain;
+    while ( ch->level < LEVEL_HERO && ch->exp >= 
+        exp_per_level(ch,ch->pcdata->points))
+    {
+        BUFFER *buf = buffer_new( 200 );
+        
+        bprintf(buf, "%s has made it to level %d!", ch->name, ch->level + 1);
+        /* added by Rahl */
+        wiznet( buf->data, ch, NULL, WIZ_LEVELS, 0, 0 );
 
-	xp = 1000 + ( ( ch->pcdata->points - 40 ) * 10 );
-
-    if ( ch->exp >= xp ) {
-		send_to_char( "You have gained new abilities.\n\r", ch );
-		ch->exp -= xp;
-		ch->train +=1;
-		ch->practice +=2;
-	}
+        do_sendinfo(ch, buf->data);
+        send_to_char( "You raise a level!!  ", ch );
+        advance_level( ch );
+        ch->level += 1;
+        save_char_obj(ch);
+        buffer_free( buf );
+    }
 
     return;
 }
@@ -148,8 +161,7 @@ int hit_gain( CHAR_DATA *ch )
 
     if ( IS_NPC(ch) )
     {
-        //gain =  5 + ch->level;
-		gain = 5 + get_curr_stat( ch, STAT_CON );
+        gain =  5 + ch->level;
 
         switch(ch->position)
         {
@@ -163,8 +175,7 @@ int hit_gain( CHAR_DATA *ch )
     }
     else
     {
-        //gain = UMAX(3,get_curr_stat(ch,STAT_CON) - 3 + ch->level/2); 
-        gain = UMAX(3,get_curr_stat(ch,STAT_CON) - 3 ); 
+        gain = UMAX(3,get_curr_stat(ch,STAT_CON) - 3 + ch->level/2); 
         gain += class_table[ch->ch_class].hp_max - 10;
         number = number_percent();
         if (number < ch->pcdata->learned[gsn_fast_healing])
@@ -313,7 +324,7 @@ void gain_condition( CHAR_DATA *ch, int iCond, int value )
 {
     int condition;
 
-    if ( value == 0 || IS_NPC(ch) || IS_IMMORTAL( ch ))
+    if ( value == 0 || IS_NPC(ch) || ch->level >= LEVEL_HERO)
         return;
 
     condition                           = ch->pcdata->condition[iCond];
@@ -622,20 +633,20 @@ void char_update( void )
 
         ch_next = ch->next;
 
-        if ( (ch->timer > 30) && !IS_IMMORTAL( ch ) )
+        if ( (ch->timer > 30) && ch->level < LEVEL_IMMORTAL )
             ch_quit = ch;
 
     
         // imms who have been linkdead for 30 ticks get
         // booted -- Rahl 
-        if ( ( IS_IMMORTAL( ch ) ) 
+        if ( ( ch->level >= LEVEL_IMMORTAL ) 
 		&& !IS_NPC( ch )
         && ( ch->desc == NULL )
         && ( ch->timer > 30 ) ) {
             ch_quit = ch;
         }       
 
-		if ( ( ch->timer > ( IS_IMMORTAL( ch ) ? 40 : 10 ) ) 
+		if ( ( ch->timer > ( IS_IMMORTAL( ch ) ? 20 : 10 ) ) 
 		&& !IS_SET( ch->act, PLR_AFK ) && ( ch->desc != NULL ) ) {
 			do_afk( ch, "" );
 		}
@@ -721,7 +732,7 @@ void char_update( void )
 
             ++ch->timer;
 
-            if ( ch->timer >= 12 && !IS_IMMORTAL( ch ) )
+            if ( ch->timer >= 12 && ch->level < LEVEL_IMMORTAL )
             {
                 if ( ch->was_in_room == NULL && ch->in_room != NULL )
                 {
@@ -737,7 +748,7 @@ void char_update( void )
                     char_to_room( ch, get_room_index( ROOM_VNUM_LIMBO ) );
                 }
             }
-            if ( !IS_IMMORTAL( ch ) )
+            if (ch->level < LEVEL_IMMORTAL )
            {
             gain_condition( ch, COND_DRUNK,  -1 * time_info.hour % 2 );
             gain_condition( ch, COND_FULL,   -1 * time_info.hour % 2 );
@@ -1037,7 +1048,7 @@ void obj_update( void )
         else if ( obj->in_room != NULL
         &&      ( rch = obj->in_room->people ) != NULL )
         {
-            if (! (obj->in_obj 
+            if (! (obj->in_obj && obj->in_obj->pIndexData->vnum == OBJ_VNUM_PIT
                    && !CAN_WEAR(obj->in_obj,ITEM_TAKE)))
             {
                 act( message, rch, obj, NULL, TO_ROOM );
@@ -1108,7 +1119,7 @@ void aggr_update( void )
 
 
         if ( IS_NPC(wch)
-        ||   IS_IMMORTAL( wch )
+        ||   wch->level >= LEVEL_IMMORTAL
         ||   wch->in_room == NULL 
         ||   wch->in_room->area->empty)
             continue;
@@ -1143,8 +1154,8 @@ void aggr_update( void )
                 vch_next = vch->next_in_room;
 
                 if ( !IS_NPC(vch)
-                &&   !IS_IMMORTAL( vch )
-                //&&   ch->level >= vch->level - 5 
+                &&   vch->level < LEVEL_IMMORTAL
+                &&   ch->level >= vch->level - 5 
                 &&   ( !IS_SET(ch->act, ACT_WIMPY) || !IS_AWAKE(vch) )
                 &&   can_see( ch, vch ) )
                 {
@@ -1238,6 +1249,7 @@ void update_handler( void )
      {
         regen_update    ( );
         room_update     ( );
+        spell_update();
      }
 
     /* added by Rahl */
@@ -1320,3 +1332,435 @@ void auction_update( void )
 }
 
 
+/****************************************************************************
+ * spell_update() by Rahl.
+ * I'm trying to make something similar to the T.E.S.S. on ROM
+ * Probably a better way than using 'switch', but it's easy
+ * It should be noted that mobs with both a spec fucntion and 
+ * set ACT_CLERIC or ACT_MAGE would probably be overkill. Perhaps
+ * I should make a check for a spec fucntion and if they have one, to
+ * just find another mob? Prolly too much of a pain, though cuz not all
+ * the specs are for combat purposes. Be easier just to note the builders
+ * to be careful
+ **************************************************************************/
+void spell_update( void )
+{
+    CHAR_DATA *wch;
+    CHAR_DATA *wch_next;
+    int chance = 0;
+    DESCRIPTOR_DATA *d;
+    DESCRIPTOR_DATA *d_next;
+    int found = 0;
+
+    /*
+     * go through the char list, one at a time. This includes
+     * both PCs and NPCs
+     */
+    for ( wch = char_list; wch != NULL; wch = wch_next )
+    {
+        /* go to the next node (char) in the linked list */
+        wch_next = wch->next;
+
+        /* we only want NPCs to cast stuff.. */
+        if ( !IS_NPC( wch ) )
+            continue;
+
+		/* Why spell up if they can't be killed? */
+		if ( IS_SET( wch->act, ACT_NO_KILL ) )
+			continue;
+
+        /* make sure they're in a room/area */
+        if ( wch->in_room == NULL || wch->in_room->area == NULL )
+            continue;
+
+        /*
+         * Go through the list of PCs, one at a time
+         */
+        for ( d = descriptor_list; d != NULL; d = d_next )
+        {
+            /* go to the next PC */
+            d_next = d->next;
+
+            /* only check playing chars */
+            /* should I check for those writing notes? */
+            if ( d->connected != CON_PLAYING )
+                continue;
+
+            /* just to make sure.. better safe than sorry.. */
+            if ( d->character->in_room == NULL 
+            || d->character->in_room->area == NULL )
+                continue;
+
+            /* don't give away that an imm's in the area.. invis or not */
+            if ( IS_IMMORTAL( d->character ) )
+                continue;
+
+            /* anyone in the same area? */
+            if ( d->character->in_room->area == wch->in_room->area )
+            {
+                /* yup */
+                found = TRUE;
+                break;
+            }
+            else
+                found = FALSE;
+        }
+
+        /* no one in the area, so find another char/mob to check */
+        if ( !found )
+            continue;
+
+        /* 33 posibilities at the moment.. might need more.. */
+        chance = number_percent( ) / 3;
+
+        /* clerics */
+        if ( IS_SET( wch->act, ACT_CLERIC ) )
+        {
+            /*
+             * if they aren't fighting, they can only spend half their
+             * mana spelling up. The rest will be used in combat, healing
+             * etc.
+             */
+            if ( ( wch->fighting == NULL )
+            && ( wch->mana > ( wch->max_mana / 2 ) ) )
+            {
+                /*
+                 * This is kind of random, but that's kind of what we
+                 * want. Basically, we go through the 33 possibilities
+                 * that we have available. Some spells have more cases,
+                 * and therefore a better chance of being cast.
+                 * There's also the default, were they cast nothing.
+                 * Not sure what spells I want here or how often, but
+                 * this isn't bad for a first try...
+                 */
+                switch ( chance )
+                {
+                    case 1:
+                    case 2:
+                        if ( !is_affected( wch, skill_lookup( "shield" ) ) )
+                            do_cast( wch, "shield" );
+                        break;
+                    case 3:
+                        if ( !IS_AFFECTED( wch, AFF_SANCTUARY ) )
+                            do_cast( wch, "sanctuary" );
+                        break;
+                    case 4:
+                    case 5:
+                    case 6:
+                        if ( !is_affected( wch, skill_lookup( "armor" ) ) )
+                            do_cast( wch, "armor" );
+                        break;
+                    case 7:
+                    case 8:
+                    case 9:
+                        if ( !is_affected( wch, skill_lookup( "bless" ) ) )
+                            do_cast( wch, "bless" );
+                        break;
+                    case 10:
+                    case 11:
+                        if ( !IS_AFFECTED( wch, AFF_PROTECT_GOOD ) )
+                            do_cast( wch, "'protection good'" );
+                        break;
+                    case 12:
+                    case 13:
+                        if ( !IS_AFFECTED( wch, AFF_FLYING ) )
+                            do_cast( wch, "fly" );
+                        break;
+                    case 14:
+                    case 15:
+                        if ( !IS_AFFECTED( wch, AFF_PROTECT_EVIL ) )
+                            do_cast( wch, "'protection evil'" );
+                        break;
+                    case 16:
+                    case 17:
+                        if ( !is_affected( wch, skill_lookup( "frenzy" ) ) )
+                            do_cast( wch, "frenzy" );
+                        break;
+                    case 19:
+                        if ( !IS_AFFECTED( wch, AFF_REGENERATION ) )
+                            do_cast( wch, "regeneration" );
+                        break;
+                    case 20:
+                    case 21:
+                    case 24:
+                        if ( IS_AFFECTED( wch, AFF_CURSE ) )
+                            do_cast( wch, "'remove curse'" );
+                        else if ( IS_AFFECTED( wch, AFF_BLIND ) )
+                            do_cast( wch, "'cure blindness'" );
+                        else if ( IS_AFFECTED( wch, AFF_PLAGUE ) )
+                            do_cast( wch, "'cure disease'" );
+                        else if ( IS_AFFECTED( wch, AFF_POISON ) )
+                            do_cast( wch, "'cure poison'" );
+                        else
+                        {
+                            if ( wch->level < 10 )
+                                do_cast( wch, "'cure light'" );
+                            else if ( wch->level < 20 )
+                                do_cast( wch, "'cure serious'" );
+                            else if ( wch->level < 30 )
+                                do_cast( wch, "'cure critical'" );
+                            else if ( wch->level < 55 )
+                                do_cast( wch, "heal" );
+                            else if ( wch->level < 65 )
+                                do_cast( wch, "restoration" );
+                            else 
+                                do_cast( wch, "greater heal" );
+                        }
+                        break;
+                    case 22:
+                    case 23:
+                        if ( !is_affected( wch, 
+                          skill_lookup( "stone skin" ) ) )
+                            do_cast( wch, "'stone skin'" );
+                        break;
+                    default:
+                        break;
+                } /* switch */
+            } /* if */
+            else
+            {
+                /* 
+                 * This is the combat section. Not sure how much will
+                 * be offensive spells and how much will be healing..
+                 */
+                if ( wch->fighting == NULL )
+                    continue;
+
+                switch( chance )
+                {
+                    case 1:
+                    case 2:
+                    case 3:
+                    case 4:
+                    case 5:
+                    case 30:
+                    case 31:
+                    case 32:
+                        if ( wch->level < 10 )
+                            do_cast( wch, "'cure light'" );
+                        else if ( wch->level < 20 )
+                            do_cast( wch, "'cure serious'" );
+                        else if ( wch->level < 30 )
+                            do_cast( wch, "'cure critical'" );
+                        else if ( wch->level < 55 )
+                            do_cast( wch, "heal" );
+                        else if ( wch->level < 65 )
+                            do_cast( wch, "restoration" );
+                        else 
+                            do_cast( wch, "greater heal" );
+                        break;
+                    case 6:
+                    case 7:     
+                        do_cast( wch, "blindness" );
+                        break;
+                   case 8:
+                   case 9:
+                        do_cast( wch, "slow" );
+                        break;
+                   case 10:
+                   case 11:
+                        do_cast( wch, "weaken" );
+                        break;
+                   case 12:
+                   case 13:
+                        do_cast( wch, "'energy drain'" );
+                        break;
+                   case 14:
+                        do_cast( wch, "'change sex'" );
+                        break;
+                   case 15:
+                   case 16:
+                        do_cast( wch, "curse" );
+                        break;
+                   case 17:
+                   case 18:
+                        do_cast( wch, "plague" );
+                        break;
+                   case 19:
+                        do_cast( wch, "posion" );
+                        break;
+                   case 20:
+                        do_cast( wch, "'heat metal'" );
+                        break;
+                   case 21:
+                        if ( !IS_EVIL( wch ) )
+                            do_cast( wch, "'dispel evil'" );
+                        else
+                            do_cast( wch, "'dispel good'" );
+                        break;
+                   case 22:
+                        do_cast( wch, "earthquake" );
+                        break;
+                   case 23:
+                        do_cast( wch, "flamestrike" );
+                        break;
+                   case 24:
+                        do_cast( wch, "thunderbolt" );
+                        break;
+                   case 25:
+                        if ( !IS_EVIL( wch ) )
+                            do_cast( wch, "demonfire" );
+                        break;
+                   case 26:
+                   case 27:
+                        if ( wch->fighting->level < 10 )
+                            do_cast( wch, "'cause light'" );
+                        else if ( wch->fighting->level < 15 )
+                            do_cast( wch, "'cause serious'" );
+                        else if ( wch->fighting->level < 20 )
+                            do_cast( wch, "'cause critical'" );
+                        else if ( wch->fighting->level < 55 )
+                            do_cast( wch, "harm" );
+                        else
+                            do_cast( wch, "'greater harm'" );
+                        break;
+                   case 28:
+                   case 29:
+                        do_cast( wch, "'dispel magic'" );
+                        break;
+                   default: 
+                        break; 
+                } /* switch */
+            } /* else */
+        } /* if */
+
+        if ( IS_SET( wch->act, ACT_MAGE ) )
+        {
+            if ( wch->fighting == NULL && 
+            ( wch->mana > ( wch->max_mana / 2 ) ) )
+            {
+                switch( chance )
+                {
+                    /*
+                     * This is the mage non-combat stuff 
+                     */
+                    case 1:
+                    case 2:
+                    case 18:
+                        if ( !is_affected( wch, skill_lookup( "shield" ) ) )
+                            do_cast( wch, "shield" );
+                        break;
+                    case 3:
+                        if ( !IS_AFFECTED( wch, AFF_SANCTUARY ) )
+                            do_cast( wch, "sanctuary" );
+                        break;
+                    case 4:
+                    case 5:
+                    case 6:
+                        if ( !is_affected( wch, skill_lookup( "armor" ) ) )
+                            do_cast( wch, "armor" );
+                        break;
+                    case 7:
+                    case 8:
+                    case 9:
+                        if ( !is_affected( wch, 
+                          skill_lookup( "giant strength" ) ) )
+                            do_cast( wch, "'giant strength" );
+                        break;
+                    case 10:
+                    case 11:
+                        if ( !IS_AFFECTED( wch, AFF_PROTECT_GOOD ) )
+                            do_cast( wch, "'protection good'" );
+                        break;
+                    case 12:
+                    case 13:
+                        if ( !IS_AFFECTED( wch, AFF_FLYING ) )
+                            do_cast( wch, "fly" );
+                        break;
+                    case 14:
+                    case 15:
+                        if ( !IS_AFFECTED( wch, AFF_PROTECT_EVIL ) )
+                            do_cast( wch, "'protection evil'" );
+                        break;
+                    case 16:
+                    case 17:
+                        if ( !IS_AFFECTED( wch, AFF_HASTE ) )
+                            do_cast( wch, "haste" );
+                        break;
+                    case 22:
+                    case 23:
+                        if ( !is_affected( wch, 
+                          skill_lookup( "stone skin" ) ) )
+                            do_cast( wch, "'stone skin'" );
+                        break;
+                    default:
+                        break;
+                } /* switch */
+            } /* if */
+            else
+            {
+                /* 
+                 * This is the mage combat stuff
+                 */
+                if ( wch->fighting == NULL )
+                    continue;
+
+                switch( chance )
+                {
+                    case 1:
+                    case 2:
+                    case 3:
+                        do_cast( wch, "fear" );
+                        break;
+                    case 4:
+                    case 5:
+                        do_cast( wch, "'burning hands'" );
+                        break;
+                    case 6:
+                    case 7:     
+                        do_cast( wch, "blindness" );
+                        break;
+                   case 8:
+                   case 9:
+                        do_cast( wch, "slow" );
+                        break;
+                   case 10:
+                   case 11:
+                        do_cast( wch, "weaken" );
+                        break;
+                   case 12:
+                   case 13:
+                        do_cast( wch, "'energy drain'" );
+                        break;
+                   case 14:
+                        do_cast( wch, "'change sex'" );
+                        break;
+                   case 15:
+                   case 16:
+                        do_cast( wch, "curse" );
+                        break;
+                   case 17:
+                   case 18:
+                        do_cast( wch, "plague" );
+                        break;
+                   case 19:
+                        do_cast( wch, "posion" );
+                        break;
+                   case 20:
+                        do_cast( wch, "'heat metal'" );
+                        break;
+                   case 21:
+                        do_cast( wch, "fireball" );
+                        break;
+                   case 22:
+                        do_cast( wch, "'lightning bolt'" );
+                        break;
+                   case 23:
+                        do_cast( wch, "'acid blast'" );
+                        break;
+                   case 24:
+                        do_cast( wch, "'chill touch'" );
+                        break;
+                   case 25:
+                        do_cast( wch, "'colour spray'" );
+                        break;
+                   default:
+                        break;
+                } /* switch */
+            } /* else */
+        } /* if */
+    } /* for */
+
+    /* ta da! */
+    return;
+}
