@@ -17,7 +17,7 @@ RUN make && make clean
 
 FROM debian:latest
 
-# RUN apt-get update && apt-get install -y telnet gdb make clang
+RUN apt-get update && apt-get install -y telnet gdb make clang
 
 RUN mkdir -p /srv/shadows
 
@@ -29,7 +29,9 @@ COPY gods /srv/shadows/gods
 COPY log /srv/shadows/log
 COPY notes /srv/shadows/notes
 COPY player /srv/shadows/player
+COPY core /srv/shadows/core
 COPY src /srv/shadows/src
+COPY area/.gdbinit /srv/shadows/.gdbinit
 
 RUN chown -R shadows /srv/shadows
 

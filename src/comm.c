@@ -64,7 +64,7 @@
 #define COPYOVER_FILE "copyover.data"
 
 /* This is the executable file */
-#define EXE_FILE          "../src/shadows"
+#define EXE_FILE          "../bin/shadows"
 
 /*
  * execl from unistd.h. The guy who wrote copyover forgot to put a

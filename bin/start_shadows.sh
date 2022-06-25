@@ -27,7 +27,7 @@ do
 		DAY=$(date +%m%d%Y)
 		HOUR=$(date +%H%M%S)
 		DATE="${DAY}_${HOUR}"
-        gdb -batch "${SHADOWSDIR}/src/shadows" "${SHADOWSDIR}/area/core" > $SHADOWSDIR/core/core.$DATE.txt
+        gdb -batch "${SHADOWSDIR}/bin/shadows" "${SHADOWSDIR}/area/core" > $SHADOWSDIR/core/core.$DATE.txt
         mv "${SHADOWSDIR}/area/core" "${SHADOWSDIR}/core/core.$DATE"
 		rm -f "${SHADOWSDIR}/area/core"
     fi

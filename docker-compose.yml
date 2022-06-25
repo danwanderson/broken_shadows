@@ -13,4 +13,5 @@ services:
       - './log/:/srv/shadows/log/'
       - './notes/:/srv/shadows/notes/'
       - './player/:/srv/shadows/player/'
+      - './core/:/srv/shadows/core/'
     restart: unless-stopped
