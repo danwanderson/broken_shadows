@@ -1,10 +1,8 @@
 FROM debian:latest
 
-RUN apt-get update && apt-get install -y telnet gdb make clang
-
-RUN mkdir -p /srv/shadows
-
-RUN useradd --no-create-home --home-dir /srv/shadows shadows
+RUN apt-get update && apt-get install -y telnet gdb make clang \
+    && mkdir -p /srv/shadows \
+    && useradd --no-create-home --home-dir /srv/shadows shadows
 
 COPY src /srv/shadows/src
 
@@ -17,11 +15,9 @@ RUN make && make clean
 
 FROM debian:latest
 
-RUN apt-get update && apt-get install -y telnet gdb 
-
-RUN mkdir -p /srv/shadows
-
-RUN useradd --no-create-home --home-dir /srv/shadows shadows
+RUN apt-get update && apt-get install -y telnet gdb \
+    && mkdir -p /srv/shadows \
+    && useradd --no-create-home --home-dir /srv/shadows shadows
 
 COPY area /srv/shadows/area
 COPY bin /srv/shadows/bin
