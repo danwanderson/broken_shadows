@@ -11,4 +11,4 @@ src/tags
 bin/shadows
 backup/*
 notes/*.old
-docker-compose-override.yml
+docker-compose.override.yml
