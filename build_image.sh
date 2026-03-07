@@ -21,6 +21,7 @@ OPTIONS:
     --args ARGS         Override additional buildx arguments
     --no-cache          Pass --no-cache to docker buildx build
     --log LOGFILE       Write build output to LOGFILE (uses --progress=plain and tee)
+    --plain             Use --progress=plain output (without log file)
     --debug             Enable debug tracing (set -x)
     -h, --help          Show this help message
 
@@ -48,6 +49,7 @@ BUILDER_PLATFORM=""
 BUILDX_ARGS=""
 DEBUG=false
 NO_CACHE=false
+PLAIN=false
 LOG_FILE=""
 
 # Parse command line arguments
@@ -59,6 +61,10 @@ while [[ $# -gt 0 ]]; do
             ;;
         --no-cache)
             NO_CACHE=true
+            shift
+            ;;
+        --plain)
+            PLAIN=true
             shift
             ;;
         --log)
@@ -159,8 +165,8 @@ if [[ "$NO_CACHE" == true ]]; then
     BUILDX_ARGS="$BUILDX_ARGS --no-cache"
 fi
 
-# Add --progress=plain if log file is specified
-if [[ -n "$LOG_FILE" ]]; then
+# Add --progress=plain if log file or --plain is specified
+if [[ -n "$LOG_FILE" || "$PLAIN" == true ]]; then
     BUILDX_ARGS="$BUILDX_ARGS --progress=plain"
 fi
 
