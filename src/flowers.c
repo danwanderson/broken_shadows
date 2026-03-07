@@ -27,7 +27,7 @@
 
 /***************************************************************************
  * If you choose to use this code, please retain my name in this file and  *
- * send me an email (dwa1844@rit.edu) saying you are using it. Suggestions *
+ * send me an email (https://github.com/danwanderson) saying you are using it. Suggestions *
  * for improvement are welcome.   -- Rahl (Daniel Anderson)                *
  ***************************************************************************/
 
