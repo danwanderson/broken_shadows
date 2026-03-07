@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2022 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -146,7 +146,7 @@ time_t              current_time;       /* time of this pulse */
  * OS-dependent local functions.
  */
 void    game_loop               ( int control );
-int     init_socket             ( int port ); 
+int     init_socket             ( int port );
 void    new_descriptor          ( int control );
 bool    read_from_descriptor    ( DESCRIPTOR_DATA *d, bool color );
 bool    write_to_descriptor     ( int desc, char *txt, int length, bool color);
@@ -166,6 +166,32 @@ char    *doparseprompt          (CHAR_DATA *ch);
 
 int port, control;
 
+/*
+ * FUNCTION: main
+ *
+ * Main entry point for the MUD server.
+ *
+ * PARAMETERS:
+ *   argc - Number of command line arguments
+ *   argv - Array of command line argument strings
+ *          argv[1] = port number (optional, defaults to 4000)
+ *          argv[2] = copyover flag (internal use)
+ *          argv[3] = control socket descriptor (for copyover recovery)
+ *
+ * RETURNS: 0 on normal termination, 1 on error
+ *
+ * DESCRIPTION:
+ *   Initializes the game server, sets up the listening socket,
+ *   loads the game database, and enters the main game loop.
+ *   Supports hot-boot (copyover) functionality to restart the
+ *   server without disconnecting players.
+ *
+ * SIDE EFFECTS:
+ *   - Sets global current_time and str_boot_time
+ *   - Opens reserve file handle
+ *   - Initializes database
+ *   - Enters game loop (does not return until shutdown)
+ */
 int main( int argc, char **argv )
 {
     struct timeval now_time;
@@ -242,11 +268,32 @@ int main( int argc, char **argv )
     return 0;
 }
 
+/*
+ * FUNCTION: init_socket
+ *
+ * Creates and initializes a listening socket for incoming connections.
+ *
+ * PARAMETERS:
+ *   port - Port number to bind to (must be > 1024)
+ *
+ * RETURNS: File descriptor for the listening socket
+ *
+ * DESCRIPTION:
+ *   Creates a TCP socket, sets socket options (SO_REUSEADDR, SO_DONTLINGER),
+ *   binds it to the specified port, and puts it in listening mode.
+ *   Will exit the program on any socket errors.
+ *
+ * TROUBLESHOOTING:
+ *   - "socket" error: System couldn't create socket (check ulimits)
+ *   - "SO_REUSEADDR" error: Couldn't set socket option
+ *   - "bind" error: Port already in use or insufficient permissions
+ *   - "listen" error: Socket couldn't be put in listening mode
+ */
 int init_socket( int port )
 {
     static struct sockaddr_in sa_zero;
     struct sockaddr_in sa;
-    int x = 1;
+    int x = 1;  /* Used for setsockopt */
     int fd;
 
     if ( ( fd = socket( AF_INET, SOCK_STREAM, 0 ) ) < 0 )
@@ -304,9 +351,39 @@ int init_socket( int port )
     return fd;
 }
 
+/*
+ * FUNCTION: game_loop
+ *
+ * Main game loop - processes network I/O and game updates.
+ *
+ * PARAMETERS:
+ *   control - File descriptor for the listening socket
+ *
+ * RETURNS: void (only returns when merc_down is set)
+ *
+ * DESCRIPTION:
+ *   This is the heart of the MUD server. Each iteration:
+ *   1. Uses select() to poll all active sockets for I/O
+ *   2. Accepts new connections
+ *   3. Reads input from connected players
+ *   4. Processes commands and game state (via update_handler)
+ *   5. Sends output to players
+ *
+ *   The loop runs continuously until merc_down is set TRUE.
+ *
+ * PERFORMANCE NOTES:
+ *   - select() with null timeout = non-blocking poll
+ *   - Players with wait > 0 are skipped (command delay)
+ *   - Output is only sent when the socket is ready for writing
+ *
+ * TROUBLESHOOTING:
+ *   - If select() fails: Check for SIGPIPE or network issues
+ *   - Lag issues: Check update_handler() functions
+ *   - Player disconnect: Check read_from_descriptor() return value
+ */
 void game_loop( int control )
 {
-    static struct timeval null_time;
+    static struct timeval null_time;  /* Zero timeout for non-blocking select */
     struct timeval last_time;
     bool color;
 
@@ -924,7 +1001,7 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
         color=TRUE;
       else
         color=FALSE;
-    if ( !merc_down ) 
+    if ( !merc_down )
         if ( d->showstr_point )
             write_to_buffer( d, "`W[Hit Return to continue]\n\r`w", 0 );
         else if ( fPrompt && d->pString && d->connected == CON_PLAYING )
@@ -999,7 +1076,7 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
         d->outtop = 0;
         return TRUE;
     }
-	
+
 }
 
 
@@ -1140,7 +1217,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument ) {
         	break;
 
 	    case CON_GET_NEW_RACE:
-			handle_con_get_new_race( d, argument );	
+			handle_con_get_new_race( d, argument );
         	break;
 
     	case CON_GET_NEW_SEX:
@@ -1432,14 +1509,14 @@ void send_to_desc( char *txt, DESCRIPTOR_DATA *d )
 {
     if ( txt != NULL && d != NULL ) {
 		if ( d->ansi ) {
-        	write_to_descriptor( d->descriptor, txt, strlen(txt), 
+        	write_to_descriptor( d->descriptor, txt, strlen(txt),
 				TRUE );
 		} else {
-        	write_to_descriptor( d->descriptor, txt, strlen(txt), 
+        	write_to_descriptor( d->descriptor, txt, strlen(txt),
 				FALSE );
 		}
 	}
-		
+
     return;
 }
 
@@ -1657,7 +1734,7 @@ void act_new( const char *format, CHAR_DATA *ch, const void *arg1,
         *point++ = 'w';
         *point++ = '\n';
         *point++ = '\r';
-        *point++ = '\0'; 
+        *point++ = '\0';
         buf[0]   = UPPER(buf[0]);
             if (to->desc && (to->desc->connected == CON_PLAYING))
                // write_to_buffer( to->desc, buf, point - buf );

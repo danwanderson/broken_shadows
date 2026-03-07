@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2022 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -246,6 +246,58 @@ void maxfilelimit()
 
 /*
  * Big mama top level function.
+ */
+/*
+ * FUNCTION: boot_db
+ *
+ * Initializes and loads all game data at server startup.
+ *
+ * DESCRIPTION:
+ *   This is called once during server initialization. It performs
+ *   ALL data loading and initialization required for the MUD to run:
+ *
+ *   INITIALIZATION SEQUENCE:
+ *   1. Set file descriptor limits (Unix/Linux)
+ *   2. Allocate string space memory pool
+ *   3. Initialize random number generator
+ *   4. Calculate game time and weather based on real time
+ *   5. Allocate auction data structure
+ *   6. Assign GSN (global skill numbers) to skill table
+ *   7. Load all area files from area.lst
+ *   8. Fix up mob/object/room references (vnum to pointer conversion)
+ *   9. Load social table
+ *   10. Load disabled command list
+ *   11. Convert area data (e.g., ROM format compatibility)
+ *   12. Load notes from all note boards
+ *   13. Load player ban list
+ *   14. Load clan data
+ *   15. Reset all areas to initial state
+ *
+ * GAME TIME CALCULATION:
+ *   - Uses Unix epoch offset (650336715) as game world creation date
+ *   - PULSE_TICK defines in-game time passage
+ *   - Weather set based on season (month) and atmospheric pressure
+ *
+ * CRITICAL FILES:
+ *   - ../area/area.lst: Master list of area files to load
+ *   - ../area/*.are: Individual area data files
+ *   - ../area/social.are: Social/emote definitions
+ *   - ../area/disabled.txt: Disabled commands
+ *   - ../area/ban.txt: Site ban list
+ *   - ../notes/*: Player note boards
+ *
+ * TROUBLESHOOTING:
+ *   - "can't alloc string space": Out of memory
+ *   - "area.lst not found": Missing area list file
+ *   - "bad vnum": Area file references non-existent mob/obj/room
+ *   - Crash during load: Check most recent area file being loaded
+ *   - "gsn not found": Skill table mismatch with skill definitions
+ *
+ * SIDE EFFECTS:
+ *   - Sets fBootDb = TRUE during loading
+ *   - Initializes all global game data structures
+ *   - Creates initial game world state
+ *   - May call exit(1) on critical errors
  */
 void boot_db(  )
 {
@@ -3311,7 +3363,7 @@ int                                             social_count            = 0;
 /* snarf a socials file */
 void load_socials( FILE *fp)
 {
-    for ( ; ; ) 
+    for ( ; ; )
     {
         struct social_type social;
         char *temp;
@@ -3320,7 +3372,7 @@ void load_socials( FILE *fp)
         social.others_no_arg = NULL;
         social.char_found = NULL;
         social.others_found = NULL;
-        social.vict_found = NULL; 
+        social.vict_found = NULL;
         social.char_not_found = NULL;
         social.char_auto = NULL;
         social.others_auto = NULL;
@@ -3339,7 +3391,7 @@ void load_socials( FILE *fp)
         {
              social_table[social_count] = social;
              social_count++;
-             continue; 
+             continue;
         }
         else
             social.char_no_arg = temp;
@@ -3378,7 +3430,7 @@ void load_socials( FILE *fp)
              continue;
         }
         else
-            social.others_found = temp; 
+            social.others_found = temp;
 
         temp = fread_string_eol(fp);
         if (!strcmp(temp,"$"))
@@ -3415,7 +3467,7 @@ void load_socials( FILE *fp)
         }
         else
             social.char_auto = temp;
-         
+
         temp = fread_string_eol(fp);
         if (!strcmp(temp,"$"))
              social.others_auto = NULL;
@@ -3426,14 +3478,14 @@ void load_socials( FILE *fp)
              continue;
         }
         else
-            social.others_auto = temp; 
-        
+            social.others_auto = temp;
+
         social_table[social_count] = social;
         social_count++;
    }
    return;
 }
-    
+
 
 
 /*
@@ -3442,7 +3494,7 @@ void load_socials( FILE *fp)
 void load_mobiles( FILE *fp )
 {
     MOB_INDEX_DATA *pMobIndex;
- 
+
     if ( !area_last )   /* OLC */
     {
         bug( "Load_mobiles: no #AREA seen yet.", 0 );
@@ -3453,18 +3505,18 @@ void load_mobiles( FILE *fp )
         sh_int vnum;
         char letter,temp;
         int iHash;
- 
+
         letter                          = fread_letter( fp );
         if ( letter != '#' )
         {
             bug( "Load_mobiles: # not found.", 0 );
             exit( 1 );
         }
- 
+
         vnum                            = fread_number( fp );
         if ( vnum == 0 )
             break;
- 
+
         fBootDb = FALSE;
         if ( get_mob_index( vnum ) != NULL )
         {
@@ -3472,7 +3524,7 @@ void load_mobiles( FILE *fp )
             exit( 1 );
         }
         fBootDb = TRUE;
- 
+
         pMobIndex                       = alloc_perm( sizeof(*pMobIndex) );
         pMobIndex->vnum                 = vnum;
         pMobIndex->area                 = area_last;               /* OLC */
@@ -3481,10 +3533,10 @@ void load_mobiles( FILE *fp )
         pMobIndex->long_descr           = fread_string( fp );
         pMobIndex->description          = fread_string( fp );
         pMobIndex->race                 = race_lookup(fread_string( fp ));
- 
+
         pMobIndex->long_descr[0]        = UPPER(pMobIndex->long_descr[0]);
         pMobIndex->description[0]       = UPPER(pMobIndex->description[0]);
- 
+
         pMobIndex->act                  = fread_flag( fp ) | ACT_IS_NPC
                                         | race_table[pMobIndex->race].act;
         pMobIndex->affected_by          = fread_flag( fp )
@@ -3498,14 +3550,14 @@ void load_mobiles( FILE *fp )
         letter                          = fread_letter( fp );
 
         pMobIndex->level                = fread_number( fp );
-        pMobIndex->hitroll              = fread_number( fp );  
+        pMobIndex->hitroll              = fread_number( fp );
 
         /* read hit dice */
-        pMobIndex->hit[DICE_NUMBER]     = fread_number( fp );  
-        /* 'd'          */                fread_letter( fp ); 
+        pMobIndex->hit[DICE_NUMBER]     = fread_number( fp );
+        /* 'd'          */                fread_letter( fp );
         pMobIndex->hit[DICE_TYPE]       = fread_number( fp );
-        /* '+'          */                fread_letter( fp );   
-        pMobIndex->hit[DICE_BONUS]      = fread_number( fp ); 
+        /* '+'          */                fread_letter( fp );
+        pMobIndex->hit[DICE_BONUS]      = fread_number( fp );
 
         /* read mana dice */
         pMobIndex->mana[DICE_NUMBER]    = fread_number( fp );
@@ -3529,7 +3581,7 @@ void load_mobiles( FILE *fp )
         pMobIndex->ac[AC_EXOTIC]        = fread_number( fp ) * 10;
 
         /* read flags and add in data from the race table */
-        pMobIndex->off_flags            = fread_flag( fp ) 
+        pMobIndex->off_flags            = fread_flag( fp )
                                         | race_table[pMobIndex->race].off;
         pMobIndex->imm_flags            = fread_flag( fp )
                                         | race_table[pMobIndex->race].imm;
@@ -3542,7 +3594,7 @@ void load_mobiles( FILE *fp )
         pMobIndex->default_pos          = fread_number( fp );
         pMobIndex->sex                  = fread_number( fp );
         pMobIndex->gold                 = fread_number( fp );
-        
+
         pMobIndex->form                 = fread_flag( fp )
                                         | race_table[pMobIndex->race].form;
         pMobIndex->parts                = fread_flag( fp )
@@ -3560,7 +3612,7 @@ void load_mobiles( FILE *fp )
             default:                    pMobIndex->size = SIZE_MEDIUM; break;
         }
         pMobIndex->material             = material_lookup(fread_word( fp ));
- 
+
         pMobIndex->clan=letter-64;
         if (letter == 'S') pMobIndex->clan=0;
         iHash                   = vnum % MAX_KEY_HASH;
@@ -3571,7 +3623,7 @@ void load_mobiles( FILE *fp )
         assign_area_vnum( vnum );                                  /* OLC */
         kill_table[URANGE(0, pMobIndex->level, MAX_LEVEL-1)].number++;
     }
- 
+
     return;
 }
 
@@ -3581,7 +3633,7 @@ void load_mobiles( FILE *fp )
 void load_objects( FILE *fp )
 {
     OBJ_INDEX_DATA *pObjIndex;
- 
+
     if ( !area_last )   /* OLC */
     {
         bug( "Load_objects: no #AREA seen yet.", 0 );
@@ -3592,18 +3644,18 @@ void load_objects( FILE *fp )
         sh_int vnum;
         char letter;
         int iHash;
- 
+
         letter                          = fread_letter( fp );
         if ( letter != '#' )
         {
             bug( "Load_objects: # not found.", 0 );
             exit( 1 );
         }
- 
+
         vnum                            = fread_number( fp );
         if ( vnum == 0 )
             break;
- 
+
         fBootDb = FALSE;
         if ( get_obj_index( vnum ) != NULL )
         {
@@ -3611,7 +3663,7 @@ void load_objects( FILE *fp )
             exit( 1 );
         }
         fBootDb = TRUE;
- 
+
         pObjIndex                       = alloc_perm( sizeof(*pObjIndex) );
         pObjIndex->vnum                 = vnum;
         pObjIndex->area                 = area_last;            /* OLC */
@@ -3620,7 +3672,7 @@ void load_objects( FILE *fp )
         pObjIndex->short_descr          = fread_string( fp );
         pObjIndex->description          = fread_string( fp );
         pObjIndex->material             = material_lookup(fread_string( fp ));
- 
+
         pObjIndex->item_type            = fread_number( fp );
         pObjIndex->extra_flags          = fread_flag( fp );
         pObjIndex->wear_flags           = fread_flag( fp );
@@ -3631,19 +3683,19 @@ void load_objects( FILE *fp )
         pObjIndex->value[4]             = fread_flag( fp );
         pObjIndex->level                = fread_number( fp );
         pObjIndex->weight               = fread_number( fp );
-        pObjIndex->cost                 = fread_number( fp ); 
+        pObjIndex->cost                 = fread_number( fp );
 
- 
+
         for ( ; ; )
         {
             char letter;
- 
+
             letter = fread_letter( fp );
- 
+
             if ( letter == 'A' )
             {
                 AFFECT_DATA *paf;
- 
+
                 paf                     = alloc_perm( sizeof(*paf) );
                 paf->where              = TO_OBJECT;
                 paf->type               = -1;
@@ -3656,7 +3708,7 @@ void load_objects( FILE *fp )
                 pObjIndex->affected     = paf;
                 top_affect++;
             }
- 
+
             else if (letter == 'F')
             {
                 AFFECT_DATA *paf;
@@ -3698,7 +3750,7 @@ void load_objects( FILE *fp )
             else if ( letter == 'E' )
             {
                 EXTRA_DESCR_DATA *ed;
- 
+
                 ed                      = alloc_perm( sizeof(*ed) );
                 ed->keyword             = fread_string( fp );
                 ed->description         = fread_string( fp );
@@ -3706,7 +3758,7 @@ void load_objects( FILE *fp )
                 pObjIndex->extra_descr  = ed;
                 top_ed++;
             }
- 
+
             else
             {
                 ungetc( letter, fp );
@@ -3726,13 +3778,13 @@ void load_objects( FILE *fp )
             pObjIndex->value[2] = slot_lookup( pObjIndex->value[2] );
             pObjIndex->value[3] = slot_lookup( pObjIndex->value[3] );
             break;
- 
+
         case ITEM_STAFF:
         case ITEM_WAND:
             pObjIndex->value[3] = slot_lookup( pObjIndex->value[3] );
             break;
         }
- 
+
         iHash                   = vnum % MAX_KEY_HASH;
         pObjIndex->next         = obj_index_hash[iHash];
         obj_index_hash[iHash]   = pObjIndex;
@@ -3740,6 +3792,6 @@ void load_objects( FILE *fp )
         top_vnum_obj = top_vnum_obj < vnum ? vnum : top_vnum_obj;   /* OLC */
         assign_area_vnum( vnum );                                   /* OLC */
     }
- 
+
     return;
 }

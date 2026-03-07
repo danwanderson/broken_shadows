@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2022 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -32,7 +32,7 @@
 #include <time.h>
 #include <form.h>
 #include "merc.h"
- 
+
 extern  int     _filbuf         (FILE *);
 
 
@@ -59,9 +59,49 @@ void    fread_obj       ( CHAR_DATA *ch,  FILE *fp );
 
 
 /*
- * Save a character and inventory.
- * Would be cool to save NPC's too for quest purposes,
- *   some of the infrastructure is provided.
+ * FUNCTION: save_char_obj
+ *
+ * Saves a player character and their inventory to disk.
+ *
+ * PARAMETERS:
+ *   ch - Character to save (must be a PC, not NPC)
+ *
+ * DESCRIPTION:
+ *   Writes complete character state to a pfile (player file).
+ *   This includes:
+ *   - Basic stats (level, experience, alignment, etc.)
+ *   - Attributes (str, int, wis, dex, con)
+ *   - Equipment and inventory (all carried objects)
+ *   - Skills and skill levels
+ *   - Affects (spells and conditions)
+ *   - Player flags and preferences
+ *   - Banking, clan, and marriage data
+ *   - Aliases and configuration
+ *
+ * FILE LOCATIONS:
+ *   - Player files: ../player/<name> (e.g., ../player/Gandalf)
+ *   - Immortal logs: ../gods/<name> (brief immortal status log)
+ *
+ * SPECIAL HANDLING:
+ *   - Switched characters: Saves original, not switched mob
+ *   - Immortals: Also writes to gods/ directory with trust level
+ *   - Uses reserve file handle to ensure file operations succeed
+ *
+ * PFILE FORMAT:
+ *   Custom text format with #-prefixed section headers:
+ *   #PLAYER, #PWPOINTS, #ALIAS, #AFFECT, #OBJECT, etc.
+ *   Terminated with #END marker
+ *
+ * TROUBLESHOOTING:
+ *   - "fopen failed": Check file permissions on player/ directory
+ *   - Corrupted pfile: Usually from crash during save
+ *   - Missing items: Check object save flags (ITEM_INVENTORY)
+ *   - Save lag: Large inventory or many affects
+ *
+ * SAFETY:
+ *   - Does not save NPCs (IS_NPC check)
+ *   - Does not save level 1 characters (optional check disabled)
+ *   - Uses temporary file + rename for atomic saves (not implemented)
  */
 void save_char_obj( CHAR_DATA *ch )
 {
@@ -166,7 +206,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
     if (ch->gold > 0)
       fprintf( fp, "Gold %ld\n",        ch->gold                );
     else
-      fprintf( fp, "Gold %d\n", 0                       ); 
+      fprintf( fp, "Gold %d\n", 0                       );
     /* bank stuff added by Rahl */
     if( ch->bank > 0 )
         fprintf( fp, "Bank %ld\n",      ch->bank        );
@@ -210,7 +250,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
     /* added by Rahl */
     if ( ch->incog_level != 0 )
         fprintf( fp, "Inco %d\n",       ch->incog_level );
-    fprintf( fp, "Pos  %d\n",   
+    fprintf( fp, "Pos  %d\n",
         ch->position == POS_FIGHTING ? POS_STANDING : ch->position );
     if (ch->practice != 0)
         fprintf( fp, "Prac %d\n",       ch->practice    );
@@ -223,7 +263,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
         fprintf( fp, "Hit   %d\n",      ch->hitroll     );
     if (ch->damroll != 0)
         fprintf( fp, "Dam   %d\n",      ch->damroll     );
-    fprintf( fp, "ACs %d %d %d %d\n",   
+    fprintf( fp, "ACs %d %d %d %d\n",
         ch->armor[0],ch->armor[1],ch->armor[2],ch->armor[3]);
     if (ch->wimpy !=0 )
         fprintf( fp, "Wimp  %d\n",      ch->wimpy       );
@@ -256,7 +296,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
         fprintf( fp, "Pnts %d\n",       ch->pcdata->points      );
         fprintf( fp, "TSex %d\n",       ch->pcdata->true_sex    );
         fprintf( fp, "LLev %d\n",       ch->pcdata->last_level  );
-        fprintf( fp, "HMVP %d %d %d\n", ch->pcdata->perm_hit, 
+        fprintf( fp, "HMVP %d %d %d\n", ch->pcdata->perm_hit,
                                                    ch->pcdata->perm_mana,
                                                    ch->pcdata->perm_move);
         fprintf( fp, "Cond %d %d %d\n",
@@ -341,7 +381,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
     {
         if (paf->type < 0 || paf->type>= MAX_SKILL)
             continue;
-        
+
         fprintf( fp, "AffD '%s' %3d %3d %3d %3d %3d %10d\n",
             skill_table[paf->type].name,
             paf->where,
@@ -361,11 +401,11 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
 void fwrite_pet( CHAR_DATA *pet, FILE *fp)
 {
     AFFECT_DATA *paf;
-    
+
     fprintf(fp,"#PET\n");
-    
+
     fprintf(fp,"Vnum %d\n",pet->pIndexData->vnum);
-    
+
     fprintf(fp,"Name %s~\n", pet->name);
     if (pet->short_descr != pet->pIndexData->short_descr)
         fprintf(fp,"ShD  %s~\n", pet->short_descr);
@@ -412,22 +452,22 @@ void fwrite_pet( CHAR_DATA *pet, FILE *fp)
         pet->mod_stat[STAT_STR], pet->mod_stat[STAT_INT],
         pet->mod_stat[STAT_WIS], pet->mod_stat[STAT_DEX],
         pet->mod_stat[STAT_CON]);
-    
+
     for ( paf = pet->affected; paf != NULL; paf = paf->next )
     {
         if (paf->type < 0 || paf->type >= MAX_SKILL)
             continue;
-            
+
         fprintf(fp, "AffD '%s' %3d %3d %3d %3d %3d %10d\n",
             skill_table[paf->type].name, paf->where,
             paf->level, paf->duration, paf->modifier,paf->location,
             paf->bitvector);
     }
-    
+
     fprintf(fp,"End\n");
     return;
 }
-    
+
 /*
  * Write an object and its contents.
  */
@@ -449,7 +489,7 @@ void fwrite_obj( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest )
     if ( (ch->level < obj->level - 2 && obj->item_type != ITEM_CONTAINER)
     ||   obj->item_type == ITEM_KEY
     ||   (obj->item_type == ITEM_MAP && !obj->value[0]))
-        return; 
+        return;
 
     fprintf( fp, "#O\n" );
     fprintf( fp, "Vnum %d\n",   obj->pIndexData->vnum        );
@@ -486,7 +526,7 @@ void fwrite_obj( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest )
     ||  obj->value[1] != obj->pIndexData->value[1]
     ||  obj->value[2] != obj->pIndexData->value[2]
     ||  obj->value[3] != obj->pIndexData->value[3]
-    ||  obj->value[4] != obj->pIndexData->value[4]) 
+    ||  obj->value[4] != obj->pIndexData->value[4])
         fprintf( fp, "Val  %d %d %d %d %d\n",
             obj->value[0], obj->value[1], obj->value[2], obj->value[3],
             obj->value[4]            );
@@ -497,19 +537,19 @@ void fwrite_obj( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest )
     case ITEM_SCROLL:
         if ( obj->value[1] > 0 )
         {
-            fprintf( fp, "Spell 1 '%s'\n", 
+            fprintf( fp, "Spell 1 '%s'\n",
                 skill_table[obj->value[1]].name );
         }
 
         if ( obj->value[2] > 0 )
         {
-            fprintf( fp, "Spell 2 '%s'\n", 
+            fprintf( fp, "Spell 2 '%s'\n",
                 skill_table[obj->value[2]].name );
         }
 
         if ( obj->value[3] > 0 )
         {
-            fprintf( fp, "Spell 3 '%s'\n", 
+            fprintf( fp, "Spell 3 '%s'\n",
                 skill_table[obj->value[3]].name );
         }
 
@@ -520,7 +560,7 @@ void fwrite_obj( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest )
     case ITEM_WAND:
         if ( obj->value[3] > 0 )
         {
-            fprintf( fp, "Spell 3 '%s'\n", 
+            fprintf( fp, "Spell 3 '%s'\n",
                 skill_table[obj->value[3]].name );
         }
 
@@ -608,7 +648,7 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
                                         | PLR_AUTOLOOT
                                         | PLR_AUTOGOLD
                                         | PLR_AUTOEXIT;
-    ch->comm                            = COMM_COMBINE 
+    ch->comm                            = COMM_COMBINE
                                         | COMM_PROMPT;
     /* every char starts in the default board from login. This board
      * should be read_level == 0
@@ -638,7 +678,7 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
     ch->pcdata->perm_move               = 0;
     ch->pcdata->true_sex                = 0;
     ch->pcdata->last_level              = 0;
-    ch->pcdata->condition[COND_THIRST]  = 48; 
+    ch->pcdata->condition[COND_THIRST]  = 48;
     ch->pcdata->condition[COND_FULL]    = 48;
     ch->pcdata->security                = 0;    /* OLC */
     ch->pcdata->prompt                  = str_dup( "%i`K/`W%H`w HP %n`K/`W%M`w MP %w`K/`W%V`w MV `K> ");
@@ -665,7 +705,7 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
 	ch->bonusPoints							= 0;
     found = FALSE;
     fclose( fpReserve );
-    
+
     #if defined(unix)
     /* decompress if .gz file exists */
     sprintf( strsave, "%s%s%s", PLAYER_DIR, capitalize(name),".gz");
@@ -747,7 +787,7 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
         ch->parts       = race_table[ch->race].parts;
     }
 
-        
+
     /* RT initialize skills */
 
     if (found && ch->version < 2)  /* need to add the new skills */
@@ -757,7 +797,7 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
         group_add(ch,class_table[ch->ch_class].default_group,TRUE);
         ch->pcdata->learned[gsn_recall] = 50;
     }
- 
+
     /* fix levels */
     if (found && ch->version < 3 && (ch->level > 35 || ch->trust > 35))
     {
@@ -778,7 +818,7 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
             case(36) : ch->trust = 51;  break;  /* hero -> hero */
         }
     }
-   
+
 
     return found;
 }
@@ -864,7 +904,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
                 break;
             }
 
-            if ( !str_cmp( word, "Affect" ) || !str_cmp( word, "Aff" ) 
+            if ( !str_cmp( word, "Affect" ) || !str_cmp( word, "Aff" )
             ||   !str_cmp( word, "AffD"))
             {
                 AFFECT_DATA *paf;
@@ -946,13 +986,13 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
                 {
                     boardname = fread_word (fp);
                     i = board_lookup (boardname); /* find board number */
- 
+
                     if (i == BOARD_NOTFOUND) /* Does board still exist? */
                     {
                         sprintf (buf, "fread_char: %s had unknown board name: %s. Skipped.", ch->name, boardname);
                         log_string (buf);
                         fread_number (fp); /* read last_note and skip info */
-                    }                               
+                    }
                     else /* Save it */
                         ch->pcdata->last_note[i] = fread_number(fp);
                }        /* for */
@@ -978,7 +1018,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
             }
             KEY("Prom",         ch->pcdata->prompt,     fread_string( fp ) );
             KEY("Comm",         ch->comm,               fread_number( fp ) );
-            KEY("CommF",        ch->comm,               fread_flag( fp ) ); 
+            KEY("CommF",        ch->comm,               fread_flag( fp ) );
             KEY("Comnt",        ch->pcdata->comment,    fread_string( fp ) );
             break;
 
@@ -1002,7 +1042,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
             {
                 int gn;
                 char *temp;
- 
+
                 temp = fread_word( fp ) ;
                 gn = group_lookup(temp);
                 /* gn    = group_lookup( fread_word( fp ) ); */
@@ -1041,7 +1081,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
                 fMatch = TRUE;
                 break;
             }
-      
+
             break;
 
         case 'I':
@@ -1101,7 +1141,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
             KEY( "QuestNext",   ch->nextquest,          fread_number( fp ) );
 
         case 'R':
-            KEY( "Race",        ch->race,       
+            KEY( "Race",        ch->race,
                                 race_lookup(fread_string( fp )) );
             if ( !str_cmp( word, "Recl" ) )
             {
@@ -1165,7 +1205,7 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
             if ( !str_cmp( word, "Title" )  || !str_cmp( word, "Titl"))
             {
                 ch->pcdata->title = fread_string( fp );
-                if (ch->pcdata->title[0] != '.' && ch->pcdata->title[0] != ',' 
+                if (ch->pcdata->title[0] != '.' && ch->pcdata->title[0] != ','
                 &&  ch->pcdata->title[0] != '!' && ch->pcdata->title[0] != '?')
                 {
                     sprintf( buf, " %s", ch->pcdata->title );
@@ -1218,7 +1258,7 @@ void fread_pet( CHAR_DATA *ch, FILE *fp )
     if (!str_cmp(word,"Vnum"))
     {
         int vnum;
-        
+
         vnum = fread_number(fp);
         if (get_mob_index(vnum) == NULL)
         {
@@ -1233,19 +1273,19 @@ void fread_pet( CHAR_DATA *ch, FILE *fp )
         bug("Fread_pet: no vnum in file.",0);
         pet = create_mobile(get_mob_index(MOB_VNUM_FIDO));
     }
-    
+
     for ( ; ; )
     {
         word    = feof(fp) ? "END" : fread_word(fp);
         fMatch = FALSE;
-        
+
         switch (UPPER(word[0]))
         {
         case '*':
             fMatch = TRUE;
             fread_to_eol(fp);
             break;
-                
+
         case 'A':
             KEY( "Act",         pet->act,               fread_number(fp));
             KEY( "ActF",        pet->act,               fread_flag( fp ) );
@@ -1258,18 +1298,18 @@ void fread_pet( CHAR_DATA *ch, FILE *fp )
             if (!str_cmp(word,"ACs"))
             {
                 int i;
-                
+
                 for (i = 0; i < 4; i++)
                     pet->armor[i] = fread_number(fp);
                 fMatch = TRUE;
                 break;
             }
-            
+
             if (!str_cmp(word,"AffD"))
             {
                 AFFECT_DATA *paf;
                 int sn;
-                
+
                 if (affect_free == NULL)
                     paf = alloc_perm(sizeof(*paf));
                 else
@@ -1277,14 +1317,14 @@ void fread_pet( CHAR_DATA *ch, FILE *fp )
                     paf = affect_free;
                     affect_free = affect_free->next;
                 }
-                
+
                 sn = skill_lookup(fread_word(fp));
                 if (sn < 0)
                     bug("Fread_char: unknown skill.",0);
                 else
                    paf->type = sn;
-                
-                paf->where      = fread_number(fp);   
+
+                paf->where      = fread_number(fp);
                 paf->level      = fread_number(fp);
                 paf->duration   = fread_number(fp);
                 paf->modifier   = fread_number(fp);
@@ -1295,38 +1335,38 @@ void fread_pet( CHAR_DATA *ch, FILE *fp )
                 fMatch          = TRUE;
                 break;
             }
-             
+
             if (!str_cmp(word,"AMod"))
             {
                 int stat;
-                
+
                 for (stat = 0; stat < MAX_STATS; stat++)
                     pet->mod_stat[stat] = fread_number(fp);
                 fMatch = TRUE;
                 break;
             }
-             
+
             if (!str_cmp(word,"Attr"))
             {
                  int stat;
-                 
+
                  for (stat = 0; stat < MAX_STATS; stat++)
                      pet->perm_stat[stat] = fread_number(fp);
                  fMatch = TRUE;
                  break;
             }
             break;
-             
+
          case 'C':
              KEY( "Comm",       pet->comm,              fread_number(fp));
              KEY( "CommF",      pet->comm,              fread_flag( fp ) );
              break;
-             
+
          case 'D':
              KEY( "Dam",        pet->damroll,           fread_number(fp));
              KEY( "Desc",       pet->description,       fread_string(fp));
              break;
-             
+
          case 'E':
              if (!str_cmp(word,"End"))
              {
@@ -1337,14 +1377,14 @@ void fread_pet( CHAR_DATA *ch, FILE *fp )
              }
              KEY( "Exp",        pet->exp,               fread_number(fp));
              break;
-             
+
          case 'G':
              KEY( "Gold",       pet->gold,              fread_number(fp));
              break;
-             
+
          case 'H':
              KEY( "Hit",        pet->hitroll,           fread_number(fp));
-             
+
              if (!str_cmp(word,"HMV"))
              {
                 pet->hit        = fread_number(fp);
@@ -1357,39 +1397,39 @@ void fread_pet( CHAR_DATA *ch, FILE *fp )
                 break;
              }
              break;
-             
+
         case 'L':
              KEY( "Levl",       pet->level,             fread_number(fp));
              KEY( "LnD",        pet->long_descr,        fread_string(fp));
              break;
-             
+
         case 'N':
              KEY( "Name",       pet->name,              fread_string(fp));
              break;
-             
+
         case 'P':
              KEY( "Pos",        pet->position,          fread_number(fp));
              break;
-             
+
         case 'R':
             KEY( "Race",        pet->race, race_lookup(fread_string(fp)));
             break;
-            
+
         case 'S' :
             KEY( "Save",        pet->saving_throw,      fread_number(fp));
             KEY( "Sex",         pet->sex,               fread_number(fp));
             KEY( "ShD",         pet->short_descr,       fread_string(fp));
             break;
-            
+
         if ( !fMatch )
         {
             bug("Fread_pet: no match.",0);
             fread_to_eol(fp);
         }
-        
+
         }
     }
-    
+
 }
 
 
@@ -1405,7 +1445,7 @@ void fread_obj( CHAR_DATA *ch, FILE *fp )
     bool fVnum;
     bool first;
     bool make_new;    /* update object */
-    
+
     fVnum = FALSE;
     obj = NULL;
     first = TRUE;  /* used to counter fp offset */
@@ -1416,7 +1456,7 @@ void fread_obj( CHAR_DATA *ch, FILE *fp )
     {
         int vnum;
         first = FALSE;  /* fp will be in right place */
- 
+
         vnum = fread_number( fp );
         if (  get_obj_index( vnum )  == NULL )
         {
@@ -1426,7 +1466,7 @@ void fread_obj( CHAR_DATA *ch, FILE *fp )
         {
             obj = create_object(get_obj_index(vnum),-1);
         }
-            
+
     }
 
     if (obj == NULL)  /* either not found or old style */
@@ -1580,7 +1620,7 @@ void fread_obj( CHAR_DATA *ch, FILE *fp )
                     if (make_new)
                     {
                         int wear;
-                        
+
                         wear = obj->wear_loc;
                         extract_obj(obj);
 
@@ -1627,7 +1667,7 @@ void fread_obj( CHAR_DATA *ch, FILE *fp )
 
         case 'O':
             break;
-                    
+
 
         case 'S':
             KEY( "ShortDescr",  obj->short_descr,       fread_string( fp ) );

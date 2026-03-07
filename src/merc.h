@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2022 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -92,7 +92,7 @@ typedef struct  time_info_data          TIME_INFO_DATA;
 typedef struct  weather_data            WEATHER_DATA;
 typedef struct  clan_data               CLAN_DATA;
 /* added by Rahl */
-typedef struct  auction_data            AUCTION_DATA; 
+typedef struct  auction_data            AUCTION_DATA;
 typedef struct  disabled_data           DISABLED_DATA;
 
 /*
@@ -107,6 +107,17 @@ typedef void SPELL_FUN  args( ( int sn, int level, CHAR_DATA *ch, void
 
 /*
  * String and memory management parameters.
+ *
+ * MAX_KEY_HASH: Hash table size for string interning/sharing
+ * MAX_STRING_LENGTH: Maximum length for formatted strings/buffers
+ * MAX_INPUT_LENGTH: Maximum length for player command input
+ * PAGELEN: Lines per page for paginated output (more/page)
+ * MAX_MEM_LIST: Number of memory allocation size classes
+ *
+ * TROUBLESHOOTING:
+ *   - String truncation: Increase MAX_STRING_LENGTH
+ *   - Input cut off: Check MAX_INPUT_LENGTH
+ *   - Memory issues: Adjust MAX_MEM_LIST buckets
  */
 #define MAX_KEY_HASH             1024
 #define MAX_STRING_LENGTH        4096
@@ -120,6 +131,28 @@ typedef void SPELL_FUN  args( ( int sn, int level, CHAR_DATA *ch, void
  * Game parameters.
  * Increase the max'es if you add more of something.
  * Adjust the pulse numbers to suit yourself.
+ *
+ * PULSE SYSTEM:
+ *   All game timing based on "pulses" (game loop iterations)
+ *   PULSE_PER_SECOND = 4 means 4 pulses per real second
+ *
+ *   PULSE_VIOLENCE (3 pulses = 0.75 sec): Combat round frequency
+ *   PULSE_MOBILE (4 pulses = 1 sec): NPC AI update frequency
+ *   PULSE_TICK (120 pulses = 30 sec): Regeneration, hunger/thirst
+ *   PULSE_AREA (240 pulses = 60 sec): Area resets
+ *   PULSE_AUCTION (40 pulses = 10 sec): Auction call frequency
+ *   PULSE_MUSIC (24 pulses = 6 sec): Jukebox update
+ *   PULSE_BONUS (7200 pulses = 30 min): Bonus update timer
+ *
+ * LEVEL STRUCTURE:
+ *   Levels 1-91: Mortal players
+ *   Level 91 (HERO): Maximum mortal level
+ *   Levels 92-100: Immortal staff ranks
+ *
+ * TROUBLESHOOTING:
+ *   - Too fast combat: Increase PULSE_VIOLENCE
+ *   - Slow regen: Decrease PULSE_TICK
+ *   - Skills not working: Check MAX_SKILL limit
  */
 #define MAX_SOCIALS               999
 #define MAX_SKILL                 999
@@ -155,7 +188,7 @@ typedef void SPELL_FUN  args( ( int sn, int level, CHAR_DATA *ch, void
 #define HERO                    LEVEL_HERO
 
 /* added by Rahl */
-#define PULSE_AUCTION           ( 10 * PULSE_PER_SECOND ) 
+#define PULSE_AUCTION           ( 10 * PULSE_PER_SECOND )
                                 /* 10 seconds */
 #define PULSE_MUSIC             ( 6 * PULSE_PER_SECOND)
 #define PULSE_BONUS			( 1800 * PULSE_PER_SECOND )
@@ -253,6 +286,31 @@ struct  weather_data
 
 /*
  * Connected state for a channel.
+ *
+ * These define the login/character creation flow and connection states.
+ *
+ * LOGIN SEQUENCE (new player):
+ *   CON_GET_NAME -> CON_CONFIRM_NEW_NAME -> CON_GET_NEW_PASSWORD ->
+ *   CON_CONFIRM_NEW_PASSWORD -> CON_GET_NEW_RACE -> CON_GET_NEW_SEX ->
+ *   CON_GET_NEW_CLASS -> CON_GET_ALIGNMENT -> CON_GET_STATS ->
+ *   CON_DEFAULT_CHOICE -> CON_GEN_GROUPS -> CON_PICK_WEAPON ->
+ *   CON_ANSI -> CON_READ_MOTD -> CON_PLAYING
+ *
+ * LOGIN SEQUENCE (existing player):
+ *   CON_GET_NAME -> CON_GET_OLD_PASSWORD -> CON_READ_IMOTD (if immortal) ->
+ *   CON_READ_MOTD -> CON_PLAYING
+ *
+ * SPECIAL STATES:
+ *   CON_PLAYING: Normal game play (most time spent here)
+ *   CON_NOTE_*: Writing/editing notes (bulletin board)
+ *   CON_BEGIN_REMORT: Remort/prestige character rebuild
+ *   CON_COPYOVER_RECOVER: Reconnecting after hot-boot
+ *   CON_BREAK_CONNECT: Disconnection in progress
+ *
+ * TROUBLESHOOTING:
+ *   - Stuck at login: Check nanny() function in handle_con.c
+ *   - Skipped character creation: State transition error
+ *   - Menu loops: Check state machine logic
  */
 #define CON_PLAYING                      0
 #define CON_GET_NAME                     1
@@ -264,8 +322,8 @@ struct  weather_data
 #define CON_GET_NEW_SEX                  7
 #define CON_GET_NEW_CLASS                8
 #define CON_GET_ALIGNMENT                9
-#define CON_DEFAULT_CHOICE              10 
-#define CON_GEN_GROUPS                  11 
+#define CON_DEFAULT_CHOICE              10
+#define CON_GEN_GROUPS                  11
 #define CON_PICK_WEAPON                 12
 #define CON_READ_IMOTD                  13
 #define CON_READ_MOTD                   14
@@ -283,6 +341,35 @@ struct  weather_data
 
 /*
  * Descriptor (channel) structure.
+ *
+ * Represents a single network connection to the MUD.
+ * One descriptor per connected player/connection.
+ *
+ * KEY FIELDS:
+ *   descriptor: System socket file descriptor
+ *   connected: Connection state (CON_* constants above)
+ *   character: Pointer to player character (NULL during login)
+ *   original: For switched characters (wizards possessing mobs)
+ *   host: IP address or hostname of connection
+ *
+ * BUFFERS:
+ *   inbuf: Raw input buffer from socket (up to 4*MAX_INPUT_LENGTH)
+ *   incomm: Current command being processed
+ *   inlast: Previous command (for repeat with "!")
+ *   outbuf: Output buffer to be sent to socket
+ *   outtop: Current position in output buffer
+ *   outsize: Total size of allocated output buffer
+ *
+ * SPECIAL FEATURES:
+ *   snoop_by: Immortal snooping this connection
+ *   pEdit/pString/editor: OLC (Online Creation) editing state
+ *   showstr_*: Pager for long text (more/page support)
+ *   ansi: Whether connection supports ANSI color codes
+ *
+ * TROUBLESHOOTING:
+ *   - Output overflow: outbuf reaches outsize, may need resize
+ *   - Lost input: Check inbuf processing in game_loop
+ *   - Connection hangs: Check descriptor state and buffers
  */
 struct  descriptor_data
 {
@@ -558,7 +645,7 @@ struct  kill_data
 #define Z                       33554432
 #define aa                      67108864        /* doubled due to conflicts */
 #define bb                      134217728
-#define cc                      268435456    
+#define cc                      268435456
 #define dd                      536870912
 #define ee                      1073741824
 
@@ -575,7 +662,7 @@ struct  kill_data
 #define ACT_PET                 (I)             /* Auto set for pets    */
 #define ACT_TRAIN               (J)             /* Can train PC's       */
 #define ACT_PRACTICE            (K)             /* Can practice PC's    */
-#define ACT_UNDEAD              (O)     
+#define ACT_UNDEAD              (O)
 #define ACT_CLERIC              (Q)
 #define ACT_MAGE                (R)
 #define ACT_THIEF               (S)
@@ -662,7 +749,7 @@ struct  kill_data
 #define IMM_DISEASE             (Q)
 #define IMM_DROWNING            (R)
 #define IMM_LIGHT               (S)
- 
+
 /* RES bits for mobs */
 #define RES_CHARM               (B)
 #define RES_MAGIC               (C)
@@ -682,7 +769,7 @@ struct  kill_data
 #define RES_DISEASE             (Q)
 #define RES_DROWNING            (R)
 #define RES_LIGHT               (S)
- 
+
 /* VULN bits for mobs */
 #define VULN_MAGIC              (C)
 #define VULN_WEAPON             (D)
@@ -704,14 +791,14 @@ struct  kill_data
 #define VULN_WOOD               (X)
 #define VULN_SILVER             (Y)
 #define VULN_IRON               (Z)
- 
+
 /* body form */
 #define FORM_EDIBLE             (A)
 #define FORM_POISON             (B)
 #define FORM_MAGICAL            (C)
 #define FORM_INSTANT_DECAY      (D)
 #define FORM_OTHER              (E)  /* defined by material bit */
- 
+
 /* actual form */
 #define FORM_ANIMAL             (G)
 #define FORM_SENTIENT           (H)
@@ -719,7 +806,7 @@ struct  kill_data
 #define FORM_CONSTRUCT          (J)
 #define FORM_MIST               (K)
 #define FORM_INTANGIBLE         (L)
- 
+
 #define FORM_BIPED              (M)
 #define FORM_CENTAUR            (N)
 #define FORM_INSECT             (O)
@@ -727,7 +814,7 @@ struct  kill_data
 #define FORM_CRUSTACEAN         (Q)
 #define FORM_WORM               (R)
 #define FORM_BLOB               (S)
- 
+
 #define FORM_MAMMAL             (V)
 #define FORM_BIRD               (W)
 #define FORM_REPTILE            (X)
@@ -735,8 +822,8 @@ struct  kill_data
 #define FORM_DRAGON             (Z)
 #define FORM_AMPHIBIAN          (aa)
 #define FORM_FISH               (bb)
-#define FORM_COLD_BLOOD         (cc)    
- 
+#define FORM_COLD_BLOOD         (cc)
+
 /* body parts */
 #define PART_HEAD               (A)
 #define PART_ARMS               (B)
@@ -881,7 +968,7 @@ struct  kill_data
 #define OBJ_VNUM_SPRING              22
 /* added by Rahl */
 #define OBJ_VNUM_FLAME_SWORD         23
-#define OBJ_VNUM_STEAK               24 
+#define OBJ_VNUM_STEAK               24
 #define OBJ_VNUM_ROSE                25
 #define OBJ_VNUM_PORTAL              26
 /* end stuff by Rahl */
@@ -1015,7 +1102,7 @@ struct  kill_data
 #define WEAPON_MACE             4
 #define WEAPON_AXE              5
 #define WEAPON_FLAIL            6
-#define WEAPON_WHIP             7       
+#define WEAPON_WHIP             7
 #define WEAPON_POLEARM          8
 
 /* weapon types */
@@ -1285,7 +1372,7 @@ struct  kill_data
 /* penalties */
 #define COMM_NOEMOTE            (T)
 #define COMM_NOTELL             (V)
-#define COMM_NOCHANNELS         (W) 
+#define COMM_NOCHANNELS         (W)
 #define COMM_SNOOP_PROOF        (Y)
 
 /* WIZNET stuff added by Rahl */
@@ -1628,7 +1715,7 @@ struct  exit_data
 /*
  * Reset commands:
  *   '*': comment
- *   'M': read a mobile 
+ *   'M': read a mobile
  *   'O': read an object
  *   'P': put object in object
  *   'G': give object to mobile
@@ -1737,7 +1824,7 @@ struct  skill_type
 {
     char *      name;                   /* Name of skill                */
     sh_int      skill_level[MAX_CLASS]; /* Level needed by class        */
-    sh_int      rating[MAX_CLASS];      /* How hard it is to learn      */      
+    sh_int      rating[MAX_CLASS];      /* How hard it is to learn      */
     SPELL_FUN * spell_fun;              /* Spell pointer (for spells)   */
     sh_int      target;                 /* Legal targets                */
     sh_int      minimum_position;       /* Position for caster / user   */
@@ -1818,18 +1905,18 @@ extern sh_int  gsn_shield_block;
 extern sh_int  gsn_spear;
 extern sh_int  gsn_sword;
 extern sh_int  gsn_whip;
- 
+
 extern sh_int  gsn_bash;
 extern sh_int  gsn_berserk;
 extern sh_int  gsn_dirt;
 extern sh_int  gsn_hand_to_hand;
 extern sh_int  gsn_trip;
- 
+
 extern sh_int  gsn_fast_healing;
 extern sh_int  gsn_haggle;
 extern sh_int  gsn_lore;
 extern sh_int  gsn_meditation;
- 
+
 extern sh_int  gsn_scrolls;
 extern sh_int  gsn_staves;
 extern sh_int  gsn_wands;
@@ -1883,7 +1970,7 @@ extern sh_int  gsn_whirlwind;
 #define IS_AWAKE(ch)            (ch->position > POS_SLEEPING)
 #define GET_AC(ch,type)         ((ch)->armor[type]                          \
                         + ( IS_AWAKE(ch)                            \
-                        ? dex_app[get_curr_stat(ch,STAT_DEX)].defensive : 0 ))  
+                        ? dex_app[get_curr_stat(ch,STAT_DEX)].defensive : 0 ))
 #define GET_HITROLL(ch) \
                 ((ch)->hitroll+str_app[get_curr_stat(ch,STAT_STR)].tohit)
 #define GET_DAMROLL(ch) \
@@ -2007,7 +2094,7 @@ char *  crypt           ( const char *key, const char *salt );
 int     fclose          ( FILE *stream );
 int     fprintf         ( FILE *stream, const char *format, ... );
 #if     defined(SYSV)
-siz_t   fread           ( void *ptr, size_t size, size_t n, 
+siz_t   fread           ( void *ptr, size_t size, size_t n,
                             FILE *stream );
 #else
 int     fread           ( void *ptr, int size, int n, FILE *stream );
@@ -2111,7 +2198,7 @@ void    send_to_desc    ( char *txt, DESCRIPTOR_DATA *d );
 void    page_to_char    ( const char *txt, CHAR_DATA *ch );
 void    act             ( const char *format, CHAR_DATA *ch,
                             const void *arg1, const void *arg2, int type );
-void    act_new         ( const char *format, CHAR_DATA *ch, 
+void    act_new         ( const char *format, CHAR_DATA *ch,
                             const void *arg1, const void *arg2, int type,
                             int min_pos );
 bool    check_reconnect( DESCRIPTOR_DATA *d, char *name, bool fConn );
@@ -2194,7 +2281,7 @@ void    violence_update ( void );
 void    multi_hit       ( CHAR_DATA *ch, CHAR_DATA *victim, int dt );
 bool    damage          ( CHAR_DATA *ch, CHAR_DATA *victim, int dam,
                                 int dt, int class, bool show );
-void     update_pos     ( CHAR_DATA *victim ); 
+void     update_pos     ( CHAR_DATA *victim );
 void    stop_fighting   ( CHAR_DATA *ch, bool fBoth );
 
 /* handler.c */
@@ -2316,7 +2403,7 @@ char *  one_argument    ( char *argument, char *arg_first );
 /* magic.c */
 int     mana_cost       (CHAR_DATA *ch, int min_mana, int level);
 int     skill_lookup    ( const char *name );
-int     slot_lookup     ( int slot ); 
+int     slot_lookup     ( int slot );
 bool    saves_spell     ( int level, CHAR_DATA *victim, int dam_type );
 void    obj_cast_spell  ( int sn, int level, CHAR_DATA *ch,
                                     CHAR_DATA *victim, OBJ_DATA *obj );

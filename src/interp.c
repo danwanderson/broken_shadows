@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2022 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -91,7 +91,7 @@ const   struct  cmd_type        cmd_table       [] =
     { "inventory",      do_inventory,   POS_DEAD,        0,  LOG_NORMAL, 1 },
     { "kill",           do_kill,        POS_FIGHTING,    0,  LOG_NORMAL, 1 },
     { "look",           do_look,        POS_RESTING,     0,  LOG_NORMAL, 1 },
-    { "music",          do_music,       POS_SLEEPING,    0,  LOG_NORMAL, 1 }, 
+    { "music",          do_music,       POS_SLEEPING,    0,  LOG_NORMAL, 1 },
     { "order",          do_order,       POS_RESTING,     0,  LOG_NORMAL, 1 },
     { "practice",       do_practice,    POS_SLEEPING,    0,  LOG_NORMAL, 1 },
     { "rest",           do_rest,        POS_SLEEPING,    0,  LOG_NORMAL, 1 },
@@ -231,7 +231,7 @@ const   struct  cmd_type        cmd_table       [] =
     { "eat",            do_eat,         POS_RESTING,     0,  LOG_NORMAL, 1 },
     { "fill",           do_fill,        POS_RESTING,     0,  LOG_NORMAL, 1 },
     { "give",           do_give,        POS_RESTING,     0,  LOG_NORMAL, 1 },
-    { "heal",           do_heal,        POS_RESTING,     0,  LOG_NORMAL, 1 }, 
+    { "heal",           do_heal,        POS_RESTING,     0,  LOG_NORMAL, 1 },
     { "hold",           do_wear,        POS_RESTING,     0,  LOG_NORMAL, 1 },
     { "list",           do_list,        POS_RESTING,     0,  LOG_NORMAL, 1 },
     { "lock",           do_lock,        POS_RESTING,     0,  LOG_NORMAL, 1 },
@@ -269,7 +269,7 @@ const   struct  cmd_type        cmd_table       [] =
     /* new ones by Rahl */
     { "circle",         do_circle,      POS_FIGHTING,    0,  LOG_NORMAL, 1 },
     { "whirlwind",      do_whirlwind,   POS_STANDING,    1,  LOG_NORMAL, 1 },
-   
+
     /*
      * Miscellaneous commands.
      */
@@ -320,7 +320,7 @@ const   struct  cmd_type        cmd_table       [] =
      { "advance",       do_advance,     POS_DEAD,       ML,  LOG_ALWAYS, 1 },
      { "dump",          do_new_dump,    POS_DEAD,       ML,  LOG_ALWAYS, 0 },
      { "trust",         do_trust,       POS_DEAD,       ML,  LOG_ALWAYS, 1 },
-     
+
      { "allow",         do_allow,       POS_DEAD,       ML,  LOG_ALWAYS, 1 },
      { "ban",           do_ban,         POS_DEAD,       ML,  LOG_ALWAYS, 1 },
      { "cut",           do_new_discon,  POS_DEAD,       ML,  LOG_ALWAYS, 1 },
@@ -336,22 +336,22 @@ const   struct  cmd_type        cmd_table       [] =
      { "shutdow",       do_shutdow,     POS_DEAD,       L1,  LOG_NORMAL, 0 },
      { "shutdown",      do_shutdown,    POS_DEAD,       L1,  LOG_ALWAYS, 1 },
      { "wizlock",       do_wizlock,     POS_DEAD,       L2,  LOG_ALWAYS, 1 },
-     
+
      { "force",         do_force,       POS_DEAD,       L7,  LOG_ALWAYS, 1 },
      { "load",          do_load,        POS_DEAD,       L7,  LOG_ALWAYS, 1 },
      { "newlock",       do_newlock,     POS_DEAD,       L4,  LOG_ALWAYS, 1 },
      { "nochannels",    do_nochannels,  POS_DEAD,       L5,  LOG_ALWAYS, 1 },
      { "noemote",       do_noemote,     POS_DEAD,       L5,  LOG_ALWAYS, 1 },
      { "notell",        do_notell,      POS_DEAD,       L5,  LOG_ALWAYS, 1 },
-     { "pecho",         do_pecho,       POS_DEAD,       L4,  LOG_ALWAYS, 1 }, 
+     { "pecho",         do_pecho,       POS_DEAD,       L4,  LOG_ALWAYS, 1 },
      { "pardon",        do_pardon,      POS_DEAD,       L3,  LOG_ALWAYS, 1 },
      { "purge",         do_purge,       POS_DEAD,       L7,  LOG_ALWAYS, 1 },
      { "restore",       do_restore,     POS_DEAD,       L4,  LOG_ALWAYS, 1 },
      { "sla",           do_sla,         POS_DEAD,       L3,  LOG_NORMAL, 0 },
      { "slay",          do_slay,        POS_DEAD,       L3,  LOG_ALWAYS, 1 },
-     { "teleport",      do_transfer,    POS_DEAD,       L5,  LOG_ALWAYS, 1 },   
+     { "teleport",      do_transfer,    POS_DEAD,       L5,  LOG_ALWAYS, 1 },
      { "transfer",      do_transfer,    POS_DEAD,       L5,  LOG_ALWAYS, 1 },
-     
+
      { "poofin",        do_bamfin,      POS_DEAD,       L8,  LOG_NORMAL, 1 },
      { "poofout",       do_bamfout,     POS_DEAD,       L8,  LOG_NORMAL, 1 },
      { "gecho",         do_echo,        POS_DEAD,       L4,  LOG_ALWAYS, 1 },
@@ -428,8 +428,45 @@ const   struct  cmd_type        cmd_table       [] =
 
 
 /*
- * The main entry point for executing commands.
- * Can be recursively called from 'at', 'order', 'force'.
+ * FUNCTION: interpret
+ *
+ * Main command interpreter - processes all player and NPC commands.
+ *
+ * PARAMETERS:\n *   ch       - Character executing the command
+ *   argument - Raw command string from player input
+ *
+ * DESCRIPTION:
+ *   This is the heart of command processing. Called for every command
+ *   a player types or an NPC executes via scripts/triggers.
+ *
+ *   PROCESSING STEPS:
+ *   1. Strip leading whitespace
+ *   2. Remove HIDE effect (most actions reveal hidden characters)
+ *   3. Check if character is frozen (PLR_FREEZE)
+ *   4. Parse command word (handles special punctuation like ')
+ *   5. Search cmd_table for matching command
+ *   6. Verify trust level and position requirements
+ *   7. Handle disabled commands
+ *   8. Log commands if needed (LOG_ALWAYS, fLogAll)
+ *   9. Execute command function
+ *   10. Fall back to social if no command found
+ *
+ * SPECIAL CASES:
+ *   - Can be recursively called from 'at', 'order', 'force' commands
+ *   - NPC commands not logged (except when forced by immortals)
+ *   - AFK status automatically removed on most actions
+ *   - WIZNET broadcasts for immortal command usage
+ *
+ * COMMAND TABLE MATCHING:
+ *   - Uses prefix matching (str_prefix)
+ *   - First match wins (order matters in cmd_table)
+ *   - Must meet level and trust requirements
+ *
+ * TROUBLESHOOTING:
+ *   - "Huh?" message: No command or social matched
+ *   - Position errors: Check cmd_table[].position requirements
+ *   - Permission issues: Check trust level vs cmd_table[].level
+ *   - Disabled commands: Check DISABLED_DATA list
  */
 void interpret( CHAR_DATA *ch, char *argument )
 {
@@ -504,7 +541,7 @@ void interpret( CHAR_DATA *ch, char *argument )
          return;
         }
       }
-   
+
     /*
      * Log and snoop.
      */
@@ -676,7 +713,7 @@ bool check_social( CHAR_DATA *ch, char *command, char *argument )
 
         if ( !IS_NPC(ch) && IS_NPC(victim)
         &&   !IS_AFFECTED(victim, AFF_CHARM)
-        &&   IS_AWAKE(victim) 
+        &&   IS_AWAKE(victim)
         &&   victim->desc == NULL)
         {
             switch ( number_bits( 4 ) )
@@ -712,19 +749,19 @@ bool check_social( CHAR_DATA *ch, char *command, char *argument )
  */
 bool is_number ( char *arg )
 {
- 
+
     if ( *arg == '\0' )
         return FALSE;
- 
+
     if ( *arg == '+' || *arg == '-' )
         arg++;
- 
+
     for ( ; *arg != '\0'; arg++ )
     {
         if ( !isdigit( *arg ) )
             return FALSE;
     }
- 
+
     return TRUE;
 }
 
@@ -737,7 +774,7 @@ int number_argument( char *argument, char *arg )
 {
     char *pdot;
     int number;
-    
+
     for ( pdot = argument; *pdot != '\0'; pdot++ )
     {
         if ( *pdot == '.' )
@@ -799,7 +836,7 @@ void do_commands( CHAR_DATA *ch, char *argument )
     BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
     int cmd;
     int col;
-    BUFFER *buffer = buffer_new( MAX_STRING_LENGTH ); 
+    BUFFER *buffer = buffer_new( MAX_STRING_LENGTH );
 
     buffer->data[0] = '\0';
 
@@ -807,7 +844,7 @@ void do_commands( CHAR_DATA *ch, char *argument )
     for ( cmd = 0; cmd_table[cmd].name[0] != '\0'; cmd++ )
     {
         if ( cmd_table[cmd].level <  LEVEL_HERO
-        &&   cmd_table[cmd].level <= get_trust( ch ) 
+        &&   cmd_table[cmd].level <= get_trust( ch )
         &&   cmd_table[cmd].show)
         {
             bprintf( buf, "%-12s", cmd_table[cmd].name );
@@ -818,7 +855,7 @@ void do_commands( CHAR_DATA *ch, char *argument )
             }
         }
     }
- 
+
     if ( col % 6 != 0 )
     {
         buffer_strcat( buffer, "\n\r" );
@@ -839,12 +876,12 @@ void do_wizhelp( CHAR_DATA *ch, char *argument )
     int col;
 
     buffer->data[0] = '\0';
- 
+
     col = 0;
     for ( cmd = 0; cmd_table[cmd].name[0] != '\0'; cmd++ )
     {
         if ( cmd_table[cmd].level >= LEVEL_HERO
-        &&   cmd_table[cmd].level <= get_trust( ch ) 
+        &&   cmd_table[cmd].level <= get_trust( ch )
         &&   cmd_table[cmd].show)
         {
             bprintf( buf, "%-12s", cmd_table[cmd].name );
@@ -855,7 +892,7 @@ void do_wizhelp( CHAR_DATA *ch, char *argument )
             }
         }
     }
- 
+
     if ( col % 6 != 0 )
     {
         buffer_strcat( buffer, "\n\r" );
@@ -904,10 +941,10 @@ void do_disable( CHAR_DATA *ch, char *argument )
 
         buffer_strcat( buffer, "Disabled commands:\n\r"
                       "Command      Level   Disabled by\n\r" );
-        
+
         for ( p = disabled_first; p; p = p->next )
         {
-            bprintf( buf, "%-12s %5d   %-12s\n\r", p->command->name, 
+            bprintf( buf, "%-12s %5d   %-12s\n\r", p->command->name,
                 p->level, p->disabled_by );
             buffer_strcat( buffer, buf->data );
         }
@@ -918,7 +955,7 @@ void do_disable( CHAR_DATA *ch, char *argument )
     }
 
     /* command given */
- 
+
     /* first check if it is one of the disabled commands */
     for ( p = disabled_first; p; p = p->next )
         if ( !str_cmp( argument, p->command->name ) )
@@ -926,7 +963,7 @@ void do_disable( CHAR_DATA *ch, char *argument )
 
     if ( p ) /* this command is disabled */
     {
-        /* 
+        /*
          * Optional: The level of the imm to enable the command must
          * equal or exceed level of the one that disabled it
          */
@@ -939,7 +976,7 @@ void do_disable( CHAR_DATA *ch, char *argument )
         }
 
         /* remove */
-        
+
         if ( disabled_first == p ) /* node to be removed == head? */
             disabled_first = p->next;
         else /* find the node before this one */
@@ -965,7 +1002,7 @@ void do_disable( CHAR_DATA *ch, char *argument )
             buffer_free( buffer );
             return;
         }
-        
+
         /* search for the command */
         for ( i = 0; cmd_table[i].name[0] != '\0'; i++ )
             if ( !str_cmp( cmd_table[i].name, argument ) )
@@ -979,7 +1016,7 @@ void do_disable( CHAR_DATA *ch, char *argument )
             buffer_free( buffer );
             return;
         }
-        
+
         /* can the imm use this command at all? */
         if ( cmd_table[i].level > get_trust( ch ) )
         {
@@ -1044,7 +1081,7 @@ void load_disabled( void )
         for ( i = 0; cmd_table[i].name[0]; i++ )
             if ( !str_cmp( cmd_table[i].name, name ) )
                 break;
-        
+
         if ( !cmd_table[i].name[0] ) /* command does not exist? */
         {
             bug( "Skipping unknown command in " DISABLED_FILE " file.", 0 );
@@ -1061,7 +1098,7 @@ void load_disabled( void )
 
             disabled_first = p;
         }
-        
+
         name = fread_word( fp );
     }
 
