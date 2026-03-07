@@ -17,3 +17,4 @@ docker-compose.override.yml
 **/__pycache__/*
 .venv/*
 .build_count
+.build_env*

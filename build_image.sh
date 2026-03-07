@@ -5,8 +5,8 @@ set -euo pipefail
 # Script to build and optionally push Docker image to Docker Hub
 # USAGE: ./build_image.sh [OPTIONS]
 # ENVIRONMENT FILES:
-#   .env           Required: TAG_LIST for local registry
-#   .env.docker    Used with --docker: TAG_LIST for local + Docker Hub registries
+#   .build_env           Required: TAG_LIST for local registry
+#   .build_env.docker    Used with --docker: TAG_LIST for local + Docker Hub registries
 
 usage() {
     cat << EOF
@@ -15,7 +15,7 @@ Usage: $(basename "$0") [OPTION]
 Build Docker image for multiple platforms using buildx.
 
 OPTIONS:
-    --docker            Push to Docker Hub (sources .env.docker instead of .env)
+    --docker            Push to Docker Hub (sources .build_env.docker instead of .build_env)
     --platform PLAT     Override target platforms (comma-separated)
                         Default: linux/arm/v7,linux/arm64/v8,linux/amd64
     --args ARGS         Override additional buildx arguments
@@ -26,11 +26,11 @@ OPTIONS:
     -h, --help          Show this help message
 
 ENVIRONMENT FILES:
-    .env                Required. Local registry configuration:
-                        - TAG_LIST: Docker image tags for local registry
+    .build_env                Required. Local registry configuration:
+                              - TAG_LIST: Docker image tags for local registry
 
-    .env.docker         Required when using --docker. Docker Hub configuration:
-                        - TAG_LIST: Docker image tags for local + Docker Hub registries
+    .build_env.docker         Required when using --docker. Docker Hub configuration:
+                              - TAG_LIST: Docker image tags for local + Docker Hub registries
 
 EXAMPLES:
     ./build_image.sh                                    # Build for local registry
@@ -126,18 +126,18 @@ fi
 
 # Determine which env file to use
 if [[ "$PUSH_TO_HUB" == true ]]; then
-    ENV_FILE=".env.docker"
+    ENV_FILE=".build_env.docker"
 else
-    ENV_FILE=".env"
+    ENV_FILE=".build_env"
 fi
 
 # Check for required env file
 if [[ ! -f "$ENV_FILE" ]]; then
     echo "Error: $ENV_FILE file not found in $SCRIPT_DIR"
     if [[ "$PUSH_TO_HUB" == true ]]; then
-        echo "Please create .env.docker with TAG_LIST for Docker Hub push."
+        echo "Please create .build_env.docker with TAG_LIST for Docker Hub push."
     else
-        echo "Please create .env with TAG_LIST for local registry."
+        echo "Please create .build_env with TAG_LIST for local registry."
     fi
     exit 1
 fi

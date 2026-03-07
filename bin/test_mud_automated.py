@@ -129,7 +129,7 @@ class MUDTestSuite:
         try:
             # Stop container
             self.run_command(
-                "docker-compose down --remove-orphans",
+                "docker-compose --env-file /dev/null down --remove-orphans",
                 timeout=15,
                 check=False,
             )
@@ -182,7 +182,7 @@ class MUDTestSuite:
 
         try:
             returncode, _, stderr = self.run_command(
-                "docker compose up -d", timeout=30
+                "docker compose --env-file /dev/null up -d", timeout=30
             )
             if returncode == 0:
                 self.log("Docker container started")
@@ -190,7 +190,7 @@ class MUDTestSuite:
 
                 # Check if container is running
                 returncode, stdout, _ = self.run_command(
-                    "docker compose ps", timeout=10, check=False
+                    "docker compose --env-file /dev/null ps", timeout=10, check=False
                 )
                 if "broken_shadows" in stdout and "Up" in stdout:
                     self.log("Container is running")
