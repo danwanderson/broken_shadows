@@ -216,7 +216,22 @@ void gain_exp( CHAR_DATA *ch, int gain )
 
 
 /*
- * Regeneration stuff.
+ * FUNCTION: hit_gain
+ *
+ * Calculates hit point regeneration for one tick.
+ *
+ * PARAMETERS:
+ *   ch - Character being regenerated
+ *
+ * DESCRIPTION:
+ *   Applies distinct formulas for NPCs and PCs, then scales the result by
+ *   posture, conditions (hunger/thirst), and status effects (poison, plague,
+ *   haste/slow, chaos mode).
+ *
+ * TROUBLESHOOTING:
+ *   - Unexpectedly low regen: Check AFF_POISON/AFF_PLAGUE and hunger/thirst.
+ *   - Fast-healing not helping: Verify learned percent for gsn_fast_healing.
+ *   - No visible change: Result is clamped by missing HP only.
  */
 int hit_gain( CHAR_DATA *ch )
 {
@@ -282,6 +297,23 @@ int hit_gain( CHAR_DATA *ch )
 
 
 
+/*
+ * FUNCTION: mana_gain
+ *
+ * Calculates mana regeneration for one tick.
+ *
+ * PARAMETERS:
+ *   ch - Character being regenerated
+ *
+ * DESCRIPTION:
+ *   Uses WIS/INT/level for PCs, posture multipliers, meditation bonus,
+ *   class mana capability, and condition/effect penalties.
+ *
+ * TROUBLESHOOTING:
+ *   - Casters regening too slowly: Validate posture and meditation skill.
+ *   - Non-casters regening "half": Intended via class fMana flag.
+ *   - Tick appears stalled: Result is clamped to missing mana.
+ */
 int mana_gain( CHAR_DATA *ch )
 {
     int gain;
@@ -345,6 +377,22 @@ int mana_gain( CHAR_DATA *ch )
 
 
 
+/*
+ * FUNCTION: move_gain
+ *
+ * Calculates movement-point regeneration for one tick.
+ *
+ * PARAMETERS:
+ *   ch - Character being regenerated
+ *
+ * DESCRIPTION:
+ *   PCs gain baseline movement by level with a DEX bonus while resting/sleeping,
+ *   then receive penalties from starvation/dehydration and adverse affects.
+ *
+ * TROUBLESHOOTING:
+ *   - Move not recovering: Check poison/plague and full/thirst conditions.
+ *   - Sleeping bonus missing: Ensure position is POS_SLEEPING or POS_RESTING.
+ */
 int move_gain( CHAR_DATA *ch )
 {
     int gain;
@@ -674,8 +722,25 @@ void weather_update( void )
 
 
 /*
- * Update all chars, including mobs.
-*/
+ * FUNCTION: char_update
+ *
+ * Performs per-tick updates for all characters (PCs and NPCs).
+ *
+ * DESCRIPTION:
+ *   Handles regeneration, idle/void logic, condition decay, affect expiration,
+ *   periodic damage from poison/plague/incap states, autosave cadence, and
+ *   forced quits for prolonged inactivity.
+ *
+ * SIDE EFFECTS:
+ *   - May move idle players to limbo.
+ *   - May extract or damage characters.
+ *   - May save pfiles and issue do_quit().
+ *
+ * TROUBLESHOOTING:
+ *   - Unexpected idle behavior: Check timer thresholds and desc presence.
+ *   - Effects not ending: Verify affect duration reaches zero.
+ *   - Regeneration mismatch: Trace through hit_gain/mana_gain/move_gain.
+ */
 void char_update( void )
 {
     CHAR_DATA *ch;
@@ -952,6 +1017,15 @@ void char_update( void )
 }
 
 
+/*
+ * FUNCTION: regen_update
+ *
+ * Applies the half-tick regeneration pulse.
+ *
+ * DESCRIPTION:
+ *   Gives an additional hit-point regeneration pass to characters affected by
+ *   AFF_REGENERATION during the mid-tick phase in update_handler().
+ */
 void regen_update( void )
 {
     CHAR_DATA *ch;
@@ -991,8 +1065,19 @@ void room_update( void )
 
 
 /*
- * Update all objs.
- * This function is performance sensitive.
+ * FUNCTION: obj_update
+ *
+ * Performs per-tick updates for all objects.
+ *
+ * DESCRIPTION:
+ *   Decrements timed affects, expires temporary objects, handles special decay
+ *   messaging/cleanup (including PC corpses), and applies environmental falling
+ *   behavior for objects in air rooms.
+ *
+ * TROUBLESHOOTING:
+ *   - Item not decaying: Verify timer progression and item type handling.
+ *   - Missing expire messages: Check carrier/room visibility context.
+ *   - Lost corpse contents: Inspect ITEM_CORPSE_PC transfer path.
  */
 void obj_update( void )
 {
@@ -1242,9 +1327,22 @@ void aggr_update( void )
 
 
 /*
- * Handle all kinds of updates.
- * Called once per pulse from game loop.
- * Random times to defeat tick-timing clients and players.
+ * FUNCTION: update_handler
+ *
+ * Central scheduler for periodic world updates.
+ *
+ * DESCRIPTION:
+ *   Called once per pulse from the main game loop. Tracks independent counters
+ *   for area, mobile, combat, tick, music, and bonus updates, dispatching each
+ *   subsystem when its counter reaches zero.
+ *
+ * DESIGN NOTES:
+ *   - Area pulses are randomized to reduce client-side tick prediction.
+ *   - Half-tick path runs regeneration/spell maintenance between full ticks.
+ *
+ * TROUBLESHOOTING:
+ *   - Subsystem appears stalled: Verify corresponding pulse constant/counter.
+ *   - Tick timing drift: Check pulse reset values and game loop pulse source.
  */
 
 void update_handler( void )
