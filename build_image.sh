@@ -4,7 +4,13 @@ set -euo pipefail
 # set -x
 
 # docker buildx create --driver docker-container --use
-DATE=$(date +"%Y%m%d")
+#DATE=$(date +"%Y%m%d")
 
-docker buildx build --push --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --tag danwanderson/broken_shadows:latest --tag danwanderson/broken_shadows:"${DATE}" --tag registry.dwa.dev:443/broken_shadows:latest --tag registry.dwa.dev:443/broken_shadows:"${DATE}" .
+cd "$(dirname "${0}")" || exit
+
+# shellcheck disable=SC1091
+source .env
+
+# shellcheck disable=SC2086
+docker buildx build --push --platform linux/arm/v7,linux/arm64/v8,linux/amd64 ${TAG_LIST} .
 

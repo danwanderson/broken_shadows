@@ -12,3 +12,5 @@ bin/shadows
 backup/*
 notes/*.old
 docker-compose.override.yml
+.vscode/*
+.env
