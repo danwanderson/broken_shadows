@@ -122,7 +122,7 @@ fi
 
 # Source build configuration
 echo "Loading build configuration from $ENV_FILE..."
-# shellcheck disable=SC1091
+# shellcheck disable=SC1090
 source "$ENV_FILE"
 
 # Verify required TAG_LIST is set
@@ -135,6 +135,11 @@ fi
 # Set defaults for platform and args if not overridden
 BUILDER_PLATFORM="${BUILDER_PLATFORM:-linux/arm/v7,linux/arm64/v8,linux/amd64}"
 BUILDX_ARGS="${BUILDX_ARGS:-}"
+
+# Add --debug to buildx args if debug mode is enabled
+if [[ "$DEBUG" == true ]]; then
+    BUILDX_ARGS="$BUILDX_ARGS --debug"
+fi
 
 # Determine action (build only vs build and push)
 if [[ "$PUSH_TO_HUB" == true ]]; then
