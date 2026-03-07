@@ -14,3 +14,5 @@ notes/*.old
 docker-compose.override.yml
 .vscode/*
 .env*
+**/__pycache__/*
+.venv/*

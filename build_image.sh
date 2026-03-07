@@ -133,21 +133,14 @@ if [[ -z "${TAG_LIST:-}" ]]; then
 fi
 
 # Set defaults for platform and args if not overridden
-BUILDER_PLATFORM="${BUILDER_PLATFORM:-linux/arm/v7,linux/arm64/v8,linux/amd64}"
+# Remove armv7 by default due to build time and compatibility issues, but leave it as an option for users who need it
+# BUILDER_PLATFORM="${BUILDER_PLATFORM:-linux/arm/v7,linux/arm64/v8,linux/amd64}"
+BUILDER_PLATFORM="${BUILDER_PLATFORM:-linux/arm64/v8,linux/amd64}"
 BUILDX_ARGS="${BUILDX_ARGS:-}"
 
 # Add --debug to buildx args if debug mode is enabled
 if [[ "$DEBUG" == true ]]; then
     BUILDX_ARGS="$BUILDX_ARGS --debug"
-fi
-
-# Determine action (build only vs build and push)
-if [[ "$PUSH_TO_HUB" == true ]]; then
-    PUSH_FLAG="--push"
-    ACTION="Build and Push"
-else
-    PUSH_FLAG="--load"
-    ACTION="Build Only"
 fi
 
 # Display build configuration
@@ -157,13 +150,12 @@ echo "  Config File: $ENV_FILE"
 echo "  Platform(s): $BUILDER_PLATFORM"
 echo "  Tag(s): $TAG_LIST"
 [[ -n "$BUILDX_ARGS" ]] && echo "  Extra Args: $BUILDX_ARGS"
-echo "  Action: $ACTION"
 echo ""
 
 # Build the image
 echo "Starting Docker buildx build..."
 # shellcheck disable=SC2086
-docker buildx build $PUSH_FLAG --platform "$BUILDER_PLATFORM" $BUILDX_ARGS $TAG_LIST .
+docker buildx build --push --platform "$BUILDER_PLATFORM" $BUILDX_ARGS $TAG_LIST .
 
 BUILD_STATUS=$?
 if [[ $BUILD_STATUS -eq 0 ]]; then
