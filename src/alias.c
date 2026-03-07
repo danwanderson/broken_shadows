@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2022 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -24,7 +24,7 @@
  *  benefitting.  We hope that you share your changes too.  What goes      *
  *  around, comes around.                                                  *
  ***************************************************************************/
- 
+
 /***************************************************************************
 *       ROM 2.4 is copyright 1993-1995 Russ Taylor                         *
 *       ROM has been brought to you by the ROM consortium                  *
@@ -43,6 +43,29 @@
 #include "merc.h"
 
 /* does aliasing and other fun stuff */
+/*
+ * FUNCTION: substitute_alias
+ *
+ * Expand command aliases before interpreting.
+ *
+ * PARAMETERS:
+ *   d - Descriptor whose character issued the command
+ *   argument - Raw input line from player
+ *
+ * DESCRIPTION:
+ *   Checks if first word matches a defined alias. If found, substitutes
+ *   the alias text and appends remaining arguments. Handles prefix mechanism
+ *   for automatic command prefixing. Skips alias expansion for "alias" and
+ *   "unalias" commands to prevent recursion.
+ *
+ * SIDE EFFECTS:
+ *   - Modifies argument processing before interpret() is called.
+ *   - Applies saved prefix if set and not already in alias command.
+ *
+ * TROUBLESHOOTING:
+ *   - Alias not expanding: Verify not using 'alias' or 'unalias' commands.
+ *   - Line too long: Alias expansion exceeded MAX_INPUT_LENGTH.
+ */
 void substitute_alias(DESCRIPTOR_DATA *d, char *argument)
 {
     CHAR_DATA *ch;
@@ -66,7 +89,7 @@ void substitute_alias(DESCRIPTOR_DATA *d, char *argument)
     }
 
     if (IS_NPC(ch) || ch->pcdata->alias[0] == NULL
-    ||  !str_prefix("alias",argument) || !str_prefix("una",argument) ) 
+    ||  !str_prefix("alias",argument) || !str_prefix("una",argument) )
     {
         interpret(d->character,argument);
         return;
@@ -108,11 +131,32 @@ void do_alia(CHAR_DATA *ch, char *argument)
     return;
 }
 
+/*
+ * FUNCTION: do_alias
+ *
+ * PC command to create and list command aliases.
+ *
+ * PARAMETERS:
+ *   ch - Character creating alias
+ *   argument - "<name> <substitution>" to create, empty to list
+ *
+ * DESCRIPTION:
+ *   Allows players to define single-word aliases that expand to
+ *   other commands with arguments. List shows configured aliases.
+ *   Max MAX_ALIAS aliases per character. Cannot alias built-in commands.
+ *
+ * SIDE EFFECTS:
+ *   - Stores alias in pcdata->alias[] and pcdata->alias_sub[].
+ *
+ * TROUBLESHOOTING:
+ *   - Alias limit reached: Delete one via do_unalias to add new ones.
+ *   - Cannot alias built-in commands: Choose a unique short word.
+ */
 void do_alias(CHAR_DATA *ch, char *argument)
 {
     CHAR_DATA *rch;
     char arg[MAX_INPUT_LENGTH];
-    BUFFER *buf = buffer_new( MAX_INPUT_LENGTH ); 
+    BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
     int pos;
 
     if (ch->desc == NULL)
@@ -215,7 +259,7 @@ void do_alias(CHAR_DATA *ch, char *argument)
         buffer_free( buf );
         return;
      }
-  
+
      /* make a new alias */
      rch->pcdata->alias[pos]            = str_dup(arg);
      rch->pcdata->alias_sub[pos]        = str_dup(argument);
@@ -226,21 +270,35 @@ void do_alias(CHAR_DATA *ch, char *argument)
 }
 
 
+
+/*
+ * FUNCTION: do_unalias
+ *
+ * PC command to delete a command alias.
+ *
+ * PARAMETERS:
+ *   ch - Character deleting alias
+ *   argument - Name of alias to remove
+ *
+ * DESCRIPTION:
+ *   Removes an alias by name from the character's alias list.
+ *
+ */
 void do_unalias(CHAR_DATA *ch, char *argument)
 {
     CHAR_DATA *rch;
     char arg[MAX_INPUT_LENGTH];
     int pos;
     bool found = FALSE;
- 
+
     if (ch->desc == NULL)
         rch = ch;
     else
         rch = ch->desc->original ? ch->desc->original : ch;
- 
+
     if (IS_NPC(rch))
         return;
- 
+
     argument = one_argument(argument,arg);
 
     if (arg[0] == '\0')

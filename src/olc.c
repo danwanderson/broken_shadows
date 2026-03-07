@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2022 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -85,7 +85,7 @@ bool run_olc_editor( DESCRIPTOR_DATA *d )
 char *olc_ed_name( CHAR_DATA *ch )
 {
     static char buf[10];
-    
+
     buf[0] = '\0';
     switch (ch->desc->editor)
     {
@@ -117,7 +117,7 @@ char *olc_ed_vnum( CHAR_DATA *ch )
     OBJ_INDEX_DATA *pObj;
     MOB_INDEX_DATA *pMob;
     static char buf[10];
-        
+
     buf[0] = '\0';
     switch ( ch->desc->editor )
     {
@@ -158,7 +158,7 @@ void show_olc_cmds( CHAR_DATA *ch, const struct olc_cmd_type *olc_table )
     BUFFER *buf1 = buffer_new( MAX_INPUT_LENGTH );
     int  cmd;
     int  col;
- 
+
     buf1->data[0] = '\0';
     col = 0;
     for (cmd = 0; olc_table[cmd].name[0] != '\0'; cmd++)
@@ -168,7 +168,7 @@ void show_olc_cmds( CHAR_DATA *ch, const struct olc_cmd_type *olc_table )
         if ( ++col % 5 == 0 )
             buffer_strcat( buf1, "\n\r" );
     }
- 
+
     if ( col % 5 != 0 )
         buffer_strcat( buf1, "\n\r" );
 
@@ -177,7 +177,7 @@ void show_olc_cmds( CHAR_DATA *ch, const struct olc_cmd_type *olc_table )
 
     buffer_free( buf );
     buffer_free( buf1 );
- 
+
     return;
 }
 
@@ -760,7 +760,7 @@ void do_olc( CHAR_DATA *ch, char *argument )
         do_help( ch, "olc" );
         return;
     }
- 
+
     /* Search Table and Dispatch Command. */
     for ( cmd = 0; editor_table[cmd].name[0] != '\0'; cmd++ )
     {
@@ -1020,8 +1020,8 @@ void display_resets( CHAR_DATA *ch )
     int                 iReset = 0;
 
     EDIT_ROOM(ch, pRoom);
-    
-    send_to_char (  
+
+    send_to_char (
   " No.  Loads    Description       Location         Vnum    Max  Description"
   "\n\r"
   "==== ======== ============= =================== ======== ===== ==========="
@@ -1162,7 +1162,7 @@ void display_resets( CHAR_DATA *ch )
             sprintf( buf,
                 "O[%5d] %-13.13s in the inventory of S[%5d]       %-15.15s\n\r",
                 pReset->arg1,
-                pObj->short_descr,                           
+                pObj->short_descr,
                 pMob->vnum,
                 pMob->short_descr  );
             }
@@ -1489,7 +1489,7 @@ void do_alist( CHAR_DATA *ch, char *argument )
              pArea->builders );
              buffer_strcat( result, buf->data );
     }
-/* 
+/*
  * changed to page_to_char by Rahl - tired of having to scroll back all
  *  the time :)
  */

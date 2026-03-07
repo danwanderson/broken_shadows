@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2022 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -46,7 +46,7 @@
  */
 
 /*
-#define VERBOSE 
+#define VERBOSE
 */
 
 /*
@@ -132,7 +132,7 @@ void save_area_list()
  * ROM OLC
  * Used in save_mobile and save_object below.  Writes
  * flags on the form fread_flag reads.
- * 
+ *
  * buf[] must hold at least 32+1 characters.
  *
  * -- Hugin
@@ -201,19 +201,19 @@ void save_mobile( FILE *fp, MOB_INDEX_DATA *pMobIndex )
     fprintf( fp, "%d S\n",        pMobIndex->alignment );
     fprintf( fp, "%d ",           pMobIndex->level );
     fprintf( fp, "%d ",           pMobIndex->hitroll );
-    fprintf( fp, "%dd%d+%d ",     pMobIndex->hit[DICE_NUMBER], 
-                                  pMobIndex->hit[DICE_TYPE], 
+    fprintf( fp, "%dd%d+%d ",     pMobIndex->hit[DICE_NUMBER],
+                                  pMobIndex->hit[DICE_TYPE],
                                   pMobIndex->hit[DICE_BONUS] );
-    fprintf( fp, "%dd%d+%d ",     pMobIndex->mana[DICE_NUMBER], 
-                                  pMobIndex->mana[DICE_TYPE], 
+    fprintf( fp, "%dd%d+%d ",     pMobIndex->mana[DICE_NUMBER],
+                                  pMobIndex->mana[DICE_TYPE],
                                   pMobIndex->mana[DICE_BONUS] );
-    fprintf( fp, "%dd%d+%d ",     pMobIndex->damage[DICE_NUMBER], 
-                                  pMobIndex->damage[DICE_TYPE], 
+    fprintf( fp, "%dd%d+%d ",     pMobIndex->damage[DICE_NUMBER],
+                                  pMobIndex->damage[DICE_TYPE],
                                   pMobIndex->damage[DICE_BONUS] );
     fprintf( fp, "%d\n",          pMobIndex->dam_type );
-    fprintf( fp, "%d %d %d %d\n", pMobIndex->ac[AC_PIERCE] / 10, 
-                                  pMobIndex->ac[AC_BASH]   / 10, 
-                                  pMobIndex->ac[AC_SLASH]  / 10, 
+    fprintf( fp, "%d %d %d %d\n", pMobIndex->ac[AC_PIERCE] / 10,
+                                  pMobIndex->ac[AC_BASH]   / 10,
+                                  pMobIndex->ac[AC_SLASH]  / 10,
                                   pMobIndex->ac[AC_EXOTIC] / 10 );
     fprintf( fp, "%s ",           fwrite_flag( pMobIndex->off_flags,  buf ) );
     fprintf( fp, "%s ",           fwrite_flag( pMobIndex->imm_flags,  buf ) );
@@ -359,7 +359,7 @@ void save_object( FILE *fp, OBJ_INDEX_DATA *pObjIndex )
 
     return;
 }
- 
+
 
 
 
@@ -385,7 +385,7 @@ void save_objects( FILE *fp, AREA_DATA *pArea )
     fprintf( fp, "#0\n\n\n\n" );
     return;
 }
- 
+
 
 
 
@@ -429,9 +429,9 @@ void save_rooms( FILE *fp, AREA_DATA *pArea )
                           && pExit->u1.to_room )
                     {
                         int locks = 0;
-                        if ( IS_SET( pExit->rs_flags, EX_ISDOOR ) 
-                        && ( !IS_SET( pExit->rs_flags, EX_PICKPROOF ) ) 
-/* ROM OLC */           && ( !IS_SET( pExit->rs_flags, EX_HIDDEN ) ) 
+                        if ( IS_SET( pExit->rs_flags, EX_ISDOOR )
+                        && ( !IS_SET( pExit->rs_flags, EX_PICKPROOF ) )
+/* ROM OLC */           && ( !IS_SET( pExit->rs_flags, EX_HIDDEN ) )
                         && ( !IS_SET( pExit->rs_flags, EX_PASSPROOF ) )  )
                             locks = 1;
                         if ( IS_SET( pExit->rs_flags, EX_ISDOOR )
@@ -447,7 +447,7 @@ void save_rooms( FILE *fp, AREA_DATA *pArea )
                             locks = 3;
                         if ( IS_SET( pExit->rs_flags, EX_ISDOOR )
                         && ( IS_SET( pExit->rs_flags, EX_PICKPROOF ) )
-                        && ( IS_SET( pExit->rs_flags, EX_HIDDEN ) ) 
+                        && ( IS_SET( pExit->rs_flags, EX_HIDDEN ) )
                         && ( IS_SET( pExit->rs_flags, EX_PASSPROOF ) ) )
                             locks = 4;
                         if ( IS_SET( pExit->rs_flags, EX_ISDOOR )
@@ -469,9 +469,9 @@ void save_rooms( FILE *fp, AREA_DATA *pArea )
                         && ( IS_SET( pExit->rs_flags, EX_PICKPROOF ) )
                         && ( IS_SET( pExit->rs_flags, EX_HIDDEN ) )
                         && ( !IS_SET( pExit->rs_flags, EX_PASSPROOF ) ) )
-                            locks = 8; 
+                            locks = 8;
 /* ROM OLC */
-                        
+
                         fprintf( fp, "D%d\n",      pExit->orig_door );
                         fprintf( fp, "%s~\n",      fix_string( pExit->description ) );
                         fprintf( fp, "%s~\n",      pExit->keyword );
@@ -488,7 +488,7 @@ void save_rooms( FILE *fp, AREA_DATA *pArea )
     return;
 }
 
-                               
+
 
 
 /*****************************************************************************
@@ -500,7 +500,7 @@ void save_specials( FILE *fp, AREA_DATA *pArea )
 {
     int iHash;
     MOB_INDEX_DATA *pMobIndex;
-    
+
     fprintf( fp, "#SPECIALS\n" );
 
     for( iHash = 0; iHash < MAX_KEY_HASH; iHash++ )
@@ -545,13 +545,13 @@ void save_door_resets( FILE *fp, AREA_DATA *pArea )
                 for( door = 0; door < MAX_DIR; door++ )
                 {
                     if ( ( pExit = pRoomIndex->exit[door] )
-                          && pExit->u1.to_room 
+                          && pExit->u1.to_room
                           && ( IS_SET( pExit->rs_flags, EX_CLOSED )
                           || IS_SET( pExit->rs_flags, EX_LOCKED ) ) ) {
                           if IS_SET( pExit->rs_flags, EX_CLOSED ) flags=0;
                           if IS_SET( pExit->rs_flags, EX_LOCKED ) flags=1;
                           if IS_SET( pExit->rs_flags, EX_PICKPROOF ) flags=2;
-                          fprintf( fp, "D 0 %d %d %d\n", 
+                          fprintf( fp, "D 0 %d %d %d\n",
                                 pRoomIndex->vnum,
                                 pExit->orig_door,
                                 flags);
@@ -610,7 +610,7 @@ void save_resets( FILE *fp, AREA_DATA *pArea )
 #if defined( VERBOSE )
         case 'M':
             pLastMob = get_mob_index( pReset->arg1 );
-            fprintf( fp, "M 0 %d %d %d Load %s\n", 
+            fprintf( fp, "M 0 %d %d %d Load %s\n",
                 pReset->arg1,
                 pReset->arg2,
                 pReset->arg3,
@@ -620,7 +620,7 @@ void save_resets( FILE *fp, AREA_DATA *pArea )
         case 'O':
             pLastObj = get_obj_index( pReset->arg1 );
             pRoom = get_room_index( pReset->arg3 );
-            fprintf( fp, "O 0 %d 0 %d %s loaded to %s\n", 
+            fprintf( fp, "O 0 %d 0 %d %s loaded to %s\n",
                 pReset->arg1,
                 pReset->arg3,
                 capitalize(pLastObj->short_descr),
@@ -629,7 +629,7 @@ void save_resets( FILE *fp, AREA_DATA *pArea )
 
         case 'P':
             pLastObj = get_obj_index( pReset->arg1 );
-            fprintf( fp, "P 0 %d 0 %d %s put inside %s\n", 
+            fprintf( fp, "P 0 %d 0 %d %s put inside %s\n",
                 pReset->arg1,
                 pReset->arg3,
                 capitalize(get_obj_index( pReset->arg1 )->short_descr),
@@ -667,7 +667,7 @@ void save_resets( FILE *fp, AREA_DATA *pArea )
 
         case 'R':
             pRoom = get_room_index( pReset->arg1 );
-            fprintf( fp, "R 0 %d %d Randomize %s\n", 
+            fprintf( fp, "R 0 %d %d Randomize %s\n",
                 pReset->arg1,
                 pReset->arg2,
                 pRoom->name );
@@ -677,7 +677,7 @@ void save_resets( FILE *fp, AREA_DATA *pArea )
 #if !defined( VERBOSE )
         case 'M':
             pLastMob = get_mob_index( pReset->arg1 );
-            fprintf( fp, "M 0 %d %d %d\n", 
+            fprintf( fp, "M 0 %d %d %d\n",
                 pReset->arg1,
                 pReset->arg2,
                 pReset->arg3 );
@@ -686,14 +686,14 @@ void save_resets( FILE *fp, AREA_DATA *pArea )
         case 'O':
             pLastObj = get_obj_index( pReset->arg1 );
             pRoom = get_room_index( pReset->arg3 );
-            fprintf( fp, "O 0 %d 0 %d\n", 
+            fprintf( fp, "O 0 %d 0 %d\n",
                 pReset->arg1,
                 pReset->arg3 );
             break;
 
         case 'P':
             pLastObj = get_obj_index( pReset->arg1 );
-            fprintf( fp, "P 0 %d 0 %d\n", 
+            fprintf( fp, "P 0 %d 0 %d\n",
                 pReset->arg1,
                 pReset->arg3  );
             break;
@@ -725,7 +725,7 @@ void save_resets( FILE *fp, AREA_DATA *pArea )
 
         case 'R':
             pRoom = get_room_index( pReset->arg1 );
-            fprintf( fp, "R 0 %d %d\n", 
+            fprintf( fp, "R 0 %d %d\n",
                 pReset->arg1,
                 pReset->arg2 );
             break;
@@ -757,7 +757,7 @@ void save_shops( FILE *fp, AREA_DATA *pArea )
     MOB_INDEX_DATA *pMobIndex;
     int iTrade;
     int iHash;
-    
+
     fprintf( fp, "#SHOPS\n" );
 
     for( iHash = 0; iHash < MAX_KEY_HASH; iHash++ )
@@ -822,7 +822,7 @@ void save_area( AREA_DATA *pArea )
         bug( "Open_area: fopen", 0 );
        perror( pArea->filename );
     }
-   
+
    fprintf( fp, "#AREADATA\n" );
    fprintf( fp, "Name        %s~\n",        pArea->name );
    fprintf( fp, "Builders    %s~\n",        fix_string( pArea->builders ) );
@@ -830,16 +830,16 @@ void save_area( AREA_DATA *pArea )
    fprintf( fp, "Security    %d\n",         pArea->security );
 /*    fprintf( fp, "Recall      %d\n",         pArea->recall );  ROM OLC */
    fprintf( fp, "End\n\n\n\n" );
-   
+
    save_mobiles( fp, pArea );
    save_objects( fp, pArea );
    save_rooms( fp, pArea );
    save_specials( fp, pArea );
    save_resets( fp, pArea );
    save_shops( fp, pArea );
-   
+
    fprintf( fp, "#$\n" );
-   
+
    fclose( fp );
    fpReserve = fopen( NULL_FILE, "r" );
    return;
@@ -936,7 +936,7 @@ void do_asave( CHAR_DATA *ch, char *argument )
 
     /* Save the clan file */
     /* ------------------ */
-    
+
     if ( !str_cmp( "clans", arg1 ))
     {
         save_clans();
@@ -956,7 +956,7 @@ void do_asave( CHAR_DATA *ch, char *argument )
         {
             /* Builder must be assigned this area. */
             if ( !IS_BUILDER( ch, pArea ) )
-                continue;         
+                continue;
 
             save_area( pArea );
             REMOVE_BIT( pArea->area_flags, AREA_CHANGED );
@@ -1018,7 +1018,7 @@ void do_asave( CHAR_DATA *ch, char *argument )
                 "therefore an area vnum is required.\n\r", ch );
             return;
         }
-        
+
         /* Find the area to save. */
         switch (ch->desc->editor)
         {

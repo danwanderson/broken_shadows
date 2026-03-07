@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2022 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -8,7 +8,7 @@
 ///////////////////////////////////////////////////////////////////////
 
 
-/***************************************************************************   
+/***************************************************************************
  *  Original Diku Mud copyright (C) 1990, 1991 by Sebastian Hammer,        *
  *  Michael Seifert, Hans Henrik St{rfeldt, Tom Madsen, and Katja Nyboe.   *
  *                                                                         *
@@ -46,13 +46,26 @@
 
 BAN_DATA *ban_list;
 
+/*
+ * FUNCTION: save_bans
+ *
+ * Persist permanent bans to disk.
+ *
+ * DESCRIPTION:
+ *   Writes all banned sites with BAN_PERMANENT flag to a file.
+ *   Called after ban/unban operations.
+ *
+ * SIDE EFFECTS:
+ *   - Writes BAN_FILE.
+ *   - Deletes file if no permanent bans exist.
+ */
 void save_bans(void)
 {
     BAN_DATA *pban;
     FILE *fp;
     bool found = FALSE;
 
-    fclose( fpReserve ); 
+    fclose( fpReserve );
     if ( ( fp = fopen( BAN_FILE, "w" ) ) == NULL )
     {
         perror( BAN_FILE );
@@ -74,14 +87,24 @@ void save_bans(void)
         unlink(BAN_FILE);
 }
 
+
+/*
+ * FUNCTION: load_bans
+ *
+ * Load permanent bans from disk on boot.
+ *
+ * DESCRIPTION:
+ *   Reads BAN_FILE and constructs ban_list. Called during boot_db.
+ *   Rebuilds in-memory ban list with BAN_PERMANENT flag set.
+ */
 void load_bans(void)
 {
     FILE *fp;
     BAN_DATA *ban_last;
- 
+
     if ( ( fp = fopen( BAN_FILE, "r" ) ) == NULL )
         return;
- 
+
     ban_last = NULL;
     for ( ; ; )
     {
@@ -91,9 +114,9 @@ void load_bans(void)
             fclose( fp );
             return;
         }
- 
+
         pban = new_ban();
- 
+
         pban->name = str_dup(fread_word(fp));
         pban->level = fread_number(fp);
         pban->ban_flags = fread_flag(fp);
@@ -107,6 +130,26 @@ void load_bans(void)
     }
 }
 
+
+/*
+ * FUNCTION: check_ban
+ *
+ * Check if a site/player is banned.
+ *
+ * PARAMETERS:
+ *   site - IP address or player name to check
+ *   type - BAN_SITE, BAN_PLAYER, BAN_CLASS, BAN_RACE, or BAN_ALL
+ *
+ * RETURNS:
+ *   Minimum ban level if found, 0 if not banned.
+ *
+ * DESCRIPTION:
+ *   Searches ban_list for matching entry by type. Returns the level
+ *   threshold needed to bypass the ban.
+ *
+ * TROUBLESHOOTING:
+ *   - Connection rejected unexpectedly: Check banned IP in ban list.
+ */
 bool check_ban(char *site,int type)
 {
     BAN_DATA *pban;
@@ -115,13 +158,13 @@ bool check_ban(char *site,int type)
     strcpy(host,capitalize(site));
     host[0] = LOWER(host[0]);
 
-    for ( pban = ban_list; pban != NULL; pban = pban->next ) 
+    for ( pban = ban_list; pban != NULL; pban = pban->next )
     {
         if(!IS_SET(pban->ban_flags,type))
             continue;
 
-        if (IS_SET(pban->ban_flags,BAN_PREFIX) 
-        &&  IS_SET(pban->ban_flags,BAN_SUFFIX)  
+        if (IS_SET(pban->ban_flags,BAN_PREFIX)
+        &&  IS_SET(pban->ban_flags,BAN_SUFFIX)
         &&  strstr(pban->name,host) != NULL)
             return TRUE;
 
@@ -138,6 +181,21 @@ bool check_ban(char *site,int type)
 }
 
 
+/*
+ * FUNCTION: ban_site
+ *
+ * Add or remove a ban entry.
+ *
+ * PARAMETERS:
+ *   ch - Immortal issuing ban
+ *   argument - Ban target and type
+ *   fPerm - If TRUE, mark as BAN_PERMANENT
+ *
+ * DESCRIPTION:
+ *   Adds new ban or removes existing one. Saves to disk if permanent.
+ *   Types: newbies (new account prot), all (hard block), level XX (gate).
+ *
+ */
 void ban_site(CHAR_DATA *ch, char *argument, bool fPerm)
 {
     BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
@@ -197,7 +255,7 @@ void ban_site(CHAR_DATA *ch, char *argument, bool fPerm)
     else
     {
         send_to_char("Acceptable ban types are all, newbies, and permit.\n\r",
-            ch); 
+            ch);
         buffer_free( buf );
         buffer_free( buf2 );
         buffer_free( buffer );
@@ -277,6 +335,11 @@ void ban_site(CHAR_DATA *ch, char *argument, bool fPerm)
     return;
 }
 
+/*
+ * FUNCTION: do_ban
+ *
+ * Immortal command to ban sites/players (temporary).
+ */
 void do_ban(CHAR_DATA *ch, char *argument)
 {
     ban_site(ch,argument,FALSE);
@@ -289,12 +352,29 @@ void do_permba( CHAR_DATA *ch, char *argument )
     return;
 }
 
+/*
+ * FUNCTION: do_permban
+ *
+ * Immortal command to apply permanent ban.
+ */
 void do_permban(CHAR_DATA *ch, char *argument)
 {
     ban_site(ch,argument,TRUE);
 }
 
-void do_allow( CHAR_DATA *ch, char *argument )                        
+/*
+ * FUNCTION: do_allow
+ *
+ * Immortal command to unban a site/player.
+ *
+ * PARAMETERS:
+ *   ch - Immortal issuing unban
+ *   argument - Site/player name to unban
+ *
+ * DESCRIPTION:
+ *   Removes ban entry and optionally persists change.
+ */
+void do_allow( CHAR_DATA *ch, char *argument )
 {
     char arg[MAX_INPUT_LENGTH];
     BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );

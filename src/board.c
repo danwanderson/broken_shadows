@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2022 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -73,19 +73,19 @@
 BOARD_DATA boards[MAX_BOARD] =
 {
 
-	{ "General",    "General discussion",            0,     2,     "all", 
+	{ "General",    "General discussion",            0,     2,     "all",
 		DEF_INCLUDE, 21, NULL, FALSE },
-	{ "Ideas",      "Suggestion for improvement",    0,     2,     "all", 
+	{ "Ideas",      "Suggestion for improvement",    0,     2,     "all",
 		DEF_NORMAL,  60, NULL, FALSE },
-	{ "Announce",   "Announcements from Immortals",  0,     L_IMM, "all", 
+	{ "Announce",   "Announcements from Immortals",  0,     L_IMM, "all",
 		DEF_NORMAL,  60, NULL, FALSE },
-	{ "Bugs",   "Typos, bugs, errors",               0,     1,     "imm", 
+	{ "Bugs",   "Typos, bugs, errors",               0,     1,     "imm",
 		DEF_NORMAL,  60, NULL, FALSE },
-	{ "Personal",   "Personal messages",             0,     1,     "all", 
+	{ "Personal",   "Personal messages",             0,     1,     "all",
 		DEF_EXCLUDE, 28, NULL, FALSE },
 	{ "Penalties",  "Penalties",                     0,     L_IMM, "imm",
 		DEF_NORMAL,  60, NULL, FALSE },
-	{ "Immortal", "Immortals-only board",	     L_IMM,	    L_IMM, "imm", 
+	{ "Immortal", "Immortals-only board",	     L_IMM,	    L_IMM, "imm",
 		DEF_NORMAL,  60, NULL, FALSE }
 };
 
@@ -306,6 +306,15 @@ static void show_note_to_char (CHAR_DATA *ch, NOTE_DATA *note, int num)
 }
 
 /* Save changed boards */
+
+/*****************************************************************************
+ * FUNCTION: save_boards
+ * PURPOSE: Persist all board notes to disk.
+ * DESCRIPTION:
+ *   Writes each board's notes to board files. Called after note operations.
+ * SIDE EFFECTS:
+ *   - Writes board note files.
+ *****************************************************************************/
 void save_boards ()
 {
     int i;
@@ -419,6 +428,13 @@ static void load_board (BOARD_DATA *board)
 }
 
 /* Initialize structures. Load all boards. */
+
+/*****************************************************************************
+ * FUNCTION: load_boards
+ * PURPOSE: Load all board notes from disk on boot.
+ * DESCRIPTION:
+ *   Reads board files and reconstructs note_list. Called during boot_db.
+ *****************************************************************************/
 void load_boards ()
 {
     int i;
@@ -755,6 +771,19 @@ static void do_ncatchup (CHAR_DATA *ch, char *argument)
 }
 
 /* Dispatch function for backwards compatibility */
+
+/*****************************************************************************
+ * FUNCTION: do_note
+ * PURPOSE: PC command to post messages to boards.
+ * PARAMETERS:
+ *   ch - Character posting note
+ *   argument - "list", "read N", "post", or "remove N"
+ * DESCRIPTION:
+ *   Handles note posting, reading, and deletion. Enters multi-line editor
+ *   for note composition. Supports expiration dates and access control.
+ * TROUBLESHOOTING:
+ *   - Cannot post: Check board visibility and permissions.
+ *****************************************************************************/
 void do_note (CHAR_DATA *ch, char *argument)
 {
     char arg[MAX_INPUT_LENGTH];
@@ -791,6 +820,16 @@ void do_note (CHAR_DATA *ch, char *argument)
 /* Show all accessible boards with their numbers of unread messages OR
    change board. New board name can be given as a number or as a name (e.g.
     board personal or board 4 */
+
+/*****************************************************************************
+ * FUNCTION: do_board
+ * PURPOSE: PC command to manage and view available boards.
+ * PARAMETERS:
+ *   ch - Character using board
+ *   argument - Optional board name
+ * DESCRIPTION:
+ *   Lists available boards or switches to specified board for note access.
+ *****************************************************************************/
 void do_board (CHAR_DATA *ch, char *argument)
 {
     int i, count, number;
@@ -899,6 +938,21 @@ void personal_message (const char *sender, const char *to, const char *subject, 
     make_note ("Personal", sender, to, subject, expire_days, text);
 }
 
+
+/*****************************************************************************
+ * FUNCTION: make_note
+ * PURPOSE: Programmatic note posting (via code, not via player command).
+ * PARAMETERS:
+ *   board_name - Name of target board
+ *   sender - Poster name
+ *   to - Recipient (NULL for public/all)
+ *   subject - Note title
+ *   expire_days - Days until auto-delete (0 for permanent)
+ *   text - Message body
+ * DESCRIPTION:
+ *   Allows system messages and automated posts.  E.g., level-up announcements,
+ *   arena results, clan communications from automated scripts.
+ *****************************************************************************/
 void make_note (const char* board_name, const char *sender, const char *to, const char *subject, const int expire_days, const char *text)
 {
     int board_index = board_lookup (board_name);

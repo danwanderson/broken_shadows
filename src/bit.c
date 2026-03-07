@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2022 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -92,7 +92,7 @@ const struct flag_stat_type flag_stat_table[] =
     {   weapon_type,            FALSE   },
     {   0,                      0       }
 };
-    
+
 
 
 /*****************************************************************************
@@ -101,6 +101,11 @@ const struct flag_stat_type flag_stat_table[] =
  Called by:     flag_value and flag_string.
  Note:          This function is local and used only in bit.c.
  ****************************************************************************/
+/*****************************************************************************
+ * NAME: is_stat
+ * PURPOSE: Test if a flag_type table represents stats vs. toggleable flags.
+ * RETURNS: TRUE if entries are stats (set-only), FALSE if toggleable flags.
+ *****************************************************************************/
 bool is_stat( const struct flag_type *flag_table )
 {
     int flag;
@@ -127,17 +132,28 @@ bool is_stat( const struct flag_type *flag_table )
  Called by:     flag_value and flag_string.
  Note:          This function is local and used only in bit.c.
  ****************************************************************************/
+
+/*****************************************************************************
+ * FUNCTION: flag_lookup
+ * PURPOSE: Find flag index by name in flag_type table.
+ * PARAMETERS:
+ *   name - Flag name to lookup
+ *   flag_table - Pointer to flag_type array
+ * RETURNS: Index in table, -1 if not found.
+ * TROUBLESHOOTING:
+ *   - Flag name not found: Check spelling and table availability.
+ *****************************************************************************/
 int flag_lookup (const char *name, const struct flag_type *flag_table)
 {
     int flag;
- 
+
     for (flag = 0; flag_table[flag].name[0] != '\0'; flag++)
     {
         if ( !str_cmp( name, flag_table[flag].name )
           && flag_table[flag].settable )
             return flag_table[flag].bit;
     }
- 
+
     return NO_FLAG;
 }
 
@@ -148,6 +164,18 @@ int flag_lookup (const char *name, const struct flag_type *flag_table)
  Purpose:       Returns the value of the flags entered.  Multi-flags accepted.
  Called by:     olc.c and olc_act.c.
  ****************************************************************************/
+
+/*****************************************************************************
+ * FUNCTION: flag_value
+ * PURPOSE: Parse flag name and return bit value for toggle operations.
+ * PARAMETERS:
+ *   flag_table - Pointer to flag_type array
+ *   argument - Flag name (may include ! for inversion)
+ * RETURNS: Bit value of flag, NO_FLAG if not found.
+ * DESCRIPTION:
+ *   Handles toggle syntax: ! prefix inverts the flag value.
+ *   Used by OLC and immortal commands to parse flag arguments.
+ *****************************************************************************/
 int flag_value( const struct flag_type *flag_table, char *argument)
 {
     char word[MAX_INPUT_LENGTH];

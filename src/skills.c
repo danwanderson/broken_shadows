@@ -342,6 +342,23 @@ void do_gain(CHAR_DATA *ch, char *argument)
 
 /* RT spells and skills show the players spells (or skills) */
 /*
+ * FUNCTION: do_spells
+ *
+ * Display all spells known by a character, grouped by level.
+ *
+ * PARAMETERS:
+ *   ch - Character viewing spell list
+ *   argument - Unused
+ *
+ * DESCRIPTION:
+ *   Iterates skill_table and displays spells learned by the character.
+ *   Groups spells by minimum level requirement (1-93 for heroes).
+ *   Shows level, mana cost, and spell name in a compact column layout.
+ *
+ * TROUBLESHOOTING:
+ *   - Spell not showing: Check learned[sn] value and spell_fun != spell_null.
+ *   - Missing mana display: Verify mana_cost calculation.
+ *
  * LEVEL_HERO changed to 94 for do_spells and do_skills
  * by Rahl to allow immortals to see level 91 and level 93
  * skills and spells
