@@ -491,7 +491,7 @@ void do_donate( CHAR_DATA *ch, char *argument )
     char arg[MAX_INPUT_LENGTH];
     OBJ_DATA *obj;
     OBJ_DATA *obj_next;
-    ROOM_INDEX_DATA *donation,*find_location();
+    ROOM_INDEX_DATA *donation;
     ROOM_INDEX_DATA *was_in_room;
     BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
     bool found;
@@ -2193,7 +2193,7 @@ void do_zap( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) )
         &&
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        !victim->pcdata->bounty > 0 ) )
+        victim->pcdata->bounty <= 0 ) )
         && (skill_table[wand->value[3]].target != TAR_CHAR_DEFENSIVE
         && skill_table[wand->value[3]].target != TAR_IGNORE) )
             {

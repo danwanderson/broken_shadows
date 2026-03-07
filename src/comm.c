@@ -611,7 +611,7 @@ void new_descriptor( int control )
     struct sockaddr_in sock;
     struct hostent *from;
     int desc;
-    int size;
+    socklen_t size;
     bool color;
 
     buf[0] = '\0';
@@ -1002,6 +1002,7 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
       else
         color=FALSE;
     if ( !merc_down )
+    {
         if ( d->showstr_point )
             write_to_buffer( d, "`W[Hit Return to continue]\n\r`w", 0 );
         else if ( fPrompt && d->pString && d->connected == CON_PLAYING )
@@ -1044,6 +1045,7 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
 
         if (IS_SET(ch->comm,COMM_TELNET_GA))
             write_to_buffer(d,go_ahead_str,0);
+    }
     }
 
     /*
@@ -1173,7 +1175,6 @@ bool write_to_descriptor( int desc, char *txt, int length , bool color)
  * Deal with sockets that haven't logged in yet.
  */
 void nanny( DESCRIPTOR_DATA *d, char *argument ) {
-    CHAR_DATA *ch;
 
     /* Delete leading spaces unless char is writing a note */
     if ( d->connected != CON_NOTE_TEXT )
@@ -1181,8 +1182,6 @@ void nanny( DESCRIPTOR_DATA *d, char *argument ) {
         while ( isspace(*argument) )
             argument++;
     }
-
-    ch = d->character;
 
     switch ( d->connected ) {
 
@@ -1333,7 +1332,7 @@ bool check_parse_name( char *name )
 	/*
  	 * Make sure someone isn't creating a char with the same name
 	 */
-	{
+    {
 		DESCRIPTOR_DATA *d;
 
 		for ( d = descriptor_list; d != NULL; d = d->next ) {
@@ -1344,7 +1343,7 @@ bool check_parse_name( char *name )
 				}
 			}
 		}
-	}
+    }
 
     /*
      * Alphanumerics only.
@@ -1573,7 +1572,8 @@ void show_string(struct descriptor_data *d, char *input)
         {
             *scan = '\0';
             write_to_buffer(d,buffer,strlen(buffer));
-            for (chk = d->showstr_point; isspace(*chk); chk++);
+            for (chk = d->showstr_point; isspace(*chk); chk++)
+                ;
             {
                 if (!*chk)
                 {

@@ -65,7 +65,7 @@ char *fix_string( const char *str )
     int o;
 
     if ( str == NULL )
-        return '\0';
+        return NULL;
 
     for ( o = i = 0; str[i+o] != '\0'; i++ )
     {
@@ -584,7 +584,9 @@ void save_resets( FILE *fp, AREA_DATA *pArea )
 {
     RESET_DATA *pReset;
     MOB_INDEX_DATA *pLastMob = NULL;
+#if defined( VERBOSE )
     OBJ_INDEX_DATA *pLastObj;
+#endif
     ROOM_INDEX_DATA *pRoom;
     char buf[MAX_STRING_LENGTH];
     int iHash;
@@ -684,7 +686,6 @@ void save_resets( FILE *fp, AREA_DATA *pArea )
             break;
 
         case 'O':
-            pLastObj = get_obj_index( pReset->arg1 );
             pRoom = get_room_index( pReset->arg3 );
             fprintf( fp, "O 0 %d 0 %d\n",
                 pReset->arg1,
@@ -692,7 +693,6 @@ void save_resets( FILE *fp, AREA_DATA *pArea )
             break;
 
         case 'P':
-            pLastObj = get_obj_index( pReset->arg1 );
             fprintf( fp, "P 0 %d 0 %d\n",
                 pReset->arg1,
                 pReset->arg3  );
@@ -877,39 +877,8 @@ void do_asave( CHAR_DATA *ch, char *argument )
 {
     char arg1 [MAX_INPUT_LENGTH];
     AREA_DATA *pArea;
-    FILE *fp;
     int value;
 
-    fp = NULL;
-
-    if ( !ch )       /* Do an autosave */
-    {
-        save_area_list();
-        for( pArea = area_first; pArea; pArea = pArea->next )
-        {
-            save_area( pArea );
-            REMOVE_BIT( pArea->area_flags, AREA_CHANGED );
-        }
-        return;
-    }
-
-    smash_tilde( argument );
-    strcpy( arg1, argument );
-
-    if ( arg1[0] == '\0' )
-    {
-    send_to_char( "Syntax:\n\r", ch );
-    send_to_char( "  asave <vnum>   - saves a particular area\n\r",     ch );
-    send_to_char( "  asave list     - saves the area.lst file\n\r",     ch );
-    send_to_char( "  asave area     - saves the area being edited\n\r", ch );
-    send_to_char( "  asave changed  - saves all changed zones\n\r",     ch );
-    send_to_char( "  asave world    - saves the world! (db dump)\n\r",  ch );
-    send_to_char( "  asave clans    - saves the clans.are file\n\r",    ch );
-    send_to_char( "\n\r", ch );
-        return;
-    }
-
-    /* Snarf the value (which need not be numeric). */
     value = atoi( arg1 );
 
     if ( !( pArea = get_area_data( value ) ) && is_number( arg1 ) )

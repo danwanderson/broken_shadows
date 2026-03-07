@@ -2465,7 +2465,6 @@ void do_who( CHAR_DATA *ch, char *argument )
     int nMatch;
     int length;
     int maxlength;
-    int count;
     bool rgfClass[MAX_CLASS];
     bool rgfRace[MAX_PC_RACE];
     bool fClassRestrict;
@@ -2517,7 +2516,7 @@ void do_who( CHAR_DATA *ch, char *argument )
             /*
              * Look for classes to turn on.
              */
-            if ( argument == "imm" )
+            if ( !str_cmp( arg, "imm" ) )
             {
                 fImmortalOnly = TRUE;
             }
@@ -2705,22 +2704,6 @@ void do_who( CHAR_DATA *ch, char *argument )
    buf2->data[0] = '\0';
    bprintf( buf2, "\n\r`wVisible Players Shown: `W%d\n\r`w", nMatch );
    buffer_strcat(output,buf2->data);
-   count=0;
-   for ( d = descriptor_list ; d ; d = d->next ) {
-       if ( d->connected == CON_PLAYING
-            && ( (!IS_SET(d->character->act, PLR_WIZINVIS))
-            && (!IS_SET(d->character->act, PLR_INCOGNITO))) )
-         {
-            count++;
-         }
-       else if (((d->connected == CON_PLAYING)  || (d->connected == CON_NOTE_TO)
-        || (d->connected == CON_NOTE_SUBJECT) || (d->connected == CON_NOTE_EXPIRE)
-        || (d->connected == CON_NOTE_TEXT) || (d->connected == CON_NOTE_FINISH))
-                && (!(d->character->invis_level > ch->level) ) )
-
-         { count++; }
-
-    }
 
 /*   bprintf( buf2, "`wTotal Players Online: `W%d\n\r`w", count );
    buffer_strcat(output,buf2->data); */

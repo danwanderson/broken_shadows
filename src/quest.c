@@ -810,13 +810,11 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman)
 bool quest_level_diff(int clevel, int mlevel)
 {
     int upper = 0;
-    int lower = 0;
     
     /* was clevel+10 - changed by Rahl */
     upper = clevel+7;
     if(upper > 100)
       upper = 90;
-    lower = clevel - 2;  
 
     if(mlevel >= clevel && mlevel < upper)
       return TRUE;

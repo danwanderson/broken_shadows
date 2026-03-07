@@ -280,11 +280,11 @@ void maxfilelimit()
  *
  * CRITICAL FILES:
  *   - ../area/area.lst: Master list of area files to load
- *   - ../area/*.are: Individual area data files
+ *   - ../area/NAME.are: Individual area data files
  *   - ../area/social.are: Social/emote definitions
  *   - ../area/disabled.txt: Disabled commands
  *   - ../area/ban.txt: Site ban list
- *   - ../notes/*: Player note boards
+ *   - ../notes/NAME: Player note boards
  *
  * TROUBLESHOOTING:
  *   - "can't alloc string space": Out of memory
@@ -602,7 +602,7 @@ void new_load_area( FILE *fp )
 {
     AREA_DATA *pArea;
     char      *word;
-    bool      fMatch;
+    bool       fMatch;
 
     pArea               = alloc_perm( sizeof(*pArea) );
     pArea->age          = 15;
@@ -660,6 +660,8 @@ void new_load_area( FILE *fp )
             break;
 */
         }
+        if ( !fMatch )
+            fread_to_eol( fp );
     }
 }
 
@@ -672,10 +674,12 @@ void assign_area_vnum( int vnum )
     if ( area_last->lvnum == 0 || area_last->uvnum == 0 )
         area_last->lvnum = area_last->uvnum = vnum;
     if ( vnum != URANGE( area_last->lvnum, vnum, area_last->uvnum ) )
+    {
         if ( vnum < area_last->lvnum )
             area_last->lvnum = vnum;
         else
             area_last->uvnum = vnum;
+    }
     return;
 }
 
@@ -1541,14 +1545,6 @@ void reset_room( ROOM_INDEX_DATA *pRoom )
             }
             else   /* ROM OLC else version */
             {
-                int limit;
-                if (pReset->arg2 > 50 )  /* old format */
-                    limit = /*6*/999;
-                else if ( pReset->arg2 == -1 )  /* no limit */
-                    limit = 999;
-                else
-                    limit = pReset->arg2;
-
                 if ( 1==1 )
                     pObj = create_object( pObjIndex,
                            UMIN( number_fuzzy( level ), LEVEL_HERO - 1 ) );
@@ -2372,17 +2368,19 @@ char *fread_string( FILE *fp )
          *   -- Furey
          */
 
-        switch ( *plast = getc(fp) )
+        {
+            int _c = getc(fp);
+            if ( _c == EOF )
+            {
+                bug( "Fread_string: EOF", 0 );
+                return NULL;
+            }
+            *plast = (char)_c;
+        }
+        switch ( *plast )
         {
         default:
             plast++;
-            break;
-
-        case EOF:
-        /* temp fix */
-            bug( "Fread_string: EOF", 0 );
-            return NULL;
-            /* exit( 1 ); */
             break;
 
         case '\n':
@@ -2478,17 +2476,21 @@ char *fread_string_eol( FILE *fp )
 
     for ( ;; )
     {
-        if ( !char_special[ ( *plast++ = getc( fp ) ) - EOF ] )
+        {
+            int _c = getc(fp);
+            if ( _c == EOF )
+            {
+                bug( "Fread_string_eol  EOF", 0 );
+                exit( 1 );
+            }
+            *plast++ = (char)_c;
+        }
+        if ( !char_special[ (unsigned char)plast[-1] - (int)EOF ] )
             continue;
 
         switch ( plast[-1] )
         {
         default:
-            break;
-
-        case EOF:
-            bug( "Fread_string_eol  EOF", 0 );
-            exit( 1 );
             break;
 
         case '\n':  case '\r':

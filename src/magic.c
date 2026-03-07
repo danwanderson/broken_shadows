@@ -772,6 +772,7 @@ void obj_cast_spell( int sn, int level, CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DA
     /* begin stuff by Rahl */
     case TAR_OBJ_CHAR_OFF:
         if ( victim == NULL && obj == NULL )
+        {
             if ( ch->fighting != NULL )
                 victim = ch->fighting;
             else
@@ -779,8 +780,9 @@ void obj_cast_spell( int sn, int level, CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DA
                 send_to_char( "You can't do that.\n\r", ch );
                 return;
             }
+        }
 
-            if ( victim != NULL )
+        if ( victim != NULL )
             {
                 if ( is_safe_spell( ch, victim, FALSE ) && ch != victim )
                 {
@@ -2440,10 +2442,12 @@ void spell_earthquake( int sn, int level, CHAR_DATA *ch, void *vo, int
         if ( vch->in_room == ch->in_room )
         {
             if ( vch != ch && !is_safe_spell(ch,vch,TRUE))
+            {
                 if (IS_AFFECTED(vch,AFF_FLYING))
                     damage(ch,vch,0,sn,DAM_BASH, TRUE );
                 else
                     damage( ch, vch, level + dice(2, 8), sn, DAM_BASH, TRUE );
+            }
             continue;
         }
 
@@ -3764,7 +3768,7 @@ void spell_locate_object( int sn, int level, CHAR_DATA *ch, void *vo, int
         for ( in_obj = obj; in_obj->in_obj != NULL; in_obj = in_obj->in_obj )
             ;
 
-        if ( in_obj->carried_by != NULL && can_see)
+        if ( in_obj->carried_by != NULL && can_see(ch, in_obj->carried_by))
         {
             sprintf( buf, "%s carried by %s\n\r",
                 obj->short_descr, PERS(in_obj->carried_by, ch) );

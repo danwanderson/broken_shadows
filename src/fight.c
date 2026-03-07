@@ -94,13 +94,10 @@ void    pk_kill 		( CHAR_DATA *victim );
 void violence_update( void )
 {
     CHAR_DATA *ch;
-    CHAR_DATA *ch_next;
     CHAR_DATA *victim;
 
     for ( ch = char_list; ch != NULL; ch = ch->next )
     {
-        ch_next = ch->next;
-
         if ( ( victim = ch->fighting ) == NULL || ch->in_room == NULL )
             continue;
 
@@ -657,18 +654,22 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
         dam = dam * 3 / 2;
 
     if ( dt == gsn_backstab && wield != NULL)
+    {
         if ( wield->value[0] != 2 )
             dam *= 2 + ch->level / 10;
         else
             dam *= 2 + ch->level / 8;
+    }
 
     /* new stuff by Rahl for circle */
     /* This is where the damage is.. half of backstab right now */
     if ( dt == gsn_circle && wield != NULL )
+    {
         if ( wield->value[0] != 2 )
             dam *= 2 + ch->level / 20;
         else
             dam *= 2 + ch->level / 16;
+    }
 
     dam += GET_DAMROLL(ch) * UMIN(100,skill) /100;
 
@@ -944,17 +945,21 @@ void second_one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
         dam = dam * 3 / 2;
 
     if ( dt == gsn_backstab && wield != NULL)
+    {
         if ( wield->value[0] != 2 )
             dam *= 2 + ch->level / 10;
         else
             dam *= 2 + ch->level / 8;
+    }
 
     /* new stuff by Rahl for circle */
     if ( dt == gsn_circle && wield != NULL )
+    {
         if ( wield->value[0] != 2 )
             dam *= 2 + ch->level / 20;
         else
             dam *= 2 + ch->level / 16;
+    }
 
     dam += GET_DAMROLL(ch) * UMIN(100,skill) /100;
 
@@ -1306,10 +1311,12 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
               do_get(ch, "coins corpse");
 
             if ( IS_SET(ch->act, PLR_AUTOSAC) )
+            {
               if ( IS_SET(ch->act,PLR_AUTOLOOT) && corpse && corpse->contains)
                 return TRUE;  /* leave if corpse has treasure */
               else
                 do_sacrifice( ch, "corpse" );
+            }
         }
 
         return TRUE;
@@ -1461,7 +1468,7 @@ bool is_safe_spell(CHAR_DATA *ch, CHAR_DATA *victim, bool area )
             ( !IS_SET(victim->act, PLR_KILLER)
             || !IS_SET(ch->act, PLR_KILLER) ) )
             && ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER )
-            || !victim->pcdata->bounty > 0 ) ) )
+            || victim->pcdata->bounty <= 0 ) ) )
           {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return TRUE;
@@ -2024,7 +2031,6 @@ void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
 {
     BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
     CHAR_DATA *gch;
-    CHAR_DATA *lch;
     int xp;
     int members;
     int group_levels;
@@ -2057,8 +2063,6 @@ void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
         members = 1;
         group_levels = ch->level ;
     }
-
-    lch = (ch->leader != NULL) ? ch->leader : ch;
 
     for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
     {
@@ -2353,7 +2357,7 @@ int xp_compute( CHAR_DATA *gch, CHAR_DATA *victim, int total_levels, int members
         if (victim->alignment > 500 || victim->alignment < -500)
             xp = base_exp * 4/3;
 
-        else if (victim->alignment < 200 || victim->alignment > -200)
+        else if (victim->alignment > -200 && victim->alignment < 200)
             xp = base_exp * 1/2;
 
         else
@@ -2759,7 +2763,7 @@ void do_bash( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) )
         &&
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        !victim->pcdata->bounty > 0 ) ) )
+        victim->pcdata->bounty <= 0 ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return;
@@ -2921,7 +2925,7 @@ void do_dirt( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) )
         &&
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        !victim->pcdata->bounty > 0 ) ) )
+        victim->pcdata->bounty <= 0 ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return;
@@ -3060,7 +3064,7 @@ void do_trip( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) )
         &&
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        !victim->pcdata->bounty > 0 ) ) )
+        victim->pcdata->bounty <= 0 ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return;
@@ -3174,7 +3178,7 @@ void do_kill( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) )
         &&
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        !victim->pcdata->bounty > 0 ) ) )
+        victim->pcdata->bounty <= 0 ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return;
@@ -3338,7 +3342,7 @@ void do_backstab( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) )
         &&
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        !victim->pcdata->bounty > 0 ) ) )
+        victim->pcdata->bounty <= 0 ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return;
@@ -3639,7 +3643,7 @@ void do_kick( CHAR_DATA *ch, char *argument )
         PLR_KILLER) ) )
         &&
         ( !chaos && ( !IS_SET( ch->act, PLR_BOUNTY_HUNTER ) ||
-        !victim->pcdata->bounty > 0 ) ) )
+        victim->pcdata->bounty <= 0 ) ) )
         {
             send_to_char( "You can only kill other player killers.\n\r", ch );
             return;
@@ -3876,7 +3880,7 @@ void do_slay( CHAR_DATA *ch, char *argument )
         chaos_kill( victim );
 
    if (!chaos)
-    raw_kill( victim );
+        raw_kill( victim );
 
     return;
 }

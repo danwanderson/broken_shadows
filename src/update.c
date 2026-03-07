@@ -1050,13 +1050,11 @@ void room_update( void )
 {
    /* char               buf[MAX_STRING_LENGTH]; */
    DESCRIPTOR_DATA   *d;
-   CHAR_DATA         *ch;
 
    for (d = descriptor_list; d != NULL; d = d->next )
      {
         if ( d->connected == CON_PLAYING)
           {
-             ch = d->character;
           }
      }
    return;

@@ -277,7 +277,8 @@ void do_gocial(CHAR_DATA *ch, char *argument)
                         strcpy(buf2,buf);
                         buf2[counter] = '\0';
                         strcat(buf2,"her");
-                        for (count = 0; buf[count] != '\0'; count++);
+                        for (count = 0; buf[count] != '\0'; count++)
+                            ;
                         {
                             buf[count] = buf[count+counter+2];
                         }

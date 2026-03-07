@@ -580,10 +580,12 @@ void reset_char(CHAR_DATA *ch)
         ch->pcdata->perm_move   = ch->max_move;
         ch->pcdata->last_level  = ch->played/3600;
         if (ch->pcdata->true_sex < 0 || ch->pcdata->true_sex > 2)
+        {
                 if (ch->sex > 0 && ch->sex < 3)
                     ch->pcdata->true_sex        = ch->sex;
                 else
                     ch->pcdata->true_sex        = 0;
+        }
 
     }
 
@@ -791,10 +793,12 @@ int get_max_train( CHAR_DATA *ch, int stat )
 
     max = pc_race_table[ch->race].max_stats[stat];
     if (class_table[ch->ch_class].attr_prime == stat)
+    {
         if (ch->race == race_lookup("human"))
            max += 3;
         else
            max += 2;
+    }
 
     return UMIN(max,25);
 }
@@ -1119,7 +1123,6 @@ void affect_to_obj(OBJ_DATA *obj, AFFECT_DATA *paf)
 void affect_remove( CHAR_DATA *ch, AFFECT_DATA *paf )
 {
     /* added by Rahl */
-    int where, vector;
 
     if ( ch->affected == NULL )
     {
@@ -1128,10 +1131,6 @@ void affect_remove( CHAR_DATA *ch, AFFECT_DATA *paf )
     }
 
     affect_modify( ch, paf, FALSE );
-
-    /* added by Rahl */
-    where = paf->where;
-    vector = paf->bitvector;
 
     if ( paf == ch->affected )
     {
@@ -1160,16 +1159,12 @@ void affect_remove( CHAR_DATA *ch, AFFECT_DATA *paf )
     paf->next   = affect_free;
     affect_free = paf->next;
 
-    /* added by Rahl */
-   // affect_check( ch, where, vector );
-
     return;
 }
 
 void affect_remove_obj( OBJ_DATA *obj, AFFECT_DATA *paf)
 {
     /* added by Rahl */
-    int where, vector;
 
     if ( obj->affected == NULL )
     {
@@ -1179,10 +1174,6 @@ void affect_remove_obj( OBJ_DATA *obj, AFFECT_DATA *paf)
 
     if (obj->carried_by != NULL && obj->wear_loc != -1)
         affect_modify( obj->carried_by, paf, FALSE );
-
-    /* added by Rahl */
-    where = paf->where;
-    vector = paf->bitvector;
 
     /* remove flags from the object if needed */
     if ( paf->bitvector )
@@ -1278,9 +1269,6 @@ bool is_affected( CHAR_DATA *ch, int sn )
 void affect_join( CHAR_DATA *ch, AFFECT_DATA *paf )
 {
     AFFECT_DATA *paf_old;
-    bool found;
-
-    found = FALSE;
     for ( paf_old = ch->affected; paf_old != NULL; paf_old = paf_old->next )
     {
         if ( paf_old->type == paf->type )
@@ -1635,6 +1623,7 @@ void unequip_char( CHAR_DATA *ch, OBJ_DATA *obj )
 
     if (!obj->enchanted)
         for ( paf = obj->pIndexData->affected; paf != NULL; paf = paf->next )
+        {
             if ( paf->location == APPLY_SPELL_AFFECT )
             {
                 for ( lpaf = ch->affected; lpaf != NULL; lpaf = lpaf_next )
@@ -1655,6 +1644,7 @@ void unequip_char( CHAR_DATA *ch, OBJ_DATA *obj )
                 /* added by Rahl */
                // affect_check( ch, paf->where, paf->bitvector );
             }
+        }
 
     for ( paf = obj->affected; paf != NULL; paf = paf->next )
        if ( paf->location == APPLY_SPELL_AFFECT )
@@ -3003,7 +2993,7 @@ void affect_check(CHAR_DATA *ch,int where,int vector)
         if (obj->wear_loc == -1)
             continue;
 
-            for (paf = obj->affected; paf != NULL; paf = paf->next)
+        for (paf = obj->affected; paf != NULL; paf = paf->next)
             if (paf->where == where && paf->bitvector == vector)
             {
                 switch (where)

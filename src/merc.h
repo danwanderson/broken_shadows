@@ -37,8 +37,8 @@
 #endif
 
 /* system calls */
-int unlink();
-int system();
+int unlink(const char *path);
+int system(const char *cmd);
 
 
 /*
@@ -2288,8 +2288,8 @@ void    stop_fighting   ( CHAR_DATA *ch, bool fBoth );
 /* date and time functions added by Rahl - from EmberMUD 0.29 */
 char *get_curdate();
 char *get_curtime();
-char *get_time();
-char *get_date();
+char *get_time(time_t tm);
+char *get_date(time_t tm);
 AD      *affect_find    (AFFECT_DATA *paf, int sn);
 int     check_immune    (CHAR_DATA *ch, int dam_type );
 long    material_lookup ( const char *name );
