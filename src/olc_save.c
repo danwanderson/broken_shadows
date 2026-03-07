@@ -80,10 +80,18 @@ char *fix_string( const char *str )
 
 
 /*****************************************************************************
- Name:          save_area_list
- Purpose:       Saves the listing of files to be loaded at startup.
- Called by:     do_asave(olc_save.c).
- ****************************************************************************/
+ * FUNCTION: save_area_list
+ * PURPOSE:  Persist the area.lst file listing all loaded areas.
+ * DESCRIPTION:
+ *   Writes area.lst in the area directory, containing the filenames of all
+ *   active areas in load order. Called after any area modification.
+ * SIDE EFFECTS:
+ *   - Overwrites area.lst file.
+ *   - Used by boot_db to load areas on server startup.
+ * TROUBLESHOOTING:
+ *   - File not writing: Check permissions on area/ directory.
+ *   - Areas not loading on reboot: Verify area.lst was regenerated.
+ *****************************************************************************/
 void save_area_list()
 {
     FILE *fp;
@@ -162,10 +170,19 @@ char *fwrite_flag( long flags, char buf[] )
 
 
 /*****************************************************************************
- Name:          save_mobile
- Purpose:       Save one mobile to file, new format -- Hugin
- Called by:     save_mobiles (below).
- ****************************************************************************/
+ * FUNCTION: save_mobile
+ * PURPOSE:  Serialize a single mob prototype to the area file.
+ * PARAMETERS:
+ *   fp - Open file pointer to .are file
+ *   pMobIndex - Mobile prototype to serialize
+ * DESCRIPTION:
+ *   Writes a mob in the #MOBILES format: vnum, names, descriptions, stats,
+ *   dice (HP/mana/damage), AC, race, flags, and special procedures.
+ * SIDE EFFECTS:
+ *   - Appends to .are file.
+ * TROUBLESHOOTING:
+ *   - Corrupt mob data on load: Verify dice format is "NdN+B" (e.g., 3d8+5).
+ *****************************************************************************/
 void save_mobile( FILE *fp, MOB_INDEX_DATA *pMobIndex )
 {
     char   letter;
@@ -550,10 +567,19 @@ void save_door_resets( FILE *fp, AREA_DATA *pArea )
 
 
 /*****************************************************************************
- Name:          save_resets
- Purpose:       Saves the #RESETS section of an area file.
- Called by:     save_area(olc_save.c)
- ****************************************************************************/
+ * FUNCTION: save_resets
+ * PURPOSE:  Persist the #RESETS section containing mob/obj spawn commands.
+ * PARAMETERS:
+ *   fp - Open file pointer to .are file
+ *   pArea - Area data enclosing reset commands
+ * DESCRIPTION:
+ *   Iterates all reset commands in area rooms and writes them in compact
+ *   format (M=mob load, O=obj load, P=put-in, G=give, E=equip, D=door,
+ *   R=randomize). Includes door state persistence for locked/closed exits.
+ * TROUBLESHOOTING:
+ *   - "!NO_MOB!" warnings: Check for reset commands lacking parent mob.
+ *   - Objects vanishing: Verify put-in (P) and give (G) follow mob loads.
+ *****************************************************************************/
 void save_resets( FILE *fp, AREA_DATA *pArea )
 {
     RESET_DATA *pReset;
@@ -716,10 +742,15 @@ void save_resets( FILE *fp, AREA_DATA *pArea )
 
 
 /*****************************************************************************
- Name:          save_shops
- Purpose:       Saves the #SHOPS section of an area file.
- Called by:     save_area(olc_save.c)
- ****************************************************************************/
+ * FUNCTION: save_shops
+ * PURPOSE:  Persist #SHOPS section containing keeper-trade definitions.
+ * PARAMETERS:
+ *   fp - Open file pointer to .are file
+ *   pArea - Area data containing shops
+ * DESCRIPTION:
+ *   For each mob with a shop, writes keeper vnum, item buyable types,
+ *   profit margins, opening/closing hours. Shops allow immersive trading.
+ *****************************************************************************/
 void save_shops( FILE *fp, AREA_DATA *pArea )
 {
     SHOP_DATA *pShopIndex;
@@ -760,10 +791,27 @@ void save_shops( FILE *fp, AREA_DATA *pArea )
 
 
 /*****************************************************************************
- Name:          save_area
- Purpose:       Save an area, note that this format is new.
- Called by:     do_asave(olc_save.c).
- ****************************************************************************/
+ * FUNCTION: save_area
+ * PURPOSE:  Serialize an entire area to its .are file.
+ * PARAMETERS:
+ *   pArea - Area data to serialize
+ * DESCRIPTION:
+ *   Master save function writing all sections:
+ *     #AREADATA - metadata (name, builders, vnum range, security)
+ *     #MOBILES - mob prototypes
+ *     #OBJECTS - object prototypes
+ *     #ROOMS - room data
+ *     #SPECIALS - mob special procedures
+ *     #RESETS - spawn commands
+ *     #SHOPS - shop tables
+ *     #$ - file terminator
+ * SIDE EFFECTS:
+ *   - Closes/reopens fpReserve (error handling).
+ *   - Clears AREA_CHANGED flag.
+ * TROUBLESHOOTING:
+ *   - Incomplete saves: Check disk space and file permissions.
+ *   - Lost data: Verify all subsections are written in order.
+ *****************************************************************************/
 void save_area( AREA_DATA *pArea )
 {
     FILE *fp;
@@ -799,11 +847,32 @@ void save_area( AREA_DATA *pArea )
 
 
 
+
 /*****************************************************************************
- Name:          do_asave
- Purpose:       Entry point for saving area data.
- Called by:     interpreter(interp.c)
- ****************************************************************************/
+ * FUNCTION: do_asave
+ * PURPOSE:  Commands for saving area and world data.
+ * PARAMETERS:
+ *   ch - Builder/immortal issuing asave command (NULL for autosave)
+ *   argument - Save operation type (vnum | list | area | changed | world | clans)
+ * DESCRIPTION:
+ *   Flexible area/world persistence:
+ *     asave <vnum>     - Saves single area by vnum
+ *     asave list       - Regenerates area.lst
+ *     asave area       - Saves current edit area
+ *     asave changed    - Saves all AREA_CHANGED marked areas
+ *     asave world      - Full db dump (calls save_char_obj for all)
+ *     asave clans      - Saves clan data
+ *   When ch is NULL, performs automatic full save and clears flags.
+ * SIDE EFFECTS:
+ *   - Writes .are files and area.lst.
+ *   - May write player files if asave world is used.
+ *   - Clears AREA_CHANGED flags on affected areas.
+ * RESTRICTIONS:
+ *   - Requires IS_BUILDER for specific areas.
+ * TROUBLESHOOTING:
+ *   - Permission denied: Check IS_BUILDER flag for area.
+ *   - Missing vnum: Verify area exists and lookup in get_area_data.
+ *****************************************************************************/
 void do_asave( CHAR_DATA *ch, char *argument )
 {
     char arg1 [MAX_INPUT_LENGTH];

@@ -60,6 +60,22 @@
  *   Train economy encourages group purchases for efficiency.
  *   Conversion allows flexibility but at a 10:1 cost.
  */
+/*
+ * FUNCTION: do_gain
+ *
+ * PC command to learn skills/groups from trainer NPCs.
+ *
+ * PARAMETERS:
+ *   ch - Character attempting to learn
+ *   argument - "list", "convert", "revert", or skill/group name
+ *
+ * DESCRIPTION:
+ *   Locates an ACT_GAIN trainer in the room and processes skill/group
+ *   purchases. Validates class eligibility, train count, and prior knowledge.
+ *
+ * RETURNS:
+ *   Void; sends info messages to character.
+ */
 void do_gain(CHAR_DATA *ch, char *argument)
 {
     BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
@@ -408,6 +424,23 @@ void do_spells(CHAR_DATA *ch, char *argument)
     buffer_free( buf );
 }
 
+
+/*
+ * FUNCTION: do_skills
+ *
+ * Display all skills known by a character, grouped by level.
+ *
+ * PARAMETERS:
+ *   ch - Character viewing skill list
+ *   argument - Unused
+ *
+ * DESCRIPTION:
+ *   Similar to do_spells but shows skills only (spell_fun == spell_null).
+ *   Groups by minimum level requirement.
+ *
+ * TROUBLESHOOTING:
+ *   - Skill not showing: Check spell_fun field in skill_table.
+ */
 void do_skills(CHAR_DATA *ch, char *argument)
 {
     char skill_list[94][MAX_STRING_LENGTH];
@@ -1122,6 +1155,25 @@ bool parse_gen_groups(CHAR_DATA *ch,char *argument)
 
 
 /* shows all groups, or the sub-members of a group */
+
+/*
+ * FUNCTION: do_groups
+ *
+ * PC command to see available skill groups (in-game leveling only).
+ *
+ * PARAMETERS:
+ *   ch - Character viewing groups
+ *   argument - Unused
+ *
+ * DESCRIPTION:
+ *   Shows all available skill groups and their costs in training points.
+ *   Called from gain command or standalone. Uses gen_data to track
+ *   choices during character generation / training.
+ *
+ * TROUBLESHOOTING:
+ *   - Empty list: Check group_table entries and class ratings.
+ *   - Duplicate groups: Verify group_table uniqueness.
+ */
 void do_groups(CHAR_DATA *ch, char *argument)
 {
     BUFFER *buf = buffer_new( 100 );
@@ -1206,6 +1258,29 @@ void do_groups(CHAR_DATA *ch, char *argument)
 }
 
 /* checks for skill improvement */
+
+/*
+ * FUNCTION: check_improve
+ *
+ * Chance-based skill/spell improvement during practice.
+ *
+ * PARAMETERS:
+ *   ch - Character whose skill is being tested
+ *   sn - Skill number to improve
+ *   success - Whether the skill use was successful
+ *   multiplier - Scales improvement chance (for different contexts)
+ *
+ * DESCRIPTION:
+ *   Called after skill use to allow gradual learning. If success is TRUE,
+ *   rolls against the character's current skill level percent. Higher
+ *   learned% = lower chance to improve (inverse scaling). Sends a message
+ *   when improvement occurs.
+ *
+ * TROUBLESHOOTING:
+ *   - Not improving: Check learned% (80%+ rarely improves).
+ *   - Always improving: Check success flag is being set correctly.
+ *   - Growth too slow: Verify skill use context is triggering checks.
+ */
 void check_improve( CHAR_DATA *ch, int sn, bool success, int multiplier )
 {
     int chance;
@@ -1320,6 +1395,25 @@ void gn_remove( CHAR_DATA *ch, int gn)
 }
 
 /* use for processing a skill or group for addition  */
+
+/*
+ * FUNCTION: group_add
+ *
+ * Award all skills in a group to a character.
+ *
+ * PARAMETERS:
+ *   ch - Character gaining the group
+ *   name - Group name (e.g., "attack")
+ *   deduct - If TRUE, subtract training cost from ch->train
+ *
+ * DESCRIPTION:
+ *   Looks up the group, iterates its skills, and sets learned[sn] for each.
+ *   Optionally deducts the group's cost from training points.
+ *
+ * TROUBLESHOOTING:
+ *   - Skills not learning: Check group_table and group_skills[] array.
+ *   - Trains not deducted: Verify deduct flag is TRUE.
+ */
 void group_add( CHAR_DATA *ch, const char *name, bool deduct)
 {
     int sn,gn;
@@ -1358,6 +1452,20 @@ void group_add( CHAR_DATA *ch, const char *name, bool deduct)
 
 /* used for processing a skill or group for deletion -- no points back! */
 
+
+/*
+ * FUNCTION: group_remove
+ *
+ * Revoke all skills in a group from a character (refunds training cost).
+ *
+ * PARAMETERS:
+ *   ch - Character losing the group
+ *   name - Group name
+ *
+ * DESCRIPTION:
+ *   Inverse of group_add. Resets learned[] and returns training points.
+ *
+ */
 void group_remove(CHAR_DATA *ch, const char *name)
 {
     int sn, gn;

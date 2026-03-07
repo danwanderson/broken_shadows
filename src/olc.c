@@ -42,6 +42,22 @@ AREA_DATA *get_area_data        ( int vnum );
 
 
 /* Executed from comm.c.  Minimizes compiling when changes are made. */
+/*
+ * FUNCTION: run_olc_editor
+ *
+ * Dispatcher for OLC input based on editor type.
+ *
+ * PARAMETERS:
+ *   d - Descriptor with active OLC session
+ *
+ * DESCRIPTION:
+ *   Called from comm.c when a connected descriptor in an OLC editor
+ *   submits input. Routes to the appropriate aedit/redit/oedit/medit
+ *   handler based on d->editor flag.
+ *
+ * RETURNS:
+ *   FALSE if editor is not active, TRUE if input was processed.
+ */
 bool run_olc_editor( DESCRIPTOR_DATA *d )
 {
     switch ( d->editor )
@@ -347,10 +363,15 @@ const struct olc_cmd_type medit_table[] =
 
 
 /*****************************************************************************
- Name:          get_area_data
- Purpose:       Returns pointer to area with given vnum.
- Called by:     do_aedit(olc.c).
- ****************************************************************************/
+ * FUNCTION: get_area_data
+ * PURPOSE:  Returns pointer to area with given vnum.
+ * PARAMETERS:
+ *   vnum - Numeric area identifier
+ * RETURNS:
+ *   Pointer to AREA_DATA if found, NULL otherwise.
+ * TROUBLESHOOTING:
+ *   - Area not found: Check vnum value and area_first list integrity.
+ *****************************************************************************/
 AREA_DATA *get_area_data( int vnum )
 {
     AREA_DATA *pArea;
@@ -367,10 +388,17 @@ AREA_DATA *get_area_data( int vnum )
 
 
 /*****************************************************************************
- Name:          edit_done
- Purpose:       Resets builder information on completion.
- Called by:     aedit, redit, oedit, medit(olc.c)
- ****************************************************************************/
+ * FUNCTION: edit_done
+ * PURPOSE:  Cleanup and exit from any OLC editor.
+ * PARAMETERS:
+ *   ch - Builder exiting editor
+ * DESCRIPTION:
+ *   Calls do_asave to persist all area changes, then clears the descriptor's
+ *   edit structures to release the session.
+ * SIDE EFFECTS:
+ *   - Saves the modified area to disk.
+ *   - Clears pEdit and editor flag from descriptor.
+ *****************************************************************************/
 bool edit_done( CHAR_DATA *ch )
 {
     do_asave( ch, "area" );
@@ -386,7 +414,21 @@ bool edit_done( CHAR_DATA *ch )
  *****************************************************************************/
 
 
-/* Area Interpreter, called by do_aedit. */
+/*****************************************************************************
+ * FUNCTION: aedit
+ * PURPOSE:  Interpret commands while editing an area.
+ * PARAMETERS:
+ *   ch - Builder issuing command
+ *   argument - Remaining command arguments
+ * DESCRIPTION:
+ *   Main interpreter loop for area editing.
+ *   Parses command from aedit_table and dispatches to handler.
+ *   Security: Checks IS_BUILDER flag before allowing modifications.
+ *   Special: "done" command exits editor gracefully.
+ * TROUBLESHOOTING:
+ *   - "Insufficient security" error: Check IS_BUILDER flag for the area.
+ *   - Changes not persisting: Verify do_asave completed successfully.
+ *****************************************************************************/
 void aedit( CHAR_DATA *ch, char *argument )
 {
     AREA_DATA *pArea;
@@ -451,7 +493,17 @@ void aedit( CHAR_DATA *ch, char *argument )
 
 
 
-/* Room Interpreter, called by do_redit. */
+/*****************************************************************************
+ * FUNCTION: redit
+ * PURPOSE:  Interpret commands while editing a room.
+ * PARAMETERS:
+ *   ch - Builder issuing command
+ *   argument - Command arguments
+ * DESCRIPTION:
+ *   Room editor interpreter. Similar structure to aedit but operates on
+ *   the current room (ch->in_room). Handles door commands, description
+ *   editing, and room flag toggling.
+ *****************************************************************************/
 void redit( CHAR_DATA *ch, char *argument )
 {
     ROOM_INDEX_DATA *pRoom;
@@ -531,7 +583,16 @@ void redit( CHAR_DATA *ch, char *argument )
 
 
 
-/* Object Interpreter, called by do_oedit. */
+/*****************************************************************************
+ * FUNCTION: oedit
+ * PURPOSE:  Interpret commands while editing an object prototype.
+ * PARAMETERS:
+ *   ch - Builder issuing command
+ *   argument - Command arguments
+ * DESCRIPTION:
+ *   Object editor interpreter. Handles object attributes (weight, value,
+ *   type, wear flags, extra flags), affects, and material settings.
+ *****************************************************************************/
 void oedit( CHAR_DATA *ch, char *argument )
 {
     AREA_DATA *pArea;
@@ -591,7 +652,16 @@ void oedit( CHAR_DATA *ch, char *argument )
 
 
 
-/* Mobile Interpreter, called by do_medit. */
+/*****************************************************************************
+ * FUNCTION: medit
+ * PURPOSE:  Interpret commands while editing a mobile prototype.
+ * PARAMETERS:
+ *   ch - Builder issuing command
+ *   argument - Command arguments
+ * DESCRIPTION:
+ *   Mobile editor interpreter. Handles mob attributes (level, alignment,
+ *   race, AC, damage dice, abilities, shop linkage), special procedures.
+ *****************************************************************************/
 void medit( CHAR_DATA *ch, char *argument )
 {
     AREA_DATA *pArea;
@@ -665,7 +735,19 @@ const struct editor_cmd_type editor_table[] =
 };
 
 
-/* Entry point for all editors. */
+/*****************************************************************************
+ * FUNCTION: do_olc
+ * PURPOSE:  Main entry dispatcher for all OLC editors.
+ * PARAMETERS:
+ *   ch - Builder invoking olc command
+ *   argument - Editor name (area|room|object|mobile) and optional args
+ * DESCRIPTION:
+ *   Parses the "olc" command and routes to the appropriate entry point
+ *   (do_aedit, do_redit, do_oedit, do_medit). Acts as the top-level
+ *   gateway for builder access to the OLC system.
+ * TROUBLESHOOTING:
+ *   - Unknown editor: Check spelling (area, room, object, mobile).
+ *****************************************************************************/
 void do_olc( CHAR_DATA *ch, char *argument )
 {
     char command[MAX_INPUT_LENGTH];
@@ -696,7 +778,22 @@ void do_olc( CHAR_DATA *ch, char *argument )
 
 
 
-/* Entry point for editing area_data. */
+/*****************************************************************************
+ * FUNCTION: do_aedit
+ * PURPOSE:  Initialize an area editing session.
+ * PARAMETERS:
+ *   ch - Builder requesting area edit
+ *   argument - Area vnum or "create"
+ * DESCRIPTION:
+ *   Sets up OLC session for area editing. If argument is numeric,
+ *   looks up the area and enters edit mode. If "create", makes new area.
+ * RESTRICTIONS:
+ *   - Requires immortal status (not NPC).
+ *   - Requires security level 9.
+ * TROUBLESHOOTING:
+ *   - "Try again when you aren't switched": Must be in mortal form.
+ *   - "Improper security": Check ch->pcdata->security level.
+ *****************************************************************************/
 void do_aedit( CHAR_DATA *ch, char *argument )
 {
     AREA_DATA *pArea;
@@ -744,7 +841,17 @@ void do_aedit( CHAR_DATA *ch, char *argument )
 
 
 
-/* Entry point for editing room_index_data. */
+/*****************************************************************************
+ * FUNCTION: do_redit
+ * PURPOSE:  Initialize a room editing session.
+ * PARAMETERS:
+ *   ch - Builder requesting room edit
+ *   argument - Optional room vnum (defaults to current room)
+ * DESCRIPTION:
+ *   Sets up OLC session for the specified room. If no argument given,
+ *   uses the room the builder is currently in. Builder must have IS_BUILDER
+ *   flag for the room's area.
+ *****************************************************************************/
 void do_redit( CHAR_DATA *ch, char *argument )
 {
     ROOM_INDEX_DATA *pRoom;
