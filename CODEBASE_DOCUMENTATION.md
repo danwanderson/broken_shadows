@@ -49,8 +49,6 @@ The codebase follows a **chain of derivative licenses**:
 All users/developers must:
 
 - Follow all upstream licenses (Diku, Merc, ROM)
-- Include notice that the MUD is based on Broken Shadows code in login messages
-- Email author (<https://github.com/danwanderson>) before opening a Broken Shadows-based MUD
 - Not call their MUD "Broken Shadows" (only derivatives allowed)
 - Cannot release official Broken Shadows source (only Rahl can do that)
 
@@ -134,9 +132,12 @@ broken_shadows/
 ├── bin/              # Compiled binaries and utility scripts
 │   ├── shadows       # Main game server executable (compiled from src/)
 │   ├── start_shadows.sh  # Server startup/restart wrapper script
+│   ├── wrapper.sh    # Process wrapper (used by start_shadows.sh)
 │   ├── backup.sh     # Backup utility
 │   ├── clean_pfiles.sh   # Player file cleanup
-│   └── stats.sh      # Statistics generator
+│   ├── stats.sh      # Statistics generator
+│   ├── test_mud_automated.py  # Full automated functional test suite
+│   └── validate_testenv.py   # Pre-test environment/dependency checker
 ├── core/             # Core dumps for debugging
 ├── doc/              # Documentation files
 │   ├── shadows.license   # Broken Shadows license
@@ -666,6 +667,63 @@ Level       50
 ---
 
 ## 10. Running and Testing
+
+### Automated Testing
+
+Two Python scripts support automated functional testing of the server.
+
+#### validate_testenv.py
+
+Checks that all prerequisites are in place before running the full test suite.
+
+```bash
+# Check Docker, Python version, required modules, and repo structure
+python3 bin/validate_testenv.py
+
+# Also start the container and verify Telnet connectivity
+python3 bin/validate_testenv.py --quick-test
+```
+
+**What it checks:**
+
+- Docker daemon is running
+- Python 3.6+ with required modules (`telnetlib3`, `asyncio`, etc.)
+- Required files and directories exist in the repository
+
+#### test_mud_automated.py
+
+Full end-to-end functional test suite. Builds the image, starts the container, creates a character, tests gameplay, and cleans up.
+
+```bash
+# Full run (builds image, starts container, runs tests, cleans up)
+python3 bin/test_mud_automated.py
+
+# Skip the Docker build step (use existing image)
+python3 bin/test_mud_automated.py --skip-build
+
+# Use a non-default port
+python3 bin/test_mud_automated.py --port 5000
+
+# Show telnet send/receive traffic for debugging
+python3 bin/test_mud_automated.py --debug
+```
+
+**Tests performed (in order):**
+
+1. Docker image build
+2. Container startup
+3. Server responsiveness (TCP connection)
+4. Telnet connection
+5. Character creation (full creation flow: race, sex, class, stats, alignment)
+6. Movement (parses exits from `look`, attempts a move, verifies room change)
+7. Inventory check
+8. Logout
+
+**Cleanup:** On completion (or failure) the container is stopped and the test character's player file is deleted.
+
+**Requirements:** `pip install telnetlib3`
+
+---
 
 ### Connecting to the Server
 
