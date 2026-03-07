@@ -920,7 +920,27 @@ void load_resets( FILE *fp )
 }
 
 /*
- * Snarf a room section.
+ * FUNCTION: load_rooms
+ *
+ * Loads all room definitions from a #ROOMS area section.
+ *
+ * PARAMETERS:
+ *   fp - Open area file positioned at start of room entries.
+ *
+ * DESCRIPTION:
+ *   Parses vnum-keyed room records, room flags, sector type, and exit
+ *   definitions. Exits are loaded as vnum references and resolved later
+ *   by fix_exits().
+ *
+ * VALIDATION:
+ *   - Requires area_last to be set (#AREA already parsed)
+ *   - Rejects duplicated room vnums
+ *   - Rejects invalid door indices outside 0..5
+ *
+ * SIDE EFFECTS:
+ *   - Allocates ROOM_INDEX_DATA and EXIT_DATA via alloc_perm
+ *   - Inserts rooms into room_index_hash
+ *   - Updates top_room, top_vnum_room, and area vnum bounds
  */
 void load_rooms( FILE *fp )
 {
@@ -1575,8 +1595,17 @@ void reset_room( ROOM_INDEX_DATA *pRoom )
 }
 
 
-/* OLC
- * Reset one area.
+/*
+ * FUNCTION: reset_area
+ *
+ * Resets every room in an area's vnum range.
+ *
+ * PARAMETERS:
+ *   pArea - Area whose [lvnum..uvnum] rooms should be reset.
+ *
+ * DESCRIPTION:
+ *   Iterates over area vnums, resolves existing rooms, and calls
+ *   reset_room() for each. This is used at boot and periodic area updates.
  */
 void reset_area( AREA_DATA *pArea )
 {
@@ -3489,7 +3518,25 @@ void load_socials( FILE *fp)
 
 
 /*
- * Snarf a mob section.  new style
+ * FUNCTION: load_mobiles
+ *
+ * Loads mobile prototypes from a #MOBILES area section.
+ *
+ * PARAMETERS:
+ *   fp - Open area file positioned at mob records.
+ *
+ * DESCRIPTION:
+ *   Parses each mobile template (descriptions, stats, flags, dice, race,
+ *   size/material and clan metadata), merges race defaults, then stores the
+ *   prototype in mob_index_hash.
+ *
+ * VALIDATION:
+ *   - Requires area_last to be set
+ *   - Rejects duplicated mob vnums
+ *
+ * SIDE EFFECTS:
+ *   - Updates top_mob_index/top_vnum_mob
+ *   - Updates kill_table level counters
  */
 void load_mobiles( FILE *fp )
 {
@@ -3628,7 +3675,24 @@ void load_mobiles( FILE *fp )
 }
 
 /*
- * Snarf an obj section. new style
+ * FUNCTION: load_objects
+ *
+ * Loads object prototypes from a #OBJECTS area section.
+ *
+ * PARAMETERS:
+ *   fp - Open area file positioned at object records.
+ *
+ * DESCRIPTION:
+ *   Parses object metadata (type, flags, wear slots, values, costs, affects,
+ *   extra descriptions) and inserts prototypes into obj_index_hash.
+ *
+ * VALIDATION:
+ *   - Requires area_last to be set
+ *   - Rejects duplicated object vnums
+ *
+ * SIDE EFFECTS:
+ *   - Updates top_obj_index/top_vnum_obj
+ *   - Updates area vnum assignment tracking
  */
 void load_objects( FILE *fp )
 {

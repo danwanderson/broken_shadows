@@ -242,7 +242,22 @@ void check_assist(CHAR_DATA *ch,CHAR_DATA *victim)
 
 
 /*
- * Do one group of attacks.
+ * FUNCTION: multi_hit
+ *
+ * Executes one combat round for a character against current victim.
+ *
+ * PARAMETERS:
+ *   ch     - Attacker
+ *   victim - Current target
+ *   dt     - Damage/attack type token (TYPE_UNDEFINED for normal flow)
+ *
+ * DESCRIPTION:
+ *   Performs primary attack, optional off-hand attack, haste extra attack,
+ *   then second/third attack skill checks. NPCs are delegated to mob_hit().
+ *
+ * TROUBLESHOOTING:
+ *   - Missing extra attacks: verify haste/slow flags and skill chances.
+ *   - Off-hand not firing: check WEAR_SECOND_WIELD and wield constraints.
  */
 void multi_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
 {
@@ -464,7 +479,16 @@ void mob_hit (CHAR_DATA *ch, CHAR_DATA *victim, int dt)
 
 
 /*
- * Hit one guy once.
+ * FUNCTION: one_hit
+ *
+ * Resolves one attack attempt from attacker to victim.
+ *
+ * DESCRIPTION:
+ *   Computes hit chance (THAC0 vs AC), determines hit/miss, calculates base
+ *   and bonus damage, applies weapon effects, and calls damage().
+ *
+ * NOTE:
+ *   This function is the primary melee formula path for player attacks.
  */
 void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
 {
@@ -1626,7 +1650,13 @@ void update_pos( CHAR_DATA *victim )
 
 
 /*
- * Start fights.
+ * FUNCTION: set_fighting
+ *
+ * Puts a character into fighting state against a victim.
+ *
+ * SIDE EFFECTS:
+ *   - clears magical sleep affect if present
+ *   - sets ch->fighting and POS_FIGHTING
  */
 void set_fighting( CHAR_DATA *ch, CHAR_DATA *victim )
 {
@@ -1648,7 +1678,13 @@ void set_fighting( CHAR_DATA *ch, CHAR_DATA *victim )
 
 
 /*
- * Stop fights.
+ * FUNCTION: stop_fighting
+ *
+ * Clears combat links for one character or both sides of the fight.
+ *
+ * PARAMETERS:
+ *   ch    - Character to detach from combat
+ *   fBoth - TRUE to also clear everyone fighting ch
  */
 void stop_fighting( CHAR_DATA *ch, bool fBoth )
 {
@@ -1901,6 +1937,17 @@ void chaos_kill( CHAR_DATA *victim)
 }
 
 
+/*
+ * FUNCTION: raw_kill
+ *
+ * Finalizes death handling for NPCs and PCs after lethal damage.
+ *
+ * DESCRIPTION:
+ *   Creates corpse, stops combat, then:
+ *   - NPC: increments kill stats and extracts immediately
+ *   - PC: extracts softly, strips affects, restores minimum resources,
+ *         resets thief/pet flags, reapplies race baseline affects
+ */
 void raw_kill( CHAR_DATA *victim )
 {
     int i;

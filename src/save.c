@@ -166,7 +166,18 @@ void save_char_obj( CHAR_DATA *ch )
 
 
 /*
- * Write the char.
+ * FUNCTION: fwrite_char
+ *
+ * Serializes a character core record to the open pfile stream.
+ *
+ * PARAMETERS:
+ *   ch - Character to serialize
+ *   fp - Destination FILE* (already opened for write)
+ *
+ * DESCRIPTION:
+ *   Writes #PLAYER/#MOB section fields in key/value text format, including
+ *   stats, flags, aliases, learned skills, groups, notes and active affects.
+ *   Only non-default/meaningful fields are emitted for many attributes.
  */
 void fwrite_char( CHAR_DATA *ch, FILE *fp )
 {
@@ -397,7 +408,14 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp )
     return;
 }
 
-/* write a pet */
+/*
+ * FUNCTION: fwrite_pet
+ *
+ * Serializes active pet state to #PET section in pfile.
+ *
+ * NOTE:
+ *   Pet fields are mostly differential against prototype defaults.
+ */
 void fwrite_pet( CHAR_DATA *pet, FILE *fp)
 {
     AFFECT_DATA *paf;
@@ -469,7 +487,20 @@ void fwrite_pet( CHAR_DATA *pet, FILE *fp)
 }
 
 /*
- * Write an object and its contents.
+ * FUNCTION: fwrite_obj
+ *
+ * Serializes one object node (and recursively its contents) to pfile.
+ *
+ * PARAMETERS:
+ *   ch    - Owning character
+ *   obj   - Object list node to write
+ *   fp    - Destination FILE*
+ *   iNest - Current nesting depth for container reconstruction
+ *
+ * DESCRIPTION:
+ *   Writes object metadata, variable values, spells, affects and extra
+ *   descriptions. Recursion is ordered to preserve forward inventory order
+ *   on reload.
  */
 void fwrite_obj( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest )
 {
@@ -599,7 +630,21 @@ void fwrite_obj( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest )
 
 
 /*
- * Load a char and inventory into a new ch structure.
+ * FUNCTION: load_char_obj
+ *
+ * Allocates and initializes a character, then loads pfile sections.
+ *
+ * PARAMETERS:
+ *   d    - Descriptor receiving the loaded character
+ *   name - Character name used to locate pfile
+ *
+ * RETURNS:
+ *   TRUE if an existing pfile was found and loaded, FALSE for new character.
+ *
+ * DESCRIPTION:
+ *   Initializes safe defaults, attempts optional gzip decompression,
+ *   reads #PLAYER/#OBJECT/#PET sections, then applies version/race/group
+ *   fixups for backward compatibility.
  */
 bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
 {
@@ -826,7 +871,13 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
 
 
 /*
- * Read in a char.
+ * FUNCTION: fread_char
+ *
+ * Parses #PLAYER/#MOB key-value fields into an in-memory character.
+ *
+ * DESCRIPTION:
+ *   Uses KEY() dispatch for compact legacy field decoding and supports
+ *   backward-compatible aliases for older pfile keys.
  */
 
 #if defined(KEY)
@@ -1246,7 +1297,15 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
     }
 }
 
-/* load a pet from the forgotten reaches */
+/*
+ * FUNCTION: fread_pet
+ *
+ * Parses a #PET section and attaches the reconstructed pet to the owner.
+ *
+ * PARAMETERS:
+ *   ch - Owner character
+ *   fp - Source FILE* positioned at pet section body
+ */
 void fread_pet( CHAR_DATA *ch, FILE *fp )
 {
     char *word;
@@ -1434,6 +1493,15 @@ void fread_pet( CHAR_DATA *ch, FILE *fp )
 
 
 
+/*
+ * FUNCTION: fread_obj
+ *
+ * Parses one #OBJECT section and reconstructs inventory/equipment nesting.
+ *
+ * DESCRIPTION:
+ *   Restores object fields, optional affect/extradec data, and uses Nest
+ *   indices with rgObjNest[] to rebuild container hierarchies.
+ */
 void fread_obj( CHAR_DATA *ch, FILE *fp )
 {
     static OBJ_DATA obj_zero;

@@ -288,8 +288,19 @@ bool saves_dispel( int dis_level, int spell_level, int duration)
     return number_percent( ) < save;
 }
 
-/* co-routine for dispel magic and cancellation */
-
+/*
+ * FUNCTION: check_dispel
+ *
+ * Attempts to remove one specific spell affect from a victim.
+ *
+ * PARAMETERS:
+ *   dis_level - Effective level of dispel source
+ *   victim    - Target character
+ *   sn        - Skill number to remove
+ *
+ * RETURNS:
+ *   TRUE if affect was removed, FALSE if absent/resisted
+ */
 bool check_dispel( int dis_level, CHAR_DATA *victim, int sn)
 {
     AFFECT_DATA *af;
@@ -359,6 +370,25 @@ int mana_cost (CHAR_DATA *ch, int min_mana, int level)
  */
 char *target_name;
 
+/*
+ * COMMAND: cast
+ *
+ * Main spell-casting entry point for players and NPCs.
+ *
+ * SYNTAX:
+ *   cast '<spell>'
+ *   cast '<spell>' <target>
+ *
+ * DESCRIPTION:
+ *   Resolves spell name, validates level/position/mana, finds target based on
+ *   spell target type, applies wait state and mana spend, then invokes the
+ *   spell function from skill_table.
+ *
+ * TROUBLESHOOTING:
+ *   - "don't know any spells": skill not learned or below spell level.
+ *   - "can't concentrate": wrong position for spell minimum.
+ *   - unexpected target errors: verify skill_table[sn].target metadata.
+ */
 void do_cast( CHAR_DATA *ch, char *argument )
 {
     char arg1[MAX_INPUT_LENGTH];
@@ -663,6 +693,18 @@ void do_cast( CHAR_DATA *ch, char *argument )
 
 /*
  * Cast spells at targets using a magical object.
+ */
+/*
+ * FUNCTION: obj_cast_spell
+ *
+ * Executes a spell originating from an object (wand/staff/potion/scroll).
+ *
+ * PARAMETERS:
+ *   sn     - Spell skill number
+ *   level  - Effective cast level from object
+ *   ch     - Activating character
+ *   victim - Candidate character target (optional by spell type)
+ *   obj    - Source object for messaging/context
  */
 void obj_cast_spell( int sn, int level, CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DATA *obj )
 {
