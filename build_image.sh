@@ -19,6 +19,8 @@ OPTIONS:
     --platform PLAT     Override target platforms (comma-separated)
                         Default: linux/arm/v7,linux/arm64/v8,linux/amd64
     --args ARGS         Override additional buildx arguments
+    --no-cache          Pass --no-cache to docker buildx build
+    --log LOGFILE       Write build output to LOGFILE (uses --progress=plain and tee)
     --debug             Enable debug tracing (set -x)
     -h, --help          Show this help message
 
@@ -45,6 +47,8 @@ PUSH_TO_HUB=false
 BUILDER_PLATFORM=""
 BUILDX_ARGS=""
 DEBUG=false
+NO_CACHE=false
+LOG_FILE=""
 
 # Parse command line arguments
 while [[ $# -gt 0 ]]; do
@@ -52,6 +56,18 @@ while [[ $# -gt 0 ]]; do
         --docker)
             PUSH_TO_HUB=true
             shift
+            ;;
+        --no-cache)
+            NO_CACHE=true
+            shift
+            ;;
+        --log)
+            if [[ -z "${2:-}" ]]; then
+                echo "Error: --log requires an argument"
+                exit 1
+            fi
+            LOG_FILE="$2"
+            shift 2
             ;;
         --debug)
             DEBUG=true
@@ -138,6 +154,16 @@ fi
 BUILDER_PLATFORM="${BUILDER_PLATFORM:-linux/arm64/v8,linux/amd64}"
 BUILDX_ARGS="${BUILDX_ARGS:-}"
 
+# Add --no-cache to buildx args if requested
+if [[ "$NO_CACHE" == true ]]; then
+    BUILDX_ARGS="$BUILDX_ARGS --no-cache"
+fi
+
+# Add --progress=plain if log file is specified
+if [[ -n "$LOG_FILE" ]]; then
+    BUILDX_ARGS="$BUILDX_ARGS --progress=plain"
+fi
+
 # Add --debug to buildx args if debug mode is enabled
 if [[ "$DEBUG" == true ]]; then
     BUILDX_ARGS="$BUILDX_ARGS --debug"
@@ -155,9 +181,14 @@ echo ""
 # Build the image
 echo "Starting Docker buildx build..."
 # shellcheck disable=SC2086
-docker buildx build --push --platform "$BUILDER_PLATFORM" $BUILDX_ARGS $TAG_LIST .
+if [[ -n "$LOG_FILE" ]]; then
+    docker buildx build --push --platform "$BUILDER_PLATFORM" $BUILDX_ARGS $TAG_LIST . 2>&1 | tee "$LOG_FILE"
+    BUILD_STATUS=${PIPESTATUS[0]}
+else
+    docker buildx build --push --platform "$BUILDER_PLATFORM" $BUILDX_ARGS $TAG_LIST .
+    BUILD_STATUS=$?
 
-BUILD_STATUS=$?
+fi
 if [[ $BUILD_STATUS -eq 0 ]]; then
     echo ""
     echo "✓ Build completed successfully!"
