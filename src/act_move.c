@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2022 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -33,6 +33,19 @@
 #include "merc.h"
 #include "interp.h"
 
+/*
+ * FILE OVERVIEW: act_move.c
+ *
+ * Implements directional movement and door/container gate interactions
+ * (open/close/lock/unlock/pick). Movement cost, room restrictions, and
+ * follower propagation are centralized in move_char().
+ *
+ * TROUBLESHOOTING:
+ *   - "cannot go that way": usually NULL exit/hidden closed exit checks.
+ *   - followers not moving: inspect follow recursion in move_char().
+ *   - door desync between rooms: verify reverse-exit mirror updates.
+ */
+
 char *  const   dir_name        []              =
 {
     "north", "east", "south", "west", "up", "down"
@@ -54,10 +67,31 @@ const   sh_int  movement_loss   [SECT_MAX]      =
  * Local functions.
  */
 int     find_door       ( CHAR_DATA *ch, char *arg );
-bool    char_has_key    ( CHAR_DATA *ch, int key ); 
+bool    char_has_key    ( CHAR_DATA *ch, int key );
 bool    check_web       ( CHAR_DATA *ch );
 
 
+/*
+ * FUNCTION: move_char
+ *
+ * Core movement routine for players and NPCs.
+ *
+ * PARAMETERS:
+ *   ch     - Character attempting to move
+ *   door   - Direction constant (0..5)
+ *   follow - TRUE when called via follower recursion
+ *
+ * DESCRIPTION:
+ *   Validates exits and movement constraints, applies movement cost,
+ *   transfers the character to the destination room, runs auto-look,
+ *   and optionally moves eligible followers.
+ *
+ * SIDE EFFECTS:
+ *   - modifies ch->move and WAIT_STATE
+ *   - may relocate character (char_from_room/char_to_room)
+ *   - may trigger cave-in penalty flow and XP loss
+ *   - may recursively move followers
+ */
 void move_char( CHAR_DATA *ch, int door, bool follow )
 {
     CHAR_DATA *fch;
@@ -77,7 +111,7 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
         return;
     }
 
-    if (IS_AFFECTED(ch, AFF_WEB)) 
+    if (IS_AFFECTED(ch, AFF_WEB))
         {
         if (check_web(ch))
             {
@@ -105,7 +139,7 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
 
     in_room = ch->in_room;
     if ( ( pexit   = in_room->exit[door] ) == NULL
-    ||   ( to_room = pexit->u1.to_room   ) == NULL 
+    ||   ( to_room = pexit->u1.to_room   ) == NULL
     ||   !can_see_room(ch,pexit->u1.to_room))
     {
         send_to_char( "Alas, you cannot go that way.\n\r", ch );
@@ -122,7 +156,7 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
         }
 
     if ( IS_SET(pexit->exit_info, EX_CLOSED)
-    &&   !IS_AFFECTED(ch, AFF_PASS_DOOR) 
+    &&   !IS_AFFECTED(ch, AFF_PASS_DOOR)
     /* below line allows imms to walk through doors */
     && !IS_IMMORTAL( ch ) )
     {
@@ -168,7 +202,7 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
             " is active.\n\r", ch );
         buffer_free( buf );
         return;
-    } 
+    }
 
     if ( room_is_private( to_room ) )
     {
@@ -184,7 +218,7 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
 
         for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
         {
-            for ( iGuild = 0; iGuild < MAX_GUILD; iGuild ++)    
+            for ( iGuild = 0; iGuild < MAX_GUILD; iGuild ++)
             {
                 if ( iClass != ch->ch_class
                 &&   to_room->vnum == class_table[iClass].guild[iGuild] )
@@ -197,7 +231,7 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
         }
 
         /* caved in rooms - the cavein part  - added by Rahl */
-        if ( to_room->sector_type == SECT_UNDERGROUND 
+        if ( to_room->sector_type == SECT_UNDERGROUND
         || IS_SET( to_room->room_flags, ROOM_UNDERGROUND ) )
         {
           /*
@@ -321,7 +355,7 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
     {
         fch_next = fch->next_in_room;
 
-        if ( fch->master == ch && IS_AFFECTED(fch,AFF_CHARM) 
+        if ( fch->master == ch && IS_AFFECTED(fch,AFF_CHARM)
         &&   fch->position < POS_STANDING)
             do_stand(fch,"");
 
@@ -349,6 +383,11 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
 
 
 
+/*
+ * COMMAND: north
+ *
+ * Convenience wrapper around move_char() for north movement.
+ */
 void do_north( CHAR_DATA *ch, char *argument )
 {
     move_char( ch, DIR_NORTH, FALSE );
@@ -397,6 +436,18 @@ void do_down( CHAR_DATA *ch, char *argument )
 
 
 
+/*
+ * FUNCTION: find_door
+ *
+ * Resolves a door argument into a directional index.
+ *
+ * ACCEPTS:
+ *   - direction aliases: n/e/s/w/u/d and full words
+ *   - door keywords on exits in current room
+ *
+ * RETURNS:
+ *   Door index 0..5 on success, -1 on failure.
+ */
 int find_door( CHAR_DATA *ch, char *arg )
 {
     EXIT_DATA *pexit;
@@ -439,6 +490,15 @@ int find_door( CHAR_DATA *ch, char *arg )
 
 
 
+/*
+ * COMMAND: open
+ *
+ * Opens containers, portals, or room exits when unlocked.
+ *
+ * NOTE:
+ *   For room exits, the reverse side is also opened when a proper
+ *   mirrored exit exists.
+ */
 void do_open( CHAR_DATA *ch, char *argument )
 {
     char arg[MAX_INPUT_LENGTH];
@@ -533,6 +593,14 @@ void do_open( CHAR_DATA *ch, char *argument )
 
 
 
+/*
+ * COMMAND: close
+ *
+ * Closes containers, portals, or room exits.
+ *
+ * NOTE:
+ *   Like do_open(), mirrored reverse exits are synchronized.
+ */
 void do_close( CHAR_DATA *ch, char *argument )
 {
     char arg[MAX_INPUT_LENGTH];
@@ -619,6 +687,15 @@ void do_close( CHAR_DATA *ch, char *argument )
 
 
 
+/*
+ * FUNCTION: char_has_key
+ *
+ * Checks whether a character can satisfy a key requirement.
+ *
+ * DESIGN NOTE:
+ *   Immortals always pass. Hidden-key behavior includes legacy random
+ *   chance handling when object visibility fails.
+ */
 bool char_has_key( CHAR_DATA *ch, int key )
 {
     OBJ_DATA *obj;
@@ -631,7 +708,7 @@ bool char_has_key( CHAR_DATA *ch, int key )
         if ( !can_see_obj( ch, obj ) )
         {
             int chance = 0;
-        
+
             chance = number_percent();
 
             if ( chance < 20 ) /* 20% chance they can open it */
@@ -649,6 +726,11 @@ bool char_has_key( CHAR_DATA *ch, int key )
 
 
 
+/*
+ * COMMAND: lock
+ *
+ * Locks containers, portals, or exits if closed and a valid key is held.
+ */
 void do_lock( CHAR_DATA *ch, char *argument )
 {
     char arg[MAX_INPUT_LENGTH];
@@ -759,6 +841,11 @@ void do_lock( CHAR_DATA *ch, char *argument )
 
 
 
+/*
+ * COMMAND: unlock
+ *
+ * Unlocks containers, portals, or exits if key and lock conditions are met.
+ */
 void do_unlock( CHAR_DATA *ch, char *argument )
 {
     char arg[MAX_INPUT_LENGTH];
@@ -814,7 +901,7 @@ void do_unlock( CHAR_DATA *ch, char *argument )
             return;
         }
 
-        
+
         /* 'unlock object' */
         if ( obj->item_type != ITEM_CONTAINER )
             { send_to_char( "That's not a container.\n\r", ch ); return; }
@@ -868,6 +955,15 @@ void do_unlock( CHAR_DATA *ch, char *argument )
 
 
 
+/*
+ * COMMAND: pick
+ *
+ * Attempts to pick locks on doors, containers, or lockable portals.
+ *
+ * DESCRIPTION:
+ *   Uses pick_lock skill chance, respects pickproof flags, and can be
+ *   blocked by nearby guards with significantly higher level.
+ */
 void do_pick( CHAR_DATA *ch, char *argument )
 {
     char arg[MAX_INPUT_LENGTH];
@@ -920,7 +1016,7 @@ void do_pick( CHAR_DATA *ch, char *argument )
         if (obj->item_type == ITEM_PORTAL)
         {
             if (!IS_SET(obj->value[1],EX_ISDOOR))
-            {   
+            {
                 send_to_char("You can't do that.\n\r",ch);
                 return;
             }
@@ -1015,10 +1111,10 @@ void do_stand( CHAR_DATA *ch, char *argument )
     {
     case POS_SLEEPING:
         if ( IS_AFFECTED(ch, AFF_SLEEP) )
-        { 
-            send_to_char( "You can't wake up!\n\r", ch ); 
+        {
+            send_to_char( "You can't wake up!\n\r", ch );
             buffer_free( buf );
-            return; 
+            return;
         }
 
         send_to_char( "You wake and stand up.\n\r", ch );
@@ -1058,10 +1154,10 @@ void do_rest( CHAR_DATA *ch, char *argument )
     switch ( ch->position )
     {
     case POS_SLEEPING:
-        if ( IS_AFFECTED(ch,AFF_SLEEP)) 
-        { 
-            send_to_char("You can't wake up!\n\r",ch); 
-            return; 
+        if ( IS_AFFECTED(ch,AFF_SLEEP))
+        {
+            send_to_char("You can't wake up!\n\r",ch);
+            return;
         }
         send_to_char( "You wake up and start resting.\n\r", ch );
         act ("$n wakes up and starts resting.",ch,NULL,NULL,TO_ROOM);
@@ -1099,10 +1195,10 @@ void do_sit (CHAR_DATA *ch, char *argument )
     switch (ch->position)
     {
         case POS_SLEEPING:
-            if ( IS_AFFECTED(ch,AFF_SLEEP)) 
-            { 
-                send_to_char("You can't wake up!\n\r",ch); 
-                return; 
+            if ( IS_AFFECTED(ch,AFF_SLEEP))
+            {
+                send_to_char("You can't wake up!\n\r",ch);
+                return;
             }
             send_to_char("You wake up.\n\r",ch);
             act("$n wakes and sits up.",ch,NULL,NULL,TO_ROOM);
@@ -1138,7 +1234,7 @@ void do_sleep( CHAR_DATA *ch, char *argument )
 
     case POS_RESTING:
     case POS_SITTING:
-    case POS_STANDING: 
+    case POS_STANDING:
         send_to_char( "You go to sleep.\n\r", ch );
         act( "$n goes to sleep.", ch, NULL, NULL, TO_ROOM );
         ch->position = POS_SLEEPING;
@@ -1163,32 +1259,32 @@ void do_wake( CHAR_DATA *ch, char *argument )
 
     if ( arg[0] == '\0' )
     {
-        do_stand( ch, argument ); 
-        return; 
+        do_stand( ch, argument );
+        return;
     }
 
     if ( !IS_AWAKE(ch) )
-    { 
-        send_to_char( "You are asleep yourself!\n\r", ch ); 
-        return; 
+    {
+        send_to_char( "You are asleep yourself!\n\r", ch );
+        return;
     }
 
     if ( ( victim = get_char_room( ch, arg ) ) == NULL )
-    { 
-        send_to_char( "They aren't here.\n\r", ch ); 
-        return; 
+    {
+        send_to_char( "They aren't here.\n\r", ch );
+        return;
     }
 
     if ( IS_AWAKE(victim) )
-    { 
-        act( "$N is already awake.", ch, NULL, victim, TO_CHAR ); 
-        return; 
+    {
+        act( "$N is already awake.", ch, NULL, victim, TO_CHAR );
+        return;
     }
 
     if ( IS_AFFECTED(victim, AFF_SLEEP) )
-    { 
-        act( "You can't wake $M!",   ch, NULL, victim, TO_CHAR );  
-        return; 
+    {
+        act( "You can't wake $M!",   ch, NULL, victim, TO_CHAR );
+        return;
     }
 
     victim->position = POS_STANDING;
@@ -1211,7 +1307,7 @@ void do_sneak( CHAR_DATA *ch, char *argument )
         check_improve(ch,gsn_sneak,TRUE,3);
         af.where     = TO_AFFECTS;
         af.type      = gsn_sneak;
-        af.level     = ch->level; 
+        af.level     = ch->level;
         af.duration  = ch->level;
         af.location  = APPLY_NONE;
         af.modifier  = 0;
@@ -1275,7 +1371,7 @@ void do_recall( CHAR_DATA *ch, char *argument )
         buffer_free( buf );
         return;
     }
-                
+
     act( "$n prays for transportation!", ch, 0, 0, TO_ROOM );
 
     if (!IS_NPC(ch))
@@ -1288,7 +1384,7 @@ void do_recall( CHAR_DATA *ch, char *argument )
     }
     else
     {
-        location = ch->master->pcdata->recall_room;     
+        location = ch->master->pcdata->recall_room;
     }
 
     if ( ch->in_room == location )
@@ -1322,7 +1418,7 @@ void do_recall( CHAR_DATA *ch, char *argument )
             WAIT_STATE( ch, 4 );
             /* uuhh.. why not a send_to_char() here? -- Rahl */
           /*  bprintf( buf, "You failed!\n\r");
-           *  send_to_char( buf->data, ch ); 
+           *  send_to_char( buf->data, ch );
            */
             send_to_char( "You failed!\n\r", ch );
             buffer_free( buf );
@@ -1333,12 +1429,12 @@ void do_recall( CHAR_DATA *ch, char *argument )
         	xp_loss = exp_per_level( ch, ch->pcdata->points ) / 200;
         	gain_exp( ch, 0 - xp_loss );
         	check_improve(ch,gsn_recall,TRUE,4);
-        	bprintf( buf, "You recall from combat! You lose %ld experience.\n\r", 
+        	bprintf( buf, "You recall from combat! You lose %ld experience.\n\r",
             	xp_loss );
         	send_to_char( buf->data, ch );
 		}
         stop_fighting( ch, TRUE );
-        
+
     }
 
     ch->move /= 2;
@@ -1348,7 +1444,7 @@ void do_recall( CHAR_DATA *ch, char *argument )
     char_to_room( ch, location );
     act( "$n appears in the room.", ch, NULL, NULL, TO_ROOM );
     do_look( ch, "auto" );
-    
+
     if (ch->pet != NULL)
         do_recall(ch->pet,"");
 
@@ -1447,15 +1543,15 @@ void do_train( CHAR_DATA *ch, char *argument )
     else
     {
         bprintf( buf, "You can train:" );
-        if ( ch->perm_stat[STAT_STR] < get_max_train(ch,STAT_STR)) 
+        if ( ch->perm_stat[STAT_STR] < get_max_train(ch,STAT_STR))
             buffer_strcat( buf, " str" );
-        if ( ch->perm_stat[STAT_INT] < get_max_train(ch,STAT_INT))  
+        if ( ch->perm_stat[STAT_INT] < get_max_train(ch,STAT_INT))
             buffer_strcat( buf, " int" );
-        if ( ch->perm_stat[STAT_WIS] < get_max_train(ch,STAT_WIS)) 
+        if ( ch->perm_stat[STAT_WIS] < get_max_train(ch,STAT_WIS))
             buffer_strcat( buf, " wis" );
-        if ( ch->perm_stat[STAT_DEX] < get_max_train(ch,STAT_DEX))  
+        if ( ch->perm_stat[STAT_DEX] < get_max_train(ch,STAT_DEX))
             buffer_strcat( buf, " dex" );
-        if ( ch->perm_stat[STAT_CON] < get_max_train(ch,STAT_CON))  
+        if ( ch->perm_stat[STAT_CON] < get_max_train(ch,STAT_CON))
             buffer_strcat( buf, " con" );
         if ( !IS_IMMORTAL( ch ) )
             buffer_strcat( buf, " hp mana");
@@ -1495,7 +1591,7 @@ void do_train( CHAR_DATA *ch, char *argument )
             buffer_free( buf );
             return;
         }
- 
+
         ch->train -= cost;
         ch->pcdata->perm_hit += 10;
         ch->max_hit += 10;
@@ -1505,7 +1601,7 @@ void do_train( CHAR_DATA *ch, char *argument )
         buffer_free( buf );
         return;
     }
- 
+
     if (!str_cmp("mana",argument))
     {
         if ( cost > ch->train )
@@ -1540,7 +1636,7 @@ void do_train( CHAR_DATA *ch, char *argument )
     }
 
     ch->train           -= cost;
-  
+
     ch->perm_stat[stat]         += 1;
     act( "Your $T increases!", ch, NULL, pOutput, TO_CHAR );
     act( "$n's $T increases!", ch, NULL, pOutput, TO_ROOM );
@@ -1554,11 +1650,11 @@ bool check_web( CHAR_DATA *ch)
      AFFECT_DATA *af;
      int chance;
      int orig_dur;
-        
+
      if IS_IMMORTAL(ch)
         return TRUE;
 
-     
+
      af = affect_find(ch->affected , skill_lookup("web") );
      orig_dur = (af->level / 3);
      chance = (get_curr_stat(ch,STAT_STR) + (ch->level / 4));
@@ -1590,14 +1686,14 @@ void do_beacon( CHAR_DATA *ch, char *argument )
         send_to_char( "Beacon set.\n\r", ch );
         return;
     }
-   
+
     if ( !strcmp( arg, "reset" ) )
     {
         ch->pcdata->recall_room = get_room_index( ROOM_VNUM_TEMPLE );
         send_to_char( "Beacon reset.\n\r", ch );
         return;
     }
-   
+
     send_to_char( "Syntax: Beacon\n\r        Beacon reset.\n\r", ch );
     return;
 }
@@ -1605,7 +1701,7 @@ void do_beacon( CHAR_DATA *ch, char *argument )
 
 /*
  * clan recall based on code by John Buntin
- * modified and implemented here by Rahl 
+ * modified and implemented here by Rahl
  */
 void do_clan_recall( CHAR_DATA *ch, char *argument )
 {
@@ -1638,7 +1734,7 @@ void do_clan_recall( CHAR_DATA *ch, char *argument )
         send_to_char( "You may not recall out of a fight!\n\r", ch );
         return;
     }
- 
+
     switch ( ch->pcdata->clan )
     {
         default: clan_hall = 3001;      break;

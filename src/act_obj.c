@@ -598,6 +598,22 @@ void do_donate( CHAR_DATA *ch, char *argument )
     return;
 }
 
+/*
+ * COMMAND: drop
+ *
+ * Drops coins or carried objects into the current room.
+ *
+ * SYNTAX:
+ *   drop <object>
+ *   drop all
+ *   drop all.<keyword>
+ *   drop <amount> coins
+ *
+ * NOTES:
+ *   - Coin drops merge with existing room money objects.
+ *   - ITEM_MELT_DROP objects dissolve immediately after dropping.
+ *   - Worn objects are not included in `drop all`.
+ */
 void do_drop( CHAR_DATA *ch, char *argument )
 {
     char arg[MAX_INPUT_LENGTH];
@@ -1286,9 +1302,18 @@ bool remove_obj( CHAR_DATA *ch, int iWear, bool fReplace )
 
 
 /*
- * Wear one object.
- * Optional replacement of existing objects.
- * Big repetitive code, ick.
+ * FUNCTION: wear_obj
+ *
+ * Attempts to equip, wield, or hold an object in an appropriate slot.
+ *
+ * PARAMETERS:
+ *   ch       - Character equipping the object
+ *   obj      - Object to equip
+ *   fReplace - Whether existing equipment can be removed automatically
+ *
+ * DESCRIPTION:
+ *   Resolves wear-location rules, layering constraints, shield/hold/wield
+ *   conflicts, dual-wield handling, and weapon feedback messaging.
  */
 void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
 {
@@ -1683,6 +1708,18 @@ void wear_obj( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace )
 
 
 
+/*
+ * COMMAND: wear
+ *
+ * Equips one item or all wearable carried items.
+ *
+ * SYNTAX:
+ *   wear <object>
+ *   wear all
+ *
+ * NOTE:
+ *   Slot resolution and replacement behavior are delegated to wear_obj().
+ */
 void do_wear( CHAR_DATA *ch, char *argument )
 {
     char arg[MAX_INPUT_LENGTH];

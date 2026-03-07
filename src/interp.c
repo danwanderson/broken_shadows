@@ -432,7 +432,8 @@ const   struct  cmd_type        cmd_table       [] =
  *
  * Main command interpreter - processes all player and NPC commands.
  *
- * PARAMETERS:\n *   ch       - Character executing the command
+ * PARAMETERS:
+ *   ch       - Character executing the command
  *   argument - Raw command string from player input
  *
  * DESCRIPTION:
@@ -635,6 +636,20 @@ void interpret( CHAR_DATA *ch, char *argument )
 
 
 
+/*
+ * FUNCTION: check_social
+ *
+ * Attempts to execute a social command when no normal command matched.
+ *
+ * RETURNS:
+ *   TRUE  - command token matched a social (handled or rejected)
+ *   FALSE - no social matched; caller should report unknown command
+ *
+ * DESCRIPTION:
+ *   Performs social lookup, validates position/restrictions, then emits
+ *   room/char/victim social messages. Some awake charm-free NPCs may
+ *   automatically respond with randomized social/slap behavior.
+ */
 bool check_social( CHAR_DATA *ch, char *command, char *argument )
 {
     char arg[MAX_INPUT_LENGTH];
@@ -828,8 +843,12 @@ char *one_argument( char *argument, char *arg_first )
 }
 
 /*
- * Contributed by Alander.
- * modified by Rahl so we can use page_to_char
+ * COMMAND: commands
+ *
+ * Displays mortal-level commands available to the calling character.
+ *
+ * NOTE:
+ *   Filters by trust level and cmd_table[].show, then pages output.
  */
 void do_commands( CHAR_DATA *ch, char *argument )
 {
@@ -907,9 +926,23 @@ void do_wizhelp( CHAR_DATA *ch, char *argument )
 
 /* Disabled command code by Erwin Andreasen */
 
-/* Syntax is:
- * disable - shows list of disabled commands
- * disable <command>  - toggles disable status of command
+/*
+ * COMMAND: disable
+ *
+ * Toggles global command availability for all players.
+ *
+ * SYNTAX:
+ *   disable              - list disabled commands
+ *   disable <command>    - disable command, or re-enable if already disabled
+ *
+ * SECURITY:
+ *   - NPCs cannot use this command
+ *   - Re-enabling requires trust >= trust of disabler
+ *   - `disable` itself cannot be disabled
+ *
+ * SIDE EFFECTS:
+ *   - Mutates in-memory disabled_first linked list
+ *   - Persists state to DISABLED_FILE via save_disabled()
  */
 
 void do_disable( CHAR_DATA *ch, char *argument )
@@ -1044,9 +1077,13 @@ void do_disable( CHAR_DATA *ch, char *argument )
 }
 
 /*
- * check if that command is disabled
- * note that we check for the equivalence of the do_fun pointers;
- * this means that disabling "gossip" will also disabled the "." command
+ * FUNCTION: check_disabled
+ *
+ * Returns whether a command's function pointer is currently disabled.
+ *
+ * DESIGN NOTE:
+ *   Comparison is by do_fun pointer, not command name. This intentionally
+ *   disables aliases that map to the same implementation.
  */
 bool check_disabled( const struct cmd_type *command )
 {
@@ -1058,7 +1095,15 @@ bool check_disabled( const struct cmd_type *command )
     return FALSE;
 }
 
-/* Load disabled commands */
+/*
+ * FUNCTION: load_disabled
+ *
+ * Loads globally disabled commands from DISABLED_FILE at startup.
+ *
+ * DESCRIPTION:
+ *   Rebuilds disabled_first linked list from persisted command names.
+ *   Unknown commands are skipped (useful after command table changes).
+ */
 void load_disabled( void )
 {
     FILE *fp;
@@ -1105,7 +1150,15 @@ void load_disabled( void )
     fclose( fp );
 }
 
-/* save disabled commands */
+/*
+ * FUNCTION: save_disabled
+ *
+ * Persists current disabled command list to DISABLED_FILE.
+ *
+ * NOTE:
+ *   If no commands are disabled, the file is removed to keep on-disk
+ *   state unambiguous.
+ */
 void save_disabled( void )
 {
     FILE *fp;

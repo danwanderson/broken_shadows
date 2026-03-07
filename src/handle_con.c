@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2022 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -23,6 +23,29 @@
 #include "interp.h"
 #include "recycle.h"
 
+/*
+ * FILE OVERVIEW: handle_con.c
+ *
+ * This file implements the login and character creation state machine.
+ * `nanny()` in comm.c routes descriptor input to these handlers based on
+ * `d->connected` (CON_* state constants in merc.h).
+ *
+ * STATE FLOW (typical existing player):
+ *   CON_ANSI -> CON_GET_NAME -> CON_GET_OLD_PASSWORD -> CON_READ_MOTD -> CON_PLAYING
+ *
+ * STATE FLOW (typical new player):
+ *   CON_ANSI -> CON_GET_NAME -> CON_CONFIRM_NEW_NAME -> CON_GET_NEW_PASSWORD ->
+ *   CON_CONFIRM_NEW_PASSWORD -> CON_GET_NEW_RACE -> CON_GET_NEW_SEX ->
+ *   CON_GET_STATS -> CON_GET_NEW_CLASS -> CON_GET_ALIGNMENT ->
+ *   CON_DEFAULT_CHOICE -> (CON_GEN_GROUPS optional) -> CON_PICK_WEAPON ->
+ *   CON_READ_MOTD -> CON_PLAYING
+ *
+ * TROUBLESHOOTING:
+ *   - Login loops usually mean a bad state transition (`d->connected` not updated).
+ *   - New players stuck at prompts usually means validation branch forgot `return`.
+ *   - Reconnect issues are typically in check_reconnect/check_playing decisions.
+ */
+
 // Global constants and variables (for this file, anyways)
 const   char    echo_off_str    [] = { IAC, WILL, TELOPT_ECHO, '\0' };
 const   char    echo_on_str     [] = { IAC, WONT, TELOPT_ECHO, '\0' };
@@ -31,6 +54,25 @@ bool rolled = FALSE;
 int stat1[5],stat2[5],stat3[5],stat4[5],stat5[5];
 
 
+/*
+ * FUNCTION: handle_con_get_name
+ *
+ * Entry state for both new and returning players.
+ *
+ * PARAMETERS:
+ *   d        - Connection descriptor being authenticated
+ *   argument - Raw player input, expected to contain character name
+ *
+ * DESCRIPTION:
+ *   Validates name syntax, loads character (if existing), applies site/access
+ *   restrictions, then branches to password flow (existing player) or new
+ *   character confirmation flow.
+ *
+ * SIDE EFFECTS:
+ *   - May allocate/load character data into d->character
+ *   - May close socket for denied/banned/locked conditions
+ *   - Updates d->connected to next login state
+ */
 void handle_con_get_name( DESCRIPTOR_DATA *d, char *argument ) {
 	bool fOld;
     CHAR_DATA *ch;
@@ -51,7 +93,7 @@ void handle_con_get_name( DESCRIPTOR_DATA *d, char *argument ) {
     fOld = load_char_obj( d, argument );
     ch   = d->character;
 
-    
+
     // This mess written by Rahl in a fit of rage, inspiration, and
     // boredom (gotta love art classes after someone tries to destroy
     // your MUD).
@@ -103,13 +145,13 @@ void handle_con_get_name( DESCRIPTOR_DATA *d, char *argument ) {
     }
 
     if ( fOld ) {
-        // Old player 
+        // Old player
         write_to_buffer( d, "Password: ", 0 );
         write_to_buffer( d, echo_off_str, 0 );
         d->connected = CON_GET_OLD_PASSWORD;
         return;
     } else {
-        // New player 
+        // New player
         if (newlock) {
             write_to_buffer( d, "The game is newlocked.\n\r", 0 );
             close_socket( d );
@@ -130,6 +172,17 @@ void handle_con_get_name( DESCRIPTOR_DATA *d, char *argument ) {
     }
 }
 
+/*
+ * FUNCTION: handle_con_get_old_password
+ *
+ * Verifies password for existing players and transitions into MOTD flow.
+ *
+ * SIDE EFFECTS:
+ *   - Enables terminal echo after password input
+ *   - Logs successful connections to wiznet/log
+ *   - Sets PLR_COLOR based on descriptor ANSI preference
+ *   - Routes immortals through IMOTD first
+ */
 void handle_con_get_old_password( DESCRIPTOR_DATA *d, char *argument ) {
 	CHAR_DATA *ch = d->character;
 
@@ -175,6 +228,16 @@ void handle_con_get_old_password( DESCRIPTOR_DATA *d, char *argument ) {
     }
 }
 
+/*
+ * FUNCTION: handle_con_break_connect
+ *
+ * Handles duplicate session resolution when a player reconnects.
+ *
+ * DESCRIPTION:
+ *   If the user confirms, forcibly disconnects any existing descriptor
+ *   with the same character name and attempts reconnection. If declined,
+ *   resets the descriptor back to CON_GET_NAME.
+ */
 void handle_con_break_connect( DESCRIPTOR_DATA *d, char *argument ) {
 	DESCRIPTOR_DATA *d_old, *d_next;
 	CHAR_DATA *ch = d->character;
@@ -218,9 +281,14 @@ void handle_con_break_connect( DESCRIPTOR_DATA *d, char *argument ) {
         default:
             write_to_buffer(d,"Please type Y or N? ",0);
             break;
-    } // switch 
+    } // switch
 }
 
+/*
+ * FUNCTION: handle_con_confirm_new_name
+ *
+ * Confirms proposed new character name before password creation.
+ */
 void handle_con_confirm_new_name( DESCRIPTOR_DATA *d, char *argument ) {
 	char buf[MAX_STRING_LENGTH];
 	CHAR_DATA *ch = d->character;
@@ -246,6 +314,15 @@ void handle_con_confirm_new_name( DESCRIPTOR_DATA *d, char *argument ) {
     } // switch
 }
 
+/*
+ * FUNCTION: handle_con_get_new_password
+ *
+ * Captures and validates a new password.
+ *
+ * VALIDATION:
+ *   - Minimum length 5
+ *   - Rejects '~' to protect pfile text format integrity
+ */
 void handle_con_get_new_password( DESCRIPTOR_DATA *d, char *argument ) {
 	char *pwdnew;
 	char *p;
@@ -276,6 +353,11 @@ void handle_con_get_new_password( DESCRIPTOR_DATA *d, char *argument ) {
     d->connected = CON_CONFIRM_NEW_PASSWORD;
 }
 
+/*
+ * FUNCTION: handle_con_confirm_new_password
+ *
+ * Re-checks new password and transitions to race selection.
+ */
 void handle_con_confirm_new_password( DESCRIPTOR_DATA *d, char *argument ) {
 	int race;
 	CHAR_DATA *ch = d->character;
@@ -309,6 +391,17 @@ void handle_con_confirm_new_password( DESCRIPTOR_DATA *d, char *argument ) {
     d->connected = CON_GET_NEW_RACE;
 }
 
+/*
+ * FUNCTION: handle_con_get_new_race
+ *
+ * Selects race, applies race modifiers, and grants race skills.
+ *
+ * SIDE EFFECTS:
+ *   - Initializes base stats from pc_race_table
+ *   - Applies racial affect/imm/res/vuln/form/parts bits
+ *   - Adds racial starter skills
+ *   - Sets creation points cost and size
+ */
 void handle_con_get_new_race( DESCRIPTOR_DATA *d, char *argument ) {
 	int race;
 	char arg[MAX_INPUT_LENGTH];
@@ -329,7 +422,7 @@ void handle_con_get_new_race( DESCRIPTOR_DATA *d, char *argument ) {
         write_to_buffer(d,
             "What is your race (help for more information)? ",0);
         return;
-    } // if 
+    } // if
 
     race = race_lookup(argument);
 
@@ -357,7 +450,7 @@ void handle_con_get_new_race( DESCRIPTOR_DATA *d, char *argument ) {
     } // if
 
     ch->race = race;
-    // initialize stats 
+    // initialize stats
     for (i = 0; i < MAX_STATS; i++) {
         ch->perm_stat[i] = pc_race_table[race].stats[i];
 	}
@@ -370,31 +463,36 @@ void handle_con_get_new_race( DESCRIPTOR_DATA *d, char *argument ) {
     ch->form        = race_table[race].form;
     ch->parts       = race_table[race].parts;
 
-    // add skills 
+    // add skills
     for (i = 0; i < 5; i++) {
         if (pc_race_table[race].skills[i] == NULL)
             break;
         group_add(ch,pc_race_table[race].skills[i],FALSE);
     }
 
-    // add cost 
+    // add cost
     ch->pcdata->points = pc_race_table[race].points;
     ch->size = pc_race_table[race].size;
     write_to_buffer( d, "What is your sex (M/F)? ", 0 );
     d->connected = CON_GET_NEW_SEX;
 }
 
+/*
+ * FUNCTION: handle_con_get_new_sex
+ *
+ * Captures initial sex selection and moves to stat rolling.
+ */
 void handle_con_get_new_sex( DESCRIPTOR_DATA *d, char *argument ) {
 	CHAR_DATA *ch = d->character;
 
     switch ( argument[0] ) {
-	    case 'm': 
-		case 'M': 
+	    case 'm':
+		case 'M':
 			ch->sex = SEX_MALE;
         	ch->pcdata->true_sex = SEX_MALE;
         	break;
-    	case 'f': 
-		case 'F': 
+    	case 'f':
+		case 'F':
 			ch->sex = SEX_FEMALE;
         	ch->pcdata->true_sex = SEX_FEMALE;
         	break;
@@ -407,6 +505,16 @@ void handle_con_get_new_sex( DESCRIPTOR_DATA *d, char *argument ) {
     d->connected = CON_GET_STATS;
 }
 
+/*
+ * FUNCTION: handle_con_get_stats
+ *
+ * Presents stat-roll columns and allows player to choose one set.
+ *
+ * DESIGN NOTE:
+ *   Uses shared globals (`rolled`, `stat1..stat5`) for temporary columns.
+ *   This is legacy behavior and works because each descriptor advances
+ *   linearly through creation prompts.
+ */
 void handle_con_get_stats( DESCRIPTOR_DATA *d, char *argument ) {
 	char buf[MAX_STRING_LENGTH];
 	int iClass;
@@ -472,7 +580,7 @@ void handle_con_get_stats( DESCRIPTOR_DATA *d, char *argument ) {
                         pc_race_table[ch->race].max_stats[2]);
                     sprintf(buf, "   %2d", stat3[x]);
                     write_to_buffer( d, buf, 0);
-                } // for 
+                } // for
 
                 write_to_buffer( d, "\n\r     Dexterity    :", 0);
 
@@ -552,6 +660,11 @@ void handle_con_get_stats( DESCRIPTOR_DATA *d, char *argument ) {
     } // if
 }
 
+/*
+ * FUNCTION: handle_con_get_new_class
+ *
+ * Validates and applies class choice, then routes to alignment selection.
+ */
 void handle_con_get_new_class( DESCRIPTOR_DATA *d, char *argument ) {
 	int iClass;
 	CHAR_DATA *ch = d->character;
@@ -573,7 +686,7 @@ void handle_con_get_new_class( DESCRIPTOR_DATA *d, char *argument ) {
     wiznet( log_buf, NULL, NULL, WIZ_SITES, 0, get_trust( ch ) );
 
     write_to_buffer( d, "\n\r", 2 );
-    // Paladins can't be evil.. - Rahl 
+    // Paladins can't be evil.. - Rahl
     if (ch->ch_class == 4) {
         write_to_buffer( d, "Your class is good by nature.\n\r",0);
     } else {
@@ -585,32 +698,37 @@ void handle_con_get_new_class( DESCRIPTOR_DATA *d, char *argument ) {
     d->connected = CON_GET_ALIGNMENT;
 }
 
+/*
+ * FUNCTION: handle_con_get_alignment
+ *
+ * Applies initial alignment and initializes baseline groups/recall skill.
+ */
 void handle_con_get_alignment( DESCRIPTOR_DATA *d, char *argument ) {
 	CHAR_DATA *ch = d->character;
 
-    // Paladins can't be evil - Rahl 
+    // Paladins can't be evil - Rahl
     if (ch->ch_class == 4) {
 		ch->alignment = 750;
     } else {
 		 switch( argument[0])
     	{
-        	case 'g' : 
-			case 'G' : 
-				ch->alignment = 750;  
+        	case 'g' :
+			case 'G' :
+				ch->alignment = 750;
 				break;
-        	case 'n' : 
-			case 'N' : 
+        	case 'n' :
+			case 'N' :
 				ch->alignment = 0;
 			    break;
-        	case 'e' : 
-			case 'E' : 
-				ch->alignment = -750; 
+        	case 'e' :
+			case 'E' :
+				ch->alignment = -750;
 				break;
         	default:
             	write_to_buffer(d,"That's not a valid alignment.\n\r",0);
             	write_to_buffer(d,"Which alignment (G/N/E)? ",0);
             	return;
-    	} // switch 
+    	} // switch
 	} // if
 
     write_to_buffer(d,"\n\r",0);
@@ -625,6 +743,13 @@ void handle_con_get_alignment( DESCRIPTOR_DATA *d, char *argument ) {
     d->connected = CON_DEFAULT_CHOICE;
 }
 
+/*
+ * FUNCTION: handle_con_default_choice
+ *
+ * Handles the customization choice:
+ *   - Yes: enter group-generation menu
+ *   - No: apply default group and move to weapon choice
+ */
 void handle_con_default_choice( DESCRIPTOR_DATA *d, char *argument ) {
 	CHAR_DATA *ch  = d->character;
 	char buf[MAX_STRING_LENGTH];
@@ -632,7 +757,7 @@ void handle_con_default_choice( DESCRIPTOR_DATA *d, char *argument ) {
 
     write_to_buffer(d,"\n\r",2);
     switch ( argument[0] ) {
-        case 'y': 
+        case 'y':
 		case 'Y':
             ch->gen_data = alloc_perm(sizeof(*ch->gen_data) );
             ch->gen_data->points_chosen = ch->pcdata->points;
@@ -643,7 +768,7 @@ void handle_con_default_choice( DESCRIPTOR_DATA *d, char *argument ) {
             do_help(ch,"menu choice");
             d->connected = CON_GEN_GROUPS;
             break;
-        case 'n': 
+        case 'n':
 		case 'N':
             group_add(ch,class_table[ch->ch_class].default_group,TRUE);
             write_to_buffer( d, "\n\r", 2 );
@@ -668,6 +793,11 @@ void handle_con_default_choice( DESCRIPTOR_DATA *d, char *argument ) {
     } // switch
 }
 
+/*
+ * FUNCTION: handle_con_pick_weapon
+ *
+ * Applies initial trained weapon and transitions to MOTD.
+ */
 void handle_con_pick_weapon( DESCRIPTOR_DATA *d, char *argument ) {
 	CHAR_DATA *ch = d->character;
 	int weapon;
@@ -694,18 +824,26 @@ void handle_con_pick_weapon( DESCRIPTOR_DATA *d, char *argument ) {
 
     ch->pcdata->learned[*weapon_table[weapon].gsn] = 40;
     write_to_buffer( d, "\n\r", 2 );
- 
+
 	if ( ch->desc->ansi ) {
 		SET_BIT( ch->act, PLR_COLOR );
 	} else {
 		REMOVE_BIT( ch->act, PLR_COLOR );
 	}
-	
+
     write_to_buffer( d, "\n\r", 2 );
     do_help( ch, "motd" );
 	d->connected = CON_READ_MOTD;
 }
 
+/*
+ * FUNCTION: handle_con_gen_groups
+ *
+ * Interactive skill/group customization menu during character creation.
+ *
+ * SPECIAL CASE:
+ *   "done" finalizes point math and returns to weapon selection.
+ */
 void handle_con_gen_groups( DESCRIPTOR_DATA *d, char *argument ) {
 	CHAR_DATA *ch = d->character;
 	char buf[MAX_STRING_LENGTH];
@@ -747,6 +885,11 @@ void handle_con_gen_groups( DESCRIPTOR_DATA *d, char *argument ) {
     do_help(ch,"menu choice");
 }
 
+/*
+ * FUNCTION: handle_con_begin_remort
+ *
+ * Entry point to remort race selection flow.
+ */
 void handle_con_begin_remort( DESCRIPTOR_DATA *d, char *argument ) {
 	int race;
 
@@ -766,6 +909,11 @@ void handle_con_begin_remort( DESCRIPTOR_DATA *d, char *argument ) {
 	d->connected = CON_GET_NEW_RACE;
 }
 
+/*
+ * FUNCTION: handle_con_read_imotd
+ *
+ * Immortal MOTD gate before regular MOTD.
+ */
 void handle_con_read_imotd( DESCRIPTOR_DATA *d, char *argument ) {
 	CHAR_DATA *ch = d->character;
 
@@ -774,6 +922,18 @@ void handle_con_read_imotd( DESCRIPTOR_DATA *d, char *argument ) {
     d->connected = CON_READ_MOTD;
 }
 
+/*
+ * FUNCTION: handle_con_read_motd
+ *
+ * Final login completion step. Places character into world and enters play.
+ *
+ * SIDE EFFECTS:
+ *   - Adds character to global char_list
+ *   - Sets descriptor state to CON_PLAYING
+ *   - Initializes first-login defaults for brand new characters
+ *   - Places player (and pet) in appropriate room
+ *   - Announces login to room/wiznet
+ */
 void handle_con_read_motd( DESCRIPTOR_DATA *d, char *argument ) {
 	CHAR_DATA *ch = d->character;
 	//char buf[MAX_STRING_LENGTH];
@@ -790,11 +950,11 @@ void handle_con_read_motd( DESCRIPTOR_DATA *d, char *argument ) {
         ch->hit     = ch->max_hit;
         ch->mana    = ch->max_mana;
         ch->move    = ch->max_move;
-        ch->train    = 3; // changed from 1 by Rahl 
+        ch->train    = 3; // changed from 1 by Rahl
         ch->practice = 5;
         set_title( ch, "the newborn" );
 
-        // turn color on - Rahl 
+        // turn color on - Rahl
         //do_nocolor( ch, "" );
 
         do_outfit(ch,"");
@@ -845,9 +1005,18 @@ void handle_con_read_motd( DESCRIPTOR_DATA *d, char *argument ) {
 	}
 
     ch->pcdata->chaos_score = 0;
-    do_board( ch, "" ); // show board status 
+    do_board( ch, "" ); // show board status
 }
 
+/*
+ * FUNCTION: handle_con_ansi
+ *
+ * ANSI capability prompt shown before name entry.
+ *
+ * DESCRIPTION:
+ *   Stores preference on descriptor (later copied to PLR_COLOR after login)
+ *   and displays greeting text.
+ */
 void handle_con_ansi( DESCRIPTOR_DATA *d, char *argument ) {
 	extern char *help_greeting;
 
@@ -875,7 +1044,7 @@ void handle_con_ansi( DESCRIPTOR_DATA *d, char *argument ) {
 		} else {
 			send_to_desc( help_greeting, d );
 		}
-		
+
 		return;
 	} else {
 		send_to_desc( "Do you want ANSI color? [Y/n] ", d );
