@@ -2567,7 +2567,7 @@ char *affect_loc_name( int location )
  */
 char *affect_bit_name( int vector )
 {
-    static char buf[1024];
+    static char buf[2048];
 
     buf[0] = '\0';
     if ( vector & AFF_BLIND         ) strcat( buf, " blind"         );
@@ -2610,7 +2610,7 @@ char *affect_bit_name( int vector )
  */
 char *affect2_bit_name( int vector )
 {
-    static char buf[1024];
+    static char buf[2048];
 
     buf[0] = '\0';
     if ( vector & AFF_BLINK     ) strcat( buf, " blink"         );
@@ -2623,7 +2623,7 @@ char *affect2_bit_name( int vector )
  */
 char *extra_bit_name( int extra_flags )
 {
-    static char buf[1024];
+    static char buf[2048];
 
     buf[0] = '\0';
     if ( extra_flags & ITEM_GLOW         ) strcat( buf, " glow"         );
@@ -2656,7 +2656,7 @@ char *extra_bit_name( int extra_flags )
 /* return ascii name of an act vector */
 char *act_bit_name( int act_flags )
 {
-    static char buf[1024];
+    static char buf[2048];
 
     buf[0] = '\0';
 
@@ -2715,7 +2715,7 @@ char *act_bit_name( int act_flags )
 
 char *comm_bit_name(int comm_flags)
 {
-    static char buf[1024];
+    static char buf[2048];
 
     buf[0] = '\0';
 
@@ -2741,7 +2741,7 @@ char *comm_bit_name(int comm_flags)
 
 char *imm_bit_name(int imm_flags)
 {
-    static char buf[1024];
+    static char buf[2048];
 
     buf[0] = '\0';
 
@@ -2773,7 +2773,7 @@ char *imm_bit_name(int imm_flags)
 
 char *wear_bit_name(int wear_flags)
 {
-    static char buf[1024];
+    static char buf[2048];
 
     buf [0] = '\0';
     if (wear_flags & ITEM_TAKE          ) strcat(buf, " take");
@@ -2797,7 +2797,7 @@ char *wear_bit_name(int wear_flags)
 
 char *form_bit_name(int form_flags)
 {
-    static char buf[1024];
+    static char buf[2048];
 
     buf[0] = '\0';
     if (form_flags & FORM_POISON        ) strcat(buf, " poison");
@@ -2832,7 +2832,7 @@ char *form_bit_name(int form_flags)
 
 char *part_bit_name(int part_flags)
 {
-    static char buf[1024];
+    static char buf[2048];
 
     buf[0] = '\0';
     if (part_flags & PART_HEAD          ) strcat(buf, " head");
@@ -2880,7 +2880,7 @@ char *weapon_bit_name(int weapon_flags)
 
 char *off_bit_name(int off_flags)
 {
-    static char buf[1024];
+    static char buf[2048];
 
     buf[0] = '\0';
 

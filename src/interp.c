@@ -1062,6 +1062,13 @@ void do_disable( CHAR_DATA *ch, char *argument )
 
         /* disable the command */
         p = malloc( sizeof( DISABLED_DATA ) );
+        if ( p == NULL )
+        {
+            send_to_char( "Memory allocation error.\n\r", ch );
+            buffer_free( buf );
+            buffer_free( buffer );
+            return;
+        }
         p->command = &cmd_table[i];
         p->disabled_by = str_dup( ch->name ); /* save name of disabler */
         p->level = get_trust( ch ); /* save trust */
@@ -1136,12 +1143,22 @@ void load_disabled( void )
         else /* add new disabled command */
         {
             p = malloc( sizeof( DISABLED_DATA ) );
-            p->command = &cmd_table[i];
-            p->level = fread_number( fp );
-            p->disabled_by = str_dup( fread_word( fp ) );
-            p->next = disabled_first;
+            if ( p == NULL )
+            {
+                bug( "load_disabled: malloc failed.", 0 );
+                fread_number( fp ); /* level */
+                fread_word( fp );   /* disabled_by */
+                /* fall through to read next name at end of loop */
+            }
+            else
+            {
+                p->command = &cmd_table[i];
+                p->level = fread_number( fp );
+                p->disabled_by = str_dup( fread_word( fp ) );
+                p->next = disabled_first;
 
-            disabled_first = p;
+                disabled_first = p;
+            }
         }
 
         name = fread_word( fp );
