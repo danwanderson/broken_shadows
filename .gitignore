@@ -18,3 +18,4 @@ docker-compose.override.yml
 .venv/*
 .build_count
 .build_env*
+.llm/*
