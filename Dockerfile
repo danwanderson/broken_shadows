@@ -10,7 +10,7 @@ RUN chown -R shadows /srv/shadows
 
 USER shadows
 WORKDIR /srv/shadows/src
-RUN make && make clean
+RUN make && make test && make clean
 
 
 FROM debian:latest

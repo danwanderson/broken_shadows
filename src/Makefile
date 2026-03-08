@@ -1,5 +1,5 @@
 CC      = clang
-PROF    = -DLINUX 
+PROF    = -DLINUX
 NOCRYPT =
 #C_FLAGS = -Wall -O2 $(PROF) $(NOCRYPT) -Wno-unused-but-set-variable
 C_FLAGS = -Wall -O2 $(PROF) $(NOCRYPT)
@@ -11,7 +11,7 @@ O_FILES = act_comm.o act_enter.o act_info.o act_move.o act_obj.o act_wiz.o \
 	gocial.o handle_con.o handler.o healer.o interp.o magic.o marry.o \
 	mem.o music.o new_dump.o olc.o \
 	olc_act.o olc_save.o quest.o remort.o save.o skills.o \
-	special.o string.o update.o wizutil.o 
+	special.o string.o update.o wizutil.o
 
 all: shadows
 
@@ -25,6 +25,10 @@ shadows: $(O_FILES)
 clean:
 	-rm -f *.o
 	-rm -f make.out
+	-rm -f tests/*.o
+	-rm -f tests/test_buffer
+	-rm -f tests/test_bit
+	-rm -f tests/test_handler
 
 src:
 	#-rm -f src.*.tar*
@@ -34,3 +38,6 @@ src:
 
 srcpull:
 	git pull origin main
+
+test:
+	$(MAKE) -C tests run
