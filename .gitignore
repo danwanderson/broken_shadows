@@ -19,3 +19,7 @@ docker-compose.override.yml
 .build_count
 .build_env*
 .llm/*
+src/tests/*.o
+src/tests/test_buffer
+src/tests/test_bit
+src/tests/test_handler
