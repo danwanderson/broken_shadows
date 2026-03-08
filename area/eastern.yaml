@@ -1,0 +1,2964 @@
+area:
+  name: '{10 20} Anon    Sands of Sorrow'
+  builders: None
+  security: 9
+  area_flags: 0
+  vnums:
+  - 5000
+  - 5070
+mobiles:
+- vnum: 5000
+  keywords: dervish raggity
+  short_desc: The dervish
+  long_desc: |
+    The raggity dervish walks on aimlessly.
+  description: |
+    Dressed in loose fitting rags, this man looks like he could use
+    some rest.
+  race: Human
+  act: ACGHT
+  affected_by: P
+  affected2_by: '0'
+  alignment: 900
+  clan: 0
+  level: 4
+  hitroll: 0
+  hit:
+    number: 1
+    type: 10
+    bonus: 33
+  mana:
+    number: 4
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 7
+    bonus: 2
+  dam_type: 11
+  ac:
+    pierce: 7
+    bash: 7
+    slash: 7
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 7
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 5001
+  keywords: dervish large
+  short_desc: The dervish
+  long_desc: |
+    The large dervish watches for signs of trouble.
+  description: |
+    Dressed in loose fitting rags, this man looks like he could use
+    LOTS of rest.
+  race: Human
+  act: AFGT
+  affected_by: P
+  affected2_by: '0'
+  alignment: 650
+  clan: 0
+  level: 8
+  hitroll: 0
+  hit:
+    number: 2
+    type: 21
+    bonus: 73
+  mana:
+    number: 8
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 7
+    bonus: 4
+  dam_type: 3
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 15
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 5002
+  keywords: snake coral
+  short_desc: The coral snake
+  long_desc: |
+    A brightly colored snake slithers along the sands.
+  description: |
+    This relatively harmless snake has bright alternating bands of red, yellow
+    and black.
+  race: snake
+  act: AGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -10
+  clan: 0
+  level: 5
+  hitroll: 0
+  hit:
+    number: 1
+    type: 16
+    bonus: 42
+  mana:
+    number: 5
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 4
+    bonus: 3
+  dam_type: 7
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: L
+  vuln_flags: I
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: AGRXYc
+  parts: ADEFKLQVX
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 5003
+  keywords: scorpion small
+  short_desc: The small scorpion
+  long_desc: |
+    A small, red scorpion scuttles away at your approach.
+  description: |
+    The little tail is mighty dangerous for such a small creature.
+  race: Human
+  act: AGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -50
+  clan: 0
+  level: 3
+  hitroll: 0
+  hit:
+    number: 1
+    type: 6
+    bonus: 23
+  mana:
+    number: 3
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 5
+    bonus: 1
+  dam_type: 11
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 5004
+  keywords: worm giant purple
+  short_desc: The giant, purple sand worm
+  long_desc: |
+    A giant, purple sand worm thrusts up out of the sand and attacks!
+  description: |
+    He's big, mean, and purple. Watch out!
+  race: Human
+  act: ABFT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -100
+  clan: 0
+  level: 19
+  hitroll: 0
+  hit:
+    number: 7
+    type: 34
+    bonus: 223
+  mana:
+    number: 19
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 6
+    bonus: 12
+  dam_type: 7
+  ac:
+    pierce: -1
+    bash: -1
+    slash: -1
+    exotic: 4
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 254
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 5005
+  keywords: dragon brass
+  short_desc: the brass dragon
+  long_desc: |
+    The brass dragon steps out of the darkness and says 'Hello'.
+    Then adds to it, 'Prepare to die, have a nice day!'
+  description: ''
+  race: Human
+  act: ABCFT
+  affected_by: DH
+  affected2_by: '0'
+  alignment: 450
+  clan: 0
+  level: 30
+  hitroll: 0
+  hit:
+    number: 10
+    type: 60
+    bonus: 426
+  mana:
+    number: 30
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 10
+    bonus: 17
+  dam_type: 11
+  ac:
+    pierce: -8
+    bash: -8
+    slash: -8
+    exotic: 0
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 550
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_breath_any
+- vnum: 5006
+  keywords: nomad leader
+  short_desc: The nomad leader
+  long_desc: |
+    The nomad leader sits silently in prayer.
+  description: |
+    He is clad in silk robes lined with gold thread. At his side
+    is a large, engraved cutlass. He has an especially haughty air
+    about him.
+  race: Human
+  act: AGHLT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 950
+  clan: 0
+  level: 14
+  hitroll: 0
+  hit:
+    number: 4
+    type: 33
+    bonus: 145
+  mana:
+    number: 14
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 6
+    bonus: 7
+  dam_type: 7
+  ac:
+    pierce: 1
+    bash: 1
+    slash: 1
+    exotic: 5
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 6
+  default_pos: 6
+  sex: 1
+  gold: 100
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 5007
+  keywords: nomad commander
+  short_desc: The nomad commander
+  long_desc: |
+    The nomad commander stands here staring suspiciously at you.
+  description: |
+    This is the nomad leader's second in command. His clothes are richly
+    woven of silk and gold thread. A nasty cutlass hangs at his side.
+  race: Human
+  act: ABLT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 900
+  clan: 0
+  level: 12
+  hitroll: 0
+  hit:
+    number: 3
+    type: 32
+    bonus: 120
+  mana:
+    number: 12
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 7
+    bonus: 6
+  dam_type: 7
+  ac:
+    pierce: 2
+    bash: 2
+    slash: 2
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 60
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 5008
+  keywords: nomad warrior
+  short_desc: The nomad warrior
+  long_desc: |
+    A proud nomad warrior stands here.
+  description: ''
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 700
+  clan: 0
+  level: 10
+  hitroll: 0
+  hit:
+    number: 2
+    type: 33
+    bonus: 96
+  mana:
+    number: 10
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 5
+    bonus: 7
+  dam_type: 3
+  ac:
+    pierce: 3
+    bash: 3
+    slash: 3
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 30
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 5009
+  keywords: slave young
+  short_desc: The slave
+  long_desc: |
+    A young slave sits here staring at you with pleading eyes.
+  description: ''
+  race: Human
+  act: ABHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 3
+  hitroll: 0
+  hit:
+    number: 1
+    type: 6
+    bonus: 23
+  mana:
+    number: 3
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 5
+    bonus: 1
+  dam_type: 3
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 5
+  default_pos: 5
+  sex: 2
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 5010
+  keywords: dracolich lich
+  short_desc: The dracolich
+  long_desc: |
+    A pile of bones rises up to form a skeletal dracolich.
+  description: |
+    The dracolich is now only bone with pieces of flesh hanging from it.
+    Obviously it no longer fears death.
+  race: Human
+  act: ABFLT
+  affected_by: DH
+  affected2_by: '0'
+  alignment: -1000
+  clan: 0
+  level: 29
+  hitroll: 0
+  hit:
+    number: 10
+    type: 56
+    bonus: 405
+  mana:
+    number: 29
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 10
+    bonus: 15
+  dam_type: 3
+  ac:
+    pierce: -8
+    bash: -8
+    slash: -8
+    exotic: 1
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 7500
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_breath_fire
+- vnum: 5011
+  keywords: drider drow
+  short_desc: The drider
+  long_desc: |
+    The drider looks at you viciously while it draws its sword.
+  description: |
+    This half-spider, half-drow creature is a formidable opponent.
+  race: Human
+  act: AFGT
+  affected_by: D
+  affected2_by: '0'
+  alignment: -1000
+  clan: 0
+  level: 7
+  hitroll: 0
+  hit:
+    number: 1
+    type: 33
+    bonus: 61
+  mana:
+    number: 7
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 6
+    bonus: 3
+  dam_type: 3
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 20
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 5012
+  keywords: duergar dwarf
+  short_desc: The dark dwarf
+  long_desc: |
+    A duergar is here mining precious stones with his pick.
+  description: |
+    The duergar could crush your head as easily as it does those rocks.
+  race: Human
+  act: AFGT
+  affected_by: D
+  affected2_by: '0'
+  alignment: -850
+  clan: 0
+  level: 4
+  hitroll: 0
+  hit:
+    number: 1
+    type: 10
+    bonus: 33
+  mana:
+    number: 4
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 7
+    bonus: 2
+  dam_type: 3
+  ac:
+    pierce: 7
+    bash: 7
+    slash: 7
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 17
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 5013
+  keywords: myconoid
+  short_desc: the myconoid
+  long_desc: |
+    A myconoid lumbers along peacefully.
+  description: |
+    The myconoid looks something like a giant mushroom (and probably
+    has the same effect).
+  race: Human
+  act: AGHT
+  affected_by: D
+  affected2_by: '0'
+  alignment: 850
+  clan: 0
+  level: 5
+  hitroll: 0
+  hit:
+    number: 1
+    type: 16
+    bonus: 42
+  mana:
+    number: 5
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 4
+    bonus: 3
+  dam_type: 3
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 5
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 5014
+  keywords: myconoid shaman
+  short_desc: The myconoid shaman
+  long_desc: |
+    A rather large myconoid stands here chanting in a strange tongue.
+  description: |
+    The shaman shoots spores into the air.
+  race: Human
+  act: ABHT
+  affected_by: DH
+  affected2_by: '0'
+  alignment: 850
+  clan: 0
+  level: 8
+  hitroll: 0
+  hit:
+    number: 2
+    type: 21
+    bonus: 73
+  mana:
+    number: 8
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 7
+    bonus: 4
+  dam_type: 7
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 150
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_cleric
+- vnum: 5015
+  keywords: dustdigger
+  short_desc: The dustdigger
+  long_desc: |
+    A small oasis invites you to dive in.
+  description: ''
+  race: Human
+  act: ABCFT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -200
+  clan: 0
+  level: 8
+  hitroll: 0
+  hit:
+    number: 2
+    type: 21
+    bonus: 73
+  mana:
+    number: 8
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 7
+    bonus: 4
+  dam_type: 7
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 45
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 5017
+  keywords: camel
+  short_desc: The rabid camel
+  long_desc: |
+    A very dangerous rabid camel snorts at you.
+  description: |
+    Don't mess with this animal.
+  race: Human
+  act: ABFT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -351
+  clan: 0
+  level: 4
+  hitroll: 0
+  hit:
+    number: 1
+    type: 10
+    bonus: 33
+  mana:
+    number: 4
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 7
+    bonus: 2
+  dam_type: 7
+  ac:
+    pierce: 7
+    bash: 7
+    slash: 7
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 27
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+objects:
+- vnum: 5000
+  name: pick
+  short_desc: a small mining pick
+  description: A small mining pick made of what appears to be silver lies on the ground.
+  material: none
+  item_type: 5
+  extra_flags: J
+  wear_flags: AN
+  values:
+  - 4
+  - 2
+  - 5
+  - 11
+  - 0
+  level: 4
+  weight: 3
+  cost: 40
+  affects: []
+  extra_descs: []
+- vnum: 5001
+  name: banded mail
+  short_desc: a glowing suit of banded mail
+  description: A glowing suit of banded mail lies on the ground.
+  material: none
+  item_type: 9
+  extra_flags: AG
+  wear_flags: AD
+  values:
+  - 8
+  - 8
+  - 8
+  - 0
+  - 0
+  level: 29
+  weight: 0
+  cost: 290
+  affects:
+  - where: O
+    location: 2
+    modifier: 2
+    bitvector: '0'
+  - where: O
+    location: 17
+    modifier: -4
+    bitvector: '0'
+  extra_descs: []
+- vnum: 5002
+  name: halberd
+  short_desc: the halberd
+  description: A mighty halberd lies against the wall.
+  material: none
+  item_type: 5
+  extra_flags: GI
+  wear_flags: AN
+  values:
+  - 8
+  - 5
+  - 7
+  - 2
+  - 0
+  level: 29
+  weight: 16
+  cost: 290
+  affects:
+  - where: O
+    location: 18
+    modifier: 2
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 5003
+  name: amulet
+  short_desc: the amulet
+  description: A mushroom shaped amulet lies on the ground.
+  material: none
+  item_type: 9
+  extra_flags: G
+  wear_flags: AC
+  values:
+  - 4
+  - 4
+  - 4
+  - 0
+  - 0
+  level: 8
+  weight: 2
+  cost: 80
+  affects:
+  - where: O
+    location: 5
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 5005
+  name: bone
+  short_desc: a large leg bone
+  description: A large leg bone rests on the ground.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 0
+  level: 27
+  weight: 5
+  cost: 270
+  affects: []
+  extra_descs: []
+- vnum: 5006
+  name: cactus
+  short_desc: a small cactus cup
+  description: A small cactus cup lies on the ground.
+  material: none
+  item_type: 17
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 5
+  - 5
+  - 0
+  - 0
+  - 0
+  level: 0
+  weight: 6
+  cost: 0
+  affects: []
+  extra_descs: []
+- vnum: 5007
+  name: basket
+  short_desc: a small wicker basket
+  description: A small wicker basket sits on the ground.
+  material: none
+  item_type: 15
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 100
+  - 5
+  - 4294967295
+  - 0
+  - 0
+  level: 10
+  weight: 50
+  cost: 100
+  affects: []
+  extra_descs: []
+- vnum: 5008
+  name: basket
+  short_desc: a small wicker basket
+  description: A small wicker basket sits on the ground.
+  material: none
+  item_type: 15
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 100
+  - 5
+  - 4294967295
+  - 0
+  - 0
+  level: 12
+  weight: 50
+  cost: 120
+  affects: []
+  extra_descs: []
+- vnum: 5009
+  name: basket
+  short_desc: a small wicker basket
+  description: A small wicker basket sits on the ground.
+  material: none
+  item_type: 15
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 100
+  - 5
+  - 4294967295
+  - 0
+  - 0
+  level: 12
+  weight: 50
+  cost: 120
+  affects: []
+  extra_descs: []
+- vnum: 5010
+  name: basket
+  short_desc: a small wicker basket
+  description: A small wicker basket sits on the ground.
+  material: none
+  item_type: 15
+  extra_flags: '0'
+  wear_flags: '0'
+  values:
+  - 100
+  - 5
+  - 4294967295
+  - 0
+  - 0
+  level: 12
+  weight: 50
+  cost: 120
+  affects: []
+  extra_descs: []
+- vnum: 5011
+  name: rope
+  short_desc: a coil of rope
+  description: A long coil of rope lies on the ground.
+  material: none
+  item_type: 12
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 10
+  weight: 12
+  cost: 100
+  affects: []
+  extra_descs: []
+- vnum: 5012
+  name: stakes
+  short_desc: a bunch of stakes
+  description: A small bundle of stakes lies here.
+  material: none
+  item_type: 12
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 10
+  weight: 6
+  cost: 100
+  affects: []
+  extra_descs: []
+- vnum: 5013
+  name: map
+  short_desc: an old, tattered map
+  description: An old, tattered, and much faded map lies here.
+  material: none
+  item_type: 12
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 12
+  weight: 1
+  cost: 120
+  affects: []
+  extra_descs: []
+- vnum: 5014
+  name: turban
+  short_desc: a thick padded turban
+  description: A thick padded turban lies here.
+  material: none
+  item_type: 9
+  extra_flags: GH
+  wear_flags: AE
+  values:
+  - 5
+  - 5
+  - 5
+  - 0
+  - 0
+  level: 12
+  weight: 15
+  cost: 120
+  affects:
+  - where: O
+    location: 17
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 5015
+  name: coins
+  short_desc: a great pile of treasure
+  description: A great, gleaming pile of treasure lies at your feet.
+  material: none
+  item_type: 20
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 280
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 28
+  weight: 0
+  cost: 280
+  affects: []
+  extra_descs: []
+- vnum: 5016
+  name: sabre
+  short_desc: a long, curved sabre
+  description: A long, curved sabre stands upright in the ground.
+  material: none
+  item_type: 5
+  extra_flags: L
+  wear_flags: AN
+  values:
+  - 1
+  - 4
+  - 5
+  - 3
+  - 0
+  level: 14
+  weight: 7
+  cost: 140
+  affects:
+  - where: O
+    location: 18
+    modifier: 2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 5017
+  name: scimitar
+  short_desc: a curved scimitar
+  description: A curved scimitar lies at your feet.
+  material: none
+  item_type: 5
+  extra_flags: L
+  wear_flags: AN
+  values:
+  - 1
+  - 4
+  - 4
+  - 3
+  - 0
+  level: 12
+  weight: 6
+  cost: 120
+  affects:
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 5018
+  name: cutlass
+  short_desc: a long, pointed cutlass
+  description: A long, pointed cutlass lies here.
+  material: none
+  item_type: 5
+  extra_flags: L
+  wear_flags: AN
+  values:
+  - 1
+  - 3
+  - 5
+  - 3
+  - 0
+  level: 10
+  weight: 5
+  cost: 100
+  affects: []
+  extra_descs: []
+- vnum: 5019
+  name: potion pink
+  short_desc: a pink potion
+  description: A pink potion stands here.
+  material: none
+  item_type: 10
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 25
+  - 28
+  - 35
+  - 0
+  - 0
+  level: 19
+  weight: 6
+  cost: 190
+  affects: []
+  extra_descs: []
+- vnum: 5020
+  name: wand platinum
+  short_desc: a platinum wand
+  description: A platinum wand lies here.
+  material: none
+  item_type: 3
+  extra_flags: B
+  wear_flags: AO
+  values:
+  - 30
+  - 10
+  - 10
+  - 32
+  - 0
+  level: 19
+  weight: 8
+  cost: 190
+  affects: []
+  extra_descs: []
+- vnum: 5021
+  name: bow energy strange
+  short_desc: a strange energy bow
+  description: A strange energy bow lies here.
+  material: none
+  item_type: 5
+  extra_flags: ABGI
+  wear_flags: AN
+  values:
+  - 0
+  - 5
+  - 5
+  - 6
+  - 0
+  level: 19
+  weight: 20
+  cost: 190
+  affects: []
+  extra_descs: []
+- vnum: 5022
+  name: scroll encrypted
+  short_desc: an encrypted scroll
+  description: An encrypted scroll lies at your feet.
+  material: none
+  item_type: 2
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 22
+  - 14
+  - 35
+  - 43
+  - 0
+  level: 30
+  weight: 7
+  cost: 300
+  affects: []
+  extra_descs: []
+- vnum: 5023
+  name: chest
+  short_desc: an iron bound chest
+  description: An iron bound chest with a shiny lock sits here.
+  material: none
+  item_type: 15
+  extra_flags: '0'
+  wear_flags: '0'
+  values:
+  - 200
+  - 13
+  - 5024
+  - 0
+  - 0
+  level: 28
+  weight: 200
+  cost: 280
+  affects: []
+  extra_descs: []
+- vnum: 5024
+  name: key golden
+  short_desc: a golden key
+  description: A shiny golden key lies here.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 10
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 30
+  weight: 1
+  cost: 300
+  affects: []
+  extra_descs: []
+- vnum: 5025
+  name: bracelet copper
+  short_desc: a copper bracelet
+  description: A tarnished copper bracelet lies at your feet.
+  material: none
+  item_type: 9
+  extra_flags: GH
+  wear_flags: AM
+  values:
+  - 8
+  - 8
+  - 8
+  - 0
+  - 0
+  level: 28
+  weight: 10
+  cost: 280
+  affects:
+  - where: O
+    location: 13
+    modifier: 10
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 5026
+  name: gem ruby
+  short_desc: a large ruby
+  description: A large ruby lies on the ground collecting dust.
+  material: none
+  item_type: 8
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 20
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 28
+  weight: 9
+  cost: 280
+  affects: []
+  extra_descs: []
+- vnum: 5027
+  name: gem diamond
+  short_desc: a glittering diamond
+  description: A glittering diamond lies at your feet.
+  material: none
+  item_type: 8
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 21
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 28
+  weight: 10
+  cost: 280
+  affects: []
+  extra_descs: []
+- vnum: 5028
+  name: gem sapphire
+  short_desc: a brilliant sapphire
+  description: A brilliant sapphire lies here twinkling.
+  material: none
+  item_type: 8
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 22
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 28
+  weight: 7
+  cost: 280
+  affects: []
+  extra_descs: []
+- vnum: 5029
+  name: gem lapis
+  short_desc: a deep blue lapis lazuli
+  description: A deep blue lapis lazuli gem lies here.
+  material: none
+  item_type: 8
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 24
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 28
+  weight: 11
+  cost: 280
+  affects: []
+  extra_descs: []
+- vnum: 5030
+  name: jewel tiger
+  short_desc: the tiger jewel
+  description: The Tiger Jewel lies here blazing.
+  material: none
+  item_type: 8
+  extra_flags: I
+  wear_flags: AO
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 28
+  weight: 23
+  cost: 280
+  affects:
+  - where: O
+    location: 2
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 5031
+  name: jewel red-eyed
+  short_desc: the red-eyed jewel
+  description: The red-eyed jewel glares at you greedily.
+  material: none
+  item_type: 8
+  extra_flags: '0'
+  wear_flags: AO
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 28
+  weight: 30
+  cost: 280
+  affects:
+  - where: O
+    location: 3
+    modifier: 2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 5032
+  name: gem emerald
+  short_desc: a fiery green emerald
+  description: A fiery green emerald sits here.
+  material: none
+  item_type: 8
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 23
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 28
+  weight: 7
+  cost: 280
+  affects: []
+  extra_descs: []
+rooms:
+- vnum: 5001
+  name: A long tunnel
+  description: |
+    You encounter some rapids as you enter this tunnel cut out of
+    the mountains by the river.
+  room_flags: AD
+  sector: 7
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5002
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3205
+  extra_descs: []
+- vnum: 5002
+  name: A long tunnel
+  description: |
+    The tunnel branches off north.
+  room_flags: AD
+  sector: 7
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5008
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5003
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5001
+  extra_descs: []
+- vnum: 5003
+  name: A long tunnel
+  description: |
+    The tunnel branches off south.
+  room_flags: AD
+  sector: 7
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5004
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5017
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5002
+  extra_descs: []
+- vnum: 5004
+  name: A long tunnel
+  description: |
+    The tunnel branches off to the south.
+  room_flags: AD
+  sector: 7
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5005
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5018
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5003
+  extra_descs: []
+- vnum: 5005
+  name: An underground lake
+  description: |
+    You are floating on a jet-black underground lake fed by dripping
+    water and lime from above. The tunnel continues to the east and the river
+    leads back west. To the north is a roughly-hewn hallway. There is also
+    a tunnel south.
+  room_flags: AD
+  sector: 7
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5016
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5006
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5023
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5004
+  extra_descs: []
+- vnum: 5006
+  name: A long narrow tunnel
+  description: |
+    The tunnel rises sharply to the east.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5007
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5005
+  extra_descs: []
+- vnum: 5007
+  name: A wide tunnel
+  description: |
+    The tunnel continues east and west. To the east the tunnel dives
+    down into a bright light.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5027
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5006
+  extra_descs: []
+- vnum: 5008
+  name: Cave-in
+  description: |
+    You stand at the edge of a large pile of rubble created from the last
+    rockslide.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5002
+  - dir: 5
+    desc: You can easily slide down the rocks without getting hurt.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5009
+  extra_descs: []
+- vnum: 5009
+  name: At the foot of the rubble
+  description: |
+    You are at the bottom of a large pile of rubble. A tunnel branches
+    off to the north and east.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5010
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5012
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5008
+  extra_descs: []
+- vnum: 5010
+  name: Cave entrance
+  description: |
+    You stand in the middle of a large and beautiful cave. A path leads
+    deeper into the darkness.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5009
+  - dir: 5
+    desc: You look down into the cave. Bones are strewn about everywhere.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5011
+  extra_descs: []
+- vnum: 5011
+  name: Giant cave
+  description: |
+    This cavern overwhelms you. The walls and ceiling seem miles away.
+    Bones of previous adventurers lie strewn on the cavern floor.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5010
+  extra_descs: []
+- vnum: 5012
+  name: Narrow bend
+  description: |
+    The tunnel turns to the south and west.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5013
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5009
+  extra_descs: []
+- vnum: 5013
+  name: Large cave
+  description: |
+    You are standing in a large cave. Many furs are spread out on the floor.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5012
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5014
+  extra_descs: []
+- vnum: 5014
+  name: Damp hallway
+  description: |
+    The walls here are extremely damp, as well as the floor.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 1
+    desc: You hear drops of water.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5015
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5013
+  extra_descs: []
+- vnum: 5015
+  name: Underground pool
+  description: |
+    You are wading in a knee deep pool of lime-water.
+  room_flags: AD
+  sector: 6
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5016
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5014
+  extra_descs: []
+- vnum: 5016
+  name: Damp hallway
+  description: |
+    The walls of the tunnel are extremely damp here. You hear the faint
+    sound of running water to the south.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: You hear drops of water.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5015
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5005
+  extra_descs: []
+- vnum: 5017
+  name: Narrow crawlway
+  description: |
+    This crawlway is just big enough for a human to crawl through or a
+    halfling to walk through.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5003
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5018
+  - dir: 2
+    desc: You smell the fragrant odor of fungus.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5019
+  extra_descs: []
+- vnum: 5018
+  name: Large cavern
+  description: |
+    You have entered a very large cavern. The rock formations would amaze
+    almost any dwarf.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5004
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5017
+  extra_descs: []
+- vnum: 5019
+  name: Fungus patch
+  description: |
+    As you walk through the fungus patch, you are shot at by many millions of
+    spores. You can hardly breathe.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5017
+  - dir: 1
+    desc: The fragrant smell of fungus spores continues to the east
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5020
+  extra_descs: []
+- vnum: 5020
+  name: Fungus path
+  description: |
+    As you walk along the path, millions of spores are shot at you. You can
+    hardly breathe.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 2
+    desc: A giant mushroom temple stands to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5021
+  - dir: 3
+    desc: The fragrant smell of spores continues to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5019
+  extra_descs: []
+- vnum: 5021
+  name: Fungus temple
+  description: |
+    You find yourself standing inside of a giant mushroom. The inside
+    is decorated in the fashion of a temple.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5020
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5022
+  extra_descs: []
+- vnum: 5022
+  name: Sloping passage
+  description: |
+    You follow a path sloping down from the fungus temple.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5021
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5023
+  extra_descs: []
+- vnum: 5023
+  name: Sloping passage
+  description: |
+    You are on a path that gently slopes up from the underground pool.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: You hear sounds of trickling water.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5005
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5022
+  extra_descs: []
+- vnum: 5024
+  name: The Sands of Sorrow
+  description: |
+    A vast desert stretches for miles, the sand constantly shifting around you.
+    You feel lost.
+  room_flags: N
+  sector: 10
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5030
+  - dir: 3
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5026
+  - dir: 1
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5025
+  - dir: 2
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5027
+  extra_descs: []
+- vnum: 5025
+  name: The Sands of Sorrow
+  description: |
+    A vast desert stretches for miles, the sand constantly shifting around you.
+    You feel lost.
+  room_flags: N
+  sector: 10
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5026
+  - dir: 3
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5024
+  - dir: 2
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5028
+  - dir: 0
+    desc: |
+      You see a nomad camp by an oasis.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5056
+  extra_descs: []
+- vnum: 5026
+  name: The Sands of Sorrow
+  description: |
+    A vast desert stretches for miles, the sand constantly shifting around you.
+    You feel lost.
+  room_flags: N
+  sector: 10
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5024
+  - dir: 3
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5025
+  - dir: 2
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5029
+  - dir: 0
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5032
+  extra_descs: []
+- vnum: 5027
+  name: The Sands of Sorrow
+  description: |
+    A vast desert stretches for miles, the sand constantly shifting around you.
+    You feel lost.
+  room_flags: N
+  sector: 10
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      You see a river flowing into the mountain.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5007
+  - dir: 2
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5030
+  - dir: 0
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5024
+  - dir: 1
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5028
+  extra_descs: []
+- vnum: 5028
+  name: The Sands of Sorrow
+  description: |
+    A vast desert stretches for miles, the sand constantly shifting around you.
+    You feel lost.
+  room_flags: N
+  sector: 10
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5031
+  - dir: 1
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5029
+  - dir: 3
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5027
+  - dir: 0
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5025
+  extra_descs: []
+- vnum: 5029
+  name: The Sands of Sorrow
+  description: |
+    A vast desert stretches for miles, the sand constantly shifting around you.
+    You feel lost.
+  room_flags: N
+  sector: 10
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5032
+  - dir: 1
+    desc: |
+      The sand is glowing in this direction.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5062
+  - dir: 3
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5028
+  - dir: 0
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5026
+  extra_descs: []
+- vnum: 5030
+  name: The Sands of Sorrow
+  description: |
+    A vast desert stretches for miles, the sand constantly shifting around you.
+    You feel lost.
+  room_flags: N
+  sector: 10
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5032
+  - dir: 2
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5024
+  - dir: 0
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5027
+  - dir: 1
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5031
+  extra_descs: []
+- vnum: 5031
+  name: The Sands of Sorrow
+  description: |
+    A vast desert stretches for miles, the sand constantly shifting around you.
+    You feel lost.
+  room_flags: N
+  sector: 10
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5028
+  - dir: 3
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5030
+  - dir: 1
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5032
+  - dir: 2
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5063
+  extra_descs: []
+- vnum: 5032
+  name: The Sands of Sorrow
+  description: |
+    A vast desert stretches for miles, the sand constantly shifting around you.
+    You feel lost.
+  room_flags: N
+  sector: 10
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      You see a tiny ledge.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5026
+  - dir: 0
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5029
+  - dir: 3
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5031
+  - dir: 1
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5030
+  extra_descs: []
+- vnum: 5056
+  name: A nomad camp
+  description: |
+    This small group of desert nomads has stopped for the day to rest
+    and refresh themselves beside this beautiful oasis. Three tents and some
+    camels make up the party. From within two of the tents you hear muffled
+    voices, obviously surprised at your visit.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see ill-tempered camels.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5058
+  - dir: 1
+    desc: |
+      You see inside one of the tents a huddled mass of people, probably slaves.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5057
+  - dir: 2
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5025
+  extra_descs: []
+- vnum: 5057
+  name: Inside a small tent
+  description: |
+    This is a small and simple tent with few possessions in sight. Lying
+    here and there are young-looking men and women, possibly slaves to the
+    leader of this band.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      You see the center of the nomad camp.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5056
+  extra_descs: []
+- vnum: 5058
+  name: Beside the camels
+  description: |
+    Here stand about ten camels, all hitched to some stakes plugged into
+    the ground. To the east you see a small tent while to the north you see a
+    larger, fancier tent.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |-
+      This tent seems to be the temporary abode of the nomad leader. You make a
+      mental note to visit it before you leave.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5060
+  - dir: 1
+    desc: |
+      In this tent there are very large men, all carrying weapons.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5059
+  - dir: 2
+    desc: |
+      You see the center of the nomad camp.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5056
+  extra_descs: []
+- vnum: 5059
+  name: The warrior's tent.
+  description: |
+    This tent has a few furnishings, but mainly it holds the band's
+    protectors. They all stare at you coldly as you enter.
+  room_flags: H
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      Outside you see some peaceful camels.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5058
+  extra_descs: []
+- vnum: 5060
+  name: The main tent
+  description: |
+    This tent is as lavishly decorated on the inside as it is on the
+    outside. A fancy carpet lies on the sand and numerous baskets line the
+    walls.
+  room_flags: H
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5061
+  - dir: 2
+    desc: |
+      You see some peaceful camels.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5058
+  extra_descs: []
+- vnum: 5061
+  name: The main tent
+  description: |
+    This is where the leader of this band of nomads resides. He is
+    definitely rich as you inspect the tapestries, baskets, and a few
+    paintings as well.
+  room_flags: H
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      You see the entrance to this tent.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5060
+  extra_descs: []
+- vnum: 5062
+  name: Strange Glowing Sand
+  description: |
+    A vast desert stretches for miles, the sand constantly shifting around
+    you.  But this patch of desert looks different...the sand glows.  You see a
+    futuristic city to the south.
+  room_flags: CD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      You see a futuristic city.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 8001
+  - dir: 3
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5029
+  extra_descs: []
+- vnum: 5063
+  name: The wind-swept ledge
+  description: |
+    Being very careful not to lose your balance, you look around and
+    find that this canyon is about a half a kilometer deep. To the west is
+    a dark cave leading under the desert sands.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Sand as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5031
+  - dir: 3
+    desc: |
+      You see a dark cave.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5064
+  extra_descs: []
+- vnum: 5064
+  name: The cave mouth
+  description: |
+    The air in here is MUCH cooler than outside. From the west you hear
+    strange sounds, but can see nothing. The cave slopes down into the
+    darkness.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 1
+    desc: Outside is lighter and very windy.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5063
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5065
+  extra_descs: []
+- vnum: 5065
+  name: The mysterious lair.
+  description: |
+    You have stumbled upon the home of something. From the treasure
+    haphazardly strewn about and the rotting carcasses, you would guess that
+    this is a dragon's lair. As to what type, you can't really say. The cave
+    narrows out into a tunnel to the west.
+  room_flags: ADH
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5064
+  - dir: 3
+    desc: ''
+    keywords: door
+    exit_flags: AC
+    key: 5024
+    to_vnum: 5066
+  extra_descs: []
+- vnum: 5066
+  name: A wide tunnel
+  description: |
+    This tunnel seems to go on forever into the darkness. You carefully
+    feel your way along the walls.
+  room_flags: ACD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: door
+    exit_flags: AC
+    key: 5024
+    to_vnum: 5065
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5067
+  extra_descs: []
+- vnum: 5067
+  name: A narrower tunnel
+  description: |
+    The tunnel becomes very narrow and you fight to squeeze your way through.
+    The floor seems to level off a little.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5066
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5068
+  extra_descs: []
+- vnum: 5068
+  name: A narrow crack
+  description: |
+    This part of the tunnel is the hardest to move through as the walls
+    move in to meet you.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5067
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5069
+  extra_descs: []
+- vnum: 5069
+  name: A small cavern.
+  description: |
+    It is dark and damp and bats hang from the ceiling. A narrow crack is
+    in the east wall. The floor now slopes upwards.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5070
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5068
+  extra_descs: []
+- vnum: 5070
+  name: A small shaft
+  description: |
+    From within this shaft you can see a narrow hole in the roof just
+    large enough for one person. Back east is the cavern.
+  room_flags: AD
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5069
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5009
+  extra_descs: []
+resets:
+- command: D
+  arg1: 5065
+  arg2: 3
+  arg3: 2
+- command: D
+  arg1: 5066
+  arg2: 1
+  arg3: 2
+- command: M
+  arg1: 5011
+  arg2: 3
+  arg3: 5009
+- command: E
+  arg1: 3022
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 5010
+  arg2: 1
+  arg3: 5011
+- command: E
+  arg1: 5001
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 5002
+  arg2: 0
+  arg3: 16
+- command: O
+  arg1: 5005
+  arg2: 0
+  arg3: 5011
+- command: M
+  arg1: 5012
+  arg2: 3
+  arg3: 5014
+- command: E
+  arg1: 5000
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 5013
+  arg2: 4
+  arg3: 5021
+- command: M
+  arg1: 5014
+  arg2: 1
+  arg3: 5021
+- command: E
+  arg1: 5003
+  arg2: 0
+  arg3: 3
+- command: R
+  arg1: 5024
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 5015
+  arg2: 4
+  arg3: 5024
+- command: R
+  arg1: 5025
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 5000
+  arg2: 3
+  arg3: 5025
+- command: E
+  arg1: 3021
+  arg2: 0
+  arg3: 16
+- command: R
+  arg1: 5026
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 5015
+  arg2: 4
+  arg3: 5026
+- command: R
+  arg1: 5027
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 5000
+  arg2: 3
+  arg3: 5027
+- command: E
+  arg1: 3021
+  arg2: 0
+  arg3: 16
+- command: R
+  arg1: 5028
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 5003
+  arg2: 5
+  arg3: 5028
+- command: M
+  arg1: 5004
+  arg2: 1
+  arg3: 5028
+- command: G
+  arg1: 5019
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 5020
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 5021
+  arg2: 0
+  arg3: 0
+- command: R
+  arg1: 5029
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 5000
+  arg2: 3
+  arg3: 5029
+- command: E
+  arg1: 3021
+  arg2: 0
+  arg3: 16
+- command: R
+  arg1: 5030
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 5015
+  arg2: 4
+  arg3: 5030
+- command: R
+  arg1: 5031
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 5001
+  arg2: 1
+  arg3: 5031
+- command: E
+  arg1: 3022
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 5002
+  arg2: 5
+  arg3: 5031
+- command: R
+  arg1: 5032
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 5015
+  arg2: 4
+  arg3: 5032
+- command: M
+  arg1: 5009
+  arg2: 10
+  arg3: 5057
+- command: M
+  arg1: 5017
+  arg2: 1
+  arg3: 5058
+- command: M
+  arg1: 5008
+  arg2: 5
+  arg3: 5059
+- command: E
+  arg1: 5018
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 5007
+  arg2: 1
+  arg3: 5060
+- command: E
+  arg1: 5017
+  arg2: 0
+  arg3: 16
+- command: O
+  arg1: 5007
+  arg2: 0
+  arg3: 5060
+- command: P
+  arg1: 5012
+  arg2: 0
+  arg3: 5007
+- command: P
+  arg1: 5011
+  arg2: 0
+  arg3: 5007
+- command: M
+  arg1: 5006
+  arg2: 1
+  arg3: 5061
+- command: E
+  arg1: 5016
+  arg2: 0
+  arg3: 16
+- command: O
+  arg1: 5008
+  arg2: 0
+  arg3: 5061
+- command: P
+  arg1: 5014
+  arg2: 0
+  arg3: 5008
+- command: O
+  arg1: 5009
+  arg2: 0
+  arg3: 5061
+- command: O
+  arg1: 5010
+  arg2: 0
+  arg3: 5061
+- command: P
+  arg1: 5013
+  arg2: 0
+  arg3: 5010
+- command: M
+  arg1: 5005
+  arg2: 1
+  arg3: 5065
+- command: G
+  arg1: 5024
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 5022
+  arg2: 0
+  arg3: 0
+- command: O
+  arg1: 5023
+  arg2: 0
+  arg3: 5070
+- command: P
+  arg1: 5025
+  arg2: 0
+  arg3: 5023
+- command: P
+  arg1: 5026
+  arg2: 0
+  arg3: 5023
+- command: P
+  arg1: 5027
+  arg2: 0
+  arg3: 5023
+- command: P
+  arg1: 5028
+  arg2: 0
+  arg3: 5023
+- command: P
+  arg1: 5029
+  arg2: 0
+  arg3: 5023
+- command: P
+  arg1: 5030
+  arg2: 0
+  arg3: 5023
+- command: P
+  arg1: 5031
+  arg2: 0
+  arg3: 5023
+- command: P
+  arg1: 5032
+  arg2: 0
+  arg3: 5023
+- command: O
+  arg1: 5015
+  arg2: 0
+  arg3: 5070
+specials:
+- vnum: 5005
+  spec_fun: spec_breath_any
+- vnum: 5010
+  spec_fun: spec_breath_fire
+- vnum: 5014
+  spec_fun: spec_cast_cleric

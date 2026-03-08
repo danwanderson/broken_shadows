@@ -1,0 +1,1663 @@
+area:
+  name: '{15 25} Generic Old Marsh'
+  builders: None
+  security: 9
+  area_flags: 0
+  vnums:
+  - 8301
+  - 8321
+mobiles:
+- vnum: 8301
+  keywords: troll
+  short_desc: a swamp troll
+  long_desc: |
+    A swamp troll charges towards you.
+  description: "This huge behemoth towers to a height of 15 feet.  He sneers at you\
+    \ \nas he approaches and raises two black taloned claws to strike you.\n"
+  race: Troll
+  act: ABCFGT
+  affected_by: Jc
+  affected2_by: '0'
+  alignment: -600
+  clan: 0
+  level: 17
+  hitroll: 0
+  hit:
+    number: 5
+    type: 39
+    bonus: 187
+  mana:
+    number: 17
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 7
+    bonus: 10
+  dam_type: 3
+  ac:
+    pierce: 0
+    bash: 0
+    slash: 0
+    exotic: 4
+  off_flags: D
+  imm_flags: '0'
+  res_flags: BE
+  vuln_flags: HK
+  start_pos: 8
+  default_pos: 5
+  sex: 1
+  gold: 1000
+  form: BMV
+  parts: ABCDEFGHIJKUV
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 8302
+  keywords: troll
+  short_desc: a green troll
+  long_desc: |
+    A green troll attempts to get a hold on you.
+  description: |
+    This big troll towers several feet over you.  He has a large spear
+    which he seems to ply with utmost prowess.  He jabs his spear at you
+    and cackles with glee.
+  race: Troll
+  act: ACFGT
+  affected_by: Jc
+  affected2_by: '0'
+  alignment: -400
+  clan: 0
+  level: 15
+  hitroll: 0
+  hit:
+    number: 4
+    type: 37
+    bonus: 162
+  mana:
+    number: 15
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 6
+    bonus: 9
+  dam_type: 11
+  ac:
+    pierce: 0
+    bash: 0
+    slash: 0
+    exotic: 5
+  off_flags: D
+  imm_flags: '0'
+  res_flags: BE
+  vuln_flags: HK
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 800
+  form: BMV
+  parts: ABCDEFGHIJKUV
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 8303
+  keywords: ogre
+  short_desc: an ogre
+  long_desc: |
+    An ogre stands here getting ready to beat in your face.
+  description: |
+    This mean bastard looks like he could tear you limb from limb.
+  race: Human
+  act: ACFGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -500
+  clan: 0
+  level: 19
+  hitroll: 0
+  hit:
+    number: 7
+    type: 34
+    bonus: 223
+  mana:
+    number: 19
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 6
+    bonus: 12
+  dam_type: 3
+  ac:
+    pierce: -1
+    bash: -1
+    slash: -1
+    exotic: 4
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 1000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 8304
+  keywords: thing
+  short_desc: the Swamp Thing
+  long_desc: |
+    The Swamp Thing shambles about here.  It seems hungry.
+  description: |
+    The Swamp Thing has huge fists, which look like they could pound you flat.
+  race: Human
+  act: ACFGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -700
+  clan: 0
+  level: 24
+  hitroll: 0
+  hit:
+    number: 10
+    type: 38
+    bonus: 311
+  mana:
+    number: 24
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 8
+    bonus: 14
+  dam_type: 11
+  ac:
+    pierce: -5
+    bash: -5
+    slash: -5
+    exotic: 2
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 5
+  sex: 0
+  gold: 2500
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 8305
+  keywords: gnoll
+  short_desc: a gnoll
+  long_desc: |
+    There is a mean looking gnoll here.
+  description: |
+    The Gnoll seems annoyed at your presence.
+  race: Human
+  act: ACGT
+  affected_by: DF
+  affected2_by: '0'
+  alignment: -1000
+  clan: 0
+  level: 30
+  hitroll: 0
+  hit:
+    number: 10
+    type: 60
+    bonus: 426
+  mana:
+    number: 30
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 10
+    bonus: 17
+  dam_type: 7
+  ac:
+    pierce: -8
+    bash: -8
+    slash: -8
+    exotic: 0
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 2500
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 8306
+  keywords: beast
+  short_desc: a huge hairy beast
+  long_desc: |
+    A huge hairy beast shambles towards you with death in his eyes.
+  description: "This huge beast stands about 20 feet in height and has huge green\
+    \ clawed\nappendages. \n"
+  race: Human
+  act: ACFGT
+  affected_by: DF
+  affected2_by: '0'
+  alignment: -450
+  clan: 0
+  level: 22
+  hitroll: 0
+  hit:
+    number: 9
+    type: 36
+    bonus: 270
+  mana:
+    number: 22
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 7
+    bonus: 14
+  dam_type: 7
+  ac:
+    pierce: -3
+    bash: -3
+    slash: -3
+    exotic: 3
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 1000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 8307
+  keywords: beast
+  short_desc: a rather small beast
+  long_desc: |
+    A rather small beast cringes in terror as it notices you.
+  description: |
+    This rather small beast looks like you could take it out with a single
+    sword blow.
+  race: Human
+  act: ACGHT
+  affected_by: P
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 4
+  hitroll: 0
+  hit:
+    number: 1
+    type: 10
+    bonus: 33
+  mana:
+    number: 4
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 7
+    bonus: 2
+  dam_type: 3
+  ac:
+    pierce: 7
+    bash: 7
+    slash: 7
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 50
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 8308
+  keywords: will will-o-wisp
+  short_desc: the Will-O-Wisp
+  long_desc: |
+    A Will-O-Wisp darts hear and there, making fun of you.
+  description: |
+    This strange little creature seems very hard to keep your eyes on.
+    You stare as hard as you can at the glowing ball of floating light and
+    are just able to notice a small pair of glowing eyes.
+  race: Human
+  act: ACGHT
+  affected_by: P
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 10
+  hitroll: 0
+  hit:
+    number: 2
+    type: 33
+    bonus: 96
+  mana:
+    number: 10
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 5
+    bonus: 7
+  dam_type: 7
+  ac:
+    pierce: 3
+    bash: 3
+    slash: 3
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 300
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 8309
+  keywords: snake anaconda
+  short_desc: the monstrous snake
+  long_desc: |
+    A monstrous snake slithers towards you, thinking 'breakfast'.
+  description: |
+    This 10 meter anaconda looks rather hungry.
+  race: snake
+  act: ACFGHT
+  affected_by: PQ
+  affected2_by: '0'
+  alignment: -100
+  clan: 0
+  level: 16
+  hitroll: 0
+  hit:
+    number: 5
+    type: 34
+    bonus: 175
+  mana:
+    number: 16
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 7
+    bonus: 8
+  dam_type: 11
+  ac:
+    pierce: 0
+    bash: 0
+    slash: 0
+    exotic: 5
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: L
+  vuln_flags: I
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 1000
+  form: AGRXYc
+  parts: ADEFKLQVX
+  size: M
+  material: none
+  spec_fun: spec_poison
+- vnum: 8310
+  keywords: snake python
+  short_desc: a large snake
+  long_desc: |
+    A rather large python rests in a coil here.
+  description: |
+    It's the largest Amazon python you have ever seen.
+  race: snake
+  act: ACFGHT
+  affected_by: PQ
+  affected2_by: '0'
+  alignment: -100
+  clan: 0
+  level: 10
+  hitroll: 0
+  hit:
+    number: 2
+    type: 33
+    bonus: 96
+  mana:
+    number: 10
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 5
+    bonus: 7
+  dam_type: 11
+  ac:
+    pierce: 3
+    bash: 3
+    slash: 3
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: L
+  vuln_flags: I
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 0
+  form: AGRXYc
+  parts: ADEFKLQVX
+  size: M
+  material: none
+  spec_fun: spec_poison
+- vnum: 8312
+  keywords: hag
+  short_desc: the Marsh Hag
+  long_desc: |
+    A Marsh Hag is here.
+  description: |
+    Yech!  She manages to make even Smurfette look attractive.  That's ok,
+    because she thinks you stink too, and she's about to do something about it.
+  race: Human
+  act: ACGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -200
+  clan: 0
+  level: 10
+  hitroll: 0
+  hit:
+    number: 2
+    type: 33
+    bonus: 96
+  mana:
+    number: 10
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 5
+    bonus: 7
+  dam_type: 7
+  ac:
+    pierce: 3
+    bash: 3
+    slash: 3
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 100
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_thief
+- vnum: 8313
+  keywords: slaad
+  short_desc: a Death Slaad
+  long_desc: |
+    A Death Slaad is standing here distraught.  He seems lost.
+  description: |
+    This dark apparition stands a meager 13 feet in height.  Even in the dim
+    swamp light, the blade of his scythe gleams.
+  race: Human
+  act: ACGT
+  affected_by: DF
+  affected2_by: '0'
+  alignment: -200
+  clan: 0
+  level: 19
+  hitroll: 0
+  hit:
+    number: 7
+    type: 34
+    bonus: 223
+  mana:
+    number: 19
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 6
+    bonus: 12
+  dam_type: 11
+  ac:
+    pierce: -1
+    bash: -1
+    slash: -1
+    exotic: 4
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 1400
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_undead
+- vnum: 8314
+  keywords: wolf
+  short_desc: a marsh wolf
+  long_desc: |
+    A marsh wolf sniffs the ground has followed your scent.
+  description: |
+    This wolf looks plump.  She probably ate a friend or two of yours who came
+    into the marsh.
+  race: Wolf
+  act: ACFGT
+  affected_by: Z
+  affected2_by: '0'
+  alignment: -200
+  clan: 0
+  level: 7
+  hitroll: 0
+  hit:
+    number: 1
+    type: 33
+    bonus: 61
+  mana:
+    number: 7
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 6
+    bonus: 3
+  dam_type: 11
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: FH
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 0
+  form: AGV
+  parts: ACDEFJKQV
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 8318
+  keywords: mound shambling
+  short_desc: a shambling mound
+  long_desc: |
+    A heap of garbage shambles towards you.
+  description: |
+    This grotesque pile of plant matter fills you with utmost horror.
+  race: Human
+  act: ACGT
+  affected_by: Q
+  affected2_by: '0'
+  alignment: -100
+  clan: 0
+  level: 14
+  hitroll: 0
+  hit:
+    number: 4
+    type: 33
+    bonus: 145
+  mana:
+    number: 14
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 6
+    bonus: 7
+  dam_type: 11
+  ac:
+    pierce: 1
+    bash: 1
+    slash: 1
+    exotic: 5
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 8319
+  keywords: shaman orc
+  short_desc: the orc shaman
+  long_desc: |
+    An orc shaman stands before you holding a staff and wearing robes.
+  description: |
+    This old orc has an array of bones stuck in his hair and strange symbols
+    painted on his face and hands.
+  race: Human
+  act: ABCDFGT
+  affected_by: DF
+  affected2_by: '0'
+  alignment: -100
+  clan: 0
+  level: 12
+  hitroll: 0
+  hit:
+    number: 3
+    type: 32
+    bonus: 120
+  mana:
+    number: 12
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 7
+    bonus: 6
+  dam_type: 7
+  ac:
+    pierce: 2
+    bash: 2
+    slash: 2
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 35
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_cleric
+- vnum: 8320
+  keywords: giant
+  short_desc: a marsh giant
+  long_desc: |
+    A marsh giant stomps towards you.
+  description: |
+    This huge monster of a man has green gnarly teeth and a BIG stick.
+  race: Giant
+  act: ABCDFGT
+  affected_by: DF
+  affected2_by: '0'
+  alignment: -100
+  clan: 0
+  level: 14
+  hitroll: 0
+  hit:
+    number: 4
+    type: 33
+    bonus: 145
+  mana:
+    number: 14
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 6
+    bonus: 7
+  dam_type: 3
+  ac:
+    pierce: 1
+    bash: 1
+    slash: 1
+    exotic: 5
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: HI
+  vuln_flags: JP
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 1200
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 8321
+  keywords: gargoyle
+  short_desc: a gargoyle
+  long_desc: |
+    A large gargoyle lands next to you, baring his fangs at you.
+  description: |
+    This creepy fellow looks like he could use you as a meal.
+  race: Human
+  act: ABCDFGT
+  affected_by: DF
+  affected2_by: '0'
+  alignment: -100
+  clan: 0
+  level: 11
+  hitroll: 0
+  hit:
+    number: 3
+    type: 27
+    bonus: 107
+  mana:
+    number: 11
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 6
+    bonus: 6
+  dam_type: 11
+  ac:
+    pierce: 3
+    bash: 3
+    slash: 3
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 200
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+objects:
+- vnum: 8301
+  name: spear long
+  short_desc: a long spear
+  description: A strange spear lies here.
+  material: none
+  item_type: 5
+  extra_flags: HJ
+  wear_flags: AN
+  values:
+  - 3
+  - 4
+  - 5
+  - 2
+  - 0
+  level: 14
+  weight: 10
+  cost: 140
+  affects:
+  - where: O
+    location: 19
+    modifier: 3
+    bitvector: '0'
+  - where: O
+    location: 2
+    modifier: 2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 8302
+  name: horned helmet
+  short_desc: a dark horned helmet
+  description: A wicked looking horned helmet lies here.
+  material: none
+  item_type: 9
+  extra_flags: HJ
+  wear_flags: AE
+  values:
+  - 5
+  - 5
+  - 5
+  - 0
+  - 0
+  level: 14
+  weight: 5
+  cost: 140
+  affects:
+  - where: O
+    location: 19
+    modifier: 1
+    bitvector: '0'
+  - where: O
+    location: 3
+    modifier: -3
+    bitvector: '0'
+  extra_descs:
+  - keywords: horns horn
+    description: These horns appear to be made of adamantite.
+- vnum: 8303
+  name: chain mail chainmail
+  short_desc: a suit of chainmail
+  description: An old suit of chainmail lies here, corroded by the marsh.
+  material: none
+  item_type: 9
+  extra_flags: HJ
+  wear_flags: AD
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 30
+  weight: 20
+  cost: 300
+  affects: []
+  extra_descs: []
+- vnum: 8306
+  name: scythe
+  short_desc: a huge, wicked-looking scythe
+  description: An evil, wicked-looking scythe lies in the shadows.
+  material: none
+  item_type: 5
+  extra_flags: HJ
+  wear_flags: AN
+  values:
+  - 8
+  - 5
+  - 5
+  - 1
+  - 0
+  level: 19
+  weight: 16
+  cost: 190
+  affects:
+  - where: O
+    location: 18
+    modifier: 3
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 3
+    bitvector: '0'
+  extra_descs: []
+- vnum: 8307
+  name: green potion
+  short_desc: a murky green potion
+  description: A murky green potion lies here in the mud.
+  material: none
+  item_type: 10
+  extra_flags: AB
+  wear_flags: A
+  values:
+  - 43
+  - 15
+  - 0
+  - 0
+  - 0
+  level: 14
+  weight: 1
+  cost: 140
+  affects: []
+  extra_descs:
+  - keywords: potion
+    description: It looks really disgusting and doesn't smell very nice either.
+rooms:
+- vnum: 8301
+  name: Muddy Path
+  description: |
+    This section of the path is slowly being drowned by the nearby swamp to the
+    south, which is creeping slowly inland.  Several caved-in buildings sprawl
+    here, torn apart both by battle and the elements.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The path looks drier here.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 6125
+  - dir: 2
+    desc: |
+      A broken road leading southward into the marsh.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8302
+  extra_descs:
+  - keywords: swamp
+    description: |
+      The swamp to the south even reaches as far as this point ... it makes the
+      ground and air about you moist and fetid.
+- vnum: 8302
+  name: Swamp's Edge
+  description: |
+    Briars and marsh plants stick to your boots and clothes, and clouds cover the
+    skies above the murky marsh, leaving the path before you dark and sinister.
+    You see some disturbances in the marsh, but after a few strangled screams,
+    the sounds stop.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8301
+  - dir: 1
+    desc: |
+      To the east lies a series of bogs and shallows that look rather threatening.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8303
+  - dir: 2
+    desc: |
+      You notice a large hill rising out of the marsh to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8304
+  extra_descs: []
+- vnum: 8303
+  name: Marshy Forest
+  description: |
+    This area is by no means a forest, but for those who dwell in these sparse
+    trees it is one.  Occasionally you see a whole humanoid form floating face down
+    in the water, but mostly you only find pieces.  You hear a loud bellow in the
+    distance.  And feel fear creep into your heart.
+  room_flags: A
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Eastward is the thick bog of ooze...
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8305
+  - dir: 3
+    desc: |
+      Westward lies the remanents of a broken and shattered roadway being swallowed
+      by the marsh.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8302
+  extra_descs:
+  - keywords: humanoid corpse
+    description: |
+      He looks mangled and shredded.  You see one large gash mark that looks
+      like it came from the claw of some huge beast.
+  - keywords: pieces
+    description: |
+      You see severed limbs and spongy intestines.
+- vnum: 8304
+  name: On a hill.
+  description: |
+    You stand atop a hill on the northwestern side of the evil swamp. Dark
+    clouds whip around you and the wind raises its voice and assails you.
+  room_flags: A
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north lies a damp broken roadway.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8302
+  - dir: 1
+    desc: |
+      A dark pool congeals to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8309
+  - dir: 2
+    desc: |
+      A gloomy path leads down the hill into the swamp.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8310
+  extra_descs: []
+- vnum: 8305
+  name: An Oozing Bog
+  description: "You stand in an oozing quagmire.  A creaking beat fills the air, \n\
+    accompanied by groans and soughing of the air.  Several large winged\nbeasts flap\
+    \ over you and send chilling glares your way.  You feel out\nof place, and feel\
+    \ that the occupants of this realm will soon \nhave you for a feast.\n"
+  room_flags: A
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Eastward lies a horde of disgusting looking monsters.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8306
+  - dir: 3
+    desc: |
+      Westward lies a marshy area.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8303
+  extra_descs:
+  - keywords: beasts
+    description: |
+      You see a large creature, possibly a demon, flapping heavily above you.
+- vnum: 8306
+  name: An Oozing Bog
+  description: |
+    The ground here is soft and oozing.  You feel slimy water seeping into your
+    boots.  Better stop and check for leeches when you get out of here.
+  room_flags: A
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      You see a large tree limb that looks easily moved.
+    keywords: limb
+    exit_flags: A
+    key: -1
+    to_vnum: 8305
+  extra_descs:
+  - keywords: limb
+    description: |
+      The limb looks like it is attached to a trap door in the ground.
+- vnum: 8307
+  name: Swamp Thing's Lair
+  description: |
+    A horrible swamp thing resides here.  Mutilated corpses suffuse the air with
+    the overwhelming stench of putrid flesh.
+  room_flags: A
+  sector: 6
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      A pool of quick sand lies to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8308
+  extra_descs:
+  - keywords: corpses
+    description: |
+      You notice a note on one of the corpses reading:  'Best ye forget the temple,
+      it is not for the likes of you...'
+- vnum: 8308
+  name: Pool of Quick Sand
+  description: |
+    You stand by a large oozing pool of quick sand.  Luckily only a complete
+    klutz could not avoid it.  Dancing lights fly about you and one seems to
+    be taunting you towards the pool.
+  room_flags: A
+  sector: 6
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The swamp thing's lair.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8307
+  - dir: 2
+    desc: |
+      A murky bog.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8314
+  - dir: 3
+    desc: |
+      A dark pool lies to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8309
+  extra_descs:
+  - keywords: 'lights '
+    description: |
+      From the stories you have heard, you recognize them as will-o-wisps.
+  - keywords: quicksand
+    description: |
+      It looks deadly to the foolish.
+- vnum: 8309
+  name: A Dark Pool.
+  description: |
+    You stand beside a large dark pond.  The water boils not with heat, but with
+    motion, as if it is alive.  A creaking beat pulses through the air, leaving
+    you with a cold sweat and fear in your heart.
+  room_flags: A
+  sector: 6
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      A large pool of quicksand lies to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8308
+  - dir: 2
+    desc: |
+      You see a cloud of darkness to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8311
+  - dir: 3
+    desc: |
+      A hill rises out of the swamp to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8304
+  extra_descs:
+  - keywords: pond
+    description: |
+      It looks ALIVE ...
+- vnum: 8310
+  name: Gloomy Path Through the Marsh.
+  description: "To the north lies a hill, shrouded in dark clouds, and to the south\
+    \ lies\na huge patch of vegetation.  You sense an evil presence and notice \n\
+    a beast flying overhead to the south east, towards what looks to be a \nhuge fortress,\
+    \ half buried in the marsh.\n"
+  room_flags: A
+  sector: 6
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north a hill protrudes from the marshes.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8304
+  - dir: 2
+    desc: |
+      To the south a huge mass of vegetation seems to quiver with life.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8312
+  extra_descs:
+  - keywords: clouds
+    description: |
+      The clouds look dark and foreboding.
+  - keywords: beast
+    description: |
+      It looks to be a demon of some foul breed.
+  - keywords: fortress
+    description: |
+      It is surrounded by walls nearly 20 meters high.  In a tall tower on the
+      northeast side, a window glows blue with magical energy.
+  - keywords: vegetation
+    description: |
+      It looks sentient.
+- vnum: 8311
+  name: Cloud of Darkness.
+  description: |
+    As you travel through this cloud of darkness, a fear such as you have never
+    known before assails you.
+  room_flags: A
+  sector: 6
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      A dark pool lies to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8309
+  - dir: 2
+    desc: |
+      An obelisk lies to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8313
+  extra_descs: []
+- vnum: 8312
+  name: Near Vegetation from Hell.
+  description: |
+    You stand near some of the strangest plant life you have ever seen, a mixture
+    of tumescent vegetables, evil-smelling fruit trees, and malignant ferns.
+  room_flags: A
+  sector: 6
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north is a gloomy path through the marsh.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8310
+  - dir: 1
+    desc: |
+      Eastward is a large, black stone monolith.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8313
+  extra_descs:
+  - keywords: plant plants
+    description: |
+      They look rather violent, and snap at you when you come near.
+- vnum: 8313
+  name: By the Monolith.
+  description: "You are standing near a monolith which protrudes some 20 feet from\
+    \ the\nmarsh into the air.  Its black obsidian surface shines darkly in the \n\
+    strange, almost unearthly light that enters through the clouds above.\n"
+  room_flags: A
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north is a cloud of darkest evil.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8311
+  - dir: 1
+    desc: |
+      Eastward lies a murky bog.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8314
+  - dir: 3
+    desc: |
+      Near Vegetation from Hell.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8312
+  extra_descs:
+  - keywords: monolith
+    description: |
+      This huge monolith resembles nothing you have ever seen before.
+      You have a strong feeling not to go within.
+- vnum: 8314
+  name: Murky Bog.
+  description: |
+    A murky bog surrounds you.  To the east a black monolith juts forth from the
+    ground.  Far to the north lies a huge pool of quicksand.  Snarls can be heard
+    echoing as if from a great distance.
+  room_flags: A
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north lies a huge pool of quicksand.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8308
+  - dir: 1
+    desc: |
+      To the east the marsh turns into a small lake.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8315
+  - dir: 3
+    desc: |
+      Westward a large monolith awaits adventurers.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8313
+  extra_descs:
+  - keywords: monolith
+    description: |
+      This is a huge obsidian stone block stuck in the marsh.
+- vnum: 8315
+  name: Northern Lake Side.
+  description: "Floating on this boiling lake is not what you would consider an enjoyable\
+    \ \nexperience.  Many a creature bumps the bottom of your boat, and glares \n\
+    at you through unblinking eyes from the waters below.  The southern \nportion\
+    \ of the lake looks calm and serene compared to this wild place.\n"
+  room_flags: A
+  sector: 7
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      The southern portion of the lake lies to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8316
+  - dir: 3
+    desc: |
+      To the west lies a murky bog.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8314
+  extra_descs: []
+- vnum: 8316
+  name: Southern Lake Side.
+  description: |
+    You are floating on a calm section of blue crystal water.  You feel much more
+    at ease then you were before in this area.  Then a wave of fear passes over
+    you.  You are not alone.
+  room_flags: A
+  sector: 7
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Northern lake side.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8315
+  - dir: 3
+    desc: |
+      To the west is a beach where your boat can land.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8317
+  extra_descs:
+  - keywords: north
+    description: |
+      The way to the north seems to be impassable, due to the rough water and
+      strange wild life.
+- vnum: 8317
+  name: Beach
+  description: |
+    You are on a sandy shore.  Marsh life creeps across the surface.  To the west
+    lies an evil fortress.  You see figures walking along the battlements.
+  room_flags: A
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      To the east lies the southern portion of a small lake.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8316
+  - dir: 3
+    desc: |
+      The great gates.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8318
+  extra_descs:
+  - keywords: fortress
+    description: |
+      It is hewn of black stone and heavily fortified.
+- vnum: 8318
+  name: Before the Great Gates.
+  description: |
+    You stand before the gates of a huge fortress.  The drawbridge is up, the
+    gates closed, and the portcullis down.  This place looks very dangerous,
+    and you decide not to continue onward.
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      To the east is a marshy beach.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8317
+  extra_descs: []
+resets:
+- command: M
+  arg1: 8301
+  arg2: 2
+  arg3: 8303
+- command: M
+  arg1: 8302
+  arg2: 6
+  arg3: 8303
+- command: G
+  arg1: 8307
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 8303
+  arg2: 3
+  arg3: 8303
+- command: M
+  arg1: 8302
+  arg2: 6
+  arg3: 8304
+- command: M
+  arg1: 8306
+  arg2: 2
+  arg3: 8304
+- command: M
+  arg1: 8310
+  arg2: 2
+  arg3: 8304
+- command: M
+  arg1: 8314
+  arg2: 6
+  arg3: 8304
+- command: M
+  arg1: 8307
+  arg2: 2
+  arg3: 8305
+- command: M
+  arg1: 8309
+  arg2: 2
+  arg3: 8305
+- command: M
+  arg1: 8310
+  arg2: 2
+  arg3: 8305
+- command: M
+  arg1: 8314
+  arg2: 6
+  arg3: 8305
+- command: M
+  arg1: 8302
+  arg2: 6
+  arg3: 8306
+- command: M
+  arg1: 8305
+  arg2: 2
+  arg3: 8306
+- command: E
+  arg1: 8303
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2200
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 8314
+  arg2: 6
+  arg3: 8306
+- command: M
+  arg1: 8303
+  arg2: 3
+  arg3: 8307
+- command: M
+  arg1: 8304
+  arg2: 1
+  arg3: 8307
+- command: M
+  arg1: 8314
+  arg2: 6
+  arg3: 8307
+- command: M
+  arg1: 8320
+  arg2: 5
+  arg3: 8307
+- command: G
+  arg1: 8301
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 8301
+  arg2: 2
+  arg3: 8308
+- command: M
+  arg1: 8308
+  arg2: 1
+  arg3: 8308
+- command: M
+  arg1: 8314
+  arg2: 6
+  arg3: 8308
+- command: M
+  arg1: 8312
+  arg2: 2
+  arg3: 8309
+- command: M
+  arg1: 8314
+  arg2: 6
+  arg3: 8309
+- command: M
+  arg1: 8320
+  arg2: 5
+  arg3: 8309
+- command: G
+  arg1: 8301
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 8306
+  arg2: 2
+  arg3: 8310
+- command: M
+  arg1: 8312
+  arg2: 2
+  arg3: 8310
+- command: M
+  arg1: 8313
+  arg2: 1
+  arg3: 8310
+- command: E
+  arg1: 8306
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 8302
+  arg2: 0
+  arg3: 6
+- command: M
+  arg1: 8309
+  arg2: 2
+  arg3: 8311
+- command: M
+  arg1: 8320
+  arg2: 5
+  arg3: 8311
+- command: G
+  arg1: 8301
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 8318
+  arg2: 2
+  arg3: 8312
+- command: G
+  arg1: 8307
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 8318
+  arg2: 2
+  arg3: 8312
+- command: G
+  arg1: 8307
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 8303
+  arg2: 3
+  arg3: 8313
+- command: M
+  arg1: 8307
+  arg2: 2
+  arg3: 8313
+- command: M
+  arg1: 8320
+  arg2: 5
+  arg3: 8313
+- command: G
+  arg1: 8301
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 8320
+  arg2: 5
+  arg3: 8315
+- command: G
+  arg1: 8301
+  arg2: 0
+  arg3: 0
+- command: E
+  arg1: 8302
+  arg2: 0
+  arg3: 6
+- command: M
+  arg1: 8321
+  arg2: 2
+  arg3: 8318
+- command: M
+  arg1: 8321
+  arg2: 2
+  arg3: 8318
+specials:
+- vnum: 8309
+  spec_fun: spec_poison
+- vnum: 8310
+  spec_fun: spec_poison
+- vnum: 8312
+  spec_fun: spec_thief
+- vnum: 8313
+  spec_fun: spec_cast_undead
+- vnum: 8319
+  spec_fun: spec_cast_cleric

@@ -1,0 +1,2151 @@
+area:
+  name: '{xx-xx} Mekare  Russia'
+  builders: Rahl Mekare
+  security: 9
+  area_flags: 0
+  vnums:
+  - 11500
+  - 11599
+mobiles:
+- vnum: 11500
+  keywords: palace guard
+  short_desc: a palace guard
+  long_desc: |
+    A palace guard is standing here, guarding the gate.
+  description: ''
+  race: Human
+  act: ABFT
+  affected_by: Jc
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 0
+  hitroll: 0
+  hit:
+    number: 0
+    type: 0
+    bonus: 0
+  mana:
+    number: 0
+    type: 0
+    bonus: 0
+  damage:
+    number: 0
+    type: 0
+    bonus: 0
+  dam_type: 3
+  ac:
+    pierce: 0
+    bash: 0
+    slash: 0
+    exotic: 0
+  off_flags: CDFIJKT
+  imm_flags: A
+  res_flags: B
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+rooms:
+- vnum: 11500
+  name: A Winding Road
+  description: "You are traveling along a winding road on your way to the great city\
+    \ of\nSt.  Petersburg.  The peaks of the Gora Roman-Kos Mountain pierce the sky\
+    \ to\nyour south.  You may continue your journey into the city or turn back now\
+    \ to\nmore familiar territory.  \n"
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11501
+  extra_descs: []
+- vnum: 11501
+  name: The Road to Pertograd
+  description: "As you continue your journey into the Russian capitol you start to\
+    \ recall\nstories about the wandering monks that lurk in these parts.  The starets\
+    \ are\nsaid to have mystical powers of the mind and can be very unpredictable.\
+    \  You\nquickly check for your weapon before continuing.  \n"
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11502
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11500
+  extra_descs: []
+- vnum: 11502
+  name: The City Awaits
+  description: "You can start to make out the form of St.  Petersburg in the distance\
+    \ but\nyour view of the great city becomes distorted due to the driving wind and\n\
+    the falling snow.  You pull your cloak around you to stay warm.  Not too\nlong\
+    \ before you are safe within the walls of the city.  \n"
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11503
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11501
+  extra_descs: []
+- vnum: 11503
+  name: Approaching the Gates
+  description: "As you approach the gates you notice the presence of cossack troops,\
+    \ of\nthe Imperial Guard.  You hestitate and wonder if you should find a different\n\
+    way into the city.  \n"
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11505
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11502
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11504
+  extra_descs: []
+- vnum: 11504
+  name: Cossack Troops
+  description: "Soldiers of the Imperial Guard stand here blocking your entry into\
+    \ the\ncity.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11503
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11506
+  extra_descs: []
+- vnum: 11505
+  name: Outskirts of Pertograd
+  description: "You continue along the edge of the city in the hopes of finding another,\n\
+    less populated entrance.  You can hear voices further to the north but can't\n\
+    see anyone.  Do you continue?  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11508
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11503
+  extra_descs: []
+- vnum: 11506
+  name: The Gates
+  description: "You stand before the gates of the Russian capitol.  Now all you have\
+    \ to\ndo is gain entry.  Looking through the gates you see more cossack troops.\
+    \ \nThis isn't going to be as easy as you thought.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11504
+  extra_descs: []
+- vnum: 11508
+  name: More Guards
+  description: "There are Imperial Guards everywhere.  Maybe you should just turn\
+    \ back\nand try the gate.  Unless, of course, you can simply get a key.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11509
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11505
+  extra_descs: []
+- vnum: 11509
+  name: The Captain
+  description: "You've managed to stumble upon the captain of the guard.  It seems\
+    \ that\nhe's pleased to make your aquaintance...  Or not.  It's do or die now!\
+    \  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11508
+  extra_descs: []
+- vnum: 11510
+  name: Inside the Gates of Petrograd
+  description: "You are standing just inside the gates of the city.  Imperial troops\
+    \ are\neverywhere.  You'd love to spend some time wandering around St.  Petersburg\n\
+    but you sense that the only place you must explore is the palace.  Many\ngreat\
+    \ things await you behind those palace walls.  \n"
+  room_flags: C
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11511
+  extra_descs: []
+- vnum: 11511
+  name: In Town
+  description: "You've decided to take a less conspicuous route to the palace, sneaking\n\
+    your way through the back alleys.  It is keeps you protected from the harsh,\n\
+    winter elements.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11510
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11512
+  extra_descs: []
+- vnum: 11512
+  name: The Alley
+  description: "It is much darker going this way, but perhaps that's a good thing.\
+    \  It\nwill make it harder for the troops to find you.  That is, if they're looking\n\
+    for you.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11511
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11513
+  extra_descs: []
+- vnum: 11513
+  name: The Alley
+  description: "You continue to make your way through the alley and realize that there's\n\
+    another perfectly good reason for it to be so dark, so you can't see what it\n\
+    is that you're stepping in!  Ugh!  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11512
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11514
+  extra_descs: []
+- vnum: 11514
+  name: A Clearing in the Alley
+  description: "You come to a sort of clearing in the alley.  There is a door to your\n\
+    north with a small light above the entrance.  You figure it must be a bar of\n\
+    some sort.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: A
+    key: 0
+    to_vnum: 11515
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11513
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11516
+  extra_descs: []
+- vnum: 11515
+  name: A Quiet, Dirty Pub
+  description: "You are standing in a poorly lit pub.  A bartender stands behind the\
+    \ bar\nwiping it down with a dirty rag.  There are a few men sitting at the bar\n\
+    arguing.  You listen to part of their conversation, they mention that the\npalace\
+    \ has several secret passages.  Interesting, this information might\nprove to\
+    \ be useful.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: A
+    key: 0
+    to_vnum: 11514
+  extra_descs: []
+- vnum: 11516
+  name: The Alley
+  description: "You continue your way through the alley.  Further to the west you\
+    \ can see\nthe spires of the palace.  \n"
+  room_flags: A
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11514
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11517
+  extra_descs: []
+- vnum: 11517
+  name: The Alley
+  description: "You are nearing the walls of the palace and of course, you are\nanticipating\
+    \ more guards.  Better prepare yourself.  They may not take\nkindly to a stranger\
+    \ lurking in the shadows.  \n"
+  room_flags: A
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11516
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11518
+  extra_descs: []
+- vnum: 11518
+  name: The Palace Awaits
+  description: "You've finally made your way out of the dark alley and find yourself\
+    \ on a\nsmall side street.  It appears to lead north into the city and south into\n\
+    the forest, and ultimately, the palace.  You feel your heart race as you\nrealize\
+    \ just how close you are.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11519
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11517
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11520
+  extra_descs: []
+- vnum: 11519
+  name: A Road Into The City
+  description: "For some reason you've decided to take your chances and venture into\
+    \ the\ncity.  So far, so good, no problems yet!  Maybe a nice warm bed and a hot\n\
+    meal in town will do you good!  You hear a faint noise, hmmm, sounds almost\n\
+    like dogs barking.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11521
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11518
+  extra_descs: []
+- vnum: 11520
+  name: An Old Road into the Forest
+  description: "You decide to follow the old road, at least it will get you away from\
+    \ the\ndangers that await you in the city.  Although, who knows what you'll run\n\
+    into amongst the trees.  None the less, you continue your journey.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11518
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11522
+  extra_descs: []
+- vnum: 11521
+  name: Road Block!
+  description: "Well, now you've done it!  Barking dogs indeed!  With razor sharp\
+    \ teeth! \nTrained just for such an event!  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11519
+  extra_descs: []
+- vnum: 11522
+  name: Further into the Dark, Russian Forest
+  description: "You notice that the road narrows as you venture deeper into the forest,\n\
+    turning more into a trail.  The trees shelter you from the harsh Russian\nwinter\
+    \ as you continue your way south.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11520
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11523
+  extra_descs: []
+- vnum: 11523
+  name: Further into the Dark, Russian Forest
+  description: "You wonder how much further it is to the Palace, or if you should\
+    \ maybe\nturn back.  It's cold, and dark in this deep forest.  No one around for\n\
+    miles, except maybe the wolves.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11522
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11524
+  extra_descs: []
+- vnum: 11524
+  name: Further into the Dark, Russian Forest
+  description: "It seems you have some choices to make.  Choose wisely, this is not\
+    \ the\nplace to get lost.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11523
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11526
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11525
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11527
+  extra_descs: []
+- vnum: 11525
+  name: Darkness
+  description: |
+    Nothing but darkness surrounds you, and there's no way out.
+  room_flags: AC
+  sector: 3
+  owner: ''
+  exits: []
+  extra_descs: []
+- vnum: 11526
+  name: Darkness
+  description: |
+    Nothing but darkness surrounds you, and there's no way out.
+  room_flags: AC
+  sector: 3
+  owner: ''
+  exits: []
+  extra_descs: []
+- vnum: 11527
+  name: A Lighter Path
+  description: "Wise choice!  Although, as you look around, you don't see much of\
+    \ a\ndifference.  You're tired, and wish this journey would end.  But you know\n\
+    the rewards of the Palace can't be too far off.  You push yourself further. \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11524
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11528
+  extra_descs: []
+- vnum: 11528
+  name: A Lighter Path
+  description: "The forest isn't as dark and threatening here and you can definately\
+    \ see\nthe end of the trail in the distance.  Although, you're not exactly sure\n\
+    where the trail will end.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11527
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11529
+  extra_descs: []
+- vnum: 11529
+  name: A Lighter Path
+  description: "You now figure you'll end up somewhere on the north side of the town\
+    \ of\nTsarskoe Selo.  That means you may be closer to the palace than you thought!\n\
+    You quicken your pace through the forest.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11528
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11530
+  extra_descs: []
+- vnum: 11530
+  name: Babylon Park
+  description: "How pleasant!  You find yourself, as you thought, on the north side\
+    \ of\nthe town.  This is Babylon Park, but you're not in the mood for a leisurely\n\
+    stroll.  Surely the Tsar's guards will be on the lookout.  \n"
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11529
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11531
+  extra_descs: []
+- vnum: 11531
+  name: Babylon Park
+  description: "The park itself is huge!  Trees shelter most of the area and prevent\
+    \ you\nfrom instantly seeing an exit.  Better keep searching.  \n"
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11533
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11530
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11532
+  extra_descs: []
+- vnum: 11532
+  name: Babylon Park
+  description: "The park itself is huge!  Trees shelter most of the area and prevent\
+    \ you\nfrom instantly seeing an exit.  Better keep searching.  \n"
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11534
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11531
+  extra_descs: []
+- vnum: 11533
+  name: Babylon Park
+  description: "The park itself is huge!  Trees shelter most of the area and prevent\
+    \ you\nfrom instantly seeing an exit.  Better keep searching.  \n"
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11531
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11534
+  extra_descs: []
+- vnum: 11534
+  name: Babylon Park
+  description: "The park itself is huge!  Trees shelter most of the area and prevent\
+    \ you\nfrom instantly seeing an exit.  Better keep searching.  \n"
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11535
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11533
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11532
+  extra_descs: []
+- vnum: 11535
+  name: Towards the Palace
+  description: "The awe-inspiring Fyodorovsky Catherdral rises to your west, you can\n\
+    almost feel the power raidiating from behind its heavy, engraved oak doors. \n\
+    The Imperial Palace should be towards the west.  \n"
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11536
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11534
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11541
+  extra_descs: []
+- vnum: 11536
+  name: The Imperial Fyodorovsky Cathedral
+  description: "This cathedral was designed to emmulate the Annunciation Church in\n\
+    Moscow.  There are several entrances to the cathedral, for visitors to enter\n\
+    according to rank.  The spires and domes of the cathedral are like those of\n\
+    the Kremlin in Moscow.  A pair of enormous oak doors are before you.  \n"
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11537
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11535
+  extra_descs: []
+- vnum: 11537
+  name: The Imperial Fyodorovsky Cathedral
+  description: "You can't believe how incredibly huge this place is!  Paintings of\
+    \ saints\ncover the walls and domes.  Religious ikons rest in niches in the walls,\
+    \ and\nbefore you, towers a beautiful marble altar, enchantingly mysterious and\n\
+    holding many secrets.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11536
+  extra_descs: []
+- vnum: 11538
+  name: The Fyodorovsky Cathedral
+  description: ''
+  room_flags: CD
+  sector: 0
+  owner: ''
+  exits: []
+  extra_descs: []
+- vnum: 11539
+  name: The Fyodorovsky Cathedral
+  description: ''
+  room_flags: CD
+  sector: 0
+  owner: ''
+  exits: []
+  extra_descs: []
+- vnum: 11540
+  name: The Fyodorovsky Cathedral
+  description: ''
+  room_flags: CD
+  sector: 0
+  owner: ''
+  exits: []
+  extra_descs: []
+- vnum: 11541
+  name: Towards the Palace
+  description: "You can now see the gates of the palace to the west.  Beyond the gates\n\
+    and across Alexander Park you will see the enormous palace amongst the\nfountains\
+    \ and finely manicured lawns.  \n"
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11535
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11542
+  extra_descs: []
+- vnum: 11542
+  name: The Alexander Palace
+  description: "The Imperial Palace stands regally before you is all its mighty splendor.\n\
+    You immediately realize that you can't simply walk through the front doors\nand\
+    \ expect to be welcomed.  Better find your own way in.  \n"
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11541
+  extra_descs: []
+- vnum: 11543
+  name: An Underground Tunnel
+  description: "You've discovered a secret tunnel behind the altar!  Could this be\
+    \ like\nthe ones you've heard about in the Palace?  The altar slams shut behind\
+    \ you,\nguess you're stuck down here.  \n"
+  room_flags: A
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11544
+  extra_descs: []
+- vnum: 11544
+  name: An Underground Tunnel
+  description: "It's damp, and dark, and cold down here.  What person could possibly\
+    \ want\nto use this method?  You are getting discouraged.  \n"
+  room_flags: A
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11543
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11545
+  extra_descs: []
+- vnum: 11545
+  name: An Underground Tunnel
+  description: "Guck oozes from the tunnel ceiling.  You are not amused.  You can't\
+    \ see a\nthing.  \n \n"
+  room_flags: A
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11544
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11546
+  extra_descs: []
+- vnum: 11546
+  name: A Dead End
+  description: "Nothing.  Absolutely nothing.  Now what do you do?  There MUST be\
+    \ a way\nout!  \n"
+  room_flags: A
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11545
+  extra_descs: []
+- vnum: 11550
+  name: Semi-Circular Hall
+  description: "This is the main hall of the Parade Rooms.  The walls are covered,\
+    \ in\ntypical Russian style, in the same white marble as some of the other halls.\
+    \ \nThe central doors of the apse open out onto a terrace overlooking the\nAlexander\
+    \ Gardens.  White marble fireplaces are situated on either side of\nthe main entrance.\
+    \  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11552
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11582
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11551
+  extra_descs: []
+- vnum: 11551
+  name: Portrait Hall
+  description: "This hall is sparsely furnished, with only a dozen or so chairs and\n\
+    sofas, all guilded pieces covered in fine blue silk.  On the walls hang\nportraits\
+    \ documenting several generations of the Romanov Dynasty.  Again,\nthese walls\
+    \ are covered in the same white marble as the other Great Halls.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11550
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11584
+  extra_descs: []
+- vnum: 11552
+  name: Billiard Hall
+  description: "This room is rather large and is connected to the room on the right\
+    \ by\nwide arched column arcades.  The walls are all covered in a white polished\n\
+    marble and is the reason why some call this the \"Marble Hall\".  The false\n\
+    windows over the cornices have clouds delicately painted on them.  There are\n\
+    several oil paintings hanging on the walls, one is of the Tsarina Aleksandra\n\
+    and there is even one of the great Queen Victoria herself.  To your north is\n\
+    a huge guilded pier mirror and it may be worth your while to take a closer\nlook.\
+    \  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11581
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11550
+  extra_descs: []
+- vnum: 11553
+  name: Mountain Hall
+  description: "Upon entering this room you immediately notice a great wooden slide!\
+    \ \nThis is where the Tsar's children spent much of their time entertaining\n\
+    friends.  Several bird cages are hung throughout the room holding\nmagnificent\
+    \ parrots of all colors.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11584
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11554
+  extra_descs: []
+- vnum: 11554
+  name: Great Library
+  description: "This room is unlike any library you've ever seen!  Books of all sizes\
+    \ and\nall topics fill the empire style mahogany bookcases.  Three great glass,\n\
+    crystal and guilded bronze lanterns hang in a row down the center of the\nroom.\
+    \  On top of the cases are models of mounted cavalrymen.  Several bronze\nstatuettes\
+    \ and ship models are placed neatly on tables throughout the room. \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11553
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11555
+  extra_descs: []
+- vnum: 11555
+  name: Smaller Library
+  description: "This room is much smaller than the Great Library, but its appearance\
+    \ is\njust as magnificent.  The same empire style mahogany bookcases line the\n\
+    walls of this room and are all filled with a unique collection of rare and\nhistorical\
+    \ books.  In the center of the room is a chippendale style table\nand chairs where\
+    \ the Tsar and his family sometimes prefer to dine.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11556
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11554
+  extra_descs: []
+- vnum: 11556
+  name: Smaller Library
+  description: "More books!!  The size of this collection is outstanding!  You could\n\
+    spend days in here just reading the covers of these books!  This library\ncontains\
+    \ the private collection of the Royal Family.  Two mahogany desks are\nsituated\
+    \ in the center of the room and are used by the two full time\nlibrarians employed\
+    \ by the Tsar.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11555
+  extra_descs: []
+- vnum: 11557
+  name: Palace Chapel
+  description: "This room is long and very narrow with an arcade running along the\
+    \ right\nside of the room.  The altar, in front of you, is quite spectacular.\
+    \  There\nare several columns running the length of the chapel, the cornices and\n\
+    capitals are intricately carved.  Artificial marble, in an icy sea green,\ncover\
+    \ the columns and walls.  The wall panels are framed in a darker color\nmarble.\
+    \  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11581
+  extra_descs: []
+- vnum: 11558
+  name: The Tsar's Reception Room
+  description: "This is where guests wait to be admitted to the Tsar's office.  The\
+    \ walls\nare covered in a dark panelling and above this is a deep, rich blue fabric\n\
+    stamped with a gold fleur-d-lis pattern.  A portrait of Aleksandra hangs on\n\
+    the west wall.  The furniture is also dark wood and covered in a soft\nstudded\
+    \ leather.  A mable-faced fireplace with a tall wooden chimney keeps\nthis room\
+    \ warm and cozy.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11591
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11559
+  extra_descs: []
+- vnum: 11559
+  name: Working Study
+  description: "This room is dark and masuline and is decorated with only materials\
+    \ of\nthe richest kind.  The walls are panelled half-way up in walnut and then\n\
+    painted a deep red.  The furniture is all carved in dark oak or walnut, some\n\
+    new, and some pieces of the Romanov family collection.  The Tsar's desk is\nL-shaped\
+    \ and is covered with family pictures, folders, appointment books and\na clock.\
+    \  There is also a marble-faced fireplace in this room, similar to\nthe one in\
+    \ his reception room but on a smaller scale.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11558
+  extra_descs: []
+- vnum: 11560
+  name: The Tsar's Bathroom
+  description: "A giant heated swimming tubs sit on a platform on the north wall of\
+    \ this\nmagnificent room.  On the west wall are two dressing tables and a cage\n\
+    hanging from above holds a brightly colored parrot.  A table sits under the\n\
+    window opposite the tub and on it are many of the Tsar's personal treasures\n\
+    including gifts from his children.  Above the doorway is draped a\nembroidered\
+    \ cloth with a double eagle.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11561
+  extra_descs: []
+- vnum: 11561
+  name: Wardrobe Room
+  description: "The Tsar's dressing room is not nearly as magnificent as the Tsarina's\n\
+    but the size is just as grand.  The walls are covered in a dark mahogany\npanelling\
+    \ as are the closet doors.  A comfortable looking armchair rests in\nthe corner,\
+    \ other than that, there is no furniture at all.  The Tsar's\nwardrobe consists\
+    \ mainly of uniforms, but when he's dressed up in one for a\nformal affair he\
+    \ looks just as regal as his lovely wife.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11594
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11560
+  extra_descs: []
+- vnum: 11562
+  name: New Study Room
+  description: "This is where the Tsar takes care of any official affairs and is\n\
+    therefore designed with an international flair.  The walls and ceiling are\npanelled\
+    \ in a dark, tropical mahogany and grey Austrian marble columns\nrivited with\
+    \ gilded bronze stand regally on either side of the Tsar's\nChippendale desk.\
+    \  The Tsar also has a large pool table made of mahogany\nbehind his desk where\
+    \ he sometimes passes the time with guests.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11595
+  extra_descs: []
+- vnum: 11563
+  name: Formal Reception Room
+  description: "This room is one of the sunniest areas of the palace.  Seven big windows\n\
+    look out from this room onto the Alexander Park.  The walls are covered with\n\
+    white artificial marble and topped by a beautifully molded entablature.  The\n\
+    stark whiteness of the room is set off by heavy cranberry colored curtains. \n\
+    Two ivory screens covered in tapestry bear the Royal Monogram.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11570
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11595
+  extra_descs: []
+- vnum: 11564
+  name: Maple Room
+  description: "This is one of the largest of Aleksandra's private rooms, and possibly\n\
+    one of the most exquisite.  The walls of the room are painted pink with\ntrellises\
+    \ of carved plaster cabbage roses rising into a swirled pale green\ncircle in\
+    \ the center of the ceiling.  Bearskin rugs sprawl across the\ngray-green castor\
+    \ carpet.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11595
+  extra_descs: []
+- vnum: 11565
+  name: Pallisander Room
+  description: "This is where the Tsar and Tsarina play hosts to their special guests\
+    \ and\nclose friends.  The room is panelled in a highly polished rosewood, making\n\
+    the room warm and inviting.  The furniture is of the same rosewood.  This is\n\
+    where the family oftens sits down for tea together.  The Tsarina keeps most\n\
+    of her personal treasures in this very room.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11594
+  extra_descs: []
+- vnum: 11566
+  name: Mauve Room
+  description: "This room got it's name from the opal colored silk on the walls and\
+    \ was\nthe Tsarina's favorite.  The same silk, in a textured brocade, covers the\n\
+    cream lemonwood furniture.  This room is the traditional family gathering\nroom\
+    \ and contains many interesting and personal items belonging to the\nImperial\
+    \ Royal Family.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11593
+  extra_descs: []
+- vnum: 11567
+  name: The Imperial Bedroom
+  description: "The walls of this room are covered in a lively cotton-chintz material,\n\
+    printed with green wreaths laced with pink ribbon.  The room is divided into\n\
+    two sections by a beautiful ivory silk curtain supported by two great\ncolumns.\
+    \  The sitting area, is made up of a few chairs and a sofa all\ndarkwood that\
+    \ has been painted ivory and covered in the same material as the\nwalls.  The\
+    \ sleeping area has a majestic gilt bronze bed covered in silk and\nlace coverlets\
+    \ and topped by piles of down-filled pillows.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11592
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11568
+  extra_descs: []
+- vnum: 11568
+  name: Aleksandra's Dressing Room
+  description: "This is where the Tsarina stores her many, many pieces of fine clothing.\
+    \ \nThe room itself is small by royal standards and contains a couple of\narmchairs\
+    \ in the same style as her bedroom.  It's amazing that one women\ncould wear all\
+    \ these clothes in a lifetime!  The Tsarina changes her clothes\nan average of\
+    \ 5 times daily.  Two maids make sure that her clothes are laid\nout and ready\
+    \ for Aleksandra in a timely manner.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11567
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11591
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11569
+  extra_descs: []
+- vnum: 11569
+  name: Aleksandra's Bathroom
+  description: "For a bathroom, this isn't so bad.  One could live in this entire\
+    \ space\nalone!  A huge, deep clawfoot bathtub sits on a raised platform and is\n\
+    filled every evening (by hand) by the Tsarina's two chamber maids.  A\nbeautiful\
+    \ ivory wood vanity rests against the wall and on it is many\npersonal momentos\
+    \ of the Tsarina's.  One the opposite wall is a elegant\nmarble fireplace which\
+    \ is also lit for the Tsarina's bath every evening to\nensure that her Royal Highness\
+    \ doesn't catch a chill.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11568
+  extra_descs: []
+- vnum: 11570
+  name: The Tsarina's Balcony
+  description: "You find yourself on a large, beautiful and spacious balcony.  One\
+    \ could\nquite easily entertain many guests here and the Tsarina does just that,\n\
+    serving tea to a dozen or so guests.  The balocony overlooks Alexander Park\n\
+    and in the distance you can see the spires of the cathedral.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11563
+  extra_descs: []
+- vnum: 11571
+  name: Children's Dining Room
+  description: "This is where the children receive their meals, those that are not\
+    \ taken\nwith their parents that is.  Unlike the formal dining room this one is\
+    \ quite\ncomfortable.  The walls are decorated with a lively print and the furniture\n\
+    is light oak.  The table is covered in a beautiful antique white, lace table\n\
+    cloth.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11585
+  extra_descs: []
+- vnum: 11572
+  name: Sitting Room
+  description: "This is where the oldest of the children entertain their guests, or\
+    \ just\ngather together for long talks.  The walls are panelled in a dark wood\
+    \ and\nthe furniture is gilded bronze with deep, red velvet coverings.  Personal\n\
+    pictures of the girls with their family and friends are placed on the tables\n\
+    and hang on the walls.  A desk is in the corner and on it is writing paper\nand\
+    \ ink for the Duchesses' personal correspondence.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11586
+  extra_descs: []
+- vnum: 11573
+  name: Class Room
+  description: "The classroom is very simple in appearance but still is not totally\
+    \ free\nof Romanov elegance.  The walls are panelled in a rich mahogany with a\n\
+    chalkboard on the west wall.  Mahogany desks are lined up facing the board\nin\
+    \ an orderly fashion.  There are bookshelves along the other walls\ncontaining\
+    \ the neccessary tools required for the children's daily studies\nwith their tutors.\
+    \  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11587
+  extra_descs: []
+- vnum: 11574
+  name: Bathroom
+  description: "The girl's bathroom is fashioned in the same style as their mother's.\
+    \  A\ndeep, clawfoot tub rests on a platform and there are four dressing tables\n\
+    along the east and north walls.  Each of the girls have personal belongings\n\
+    and momentos cluttering the tables as well as jeweled hairbrushes and\nmatching\
+    \ mirrors.  This room, depite it's incredible size, doesn't seem like\nenough\
+    \ room for four girls, but then again, is any room?  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11588
+  extra_descs: []
+- vnum: 11575
+  name: Olga and Tatiana's Room
+  description: "The walls of this room are painted pink and above the cornice they\
+    \ are\nstencilled in a lively frieze of flowered vines and bronze colored\ndragonflies.\
+    \  The same design is in the chintz material that covers the\nchairs and the fabric\
+    \ partition that seperates Tatiana's sleeping area from\nthe rest of the room.\
+    \  There are also chairs covered in a striped green\nsilk.  The furniture is all\
+    \ made of maple, stained grey.  Photographs and\npaintings cover the walls and\
+    \ personal mementos scatter this room as well.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11576
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11589
+  extra_descs: []
+- vnum: 11576
+  name: Maria and Anastasia's Room
+  description: "This room is very similar to their sisters' room to the west.  The\
+    \ walls\nare painted the same pink and the same stencil runs around the top of\
+    \ the\nroom.  Here, Anastasia is the one who sleeps behind the screen and Maria's\n\
+    bed is placed neatly in the center of the room.  A beautiful fireplace,\nsurrounded\
+    \ by German tiles keeps the dampness out of the room.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11590
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11575
+  extra_descs: []
+- vnum: 11577
+  name: Playroom
+  description: "This is the childern's playroom, and although it is named as such\
+    \ it is\nstill as elegant and regal as any other room in the palace.  This is,\n\
+    essentially, where the Grand Duchesses and the young Tsarevich entertain\ntheir\
+    \ own guests.  The room, despite it's enormous size, can not hold all of\nthe\
+    \ many toys and dolls that the children own and each evening they place an\norder\
+    \ for the toys they require for the next day and the selected toys are\nbrought\
+    \ up from the basement by palace servants before the children awake.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11578
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11590
+  extra_descs: []
+- vnum: 11578
+  name: Aleksey's Room
+  description: "The Tsarevich's room is quite simple in fact.  The walls are covered\
+    \ in a\nlight blue fabric and the furniture is dark oak.  On the west wall of\
+    \ the\nroom is a display case housing many magnificent ikons from monsasteries\
+    \ and\nholy convents across Russia.  These were all given to Aleksey in the hopes\n\
+    that they will somehow aid him as he struggles against his dreadful disease.\n\
+    Above his bed is an ikon of St.  Seraphim of Sarovskii, Aleksey's patron\nsaint.\
+    \  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11577
+  extra_descs: []
+- vnum: 11579
+  name: Music Room
+  description: "The walls of this room are covered in the typical white artificial\
+    \ mable\nwith grand columns and arches in molded plaster.  There are two grand\
+    \ pianos\nin the center of the room with several antique chairs scattered throughout\n\
+    as well.  This is where the three oldest Grand Duchesses practice their\nlessons,\
+    \ a teacher is brought in every afternoon the ensure that they keep\nplaying magnificently.\
+    \  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11585
+  extra_descs: []
+- vnum: 11580
+  name: Corridor Elevator
+  description: "You find yourself enclosed in a small, dark elevator.  There are only\
+    \ two\nbuttons, up and down.  This should be easy to figure out.  \n"
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11584
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11596
+  extra_descs: []
+- vnum: 11581
+  name: A Majestic Hallway
+  description: "This hallway is long and spacious, with many exits leading to majestic\n\
+    rooms.  The walls are covered in a chaste, white artificial marble that is\ntypical\
+    \ throughout this rooms on this floor.  \n"
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11552
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11557
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11582
+  extra_descs: []
+- vnum: 11582
+  name: A Majestic Hallway
+  description: "This hallway is long and spacious, with many exits leading to majestic\n\
+    rooms.  The walls are covered in a chaste, white artificial marble that is\ntypical\
+    \ throughout this rooms on this floor.  \n"
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11550
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11581
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11584
+  extra_descs: []
+- vnum: 11583
+  name: The White Room
+  description: ''
+  room_flags: ACD
+  sector: 0
+  owner: ''
+  exits: []
+  extra_descs: []
+- vnum: 11584
+  name: A Majestic Hallway
+  description: "This hallway is long and spacious, with many exits leading to majestic\n\
+    rooms.  The walls are covered in a chaste, white artificial marble that is\ntypical\
+    \ throughout this rooms on this floor.  \nThere is an iron gate to your south.\n"
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11551
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11582
+  - dir: 2
+    desc: ''
+    keywords: gate
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11580
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11553
+  extra_descs: []
+- vnum: 11585
+  name: A Majestic Hallway
+  description: "This hallway is long and spacious, with many exits leading to majestic\n\
+    rooms.  The walls are covered in a chaste, white artificial marble that is\ntypical\
+    \ throughout this rooms on this floor.  \nThere is an iron gate to the west.\n"
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11571
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11586
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11579
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11597
+  extra_descs: []
+- vnum: 11586
+  name: A Majestic Hallway
+  description: "This hallway is long and spacious, with many exits leading to majestic\n\
+    rooms.  The walls are covered in a chaste, white artificial marble that is\ntypical\
+    \ throughout this rooms on this floor.  \n"
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11572
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11587
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11585
+  extra_descs: []
+- vnum: 11587
+  name: A Majestic Hallway
+  description: "This hallway is long and spacious, with many exits leading to majestic\n\
+    rooms.  The walls are covered in a chaste, white artificial marble that is\ntypical\
+    \ throughout this rooms on this floor.  \n"
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11573
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11588
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11586
+  extra_descs: []
+- vnum: 11588
+  name: A Majestic Hallway
+  description: "This hallway is long and spacious, with many exits leading to majestic\n\
+    rooms.  The walls are covered in a chaste, white artificial marble that is\ntypical\
+    \ throughout this rooms on this floor.  \n"
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11574
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11589
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11587
+  extra_descs: []
+- vnum: 11589
+  name: A Majestic Hallway
+  description: "This hallway is long and spacious, with many exits leading to majestic\n\
+    rooms.  The walls are covered in a chaste, white artificial marble that is\ntypical\
+    \ throughout this rooms on this floor.  \n"
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11575
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11590
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11588
+  extra_descs: []
+- vnum: 11590
+  name: A Majestic Hallway
+  description: "This hallway is long and spacious, with many exits leading to majestic\n\
+    rooms.  The walls are covered in a chaste, white artificial marble that is\ntypical\
+    \ throughout this rooms on this floor.  \n"
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11576
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11577
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11589
+  extra_descs: []
+- vnum: 11591
+  name: A Majestic Hallway
+  description: "This hallway is long and spacious, with many exits leading to majestic\n\
+    rooms.  The walls are covered in a chaste, white artificial marble that is\ntypical\
+    \ throughout this rooms on this floor.  \nThere is an iron gate to your west.\n"
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11568
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11592
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11558
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11596
+  extra_descs: []
+- vnum: 11592
+  name: A Majestic Hallway
+  description: "This hallway is long and spacious, with many exits leading to majestic\n\
+    rooms.  The walls are covered in a chaste, white artificial marble that is\ntypical\
+    \ throughout this rooms on this floor.  \n"
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11567
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11593
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11591
+  extra_descs: []
+- vnum: 11593
+  name: A Majestic Hallway
+  description: "This hallway is long and spacious, with many exits leading to majestic\n\
+    rooms.  The walls are covered in a chaste, white artificial marble that is\ntypical\
+    \ throughout this rooms on this floor.  \n"
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11566
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11594
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11592
+  extra_descs: []
+- vnum: 11594
+  name: A Majestic Hallway
+  description: "This hallway is long and spacious, with many exits leading to majestic\n\
+    rooms.  The walls are covered in a chaste, white artificial marble that is\ntypical\
+    \ throughout this rooms on this floor.  \n"
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11565
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11595
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11561
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11593
+  extra_descs: []
+- vnum: 11595
+  name: A Majestic Hallway
+  description: "This hallway is long and spacious, with many exits leading to majestic\n\
+    rooms.  The walls are covered in a chaste, white artificial marble that is\ntypical\
+    \ throughout this rooms on this floor.  \n"
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11564
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11563
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11562
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11594
+  extra_descs: []
+- vnum: 11596
+  name: Corridor Elevator
+  description: "You find yourself enclosed in a small, dark elevator.  There are only\
+    \ two\nbuttons, up and down.  This should be easy to figure out.  \n"
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: gate
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11591
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11597
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11580
+  extra_descs: []
+- vnum: 11597
+  name: Corridor Elevator
+  description: "You find yourself enclosed in a small, dark elevator.  There are only\
+    \ two\nbuttons, up and down.  This should be easy to figure out.  \n"
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: gate
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11585
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 11596
+  extra_descs: []
+resets:
+- command: D
+  arg1: 11514
+  arg2: 0
+  arg3: 0
+- command: D
+  arg1: 11515
+  arg2: 2
+  arg3: 0

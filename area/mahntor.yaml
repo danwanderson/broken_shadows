@@ -1,0 +1,7600 @@
+area:
+  name: '{ 5 35} Chris   The Keep of Mahn-Tor'
+  builders: None
+  security: 9
+  area_flags: 0
+  vnums:
+  - 2300
+  - 2399
+mobiles:
+- vnum: 2300
+  keywords: knight ethereal dark
+  short_desc: the Dark Ethereal Knight
+  long_desc: |
+    A dark ethereal knight hovers over the bloody clearing.
+  description: |
+    The ethereal knight is clad in shadowy black armor. It appears as though he
+    was involved in the carnage that occurred here. His soul is trapped here, as
+    he waits for release.
+  race: Human
+  act: ABT
+  affected_by: DH
+  affected2_by: '0'
+  alignment: -1000
+  clan: 0
+  level: 25
+  hitroll: 0
+  hit:
+    number: 10
+    type: 42
+    bonus: 322
+  mana:
+    number: 25
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 8
+    bonus: 16
+  dam_type: 11
+  ac:
+    pierce: -5
+    bash: -5
+    slash: -5
+    exotic: 2
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 2500
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_undead
+- vnum: 2301
+  keywords: treant tree
+  short_desc: the Old Treant
+  long_desc: |
+    A huge, gnarled tree stands here, battered by age and nature.
+  description: "The old tree looks as though the wind has battered and torn at it\
+    \ for years.\nVery few leaves remain. Its limbs are crooked and gnarled. It moans\
+    \ as the \nwind pushes it back and forth.\n"
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 250
+  clan: 0
+  level: 21
+  hitroll: 0
+  hit:
+    number: 8
+    type: 37
+    bonus: 252
+  mana:
+    number: 21
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 7
+    bonus: 12
+  dam_type: 7
+  ac:
+    pierce: -3
+    bash: -3
+    slash: -3
+    exotic: 3
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 500
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2302
+  keywords: dweller cave creature
+  short_desc: the Cave Dweller
+  long_desc: |
+    A slimy, gross creature is here munching on a corpse.
+  description: |
+    The cave dweller looks like a mixture of several disgusting monsters. It has
+    a bird's beak, huge white eyes, a furry body, and long clawed hands and feet.
+    It sees you and snarls.
+  race: Human
+  act: ABFT
+  affected_by: CEP
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 14
+  hitroll: 0
+  hit:
+    number: 4
+    type: 33
+    bonus: 145
+  mana:
+    number: 14
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 6
+    bonus: 7
+  dam_type: 11
+  ac:
+    pierce: 1
+    bash: 1
+    slash: 1
+    exotic: 5
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 250
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_breath_acid
+- vnum: 2303
+  keywords: toad rock
+  short_desc: the Rock Toad
+  long_desc: |
+    A rather large rock toad sits here, croaking loudly.
+  description: |
+    A grey toad. Its about the size of a cow. Small horns grow all over its body.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -250
+  clan: 0
+  level: 15
+  hitroll: 0
+  hit:
+    number: 4
+    type: 37
+    bonus: 162
+  mana:
+    number: 15
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 6
+    bonus: 9
+  dam_type: 7
+  ac:
+    pierce: 0
+    bash: 0
+    slash: 0
+    exotic: 5
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 6
+  default_pos: 6
+  sex: 0
+  gold: 255
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2304
+  keywords: weeping willow tree
+  short_desc: the Weeping Willow
+  long_desc: |
+    A large willow tree stands here, weeping.
+  description: |
+    The weeping willow has long thins branches. These branches seem to droop in
+    anguish and dismay. You hear a faint sound of crying.
+  race: Human
+  act: ABT
+  affected_by: DH
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 24
+  hitroll: 0
+  hit:
+    number: 10
+    type: 38
+    bonus: 311
+  mana:
+    number: 24
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 8
+    bonus: 14
+  dam_type: 7
+  ac:
+    pierce: -5
+    bash: -5
+    slash: -5
+    exotic: 2
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 2000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2305
+  keywords: mist mistling
+  short_desc: the Mistling
+  long_desc: |
+    A mistling emerges from the mist surrounding you.
+  description: |
+    It looks like a thin wisp of mist that has gained substance and size.
+  race: Human
+  act: ABFT
+  affected_by: Q
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 14
+  hitroll: 0
+  hit:
+    number: 4
+    type: 33
+    bonus: 145
+  mana:
+    number: 14
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 6
+    bonus: 7
+  dam_type: 11
+  ac:
+    pierce: 1
+    bash: 1
+    slash: 1
+    exotic: 5
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 100
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2306
+  keywords: swamp wraith
+  short_desc: the Swamp Wraith
+  long_desc: |
+    A swamp wraith emerges from the mist here.
+  description: |
+    The swamp wraith is made of mist and is in the image of a great warrior. He
+    appears to emerge from the mist. You feel the cold radiating from his form as
+    he nears you.
+  race: Human
+  act: ABCFT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -1000
+  clan: 0
+  level: 21
+  hitroll: 0
+  hit:
+    number: 8
+    type: 37
+    bonus: 252
+  mana:
+    number: 21
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 7
+    bonus: 12
+  dam_type: 3
+  ac:
+    pierce: -3
+    bash: -3
+    slash: -3
+    exotic: 3
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 2500
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_poison
+- vnum: 2307
+  keywords: ogre villager
+  short_desc: the Ogre Villager
+  long_desc: |
+    The ogre villager is here, going about its chores.
+  description: |
+    You see a pitifully overworked ogre. It is dressed in rags and shuffles along
+    with its head hung low. It sees you and cringes in mortal terror.
+  race: Human
+  act: AGHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -200
+  clan: 0
+  level: 10
+  hitroll: 0
+  hit:
+    number: 2
+    type: 33
+    bonus: 96
+  mana:
+    number: 10
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 5
+    bonus: 7
+  dam_type: 7
+  ac:
+    pierce: 3
+    bash: 3
+    slash: 3
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 20
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2308
+  keywords: warrior ogre
+  short_desc: the Ogre Warrior
+  long_desc: |
+    The ogre warrior stands here, growling fiercely.
+  description: |
+    The ogre warrior is dressed in thick fur armor. He looks quite large and
+    formidable.
+  race: Human
+  act: ACFGHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -350
+  clan: 0
+  level: 15
+  hitroll: 0
+  hit:
+    number: 4
+    type: 37
+    bonus: 162
+  mana:
+    number: 15
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 6
+    bonus: 9
+  dam_type: 7
+  ac:
+    pierce: 0
+    bash: 0
+    slash: 0
+    exotic: 5
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 500
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2309
+  keywords: guard ogre
+  short_desc: the Ogre Guard
+  long_desc: |
+    The ogre guard is here manning his post faithfully.
+  description: |
+    The ogre guard stands here manning his post. It appears as though he would
+    fight to the death before abandoning his post.
+  race: Human
+  act: ABCFGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -500
+  clan: 0
+  level: 20
+  hitroll: 0
+  hit:
+    number: 7
+    type: 38
+    bonus: 238
+  mana:
+    number: 20
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 7
+    bonus: 10
+  dam_type: 3
+  ac:
+    pierce: -2
+    bash: -2
+    slash: -2
+    exotic: 3
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 1000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2310
+  keywords: shaman ogre
+  short_desc: The Ogre Shaman
+  long_desc: |
+    The ogre shaman is here chanting arcane words and waving his arms.
+  description: |
+    The ogre shaman is draped in thick fur cloaks and pelts. He has all types of
+    charms and holy symbols draped about him. He looks at you and snarls.
+  race: Human
+  act: ABCFGHT
+  affected_by: DH
+  affected2_by: '0'
+  alignment: -750
+  clan: 0
+  level: 20
+  hitroll: 0
+  hit:
+    number: 7
+    type: 38
+    bonus: 238
+  mana:
+    number: 20
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 7
+    bonus: 10
+  dam_type: 3
+  ac:
+    pierce: -2
+    bash: -2
+    slash: -2
+    exotic: 3
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 5000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_cleric
+- vnum: 2311
+  keywords: chief chieftain ogre
+  short_desc: the Ogre Chieftain
+  long_desc: |
+    The ogre chieftain is here, observing his subjects.
+  description: |
+    This is the biggest ogre you have ever seen. He is heavily equipped and looks
+    quite formidable. He towers high above you and growls menacingly.
+  race: Human
+  act: ABCFGHT
+  affected_by: DH
+  affected2_by: '0'
+  alignment: -1000
+  clan: 0
+  level: 25
+  hitroll: 0
+  hit:
+    number: 10
+    type: 42
+    bonus: 322
+  mana:
+    number: 25
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 8
+    bonus: 16
+  dam_type: 7
+  ac:
+    pierce: -5
+    bash: -5
+    slash: -5
+    exotic: 2
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 5000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2312
+  keywords: barbarian
+  short_desc: the Plains Barbarian
+  long_desc: |
+    A plains barbarian is here, clad in heavy furs.
+  description: |
+    The plains barbarian is clad in heavy furs. He seems used to the chilling cold
+    and icy wastes.
+  race: Human
+  act: ABCFGHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 19
+  hitroll: 0
+  hit:
+    number: 7
+    type: 34
+    bonus: 223
+  mana:
+    number: 19
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 6
+    bonus: 12
+  dam_type: 11
+  ac:
+    pierce: -1
+    bash: -1
+    slash: -1
+    exotic: 4
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 500
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2313
+  keywords: yeti white
+  short_desc: the White Yeti
+  long_desc: |
+    The white yeti crouches here snarling.
+  description: |
+    The white yeti looks like a huge white snow ape. Its long arms end in long
+    curved talons and its mouth is full of sharp teeth.
+  race: Human
+  act: ABCFGHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -350
+  clan: 0
+  level: 16
+  hitroll: 0
+  hit:
+    number: 5
+    type: 34
+    bonus: 175
+  mana:
+    number: 16
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 7
+    bonus: 8
+  dam_type: 3
+  ac:
+    pierce: 0
+    bash: 0
+    slash: 0
+    exotic: 5
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 100
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_breath_frost
+- vnum: 2314
+  keywords: worm ice iceworm
+  short_desc: the Ice Worm
+  long_desc: |
+    A huge ice worm burrows through the ice and snow here. It rears up and
+    attacks!
+  description: |
+    The huge worm is almost 50 feet long. Its huge gaping mouth spews ice and snow
+    as it charges directly at you.
+  race: Human
+  act: ABCFGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 20
+  hitroll: 0
+  hit:
+    number: 7
+    type: 38
+    bonus: 238
+  mana:
+    number: 20
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 7
+    bonus: 10
+  dam_type: 11
+  ac:
+    pierce: -2
+    bash: -2
+    slash: -2
+    exotic: 3
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 350
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_breath_acid
+- vnum: 2315
+  keywords: citizen minotaur
+  short_desc: the Minotaur Citizen
+  long_desc: |
+    A minotaur citizen is here, hurrying through the icy streets.
+  description: |
+    You see a rather ragged and cold minotaur. It appears to be looking for a warm
+    place to seek refuge from the cold.
+  race: Human
+  act: ABCGHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 100
+  clan: 0
+  level: 15
+  hitroll: 0
+  hit:
+    number: 4
+    type: 37
+    bonus: 162
+  mana:
+    number: 15
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 6
+    bonus: 9
+  dam_type: 3
+  ac:
+    pierce: 0
+    bash: 0
+    slash: 0
+    exotic: 5
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 1000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2316
+  keywords: guard minotaur
+  short_desc: the Minotaur Guard
+  long_desc: |
+    A minotaur guard catches you trespassing and attacks!
+  description: |
+    The minotaur is clad in heavy furs. Beneath these furs, you see the gleam of
+    his armor.
+  race: Human
+  act: ABCFGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -330
+  clan: 0
+  level: 23
+  hitroll: 0
+  hit:
+    number: 9
+    type: 39
+    bonus: 290
+  mana:
+    number: 23
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 8
+    bonus: 11
+  dam_type: 11
+  ac:
+    pierce: -4
+    bash: -4
+    slash: -4
+    exotic: 2
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 2500
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2317
+  keywords: warrior minotaur
+  short_desc: the Minotaur Warrior
+  long_desc: |
+    A minotaur warrior is here looking for intruders.
+  description: |
+    You see a huge minotaur that is dressed in thick furs and armor. He has black
+    fur and red eyes. He looks quite capable of protecting the city.
+  race: Human
+  act: ACFGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -330
+  clan: 0
+  level: 20
+  hitroll: 0
+  hit:
+    number: 7
+    type: 38
+    bonus: 238
+  mana:
+    number: 20
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 7
+    bonus: 10
+  dam_type: 11
+  ac:
+    pierce: -2
+    bash: -2
+    slash: -2
+    exotic: 3
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 2500
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2318
+  keywords: minotaur gatekeeper
+  short_desc: the Minotaur Gatekeeper
+  long_desc: |
+    A minotaur is here guarding the Keep of Mahn-Tor.
+  description: |
+    The minotaur stands rigidly before the gates of the keep. It looks quite
+    miserable standing in the driven snow and ice.
+  race: Human
+  act: ABCGT
+  affected_by: D
+  affected2_by: '0'
+  alignment: -330
+  clan: 0
+  level: 26
+  hitroll: 0
+  hit:
+    number: 10
+    type: 45
+    bonus: 345
+  mana:
+    number: 26
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 9
+    bonus: 13
+  dam_type: 11
+  ac:
+    pierce: -6
+    bash: -6
+    slash: -6
+    exotic: 1
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 2500
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2319
+  keywords: minotaur high guard
+  short_desc: the High Minotaur Guard
+  long_desc: |
+    The minotaur high guard is here guarding the Keep.
+  description: |
+    The high guard is dressed in blue plate armour. He looks quite dangerous and
+    skilled.
+  race: Human
+  act: ABCFGT
+  affected_by: D
+  affected2_by: '0'
+  alignment: -330
+  clan: 0
+  level: 24
+  hitroll: 0
+  hit:
+    number: 10
+    type: 38
+    bonus: 311
+  mana:
+    number: 24
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 8
+    bonus: 14
+  dam_type: 11
+  ac:
+    pierce: -5
+    bash: -5
+    slash: -5
+    exotic: 2
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 4500
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2320
+  keywords: minotaur royal guard
+  short_desc: the Royal Minotaur Guard
+  long_desc: |
+    The royal minotaur guard considers you an intruder and attacks!
+  description: |
+    The royal guard is quite huge. He is dressed in heavy red armor and wields a
+    huge glaive. He looks quite capable of protecting the keep.
+  race: Human
+  act: ABCFGT
+  affected_by: D
+  affected2_by: '0'
+  alignment: -330
+  clan: 0
+  level: 26
+  hitroll: 0
+  hit:
+    number: 10
+    type: 45
+    bonus: 345
+  mana:
+    number: 26
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 9
+    bonus: 13
+  dam_type: 3
+  ac:
+    pierce: -6
+    bash: -6
+    slash: -6
+    exotic: 1
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 5000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2321
+  keywords: guard minotaur elite
+  short_desc: the Elite Minotaur Guard
+  long_desc: |
+    The elite minotaur guard sees you and attacks!
+  description: |
+    This minotaur wields a huge morningstar and is clad in heavy crimson plate and
+    furs.
+  race: Human
+  act: ABCFGT
+  affected_by: D
+  affected2_by: '0'
+  alignment: -250
+  clan: 0
+  level: 27
+  hitroll: 0
+  hit:
+    number: 10
+    type: 49
+    bonus: 360
+  mana:
+    number: 27
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 9
+    bonus: 15
+  dam_type: 11
+  ac:
+    pierce: -6
+    bash: -6
+    slash: -6
+    exotic: 1
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 7500
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2322
+  keywords: girl haremgirl harem slave
+  short_desc: the Harem Girl
+  long_desc: |
+    A harem girl cowers here in fear.
+  description: |
+    She looks quite attractive. Her low cut gown reveals why she was chosen to be
+    in the harem.
+  race: Human
+  act: ABCGHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 2
+  hitroll: 0
+  hit:
+    number: 1
+    type: 2
+    bonus: 16
+  mana:
+    number: 2
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 3
+    bonus: 1
+  dam_type: 3
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 1
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2323
+  keywords: butler minotaur
+  short_desc: the Minotaur Butler
+  long_desc: |
+    A minotaur butler stands here rigidly, awaiting orders.
+  description: |
+    He looks quite regal and refined to be a minotaur.
+  race: Human
+  act: ABCGHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 250
+  clan: 0
+  level: 20
+  hitroll: 0
+  hit:
+    number: 7
+    type: 38
+    bonus: 238
+  mana:
+    number: 20
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 7
+    bonus: 10
+  dam_type: 3
+  ac:
+    pierce: -2
+    bash: -2
+    slash: -2
+    exotic: 3
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 500
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2324
+  keywords: keeper minotaur ring-keeper
+  short_desc: the Minotaur Ring-Keeper
+  long_desc: |
+    The minotaur ring-keeper stands guarding his post.
+  description: |
+    The ring-keeper is a huge minotaur. You notice a huge ring of multicolored
+    keys hanging from his belt. He wears huge, spiked brass knuckles.
+  race: Human
+  act: ABCGT
+  affected_by: DH
+  affected2_by: '0'
+  alignment: -300
+  clan: 0
+  level: 29
+  hitroll: 0
+  hit:
+    number: 10
+    type: 56
+    bonus: 405
+  mana:
+    number: 29
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 10
+    bonus: 15
+  dam_type: 11
+  ac:
+    pierce: -8
+    bash: -8
+    slash: -8
+    exotic: 1
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 5000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_mage
+- vnum: 2325
+  keywords: gorak minotaur warrior master
+  short_desc: Gorak
+  long_desc: |
+    Gorak, the Minotaur Master Warrior, is here practicing his skills.
+  description: |
+    Gorak is HUGE. His bulging muscles are confined beneath heavy armor. He is the
+    master of the warrior guild of Mahn-Tor.
+  race: Human
+  act: ABFT
+  affected_by: DH
+  affected2_by: '0'
+  alignment: -300
+  clan: 0
+  level: 29
+  hitroll: 0
+  hit:
+    number: 10
+    type: 56
+    bonus: 405
+  mana:
+    number: 29
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 10
+    bonus: 15
+  dam_type: 3
+  ac:
+    pierce: -8
+    bash: -8
+    slash: -8
+    exotic: 1
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 10000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2326
+  keywords: darkoth minotaur anti-paladin master
+  short_desc: Darkoth
+  long_desc: |
+    Darkoth, the minotaur anti-paladin, stands here grinning wickedly.
+  description: |
+    Darkoth is a living incarnation of evil. He radiates a dark aura, and a cold
+    chill runs down your spine. He is the master of the Mahn-Tor anti-paladins.
+  race: Human
+  act: ABFT
+  affected_by: DH
+  affected2_by: '0'
+  alignment: -1000
+  clan: 0
+  level: 30
+  hitroll: 0
+  hit:
+    number: 10
+    type: 60
+    bonus: 426
+  mana:
+    number: 30
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 10
+    bonus: 17
+  dam_type: 7
+  ac:
+    pierce: -8
+    bash: -8
+    slash: -8
+    exotic: 0
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 10000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_undead
+- vnum: 2327
+  keywords: tyrgoth minotaur paladin master
+  short_desc: Tyrgoth
+  long_desc: |
+    Tyrgoth, the minotaur paladin, is here worshipping silently.
+  description: |
+    Tyrgoth is the minotaur incarnation of good. You feel safe and at ease in his
+    presence. He is the leader of the Mahn-Tor paladins.
+  race: Human
+  act: ABT
+  affected_by: DH
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 31
+  hitroll: 0
+  hit:
+    number: 10
+    type: 64
+    bonus: 448
+  mana:
+    number: 31
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 10
+    bonus: 19
+  dam_type: 3
+  ac:
+    pierce: -9
+    bash: -9
+    slash: -9
+    exotic: 0
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 10000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2328
+  keywords: amyrok minotaur mage master
+  short_desc: Amyrok
+  long_desc: |
+    Amyrok, the minotaur archmage, is here chanting arcane spells.
+  description: |
+    Amyrok is a small minotaur. He is clad in loose robes and emits an aura of
+    power. He appears quite dangerous, despite his size. He is the leader of the
+    mages of Mahn-Tor.
+  race: Human
+  act: ABFRT
+  affected_by: DH
+  affected2_by: '0'
+  alignment: 300
+  clan: 0
+  level: 31
+  hitroll: 0
+  hit:
+    number: 10
+    type: 64
+    bonus: 448
+  mana:
+    number: 31
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 10
+    bonus: 19
+  dam_type: 11
+  ac:
+    pierce: -9
+    bash: -9
+    slash: -9
+    exotic: 0
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 10000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2329
+  keywords: sumaron minotaur cleric master
+  short_desc: Sumaron
+  long_desc: |
+    Sumaron, master cleric of Mahn-Tor, is here looking holy.
+  description: |
+    Sumaron is clad in white glowing robes. He is goodness incarnate. He is the
+    master of all the clerics of Mahn-Tor.
+  race: Human
+  act: ABFQT
+  affected_by: DH
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 30
+  hitroll: 0
+  hit:
+    number: 10
+    type: 60
+    bonus: 426
+  mana:
+    number: 30
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 10
+    bonus: 17
+  dam_type: 3
+  ac:
+    pierce: -8
+    bash: -8
+    slash: -8
+    exotic: 0
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 10000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2330
+  keywords: nasturn minotaur druid master
+  short_desc: Nasturn
+  long_desc: |
+    Nasturn, the minotaur druid, is here studying the arts of nature.
+  description: |
+    Nasturn is quite a natural looking minotaur. He is dressed in leather and
+    wears no metal of any type. He looks at you and smiles.
+  race: Human
+  act: ABT
+  affected_by: DH
+  affected2_by: '0'
+  alignment: 500
+  clan: 0
+  level: 31
+  hitroll: 0
+  hit:
+    number: 10
+    type: 64
+    bonus: 448
+  mana:
+    number: 31
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 10
+    bonus: 19
+  dam_type: 11
+  ac:
+    pierce: -9
+    bash: -9
+    slash: -9
+    exotic: 0
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 10000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_cleric
+- vnum: 2331
+  keywords: belrak minotaur ranger master
+  short_desc: Belrak
+  long_desc: |
+    Belrak, the minotaur ranger, looks unhappy about having visitors.
+  description: |
+    Belrak is clad in green and brown leather. He looks quite agile and thin, when
+    compared to the normal minotaur. He looks at you with a slight smirk.
+  race: Human
+  act: ABFT
+  affected_by: DH
+  affected2_by: '0'
+  alignment: 500
+  clan: 0
+  level: 30
+  hitroll: 0
+  hit:
+    number: 10
+    type: 60
+    bonus: 426
+  mana:
+    number: 30
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 10
+    bonus: 17
+  dam_type: 3
+  ac:
+    pierce: -8
+    bash: -8
+    slash: -8
+    exotic: 0
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 10000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2332
+  keywords: dorgar minotaur thief master
+  short_desc: Dorgar
+  long_desc: |
+    Dorgar, the minotaur thief, is here hiding in the shadows.
+  description: |
+    Dorgar is clad all in black. He is tall and slender, unlike most minotaurs. He
+    appears to be quite a skilled thief.
+  race: Human
+  act: ABCFT
+  affected_by: Q
+  affected2_by: '0'
+  alignment: -500
+  clan: 0
+  level: 31
+  hitroll: 0
+  hit:
+    number: 10
+    type: 64
+    bonus: 448
+  mana:
+    number: 31
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 10
+    bonus: 19
+  dam_type: 11
+  ac:
+    pierce: -9
+    bash: -9
+    slash: -9
+    exotic: 0
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 10000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2333
+  keywords: mahn-tor minotaur grand master
+  short_desc: Mahn-Tor
+  long_desc: |
+    Mahn-Tor, the minotaur grand master, is here looking down at you.
+  description: |
+    Mahn-Tor towers above you. He is simply huge. Mahn-Tor is clad in the best of
+    armor and robes. He wields the largest axe you have ever seen. You can see why
+    Mahn-Tor is the leader of the minotaurs. He is awe-inspiring.
+  race: Human
+  act: ABCT
+  affected_by: BDHTU
+  affected2_by: '0'
+  alignment: -500
+  clan: 0
+  level: 34
+  hitroll: 0
+  hit:
+    number: 10
+    type: 78
+    bonus: 505
+  mana:
+    number: 34
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 11
+    bonus: 21
+  dam_type: 11
+  ac:
+    pierce: -11
+    bash: -11
+    slash: -11
+    exotic: 0
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 10000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_mage
+objects:
+- vnum: 2300
+  name: gloves combat
+  short_desc: a pair of minotaur combat gloves
+  description: A pair of metal plated gloves lie here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AH
+  values:
+  - 8
+  - 8
+  - 8
+  - 0
+  - 0
+  level: 29
+  weight: 6
+  cost: 290
+  affects:
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 1
+    bitvector: '0'
+  extra_descs:
+  - keywords: gloves combat
+    description: "These gloves are plated with metal plates that provide strength\
+      \ and \nprotection.\n"
+- vnum: 2301
+  name: spiked armor garde
+  short_desc: a suit of spiked garde armor
+  description: A pile of spiked chainmail lies here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AD
+  values:
+  - 8
+  - 8
+  - 8
+  - 0
+  - 0
+  level: 29
+  weight: 8
+  cost: 290
+  affects:
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2302
+  name: greaves black
+  short_desc: a pair of black minotaur greaves
+  description: Some black metal greaves lie here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AF
+  values:
+  - 8
+  - 8
+  - 8
+  - 0
+  - 0
+  level: 29
+  weight: 9
+  cost: 290
+  affects: []
+  extra_descs: []
+- vnum: 2303
+  name: vambraces black
+  short_desc: a pair of black minotaur vambraces
+  description: Some black metal vambraces lie here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AI
+  values:
+  - 8
+  - 8
+  - 8
+  - 0
+  - 0
+  level: 29
+  weight: 9
+  cost: 290
+  affects: []
+  extra_descs: []
+- vnum: 2304
+  name: rod weaponry
+  short_desc: the rod of weaponry
+  description: A shiny metal rod lies here.
+  material: none
+  item_type: 5
+  extra_flags: AGI
+  wear_flags: AN
+  values:
+  - 0
+  - 5
+  - 7
+  - 6
+  - 0
+  level: 29
+  weight: 24
+  cost: 290
+  affects:
+  - where: O
+    location: 18
+    modifier: 3
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 3
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2305
+  name: cloak pitch black
+  short_desc: a pitch black cloak
+  description: A pile of black cloth lies here.
+  material: none
+  item_type: 15
+  extra_flags: G
+  wear_flags: AK
+  values:
+  - 150
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 30
+  weight: 3
+  cost: 300
+  affects:
+  - where: O
+    location: 23
+    modifier: -3
+    bitvector: '0'
+  extra_descs:
+  - keywords: cloak pitch black
+    description: |
+      It appears to have pockets inside it.
+- vnum: 2306
+  name: neckguard neck guard black plate
+  short_desc: a black plate neckguard
+  description: A black plate collar rests here.
+  material: none
+  item_type: 9
+  extra_flags: GJL
+  wear_flags: AC
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 30
+  weight: 10
+  cost: 300
+  affects:
+  - where: O
+    location: 4
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2307
+  name: spiked gauntlets
+  short_desc: a pair of spiked gauntlets
+  description: A pair of spiked gauntlets lies here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AH
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 30
+  weight: 10
+  cost: 300
+  affects:
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: '0'
+  extra_descs:
+  - keywords: spiked gauntlets
+    description: |
+      They look pretty damaging.
+- vnum: 2308
+  name: shield shadow
+  short_desc: the shadow shield
+  description: A shadowy shield rests here.
+  material: none
+  item_type: 9
+  extra_flags: AGJL
+  wear_flags: AJ
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 30
+  weight: 15
+  cost: 300
+  affects:
+  - where: O
+    location: 23
+    modifier: -2
+    bitvector: '0'
+  extra_descs:
+  - keywords: shield shadow
+    description: |
+      You look into the depths of the shield and shiver at the evil it contains.
+- vnum: 2309
+  name: nightbringer short sword shortsword
+  short_desc: a shortsword named "Nightbringer"
+  description: A very evil looking shortsword lies here.
+  material: none
+  item_type: 5
+  extra_flags: CGJL
+  wear_flags: AN
+  values:
+  - 1
+  - 5
+  - 7
+  - 11
+  - 0
+  level: 30
+  weight: 9
+  cost: 300
+  affects:
+  - where: O
+    location: 18
+    modifier: 3
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 3
+    bitvector: '0'
+  extra_descs:
+  - keywords: nightbringer short sword shortsword
+    description: |
+      The runes "NiGHtBrINgeR" are scrawled along the blade.
+- vnum: 2310
+  name: visor helm golden
+  short_desc: a golden helm and visor
+  description: A helm and visor made of pure gold rests here.
+  material: none
+  item_type: 9
+  extra_flags: AGKL
+  wear_flags: AE
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 31
+  weight: 15
+  cost: 310
+  affects:
+  - where: O
+    location: 4
+    modifier: 1
+    bitvector: '0'
+  - where: O
+    location: 3
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2311
+  name: breast plate gilded gold
+  short_desc: a gilded gold breast plate
+  description: A large golden breast plate lies here.
+  material: none
+  item_type: 9
+  extra_flags: AGKL
+  wear_flags: AD
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 31
+  weight: 18
+  cost: 310
+  affects:
+  - where: O
+    location: 13
+    modifier: 25
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2312
+  name: cape white billowing silk
+  short_desc: a billowing white cape
+  description: A pile of white silk lies here.
+  material: none
+  item_type: 9
+  extra_flags: AG
+  wear_flags: AC
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 31
+  weight: 5
+  cost: 310
+  affects: []
+  extra_descs: []
+- vnum: 2313
+  name: shield huge tower
+  short_desc: a huge tower shield
+  description: A huge shield lies here.
+  material: none
+  item_type: 9
+  extra_flags: AG
+  wear_flags: AJ
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 31
+  weight: 14
+  cost: 310
+  affects: []
+  extra_descs:
+  - keywords: shield huge tower
+    description: |
+      A pure white shield with a gold cross emblazoned across it.
+- vnum: 2314
+  name: dawnbringer mace huge
+  short_desc: a huge mace named "Dawnbringer"
+  description: A huge mace lies here. It radiates an aura of power.
+  material: none
+  item_type: 5
+  extra_flags: AGKL
+  wear_flags: AN
+  values:
+  - 4
+  - 5
+  - 7
+  - 6
+  - 0
+  level: 31
+  weight: 24
+  cost: 310
+  affects:
+  - where: O
+    location: 18
+    modifier: 3
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 3
+    bitvector: '0'
+  extra_descs:
+  - keywords: dawnbringer mace huge
+    description: |
+      The runes "DAwNbRIngER" are scrawled along the handle.
+- vnum: 2315
+  name: spectacles wire rimmed
+  short_desc: a pair of wire rimmed spectacles
+  description: A small pair of wire rimmed spectacles rests here.
+  material: none
+  item_type: 9
+  extra_flags: G
+  wear_flags: AE
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 31
+  weight: 2
+  cost: 310
+  affects:
+  - where: O
+    location: 3
+    modifier: 2
+    bitvector: '0'
+  extra_descs:
+  - keywords: spectacles wire rimmed
+    description: |
+      They'll make you look smart.
+- vnum: 2316
+  name: ring banded
+  short_desc: a banded ring
+  description: A small ring made of gold and silver bands lies here.
+  material: none
+  item_type: 9
+  extra_flags: AG
+  wear_flags: AB
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 31
+  weight: 2
+  cost: 310
+  affects:
+  - where: O
+    location: 12
+    modifier: 30
+    bitvector: '0'
+  extra_descs:
+  - keywords: ring banded
+    description: |
+      The ring has entwined bands of gold and silver.
+- vnum: 2317
+  name: globe minor
+  short_desc: a minor globe of invulnerability
+  description: A small globe rests here. It shimmers and radiates power.
+  material: none
+  item_type: 9
+  extra_flags: AG
+  wear_flags: AK
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 31
+  weight: 1
+  cost: 310
+  affects:
+  - where: O
+    location: 23
+    modifier: -5
+    bitvector: '0'
+  extra_descs:
+  - keywords: globe minor
+    description: |
+      Shimmering colors move inside the globe.
+- vnum: 2318
+  name: staff gnarled magius
+  short_desc: a gnarled magius staff
+  description: A gnarled staff lies here.
+  material: none
+  item_type: 5
+  extra_flags: G
+  wear_flags: AN
+  values:
+  - 3
+  - 5
+  - 7
+  - 6
+  - 0
+  level: 31
+  weight: 10
+  cost: 310
+  affects:
+  - where: O
+    location: 18
+    modifier: 3
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 3
+    bitvector: '0'
+  extra_descs:
+  - keywords: staff gnarled magius
+    description: |
+      It appears to be simply a gnarled old limb. It feels powerful though.
+- vnum: 2319
+  name: girdle pouches many
+  short_desc: a girdle of many pouches
+  description: A girdle lies here.
+  material: none
+  item_type: 15
+  extra_flags: S
+  wear_flags: AL
+  values:
+  - 500
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 31
+  weight: 5
+  cost: 310
+  affects: []
+  extra_descs:
+  - keywords: girdle pouches many
+    description: |
+      It appears to be full of tiny pockets.
+- vnum: 2320
+  name: robe heavy woolen
+  short_desc: a heavy woolen robe
+  description: A heavy pile of wool lies here.
+  material: none
+  item_type: 9
+  extra_flags: G
+  wear_flags: AK
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 30
+  weight: 10
+  cost: 300
+  affects: []
+  extra_descs: []
+- vnum: 2321
+  name: broach ivory
+  short_desc: a broach of life
+  description: A small ivory broach lies here.
+  material: none
+  item_type: 9
+  extra_flags: AGI
+  wear_flags: AC
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 30
+  weight: 5
+  cost: 300
+  affects:
+  - where: O
+    location: 13
+    modifier: 50
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2322
+  name: manual arts healing book
+  short_desc: a manual of healing arts
+  description: A small book lies here.
+  material: none
+  item_type: 2
+  extra_flags: '0'
+  wear_flags: AO
+  values:
+  - 30
+  - 16
+  - 16
+  - 16
+  - 0
+  level: 30
+  weight: 5
+  cost: 300
+  affects: []
+  extra_descs:
+  - keywords: manual arts healing book
+    description: |
+      It appears to be a book of anatomy and medicine.
+- vnum: 2323
+  name: mace huge mithril
+  short_desc: a huge mithril mace
+  description: A huge mace made of mithril metal lies here.
+  material: none
+  item_type: 5
+  extra_flags: AG
+  wear_flags: AN
+  values:
+  - 4
+  - 5
+  - 7
+  - 6
+  - 0
+  level: 30
+  weight: 13
+  cost: 300
+  affects:
+  - where: O
+    location: 18
+    modifier: 2
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2324
+  name: symbol holy golden
+  short_desc: a golden holy symbol
+  description: A small holy symbol on a golden chain lies here.
+  material: none
+  item_type: 9
+  extra_flags: G
+  wear_flags: AC
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 30
+  weight: 3
+  cost: 300
+  affects:
+  - where: O
+    location: 12
+    modifier: 10
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2325
+  name: ring marble thick
+  short_desc: a thick marble ring
+  description: A thick ring made of marble
+  material: none
+  item_type: 9
+  extra_flags: G
+  wear_flags: AB
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 31
+  weight: 5
+  cost: 310
+  affects: []
+  extra_descs: []
+- vnum: 2326
+  name: bracelet thick marble
+  short_desc: a thick marble bracelet
+  description: A thick bracelet made of marble lies here.
+  material: none
+  item_type: 9
+  extra_flags: G
+  wear_flags: AM
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 31
+  weight: 8
+  cost: 310
+  affects:
+  - where: O
+    location: 5
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2327
+  name: boots striding
+  short_desc: boots of striding
+  description: A lithe pair of leather boots have been left here.
+  material: none
+  item_type: 9
+  extra_flags: G
+  wear_flags: AG
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 31
+  weight: 5
+  cost: 310
+  affects:
+  - where: O
+    location: 14
+    modifier: 30
+    bitvector: '0'
+  extra_descs:
+  - keywords: boots striding
+    description: |
+      They look comfortable to walk in.
+- vnum: 2328
+  name: cloak icy white
+  short_desc: an icy white cloak
+  description: A cold pile of white cloth lies here.
+  material: none
+  item_type: 9
+  extra_flags: AG
+  wear_flags: AK
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 31
+  weight: 5
+  cost: 310
+  affects: []
+  extra_descs:
+  - keywords: cloak icy white
+    description: |
+      Smoke rises from it almost like it's made of dry ice.
+- vnum: 2329
+  name: staff ice
+  short_desc: an ice staff
+  description: A staff made of ice rests here.
+  material: none
+  item_type: 5
+  extra_flags: G
+  wear_flags: AN
+  values:
+  - 3
+  - 5
+  - 7
+  - 6
+  - 0
+  level: 31
+  weight: 13
+  cost: 310
+  affects:
+  - where: O
+    location: 18
+    modifier: 2
+    bitvector: '0'
+  - where: O
+    location: 12
+    modifier: 20
+    bitvector: '0'
+  extra_descs:
+  - keywords: staff ice
+    description: |
+      The runes "FrIgID" are inscribed in the icy staff.
+- vnum: 2330
+  name: ring carved wooden
+  short_desc: a carved wooden ring
+  description: A wooden ring is on the floor.
+  material: none
+  item_type: 9
+  extra_flags: G
+  wear_flags: AB
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 30
+  weight: 3
+  cost: 300
+  affects:
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2331
+  name: horn life
+  short_desc: the horn of life
+  description: A severed minotaur horn lies here.
+  material: none
+  item_type: 3
+  extra_flags: G
+  wear_flags: AO
+  values:
+  - 30
+  - 8
+  - 8
+  - 16
+  - 0
+  level: 30
+  weight: 5
+  cost: 300
+  affects: []
+  extra_descs:
+  - keywords: horn life
+    description: |
+      The horn is capped at both ends with gold. Unreadable runes are scrawled on it.
+- vnum: 2332
+  name: belt life
+  short_desc: the belt of life
+  description: A strange belt lies here.
+  material: none
+  item_type: 9
+  extra_flags: G
+  wear_flags: AL
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 30
+  weight: 9
+  cost: 300
+  affects:
+  - where: O
+    location: 5
+    modifier: 3
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2333
+  name: stone blood red
+  short_desc: a blood red stone
+  description: A blood red stone lies here collecting dust.
+  material: none
+  item_type: 9
+  extra_flags: BG
+  wear_flags: AO
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 30
+  weight: 2
+  cost: 300
+  affects:
+  - where: O
+    location: 13
+    modifier: 20
+    bitvector: '0'
+  extra_descs:
+  - keywords: stone blood red
+    description: |
+      The stone pulses with your own heart beat.
+- vnum: 2334
+  name: crossbow huge
+  short_desc: a huge crossbow
+  description: A huge crossbow rests here.
+  material: none
+  item_type: 5
+  extra_flags: G
+  wear_flags: AN
+  values:
+  - 0
+  - 5
+  - 7
+  - 7
+  - 0
+  level: 30
+  weight: 15
+  cost: 300
+  affects:
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2335
+  name: pack leather small
+  short_desc: a small leather pack
+  description: A small leather pack rests here.
+  material: none
+  item_type: 15
+  extra_flags: G
+  wear_flags: AK
+  values:
+  - 200
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 31
+  weight: 9
+  cost: 310
+  affects: []
+  extra_descs:
+  - keywords: pack leather small
+    description: |
+      It looks pretty big on the inside.
+- vnum: 2336
+  name: hood black leather
+  short_desc: a black leather hood
+  description: A hood made of black leather rests here.
+  material: none
+  item_type: 9
+  extra_flags: G
+  wear_flags: AE
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 31
+  weight: 5
+  cost: 310
+  affects: []
+  extra_descs: []
+- vnum: 2337
+  name: sleeves black leather
+  short_desc: a pair of black leather sleeves
+  description: Some leather sleeves lie here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AI
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 31
+  weight: 5
+  cost: 310
+  affects: []
+  extra_descs: []
+- vnum: 2338
+  name: pants black leather
+  short_desc: a pair of black leather pants
+  description: Some leather pants lie here.
+  material: none
+  item_type: 9
+  extra_flags: G
+  wear_flags: AF
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 31
+  weight: 5
+  cost: 310
+  affects: []
+  extra_descs:
+  - keywords: pants black leather
+    description: |
+      They look sneaky.
+- vnum: 2339
+  name: sword wicked short shortsword
+  short_desc: a wicked shortsword
+  description: A wicked looking shortsword lies here.
+  material: none
+  item_type: 5
+  extra_flags: G
+  wear_flags: AN
+  values:
+  - 1
+  - 5
+  - 7
+  - 11
+  - 0
+  level: 31
+  weight: 11
+  cost: 310
+  affects:
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 1
+    bitvector: '0'
+  extra_descs:
+  - keywords: sword wicked short shortsword
+    description: |
+      It looks just perfect for backstabbing.
+- vnum: 2340
+  name: globe major
+  short_desc: a major globe of invulnerability
+  description: A large globe rests here, pulsing uneasily.
+  material: none
+  item_type: 9
+  extra_flags: ABG
+  wear_flags: AK
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 34
+  weight: 1
+  cost: 340
+  affects:
+  - where: O
+    location: 24
+    modifier: -5
+    bitvector: '0'
+  extra_descs:
+  - keywords: globe major
+    description: |
+      Shimmering colors move inside the globe.
+- vnum: 2341
+  name: chain chainmail black suit
+  short_desc: a suit of black minotaur chainmail
+  description: A huge pile of black chainmail rests here.
+  material: none
+  item_type: 9
+  extra_flags: G
+  wear_flags: AD
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 34
+  weight: 12
+  cost: 340
+  affects:
+  - where: O
+    location: 1
+    modifier: 1
+    bitvector: '0'
+  - where: O
+    location: 5
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2342
+  name: buckler spiked
+  short_desc: a spiked buckler
+  description: A small spiked buckler rests here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AJ
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 34
+  weight: 5
+  cost: 340
+  affects:
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2343
+  name: ring studded
+  short_desc: a studded ring
+  description: A small studded ring lies here.
+  material: none
+  item_type: 9
+  extra_flags: G
+  wear_flags: AB
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 34
+  weight: 1
+  cost: 340
+  affects:
+  - where: O
+    location: 19
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2344
+  name: helm horned
+  short_desc: a horned minotaur helm
+  description: A small horned helm rests here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AE
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 34
+  weight: 8
+  cost: 340
+  affects: []
+  extra_descs: []
+- vnum: 2345
+  name: axe great
+  short_desc: mahn-Tor's Great Axe
+  description: An extremely huge axe is resting here.
+  material: none
+  item_type: 5
+  extra_flags: BG
+  wear_flags: AN
+  values:
+  - 5
+  - 5
+  - 8
+  - 3
+  - 0
+  level: 34
+  weight: 26
+  cost: 340
+  affects:
+  - where: O
+    location: 18
+    modifier: 2
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: '0'
+  extra_descs:
+  - keywords: axe great
+    description: |
+      The runes "DeAtH" are scrawled along the blade.
+- vnum: 2346
+  name: plate ethereal suit
+  short_desc: a suit of ethereal plate
+  description: A suit of shimmering plate rests here.
+  material: none
+  item_type: 9
+  extra_flags: AJ
+  wear_flags: AD
+  values:
+  - 8
+  - 8
+  - 8
+  - 0
+  - 0
+  level: 25
+  weight: 2
+  cost: 250
+  affects:
+  - where: O
+    location: 24
+    modifier: -3
+    bitvector: '0'
+  extra_descs:
+  - keywords: plate ethereal suit
+    description: |
+      You can almost see through it.
+- vnum: 2347
+  name: helm ethereal
+  short_desc: an ethereal helm
+  description: A shimmering helm rests here.
+  material: none
+  item_type: 9
+  extra_flags: AJ
+  wear_flags: AE
+  values:
+  - 8
+  - 8
+  - 8
+  - 0
+  - 0
+  level: 25
+  weight: 5
+  cost: 250
+  affects: []
+  extra_descs:
+  - keywords: helm ethereal
+    description: |
+      You can almost see through it.
+- vnum: 2348
+  name: blade ethereal
+  short_desc: an ethereal blade
+  description: A shimmering blade lies here.
+  material: none
+  item_type: 5
+  extra_flags: AJ
+  wear_flags: AN
+  values:
+  - 0
+  - 5
+  - 6
+  - 3
+  - 0
+  level: 25
+  weight: 3
+  cost: 250
+  affects:
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 1
+    bitvector: '0'
+  extra_descs:
+  - keywords: blade ethereal
+    description: |
+      You can almost see through it.
+- vnum: 2349
+  name: branch willow
+  short_desc: a willow branch
+  description: A small willow branch lies here.
+  material: none
+  item_type: 3
+  extra_flags: G
+  wear_flags: AO
+  values:
+  - 20
+  - 1
+  - 1
+  - 509
+  - 0
+  level: 24
+  weight: 3
+  cost: 240
+  affects: []
+  extra_descs: []
+- vnum: 2350
+  name: key keep
+  short_desc: the keep key
+  description: A small key lies here.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 2
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 26
+  weight: 1
+  cost: 260
+  affects: []
+  extra_descs: []
+- vnum: 2351
+  name: key red
+  short_desc: a red key
+  description: A small red key lies here.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 2
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 29
+  weight: 1
+  cost: 290
+  affects: []
+  extra_descs: []
+- vnum: 2352
+  name: key black
+  short_desc: a black key
+  description: A small black key lies here.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 2
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 29
+  weight: 1
+  cost: 290
+  affects: []
+  extra_descs: []
+- vnum: 2353
+  name: key white
+  short_desc: a white key
+  description: A small white key lies here.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 2
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 29
+  weight: 1
+  cost: 290
+  affects: []
+  extra_descs: []
+- vnum: 2354
+  name: key brown
+  short_desc: a brown key
+  description: A small brown key lies here.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 2
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 29
+  weight: 1
+  cost: 290
+  affects: []
+  extra_descs: []
+- vnum: 2355
+  name: key yellow
+  short_desc: a yellow key
+  description: A small yellow key lies here.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 2
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 29
+  weight: 1
+  cost: 290
+  affects: []
+  extra_descs: []
+- vnum: 2356
+  name: key maroon
+  short_desc: a maroon key
+  description: A small maroon key lies here.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 2
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 29
+  weight: 1
+  cost: 290
+  affects: []
+  extra_descs: []
+- vnum: 2357
+  name: key green
+  short_desc: a green key
+  description: A small green key lies here.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 2
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 29
+  weight: 1
+  cost: 290
+  affects: []
+  extra_descs: []
+- vnum: 2358
+  name: key grey
+  short_desc: a grey key
+  description: A small grey key lies here.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 2
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 29
+  weight: 1
+  cost: 290
+  affects: []
+  extra_descs: []
+- vnum: 2359
+  name: key runed
+  short_desc: a runed key
+  description: A small runed key lies here.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 2
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 27
+  weight: 1
+  cost: 270
+  affects: []
+  extra_descs:
+  - keywords: key runed
+    description: |
+      The key looks like it was made for royalty.
+- vnum: 2360
+  name: boots fur lined
+  short_desc: a pair of fur lined boots
+  description: A pair of boots are on the floor.
+  material: none
+  item_type: 9
+  extra_flags: G
+  wear_flags: AG
+  values:
+  - 6
+  - 6
+  - 6
+  - 0
+  - 0
+  level: 19
+  weight: 5
+  cost: 190
+  affects:
+  - where: O
+    location: 14
+    modifier: 10
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2361
+  name: pelt yeti white
+  short_desc: the white pelt of a yeti
+  description: A white pelt lies here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AK
+  values:
+  - 6
+  - 6
+  - 6
+  - 0
+  - 0
+  level: 16
+  weight: 9
+  cost: 160
+  affects: []
+  extra_descs: []
+- vnum: 2362
+  name: sword kopesh
+  short_desc: a kopesh sword
+  description: A sword with a curved blade lies here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 1
+  - 4
+  - 5
+  - 3
+  - 0
+  level: 15
+  weight: 13
+  cost: 150
+  affects: []
+  extra_descs:
+  - keywords: sword kopesh
+    description: |
+      The sword looks like it would be grasped so that the blade extended along the
+      forearm of the wielder.
+- vnum: 2363
+  name: vambraces steel
+  short_desc: a pair of steel vambraces
+  description: A gleaming pair of vambraces lies here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AI
+  values:
+  - 7
+  - 7
+  - 7
+  - 0
+  - 0
+  level: 23
+  weight: 7
+  cost: 230
+  affects: []
+  extra_descs: []
+- vnum: 2364
+  name: greaves steel
+  short_desc: a pair of steel greaves
+  description: A gleaming pair of greaves lie here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AF
+  values:
+  - 7
+  - 7
+  - 7
+  - 0
+  - 0
+  level: 23
+  weight: 7
+  cost: 230
+  affects: []
+  extra_descs: []
+- vnum: 2365
+  name: axe battle battleaxe
+  short_desc: a battle axe
+  description: A dangerous looking battle axe rests here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 5
+  - 5
+  - 6
+  - 3
+  - 0
+  level: 23
+  weight: 18
+  cost: 230
+  affects: []
+  extra_descs: []
+- vnum: 2366
+  name: plate steel breast
+  short_desc: a steel breast plate
+  description: A breast plate of thick steel rests here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AD
+  values:
+  - 7
+  - 7
+  - 7
+  - 0
+  - 0
+  level: 20
+  weight: 10
+  cost: 200
+  affects: []
+  extra_descs: []
+- vnum: 2367
+  name: helm steel
+  short_desc: a steel helm
+  description: A steel helm has been left here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AE
+  values:
+  - 7
+  - 7
+  - 7
+  - 0
+  - 0
+  level: 20
+  weight: 6
+  cost: 200
+  affects: []
+  extra_descs: []
+- vnum: 2368
+  name: halberd huge
+  short_desc: a huge halberd
+  description: A huge halberd has been left here.
+  material: none
+  item_type: 5
+  extra_flags: G
+  wear_flags: AN
+  values:
+  - 8
+  - 5
+  - 5
+  - 3
+  - 0
+  level: 20
+  weight: 18
+  cost: 200
+  affects:
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2369
+  name: visor blue steel helm
+  short_desc: a blue steel helm and visor
+  description: A helm and visor of blue steel rests here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AE
+  values:
+  - 7
+  - 7
+  - 7
+  - 0
+  - 0
+  level: 24
+  weight: 8
+  cost: 240
+  affects: []
+  extra_descs: []
+- vnum: 2370
+  name: greaves blue steel
+  short_desc: a pair of blue steel greaves
+  description: Some greaves made of blue steel rest here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AF
+  values:
+  - 7
+  - 7
+  - 7
+  - 0
+  - 0
+  level: 24
+  weight: 8
+  cost: 240
+  affects: []
+  extra_descs: []
+- vnum: 2371
+  name: vambraces blue steel
+  short_desc: a pair of blue steel vambraces
+  description: Some vambraces made of blue steel rest here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AI
+  values:
+  - 7
+  - 7
+  - 7
+  - 0
+  - 0
+  level: 24
+  weight: 8
+  cost: 240
+  affects: []
+  extra_descs: []
+- vnum: 2372
+  name: sword two two-handed
+  short_desc: a two-handed sword
+  description: A large sword lies here.
+  material: none
+  item_type: 5
+  extra_flags: G
+  wear_flags: AN
+  values:
+  - 1
+  - 5
+  - 6
+  - 3
+  - 32
+  level: 24
+  weight: 18
+  cost: 240
+  affects:
+  - where: O
+    location: 18
+    modifier: 2
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2373
+  name: visor helm steel red
+  short_desc: a red steel helm and visor
+  description: A helm and visor made of red steel rests here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AE
+  values:
+  - 8
+  - 8
+  - 8
+  - 0
+  - 0
+  level: 26
+  weight: 8
+  cost: 260
+  affects: []
+  extra_descs: []
+- vnum: 2374
+  name: greaves red steel
+  short_desc: a pair of red steel greaves
+  description: Some greaves made of red steel rest here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AF
+  values:
+  - 8
+  - 8
+  - 8
+  - 0
+  - 0
+  level: 26
+  weight: 8
+  cost: 260
+  affects: []
+  extra_descs: []
+- vnum: 2375
+  name: vambraces red steel
+  short_desc: a pair of red steel vambraces
+  description: Some vambraces made of red steel rest here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AI
+  values:
+  - 8
+  - 8
+  - 8
+  - 0
+  - 0
+  level: 26
+  weight: 8
+  cost: 260
+  affects: []
+  extra_descs: []
+- vnum: 2376
+  name: glaive
+  short_desc: a minotaur glaive
+  description: A very large glaive rests here.
+  material: none
+  item_type: 5
+  extra_flags: G
+  wear_flags: AN
+  values:
+  - 8
+  - 5
+  - 6
+  - 3
+  - 0
+  level: 26
+  weight: 19
+  cost: 260
+  affects:
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2377
+  name: visor helm crimson steel
+  short_desc: a crimson steel helm and visor
+  description: A helm and visor made of crimson steel rests here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AE
+  values:
+  - 8
+  - 8
+  - 8
+  - 0
+  - 0
+  level: 27
+  weight: 8
+  cost: 270
+  affects: []
+  extra_descs: []
+- vnum: 2378
+  name: greaves crimson steel
+  short_desc: a pair of crimson steel greaves
+  description: Some greaves made of crimson steel rest here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AF
+  values:
+  - 8
+  - 8
+  - 8
+  - 0
+  - 0
+  level: 27
+  weight: 8
+  cost: 270
+  affects: []
+  extra_descs: []
+- vnum: 2379
+  name: vambraces crimson steel
+  short_desc: a pair of crimson steel vambraces
+  description: Some vambraces made of crimson steel rest here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AI
+  values:
+  - 8
+  - 8
+  - 8
+  - 0
+  - 0
+  level: 27
+  weight: 8
+  cost: 270
+  affects: []
+  extra_descs: []
+- vnum: 2380
+  name: star morning morningstar
+  short_desc: a huge morningstar
+  description: A huge morningstar rests here.
+  material: none
+  item_type: 5
+  extra_flags: G
+  wear_flags: AN
+  values:
+  - 4
+  - 5
+  - 6
+  - 6
+  - 0
+  level: 27
+  weight: 20
+  cost: 270
+  affects:
+  - where: O
+    location: 18
+    modifier: 2
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: '0'
+  extra_descs:
+  - keywords: star morning morningstar
+    description: |
+      It looks damaging.
+- vnum: 2381
+  name: spiked brass knuckles
+  short_desc: some huge spiked brass knuckles
+  description: A set of spiked brass knuckles lies here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 0
+  - 5
+  - 7
+  - 1
+  - 0
+  level: 29
+  weight: 9
+  cost: 290
+  affects: []
+  extra_descs:
+  - keywords: spiked brass knuckles
+    description: |
+      A band held in the hand that has spikes on the front side.
+- vnum: 2382
+  name: ring key multi colored multi-colored
+  short_desc: a multi-colored key ring
+  description: A ring of multi-colored keys rests here.
+  material: none
+  item_type: 15
+  extra_flags: '0'
+  wear_flags: AC
+  values:
+  - 10
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 29
+  weight: 3
+  cost: 290
+  affects: []
+  extra_descs:
+  - keywords: ring key multi colored multi-colored
+    description: |
+      It has several keys of different colors on it.
+- vnum: 2383
+  name: maul huge wooden
+  short_desc: a huge wooden maul
+  description: A huge wooden maul rests here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 4
+  - 5
+  - 7
+  - 6
+  - 0
+  level: 29
+  weight: 22
+  cost: 290
+  affects: []
+  extra_descs: []
+- vnum: 2384
+  name: potion misty
+  short_desc: a misty potion
+  description: A small misty potion rests here.
+  material: none
+  item_type: 10
+  extra_flags: AGN
+  wear_flags: A
+  values:
+  - 20
+  - 28
+  - 0
+  - 0
+  - 0
+  level: 21
+  weight: 3
+  cost: 210
+  affects: []
+  extra_descs: []
+- vnum: 2385
+  name: pouch belt
+  short_desc: a belt pouch
+  description: A belt pouch lies here.
+  material: none
+  item_type: 15
+  extra_flags: '0'
+  wear_flags: AL
+  values:
+  - 75
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 10
+  weight: 5
+  cost: 100
+  affects: []
+  extra_descs: []
+- vnum: 2386
+  name: spear ogre
+  short_desc: an ogre spear
+  description: A crude spear rests here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 3
+  - 4
+  - 5
+  - 11
+  - 0
+  level: 15
+  weight: 8
+  cost: 150
+  affects: []
+  extra_descs: []
+- vnum: 2387
+  name: club ogre war
+  short_desc: an ogre war club
+  description: A large, crude club rests here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 4
+  - 5
+  - 5
+  - 6
+  - 0
+  level: 20
+  weight: 10
+  cost: 200
+  affects: []
+  extra_descs: []
+- vnum: 2388
+  name: cloak bear skin bearskin
+  short_desc: a bearskin cloak
+  description: A rough bearskin rests here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AK
+  values:
+  - 7
+  - 7
+  - 7
+  - 0
+  - 0
+  level: 20
+  weight: 12
+  cost: 200
+  affects: []
+  extra_descs: []
+- vnum: 2389
+  name: ear ring earring feathered
+  short_desc: a pair of feathered earrings
+  description: Some feathered earrings rest here.
+  material: none
+  item_type: 9
+  extra_flags: AG
+  wear_flags: AE
+  values:
+  - 7
+  - 7
+  - 7
+  - 0
+  - 0
+  level: 20
+  weight: 2
+  cost: 200
+  affects: []
+  extra_descs: []
+- vnum: 2390
+  name: gauntlets ogre power
+  short_desc: gauntlets of ogre power
+  description: Some heavy gauntlets lie here.
+  material: none
+  item_type: 9
+  extra_flags: BG
+  wear_flags: AH
+  values:
+  - 8
+  - 8
+  - 8
+  - 0
+  - 0
+  level: 25
+  weight: 13
+  cost: 250
+  affects:
+  - where: O
+    location: 1
+    modifier: 4
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 3
+    bitvector: '0'
+  - where: O
+    location: 17
+    modifier: 10
+    bitvector: '0'
+  extra_descs:
+  - keywords: gauntlets ogre power
+    description: |
+      They look very "handy".
+- vnum: 2391
+  name: club massive
+  short_desc: a massive club
+  description: A massive club lies here, discarded.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 4
+  - 5
+  - 6
+  - 6
+  - 0
+  level: 25
+  weight: 19
+  cost: 250
+  affects: []
+  extra_descs: []
+- vnum: 2392
+  name: cape thick fur
+  short_desc: a thick fur cape
+  description: A thick pile of fur lies here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AC
+  values:
+  - 6
+  - 6
+  - 6
+  - 0
+  - 0
+  level: 19
+  weight: 5
+  cost: 190
+  affects: []
+  extra_descs: []
+- vnum: 2393
+  name: tunic fur lined
+  short_desc: a fur lined tunic
+  description: A fur lined tunic rests here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AD
+  values:
+  - 6
+  - 6
+  - 6
+  - 0
+  - 0
+  level: 19
+  weight: 6
+  cost: 190
+  affects: []
+  extra_descs: []
+- vnum: 2395
+  name: key golden large
+  short_desc: a large golden key
+  description: A large golden key lies here.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 29
+  weight: 1
+  cost: 350
+  affects: []
+  extra_descs: []
+rooms:
+- vnum: 2300
+  name: The dark woods
+  description: |
+    You are travelling through woods that are as dark as night. The trees above
+    block all light and wind. The air is stagnant and smells of death and decay.
+    The lack of sounds and other signs of life make your skin crawl and you feel
+    very much like turning back and heading for safer areas. The path leads north
+    into more open lands while it also leads south into the darkness of the forest.
+    A small sign is posted here.
+  room_flags: C
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5280
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2301
+  extra_descs:
+  - keywords: sign
+    description: |
+      []================================[]
+       |      BEWARE!      | Hope you   |
+       |   Travellers are  | enjoy it!  |
+       |  advised to stay  | <------->  |
+       |   in groups for   |  Skurge    |
+       |      safety.      | Ragnarok   |
+      []================================[]
+- vnum: 2301
+  name: The dark woods
+  description: |
+    You wearily travel through the darkness of the forest. Huge skeletal trees
+    line the edges of the path and tower above you. Errant rays of light spear
+    down through the gaps in the canopy above and provide small spots of light
+    that seem to attract what little foliage can grow on the dark forest floor.
+    The path winds north and south into darkness.
+  room_flags: AC
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2300
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2302
+  extra_descs: []
+- vnum: 2302
+  name: The small intersection in the forest
+  description: |
+    The forest path splits here in three directions. Small paths lead to the east,
+    north, and south. The trees above leave a gap which allows light to fill the
+    intersection. It is almost as though you are in a circle of light that
+    provides sanctuary in this land of darkness.
+    Something has been scrawled in the dirt in blood here.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2301
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2304
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2303
+  extra_descs:
+  - keywords: blood dirt scrawl
+    description: |
+      BeWAre tHe SwAmP oGreS......
+- vnum: 2303
+  name: The edge of the forest and hills
+  description: |
+    You stand at the edge of a dark forest. A path leads north into the forest and
+    its deadly darkness and silence. Looking west, you see a path that leads up
+    into a foothills region. Standing here on the boundary between light and
+    darkness, you feel very vulnerable and alone.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2302
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2309
+  extra_descs: []
+- vnum: 2304
+  name: In the dense forest
+  description: |
+    You walk along a small path leading through a dark forest. No sounds can be
+    heard and little light penetrates the canopy of trees above you. The air here
+    smells musty and you long for a fresh breath. You see an intersection of paths
+    to the west. The path you are on leads south into the darkening woods.
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2305
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2302
+  extra_descs: []
+- vnum: 2305
+  name: The dark forest path
+  description: |
+    You continue on through darkness and gloom. The path below you has become a
+    wet quagmire. It is difficult to walk, and you make squishing sounds as you
+    move on. Looking east, you see a swampy path. The main path leads north and
+    south into darkness.
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2304
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2327
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2306
+  extra_descs: []
+- vnum: 2306
+  name: A turn in the path
+  description: |
+    The forest path turns here towards the north and west. To the north, you see
+    that the ground has become dank and swampy, while the western path appears
+    to be entering a hilly area. You hear sounds of swamp creatures to the north
+    east.
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2305
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2307
+  extra_descs: []
+- vnum: 2307
+  name: The bloody intersection
+  description: "This is a small intersection. Paths lead east, west, and south. You\
+    \ are struck\nby the carnage here when you enter the clearing. There appears to\
+    \ have been a\ngreat battle here. Blood is everywhere and the ground is all torn\
+    \ up. Pieces\nof beaten armour and broken blades lie all around. Examining the\
+    \ tracks here\nlead you to believe that the dead and wounded were dragged off\
+    \ in two \ndirections, south and east.\n"
+  room_flags: A
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2306
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2310
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2308
+  extra_descs: []
+- vnum: 2308
+  name: The rocky path
+  description: |
+    The path here winds among the low rocky hills. The long trek up and down the
+    hills begins to tire you greatly. Looking east, you see a small clearing. More
+    hills are to the north of here.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2309
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2307
+  extra_descs: []
+- vnum: 2309
+  name: The rocky path
+  description: |
+    The path here is very rocky and treacherous. The travelling is rough and you
+    slip and fall often. Looking south, you see that the path continues into the
+    hills. Smoother ground is to the east, but the path seems to lead into a dark
+    forest in that direction.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2303
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2308
+  extra_descs: []
+- vnum: 2310
+  name: Up the rocky hillside
+  description: |
+    You are climbing on a rocky hillside. As you scramble about, loose rocks and
+    small boulders bounce and fall down below you. Looking to the east and west,
+    you see more stable ground. The hillside itself goes on higher to the south
+    and it drops away to the north.
+  room_flags: C
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2307
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2312
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2314
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2311
+  extra_descs: []
+- vnum: 2311
+  name: The sparse foothills
+  description: |
+    You are in foothills that are sparsely covered by scraggly bushes and weather
+    beaten trees. There are little signs of life here. Only bare rock and dry dirt
+    can be seen. Looking east, you see a small pass that will allow you to leave
+    the foothills. The foothills themselves extend to the south.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2310
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2313
+  extra_descs: []
+- vnum: 2312
+  name: Standing on level ground
+  description: |
+    You are standing at the edge of a steep set of foothills. Looking down, you
+    see what appears to be a marshy, dark forest. It reeks of death and decay.
+    Even here, you catch its scent on the winds. From here, you can travel south
+    deeper into the foothills or to the west where a small pass will allow you to
+    climb down.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2315
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2310
+  extra_descs: []
+- vnum: 2313
+  name: In the foothills
+  description: |
+    You are in a barren set of foothills. Looking around, all you see are dead
+    plants and boulders. From the south, you get a whiff of salty air. Barren paths
+    lead east, north, and south into more barren hills.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2311
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2314
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2317
+  extra_descs: []
+- vnum: 2314
+  name: Before the huge tree
+  description: |
+    You enter a large ring of boulders. Sheltered by this wall of stones, a small
+    cluster of plants have sprung up. In the center of this group of trees and
+    bushes is a huge gnarled tree. It appears to have been twisted and torn by
+    the forces of nature. It sways and moans as a strong wind from the south tears
+    through its old feeble branches. The hills themselves lead in all directions.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2310
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2315
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2318
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2313
+  extra_descs: []
+- vnum: 2315
+  name: Before the dark cave
+  description: |
+    You stand directly before a huge dark cave. The rocks and boulders outside the
+    cave are covered with blood stains and all types of broken and shattered bones
+    lie around. An unbearable stench comes from within the cave itself. The dark
+    cave entrance looms to the east. The hills themselves lead towards the
+    north, south, and west.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2312
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2316
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2319
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2314
+  extra_descs: []
+- vnum: 2316
+  name: Inside the horrid cave
+  description: |
+    The stench is overwhelming. You can hardly breathe as you enter the cave.
+    Looking around, you realize that some bizarre and horrible creature uses this
+    cave as a home. Skeletal remains lie all over. Several half-eaten corpses are
+    rotting away slowly in the gloomy darkness. In the back of the cave, you see a
+    large pile of rotting cloth, fur, and plant matter. Light and safety is
+    towards the west.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2315
+  extra_descs:
+  - keywords: pile
+    description: |
+      It appears to be some sort of nest......
+- vnum: 2317
+  name: The hills overlooking the shore
+  description: |
+    Standing at the edge of the foothills, you are able to look down upon a rocky
+    shoreline. It appears as though a vast ocean is to the south. Sea birds have
+    made their nests here in the rocks and you are heartened by the presence of
+    life here. It is possible to climb down to the shore here. The hills
+    themselves are to the north. The edge of the hills leads to the east along the
+    shoreline.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2313
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2318
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2320
+  extra_descs: []
+- vnum: 2318
+  name: The hills overlooking the shoreline
+  description: |
+    You stand on a barren section of hills that overlook a rocky shoreline. The
+    stiff ocean wind has blown the rocks smooth here and you have to lean forward
+    a bit to keep your balance. The salty sea air fills your nostrils and you
+    notice signs of life in the rocky crags here. You can climb down towards the
+    shore or head north into the hills themselves. The rocky summit you are
+    standing leads east and west along the shoreline.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2314
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2319
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2317
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2321
+  extra_descs: []
+- vnum: 2319
+  name: The hills above the shoreline
+  description: |
+    You stand on a rocky summit overlooking a rough shoreline below. The sea wind
+    blows hard across the rocks here and they have been worn smooth with time.
+    Looking around, you notice that you can safely climb down towards the shore.
+    The hills themselves stretch towards the north. The rough summit you stand
+    upon leads west along the shoreline.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2315
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2318
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2322
+  extra_descs: []
+- vnum: 2320
+  name: The rocky shore
+  description: |
+    You are at the base of the rocky hills. Stretching to the south and east, you
+    see a rocky shore. To the southeast, you see a small altar of some sorts that
+    glows with an eerie blue light. It is possible to climb up into the hills here.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2321
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2323
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2317
+  extra_descs: []
+- vnum: 2321
+  name: The rocky shoreline
+  description: |
+    You are on a rocky shore that borders a vast sea. A stiff wind blows here and
+    whistles among the rocks. You see an altar of some sort built on the shore to
+    the south. The shore itself leads east and west. Looking up, you see foothills
+    and rocky crags.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2322
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2324
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2320
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2318
+  extra_descs: []
+- vnum: 2322
+  name: The rocky shore
+  description: |
+    You stand at the base of some rocky hills, where they meet a rocky shore. A
+    vast sea is to your south. Looking to the southwest, you see a small altar
+    that glows with a eerie blue light. The shore stretches out to the south and
+    west. It is possible to climb up into the hills here.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2325
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2321
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2319
+  extra_descs: []
+- vnum: 2323
+  name: The edge of the sea
+  description: |
+    You walk along the water's edge. The vastness of the ocean is staggering as
+    you look out across it. You notice a small altar that glows with blue light
+    to the east. The shore itself extends north away from the water's edge.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2320
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2324
+  extra_descs: []
+- vnum: 2324
+  name: The Blood Sea Portal
+  description: "You stand on a small pedestal like altar that has been built on the\
+    \ shore\nhere.  Standing here, you can look out across the sea.  You can almost\n\
+    imagine that you see a far away island.  Dominating the altar is a small\nblue\
+    \ portal of light.  It is possible to walk south into the portal.  The\nshore\
+    \ itself extends to the north, east, and west.  \nThere are small inscriptions\
+    \ on the rock at the base of the portal.\n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2321
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2325
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2326
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2323
+  extra_descs:
+  - keywords: small inscriptions inscription
+    description: |
+      "Enter all ye who wish to join the Brotherhood!"
+  - keywords: portal blue
+    description: |
+      You see a swirling blue portal of light. You think you can see glimpses of
+      something moving on the "other side".
+- vnum: 2325
+  name: The edge of the sea
+  description: |
+    You walk along the water's edge. The tide appears to have risen. Very little
+    debris is washed up on shore. You slip and slide as you tread across the
+    slippery rocks that make up the shore. To the west you see a small altar that
+    radiates blue light. The shore extends north away from the water's edge.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2322
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2324
+  extra_descs: []
+- vnum: 2326
+  name: Floating in blue light
+  description: |
+    You seem to be floating in blue weightlessness. You tumble head over heels and
+    finally right yourself. Gaining your bearings, you notice that there are two
+    "windows" in the sea of blue here. One to the south shows an image of a snowy
+    plain. Another window the the north shows an image of a rocky shore.
+  room_flags: CD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2324
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2353
+  extra_descs: []
+- vnum: 2327
+  name: The swampy path
+  description: |
+    This damp path seems to lead into a deep, dark swamp. The trees above block
+    out all light and stifle the wind. You smell swamp gas and hear damp squashing
+    sounds all around you. The path leads east deeper into the swamp. You also see
+    a dark forest to the west.
+  room_flags: ACD
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2328
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2305
+  extra_descs: []
+- vnum: 2328
+  name: The swampy path
+  description: |
+    You tread lightly in a wet, swampy path. All around you, you see pools of
+    quicksand and rotting vegetation. Unlike the forest to the west, the swamp is
+    teeming with life. Some of it is harmless, some is not. The path leads east
+    and west into more swamp.
+  room_flags: AD
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2329
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2327
+  extra_descs: []
+- vnum: 2329
+  name: The swampy path
+  description: |
+    You weave your way through the treacherous swamp. Gas rises all around you and
+    a damp mist covers the ground, making it impossible to travel safely, without
+    carefully picking your way around obstacles. Large, gnarled trees rise above
+    you. Their moss covered branches block out all traces of the sun. The path
+    here leads east and west.
+  room_flags: AD
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2330
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2328
+  extra_descs: []
+- vnum: 2330
+  name: The turn in the swampy path
+  description: |
+    You come upon a bend in the swampy path. The ground here is fairly sturdy,
+    as this place is elevated above the rest of the swamp. Looking around, you see
+    a dark, mist filled swamp. Small paths lead south and west into the mist.
+  room_flags: AD
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2331
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2329
+  extra_descs: []
+- vnum: 2331
+  name: The swampy path
+  description: |
+    You tread lightly through the mirky water and sludge that makes up the path
+    you follow. To the east, there is a thick wall of mist. You can see nothing
+    within it. Harder ground rises to the north.
+  room_flags: AD
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2330
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2335
+  extra_descs: []
+- vnum: 2332
+  name: Lost in the Mist
+  description: |
+    You wander, hopelessly lost. Swirling mist obscures your vision and clouds
+    your mind. You lose all concept of direction. Small, silent giggles can be
+    heard all around. You can wander in any direction.
+  room_flags: ADN
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2337
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2335
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2334
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2334
+  extra_descs: []
+- vnum: 2333
+  name: Lost in the Mist
+  description: |
+    You are in a thick misty area. The mist swirls around you, seeming to taunt
+    you and dare you to escape. You feel a slight electric charge in the mist. It
+    almost caresses your body as it floats about you. You can wander in any
+    direction.......
+  room_flags: ADN
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2333
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2333
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2335
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2336
+  extra_descs: []
+- vnum: 2334
+  name: Lost in the Mist
+  description: |
+    You try to peer through the mist......You see nothing. It swirls about you,
+    covering you in a damp sheen. There is no sound, all light is eagerly devoured
+    by the mist. You feel totally and hopelessly lost.
+  room_flags: ADN
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2336
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2332
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2332
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2338
+  extra_descs: []
+- vnum: 2335
+  name: Lost in the Mist
+  description: |
+    You stumble through the marsh here. The swamp seems to have swallowed you up
+    and denied you exit. This mist is your jailor. You cannot tell where you are.
+    You hear quiet laughter all about you.
+  room_flags: ADN
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2331
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2333
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2337
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2332
+  extra_descs: []
+- vnum: 2336
+  name: Lost in the Mist
+  description: |
+    You wander, lost, for what seems an eternity. Then....From nowhere....You see
+    what appears to be trees and hills to the east. The mist itself thickens to
+    the west, while it grows thin to the east.
+  room_flags: ADN
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2333
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2338
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2339
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2334
+  extra_descs: []
+- vnum: 2337
+  name: Lost in the Mist
+  description: |
+    You wander through the thick mist. It swirls all about you and makes it hard
+    to breathe. The ground below you makes a soft squishing sound as you trudge
+    on, but this noise is absorbed by the mist and does not travel. You can wander
+    in any direction.
+  room_flags: ADN
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2338
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2338
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2335
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2332
+  extra_descs: []
+- vnum: 2338
+  name: Lost in the Mist
+  description: |
+    You wander, lost hopelessly. The mist swirls all about you. You can discern no
+    direction. You stumble blindly through the mist, oblivious to your
+    surroundings.
+  room_flags: ADN
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2336
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2334
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2337
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2337
+  extra_descs: []
+- vnum: 2339
+  name: The solid path
+  description: |
+    A solid path rises out of the misty swamp. It leads north, into what appears
+    to be a forested area. The trees, above, allow light and air to penetrate and
+    you can see the sky above. A thick bank of mist is to your west.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2340
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2336
+  extra_descs: []
+- vnum: 2340
+  name: A forested path
+  description: |
+    The path here leads north through a thick forest. High bushes and forest
+    undergrowth line both sides of the trail. Looking north, you see a thin line
+    of smoke rising up above the tree line. You also notice a crude wooden gate
+    farther north on the trail. The trail itself leads south into murky territory.
+  room_flags: C
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2341
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2339
+  extra_descs: []
+- vnum: 2341
+  name: The gate before the Ogre Village
+  description: |
+    You stand before a huge pair of crude, wooden gates. They are thrown open.
+    Looking inside the gates, you see a crude village. Large humanoid creatures
+    are milling to and fro.......Ogres! You can head north through the gate or
+    south into the forest.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2343
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2340
+  extra_descs: []
+- vnum: 2342
+  name: Among the crude huts
+  description: |
+    You walk among the huts of the ogre village. The village appears to be cut
+    from the heart of the forest itself. The swamp, nearby, provides the ogres
+    with a prime hunting ground. Small paths lead north and east.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2345
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2343
+  extra_descs: []
+- vnum: 2343
+  name: Inside the gates
+  description: "You stand just north of the gates to the village. Looking around,\
+    \ you see many\ncrude huts and cooking fires. To the north, you see a huge fire\
+    \ pit. Behind \nit, there appears to be a hut of sorts. Small paths lead east\
+    \ and west among \nthe crude huts. The gates to the south provide an exit from\
+    \ the village.\n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2346
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2344
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2341
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2342
+  extra_descs: []
+- vnum: 2344
+  name: Among the crude huts
+  description: |
+    You walk through the crude village. Small huts made of wood and thatch
+    surround you. Every so often, you can hear grunts and snarls inside the huts.
+    The smell here is unbearable. You wonder what type of creature could possibly
+    live in such squalor. Small paths lead west and north here.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2347
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2343
+  extra_descs: []
+- vnum: 2345
+  name: The gathering place
+  description: |
+    This appears to be the clearing the ogres use to assemble. It is quite large
+    and has a raised mound in the center that contains a crude throne. The ground
+    in front of the throne is quite worn, as if it is sat on quite often. You get
+    the impression that this place is a crude sort of auditorium. Small paths lead
+    east and south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2346
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2342
+  extra_descs: []
+- vnum: 2346
+  name: The firepit before the lodge
+  description: |
+    You stand at the edge of a huge firepit. The heat from the burning embers
+    makes you sweat as you stand here. Large spits above the pit are empty but
+    they appear to be quite large enough to hold hapless adventurers. A large
+    lodge is towards the north, while paths lead east, west, and south into the
+    village itself.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 2348
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2347
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2343
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2345
+  extra_descs: []
+- vnum: 2347
+  name: The village dump
+  description: |
+    The smell here overpowers you. All around you are the rotting remains of the
+    village's refuse. Partially eaten corpses, rotting food, and other truly
+    disgusting things have been discarded here. Paths lead south and west towards
+    fresher air.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2344
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2346
+  extra_descs: []
+- vnum: 2348
+  name: The entryway to the lodge
+  description: |
+    You are at the entry hall to a large lodge. Animal pelts and other trophies
+    line the walls here. Large chests on either side of the door appear to be
+    locked. The lodge stretches north, while the doors to the south provide an
+    exit into the village.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2349
+  - dir: 2
+    desc: ''
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 2346
+  extra_descs: []
+- vnum: 2349
+  name: The throne room
+  description: "You stand in a large, crudely decorated throne room. A huge throne\
+    \ adorned\nwith humanoid skulls sits against the west wall. A crude, blood stained\
+    \ altar\nis against the east wall. A doorway is directly to the north, long strands\
+    \ of\nbeads blocking the view of the other side. Crude torches light the hall\
+    \ and \nsmoke clings to the ceiling.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2350
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2348
+  extra_descs: []
+- vnum: 2350
+  name: The chieftain's room
+  description: |
+    This appears to be the ogre chieftain's private quarters. A huge pile of furs
+    is in the far corner. Large chests fill the room. All of them have heavy pad
+    locks. The room is filled with trophies of dead enemies. It is quite lavishly
+    decorated for such a crude inhabitant as an ogre. A beaded doorway is to the
+    south.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2349
+  extra_descs: []
+- vnum: 2351
+  name: The frigid wastelands
+  description: |
+    You wander through the frigid wastelands. Your breath is a cloud before you.
+    The cold cuts to the bone. Swirling snow and wind make impossible for you to
+    discern any directions.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2352
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2353
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2354
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2355
+  extra_descs: []
+- vnum: 2352
+  name: The frigid wastelands
+  description: |
+    You wander through the frigid wastelands. Your breath is a cloud before you.
+    The cold cuts to the bine. Swirling snow and wind make it impossible to
+    discern any directions.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2358
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2351
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2357
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2354
+  extra_descs: []
+- vnum: 2353
+  name: The Glacier Temple
+  description: |
+    You are in a small temple. It appears to be built entirely from ice. The ice
+    walls are frosted and are opaque. There is a small blue portal here. You can
+    go north, to enter the portal. Looking south, you see a world of white outside
+    the open doorway. Swirling snow and bright light obscure your view.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2326
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2351
+  extra_descs: []
+- vnum: 2354
+  name: The frigid wastelands
+  description: |
+    You wander through the frigid wastelands. Your breath is a cloud before you.
+    The cold cuts to the bone. Swirling snow and wind make it impossible for you
+    to discern any directions.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2356
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2351
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2359
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2352
+  extra_descs: []
+- vnum: 2355
+  name: The frigid wastelands
+  description: |
+    You wander through the frigid wastelands. Your breath is a cloud before you.
+    The cold cuts to the bone. Swirling snow and wind make it impossible for you
+    to discern any directions.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2357
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2351
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2356
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2356
+  extra_descs: []
+- vnum: 2356
+  name: The frigid wastelands
+  description: |
+    You wander through the frigid wastelands. Your breath is a cloud before you.
+    The cold cuts to the bone. Swirling snow and wind make it impossible for you
+    to discern any directions.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2355
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2355
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2359
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2354
+  extra_descs: []
+- vnum: 2357
+  name: The frigid wastelands
+  description: |
+    You wander through the frigid wastelands. Your breath is a cloud before you.
+    The cold cuts to the bone. Swirling snow and wind make it impossible for you
+    to discern any directions.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2355
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2359
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2352
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2358
+  extra_descs: []
+- vnum: 2358
+  name: The frigid wastelands
+  description: |
+    You wander through the frigid wastelands. Your breath is a cloud before you.
+    The cold cuts to the bone. Swirling snow and wind make it impossible for you
+    to discern any direction.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2359
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2352
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2357
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2360
+  extra_descs: []
+- vnum: 2359
+  name: The frigid wastelands
+  description: |
+    You wander through the frigid wastelands. Your breath is a cloud before you.
+    The cold cuts to the bone. Swirling snow and wind make it impossible for you
+    to discern any directions.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2354
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2356
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2357
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2358
+  extra_descs: []
+- vnum: 2360
+  name: The edge of the frigid wastes
+  description: |
+    You stand at the base of a steep rocky cliff. To the north, a vast arctic
+    wasteland stretches out. The snow falls lightly here and the wind is not
+    very fierce. You can climb up the rocky cliff or head north into the arctic
+    wastes.
+  room_flags: C
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2358
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2361
+  extra_descs: []
+- vnum: 2361
+  name: On the cliffside
+  description: |
+    You cling to the side of the cliff. Looking down, you are terrified by the
+    sheer distance to the ground below. You can climb up higher into the cliffs,
+    but the area above is obscured by clouds and you cannot tell what lies waiting
+    above.
+  room_flags: C
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2362
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2360
+  extra_descs: []
+- vnum: 2362
+  name: Before the gates of Mahn-Tor
+  description: "You stand at the edge of a high cliff. Directly south, set back off\
+    \ the\ncliff's edge, you see a huge pair of gates. These gates appear to be carved\n\
+    almost completely out of ice. A huge city and keep appear to be on the other\n\
+    side of these gates. There is also a possibility of climbing down the cliff \n\
+    face.\n"
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: gate huge gates ice
+    exit_flags: A
+    key: -1
+    to_vnum: 2364
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2361
+  extra_descs:
+  - keywords: gate gates ice huge
+    description: |
+      The gates to the city are made almost completely of ice. Looking closely, you
+      can see intricate carvings in the gates. They appear to be of creatures that
+      are half man and half bull.
+- vnum: 2363
+  name: The city streets of Mahn-Tor
+  description: |
+    You walk among the ice and snow covered shops and homes. Most of the doors are
+    closed and only the light from the windows betrays the presence of inhabitants.
+    A cold wind blows through here, scattering fine clouds of snow all about. Small
+    streets lead south and east.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2364
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2366
+  extra_descs: []
+- vnum: 2364
+  name: Inside the gates of Mahn-Tor
+  description: |
+    You stand just inside the gates to the city of Mahn-Tor. The city itself
+    spreads out in front of you. The buildings are sturdy, as they appear to be
+    made from the very rock of this mountain. Snow falls all around and a fine
+    sheet of ice can be seen covering all but the most used walk ways. Small city
+    streets lead east and west, while a main road appears to lead south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: gates gate huge ice
+    exit_flags: A
+    key: -1
+    to_vnum: 2362
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2365
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2367
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2363
+  extra_descs: []
+- vnum: 2365
+  name: The city streets of Mahn-Tor
+  description: |
+    You trudge among the icy streets of Mahn-Tor. The streets themselves are made
+    of cobblestone and are quite treacherous. Small homes and businesses along
+    the street are closed tight and light from their windows throws eerie shadows
+    across the dark street. Small streets lead west and south here.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2368
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2364
+  extra_descs: []
+- vnum: 2366
+  name: The city streets of Mahn-Tor
+  description: |
+    You trudge through the snow covered streets. The street itself is made of
+    cobblestones and the footing is quite treacherous. To the south, you see what
+    appears to be a small tavern. Bright lights shine through the windows. Small
+    streets also lead north and east.
+    A small sign hangs outside the tavern.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2363
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2367
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2369
+  extra_descs:
+  - keywords: sign small
+    description: |
+      []=============[]
+       |   The Inn   |
+       |    of the   |
+       |    Broken   |
+       |     Horn    |
+      []=============[]
+- vnum: 2367
+  name: The Square of Mahn-Tor
+  description: |
+    This appears to be the main square of Mahn-Tor. A huge fountain graces the
+    center of the square, but the extreme cold has turned it into an ice
+    sculpture. The water has frozen in arcs through the air. Snow and ice covers
+    the square and small streets lead east and west. To the north, you see
+    the gates to the city. You also notice a small store to the south.
+    A small sign hangs outside the store.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2364
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2368
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2370
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2366
+  extra_descs:
+  - keywords: sign
+    description: |
+      []=========[]
+       |  Equip  |
+       |   Shop  |
+      []=========[]
+- vnum: 2368
+  name: The streets of Mahn-Tor
+  description: |
+    You walk among the small stores and homes of Mahn-Tor. The cobblestone streets
+    are covered with ice and snow. Small snow drifts have formed at the edges of
+    the streets. The wind blows fiercely. Small streets lead in all directions.
+    There appears to be a large building to the east, but the snow obscures your
+    view.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2365
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2375
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2371
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2367
+  extra_descs: []
+- vnum: 2369
+  name: The Inn of the Broken Horn
+  description: |
+    You enter a warm tavern. The room is lit mainly by two huge fireplaces at each
+    end of the room. Small tables and a large bar furnish the room. The
+    inhabitants of the inn are all minotaurs of varying size and disposition. Most
+    seem to regard you with suspicion. Few approach you. A large door leads
+    north, out of the bar and back out into the cold.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2366
+  extra_descs: []
+- vnum: 2370
+  name: The Mahn-Tor Equipment Shop
+  description: |
+    You are in a crude equipment shop. The store is filled with racks of various
+    items that adventurers could use. Large fireplaces light and heat the room.
+    A large desk occupies the back of the room. The door to the shop lies to the
+    north.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2367
+  extra_descs: []
+- vnum: 2371
+  name: The Mahn-Tor General Store
+  description: |
+    You enter a small store that is dark and cold. Old empty shelves line the
+    walls and snow blows across the dirty stone floor. It is evident that this
+    store was once used, but it is no more. A small doorway leads north out into
+    the chilling snow and wind.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2368
+  extra_descs: []
+- vnum: 2372
+  name: Gorak's Training Room
+  description: |
+    This room is full of all sorts of weapons and armours. Pieces of old targets
+    and practice dummies lie all around. The walls are chipped and scored from
+    weapon blows. This is obviously the room of an avid warrior. A red door leads
+    east.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: red
+    exit_flags: AC
+    key: 2351
+    to_vnum: 2388
+  extra_descs:
+  - keywords: red
+    description: |
+      It looks like it leads back to the hall.
+- vnum: 2373
+  name: Darkoth's Dark Study
+  description: |
+    This room is dark. It reeks of death and evil. Arcane symbols and a small
+    altar fill the room. Blood runs from the altar. It is evident that this room
+    is used for unholy purposes. A black door leads west.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: black
+    exit_flags: AC
+    key: 2352
+    to_vnum: 2389
+  extra_descs:
+  - keywords: black
+    description: |
+      It looks like it leads back to the hall.
+- vnum: 2374
+  name: Tyrgoth's Inner Sanctum
+  description: |
+    Idols to the gods of good fill the room. White furniture and decorations give
+    the room a holy appearance. It is evident that some being of supreme goodness
+    lives here. A white door leads east.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: white
+    exit_flags: AC
+    key: 2353
+    to_vnum: 2392
+  extra_descs:
+  - keywords: white
+    description: |
+      It looks like it leads out to the hall.
+- vnum: 2375
+  name: The road to the Keep of Mahn-Tor
+  description: |
+    You walk up a steep rocky road. It leads up a steep grade to the east. At the
+    end of this steep road, you see a huge keep. Snow swirls all about you and you
+    feel your breath freeze as it leaves your lungs. Blurry lights to the east and
+    west are all you can see from here.
+  room_flags: C
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2377
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2368
+  extra_descs: []
+- vnum: 2376
+  name: A small guard house
+  description: |
+    You enter a small guard house. A huge fireplace lights and warms the room.
+    Looking around, you see that the room is fairly well furnished. Thick rugs
+    and curtains help insulate the room and the beds themselves look quite warm.
+    A table in the center of the room has the remnants of a card game strewn
+    across it. A small door leads south.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2377
+  extra_descs: []
+- vnum: 2377
+  name: Before the Keep of Mahn-Tor
+  description: |
+    You stand before a huge keep that has been carved into the side of the
+    mountain. Huge wooden gates before you provide entrance to the keep. It
+    appears as though the cold here has convinced the guards to seek warmth
+    inside. You see the lights of the city to the west. You also notice small
+    guard houses to the north and south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2376
+  - dir: 1
+    desc: ''
+    keywords: gate
+    exit_flags: AC
+    key: 2350
+    to_vnum: 2379
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2378
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2375
+  extra_descs: []
+- vnum: 2378
+  name: A small guard house
+  description: |
+    You enter a small, but warm, guard house. Deep rugs and thick curtains
+    insulate the room. A huge fireplace lights and warms the room. Outside, you
+    hear the roar of the freezing wind. A small door leads north out into the cold.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2377
+  extra_descs: []
+- vnum: 2379
+  name: The entryway to the Keep of Mahn-Tor
+  description: |
+    You are at the entry hall to the huge keep. The high vaulted ceiling is carved
+    from solid stone. Huge stone pillars rise up from the floor to meet the
+    ceiling far above. The architecture appears to be dwarven. A huge pair of
+    gates stand to the west, protecting the keep from the harsh cold outside. A
+    large hall leads east, deeper into the keep.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2380
+  - dir: 3
+    desc: ''
+    keywords: gate
+    exit_flags: AC
+    key: 2350
+    to_vnum: 2377
+  extra_descs: []
+- vnum: 2380
+  name: The Hall
+  description: |
+    You are in a huge hall. Large tapestries line the walls and huge statues of
+    various make and appearance are spread about. The ceiling above supports huge
+    candelabras, which light the room. To the east, you see a bright light and
+    hear sounds of inhabitation. Looking west, you see the entry gates to the keep.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2381
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2379
+  extra_descs: []
+- vnum: 2381
+  name: The Grand Hall
+  description: |
+    You are in the main hall of the Keep of Mahn-Tor. This hall is huge. The wide
+    floor of the hall is an expanse of marble. It shimmers in the light thrown
+    off by the torches that line the walls. To the east, you see what appears to
+    be a huge golden throne. The hall itself stretches south and a smaller hall
+    leads to the west.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2383
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2382
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2380
+  extra_descs: []
+- vnum: 2382
+  name: The Great Hall
+  description: |
+    You stand in the great hall of the keep. Huge pillars rise up to the vaulted
+    ceiling and torch light glimmers off the marble floor here. You are amazed at
+    the sheer size of the hall. The hall itself leads north and east. You notice a
+    smaller hall leading south, deeper into the keep.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2381
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2384
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2387
+  extra_descs: []
+- vnum: 2383
+  name: Standing before the throne
+  description: |
+    You stand before the throne of Mahn-Tor. This golden throne is so huge that it
+    takes up almost the entire wall, stretching far above the floor. Sitting upon
+    it, you feel small and feeble. It is evident that this throne is more of a
+    decoration than anything else. Only the largest of kings could sit upon it.
+    The hall leads south and west into other parts of the keep.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: throne huge golden gold
+    exit_flags: A
+    key: 2395
+    to_vnum: 2385
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2384
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2381
+  extra_descs:
+  - keywords: throne huge gold golden
+    description: |
+      The golden throne is huge. It takes up the whole wall.........
+- vnum: 2384
+  name: The Great Hall
+  description: |
+    You are in a great hall. Huge torches light the room and their light shimmers
+    off the marble floor below you. To the north, you see a huge golden throne.
+    Looking up, you grow dizzy at the height to which the vaulted ceiling rises.
+    The hall itself leads north and west.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2383
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2382
+  extra_descs: []
+- vnum: 2385
+  name: The secret hallway
+  description: |
+    You are in a small, torch lit hall. It leads from east to west. A large gold
+    door is to the west. To the east, you see a heavy stone door.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: door huge stone
+    exit_flags: AC
+    key: 2359
+    to_vnum: 2386
+  - dir: 3
+    desc: ''
+    keywords: gold throne huge secret
+    exit_flags: A
+    key: 0
+    to_vnum: 2383
+  extra_descs:
+  - keywords: gold
+    description: |
+      Looks like the back of a secret door of sorts.
+  - keywords: huge stone
+    description: |
+      A very formidable looking door.
+- vnum: 2386
+  name: Entry to the Royal Chambers
+  description: |
+    You are at the entrance to the royal chambers of the keep. A plush shag rug
+    covers the stone floor. Large candelabras hang from the ceiling, lighting the
+    room. A huge fireplace warms the room. Beaded doorways lead south and east. A
+    huge stone door stands in the west wall.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2395
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2393
+  - dir: 3
+    desc: ''
+    keywords: door huge stone
+    exit_flags: AC
+    key: 2359
+    to_vnum: 2385
+  extra_descs:
+  - keywords: door huge stone
+    description: |
+      A huge stone door.......
+- vnum: 2387
+  name: The Guard Post
+  description: |
+    The hall here has been built into a guard post of sorts. It appears as though
+    it would be quite easy to defend in times of emergency. Obviously, something
+    important lies beyond. A small hall leads south, while the main hall can be
+    seen to the north.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2382
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2388
+  extra_descs: []
+- vnum: 2388
+  name: The guarded hall
+  description: |
+    You walk down a torch lit hallway. It has been carved out of pure stone. It is
+    very quiet in this hall. You notice rows of colored doors on each wall. To
+    your east, you see a yellow door. To your west, you see a red door. The hall
+    itself leads south and north.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2387
+  - dir: 1
+    desc: ''
+    keywords: yellow
+    exit_flags: AC
+    key: 2355
+    to_vnum: 2390
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2389
+  - dir: 3
+    desc: ''
+    keywords: red
+    exit_flags: AC
+    key: 2351
+    to_vnum: 2372
+  extra_descs:
+  - keywords: red
+    description: |
+      You see a red door. It has the name "Gorak" written on it.
+  - keywords: yellow
+    description: |
+      You see a yellow door. It has the name "Sumaron" written on it.
+- vnum: 2389
+  name: The guarded hall
+  description: |
+    You walk down a small, quiet, torch lit hallway. Doors of different colors are
+    in each wall. To your east, you see a maroon door. To your west, you see a
+    black door. The hall itself leads north and south.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2388
+  - dir: 1
+    desc: ''
+    keywords: maroon
+    exit_flags: AC
+    key: 2356
+    to_vnum: 2391
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2392
+  - dir: 3
+    desc: ''
+    keywords: black
+    exit_flags: AC
+    key: 2352
+    to_vnum: 2373
+  extra_descs:
+  - keywords: black
+    description: |
+      You see a black door. It has the name "Darkoth" inscribed on it.
+  - keywords: maroon
+    description: |
+      You see a maroon door here. It has the name "Amyrok" written on it.
+- vnum: 2390
+  name: Sumaron's Sanctum
+  description: |
+    You enter a temple of sorts. A small altar is here and relics of many
+    religions lie around. It is evident that this is the room of a studying cleric.
+    A yellow door leads west.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: yellow
+    exit_flags: AC
+    key: 2355
+    to_vnum: 2388
+  extra_descs:
+  - keywords: yellow
+    description: |
+      It looks like it leads back to the hall.
+- vnum: 2391
+  name: Amyrok's Arcane Study
+  description: |
+    This room is full of shelves which hold various spell components. The center
+    of the room is occupied by a huge pentagram. The entire room smells of smoke
+    and incense. The room is obviously used extensively by a practicing mage. A
+    maroon door leads west.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: maroon
+    exit_flags: AC
+    key: 2356
+    to_vnum: 2389
+  extra_descs:
+  - keywords: maroon
+    description: |
+      It looks like it leads back to the hall.
+- vnum: 2392
+  name: The guarded hall
+  description: |
+    You walk down a quiet hall. The stone walls here are wet with moisture.
+    Colored doors can be seen in the walls here. To your east, you see a green
+    door. To your west, you see a white door. The hall itself leads north and
+    south.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2389
+  - dir: 1
+    desc: ''
+    keywords: green
+    exit_flags: AC
+    key: 2357
+    to_vnum: 2394
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2397
+  - dir: 3
+    desc: ''
+    keywords: white
+    exit_flags: AC
+    key: 2353
+    to_vnum: 2374
+  extra_descs:
+  - keywords: white
+    description: |
+      You see a white door here. It has the name "Tyrgoth" inscribed on it.
+  - keywords: green
+    description: |
+      You see a green door here. It has the name "Nasturn" written on it.
+- vnum: 2393
+  name: The Harem Room
+  description: |
+    This appears to be the harem room of the Keep. Huge piles of furs and beds
+    fill the room. The lighting is dim, but the room is very warm. You can hear
+    music playing quietly from somewhere. Beaded doorways lead north and east.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2386
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2396
+  extra_descs: []
+- vnum: 2394
+  name: Nasturn's Humble Abode
+  description: |
+    This room is filled with all types of natural items. Trees and plants have
+    been lovingly cultivated and grown by hand, in large pots. The room is like an
+    indoor garden. A green door leads west.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: green
+    exit_flags: AC
+    key: 2357
+    to_vnum: 2392
+  extra_descs:
+  - keywords: green
+    description: |
+      It looks like it leads back to the hall.
+- vnum: 2395
+  name: The main living room
+  description: |
+    This room is decorated with sturdy stone furniture that is carved and gilded.
+    Large candles light the room. A thick rug covers the floor. Thick furs and
+    tapestries decorate the walls. Beaded doorways lead south and west.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2396
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2386
+  extra_descs: []
+- vnum: 2396
+  name: The Master Bedroom
+  description: |
+    This appears to be the master bedroom. A huge bed fills the rooms. Piles of
+    furs and other rich furnishings adorn the room. Candles are everywhere and
+    they help a huge fireplace light the room. The lavishness of the room
+    overwhelms you. Beaded doorways lead north and west.
+  room_flags: DH
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2395
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2393
+  extra_descs: []
+- vnum: 2397
+  name: The end of the guarded hall
+  description: |
+    You are at the end of the hall. Colored doors line the walls to the north. To
+    your west, you see a brown door. To you east, you see a grey door. The hall
+    itself leads north back along the rows of doors.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2392
+  - dir: 1
+    desc: ''
+    keywords: grey
+    exit_flags: AC
+    key: 2358
+    to_vnum: 2398
+  - dir: 3
+    desc: ''
+    keywords: brown
+    exit_flags: AC
+    key: 2354
+    to_vnum: 2399
+  extra_descs:
+  - keywords: brown
+    description: |
+      You see a brown door here. It has the name "Belrak" written on it.
+  - keywords: grey
+    description: |
+      You see a grey door here. It has the name "Dorgar" written on it.
+- vnum: 2398
+  name: Dorgar's Dismal Domicile
+  description: |
+    This room is dirty and unkempt. Odds and ends of different items lie all over.
+    It is apparent that some type of pack-rat lives here. It appears as though
+    nothing has ever entered this room and ever left again. A grey door leads west.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: grey
+    exit_flags: AC
+    key: 2358
+    to_vnum: 2397
+  extra_descs:
+  - keywords: grey
+    description: |
+      It looks like it leads back to the hall.
+- vnum: 2399
+  name: Belrak's Green Room
+  description: |
+    This room is full of green. The furniture and all other items show the color
+    of nature. The room smells of pine and forest odors. From the items here, it
+    appears as though a woodsman of some sorts lives here. A brown door leads east.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: brown
+    exit_flags: AC
+    key: 2354
+    to_vnum: 2397
+  extra_descs:
+  - keywords: brown
+    description: |
+      It looks like it leads to the hall.
+resets:
+- command: D
+  arg1: 2362
+  arg2: 2
+  arg3: 0
+- command: D
+  arg1: 2364
+  arg2: 0
+  arg3: 1
+- command: D
+  arg1: 2377
+  arg2: 1
+  arg3: 2
+- command: D
+  arg1: 2379
+  arg2: 3
+  arg3: 2
+- command: D
+  arg1: 2383
+  arg2: 1
+  arg3: 1
+- command: D
+  arg1: 2385
+  arg2: 1
+  arg3: 2
+- command: D
+  arg1: 2386
+  arg2: 3
+  arg3: 2
+- command: D
+  arg1: 2388
+  arg2: 1
+  arg3: 2
+- command: D
+  arg1: 2388
+  arg2: 3
+  arg3: 2
+- command: D
+  arg1: 2389
+  arg2: 1
+  arg3: 2
+- command: D
+  arg1: 2389
+  arg2: 3
+  arg3: 2
+- command: D
+  arg1: 2392
+  arg2: 1
+  arg3: 2
+- command: D
+  arg1: 2392
+  arg2: 3
+  arg3: 2
+- command: D
+  arg1: 2397
+  arg2: 1
+  arg3: 2
+- command: D
+  arg1: 2398
+  arg2: 3
+  arg3: 2
+- command: M
+  arg1: 2300
+  arg2: 1
+  arg3: 2307
+- command: E
+  arg1: 2346
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2347
+  arg2: 0
+  arg3: 6
+- command: E
+  arg1: 2348
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2303
+  arg2: 4
+  arg3: 2311
+- command: M
+  arg1: 2303
+  arg2: 4
+  arg3: 2312
+- command: M
+  arg1: 2303
+  arg2: 4
+  arg3: 2313
+- command: M
+  arg1: 2301
+  arg2: 1
+  arg3: 2314
+- command: M
+  arg1: 2302
+  arg2: 1
+  arg3: 2316
+- command: M
+  arg1: 2303
+  arg2: 4
+  arg3: 2319
+- command: M
+  arg1: 2304
+  arg2: 1
+  arg3: 2330
+- command: G
+  arg1: 2349
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 2305
+  arg2: 3
+  arg3: 2332
+- command: R
+  arg1: 2332
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 2305
+  arg2: 3
+  arg3: 2333
+- command: R
+  arg1: 2333
+  arg2: 4
+  arg3: 0
+- command: R
+  arg1: 2334
+  arg2: 4
+  arg3: 0
+- command: R
+  arg1: 2335
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 2306
+  arg2: 1
+  arg3: 2336
+- command: G
+  arg1: 2384
+  arg2: 0
+  arg3: 0
+- command: R
+  arg1: 2336
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 2305
+  arg2: 3
+  arg3: 2337
+- command: R
+  arg1: 2337
+  arg2: 4
+  arg3: 0
+- command: R
+  arg1: 2338
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 2309
+  arg2: 4
+  arg3: 2341
+- command: E
+  arg1: 2387
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2309
+  arg2: 4
+  arg3: 2341
+- command: E
+  arg1: 2387
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2308
+  arg2: 4
+  arg3: 2342
+- command: E
+  arg1: 2386
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2309
+  arg2: 4
+  arg3: 2342
+- command: E
+  arg1: 2387
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2307
+  arg2: 5
+  arg3: 2343
+- command: E
+  arg1: 2385
+  arg2: 0
+  arg3: 13
+- command: M
+  arg1: 2307
+  arg2: 5
+  arg3: 2344
+- command: M
+  arg1: 2307
+  arg2: 5
+  arg3: 2345
+- command: M
+  arg1: 2307
+  arg2: 5
+  arg3: 2346
+- command: E
+  arg1: 2385
+  arg2: 0
+  arg3: 13
+- command: M
+  arg1: 2308
+  arg2: 4
+  arg3: 2346
+- command: E
+  arg1: 2386
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2308
+  arg2: 4
+  arg3: 2347
+- command: E
+  arg1: 2386
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2307
+  arg2: 5
+  arg3: 2348
+- command: M
+  arg1: 2308
+  arg2: 4
+  arg3: 2348
+- command: E
+  arg1: 2386
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2309
+  arg2: 4
+  arg3: 2348
+- command: E
+  arg1: 2387
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2310
+  arg2: 1
+  arg3: 2349
+- command: E
+  arg1: 2388
+  arg2: 0
+  arg3: 12
+- command: E
+  arg1: 2389
+  arg2: 0
+  arg3: 6
+- command: M
+  arg1: 2311
+  arg2: 1
+  arg3: 2350
+- command: E
+  arg1: 2390
+  arg2: 0
+  arg3: 9
+- command: E
+  arg1: 2391
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2312
+  arg2: 3
+  arg3: 2351
+- command: E
+  arg1: 2392
+  arg2: 0
+  arg3: 4
+- command: E
+  arg1: 2393
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2360
+  arg2: 0
+  arg3: 8
+- command: R
+  arg1: 2351
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 2314
+  arg2: 3
+  arg3: 2352
+- command: R
+  arg1: 2352
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 2312
+  arg2: 3
+  arg3: 2354
+- command: E
+  arg1: 2392
+  arg2: 0
+  arg3: 4
+- command: E
+  arg1: 2393
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2360
+  arg2: 0
+  arg3: 8
+- command: M
+  arg1: 2314
+  arg2: 3
+  arg3: 2354
+- command: R
+  arg1: 2354
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 2313
+  arg2: 3
+  arg3: 2355
+- command: E
+  arg1: 2361
+  arg2: 0
+  arg3: 12
+- command: R
+  arg1: 2355
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 2314
+  arg2: 3
+  arg3: 2356
+- command: R
+  arg1: 2356
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 2313
+  arg2: 3
+  arg3: 2357
+- command: E
+  arg1: 2361
+  arg2: 0
+  arg3: 12
+- command: R
+  arg1: 2357
+  arg2: 4
+  arg3: 0
+- command: R
+  arg1: 2358
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 2312
+  arg2: 3
+  arg3: 2359
+- command: E
+  arg1: 2392
+  arg2: 0
+  arg3: 4
+- command: E
+  arg1: 2393
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2360
+  arg2: 0
+  arg3: 8
+- command: M
+  arg1: 2313
+  arg2: 3
+  arg3: 2359
+- command: E
+  arg1: 2361
+  arg2: 0
+  arg3: 12
+- command: R
+  arg1: 2359
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 2316
+  arg2: 3
+  arg3: 2362
+- command: E
+  arg1: 2363
+  arg2: 0
+  arg3: 10
+- command: E
+  arg1: 2364
+  arg2: 0
+  arg3: 7
+- command: E
+  arg1: 2365
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2315
+  arg2: 5
+  arg3: 2363
+- command: E
+  arg1: 2362
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2315
+  arg2: 5
+  arg3: 2364
+- command: E
+  arg1: 2362
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2315
+  arg2: 5
+  arg3: 2365
+- command: E
+  arg1: 2362
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2316
+  arg2: 3
+  arg3: 2366
+- command: E
+  arg1: 2363
+  arg2: 0
+  arg3: 10
+- command: E
+  arg1: 2364
+  arg2: 0
+  arg3: 7
+- command: E
+  arg1: 2365
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2315
+  arg2: 5
+  arg3: 2367
+- command: E
+  arg1: 2362
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2317
+  arg2: 3
+  arg3: 2367
+- command: E
+  arg1: 2366
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2367
+  arg2: 0
+  arg3: 6
+- command: E
+  arg1: 2368
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2316
+  arg2: 3
+  arg3: 2368
+- command: E
+  arg1: 2363
+  arg2: 0
+  arg3: 10
+- command: E
+  arg1: 2364
+  arg2: 0
+  arg3: 7
+- command: E
+  arg1: 2365
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2315
+  arg2: 5
+  arg3: 2370
+- command: E
+  arg1: 2362
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2325
+  arg2: 1
+  arg3: 2372
+- command: E
+  arg1: 2300
+  arg2: 0
+  arg3: 9
+- command: E
+  arg1: 2301
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2302
+  arg2: 0
+  arg3: 7
+- command: E
+  arg1: 2303
+  arg2: 0
+  arg3: 10
+- command: E
+  arg1: 2304
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2326
+  arg2: 1
+  arg3: 2373
+- command: E
+  arg1: 2305
+  arg2: 0
+  arg3: 12
+- command: E
+  arg1: 2306
+  arg2: 0
+  arg3: 4
+- command: E
+  arg1: 2307
+  arg2: 0
+  arg3: 9
+- command: E
+  arg1: 2308
+  arg2: 0
+  arg3: 11
+- command: E
+  arg1: 2309
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2327
+  arg2: 1
+  arg3: 2374
+- command: E
+  arg1: 2310
+  arg2: 0
+  arg3: 6
+- command: E
+  arg1: 2311
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2312
+  arg2: 0
+  arg3: 4
+- command: E
+  arg1: 2313
+  arg2: 0
+  arg3: 11
+- command: E
+  arg1: 2314
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2317
+  arg2: 3
+  arg3: 2376
+- command: E
+  arg1: 2366
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2367
+  arg2: 0
+  arg3: 6
+- command: E
+  arg1: 2368
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2318
+  arg2: 1
+  arg3: 2377
+- command: G
+  arg1: 2350
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 2317
+  arg2: 3
+  arg3: 2378
+- command: E
+  arg1: 2366
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2367
+  arg2: 0
+  arg3: 6
+- command: E
+  arg1: 2368
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2319
+  arg2: 2
+  arg3: 2379
+- command: E
+  arg1: 2369
+  arg2: 0
+  arg3: 6
+- command: E
+  arg1: 2370
+  arg2: 0
+  arg3: 7
+- command: E
+  arg1: 2371
+  arg2: 0
+  arg3: 10
+- command: E
+  arg1: 2366
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2372
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2319
+  arg2: 2
+  arg3: 2380
+- command: E
+  arg1: 2369
+  arg2: 0
+  arg3: 6
+- command: E
+  arg1: 2370
+  arg2: 0
+  arg3: 7
+- command: E
+  arg1: 2371
+  arg2: 0
+  arg3: 10
+- command: E
+  arg1: 2366
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2372
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2320
+  arg2: 2
+  arg3: 2382
+- command: E
+  arg1: 2373
+  arg2: 0
+  arg3: 6
+- command: E
+  arg1: 2374
+  arg2: 0
+  arg3: 7
+- command: E
+  arg1: 2375
+  arg2: 0
+  arg3: 10
+- command: E
+  arg1: 2366
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2376
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2320
+  arg2: 2
+  arg3: 2383
+- command: E
+  arg1: 2373
+  arg2: 0
+  arg3: 6
+- command: E
+  arg1: 2374
+  arg2: 0
+  arg3: 7
+- command: E
+  arg1: 2375
+  arg2: 0
+  arg3: 10
+- command: E
+  arg1: 2366
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2376
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2321
+  arg2: 2
+  arg3: 2385
+- command: E
+  arg1: 2377
+  arg2: 0
+  arg3: 6
+- command: E
+  arg1: 2378
+  arg2: 0
+  arg3: 7
+- command: E
+  arg1: 2379
+  arg2: 0
+  arg3: 10
+- command: E
+  arg1: 2366
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2380
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2321
+  arg2: 2
+  arg3: 2385
+- command: E
+  arg1: 2377
+  arg2: 0
+  arg3: 6
+- command: E
+  arg1: 2378
+  arg2: 0
+  arg3: 7
+- command: E
+  arg1: 2379
+  arg2: 0
+  arg3: 10
+- command: E
+  arg1: 2366
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2380
+  arg2: 0
+  arg3: 16
+- command: G
+  arg1: 2359
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 2324
+  arg2: 1
+  arg3: 2387
+- command: E
+  arg1: 2381
+  arg2: 0
+  arg3: 17
+- command: E
+  arg1: 2383
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 2382
+  arg2: 0
+  arg3: 13
+- command: P
+  arg1: 2351
+  arg2: 0
+  arg3: 2382
+- command: P
+  arg1: 2352
+  arg2: 0
+  arg3: 2382
+- command: P
+  arg1: 2353
+  arg2: 0
+  arg3: 2382
+- command: P
+  arg1: 2354
+  arg2: 0
+  arg3: 2382
+- command: P
+  arg1: 2355
+  arg2: 0
+  arg3: 2382
+- command: P
+  arg1: 2356
+  arg2: 0
+  arg3: 2382
+- command: P
+  arg1: 2357
+  arg2: 0
+  arg3: 2382
+- command: P
+  arg1: 2358
+  arg2: 0
+  arg3: 2382
+- command: P
+  arg1: 2395
+  arg2: 0
+  arg3: 2382
+- command: M
+  arg1: 2329
+  arg2: 1
+  arg3: 2390
+- command: E
+  arg1: 2320
+  arg2: 0
+  arg3: 12
+- command: E
+  arg1: 2321
+  arg2: 0
+  arg3: 3
+- command: E
+  arg1: 2322
+  arg2: 0
+  arg3: 17
+- command: E
+  arg1: 2323
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 2324
+  arg2: 0
+  arg3: 4
+- command: M
+  arg1: 2328
+  arg2: 1
+  arg3: 2391
+- command: E
+  arg1: 2315
+  arg2: 0
+  arg3: 1
+- command: E
+  arg1: 2316
+  arg2: 0
+  arg3: 2
+- command: E
+  arg1: 2317
+  arg2: 0
+  arg3: 12
+- command: E
+  arg1: 2318
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 2319
+  arg2: 0
+  arg3: 13
+- command: M
+  arg1: 2322
+  arg2: 5
+  arg3: 2393
+- command: M
+  arg1: 2322
+  arg2: 5
+  arg3: 2393
+- command: M
+  arg1: 2322
+  arg2: 5
+  arg3: 2393
+- command: M
+  arg1: 2322
+  arg2: 5
+  arg3: 2393
+- command: M
+  arg1: 2322
+  arg2: 5
+  arg3: 2393
+- command: M
+  arg1: 2330
+  arg2: 1
+  arg3: 2394
+- command: E
+  arg1: 2325
+  arg2: 0
+  arg3: 1
+- command: E
+  arg1: 2326
+  arg2: 0
+  arg3: 15
+- command: E
+  arg1: 2327
+  arg2: 0
+  arg3: 8
+- command: E
+  arg1: 2328
+  arg2: 0
+  arg3: 12
+- command: E
+  arg1: 2329
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2323
+  arg2: 1
+  arg3: 2395
+- command: M
+  arg1: 2333
+  arg2: 1
+  arg3: 2396
+- command: E
+  arg1: 2340
+  arg2: 0
+  arg3: 12
+- command: E
+  arg1: 2341
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2342
+  arg2: 0
+  arg3: 14
+- command: E
+  arg1: 2343
+  arg2: 0
+  arg3: 2
+- command: E
+  arg1: 2344
+  arg2: 0
+  arg3: 6
+- command: E
+  arg1: 2345
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2332
+  arg2: 1
+  arg3: 2398
+- command: E
+  arg1: 2335
+  arg2: 0
+  arg3: 12
+- command: E
+  arg1: 2336
+  arg2: 0
+  arg3: 6
+- command: E
+  arg1: 2337
+  arg2: 0
+  arg3: 10
+- command: E
+  arg1: 2338
+  arg2: 0
+  arg3: 7
+- command: E
+  arg1: 2339
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2331
+  arg2: 1
+  arg3: 2399
+- command: E
+  arg1: 2330
+  arg2: 0
+  arg3: 2
+- command: E
+  arg1: 2331
+  arg2: 0
+  arg3: 17
+- command: E
+  arg1: 2332
+  arg2: 0
+  arg3: 13
+- command: G
+  arg1: 2333
+  arg2: 0
+  arg3: 0
+- command: E
+  arg1: 2334
+  arg2: 0
+  arg3: 16
+specials:
+- vnum: 2300
+  spec_fun: spec_cast_undead
+- vnum: 2302
+  spec_fun: spec_breath_acid
+- vnum: 2306
+  spec_fun: spec_poison
+- vnum: 2310
+  spec_fun: spec_cast_cleric
+- vnum: 2313
+  spec_fun: spec_breath_frost
+- vnum: 2314
+  spec_fun: spec_breath_acid
+- vnum: 2324
+  spec_fun: spec_cast_mage
+- vnum: 2326
+  spec_fun: spec_cast_undead
+- vnum: 2330
+  spec_fun: spec_cast_cleric
+- vnum: 2333
+  spec_fun: spec_cast_mage

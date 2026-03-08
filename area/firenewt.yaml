@@ -1,0 +1,2115 @@
+area:
+  name: '{ 5 15} Nirrad  Land of the Fire Newts'
+  builders: None
+  security: 9
+  area_flags: 0
+  vnums:
+  - 2900
+  - 2931
+mobiles:
+- vnum: 2901
+  keywords: black mountain goat
+  short_desc: a mountain goat
+  long_desc: |
+    A mountain goat is standing here.
+  description: |
+    It looks hungry and searches for food.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -100
+  clan: 0
+  level: 1
+  hitroll: 0
+  hit:
+    number: 1
+    type: 2
+    bonus: 6
+  mana:
+    number: 1
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 2
+    bonus: 0
+  dam_type: 7
+  ac:
+    pierce: 9
+    bash: 9
+    slash: 9
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 1
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2902
+  keywords: black mountain ewe
+  short_desc: a mountain ewe
+  long_desc: |
+    A mountain ewe is standing here.
+  description: |
+    The ewe is watching her young.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -100
+  clan: 0
+  level: 2
+  hitroll: 0
+  hit:
+    number: 1
+    type: 2
+    bonus: 16
+  mana:
+    number: 2
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 3
+    bonus: 1
+  dam_type: 3
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 1
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2903
+  keywords: black mountain kid
+  short_desc: a mountain kid
+  long_desc: |
+    A mountain kid is standing here.
+  description: |
+    The kid is playing with its siblings.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -100
+  clan: 0
+  level: 1
+  hitroll: 0
+  hit:
+    number: 1
+    type: 2
+    bonus: 6
+  mana:
+    number: 1
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 2
+    bonus: 0
+  dam_type: 7
+  ac:
+    pierce: 9
+    bash: 9
+    slash: 9
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2904
+  keywords: fire newt worker
+  short_desc: a fire newt worker
+  long_desc: |
+    A fire newt worker is standing here.
+  description: |
+    The fire newt worker looks hot and sweaty.
+  race: Human
+  act: ACFGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -400
+  clan: 0
+  level: 2
+  hitroll: 0
+  hit:
+    number: 1
+    type: 2
+    bonus: 16
+  mana:
+    number: 2
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 3
+    bonus: 1
+  dam_type: 11
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 2
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2905
+  keywords: fire newt guard
+  short_desc: a fire newt guard
+  long_desc: |
+    A fire newt guard is standing here.
+  description: |
+    The fire newt guard thinks you would be better dead.
+  race: Human
+  act: ABFT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -450
+  clan: 0
+  level: 2
+  hitroll: 0
+  hit:
+    number: 1
+    type: 2
+    bonus: 16
+  mana:
+    number: 2
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 3
+    bonus: 1
+  dam_type: 11
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 3
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2906
+  keywords: fire newt worker
+  short_desc: a fire newt worker
+  long_desc: |
+    A fire newt worker is standing here.
+  description: |
+    The fire newt worker looks hot and sweaty.
+  race: Human
+  act: ABT
+  affected_by: D
+  affected2_by: '0'
+  alignment: -400
+  clan: 0
+  level: 2
+  hitroll: 0
+  hit:
+    number: 1
+    type: 2
+    bonus: 16
+  mana:
+    number: 2
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 3
+    bonus: 1
+  dam_type: 7
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 2
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2907
+  keywords: fire newt guard
+  short_desc: fire newt guard
+  long_desc: |
+    A fire newt guard is standing here.
+  description: |
+    The fire newt guard wants to kill you!
+  race: Human
+  act: AFGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -450
+  clan: 0
+  level: 4
+  hitroll: 0
+  hit:
+    number: 1
+    type: 10
+    bonus: 33
+  mana:
+    number: 4
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 7
+    bonus: 2
+  dam_type: 7
+  ac:
+    pierce: 7
+    bash: 7
+    slash: 7
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 3
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2908
+  keywords: fire newt mother
+  short_desc: a fire newt mother
+  long_desc: |
+    A fire newt mother is standing here.
+  description: |
+    The fire newt mother is watching her kids.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -355
+  clan: 0
+  level: 2
+  hitroll: 0
+  hit:
+    number: 1
+    type: 2
+    bonus: 16
+  mana:
+    number: 2
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 3
+    bonus: 1
+  dam_type: 11
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 2
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2909
+  keywords: fire newt baby
+  short_desc: a fire newt baby
+  long_desc: |
+    A fire newt baby is crawling here.
+  description: |
+    The fire newt baby is crawling and drooling here.
+  race: Human
+  act: ABCT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -350
+  clan: 0
+  level: 1
+  hitroll: 0
+  hit:
+    number: 1
+    type: 2
+    bonus: 6
+  mana:
+    number: 1
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 2
+    bonus: 0
+  dam_type: 11
+  ac:
+    pierce: 9
+    bash: 9
+    slash: 9
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2910
+  keywords: fire newt sergeant
+  short_desc: a fire newt sergeant
+  long_desc: |
+    A fire newt sergeant patrols this area.
+  description: |
+    He's just found something that doesn't belong here!
+  race: Human
+  act: ABFT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -500
+  clan: 0
+  level: 5
+  hitroll: 0
+  hit:
+    number: 1
+    type: 16
+    bonus: 42
+  mana:
+    number: 5
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 4
+    bonus: 3
+  dam_type: 3
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 20
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2911
+  keywords: fire newt general
+  short_desc: a fire newt general
+  long_desc: |
+    A fire newt general is standing here.
+  description: |
+    The fire newt general grins evilly at you.
+  race: Human
+  act: ABFT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -700
+  clan: 0
+  level: 9
+  hitroll: 0
+  hit:
+    number: 2
+    type: 27
+    bonus: 83
+  mana:
+    number: 9
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 7
+    bonus: 6
+  dam_type: 3
+  ac:
+    pierce: 4
+    bash: 4
+    slash: 4
+    exotic: 7
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 40
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2912
+  keywords: fire newt leader
+  short_desc: a fire newt leader
+  long_desc: |
+    A fire newt leader is standing here.
+  description: |
+    The fire newt leader screams, 'I'm going to hose you!'
+  race: Human
+  act: ABFT
+  affected_by: DH
+  affected2_by: '0'
+  alignment: -1000
+  clan: 0
+  level: 14
+  hitroll: 0
+  hit:
+    number: 4
+    type: 33
+    bonus: 145
+  mana:
+    number: 14
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 6
+    bonus: 7
+  dam_type: 3
+  ac:
+    pierce: 1
+    bash: 1
+    slash: 1
+    exotic: 5
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 100
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2913
+  keywords: fire newt priest
+  short_desc: a fire newt priest
+  long_desc: |
+    A fire newt priest is standing here.
+  description: |
+    The fire newt priest is preparing for worship.
+  race: Human
+  act: ABFT
+  affected_by: D
+  affected2_by: '0'
+  alignment: -1000
+  clan: 0
+  level: 11
+  hitroll: 0
+  hit:
+    number: 3
+    type: 27
+    bonus: 107
+  mana:
+    number: 11
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 6
+    bonus: 6
+  dam_type: 11
+  ac:
+    pierce: 3
+    bash: 3
+    slash: 3
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 70
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_cleric
+- vnum: 2914
+  keywords: fire lizard
+  short_desc: a fire lizard
+  long_desc: |
+    A fire lizard is crawling here.
+  description: |
+    The fire lizard flicks its tongue at you.
+  race: Human
+  act: ABFT
+  affected_by: D
+  affected2_by: '0'
+  alignment: -100
+  clan: 0
+  level: 11
+  hitroll: 0
+  hit:
+    number: 3
+    type: 27
+    bonus: 107
+  mana:
+    number: 11
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 6
+    bonus: 6
+  dam_type: 7
+  ac:
+    pierce: 3
+    bash: 3
+    slash: 3
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 100
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_breath_fire
+objects:
+- vnum: 2901
+  name: horns
+  short_desc: horns
+  description: A set of horns lies here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 0
+  - 1
+  - 8
+  - 7
+  - 0
+  level: 1
+  weight: 2
+  cost: 10
+  affects: []
+  extra_descs: []
+- vnum: 2902
+  name: bladder milk
+  short_desc: milk bladder
+  description: A milk bladder lies here.
+  material: none
+  item_type: 17
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 20
+  - 20
+  - 10
+  - 0
+  - 0
+  level: 2
+  weight: 1
+  cost: 20
+  affects: []
+  extra_descs: []
+- vnum: 2903
+  name: shovel
+  short_desc: shovel
+  description: A shovel lies here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 4
+  - 1
+  - 9
+  - 7
+  - 0
+  level: 2
+  weight: 2
+  cost: 20
+  affects: []
+  extra_descs: []
+- vnum: 2904
+  name: short sword
+  short_desc: short sword
+  description: A short sword lies here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 1
+  - 1
+  - 9
+  - 11
+  - 0
+  level: 2
+  weight: 3
+  cost: 20
+  affects: []
+  extra_descs: []
+- vnum: 2905
+  name: hand axe
+  short_desc: hand axe
+  description: A hand axe lies here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 5
+  - 1
+  - 9
+  - 3
+  - 0
+  level: 2
+  weight: 3
+  cost: 20
+  affects: []
+  extra_descs: []
+- vnum: 2906
+  name: chainmail
+  short_desc: chainmail
+  description: A chainmail shirt lies here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AD
+  values:
+  - 4
+  - 4
+  - 4
+  - 0
+  - 0
+  level: 5
+  weight: 10
+  cost: 50
+  affects: []
+  extra_descs: []
+- vnum: 2907
+  name: pick
+  short_desc: pick
+  description: A pick lies here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 4
+  - 2
+  - 6
+  - 11
+  - 0
+  level: 5
+  weight: 2
+  cost: 50
+  affects: []
+  extra_descs: []
+- vnum: 2911
+  name: broad axe
+  short_desc: broad axe
+  description: A broad axe lies here.
+  material: none
+  item_type: 5
+  extra_flags: GJ
+  wear_flags: AN
+  values:
+  - 5
+  - 4
+  - 5
+  - 3
+  - 0
+  level: 14
+  weight: 15
+  cost: 140
+  affects:
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: '0'
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2912
+  name: leather suit
+  short_desc: leather suit
+  description: A leather suit lies here.
+  material: none
+  item_type: 9
+  extra_flags: AG
+  wear_flags: AD
+  values:
+  - 5
+  - 5
+  - 5
+  - 0
+  - 0
+  level: 14
+  weight: 3
+  cost: 140
+  affects:
+  - where: O
+    location: 2
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2913
+  name: mace
+  short_desc: mace
+  description: A mace lies here.
+  material: none
+  item_type: 5
+  extra_flags: BG
+  wear_flags: AN
+  values:
+  - 4
+  - 3
+  - 6
+  - 6
+  - 0
+  level: 11
+  weight: 10
+  cost: 110
+  affects:
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: '0'
+  - where: O
+    location: 18
+    modifier: 2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2914
+  name: potion
+  short_desc: orange potion
+  description: An orange potion lies here.
+  material: none
+  item_type: 10
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 10
+  - 22
+  - 17
+  - 28
+  - 0
+  level: 11
+  weight: 1
+  cost: 110
+  affects: []
+  extra_descs: []
+- vnum: 2915
+  name: egg newt
+  short_desc: a newt egg
+  description: A newt egg lies here.
+  material: none
+  item_type: 19
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 10
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 9
+  weight: 1
+  cost: 90
+  affects: []
+  extra_descs: []
+rooms:
+- vnum: 2900
+  name: Obsidian hills
+  description: |
+    You see before you some shiny black hills. There is very little vegetation
+    here. The hills appear to lead to a high mountain to the south east
+  room_flags: C
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see a path leading back towards the Turning Point.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 4785
+  - dir: 2
+    desc: |
+      You see some more hills.  They continue south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2901
+  extra_descs:
+  - keywords: hills
+    description: |
+      The hills are a very shiny black color.
+- vnum: 2901
+  name: Obsidian hills
+  description: |
+    You see before you some shiny black hills. There is very little vegetation
+    here. The hills appear to lead to a high mountain to the south east
+  room_flags: C
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see some hills to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2900
+  - dir: 2
+    desc: |
+      You see some more hills to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2902
+  extra_descs:
+  - keywords: hills
+    description: |
+      The hills are a very shiny black color.
+- vnum: 2902
+  name: Obsidian hills
+  description: |
+    You see before you some shiny black hills. There is very little vegetation
+    here. The hills appear to lead to a high mountain to the south east
+  room_flags: C
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see some hills to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2901
+  - dir: 1
+    desc: |
+      You see the side of the mountain to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2903
+  extra_descs:
+  - keywords: hills
+    description: |
+      They are a very shiny black color.
+- vnum: 2903
+  name: Mountain side
+  description: |
+    The mountain is very high and looks to be quite old. There are a few cracks
+    in the side of the mountain
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      The mountain continues.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2904
+  - dir: 3
+    desc: |
+      You see some hills to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2902
+  extra_descs:
+  - keywords: mountain
+    description: |
+      The mountain looks like it was formed from something sliding down and stopping.
+- vnum: 2904
+  name: Mountain side
+  description: |
+    The mountain is very high and looks to be quite old. There is smoke coming
+    from the top of the mountain.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see mountains to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2903
+  - dir: 2
+    desc: |
+      The mountain continues.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2905
+  extra_descs:
+  - keywords: smoke
+    description: |
+      The smoke is grey and puffs out of the top of the mountain.
+- vnum: 2905
+  name: Mountain top
+  description: |
+    You've reached the top of the mountain. You can see more smoke from up here.
+    The smoke seems to come from a hole to the south.
+  room_flags: C
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see the side of the mountain to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2904
+  - dir: 2
+    desc: |
+      You see a hole to the south. It looks like an entrance.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2906
+  extra_descs:
+  - keywords: smoke
+    description: |
+      The smoke is grey and is coming from the hole.
+  - keywords: top of mountain
+    description: |
+      The top of the mountain is a large area with a hole in the middle.
+- vnum: 2906
+  name: Entrance to the mountain
+  description: |
+    The smoke comes from inside the hole.  It also looks like there is a path
+    that leads down.
+  room_flags: C
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see the top of the mountain to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2905
+  - dir: 1
+    desc: |
+      You see the top of the mountain to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2907
+  - dir: 2
+    desc: |
+      You see the top of the mountain to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2909
+  - dir: 3
+    desc: |
+      You see the top of the mountain to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2908
+  - dir: 5
+    desc: |
+      You can see down inside the mountain.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2910
+  extra_descs: []
+- vnum: 2907
+  name: Mountain top
+  description: |
+    You are standing at the top of the mountain. The mountain looks like it has
+    been ravaged by something.
+  room_flags: C
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      You see the entrance to the mountain to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2906
+  extra_descs: []
+- vnum: 2908
+  name: Mountain top
+  description: |
+    You are standing at the top of the mountain. There are several cracks in the
+    ground and you don't feel safe!
+  room_flags: C
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see the entrance to the mountain to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2906
+  extra_descs: []
+- vnum: 2909
+  name: Mountain top
+  description: |
+    You are standing on the top of the mountain and think you should move north.
+  room_flags: C
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see the entrance to the mountain to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2906
+  extra_descs: []
+- vnum: 2910
+  name: Inside the mountain
+  description: |
+    You are standing inside the mountain.
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see guard barracks.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2911
+  - dir: 3
+    desc: |
+      You see guard barracks.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2912
+  - dir: 4
+    desc: |
+      Entrance to the mountain.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2906
+  - dir: 5
+    desc: |
+      The shaft continues down.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2913
+  extra_descs: []
+- vnum: 2911
+  name: Guard room
+  description: |
+    You are standing in a room with beds, tables, and fire newts!
+    There are paintings on the wall.  They show battle scenes.
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      You see the dark tunnel shaft.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2910
+  extra_descs:
+  - keywords: tables
+    description: |
+      The tables are long and wide.  They are made of stone and obviously too heavy
+      to move.
+  - keywords: chairs
+    description: |
+      The chairs are made of stone and look very heavy.
+  - keywords: beds
+    description: |
+      The beds are made of metal and rock.
+- vnum: 2912
+  name: Guard room
+  description: |
+    You are standing in a room with beds, chairs, tables, and fire newts!
+    There are paintings on the wall that show great leaders.
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see the shaft in the mountain.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2910
+  extra_descs:
+  - keywords: tables
+    description: |
+      The tables are long and wide.  They are made of stone and are obviously to
+      heavy to move.
+  - keywords: chairs
+    description: |
+      The chairs are made of stone and look very heavy.
+  - keywords: beds
+    description: |
+      The beds are made of metal and rock.
+- vnum: 2913
+  name: Inside the mountain
+  description: |
+    You are standing inside the mountain.
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see a large storage room.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2914
+  - dir: 2
+    desc: |
+      You see workers' quarters.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2915
+  - dir: 4
+    desc: |
+      You see the dark mountain shaft.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2910
+  - dir: 5
+    desc: |
+      The shaft continues down.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2916
+  extra_descs: []
+- vnum: 2914
+  name: Store room
+  description: |
+    You see nothing special in this room.  There are some boxes and fire newt
+    workers here.  There is also some trash piled up in the room.
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      You see the dark mountain shaft.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2913
+  extra_descs: []
+- vnum: 2915
+  name: Workers' quarters
+  description: "You are standing in the workers' quarters.  There are several workers\
+    \ here.  \nThe room is messy and has nothing of value in it.  The party the night\
+    \ before\nmust have destroyed everything.\n"
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see the dark mountain shaft.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2913
+  extra_descs: []
+- vnum: 2916
+  name: Bottom of the mountain
+  description: |
+    You are standing at the bottom of the shaft.
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see the dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2917
+  - dir: 4
+    desc: |
+      You see the mountain shaft.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2913
+  extra_descs: []
+- vnum: 2917
+  name: The tunnel
+  description: |
+    You are standing in a dry, dark tunnel.
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see a bend in the tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2918
+  - dir: 2
+    desc: |
+      You see the bottom of the shaft.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2916
+  extra_descs: []
+- vnum: 2918
+  name: Bend in the tunnel
+  description: |
+    You are standing in a dark tunnel.
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The tunnel continues into the dark.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2919
+  - dir: 2
+    desc: |
+      You see that the tunnel leads back.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2917
+  extra_descs: []
+- vnum: 2919
+  name: The tunnel
+  description: |
+    You are standing in a dark tunnel.
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The tunnel continues into the dark.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2921
+  - dir: 1
+    desc: |
+      You see a small fire newt house.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2920
+  - dir: 3
+    desc: |
+      You see a bend in the tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2918
+  extra_descs: []
+- vnum: 2920
+  name: Fire Newt House
+  description: |
+    You are standing in a fire newt house.  There is a mother fire newt here
+    playing with her children.  The room is full of newt toys- they look very
+    boring.
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      You see the dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2919
+  extra_descs: []
+- vnum: 2921
+  name: The tunnel
+  description: |
+    You are standing in a dark tunnel.
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The tunnel continues on.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2923
+  - dir: 2
+    desc: |
+      The dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2919
+  - dir: 3
+    desc: |
+      You see a fire newt house.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2922
+  extra_descs: []
+- vnum: 2922
+  name: Fire Newt House
+  description: |
+    You are standing in a fire newt house.  There is a fire newt mother here
+    playing with her children.  The room has several torn baby newt diapers here
+    ... how disgusting!
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see the dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2921
+  extra_descs: []
+- vnum: 2923
+  name: The tunnel
+  description: |
+    You are standing in the dark tunnel.
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see a fire newt temple.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2927
+  - dir: 2
+    desc: |
+      You see the dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2921
+  - dir: 3
+    desc: |
+      You see the entrance to the town hall.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2924
+  extra_descs: []
+- vnum: 2924
+  name: Entrance to the town hall
+  description: |
+    You are standing in the entrance to the town hall.  The room is large and
+    ornate.
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see the dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2923
+  - dir: 3
+    desc: "You see a waiting room. \n"
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2925
+  extra_descs: []
+- vnum: 2925
+  name: The Waiting Room
+  description: |
+    You are standing in the waiting room of the town hall.  There is a big door
+    to the west.  The room has pictures of the villages history.
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see the entrance to the town hall.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2924
+  - dir: 3
+    desc: |
+      You see a large office.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2926
+  extra_descs: []
+- vnum: 2926
+  name: The Leader's Office
+  description: |
+    You are standing in the fire newt leader's office.
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see the waiting room.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2925
+  extra_descs: []
+- vnum: 2927
+  name: Outside the temple
+  description: |
+    You are standing outside the fire newt temple.  The temple has some very
+    large arches and towers.
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see the entrance to the fire newt temple.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2928
+  - dir: 3
+    desc: |
+      You see the dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2923
+  extra_descs: []
+- vnum: 2928
+  name: Entrance to the temple
+  description: "You are standing at the entrance to the temple.  The temple is very\
+    \ neat. \nThe sates are set in straight rows and the alter is very large.\n"
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see the door, that leads to the inside of the temple.
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 2929
+  - dir: 3
+    desc: |
+      You see the outside of the temple.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2927
+  extra_descs: []
+- vnum: 2929
+  name: Inside the Temple
+  description: |
+    You are standing inside the fire newt temple.
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      You see the door that leads to the temple entrance.
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 2928
+  - dir: 5
+    desc: |
+      You see a large trap door.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2930
+  extra_descs: []
+- vnum: 2930
+  name: The room before the doors
+  description: |
+    You are standing before a pair of huge doors.
+  room_flags: AD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see two large doors.
+    keywords: doors
+    exit_flags: A
+    key: -1
+    to_vnum: 2931
+  - dir: 4
+    desc: |
+      You see the inside of the temple.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 2929
+  extra_descs: []
+- vnum: 2931
+  name: The Egg Room
+  description: |
+    You are standing in a room that has several dozen piles of eggs.  There is
+    a chest on the floor also.
+  room_flags: ACD
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      You see two large doors.
+    keywords: doors
+    exit_flags: A
+    key: -1
+    to_vnum: 2930
+  extra_descs: []
+resets:
+- command: D
+  arg1: 2928
+  arg2: 1
+  arg3: 1
+- command: D
+  arg1: 2929
+  arg2: 3
+  arg3: 1
+- command: M
+  arg1: 2901
+  arg2: 2
+  arg3: 2903
+- command: E
+  arg1: 2901
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2901
+  arg2: 2
+  arg3: 2904
+- command: E
+  arg1: 2901
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2902
+  arg2: 2
+  arg3: 2904
+- command: G
+  arg1: 2902
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 2902
+  arg2: 2
+  arg3: 2904
+- command: G
+  arg1: 2902
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 2903
+  arg2: 6
+  arg3: 2904
+- command: M
+  arg1: 2903
+  arg2: 6
+  arg3: 2904
+- command: M
+  arg1: 2903
+  arg2: 6
+  arg3: 2904
+- command: M
+  arg1: 2903
+  arg2: 6
+  arg3: 2904
+- command: M
+  arg1: 2903
+  arg2: 6
+  arg3: 2904
+- command: M
+  arg1: 2903
+  arg2: 6
+  arg3: 2904
+- command: M
+  arg1: 2904
+  arg2: 10
+  arg3: 2910
+- command: E
+  arg1: 2903
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2905
+  arg2: 6
+  arg3: 2911
+- command: E
+  arg1: 2904
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2905
+  arg2: 6
+  arg3: 2911
+- command: E
+  arg1: 2904
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2905
+  arg2: 6
+  arg3: 2911
+- command: E
+  arg1: 2904
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2905
+  arg2: 6
+  arg3: 2912
+- command: E
+  arg1: 2905
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2905
+  arg2: 6
+  arg3: 2912
+- command: E
+  arg1: 2904
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2905
+  arg2: 6
+  arg3: 2912
+- command: E
+  arg1: 2905
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2904
+  arg2: 10
+  arg3: 2914
+- command: M
+  arg1: 2904
+  arg2: 10
+  arg3: 2914
+- command: E
+  arg1: 2903
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2906
+  arg2: 4
+  arg3: 2915
+- command: E
+  arg1: 2903
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2906
+  arg2: 4
+  arg3: 2915
+- command: E
+  arg1: 2903
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2906
+  arg2: 4
+  arg3: 2915
+- command: M
+  arg1: 2906
+  arg2: 4
+  arg3: 2915
+- command: O
+  arg1: 2906
+  arg2: 0
+  arg3: 2915
+- command: M
+  arg1: 2904
+  arg2: 10
+  arg3: 2916
+- command: E
+  arg1: 2903
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2904
+  arg2: 10
+  arg3: 2917
+- command: M
+  arg1: 2907
+  arg2: 6
+  arg3: 2917
+- command: E
+  arg1: 2904
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2904
+  arg2: 10
+  arg3: 2918
+- command: E
+  arg1: 2903
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2907
+  arg2: 6
+  arg3: 2918
+- command: E
+  arg1: 2904
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2904
+  arg2: 10
+  arg3: 2919
+- command: E
+  arg1: 2903
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2907
+  arg2: 6
+  arg3: 2919
+- command: E
+  arg1: 2905
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2908
+  arg2: 2
+  arg3: 2920
+- command: M
+  arg1: 2909
+  arg2: 12
+  arg3: 2920
+- command: M
+  arg1: 2909
+  arg2: 12
+  arg3: 2920
+- command: M
+  arg1: 2909
+  arg2: 12
+  arg3: 2920
+- command: M
+  arg1: 2909
+  arg2: 12
+  arg3: 2920
+- command: M
+  arg1: 2909
+  arg2: 12
+  arg3: 2920
+- command: M
+  arg1: 2909
+  arg2: 12
+  arg3: 2920
+- command: M
+  arg1: 2904
+  arg2: 10
+  arg3: 2921
+- command: M
+  arg1: 2904
+  arg2: 10
+  arg3: 2921
+- command: M
+  arg1: 2907
+  arg2: 6
+  arg3: 2921
+- command: E
+  arg1: 2905
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2908
+  arg2: 2
+  arg3: 2922
+- command: M
+  arg1: 2909
+  arg2: 12
+  arg3: 2922
+- command: M
+  arg1: 2909
+  arg2: 12
+  arg3: 2922
+- command: M
+  arg1: 2909
+  arg2: 12
+  arg3: 2922
+- command: M
+  arg1: 2909
+  arg2: 12
+  arg3: 2922
+- command: M
+  arg1: 2909
+  arg2: 12
+  arg3: 2922
+- command: M
+  arg1: 2909
+  arg2: 12
+  arg3: 2922
+- command: M
+  arg1: 2904
+  arg2: 10
+  arg3: 2923
+- command: E
+  arg1: 2903
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2907
+  arg2: 6
+  arg3: 2923
+- command: E
+  arg1: 2904
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2907
+  arg2: 6
+  arg3: 2923
+- command: M
+  arg1: 2910
+  arg2: 2
+  arg3: 2924
+- command: E
+  arg1: 2906
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2907
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2911
+  arg2: 4
+  arg3: 2925
+- command: E
+  arg1: 2906
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2907
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2911
+  arg2: 4
+  arg3: 2925
+- command: E
+  arg1: 2906
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2907
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2912
+  arg2: 1
+  arg3: 2926
+- command: E
+  arg1: 2911
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 2912
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2910
+  arg2: 2
+  arg3: 2927
+- command: E
+  arg1: 2906
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2907
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2911
+  arg2: 4
+  arg3: 2928
+- command: E
+  arg1: 2906
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2907
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2911
+  arg2: 4
+  arg3: 2928
+- command: E
+  arg1: 2906
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 2907
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2913
+  arg2: 1
+  arg3: 2929
+- command: E
+  arg1: 2913
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2914
+  arg2: 2
+  arg3: 2930
+- command: G
+  arg1: 2914
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 2914
+  arg2: 2
+  arg3: 2930
+- command: G
+  arg1: 2914
+  arg2: 0
+  arg3: 0
+- command: O
+  arg1: 2915
+  arg2: 0
+  arg3: 2931
+specials:
+- vnum: 2913
+  spec_fun: spec_cast_cleric
+- vnum: 2914
+  spec_fun: spec_breath_fire

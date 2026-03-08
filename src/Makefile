@@ -3,7 +3,13 @@ PROF    = -DLINUX
 NOCRYPT =
 #C_FLAGS = -Wall -O2 $(PROF) $(NOCRYPT) -Wno-unused-but-set-variable
 C_FLAGS = -Wall -O2 $(PROF) $(NOCRYPT)
-L_FLAGS = -O2 $(PROF) -lcrypt
+L_FLAGS = -O2 $(PROF) -lcrypt -lyaml
+
+# macOS with Homebrew libyaml: uncomment if building locally on macOS
+# YAML_INC = -I/usr/local/opt/libyaml/include
+# YAML_LIB = -L/usr/local/opt/libyaml/lib
+# C_FLAGS += $(YAML_INC)
+# L_FLAGS += $(YAML_LIB)
 
 O_FILES = act_comm.o act_enter.o act_info.o act_move.o act_obj.o act_wiz.o \
 	alias.o ban.o bit.o board.o bonus_update.o buffer.o clans.o comm.o \
@@ -11,7 +17,8 @@ O_FILES = act_comm.o act_enter.o act_info.o act_move.o act_obj.o act_wiz.o \
 	gocial.o handle_con.o handler.o healer.o interp.o magic.o marry.o \
 	mem.o music.o new_dump.o olc.o \
 	olc_act.o olc_save.o quest.o remort.o save.o skills.o \
-	special.o string.o update.o wizutil.o
+	special.o string.o update.o wizutil.o \
+	yaml_area.o yaml_save.o
 
 all: shadows
 

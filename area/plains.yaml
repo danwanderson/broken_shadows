@@ -1,0 +1,2143 @@
+area:
+  name: '{ 1 20} Copper  Plains of the North'
+  builders: None
+  security: 9
+  area_flags: 0
+  vnums:
+  - 300
+  - 350
+mobiles:
+- vnum: 300
+  keywords: druid Aruncus
+  short_desc: Aruncus the Druid
+  long_desc: |
+    Aruncus the Druid is walking around here, searching for herbs.
+  description: |
+    Aruncus is a tall, skinny druid with a face marked by nature.
+    He seems to be in peace with himself and his surroundings.
+  race: Human
+  act: AGHT
+  affected_by: D
+  affected2_by: '0'
+  alignment: -500
+  clan: 0
+  level: 12
+  hitroll: 0
+  hit:
+    number: 3
+    type: 32
+    bonus: 120
+  mana:
+    number: 12
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 7
+    bonus: 6
+  dam_type: 3
+  ac:
+    pierce: 2
+    bash: 2
+    slash: 2
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 40
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 301
+  keywords: hermit sorbus
+  short_desc: Sorbus the Hermit
+  long_desc: |
+    Sorbus the Hermit is sitting here, roasting a rabbit.
+  description: |
+    Sorbus bares the marks of a long, hard life in solitude.
+    He is dressed in simple clothing and looks like he has little
+    or nothing to say.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 4
+  hitroll: 0
+  hit:
+    number: 1
+    type: 10
+    bonus: 33
+  mana:
+    number: 4
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 7
+    bonus: 2
+  dam_type: 11
+  ac:
+    pierce: 7
+    bash: 7
+    slash: 7
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 6
+  default_pos: 6
+  sex: 1
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 303
+  keywords: citizen
+  short_desc: the citizen
+  long_desc: |
+    There is a citizen of Ofcol here glaring at you ... stranger!
+  description: |
+    He seems like a nice person with no interest in harming you or others.
+    He wears normal, light clothing and has an anonymous face.
+  race: Human
+  act: ACGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 7
+  hitroll: 0
+  hit:
+    number: 1
+    type: 33
+    bonus: 61
+  mana:
+    number: 7
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 6
+    bonus: 3
+  dam_type: 11
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 20
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 304
+  keywords: citizen
+  short_desc: the citizen
+  long_desc: |
+    There is a citizen of Ofcol here glaring at you ... stranger!
+  description: |
+    She seems like a nice person with no interest in harming you or others.
+    She wears a minimum of clothing and has big ... eyes.
+  race: Human
+  act: ACGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 5
+  hitroll: 0
+  hit:
+    number: 1
+    type: 16
+    bonus: 42
+  mana:
+    number: 5
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 4
+    bonus: 3
+  dam_type: 7
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 10
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 305
+  keywords: worm Shudde-M'ell
+  short_desc: Shudde-M'ell
+  long_desc: |
+    Shudde-M'ell the Giant worm of G'harne is guarding his treasure.
+  description: |
+    Shudde-M'ell is about 15 ft long and is surrounded by an evil stench,
+    The worm is the protector of the treasure of G'harne and has been so
+    for as long anyone can remember.
+  race: Human
+  act: ABFT
+  affected_by: D
+  affected2_by: '0'
+  alignment: -1000
+  clan: 0
+  level: 24
+  hitroll: 0
+  hit:
+    number: 10
+    type: 38
+    bonus: 311
+  mana:
+    number: 24
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 8
+    bonus: 14
+  dam_type: 7
+  ac:
+    pierce: -5
+    bash: -5
+    slash: -5
+    exotic: 2
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 75
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 306
+  keywords: luxan shopkeeper
+  short_desc: Luxan
+  long_desc: |
+    Luxan the Shopkeeper is here, eager to sell you anything.
+  description: |
+    Luxan is dressed in a strange jacket.
+    He looks like a mean trader from the outskirts of Midgaard.
+    His life is seems to be totally occupied with trading.
+    He looks very fit and capable of protecting his goods.
+  race: Human
+  act: ABCT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 400
+  clan: 0
+  level: 23
+  hitroll: 0
+  hit:
+    number: 9
+    type: 39
+    bonus: 290
+  mana:
+    number: 23
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 8
+    bonus: 11
+  dam_type: 11
+  ac:
+    pierce: -4
+    bash: -4
+    slash: -4
+    exotic: 2
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 800
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 308
+  keywords: keeper innkeeper
+  short_desc: the Innkeeper
+  long_desc: |
+    An Innkeeper is here waiting for your order.
+  description: |
+    The Innkeeper looks skilled in brewing different beers and mixing the
+    wierdest drinks known. He also looks very big.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -100
+  clan: 0
+  level: 24
+  hitroll: 0
+  hit:
+    number: 10
+    type: 38
+    bonus: 311
+  mana:
+    number: 24
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 8
+    bonus: 14
+  dam_type: 11
+  ac:
+    pierce: -5
+    bash: -5
+    slash: -5
+    exotic: 2
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 200
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 309
+  keywords: rabbit
+  short_desc: the cute rabbit
+  long_desc: |
+    A cute rabbit is here.
+  description: |
+    It is a small, furry creature with long ears and big feet.
+  race: rabbit
+  act: AGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 1
+  hitroll: 0
+  hit:
+    number: 1
+    type: 2
+    bonus: 6
+  mana:
+    number: 1
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 2
+    bonus: 0
+  dam_type: 3
+  ac:
+    pierce: 9
+    bash: 9
+    slash: 9
+    exotic: 9
+  off_flags: FH
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: AGV
+  parts: ACDEFHJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 350
+  keywords: dragon pet
+  short_desc: the pet dragon
+  long_desc: |
+    Ravan's pet dragon is bouncing around here flapping her cute wings.
+  description: |
+    Ravan's pet dragon is about 3 ft. tall with small pointy teeth.
+    The small wings are eagerly trying to lift her from the ground,
+    but so far they haven't succeeded.
+  race: Human
+  act: ABHT
+  affected_by: DHT
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 10
+  hitroll: 0
+  hit:
+    number: 2
+    type: 33
+    bonus: 96
+  mana:
+    number: 10
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 5
+    bonus: 7
+  dam_type: 3
+  ac:
+    pierce: 3
+    bash: 3
+    slash: 3
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_mage
+objects:
+- vnum: 300
+  name: herbs herb timian
+  short_desc: a small dusk of timian herbs
+  description: Some herbs are lying here, small green leaves and tiny pink flowers.
+  material: none
+  item_type: 19
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 1
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 0
+  weight: 1
+  cost: 10
+  affects: []
+  extra_descs:
+  - keywords: herbs herb timian
+    description: |
+      This herb smells rather spicy; maybe you should try it?
+- vnum: 301
+  name: herbs herb gyvel
+  short_desc: a small dusk of black gyvel
+  description: |-
+    Some black gyvel is lying here, dark green with black leaves and tiny
+    blood red flowers.
+  material: none
+  item_type: 19
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 1
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 0
+  weight: 1
+  cost: -10
+  affects: []
+  extra_descs:
+  - keywords: herbs herb gyvel
+    description: |
+      This herb smells rather special, but is it poisonous?
+- vnum: 302
+  name: plant ivy
+  short_desc: a small dusk of poison ivy
+  description: Some poison ivy is growing here.
+  material: none
+  item_type: 19
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 1
+  - 0
+  - 0
+  - 1
+  - 0
+  level: 12
+  weight: 1
+  cost: 120
+  affects: []
+  extra_descs:
+  - keywords: plant ivy
+    description: |-
+      This plant has dark green juicy leaves.
+      You notice some small white thorns on it.
+- vnum: 303
+  name: blood jar
+  short_desc: a dark red jar
+  description: A small jar in a dark, red colour.
+  material: none
+  item_type: 17
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 2
+  - 2
+  - 13
+  - 0
+  - 0
+  level: 4
+  weight: 2
+  cost: 40
+  affects: []
+  extra_descs:
+  - keywords: blood jar
+    description: |
+      The jar is made of dry clay, covered with markings suggesting its
+      occult origin.
+- vnum: 304
+  name: wild flowers
+  short_desc: wild flowers
+  description: A bunch of pretty wild flowers is here.
+  material: none
+  item_type: 13
+  extra_flags: K
+  wear_flags: AEO
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 0
+  weight: 1
+  cost: 0
+  affects: []
+  extra_descs:
+  - keywords: wild flowers
+    description: |-
+      These wild flowers are really pretty.
+      Just like the flowers you would wear in your hair.
+- vnum: 307
+  name: amulet
+  short_desc: a strange amulet
+  description: A strange looking amulet is lying here, half covered with dust.
+  material: none
+  item_type: 9
+  extra_flags: GH
+  wear_flags: AC
+  values:
+  - 5
+  - 5
+  - 5
+  - 0
+  - 0
+  level: 12
+  weight: 1
+  cost: 120
+  affects:
+  - where: O
+    location: 21
+    modifier: 5
+    bitvector: '0'
+  extra_descs:
+  - keywords: amulet
+    description: |
+      Judging from the signs inscripted in the amulet, you gather it must
+      have belonged to a druid.  It is weird looking with symbols from nature
+      dominating it.
+- vnum: 308
+  name: staff stick
+  short_desc: a druish staff
+  description: A staff with druidic marks have been left here.
+  material: none
+  item_type: 12
+  extra_flags: '0'
+  wear_flags: AO
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 12
+  weight: 4
+  cost: 120
+  affects: []
+  extra_descs:
+  - keywords: staff stick
+    description: |
+      Then staff is about 5 ft long, engraved with mythical signs and figures.
+      Otherwise the staff seems of no real interest.
+- vnum: 309
+  name: rabbit roast wabbit
+  short_desc: a rabbit roast
+  description: You see a deliciously looking rabbit roast.
+  material: none
+  item_type: 19
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 24
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 2
+  weight: 5
+  cost: 20
+  affects: []
+  extra_descs:
+  - keywords: roast rabbit wabbit
+    description: |
+      Well the rabbit looks rather dead.
+      You guess that this once was a ferocious rabbit who's life now has
+      changed to that of a tasty wabbit woast.
+- vnum: 310
+  name: template scroll
+  short_desc: a strange template
+  description: A strange template made of an exotic green metal is placed here
+  material: none
+  item_type: 2
+  extra_flags: G
+  wear_flags: AO
+  values:
+  - 15
+  - 38
+  - 4
+  - 26
+  - 0
+  level: 24
+  weight: 1
+  cost: 240
+  affects: []
+  extra_descs:
+  - keywords: template scroll metal
+    description: |
+      The template is made of an exotic green metal and looks
+      centuries old.
+      Inscripted upon is the words 'Ep ep fi'hur G'harne
+                                   G'harne fhtagn Shudde-M'ell hyas Negg'h'
+      And beneath the inscription you see horrifying death scenes depicted.
+- vnum: 311
+  name: potion clear
+  short_desc: a clear potion
+  description: A clear potion wrapped in leather is unnoticed placed here.
+  material: none
+  item_type: 10
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 20
+  - 18
+  - 19
+  - 20
+  - 0
+  level: 24
+  weight: 2
+  cost: 240
+  affects: []
+  extra_descs:
+  - keywords: leather
+    description: |-
+      The leather wrapped around the potion is old and decayed, originating
+      from an, to you, unknown creature.
+  - keywords: potion clear
+    description: |
+      As you examine the potion more, you notice the oddities of this
+      potion. When you look through it you notice strange things...
+      The clear potion is certainly not of this world.
+- vnum: 312
+  name: scroll jhyfrdow
+  short_desc: a scroll titled 'jhyfrdow'
+  description: An odd looking scroll is here.
+  material: none
+  item_type: 2
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 12
+  weight: 1
+  cost: 120
+  affects: []
+  extra_descs:
+  - keywords: ritual men drawings
+    description: |
+      The drawing pictures people gathered round giant stone formations,
+      worshipping a giant worm like creature.
+      It seems they are sacrificing some of their own species.
+  - keywords: scroll jhyfrdow
+    description: |
+      The scroll is titled 'jhyfrdow' and looks very old.
+      As you examine it closer you notice primitive drawings of
+      men doing some kind of a ritual.
+rooms:
+- vnum: 300
+  name: Path in the plains
+  description: |
+    You are walking on a path situated in the rough plains.
+    You feel the strong winds blow through your hair as you study
+    the beautiful landscaping here. The path continues east, north
+    and west leads to plains and you see the path towards the north
+    gate of midgaard to the south.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see the grassy plains.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 315
+  - dir: 1
+    desc: |
+      You notice nothing special, except that the path in the plains continues.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 301
+  - dir: 2
+    desc: |
+      Towards the south you notice the north gate of Midgaard.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3904
+  - dir: 3
+    desc: |
+      You see the grassy plains.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 316
+  extra_descs: []
+- vnum: 301
+  name: Path in the plains
+  description: |
+    You are walking on a path situated in the rough plains.
+    You feel the strong winds blow through your hair as you study
+    the beautiful landscaping here. The path continues east and west.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You notice nothing special, except that the path in the plains continues.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 302
+  - dir: 3
+    desc: |
+      You notice nothing special, except that the path in the plains continues.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 300
+  extra_descs: []
+- vnum: 302
+  name: Path in the plains
+  description: |
+    You are walking on a path situated in the rough plains.
+    You feel the strong winds blow through your hair as you study
+    the beautiful landscaping here. The path continues north and west.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You notice nothing special, except that the path in the plains continues.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 303
+  - dir: 3
+    desc: |
+      You notice nothing special, except that the path in the plains continues.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 301
+  extra_descs: []
+- vnum: 303
+  name: Path in the plains
+  description: |
+    You are walking on a path situated in the rough plains.
+    You feel the strong winds blow through your hair as you study
+    the beautiful landscaping here. The path leads north and south.
+    To the east and the west you have the grassy plains.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You notice nothing special, except that the path in the plains continues.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 304
+  - dir: 1
+    desc: |
+      To the east you notice the grassy plains.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 317
+  - dir: 2
+    desc: |
+      You notice nothing special, except that the path in the plains continues.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 302
+  - dir: 3
+    desc: |
+      To the west you can see more of the beautiful grassy plains.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 315
+  extra_descs: []
+- vnum: 304
+  name: Path in the plains
+  description: |
+    You are walking on a path situated in the rough plains.
+    You feel the strong winds blow through your hair as you study
+    the beautiful landscaping here. The Path leads north and south.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The path continues north as small foothills begins to appear.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 305
+  - dir: 2
+    desc: |
+      The path leads south towards the town.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 303
+  extra_descs: []
+- vnum: 305
+  name: Path in the plains
+  description: |
+    You are walking on a path situated in the rough plains.
+    You feel the strong winds blow through your hair as you watch the
+    beautiful landscaping here. To the east and west you see the grassy plains.
+    The path extends into small foothills to the north and also continues south.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The path continues into the small foothills.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 306
+  - dir: 1
+    desc: |
+      You see the grassy plains here.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 321
+  - dir: 2
+    desc: |
+      The path continues towards Midgaard.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 304
+  - dir: 3
+    desc: |
+      You see the grassy plains here.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 320
+  extra_descs: []
+- vnum: 306
+  name: Path in the foothills
+  description: |
+    You are on the path leading through the small foothills.
+    The wind blow through your hair as you study the beautiful
+    landscaping here. From the north you sense a certain freshness.
+    The path continues east and south. You smell freshness from north.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see grassy plains and perhaps some crystal clear water.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 326
+  - dir: 1
+    desc: |
+      The path continues towards east here.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 307
+  - dir: 2
+    desc: |
+      The path in the plains wind through the small foothills.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 305
+  extra_descs: []
+- vnum: 307
+  name: Path in the foothills
+  description: |
+    You are walking on a path situated in the small foothills.
+    The winds are more than average here but it feels nice. You can follow
+    the path east or west.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The path continues in the foothills
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 308
+  - dir: 3
+    desc: |
+      To the west the path takes a bend southwards.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 306
+  extra_descs: []
+- vnum: 308
+  name: Path in the foothills
+  description: |
+    You are walking on a narrow path in the foothills.
+    You feel the strong winds blow through your hair as you study
+    the beautiful landscaping here. The path goes north and west.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The narrow path through the foothills turns left here.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 309
+  - dir: 3
+    desc: |
+      To the west you can see the path continues.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 307
+  extra_descs: []
+- vnum: 309
+  name: Path in the foothills
+  description: |
+    You are walking on a path situated in foothills.
+    To the west you sense a certain freshness and the path continues
+    south and east.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see the path continues in the foothills.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 310
+  - dir: 2
+    desc: |
+      You see the path continues in the foothills.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 308
+  - dir: 3
+    desc: |
+      You see grassy plains and perhaps some crystal clear water.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 326
+  extra_descs: []
+- vnum: 310
+  name: Path in the foothills
+  description: |
+    You are walking on a long path in the east-west direction.
+    The surroundings are green, vegetated foothills.
+    You are able to force your way through some dense plants to the north.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You can't really see much through the vegetation on the foothills.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 327
+  - dir: 1
+    desc: |
+      To the east you notice that the path continues towards a T-intersection.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 311
+  - dir: 3
+    desc: |
+      You just see the path through the foothills.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 309
+  extra_descs: []
+- vnum: 311
+  name: Path in the foothills
+  description: |
+    You are walking on the long, narrow path through the foothills.
+    To your east you see a T-intersection and to the west the path
+    continues far.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You can go to the T-intersection this way.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 312
+  - dir: 3
+    desc: |
+      You can see the long path through the plains.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 310
+  extra_descs: []
+- vnum: 312
+  name: The path intersection
+  description: |
+    You are standing on an intersection between 3 paths.
+    To the west you can follow a long, narrow path through the foothills.
+    To the north a wide path leads to the Village of Ofcol and an
+    ancient path leads towards the south.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The wide road to Ofcol runs here.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 313
+  - dir: 2
+    desc: |
+      Here is a partially hidden, ancient looking path.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 332
+  - dir: 3
+    desc: |
+      You can see the long narrow path running through the foothills.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 311
+  extra_descs: []
+- vnum: 313
+  name: Road to Ofcol
+  description: |
+    You are walking on a wide road with trail marks on it.  To the north
+    you see the village of Ofcol and to the south there is the T intersection.
+    You can enter the foothills west.  The foothills to your east are too
+    steep to climb.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The road continues towards Ofcol.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 314
+  - dir: 2
+    desc: |
+      You can see the T-intersection in the souther direction.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 312
+  - dir: 3
+    desc: |
+      You think you can climb these foothills.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 327
+  extra_descs: []
+- vnum: 314
+  name: Outside Ofcol
+  description: |
+    You are standing outside the village of Ofcol.
+    The village looks very small, but still a nice and safe place to stay.
+    You may enter the city to the north or journey towards the
+    T-intersection in the southern direction.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You notice a sign saying : Stranger we welcome you to the
+                                 peaceful city of Ofcol.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 5550
+  - dir: 2
+    desc: |
+      Here you see the road go towards the intersection.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 313
+  extra_descs: []
+- vnum: 315
+  name: Gallow hill
+  description: |
+    You walk in the grassy plains. On this little hill you can see
+    two gallows, with rotting human tissue hanging from the robe.
+    There is a sign here.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The plains extend far to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 320
+  - dir: 1
+    desc: |
+      To the east you can see a small path in the plains.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 303
+  - dir: 2
+    desc: |
+      To the south you can see a small path in the plains.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 300
+  - dir: 3
+    desc: |
+      The plains extend far to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 318
+  extra_descs:
+  - keywords: sign
+    description: |
+      The sign says:
+
+        Loyal citizens of Midgaard.  These are the earthly remains of the
+        two heretics 'Dim' and 'Gamma' of this world. Having forged them-
+        selves to immortality, they called upon themselves the anger of the
+        implementators.  Let this be a lesson too all .....
+
+                                          -- the Powers that Be.
+- vnum: 316
+  name: Grassy plains
+  description: |
+    You walk in the grassy plains among the herbs which grow here. The wind is
+    strong and rough. Far to the north you can see the foothills and further on
+    mountain peaks are visible.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The plains extend far to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 318
+  - dir: 1
+    desc: |
+      When you look to the east you notice at small path.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 300
+  extra_descs: []
+- vnum: 317
+  name: Grassy plains
+  description: |
+    You walk in the grassy plains among the herbs which grow here. The wind is
+    strong and rough. Far to the north you can see the foothills and further on
+    mountain peaks are visible. City of Midgaard is to the south but so are some
+    VERY steep slopes.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The plains extend far to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 338
+  - dir: 2
+    desc: |
+      Some VERY steep slopes prevent you from going this way, it might kill you.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 345
+  - dir: 3
+    desc: |
+      A small path is running through the plains.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 303
+  extra_descs: []
+- vnum: 318
+  name: Grassy plains
+  description: |
+    You walk in the beautiful grassy plains. The wind is strong and rough.
+    Far to the north you can see the foothills and further on mountain peaks
+    are visible.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The plains extend far to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 319
+  - dir: 1
+    desc: |
+      The plains extend far to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 315
+  - dir: 2
+    desc: |
+      The plains extend far to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 316
+  extra_descs: []
+- vnum: 319
+  name: Grassy plains
+  description: |
+    You walk in the grassy plains among the herbs which grow here. The wind is
+    strong and rough. To the north you can see the foothills and just behind
+    mountain peaks are visible.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north, the plains extend into small foothills, behind a small hill
+      you notice something ...
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 330
+  - dir: 1
+    desc: |
+      The plains extend far to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 320
+  - dir: 2
+    desc: |
+      The plains extend far to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 318
+  extra_descs: []
+- vnum: 320
+  name: Grassy plains
+  description: |
+    You walk in some grassy plains. The wind is strong and rough. To the
+    north you can see the foothills and further on mountain peaks are visible.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The plains extend into small foothills to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 322
+  - dir: 1
+    desc: |
+      East of here you see a winding path in the plains.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 305
+  - dir: 2
+    desc: |
+      The plains extend far to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 315
+  - dir: 3
+    desc: |
+      The plains extend far to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 319
+  extra_descs: []
+- vnum: 321
+  name: Grassy plains
+  description: |
+    You walk in the grassy plains. The wind is fairly strong.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      The plains extend far to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 338
+  - dir: 3
+    desc: |
+      A small path is running through the plains.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 305
+  extra_descs: []
+- vnum: 322
+  name: Grassy foothills
+  description: |
+    You walk in the grassy foothills north of the plains. The wind is rough.
+    To the north you can see foothills and just behind them mountain peaks
+    are visible.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The small foothills extend into foothills far to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 324
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10201
+  - dir: 2
+    desc: |
+      The small foothills extend into plains far to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 320
+  - dir: 3
+    desc: |
+      The small foothills extend far to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 330
+  extra_descs: []
+- vnum: 323
+  name: The steep foothills
+  description: |
+    You walk in the steep foothills. It is rather hard to move here.
+    To the north you can see a grassy valley with wildflowers.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see a path toward the valley.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7800
+  - dir: 1
+    desc: |
+      The foothills extend far to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 324
+  - dir: 2
+    desc: |
+      On the horizon you can see the City of Midgaard.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 330
+  extra_descs: []
+- vnum: 324
+  name: The steep foothills
+  description: |
+    You are walking in the steep foothills. It is rather hard to move here.
+    To the north you can see the mountains towering over you.  Pine trees
+    grow here.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The path continues up the mountain.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 901
+  - dir: 1
+    desc: |
+      The foothills extend far to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 325
+  - dir: 2
+    desc: |
+      The foothills extend downwards to the south. In the horizon you can
+      see the City Of Midgaard.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 322
+  - dir: 3
+    desc: |
+      The foothills extend far to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 323
+  extra_descs:
+  - keywords: pine tree trees pines
+    description: |
+      The all too quiet trees suggest that something roams these woods.
+  - keywords: mountains
+    description: |
+      The mountains seems dark and all most alive, as they contrast against
+      the sky.
+- vnum: 325
+  name: The steep foothills
+  description: |
+    You are walking in the steep foothills. It is rather hard to move here.
+    Further to the north you can see the mountains towering over you.
+    Several pinetrees grow here.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The foothills extend into smaller hills far to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 326
+  - dir: 3
+    desc: |
+      The foothills extend far to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 324
+  extra_descs: []
+- vnum: 326
+  name: The pool in the foothills
+  description: |
+    You are standing by a pool in the small foothills. It is clear and cold.
+    A steep slope rises up into the foothills to the north. Behind them ...
+    the mountains.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      To the east you notice a small path in the foothills.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 309
+  - dir: 2
+    desc: |
+      To the south a path winds its way south into the plains.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 306
+  - dir: 3
+    desc: |
+      The foothills extend far to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 325
+  extra_descs:
+  - keywords: pool
+    description: |
+      The pool is crystal clear, but as you look into it you notice that
+      you can't see the bottom of it ... it must be pretty deep.
+- vnum: 327
+  name: The foothills
+  description: |
+    You are walking in some foothills. It is rather hard to move here.
+    Further to the north you can see the mountains towering over you.
+    Several pinetrees grow here.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      To the east you notice a small path in the foothills.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 313
+  - dir: 2
+    desc: |
+      To the south a steep slope runs down to a small path in the foothills.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 310
+  extra_descs: []
+- vnum: 330
+  name: In front of hut in foothills
+  description: |
+    You are standing in the foothills. To the west, well hidden among the small
+    foothills and pines, you see a small hut. To the north you can see
+    the foothills, and some pineforrest. Further on mountain peaks are visible.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The steep foothills seems hard to climb
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 323
+  - dir: 1
+    desc: |
+      The foothills extend far to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 322
+  - dir: 2
+    desc: |
+      To the south the foothills extend into plains far to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 319
+  - dir: 3
+    desc: |
+      You see a small crumbled hut here, must be a hermit living here.
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 331
+  extra_descs: []
+- vnum: 331
+  name: Hermit's hut
+  description: |
+    You are inside the hermit's hut. It is rather old, but serves it purpose.
+    It keeps its habitant from the rough winds and dangerous beasts of the
+    plains and foothills. There is a small fireplace here.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Through the door you can see the foothills.
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 330
+  extra_descs:
+  - keywords: fireplace
+    description: |
+      The hermit cooks here.
+- vnum: 332
+  name: The ancient path
+  description: |
+    You are moving on an ancient path. The path is slightly covered with
+    leaves and twitches.
+    To the north you can see the T-crossing and the path continues south.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      As you look to the north you see a T-intersection.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 312
+  - dir: 2
+    desc: |
+      The ancient path continues through the plains.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 333
+  extra_descs: []
+- vnum: 333
+  name: The ancient path
+  description: |
+    You are standing on the ancient path which runs north and south.
+    The path is hardly visible here.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see the ancient path.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 332
+  - dir: 2
+    desc: |
+      You trace the path carefully and see no immediate dangers.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 334
+  extra_descs: []
+- vnum: 334
+  name: The ancient path
+  description: |
+    You are standing on the ancient path which runs north and south.
+    The path is hardly visible here.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see the ancient path.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 333
+  - dir: 2
+    desc: |
+      You trace the path carefully and see no immediate dangers.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 335
+  extra_descs: []
+- vnum: 335
+  name: The ancient path
+  description: |
+    The path runs north and east from here.  You notice some markers placed
+    along the side of the path.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see the ancient path winding its way north from here. Looks safe.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 334
+  - dir: 1
+    desc: |
+      Further ahead you see a bridge over a small creak.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 336
+  extra_descs:
+  - keywords: markers
+    description: |
+      The markers seems like normal stones, but the way they are
+      arranged makes you think there is something special about them.
+- vnum: 336
+  name: The wooden bridge
+  description: |
+    You have stepped upon a wooden bridge. It looks old but safe to cross.
+    It is made of a wood you haven't seen before.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The path continues, further ahead you notice some rock formations.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 337
+  - dir: 3
+    desc: |
+      The ancient path leads west and turns north further ahead.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 335
+  extra_descs:
+  - keywords: rock formation formations
+    description: |
+      The rock formations are made of 7 huge, monolith like stones, placed
+      in a symbolic circle.
+      You notice it's possible to enter the ring.
+- vnum: 337
+  name: The ancient path
+  description: |
+    You find yourself located between the bridge and the rock formations.
+    As you approach the formations you begin to realize the true size of
+    them, about 15 feet tall and almost perfect rectangular shape.
+    You feel impressed with the awesome sight.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      To the east you enter the ring of stones. You wonder if it's safe.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 339
+  - dir: 3
+    desc: |
+      To the west the ancient path leads across the wooden bridge.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 336
+  extra_descs:
+  - keywords: rock formation formations
+    description: |
+      The rock formations are made of seven huge monolith placed in a circle.
+      You notice it's possible to enter the ring.
+- vnum: 338
+  name: Grassy plains
+  description: |
+    You walk in the grassy plains among the herbs which grow here. The wind is
+    strong and rough. Far to the north you can see the foothills and further on
+    mountain peaks are visible.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The plains extend far to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 321
+  - dir: 3
+    desc: |
+      The plains extend far to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 317
+  extra_descs: []
+- vnum: 339
+  name: The Stones of G'harne
+  description: |
+    You are in the center of 7, 15 ft tall monolith like black stones.
+    In the center of the ring formed by the monolith you can't help
+    noticing a big sacrifice altar. The ground is covered with dirt, but the
+    altar shows no sign of such. West of here is the ancient path.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      You see the ancient path and the wooden bridge here.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 337
+  - dir: 5
+    desc: |
+      You see a tunnel down there.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 340
+  extra_descs:
+  - keywords: death rituals worms engraving picture
+    description: |
+      The pictures are depicting evil rituals.
+      You see druids pouring blood over herbs on an altar like this one.
+      There are people calling giant worms into existence with dark spells.
+  - keywords: altar sacrifice
+    description: |
+      You move closer to examine the sacrifice altar of G'harne.
+      The altar is about 3 feet high, 10 feet long and 4 feet wide.
+      It has engraved pictures of death rituals and horrifying worms.
+  - keywords: stones g'harne monolith
+    description: |
+      The stones of G'harne tower fifteen feet over you.
+      The giant stones are made of a material you haven't seen before.
+      It resembles black marble, but somehow feels different.
+- vnum: 340
+  name: Dark smelly tunnels
+  description: |
+    You are standing in a gloomy tunnel leading south and west, right under
+    the altar of G'harne.  The walls are covered with a smelly slime and small
+    rotting pieces of a meat like substance, fills the air with an unbearable
+    stench.  You might be able to force your way up into fresh air from here.
+  room_flags: ADI
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 341
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 342
+  - dir: 4
+    desc: |
+      You welcome the sight of fresh air.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 339
+  extra_descs:
+  - keywords: meat rotting slime substance
+    description: |
+      You try to examine the substance closer, but must refrain from this
+      as all you really want to do is puke.
+      You puke.
+- vnum: 341
+  name: Dead end of tunnel
+  description: |
+    The tunnel comes to an abrupt end here. It simply looks like it
+    hasn't been excavated further.  North of here the tunnel makes a turn east.
+  room_flags: ADI
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 340
+  extra_descs: []
+- vnum: 342
+  name: Dark smelly tunnels
+  description: |
+    You are standing in a gloomy tunnel leading east and west.
+    The walls are covered with a smelly slime and small rotting pieces of a
+    meat like substance, fills the air with an unbearable stench.
+  room_flags: ADI
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The tunnel continues in this direction.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 340
+  - dir: 3
+    desc: |
+      The tunnel continues in this direction.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 343
+  extra_descs:
+  - keywords: meat rotting slime substance
+    description: |
+      You try to examine the substance closer, but must refrain from this
+      as all you really want to do is puke.
+      You puke.
+- vnum: 343
+  name: Dark smelly tunnels
+  description: |
+    You are standing in a small smelly tunnel under the plains.
+    The smell is growing stronger to the west, so is the density of the
+    slime and other undeterminable substances ...
+  room_flags: I
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The unbearable stench is less intensive in this direction.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 342
+  - dir: 3
+    desc: |
+      The tunnel seems to extend into some kind of cave.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 344
+  extra_descs:
+  - keywords: slime substance
+    description: |
+      BWADR! ...
+- vnum: 344
+  name: The Hall of G'harne
+  description: |
+    You stand in the hall of G'harne. The walls are dressed with strange
+    carving, symbolizing human sacrifice and people worshipping giant worms.
+    Disgusting slime and gore are also very dominant in your view of this room.
+  room_flags: ADI
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      It looks like a good idea just to run in this direction.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 343
+  extra_descs:
+  - keywords: slime gore
+    description: |
+      You puke.
+- vnum: 345
+  name: Steep slope
+  description: |
+    You try to climb down the slope.
+    >
+    You slip!
+    You fall and tumble.
+    You hit your head HARD.
+    You die.
+
+    You've fallen, and you can't get up!
+  room_flags: C
+  sector: 2
+  owner: ''
+  exits: []
+  extra_descs: []
+resets:
+- command: O
+  arg1: 304
+  arg2: 0
+  arg3: 316
+- command: M
+  arg1: 309
+  arg2: 10
+  arg3: 318
+- command: O
+  arg1: 301
+  arg2: 0
+  arg3: 319
+- command: O
+  arg1: 304
+  arg2: 0
+  arg3: 323
+- command: M
+  arg1: 300
+  arg2: 1
+  arg3: 323
+- command: E
+  arg1: 308
+  arg2: 0
+  arg3: 17
+- command: E
+  arg1: 307
+  arg2: 0
+  arg3: 3
+- command: G
+  arg1: 312
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 302
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 309
+  arg2: 10
+  arg3: 324
+- command: O
+  arg1: 300
+  arg2: 0
+  arg3: 327
+- command: M
+  arg1: 301
+  arg2: 1
+  arg3: 331
+- command: G
+  arg1: 303
+  arg2: 0
+  arg3: 0
+- command: O
+  arg1: 309
+  arg2: 0
+  arg3: 331
+- command: M
+  arg1: 309
+  arg2: 10
+  arg3: 334
+- command: O
+  arg1: 304
+  arg2: 0
+  arg3: 338
+- command: M
+  arg1: 305
+  arg2: 1
+  arg3: 344
+- command: G
+  arg1: 310
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 311
+  arg2: 0
+  arg3: 0
+shops:
+- keeper: 306
+  buy_types:
+  - 1
+  - 10
+  - 11
+  - 19
+  - 0
+  profit_buy: 120
+  profit_sell: 60
+  open_hour: 0
+  close_hour: 23
+- keeper: 308
+  buy_types:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  profit_buy: 110
+  profit_sell: 100
+  open_hour: 0
+  close_hour: 23
+specials:
+- vnum: 350
+  spec_fun: spec_cast_mage

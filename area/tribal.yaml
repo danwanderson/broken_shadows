@@ -1,0 +1,3735 @@
+area:
+  name: '{ 5-15} Lod     Tribal Plains'
+  builders: None
+  security: 9
+  area_flags: 0
+  vnums:
+  - 10200
+  - 10299
+mobiles:
+- vnum: 10200
+  keywords: big guy
+  short_desc: a giant guy
+  long_desc: |
+    A giant guy is here waiting for someone to bash.
+  description: |
+    Big guy.  Wants to bash you.  Nuf said.
+  race: unique
+  act: A
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 20
+  hitroll: 3
+  hit:
+    number: 6
+    type: 35
+    bonus: 150
+  mana:
+    number: 0
+    type: 0
+    bonus: 0
+  damage:
+    number: 5
+    type: 11
+    bonus: 2
+  dam_type: 0
+  ac:
+    pierce: -1
+    bash: -1
+    slash: 3
+    exotic: 4
+  off_flags: CDO
+  imm_flags: '0'
+  res_flags: CHI
+  vuln_flags: JP
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 30
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: G
+  material: none
+  spec_fun: ''
+- vnum: 10201
+  keywords: dotty
+  short_desc: Dotty
+  long_desc: |
+    Dotty is here!
+  description: "It's Dotty!  Nothing really all that special about here except she's\n\
+    kinda good looking and kinda dumb.  She's very friendly.  Be friends with\nher.\
+    \  \n"
+  race: Human
+  act: A
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 15
+  hitroll: 0
+  hit:
+    number: 5
+    type: 30
+    bonus: 161
+  mana:
+    number: 0
+    type: 0
+    bonus: 0
+  damage:
+    number: 3
+    type: 5
+    bonus: 8
+  dam_type: 0
+  ac:
+    pierce: 0
+    bash: 0
+    slash: 0
+    exotic: 5
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 10202
+  keywords: headman
+  short_desc: the Headman
+  long_desc: |
+    The Headman of the Bulu village is here.
+  description: "You see before the Headman of the Bulu village.  He is the leader\
+    \ of his\npeople because he is strong and wise.  He welcomes you into his home.\
+    \  \n"
+  race: Human
+  act: AB
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 700
+  clan: 0
+  level: 14
+  hitroll: 30
+  hit:
+    number: 4
+    type: 30
+    bonus: 148
+  mana:
+    number: 1
+    type: 1
+    bonus: 30
+  damage:
+    number: 1
+    type: 2
+    bonus: 0
+  dam_type: 0
+  ac:
+    pierce: 4
+    bash: 4
+    slash: 4
+    exotic: 7
+  off_flags: FJ
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 10203
+  keywords: child
+  short_desc: a child
+  long_desc: |
+    A young Bulu child is here, practacing to be a warrior.
+  description: "You see before you a young Bulu child.  Children of the Bulu village\
+    \ are\nraised to be strong warriors and hunters.  They run around with little\n\
+    clothes on from birth and are concequently resistant to cold.  \n"
+  race: Human
+  act: A
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 200
+  clan: 0
+  level: 5
+  hitroll: 3
+  hit:
+    number: 1
+    type: 17
+    bonus: 102
+  mana:
+    number: 0
+    type: 0
+    bonus: 0
+  damage:
+    number: 1
+    type: 1
+    bonus: 0
+  dam_type: 0
+  ac:
+    pierce: 7
+    bash: 7
+    slash: 7
+    exotic: 8
+  off_flags: JR
+  imm_flags: '0'
+  res_flags: I
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 0
+  form: ADHMV
+  parts: ABCDEFGHIJK
+  size: S
+  material: none
+  spec_fun: ''
+- vnum: 10204
+  keywords: woman
+  short_desc: a Bulu woman
+  long_desc: |
+    A Bulu woman is here doing womanly things.
+  description: "You see a Bulu woman here.  Bulu women are strong becuase they have\
+    \ to\ndeal with Bulu children and Bulu men.  They mostly cook and make clothes\
+    \ and\nare usually peaceful, but if they feel they're children are threatend,\
+    \ they\ncan become very, very violent.  \n"
+  race: Human
+  act: A
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 300
+  clan: 0
+  level: 7
+  hitroll: 3
+  hit:
+    number: 2
+    type: 20
+    bonus: 60
+  mana:
+    number: 0
+    type: 0
+    bonus: 0
+  damage:
+    number: 2
+    type: 4
+    bonus: 3
+  dam_type: 0
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: DR
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 3
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 10205
+  keywords: man
+  short_desc: a Bulu man
+  long_desc: |
+    A Bulu man is here, doing manly things.
+  description: "You are looking at a man of the Bulu tribe.  Bulu men are strong becaused\n\
+    they are raised by strong parents and taught to survive.  Men that aren't\ngreat\
+    \ hunters or warriors generally make weapons and other items that keep\nthe Bulu\
+    \ alive.  \n"
+  race: Human
+  act: AT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 300
+  clan: 0
+  level: 9
+  hitroll: 6
+  hit:
+    number: 3
+    type: 22
+    bonus: 80
+  mana:
+    number: 0
+    type: 0
+    bonus: 0
+  damage:
+    number: 2
+    type: 5
+    bonus: 4
+  dam_type: 0
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: R
+  imm_flags: '0'
+  res_flags: I
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 4
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 10206
+  keywords: first warrior
+  short_desc: the First Warrior
+  long_desc: |
+    The First Warrior of the Bulu tribe is here.
+  description: "You are looking upon the best warrior in the village.  He is young\
+    \ and in\nhis prime.  He has the scars of being a good protector of the village.\
+    \  \n"
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 300
+  clan: 0
+  level: 12
+  hitroll: 5
+  hit:
+    number: 4
+    type: 28
+    bonus: 110
+  mana:
+    number: 0
+    type: 0
+    bonus: 0
+  damage:
+    number: 1
+    type: 1
+    bonus: 0
+  dam_type: 0
+  ac:
+    pierce: 2
+    bash: 2
+    slash: 2
+    exotic: 6
+  off_flags: FKR
+  imm_flags: '0'
+  res_flags: I
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 1
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 10207
+  keywords: second warrior
+  short_desc: the second warrior
+  long_desc: |
+    The Second Warrior of the Bulu tribe is here.
+  description: "You see before you the Second warrior of the Bulu village.  He is\
+    \ young,\nstrong, and in his prime.  He has the scars of a good warrior and protector\n\
+    of his village.  \n"
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 300
+  clan: 0
+  level: 12
+  hitroll: 5
+  hit:
+    number: 4
+    type: 28
+    bonus: 100
+  mana:
+    number: 0
+    type: 0
+    bonus: 0
+  damage:
+    number: 1
+    type: 1
+    bonus: 1
+  dam_type: 0
+  ac:
+    pierce: 2
+    bash: 2
+    slash: 2
+    exotic: 6
+  off_flags: FKR
+  imm_flags: '0'
+  res_flags: I
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 10208
+  keywords: hunter bulu
+  short_desc: a Bulu hunter
+  long_desc: |
+    A Bulu hunter is here, hunting warg.
+  description: ''
+  race: Human
+  act: AT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 300
+  clan: 0
+  level: 10
+  hitroll: 5
+  hit:
+    number: 3
+    type: 22
+    bonus: 96
+  mana:
+    number: 0
+    type: 0
+    bonus: 0
+  damage:
+    number: 1
+    type: 1
+    bonus: 0
+  dam_type: 0
+  ac:
+    pierce: 4
+    bash: 4
+    slash: 4
+    exotic: 7
+  off_flags: FR
+  imm_flags: '0'
+  res_flags: I
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 10209
+  keywords: female warg
+  short_desc: a female warg
+  long_desc: |
+    A female warg is here hunting some hunters.
+  description: "You see before you a female warg.  It is slightly smaller than the\
+    \ male,\nbut no less fierce.  It's mouth is open showing off it's large,\nsaliva-covered\
+    \ teeth.  It's claws look like they would make nice daggers,\nexcept for the fact\
+    \ that they are likely to be puncturing your skin very\nshortly.  \n"
+  race: dog
+  act: ACF
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 10
+  hitroll: 5
+  hit:
+    number: 3
+    type: 22
+    bonus: 100
+  mana:
+    number: 0
+    type: 0
+    bonus: 0
+  damage:
+    number: 2
+    type: 5
+    bonus: 5
+  dam_type: 5
+  ac:
+    pierce: 4
+    bash: 4
+    slash: 4
+    exotic: 7
+  off_flags: HU
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 0
+  form: AGV
+  parts: ACDEFHJKUV
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 10210
+  keywords: male warg
+  short_desc: a male warg
+  long_desc: |
+    A male warg is here, looking for some one to eat.
+  description: "You see before you a male warg.  Male wargs are larger than the females.\
+    \ \nIt takes several hunters to bring down a large male warg.  It has a mouthful\n\
+    of sharp teeth and isn't stingy in showing them off to you.  He seems to be\n\
+    looking forward to eating you.  \n"
+  race: dog
+  act: ACFG
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 13
+  hitroll: 6
+  hit:
+    number: 4
+    type: 46
+    bonus: 1102
+  mana:
+    number: 0
+    type: 0
+    bonus: 0
+  damage:
+    number: 3
+    type: 5
+    bonus: 5
+  dam_type: 5
+  ac:
+    pierce: 1
+    bash: 1
+    slash: 1
+    exotic: 6
+  off_flags: HU
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 0
+  form: AGV
+  parts: ACDEFHJKUV
+  size: L
+  material: none
+  spec_fun: ''
+- vnum: 10211
+  keywords: eagle bird
+  short_desc: eagle
+  long_desc: |
+    A large, majestic eagle is here.
+  description: "You see before you a large eagle.  Eagles are known for their strength,\n\
+    size, gracefulness, keenness of vision, and powers of flight.  This one is a\n\
+    fine specimen of eagle, and is also dissturbed by that fact that you are\ninterupting\
+    \ it.  \n"
+  race: song bird
+  act: ABF
+  affected_by: TV
+  affected2_by: '0'
+  alignment: 100
+  clan: 0
+  level: 9
+  hitroll: 5
+  hit:
+    number: 3
+    type: 22
+    bonus: 90
+  mana:
+    number: 0
+    type: 0
+    bonus: 0
+  damage:
+    number: 2
+    type: 5
+    bonus: 3
+  dam_type: 5
+  ac:
+    pierce: 4
+    bash: 4
+    slash: 4
+    exotic: 7
+  off_flags: FH
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 3
+  gold: 0
+  form: AGW
+  parts: ACDEFHKP
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 10212
+  keywords: voodoo witch bitch
+  short_desc: a voodoo witch
+  long_desc: |
+    An evil-looking voodoo witch is here puting a hex on you.
+  description: "You see before you an ugly old hag.  She's missing some teeth and\
+    \ has a\nperpetual sneer.  She is the voodoo witch and she's not happy.  You seem\
+    \ to\nhave interupted a very important voodoo ceremony.  Be careful!  She might\n\
+    put a hex on you!  \n"
+  race: Human
+  act: ABFR
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -600
+  clan: 0
+  level: 14
+  hitroll: 3
+  hit:
+    number: 4
+    type: 32
+    bonus: 161
+  mana:
+    number: 14
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 5
+    bonus: 4
+  dam_type: 19
+  ac:
+    pierce: 1
+    bash: 1
+    slash: 1
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 13
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_mage
+- vnum: 10213
+  keywords: shuli headman
+  short_desc: the Shuli Headman
+  long_desc: |
+    The Headman of the Shuli tribe is here.
+  description: "You see before you the Headman of the Shuli tribe.  He is tall and\
+    \ strong\nand has the mark of the Shuli warriors on his arm.  He has been Headman\
+    \ for\nmany years but that time has not made him soft.  He is as powerful as ever.\
+    \ \n"
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -100
+  clan: 0
+  level: 15
+  hitroll: 3
+  hit:
+    number: 5
+    type: 30
+    bonus: 170
+  mana:
+    number: 0
+    type: 0
+    bonus: 0
+  damage:
+    number: 1
+    type: 1
+    bonus: 0
+  dam_type: 17
+  ac:
+    pierce: 0
+    bash: 0
+    slash: 0
+    exotic: 5
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 20
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 10214
+  keywords: shuli man
+  short_desc: a Shuli man
+  long_desc: |
+    A Shuli man is here protecting his home.
+  description: "You are looking at a man of the Shuli tribe.  All men are taught from\
+    \ a\nyoung age to do whatever they can to survive.  Because of this, the ones\n\
+    that are alive now are the most fit to survive.  They are also very\nprotective\
+    \ over what they consider theirs, which is why there is so much\nconflict over\
+    \ the hunting plains.  \n"
+  race: Human
+  act: AT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 9
+  hitroll: 3
+  hit:
+    number: 3
+    type: 22
+    bonus: 80
+  mana:
+    number: 0
+    type: 0
+    bonus: 0
+  damage:
+    number: 2
+    type: 5
+    bonus: 4
+  dam_type: 0
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: R
+  imm_flags: '0'
+  res_flags: I
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 4
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 10215
+  keywords: shuli woman
+  short_desc: a Shuli woman
+  long_desc: |
+    A Shuli woman is here.
+  description: "You see before you a woman belonging to the Shuli tribe.  Though women\n\
+    are not aloud to become warriors, they are trained to protect their village\n\
+    and themselves should either ever become threatend.  \n"
+  race: Human
+  act: AT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 7
+  hitroll: 3
+  hit:
+    number: 2
+    type: 20
+    bonus: 60
+  mana:
+    number: 0
+    type: 0
+    bonus: 0
+  damage:
+    number: 2
+    type: 4
+    bonus: 3
+  dam_type: 0
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: DR
+  imm_flags: '0'
+  res_flags: I
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 10216
+  keywords: shuli child
+  short_desc: a Shuli child
+  long_desc: |
+    A Shuli child is here trying not to get into trouble.
+  description: ''
+  race: Human
+  act: A
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 200
+  clan: 0
+  level: 5
+  hitroll: 3
+  hit:
+    number: 1
+    type: 17
+    bonus: 102
+  mana:
+    number: 0
+    type: 0
+    bonus: 0
+  damage:
+    number: 1
+    type: 1
+    bonus: 0
+  dam_type: 0
+  ac:
+    pierce: 7
+    bash: 7
+    slash: 7
+    exotic: 8
+  off_flags: JR
+  imm_flags: '0'
+  res_flags: I
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 10217
+  keywords: warrior shuli
+  short_desc: a Shuli warrior
+  long_desc: |
+    A Shuli warrior is guarding his village.
+  description: "You see before you a warrior of the Shuli village.  The Shuli are\n\
+    fiercely protective of their land and dislike intruders.  They have dubbed\nyou\
+    \ an intruder.  \n"
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 12
+  hitroll: 3
+  hit:
+    number: 4
+    type: 28
+    bonus: 120
+  mana:
+    number: 0
+    type: 0
+    bonus: 0
+  damage:
+    number: 1
+    type: 1
+    bonus: 0
+  dam_type: 0
+  ac:
+    pierce: 2
+    bash: 2
+    slash: 2
+    exotic: 6
+  off_flags: FKR
+  imm_flags: '0'
+  res_flags: I
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 7
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 10269
+  keywords: tommy cat
+  short_desc: Tommy the Cat
+  long_desc: |
+    Tommy the Cat is here, on the prowl.
+  description: "\"I remember it as though it were a meal ago,\" said Tommy the Cat\
+    \ as he\nreeled back to clear whatever foreign matter may have nestled its way\
+    \ into\nhis mighty throat.  Many a fat alley rat had met its demise while staring\n\
+    point-blank down the cavernous barrel of this awesome prowling machine. \nTruly\
+    \ a wonder of nature this urban predator.  Tommy the Cat had many a\nstory to\
+    \ tell, but it was a rare occasion such as this that he did.  \"She\ncame slidin'\
+    \ down the alleyway like butter dripping over a hot biscut.  The\naroma, the mean\
+    \ scent, was enough to arouse suspicion in even the oldest of\nTigers that hung\
+    \ around the hot spot in those days.  The sight was beyond\nbelief.  Many a head\
+    \ snapped for double, even triple, takes as this\nvivacious feline made her way\
+    \ into the delta of the alleyway where the most\nverile of young tabbys were known\
+    \ to hang out.  They hung in droves.  Such a\nmultitude of masculinity could only\
+    \ be found in one place...  And that was\nO'Malley's Alley.  The air was thick\
+    \ with cat calls (no pun intended) but\nnot even a muscle in her neck did twitch\
+    \ as she sauntered straight into the\nheart of the alley.  She knew what she wanted!\
+    \  She was looking for that\nstud bull, that he cat.  And that was me.  Tommy\
+    \ the Cat is my name and I\nsay unto thee...  Say, baby, do you want to lay down\
+    \ with me?\"  \n"
+  race: cat
+  act: AT
+  affected_by: Z
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 90
+  hitroll: 300
+  hit:
+    number: 5
+    type: 1000
+    bonus: 1000
+  mana:
+    number: 0
+    type: 0
+    bonus: 0
+  damage:
+    number: 10
+    type: 20
+    bonus: 50
+  dam_type: 5
+  ac:
+    pierce: -50
+    bash: -50
+    slash: -50
+    exotic: -50
+  off_flags: FH
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: H
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 0
+  form: AGV
+  parts: ACDEFHJKQUV
+  size: M
+  material: none
+  spec_fun: spec_fido
+- vnum: 10270
+  keywords: punching bag
+  short_desc: a punching bag
+  long_desc: |
+    A punching bag is here, bobbing back and forth.
+  description: |
+    It's a clown-faced punching bag.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 30
+  hitroll: 200
+  hit:
+    number: 50
+    type: 50
+    bonus: 10000
+  mana:
+    number: 0
+    type: 0
+    bonus: 0
+  damage:
+    number: 1
+    type: 1
+    bonus: 0
+  dam_type: 0
+  ac:
+    pierce: -80
+    bash: -80
+    slash: -80
+    exotic: -80
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 10275
+  keywords: billy joe bob cyber knight
+  short_desc: Billy Joe Bob the Cyber Knight
+  long_desc: |
+    Billy Joe Bob the Cyber Knight is here.
+  description: "You are looking at Billy Joe Bob the Cyber Knight.  Obviously not\
+    \ from\nyour own time, he is clad in reenforced plastic armor and carries a G-73\n\
+    compact plasma rifle.  He has a number of plasma grenades hanging off his\nbody.\
+    \  In one hand he holds his psyonic sword, made of light and thought.  \n"
+  race: Human
+  act: AB
+  affected_by: DFJ
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 15
+  hitroll: 0
+  hit:
+    number: 5
+    type: 30
+    bonus: 170
+  mana:
+    number: 15
+    type: 1
+    bonus: 1
+  damage:
+    number: 1
+    type: 3
+    bonus: 2
+  dam_type: 0
+  ac:
+    pierce: 0
+    bash: 0
+    slash: 0
+    exotic: 4
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 10276
+  keywords: lurker
+  short_desc: the lurker
+  long_desc: |
+    The lurker is here lurking.
+  description: "You see a slimy, filth covered creature hugging to the rocks.  Though\n\
+    it's long arms and legs are thin, they seem powerful.  You don't think that\n\
+    it has ever gone hungry.  \n"
+  race: snake
+  act: ABFT
+  affected_by: Q
+  affected2_by: '0'
+  alignment: -1020
+  clan: 0
+  level: 15
+  hitroll: 0
+  hit:
+    number: 5
+    type: 30
+    bonus: 165
+  mana:
+    number: 0
+    type: 0
+    bonus: 0
+  damage:
+    number: 3
+    type: 5
+    bonus: 8
+  dam_type: 5
+  ac:
+    pierce: 0
+    bash: 0
+    slash: 0
+    exotic: 5
+  off_flags: GM
+  imm_flags: '0'
+  res_flags: L
+  vuln_flags: I
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: AGRXYc
+  parts: ADEFKLPQVX
+  size: M
+  material: none
+  spec_fun: ''
+objects:
+- vnum: 10200
+  name: really big axe
+  short_desc: a really big axe
+  description: A really, really, really, REALLY big axe is here.
+  material: none
+  item_type: 5
+  extra_flags: BCI
+  wear_flags: AN
+  values:
+  - 5
+  - 5
+  - 11
+  - 1
+  - 8
+  level: 102
+  weight: 20
+  cost: 600
+  affects: []
+  extra_descs: []
+- vnum: 10201
+  name: axe durin great
+  short_desc: the Great Axe of Durin
+  description: The Great Axe of the dwarf Durin lies here.
+  material: none
+  item_type: 5
+  extra_flags: ABG
+  wear_flags: AN
+  values:
+  - 5
+  - 70
+  - 60
+  - 21
+  - 0
+  level: 90
+  weight: 20
+  cost: 10000
+  affects:
+  - where: O
+    location: 19
+    modifier: 30
+    bitvector: '0'
+  - where: O
+    location: 18
+    modifier: 15
+    bitvector: '0'
+  extra_descs:
+  - keywords: axe
+    description: "You see the axe that once belonged to the Durin the Deathless. \
+      \ It is the\naxe of gods.  It seems to be alive and wanting to slay something.\
+      \  \n"
+- vnum: 10202
+  name: dagger warg tooth
+  short_desc: a warg-tooth dagger
+  description: A dagger made out of the tooth of a warg is here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 2
+  - 4
+  - 5
+  - 2
+  - 0
+  level: 15
+  weight: 4
+  cost: 30
+  affects: []
+  extra_descs: []
+- vnum: 10203
+  name: bulu tribal mask
+  short_desc: a Bulu tribal mask
+  description: An ugly mask of Bulu make is here.
+  material: none
+  item_type: 9
+  extra_flags: N
+  wear_flags: AE
+  values:
+  - 3
+  - 3
+  - 3
+  - 3
+  - 0
+  level: 7
+  weight: 5
+  cost: 102
+  affects: []
+  extra_descs: []
+- vnum: 10204
+  name: warg claw necklace
+  short_desc: a warg claw necklace
+  description: A necklace made of the claws of a warg is here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AC
+  values:
+  - 1
+  - 1
+  - 2
+  - 0
+  - 0
+  level: 13
+  weight: 4
+  cost: 30
+  affects: []
+  extra_descs: []
+- vnum: 10205
+  name: anabolic protoplaser
+  short_desc: a protoplaser
+  description: An anabolic protoplaser is humming quietly to itself...
+  material: none
+  item_type: 3
+  extra_flags: AB
+  wear_flags: AO
+  values:
+  - 15
+  - 10
+  - 10
+  - 61
+  - 0
+  level: 15
+  weight: 5
+  cost: 10000
+  affects: []
+  extra_descs: []
+- vnum: 10206
+  name: warg meat
+  short_desc: some left over warg meat
+  description: Left here is a nice piece of warg meat.
+  material: none
+  item_type: 19
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 18
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 1
+  weight: 2
+  cost: 10
+  affects: []
+  extra_descs: []
+- vnum: 10207
+  name: toy spear
+  short_desc: a toy spear
+  description: A very strong toy spear is here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 3
+  - 2
+  - 5
+  - 2
+  - 0
+  level: 4
+  weight: 4
+  cost: 5
+  affects: []
+  extra_descs: []
+- vnum: 10208
+  name: spear
+  short_desc: a strong spear
+  description: A strong warrior's spear of Bulu make is here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 3
+  - 3
+  - 7
+  - 2
+  - 0
+  level: 12
+  weight: 7
+  cost: 20
+  affects: []
+  extra_descs: []
+- vnum: 10209
+  name: potion swirling black
+  short_desc: a swirling black potion
+  description: A potion that looks anger in a bottle is here.
+  material: none
+  item_type: 10
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 15
+  - 504
+  - 502
+  - 39
+  - 0
+  level: 13
+  weight: 2
+  cost: 50
+  affects: []
+  extra_descs: []
+- vnum: 10210
+  name: pin voodoo
+  short_desc: a voodoo pin
+  description: A long, sharp voodoo pin is here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 2
+  - 4
+  - 5
+  - 11
+  - 0
+  level: 10
+  weight: 2
+  cost: 25
+  affects:
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: '0'
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 10211
+  name: feather eagle necklace
+  short_desc: an eagle feather necklace
+  description: An eagle feather necklace is here.
+  material: none
+  item_type: 9
+  extra_flags: GQ
+  wear_flags: AC
+  values:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  level: 9
+  weight: 2
+  cost: 102
+  affects:
+  - where: O
+    location: 3
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 10212
+  name: chest
+  short_desc: a chest
+  description: A simple wooden chest is here.
+  material: none
+  item_type: 15
+  extra_flags: '0'
+  wear_flags: '0'
+  values:
+  - 100
+  - 13
+  - 10215
+  - 0
+  - 0
+  level: 0
+  weight: 100
+  cost: 0
+  affects: []
+  extra_descs:
+  - keywords: chest
+    description: "You see before a small, wooden chest.  It is rather uninteresting.\
+      \  It\ndoes, however, have a strong-looking iron lock on it.  \n"
+- vnum: 10213
+  name: figure gold
+  short_desc: a gold figure
+  description: A figure made of gold is here.
+  material: none
+  item_type: 8
+  extra_flags: '0'
+  wear_flags: AO
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 1
+  weight: 6
+  cost: 100
+  affects:
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 10214
+  name: gold ring
+  short_desc: a golden ring
+  description: A ring made of gold is here.
+  material: none
+  item_type: 9
+  extra_flags: G
+  wear_flags: AB
+  values:
+  - 0
+  - 0
+  - 0
+  - 2
+  - 0
+  level: 10
+  weight: 2
+  cost: 70
+  affects:
+  - where: O
+    location: 13
+    modifier: 5
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 10215
+  name: key rusty
+  short_desc: a rusty key
+  description: A rusty key is here.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 0
+  weight: 2
+  cost: 0
+  affects: []
+  extra_descs: []
+- vnum: 10216
+  name: long sword
+  short_desc: a long sword
+  description: A long sword with a bone handle is here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 1
+  - 5
+  - 4
+  - 3
+  - 0
+  level: 15
+  weight: 6
+  cost: 70
+  affects:
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 10234
+  name: trash
+  short_desc: some trash
+  description: Some trash is here.
+  material: none
+  item_type: 13
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 0
+  weight: 4
+  cost: 0
+  affects: []
+  extra_descs: []
+- vnum: 10269
+  name: anti sword
+  short_desc: the anti-sword
+  description: The anti-sword doesn't lie here.
+  material: none
+  item_type: 5
+  extra_flags: GI
+  wear_flags: AN
+  values:
+  - 0
+  - 1
+  - 1
+  - 7
+  - 0
+  level: 5
+  weight: -3
+  cost: 0
+  affects:
+  - where: O
+    location: 19
+    modifier: -10
+    bitvector: '0'
+  extra_descs: []
+- vnum: 10270
+  name: orb
+  short_desc: an orb
+  description: An orb is resting here.
+  material: none
+  item_type: 1
+  extra_flags: A
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 999
+  - 0
+  - 0
+  level: 27
+  weight: 5
+  cost: 100
+  affects: []
+  extra_descs: []
+- vnum: 10273
+  name: plasma grenade
+  short_desc: a plasma grenade
+  description: A plasma grenade is here.
+  material: none
+  item_type: 3
+  extra_flags: '0'
+  wear_flags: AO
+  values:
+  - 100
+  - 1
+  - 1
+  - 402
+  - 0
+  level: 1
+  weight: 4
+  cost: 300
+  affects: []
+  extra_descs:
+  - keywords: grenade
+    description: "Instructions for using the plasma grenade: first wield it, then\
+      \ zap your\nenemy.  \n"
+- vnum: 10274
+  name: plasma rifle
+  short_desc: a G-73 plasma rifle
+  description: A plasma rifle is here.
+  material: none
+  item_type: 5
+  extra_flags: B
+  wear_flags: AN
+  values:
+  - 0
+  - 4
+  - 6
+  - 6
+  - 0
+  level: 15
+  weight: 9
+  cost: 300
+  affects:
+  - where: O
+    location: 18
+    modifier: 2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 10275
+  name: psyonic sword
+  short_desc: a Psyonic Sword
+  description: A sword made of energy and thought is here.
+  material: none
+  item_type: 5
+  extra_flags: AGR
+  wear_flags: AN
+  values:
+  - 0
+  - 4
+  - 6
+  - 3
+  - 0
+  level: 0
+  weight: 0
+  cost: 0
+  affects: []
+  extra_descs: []
+rooms:
+- vnum: 10240
+  name: The hunting plains
+  description: "You are in the hunting plains grudgingly shared by the Bulu and Shuli\n\
+    tribes.  The long grasses here wave in the breezes that flow through them. \n\
+    You see the tracks of a large, four-legged animal.  Off in the distance to\nthe\
+    \ north you can see the entrance to the Shuli village.  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10246
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10239
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10241
+  extra_descs: []
+- vnum: 10241
+  name: The hunting plains
+  description: "You are in the hunting plains grudgingly shared by the Bulu and Shuli\n\
+    tribes.  The grasses here wave pleasantly in the breezes that flow through\nthem.\
+    \  You see the tracks of a large, four-legged animal.  Off in the\ndistance to\
+    \ the northeast you can see the entrance of the Shuli village.  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10245
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10240
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10238
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10242
+  extra_descs: []
+- vnum: 10242
+  name: The hunting plains
+  description: "You are in the hunting plains grudgingly shared by the Bulu and Shuli\n\
+    tribes.  The grasses grow a little shorter here than the rest of the plain. \n\
+    The wind doesn't blow much all.  Everthing seems a bit more still and quiet.\n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10241
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10237
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10243
+  extra_descs: []
+- vnum: 10243
+  name: The hunting plains
+  description: "You are in the hunting plains grudgingly shared by the Bulu and Shuli\n\
+    tribes.  The grasses here grow a little shorter here than the rest of the\nplain.\
+    \  You can see the tracks of a large, four-legged animal.  You also see\na mountain\
+    \ off to the west.  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10242
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10236
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10244
+  extra_descs: []
+- vnum: 10244
+  name: A quiet part of the plains
+  description: "You are in a quiet, peaceful part of the plains.  The wind is still\
+    \ here,\nas are the grasses.  You see no tracks of any kind except your own. \
+    \ The\nmountain expands to the west of you.  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10243
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10235
+  extra_descs: []
+- vnum: 10245
+  name: The hunting plains
+  description: "You are in the hunting plains ear the Shuli village.  The village\
+    \ lies to\nthe north but you way is barred by a strong pointed-stick fence.  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10246
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10241
+  extra_descs: []
+- vnum: 10246
+  name: Near the Shuli tribe's village
+  description: "You are near the entrance to the Shuli village.  The grasses here\
+    \ are\nshort and matted down by the feet of the Shuli.  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10247
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10240
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10245
+  extra_descs: []
+- vnum: 10247
+  name: Entrance to the Shuli Tribe's Village
+  description: "You are at the entrance to the Shuli village.  The pointed stick fence\n\
+    converges here to form a gate that forbids entrance to the village.  \n"
+  room_flags: C
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: gate
+    exit_flags: A
+    key: 0
+    to_vnum: 10248
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10246
+  extra_descs: []
+- vnum: 10248
+  name: Shuli village center
+  description: "You are at the center of the Shuli village.  To the south lies the\
+    \ exit\nto the hunting plains.  To the north lies the Headman's hut.  To the east\n\
+    and west lie assorted small huts which house the people of the village.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10249
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10257
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: A
+    key: 0
+    to_vnum: 10247
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10252
+  extra_descs: []
+- vnum: 10249
+  name: Path to the Headman's hut
+  description: "You are on a small dirt path which leads to the stately hut which\
+    \ belongs\nthe Headman of the Shuli tribe.  To the south lies the rest of the\
+    \ village. \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10250
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10248
+  extra_descs: []
+- vnum: 10250
+  name: The Headman's hut
+  description: "You are in the hut of the Headman of the Shuli tribe.  The floor here\
+    \ is\nmostly covered by animal furs.  There are various small trinkets being\n\
+    displayed on some wooden shelves, reinforcing that fact that the Headman is\n\
+    richer and more important than the other villagers.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10249
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10251
+  extra_descs: []
+- vnum: 10251
+  name: The Shuli Voodoo-Man's hut
+  description: "You are in the hut that is connected to the Headman's hut.  The floor\
+    \ is\nlittered with dolls, blood, long, sharp pins, small knifes, and some warg\n\
+    bones.  On the walls hang decapitated chickens, severed chicken feet, sheep\n\
+    eyeballs, and other tasty looking stuff. \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10250
+  extra_descs: []
+- vnum: 10252
+  name: A path
+  description: "You are on a small, dusty little path in the Shuli village.  To the\
+    \ north\nlise a small hut.  To the east list the village center and some more\
+    \ huts. \nTo the west you can see the end of the village.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10253
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10248
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10254
+  extra_descs: []
+- vnum: 10253
+  name: A hut
+  description: "You are in one of the huts in the Shuli village.  Like all the other\
+    \ huts\nin the village, it has a leaky thatch roof, a dirt floor, and walls made\
+    \ out\nof some kind of woven grass.  Lying on the floor are clay pots of various\n\
+    sizes, a woven grass rug, some pointed sticks, and other useful tools.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10252
+  extra_descs: []
+- vnum: 10254
+  name: West end of the Shuli village
+  description: "You are at the west end of the Shuli village.  To the north lies another\n\
+    hut.  To the east lie the rest of the village.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10256
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10252
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10255
+  extra_descs: []
+- vnum: 10255
+  name: A hut
+  description: "You are in one of the huts in the Shuli village.  Like all the other\
+    \ huts\nin the village it has a leaky thatch roof, a dirt floor, and walls made\
+    \ out\nof some kind of woven grass.  Lying on the floor are some clay pots of\n\
+    various sizes, a woven grass rug, some pointed sticks, and other assorted\nuseful\
+    \ tools.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10254
+  extra_descs: []
+- vnum: 10256
+  name: A hut
+  description: "You are in one of the huts in the Shuli village.  Like all the other\
+    \ huts\nin the village it has a leaky thatch roof, a dirt floor, and walls made\
+    \ out\nof some kind of woven grass.  Lying on the floor are some clay pots of\n\
+    various sizes, a woven grass rug, some pointed sticks, and other assorted\nuseful\
+    \ tools.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10254
+  extra_descs: []
+- vnum: 10257
+  name: A path
+  description: "You are on a dirt path in the Shuli village.  To the north is one\
+    \ of the\nvillagers huts.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10258
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10260
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10248
+  extra_descs: []
+- vnum: 10258
+  name: A hut
+  description: "You are in one of the huts in the Shuli village.  It has a thatch\
+    \ roof, a\ndirt floor, and walls made of some kind of woven grass.  It would seem\
+    \ the\nShuli are good hunters and warriors, due to the fact that there are assorted\n\
+    weapons lying around.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10257
+  extra_descs: []
+- vnum: 10259
+  name: A hut
+  description: "You are in one of the huts in the Shuli village.  Like all the other\
+    \ huts\nin the village it has a thatch roof, a dirt floor, and walls made out\
+    \ of\nsome kind of woven grass.  Lying on the floor are some small clay pots,\
+    \ some\nwoven grass rugs, some pointed sticks, and other useful tools.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10260
+  extra_descs: []
+- vnum: 10260
+  name: East end of the Shuli village
+  description: "You are at the east end of the Shuli village.  To the north lies a\
+    \ small\nhut, and to the west lies the rest of the village.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10259
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10261
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10257
+  extra_descs: []
+- vnum: 10261
+  name: A hut
+  description: "You are in one of the huts in the Shuli village.  Like all the other\
+    \ huts\nin the village, it has a thatch roof, a dirt floor, and walls made out\
+    \ of\nsome kind of woven grass.  Lying on the floor are assorted clay pots, a\n\
+    woven grass rug, some pointed sticks, and some other useful tools.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10260
+  extra_descs: []
+- vnum: 10262
+  name: Near the river
+  description: "You are on the shore near the river that flows through the hunting\n\
+    plains.  Various small animals come here and drink from the cool, clear\nwater.\
+    \  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10268
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10263
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10224
+  extra_descs: []
+- vnum: 10263
+  name: On the shore by the river
+  description: "You are on the muddy shore near the river.  There are pools of stagnant\n\
+    water here which aren't as pleasant as the rest of the river.  \n"
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10262
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10267
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10264
+  extra_descs: []
+- vnum: 10264
+  name: A pool of stagnant water
+  description: "You are in a pool of stagnant water.  The water isn't clear here as\
+    \ it is\non the rest of the river.  It smells worse, too.  You think you can see\n\
+    something moving below you.  The is something carved on a rock here.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10263
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10266
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10276
+  extra_descs:
+  - keywords: rock
+    description: |
+      Carved on a rock are the words:  Beware the lurker!
+- vnum: 10265
+  name: South end of the river
+  description: "You are at the begining of the river.  Little steams and creeks converge\n\
+    here to form the river.  The river continues to flow north.  \n"
+  room_flags: '0'
+  sector: 7
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10266
+  extra_descs: []
+- vnum: 10266
+  name: On the river
+  description: "You are on the river.  It seems to flow north at its own pace.  Off\
+    \ to\nthe west it swirls into a stagnant pool of less pleasent smelling water.\
+    \  \n"
+  room_flags: '0'
+  sector: 7
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10267
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10265
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10264
+  extra_descs: []
+- vnum: 10267
+  name: On the river
+  description: "You are on the river.  It flows slowly to north and soaks up sound\
+    \ like a\nsponge.  It seems like a nice place to have a picnic.  To the west is\
+    \ the\nshore.  \n"
+  room_flags: '0'
+  sector: 7
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10268
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10266
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10263
+  extra_descs: []
+- vnum: 10268
+  name: On the river
+  description: "This part of the river is moving a little faster than that to the\
+    \ south. \nIt's still very pleasant, though.  To the west lies the shore.  To\
+    \ the north\nthe river flows into some rapids.  \n"
+  room_flags: '0'
+  sector: 7
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10269
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10267
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10262
+  extra_descs: []
+- vnum: 10269
+  name: In the rapids
+  description: "The river moves swiftly now, churning its way through the woods. \
+    \ It\nmakes a major turn towards the east.  \n"
+  room_flags: '0'
+  sector: 7
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10270
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10268
+  extra_descs: []
+- vnum: 10270
+  name: In the rapids
+  description: "The rapids here are not at all pleasant.  You feel as though the river\n\
+    want's to drown you for some reason.  Fortunately, the rapids diminish up\nahead.\
+    \  \n"
+  room_flags: '0'
+  sector: 7
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10271
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10269
+  extra_descs: []
+- vnum: 10271
+  name: A calm part of the river
+  description: "Here the river is back to its calm old self.  To the south are unpleasant\n\
+    looking rapids.  To the north the river seems to continue.  \n"
+  room_flags: '0'
+  sector: 7
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10272
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10270
+  extra_descs: []
+- vnum: 10272
+  name: Top of the waterfall
+  description: "You are at the top of the waterfall!  Fourtunately for you, it's a\
+    \ small\nwaterfall, only about 20 feet tall.  The water isn't moving so fast so\
+    \ that\nyou can't decide on which direction you want to go.  \n"
+  room_flags: '0'
+  sector: 7
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10271
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10273
+  extra_descs: []
+- vnum: 10273
+  name: Bottom of the waterfall
+  description: "You are at the bottom of the waterfall.  You could climb up the rocks\
+    \ or\nyou could just lay back and groove, and take in the beautiful scenery. \
+    \ \n"
+  room_flags: '0'
+  sector: 7
+  owner: ''
+  exits:
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10272
+  extra_descs: []
+- vnum: 10274
+  name: A hidden room
+  description: "You are in a hidden room dirrectly below one of the huts.  In here\
+    \ there\nare various charms and ornaments that decorate the walls and floor. \
+    \ There\nare also some extremely well crafted metal objects, objects that seem\
+    \ far\ntoo complex for Bulu tribesmen to make.  There is a glow coming from the\n\
+    eastern wall.  \n"
+  room_flags: CD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10275
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10208
+  extra_descs: []
+- vnum: 10275
+  name: A portal
+  description: "You are in a portal to other times and other worlds.  Images of strange,\n\
+    confusing people and places float through your mind.  \n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10274
+  extra_descs: []
+- vnum: 10276
+  name: Bottom of of the stagnant pool
+  description: "You are at the bottom of the stagnant pool.  The water here is murky\
+    \ and\nfeels slimy.  Bones of animals and humans litter the ground here.  You\
+    \ think\nyou see something lurking underneath a large rock.  \n"
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10264
+  extra_descs: []
+- vnum: 10277
+  name: Path in the forest
+  description: "You are on a path in a dark forest.  To the north the forest seems\n\
+    lighter.  \n"
+  room_flags: C
+  sector: 3
+  owner: ''
+  exits: []
+  extra_descs: []
+- vnum: 10200
+  name: Dotty's place
+  description: "You are in Dotty's place.  I don't know what it is or anything.  It's\n\
+    just sorta here.  Enjoy!  \n"
+  room_flags: AC
+  sector: 0
+  owner: ''
+  exits: []
+  extra_descs:
+  - keywords: north
+    description: |
+      You see something interesting to the north.
+- vnum: 10201
+  name: A faded path
+  description: "You are on the path between the dark forest to the south and the Bulu\n\
+    village to the north.  \n"
+  room_flags: C
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10202
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 322
+  extra_descs: []
+- vnum: 10202
+  name: A path
+  description: "You are on the path leading to the Headman's hut.  To the south a\
+    \ less\nworn path winds its way into the forest.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10203
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10201
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10204
+  extra_descs: []
+- vnum: 10203
+  name: The Headman's Hut
+  description: "You are in the hut of the Headman of the Bulu tribe.  His hut is not\
+    \ that\nmuch different than the others in the village, except the roof doesn't\
+    \ seem\nto leak as much.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10202
+  extra_descs: []
+- vnum: 10204
+  name: A path in the village
+  description: "You are on a path in the Bulu village.  Off to the east you can see\
+    \ the\nhut of the Headman.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10202
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10205
+  extra_descs: []
+- vnum: 10205
+  name: A bend in the path
+  description: "Here the path bends.  To the north is the rest of the Bulu village.\
+    \  To\nthe east is the path that leads to the Headman's hut.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10214
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10204
+  extra_descs: []
+- vnum: 10206
+  name: A pit
+  description: "You are in at the bottom of the large fire pit that is used for cooking\n\
+    the villagers' food.  There are ashes all around.  It smells like a HUGE\nbarbeque.\
+    \  There are left-overs from the last feast.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10207
+  extra_descs: []
+- vnum: 10207
+  name: The village center
+  description: "You are in the Bulu village center.  This is where most of the swapping\n\
+    of stories and cooking takes place.  There is a large fire pit full of ashes\n\
+    here.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10210
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10214
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10218
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10208
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10206
+  extra_descs: []
+- vnum: 10208
+  name: A hut
+  description: "You are in one of the huts in the Bulu village.  Nothing seems to\
+    \ be out\nof the ordinary except for a hole in one of the corners leading down.\
+    \  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10207
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10274
+  extra_descs: []
+- vnum: 10209
+  name: First Warrior's hut
+  description: "You are inside the hut of the best warrior in the Bulu village.  His\
+    \ hut\nis no different from the others in the village, except it's very close\
+    \ to\nthe plains to enable him to quickly defend the village from any Shuli\n\
+    attackers.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10210
+  extra_descs: []
+- vnum: 10210
+  name: Inside the Bulu village
+  description: "You are inside the village of the Bulu tribe.  You smell an old barbeque\n\
+    to the south.  To the east and west are the huts where the Bulu's greatest\nwarriors\
+    \ live.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10219
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10211
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10207
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10209
+  extra_descs: []
+- vnum: 10211
+  name: Second Warrior's hut
+  description: "You are in the hut of the second best warrior in the Bulu village.\
+    \  His\nhut is the same as the First Warrior's hut except that it's to the east\
+    \ of\nthe entrence path.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10210
+  extra_descs: []
+- vnum: 10212
+  name: A hut
+  description: "The inside of the hut is as uninteresting as the outside.  It has\
+    \ a dirt\nfloor and a thatch roof.  The walls are woven together by some sort\
+    \ of\ngrass.  There are holes which serve as windows in the walls.  The only exit\n\
+    is to the south.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10213
+  extra_descs: []
+- vnum: 10213
+  name: A path
+  description: "You are on a path in the Bulu village.  To the north is a small and\n\
+    rather uninteresting hut.  To the east lies more of the same.  To the west\nlies\
+    \ the rest of the village.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10212
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10215
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10214
+  extra_descs: []
+- vnum: 10214
+  name: A path
+  description: "You are on a well trodden path in the Bulu village.  To the east are\
+    \ a\nfew small huts.  The path continues south and to the west is the Bulu\nvillage\
+    \ center.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10213
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10205
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10207
+  extra_descs: []
+- vnum: 10215
+  name: A path
+  description: "You are nearing the end of the path.  To the north lies another hut.\
+    \  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10216
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10217
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10213
+  extra_descs: []
+- vnum: 10216
+  name: Another hut
+  description: "You are in another uninteresting hut.  Though it is rather drab, it\
+    \ does\nkeep most of the wind and rain out.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10215
+  extra_descs: []
+- vnum: 10217
+  name: End of the path
+  description: |
+    You are at the end of the path in the Bulu village.
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10215
+  extra_descs: []
+- vnum: 10218
+  name: A hut
+  description: "You are in one of the huts in the Bulu village.  Like all huts in\
+    \ the\nvillage it has a dirt floor, thatch roof, and walls made out of some kind\
+    \ of\ngrass braided together.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10207
+  extra_descs: []
+- vnum: 10219
+  name: Entrance to the Bulu village
+  description: "You are at the entrence to Bulu village.  The stick fence has an opening\n\
+    here allowing friends of the Bulu to enter and leave without trouble. \nEnemies\
+    \ of the Bulu, however, will meet the spears of the tribe's fiercest\nwarriors.\
+    \  \n"
+  room_flags: C
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10220
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10210
+  extra_descs: []
+- vnum: 10220
+  name: Near the Bulu village
+  description: "You are at the south western end of the hunting plains.  The grass\
+    \ here\nis shorter than it is in the rest of the plains.  To the south you see\
+    \ a\nsmall tribal village.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10228
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10221
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10219
+  extra_descs: []
+- vnum: 10221
+  name: The hunting plains
+  description: "You are in the hunting plains.  The grass is a little shorter here\
+    \ than\nin the rest of the plains.  To the south you see a small village, but\
+    \ that\nway is barred by a strong pointed stick fence.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10227
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10222
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10220
+  extra_descs: []
+- vnum: 10222
+  name: The hunting plains
+  description: "You are on the hunting plains.  The grass here is shorter than the\
+    \ rest\nof the plains.  To the south you see a small village, but your way is\
+    \ barred\nby a strong pointed stick fence.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10226
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10223
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10221
+  extra_descs: []
+- vnum: 10223
+  name: South-east end of the hunting plains
+  description: "You are at the south-eastern end of the hunting plains.  The grass\
+    \ here\nis long and waves back and forth in the wind.  In the distance to the\
+    \ south\nyou see a small village.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10224
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10222
+  extra_descs: []
+- vnum: 10224
+  name: The hunting plains
+  description: "You are in the hunting plains.  The tall grasses wave pleasently in\
+    \ the\nbreeze here.  You can vaguely hear running water to the east.  Above you\
+    \ is\na very large tree.  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10239
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10262
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10223
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10226
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10225
+  extra_descs: []
+- vnum: 10225
+  name: The tree
+  description: "You are in a large tree in the hunting plains.  It is old but has\
+    \ many\nstrong branches which hold up the nests of small, and not-so-small, birds.\
+    \ \nThe leaves hinder your view of the plains, but you can see a village to the\n\
+    south, another to the north, a river to the east, and a mountain to the\nwest.\
+    \  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10224
+  extra_descs: []
+- vnum: 10226
+  name: The hunting plains
+  description: "You are in the hunting plains grudgingly shared by the Bulu and Shuli\n\
+    tribes.  The long grasses wave in the breeze that flows over fields.  You\nsee\
+    \ tracks of large, four-legged animals here.  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10238
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10224
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10222
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10227
+  extra_descs: []
+- vnum: 10227
+  name: The hunting plains
+  description: "You are in the hunting plains grudgingly shared by the Bulu and Shuli\n\
+    tribes.  The long grasses here wave in the breezes that blow over the field.\n\
+    You see the tracks of a large, four-legged animal.  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10237
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10226
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10221
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10228
+  extra_descs: []
+- vnum: 10228
+  name: The hunting plains
+  description: "You are in the hunting plains grudgingly shared by the Bulu and Shuli\n\
+    tribes.  The long grasses here wave in the breeze that blow over the field. \n\
+    You see the tracks of a large, four-legged animal.  In the distance to the\nsouth\
+    \ you can see the entrance to the Bulu village.  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10236
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10227
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10220
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10229
+  extra_descs: []
+- vnum: 10229
+  name: The hunting plains
+  description: "You are in the hunting plains grudgingly shared by the Bulu and Shuli\n\
+    tribes.  The long grasses here wave in the breeze that blow over the field. \n\
+    You see the tracks of a large, four-legged animal.  To the west you can see\n\
+    a mountain.  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10235
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10228
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10230
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10232
+  extra_descs: []
+- vnum: 10230
+  name: Edge of the plains
+  description: "You are at the edge of the hunting plains.  The grasses here are short\n\
+    and trees are more plentiful.  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10229
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10231
+  extra_descs: []
+- vnum: 10231
+  name: Edge of the plains
+  description: "You are at the edge of the hunting plains.  The long grasses are gone\
+    \ and\ntrees are the dominant life form.  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10230
+  extra_descs: []
+- vnum: 10232
+  name: Near the mountain
+  description: "You are at the edge of the hunting plains and at the base of a mountain.\
+    \ \nThe apears to be an opening in the mountain to the north.  The plains\nstretch\
+    \ out to the east.  \n"
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10233
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10229
+  extra_descs: []
+- vnum: 10233
+  name: At the base of the mountain
+  description: "You are at the base of the mountain.  The is an opening in the mountain\n\
+    to the west which will allow you to enter the mountain.  The plains stretch\n\
+    out to the east.  \n"
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10235
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10232
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10234
+  extra_descs: []
+- vnum: 10234
+  name: Inside the caves
+  description: "You are inside the caves inside the mountain.  It is a perfectly dry,\n\
+    comfortable cave.  The sort of cave a bear would live in...  \nThere is a sign\
+    \ here.\n"
+  room_flags: ACD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10233
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 14415
+  extra_descs:
+  - keywords: sign
+    description: "Secret entrance to the dwarven city of Koln.  Shhhh...  Don't tell\
+      \ anyone.  \n    - Lod\n"
+- vnum: 10235
+  name: The hunting plains
+  description: "You are in the hunting plains grudgingly shared by the Bulu and Shuli\n\
+    tribes.  The long grasses here wave in the breezes that blow over them.  You\n\
+    see the tracks of a large, four-legged animal.  To the west you can see a\nmountain.\
+    \  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10244
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10236
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10229
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10233
+  extra_descs: []
+- vnum: 10236
+  name: The hunting plains
+  description: "You are in the hunting plains grudgingly shared by the Bulu and Shuli\n\
+    tribes.  The long grasses here wave in the breezes that blow through them. \n\
+    You see the tracks of a large, four-legged animal.  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10243
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10237
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10228
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10235
+  extra_descs: []
+- vnum: 10237
+  name: The hunting plains
+  description: "You are in the hunting plains grudgingly shared by the Bulu and Shuli\n\
+    tribes.  The long grasses here wave in the breezes that flow through them. \n\
+    You see the tracks of a large, four-legged animal.  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10242
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10238
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10227
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10236
+  extra_descs: []
+- vnum: 10238
+  name: The hunting plains
+  description: "You are in the hunting plains grudgingly shared by the Bulu and Shuli\n\
+    tribes.  The long grasses here wave in the breezes that flow through them. \n\
+    You see the tracks of a large, four-legged animal.  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10241
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10239
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10226
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10237
+  extra_descs: []
+- vnum: 10239
+  name: The hunting plains
+  description: "You are in the hunting plains grudgingly shared by the Bulu and Shuli\n\
+    tribes.  The long grasses here wave in the breezes that flow through them. \n\
+    You see the tracks of a large, four-legged animal.  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10240
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10224
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10238
+  extra_descs: []
+resets:
+- command: D
+  arg1: 10247
+  arg2: 0
+  arg3: 0
+- command: D
+  arg1: 10248
+  arg2: 2
+  arg3: 0
+- command: M
+  arg1: 10210
+  arg2: 1
+  arg3: 10241
+- command: M
+  arg1: 10217
+  arg2: 2
+  arg3: 10247
+- command: E
+  arg1: 10208
+  arg2: 0
+  arg3: 16
+- command: O
+  arg1: 10212
+  arg2: 0
+  arg3: 10250
+- command: P
+  arg1: 10213
+  arg2: 0
+  arg3: 10212
+- command: P
+  arg1: 10214
+  arg2: 0
+  arg3: 10212
+- command: M
+  arg1: 10213
+  arg2: 1
+  arg3: 10250
+- command: E
+  arg1: 10216
+  arg2: 0
+  arg3: 16
+- command: G
+  arg1: 10215
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 10212
+  arg2: 1
+  arg3: 10251
+- command: O
+  arg1: 10209
+  arg2: 0
+  arg3: 10251
+- command: M
+  arg1: 10216
+  arg2: 1
+  arg3: 10252
+- command: E
+  arg1: 10207
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 10214
+  arg2: 1
+  arg3: 10253
+- command: M
+  arg1: 10215
+  arg2: 1
+  arg3: 10253
+- command: M
+  arg1: 10214
+  arg2: 1
+  arg3: 10255
+- command: M
+  arg1: 10215
+  arg2: 1
+  arg3: 10256
+- command: M
+  arg1: 10216
+  arg2: 1
+  arg3: 10256
+- command: E
+  arg1: 10207
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 10214
+  arg2: 1
+  arg3: 10258
+- command: M
+  arg1: 10215
+  arg2: 1
+  arg3: 10258
+- command: M
+  arg1: 10216
+  arg2: 1
+  arg3: 10258
+- command: E
+  arg1: 10207
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 10215
+  arg2: 1
+  arg3: 10259
+- command: M
+  arg1: 10214
+  arg2: 1
+  arg3: 10261
+- command: M
+  arg1: 10275
+  arg2: 1
+  arg3: 10275
+- command: E
+  arg1: 10275
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 10273
+  arg2: 0
+  arg3: 17
+- command: G
+  arg1: 10274
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 10273
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 10273
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 10273
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 10205
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 10276
+  arg2: 1
+  arg3: 10276
+- command: M
+  arg1: 10201
+  arg2: 1
+  arg3: 10200
+- command: O
+  arg1: 10203
+  arg2: 0
+  arg3: 10203
+- command: M
+  arg1: 10202
+  arg2: 1
+  arg3: 10203
+- command: E
+  arg1: 10202
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 10204
+  arg2: 0
+  arg3: 3
+- command: M
+  arg1: 10203
+  arg2: 1
+  arg3: 10204
+- command: E
+  arg1: 10207
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 10205
+  arg2: 1
+  arg3: 10205
+- command: O
+  arg1: 10206
+  arg2: 0
+  arg3: 10206
+- command: M
+  arg1: 10204
+  arg2: 1
+  arg3: 10207
+- command: M
+  arg1: 10205
+  arg2: 1
+  arg3: 10208
+- command: M
+  arg1: 10206
+  arg2: 1
+  arg3: 10209
+- command: E
+  arg1: 10208
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 10207
+  arg2: 1
+  arg3: 10211
+- command: E
+  arg1: 10208
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 10203
+  arg2: 2
+  arg3: 10212
+- command: E
+  arg1: 10207
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 10204
+  arg2: 1
+  arg3: 10212
+- command: M
+  arg1: 10203
+  arg2: 1
+  arg3: 10213
+- command: E
+  arg1: 10207
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 10205
+  arg2: 2
+  arg3: 10216
+- command: M
+  arg1: 10204
+  arg2: 2
+  arg3: 10216
+- command: M
+  arg1: 10204
+  arg2: 1
+  arg3: 10218
+- command: M
+  arg1: 10205
+  arg2: 1
+  arg3: 10218
+- command: M
+  arg1: 10210
+  arg2: 1
+  arg3: 10222
+- command: M
+  arg1: 10211
+  arg2: 1
+  arg3: 10225
+- command: G
+  arg1: 10211
+  arg2: 0
+  arg3: 0
+- command: E
+  arg1: 10208
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 10208
+  arg2: 2
+  arg3: 10226
+- command: M
+  arg1: 10208
+  arg2: 1
+  arg3: 10227
+- command: E
+  arg1: 10208
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 10208
+  arg2: 2
+  arg3: 10228
+- command: E
+  arg1: 10208
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 10209
+  arg2: 1
+  arg3: 10235
+- command: M
+  arg1: 10210
+  arg2: 1
+  arg3: 10238
+- command: M
+  arg1: 10208
+  arg2: 1
+  arg3: 10239
+- command: E
+  arg1: 10208
+  arg2: 0
+  arg3: 16
+specials:
+- vnum: 10269
+  spec_fun: spec_fido
+- vnum: 10212
+  spec_fun: spec_cast_mage

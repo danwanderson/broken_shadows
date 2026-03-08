@@ -1,0 +1,8 @@
+area:
+  name: '{xx-xx} Nyobe    New area'
+  builders: Nyobe
+  security: 9
+  area_flags: 0
+  vnums:
+  - 20300
+  - 20399

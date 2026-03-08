@@ -1,0 +1,261 @@
+area:
+  name: '{ All } Alfa    Ofcol'
+  builders: None
+  security: 9
+  area_flags: 0
+  vnums:
+  - 5550
+  - 5577
+rooms:
+- vnum: 5550
+  name: Village street
+  description: |
+    You stand at the small village street in Ofcol.
+    From here you see small houses and only few people.
+    North of here the village street continues up to the small
+    square where some people are gathered as always.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You look up the village street noticing nothing special at all.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 5551
+  - dir: 2
+    desc: |
+      The wide road leads south here towards the T-crossing.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 314
+  extra_descs: []
+- vnum: 5551
+  name: Village street
+  description: |
+    You are standing on the village street of Ofcol.
+    East from here is a small alley and north you enter the village
+    square. Towards the south you can leave Ofcol.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The village square is as usual not overcrowded.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 5552
+  - dir: 1
+    desc: |
+      The small alley looks relative peaceful.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 5553
+  - dir: 2
+    desc: |
+      You see the village street eventually becoming the wide road.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 5550
+  extra_descs: []
+- vnum: 5552
+  name: Village square
+  description: |
+    The village square is a place where inhabitants of Ofcol gather
+    to talk, trade and sell items and just have a good time.
+    You see a small shop to the west and the local inn to the north.
+    If you leave south you go to village street.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see a local inn called 'The Ofcol Local Inn'. Looks nice.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 5556
+  - dir: 2
+    desc: |
+      You see the village street of Ofcol.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 5551
+  - dir: 3
+    desc: |
+      A small shop with the sign 'Luxan's Mixed goods' hanging in front of it.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 5555
+  extra_descs: []
+- vnum: 5553
+  name: The small alley
+  description: |
+    You are in a small, quiet alley.  From here you see the village street
+    to the west and a small room lies to the south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see a big intersection.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 601
+  - dir: 2
+    desc: |
+      It looks like the future site of a training room.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 5554
+  - dir: 3
+    desc: |
+      You notice nothing but the village street.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 5551
+  extra_descs: []
+- vnum: 5554
+  name: The future training room
+  description: |
+    This is the future site of a training room.  The only exit is north
+    leading to the small alley.
+  room_flags: D
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You are able to see the small alley, really not very interesting.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 5553
+  extra_descs: []
+- vnum: 5555
+  name: Luxan's mixed shop
+  description: |
+    You are standing in a small shop, filled with all kinds of goods.
+    Here you might be able to find just the thing you're looking for.
+    The only exit is east to village square.
+  room_flags: D
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The village square is as usual not overcrowded.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 5552
+  extra_descs: []
+- vnum: 5556
+  name: The Local Inn
+  description: |
+    You are in the local inn, where the peaceful citizens of Ofcol
+    gather to have a drink or 5 if they have dry throats.
+    You can't help thinking that Ofcol is a dry city, when you see the
+    many people here.
+    The only exit is south to the village square.
+  room_flags: D
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      The village square is as usual not overcrowded.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 5552
+  extra_descs: []
+- vnum: 5577
+  name: Ravan's hideout
+  description: |
+    This place is a small, cosy place where no one disturbs you all
+    the time. The room has little decoration except for some pictures
+    on the wall.
+    You notice that there are no exits from this room.
+  room_flags: C
+  sector: 0
+  owner: ''
+  exits: []
+  extra_descs:
+  - keywords: pictures picture decoration
+    description: |
+      These pictures show the friend's and foe's of Ravan.
+      They are easy to separate, as most of the foe's have the letters
+      R.I.P. inscripted underneath them.
+  - keywords: foe foes enemies
+    description: |
+      There is only one picture yet... Dim.
+      It pictures him hanging from a gallow, north of the town.
+      It has the letters R.I.P. inscripted underneath.
+  - keywords: friend friends
+    description: |
+      The list include such prominent names as : God, Lottie, Kurgan,
+      Ezzard, Mike, Sprocket and Stormbringer.
+resets:
+- command: M
+  arg1: 303
+  arg2: 5
+  arg3: 5550
+- command: M
+  arg1: 304
+  arg2: 5
+  arg3: 5552
+- command: E
+  arg1: 3020
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 304
+  arg2: 5
+  arg3: 5553
+- command: M
+  arg1: 306
+  arg2: 1
+  arg3: 5555
+- command: G
+  arg1: 304
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 3030
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 303
+  arg2: 5
+  arg3: 5556
+- command: M
+  arg1: 308
+  arg2: 1
+  arg3: 5556
+- command: G
+  arg1: 3000
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 3001
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 350
+  arg2: 1
+  arg3: 5577

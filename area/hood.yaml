@@ -1,0 +1,3103 @@
+area:
+  name: '{ 5 15} Raff    Dangerous Neighborhood'
+  builders: None
+  security: 9
+  area_flags: 0
+  vnums:
+  - 2101
+  - 2170
+mobiles:
+- vnum: 2101
+  keywords: ogre gang member
+  short_desc: a gang member
+  long_desc: |
+    A member of the Ogres wanders about here.
+  description: |
+    He's lived a life of violence ever since he was little.
+  race: Human
+  act: ACEGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -100
+  clan: 0
+  level: 5
+  hitroll: 0
+  hit:
+    number: 1
+    type: 16
+    bonus: 42
+  mana:
+    number: 5
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 4
+    bonus: 3
+  dam_type: 11
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 20
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2102
+  keywords: troll gang member
+  short_desc: a gang member
+  long_desc: |
+    A member of the Trolls wanders about here.
+  description: |
+    He wants to rid the world of every last Ogre gang member.
+  race: Troll
+  act: ACEGT
+  affected_by: Jc
+  affected2_by: '0'
+  alignment: 100
+  clan: 0
+  level: 5
+  hitroll: 0
+  hit:
+    number: 1
+    type: 16
+    bonus: 42
+  mana:
+    number: 5
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 4
+    bonus: 3
+  dam_type: 7
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: D
+  imm_flags: '0'
+  res_flags: BE
+  vuln_flags: HK
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 21
+  form: BMV
+  parts: ABCDEFGHIJKUV
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2103
+  keywords: gang leader
+  short_desc: the gang leader
+  long_desc: |
+    The gang leader is not pleased you found his hideout!
+  description: |
+    He's risen to be leader through brute force and cunning leadership.
+  race: Human
+  act: ABFGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 12
+  hitroll: 0
+  hit:
+    number: 3
+    type: 32
+    bonus: 120
+  mana:
+    number: 12
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 7
+    bonus: 6
+  dam_type: 7
+  ac:
+    pierce: 2
+    bash: 2
+    slash: 2
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 200
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2104
+  keywords: bruiser
+  short_desc: a bruiser
+  long_desc: |
+    A big, mean bruiser is looking for limbs to break.
+  description: |
+    He's 6'6" 245 pounds and enough muscle to bash your head in.
+  race: Human
+  act: ACFGHT
+  affected_by: D
+  affected2_by: '0'
+  alignment: -333
+  clan: 0
+  level: 9
+  hitroll: 0
+  hit:
+    number: 2
+    type: 27
+    bonus: 83
+  mana:
+    number: 9
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 7
+    bonus: 6
+  dam_type: 11
+  ac:
+    pierce: 4
+    bash: 4
+    slash: 4
+    exotic: 7
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 150
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2105
+  keywords: doll
+  short_desc: a doll
+  long_desc: |
+    A gang doll looks naughty and nice.
+  description: |
+    She's a beauty (ok in RELATIVE terms) but you better not touch!
+  race: doll
+  act: ACEGHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 7
+  hitroll: 0
+  hit:
+    number: 1
+    type: 33
+    bonus: 61
+  mana:
+    number: 7
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 6
+    bonus: 3
+  dam_type: 7
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: '0'
+  imm_flags: C
+  res_flags: ES
+  vuln_flags: GHJKO
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 100
+  form: EJMc
+  parts: ABCGHK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2106
+  keywords: patrolman patrol man
+  short_desc: a patrolman
+  long_desc: |
+    A patrolman is trying to keep the peace.
+  description: |
+    He'd rather be at the local pub then out here with these nasty kids.
+  race: Human
+  act: AGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 700
+  clan: 0
+  level: 7
+  hitroll: 0
+  hit:
+    number: 1
+    type: 33
+    bonus: 61
+  mana:
+    number: 7
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 6
+    bonus: 3
+  dam_type: 7
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 700
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2107
+  keywords: vandal
+  short_desc: a vandal
+  long_desc: |
+    A vandal is spray painting pro-gang slogans on the wall here.
+  description: |
+    He has a wary eye and a fine hand for art.
+  race: Human
+  act: AHT
+  affected_by: P
+  affected2_by: '0'
+  alignment: -400
+  clan: 0
+  level: 10
+  hitroll: 0
+  hit:
+    number: 2
+    type: 33
+    bonus: 96
+  mana:
+    number: 10
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 5
+    bonus: 7
+  dam_type: 3
+  ac:
+    pierce: 3
+    bash: 3
+    slash: 3
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 50
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 2108
+  keywords: dog pit bull pitbull
+  short_desc: a pitbull
+  long_desc: |
+    A vicious pitbull is foaming at the mouth in rabid anticipation.
+  description: |
+    You get a nice close look at him while he's tearing at your throat.
+    His fangs are blood-stained from hearty meals of ... steak?!
+  race: dog
+  act: ABFGT
+  affected_by: DQ
+  affected2_by: '0'
+  alignment: -100
+  clan: 0
+  level: 5
+  hitroll: 0
+  hit:
+    number: 1
+    type: 16
+    bonus: 42
+  mana:
+    number: 5
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 4
+    bonus: 3
+  dam_type: 11
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: H
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 1
+  form: AGV
+  parts: ACDEFHJKUV
+  size: M
+  material: none
+  spec_fun: ''
+objects:
+- vnum: 2101
+  name: ogre jacket
+  short_desc: an Ogre gang jacket
+  description: An Ogre gang jacket has been carelessly tossed here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AD
+  values:
+  - 4
+  - 4
+  - 4
+  - 0
+  - 0
+  level: 5
+  weight: 2
+  cost: 50
+  affects: []
+  extra_descs: []
+- vnum: 2102
+  name: troll jacket
+  short_desc: a Troll gang jacket
+  description: A Troll gang jacket has been carelessly tossed here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AD
+  values:
+  - 4
+  - 4
+  - 4
+  - 0
+  - 0
+  level: 5
+  weight: 2
+  cost: 50
+  affects: []
+  extra_descs: []
+- vnum: 2103
+  name: chain
+  short_desc: a hefty length of chain
+  description: A hefty length of chain lies in a heap here on the floor.
+  material: none
+  item_type: 5
+  extra_flags: A
+  wear_flags: AN
+  values:
+  - 7
+  - 3
+  - 5
+  - 4
+  - 0
+  level: 9
+  weight: 10
+  cost: 90
+  affects:
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: '0'
+  - where: O
+    location: 17
+    modifier: -5
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2104
+  name: metal cover shield
+  short_desc: a metal shield
+  description: A garbage can lid has been dropped on the floor.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AJ
+  values:
+  - 4
+  - 4
+  - 4
+  - 0
+  - 0
+  level: 9
+  weight: 3
+  cost: 90
+  affects: []
+  extra_descs: []
+- vnum: 2105
+  name: spray paint can
+  short_desc: a spray paint can
+  description: A can of spray paint has been discarded here.
+  material: none
+  item_type: 3
+  extra_flags: B
+  wear_flags: AO
+  values:
+  - 11
+  - 2
+  - 2
+  - 10
+  - 0
+  level: 10
+  weight: 1
+  cost: 100
+  affects: []
+  extra_descs: []
+- vnum: 2106
+  name: stiletto
+  short_desc: a stiletto
+  description: A killer stiletto has been forgotten here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 2
+  - 4
+  - 4
+  - 11
+  - 0
+  level: 12
+  weight: 2
+  cost: 120
+  affects:
+  - where: O
+    location: 17
+    modifier: 20
+    bitvector: '0'
+  - where: O
+    location: 18
+    modifier: 4
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2107
+  name: spiked heel boots
+  short_desc: spiked heeled boots
+  description: A pair of black leather boots with 6 inch spikes have been left here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AG
+  values:
+  - 4
+  - 4
+  - 4
+  - 0
+  - 0
+  level: 7
+  weight: 4
+  cost: 70
+  affects:
+  - where: O
+    location: 19
+    modifier: 1
+    bitvector: '0'
+  - where: O
+    location: 2
+    modifier: -1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2108
+  name: mirror
+  short_desc: a mirror
+  description: A small mirror has been left here.
+  material: none
+  item_type: 3
+  extra_flags: AG
+  wear_flags: AO
+  values:
+  - 20
+  - 10
+  - 10
+  - 4
+  - 0
+  level: 7
+  weight: 1
+  cost: 70
+  affects: []
+  extra_descs: []
+- vnum: 2109
+  name: gloves
+  short_desc: comfortable leather gloves
+  description: A pair of soft lined leather gloves lie here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AH
+  values:
+  - 4
+  - 4
+  - 4
+  - 0
+  - 0
+  level: 9
+  weight: 2
+  cost: 90
+  affects:
+  - where: O
+    location: 1
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2110
+  name: patrol club
+  short_desc: a patrol club
+  description: A patrolman's club has carelessly been forgotten here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 4
+  - 2
+  - 7
+  - 7
+  - 0
+  level: 7
+  weight: 1
+  cost: 70
+  affects:
+  - where: O
+    location: 14
+    modifier: 10
+    bitvector: '0'
+  - where: O
+    location: 18
+    modifier: 3
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2111
+  name: signet ring
+  short_desc: a troll signet ring
+  description: A signet ring bearing the crest of a troll lies in the dust here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AB
+  values:
+  - 4
+  - 4
+  - 4
+  - 0
+  - 0
+  level: 9
+  weight: 1
+  cost: 90
+  affects:
+  - where: O
+    location: 1
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 2112
+  name: knuckles brass
+  short_desc: brass knuckles
+  description: A set of brass knuckles left from a fight are here on the ground.
+  material: none
+  item_type: 9
+  extra_flags: B
+  wear_flags: AH
+  values:
+  - 5
+  - 5
+  - 5
+  - 0
+  - 0
+  level: 12
+  weight: 1
+  cost: 120
+  affects:
+  - where: O
+    location: 18
+    modifier: 5
+    bitvector: '0'
+  - where: O
+    location: 13
+    modifier: -15
+    bitvector: '0'
+  extra_descs: []
+rooms:
+- vnum: 2101
+  name: A Dark Alleyway
+  description: |
+    The walls of the alleyway have been spray-painted over many times
+    over the years.  One section of graffiti actually looks legible,
+    it says:    This section has been designed for levels 5 through 10
+                If you are above level 15 please don't expect much fun.
+                If you are below level 5 enter at your own risk.
+    Another section of graffiti says "Raff Rules!"
+    There is a boulevard to the east and Emerald Avenue is visible to the west.
+  room_flags: AC
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2102
+  - dir: 3
+    desc: |
+      You can see Emerald Avenue, a much nicer place to be.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3119
+  extra_descs: []
+- vnum: 2102
+  name: Beginning of White Dragon Boulevard
+  description: |
+    This section of town has been overrun by the Troll gang.  Even the
+    police stay out of here for fear of being brutalized.  This was once
+    a nice lower-middleclass neighborhood, but know the gangs run the
+    streets.  All the shops and homes have been boarded up and abandoned.
+    An alleyway is to the west and the street continues east.  An over-
+    grown lot is to the south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2103
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2109
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2101
+  extra_descs: []
+- vnum: 2103
+  name: Along White Dragon Boulevard
+  description: |
+    Everywhere you look you see signs of recent violence.  Patches of blood
+    lie everywhere and broken sticks and abandoned knifes are strewn here
+    and there.  An over-grown lot is to the south.  White Dragon Boulevard leads
+    east and west.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2104
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2110
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2102
+  extra_descs: []
+- vnum: 2104
+  name: White Dragon Boulevard at Armory
+  description: |
+    Only gang members dare wander the streets here.
+    What used to be the armory lies to the south.  White Dragon Boulevard
+    leads east and west.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2105
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2111
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2103
+  extra_descs: []
+- vnum: 2105
+  name: White Dragon Blvd.
+  description: |
+    Black Dragon Avenue used to run south from here but the way has been
+    blocked by the toppling of a building into the street.  White Dragon
+    boulevard continues east and west.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2106
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2104
+  extra_descs: []
+- vnum: 2106
+  name: Corner of Ice and White Dragon
+  description: |
+    Ice Dragon Way leads south from here.  It used to run the whole length
+    of the neighborhood and way lined with beautiful crystal sculptures.
+    White Dragon boulevard leads east and west from here.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2107
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2113
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2105
+  extra_descs: []
+- vnum: 2107
+  name: White Dragon Boulevard
+  description: |
+    A once majestic inn with a white marble facade lies to the south.
+    Unfortunately, it has fallen into disrepair and decay.  You can continue
+    east or west.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2108
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2106
+  extra_descs: []
+- vnum: 2108
+  name: Corner of Bronze and White Dragon
+  description: |
+    This is the north-east corner of the neighborhood. White Dragon
+    boulevard heads west and Bronze Dragon street heads south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2115
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2107
+  extra_descs: []
+- vnum: 2109
+  name: An over-grown lot
+  description: |
+    A huge building was going to be built here, but they gave the
+    project up when violence took over the town.  Now it is just a
+    weed-strewn plot of land.  The lot continues east and there is a road north.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2102
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2110
+  extra_descs: []
+- vnum: 2110
+  name: East end of an over-grown plot of land
+  description: |
+    This was planned to be a park, but the developer was scared out
+    of town by the gang.  Now it is just a dusty square of land. The
+    park was started to the south.  The lot continues west and there
+    is a street to the north.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2103
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2116
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2109
+  extra_descs: []
+- vnum: 2111
+  name: Armory
+  description: |
+    Well actually, this is what USED to be the armory.  The equipment has
+    all been stolen or broken beyond repair. The back wall of the
+    building has been bashed down, allowing you to go south.  White
+    Dragon Boulevard is north.
+  room_flags: D
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2104
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2117
+  extra_descs: []
+- vnum: 2112
+  name: A Bend in the Way
+  description: |
+    Ice Dragon Way bends east and south from here.  You notice a lot of
+    blood dried into the dirt here.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2113
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2118
+  extra_descs: []
+- vnum: 2113
+  name: Ice Dragon Bend
+  description: |
+    Ice Dragon Way bends to the north and west here.  There are footprints
+    here.  They seem to indicate a large struggle took place here
+    recently.  What used to be the town Magic shop is to the east.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2106
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2114
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2112
+  extra_descs: []
+- vnum: 2114
+  name: The remains of the magic shop
+  description: |
+    The wizard was tough but he couldn't take on 50 of them at once.  So he
+    died and they took all his stuff and used it on their fellowmen.
+    The front door leads west back out to the street.  There is a back
+    door leading to another street to the east.
+  room_flags: D
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2115
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2113
+  extra_descs: []
+- vnum: 2115
+  name: Bronze Dragon Street at wizard's back door
+  description: |
+    Bronze Dragon street goes north and south.  The back door to what
+    remains of the magic shop is west.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2108
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2120
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2114
+  extra_descs: []
+- vnum: 2116
+  name: Dracolich Plaza
+  description: |
+    They began construction of a pleasant plaza here.  You wouldn't have
+    known it though if i hadn't told you.  It has been renamed in honor
+    of the Dragon gang's idol, the Dracolich.  It has become sort of a
+    training ground.  There is a short cut to the east and an overgrown
+    lot of land to the north.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2110
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2117
+  extra_descs: []
+- vnum: 2117
+  name: Shortcut
+  description: |
+    This is a shortcut between Dracolich Plaza and the center of town.
+    Dracolich Plaza is to the west and the shortcut continues south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2111
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2121
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2116
+  extra_descs: []
+- vnum: 2118
+  name: Ice Dragon Way
+  description: |
+    Several smashed crystal statues line the Way here.  You begin to wonder
+    who smashed them, and with what.  The Way bends out of sight to the north
+    and continues south.  To the east is a courtyard.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2112
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2119
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2122
+  extra_descs: []
+- vnum: 2119
+  name: Courtyard North
+  description: |
+    Once it was the courtyard of a beautiful building complex.  But alas,
+    someone forgot to water the plants and they all died.  Then again,
+    you wonder how many people have died here too.  The courtyard extends
+    to the south and there is a road to the west.
+  room_flags: D
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2123
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2118
+  extra_descs: []
+- vnum: 2120
+  name: Bronze Dragon Street
+  description: |
+    There used to be a gate out to the east here which led to distant lands.
+    The gate has rusted permanently shut.  The street goes north and south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2115
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2125
+  extra_descs: []
+- vnum: 2121
+  name: Shortcut
+  description: |
+    The shortcut extends north.  There is a street to the east.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2117
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2122
+  extra_descs: []
+- vnum: 2122
+  name: Ice Dragon Way
+  description: |
+    The Way continues north and intersects with Yellow Dragon Avenue
+    to the south.  For some reason, you somehow realize that there is a
+    shortcut to the west that leads to Dracolich Plaza.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2118
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2127
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2121
+  extra_descs: []
+- vnum: 2123
+  name: Courtyard South
+  description: |
+    Once full of lush green plants, it is now barren of growth.  A set of
+    stairs used to extend up to a suite of rooms but the set is missing
+    stairs 3-15.  The courtyard extends north and there is a street to
+    the south.
+  room_flags: D
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2119
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2128
+  extra_descs: []
+- vnum: 2124
+  name: Old Abandoned Warehouse
+  description: |
+    Once the center of a lucrative storage business, it has fallen to
+    disrepair like everything else.  It is now the hideout of the
+    Dragon gang.  The gang leader runs his reign of terror from here.
+    There is a wooden door barely on the hinges to the east.
+  room_flags: AD
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: wooden door east
+    exit_flags: A
+    key: -1
+    to_vnum: 2125
+  extra_descs: []
+- vnum: 2125
+  name: Bronze Dragon Street at Warehouse
+  description: |
+    The street runs north and south.  There is an old wooden door leading
+    to a warehouse to the west.  The warehouse LOOKS abandoned. . .
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2120
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2130
+  - dir: 3
+    desc: ''
+    keywords: wooden door west
+    exit_flags: A
+    key: -1
+    to_vnum: 2124
+  extra_descs: []
+- vnum: 2126
+  name: Yellow Dragon Road
+  description: |
+    Yellow Dragon Road is the southern boundary of Troll Territory.  The
+    road extends east.  You enter "no-man's land" to the south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2127
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2131
+  extra_descs: []
+- vnum: 2127
+  name: Yellow Dragon Road
+  description: |
+    The road runs east and west.  Ice Dragon Way leads north from here.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2122
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2128
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2126
+  extra_descs: []
+- vnum: 2128
+  name: Yellow Dragon Road
+  description: |
+    The roads continues east and west.  There is a courtyard to the north.
+    You enter "no man's land" to the south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2123
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2129
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2133
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2127
+  extra_descs: []
+- vnum: 2129
+  name: Yellow Dragon Road
+  description: |
+    There is a barred window to the north.  There appears to be a light
+    coming from the cracks around it.  The road extends east and west
+    from here.  Or you can enter "no man's land" south from here.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2130
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2134
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2128
+  extra_descs: []
+- vnum: 2130
+  name: Yellow Dragon Road
+  description: |
+    Bronze Dragon Street intersects here and runs north.  Yellow Dragon ends
+    here but continues to the west.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2125
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2129
+  extra_descs: []
+- vnum: 2131
+  name: NO MAN'S LAND
+  description: |
+    This is the section of town between the two gang's territories.  This
+    is usually where the violence starts.  No Man's land continues south
+    and east; or there is a street to the north.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2126
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2132
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2136
+  extra_descs: []
+- vnum: 2132
+  name: NO MAN'S LAND
+  description: |
+    This is the section of town between the two gang's territories.  This
+    is usually where the violence starts.  No Man's land continues south
+    east and west.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2133
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2137
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2131
+  extra_descs: []
+- vnum: 2133
+  name: NO MAN'S LAND
+  description: |
+    This is the section of town between the two gang's territories.  This
+    is usually where the violence starts.  No Man's land continues south,
+    east and west; or there is a street to the north.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2128
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2134
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2138
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2132
+  extra_descs: []
+- vnum: 2134
+  name: NO MAN'S LAND
+  description: |
+    This is the section of town between the two gang's territories.  This
+    is usually where the violence starts.  No Man's land continues south,
+    east, and west; or there is a street to the north.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2129
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2135
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2139
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2133
+  extra_descs: []
+- vnum: 2135
+  name: NO MAN'S LAND
+  description: |
+    This is the section of town between the two gang's territories.  This
+    is usually where the violence starts.  No Man's land continues south
+    and west.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2140
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2134
+  extra_descs: []
+- vnum: 2136
+  name: NO MAN'S LAND
+  description: |
+    This is the section of town between the two gang's territories.  This
+    is usually where the violence starts.  No Man's land continues north
+    and east; or there is a street to the south.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2131
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2137
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2141
+  extra_descs: []
+- vnum: 2137
+  name: NO MAN'S LAND
+  description: |
+    This is the section of town between the two gang's territories.  This
+    is usually where the violence starts.  No Man's land continues north,
+    east and west.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2132
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2138
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2136
+  extra_descs: []
+- vnum: 2138
+  name: NO MAN'S LAND
+  description: |
+    This is the section of town between the two gang's territories.  This
+    is usually where the violence starts.  No Man's land continues north,
+    east, and west; or there is a street to the south.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2133
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2139
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2143
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2137
+  extra_descs: []
+- vnum: 2139
+  name: NO MAN'S LAND
+  description: |
+    This is the section of town between the two gang's territories.  This
+    is usually where the violence starts.  No Man's land continues north,
+    east, and west.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2134
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2140
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2138
+  extra_descs: []
+- vnum: 2140
+  name: NO MAN'S LAND
+  description: |
+    This is the section of town between the two gang's territories.  This
+    is usually where the violence starts.  No Man's land continues south
+    and west; or there is a street to the south.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2135
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2145
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2139
+  extra_descs: []
+- vnum: 2141
+  name: Bend in Hector Street
+  description: |
+    Hector street bends to the east and the south here.  "No Man's Land"
+    entrance is to the north.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2136
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2142
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2146
+  extra_descs: []
+- vnum: 2142
+  name: Hector Street at Bakery
+  description: |
+    Hector street runs east and west.  The Bakery used to be to the south
+    but the entrance is sealed off.  Probably just a bunch of stale pies in
+    there anyways.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2143
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2141
+  extra_descs: []
+- vnum: 2143
+  name: Another corner of Hector and Achilles streets
+  description: |
+    Achilles street heads to the south and Hector runs east and west.
+    There is an entrance to "No Man's Land" to the north.  On the
+    southwest corner of this intersection, it looks like a building
+    was recently burned down.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2138
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2144
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2147
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2142
+  extra_descs: []
+- vnum: 2144
+  name: Hector Street at Jeweler
+  description: |
+    Once a bright spot in the town, it now looks like one of the
+    hardest hit by the violence.  The building could collapse at any
+    moment.  The street continues east and west.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2145
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2143
+  extra_descs: []
+- vnum: 2145
+  name: Corner of Ajax and Hector
+  description: |
+    There is a grand fountain to the east but the water doesn't
+    look good to drink.  Ajax street heads south and Hector
+    goes back west.  "No Man's Land" is to the north.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2140
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2149
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2144
+  extra_descs: []
+- vnum: 2146
+  name: Hector Street
+  description: |
+    The street is full of garbage here.  An odd building lies to the west,
+    but you don't seem to be able to find a way into it.  The street
+    runs north and south here.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2141
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2150
+  extra_descs: []
+- vnum: 2147
+  name: Achilles Avenue
+  description: |
+    The town bards sang of the victory parades that used to pass along this
+    route.  It was once a major way through the center of town.  The street
+    goes south to a bend and north to an intersection.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2143
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2152
+  extra_descs: []
+- vnum: 2148
+  name: A small ruined chapel
+  description: |
+    This was a small temple built to honor the minor gods and goddesses.
+    It is now desecrated by graffiti and vandalism.  Perhaps its worst
+    defilement is that it is the hangout of the Ogre gang.  There is a street to
+    the east through a rusty metal door.
+  room_flags: AD
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: rusted door metal
+    exit_flags: A
+    key: -1
+    to_vnum: 2149
+  extra_descs: []
+- vnum: 2149
+  name: Ajax Avenue at chapel
+  description: |
+    The temple to honor the minor gods is through a rusty metal door
+    to the west.  The street continues north and south.  You hear the
+    muffled sounds of screams coming from the chapel.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2145
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2154
+  - dir: 3
+    desc: ''
+    keywords: rusted door metal
+    exit_flags: A
+    key: -1
+    to_vnum: 2148
+  extra_descs: []
+- vnum: 2150
+  name: First intersection of Hector and Achilles
+  description: |
+    There is a large statue here depicting a battle between two
+    great warriors.  You think it's odd that it has not been defiled,
+    but then you sense a aura protecting it.  Achilles runs east
+    and south, while Hector heads out to the north.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2146
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2151
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2156
+  extra_descs: []
+- vnum: 2151
+  name: Hector street
+  description: |
+    A large open space, possibly a cemetery, lies to the south.
+    There is a large wrought-iron fence with spikes on top
+    which prevents you from entering the area.  The street
+    continues east and west.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2152
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2150
+  extra_descs: []
+- vnum: 2152
+  name: A bend in the road
+  description: |
+    Achilles Avenue bends to the north and west here.  There
+    is also a narrow alley to the south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2147
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2157
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2151
+  extra_descs: []
+- vnum: 2153
+  name: What is left of the weaponshop
+  description: |
+    It doesn't even look like those punks gave the weaponsmith a
+    proper burial.  But what a going away present he seems to have
+    received!  Blood is splattered and dried all over the walls here.
+    It looks like a great deal of carnage happened here.  The way
+    out to the east leads out onto a street.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2154
+  extra_descs: []
+- vnum: 2154
+  name: Ajax street at Weaponshop (or whats left of it)
+  description: |
+    The street goes north and south.  The stables used to be to the
+    east, but I bet all the horses are dead or gone.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2149
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2159
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2153
+  extra_descs: []
+- vnum: 2155
+  name: Khan Park
+  description: |
+    Not really a "park" as you and i would think of it but
+    it seems queerly peaceful here in comparison to the rest of
+    the area.  There seems to be some kind of memorial to the
+    great Mongol warrior Khan being crudely constructed here.
+    There is a street to the east and another to the south.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2156
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2162
+  extra_descs: []
+- vnum: 2156
+  name: Achilles avenue at entrance to park
+  description: |
+    A ... park?! lies to the west.  The street runs south to an
+    intersection and curves to the north.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2150
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2163
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2155
+  extra_descs: []
+- vnum: 2157
+  name: A bend in Ajax
+  description: |
+    The roads bends south and east here.  You barely notice
+    a small alley leading north.  Some kind of tunnel entrance
+    is to the west but it has been crushed under its own weight.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2152
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2158
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2164
+  extra_descs: []
+- vnum: 2158
+  name: Ajax street
+  description: |
+    A once prideful guildhouse was on the northeast corner of
+    this intersection.  Most of the walls and ceiling have long since
+    been demolished.  An inn/pub is to the south.  The street bends
+    to the east or west.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2159
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2165
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2157
+  extra_descs: []
+- vnum: 2159
+  name: Curve in the road
+  description: |
+    The street goes north or west from here.  A narrow street once
+    headed southeast from here.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2154
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2158
+  extra_descs: []
+- vnum: 2160
+  name: A wide alleyway
+  description: |
+    The sides of the alleyway have been vandalized many times.
+    One patch of graffiti actually looks readable:
+                This section has been designed for levels 5 through 10
+                If you are above level 10 please don't expect much.
+                If you are below level 5 enter at your own risk.
+    In another spot it says "now entering Ogre territory..."
+    A street lies to the west and a major road to the east.
+  room_flags: AC
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2161
+  extra_descs: []
+- vnum: 2161
+  name: Alexander Road
+  description: |
+    You see many gang members walking around looking for
+    fights to pick and things to break.  It seems as if all of the
+    other citizens have been run out of town.  All the former
+    homes are boarded up and uninhabitable.  The road continues
+    east and west.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2162
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2160
+  extra_descs: []
+- vnum: 2162
+  name: Alexander Street at park entrance
+  description: |
+    A park-looking area lies to the north and a passage between
+    two buildings leads to another street to the south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2155
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2166
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2161
+  extra_descs: []
+- vnum: 2163
+  name: Achilles Avenue
+  description: |
+    The Avenue Runs north and south.  You sense you are deep within
+    Ogre gang territory, and a chill goes up your spine.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2156
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2167
+  extra_descs: []
+- vnum: 2164
+  name: Ajax Street
+  description: |
+    You can see a sinister black wrought-iron fence to the west.
+    You wonder if it's keeping you out, or the ghouls in?
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2157
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2169
+  extra_descs: []
+- vnum: 2165
+  name: The inn/pub
+  description: |
+    The inn actually looks fairly functional despite its lack
+    of repair.  The boys come here to hoot it up and drink them selves
+    into oblivion sometimes.  It looks as if the beer is still on tap!!!
+    A hallway leads south and you spy a street through the doorway
+    to the north.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2158
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2170
+  extra_descs: []
+- vnum: 2166
+  name: Solomon Street
+  description: |
+    This street forms the southern boundary of Ogre territory.  The
+    street extends far to the east.  There is also a pathway between
+    buildings which leads to another street to the north.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2162
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2167
+  extra_descs: []
+- vnum: 2167
+  name: Intersection of Achilles and Solomon
+  description: |
+    Solomon street is to the east and west.  The other part of the
+    T is Achilles Avenue, starting here and winding to the north.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2163
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2168
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2166
+  extra_descs: []
+- vnum: 2168
+  name: Solomon Street
+  description: |
+    A wrought-iron fence blocks off what used to be an entrance to the
+    cemetery here to the north.  The evil just seems too strong to
+    to consider entering.  You feel you should stick with the "lesser"
+    evils along the road to the east and west.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2169
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2167
+  extra_descs: []
+- vnum: 2169
+  name: Intersection of Ajax and Solomon
+  description: |
+    The two roads meet at a corner here.  Ajax runs north and
+    Solomon heads west.  An inn/pub is through a back doorway
+    to the east.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2164
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2170
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2168
+  extra_descs: []
+- vnum: 2170
+  name: Hallway
+  description: |
+    The hallway heads back north to the main part of the inn/pub.
+    The stairs leading up to the guest rooms here do not seem
+    advisable to climb.  A doorway empties out into Solomon
+    street to the west.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2165
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2169
+  extra_descs: []
+resets:
+- command: D
+  arg1: 2124
+  arg2: 1
+  arg3: 0
+- command: D
+  arg1: 2125
+  arg2: 3
+  arg3: 0
+- command: D
+  arg1: 2148
+  arg2: 1
+  arg3: 1
+- command: D
+  arg1: 2149
+  arg2: 3
+  arg3: 1
+- command: M
+  arg1: 2107
+  arg2: 4
+  arg3: 2102
+- command: E
+  arg1: 2105
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2102
+- command: E
+  arg1: 2101
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2103
+- command: E
+  arg1: 2101
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2104
+- command: E
+  arg1: 2101
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2105
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2106
+- command: E
+  arg1: 2101
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2107
+- command: E
+  arg1: 2101
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2104
+  arg2: 10
+  arg3: 2108
+- command: E
+  arg1: 2109
+  arg2: 0
+  arg3: 9
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2108
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2109
+- command: E
+  arg1: 2101
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2110
+- command: E
+  arg1: 2101
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2111
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2112
+- command: E
+  arg1: 2101
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2113
+- command: E
+  arg1: 2101
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2104
+  arg2: 10
+  arg3: 2114
+- command: E
+  arg1: 2103
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2107
+  arg2: 4
+  arg3: 2114
+- command: E
+  arg1: 2105
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2114
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2115
+- command: E
+  arg1: 2101
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2104
+  arg2: 10
+  arg3: 2116
+- command: E
+  arg1: 2104
+  arg2: 0
+  arg3: 11
+- command: E
+  arg1: 2103
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2116
+- command: E
+  arg1: 2101
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2117
+- command: E
+  arg1: 2101
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2118
+- command: E
+  arg1: 2101
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2119
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2120
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2121
+- command: E
+  arg1: 2101
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2122
+- command: E
+  arg1: 2101
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2105
+  arg2: 10
+  arg3: 2123
+- command: E
+  arg1: 2108
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 2103
+  arg2: 2
+  arg3: 2124
+- command: E
+  arg1: 2111
+  arg2: 0
+  arg3: 1
+- command: M
+  arg1: 2108
+  arg2: 12
+  arg3: 2124
+- command: M
+  arg1: 2108
+  arg2: 12
+  arg3: 2124
+- command: M
+  arg1: 2108
+  arg2: 12
+  arg3: 2124
+- command: M
+  arg1: 2108
+  arg2: 12
+  arg3: 2124
+- command: M
+  arg1: 2105
+  arg2: 10
+  arg3: 2125
+- command: E
+  arg1: 2108
+  arg2: 0
+  arg3: 17
+- command: E
+  arg1: 2107
+  arg2: 0
+  arg3: 8
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2128
+- command: M
+  arg1: 2101
+  arg2: 25
+  arg3: 2130
+- command: E
+  arg1: 2101
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2106
+  arg2: 15
+  arg3: 2131
+- command: E
+  arg1: 2110
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2106
+  arg2: 15
+  arg3: 2132
+- command: E
+  arg1: 2110
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2106
+  arg2: 15
+  arg3: 2133
+- command: E
+  arg1: 2110
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2106
+  arg2: 15
+  arg3: 2134
+- command: E
+  arg1: 2110
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2106
+  arg2: 15
+  arg3: 2135
+- command: E
+  arg1: 2110
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2106
+  arg2: 15
+  arg3: 2136
+- command: E
+  arg1: 2110
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2106
+  arg2: 15
+  arg3: 2137
+- command: E
+  arg1: 2110
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2106
+  arg2: 15
+  arg3: 2138
+- command: E
+  arg1: 2110
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2106
+  arg2: 15
+  arg3: 2139
+- command: E
+  arg1: 2110
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2106
+  arg2: 15
+  arg3: 2140
+- command: E
+  arg1: 2110
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2142
+- command: E
+  arg1: 2102
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2145
+- command: E
+  arg1: 2102
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2146
+- command: E
+  arg1: 2102
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2103
+  arg2: 2
+  arg3: 2148
+- command: E
+  arg1: 2106
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 2112
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 2108
+  arg2: 12
+  arg3: 2148
+- command: M
+  arg1: 2108
+  arg2: 12
+  arg3: 2148
+- command: M
+  arg1: 2108
+  arg2: 12
+  arg3: 2148
+- command: M
+  arg1: 2108
+  arg2: 12
+  arg3: 2148
+- command: M
+  arg1: 2105
+  arg2: 10
+  arg3: 2149
+- command: E
+  arg1: 2107
+  arg2: 0
+  arg3: 8
+- command: E
+  arg1: 2108
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2150
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2151
+- command: E
+  arg1: 2102
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2105
+  arg2: 10
+  arg3: 2152
+- command: E
+  arg1: 2108
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2152
+- command: E
+  arg1: 2102
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2153
+- command: E
+  arg1: 2102
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2154
+- command: M
+  arg1: 2104
+  arg2: 10
+  arg3: 2155
+- command: E
+  arg1: 2104
+  arg2: 0
+  arg3: 11
+- command: E
+  arg1: 2109
+  arg2: 0
+  arg3: 9
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2155
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2156
+- command: E
+  arg1: 2102
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2157
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2158
+- command: E
+  arg1: 2102
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2159
+- command: E
+  arg1: 2102
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2160
+- command: M
+  arg1: 2107
+  arg2: 4
+  arg3: 2161
+- command: E
+  arg1: 2105
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2161
+- command: E
+  arg1: 2102
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2162
+- command: E
+  arg1: 2102
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2163
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2164
+- command: E
+  arg1: 2102
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2107
+  arg2: 4
+  arg3: 2165
+- command: E
+  arg1: 2105
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2165
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2165
+- command: E
+  arg1: 2102
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2165
+- command: E
+  arg1: 2102
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2165
+- command: E
+  arg1: 2102
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2166
+- command: E
+  arg1: 2102
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2167
+- command: E
+  arg1: 2102
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2102
+  arg2: 25
+  arg3: 2169
+- command: E
+  arg1: 2102
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 2104
+  arg2: 10
+  arg3: 2170
+- command: E
+  arg1: 2111
+  arg2: 0
+  arg3: 1
+- command: E
+  arg1: 2104
+  arg2: 0
+  arg3: 11

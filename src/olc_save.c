@@ -38,6 +38,7 @@
 #include <form.h>
 #include "merc.h"
 #include "olc.h"
+#include "yaml_area.h"
 
 /*
  *  Verbose writes reset data in plain english into the comments
@@ -842,6 +843,10 @@ void save_area( AREA_DATA *pArea )
 
    fclose( fp );
    fpReserve = fopen( NULL_FILE, "r" );
+
+   /* Also save in YAML format so the new loader stays in sync */
+   save_yaml_area( pArea );
+
    return;
 }
 

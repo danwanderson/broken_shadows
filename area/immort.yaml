@@ -1,0 +1,760 @@
+area:
+  name: '{ IMM } ROM     Immortal Zone'
+  builders: None
+  security: 9
+  area_flags: 0
+  vnums:
+  - 1200
+  - 1299
+mobiles:
+- vnum: 1200
+  keywords: Heimdall
+  short_desc: Heimdall
+  long_desc: |
+    Heimdall, guardian of Bifrost, stands guard over the Rainbow Bridge.
+  description: "Standing over 7 feet tall and muscled as only a god can be, Heimdall\
+    \ keeps\nhis unsleeping gaze over the Rainbow bridge.  His trusty Gjallor-horn\
+    \ never\nleaves his side, and shall remain unwinded until the dread ship Naglfar\
+    \ sails\ntowards Valhalla on the dawn of Ragnarok \n"
+  race: Human
+  act: ABTV
+  affected_by: CDFJZ
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 57
+  hitroll: 30
+  hit:
+    number: 1
+    type: 1
+    bonus: 19999
+  mana:
+    number: 1
+    type: 1
+    bonus: 499
+  damage:
+    number: 5
+    type: 4
+    bonus: 40
+  dam_type: 8
+  ac:
+    pierce: -20
+    bash: -20
+    slash: -20
+    exotic: -10
+  off_flags: ACDEFHIKLNOT
+  imm_flags: ABP
+  res_flags: CD
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: L
+  material: none
+  spec_fun: ''
+- vnum: 1201
+  keywords: Heimdal
+  short_desc: Heimdal
+  long_desc: |
+    Heimdal, guardian of Bifrost, stands guard over the Rainbow Bridge.
+  description: "Standing over 7 feet tall and muscled as only a god can be, Heimdall\
+    \ keeps\nhis unsleeping gaze over the Rainbow bridge.  His trusty Gjallor-horn\
+    \ never\nleaves his side, and shall remain unwinded until the dread ship Naglfar\
+    \ sails\ntowards Valhalla on the dawn of Ragnarok \n"
+  race: Human
+  act: ABTV
+  affected_by: CDFJZ
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 99
+  hitroll: 30
+  hit:
+    number: 1
+    type: 1
+    bonus: 19999
+  mana:
+    number: 1
+    type: 1
+    bonus: 499
+  damage:
+    number: 5
+    type: 4
+    bonus: 40
+  dam_type: 8
+  ac:
+    pierce: -20
+    bash: -20
+    slash: -20
+    exotic: -10
+  off_flags: ACDEFHIKLNOT
+  imm_flags: ABP
+  res_flags: CD
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: L
+  material: none
+  spec_fun: ''
+rooms:
+- vnum: 1200
+  name: The Chat Room
+  description: "You are lounging in a quiet cosy parlour, warmed by a gentle magical\
+    \ fire\nwhich twinkles happily in a warm fireplace.  This is one of the many rooms\n\
+    where the heroes and gods come to socialize.  It is by far one of the most\ncomfortable!\
+    \ \n"
+  room_flags: DJQ
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      Asgard lies to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1213
+  extra_descs: []
+- vnum: 1201
+  name: Moses' Hangout
+  description: "You see here a cozy little room with a fireplace.  You can tell it\
+    \ is\nMoses' room by the two stone tablets and a bible on a small ledge near the\n\
+    fireplace.  This room was designed for total relaxation.  You can watch\ntelevision,\
+    \ listen to the stereo, even soak in a hot tub.  There is a bell\nhere for the\
+    \ butler.  \n"
+  room_flags: DQ
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Asgard lies to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1213
+  extra_descs: []
+- vnum: 1202
+  name: The Center of the Universe
+  description: |
+    You are at the centre of the universe, everything is filled with bright
+    light in all colors. You feel time and space no longer exist here.
+    Exits fill the room in all 42 dimensions, leading everywhere.
+  room_flags: DQ
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Asgard lies to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1213
+  extra_descs: []
+- vnum: 1203
+  name: Valhalla
+  description: "This is the huge Hall of Valhalla, where the Gods rule supreme.  The\n\
+    cavernous building stretches infinitely in all directions.  Valhalla \ncontinues\
+    \ to the east, and the gods make their homes north and south of\nthe halls.  The\
+    \ golden gates are to the west.  You know not what lies \nupward...\n"
+  room_flags: DP
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Warbird and Thanatos own an office to the north.
+    keywords: door
+    exit_flags: AC
+    key: -1
+    to_vnum: 1209
+  - dir: 1
+    desc: |
+      Valhalla continues east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1217
+  - dir: 2
+    desc: |
+      A sea cave is south of here.
+    keywords: door
+    exit_flags: AC
+    key: -1
+    to_vnum: 1208
+  - dir: 3
+    desc: |
+      The entrance to Valhalla is to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1216
+  - dir: 4
+    desc: |
+      If you want to know what is up there, you shall have to go look...
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1
+  extra_descs: []
+- vnum: 1204
+  name: 'Priscilla''s Pleasure Palace '
+  description: |
+    As you look around you, you see the largest collection of erotic toys
+    in the world!!!  On a table in the middle of the room lies a book titled :
+    "All You Ever Wanted to Know About Sex..But Were Afraid to Ask"
+    There are things here that you never even imagined in your wildest dreams!
+  room_flags: DJP
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Valhalla is to the north.
+    keywords: door
+    exit_flags: AC
+    key: -1
+    to_vnum: 1218
+  extra_descs: []
+- vnum: 1205
+  name: The Eye of the Hurricane
+  description: |
+    The shrieking winds of a monstrous storm surround you, spinning you around
+    in an endless web of fury. But then, in the middle of turmoil, you find a
+    strange calm. You find yourself hovering in the calm eye of a hurricane. All
+    around you you can see the desruction caused by the powerful storm. White
+    hot flashes of lightning flicker from the depths of the hurricane.  But
+    everything is strangely peaceful in here, with the sun shining in from above
+    and a flock of birds winging across the sky.  You stretch out and relax, this
+    storm is going to be here a while.
+  room_flags: CN
+  sector: 9
+  owner: ''
+  exits: []
+  extra_descs: []
+- vnum: 1206
+  name: Walking on the Moon
+  description: |
+    The proud and lonely silence of Mare Imbrium surrounds you, as you gaze upon
+    the sterile splendor of the moon.  All around is the velvet curtain of night,
+    studded with a thousand gleaming jewels.  Below you hangs the beautiful
+    fields of Earth, looking fragile and far away, but full of hope.  A sense of
+    wistful regret touches you, as you think about what might have been, and what
+    will be.
+  room_flags: CN
+  sector: 0
+  owner: ''
+  exits: []
+  extra_descs:
+  - keywords: crater mare imbrium
+    description: |
+      A small shipping tag is pinned to the ground with a worn hunting knife.
+      Upon it is a dedication to Robert Anson Heinlein, the father of the future.
+- vnum: 1207
+  name: Tia's Study
+  description: "Books, more books then you can possibly imagine cover every available\n\
+    inch of space, save for the small path leading to an antique writting desk\nin\
+    \ the corner.  Books from every time period in history overflow from the\ncluttered\
+    \ bookshelves and into stacks on the floor.  Despite the clutter,\nthe room has\
+    \ a cozy feel to it, with a small fire burning in the fireplace\nset flush with\
+    \ the wall.  Looking around, you can see the great deal of\nknowledge and wisdom\
+    \ contained in these volumes, and you wonder what a\nGoddess of deceit would find\
+    \ so interesting.  Then you notice the small\nplaque on the wall.  \n"
+  room_flags: DJ
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 1208
+  extra_descs:
+  - keywords: desk
+    description: "The desk is old, but looks to be well taken care of.  There are\
+      \ various\nqwill pens, paper, and reference books scattered about the top as\
+      \ if Tia was\nrecently looking for something of importance.  \n"
+  - keywords: plaque
+    description: "The plaque is wooden, well worn, and appears to be hand carved.\
+      \  The\nwords of wisdom look back at you: Mans greatness is not found in his\
+      \ armies,\nfor all men have armies.  Mans greatness is found in his ability\
+      \ to stop\nwar, seek truth, and find courage instead.  \n"
+- vnum: 1208
+  name: A Sea Cave
+  description: |
+    You are in a small cave in the cliff next to a deep green sea.  Fine
+    gold and pink sand blanket the floor.  Shells are scattered and strewn
+    about.  A blow hole in roof of the cave allows beams of light to stream
+    in and illuminate the cave.  The wind blows outside the entrance, but
+    you are protected from the weather in your cozy cave.  The foamy surf
+    never seems to quite reach your feet.  Several boulders here have been
+    worn by time into a shape similar to a comfortable chair.
+  room_flags: DJP
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Valhalla lies to the north.
+    keywords: door
+    exit_flags: AC
+    key: -1
+    to_vnum: 1203
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 1207
+  extra_descs: []
+- vnum: 1209
+  name: Office of WarBird/Thanatos (The War Room)
+  description: |
+    This is where WarBird and Thanatos plan strategy. The rooms walls are
+    just giant bookcases. Deep comfortable chairs form a half circle round a
+    crackling fireplace. Prominantly displayed is a large painting of Thanatos
+    because people often forget what the absentee immort looks like. Lastly you
+    notice two huge oaken desks strewn with toy cannons, books of military
+    history and various battle maps.
+    There is a sign on the wall.
+  room_flags: DJP
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      Valhalla lies to the south.
+    keywords: door
+    exit_flags: AC
+    key: -1
+    to_vnum: 1203
+  extra_descs:
+  - keywords: sign
+    description: |
+      The sign says:
+
+      And please.
+      No smoking.
+- vnum: 1210
+  name: Bigfoot's Office
+  description: "The first thing you notice about this office is the floor; it\nis\
+    \ a black & white checkerboard pattern, with 8 squares to a side.  The\nsouth\
+    \ wall is a HUGE picture window that produces a magnificent view of \nthe land.\
+    \  In front of the window is a large desk.  Completely covering\nthe east wall\
+    \ is a bookshelf, that is crammed full.  In the northwest\ncorner, you notice\
+    \ a statue.\n"
+  room_flags: DJP
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Valhalla is to the north
+    keywords: door
+    exit_flags: AC
+    key: -1
+    to_vnum: 1217
+  extra_descs:
+  - keywords: desk
+    description: "This desk is much larger than anyone could possibly need.  At one\
+      \ end you \nnotice a large, disorderly mass of papers; it must be all his immortal\n\
+      paperwork.  At the other end is a magnificent wooden inlaid board with\nhandcrafted\
+      \ ebony and hardwood pieces.\n"
+  - keywords: statue
+    description: "You recognize this as a statue of Robert James Fischer, one of the\
+      \ most \ncreative, if not eccentric, players of all time.  The inscription on\
+      \ the\nbase reads, \"I like the moment when I crush a man's ego.\"\n"
+  - keywords: bookshelf
+    description: |
+      This is the most amazing collection of chess books you have ever seen.
+      Everything from Damiano's manuscripts, to a complete collection of the
+      Encyclopedia of Chess Openings, to the latest Imformants are all here.
+- vnum: 1211
+  name: Arena of Judgement
+  description: |
+    The scene lain before you is one that gives you the feeling of being placed
+    under a higher authority.  The jury is out.  A statue of Pontius Pilate is
+    in the aft of the Arena.  Staring balefully, the statue faces a distant
+    hillside where many aged crosses still stand.  The Arena is set in a wide
+    pit-like field of trampled bloodstained grass, and is guarded by high walls
+    of veinous marble.  A bloodstone seat awaits the true paragon of Romanity.
+  room_flags: DJP
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      Valhalla is to the south.
+    keywords: door
+    exit_flags: AC
+    key: -1
+    to_vnum: 1218
+  extra_descs:
+  - keywords: statue
+    description: |
+      A statue of Pontius Pilate is here.  On it's face is the expression of some
+      age old contemplation.  Standing at the statues bronzy feet is a Blood red
+      shield that glimmers like a pool of blood.
+- vnum: 1212
+  name: The Realm of the Dead
+  description: |
+    You are standing on an immense, grey stone floor that stretches as far as you
+    can see in all directions.  Rough winds plunging from the dark, starless sky
+    tear savagely at your fragile body.
+  room_flags: DN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The hard floor seems to go on forever.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1212
+  - dir: 1
+    desc: |
+      The hard floor seems to go on forever.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1212
+  - dir: 2
+    desc: |
+      The hard floor seems to go on forever.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1212
+  - dir: 3
+    desc: |
+      The hard floor seems to go on forever.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1212
+  extra_descs:
+  - keywords: sky wind winds
+    description: |
+      Cold winds plunge ceaselessly at you from the dark, cloudless sky.
+  - keywords: floor
+    description: |
+      The stone floor is the same shade of grey as the sky and is completely plain
+      and unscratched.  It is probably too hard for anything to leave as much as a
+      scratch on it.
+- vnum: 1213
+  name: Asgard
+  description: "You stand on a huge expanse of glass.  Below you are clouds and the\
+    \ pains\nof mortality.  As you stand in Asgard, home of the bravest of the brave,\
+    \ you\nare frozen in awe of the power held within these walls.  A huge mansion\
+    \ lies\nto the east beyond a set of magnificent golden doors.  \n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The chat room is to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1200
+  - dir: 1
+    desc: |
+      The golden doors of Valhalla are to the east
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1216
+  - dir: 2
+    desc: |
+      Moses' hangout is to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1201
+  - dir: 3
+    desc: |
+      The center of the universe is to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1202
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1215
+  extra_descs: []
+- vnum: 1214
+  name: The Room of Lost Souls
+  description: "This is the room full of souls that never made it to Asgard.  They\
+    \ are \ntrapped here eternally, left to wander about in misery.  They were infidels\n\
+    and cowards.  Their cries of misery send a shiver down your spine.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1219
+  extra_descs: []
+- vnum: 1215
+  name: Head of the Rainbow Bridge
+  description: "Standing on the mortal end of the Rainbow Bridge, the bridge arches\
+    \ up \nbefore you and seems to disappear into the clouds.  You wonder if it is\
+    \ \nwise to venture upward into the realm of the gods.  But it seems so calm\n\
+    and peaceful here that it would be a shame to leave...\n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 4
+    desc: |
+      The Rainbow Bridge stretches ahead before you.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1220
+  - dir: 5
+    desc: |
+      The altar of Midgaard is below you.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3054
+  extra_descs: []
+- vnum: 1216
+  name: The Entrance of Valhalla
+  description: |
+    The huge ornate entrance of Valhalla is before you.  It seems as though
+    atleast eight-hundred soldiers could walk abreast of one another through
+    these doors. You stare in awe at the sparkling mansion before you.  You
+    wonder what secrets are held behind these doors and long to hear the stories
+    of bravery and glory that you know are kept within the walls of Valhalla.
+  room_flags: P
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Valhalla lies to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1203
+  - dir: 3
+    desc: |
+      Asgard lies to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1213
+  extra_descs: []
+- vnum: 1217
+  name: Valhalla
+  description: "You are standing in the halls of Valhalla.  Pictures of Odin, Thor,\
+    \ Tyr,\nLoki, Freyr, Feyja, and Balder line the walls.  The cavernous hall extends\n\
+    to the east and west.  Rooms belonging to the gods lie to the north and \nsouth.\
+    \  There appears to be an exit above you, but you do not know what is\nup there...\n"
+  room_flags: P
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Valhalla continues east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1218
+  - dir: 2
+    desc: |
+      Bigfoots' room is south of here.
+    keywords: door
+    exit_flags: AC
+    key: -1
+    to_vnum: 1210
+  - dir: 3
+    desc: |
+      Valhalla continues west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1203
+  - dir: 4
+    desc: |
+      If you want to know what is up there you shall have to go and look...
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1212
+  extra_descs: []
+- vnum: 1218
+  name: Valhalla
+  description: "You are standing in the halls of Valhalla.  Tapestries of the gods\
+    \ line\nthe walls.  A statue of Odin is here.  The halls continue to the east\
+    \ and\nwest, and there are doors to the north and south of you.  There is some\
+    \ \nsort of exit above you, but you do not know where it leads...\n"
+  room_flags: P
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Pontius' room is north of here.
+    keywords: door
+    exit_flags: AC
+    key: -1
+    to_vnum: 1211
+  - dir: 1
+    desc: |
+      Valhalla continues east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1219
+  - dir: 2
+    desc: |
+      Priscilla's Pleasure Palace is south of here.
+    keywords: door
+    exit_flags: AC
+    key: -1
+    to_vnum: 1204
+  - dir: 3
+    desc: |
+      Valhalla continues west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1217
+  - dir: 4
+    desc: |
+      If you want to know what is up there you shall have to go up and see...
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 2
+  extra_descs:
+  - keywords: statue odin
+    description: |
+      The statue of Odin has been exquisitely crafted.  It is of white marble
+      with black and gold veins.  It looks to be of magical origin.
+- vnum: 1219
+  name: Valhalla
+  description: |
+    You have reached the end of the halls of Valhalla.  There are heavy doors
+    on 3 walls.  They lead into the rooms of the gods.  The hall goes back to
+    the west, and there is some sort of an exit above you.  Torches sputter
+    softly and the scent of incense is strong here.
+  room_flags: P
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Melancholys' room is north of here.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3161
+  - dir: 1
+    desc: |
+      Kates' room is east of here.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3150
+  - dir: 2
+    desc: |
+      The Temple of Stupid is south of here.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3170
+  - dir: 3
+    desc: |
+      Valhalla goes back to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1218
+  - dir: 4
+    desc: |
+      If you want to know what is up from here, you shall have to go up and see...
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1214
+  extra_descs: []
+- vnum: 1220
+  name: On the Rainbow Bridge
+  description: "You have reached the center of the Rainbow Bridge.  Clouds and mist\
+    \ swirl\naround your feet.  The view from here is incredible.  It is little wonder\
+    \ \nthat the heavens were saved for the gods personal pleasures.\n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 4
+    desc: |
+      The Rainbow Bridge continues upwards into the heavens.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1221
+  - dir: 5
+    desc: |
+      The Rainbow Bridge disappears down into the clouds.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1215
+  extra_descs:
+  - keywords: clouds
+    description: |
+      The clouds are beautiful.  There are shades of gray, pink and purple swirled
+      into the blue sky.
+- vnum: 1221
+  name: The End of the Rainbow Bridge
+  description: "You have reached the end of the Rainbow Bridge.  Asgard stretches\
+    \ out above \nyou.  Looking around, you search for the legendary guardian of Asgard.\
+    \  The\nclouds are far below you and a sense of beauty and peacefulness surrounds\
+    \ you. \n"
+  room_flags: '0'
+  sector: -1
+  owner: ''
+  exits:
+  - dir: 4
+    desc: |
+      Asgard is above you, spread out in all its glory.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1213
+  - dir: 5
+    desc: |
+      Bifrost, the Rainbow Bridge leads down to the Temple of Midgaard.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1220
+  extra_descs: []
+resets:
+- command: M
+  arg1: 1200
+  arg2: 1
+  arg3: 1221

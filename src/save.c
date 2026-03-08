@@ -32,6 +32,7 @@
 #include <time.h>
 #include <form.h>
 #include "merc.h"
+#include "yaml_save.h"
 
 extern  int     _filbuf         (FILE *);
 
@@ -55,6 +56,7 @@ void    fwrite_pet      ( CHAR_DATA *pet, FILE *fp);
 void    fread_char      ( CHAR_DATA *ch,  FILE *fp );
 void    fread_pet       ( CHAR_DATA *ch,  FILE *fp );
 void    fread_obj       ( CHAR_DATA *ch,  FILE *fp );
+void    save_char_obj_legacy ( CHAR_DATA *ch );
 
 
 
@@ -104,6 +106,17 @@ void    fread_obj       ( CHAR_DATA *ch,  FILE *fp );
  *   - Uses temporary file + rename for atomic saves (not implemented)
  */
 void save_char_obj( CHAR_DATA *ch )
+{
+    save_char_obj_yaml( ch );
+    return;
+}
+
+
+/*
+ * Legacy text-format save (kept for reference; now superseded by YAML).
+ * Exposed so it can be called explicitly if needed.
+ */
+void save_char_obj_legacy( CHAR_DATA *ch )
 {
     char strsave[MAX_INPUT_LENGTH];
     char buf[MAX_STRING_LENGTH];
@@ -650,11 +663,16 @@ bool load_char_obj( DESCRIPTOR_DATA *d, char *name )
 {
     static PC_DATA pcdata_zero;
     char strsave[MAX_INPUT_LENGTH];
+    char yaml_path[MAX_INPUT_LENGTH];
     char buf[100];
     CHAR_DATA *ch;
     FILE *fp;
     bool found;
     int stat;
+
+    /* YAML: if a .yaml player file exists, delegate to the YAML loader */
+    if ( yaml_player_file_exists( name, yaml_path ) )
+        return load_char_obj_yaml( d, name );
 
     if ( char_free == NULL )
     {

@@ -1,0 +1,2215 @@
+area:
+  name: '{30 35} Fstall  Nirvana'
+  builders: None
+  security: 9
+  area_flags: 0
+  vnums:
+  - 9000
+  - 9059
+mobiles:
+- vnum: 9000
+  keywords: tridrone
+  short_desc: the tridrone
+  long_desc: |
+    A tridrone is here doing a menial task.
+  description: |
+    You see what appears to be a 3 sided pyramid with spidery arms and legs.
+  race: modron
+  act: ACG
+  affected_by: J
+  affected2_by: '0'
+  alignment: 300
+  clan: 0
+  level: 8
+  hitroll: 0
+  hit:
+    number: 3
+    type: 20
+    bonus: 80
+  mana:
+    number: 1
+    type: 1
+    bonus: 99
+  damage:
+    number: 2
+    type: 5
+    bonus: 3
+  dam_type: 7
+  ac:
+    pierce: 4
+    bash: 3
+    slash: 4
+    exotic: 5
+  off_flags: NQR
+  imm_flags: BMNPQ
+  res_flags: HIK
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: H
+  parts: ABCGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 9001
+  keywords: quadrone
+  short_desc: the quadrone
+  long_desc: |
+    A quadrone is here watching for trespassers.
+  description: |
+    A cubic creature, with spiny arms and legs.
+  race: modron
+  act: AFGT
+  affected_by: DJ
+  affected2_by: '0'
+  alignment: 300
+  clan: 0
+  level: 11
+  hitroll: 3
+  hit:
+    number: 14
+    type: 10
+    bonus: 70
+  mana:
+    number: 1
+    type: 1
+    bonus: 99
+  damage:
+    number: 3
+    type: 4
+    bonus: 2
+  dam_type: 13
+  ac:
+    pierce: 1
+    bash: 0
+    slash: 1
+    exotic: 2
+  off_flags: CEKQR
+  imm_flags: BMNPQ
+  res_flags: HIK
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: H
+  parts: ABCGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 9002
+  keywords: pentadrone
+  short_desc: the pentadrone
+  long_desc: |
+    The pentadrone is here policing the area.
+  description: |
+    A five-armed creature which resembles a starfish on thin stilt-like legs.
+  race: modron
+  act: ABFGT
+  affected_by: DJ
+  affected2_by: '0'
+  alignment: 300
+  clan: 0
+  level: 14
+  hitroll: 3
+  hit:
+    number: 15
+    type: 12
+    bonus: 110
+  mana:
+    number: 1
+    type: 1
+    bonus: 99
+  damage:
+    number: 4
+    type: 4
+    bonus: 3
+  dam_type: 16
+  ac:
+    pierce: -2
+    bash: -2
+    slash: 0
+    exotic: -1
+  off_flags: CEFLNQR
+  imm_flags: BMNPQR
+  res_flags: HIK
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: H
+  parts: ABCGHJKN
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 9003
+  keywords: decaton
+  short_desc: the decaton
+  long_desc: |
+    A decaton is here overseeing the other modrons.
+  description: |
+    The decaton is a large, ten-tentacled sphere on stumpy legs.
+  race: modron
+  act: ABFGQT
+  affected_by: DJ
+  affected2_by: '0'
+  alignment: 300
+  clan: 0
+  level: 17
+  hitroll: 4
+  hit:
+    number: 25
+    type: 10
+    bonus: 70
+  mana:
+    number: 17
+    type: 8
+    bonus: 50
+  damage:
+    number: 4
+    type: 5
+    bonus: 3
+  dam_type: 7
+  ac:
+    pierce: -4
+    bash: -4
+    slash: 0
+    exotic: -2
+  off_flags: ACEKNQR
+  imm_flags: BMNPQR
+  res_flags: HIK
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: HM
+  parts: ABCGHJKN
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 9004
+  keywords: nonaton
+  short_desc: the nonaton
+  long_desc: |
+    A nonaton is here preserving law and order.
+  description: |
+    A cylidrical modron with 9 tentacles and stubby legs.
+  race: modron
+  act: ABFGQT
+  affected_by: DHJ
+  affected2_by: '0'
+  alignment: 300
+  clan: 0
+  level: 20
+  hitroll: 5
+  hit:
+    number: 11
+    type: 8
+    bonus: 250
+  mana:
+    number: 20
+    type: 8
+    bonus: 75
+  damage:
+    number: 4
+    type: 6
+    bonus: 4
+  dam_type: 7
+  ac:
+    pierce: -4
+    bash: -4
+    slash: -2
+    exotic: -3
+  off_flags: AEFNQR
+  imm_flags: BMNPQR
+  res_flags: HIK
+  vuln_flags: G
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: HM
+  parts: ABCGHJKN
+  size: L
+  material: none
+  spec_fun: ''
+- vnum: 9005
+  keywords: octon
+  short_desc: the octon
+  long_desc: |
+    An octon is here governing his ward of responsilbility.
+  description: |
+    The octon has a collar at shoulder level with 8 tentacled arms growing out of
+    it.
+  race: modron
+  act: ABFGQ
+  affected_by: DJ
+  affected2_by: '0'
+  alignment: 300
+  clan: 0
+  level: 22
+  hitroll: 5
+  hit:
+    number: 25
+    type: 10
+    bonus: 300
+  mana:
+    number: 18
+    type: 10
+    bonus: 75
+  damage:
+    number: 4
+    type: 6
+    bonus: 5
+  dam_type: 8
+  ac:
+    pierce: -5
+    bash: -5
+    slash: -3
+    exotic: -4
+  off_flags: ACEHKQR
+  imm_flags: BMNPQR
+  res_flags: HIK
+  vuln_flags: G
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: HM
+  parts: ABCGHJKN
+  size: L
+  material: none
+  spec_fun: ''
+- vnum: 9006
+  keywords: septon
+  short_desc: the septon
+  long_desc: |
+    A septon is here preserving order.
+  description: |
+    The septon appears as a human with a large bald head. It has a shoulder collar
+    with 7 tentacles coming from it.
+  race: modron
+  act: ABFGQR
+  affected_by: DJ
+  affected2_by: '0'
+  alignment: 300
+  clan: 0
+  level: 24
+  hitroll: 5
+  hit:
+    number: 30
+    type: 10
+    bonus: 350
+  mana:
+    number: 20
+    type: 10
+    bonus: 100
+  damage:
+    number: 6
+    type: 4
+    bonus: 5
+  dam_type: 13
+  ac:
+    pierce: -6
+    bash: -6
+    slash: -6
+    exotic: -4
+  off_flags: AFKOQR
+  imm_flags: BMNPQR
+  res_flags: HIK
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: HM
+  parts: ABCGHIJKN
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 9007
+  keywords: hexton
+  short_desc: the hexton
+  long_desc: |
+    A hexton is here watching over his armies.
+  description: |
+    A hexton appears as a humanoid with 6 arms: 2 large human arms with 6 fingers,
+    and 4 tentacles below tipped with sharp claws.
+  race: modron
+  act: ABFGQT
+  affected_by: DFHJ
+  affected2_by: '0'
+  alignment: 300
+  clan: 0
+  level: 26
+  hitroll: 7
+  hit:
+    number: 35
+    type: 20
+    bonus: 300
+  mana:
+    number: 20
+    type: 10
+    bonus: 75
+  damage:
+    number: 4
+    type: 8
+    bonus: 6
+  dam_type: 3
+  ac:
+    pierce: -8
+    bash: -8
+    slash: -8
+    exotic: -4
+  off_flags: ACEFHIKLNQR
+  imm_flags: ABMNPQR
+  res_flags: CHIK
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: HM
+  parts: ABCGHIJKNP
+  size: L
+  material: none
+  spec_fun: ''
+- vnum: 9008
+  keywords: quinton
+  short_desc: the quinton
+  long_desc: |
+    A quinton is here keeping records.
+  description: |
+    Quintons look like tall, stocky humanoids with 4 flexible arms jutting from the
+    shoulders.  A prehensile tail serves as the creature's 5th arm, and they have
+    fan-like wings attached to their shoulders.
+  race: modron
+  act: ABFGQ
+  affected_by: DJ
+  affected2_by: '0'
+  alignment: 300
+  clan: 0
+  level: 28
+  hitroll: 6
+  hit:
+    number: 10
+    type: 100
+    bonus: 150
+  mana:
+    number: 20
+    type: 12
+    bonus: 100
+  damage:
+    number: 4
+    type: 8
+    bonus: 7
+  dam_type: 13
+  ac:
+    pierce: -7
+    bash: -8
+    slash: -6
+    exotic: -8
+  off_flags: AKMOQR
+  imm_flags: ABMNPQR
+  res_flags: HIK
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: HM
+  parts: ABCGHIJKNPQ
+  size: L
+  material: none
+  spec_fun: ''
+- vnum: 9009
+  keywords: tertian
+  short_desc: the tertian
+  long_desc: |
+    A tertian is here administering the law.
+  description: |
+    Tertians look very human, save for their 12 foot size, the horns jutting from
+    the sides of their bald heads, and the long prehensile tail ending in a mace-
+    like ball.
+  race: modron
+  act: ABFGQRT
+  affected_by: DJ
+  affected2_by: '0'
+  alignment: 300
+  clan: 0
+  level: 33
+  hitroll: 12
+  hit:
+    number: 1
+    type: 1
+    bonus: 999
+  mana:
+    number: 20
+    type: 20
+    bonus: 50
+  damage:
+    number: 8
+    type: 6
+    bonus: 12
+  dam_type: 7
+  ac:
+    pierce: -11
+    bash: -13
+    slash: -10
+    exotic: -9
+  off_flags: CEFQR
+  imm_flags: ABMNPQR
+  res_flags: CHIK
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: HM
+  parts: ABCGHIJKW
+  size: H
+  material: none
+  spec_fun: ''
+- vnum: 9010
+  keywords: secundus
+  short_desc: secundus
+  long_desc: |
+    A Secundus, one of the Viceroys of Nirvana, is here.
+  description: |
+    The secundi is an incredibly thin, tall humanoids with long, narrow faces
+    and deepset eyes. It radiates intense power.
+  race: modron
+  act: ABFGQRT
+  affected_by: DFHJ
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 36
+  hitroll: 15
+  hit:
+    number: 1
+    type: 1
+    bonus: 1599
+  mana:
+    number: 40
+    type: 20
+    bonus: 50
+  damage:
+    number: 7
+    type: 8
+    bonus: 15
+  dam_type: 17
+  ac:
+    pierce: -11
+    bash: -14
+    slash: -11
+    exotic: -12
+  off_flags: EFHIKNQR
+  imm_flags: ABHIKMNPQR
+  res_flags: CHIK
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: HM
+  parts: ABCGHIJK
+  size: H
+  material: none
+  spec_fun: ''
+- vnum: 9011
+  keywords: Primus
+  short_desc: Primus
+  long_desc: |
+    Primus, ruler of the Plane of Nirvana, forms out of an energy pool.
+  description: |
+    Primus is a huge being who rises out of the energy pool and glares at you with
+    violet eyes. His right hand is wreathed in darkness, his left in light, and
+    he looks very displeased to see you.
+  race: modron
+  act: ABFGQRT
+  affected_by: DFHJ
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 40
+  hitroll: 20
+  hit:
+    number: 1
+    type: 1
+    bonus: 3999
+  mana:
+    number: 1
+    type: 1
+    bonus: 3999
+  damage:
+    number: 6
+    type: 10
+    bonus: 25
+  dam_type: 18
+  ac:
+    pierce: -15
+    bash: -15
+    slash: -15
+    exotic: -15
+  off_flags: AHQR
+  imm_flags: ABHIKMNPQRS
+  res_flags: CHIK
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: HM
+  parts: ABCGHIJK
+  size: G
+  material: none
+  spec_fun: ''
+objects:
+- vnum: 9000
+  name: sword long the
+  short_desc: THE long sword
+  description: THE long sword of Primus is here.
+  material: none
+  item_type: 5
+  extra_flags: AGJK
+  wear_flags: AN
+  values:
+  - 1
+  - 5
+  - 6
+  - 3
+  - 48
+  level: 32
+  weight: 40
+  cost: 0
+  affects:
+  - where: O
+    location: 18
+    modifier: 5
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 5
+    bitvector: '0'
+  extra_descs:
+  - keywords: sword long the
+    description: |
+      This is an extremely long and heavy sword, with many magical runes inscribed
+      on it.  It glows with the power of Primus, Lord of the Plane of Nirvana.
+rooms:
+- vnum: 9000
+  name: Entrance to the Plane of Nirvana
+  description: "You stand before the entrance to a plane of absolute balance and order.\
+    \  It is\nequally hot and cold, equally light and dark, and made of equal parts\
+    \ of solid\nand liquid.\n \nThe plane extends to the west and east, while an exit\
+    \ lies downward.\n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      To the east, the plane extends for what seems to be forever.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9001
+  - dir: 3
+    desc: |
+      To the west, the plane extends for what seems to be forever.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9002
+  - dir: 5
+    desc: |
+      Downwards, you see the portal leading back to home.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8905
+  extra_descs: []
+- vnum: 9001
+  name: The Plane of Nirvana
+  description: |
+    You are traveling the Plane of Nirvana.  It has endless bounderies to the east
+    and west
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      To the east, there seems to be a bend in direction of travel.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9003
+  - dir: 3
+    desc: |
+      To the west, the plane seems to extend forever.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9000
+  extra_descs: []
+- vnum: 9002
+  name: The Plane of Nirvana
+  description: "You are on a western strech of the plane.  Boundries to the east and\
+    \ west seem \nnonexistent.\n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The plane seems to strech forever to the east
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9000
+  - dir: 3
+    desc: |
+      The plane continues to the west where is appears to change direction
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9004
+  extra_descs: []
+- vnum: 9003
+  name: A Change in Direction
+  description: "Here, the plane seems to direct you to the north.  Also, the plane\
+    \ continues \nto the west.\n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The plane continues to the north with no end in sight
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9005
+  - dir: 3
+    desc: |
+      The plane contiues to the west with no end in sight
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9001
+  extra_descs: []
+- vnum: 9004
+  name: A Change in Direction
+  description: |
+    Here, the plane goes to the north and bends to the west
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The vast plane seems to have no end to the north
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9006
+  - dir: 1
+    desc: |
+      To the east, the plane has no visible end
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9002
+  extra_descs: []
+- vnum: 9005
+  name: A North-South direction of the plane
+  description: |
+    The plane continues to the north and south
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north, the plane stretches as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9012
+  - dir: 2
+    desc: |
+      To the south, the plane stretches as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9003
+  extra_descs: []
+- vnum: 9006
+  name: A North-South stretch of the plane
+  description: |
+    The plane continues to the north and the south
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north, the plane stretches as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9013
+  - dir: 2
+    desc: |
+      To the south, the plane stretches as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9004
+  extra_descs: []
+- vnum: 9007
+  name: In the Tower of Nirvana
+  description: "Entering the tower, there seems to be enough light to see by, but\
+    \ no source is \nvisible.  The hall continues to the east, while a door lies to\
+    \ the west.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The hall continues east into oblivion.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9010
+  - dir: 3
+    desc: |
+      A great door lies to the west
+    keywords: door
+    exit_flags: AC
+    key: -1
+    to_vnum: 9013
+  extra_descs: []
+- vnum: 9008
+  name: A hallway in the Tower of Nirvana
+  description: "You are in a east-west hallway in the tower.  to the west, the hall\
+    \ continues \nand a door lies to the east.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      A great door lies to the east
+    keywords: door
+    exit_flags: AC
+    key: -1
+    to_vnum: 9012
+  - dir: 3
+    desc: |
+      the hallway continues west into oblivion.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9009
+  extra_descs: []
+- vnum: 9009
+  name: An east-west hallway in the Tower of Nirvana
+  description: |
+    The hallway continues to the east, and stretches to the west.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The hallway continues east into oblivion.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9008
+  - dir: 3
+    desc: |
+      The Hallway continues west into oblivion.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9011
+  extra_descs: []
+- vnum: 9010
+  name: An east-west passage in the Tower of Nirvana
+  description: ''
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The Hallway contiues east into oblivion
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9011
+  - dir: 3
+    desc: |
+      The Hallway contiues west into oblivion
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9007
+  extra_descs: []
+- vnum: 9011
+  name: An intersection in the Tower of Nirvana
+  description: "You are at an intersection where the east-west passage continues,\
+    \ but a large \npassage leads to the north.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The passage continues to the north where it seems to get wider.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9023
+  - dir: 1
+    desc: |
+      The passage ontinues eastward into oblivion.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9009
+  - dir: 3
+    desc: |
+      The passage continues westward into oblivion.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9010
+  extra_descs: []
+- vnum: 9012
+  name: At the door to the Tower of Nirvana
+  description: "You stand on the plane where a mighty door lies to the west.\nThe\
+    \ plane also continues north and southward.  There is a large sign on the \ndoor.\n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The plane continues northward as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9014
+  - dir: 2
+    desc: |
+      The plane continues southward as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9005
+  - dir: 3
+    desc: |
+      A mighty door lies to the west
+    keywords: door
+    exit_flags: AC
+    key: -1
+    to_vnum: 9008
+  extra_descs:
+  - keywords: sign
+    description: |
+      The sign reads:
+                           WARNING
+      Only those brave of heart and high of level should
+      enter the Tower of Nirvana.
+- vnum: 9013
+  name: At the door to the Tower of Nirvana
+  description: "The plane continue to the north and south, while a mighty door lies\
+    \ to the \neast.  There is a sign on the door.\n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The plane stretches to the north as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9015
+  - dir: 1
+    desc: |
+      A mighty door sits to the east
+    keywords: door
+    exit_flags: AC
+    key: 0
+    to_vnum: 9007
+  - dir: 2
+    desc: |
+      The plane continues to the south as far as the eye can see
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9006
+  extra_descs:
+  - keywords: sign
+    description: |
+      The sign reads:
+                        WARNING!
+      Only those brave of heart and high of level
+      should attempt to enter the Tower of Nirvana.
+- vnum: 9014
+  name: A north-south area of the Plane of Nirvana
+  description: |
+    The plane continues to the north and southward.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The plane continues endlessly to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9027
+  - dir: 2
+    desc: |
+      The plane continues endlessly to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9012
+  extra_descs: []
+- vnum: 9015
+  name: A north-south area on the Plane of Nirvana
+  description: |
+    the plane continues to the north and south
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The plane continues endlessly to the north
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9028
+  - dir: 2
+    desc: |
+      The plane continues endlessly to the south
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9013
+  extra_descs: []
+- vnum: 9016
+  name: Dead End
+  description: |
+    You stand at a dead end where the only exit appears to be west.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      The passage continue to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9018
+  extra_descs: []
+- vnum: 9017
+  name: Dead End
+  description: |
+    You are at what appears to be a dead end.  The only exit is back east.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The passage continues to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9019
+  extra_descs: []
+- vnum: 9018
+  name: A Tertain's lair
+  description: |
+    You quite possibly have made a terrible mistake coming in here.
+    Exits lead east and west.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The passage continues to the east
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9016
+  - dir: 3
+    desc: |
+      The passage leads west where you can see a bright light ahead.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9020
+  extra_descs: []
+- vnum: 9019
+  name: A Tertian's lair
+  description: |
+    You might have made a terrible mistake coming into here.
+    Exits lead east and west.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The passage continues eastward where you can see a bright light.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9020
+  - dir: 3
+    desc: |
+      The passage continues westward into oblivion.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9017
+  extra_descs: []
+- vnum: 9020
+  name: The Lair of Primus
+  description: "You are in a large hall, with a massive pool of what appears to be\
+    \ pure energy \nin the center of the room.  Exits lead in all the cardinal directions.\
+    \  From \nthe pool rises the master of the Plane of Nirvana....\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      A passage leads north into the unknown.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9024
+  - dir: 1
+    desc: |
+      A passage leads east into the unknown.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9018
+  - dir: 2
+    desc: |
+      A passage leads south into the unknown.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9021
+  - dir: 3
+    desc: |
+      A passage leads west into the unknown.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9019
+  extra_descs: []
+- vnum: 9021
+  name: A Tertian's lair
+  description: "Maybe coming here wasn't such a hot idea.  You feel very unwelcome\
+    \ here.  \nExits lead north and south\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The passage leads north where you can see a bright light.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9020
+  - dir: 2
+    desc: |
+      The passage leads south into the unknown.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9022
+  extra_descs: []
+- vnum: 9022
+  name: The office of a Quinton
+  description: "You have stumbled upon the office of a page to Primus.\nScrolls lie\
+    \ about the room along with me strange objects...you can't imagine \nwhat kind\
+    \ of creature would use them.  Exits lead in all the cardinal \ndirections.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The passage heads northward where you can see nothing.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9021
+  - dir: 1
+    desc: |
+      The passage goes east where you feel it might be bad to go.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9046
+  - dir: 2
+    desc: |
+      The passage goes south into oblivion.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9023
+  - dir: 3
+    desc: |
+      The passage heads westward into oblivion.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9053
+  extra_descs: []
+- vnum: 9023
+  name: A wide north-south passageway
+  description: |
+    you find yourself in a passage where the exits are north and south
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north, you spy an intersection of tunnels.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9022
+  - dir: 2
+    desc: |
+      To the south you can barely make out a junction of passageways.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9011
+  extra_descs: []
+- vnum: 9024
+  name: A Tertian's lair
+  description: |
+    You find yourself in a lair of a Tertian.  Exits lead north and south.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north, you can make out a intersection of tunnels.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9025
+  - dir: 2
+    desc: |
+      To the south, you can see a bright light.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9020
+  extra_descs: []
+- vnum: 9025
+  name: A north south tunnel
+  description: |
+    You are in a passage where the only exits are north and south.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Far to the north you can see a door.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9026
+  - dir: 2
+    desc: |
+      To the south you stare into darkness.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9024
+  extra_descs: []
+- vnum: 9026
+  name: An intersection of passages
+  description: "You stand at an intersection.  Exits lead off to the east and south.\
+    \ \nA door lies to the north\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      you see a massive door
+    keywords: door
+    exit_flags: AC
+    key: 0
+    to_vnum: 9031
+  - dir: 1
+    desc: |
+      To the east, you spy a dark passage
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9032
+  - dir: 2
+    desc: |
+      To the south you stare into oblivion.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9025
+  extra_descs: []
+- vnum: 9027
+  name: A change of direction
+  description: |
+    The plane curves from the south to west
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      looking south, you see the plane extending beyond view.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9014
+  - dir: 3
+    desc: |
+      looking west, you can't fathom how far the plane extends.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9030
+  extra_descs: []
+- vnum: 9028
+  name: A change of direction
+  description: |
+    Here, the plane takes a turm from the south to heading east.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The plane heads east from here. You can't see the end of it.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9029
+  - dir: 2
+    desc: |
+      Looking south, you view the plane extending for miles.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9015
+  extra_descs: []
+- vnum: 9029
+  name: An east-west route on the Plane of Nirvana
+  description: |
+    Exits lead east and west.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      looking east, you spy a door far off in the distance.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9031
+  - dir: 3
+    desc: |
+      looking west, in the distance you can spy a curve south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9028
+  extra_descs: []
+- vnum: 9030
+  name: An east-west route on The Plane of Nirvana
+  description: |
+    Exits lead east and west
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      looking east, you can see a bend in the distance.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9027
+  - dir: 2
+    desc: |
+      glancing west, you can spy a door far off in the distance.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9031
+  extra_descs: []
+- vnum: 9031
+  name: A large door in the passage
+  description: |
+    The passages goes east and west, with a large door to the south.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      looking east, you see more of the passage.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9030
+  - dir: 2
+    desc: |
+      A large door blocks the way to the south.
+    keywords: door
+    exit_flags: AC
+    key: 0
+    to_vnum: 9026
+  - dir: 3
+    desc: |
+      looking west, you see more of the passage.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9029
+  extra_descs: []
+- vnum: 9032
+  name: A Junction in the passage
+  description: |
+    Here, passages lead off in all cardinal directions.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Looking north, you spy a small room in the distance
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9033
+  - dir: 1
+    desc: |
+      Eastward, the passage continues in the darkness.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9035
+  - dir: 2
+    desc: |
+      South of here is a small room.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9034
+  - dir: 3
+    desc: |
+      West, you spy an intersection.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9026
+  extra_descs: []
+- vnum: 9033
+  name: The office of the Octon
+  description: |
+    you are in a small room, the only exit is south.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      looking south, you see an intersection.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9032
+  extra_descs: []
+- vnum: 9034
+  name: A small room
+  description: |
+    The only exit is north
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Looking north, you spy an intersection.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9032
+  extra_descs: []
+- vnum: 9035
+  name: A passageway
+  description: |
+    Exits lead in all cardinal directions.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Looking north you spy a average sized room.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9036
+  - dir: 1
+    desc: |
+      Looking east, you can make out a large room
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9038
+  - dir: 2
+    desc: |
+      Looking south, you can see an average room.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9037
+  - dir: 3
+    desc: |
+      Looking west, you can see an intersection ahead.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9032
+  extra_descs: []
+- vnum: 9036
+  name: Lair of a Hexton
+  description: "You are in a room that is in complete disrepair.  Items are thrown\
+    \ throughout \nthe room making them worthless piles of junk.\nThe only exit is\
+    \ back south\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      Looking south, you can make out a passage.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9035
+  extra_descs: []
+- vnum: 9037
+  name: Office of a Hexton
+  description: |
+    A makeshift desk forms the center of this room.  The only exit is north.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Looking north, you can make out a hallway.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9035
+  extra_descs: []
+- vnum: 9038
+  name: Office of a Secundus
+  description: "You are standing in a office of one of the Viceroys of the Plane of\
+    \ Nirvana.  \nThe occupant doesn't look real thrilled with your presence.  The\
+    \ only exits is \nwest.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      Looking west you can see a long hallway
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9035
+  extra_descs: []
+- vnum: 9039
+  name: A Junction in the hallway
+  description: |
+    Your are standing in a junction, exits lead in all the cardinal directions.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north, you spy a small room
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9040
+  - dir: 1
+    desc: |
+      To the east, you see a quadruple junction
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9025
+  - dir: 2
+    desc: |
+      To the south you see a small room
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9041
+  - dir: 3
+    desc: |
+      To the west, the passageway continues
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9042
+  extra_descs: []
+- vnum: 9040
+  name: Office of an Octon
+  description: |
+    You see a messy room with papers scattered everywhere.
+    The only exit leads back to the south
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      To the south you can make out a junction.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9039
+  extra_descs: []
+- vnum: 9041
+  name: Office of a Septon
+  description: "A neat and tidy room, it appear to be inhabited my a neatenss freak.\
+    \  The only \nexit lies to the north.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north you see a junction.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9039
+  extra_descs: []
+- vnum: 9042
+  name: An east-west passage
+  description: |
+    In east west passage is here with exits in all of the cardinal directions.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You can see a room to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9043
+  - dir: 1
+    desc: |
+      To the east you can see a junction
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9039
+  - dir: 2
+    desc: |
+      To the south you can make out a averaged sized room.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9044
+  - dir: 3
+    desc: |
+      To the west you can see what appears to be a cavernous room.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9045
+  extra_descs: []
+- vnum: 9043
+  name: The Barracks
+  description: "A dusty room, with a almost untolerable odor, the barracks are being\
+    \ inspected \nby a Hexton and his personal enterage.\nThe only exit lies to the\
+    \ south.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      To the south you can see junction
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9042
+  extra_descs: []
+- vnum: 9044
+  name: The Commander's Post
+  description: "You have stumbled on to the office of the Commander of the forces\
+    \ in the Plane \nOf Nirvana.  The room is well furnished and a sense of courage\
+    \ and bravery \novertakes you as you enter the room.  The only exit lies to the\
+    \ north.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north you can visualize a junction of passages.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9042
+  extra_descs: []
+- vnum: 9045
+  name: The chamber of the second Secundus
+  description: "This huge room is furnished with the finest, and a personal legion\
+    \ guards the \nSecundus. the only exit is to the east.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      To the east you can see a junction
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9042
+  extra_descs: []
+- vnum: 9046
+  name: A Passageway
+  description: "You are in a well lit passage.  I sense of forboding danger envelopes\
+    \ you.  \nExits lead in all cardinal directions.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north you can see a small chamber
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9047
+  - dir: 1
+    desc: |
+      To the east, the passage continues,.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9049
+  - dir: 2
+    desc: |
+      To the south, a chamber can be seen
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9048
+  - dir: 3
+    desc: |
+      To the west, a large tunnel can be found.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9022
+  extra_descs: []
+- vnum: 9047
+  name: Chamber of the Octon
+  description: "A small room, sparsely furnished, it leaves you with a sense of fear.\
+    \  The \nonly exit is to the south\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      To the south you can see a passage.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9046
+  extra_descs: []
+- vnum: 9048
+  name: Chamber of the Nonaton
+  description: "You have entered the chamber of the principal law and order overseers.\
+    \  The \nonly exit lies to the north\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north you can see a passageway.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9046
+  extra_descs: []
+- vnum: 9049
+  name: End of the passageway
+  description: "You have reached the end of a long east-west passage.  The passage\
+    \ contiues to \nthe west, and rooms lie to the north, south, and east.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north you can see a room
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9050
+  - dir: 1
+    desc: |
+      To the east you can make out a large chamber
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9052
+  - dir: 2
+    desc: |
+      To the south, a room can be seen.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9051
+  - dir: 3
+    desc: |
+      to the west, the passageway continues
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9046
+  extra_descs: []
+- vnum: 9050
+  name: Chamber of a Hexton
+  description: "You have entered the chamber of a Hexton.  Trophies adorn the walls,\
+    \ some of \nwhich are human. the only exit is to the south.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      To the south you can see a passageway.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9049
+  extra_descs: []
+- vnum: 9051
+  name: Chamber of a Hexton
+  description: "You have entered a room where you are not very popular. The only exit\
+    \ lies \nnorthbound.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north you can see a passage.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9049
+  extra_descs: []
+- vnum: 9052
+  name: Chamber of the Secudus
+  description: "A large canvernous room, this chamber serves as the sleeping quarters\
+    \ for the \nthird Secudus, Viceroy to Primus. The only exit lies to the west.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      To the west you can see a passageway.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9049
+  extra_descs: []
+- vnum: 9053
+  name: A passageway
+  description: |
+    You are in a passagway where you may go in any cardinal direction.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north lies a small chamber
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9054
+  - dir: 1
+    desc: |
+      To the east, a main passage forms a junction.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9022
+  - dir: 2
+    desc: |
+      To the south, you can spot a small room
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9055
+  - dir: 3
+    desc: |
+      To the west, the passageway continues
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9059
+  extra_descs: []
+- vnum: 9054
+  name: A small chamber
+  description: |
+    You are in a small cramped chamber.  The only exit lies to the south.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      To the south you can see a passage
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9053
+  extra_descs: []
+- vnum: 9055
+  name: A cramped room
+  description: |
+    You are in a small, crowded room.  The only exit appears to lie to the north.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north, you can see a passageway.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9053
+  extra_descs: []
+- vnum: 9056
+  name: A large room
+  description: "You have entered a room where you are not wanted.  The only exit lies\
+    \ to the \nsouth.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      To the south you can visualize a east-west passage.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9059
+  extra_descs: []
+- vnum: 9057
+  name: A room
+  description: "You have entered a room where there was obviously a hurried move going\
+    \ on.  \nThe only exit lies to the north.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north you can make out a passageway.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9059
+  extra_descs: []
+- vnum: 9058
+  name: Chamber of The First Secundus
+  description: "You have disturbed the rest of the First Viceroy to Primus the Prime,\
+    \ The \nSecundus.  He does not look like a happy camper. The only exit lies to\
+    \ the \neast.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      To the east you can spot a hallway
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9059
+  extra_descs: []
+- vnum: 9059
+  name: Junction in the hallway
+  description: |
+    Exits lead off in all of the cardinal directions
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north lies a large chamber
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9056
+  - dir: 1
+    desc: |
+      To the east , the passage continues.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9053
+  - dir: 2
+    desc: |
+      To the south, a small chamber can be found.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9057
+  - dir: 3
+    desc: |
+      To the west, lies a monstrous room.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9058
+  extra_descs: []
+resets:
+- command: M
+  arg1: 9001
+  arg2: 9
+  arg3: 9001
+- command: M
+  arg1: 9000
+  arg2: 10
+  arg3: 9002
+- command: M
+  arg1: 9000
+  arg2: 10
+  arg3: 9003
+- command: M
+  arg1: 9002
+  arg2: 7
+  arg3: 9011
+- command: M
+  arg1: 9001
+  arg2: 9
+  arg3: 9012
+- command: M
+  arg1: 9000
+  arg2: 10
+  arg3: 9013
+- command: M
+  arg1: 9008
+  arg2: 4
+  arg3: 9016
+- command: M
+  arg1: 9008
+  arg2: 4
+  arg3: 9017
+- command: M
+  arg1: 9009
+  arg2: 4
+  arg3: 9018
+- command: M
+  arg1: 9009
+  arg2: 4
+  arg3: 9019
+- command: M
+  arg1: 9011
+  arg2: 1
+  arg3: 9020
+- command: E
+  arg1: 9000
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 9009
+  arg2: 4
+  arg3: 9021
+- command: M
+  arg1: 9008
+  arg2: 4
+  arg3: 9022
+- command: M
+  arg1: 9009
+  arg2: 4
+  arg3: 9024
+- command: M
+  arg1: 9008
+  arg2: 4
+  arg3: 9025
+- command: M
+  arg1: 9000
+  arg2: 10
+  arg3: 9027
+- command: M
+  arg1: 9001
+  arg2: 9
+  arg3: 9028
+- command: M
+  arg1: 9000
+  arg2: 10
+  arg3: 9029
+- command: M
+  arg1: 9002
+  arg2: 7
+  arg3: 9031
+- command: M
+  arg1: 9005
+  arg2: 4
+  arg3: 9033
+- command: M
+  arg1: 9006
+  arg2: 2
+  arg3: 9034
+- command: M
+  arg1: 9007
+  arg2: 8
+  arg3: 9036
+- command: M
+  arg1: 9007
+  arg2: 8
+  arg3: 9037
+- command: M
+  arg1: 9002
+  arg2: 7
+  arg3: 9038
+- command: M
+  arg1: 9010
+  arg2: 4
+  arg3: 9038
+- command: M
+  arg1: 9005
+  arg2: 4
+  arg3: 9040
+- command: M
+  arg1: 9006
+  arg2: 2
+  arg3: 9041
+- command: M
+  arg1: 9007
+  arg2: 8
+  arg3: 9043
+- command: M
+  arg1: 9007
+  arg2: 8
+  arg3: 9044
+- command: M
+  arg1: 9002
+  arg2: 7
+  arg3: 9045
+- command: M
+  arg1: 9010
+  arg2: 4
+  arg3: 9045
+- command: M
+  arg1: 9005
+  arg2: 4
+  arg3: 9047
+- command: M
+  arg1: 9004
+  arg2: 1
+  arg3: 9048
+- command: M
+  arg1: 9007
+  arg2: 8
+  arg3: 9050
+- command: M
+  arg1: 9007
+  arg2: 8
+  arg3: 9051
+- command: M
+  arg1: 9002
+  arg2: 7
+  arg3: 9052
+- command: M
+  arg1: 9010
+  arg2: 4
+  arg3: 9052
+- command: M
+  arg1: 9005
+  arg2: 4
+  arg3: 9054
+- command: M
+  arg1: 9003
+  arg2: 1
+  arg3: 9055
+- command: M
+  arg1: 9007
+  arg2: 8
+  arg3: 9056
+- command: M
+  arg1: 9007
+  arg2: 8
+  arg3: 9057
+- command: M
+  arg1: 9002
+  arg2: 7
+  arg3: 9058
+- command: M
+  arg1: 9010
+  arg2: 4
+  arg3: 9058

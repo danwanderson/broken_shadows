@@ -1,0 +1,4622 @@
+area:
+  name: '{ 5 30} Raff    Elemental Canyon'
+  builders: None
+  security: 9
+  area_flags: 0
+  vnums:
+  - 9201
+  - 9260
+mobiles:
+- vnum: 9201
+  keywords: mountain climber mountainclimber
+  short_desc: the mountain climber
+  long_desc: |
+    A mountain climber is making the same trek that you are.
+  description: |
+    He wants to see what's on the other side of the mountain too.
+  race: Human
+  act: ACGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 500
+  clan: 0
+  level: 3
+  hitroll: 1
+  hit:
+    number: 10
+    type: 5
+    bonus: 15
+  mana:
+    number: 1
+    type: 1
+    bonus: 99
+  damage:
+    number: 1
+    type: 4
+    bonus: 1
+  dam_type: 17
+  ac:
+    pierce: 7
+    bash: 7
+    slash: 7
+    exotic: 8
+  off_flags: JN
+  imm_flags: '0'
+  res_flags: HIJR
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 30
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 9202
+  keywords: cyclops
+  short_desc: the cyclops
+  long_desc: |
+    A hungry cyclops snarls at you!
+  description: |
+    He looks like he's about to have dinner (maybe it's you?).
+  race: Giant
+  act: ABFQT
+  affected_by: DF
+  affected2_by: '0'
+  alignment: -700
+  clan: 0
+  level: 22
+  hitroll: 7
+  hit:
+    number: 10
+    type: 10
+    bonus: 600
+  mana:
+    number: 10
+    type: 10
+    bonus: 100
+  damage:
+    number: 6
+    type: 4
+    bonus: 10
+  dam_type: 27
+  ac:
+    pierce: -7
+    bash: -7
+    slash: -7
+    exotic: -2
+  off_flags: ACDIO
+  imm_flags: AB
+  res_flags: CDHI
+  vuln_flags: JP
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 600
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: H
+  material: none
+  spec_fun: spec_cast_cleric
+- vnum: 9203
+  keywords: tiny elemental
+  short_desc: a tiny elemental
+  long_desc: |
+    A tiny elemental form wanders about.
+  description: |
+    Rather small for an elemental form, looks like a reject.
+  race: Human
+  act: AGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 1
+  hitroll: 0
+  hit:
+    number: 1
+    type: 2
+    bonus: 6
+  mana:
+    number: 1
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 2
+    bonus: 0
+  dam_type: 11
+  ac:
+    pierce: 9
+    bash: 9
+    slash: 9
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 1
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 9204
+  keywords: elemental guardian
+  short_desc: the elemental guardian
+  long_desc: |
+    The elemental guardian of the canyon.
+  description: |
+    You can't tell which kind of elemental it is, maybe it's a bit o' all of them?
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 20
+  hitroll: 0
+  hit:
+    number: 7
+    type: 38
+    bonus: 238
+  mana:
+    number: 20
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 7
+    bonus: 10
+  dam_type: 11
+  ac:
+    pierce: -2
+    bash: -2
+    slash: -2
+    exotic: 3
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 1000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_breath_any
+- vnum: 9205
+  keywords: small elemental
+  short_desc: a small elemental
+  long_desc: |
+    A small, rather non-descript elemental.
+  description: |
+    A small elemental, a resident of the canyon.
+  race: Human
+  act: ABGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 6
+  hitroll: 0
+  hit:
+    number: 1
+    type: 24
+    bonus: 51
+  mana:
+    number: 6
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 5
+    bonus: 3
+  dam_type: 11
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 25
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 9206
+  keywords: medium elemental
+  short_desc: a medium elemental
+  long_desc: |
+    A medium-sized elemental.
+  description: |
+    A medium elemental, a resident of the canyon.
+  race: Human
+  act: ABGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 10
+  clan: 0
+  level: 10
+  hitroll: 0
+  hit:
+    number: 2
+    type: 33
+    bonus: 96
+  mana:
+    number: 10
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 5
+    bonus: 7
+  dam_type: 7
+  ac:
+    pierce: 3
+    bash: 3
+    slash: 3
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 75
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 9207
+  keywords: large elemental
+  short_desc: a large elemental
+  long_desc: |
+    A large elemental.
+  description: "A large elemental, a resident of the canyon.  \n"
+  race: Human
+  act: ABGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 20
+  clan: 0
+  level: 16
+  hitroll: 0
+  hit:
+    number: 5
+    type: 34
+    bonus: 175
+  mana:
+    number: 16
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 7
+    bonus: 8
+  dam_type: 7
+  ac:
+    pierce: 0
+    bash: 0
+    slash: 0
+    exotic: 5
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 200
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_breath_any
+- vnum: 9208
+  keywords: earth elemental ruler
+  short_desc: the Earth Ruler
+  long_desc: |
+    The Ruler of the earth elementals.
+  description: "He looks as old as the earth itself.  He seems to know all the \n\
+    secrets and knowledge of the Earth.  You can't really tell where \nhe begins and\
+    \ the rock wall ends.\n"
+  race: Human
+  act: ABT
+  affected_by: H
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 31
+  hitroll: 0
+  hit:
+    number: 10
+    type: 64
+    bonus: 448
+  mana:
+    number: 31
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 10
+    bonus: 19
+  dam_type: 7
+  ac:
+    pierce: -9
+    bash: -9
+    slash: -9
+    exotic: 0
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 10000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_cleric
+- vnum: 9209
+  keywords: fire elemental ruler
+  short_desc: the Fire Ruler
+  long_desc: |
+    The Ruler of the fire elementals.
+  description: |
+    As you look at him he seems to blend in with the fire in his throne.
+  race: Human
+  act: ABT
+  affected_by: H
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 29
+  hitroll: 0
+  hit:
+    number: 10
+    type: 56
+    bonus: 405
+  mana:
+    number: 29
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 10
+    bonus: 15
+  dam_type: 3
+  ac:
+    pierce: -8
+    bash: -8
+    slash: -8
+    exotic: 1
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 10000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_breath_fire
+- vnum: 9210
+  keywords: air elemental ruler
+  short_desc: The Air Ruler
+  long_desc: |
+    The Ruler of the air elementals.
+  description: |
+    As you peer at him you seem to be looking at the sky itself.
+  race: Human
+  act: ABT
+  affected_by: H
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 30
+  hitroll: 0
+  hit:
+    number: 10
+    type: 60
+    bonus: 426
+  mana:
+    number: 30
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 10
+    bonus: 17
+  dam_type: 11
+  ac:
+    pierce: -8
+    bash: -8
+    slash: -8
+    exotic: 0
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 10000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_breath_gas
+- vnum: 9211
+  keywords: lightning elemental ruler
+  short_desc: The Lightning Ruler
+  long_desc: |
+    The Ruler of the lightning elementals.
+  description: |
+    As you examine him there is a blinding flash of light and a deafening boom!
+    You rub your eyes and look and the ruler is there grinning at you.
+  race: Human
+  act: ABT
+  affected_by: H
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 29
+  hitroll: 0
+  hit:
+    number: 10
+    type: 56
+    bonus: 405
+  mana:
+    number: 29
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 10
+    bonus: 15
+  dam_type: 7
+  ac:
+    pierce: -8
+    bash: -8
+    slash: -8
+    exotic: 1
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 10000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_breath_lightning
+- vnum: 9212
+  keywords: water elemental ruler
+  short_desc: The Water Ruler
+  long_desc: |
+    The Ruler of the water elementals.
+  description: |
+    As you look at him he changes to mist, which swirls around you.  Just
+    as you get scared, it reforms in elemental form.
+  race: water fowl
+  act: ABT
+  affected_by: HTb
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 30
+  hitroll: 0
+  hit:
+    number: 10
+    type: 60
+    bonus: 426
+  mana:
+    number: 30
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 10
+    bonus: 17
+  dam_type: 11
+  ac:
+    pierce: -8
+    bash: -8
+    slash: -8
+    exotic: 0
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: R
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 10000
+  form: AGW
+  parts: ACDEFHKP
+  size: M
+  material: none
+  spec_fun: spec_breath_acid
+- vnum: 9214
+  keywords: water puddle elemental
+  short_desc: a puddle
+  long_desc: |
+    A small puddle of water elemental.
+  description: |
+    It trickles along the ground and gets your feet wet.
+  race: water fowl
+  act: AGT
+  affected_by: Tb
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 8
+  hitroll: 0
+  hit:
+    number: 2
+    type: 21
+    bonus: 73
+  mana:
+    number: 8
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 7
+    bonus: 4
+  dam_type: 7
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: R
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 22
+  form: AGW
+  parts: ACDEFHKP
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 9215
+  keywords: fire flame elemental
+  short_desc: a flame
+  long_desc: |
+    A small flickering flame elemental.
+  description: |
+    It smolders along the grass aimlessly.
+  race: Human
+  act: AGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 5
+  hitroll: 0
+  hit:
+    number: 1
+    type: 16
+    bonus: 42
+  mana:
+    number: 5
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 4
+    bonus: 3
+  dam_type: 11
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 15
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 9216
+  keywords: snowflake snow flake ice elemental
+  short_desc: a small snowflake
+  long_desc: |
+    A frozen snowflake water elemental.
+  description: |
+    It looks a little blue.
+  race: Human
+  act: AGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 520
+  clan: 0
+  level: 3
+  hitroll: 0
+  hit:
+    number: 1
+    type: 6
+    bonus: 23
+  mana:
+    number: 3
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 5
+    bonus: 1
+  dam_type: 11
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 9217
+  keywords: pebble rock earth stone elemental
+  short_desc: a small rock
+  long_desc: |
+    A small rock.
+  description: |
+    It seems to be a small living pebble!
+  race: Human
+  act: AGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 3
+  hitroll: 0
+  hit:
+    number: 1
+    type: 6
+    bonus: 23
+  mana:
+    number: 3
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 5
+    bonus: 1
+  dam_type: 3
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 9
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 9218
+  keywords: spark lightning energy elemental
+  short_desc: a small spark
+  long_desc: |
+    A small spark of electricity fizzles here.
+  description: |
+    Zipping from place to place at the speed of light is tough work.
+  race: Human
+  act: AGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 3
+  hitroll: 0
+  hit:
+    number: 1
+    type: 6
+    bonus: 23
+  mana:
+    number: 3
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 5
+    bonus: 1
+  dam_type: 3
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 15
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 9219
+  keywords: acid blob elemental
+  short_desc: a small blob of acid
+  long_desc: |
+    A small blob of acid eats away at the stone aimlessly.
+  description: |
+    The magical blob of acid is a cross between lightning and water.
+  race: Human
+  act: AGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 8
+  hitroll: 0
+  hit:
+    number: 2
+    type: 21
+    bonus: 73
+  mana:
+    number: 8
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 7
+    bonus: 4
+  dam_type: 3
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 100
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_breath_acid
+- vnum: 9220
+  keywords: lava elemental
+  short_desc: a lava beast
+  long_desc: |
+    A lava beast spews from place to place.
+  description: |
+    The magical lava beast is a cross between fire and earth.
+  race: Human
+  act: AGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 8
+  hitroll: 0
+  hit:
+    number: 2
+    type: 21
+    bonus: 73
+  mana:
+    number: 8
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 7
+    bonus: 4
+  dam_type: 7
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 31
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 9221
+  keywords: mud elemental
+  short_desc: a mud monster
+  long_desc: |
+    A mud monster slops around.
+  description: |
+    The magical mud monster is a cross between water and earth.
+  race: Human
+  act: AGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 6
+  hitroll: 0
+  hit:
+    number: 1
+    type: 24
+    bonus: 51
+  mana:
+    number: 6
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 5
+    bonus: 3
+  dam_type: 7
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 40
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 9222
+  keywords: mist elemental
+  short_desc: an elemental mist
+  long_desc: |
+    The air is magically misty here.
+  description: |
+    The magical mist is a cross between water and air.
+  race: Human
+  act: AGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 5
+  hitroll: 0
+  hit:
+    number: 1
+    type: 16
+    bonus: 42
+  mana:
+    number: 5
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 4
+    bonus: 3
+  dam_type: 11
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 30
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 9223
+  keywords: particle elemental
+  short_desc: a particle
+  long_desc: |
+    A sub-atomic particle is too small for you to see.
+  description: |
+    The magical manifestation of energy.
+  race: Human
+  act: AGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 6
+  hitroll: 0
+  hit:
+    number: 1
+    type: 24
+    bonus: 51
+  mana:
+    number: 6
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 5
+    bonus: 3
+  dam_type: 7
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 1
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_breath_lightning
+- vnum: 9224
+  keywords: dust elemental
+  short_desc: a dust cloud
+  long_desc: |
+    A dust cloud blowing by makes you sneeze.
+  description: |
+    The magical dust cloud is a cross between air and earth.
+  race: Human
+  act: AGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 5
+  hitroll: 0
+  hit:
+    number: 1
+    type: 16
+    bonus: 42
+  mana:
+    number: 5
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 4
+    bonus: 3
+  dam_type: 7
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 10
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_thief
+- vnum: 9225
+  keywords: eddie elemental
+  short_desc: an eddie
+  long_desc: |
+    A small eddie current swirls junk around here.
+  description: |
+    The magical eddie current is a manifestation of an air elemental.
+  race: Human
+  act: AGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 3
+  hitroll: 0
+  hit:
+    number: 1
+    type: 6
+    bonus: 23
+  mana:
+    number: 3
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 5
+    bonus: 1
+  dam_type: 11
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 3
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_thief
+- vnum: 9226
+  keywords: blue flame
+  short_desc: the Blue Flame
+  long_desc: |
+    The Blue Flame burns mysteriously here.
+  description: "As you look you see what seems to be a face and almost a \nhumanoid\
+    \ figure somehow trapped in the fire.\n"
+  race: Human
+  act: ABGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -100
+  clan: 0
+  level: 25
+  hitroll: 0
+  hit:
+    number: 10
+    type: 42
+    bonus: 322
+  mana:
+    number: 25
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 8
+    bonus: 16
+  dam_type: 3
+  ac:
+    pierce: -5
+    bash: -5
+    slash: -5
+    exotic: 2
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 2500
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_breath_fire
+- vnum: 9227
+  keywords: magneto
+  short_desc: the Magneto
+  long_desc: |
+    The Magneto considers zapping you for the heck of it.
+  description: |
+    A humanoid figure seems to be trapped in the field of the Magneto.
+  race: Human
+  act: ABGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -150
+  clan: 0
+  level: 22
+  hitroll: 0
+  hit:
+    number: 9
+    type: 36
+    bonus: 270
+  mana:
+    number: 22
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 7
+    bonus: 14
+  dam_type: 3
+  ac:
+    pierce: -3
+    bash: -3
+    slash: -3
+    exotic: 3
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 1000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_breath_lightning
+- vnum: 9228
+  keywords: ice bandit
+  short_desc: the Ice Bandit
+  long_desc: |
+    The Ice Bandit strikes cold fear in your heart.
+  description: |
+    A humanoid figure encased in ice but still apparently alive.
+  race: Human
+  act: ABGHT
+  affected_by: P
+  affected2_by: '0'
+  alignment: -250
+  clan: 0
+  level: 23
+  hitroll: 0
+  hit:
+    number: 9
+    type: 39
+    bonus: 290
+  mana:
+    number: 23
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 8
+    bonus: 11
+  dam_type: 11
+  ac:
+    pierce: -4
+    bash: -4
+    slash: -4
+    exotic: 2
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 3000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_breath_frost
+- vnum: 9229
+  keywords: rock monster
+  short_desc: the Rock Monster
+  long_desc: |
+    The Rock Monster considers you in stoney silence.
+  description: |
+    A humanoid figure trapped in stone seems alive.
+  race: Human
+  act: ABGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -310
+  clan: 0
+  level: 24
+  hitroll: 0
+  hit:
+    number: 10
+    type: 38
+    bonus: 311
+  mana:
+    number: 24
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 8
+    bonus: 14
+  dam_type: 3
+  ac:
+    pierce: -5
+    bash: -5
+    slash: -5
+    exotic: 2
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 1900
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 9230
+  keywords: hurricane
+  short_desc: the Hurricane
+  long_desc: |
+    A Hurricane rages across the sky.
+  description: |
+    A humanoid figure is trapped in the rushing wind.
+  race: Human
+  act: ABGT
+  affected_by: P
+  affected2_by: '0'
+  alignment: -10
+  clan: 0
+  level: 28
+  hitroll: 0
+  hit:
+    number: 10
+    type: 52
+    bonus: 387
+  mana:
+    number: 28
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 9
+    bonus: 18
+  dam_type: 3
+  ac:
+    pierce: -7
+    bash: -7
+    slash: -7
+    exotic: 1
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 4108
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_breath_gas
+- vnum: 9231
+  keywords: magician
+  short_desc: an elemental magician
+  long_desc: |
+    An elemental magician seeks magical stones for a spell.
+  description: |
+    The elemental magician has come here in search of the fabled
+    Stone of Surrender which can be used to render opponents senseless.
+  race: Human
+  act: ABGT
+  affected_by: B
+  affected2_by: '0'
+  alignment: -50
+  clan: 0
+  level: 18
+  hitroll: 0
+  hit:
+    number: 6
+    type: 36
+    bonus: 205
+  mana:
+    number: 18
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 7
+    bonus: 12
+  dam_type: 11
+  ac:
+    pierce: -1
+    bash: -1
+    slash: -1
+    exotic: 4
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 800
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_mage
+- vnum: 9232
+  keywords: rainbow warrior
+  short_desc: a rainbow warrior
+  long_desc: |
+    A warrior of the Rainbow Cult swears his loyalty.
+  description: "The Rainbow Cult has received special powers for their service to\
+    \ \nthe elemental forces.\n"
+  race: Human
+  act: AGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 150
+  clan: 0
+  level: 18
+  hitroll: 0
+  hit:
+    number: 6
+    type: 36
+    bonus: 205
+  mana:
+    number: 18
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 7
+    bonus: 12
+  dam_type: 3
+  ac:
+    pierce: -1
+    bash: -1
+    slash: -1
+    exotic: 4
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 800
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_cleric
+- vnum: 9233
+  keywords: illusionist
+  short_desc: an illusionist
+  long_desc: |
+    The illusionist seeks the aid of the elemental forces.
+  description: |
+    He seeks their aid for a powerful new spell of deception.
+
+    <wielded>            The Sword of Illusions
+  race: Human
+  act: ABGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -50
+  clan: 0
+  level: 12
+  hitroll: 0
+  hit:
+    number: 3
+    type: 32
+    bonus: 120
+  mana:
+    number: 12
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 7
+    bonus: 6
+  dam_type: 7
+  ac:
+    pierce: 2
+    bash: 2
+    slash: 2
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 190
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_mage
+- vnum: 9234
+  keywords: alchemist
+  short_desc: an alchemist
+  long_desc: |
+    An alchemist wanders by in search of magical herbs.
+  description: |
+    Rare herbs are rumored to grow only in the canyon.
+  race: Human
+  act: AGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -50
+  clan: 0
+  level: 13
+  hitroll: 0
+  hit:
+    number: 3
+    type: 38
+    bonus: 131
+  mana:
+    number: 13
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 7
+    bonus: 8
+  dam_type: 7
+  ac:
+    pierce: 1
+    bash: 1
+    slash: 1
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 190
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_thief
+- vnum: 9235
+  keywords: baby rainbow dragon
+  short_desc: a baby rainbow dragon
+  long_desc: |
+    A baby rainbow dragon plays among the elements here.
+  description: |
+    It's only a baby by dragon standards.
+  race: Human
+  act: ABGT
+  affected_by: DF
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 16
+  hitroll: 0
+  hit:
+    number: 5
+    type: 34
+    bonus: 175
+  mana:
+    number: 16
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 7
+    bonus: 8
+  dam_type: 7
+  ac:
+    pierce: 0
+    bash: 0
+    slash: 0
+    exotic: 5
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 1000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_breath_any
+- vnum: 9236
+  keywords: imp
+  short_desc: a little imp
+  long_desc: |
+    A little imp runs along being annoying.
+  description: |
+    The little bugger steals stuff and is generally obnoxious.
+  race: Human
+  act: ACGHT
+  affected_by: PQ
+  affected2_by: '0'
+  alignment: -500
+  clan: 0
+  level: 4
+  hitroll: 0
+  hit:
+    number: 1
+    type: 10
+    bonus: 33
+  mana:
+    number: 4
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 7
+    bonus: 2
+  dam_type: 3
+  ac:
+    pierce: 7
+    bash: 7
+    slash: 7
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 9237
+  keywords: HUGE elemental
+  short_desc: a HUGE elemental
+  long_desc: |
+    A HUGE elemental form stands here.
+  description: |
+    HUGE, need i say more?
+  race: Human
+  act: ABGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 30
+  clan: 0
+  level: 20
+  hitroll: 0
+  hit:
+    number: 7
+    type: 38
+    bonus: 238
+  mana:
+    number: 20
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 7
+    bonus: 10
+  dam_type: 3
+  ac:
+    pierce: -2
+    bash: -2
+    slash: -2
+    exotic: 3
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 1000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_breath_any
+- vnum: 9238
+  keywords: vendor
+  short_desc: the elixir vendor
+  long_desc: |
+    A vendor is willing to sell you elixirs.
+  description: |
+    I WOULD NOT suggest you attack me ...!
+  race: Human
+  act: ABEGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 900
+  clan: 0
+  level: 30
+  hitroll: 0
+  hit:
+    number: 10
+    type: 60
+    bonus: 426
+  mana:
+    number: 30
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 10
+    bonus: 17
+  dam_type: 3
+  ac:
+    pierce: -8
+    bash: -8
+    slash: -8
+    exotic: 0
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_mage
+objects:
+- vnum: 9201
+  name: ring earth
+  short_desc: the earth ring
+  description: A dark ring which seems to absorb all the light around it lies here.
+  material: none
+  item_type: 9
+  extra_flags: I
+  wear_flags: AB
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 31
+  weight: 5
+  cost: 310
+  affects:
+  - where: O
+    location: 3
+    modifier: 1
+    bitvector: '0'
+  - where: O
+    location: 4
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 9202
+  name: breastplate stoney breast plate
+  short_desc: a stoney breastplate
+  description: A breastplate made of the stone from deep within the earth lies here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AD
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 31
+  weight: 70
+  cost: 310
+  affects:
+  - where: O
+    location: 5
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 9203
+  name: dagger fiery
+  short_desc: a fiery dagger
+  description: A dagger made of fire crackles mysteriously here.
+  material: none
+  item_type: 5
+  extra_flags: A
+  wear_flags: AN
+  values:
+  - 2
+  - 5
+  - 7
+  - 11
+  - 0
+  level: 29
+  weight: 2
+  cost: 290
+  affects:
+  - where: O
+    location: 19
+    modifier: 4
+    bitvector: '0'
+  extra_descs: []
+- vnum: 9204
+  name: cape flame flaming red
+  short_desc: a flame red cape
+  description: A cape made of ethereal red fiber lies neatly folded on the ground
+    here.
+  material: none
+  item_type: 9
+  extra_flags: A
+  wear_flags: AC
+  values:
+  - 8
+  - 8
+  - 8
+  - 0
+  - 0
+  level: 29
+  weight: 3
+  cost: 290
+  affects:
+  - where: O
+    location: 19
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 9205
+  name: boots wind
+  short_desc: the wind boots
+  description: A pair of boots that look fast standing still are here.
+  material: none
+  item_type: 9
+  extra_flags: G
+  wear_flags: AG
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 30
+  weight: 1
+  cost: 300
+  affects:
+  - where: O
+    location: 2
+    modifier: 2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 9206
+  name: helmet hurricane
+  short_desc: a hurricane helmet
+  description: A helmet that looks like it has weathered many storms has been set
+    here.
+  material: none
+  item_type: 9
+  extra_flags: B
+  wear_flags: AE
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 30
+  weight: 4
+  cost: 300
+  affects:
+  - where: O
+    location: 23
+    modifier: -4
+    bitvector: '0'
+  extra_descs: []
+- vnum: 9207
+  name: sword lightning bolt
+  short_desc: a sparking lightning sword
+  description: A lightning bolt fashioned into a sword spits sparks here.
+  material: none
+  item_type: 5
+  extra_flags: AB
+  wear_flags: AN
+  values:
+  - 1
+  - 5
+  - 7
+  - 3
+  - 0
+  level: 29
+  weight: 10
+  cost: 290
+  affects:
+  - where: O
+    location: 18
+    modifier: -1
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 9208
+  name: shield electric
+  short_desc: an electric shield
+  description: A shield made entirely of energy buzzes here.
+  material: none
+  item_type: 9
+  extra_flags: B
+  wear_flags: AJ
+  values:
+  - 8
+  - 8
+  - 8
+  - 0
+  - 0
+  level: 29
+  weight: 8
+  cost: 290
+  affects:
+  - where: O
+    location: 1
+    modifier: -1
+    bitvector: '0'
+  - where: O
+    location: 5
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 9209
+  name: girth icy
+  short_desc: an icy girth
+  description: A girth made of magical ice has been left here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AL
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 30
+  weight: 10
+  cost: 300
+  affects:
+  - where: O
+    location: 5
+    modifier: -2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 9210
+  name: cloak waterfall
+  short_desc: a waterfall cloak
+  description: A cloak fashioned from a small magical waterfall is here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AK
+  values:
+  - 9
+  - 9
+  - 9
+  - 0
+  - 0
+  level: 30
+  weight: 6
+  cost: 300
+  affects:
+  - where: O
+    location: 12
+    modifier: 25
+    bitvector: '0'
+  - where: O
+    location: 18
+    modifier: -2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 9211
+  name: amulet elemental
+  short_desc: an elemental amulet
+  description: An elemental Amulet glows with the power of the elemnts.
+  material: none
+  item_type: 9
+  extra_flags: A
+  wear_flags: AC
+  values:
+  - 7
+  - 7
+  - 7
+  - 0
+  - 0
+  level: 20
+  weight: 1
+  cost: 200
+  affects:
+  - where: O
+    location: 23
+    modifier: -5
+    bitvector: '0'
+  extra_descs: []
+- vnum: 9212
+  name: bracelet elemental
+  short_desc: an elemental bracelet
+  description: A bracelet made of elemental magic lies here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AM
+  values:
+  - 7
+  - 7
+  - 7
+  - 0
+  - 0
+  level: 20
+  weight: 4
+  cost: 200
+  affects:
+  - where: O
+    location: 13
+    modifier: 25
+    bitvector: '0'
+  extra_descs: []
+- vnum: 9213
+  name: armbands platinum bands
+  short_desc: some platinum arm bands
+  description: A pair of platinum arm bands, once worn by the Cyclops, lie here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AI
+  values:
+  - 7
+  - 7
+  - 7
+  - 0
+  - 0
+  level: 22
+  weight: 4
+  cost: 220
+  affects:
+  - where: O
+    location: 1
+    modifier: 1
+    bitvector: '0'
+  - where: O
+    location: 4
+    modifier: -2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 9214
+  name: legbands platinum bands
+  short_desc: some platinum leg bands
+  description: A pair of platinum leg bands, once worn by the Cyclops, lie here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AF
+  values:
+  - 7
+  - 7
+  - 7
+  - 0
+  - 0
+  level: 22
+  weight: 4
+  cost: 220
+  affects:
+  - where: O
+    location: 2
+    modifier: 1
+    bitvector: '0'
+  - where: O
+    location: 3
+    modifier: -2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 9215
+  name: wand
+  short_desc: elemental wand of fire
+  description: A fire wand lies forgotten on the ground.
+  material: none
+  item_type: 3
+  extra_flags: A
+  wear_flags: AO
+  values:
+  - 15
+  - 3
+  - 3
+  - 26
+  - 0
+  level: 5
+  weight: 7
+  cost: 50
+  affects: []
+  extra_descs: []
+- vnum: 9216
+  name: staff ice
+  short_desc: an ice staff
+  description: An ice staff lies forgotten on the ground.
+  material: none
+  item_type: 4
+  extra_flags: A
+  wear_flags: AO
+  values:
+  - 21
+  - 3
+  - 3
+  - 202
+  - 0
+  level: 8
+  weight: 7
+  cost: 80
+  affects: []
+  extra_descs: []
+- vnum: 9217
+  name: rod earthquake
+  short_desc: an elemental rod of earthquake
+  description: An earthquake rod lies forgotten on the ground.
+  material: none
+  item_type: 3
+  extra_flags: A
+  wear_flags: AO
+  values:
+  - 7
+  - 3
+  - 3
+  - 23
+  - 0
+  level: 3
+  weight: 7
+  cost: 30
+  affects: []
+  extra_descs: []
+- vnum: 9218
+  name: wand air wind
+  short_desc: elemental wand of wind and air
+  description: An air wand lies forgotten on the ground.
+  material: none
+  item_type: 3
+  extra_flags: A
+  wear_flags: AO
+  values:
+  - 11
+  - 1
+  - 1
+  - 203
+  - 0
+  level: 3
+  weight: 7
+  cost: 30
+  affects: []
+  extra_descs: []
+- vnum: 9219
+  name: wand
+  short_desc: elemental wand of lightning
+  description: A lightning wand lies forgotten on the ground.
+  material: none
+  item_type: 3
+  extra_flags: A
+  wear_flags: AO
+  values:
+  - 9
+  - 1
+  - 1
+  - 30
+  - 0
+  level: 3
+  weight: 7
+  cost: 30
+  affects: []
+  extra_descs: []
+- vnum: 9220
+  name: stone club
+  short_desc: a stone club
+  description: A large stone club lies on the ground.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 4
+  - 1
+  - 10
+  - 7
+  - 0
+  level: 3
+  weight: 16
+  cost: 30
+  affects: []
+  extra_descs: []
+- vnum: 9221
+  name: lode load lodestone loadstone stone
+  short_desc: a lodestone
+  description: A dull red rock lies here amid the weeds.
+  material: none
+  item_type: 3
+  extra_flags: '0'
+  wear_flags: AO
+  values:
+  - 19
+  - 2
+  - 2
+  - 27
+  - 0
+  level: 6
+  weight: 2
+  cost: 60
+  affects: []
+  extra_descs: []
+- vnum: 9222
+  name: lava lamp
+  short_desc: a lava lamp
+  description: A lantern which glows with a red glowing light has been dumped.
+  material: none
+  item_type: 1
+  extra_flags: A
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 1000
+  - 0
+  - 0
+  level: 8
+  weight: 4
+  cost: 80
+  affects: []
+  extra_descs: []
+- vnum: 9223
+  name: energy scroll
+  short_desc: an energy scroll
+  description: A scroll of energy replacement lies here.
+  material: none
+  item_type: 2
+  extra_flags: B
+  wear_flags: A
+  values:
+  - 19
+  - 15
+  - 81
+  - 0
+  - 0
+  level: 16
+  weight: 1
+  cost: 160
+  affects: []
+  extra_descs: []
+- vnum: 9224
+  name: water jug
+  short_desc: a water jug
+  description: A large but surprisingly light jug of water stands here.
+  material: none
+  item_type: 17
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 150
+  - 150
+  - 0
+  - 0
+  - 0
+  level: 6
+  weight: 5
+  cost: 60
+  affects: []
+  extra_descs: []
+- vnum: 9225
+  name: dust
+  short_desc: magic dust
+  description: A pile of dust of appearance has gathered here.
+  material: none
+  item_type: 26
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 20
+  - 19
+  - 0
+  - 0
+  - 0
+  level: 1
+  weight: 1
+  cost: 10
+  affects: []
+  extra_descs: []
+- vnum: 9226
+  name: flame lance
+  short_desc: a flame lance
+  description: A lance of blue flame burns the ground around it.
+  material: none
+  item_type: 5
+  extra_flags: A
+  wear_flags: AN
+  values:
+  - 3
+  - 5
+  - 6
+  - 3
+  - 0
+  level: 25
+  weight: 14
+  cost: 250
+  affects:
+  - where: O
+    location: 13
+    modifier: -20
+    bitvector: '0'
+  - where: O
+    location: 18
+    modifier: 2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 9227
+  name: icicle dagger ice
+  short_desc: an icicle
+  description: A glowing icicle dagger lies here amid a patch of frost.
+  material: none
+  item_type: 5
+  extra_flags: A
+  wear_flags: AN
+  values:
+  - 2
+  - 5
+  - 6
+  - 11
+  - 0
+  level: 23
+  weight: 1
+  cost: 230
+  affects:
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: '0'
+  - where: O
+    location: 1
+    modifier: -1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 9228
+  name: avalanche
+  short_desc: the Avalanche
+  description: An avalanche is about to crush you!
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 0
+  - 5
+  - 6
+  - 6
+  - 0
+  level: 24
+  weight: 16
+  cost: 240
+  affects:
+  - where: O
+    location: 18
+    modifier: -1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 9229
+  name: star morning
+  short_desc: the Morning Star
+  description: A chain with a star on the end lies here.
+  material: none
+  item_type: 5
+  extra_flags: A
+  wear_flags: AN
+  values:
+  - 6
+  - 5
+  - 7
+  - 11
+  - 0
+  level: 28
+  weight: 11
+  cost: 280
+  affects:
+  - where: O
+    location: 23
+    modifier: -5
+    bitvector: '0'
+  - where: O
+    location: 17
+    modifier: -3
+    bitvector: '0'
+  extra_descs: []
+- vnum: 9230
+  name: shock whip
+  short_desc: the Shock Whip
+  description: A whip hums innocently too itself.
+  material: none
+  item_type: 5
+  extra_flags: B
+  wear_flags: AN
+  values:
+  - 7
+  - 5
+  - 5
+  - 2
+  - 0
+  level: 22
+  weight: 10
+  cost: 220
+  affects:
+  - where: O
+    location: 19
+    modifier: 3
+    bitvector: '0'
+  - where: O
+    location: 1
+    modifier: -2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 9231
+  name: elixir anti
+  short_desc: anti-cyclops elixir
+  description: An elixir to ward off cyclopi has been bought then left behind here.
+  material: none
+  item_type: 10
+  extra_flags: '0'
+  wear_flags: AO
+  values:
+  - 15
+  - 29
+  - 0
+  - 0
+  - 0
+  level: 5
+  weight: 1
+  cost: 50
+  affects: []
+  extra_descs: []
+rooms:
+- vnum: 9216
+  name: The Floor of the Canyon
+  description: |
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always an incessant buzz of
+    things going on about.  The Canyon floor extends north, south and west.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9219
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9213
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9215
+  extra_descs: []
+- vnum: 9217
+  name: The Floor of the Canyon
+  description: |
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always an incessant buzz of
+    things going on about. The canyon floor extends east and south.  You can
+    climb a rise in the canyon floor to the north.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9253
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9218
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9214
+  extra_descs: []
+- vnum: 9218
+  name: The Floor of the Canyon
+  description: |
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always an incessant buzz of
+    things going on about.  The canyon floor extends east, south, and west.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9219
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9215
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9217
+  extra_descs: []
+- vnum: 9219
+  name: The Floor of the Canyon
+  description: |
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always an incessant buzz of
+    things going on about.  The canyon floor extends south and west.  You can
+    climb a rise in the canyon floor to the north.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9254
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9216
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9218
+  extra_descs: []
+- vnum: 9220
+  name: Dark Cave
+  description: |
+    You notice a path winding east among some huge boulders.  You feel a powerful
+    source of energy from that direction.
+  room_flags: AD
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9221
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9210
+  extra_descs: []
+- vnum: 9221
+  name: Darker Caves
+  description: |
+    You can barely see your way even with a light source.  The rocks of the cave
+    are even darker than the darkness.  You hear a powerful humming all around
+    you.  Cave paths go south and east roughly, its hard to tell exactly when you
+    can't see where you are going.
+  room_flags: AD
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9222
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9223
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9220
+  extra_descs: []
+- vnum: 9222
+  name: Darker Caves
+  description: |
+    You can barely see your way even with a light source.  The rocks of the cave
+    are even darker than the darkness.  You hear a powerful humming all around
+    you.  Cave paths go south and west roughly; it's hard to tell exactly when you
+    can't see where you are going.
+  room_flags: AD
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9224
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9221
+  extra_descs: []
+- vnum: 9223
+  name: Darker Caves
+  description: |
+    You can barely see your way even with a light source.  The rocks of the cave
+    are even darker than the darkness.  You hear a powerful humming all around you.
+    Cave paths go north, south and east roughly; it's hard to tell exactly when
+    you can't see where you are going.
+  room_flags: AD
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9221
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9224
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9225
+  extra_descs: []
+- vnum: 9224
+  name: Darker Caves
+  description: |
+    You can barely see your way even with a light source.  The rocks of the cave
+    are even darker than the darkness.  You hear a powerful humming all around you.
+    Cave paths go north, south and west roughly, it's hard to tell exactly when you
+    can't see where you are going.
+  room_flags: AD
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9222
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9226
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9223
+  extra_descs: []
+- vnum: 9225
+  name: Darkest Caves
+  description: |
+    Your light doesn't even seem to work here.  Even magical light sources seem
+    only to illuminate about a foot ahead of you.  You suddenly realize that the
+    path has descended quite a bit but you didn't notice before because of the
+    darkness.  You sense a great presence off to the east aways.
+  room_flags: AD
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9223
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9226
+  extra_descs: []
+- vnum: 9226
+  name: Darkest Caves
+  description: |
+    Your light doesn't even seem to work here.  Even magical light sources seem
+    only to illuminate about a foot ahead of you.  You suddenly realize that the
+    path has descended quite a bit but you didn't notice before because of the
+    darkness.  You sense a great presence directly to the east.
+  room_flags: AD
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9224
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9227
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9225
+  extra_descs: []
+- vnum: 9227
+  name: Earth Chamber
+  description: |
+    This is the abode of the Earth Ruler.  He decides about earthquakes,
+    landslides, and avalanches.  The Earth Ruler sits upon a huge marble throne
+    carved into the wall.
+  room_flags: AD
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9226
+  extra_descs:
+  - keywords: marble throne
+    description: |
+      The ruler notices your stare, and doesn't like it one bit!  The whole
+      earth seems to shake with his emotion.
+- vnum: 9228
+  name: By the River
+  description: |
+    The water in the river seems to bubble and froth with magic.  Though it
+    splashes playfully on you, it does not seem wet.  The path leads north closer
+    to the water. To the west you see a T-intersection.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9229
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9213
+  extra_descs: []
+- vnum: 9229
+  name: In the River
+  description: |
+    To continue you had to walk right in the river.  Though you walk along in
+    water up to your knees, you do not seem to get wet.  A bay stretches out to
+    the north and the river goes south.
+  room_flags: '0'
+  sector: 6
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9230
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9228
+  extra_descs: []
+- vnum: 9230
+  name: Elemental Bay
+  description: |
+    The water is crystal clear here and you can see the bottom of the bay 30 feet
+    below you.  Then you realize you are walking on the water itself.  Truly
+    magical water indeed.  Though you splash through the bay you do not get wet.
+  room_flags: '0'
+  sector: 6
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9233
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9231
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9229
+  extra_descs: []
+- vnum: 9231
+  name: Elemental Bay
+  description: |
+    The water is crystal clear here and you can see the bottom of the bay 30 feet
+    below you.  Then you realize you are walking on the water itself.  Truly
+    magical water indeed.  Though you splash through the bay you do not get wet.
+  room_flags: '0'
+  sector: 6
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9234
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9232
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9230
+  extra_descs: []
+- vnum: 9232
+  name: Elemental Bay
+  description: |
+    The water is crystal clear here and you can see the bottom of the bay 30 feet
+    below you.  Then you realize you are walking on the water itself.  Truly
+    magical water indeed.  Though you splash through the bay you do not get wet.
+  room_flags: '0'
+  sector: 6
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9235
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9231
+  extra_descs: []
+- vnum: 9233
+  name: Elemental Bay
+  description: |
+    The water is crystal clear here and you can see the bottom of the bay 30 feet
+    below you.  Then you realize you are walking on the water itself.  Truly
+    magical water indeed.  Though you splash through the bay you do not get wet.
+  room_flags: '0'
+  sector: 6
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9234
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9230
+  extra_descs: []
+- vnum: 9234
+  name: Elemental Bay
+  description: |
+    The water is crystal clear here and you can see the bottom of the bay 30 feet
+    below you.  Then you realize you are walking on the water itself.  Truly
+    magical water indeed.  Though you splash through the bay you do not get wet.
+  room_flags: '0'
+  sector: 6
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9235
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9231
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9233
+  extra_descs: []
+- vnum: 9235
+  name: Elemental Bay
+  description: |
+    The water is crystal clear here and you can see the bottom of the bay 30 feet
+    below you.  Then you realize you are walking on the water itself.  Truly
+    magical water indeed.  Though you splash through the bay you do not get wet.
+  room_flags: '0'
+  sector: 6
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9232
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9234
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9236
+  extra_descs: []
+- vnum: 9236
+  name: Water Chamber
+  description: |
+    This chamber was magically created here on the floor of the bay.  It looks
+    like it's been here for a long, long time.  Though you are 'under water' there
+    is no difficulty breathing normally, and oddly you do not feel the pressure of
+    the water above you.
+  room_flags: D
+  sector: 6
+  owner: ''
+  exits:
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9235
+  extra_descs: []
+- vnum: 9237
+  name: A Fiery Pathway
+  description: |
+    You tread carefully along a path which dips and turns among geysers of fire.
+    Miniature volcanoes spew lava in rivers.  The fire is hot but not altogether
+    dangerous.  The path extends east and south.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9214
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9238
+  extra_descs: []
+- vnum: 9238
+  name: A Fiery Pathway
+  description: |
+    You tread carefully along a path which dips and turns among pits of fire and
+    beds of coals.  A garden to the west glows with an everlasting fire.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9237
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9242
+  extra_descs: []
+- vnum: 9242
+  name: The Burning Gardens
+  description: |
+    Everywhere around you the landscape is afire; the rocks, the shrubs and even
+    the air seems to be aflame.  Curiously, the magical fire does not seem to
+    consume its hosts.  A path leads east among some fire pits.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9238
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9245
+  extra_descs: []
+- vnum: 9245
+  name: The Fire Chamber
+  description: |
+    The fire ruler sits upon a throne made of blue flame.  Little flickers of
+    flame dance to and fro for the entertainment of the ruler.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9242
+  extra_descs: []
+- vnum: 9246
+  name: Electric Pathway
+  description: |
+    The pathway glows and hums because of the electricity pulsing through it.
+    It seems almost soothing to your weary feet.  To the north there is a
+    sunken-in area.  A path leads east also.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9248
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9253
+  extra_descs: []
+- vnum: 9247
+  name: The Electric Playground
+  description: |
+    Though there is a seemingly carefree atmosphere here, you sense that
+    something much more important takes place near by.  The electric playground
+    extends north and east.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9249
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9248
+  extra_descs: []
+- vnum: 9248
+  name: The Electric Playground
+  description: |
+    Though there is a seemingly carefree atmosphere here, you sense that
+    something much more important takes place near by.  There is an electric
+    path heading away south.  The playground extends north and west.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9250
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9246
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9247
+  extra_descs: []
+- vnum: 9249
+  name: The Electric Playground
+  description: |
+    Though there is a seemingly carefree atmosphere here, you sense that
+    something much more important takes place near by.  The playground continues
+    south and east.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9250
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9247
+  extra_descs: []
+- vnum: 9250
+  name: The Electric Playground
+  description: |
+    Though there is a seemingly carefree atmosphere here, you sense that
+    something much more important takes place near by.  The playground is
+    south and west.  Something more important catches your eye to the east.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9251
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9248
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9249
+  extra_descs: []
+- vnum: 9251
+  name: Lightning Causeway
+  description: |
+    Up a set of stairs carved into the hill you see intermittent flashes of
+    lightning.  A continuous hum also comes form that direction.  To the west
+    is the electric playground.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9250
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9252
+  extra_descs: []
+- vnum: 9252
+  name: Lightning Chamber
+  description: |
+    There is some sort of control panel here. Apparently the Lightning Ruler
+    observes and controls electric forces from here.  A set of steps carved into
+    the hill lead down to a causeway.
+  room_flags: D
+  sector: 6
+  owner: ''
+  exits:
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9251
+  extra_descs: []
+- vnum: 9253
+  name: Mesa West
+  description: |
+    An electric path starts to the west.  The mesa continues to the east.
+    Or you can climb down to the canyon floor to the south.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9254
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9217
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9246
+  extra_descs: []
+- vnum: 9254
+  name: Mesa East
+  description: |
+    A path starts to the north.  The mesa continues to the west.
+    Or you can climb down to the canyon floor to the south.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9255
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9219
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9253
+  extra_descs: []
+- vnum: 9255
+  name: Floating in Air
+  description: |
+    Last you knew, you were walking on the mesa.  Abruptly the path dropped
+    from beneath your feet much to quick for you to recover.  Instead of
+    plunging to your death, you seemingly miss the ground and begin walking
+    on air.  The space to the north and east seems just thin air, but you can
+    walk there.  The pathway you came from is to the south.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9257
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9256
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9254
+  extra_descs: []
+- vnum: 9256
+  name: Floating in Air
+  description: |
+    You look down and see the ground 100 feet below you.  The wind whispering
+    in your ear seems to reassure you that this is fine.  To the north aways
+    you spy a portal of sorts.  To the west is more thin air.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9258
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9255
+  extra_descs: []
+- vnum: 9257
+  name: Floating in Air
+  description: |
+    You look down and see the ground 100 feet below you.  The wind whispering
+    in your ear seems to reassure you that this is fine.  To the east aways
+    you spy a portal of sorts.  To the south is more thin air.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9258
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9255
+  extra_descs: []
+- vnum: 9258
+  name: Floating in Air
+  description: |
+    You look down and see the ground 100 feet below you.  The wind whispering
+    in your ear seems to reassure you that this is fine. There is a portal
+    hanging in midair here. It is to the east.  You can float south or west
+    if you'd like.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9259
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9256
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9257
+  extra_descs:
+  - keywords: portal
+    description: |
+      Through the portal you see a tunnel.
+- vnum: 9259
+  name: Windy Tunnel
+  description: "A tunnel leads east.  To the west you can enter a portal. The wind\
+    \ in\nthis tunnel is quite fierce, it seems as if it's forced.  \n"
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9260
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9258
+  extra_descs:
+  - keywords: portal
+    description: |
+      Through the portal you see nothing but sky.
+- vnum: 9260
+  name: Air Chamber
+  description: |
+    Tiny tornadoes come and go and dance along the ground here.  At the back
+    of the chamber you notice a huge throne made of swirling clouds.
+    A tunnel leads west.
+  room_flags: D
+  sector: 6
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9259
+  extra_descs:
+  - keywords: throne clouds
+    description: |
+      Although the cloud throne appears solid enough to sit on, I wouldn't try
+      it if I were you!
+- vnum: 9201
+  name: A Mountain Path
+  description: |
+    You are on a mountain path which ascends a steep mountainside.  The trail
+    curves around the mountain so that you cannot really see what lies ahead.
+    You do sense great power though coming from the area behind the mountain.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 5267
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9202
+  extra_descs: []
+- vnum: 9202
+  name: A Mountain Path
+  description: |
+    You are on a rocky mountain path leading up and around a steep mountainside.
+    You sense a glow from the area beyond the mountain, which you cannot see yet.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9203
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9201
+  extra_descs: []
+- vnum: 9203
+  name: Mountainside Tombs
+  description: |
+    There are a few stone heaps here and there, the tombs of those who did not
+    last the arduous journey up the mountain.  Curiously you notice a few
+    uncovered bodies which don't seem to have died of exhaustion.  The path curves
+    east around the mountain.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9204
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9202
+  extra_descs:
+  - keywords: heaps stones tombs
+    description: |
+      You are sure glad that YOU aren't under one of those piles!
+      Many of the tombstones have the same name on them, 'Raff'.  He must come
+      here a lot.
+  - keywords: bodies body dead
+    description: |
+      They look as if their necks have been broken and their flesh, chewed.
+- vnum: 9204
+  name: A Blind Curve on the Mountain Path.
+  description: |
+    This looks like a normal mountain path, but it is NOT!  This section of the
+    path is habitated by a huge (and of course, man-eating) Cyclops.  The path
+    makes its final ascent to an overlook.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9205
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9203
+  extra_descs: []
+- vnum: 9205
+  name: Vista
+  description: "This is a stunning vista overlooking a canyon. There is a sign here\
+    \ that says:\n\n\tBEHOLD -- ELEMENTAL CANYON\n\nFire leaps up from firepits in\
+    \ the western part of the canyon.  The sky looks\nfunny, and the air seems hazy\
+    \ to the northwest.  Electricity sparks\nintermittently in the northeast.  To\
+    \ the east you see a strong, magic-looking\nriver flowing through the canyon.\
+    \  Also to the east you spy a cave entrance\nleading into the canyon wall.  The\
+    \ path descends to the north to another\noverlook.\n"
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9206
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9204
+  extra_descs: []
+- vnum: 9206
+  name: The Overlook
+  description: |
+    You see various elemental servants wandering around the canyon.  The noise of
+    humming coming from the canyon gets louder.  The path makes a steep descent
+    into the canyon here.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9205
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9207
+  extra_descs: []
+- vnum: 9207
+  name: Entrance to Elemental Canyon
+  description: |
+    You are awed by the sounds and sights of great powers at works here.
+    Elemental servants bustle back and forth doing the biddings of the elemental
+    rulers.  You see a sort of cross roads to the north, and you can climb up to
+    the overlook here.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9209
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9206
+  extra_descs: []
+- vnum: 9208
+  name: The Floor of the Canyon
+  description: |
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at all.
+    In general, it is calm, yet there is always a incessant buzz of things
+    going on about.  The canyon continues north and east.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9211
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9209
+  extra_descs: []
+- vnum: 9209
+  name: Elemental Gateway
+  description: |
+    To the west a path dips and winds among some flowing firepits.  To the
+    northeast a path goes toward the river.  Beyond toward the northeast and
+    northwest are outcrops which rise up from the canyon floor. To the east there
+    is a cave mouth which leads into the canyon wall.  And to the south the path
+    leads up, away, and out of the canyon.  Various pure and cross-breeds of
+    elemental forms wander the canyon floor, which extends in a wide swath
+    northwards.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9212
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9210
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9207
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9208
+  extra_descs: []
+- vnum: 9210
+  name: The Floor of the Canyon
+  description: |
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always a incessant buzz of
+    things going on about.  The canyon floor extends north and west.  There is a
+    cave mouth set into the canyon wall to the east.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9213
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9220
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9209
+  extra_descs: []
+- vnum: 9211
+  name: The Floor of the Canyon
+  description: |
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always an incessant buzz of
+    things going on about.  The canyon floor extends off to the north, east,
+    and south.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9214
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9212
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9208
+  extra_descs: []
+- vnum: 9212
+  name: The Floor of the Canyon
+  description: |
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always an incessant buzz of
+    things going on about.  The canyon floor extends in all directions.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9215
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9213
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9209
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9211
+  extra_descs: []
+- vnum: 9213
+  name: The Floor of the Canyon
+  description: |
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always an incessant buzz of
+    things going on about.  The canyon floor extends north, south, and west.
+    A path follows a stream to the east.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9216
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9228
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9210
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9212
+  extra_descs: []
+- vnum: 9214
+  name: The Floor of the Canyon
+  description: |
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always an incessant buzz of
+    things going on about. The canyon floor extends north, east, and south.
+    To the west a garden is on fire.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9217
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9215
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9211
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9237
+  extra_descs: []
+- vnum: 9215
+  name: The Floor of the Canyon
+  description: |
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always an incessant buzz of
+    things going on about.  The canyon floor extends in all directions.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9218
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9216
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9212
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9214
+  extra_descs: []
+resets:
+- command: M
+  arg1: 9231
+  arg2: 5
+  arg3: 9216
+- command: E
+  arg1: 9215
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 9203
+  arg2: 15
+  arg3: 9217
+- command: M
+  arg1: 9203
+  arg2: 15
+  arg3: 9218
+- command: M
+  arg1: 9205
+  arg2: 15
+  arg3: 9218
+- command: M
+  arg1: 9207
+  arg2: 6
+  arg3: 9218
+- command: M
+  arg1: 9207
+  arg2: 6
+  arg3: 9218
+- command: E
+  arg1: 9223
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 9233
+  arg2: 7
+  arg3: 9218
+- command: M
+  arg1: 9203
+  arg2: 15
+  arg3: 9219
+- command: E
+  arg1: 9225
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 9236
+  arg2: 15
+  arg3: 9220
+- command: M
+  arg1: 9220
+  arg2: 8
+  arg3: 9220
+- command: E
+  arg1: 9222
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 9217
+  arg2: 15
+  arg3: 9221
+- command: M
+  arg1: 9220
+  arg2: 8
+  arg3: 9221
+- command: M
+  arg1: 9223
+  arg2: 8
+  arg3: 9221
+- command: M
+  arg1: 9205
+  arg2: 12
+  arg3: 9222
+- command: E
+  arg1: 9224
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 9217
+  arg2: 15
+  arg3: 9222
+- command: M
+  arg1: 9221
+  arg2: 8
+  arg3: 9222
+- command: M
+  arg1: 9221
+  arg2: 8
+  arg3: 9222
+- command: M
+  arg1: 9224
+  arg2: 8
+  arg3: 9222
+- command: E
+  arg1: 9225
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 9217
+  arg2: 15
+  arg3: 9223
+- command: E
+  arg1: 9217
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 9217
+  arg2: 15
+  arg3: 9224
+- command: M
+  arg1: 9206
+  arg2: 9
+  arg3: 9225
+- command: E
+  arg1: 9219
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 9217
+  arg2: 15
+  arg3: 9225
+- command: M
+  arg1: 9216
+  arg2: 5
+  arg3: 9225
+- command: M
+  arg1: 9217
+  arg2: 15
+  arg3: 9226
+- command: M
+  arg1: 9208
+  arg2: 1
+  arg3: 9227
+- command: E
+  arg1: 9201
+  arg2: 0
+  arg3: 1
+- command: E
+  arg1: 9202
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 9217
+  arg2: 15
+  arg3: 9227
+- command: E
+  arg1: 9220
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 9217
+  arg2: 15
+  arg3: 9227
+- command: M
+  arg1: 9224
+  arg2: 8
+  arg3: 9227
+- command: M
+  arg1: 9236
+  arg2: 15
+  arg3: 9228
+- command: M
+  arg1: 9219
+  arg2: 8
+  arg3: 9228
+- command: M
+  arg1: 9219
+  arg2: 8
+  arg3: 9229
+- command: M
+  arg1: 9234
+  arg2: 6
+  arg3: 9230
+- command: E
+  arg1: 9218
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 9214
+  arg2: 15
+  arg3: 9230
+- command: M
+  arg1: 9214
+  arg2: 15
+  arg3: 9231
+- command: M
+  arg1: 9221
+  arg2: 8
+  arg3: 9231
+- command: M
+  arg1: 9221
+  arg2: 8
+  arg3: 9231
+- command: M
+  arg1: 9214
+  arg2: 15
+  arg3: 9232
+- command: M
+  arg1: 9216
+  arg2: 5
+  arg3: 9232
+- command: M
+  arg1: 9216
+  arg2: 5
+  arg3: 9232
+- command: M
+  arg1: 9222
+  arg2: 8
+  arg3: 9232
+- command: M
+  arg1: 9214
+  arg2: 15
+  arg3: 9233
+- command: E
+  arg1: 9216
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 9205
+  arg2: 12
+  arg3: 9234
+- command: M
+  arg1: 9214
+  arg2: 15
+  arg3: 9234
+- command: M
+  arg1: 9214
+  arg2: 15
+  arg3: 9235
+- command: E
+  arg1: 9224
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 9212
+  arg2: 1
+  arg3: 9236
+- command: E
+  arg1: 9209
+  arg2: 0
+  arg3: 13
+- command: E
+  arg1: 9210
+  arg2: 0
+  arg3: 12
+- command: M
+  arg1: 9214
+  arg2: 15
+  arg3: 9236
+- command: M
+  arg1: 9214
+  arg2: 15
+  arg3: 9236
+- command: M
+  arg1: 9236
+  arg2: 15
+  arg3: 9237
+- command: M
+  arg1: 9226
+  arg2: 1
+  arg3: 9238
+- command: E
+  arg1: 9226
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 9227
+  arg2: 1
+  arg3: 9238
+- command: E
+  arg1: 9230
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 9234
+  arg2: 6
+  arg3: 9238
+- command: E
+  arg1: 9217
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 9219
+  arg2: 8
+  arg3: 9238
+- command: M
+  arg1: 9220
+  arg2: 8
+  arg3: 9238
+- command: M
+  arg1: 9207
+  arg2: 6
+  arg3: 9242
+- command: M
+  arg1: 9228
+  arg2: 1
+  arg3: 9242
+- command: E
+  arg1: 9227
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 9229
+  arg2: 1
+  arg3: 9242
+- command: E
+  arg1: 9228
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 9230
+  arg2: 1
+  arg3: 9242
+- command: E
+  arg1: 9229
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 9215
+  arg2: 15
+  arg3: 9242
+- command: M
+  arg1: 9215
+  arg2: 15
+  arg3: 9242
+- command: E
+  arg1: 9215
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 9215
+  arg2: 15
+  arg3: 9242
+- command: M
+  arg1: 9220
+  arg2: 8
+  arg3: 9242
+- command: M
+  arg1: 9209
+  arg2: 1
+  arg3: 9245
+- command: E
+  arg1: 9203
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 9204
+  arg2: 0
+  arg3: 3
+- command: M
+  arg1: 9215
+  arg2: 15
+  arg3: 9245
+- command: E
+  arg1: 9215
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 9215
+  arg2: 15
+  arg3: 9245
+- command: M
+  arg1: 9215
+  arg2: 15
+  arg3: 9245
+- command: M
+  arg1: 9206
+  arg2: 9
+  arg3: 9246
+- command: M
+  arg1: 9236
+  arg2: 15
+  arg3: 9246
+- command: M
+  arg1: 9218
+  arg2: 15
+  arg3: 9246
+- command: M
+  arg1: 9219
+  arg2: 8
+  arg3: 9246
+- command: M
+  arg1: 9218
+  arg2: 15
+  arg3: 9247
+- command: M
+  arg1: 9218
+  arg2: 15
+  arg3: 9248
+- command: M
+  arg1: 9223
+  arg2: 8
+  arg3: 9248
+- command: M
+  arg1: 9235
+  arg2: 2
+  arg3: 9249
+- command: M
+  arg1: 9218
+  arg2: 15
+  arg3: 9249
+- command: M
+  arg1: 9205
+  arg2: 12
+  arg3: 9250
+- command: M
+  arg1: 9218
+  arg2: 15
+  arg3: 9250
+- command: E
+  arg1: 9219
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 9218
+  arg2: 15
+  arg3: 9251
+- command: M
+  arg1: 9211
+  arg2: 1
+  arg3: 9252
+- command: E
+  arg1: 9207
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 9208
+  arg2: 0
+  arg3: 11
+- command: M
+  arg1: 9218
+  arg2: 15
+  arg3: 9252
+- command: E
+  arg1: 9218
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 9218
+  arg2: 15
+  arg3: 9252
+- command: M
+  arg1: 9233
+  arg2: 8
+  arg3: 9253
+- command: M
+  arg1: 9223
+  arg2: 8
+  arg3: 9253
+- command: M
+  arg1: 9206
+  arg2: 9
+  arg3: 9254
+- command: M
+  arg1: 9222
+  arg2: 8
+  arg3: 9254
+- command: M
+  arg1: 9233
+  arg2: 7
+  arg3: 9255
+- command: M
+  arg1: 9236
+  arg2: 15
+  arg3: 9255
+- command: M
+  arg1: 9225
+  arg2: 15
+  arg3: 9255
+- command: E
+  arg1: 9218
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 9225
+  arg2: 15
+  arg3: 9255
+- command: E
+  arg1: 9225
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 9222
+  arg2: 8
+  arg3: 9255
+- command: M
+  arg1: 9225
+  arg2: 15
+  arg3: 9256
+- command: M
+  arg1: 9235
+  arg2: 2
+  arg3: 9257
+- command: E
+  arg1: 9216
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 9225
+  arg2: 15
+  arg3: 9257
+- command: M
+  arg1: 9224
+  arg2: 8
+  arg3: 9257
+- command: M
+  arg1: 9225
+  arg2: 15
+  arg3: 9258
+- command: M
+  arg1: 9225
+  arg2: 15
+  arg3: 9259
+- command: M
+  arg1: 9224
+  arg2: 8
+  arg3: 9259
+- command: M
+  arg1: 9210
+  arg2: 1
+  arg3: 9260
+- command: E
+  arg1: 9205
+  arg2: 0
+  arg3: 8
+- command: E
+  arg1: 9206
+  arg2: 0
+  arg3: 6
+- command: M
+  arg1: 9207
+  arg2: 6
+  arg3: 9260
+- command: E
+  arg1: 9220
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 9225
+  arg2: 15
+  arg3: 9260
+- command: M
+  arg1: 9225
+  arg2: 15
+  arg3: 9260
+- command: M
+  arg1: 9201
+  arg2: 3
+  arg3: 9201
+- command: M
+  arg1: 9201
+  arg2: 3
+  arg3: 9202
+- command: G
+  arg1: 9231
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 9236
+  arg2: 15
+  arg3: 9202
+- command: M
+  arg1: 9201
+  arg2: 3
+  arg3: 9203
+- command: M
+  arg1: 9238
+  arg2: 1
+  arg3: 9203
+- command: G
+  arg1: 9231
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 9202
+  arg2: 0
+  arg3: 9204
+- command: E
+  arg1: 9213
+  arg2: 0
+  arg3: 10
+- command: E
+  arg1: 9214
+  arg2: 0
+  arg3: 7
+- command: M
+  arg1: 9205
+  arg2: 12
+  arg3: 9207
+- command: M
+  arg1: 9236
+  arg2: 15
+  arg3: 9207
+- command: M
+  arg1: 9203
+  arg2: 15
+  arg3: 9208
+- command: M
+  arg1: 9232
+  arg2: 8
+  arg3: 9208
+- command: M
+  arg1: 9204
+  arg2: 1
+  arg3: 9209
+- command: E
+  arg1: 9211
+  arg2: 0
+  arg3: 3
+- command: E
+  arg1: 9212
+  arg2: 0
+  arg3: 14
+- command: M
+  arg1: 9205
+  arg2: 12
+  arg3: 9209
+- command: M
+  arg1: 9207
+  arg2: 6
+  arg3: 9209
+- command: M
+  arg1: 9232
+  arg2: 8
+  arg3: 9209
+- command: E
+  arg1: 9220
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 9203
+  arg2: 15
+  arg3: 9210
+- command: M
+  arg1: 9223
+  arg2: 8
+  arg3: 9210
+- command: E
+  arg1: 9221
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 9231
+  arg2: 5
+  arg3: 9211
+- command: E
+  arg1: 9215
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 9206
+  arg2: 9
+  arg3: 9212
+- command: E
+  arg1: 9221
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 9216
+  arg2: 5
+  arg3: 9212
+- command: M
+  arg1: 9222
+  arg2: 8
+  arg3: 9213
+- command: M
+  arg1: 9203
+  arg2: 15
+  arg3: 9215
+- command: M
+  arg1: 9203
+  arg2: 15
+  arg3: 9215
+shops:
+- keeper: 9238
+  buy_types:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  profit_buy: 105
+  profit_sell: 15
+  open_hour: 0
+  close_hour: 23
+specials:
+- vnum: 9219
+  spec_fun: spec_breath_acid
+- vnum: 9223
+  spec_fun: spec_breath_lightning
+- vnum: 9224
+  spec_fun: spec_thief
+- vnum: 9225
+  spec_fun: spec_thief
+- vnum: 9226
+  spec_fun: spec_breath_fire
+- vnum: 9227
+  spec_fun: spec_breath_lightning
+- vnum: 9228
+  spec_fun: spec_breath_frost
+- vnum: 9230
+  spec_fun: spec_breath_gas
+- vnum: 9231
+  spec_fun: spec_cast_mage
+- vnum: 9232
+  spec_fun: spec_cast_cleric
+- vnum: 9233
+  spec_fun: spec_cast_mage
+- vnum: 9234
+  spec_fun: spec_thief
+- vnum: 9235
+  spec_fun: spec_breath_any
+- vnum: 9237
+  spec_fun: spec_breath_any
+- vnum: 9238
+  spec_fun: spec_cast_mage
+- vnum: 9202
+  spec_fun: spec_cast_cleric
+- vnum: 9204
+  spec_fun: spec_breath_any
+- vnum: 9207
+  spec_fun: spec_breath_any
+- vnum: 9208
+  spec_fun: spec_cast_cleric
+- vnum: 9209
+  spec_fun: spec_breath_fire
+- vnum: 9210
+  spec_fun: spec_breath_gas
+- vnum: 9211
+  spec_fun: spec_breath_lightning
+- vnum: 9212
+  spec_fun: spec_breath_acid

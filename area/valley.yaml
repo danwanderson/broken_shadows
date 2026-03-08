@@ -1,0 +1,4201 @@
+area:
+  name: '{ 5 20} Hatchet Valley of the Elves'
+  builders: None
+  security: 9
+  area_flags: 0
+  vnums:
+  - 7800
+  - 7883
+mobiles:
+- vnum: 7800
+  keywords: dog cooshee
+  short_desc: a cooshee
+  long_desc: |
+    A rather large dog is here, wandering the valley.
+  description: |
+    A beast is the size of the largest common dog.  It has a greenish coat with
+    brown spots.  Its shape, along with its colors, make this cooshee almost
+    undetectable as it moves.
+  race: dog
+  act: AGHT
+  affected_by: P
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 5
+  hitroll: 0
+  hit:
+    number: 1
+    type: 16
+    bonus: 42
+  mana:
+    number: 5
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 4
+    bonus: 3
+  dam_type: 11
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: H
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: AGV
+  parts: ACDEFHJKUV
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 7801
+  keywords: elf valley
+  short_desc: a valley elf
+  long_desc: |
+    A valley elf wanders here, cautious of your intrusion.
+  description: |
+    This elf is almost as tall as you are, but much slimmer and agile.  You see
+    hatred in his eyes, and you try to avoid his stare.  His tense body looks ready
+    to spring upon you, like a mountain lion stalking its prey.  He sees you
+    noticing him, and quietly disappears.
+  race: Elf
+  act: ACFGHT
+  affected_by: JP
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 8
+  hitroll: 0
+  hit:
+    number: 2
+    type: 21
+    bonus: 73
+  mana:
+    number: 8
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 7
+    bonus: 4
+  dam_type: 7
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: B
+  vuln_flags: Z
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 1
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 7802
+  keywords: elf valley
+  short_desc: a valley elf
+  long_desc: |
+    A female valley elf wanders here, skirting between the tall grasses.
+  description: |
+    This elf is almost as tall as you are, but much slimmer and more agile.
+    She glares at you, then quickly disappears before you see more of her.
+  race: Elf
+  act: ACFGHT
+  affected_by: JP
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 8
+  hitroll: 0
+  hit:
+    number: 2
+    type: 21
+    bonus: 73
+  mana:
+    number: 8
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 7
+    bonus: 4
+  dam_type: 3
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: B
+  vuln_flags: Z
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 1
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 7803
+  keywords: elf sentry valley
+  short_desc: a valley elf sentry
+  long_desc: |
+    A valley elf sentry stands here, then noticing you, attacks quickly!
+  description: |
+    This elf is almost as tall as you are, but much slimmer and more agile.
+    He glares at your intrusion and attacks with menace.
+  race: Elf
+  act: ABFT
+  affected_by: JP
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 7
+  hitroll: 0
+  hit:
+    number: 1
+    type: 33
+    bonus: 61
+  mana:
+    number: 7
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 6
+    bonus: 3
+  dam_type: 3
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: B
+  vuln_flags: Z
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 1
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 7804
+  keywords: elf sentry valley
+  short_desc: a valley elf sentry
+  long_desc: |
+    A valley elf sentry stands here, then noticing you, attacks quickly!
+  description: |
+    This elf is almost as tall as you are, but much slimmer and more agile.
+    She glares at your intrusion and attacks with menace.
+  race: Elf
+  act: ABFT
+  affected_by: JP
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 7
+  hitroll: 0
+  hit:
+    number: 1
+    type: 33
+    bonus: 61
+  mana:
+    number: 7
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 6
+    bonus: 3
+  dam_type: 11
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: B
+  vuln_flags: Z
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 1
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 7805
+  keywords: elf scout valley
+  short_desc: a valley elf scout
+  long_desc: |
+    A valley elf scout wanders the valley, searching for intruders like you!
+  description: |
+    The elf notices your intrusion and attacks with determination.
+  race: Elf
+  act: ACFGT
+  affected_by: JP
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 6
+  hitroll: 0
+  hit:
+    number: 1
+    type: 24
+    bonus: 51
+  mana:
+    number: 6
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 5
+    bonus: 3
+  dam_type: 11
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: B
+  vuln_flags: Z
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 1
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 7806
+  keywords: elf valley
+  short_desc: a valley elf
+  long_desc: |
+    A valley elf is here, doing her duties.
+  description: |
+    She is currently doing some menial chores, and ignores your intrusion except
+    when you are in her way.
+  race: Elf
+  act: AGHT
+  affected_by: JP
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 6
+  hitroll: 0
+  hit:
+    number: 1
+    type: 24
+    bonus: 51
+  mana:
+    number: 6
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 5
+    bonus: 3
+  dam_type: 3
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: B
+  vuln_flags: Z
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 1
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 7807
+  keywords: elf elder valley
+  short_desc: a valley elf elder
+  long_desc: |
+    A valley elf elder is here, studying.  He notices you.
+    A valley elf elder shouts 'You have intruded wrongly.  Be prepared to die!'
+  description: |
+    This elf looks quite old, probably twenty or more times your age.  He looks
+    quite potent, though.
+  race: Elf
+  act: ABCFT
+  affected_by: HJN
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 14
+  hitroll: 0
+  hit:
+    number: 4
+    type: 33
+    bonus: 145
+  mana:
+    number: 14
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 6
+    bonus: 7
+  dam_type: 7
+  ac:
+    pierce: 1
+    bash: 1
+    slash: 1
+    exotic: 5
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: B
+  vuln_flags: Z
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 1
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_cleric
+- vnum: 7808
+  keywords: elf elder valley
+  short_desc: a valley elf elder
+  long_desc: |
+    A valley elf elder is here, studying.  She notices you.
+    A valley elf elder says 'Your arrogance will be your end, human.'
+  description: |
+    This elf looks quite old, probably twenty or more times your age.  She looks
+    quite potent, though.
+  race: Elf
+  act: ABCFT
+  affected_by: JN
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 15
+  hitroll: 0
+  hit:
+    number: 4
+    type: 37
+    bonus: 162
+  mana:
+    number: 15
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 6
+    bonus: 9
+  dam_type: 3
+  ac:
+    pierce: 0
+    bash: 0
+    slash: 0
+    exotic: 5
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: B
+  vuln_flags: Z
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 1
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_mage
+- vnum: 7809
+  keywords: pyrohydra pyro hydra
+  short_desc: the pyrohydra
+  long_desc: |
+    A big beast with many heads, each breathing fire, stares at you with malice.
+  description: |
+    This big beast looks like a small red dragon, but has many more heads than a
+    regular dragon, too.  It doesn't look happy.
+  race: Human
+  act: ABFT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 21
+  hitroll: 0
+  hit:
+    number: 8
+    type: 37
+    bonus: 252
+  mana:
+    number: 21
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 7
+    bonus: 12
+  dam_type: 11
+  ac:
+    pierce: -3
+    bash: -3
+    slash: -3
+    exotic: 3
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_breath_fire
+- vnum: 7810
+  keywords: hermit man old
+  short_desc: an old hermit
+  long_desc: |
+    An old hermit sits here, smoking a pipe.
+  description: |
+    He looks old and feeble.
+  race: Human
+  act: ABCHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 3
+  hitroll: 0
+  hit:
+    number: 1
+    type: 6
+    bonus: 23
+  mana:
+    number: 3
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 5
+    bonus: 1
+  dam_type: 3
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 1
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 7811
+  keywords: talemon wizard mage
+  short_desc: Talemon
+  long_desc: |
+    An old mage busies himself with some chemicals.
+  description: |
+    Talemon looks harmless, but the fireballs he throws at you don't.
+  race: Human
+  act: ABCFT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 25
+  hitroll: 0
+  hit:
+    number: 10
+    type: 42
+    bonus: 322
+  mana:
+    number: 25
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 8
+    bonus: 16
+  dam_type: 11
+  ac:
+    pierce: -5
+    bash: -5
+    slash: -5
+    exotic: 2
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 100
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_mage
+- vnum: 7812
+  keywords: guardian daemon
+  short_desc: the guardian daemon
+  long_desc: |
+    A huge guardian daemon is here, watching the treasure.
+  description: |
+    This daemon is unhappy with its summoned job, and is willing to take out it's
+    anger at you!
+  race: Human
+  act: ABFT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -500
+  clan: 0
+  level: 24
+  hitroll: 0
+  hit:
+    number: 10
+    type: 38
+    bonus: 311
+  mana:
+    number: 24
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 8
+    bonus: 14
+  dam_type: 7
+  ac:
+    pierce: -5
+    bash: -5
+    slash: -5
+    exotic: 2
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 7813
+  keywords: wolf
+  short_desc: a wolf
+  long_desc: |
+    A wolf is here, looking for small prey.
+  description: |
+    The wolf is covered with brown hair.  It looks at you with fright.
+  race: Wolf
+  act: AFHT
+  affected_by: Z
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 4
+  hitroll: 0
+  hit:
+    number: 1
+    type: 10
+    bonus: 33
+  mana:
+    number: 4
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 7
+    bonus: 2
+  dam_type: 11
+  ac:
+    pierce: 7
+    bash: 7
+    slash: 7
+    exotic: 8
+  off_flags: FH
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: AGV
+  parts: ACDEFJKQV
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 7814
+  keywords: antelope
+  short_desc: an antelope
+  long_desc: |
+    An antelope is here, peacefully munching on grass.
+  description: |
+    With horns and spots over coarse, brown hair, this beast is the spit and
+    image of ... an antelope.
+  race: Human
+  act: AHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 5
+  hitroll: 0
+  hit:
+    number: 1
+    type: 16
+    bonus: 42
+  mana:
+    number: 5
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 4
+    bonus: 3
+  dam_type: 11
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+objects:
+- vnum: 7800
+  name: chainmail elven chain mail
+  short_desc: elven chainmail
+  description: A shiny metallic shirt is on the floor.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AD
+  values:
+  - 4
+  - 4
+  - 4
+  - 0
+  - 0
+  level: 7
+  weight: 3
+  cost: 70
+  affects: []
+  extra_descs: []
+- vnum: 7801
+  name: boots elven
+  short_desc: elven boots
+  description: Some soft boots are on the floor.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AG
+  values:
+  - 4
+  - 4
+  - 4
+  - 0
+  - 0
+  level: 6
+  weight: 3
+  cost: 60
+  affects:
+  - where: O
+    location: 14
+    modifier: 50
+    bitvector: '0'
+  extra_descs: []
+- vnum: 7802
+  name: longsword elven sword long
+  short_desc: an elven longsword
+  description: A shiny blade is on the floor.
+  material: none
+  item_type: 5
+  extra_flags: G
+  wear_flags: AN
+  values:
+  - 1
+  - 3
+  - 5
+  - 3
+  - 0
+  level: 10
+  weight: 3
+  cost: 100
+  affects:
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 7803
+  name: cloak brown
+  short_desc: a brown cloak
+  description: A pile of brown cloth is on the floor.
+  material: none
+  item_type: 9
+  extra_flags: G
+  wear_flags: AC
+  values:
+  - 4
+  - 4
+  - 4
+  - 0
+  - 0
+  level: 6
+  weight: 3
+  cost: 60
+  affects:
+  - where: O
+    location: 2
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 7804
+  name: key
+  short_desc: a key
+  description: A shiny key is on the floor.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 7846
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 14
+  weight: 1
+  cost: 140
+  affects: []
+  extra_descs: []
+- vnum: 7805
+  name: key
+  short_desc: a key
+  description: A shiny key is on the floor.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 7880
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 21
+  weight: 1
+  cost: 210
+  affects: []
+  extra_descs: []
+- vnum: 7806
+  name: ring gold
+  short_desc: a gold ring
+  description: A shiny ring is on the floor.
+  material: none
+  item_type: 9
+  extra_flags: G
+  wear_flags: AB
+  values:
+  - 5
+  - 5
+  - 5
+  - 0
+  - 0
+  level: 14
+  weight: 1
+  cost: 140
+  affects:
+  - where: O
+    location: 12
+    modifier: 10
+    bitvector: '0'
+  extra_descs: []
+- vnum: 7807
+  name: quarterstaff staff
+  short_desc: a quarterstaff
+  description: A quarterstaff is on the floor.
+  material: none
+  item_type: 5
+  extra_flags: G
+  wear_flags: AN
+  values:
+  - 3
+  - 4
+  - 5
+  - 8
+  - 0
+  level: 14
+  weight: 5
+  cost: 140
+  affects:
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 7808
+  name: potion
+  short_desc: a potion
+  description: A potion is on the floor.
+  material: none
+  item_type: 10
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 10
+  - 1
+  - 29
+  - 0
+  - 0
+  level: 23
+  weight: 1
+  cost: 230
+  affects: []
+  extra_descs: []
+- vnum: 7809
+  name: potion
+  short_desc: a potion
+  description: A potion is on the floor.
+  material: none
+  item_type: 10
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 10
+  - 25
+  - 0
+  - 0
+  - 0
+  level: 13
+  weight: 1
+  cost: 130
+  affects: []
+  extra_descs: []
+- vnum: 7810
+  name: potion
+  short_desc: a potion
+  description: A potion is on the floor.
+  material: none
+  item_type: 10
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 10
+  - 44
+  - 20
+  - 0
+  - 0
+  level: 23
+  weight: 1
+  cost: 230
+  affects: []
+  extra_descs: []
+- vnum: 7811
+  name: potion
+  short_desc: a potion
+  description: A potion is on the floor.
+  material: none
+  item_type: 10
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 50
+  - 59
+  - 59
+  - 59
+  - 0
+  level: 23
+  weight: 1
+  cost: 230
+  affects: []
+  extra_descs: []
+- vnum: 7812
+  name: potion
+  short_desc: a potion
+  description: A potion is on the floor.
+  material: none
+  item_type: 10
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 10
+  - 81
+  - 34
+  - 0
+  - 0
+  level: 23
+  weight: 1
+  cost: 230
+  affects: []
+  extra_descs: []
+- vnum: 7813
+  name: potion
+  short_desc: a potion
+  description: A potion is on the floor.
+  material: none
+  item_type: 10
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 10
+  - 38
+  - 0
+  - 0
+  - 0
+  level: 23
+  weight: 1
+  cost: 230
+  affects: []
+  extra_descs: []
+- vnum: 7814
+  name: potion
+  short_desc: a potion
+  description: A potion is on the floor.
+  material: none
+  item_type: 10
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 10
+  - 3
+  - 0
+  - 0
+  - 0
+  level: 23
+  weight: 1
+  cost: 230
+  affects: []
+  extra_descs: []
+- vnum: 7815
+  name: potion
+  short_desc: a potion
+  description: A potion is on the floor.
+  material: none
+  item_type: 10
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 10
+  - 15
+  - 0
+  - 0
+  - 0
+  level: 13
+  weight: 1
+  cost: 130
+  affects: []
+  extra_descs: []
+- vnum: 7816
+  name: potion
+  short_desc: a potion
+  description: A potion is on the floor.
+  material: none
+  item_type: 10
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 10
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 13
+  weight: 1
+  cost: 130
+  affects: []
+  extra_descs: []
+- vnum: 7817
+  name: scroll
+  short_desc: a scroll
+  description: A scroll is on the floor.
+  material: none
+  item_type: 2
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 10
+  - 15
+  - 0
+  - 0
+  - 0
+  level: 13
+  weight: 1
+  cost: 130
+  affects: []
+  extra_descs: []
+- vnum: 7818
+  name: scroll
+  short_desc: a scroll
+  description: A scroll is on the floor.
+  material: none
+  item_type: 2
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 10
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 23
+  weight: 1
+  cost: 230
+  affects: []
+  extra_descs: []
+- vnum: 7819
+  name: scroll
+  short_desc: a scroll
+  description: A scroll is on the floor.
+  material: none
+  item_type: 2
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 10
+  - 18
+  - 0
+  - 0
+  - 0
+  level: 13
+  weight: 1
+  cost: 130
+  affects: []
+  extra_descs: []
+- vnum: 7820
+  name: scroll
+  short_desc: a scroll
+  description: A scroll is on the floor.
+  material: none
+  item_type: 2
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 10
+  - 13
+  - 0
+  - 0
+  - 0
+  level: 13
+  weight: 1
+  cost: 130
+  affects: []
+  extra_descs: []
+- vnum: 7821
+  name: scroll
+  short_desc: a scroll
+  description: A scroll is on the floor.
+  material: none
+  item_type: 2
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 10
+  - 32
+  - 0
+  - 0
+  - 0
+  level: 23
+  weight: 1
+  cost: 230
+  affects: []
+  extra_descs: []
+- vnum: 7822
+  name: scroll
+  short_desc: a scroll
+  description: A scroll is on the floor.
+  material: none
+  item_type: 2
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 10
+  - 8
+  - 0
+  - 0
+  - 0
+  level: 23
+  weight: 1
+  cost: 230
+  affects: []
+  extra_descs: []
+- vnum: 7823
+  name: scroll
+  short_desc: a scroll
+  description: A scroll is on the floor.
+  material: none
+  item_type: 2
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 10
+  - 28
+  - 0
+  - 0
+  - 0
+  level: 13
+  weight: 1
+  cost: 130
+  affects: []
+  extra_descs: []
+- vnum: 7824
+  name: rod light
+  short_desc: the Rod of Neutrality
+  description: A dull iron shaft is on the floor.
+  material: none
+  item_type: 1
+  extra_flags: GJK
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 999
+  - 0
+  - 0
+  level: 25
+  weight: 1
+  cost: 250
+  affects:
+  - where: O
+    location: 19
+    modifier: 3
+    bitvector: '0'
+  extra_descs: []
+rooms:
+- vnum: 7800
+  name: A Path from the Plains
+  description: |
+    You are on a path away from the Plains of Ofcol.  The path doesn't look well
+    tread, but it is relatively well kept.  To the south are the Plains of Ofcol,
+    while this path leads north.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The path continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7801
+  - dir: 2
+    desc: |
+      You see the Plains of Ofcol.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 323
+  extra_descs: []
+- vnum: 7801
+  name: Along the Path
+  description: |
+    You are on the path away from the Plains of Ofcol.  The main path leads north
+    to an overlook and south back toward the Plains of Ofcol.  Western and eastern
+    side paths can be seen, probably deer trails by the width of them.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see the overlook.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7804
+  - dir: 1
+    desc: |
+      You see the small trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7803
+  - dir: 2
+    desc: |
+      You see the path back toward Ofcol.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7800
+  - dir: 3
+    desc: |
+      You see the small trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7802
+  extra_descs: []
+- vnum: 7802
+  name: A Small Trail
+  description: |
+    This small deer trail leads north and east.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The trail continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7867
+  - dir: 1
+    desc: |
+      The main path is to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7801
+  extra_descs: []
+- vnum: 7803
+  name: A Small Trail
+  description: |
+    This small deer trail leads north and west.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The trail continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7849
+  - dir: 3
+    desc: |
+      The main path is to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7801
+  extra_descs: []
+- vnum: 7804
+  name: The Overlook
+  description: |
+    You are above a large valley.  Below you, you see humanoid forms wandering
+    around the valley.  Rich green grass covers the valley, with some small trees
+    dotting the landscape.  To the south is the trail back toward Ofcol.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      You see the path back toward Ofcol.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7801
+  - dir: 5
+    desc: |
+      You see the entrance to the valley.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7805
+  extra_descs: []
+- vnum: 7805
+  name: The Entrance to the Valley of the Elves
+  description: |
+    You are at the entrance to the Valley of the Elves.  Elves stare at your
+    intrusion, but most are too busy to bother with you.  The valley spreads to
+    the north, while enlarging toward the east and west.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The valley continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7810
+  - dir: 1
+    desc: |
+      The valley continues east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7807
+  - dir: 3
+    desc: |
+      The valley continues west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7806
+  - dir: 4
+    desc: |
+      The overlook is above you.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7804
+  extra_descs: []
+- vnum: 7806
+  name: The Edge of the Valley
+  description: |
+    You are at the edge of the Valley of the Elves.  High above you, you see a small
+    trail circling the entire valley.  The valley continues north and east.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The valley continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7809
+  - dir: 1
+    desc: |
+      The entrance to the valley is to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7805
+  extra_descs: []
+- vnum: 7807
+  name: The Edge of the Valley
+  description: |
+    You are at the edge of the Valley of the Elves.  High above you, you see a small
+    trail circling the entire valley.  The valley continues north and west.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The valley continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7811
+  - dir: 3
+    desc: |
+      The entrance to the valley is to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7805
+  extra_descs: []
+- vnum: 7808
+  name: The Edge of the Valley
+  description: |
+    You are at the edge of the Valley of the Elves.  High above you, you see a small
+    trail circling the entire valley.  The valley continues north and east.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The valley continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7813
+  - dir: 1
+    desc: |
+      The valley continues east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7809
+  extra_descs: []
+- vnum: 7809
+  name: The Valley of the Elves
+  description: |
+    You are in the Valley of the Elves.  The valley continues in all directions.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The valley continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7814
+  - dir: 1
+    desc: |
+      The valley continues east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7810
+  - dir: 2
+    desc: |
+      The valley continues south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7806
+  - dir: 3
+    desc: |
+      The valley continues west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7808
+  extra_descs: []
+- vnum: 7810
+  name: The Valley of the Elves
+  description: |
+    You are in the Valley of the Elves.  The valley continues in all directions.
+    The entrance to the valley is towards the south.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The valley continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7815
+  - dir: 1
+    desc: |
+      The valley continues east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7811
+  - dir: 2
+    desc: |
+      You see the entrance to the valley.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7805
+  - dir: 3
+    desc: |
+      The valley continues west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7809
+  extra_descs: []
+- vnum: 7811
+  name: The Valley of the Elves
+  description: |
+    You are in the Valley of the Elves.  The valley continues in all directions.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The valley continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7816
+  - dir: 1
+    desc: |
+      The valley continues east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7812
+  - dir: 2
+    desc: |
+      The valley continues south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7807
+  - dir: 3
+    desc: |
+      The valley continues west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7810
+  extra_descs: []
+- vnum: 7812
+  name: The Edge of the Valley
+  description: |
+    You are at the edge of the Valley of the Elves.  High above you, you see a small
+    trail circling the entire valley.  The valley continues north and west.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The valley continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7817
+  - dir: 3
+    desc: |
+      The valley continues west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7811
+  extra_descs: []
+- vnum: 7813
+  name: The Edge of the Valley
+  description: |
+    You are at the edge of the Valley of the Elves.  A steep trail leads up toward
+    the deer trail circling the valley.  The valley continues north, south, and
+    east.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The valley continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7818
+  - dir: 1
+    desc: |
+      The valley continues east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7814
+  - dir: 2
+    desc: |
+      The valley continues south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7808
+  - dir: 4
+    desc: |
+      The steep trail leads up.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7863
+  extra_descs: []
+- vnum: 7814
+  name: The Valley of the Elves
+  description: |
+    You are in the Valley of the Elves.  The valley continues in all directions.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The valley continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7819
+  - dir: 1
+    desc: |
+      The valley continues east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7815
+  - dir: 2
+    desc: |
+      The valley continues south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7809
+  - dir: 3
+    desc: |
+      The valley continues west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7813
+  extra_descs: []
+- vnum: 7815
+  name: The Valley of the Elves
+  description: |
+    You are in the Valley of the Elves.  The valley continues in all directions.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The valley continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7820
+  - dir: 1
+    desc: |
+      The valley continues east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7816
+  - dir: 2
+    desc: |
+      The valley continues south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7810
+  - dir: 3
+    desc: |
+      The valley continues west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7814
+  extra_descs: []
+- vnum: 7816
+  name: The Valley of the Elves
+  description: |
+    You are in the Valley of the Elves.  The valley continues in all directions.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The valley continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7821
+  - dir: 1
+    desc: |
+      The valley continues east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7817
+  - dir: 2
+    desc: |
+      The valley continues south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7811
+  - dir: 3
+    desc: |
+      The valley continues west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7815
+  extra_descs: []
+- vnum: 7817
+  name: The Edge of the Valley
+  description: |
+    You are at the edge of the Valley of the Elves.  A steep trail leads up toward
+    the deer trail circling the valley.  The valley continues north, south, and
+    west.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The valley continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7822
+  - dir: 2
+    desc: |
+      The valley continues south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7812
+  - dir: 3
+    desc: |
+      The valley continues west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7816
+  - dir: 4
+    desc: |
+      The steep trail leads up.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7853
+  extra_descs: []
+- vnum: 7818
+  name: The Edge of the Valley
+  description: |
+    You are at the edge of the Valley of the Elves.  High above you, you see a
+    small trail circling the entire valley.  The valley continues south and east.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The valley continues east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7819
+  - dir: 2
+    desc: |
+      The valley continues south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7813
+  extra_descs: []
+- vnum: 7819
+  name: The Valley of the Elves
+  description: |
+    You are in the Valley of the Elves.  The valley continues in all directions.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The valley continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7823
+  - dir: 1
+    desc: |
+      The valley continues east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7820
+  - dir: 2
+    desc: |
+      The valley continues south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7814
+  - dir: 3
+    desc: |
+      The valley continues west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7818
+  extra_descs: []
+- vnum: 7820
+  name: The Valley of the Elves
+  description: |
+    You are in the Valley of the Elves.  The valley continues in all directions.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The valley continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7824
+  - dir: 1
+    desc: |
+      The valley continues east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7821
+  - dir: 2
+    desc: |
+      The valley continues south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7815
+  - dir: 3
+    desc: |
+      The valley continues west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7819
+  extra_descs: []
+- vnum: 7821
+  name: The Valley of the Elves
+  description: |
+    You are in the Valley of the Elves.  The valley continues in all directions.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The valley continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7825
+  - dir: 1
+    desc: |
+      The valley continues east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7822
+  - dir: 2
+    desc: |
+      The valley continues south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7816
+  - dir: 3
+    desc: |
+      The valley continues west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7820
+  extra_descs: []
+- vnum: 7822
+  name: The Edge of the Valley
+  description: |
+    You are at the edge of the Valley of the Elves.  High above you, you see a small
+    trail circling the entire valley.  The valley continues south and west.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      The valley continues south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7817
+  - dir: 3
+    desc: |
+      The valley continues west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7821
+  extra_descs: []
+- vnum: 7823
+  name: The Edge of the Valley
+  description: |
+    You are at the edge of the Valley of the Elves.  High above you, you see a small
+    trail circling the entire valley.  The valley continues south and east.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The valley continues east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7824
+  - dir: 2
+    desc: |
+      The valley continues south
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7819
+  extra_descs: []
+- vnum: 7824
+  name: The Edge of the Valley
+  description: |
+    You are in the Valley of the Elves.  The valley continues in all directions.
+    To the north, a small, narrow trail leads away from the valley.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      A small trail leads away from the valley.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7826
+  - dir: 1
+    desc: |
+      The valley continues east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7825
+  - dir: 2
+    desc: |
+      The valley continues south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7820
+  - dir: 3
+    desc: |
+      The valley continues west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7823
+  extra_descs: []
+- vnum: 7825
+  name: The Edge of the Valley
+  description: "You are at the edge of the Valley of the Elves.  High above you, you\
+    \ see\na small trail circling the entire valley.  The valley continues south and\n\
+    west.  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      The valley continues south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7821
+  - dir: 3
+    desc: |
+      The valley continues west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7824
+  extra_descs: []
+- vnum: 7826
+  name: A Trail Leading from the Valley
+  description: |
+    You are on a narrow trail leading away from the Valley of the Elves.  This
+    trail leads north and south.  A rope ladder leads up to a rope bridge.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The trail continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7827
+  - dir: 2
+    desc: |
+      The trail leads back to the valley.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7824
+  - dir: 4
+    desc: |
+      You see the rope bridge above you.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7858
+  extra_descs: []
+- vnum: 7827
+  name: Along the Trail
+  description: |
+    You are on the trail away from the Valley of the Elves.  The hills around you
+    keep this trail narrow.  The trail continues east, south, and west.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The trail continues east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7828
+  - dir: 2
+    desc: |
+      The trail continues south back toward the valley.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7826
+  - dir: 3
+    desc: |
+      The trail continues west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7868
+  extra_descs: []
+- vnum: 7828
+  name: A Bend in the Trail
+  description: |
+    You are on the trail away from the Valley of the Elves.  The hills around you
+    keep this trail narrow.  The trail continues north and back west.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see a small valley north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7829
+  - dir: 3
+    desc: |
+      The trail goes back to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7827
+  extra_descs: []
+- vnum: 7829
+  name: A Smaller Valley
+  description: |
+    You are in another valley within these hills. To the north, you can see a
+    building, and to the south you see the trail away from this valley.  The
+    west and east paths surround this building.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see the building.
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 7834
+  - dir: 1
+    desc: |
+      You see the trail around the building.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7831
+  - dir: 2
+    desc: |
+      You see the trail leading away from this valley.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7828
+  - dir: 3
+    desc: |
+      You see the trail around the building.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7830
+  extra_descs: []
+- vnum: 7830
+  name: A Trail in the Valley
+  description: |
+    You are on the trail in the Valley of the Elves.  This trail leads north and
+    east.  To the north-east is a building.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7832
+  - dir: 1
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7829
+  extra_descs: []
+- vnum: 7831
+  name: A Trail in the Valley
+  description: |
+    You are on the trail in the Valley of the Elves.  This trail leads west and
+    east.  To the north is a building.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7833
+  - dir: 3
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7829
+  extra_descs: []
+- vnum: 7832
+  name: A Trail in the Valley
+  description: |
+    You are on the trail in the Valley of the Elves.  This trail leads north and
+    south.  To the east is a building.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7837
+  - dir: 2
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7830
+  extra_descs: []
+- vnum: 7833
+  name: A Trail in the Valley
+  description: |
+    You are on the trail in the Valley of the Elves.  This trail leads north and
+    west.  To the north-west is a building.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7836
+  - dir: 3
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7831
+  extra_descs: []
+- vnum: 7834
+  name: The Elf Home
+  description: |
+    You are in the home of the valley elves.  The building continues to the north
+    and the east, and the exit is to the south.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The building continues to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7838
+  - dir: 1
+    desc: |
+      The building continues to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7835
+  - dir: 2
+    desc: |
+      The exit is to the south.
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 7829
+  extra_descs: []
+- vnum: 7835
+  name: The Kitchen
+  description: |
+    You are in a community kitchen for this valley elven home.  Pots and pans line
+    the walls, along with shelves filled with many foodstuffs.  A big oven is to one
+    side, and you can smell elfcakes being baked.
+    There is a doorway to the north and one to the west.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The building continues to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7839
+  - dir: 3
+    desc: |
+      The building continues to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7834
+  extra_descs: []
+- vnum: 7836
+  name: A Trail in the Valley
+  description: |
+    You are on the trail in the Valley of the Elves.  This trail leads north and
+    south.  To the west is a building.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7840
+  - dir: 2
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7833
+  extra_descs: []
+- vnum: 7837
+  name: A Trail in the Valley
+  description: |
+    You are on the trail in the Valley of the Elves.  This trail leads north and
+    south.  To the east is a building.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7841
+  - dir: 2
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7832
+  extra_descs: []
+- vnum: 7838
+  name: The Living Room
+  description: |
+    You are in the living room of the elven home.  Mats cover the floor, and a
+    on a table is a bowl full of fruits.  Through the window you can see the
+    valley, with its wild flowers and tall, green grasses.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The building continues to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7839
+  - dir: 2
+    desc: |
+      The entrance is to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7834
+  extra_descs: []
+- vnum: 7839
+  name: The Storage Room
+  description: |
+    You are in the storage room of the elven home.  Sacks of flour cover one side,
+    and cleaning accessories cover the other side.  You find nothing of use here.
+    A staircase leads up.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      The building continues to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7835
+  - dir: 3
+    desc: |
+      The building continues to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7838
+  - dir: 4
+    desc: |
+      You see the second floor.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7848
+  extra_descs: []
+- vnum: 7840
+  name: A Trail in the Valley
+  description: |
+    You are on the trail in the Valley of the Elves.  This trail leads north and
+    south.  To the west is a building.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7844
+  - dir: 2
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7836
+  extra_descs: []
+- vnum: 7841
+  name: A Trail in the Valley
+  description: |
+    You are on the trail in the Valley of the Elves.  This trail leads south and
+    east.  To the south-east is a building.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7842
+  - dir: 2
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7837
+  extra_descs: []
+- vnum: 7842
+  name: A Trail in the Valley
+  description: |
+    You are on the trail in the Valley of the Elves.  This trail leads west and
+    east.  To the south is a building.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7843
+  - dir: 3
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7841
+  extra_descs: []
+- vnum: 7843
+  name: A Trail in the Valley
+  description: |
+    You are on the trail in the Valley of the Elves.  This trail leads east and
+    west.  To the south is a building.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7844
+  - dir: 3
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7842
+  extra_descs: []
+- vnum: 7844
+  name: A Trail in the Valley
+  description: |
+    You are on the trail in the Valley of the Elves.  This trail leads south and
+    west.  To the south-west is a building.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7840
+  - dir: 3
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7843
+  extra_descs: []
+- vnum: 7845
+  name: The Elders' Room
+  description: |
+    You are in the room of the valley elf elders.  Books written in strange
+    languages line the numerous shelves, and scrolls cover a table.  There is a
+    smooth spheric object in the center of the room.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see another room.
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 7847
+  - dir: 1
+    desc: |
+      You see another room.
+    keywords: door
+    exit_flags: AC
+    key: 7804
+    to_vnum: 7846
+  extra_descs: []
+- vnum: 7846
+  name: The Storage Room
+  description: |
+    You are in a storage room.  Many useless (to you) items fill this room.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see another room.
+    keywords: door
+    exit_flags: AC
+    key: 7804
+    to_vnum: 7848
+  - dir: 3
+    desc: |
+      You see another room.
+    keywords: door
+    exit_flags: AC
+    key: 7804
+    to_vnum: 7845
+  extra_descs: []
+- vnum: 7847
+  name: The Sleeping Quarters
+  description: |
+    You are in the sleeping quarters of the valley elves.  Cots line the floor,
+    with two windows showing a view of the valley.  Books in strange languages
+    line the shelves, but nothing of interest is here.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see another room.
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 7848
+  - dir: 2
+    desc: |
+      You see another room.
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 7845
+  extra_descs: []
+- vnum: 7848
+  name: Study
+  description: |
+    You are in the study room of the valley elves.  Comfortable mats are on the
+    floor, and musical instruments are neatly stacked on shelves.  Books in
+    strange languages line some other elves.  A stairway leads down to the
+    first floor.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      You see another room.
+    keywords: door
+    exit_flags: AC
+    key: 7804
+    to_vnum: 7846
+  - dir: 3
+    desc: |
+      You see another room.
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 7847
+  - dir: 5
+    desc: |
+      You see the first floor.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7839
+  extra_descs: []
+- vnum: 7849
+  name: Along a Windy Trail on the Rim of the Valley
+  description: |
+    You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
+    you can see the valley, filled with wild flowers and tall, green grasses.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7850
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7803
+  - dir: 5
+    desc: |
+      The trail down doesn't look safe to travel on at all.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7883
+  extra_descs: []
+- vnum: 7850
+  name: Along a Windy Trail on the Rim of the Valley
+  description: |
+    You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
+    you can see the valley, filled with wild flowers and tall, green grasses.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7851
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7849
+  - dir: 5
+    desc: |
+      The trail down doesn't look safe to travel on at all.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7883
+  extra_descs: []
+- vnum: 7851
+  name: Along a Windy Trail on the Rim of the Valley
+  description: |
+    You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
+    you can see the valley, filled with wild flowers and tall, green grasses.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7852
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7850
+  - dir: 5
+    desc: |
+      The trail down doesn't look safe to travel on at all.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7883
+  extra_descs: []
+- vnum: 7852
+  name: Along a Windy Trail on the Rim of the Valley
+  description: |
+    You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
+    you can see the valley, filled with wild flowers and tall, green grasses.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7853
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7851
+  - dir: 5
+    desc: |
+      The trail down doesn't look safe to travel on at all.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7883
+  extra_descs: []
+- vnum: 7853
+  name: Along a Windy Trail on the Rim of the Valley
+  description: |
+    You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
+    you can see the valley, filled with wild flowers and tall, green grasses.
+    A safe trail leads down into the valley.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7854
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7852
+  - dir: 5
+    desc: |
+      The trail down looks safe.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7817
+  extra_descs: []
+- vnum: 7854
+  name: Along a Windy Trail on the Rim of the Valley
+  description: |
+    You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
+    you can see the valley, filled with wild flowers and tall, green grasses.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7853
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7855
+  - dir: 5
+    desc: |
+      The trail down doesn't look safe to travel on at all.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7883
+  extra_descs: []
+- vnum: 7855
+  name: Along a Windy Trail on the Rim of the Valley
+  description: |
+    You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
+    you can see the valley, filled with wild flowers and tall, green grasses.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7856
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7854
+  - dir: 5
+    desc: |
+      The trail down doesn't look safe to travel on at all.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7883
+  extra_descs: []
+- vnum: 7856
+  name: Along a Windy Trail on the Rim of the Valley
+  description: |
+    You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
+    you can see the valley, filled with wild flowers and tall, green grasses.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7855
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7857
+  - dir: 5
+    desc: |
+      The trail down doesn't look safe to travel on at all.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7883
+  extra_descs: []
+- vnum: 7857
+  name: Along a Windy Trail on the Rim of the Valley
+  description: |
+    You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
+    you can see the valley, filled with wild flowers and tall, green grasses.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7856
+  - dir: 3
+    desc: You see a rope bridge
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7858
+  - dir: 5
+    desc: |
+      The trail down doesn't look safe to travel on at all.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7883
+  extra_descs: []
+- vnum: 7858
+  name: On the Rope Bridge
+  description: |
+    You are on the rope bridge.  From here, you can see the whole Valley of the
+    Elves.  To the south, you see the main valley.  To the north-east, you see a
+    smaller valley with a building in the center of it.  To the north-west, you
+    can see a very small valley with a shack in it's center.  A rope ladder
+    leads down into a trail.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7857
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7859
+  - dir: 5
+    desc: |
+      You see the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7826
+  extra_descs: []
+- vnum: 7859
+  name: Along a Windy Trail on the Rim of the Valley
+  description: |
+    You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
+    you can see the valley, filled with wild flowers and tall, green grasses.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see a rope bridge.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7858
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7860
+  - dir: 5
+    desc: |
+      The trail down doesn't look safe to travel on at all.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7883
+  extra_descs: []
+- vnum: 7860
+  name: Along a Windy Trail on the Rim of the Valley
+  description: |
+    You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
+    you can see the valley, filled with wild flowers and tall, green grasses.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7859
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7861
+  - dir: 5
+    desc: |
+      The trail down doesn't look safe to travel on at all.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7883
+  extra_descs: []
+- vnum: 7861
+  name: Along a Windy Trail on the Rim of the Valley
+  description: |
+    You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
+    you can see the valley, filled with wild flowers and tall, green grasses.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7860
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7862
+  - dir: 5
+    desc: |
+      The trail down doesn't look safe to travel on at all.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7883
+  extra_descs: []
+- vnum: 7862
+  name: Along a Windy Trail on the Rim of the Valley
+  description: |
+    You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
+    you can see the valley, filled with wild flowers and tall, green grasses.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7861
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7863
+  - dir: 5
+    desc: |
+      The trail down doesn't look safe to travel on at all.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7883
+  extra_descs: []
+- vnum: 7863
+  name: Along a Windy Trail on the Rim of the Valley
+  description: |
+    You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
+    you can see the valley, filled with wild flowers and tall, green grasses.
+    A safe trail leads down into the valley.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7862
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7864
+  - dir: 5
+    desc: |
+      The trail down looks safe.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7813
+  extra_descs: []
+- vnum: 7864
+  name: Along a Windy Trail on the Rim of the Valley
+  description: |
+    You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
+    you can see the valley, filled with wild flowers and tall, green grasses.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7863
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7865
+  - dir: 5
+    desc: |
+      The trail down doesn't look safe to travel on at all.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7883
+  extra_descs: []
+- vnum: 7865
+  name: Along a Windy Trail on the Rim of the Valley
+  description: |
+    You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
+    you can see the valley, filled with wild flowers and tall, green grasses.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7866
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7864
+  - dir: 5
+    desc: |
+      The trail down doesn't look safe to travel on at all.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7883
+  extra_descs: []
+- vnum: 7866
+  name: Along a Windy Trail on the Rim of the Valley
+  description: |
+    You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
+    you can see the valley, filled with wild flowers and tall, green grasses.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7865
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7867
+  - dir: 5
+    desc: |
+      The trail down doesn't look safe to travel on at all.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7883
+  extra_descs: []
+- vnum: 7867
+  name: Along a Windy Trail on the Rim of the Valley
+  description: |
+    You are on a narrow trail on the rim of the Valley of the Elves.  Below you,
+    you can see the valley, filled with wild flowers and tall, green grasses.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7802
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7866
+  - dir: 5
+    desc: |
+      The trail down doesn't look safe to travel on at all.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7883
+  extra_descs: []
+- vnum: 7868
+  name: A Bend in the Trail
+  description: |
+    You are on a bend in the trail leading from the main valley.  The hills around
+    you make this trail quite narrow.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The trail continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7869
+  - dir: 1
+    desc: |
+      The trail continues east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7827
+  extra_descs: []
+- vnum: 7869
+  name: A Bend in the Trail
+  description: |
+    You are on a bend in the trail leading from the main valley.  The hills around
+    you make this trail quite narrow.  To the west, you can see an even smaller
+    valley, with looks like a small shack in the center of it.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      The trail continues south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7868
+  - dir: 3
+    desc: |
+      The entrance to the small valley is to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7870
+  extra_descs: []
+- vnum: 7870
+  name: The Small Valley
+  description: "You are in the small valley.  Strangely, tall trees grow here, almost\
+    \ as\nif some magic was used to help them grow.  The exit from this valley is\
+    \ to\nthe east, and the entrance to the shack is to the west.  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The valley continues to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7871
+  - dir: 1
+    desc: |
+      The exit from this small valley is to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7869
+  - dir: 2
+    desc: |
+      The valley continues to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7872
+  - dir: 3
+    desc: |
+      You see the small shack.
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 7878
+  extra_descs: []
+- vnum: 7871
+  name: The Small Valley
+  description: |
+    You are in the small valley.  Strangely, tall trees grow here, almost as if some
+    magic was used to help them grow.  To the south-west is a small shack.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      The valley continues to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7870
+  - dir: 3
+    desc: |
+      The valley continues to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7873
+  extra_descs: []
+- vnum: 7872
+  name: The Small Valley
+  description: "You are in the small valley.  Strangely, tall trees grow here, almost\
+    \ as\nif some magic was used to help them grow.  To the north-west is a small\n\
+    shack.  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The valley continues to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7870
+  - dir: 3
+    desc: |
+      The valley continues to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7877
+  extra_descs: []
+- vnum: 7873
+  name: The Small Valley
+  description: |
+    You are in the small valley.  Strangely, tall trees grow here, almost as if some
+    magic was used to help them grow.  To the south is a small shack.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The valley continues to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7871
+  - dir: 3
+    desc: |
+      The valley continues to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7874
+  extra_descs: []
+- vnum: 7874
+  name: The Small Valley
+  description: |
+    You are in the small valley.  Strangely, tall trees grow here, almost as if some
+    magic was used to help them grow.  To the south-east is a small shack.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The valley continues to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7873
+  - dir: 2
+    desc: |
+      The valley continues to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7875
+  extra_descs: []
+- vnum: 7875
+  name: The Small Valley
+  description: |
+    You are in the small valley.  Strangely, tall trees grow here, almost as if some
+    magic was used to help them grow.  To the east is a small shack.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The valley continues to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7874
+  - dir: 2
+    desc: |
+      The valley continues to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7876
+  extra_descs: []
+- vnum: 7876
+  name: The Small Valley
+  description: |
+    You are in the small valley.  Strangely, tall trees grow here, almost as if some
+    magic was used to help them grow.  To the north-east is a small shack.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The valley continues to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7875
+  - dir: 1
+    desc: |
+      The valley continues to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7877
+  extra_descs: []
+- vnum: 7877
+  name: The Small Valley
+  description: "You are in the small valley.  Strangely, tall trees grow here, almost\
+    \ as\nif some magic was used to help them grow.  To the north is a small shack.\
+    \  \n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The valley continues to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7872
+  - dir: 3
+    desc: |
+      The valley continues to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7876
+  extra_descs: []
+- vnum: 7878
+  name: Inside the Small Shack
+  description: |
+    You are inside the small shack.  A small stove is on the side, with soup
+    cooking over it.  You see nothing valuable.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see the valley outside.
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 7870
+  - dir: 5
+    desc: |
+      You see a trap door!
+    keywords: trap door
+    exit_flags: A
+    key: -1
+    to_vnum: 7879
+  extra_descs: []
+- vnum: 7879
+  name: Beneath the Small Shack
+  description: |
+    You are beneath the small shack, in a tunnel that leads south.  It feels
+    quite warm down here.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      The room looks reddish down there.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7880
+  - dir: 4
+    desc: |
+      Back to known territory!
+    keywords: trap door
+    exit_flags: A
+    key: -1
+    to_vnum: 7878
+  extra_descs: []
+- vnum: 7880
+  name: The Den of the Pyrohydra
+  description: |
+    You are in the den of the pyrohydra.  All the walls are charred, and this
+    room is filled with a smell close to that of burning tar.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see the relative safety to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 7879
+  - dir: 1
+    desc: |
+      You see breaks in the charred rock to the east.
+    keywords: secret
+    exit_flags: AC
+    key: 7805
+    to_vnum: 7882
+  - dir: 3
+    desc: |
+      You see a door to the west.
+    keywords: door
+    exit_flags: AC
+    key: 7805
+    to_vnum: 7881
+  extra_descs: []
+- vnum: 7881
+  name: The Workroom
+  description: |
+    This room looks like it is used for magical studies.  Potions bubble over
+    burners, and the whole room spells of herbs and dead animal flesh.  A furnace
+    to the side casts a bright light in this room.  The whole room radiates with
+    a magical aura.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: door
+    exit_flags: AC
+    key: 7805
+    to_vnum: 7880
+  extra_descs: []
+- vnum: 7882
+  name: The Storage Room
+  description: |
+    This room is used to store scrolls, potions, and other magical items.  The
+    whole room radiates with a magical aura.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: secret door
+    exit_flags: AC
+    key: 7805
+    to_vnum: 7880
+  extra_descs: []
+- vnum: 7883
+  name: WAY Far Down into the Valley
+  description: |
+    You have fallen trying to go down this steep hill.  Maybe that wasn't that
+    good an idea, huh?
+
+
+    You've fallen, and you can't get up!
+  room_flags: C
+  sector: 0
+  owner: ''
+  exits: []
+  extra_descs: []
+resets:
+- command: D
+  arg1: 7829
+  arg2: 0
+  arg3: 0
+- command: D
+  arg1: 7834
+  arg2: 2
+  arg3: 0
+- command: D
+  arg1: 7845
+  arg2: 0
+  arg3: 0
+- command: D
+  arg1: 7845
+  arg2: 1
+  arg3: 2
+- command: D
+  arg1: 7846
+  arg2: 0
+  arg3: 2
+- command: D
+  arg1: 7846
+  arg2: 3
+  arg3: 2
+- command: D
+  arg1: 7847
+  arg2: 1
+  arg3: 0
+- command: D
+  arg1: 7847
+  arg2: 2
+  arg3: 0
+- command: D
+  arg1: 7848
+  arg2: 2
+  arg3: 2
+- command: D
+  arg1: 7848
+  arg2: 3
+  arg3: 0
+- command: D
+  arg1: 7870
+  arg2: 3
+  arg3: 0
+- command: D
+  arg1: 7878
+  arg2: 1
+  arg3: 0
+- command: D
+  arg1: 7878
+  arg2: 5
+  arg3: 0
+- command: D
+  arg1: 7879
+  arg2: 4
+  arg3: 0
+- command: D
+  arg1: 7880
+  arg2: 1
+  arg3: 2
+- command: D
+  arg1: 7880
+  arg2: 3
+  arg3: 2
+- command: D
+  arg1: 7881
+  arg2: 1
+  arg3: 2
+- command: D
+  arg1: 7882
+  arg2: 3
+  arg3: 2
+- command: M
+  arg1: 7801
+  arg2: 1
+  arg3: 7805
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 7800
+  arg2: 1
+  arg3: 7806
+- command: M
+  arg1: 7800
+  arg2: 2
+  arg3: 7807
+- command: M
+  arg1: 7802
+  arg2: 2
+  arg3: 7811
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 7814
+  arg2: 3
+  arg3: 7815
+- command: M
+  arg1: 7801
+  arg2: 6
+  arg3: 7816
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 7801
+  arg2: 3
+  arg3: 7818
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 7813
+  arg2: 3
+  arg3: 7818
+- command: M
+  arg1: 7801
+  arg2: 2
+  arg3: 7820
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 7802
+  arg2: 6
+  arg3: 7820
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 7800
+  arg2: 5
+  arg3: 7823
+- command: M
+  arg1: 7814
+  arg2: 3
+  arg3: 7825
+- command: M
+  arg1: 7805
+  arg2: 3
+  arg3: 7827
+- command: E
+  arg1: 7801
+  arg2: 0
+  arg3: 8
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 7803
+  arg2: 0
+  arg3: 3
+- command: M
+  arg1: 7813
+  arg2: 3
+  arg3: 7830
+- command: M
+  arg1: 7800
+  arg2: 6
+  arg3: 7833
+- command: M
+  arg1: 7806
+  arg2: 3
+  arg3: 7835
+- command: M
+  arg1: 7800
+  arg2: 3
+  arg3: 7837
+- command: M
+  arg1: 7806
+  arg2: 4
+  arg3: 7838
+- command: M
+  arg1: 7806
+  arg2: 5
+  arg3: 7839
+- command: M
+  arg1: 7802
+  arg2: 5
+  arg3: 7842
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 7805
+  arg2: 4
+  arg3: 7842
+- command: E
+  arg1: 7801
+  arg2: 0
+  arg3: 8
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 7803
+  arg2: 0
+  arg3: 3
+- command: M
+  arg1: 7801
+  arg2: 4
+  arg3: 7844
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 7807
+  arg2: 1
+  arg3: 7845
+- command: G
+  arg1: 7804
+  arg2: 0
+  arg3: 0
+- command: E
+  arg1: 7806
+  arg2: 0
+  arg3: 1
+- command: E
+  arg1: 7807
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 7808
+  arg2: 1
+  arg3: 7845
+- command: E
+  arg1: 7806
+  arg2: 0
+  arg3: 1
+- command: E
+  arg1: 7807
+  arg2: 0
+  arg3: 16
+- command: O
+  arg1: 7809
+  arg2: 0
+  arg3: 7846
+- command: O
+  arg1: 7823
+  arg2: 0
+  arg3: 7846
+- command: O
+  arg1: 7820
+  arg2: 0
+  arg3: 7846
+- command: O
+  arg1: 7817
+  arg2: 0
+  arg3: 7846
+- command: O
+  arg1: 7815
+  arg2: 0
+  arg3: 7846
+- command: O
+  arg1: 7816
+  arg2: 0
+  arg3: 7846
+- command: O
+  arg1: 7819
+  arg2: 0
+  arg3: 7846
+- command: M
+  arg1: 7806
+  arg2: 1
+  arg3: 7847
+- command: M
+  arg1: 7806
+  arg2: 2
+  arg3: 7847
+- command: M
+  arg1: 7803
+  arg2: 4
+  arg3: 7848
+- command: E
+  arg1: 7800
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 7801
+  arg2: 0
+  arg3: 8
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 7803
+  arg2: 0
+  arg3: 3
+- command: M
+  arg1: 7804
+  arg2: 1
+  arg3: 7848
+- command: E
+  arg1: 7800
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 7801
+  arg2: 0
+  arg3: 8
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 7803
+  arg2: 0
+  arg3: 3
+- command: M
+  arg1: 7804
+  arg2: 1
+  arg3: 7850
+- command: E
+  arg1: 7800
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 7801
+  arg2: 0
+  arg3: 8
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 7803
+  arg2: 0
+  arg3: 3
+- command: M
+  arg1: 7805
+  arg2: 1
+  arg3: 7852
+- command: E
+  arg1: 7801
+  arg2: 0
+  arg3: 8
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 7803
+  arg2: 0
+  arg3: 3
+- command: M
+  arg1: 7814
+  arg2: 3
+  arg3: 7852
+- command: M
+  arg1: 7803
+  arg2: 1
+  arg3: 7853
+- command: E
+  arg1: 7800
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 7801
+  arg2: 0
+  arg3: 8
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 7803
+  arg2: 0
+  arg3: 3
+- command: M
+  arg1: 7802
+  arg2: 4
+  arg3: 7854
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 7804
+  arg2: 1
+  arg3: 7856
+- command: E
+  arg1: 7800
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 7801
+  arg2: 0
+  arg3: 8
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 7803
+  arg2: 0
+  arg3: 3
+- command: M
+  arg1: 7803
+  arg2: 3
+  arg3: 7860
+- command: E
+  arg1: 7800
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 7801
+  arg2: 0
+  arg3: 8
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 7803
+  arg2: 0
+  arg3: 3
+- command: M
+  arg1: 7813
+  arg2: 3
+  arg3: 7860
+- command: M
+  arg1: 7805
+  arg2: 2
+  arg3: 7862
+- command: E
+  arg1: 7801
+  arg2: 0
+  arg3: 8
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 7803
+  arg2: 0
+  arg3: 3
+- command: M
+  arg1: 7804
+  arg2: 1
+  arg3: 7863
+- command: E
+  arg1: 7800
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 7801
+  arg2: 0
+  arg3: 8
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 7803
+  arg2: 0
+  arg3: 3
+- command: M
+  arg1: 7802
+  arg2: 3
+  arg3: 7865
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 7803
+  arg2: 2
+  arg3: 7866
+- command: E
+  arg1: 7800
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 7801
+  arg2: 0
+  arg3: 8
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 7803
+  arg2: 0
+  arg3: 3
+- command: M
+  arg1: 7802
+  arg2: 1
+  arg3: 7868
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 7800
+  arg2: 4
+  arg3: 7873
+- command: M
+  arg1: 7805
+  arg2: 5
+  arg3: 7876
+- command: E
+  arg1: 7801
+  arg2: 0
+  arg3: 8
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 7803
+  arg2: 0
+  arg3: 3
+- command: M
+  arg1: 7801
+  arg2: 5
+  arg3: 7877
+- command: E
+  arg1: 7802
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 7810
+  arg2: 1
+  arg3: 7878
+- command: M
+  arg1: 7809
+  arg2: 1
+  arg3: 7880
+- command: G
+  arg1: 7805
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 7811
+  arg2: 1
+  arg3: 7881
+- command: E
+  arg1: 7806
+  arg2: 0
+  arg3: 1
+- command: E
+  arg1: 7807
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 7824
+  arg2: 0
+  arg3: 0
+- command: O
+  arg1: 7808
+  arg2: 0
+  arg3: 7882
+- command: O
+  arg1: 7822
+  arg2: 0
+  arg3: 7882
+- command: O
+  arg1: 7821
+  arg2: 0
+  arg3: 7882
+- command: O
+  arg1: 7810
+  arg2: 0
+  arg3: 7882
+- command: O
+  arg1: 7812
+  arg2: 0
+  arg3: 7882
+- command: O
+  arg1: 7811
+  arg2: 0
+  arg3: 7882
+- command: O
+  arg1: 7820
+  arg2: 0
+  arg3: 7882
+- command: O
+  arg1: 7815
+  arg2: 0
+  arg3: 7882
+- command: O
+  arg1: 7818
+  arg2: 0
+  arg3: 7882
+- command: O
+  arg1: 7814
+  arg2: 0
+  arg3: 7882
+- command: O
+  arg1: 7813
+  arg2: 0
+  arg3: 7882
+- command: O
+  arg1: 7823
+  arg2: 0
+  arg3: 7882
+- command: M
+  arg1: 7812
+  arg2: 1
+  arg3: 7882
+specials:
+- vnum: 7807
+  spec_fun: spec_cast_cleric
+- vnum: 7808
+  spec_fun: spec_cast_mage
+- vnum: 7809
+  spec_fun: spec_breath_fire
+- vnum: 7811
+  spec_fun: spec_cast_mage

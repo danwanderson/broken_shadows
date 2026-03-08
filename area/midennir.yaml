@@ -1,0 +1,2162 @@
+area:
+  name: '{ 5 15} Copper  Miden''nir'
+  builders: None
+  security: 9
+  area_flags: 0
+  vnums:
+  - 3500
+  - 3584
+mobiles:
+- vnum: 3500
+  keywords: wyvern
+  short_desc: the wyvern
+  long_desc: |
+    A monstrous wyvern slowly circles just above your head.
+  description: |
+    This huge winged creature looks really menacing.  You are happy it doesn't
+    APPEAR to be very hungry ... yet.
+  race: Wyvern
+  act: AG
+  affected_by: DFT
+  affected2_by: '0'
+  alignment: -200
+  clan: 0
+  level: 8
+  hitroll: 2
+  hit:
+    number: 8
+    type: 8
+    bonus: 80
+  mana:
+    number: 1
+    type: 1
+    bonus: 149
+  damage:
+    number: 2
+    type: 6
+    bonus: 1
+  dam_type: 10
+  ac:
+    pierce: 5
+    bash: 4
+    slash: 5
+    exotic: 6
+  off_flags: CDFHNR
+  imm_flags: L
+  res_flags: '0'
+  vuln_flags: S
+  start_pos: 8
+  default_pos: 8
+  sex: 3
+  gold: 0
+  form: BZc
+  parts: ACDEFHJKQUVX
+  size: H
+  material: none
+  spec_fun: spec_poison
+- vnum: 3501
+  keywords: goblin mountain
+  short_desc: the goblin
+  long_desc: |
+    A mountain goblin is wandering about, mumbling to himself.
+  description: |
+    You see before you a small and twisted creature with knotted muscles.
+  race: goblin
+  act: AFGT
+  affected_by: J
+  affected2_by: '0'
+  alignment: -500
+  clan: 0
+  level: 6
+  hitroll: 1
+  hit:
+    number: 4
+    type: 4
+    bonus: 65
+  mana:
+    number: 1
+    type: 1
+    bonus: 99
+  damage:
+    number: 2
+    type: 4
+    bonus: 1
+  dam_type: 17
+  ac:
+    pierce: 4
+    bash: 6
+    slash: 4
+    exotic: 9
+  off_flags: KR
+  imm_flags: '0'
+  res_flags: Q
+  vuln_flags: C
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 25
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: S
+  material: none
+  spec_fun: ''
+- vnum: 3502
+  keywords: boy small
+  short_desc: the small boy
+  long_desc: |
+    A small boy sits here, licking his wounds.
+  description: |
+    The poor boy has numerous cuts and scratches, but appears to be all right.
+    He is apparently the only survivor of the ambush.
+  race: Human
+  act: ABH
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 500
+  clan: 0
+  level: 4
+  hitroll: 0
+  hit:
+    number: 1
+    type: 12
+    bonus: 47
+  mana:
+    number: 1
+    type: 1
+    bonus: 99
+  damage:
+    number: 1
+    type: 6
+    bonus: 0
+  dam_type: 13
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 10
+  off_flags: I
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: C
+  start_pos: 5
+  default_pos: 5
+  sex: 1
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: S
+  material: none
+  spec_fun: ''
+- vnum: 3503
+  keywords: innkeeper
+  short_desc: the Innkeeper
+  long_desc: |
+    The Innkeeper stands here, cleaning glasses.
+  description: |
+    The Innkeeper now spends most of his days waiting for customers, while the
+    nights are spent watching out for goblins.  His inn is no longer the happy
+    place that is used to be in days past.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 500
+  clan: 0
+  level: 10
+  hitroll: 1
+  hit:
+    number: 1
+    type: 12
+    bonus: 200
+  mana:
+    number: 1
+    type: 1
+    bonus: 149
+  damage:
+    number: 2
+    type: 8
+    bonus: 1
+  dam_type: 17
+  ac:
+    pierce: 2
+    bash: 2
+    slash: 2
+    exotic: 8
+  off_flags: BFKQ
+  imm_flags: AB
+  res_flags: CD
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 350
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 3504
+  keywords: bard
+  short_desc: the bard
+  long_desc: |
+    A sullen bard is here, drinking away his problems.
+  description: |
+    You can smell the alcohol on his breath from across the room.  This poor bard
+    has been sitting here quite a while, drinking himself into oblivion.
+  race: Human
+  act: ABST
+  affected_by: D
+  affected2_by: '0'
+  alignment: 600
+  clan: 0
+  level: 8
+  hitroll: 3
+  hit:
+    number: 1
+    type: 12
+    bonus: 110
+  mana:
+    number: 1
+    type: 1
+    bonus: 99
+  damage:
+    number: 2
+    type: 6
+    bonus: 0
+  dam_type: 17
+  ac:
+    pierce: 3
+    bash: 5
+    slash: 3
+    exotic: 6
+  off_flags: FIJKNQ
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 6
+  default_pos: 6
+  sex: 1
+  gold: 260
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 3505
+  keywords: horseman dark
+  short_desc: the dark horseman
+  long_desc: |
+    A dark horseman is here, mounted on his black steed.
+  description: |
+    The man is obviously an outlaw, and has no qualms about slashing you into
+    little bits.
+  race: Human
+  act: AGHS
+  affected_by: P
+  affected2_by: '0'
+  alignment: -900
+  clan: 0
+  level: 8
+  hitroll: 2
+  hit:
+    number: 1
+    type: 12
+    bonus: 110
+  mana:
+    number: 1
+    type: 1
+    bonus: 99
+  damage:
+    number: 2
+    type: 5
+    bonus: 2
+  dam_type: 17
+  ac:
+    pierce: 5
+    bash: 3
+    slash: 3
+    exotic: 6
+  off_flags: BFJKQ
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 400
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 3506
+  keywords: goblin lieutenant
+  short_desc: the goblin lieutenant
+  long_desc: |
+    A goblin lieutenant stands here, attempting to get his men in order.
+  description: |
+    The goblin lieutenant is rather angry, and looking for one of his men to
+    beat up upon, but maybe you will do just fine ...
+  race: goblin
+  act: AFGT
+  affected_by: J
+  affected2_by: '0'
+  alignment: -600
+  clan: 0
+  level: 7
+  hitroll: 1
+  hit:
+    number: 1
+    type: 12
+    bonus: 100
+  mana:
+    number: 1
+    type: 1
+    bonus: 149
+  damage:
+    number: 1
+    type: 10
+    bonus: 1
+  dam_type: 17
+  ac:
+    pierce: 3
+    bash: 5
+    slash: 3
+    exotic: 8
+  off_flags: DKNR
+  imm_flags: '0'
+  res_flags: Q
+  vuln_flags: C
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 55
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 3507
+  keywords: goblin leader
+  short_desc: the goblin leader
+  long_desc: |
+    The goblin leader surveys the room.
+  description: |
+    The leader doesn't look too happy that you have found him here.  He grabs
+    for his shortsword and lunges for your neck.
+  race: goblin
+  act: ACFGT
+  affected_by: J
+  affected2_by: '0'
+  alignment: -900
+  clan: 0
+  level: 9
+  hitroll: 2
+  hit:
+    number: 1
+    type: 12
+    bonus: 120
+  mana:
+    number: 1
+    type: 1
+    bonus: 199
+  damage:
+    number: 1
+    type: 12
+    bonus: 3
+  dam_type: 17
+  ac:
+    pierce: 1
+    bash: 3
+    slash: 1
+    exotic: 6
+  off_flags: DJKNR
+  imm_flags: '0'
+  res_flags: Q
+  vuln_flags: C
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 500
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+objects:
+- vnum: 3500
+  name: sword short
+  short_desc: a goblin's short sword
+  description: A rusted sword lies on the ground.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 1
+  - 2
+  - 4
+  - 2
+  - 0
+  level: 5
+  weight: 4
+  cost: 50
+  affects:
+  - where: O
+    location: 18
+    modifier: -1
+    bitvector: '0'
+  extra_descs:
+  - keywords: sword
+    description: |
+      It looks heavier than your average short sword, but it could use some oiling.
+- vnum: 3501
+  name: spear long
+  short_desc: a long spear
+  description: A blackened spear with an evil-looking blade lies here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 8
+  - 2
+  - 5
+  - 25
+  - 32
+  level: 3
+  weight: 8
+  cost: 130
+  affects:
+  - where: O
+    location: 17
+    modifier: 2
+    bitvector: '0'
+  extra_descs:
+  - keywords: spear
+    description: |
+      This used to be a boar spear, but it has been used for more dangerous game.
+- vnum: 3502
+  name: helmet horned black
+  short_desc: a black horned helmet
+  description: A helmet with sharp black horns sits here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AE
+  values:
+  - 3
+  - 5
+  - 4
+  - 0
+  - 1
+  level: 5
+  weight: 3
+  cost: 100
+  affects: []
+  extra_descs: []
+- vnum: 3503
+  name: cloak stained
+  short_desc: a stained travelling cloak
+  description: A worn and stained cloak is crumpled up on the floor.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AC
+  values:
+  - 2
+  - 3
+  - 4
+  - 0
+  - 1
+  level: 3
+  weight: 4
+  cost: 20
+  affects: []
+  extra_descs: []
+- vnum: 3504
+  name: bracer leather enchanted
+  short_desc: an enchanted leather bracer
+  description: A leather bracer with mystic symbols sits here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AM
+  values:
+  - 2
+  - 4
+  - 4
+  - 2
+  - 0
+  level: 7
+  weight: 1
+  cost: 400
+  affects:
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: '0'
+  extra_descs:
+  - keywords: bracer
+    description: |
+      This bracer is covered with runes of protection and luck in combat.
+- vnum: 3505
+  name: knife dagger
+  short_desc: a rune-covered knife
+  description: A wide-bladed knife sits undisturbed on the floor.
+  material: none
+  item_type: 5
+  extra_flags: GK
+  wear_flags: AN
+  values:
+  - 2
+  - 2
+  - 4
+  - 2
+  - 0
+  level: 6
+  weight: 1
+  cost: 750
+  affects:
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: '0'
+  extra_descs:
+  - keywords: knife dagger
+    description: |
+      It's very sharp, you suspect this knife is more effective than many swords.
+      It appears to be of elvish origins, and is made of finely crafted mithril,
+      with a stylized ivory hilt.
+rooms:
+- vnum: 3500
+  name: The Plains
+  description: |
+    You are standing on the plains. This is a vast desolate place where the
+    wind can howl undisturbed since nothing but you bars its way. However you
+    are not the first to wander here. Before you somebody has left a small path.
+    The path looks rather bewildered and is not the kind of path to lead to
+    anywhere significant or important but it seems to have made up its mind to
+    enter the hills far away north.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 4000
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3501
+  extra_descs: []
+- vnum: 3501
+  name: The Lane
+  description: |
+    You are strolling along a pleasant, shady lane. The road is lined on both
+    sides by tall, stately trees which lend the scene with a sense of quiet
+    serenity. You can follow the road north or south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3500
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3502
+  extra_descs: []
+- vnum: 3502
+  name: The Cross Roads
+  description: |
+    Here, the great eastern road intersects with an older road between the mines
+    of Moria and the ruined city of Thalos.  The outskirts of Midgaard lie to your
+    west, and the highway continues the the east.  An old northern road leads to
+    the dwarven kingdom and the abandoned mines of Moria, while the southern road
+    shows the scars of the war which destroyed Thalos.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      An old road leads towards the abandoned mines of Moria and the Dwarven Kingom.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3501
+  - dir: 1
+    desc: |
+      The road continues east, where you hear faint singing.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3525
+  - dir: 2
+    desc: |
+      A once mighty road leads through the dwarf forest towards ruined Thalos.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 5261
+  - dir: 3
+    desc: |
+      The road leads west towards Midgaard.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3503
+  extra_descs: []
+- vnum: 3503
+  name: City Entrance
+  description: |
+    You stand on the outskirts of a large city - Midgaard; the capital of this
+    land. The road leads east into the peace and quiet - and dangers - of the
+    forest; and to the west it becomes the main street of the town; surrounded by
+    a confusion of shops, bars, and market places.
+  room_flags: C
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3502
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3053
+  extra_descs: []
+- vnum: 3505
+  name: The Trail to Miden'nir
+  description: |
+    You are in a light forest. A path leads south, but the passage to the
+    east is easy enough. To the west, smoke can be seen rising above the
+    treetops. The sprawl of Midgaard lies north of here.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north, you see the southern gates of Midgaard.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3256
+  - dir: 1
+    desc: |
+      More light forest.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3506
+  - dir: 2
+    desc: |
+      This path cuts through the darkness of the Miden'nir.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3507
+  - dir: 3
+    desc: |
+      The Woodsman's Inn.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3570
+  extra_descs:
+  - keywords: credits credit author
+    description: |
+      +-------------------------------------------------+
+      | This area originally written for Copper II DIKU |
+      |   by ?                                          |
+      | Modifications and alterations for MERCmud DIKU  |
+      |   by VampLestat                        1 JAN 93 |
+      +-------------------------------------------------+
+- vnum: 3506
+  name: The Miden'nir
+  description: |
+    You are in a dark forest. To the east, mountains block passage. From
+    here, only the lighter forest to the west or south offer a way to travel.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3550
+  - dir: 2
+    desc: |
+      The forest is darker to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3509
+  - dir: 3
+    desc: |
+      The forest gets lighter as you go west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3505
+  extra_descs: []
+- vnum: 3507
+  name: The Miden'nir
+  description: |
+    The forest is deep here and the wind blows through the trees and
+    through your hair. To the north, the forest gets lighter. However, the
+    southern and western paths place you even deeper in the wood.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The forest is lighter in this direction.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3505
+  - dir: 2
+    desc: |
+      More and darker woods.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3510
+  - dir: 3
+    desc: |
+      There is a small path leading west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3508
+  extra_descs: []
+- vnum: 3508
+  name: On a Small Path
+  description: |
+    A path is here, leading east and south through the dark woods of
+    Miden'nir. Mountains slash the scenery to the west of here.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Wind-swept forest.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3507
+  - dir: 2
+    desc: |
+      To the south, the trail continues.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3511
+  extra_descs: []
+- vnum: 3509
+  name: The Miden'nir
+  description: |
+    The trees of Miden'nir are lush and green, hiding the evil that lurks
+    in these woods. The trees become too thick to the west, but you may go
+    north, south or travel toward the mountains that lie east of here.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The trees lighten up a bit this way.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3506
+  - dir: 1
+    desc: |
+      Huge grey mountains lie in this direction.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3512
+  - dir: 2
+    desc: |
+      The forest continues.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3514
+  extra_descs: []
+- vnum: 3510
+  name: A Crossroads
+  description: |
+    Here footworn paths meet leading north, south and east. The trees seem to
+    be closing in on you at this point, and you can barely see the sky
+    through the thick branches above your head.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Trees as far as the eye can see.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3507
+  - dir: 1
+    desc: |
+      There is an especially dark part of the forest this way.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3514
+  - dir: 2
+    desc: |
+      There is an especially dark section of forest this way.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3516
+  extra_descs: []
+- vnum: 3511
+  name: The Trail
+  description: |
+    You are on a north-south trail through the woods. To the west, impassable
+    mountains glare at you, and the thick woods and undergrowth prevent any
+    movement westward.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The trail bends to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3508
+  - dir: 2
+    desc: |
+      To the south, the path re-enters the forest.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3515
+  extra_descs: []
+- vnum: 3512
+  name: The Miden'nir
+  description: |
+    The trees of Miden'nir are lush and green, hiding the evil that lurks
+    in these woods. You can go north toward the mountains, or west to the
+    forest, but the steep mountains prevent any movement east.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3550
+  - dir: 2
+    desc: |
+      A light section of forest.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3513
+  - dir: 3
+    desc: |
+      The forest continues here.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3509
+  extra_descs: []
+- vnum: 3513
+  name: The Miden'nir
+  description: |
+    The forest is dark, and becomes even darker west.  You sense
+    that there is something evil hidden in these woods.  The forest gets
+    lighter to the north.  The wind kicks up as you ponder your options.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      There is a small clearing to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3512
+  - dir: 3
+    desc: |
+      It gets darker and thicker this way.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3514
+  extra_descs: []
+- vnum: 3514
+  name: Deep Forest
+  description: |
+    It is quite dark here, forest surrounds you. With each step, the forest
+    seems to close around you, and get darker and more foreboding.  It might just
+    be time to head back to somewhere safe.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      More forest.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3509
+  - dir: 1
+    desc: |
+      Lighter forest and mountains in the distance.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3513
+  - dir: 2
+    desc: |
+      More trees.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3517
+  - dir: 3
+    desc: |
+      The forest continues.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3510
+  extra_descs: []
+- vnum: 3515
+  name: Light Forest
+  description: "The forest is light here and you can easily pick your way through\
+    \ the \ntrail.  To the east, the forest becomes thick and darker. South, the trail\n\
+    continues.\n"
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      A trail leading north-south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3511
+  - dir: 1
+    desc: |
+      The trees get thicker as you go east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3516
+  - dir: 2
+    desc: |
+      More trees and some small hills.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3518
+  extra_descs: []
+- vnum: 3516
+  name: Muddy Ground
+  description: |
+    The ground is quite muddy here and puddles are all around. Your boots
+    make a disgusting SQUISH as you walk here. You can go in any of the
+    four cardinal directions from here. Hopefully, it will be dryer.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The Miden'nir continues.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3510
+  - dir: 1
+    desc: |
+      More trees.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3517
+  - dir: 2
+    desc: |
+      The trees get VERY thick to the south. You can barely see...
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3519
+  - dir: 3
+    desc: |
+      Some light trees and daylight.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3515
+  extra_descs: []
+- vnum: 3517
+  name: Near the Mountains
+  description: |
+    The most prominent feature here is the mountains that lie to the east.
+    You can only go north and west from here as the rocks stop all other
+    movement.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Many trees to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3514
+  - dir: 3
+    desc: |
+      There is a bit of a slope downward to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3516
+  extra_descs: []
+- vnum: 3518
+  name: The Fading Trail
+  description: |
+    The trail becomes nearly unpassable here. You can go north
+    as the forest is relatively light. To the south, you can see a path.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You can see a trail this way.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3515
+  - dir: 2
+    desc: |
+      Dark forests.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3522
+  extra_descs: []
+- vnum: 3519
+  name: The Dark Path
+  description: "You are hemmed in by trees on either side of you.  The path continues\n\
+    north and south, and while is much to thick to explore west, you can head\noff\
+    \ into the woods to the east.  \n"
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The forest gets lighter this way.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3516
+  - dir: 1
+    desc: |
+      The forest continues.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3520
+  - dir: 2
+    desc: |
+      There is a strong stench coming from this direction.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3521
+  extra_descs: []
+- vnum: 3520
+  name: The Dark Forest
+  description: |
+    You stomp your way through the underbrush.  The dark forest of Miden'nir
+    get pretty thick here, and the branches high above your head are so thick that
+    they block out all direct sunlight.  While it is much too thick to go
+    further east, you might be able to make your way though the forest to the
+    south and west.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      The thick forest continues.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3523
+  - dir: 3
+    desc: |
+      The thick forest continues.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3519
+  extra_descs: []
+- vnum: 3521
+  name: Carnage
+  description: |
+    Here, you see a gruesome sight. Blood is everywhere... on the trees and
+    soaked into the ground. Two carcasses lie in front of you, seeming to look
+    up at you. The forest is impassible to the south, but the other directions
+    look ok.
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Darkness...
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3519
+  - dir: 1
+    desc: |
+      Your light does not extend that far.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3523
+  - dir: 3
+    desc: |
+      More dark forest.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3522
+  extra_descs:
+  - keywords: carcass body corpse carcasses bodies corpses
+    description: |
+      The corpses looked as if they have been pierced by a large, jagged
+      spear. The damage these people sustained is simply amazing. Worse, the
+      lips on the bodies are a light shade of blue, hinting at poison in
+      their systems.
+- vnum: 3522
+  name: Deep in the Forest of Miden'nir
+  description: |
+    There is a sickening stench here. It smells of blood and death.
+    To the north, you catch glimpses of daylight. To the east, you
+    simply cannot see. The trees are close and stifling.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see daylight and a trail to follow.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3518
+  - dir: 1
+    desc: |
+      The stench seems to becoming from this direction.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3521
+  extra_descs: []
+- vnum: 3523
+  name: The Dark Forest
+  description: |
+    The branches above you block out all direct sunlight, making the forest
+    in this area rather dark.  The forest continues east, where it meets the
+    mountains. The air is still and stuffy - a stench comes from the west and an
+    ugly feeling causes the hair to rise on the back of your neck!
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      It appears to get much darker that direction.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3520
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3551
+  - dir: 3
+    desc: |
+      The sky becomes lighter in this direction.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3521
+  extra_descs: []
+- vnum: 3525
+  name: Along the Eastern Road
+  description: |
+    You are walking along a well-travelled road between Midgaard and lands
+    east.  A northern road crosses this one to the west, towards Midgaard.  You
+    hear faint, happy singing to the north.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see a faint trail, covered with tiny footprints. The singing grows louder.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 101
+  - dir: 1
+    desc: |
+      The road continues to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3526
+  - dir: 3
+    desc: |
+      You can see the crossroads.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3502
+  extra_descs: []
+- vnum: 3526
+  name: Along the Eastern Road
+  description: "You are travelling down the eastern road between Midgaard and the\
+    \ eastern\nlands.  The road back to Midgaard is west of you, and a heavily guarded\n\
+    checkpoint is east.  A beautiful grove of trees is north, and a dirt path \nwanders\
+    \ off to the south.\n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see a beautiful, shady grove -- it looks like a peaceful place to relax.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 8950
+  - dir: 1
+    desc: |
+      The road continues west towards a guarded checkpoint.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3527
+  - dir: 2
+    desc: |
+      A dirt path leads to the gnome village.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1501
+  - dir: 3
+    desc: |
+      The road continues west towards midgaard.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3525
+  extra_descs: []
+- vnum: 3527
+  name: The Checkpoint
+  description: |
+    You are met by a group of heavily armored knights.  They check you over
+    for contraband, and then allow you to pass on.  One ofthe knights cautions to
+    not stray into the desert, lest you lose your way.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The continues east towards New Thalos.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3528
+  - dir: 3
+    desc: |
+      The road continues west towards midgaard.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3526
+  extra_descs: []
+- vnum: 3528
+  name: Along the Eastern Road
+  description: "You are walking along a well-travelled road, just east of a heavily\
+    \ \nguarded checkpoint.  You have covered about half the distance between\nthe\
+    \ city of Midgaard and New Thalos.  The air is getting drier and the heat\nmore\
+    \ oppressive as you near the the barren wastes of the Sands of Sorrow.\n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The road continues ahead, growing more arid as you near the desert.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3529
+  - dir: 3
+    desc: |
+      You see a heavily guarded checkpoint to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3527
+  extra_descs: []
+- vnum: 3529
+  name: Along the Eastern Road
+  description: |
+    The tempatures are climbing as you near the Sands of Sorrow, a barren
+    wasteland blasted by arcane powers.  Ahead of you, the road is partially
+    buried by the creeping sands, and the air grows even hotter.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see the Sands of Sorrow spilling over the road.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3530
+  - dir: 3
+    desc: |
+      The road continues to the west, towards distant Midgaard.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3528
+  extra_descs: []
+- vnum: 3530
+  name: Near the Sands of Sorrow
+  description: "The eastern road is losing ground to the creeping desert here.  You\
+    \ stagger\nin the growing heat, and wonder if you have enough water.  The endless\
+    \ waste\nof the Sands of Sorrows is south, and the road continues east and west.\
+    \  The \nsun paints illusions at the edge of your vision, one of them looks like\
+    \ a far \noff city...\n"
+  room_flags: '0'
+  sector: 10
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3531
+  - dir: 3
+    desc: "You see a clearer section of road. \n"
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3529
+  extra_descs: []
+- vnum: 3531
+  name: Near the Sands of Sorrow
+  description: |
+    The road is almost completely swallowed by the desert here.  The heat is
+    sucking the life from your body, you wonder if it will ever end.  To your
+    south, the Sands of Sorrow stretch on for miles, and to the east you think
+    you see the towers of a magnificent city...or is it just a mirage?
+  room_flags: '0'
+  sector: 10
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You can barely make out enough road to follow.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3532
+  - dir: 3
+    desc: |
+      The desert thins a little to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3530
+  extra_descs: []
+- vnum: 3532
+  name: On the Outskirts of New Thalos
+  description: "The sun is hot enough to melt your armor, but salvation is at hand.\
+    \  To the\neast, you see the mighty gates of New Thalos, one of the most prosperous\
+    \ cities\nof all of Thera.  To the south, you see the endless wasteland of the\
+    \ Sands\nof Sorrows, and to the west you can barely make out a faint, but well-used,\n\
+    road leading to the City of Midgaard. \n"
+  room_flags: '0'
+  sector: 10
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see the west gate of New Thalos.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 9669
+  - dir: 3
+    desc: |
+      You see the road to Midgaard, covered with sand.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3531
+  extra_descs: []
+- vnum: 3550
+  name: At The Foot of The Mountains
+  description: |
+    You find yourself at the foot of the mountains, where it is much to steep
+    to continue north or east.  You see the lush, green forest of Miden'nir to the
+    south and west.
+  room_flags: '0'
+  sector: 5
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      The forest of Miden'nir spreads out before you.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3512
+  - dir: 3
+    desc: |
+      The forest of Miden'nir spreads out before you.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3506
+  extra_descs: []
+- vnum: 3551
+  name: The Deep in the Forest of Miden'nir
+  description: |
+    The branches above you block out all direct sunlight, making the forest
+    in this area very dark.  The forest continues west, but mountains block
+    further exploration in all other directions, except south, where you notice a
+    small tunnel dug into the mountainside.
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3552
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3523
+  extra_descs: []
+- vnum: 3552
+  name: A Tunnel in the Mountains
+  description: |
+    The walls of this tunnel were carved out many years ago by the goblins of
+    this forest.  The floor is well worn, and continues south, into the
+    mountain, or back north out into the forest.
+  room_flags: A
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Outside, you see the forest of Miden'nir.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3551
+  - dir: 2
+    desc: |
+      The tunnel continues to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3553
+  extra_descs: []
+- vnum: 3553
+  name: A Tunnel in the Mountains
+  description: |
+    The tunnel gets lighter to the north, presumably leading out, while to
+    the south the passage gets smaller and smaller.  A small alcove has been
+    carved into the east wall.
+  room_flags: A
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The tunnel gets wider in this direction.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3552
+  - dir: 1
+    desc: |
+      You see a small alcove.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3554
+  - dir: 2
+    desc: |
+      The tunnel gets smaller in this direction.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3555
+  extra_descs: []
+- vnum: 3554
+  name: A Small Alcove
+  description: |
+    A small alcove has been carved out here.  There are a bunch of twigs
+    and leaves thrown into a pile here, probably serving as a bed.
+  room_flags: A
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      You see the main passageway.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3553
+  extra_descs:
+  - keywords: twigs leaves bead
+    description: |
+      The twigs and leaves have all been piled together as a makeshift bed for
+      some small humanoid.
+- vnum: 3555
+  name: A Tunnel in the Mountains
+  description: |
+    As you explore further into the mountainside, the tunnel gets smaller and
+    smaller to the south.  You almost have to hunch over to make your way thru
+    this area.  A small archway to the south leads into a large chamber.
+  room_flags: A
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The tunnel continues north.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3553
+  - dir: 2
+    desc: |
+      You see a small cavern.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3556
+  extra_descs: []
+- vnum: 3556
+  name: The Goblin Headquarters
+  description: |
+    The tunnel widens into a large (well, large for goblins) cavern that
+    serves as the living quarters for the goblins of Miden'nir.  The bones of
+    numbers woodland creatures are strewn about the room, the remanents of a
+    recent meal.
+  room_flags: A
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The tunnel heads north.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3555
+  extra_descs: []
+- vnum: 3570
+  name: The Front of the Inn
+  description: |
+    You are standing on a well-worn path which opens into a clearing.
+    An old, wooden building is here with smoke billowing from its
+    chimney. A painted sign is visible on the porch to the west. You
+    could go north or south around the building or leave this place and
+    return to the forest.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You can go north around the inn.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3571
+  - dir: 1
+    desc: |
+      Back through the trees to the Miden'nir.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3505
+  - dir: 2
+    desc: |
+      You can go south around the inn.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3572
+  - dir: 3
+    desc: |
+      The front door of the inn beckons.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3574
+  extra_descs:
+  - keywords: credits credit author
+    description: |
+      +-------------------------------------------------+
+      | This zone originally written for Copper II DIKU |
+      |   by ?                                          |
+      | Modification and alterations for MERCmud DIKU   |
+      |   by VampLestat                        1 JAN 93 |
+      +-------------------------------------------------+
+  - keywords: sign
+    description: |
+      The sign reads:
+         The Woodsman
+- vnum: 3571
+  name: North of the Inn
+  description: |
+    You are standing north of the inn. Things don't look much different
+    from this angle.  The air here is filled with smells of smoke and cooking.
+    South, the front porch is waiting for you... or you can see if there is
+    a back door.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      You see the front of the Inn.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3570
+  extra_descs: []
+- vnum: 3572
+  name: South of the Inn
+  description: |
+    You are standing south of the inn.  You could easily go north and enter
+    through the front door, or west and to the rear of the establishment.  You
+    here some muffled cries from a tiny trail leading south of here.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      This way leads to the front of the inn.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3570
+  - dir: 2
+    desc: |
+      The trail heads south.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3575
+  - dir: 3
+    desc: |
+      This way leads to the back of the inn.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3573
+  extra_descs: []
+- vnum: 3573
+  name: Behind the Inn
+  description: |
+    You now stand behind the inn. The smell here is not so pleasant as
+    the keeper and his help throw a good deal of garbage here. A couple of
+    piles of rubbish are to the west, but you will smell the worse for
+    meddling there. As a clean alternative, you can go north or east around
+    the inn.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You can go around the inn this way.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3572
+  - dir: 3
+    desc: |
+      Only rats and fool adventurers play in garbage.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3578
+  extra_descs: []
+- vnum: 3574
+  name: The Woodsman Inn
+  description: |
+    You are in the common room of the Woodsman Inn. A thin haze of smoke sits
+    in the air here. The Inn is often empty, as the forest has become overrun by
+    goblins as of late, and it is no longer safe in these parts. The bar is just
+    north of here. If you'd rather have your own table, one is empty to the
+    south.
+  room_flags: CD
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The bar is here, manned by the innkeeper.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3576
+  - dir: 1
+    desc: |
+      You can leave now and return to fresher air.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3570
+  - dir: 2
+    desc: |
+      An empty table is a rare commodity.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3579
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3577
+  extra_descs: []
+- vnum: 3575
+  name: The Ambush Point
+  description: |
+    This is a overgrown foot-trail south of the inn. It leads west, but you
+    would be hard pressed to follow it far. A number of bushes are trampled on
+    and some medium sized branches have been knocked down.  Obviously there has
+    been a battle here rather recently.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The inn lies to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3572
+  - dir: 3
+    desc: |
+      A trail thru the woods.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3581
+  extra_descs: []
+- vnum: 3576
+  name: The Bar
+  description: |
+    This is where people use to come and enjoy the food, drink and hospitality
+    of the innkeeper, but as of late, he only serves the few adventurers that
+    manage to survive a trip thru the forest. You can leave south and return to the
+    common room.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      You may retreat south back to the common room.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3574
+  extra_descs: []
+- vnum: 3577
+  name: The Bard's Table
+  description: |
+    You are in a darker corner in the Inn.  A large round table with a few
+    wooden chairs sits here.  There is a large stain on the table, the remnants
+    of a spilled drink.
+  room_flags: D
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see the main floor of the Inn to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3574
+  extra_descs: []
+- vnum: 3578
+  name: Garbage dump
+  description: |
+    You stand knee deep in garbage.  YECCH!!! It smells terrible and who knows
+    what vermin live in these piles of filth ...
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You can return to cleaner lands this way.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3573
+  extra_descs: []
+- vnum: 3579
+  name: A Quieter Section of the Inn
+  description: |
+    There seems to be no one in this end of the Woodsman, probably a safe place
+    to rest and lick your wounds ...
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see the common room.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3574
+  extra_descs: []
+- vnum: 3581
+  name: On the Trail of the Horsemen
+  description: |
+    The path continues east and west of here.  You notice fresh tracks in
+    the soft ground that show the horsemen fled to the west.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Back to ambush point.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3575
+  - dir: 3
+    desc: |
+      The trail continues.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3582
+  extra_descs: []
+- vnum: 3582
+  name: On the Trail of the Horsemen
+  description: |
+    The path continues east and south.  You notice fresh tracks in
+    the soft ground that show the horsemen turned, and fled south.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The trail continues.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3581
+  - dir: 2
+    desc: |
+      The tracks lead south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3583
+  extra_descs: []
+- vnum: 3583
+  name: On the Trail of the Horsemen
+  description: |
+    The trail of the horsemen continues east and north along this path through
+    the forest.  The tracks are still fresh, so they must be near.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The trail continues.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3582
+  - dir: 3
+    desc: |
+      The tracks lead east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3584
+  extra_descs: []
+- vnum: 3584
+  name: A Dead End Trail
+  description: |
+    The path comes to an abrupt end here, as the trees close around you and
+    make any further exploration impossible.  Fresh tracks cover the ground, and
+    end right here.  The horsemen must be nearby.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Back to along the trail.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3583
+  extra_descs: []
+resets:
+- command: M
+  arg1: 3501
+  arg2: 8
+  arg3: 3506
+- command: E
+  arg1: 3500
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 3074
+  arg2: 0
+  arg3: 7
+- command: M
+  arg1: 3501
+  arg2: 8
+  arg3: 3509
+- command: E
+  arg1: 3500
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 3072
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 3501
+  arg2: 8
+  arg3: 3512
+- command: E
+  arg1: 3500
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 3045
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 3501
+  arg2: 8
+  arg3: 3512
+- command: E
+  arg1: 3500
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 3502
+  arg2: 0
+  arg3: 6
+- command: E
+  arg1: 3075
+  arg2: 0
+  arg3: 8
+- command: M
+  arg1: 3501
+  arg2: 8
+  arg3: 3513
+- command: E
+  arg1: 3500
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 3077
+  arg2: 0
+  arg3: 10
+- command: M
+  arg1: 3500
+  arg2: 2
+  arg3: 3521
+- command: M
+  arg1: 3500
+  arg2: 2
+  arg3: 3521
+- command: M
+  arg1: 3506
+  arg2: 4
+  arg3: 3551
+- command: E
+  arg1: 3502
+  arg2: 0
+  arg3: 6
+- command: E
+  arg1: 3500
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 3072
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 3501
+  arg2: 8
+  arg3: 3556
+- command: E
+  arg1: 3500
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 3076
+  arg2: 0
+  arg3: 9
+- command: M
+  arg1: 3506
+  arg2: 4
+  arg3: 3556
+- command: E
+  arg1: 3500
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 3502
+  arg2: 0
+  arg3: 6
+- command: E
+  arg1: 3072
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 3507
+  arg2: 1
+  arg3: 3556
+- command: E
+  arg1: 3072
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 3501
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 3502
+  arg2: 0
+  arg3: 6
+- command: M
+  arg1: 3502
+  arg2: 1
+  arg3: 3575
+- command: M
+  arg1: 3503
+  arg2: 1
+  arg3: 3576
+- command: M
+  arg1: 3504
+  arg2: 1
+  arg3: 3577
+- command: E
+  arg1: 3505
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 3505
+  arg2: 4
+  arg3: 3584
+- command: E
+  arg1: 3503
+  arg2: 0
+  arg3: 3
+- command: E
+  arg1: 3022
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 3505
+  arg2: 4
+  arg3: 3584
+- command: E
+  arg1: 3504
+  arg2: 0
+  arg3: 14
+- command: E
+  arg1: 3022
+  arg2: 0
+  arg3: 16
+specials:
+- vnum: 3500
+  spec_fun: spec_poison

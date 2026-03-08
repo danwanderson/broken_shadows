@@ -1,6 +1,6 @@
 FROM debian:latest
 
-RUN apt-get update && apt-get install -y telnet gdb make clang \
+RUN apt-get update && apt-get install -y telnet gdb make clang libyaml-dev \
     && mkdir -p /srv/shadows \
     && useradd --no-create-home --home-dir /srv/shadows shadows
 
@@ -15,7 +15,7 @@ RUN make && make test && make clean
 
 FROM debian:latest
 
-RUN apt-get update && apt-get install -y telnet gdb \
+RUN apt-get update && apt-get install -y telnet gdb libyaml-dev \
     && mkdir -p /srv/shadows \
     && useradd --no-create-home --home-dir /srv/shadows shadows
 

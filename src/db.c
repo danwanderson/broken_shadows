@@ -37,6 +37,7 @@
 #include "merc.h"
 #include "db.h"
 #include "music.h"
+#include "yaml_area.h"
 
 #if defined(unix)
 //extern int getrlimit(int resource, struct rlimit *rlp);
@@ -391,6 +392,7 @@ void boot_db(  )
      */
     {
         FILE *fpList;
+        char  yaml_fn[MAX_INPUT_LENGTH];
 
         if ( ( fpList = fopen( AREA_LIST, "r" ) ) == NULL )
         {
@@ -403,6 +405,13 @@ void boot_db(  )
             strcpy( strArea, fread_word( fpList ) );
             if ( strArea[0] == '$' )
                 break;
+
+            /* YAML: if a .yaml counterpart exists, load it instead of .are */
+            if ( yaml_area_file_exists( strArea, yaml_fn ) )
+            {
+                load_yaml_area_file( yaml_fn );
+                continue;
+            }
 
             if ( strArea[0] == '-' )
             {
@@ -473,6 +482,13 @@ void boot_db(  )
             strcpy( strArea, fread_word( fpList ) );
             if ( strArea[0] == '$' )
                 break;
+
+            /* YAML: load resets/shops from .yaml counterpart if it exists */
+            if ( yaml_area_file_exists( strArea, yaml_fn ) )
+            {
+                load_yaml_area_resets_shops( yaml_fn );
+                continue;
+            }
 
             if ( strArea[0] == '-' )
             {

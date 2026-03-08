@@ -1,0 +1,3608 @@
+area:
+  name: '{15 25} Copper  Chapel Catacombs'
+  builders: None
+  security: 9
+  area_flags: 0
+  vnums:
+  - 3400
+  - 3475
+mobiles:
+- vnum: 3400
+  keywords: skeleton bony
+  short_desc: the bony skeleton
+  long_desc: |
+    A bony skeleton is here.
+  description: |
+    Brown bones with tufts of clothing still hanging from them.  This
+    skeleton looks very mindless but still dangerous ...
+  race: Human
+  act: AFT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 2
+  hitroll: 0
+  hit:
+    number: 1
+    type: 2
+    bonus: 16
+  mana:
+    number: 2
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 3
+    bonus: 1
+  dam_type: 3
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 1
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_undead
+- vnum: 3401
+  keywords: undead zombie
+  short_desc: the undead zombie
+  long_desc: |
+    An undead zombie sits here munching on something ...
+  description: |
+    His body is totally white and slowly rotting away.  Each Zombie looks
+    quite different from the next because they were, of course, once alive and
+    human.
+  race: Human
+  act: ABFT
+  affected_by: DF
+  affected2_by: '0'
+  alignment: -100
+  clan: 0
+  level: 3
+  hitroll: 0
+  hit:
+    number: 1
+    type: 6
+    bonus: 23
+  mana:
+    number: 3
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 5
+    bonus: 1
+  dam_type: 3
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 5
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_undead
+- vnum: 3402
+  keywords: undead ghoul
+  short_desc: The ghoul
+  long_desc: |
+    A ghoul is here staring at you hungrily.
+  description: |
+    The ghoul no longer resembles the adventurer he once was.  Nonetheless
+    he looks like he hasn't forgot his fighting skills.
+  race: Human
+  act: AFT
+  affected_by: D
+  affected2_by: '0'
+  alignment: -500
+  clan: 0
+  level: 6
+  hitroll: 0
+  hit:
+    number: 1
+    type: 24
+    bonus: 51
+  mana:
+    number: 6
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 5
+    bonus: 3
+  dam_type: 7
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 15
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_undead
+- vnum: 3403
+  keywords: undead wraith
+  short_desc: The wraith
+  long_desc: |
+    You spot a wraith advancing towards you from the shadows.
+  description: |
+    The wraith no longer has a material form.  He is wearing a tattered
+    black robe which hides all but the darkness of his face and the glimmer
+    in his eyes.
+  race: Human
+  act: ABFT
+  affected_by: BDF
+  affected2_by: '0'
+  alignment: -750
+  clan: 0
+  level: 13
+  hitroll: 0
+  hit:
+    number: 3
+    type: 38
+    bonus: 131
+  mana:
+    number: 13
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 7
+    bonus: 8
+  dam_type: 3
+  ac:
+    pierce: 1
+    bash: 1
+    slash: 1
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 100
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_undead
+- vnum: 3404
+  keywords: undead guardian vampire
+  short_desc: The guardian vampire
+  long_desc: |
+    A vampire is here hiding his face from your light source.
+  description: |
+    The guardian vampire looks quite EVIL.  Just by looking at him the hair on your
+    arms raises. He looks mighty tough to be just a minor minion.
+  race: Human
+  act: ABFT
+  affected_by: DF
+  affected2_by: '0'
+  alignment: -1000
+  clan: 0
+  level: 28
+  hitroll: 0
+  hit:
+    number: 10
+    type: 52
+    bonus: 387
+  mana:
+    number: 28
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 9
+    bonus: 18
+  dam_type: 3
+  ac:
+    pierce: -7
+    bash: -7
+    slash: -7
+    exotic: 1
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 1500
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_undead
+- vnum: 3405
+  keywords: priest
+  short_desc: the priest
+  long_desc: |
+    A priest of God stands here solemnly speaking words of praise.
+  description: |
+    Obviously a goodly man, you feel closer to God just by gazing upon this man.
+    Dressed in white, fine white hair, and a soft slightly wrinkled face ...
+    this man has a sacred beauty.  You see a halo around his head.
+  race: Human
+  act: ABLT
+  affected_by: DFH
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 16
+  hitroll: 0
+  hit:
+    number: 5
+    type: 34
+    bonus: 175
+  mana:
+    number: 16
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 7
+    bonus: 8
+  dam_type: 3
+  ac:
+    pierce: 0
+    bash: 0
+    slash: 0
+    exotic: 5
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 40
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_cleric
+- vnum: 3406
+  keywords: Mi-Go Fungi
+  short_desc: the Mi-Go
+  long_desc: |
+    A Mi-Go is crawling here.
+  description: |
+    Mi-Go, the Fungi from Yuggoth ... it is a pinkish being about five feet long;
+    with a crustaceous body bearing a vast pair of membranous wings and several
+    sets of articulate limbs, body a sort of convoluted ellipsoid, covered with
+    multitudes of very small antennae, where a head would ordinarily be.  These
+    beings sometimes walk on all their legs and sometimes on the hind pair only.
+  race: Human
+  act: AFT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -500
+  clan: 0
+  level: 11
+  hitroll: 0
+  hit:
+    number: 3
+    type: 27
+    bonus: 107
+  mana:
+    number: 11
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 6
+    bonus: 6
+  dam_type: 7
+  ac:
+    pierce: 3
+    bash: 3
+    slash: 3
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 65
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 3407
+  keywords: nightgaunt
+  short_desc: The nightgaunt
+  long_desc: |
+    A nightgaunt is standing here
+  description: |
+    ... shocking and uncouth black thing with smooth, oily, skin, unpleasant horns
+    that curve inward toward each other, bat wings whose beating make no sound,
+    ugly prehensile paws, and a barbed tail that lashes disquietingly.  And worst
+    of all, it makes absolutely no sound or speech and smiles not at all because
+    it has no face, only a suggestive blackness where a face ought to be ...
+  race: Human
+  act: AFGT
+  affected_by: PQ
+  affected2_by: '0'
+  alignment: -1000
+  clan: 0
+  level: 10
+  hitroll: 0
+  hit:
+    number: 2
+    type: 33
+    bonus: 96
+  mana:
+    number: 10
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 5
+    bonus: 7
+  dam_type: 3
+  ac:
+    pierce: 3
+    bash: 3
+    slash: 3
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 15
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_undead
+- vnum: 3408
+  keywords: hunting horror
+  short_desc: The hunting horror
+  long_desc: |
+    The hunting horror is here in wait of an unwary traveler.
+  description: |
+    Serving Nyarlathotep and Roch'tar, these beings are hunting for victims.
+    They resemble enormous ropy black serpents or worms possessing bat-like or
+    umbrella-like wings.  Their forms continually shift and change, twitching
+    and writhing, so it is hard to look at them.  They speak in great harsh
+    voices.  A hunting horror is HUGE, normally around 40 feet long.
+  race: Human
+  act: AFT
+  affected_by: DF
+  affected2_by: '0'
+  alignment: -1000
+  clan: 0
+  level: 20
+  hitroll: 0
+  hit:
+    number: 7
+    type: 38
+    bonus: 238
+  mana:
+    number: 20
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 7
+    bonus: 10
+  dam_type: 7
+  ac:
+    pierce: -2
+    bash: -2
+    slash: -2
+    exotic: 3
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 200
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_undead
+- vnum: 3409
+  keywords: weeds
+  short_desc: some cave weeds
+  long_desc: |
+    Some weeds are creeping across the floor.
+  description: |
+    Just some unpleasant looking vine-like growths ...
+  race: Human
+  act: ACFT
+  affected_by: DPQ
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 6
+  hitroll: 0
+  hit:
+    number: 1
+    type: 24
+    bonus: 51
+  mana:
+    number: 6
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 5
+    bonus: 3
+  dam_type: 7
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 8
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 3410
+  keywords: snapper joe
+  short_desc: Snapper Joe
+  long_desc: |
+    Snapper Joe is standing here leering at you chillingly.
+  description: |
+    What an ugly fiend! He is about 6'6'' and has mostly greenish skin with
+    bright red hair. Half his face is burnt off and he has a perpetual smile.
+    He is called up from his service in hell in order to aid the Undying One.
+  race: Human
+  act: ABT
+  affected_by: D
+  affected2_by: '0'
+  alignment: -750
+  clan: 0
+  level: 20
+  hitroll: 0
+  hit:
+    number: 7
+    type: 38
+    bonus: 238
+  mana:
+    number: 20
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 7
+    bonus: 10
+  dam_type: 11
+  ac:
+    pierce: -2
+    bash: -2
+    slash: -2
+    exotic: 3
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 222
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_undead
+- vnum: 3411
+  keywords: X-ist eater
+  short_desc: The X-ist flesh eater
+  long_desc: |
+    An X-ist flesh eater is sitting here munching on some coffin remains
+  description: |
+    A large hairy monstrous beast, the only LIVE thing you have seen down here.
+    It stands approximately 8 feet tall and hunches over to fit in this
+    small room.  It has a pair of tremendous claws that it uses to rip and tear.
+    It has dog-like face except ... different.  Bright glowing eyes and a grimace
+    lead you to believe that he knew that you were coming.
+  race: Human
+  act: ABFT
+  affected_by: D
+  affected2_by: '0'
+  alignment: -1000
+  clan: 0
+  level: 16
+  hitroll: 0
+  hit:
+    number: 5
+    type: 34
+    bonus: 175
+  mana:
+    number: 16
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 7
+    bonus: 8
+  dam_type: 11
+  ac:
+    pierce: 0
+    bash: 0
+    slash: 0
+    exotic: 5
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 156
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_undead
+- vnum: 3412
+  keywords: spirit ghost king crotus
+  short_desc: the spirit of King Crotus
+  long_desc: |
+    The spirit of King Crotus is floating lazily above the floor.
+  description: |
+    Floating above the ground here and looking a bit dead, he whispers
+    softly into the air:
+
+        The forces of evil have unlocked my spirit as
+        well as one other.  Free me from this misery,
+        anyone that can hear. The peace of the grave
+        calls me but I am blocked from its quiet.
+  race: Human
+  act: ABT
+  affected_by: DF
+  affected2_by: '0'
+  alignment: 350
+  clan: 0
+  level: 20
+  hitroll: 0
+  hit:
+    number: 7
+    type: 38
+    bonus: 238
+  mana:
+    number: 20
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 7
+    bonus: 10
+  dam_type: 3
+  ac:
+    pierce: -2
+    bash: -2
+    slash: -2
+    exotic: 3
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 5
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_mage
+- vnum: 3413
+  keywords: rock slug
+  short_desc: the rock slug
+  long_desc: |
+    A rock slug is slowly creeping along, leaving a slime trail behind it.
+  description: |
+    It is a large brownish slug.  Got any salt?  Didn't think so ...
+  race: Human
+  act: ACT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 3
+  hitroll: 0
+  hit:
+    number: 1
+    type: 6
+    bonus: 23
+  mana:
+    number: 3
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 5
+    bonus: 1
+  dam_type: 11
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 3414
+  keywords: etcher
+  short_desc: The mad etcher
+  long_desc: |
+    The mad etcher is sitting here babbling to himself and working on the wall.
+  description: |
+    Quite insane, the mad etcher has been here for two decades.  His hair is
+    white; he babbles nonsense to himself; a layer of dust covers his out-of-date
+    clothing; and he seems to be working on the same portion of the wall near
+    the base ... oh and he seems quite blind.
+
+    He leers insanely at you and says 'heh heh what can I do for you children?
+    Please don't mind my wife, she is always like that ... hello dear can you
+    make some tea for our company?  Oh good!  Now sit right down will you?
+    Would you like hot or cold tea?  Yes the weather is ...'
+
+    And on he babbles ...
+  race: Human
+  act: AGT
+  affected_by: A
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 4
+  hitroll: 0
+  hit:
+    number: 1
+    type: 10
+    bonus: 33
+  mana:
+    number: 4
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 7
+    bonus: 2
+  dam_type: 11
+  ac:
+    pierce: 7
+    bash: 7
+    slash: 7
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 6
+  default_pos: 6
+  sex: 1
+  gold: 5
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_mage
+- vnum: 3415
+  keywords: wife ghost specter
+  short_desc: The spectral etcher's wife
+  long_desc: |
+    The spectral wife of the etcher is very faintly floating here.
+  description: |
+    You can barely make her out ... though it almost makes you vomit.
+    She is missing half her head.  The remaining half is smashed in horribly like
+    she took a nasty fall.  Her one damaged eye hangs on its own.  She smiles
+    insanely at you thru a broken jaw and missing teeth.  One hand of hers is
+    resting on the shoulder of the etcher ... her husband.
+  race: Human
+  act: ABT
+  affected_by: Q
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 6
+  hitroll: 0
+  hit:
+    number: 1
+    type: 24
+    bonus: 51
+  mana:
+    number: 6
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 5
+    bonus: 3
+  dam_type: 11
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 12
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_undead
+- vnum: 3416
+  keywords: body
+  short_desc: The half-decomposed body
+  long_desc: |
+    A half-decomposed body is lying in the corner here.
+  description: |
+    YUK! It's ugly, disgusting ... it smells ... it also moves a bit!
+  race: Human
+  act: ACFT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -350
+  clan: 0
+  level: 7
+  hitroll: 0
+  hit:
+    number: 1
+    type: 33
+    bonus: 61
+  mana:
+    number: 7
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 6
+    bonus: 3
+  dam_type: 11
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 8
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_undead
+objects:
+- vnum: 3400
+  name: candlestick
+  short_desc: a candlestick
+  description: A pewter candlestick is standing here.
+  material: none
+  item_type: 1
+  extra_flags: '0'
+  wear_flags: AO
+  values:
+  - 0
+  - 0
+  - 24
+  - 0
+  - 0
+  level: 14
+  weight: 5
+  cost: 140
+  affects: []
+  extra_descs:
+  - keywords: candlestick
+    description: |
+      It is a rather old-looking three-armed candlestick made from pewter.  Its
+      candles are a yellowish white colour.
+- vnum: 3402
+  name: tickler
+  short_desc: a nightgaunt's tickler
+  description: A nightgaunt's tickler has been left here.
+  material: none
+  item_type: 5
+  extra_flags: H
+  wear_flags: AN
+  values:
+  - 7
+  - 3
+  - 5
+  - 5
+  - 0
+  level: 10
+  weight: 8
+  cost: 100
+  affects:
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: '0'
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: '0'
+  extra_descs:
+  - keywords: tickler
+    description: |
+      A horrid black mass of gooey tentacles obviously ripped from the corpse
+      of a nightgaunt ... disgusting.
+- vnum: 3403
+  name: plasma webbing
+  short_desc: disgusting pinkish plasma webbing
+  description: A pile of pink material is lying here
+  material: none
+  item_type: 9
+  extra_flags: JL
+  wear_flags: AD
+  values:
+  - 5
+  - 5
+  - 5
+  - 0
+  - 0
+  level: 11
+  weight: 10
+  cost: 110
+  affects: []
+  extra_descs:
+  - keywords: plasma webbing
+    description: |
+      Yuck, mossy and wet.  It looks like some sort of webbing.
+- vnum: 3410
+  name: rod key
+  short_desc: a queerly shaped rod
+  description: A queerly shaped rod is lying here.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 5
+  weight: 5
+  cost: 50
+  affects: []
+  extra_descs:
+  - keywords: rod key
+    description: |
+      This rod looks sort of octagonal, and sort of like a key and crowbar.  You
+      recognize that it will probably fit the lock at the entrance of the tombs.
+- vnum: 3411
+  name: large black dirty key
+  short_desc: a large black dirty key
+  description: A large black dirty key is lying here
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 20
+  weight: 3
+  cost: 200
+  affects: []
+  extra_descs:
+  - keywords: large black dirty key
+    description: |
+      One of those traditional old lock type keys ... except huge, black and
+      filthy ... hmm ... like it has been buried for some time ...
+- vnum: 3412
+  name: head jubal mummy
+  short_desc: the mummified head of Jubal the Benevolent
+  description: The mummified head of Jubal the Benevolent is lolling back and forth.
+  material: none
+  item_type: 15
+  extra_flags: K
+  wear_flags: A
+  values:
+  - 3
+  - 5
+  - 4294967295
+  - 0
+  - 0
+  level: 16
+  weight: 20
+  cost: 160
+  affects: []
+  extra_descs:
+  - keywords: head jubal mummy
+    description: |
+      ACK! It's half eaten away ... yet it is whole ... in fact I think it can be
+      opened and closed ... is there something in its teeth!?!?!? ACK you do it!
+- vnum: 3413
+  name: ring black marble
+  short_desc: a black marble ring
+  description: A black marble ring is lying here on the ground.
+  material: none
+  item_type: 8
+  extra_flags: GK
+  wear_flags: AB
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 16
+  weight: 2
+  cost: 160
+  affects:
+  - where: O
+    location: 24
+    modifier: 1
+    bitvector: '0'
+  - where: O
+    location: 14
+    modifier: 10
+    bitvector: '0'
+  extra_descs:
+  - keywords: black marble ring
+    description: |
+      It is pitch black and has beautiful swirls characteristic of marble all
+      through it.
+- vnum: 3414
+  name: rapier thin
+  short_desc: a whisper thin rapier
+  description: A rapier is lying here.
+  material: none
+  item_type: 5
+  extra_flags: B
+  wear_flags: AN
+  values:
+  - 1
+  - 5
+  - 4
+  - 11
+  - 0
+  level: 16
+  weight: 4
+  cost: 160
+  affects:
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: '0'
+  - where: O
+    location: 2
+    modifier: 2
+    bitvector: '0'
+  extra_descs:
+  - keywords: thin rapier
+    description: |
+      It seems so thin that it would be useless but at the same time it looks deadly.
+- vnum: 3415
+  name: sarcophagus coffin
+  short_desc: a stone sarcophagus
+  description: A stone sarcophagus is sitting here.
+  material: none
+  item_type: 15
+  extra_flags: '0'
+  wear_flags: '0'
+  values:
+  - 400
+  - 15
+  - 3416
+  - 0
+  - 0
+  level: 18
+  weight: 2000
+  cost: 180
+  affects: []
+  extra_descs:
+  - keywords: sarcophagus coffin
+    description: |
+      A well crafted, if dusty and ancient, home for the afterworld, it seems
+      to be able to be opened but needs a key.
+- vnum: 3416
+  name: iron heavy key
+  short_desc: a heavy iron key
+  description: A heavy iron key is lying here.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 20
+  weight: 4
+  cost: 200
+  affects: []
+  extra_descs:
+  - keywords: key iron heavy
+    description: |
+      It looks to be a very heavy old iron key.
+- vnum: 3417
+  name: flask wineflask
+  short_desc: a wineflask
+  description: A wineflask has been been left here.
+  material: none
+  item_type: 17
+  extra_flags: '0'
+  wear_flags: AO
+  values:
+  - 4
+  - 4
+  - 2
+  - 0
+  - 0
+  level: 18
+  weight: 5
+  cost: 180
+  affects: []
+  extra_descs:
+  - keywords: wineflask flask
+    description: |
+      A nice leather wineflask that has somehow survived the ages in a coffin.
+      The wine should be nicely aged.
+- vnum: 3418
+  name: coins
+  short_desc: a mound of coins fit for a dead king
+  description: You see a mound of coins fit for a dead king here
+  material: none
+  item_type: 20
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 180
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 18
+  weight: 50
+  cost: 180
+  affects: []
+  extra_descs: []
+- vnum: 3419
+  name: key
+  short_desc: key to the coffin
+  description: The key to the coffin is lying here
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 28
+  weight: 3
+  cost: 280
+  affects: []
+  extra_descs:
+  - keywords: key
+    description: |
+      Neat you have the key to the coffin...is is a soft orange color
+      and burns in your hand a bit.
+- vnum: 3420
+  name: rathcor
+  short_desc: a hidden compartment in the room
+  description: ''
+  material: none
+  item_type: 15
+  extra_flags: C
+  wear_flags: '0'
+  values:
+  - 10
+  - 5
+  - 4294967295
+  - 0
+  - 0
+  level: 5
+  weight: 1000
+  cost: 50
+  affects: []
+  extra_descs:
+  - keywords: rathcor
+    description: |
+      Ah HA!  A hidden compartment!
+- vnum: 3421
+  name: rusty sword curved scimitar
+  short_desc: a rusty curved scimitar
+  description: A sword has been left lying here
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 1
+  - 1
+  - 9
+  - 3
+  - 0
+  level: 2
+  weight: 6
+  cost: 20
+  affects: []
+  extra_descs:
+  - keywords: rusty sword scimitar
+    description: |
+      Very rusty and old...it has a wide blade and chunks missing from
+      its cutting edge.
+- vnum: 3422
+  name: piece slime
+  short_desc: a piece of slime
+  description: You step on a piece of slime...your foot squishes a bit
+  material: none
+  item_type: 19
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 15
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 3
+  weight: 1
+  cost: 30
+  affects: []
+  extra_descs:
+  - keywords: slime piece
+    description: |
+      ICK! This is a piece of slug-like brownish green slime...
+      Blech!
+- vnum: 3423
+  name: smock
+  short_desc: an artist's smock
+  description: An artist's smock is lying here on the floor.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AD
+  values:
+  - 3
+  - 3
+  - 3
+  - 0
+  - 0
+  level: 4
+  weight: 7
+  cost: 40
+  affects:
+  - where: O
+    location: 9
+    modifier: -3
+    bitvector: '0'
+  extra_descs:
+  - keywords: smock
+    description: |
+      It has paint and little shavings of different materials all over it.
+      It is very old an smells of paint, mildew, and rot.
+- vnum: 3424
+  name: scroll tightly rolled
+  short_desc: a tightly rolled scroll
+  description: A yellowing tightly rolled scroll is here
+  material: none
+  item_type: 2
+  extra_flags: G
+  wear_flags: AO
+  values:
+  - 15
+  - 10
+  - 12
+  - 32
+  - 0
+  level: 28
+  weight: 5
+  cost: 280
+  affects: []
+  extra_descs:
+  - keywords: scroll tightly rolled
+    description: |+
+      It is tightly wound. The writing on the inside when opened up is very
+      unreadable but the scroll has a seal on it with a grey :
+
+          88
+          88
+      8888  8888
+          88
+          88
+
+- vnum: 3425
+  name: auburn orb
+  short_desc: an auburn-colored orb
+  description: An orb is here
+  material: none
+  item_type: 4
+  extra_flags: BG
+  wear_flags: AO
+  values:
+  - 10
+  - 2
+  - 2
+  - 7
+  - 0
+  level: 13
+  weight: 10
+  cost: 130
+  affects: []
+  extra_descs:
+  - keywords: auburn orb
+    description: |
+      You gaze into the orb and are almost lost in the swirling mists of color
+      inside of this rare and beautiful object.
+- vnum: 3426
+  name: bar gold
+  short_desc: a bar of gold
+  description: A bar of gold is lying here
+  material: none
+  item_type: 8
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 20
+  weight: 30
+  cost: 200
+  affects: []
+  extra_descs:
+  - keywords: bar gold
+    description: |
+      A nice little brick of gold...very dusty and old... it has some emblem
+      on it...The emblem is a large 'J'
+- vnum: 3427
+  name: cape dark black
+  short_desc: a dark black cape
+  description: A dark black cape is lying here
+  material: none
+  item_type: 9
+  extra_flags: G
+  wear_flags: AK
+  values:
+  - 8
+  - 8
+  - 8
+  - 0
+  - 0
+  level: 28
+  weight: 10
+  cost: 280
+  affects:
+  - where: O
+    location: 17
+    modifier: 10
+    bitvector: '0'
+  - where: O
+    location: 13
+    modifier: 10
+    bitvector: '0'
+  extra_descs:
+  - keywords: dark black cape
+    description: |
+      The cape is gently flows and pulls in the light so evenly and perfectly
+      that the cape seems to be simply a void of blackness. It is quite beautiful
+- vnum: 3428
+  name: flaming sword long longsword
+  short_desc: a pitch-black longsword that flames brightly...
+  description: A sword lies here
+  material: none
+  item_type: 5
+  extra_flags: G
+  wear_flags: AN
+  values:
+  - 1
+  - 5
+  - 7
+  - 3
+  - 0
+  level: 28
+  weight: 20
+  cost: 280
+  affects:
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: '0'
+  extra_descs:
+  - keywords: flaming sword long longsword
+    description: |
+      This sword is amazing! It almost wields itself! As you test it out, the
+      flames seems to roar brighter as you go thru basic swordsman routines.
+      it is obviously a great find!
+- vnum: 3429
+  name: breast plate dented worn
+  short_desc: a worn and dented breast plate
+  description: A piece of armour is here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AD
+  values:
+  - 7
+  - 7
+  - 7
+  - 0
+  - 0
+  level: 20
+  weight: 50
+  cost: 200
+  affects: []
+  extra_descs:
+  - keywords: breast dented plate worn
+    description: |
+      Though this piece of armour is worn and dented it looks very usable.
+- vnum: 3430
+  name: key silver
+  short_desc: a silver key
+  description: You see a silver key here.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 16
+  weight: 1
+  cost: 160
+  affects: []
+  extra_descs:
+  - keywords: key silver
+    description: |
+      for the altar...
+rooms:
+- vnum: 3405
+  name: Inside the Chapel
+  description: |
+    You are in a small, dark chapel.  The dark brown glass in the tiny windows
+    do not let much light through.  A few rows of worn wooden benches stand here.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The chapel door is made of dark wood.
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 3604
+  - dir: 5
+    desc: ''
+    keywords: altar
+    exit_flags: AC
+    key: 3430
+    to_vnum: 3421
+  extra_descs:
+  - keywords: benches rows
+    description: |
+      The benches are not of the comfortable kind.
+  - keywords: glass windows
+    description: |
+      The windows must be meant to be dark.  At least they are completely clean.
+- vnum: 3408
+  name: Stairwell into Darkness
+  description: |
+    You sense even more danger coming from below but are urged onward ...
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: door
+    exit_flags: AC
+    key: 3411
+    to_vnum: 3449
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3450
+  extra_descs: []
+- vnum: 3409
+  name: The Acolyte's Bedroom
+  description: |
+    This is why you were not welcomed at the entrance by the tomb's faithful
+    servants ... blood and gore is ankle deep in here.
+    Oh NO! the door shut behind you!  It's a trap!
+    A bloodied corpse of an acolyte is lying here ...
+    A bloodied corpse of an acolyte is lying here ...
+    A bloodied corpse of an acolyte is lying here ...
+  room_flags: ACD
+  sector: 0
+  owner: ''
+  exits: []
+  extra_descs:
+  - keywords: corpse corpses
+    description: |
+      Mauled and torn apart ... throats were ripped out and guts spilled on the
+      floor ... you slip and land, planting yourself firmly in the slick wetness
+      and splattering yourself with offal.
+- vnum: 3410
+  name: The Lower Chambers and Tombs of the Undead
+  description: |
+    The stench of death is heavy in these caverns.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3415
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3411
+  extra_descs: []
+- vnum: 3411
+  name: The Lower Chambers and Tombs of the Undead
+  description: |
+    The stench of death is heavy in these caverns.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3410
+  extra_descs: []
+- vnum: 3412
+  name: The Grand Hall of Kings
+  description: |
+    You are at the west end of the Grand Hall of Kings.  There is a doorway to the
+    south with something strange written above it.  Also on the floor are dried
+    blood stains, but their color seems a little wrong.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3417
+  - dir: 2
+    desc: |
+      A door to the south
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 3413
+  extra_descs:
+  - keywords: door writing
+    description: |
+      Above the door is some strange writing!  It is worn with age, but it refers
+      to an ancient ruler named 'Shohan'.
+  - keywords: stain stains
+    description: |
+      That's odd ... they seem a little GREEN.
+- vnum: 3413
+  name: The Shrine of Shohan
+  description: |
+    BLOOD EVERYWHERE!
+    The walls are coated with blood, bits of bloody flesh lie at your feet,
+    and torn clothing is scattered about.  It wouldn't disturb you in the least
+    except that it is all FRESH!  What ever used to pass as an altar here,
+    lies overturned and smashed.  Doors lead to the south and to the north.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: north
+    exit_flags: A
+    key: -1
+    to_vnum: 3412
+  - dir: 2
+    desc: ''
+    keywords: south
+    exit_flags: A
+    key: -1
+    to_vnum: 3414
+  extra_descs: []
+- vnum: 3414
+  name: The Tomb of Shohan
+  description: |
+    Once beautiful, this place has been turned into a slaughterhouse by the hands
+    of evil beings ... even more blood and dead, rotting flesh.  This place looks
+    like the feeding grounds of beasts and monsters.  The overturned sarcophagus
+    of the once powerful King Shohan lies here.  A door leads to the north and a
+    doorway has been hewn to the east.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: door north
+    exit_flags: A
+    key: 0
+    to_vnum: 3413
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3419
+  extra_descs:
+  - keywords: coffin sarcophagus
+    description: |
+      Now destroyed ... there is writing on it: 'All hail the new king; we serve
+      the Roch'tar, the Undying One!  Those who decline his worship shall be
+      slaughtered!'
+- vnum: 3415
+  name: The Lower Chambers and Tombs of the Undead
+  description: |
+    The stench of death is heavy in these caverns.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3416
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3420
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3410
+  extra_descs: []
+- vnum: 3416
+  name: Entrance to the Lower Chambers
+  description: |
+    You can tell that this area wasn't a part of the original construction.
+    The walls have been hewn by a mighty force look as though they were CLAWED.
+    The passage slopes upward here and also continues to the north.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3415
+  - dir: 4
+    desc: ''
+    keywords: tunnel
+    exit_flags: A
+    key: -1
+    to_vnum: 3418
+  extra_descs:
+  - keywords: walls
+    description: |
+      Something BIG must have done this job!  There are traces of BLOOD in the
+      claw marks.
+- vnum: 3417
+  name: The Grand Hall of Kings
+  description: |
+    This is the western wing of the Grand Hall of Kings.  Your only exits are to
+    the east and west in this gloomy hallway.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3422
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3412
+  extra_descs: []
+- vnum: 3418
+  name: The Shrine of Cristis
+  description: |
+    Different than the rest, this place has not been desecrated.  An altar still
+    stands here and the walls show scenes from the life of Cristis the Kind,
+    a ruler of the outlying regions west of Midgaard.  There is a stone staircase
+    leading down.  The Ghost of Cristis the Kind stands here.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3419
+  - dir: 5
+    desc: ''
+    keywords: staircase
+    exit_flags: A
+    key: -1
+    to_vnum: 3416
+  extra_descs:
+  - keywords: ghost cristis
+    description: |
+      His rest has been disturbed by evil creatures who have invaded his domain
+      and grave.  He holds up a parchment for you to read:
+
+           Hello stranger and last hope for Midgaard and this tomb!
+         This is a plea for aid by a man long since dead from this Earth.
+           The forces of evil have taken control of this tomb and the
+         Kings of old need your aid to free us and deliver us to peace
+         once again.  I think that I alone have been able to appear and
+         communicate with the mortal world.
+           Roch'tar, the reincarnate Vampire, now rules these tombs.
+         You must find and defeat him and his minions!
+           May God bless you on your Quest!
+  - keywords: altar
+    description: |
+      It stands 2 feet high with the remnants of candle-wax on top.  There is
+      an inscription on the side:  'Praise the almighty Cristis the bringer of
+      good and justice to the world.  He who fought the evilest finally is at
+      peace.  May the Gods remember him forever ...'
+- vnum: 3419
+  name: The Tomb of Cristis
+  description: |
+    Everything here has simply been destroyed.   Exits lead north and west.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3418
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3414
+  extra_descs: []
+- vnum: 3420
+  name: The Lower Chambers and Tombs of the Undead
+  description: |
+    The stench of death is heavy in these caverns.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3415
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3425
+  extra_descs: []
+- vnum: 3421
+  name: Entrance Chamber to the Grand Hall of Kings
+  description: |
+    Whoever built this place must have been very rich indeed!  Though you did
+    enter through a rather small door this place has enough room to hold several
+    score of people.  The floor has a beautifully woven carpet, and the walls are
+    covered in finely crafted tapestries. You can tell that these things must have
+    been worth much but they have not lasted well throughout the ages.  Massive
+    doors lead off to the south and a large stone staircase leads up.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      Finely polished oak doors stand to the south.
+    keywords: oak
+    exit_flags: A
+    key: -1
+    to_vnum: 3422
+  - dir: 4
+    desc: "You see a large set of stone stairs leading upwards to a small stone door\
+      \ at\nthe top. \n"
+    keywords: stone trapdoor door
+    exit_flags: AC
+    key: 3410
+    to_vnum: 3405
+  extra_descs:
+  - keywords: letters graffiti
+    description: |
+      'Beware here all of man, because past here lies only death.'
+
+          Insho'rkthon brsskra-lehsn Roch'tar
+
+      Beneath, there are two criss-crossing scratchmarks in an X formation that
+      look like someone (or something) raked their claws across the wood.
+  - keywords: oak
+    description: |
+      They're HUGE!  They are at least 12 feet tall and about 10 feet wide.
+      If not for one thing they would be perfectly preserved.  There appears
+      to be some letters crudely scratched into the wood.
+  - keywords: staircase stairs
+    description: |
+      Though quite cracked they do look very stable.
+  - keywords: tapestry tapestries
+    description: |
+      The tapestries were woven into beautiful and exciting scenes of battles
+      long ago.  One on the left your shows the historic battle between Jubal the
+      Benevolent and Hroth Kragen's forces that eventually Jubal's army won (of
+      course).
+  - keywords: stone door trapdoor
+    description: |
+      It's rather small and looks quite heavy but maybe with some kind of leverage
+      you could move it.  It has a queerly shaped hole that looks big enough
+      for an equally queerly shaped pole to fit inside.  If only you had it!
+- vnum: 3422
+  name: The Grand Hall of Kings
+  description: |
+    A long hallway stretches east and west.  On the southern side of the hall
+    there are many doors, each with the name of a king who has died and is
+    entombed here.  The hallway is beautiful yet chilling.  Even though the area
+    has been kept well by acolytes, there remains a stench of the undead.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: oak
+    exit_flags: A
+    key: -1
+    to_vnum: 3421
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3427
+  - dir: 2
+    desc: |
+      The door has written above it: 'May all the lands thank Crotus the Victor.
+      Without his guidance this kingdom would not have stood.'
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 3423
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3417
+  extra_descs: []
+- vnum: 3423
+  name: The Shrine of Crotus
+  description: |
+    Mostly rubble, this place used to be the shrine of the famous king Crotus,
+    who saved the northern regions from being overrun by the goblin hordes of
+    100 years ago.  If not for him, Midgaard of course would have eventually been
+    conquered as well.  Though Crotus was a goodly king, it was rumored that he
+    turned to the dark ways in his dying years ... and died an evil man.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 3422
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3424
+  extra_descs: []
+- vnum: 3424
+  name: The Tomb of Crotus
+  description: |
+    A sarcophagus lies in the middle of the room and seems undisturbed.
+    A hole has been knocked into the east wall.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3423
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3429
+  extra_descs: []
+- vnum: 3425
+  name: The Lower Chambers and Tombs of the Undead
+  description: |
+    The stench of death is heavy in these caverns.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3426
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3420
+  extra_descs: []
+- vnum: 3426
+  name: The Lower Chambers and Tombs of the Undead
+  description: |
+    The stench of death is heavy in these caverns.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3430
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3425
+  extra_descs: []
+- vnum: 3427
+  name: The Grand Hall of Kings
+  description: |
+    You are in the western part of the Grand Hall of Kings.  To the south is a
+    door and to the east and west the hall continues.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3432
+  - dir: 2
+    desc: ''
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 3428
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3422
+  extra_descs: []
+- vnum: 3428
+  name: The Shrine of Mitnar
+  description: |
+    Mitnar was a gruesome beast of a man ... he loved battle ... and nothing
+    else.  Warriors did love Mitnar, and all fighting men honored him.
+    On the wall is depicted battle after battle after battle.
+    A small opening has been shaped carefully to the east.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 3427
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3433
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3429
+  extra_descs: []
+- vnum: 3429
+  name: The Tomb of Mitnar
+  description: |
+    The wall paintings show men and women warriors alike bowing down to Mitnar,
+    prisoners of war being put to the sword by Mitnar, and great heaps of gold
+    and weapons under the feet of Mitnar.  Where his coffin was, there is now
+    only a rectangular blemish on the floor of the dusty room.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3428
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3424
+  extra_descs: []
+- vnum: 3430
+  name: The Lower Chambers and Tombs of the Undead
+  description: |
+    The stench of death is heavy in these caverns.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3431
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3435
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3426
+  extra_descs: []
+- vnum: 3431
+  name: The Lower Chambers and Tombs of the Undead
+  description: |
+    The stench of death is heavy in these caverns.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3430
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3436
+  extra_descs: []
+- vnum: 3432
+  name: The Grand Hall of Kings
+  description: |
+    You are still walking through the gloomy hallway.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3437
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3427
+  extra_descs: []
+- vnum: 3433
+  name: The Shrine of Frath
+  description: |
+    Little chunks of dried meat are spattered throughout this room.  The walls
+    are covered in gore.  Almost as if they were painted ... ICK!  You can
+    almost make out the design!
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3438
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3428
+  extra_descs: []
+- vnum: 3434
+  name: The Tomb of Frath
+  description: |
+    UGH!  The sarcophagus is opened up and the mummified body lies out in the
+    open, ripped to pieces.  Gnawed pieces of flesh and bone are strewn here.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3439
+  extra_descs: []
+- vnum: 3435
+  name: The Lower Chambers and Tombs of the Undead
+  description: |
+    The stench of death is heavy in these caverns.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3440
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3436
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3430
+  extra_descs: []
+- vnum: 3436
+  name: The Lower Chambers and Tombs of the Undead
+  description: |
+    The stench of death is heavy in these caverns.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3441
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3431
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3435
+  extra_descs: []
+- vnum: 3437
+  name: The Grand Hall of Kings
+  description: |
+    You are at the western end of the Grand Hall of Kings.  There is a
+    door leading north and the hallway continues west.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 3409
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3432
+  extra_descs: []
+- vnum: 3438
+  name: The Shrine of Jubal
+  description: |
+    This was once beautiful.  Now the huge tapestries have been torn down and the
+    carpeting pulled up ... the paintings on the ceiling are unreadable and the
+    altar is crumbled.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3439
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3433
+  extra_descs: []
+- vnum: 3439
+  name: The Tomb of Jubal
+  description: |
+    The smell coming off of the opened sarcophagus is nauseating.  The floor is
+    slightly crumpled and walls are raked ... but the worst part is the mummy ...
+    Jubal the Benevolent is missing his head!
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3438
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3434
+  extra_descs: []
+- vnum: 3440
+  name: The Lower Chambers and Tombs of the Undead
+  description: |
+    The stench of death is heavy in these caverns.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3441
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3445
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3435
+  extra_descs: []
+- vnum: 3441
+  name: The Lower Chambers and Tombs of the Undead
+  description: |
+    The stench of death is heavy in these caverns.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3436
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3440
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3446
+  extra_descs: []
+- vnum: 3442
+  name: The Lower Chambers and Tombs of the Undead
+  description: |
+    The stench of death is heavy in these caverns.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3447
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3443
+  extra_descs: []
+- vnum: 3443
+  name: The Lower Chambers and Tombs of the Undead
+  description: |
+    The stench of death is heavy in these caverns.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3442
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3444
+  extra_descs: []
+- vnum: 3444
+  name: The Lower Chambers and Tombs of the Undead
+  description: |
+    The stench of death is heavy in these caverns.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3449
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3443
+  extra_descs: []
+- vnum: 3445
+  name: The Lower Chambers and Tombs of the Undead
+  description: |
+    The stench of death is heavy in these caverns.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3446
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3440
+  extra_descs: []
+- vnum: 3446
+  name: The Lower Chambers and Tombs of the Undead
+  description: |
+    The stench of death is heavy in these caverns.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3445
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3447
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3441
+  extra_descs: []
+- vnum: 3447
+  name: The Lower Chambers and Tombs of the Undead
+  description: |
+    The stench of death is heavy in these caverns.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3448
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3442
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3446
+  extra_descs: []
+- vnum: 3448
+  name: The Lower Chambers and Tombs of the Undead
+  description: |
+    This room has been totally hollowed out and smoothed, and a pit has been
+    drilled in the center of the floor.  There are extensive gruesome paintings
+    of beasts and monsters terrorizing the countryside; vampires sucking the
+    blood of beasts and humans alike.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3447
+  extra_descs:
+  - keywords: painting paintings mural
+    description: |
+      There is a tiny painting of a vault in this mural ... and it seems to be a
+      reflected picture of the vault ... the word in tiny print is 'rathcor'.
+- vnum: 3449
+  name: The Lower Chambers and Tombs of the Undead
+  description: |
+    The stench of death is heavy in these caverns.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: door
+    exit_flags: AC
+    key: 3411
+    to_vnum: 3408
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3444
+  extra_descs: []
+- vnum: 3450
+  name: Entrance to the Forbidden Catacombs
+  description: |
+    You have entered the forbidden catacombs.  This cave system must have been
+    built long ago.  The air is dank and smells of something dead ...  or maybe
+    undead.  Enter here at your own risk ... something evil abides.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3451
+  - dir: 1
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3452
+  - dir: 2
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3453
+  - dir: 3
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3454
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3408
+  extra_descs: []
+- vnum: 3451
+  name: The Catacombs
+  description: |
+    Stone walls, musty air ... the earth seems to moan softly.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3455
+  - dir: 2
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3450
+  extra_descs: []
+- vnum: 3452
+  name: The Catacombs
+  description: |
+    Stone walls, musty air ... the earth seems to moan softly.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3461
+  - dir: 3
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3450
+  extra_descs: []
+- vnum: 3453
+  name: The Catacombs
+  description: |
+    Stone walls, musty air ... the earth seems to moan softly.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3450
+  extra_descs: []
+- vnum: 3454
+  name: The Catacombs
+  description: |
+    Stone walls, musty air ... the earth seems to moan softly.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3450
+  extra_descs: []
+- vnum: 3455
+  name: The Catacombs
+  description: |
+    Stone walls, musty air ... the earth seems to moan softly.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3456
+  - dir: 3
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3451
+  extra_descs: []
+- vnum: 3456
+  name: The Catacombs
+  description: |
+    Stone walls, musty air ... the earth seems to moan softly.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3455
+  - dir: 1
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3457
+  extra_descs: []
+- vnum: 3457
+  name: The Catacombs
+  description: |
+    Stone walls, musty air ... the earth seems to moan softly.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3458
+  - dir: 3
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3456
+  extra_descs: []
+- vnum: 3458
+  name: The Catacombs
+  description: |
+    Stone walls, musty air ... the earth seems to moan softly.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3457
+  - dir: 2
+    desc: |
+      You see unfathomable blackness to the south ...
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3472
+  - dir: 3
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3459
+  extra_descs: []
+- vnum: 3459
+  name: The Catacombs
+  description: |
+    Stone walls, musty air ... the earth seems to moan softly.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3458
+  - dir: 3
+    desc: |
+      You see something's den.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3460
+  extra_descs: []
+- vnum: 3460
+  name: Den of the Vampire
+  description: |
+    Your mind whirls in the hideous madness of this place.  The stench
+    is horrendous and dead bodies, sucked of life, lay all over.  One coffin
+    lies in the center of the room ... waiting for YOU!
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3459
+  - dir: 5
+    desc: |
+      A jet black coffin ... who knows what lurks beneath.
+    keywords: coffin
+    exit_flags: AC
+    key: 3419
+    to_vnum: 3475
+  extra_descs: []
+- vnum: 3461
+  name: The Catacombs
+  description: |
+    Stone walls, musty air ... the earth seems to moan softly.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3462
+  - dir: 2
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3452
+  extra_descs: []
+- vnum: 3462
+  name: The Catacombs
+  description: |
+    Stone walls, musty air ... the earth seems to moan softly.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3463
+  - dir: 3
+    desc: |
+      Too dark too tell.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3461
+  extra_descs: []
+- vnum: 3463
+  name: The Catacombs
+  description: |
+    Stone walls, musty air ... the earth seems to moan softly.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3462
+  - dir: 1
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3464
+  extra_descs: []
+- vnum: 3464
+  name: The Catacombs
+  description: |
+    Stone walls, musty air ... the earth seems to moan softly.
+  room_flags: ADN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: There is a secret door here.
+    keywords: secret
+    exit_flags: A
+    key: -1
+    to_vnum: 3470
+  - dir: 2
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3465
+  - dir: 3
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3463
+  extra_descs: []
+- vnum: 3465
+  name: The Gilded Hallway
+  description: |
+    Wow!  Although this hallway is quite filthy and dusty, it is noticeably
+    different than the rest of the catacombs ... but you don't feel safe yet.
+    The walls faintly show ancient detailed etchings in gold and silver of
+    ancient rituals ... not all of which seem pleasant.  The hallway continues
+    north into the catacombs and further south as long as you can see.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The glow of your light reflects off the walls and you see the catacombs.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3464
+  - dir: 2
+    desc: |
+      The glow of your light reflects off the walls ... the gilded hallway.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3466
+  extra_descs:
+  - keywords: etchings
+    description: |
+      Beautiful yet disturbing, they urge you to move onward.
+- vnum: 3466
+  name: The Gilded Hallway
+  description: |
+    Ancient etchings and writing in intricate gold and silver designs fill these
+    walls.  You are tempted to linger and examine them closely.  Your light source
+    flickers off the walls showing you exits north and south.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Your light reveals more of the hallway.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3465
+  - dir: 2
+    desc: |
+      Your light reveals more of the hallway.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3467
+  extra_descs:
+  - keywords: etchings
+    description: |
+      Beautiful yet disturbing, they urge you to move onward.
+- vnum: 3467
+  name: The Gilded Hallway
+  description: |
+    Ancient etchings and writing in intricate gold and silver designs fill these
+    walls.  You are tempted to linger and examine them closely.  Your light source
+    flickers off the walls showing you exits north and south.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Your light reveals more of the hallway.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3466
+  - dir: 2
+    desc: |
+      Your light reveals more of the hallway.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3468
+  extra_descs:
+  - keywords: etchings
+    description: |
+      Beautiful yet disturbing, they urge you to move onward.
+- vnum: 3468
+  name: The Gilded Hallway
+  description: |
+    Ancient etchings and writing in intricate gold and silver designs fill these
+    walls.  You are tempted to linger and examine them closely.  Your light source
+    flickers off the walls showing you exits north and south.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Your light reveals more of the hallway.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3467
+  - dir: 2
+    desc: |
+      Your light reveals more of the hallway.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3469
+  extra_descs:
+  - keywords: etchings
+    description: |
+      Beautiful yet disturbing, they urge you to move onward.
+- vnum: 3469
+  name: The Gilded Hallway
+  description: |
+    Ancient etchings and writing in intricate gold and silver designs fill these
+    walls.  You are tempted to linger and examine them closely.  Your light source
+    flickers off the walls showing you exits north.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Your light reveals more of the hallway.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3468
+  extra_descs:
+  - keywords: etchings
+    description: |
+      Beautiful yet disturbing, they urge you to move onward.
+- vnum: 3470
+  name: A Secret Passageway
+  description: |
+    A secret passage!  You wonder where it may lead!
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3471
+  extra_descs:
+  - keywords: east secret door
+    description: |
+      The door closed on you so softly that you didn't even notice!
+- vnum: 3471
+  name: A Secret Passageway
+  description: |
+    A secret passage!  You wonder where it may lead!
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Too dark to tell.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 3470
+  extra_descs: []
+- vnum: 3472
+  name: The Short Way to Hell ...
+  description: |+
+    You fall ...
+                hmm .... it's getting really HOT!
+    You fall ...
+                            you fall ...
+         Slowly you are cooking as you fall further ... your skin is burning and
+    your hair evaporates ...
+
+                                               you fall ...
+
+                     and fall ...
+
+                                         AND STOP!
+
+    Welcome to HELL!
+
+    But even in Hell we give you another chance.
+
+  room_flags: CD
+  sector: 0
+  owner: ''
+  exits: []
+  extra_descs: []
+- vnum: 3475
+  name: Inside the coffin
+  description: |
+    You are inside a coffin.  It seems rather cramped in here.  You can climb
+    up out of the coffin, or you can wait for here the real occupant to join you.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 4
+    desc: ''
+    keywords: lid coffin
+    exit_flags: AC
+    key: 3419
+    to_vnum: 3460
+  extra_descs: []
+resets:
+- command: D
+  arg1: 3405
+  arg2: 0
+  arg3: 0
+- command: D
+  arg1: 3405
+  arg2: 5
+  arg3: 2
+- command: D
+  arg1: 3408
+  arg2: 3
+  arg3: 2
+- command: D
+  arg1: 3412
+  arg2: 2
+  arg3: 0
+- command: D
+  arg1: 3413
+  arg2: 0
+  arg3: 0
+- command: D
+  arg1: 3418
+  arg2: 5
+  arg3: 1
+- command: D
+  arg1: 3421
+  arg2: 2
+  arg3: 0
+- command: D
+  arg1: 3421
+  arg2: 4
+  arg3: 2
+- command: D
+  arg1: 3422
+  arg2: 0
+  arg3: 0
+- command: D
+  arg1: 3422
+  arg2: 2
+  arg3: 0
+- command: D
+  arg1: 3423
+  arg2: 0
+  arg3: 0
+- command: D
+  arg1: 3427
+  arg2: 2
+  arg3: 1
+- command: D
+  arg1: 3428
+  arg2: 0
+  arg3: 1
+- command: D
+  arg1: 3437
+  arg2: 0
+  arg3: 0
+- command: D
+  arg1: 3449
+  arg2: 1
+  arg3: 2
+- command: D
+  arg1: 3460
+  arg2: 5
+  arg3: 2
+- command: D
+  arg1: 3464
+  arg2: 1
+  arg3: 1
+- command: D
+  arg1: 3475
+  arg2: 4
+  arg3: 2
+- command: M
+  arg1: 3405
+  arg2: 1
+  arg3: 3405
+- command: G
+  arg1: 3430
+  arg2: 0
+  arg3: 0
+- command: O
+  arg1: 3400
+  arg2: 0
+  arg3: 3405
+- command: M
+  arg1: 3401
+  arg2: 8
+  arg3: 3409
+- command: M
+  arg1: 3401
+  arg2: 8
+  arg3: 3409
+- command: M
+  arg1: 3401
+  arg2: 8
+  arg3: 3409
+- command: M
+  arg1: 3402
+  arg2: 8
+  arg3: 3409
+- command: R
+  arg1: 3410
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 3400
+  arg2: 8
+  arg3: 3410
+- command: E
+  arg1: 3421
+  arg2: 0
+  arg3: 16
+- command: R
+  arg1: 3411
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 3403
+  arg2: 1
+  arg3: 3411
+- command: E
+  arg1: 3425
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 3416
+  arg2: 4
+  arg3: 3411
+- command: M
+  arg1: 3401
+  arg2: 8
+  arg3: 3414
+- command: M
+  arg1: 3401
+  arg2: 8
+  arg3: 3414
+- command: M
+  arg1: 3401
+  arg2: 8
+  arg3: 3414
+- command: M
+  arg1: 3401
+  arg2: 8
+  arg3: 3414
+- command: R
+  arg1: 3415
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 3413
+  arg2: 5
+  arg3: 3417
+- command: G
+  arg1: 3422
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 3413
+  arg2: 5
+  arg3: 3418
+- command: G
+  arg1: 3422
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 3400
+  arg2: 8
+  arg3: 3419
+- command: E
+  arg1: 3421
+  arg2: 0
+  arg3: 16
+- command: R
+  arg1: 3420
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 3412
+  arg2: 1
+  arg3: 3424
+- command: E
+  arg1: 3416
+  arg2: 0
+  arg3: 17
+- command: O
+  arg1: 3415
+  arg2: 0
+  arg3: 3424
+- command: P
+  arg1: 3417
+  arg2: 0
+  arg3: 3415
+- command: P
+  arg1: 3418
+  arg2: 0
+  arg3: 3415
+- command: R
+  arg1: 3425
+  arg2: 4
+  arg3: 0
+- command: R
+  arg1: 3426
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 3409
+  arg2: 4
+  arg3: 3426
+- command: M
+  arg1: 3409
+  arg2: 4
+  arg3: 3426
+- command: M
+  arg1: 3416
+  arg2: 4
+  arg3: 3426
+- command: R
+  arg1: 3430
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 3400
+  arg2: 8
+  arg3: 3430
+- command: E
+  arg1: 3421
+  arg2: 0
+  arg3: 16
+- command: R
+  arg1: 3431
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 3413
+  arg2: 5
+  arg3: 3432
+- command: G
+  arg1: 3422
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 3411
+  arg2: 1
+  arg3: 3434
+- command: E
+  arg1: 3414
+  arg2: 0
+  arg3: 16
+- command: G
+  arg1: 3412
+  arg2: 0
+  arg3: 0
+- command: P
+  arg1: 3413
+  arg2: 0
+  arg3: 3412
+- command: R
+  arg1: 3435
+  arg2: 4
+  arg3: 0
+- command: R
+  arg1: 3436
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 3402
+  arg2: 8
+  arg3: 3437
+- command: R
+  arg1: 3440
+  arg2: 4
+  arg3: 0
+- command: R
+  arg1: 3441
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 3400
+  arg2: 8
+  arg3: 3441
+- command: E
+  arg1: 3421
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 3413
+  arg2: 5
+  arg3: 3441
+- command: G
+  arg1: 3422
+  arg2: 0
+  arg3: 0
+- command: R
+  arg1: 3442
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 3416
+  arg2: 4
+  arg3: 3442
+- command: R
+  arg1: 3443
+  arg2: 4
+  arg3: 0
+- command: R
+  arg1: 3444
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 3409
+  arg2: 4
+  arg3: 3444
+- command: M
+  arg1: 3409
+  arg2: 4
+  arg3: 3444
+- command: R
+  arg1: 3445
+  arg2: 4
+  arg3: 0
+- command: R
+  arg1: 3446
+  arg2: 4
+  arg3: 0
+- command: R
+  arg1: 3447
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 3402
+  arg2: 8
+  arg3: 3447
+- command: M
+  arg1: 3416
+  arg2: 4
+  arg3: 3448
+- command: O
+  arg1: 3420
+  arg2: 0
+  arg3: 3448
+- command: P
+  arg1: 3410
+  arg2: 0
+  arg3: 3420
+- command: R
+  arg1: 3449
+  arg2: 4
+  arg3: 0
+- command: M
+  arg1: 3410
+  arg2: 1
+  arg3: 3449
+- command: E
+  arg1: 3414
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 3429
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 3411
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 3413
+  arg2: 5
+  arg3: 3450
+- command: G
+  arg1: 3422
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 3407
+  arg2: 5
+  arg3: 3452
+- command: E
+  arg1: 3402
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 3407
+  arg2: 5
+  arg3: 3453
+- command: E
+  arg1: 3402
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 3402
+  arg2: 8
+  arg3: 3454
+- command: M
+  arg1: 3406
+  arg2: 4
+  arg3: 3455
+- command: E
+  arg1: 3403
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 3407
+  arg2: 5
+  arg3: 3457
+- command: E
+  arg1: 3402
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 3404
+  arg2: 1
+  arg3: 3460
+- command: E
+  arg1: 3428
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 3427
+  arg2: 0
+  arg3: 12
+- command: E
+  arg1: 3419
+  arg2: 0
+  arg3: 17
+- command: G
+  arg1: 3424
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 3402
+  arg2: 8
+  arg3: 3462
+- command: M
+  arg1: 3406
+  arg2: 4
+  arg3: 3463
+- command: E
+  arg1: 3403
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 3407
+  arg2: 5
+  arg3: 3465
+- command: E
+  arg1: 3402
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 3407
+  arg2: 5
+  arg3: 3465
+- command: E
+  arg1: 3402
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 3406
+  arg2: 4
+  arg3: 3466
+- command: E
+  arg1: 3403
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 3414
+  arg2: 1
+  arg3: 3468
+- command: E
+  arg1: 3423
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 3415
+  arg2: 1
+  arg3: 3468
+- command: M
+  arg1: 3408
+  arg2: 1
+  arg3: 3471
+- command: E
+  arg1: 3425
+  arg2: 0
+  arg3: 17
+- command: G
+  arg1: 3426
+  arg2: 0
+  arg3: 0
+specials:
+- vnum: 3400
+  spec_fun: spec_cast_undead
+- vnum: 3401
+  spec_fun: spec_cast_undead
+- vnum: 3402
+  spec_fun: spec_cast_undead
+- vnum: 3403
+  spec_fun: spec_cast_undead
+- vnum: 3404
+  spec_fun: spec_cast_undead
+- vnum: 3405
+  spec_fun: spec_cast_cleric
+- vnum: 3407
+  spec_fun: spec_cast_undead
+- vnum: 3408
+  spec_fun: spec_cast_undead
+- vnum: 3410
+  spec_fun: spec_cast_undead
+- vnum: 3411
+  spec_fun: spec_cast_undead
+- vnum: 3412
+  spec_fun: spec_cast_mage
+- vnum: 3414
+  spec_fun: spec_cast_mage
+- vnum: 3415
+  spec_fun: spec_cast_undead
+- vnum: 3416
+  spec_fun: spec_cast_undead

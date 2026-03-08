@@ -1,0 +1,3991 @@
+area:
+  name: '{ 5 35} Poohb   The Shire'
+  builders: None
+  security: 9
+  area_flags: 0
+  vnums:
+  - 1100
+  - 1157
+mobiles:
+- vnum: 1100
+  keywords: elven wizard
+  short_desc: the Elven Wizard
+  long_desc: |
+    An Elven Wizard is here, creating fireworks for the festivities.
+  description: |
+    The Elven Wizard looks at you in a solemn sort of way.  His gaze seems to
+    penetrate through your innermost being.  He is wearing a silvery cloak
+    and holding a multi-colored staff.  Although he appears to be older
+    than the oldest man, he seems to have an inner strength which most mortals
+    cannot overcome.
+  race: Human
+  act: ABGT
+  affected_by: D
+  affected2_by: '0'
+  alignment: 500
+  clan: 0
+  level: 18
+  hitroll: 0
+  hit:
+    number: 6
+    type: 36
+    bonus: 205
+  mana:
+    number: 18
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 7
+    bonus: 12
+  dam_type: 11
+  ac:
+    pierce: -1
+    bash: -1
+    slash: -1
+    exotic: 4
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 75
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_mage
+- vnum: 1101
+  keywords: ring keeper
+  short_desc: the Keeper of the Ring
+  long_desc: |
+    The Keeper of the Ring is here, guarding his treasure jealously.
+  description: |
+    The Ring Keeper is a rather big but short halfling.  His short stature and
+    bulbous nose belie his true nature.  An elven sword that glows with a blue
+    light hangs from his belt, and on his finger you see the One Ring.  Although
+    usually a halfling of peace, he will fight you to the death if you attempt
+    to take away that which belongs to him.
+  race: Human
+  act: ABGT
+  affected_by: BD
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 20
+  hitroll: 0
+  hit:
+    number: 7
+    type: 38
+    bonus: 238
+  mana:
+    number: 20
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 7
+    bonus: 10
+  dam_type: 11
+  ac:
+    pierce: -2
+    bash: -2
+    slash: -2
+    exotic: 3
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 100
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1102
+  keywords: farmer gamgee
+  short_desc: Farmer Gamgee
+  long_desc: |
+    Farmer Gamgee sniffs the air, wondering if harvest time is near.
+  description: |
+    Farmer Gamgee is a short, stout halfling of thirty years.  His skin has
+    been tanned from working the fields night and day.  He's quite a jolly
+    chap, always ready to befriend an injured bunny rabbit.
+  race: Human
+  act: ABHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 350
+  clan: 0
+  level: 7
+  hitroll: 0
+  hit:
+    number: 1
+    type: 33
+    bonus: 61
+  mana:
+    number: 7
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 6
+    bonus: 3
+  dam_type: 11
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 5
+  default_pos: 5
+  sex: 1
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1103
+  keywords: toddler
+  short_desc: a toddler
+  long_desc: |
+    A toddler crawls about, looking for something to chew on.
+  description: |
+    The toddler is dressed in nothing but his birthday suit.  He crawls about
+    for he hasn't learned to walk yet.  He peers up at you and asks "da da?"
+  race: Human
+  act: ABHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 100
+  clan: 0
+  level: 2
+  hitroll: 0
+  hit:
+    number: 1
+    type: 2
+    bonus: 16
+  mana:
+    number: 2
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 3
+    bonus: 1
+  dam_type: 11
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 6
+  default_pos: 6
+  sex: 1
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1104
+  keywords: nursemaid
+  short_desc: a nursemaid
+  long_desc: |
+    A nursemaid wanders about, trying to keep track of all the toddlers.
+  description: |
+    The nursemaid looks rather tired and worn out.  Taking care of so many
+    toddlers for too long has evidently taken its toll.  She looks to you and
+    in her eyes you can see her longing for a better life.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 100
+  clan: 0
+  level: 5
+  hitroll: 0
+  hit:
+    number: 1
+    type: 16
+    bonus: 42
+  mana:
+    number: 5
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 4
+    bonus: 3
+  dam_type: 3
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1105
+  keywords: cow
+  short_desc: a cow
+  long_desc: |
+    A cow is here, chewing her cud.
+  description: |
+    The cow looks like it hasn't been milked in quite some time.  Although she
+    is past her prime, you see that she still has a lot of years left, and that
+    if provoked, her rear kick can be quite deadly.
+  race: Human
+  act: AGIT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 5
+  hitroll: 0
+  hit:
+    number: 1
+    type: 16
+    bonus: 42
+  mana:
+    number: 5
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 4
+    bonus: 3
+  dam_type: 3
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 5
+  default_pos: 5
+  sex: 0
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1106
+  keywords: pig
+  short_desc: a pig
+  long_desc: |
+    A pig wallows in the mud and oinks in contentment.
+  description: |
+    The pig appears quite happy to be a pig.  He is oblivious to your presence
+    and cares only for the care-free life that he leads.  It is enormously fat
+    and consequently cannot move around very quickly.
+  race: pig
+  act: AGIT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 4
+  hitroll: 0
+  hit:
+    number: 1
+    type: 10
+    bonus: 33
+  mana:
+    number: 4
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 7
+    bonus: 2
+  dam_type: 11
+  ac:
+    pierce: 7
+    bash: 7
+    slash: 7
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 5
+  default_pos: 5
+  sex: 0
+  gold: 0
+  form: AGV
+  parts: ACDEFHJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1107
+  keywords: chicken
+  short_desc: a chicken
+  long_desc: |
+    A chicken sits on her nest.
+  description: |
+    The chicken is bright and healthy.  She has no weapons but her beak.
+  race: Human
+  act: AGIT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 2
+  hitroll: 0
+  hit:
+    number: 1
+    type: 2
+    bonus: 16
+  mana:
+    number: 2
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 3
+    bonus: 1
+  dam_type: 7
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 6
+  default_pos: 6
+  sex: 2
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1108
+  keywords: bull
+  short_desc: a bull
+  long_desc: |
+    A bull scratches at the ground and lowers his head.
+  description: |
+    The bull is in top condition.  He looks like quite a fighter, nothing to be
+    reckoned with.  With his horns and his hooves he can attack just about
+    anything.
+  race: Human
+  act: ABFT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 5
+  hitroll: 0
+  hit:
+    number: 1
+    type: 16
+    bonus: 42
+  mana:
+    number: 5
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 4
+    bonus: 3
+  dam_type: 11
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1109
+  keywords: horse
+  short_desc: a horse
+  long_desc: |
+    A horse becomes frightened by your presence.
+  description: |
+    The horse looks at you and turns away.  You can tell that it is afraid of you.
+  race: Human
+  act: ABGIT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 5
+  hitroll: 0
+  hit:
+    number: 1
+    type: 16
+    bonus: 42
+  mana:
+    number: 5
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 4
+    bonus: 3
+  dam_type: 11
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1110
+  keywords: shiriff
+  short_desc: a shiriff
+  long_desc: |
+    A shiriff of the Shire looks for signs of trouble.
+  description: |
+    The shiriff is over waist high, quite tall for a halfling.  His eyes are
+    ever roaming, looking for signs of trouble from riff-raff like you.  In
+    his belt is a thin dagger, and on his body he wears a suit of leather armor.
+    This is one halfling you don't want to mess with.
+  race: shiriff
+  act: ACGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 150
+  clan: 0
+  level: 9
+  hitroll: 0
+  hit:
+    number: 2
+    type: 27
+    bonus: 83
+  mana:
+    number: 9
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 7
+    bonus: 6
+  dam_type: 11
+  ac:
+    pierce: 4
+    bash: 4
+    slash: 4
+    exotic: 7
+  off_flags: LP
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 6
+  default_pos: 6
+  sex: 1
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_guard
+- vnum: 1111
+  keywords: shiriff
+  short_desc: a shiriff
+  long_desc: |
+    A shiriff of the Shire looks for signs of trouble.
+  description: |
+    The shiriff is over waist high, quite tall for a halfling.  His eyes are
+    ever roaming, looking for signs of trouble from riff raff like you.  In
+    his belt is a thin dagger, and on his body he wears a suit of leather armor.
+    This is one halfling you don't want to mess with.
+  race: shiriff
+  act: ACGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 150
+  clan: 0
+  level: 8
+  hitroll: 0
+  hit:
+    number: 2
+    type: 21
+    bonus: 73
+  mana:
+    number: 8
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 7
+    bonus: 4
+  dam_type: 3
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: LP
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 6
+  default_pos: 6
+  sex: 1
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_guard
+- vnum: 1112
+  keywords: thain
+  short_desc: the Thain
+  long_desc: |
+    The Thain commands respect from all Shire folk.
+  description: |
+    A personable yet serious halfling, the Thain looks at you and yells a
+    deep 'Hullo'.  He walks about comfortably, secure in the knowledge that
+    as long as he's in office, the Shire will always remain a safe haven for
+    Shire folk.
+  race: thain
+  act: AGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 400
+  clan: 0
+  level: 14
+  hitroll: 0
+  hit:
+    number: 4
+    type: 33
+    bonus: 145
+  mana:
+    number: 14
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 6
+    bonus: 7
+  dam_type: 11
+  ac:
+    pierce: 1
+    bash: 1
+    slash: 1
+    exotic: 5
+  off_flags: LP
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 6
+  default_pos: 6
+  sex: 1
+  gold: 50
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_guard
+- vnum: 1113
+  keywords: innkeeper
+  short_desc: the Innkeeper
+  long_desc: |
+    The Innkeeper stands here awaiting your order.
+  description: |
+    The Innkeeper is a jolly old halfling who spends his days eavesdropping on
+    local gossip.  In his younger days, he was quite a seasoned traveller.
+  race: Human
+  act: ABGT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 200
+  clan: 0
+  level: 12
+  hitroll: 0
+  hit:
+    number: 3
+    type: 32
+    bonus: 120
+  mana:
+    number: 12
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 7
+    bonus: 6
+  dam_type: 7
+  ac:
+    pierce: 2
+    bash: 2
+    slash: 2
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 7
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1114
+  keywords: miller
+  short_desc: the Miller
+  long_desc: |
+    The Miller is here, overseeing his busy mill workers.
+  description: |
+    The Miller is an impatient young halfling, always trying to command more
+    respect from his workers than he can get.  He looks like the type of person
+    who deserves a spanking but never got one.
+  race: Human
+  act: ACGHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 50
+  clan: 0
+  level: 5
+  hitroll: 0
+  hit:
+    number: 1
+    type: 16
+    bonus: 42
+  mana:
+    number: 5
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 4
+    bonus: 3
+  dam_type: 3
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 2
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1115
+  keywords: mill worker
+  short_desc: the mill worker
+  long_desc: |
+    The mill worker runs to and fro.
+  description: |
+    The mill worker is in fine shape from the hard labor that he does at the
+    mill.  He doesn't notice your presence, but he looks like he could break you
+    in two without thinking about it.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 4
+  hitroll: 0
+  hit:
+    number: 1
+    type: 10
+    bonus: 33
+  mana:
+    number: 4
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 7
+    bonus: 2
+  dam_type: 3
+  ac:
+    pierce: 7
+    bash: 7
+    slash: 7
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1116
+  keywords: elven warrior
+  short_desc: the elven warrior
+  long_desc: |
+    The elven warrior watches you solemnly.
+  description: |
+    The tall elven warrior is light and fair-skinned.  The expression that he wears
+    on his countenance is solemn and tragic.  He cares not for this world any
+    longer and wearies of it.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 600
+  clan: 0
+  level: 17
+  hitroll: 0
+  hit:
+    number: 5
+    type: 39
+    bonus: 187
+  mana:
+    number: 17
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 7
+    bonus: 10
+  dam_type: 3
+  ac:
+    pierce: 0
+    bash: 0
+    slash: 0
+    exotic: 4
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 6
+  default_pos: 6
+  sex: 1
+  gold: 75
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_mage
+- vnum: 1117
+  keywords: dwarven prince
+  short_desc: the dwarven prince
+  long_desc: |
+    The dwarven prince sits here patiently for the return of his king.
+  description: |
+    Grim and cold, the dwarven prince is quite strong and bulky, even for the
+    dwarves of his land.  His glowing eyes peer out of his bushy face and stare
+    beyond your gaze.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 200
+  clan: 0
+  level: 17
+  hitroll: 0
+  hit:
+    number: 5
+    type: 39
+    bonus: 187
+  mana:
+    number: 17
+    type: 10
+    bonus: 100
+  damage:
+    number: 4
+    type: 7
+    bonus: 10
+  dam_type: 7
+  ac:
+    pierce: 0
+    bash: 0
+    slash: 0
+    exotic: 4
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 6
+  default_pos: 6
+  sex: 1
+  gold: 75
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_cleric
+- vnum: 1118
+  keywords: shopkeeper
+  short_desc: the shopkeeper
+  long_desc: |
+    The shopkeeper smiles and patiently waits for you to buy something.
+  description: |
+    The shopkeeper will fight like a madman to protect his store from riff-raff
+    like you.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 600
+  clan: 0
+  level: 21
+  hitroll: 0
+  hit:
+    number: 8
+    type: 37
+    bonus: 252
+  mana:
+    number: 21
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 7
+    bonus: 12
+  dam_type: 3
+  ac:
+    pierce: -3
+    bash: -3
+    slash: -3
+    exotic: 3
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 120
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1119
+  keywords: grocer
+  short_desc: the grocer
+  long_desc: |
+    The grocer offers you the finest breads in all the land.
+  description: |
+    The grocer is a large, jovial halfling who knows how to enjoy his pipeweed.
+    However, he also knows that it's worth protecting and so will do everything
+    in his power to prevent riff-raff like you from stealing it.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 600
+  clan: 0
+  level: 22
+  hitroll: 0
+  hit:
+    number: 9
+    type: 36
+    bonus: 270
+  mana:
+    number: 22
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 7
+    bonus: 14
+  dam_type: 11
+  ac:
+    pierce: -3
+    bash: -3
+    slash: -3
+    exotic: 3
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 15
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1120
+  keywords: blacksmith
+  short_desc: the blacksmith
+  long_desc: |
+    The blacksmith bids you welcome to his humble store.
+  description: |
+    The blacksmith is a lean and mean fighting machine.  His knowledge of weapons
+    and armour would certainly help him in any fight against riff-raff like you.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 600
+  clan: 0
+  level: 23
+  hitroll: 0
+  hit:
+    number: 9
+    type: 36
+    bonus: 300
+  mana:
+    number: 50
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 7
+    bonus: 18
+  dam_type: 11
+  ac:
+    pierce: -21
+    bash: -21
+    slash: -21
+    exotic: -5
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 180
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1121
+  keywords: battle master
+  short_desc: the battle master
+  long_desc: |
+    The battle master offers you the services of his fine trainees.
+  description: |
+    The battle master is a wizened fighter, with many scars to prove his worth.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 350
+  clan: 0
+  level: 25
+  hitroll: 0
+  hit:
+    number: 10
+    type: 42
+    bonus: 322
+  mana:
+    number: 25
+    type: 10
+    bonus: 100
+  damage:
+    number: 5
+    type: 8
+    bonus: 16
+  dam_type: 11
+  ac:
+    pierce: -5
+    bash: -5
+    slash: -5
+    exotic: 2
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 15
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_guard
+- vnum: 1122
+  keywords: halfling youth
+  short_desc: a halfling youth
+  long_desc: |
+    A halfling youth stands here, waiting for nothing in particular.
+  description: |
+    The halfling youth is not yet quite in the prime of his youth.  He's knee
+    high and you get the sudden urge to step on him.
+  race: Human
+  act: AGHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 2
+  hitroll: 0
+  hit:
+    number: 1
+    type: 2
+    bonus: 16
+  mana:
+    number: 2
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 3
+    bonus: 1
+  dam_type: 3
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 15
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_thief
+- vnum: 1123
+  keywords: seasoned adventurer
+  short_desc: a seasoned adventurer
+  long_desc: |
+    A seasoned adventurer sits here, telling tales of fame and fortune.
+  description: |
+    The seasoned adventurer has seen his share of glory days.  Although he is
+    past his prime, he still looks like he could put up more than his share of
+    a good fight.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 100
+  clan: 0
+  level: 7
+  hitroll: 0
+  hit:
+    number: 1
+    type: 33
+    bonus: 61
+  mana:
+    number: 7
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 6
+    bonus: 3
+  dam_type: 3
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 6
+  default_pos: 6
+  sex: 1
+  gold: 1
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1124
+  keywords: local gossip
+  short_desc: a local gossip
+  long_desc: |
+    A local gossip asks you, "Have you heard the latest?"
+  description: |
+    The gossip is all talk and no action.  You're transfixed by her ability to
+    talk so much so quickly.
+  race: Human
+  act: ABHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 3
+  hitroll: 0
+  hit:
+    number: 1
+    type: 6
+    bonus: 23
+  mana:
+    number: 3
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 5
+    bonus: 1
+  dam_type: 7
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 6
+  default_pos: 6
+  sex: 2
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1125
+  keywords: halfling beauty
+  short_desc: a halfling beauty
+  long_desc: |
+    A halfling beauty stares dreamily into your eyes.
+  description: |
+    She is the most beautiful creature you've seen in quite some time.  As you
+    stare at her, thoughts of all else vanish.  You get the sudden urge to grovel
+    at her feet, hoping she'll take you in like a lost puppy.  You wouldn't dare
+    harm a hair on her precious little head.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 6
+  hitroll: 0
+  hit:
+    number: 1
+    type: 24
+    bonus: 51
+  mana:
+    number: 6
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 5
+    bonus: 3
+  dam_type: 3
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 20
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1126
+  keywords: trainee
+  short_desc: a trainee
+  long_desc: |
+    A trainee screams a death cry as he delivers the fatal blow to a dummy.
+  description: |
+    The trainee smiles smugly, aware of your interest in him.  He's a little
+    fresh, but his enthusiasm and desire to please more than make up for what
+    he lacks in skill.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 6
+  hitroll: 0
+  hit:
+    number: 1
+    type: 24
+    bonus: 51
+  mana:
+    number: 6
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 5
+    bonus: 3
+  dam_type: 11
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1127
+  keywords: chic urbanite
+  short_desc: a chic urbanite
+  long_desc: |
+    A chic urbanite sits here, enjoying his class status.
+  description: |
+    The urbanite seems very much at home in his surroundings.  His clothes are
+    all of the latest fashions and his manners impeccable.  He offers you some
+    coins if you'd be so good as to order a drink for him.
+  race: Human
+  act: ABHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 4
+  hitroll: 0
+  hit:
+    number: 1
+    type: 10
+    bonus: 33
+  mana:
+    number: 4
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 7
+    bonus: 2
+  dam_type: 11
+  ac:
+    pierce: 7
+    bash: 7
+    slash: 7
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 6
+  default_pos: 6
+  sex: 1
+  gold: 1
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1128
+  keywords: country bumpkin
+  short_desc: a country bumpkin
+  long_desc: |
+    A country bumpkin dreams of pipeweed and its many uses.
+  description: |
+    The country bumpkin snores noisily.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 0
+  clan: 0
+  level: 5
+  hitroll: 0
+  hit:
+    number: 1
+    type: 16
+    bonus: 42
+  mana:
+    number: 5
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 4
+    bonus: 3
+  dam_type: 3
+  ac:
+    pierce: 6
+    bash: 6
+    slash: 6
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 4
+  default_pos: 4
+  sex: 1
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1130
+  keywords: innkeeper
+  short_desc: the Innkeeper
+  long_desc: |
+    The Innkeeper stands here awaiting your order.
+  description: |
+    The Innkeeper is a jolly old halfling who spends his days eavesdropping on
+    local gossip.  In his younger days, he was quite a seasoned traveller.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 200
+  clan: 0
+  level: 12
+  hitroll: 0
+  hit:
+    number: 3
+    type: 32
+    bonus: 120
+  mana:
+    number: 12
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 7
+    bonus: 6
+  dam_type: 11
+  ac:
+    pierce: 2
+    bash: 2
+    slash: 2
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 10
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1131
+  keywords: receptionist
+  short_desc: the receptionist
+  long_desc: |
+    The receptionist sits here, signing forms.
+  description: |
+    He is a very professional looking type.
+  race: Human
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 200
+  clan: 0
+  level: 11
+  hitroll: 0
+  hit:
+    number: 3
+    type: 27
+    bonus: 107
+  mana:
+    number: 11
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 6
+    bonus: 6
+  dam_type: 11
+  ac:
+    pierce: 3
+    bash: 3
+    slash: 3
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 1132
+  keywords: shiriff
+  short_desc: a shiriff
+  long_desc: |
+    A shiriff of the Shire looks for the lost halfling youth.
+  description: |
+    The shiriff is over waist high, quite tall for a halfling.
+    He looks at you, smiles and asks you if you have seen a halfling youth
+    somewhere outside the shire.
+  race: shiriff
+  act: ABT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 150
+  clan: 0
+  level: 7
+  hitroll: 0
+  hit:
+    number: 1
+    type: 33
+    bonus: 61
+  mana:
+    number: 7
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 6
+    bonus: 3
+  dam_type: 11
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: LP
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 0
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_guard
+objects:
+- vnum: 1100
+  name: rainbow staff
+  short_desc: the rainbow staff
+  description: The rainbow staff lies here.
+  material: none
+  item_type: 1
+  extra_flags: G
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 999
+  - 0
+  - 0
+  level: 18
+  weight: 8
+  cost: 180
+  affects:
+  - where: O
+    location: 4
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 1101
+  name: sting
+  short_desc: sting
+  description: Sting lies here.
+  material: none
+  item_type: 5
+  extra_flags: ABK
+  wear_flags: AN
+  values:
+  - 2
+  - 5
+  - 5
+  - 10
+  - 0
+  level: 20
+  weight: 1
+  cost: 200
+  affects:
+  - where: O
+    location: 2
+    modifier: 2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 1102
+  name: sign
+  short_desc: a sign
+  description: A sign demands your attention.
+  material: none
+  item_type: 12
+  extra_flags: '0'
+  wear_flags: '0'
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 5
+  weight: 0
+  cost: 50
+  affects: []
+  extra_descs:
+  - keywords: sign
+    description: "Welcome to the Shire.  As you enter the Shire from Haon-Dor you\
+      \ come under\nthe jurisdiction of the Thain, the peacekeeper of the Shire. \
+      \ Consequently,\nby entering these lands you agree to obey our laws.  If you\
+      \ break these laws,\nyou will be severely punished.  We do not like riff raff\
+      \ in our peaceful\ntown.\n\n\t\t\t\t\tThe Thain\n\t\t\t\t\tPeacekeeper of the\
+      \ Shire\n\n"
+- vnum: 1103
+  name: pipeweed bread
+  short_desc: a pipeweed bread
+  description: A loaf of pipeweed bread arouses your hunger.
+  material: none
+  item_type: 19
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 24
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 5
+  weight: 1
+  cost: 50
+  affects: []
+  extra_descs: []
+- vnum: 1104
+  name: silvery cloak
+  short_desc: a silvery cloak
+  description: A silvery cloak lies here.
+  material: none
+  item_type: 9
+  extra_flags: GK
+  wear_flags: AK
+  values:
+  - 6
+  - 6
+  - 6
+  - 0
+  - 0
+  level: 18
+  weight: 3
+  cost: 180
+  affects:
+  - where: O
+    location: 24
+    modifier: -2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 1105
+  name: one ring
+  short_desc: the One Ring
+  description: The One Ring is here.
+  material: none
+  item_type: 9
+  extra_flags: G
+  wear_flags: ABO
+  values:
+  - 7
+  - 7
+  - 7
+  - 0
+  - 0
+  level: 20
+  weight: 3
+  cost: 200
+  affects:
+  - where: O
+    location: 12
+    modifier: 20
+    bitvector: '0'
+  - where: O
+    location: 17
+    modifier: 10
+    bitvector: '0'
+  extra_descs: []
+- vnum: 1106
+  name: elven bow
+  short_desc: an elven bow
+  description: An elven bow lies here.
+  material: none
+  item_type: 5
+  extra_flags: BGK
+  wear_flags: AN
+  values:
+  - 0
+  - 5
+  - 4
+  - 4
+  - 0
+  level: 17
+  weight: 10
+  cost: 170
+  affects:
+  - where: O
+    location: 18
+    modifier: 2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 1107
+  name: mithril axe
+  short_desc: a mithril axe
+  description: A mithril axe lies here.
+  material: none
+  item_type: 5
+  extra_flags: ACMNO
+  wear_flags: AN
+  values:
+  - 5
+  - 5
+  - 4
+  - 25
+  - 0
+  level: 17
+  weight: 12
+  cost: 170
+  affects:
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 1108
+  name: thain girth
+  short_desc: the thain girth
+  description: The girth of the thain lies here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AL
+  values:
+  - 5
+  - 5
+  - 5
+  - 0
+  - 0
+  level: 14
+  weight: 4
+  cost: 140
+  affects:
+  - where: O
+    location: 4
+    modifier: 2
+    bitvector: '0'
+  extra_descs: []
+- vnum: 1109
+  name: tiny dagger
+  short_desc: a tiny dagger
+  description: A tiny dagger lies here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 2
+  - 3
+  - 5
+  - 11
+  - 0
+  level: 9
+  weight: 3
+  cost: 90
+  affects: []
+  extra_descs: []
+- vnum: 1110
+  name: egg
+  short_desc: an egg
+  description: An egg lies here.
+  material: none
+  item_type: 19
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 12
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 2
+  weight: 1
+  cost: 20
+  affects: []
+  extra_descs: []
+- vnum: 1111
+  name: bag
+  short_desc: a bag
+  description: A bag is on the floor.
+  material: none
+  item_type: 15
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 50
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 0
+  weight: 5
+  cost: 0
+  affects: []
+  extra_descs: []
+- vnum: 1112
+  name: lantern
+  short_desc: a lantern
+  description: A lantern is on the floor.
+  material: none
+  item_type: 1
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 20
+  - 0
+  - 0
+  level: 0
+  weight: 4
+  cost: 0
+  affects: []
+  extra_descs: []
+- vnum: 1113
+  name: bardiche
+  short_desc: a bardiche
+  description: A long weapon with a sharp end is on the floor.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 8
+  - 2
+  - 6
+  - 3
+  - 0
+  level: 6
+  weight: 10
+  cost: 60
+  affects:
+  - where: O
+    location: 18
+    modifier: 4
+    bitvector: '0'
+  extra_descs: []
+- vnum: 1114
+  name: flail
+  short_desc: a flail
+  description: A flail is on the floor.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 6
+  - 1
+  - 7
+  - 6
+  - 0
+  level: 0
+  weight: 8
+  cost: 0
+  affects: []
+  extra_descs: []
+rooms:
+- vnum: 1100
+  name: A dimly lit path
+  description: |
+    You tread through the deep, dark forest on a dimly lit path.  Up ahead you
+    can hear the faint sounds of a village.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The dimly lit path leads north through the dense forest.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1101
+  - dir: 2
+    desc: |
+      The dimly lit path leads south through the light forest.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 6000
+  extra_descs: []
+- vnum: 1101
+  name: A dimly lit path
+  description: |
+    You tread through the deep, dark forest on a dimly lit path.  Up ahead you
+    can hear the faint sounds of a village.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The dimly lit path leads north through the dense forest.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1102
+  - dir: 2
+    desc: |
+      The dimly lit path leads south through the dense forest.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1100
+  extra_descs: []
+- vnum: 1102
+  name: A dimly lit path
+  description: |
+    You tread through the deep, dark forest on a dimly lit path.  The forest
+    here seems less dense than to the south.  Northward you see the faint outline
+    of a village.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The dimly lit path leads to a village.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1103
+  - dir: 2
+    desc: |
+      The dimly lit path leads south through the dense forest.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1101
+  extra_descs: []
+- vnum: 1103
+  name: Entrance to the Shire
+  description: |
+    You stand at the entrance to the Shire.  You see halflings, no more than
+    wee tall, every which way you look. Bywater Road leads east and west.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      To the east runs Bywater Road.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1104
+  - dir: 2
+    desc: |
+      To the south you see a dimly lit path which leads to a dense forest.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1102
+  - dir: 3
+    desc: |
+      To the west runs Bywater Road.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1118
+  extra_descs: []
+- vnum: 1104
+  name: Bywater Road
+  description: |
+    You stand on Bywater Road, the busiest street in all of Shiredom.  The road
+    continues to the east and west while to the north lies the general store.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The general store lies to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1105
+  - dir: 1
+    desc: |
+      To the east runs Bywater Road.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1106
+  - dir: 3
+    desc: |
+      To the west you see the entrance to the Shire.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1103
+  extra_descs: []
+- vnum: 1105
+  name: The General Store
+  description: "You are inside the general store.  All sorts of goodies are stacked\
+    \ on the\nmany shelves.  Your local friendly shopkeeper is smiling patiently,\
+    \ waiting to \nserve you to the best of his abilities.  The only exit is to the\
+    \ south.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      The only exit lies to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1104
+  extra_descs: []
+- vnum: 1106
+  name: Bywater Road
+  description: |
+    You stand on Bywater Road, the busiest street in all of Shiredom.  The road
+    continues to the east and west.  To the north, steps lead to a friendly looking
+    weaponry/armory while a nursery lies to the south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Steps lead to a friendly looking weaponry and armory.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1107
+  - dir: 1
+    desc: |
+      To the east runs Bywater Road.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1109
+  - dir: 2
+    desc: |
+      To the south lies Kid'n Keep, the local nursery.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1108
+  - dir: 3
+    desc: |
+      To the west runs Bywater Road.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1104
+  extra_descs: []
+- vnum: 1107
+  name: The House of Arms
+  description: |
+    You are inside the finest weapons and armour shop in all of Shiredom.  The
+    shopkeeper proudly displays his fine wares and humbly offers the best daggers
+    that you have ever laid eyes on.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      The only exit lies to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1106
+  extra_descs: []
+- vnum: 1108
+  name: Kid'n Keep
+  description: |
+    You are inside Kid'n Keep, the convenient one-stop nursery that maintains
+    the youth of the Shire.  Toddlers run every which way while their nursemaids
+    sigh in exasperation.  The only exit lies to the north.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The only exit lies to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1106
+  extra_descs: []
+- vnum: 1109
+  name: A bend in the road
+  description: |
+    Bywater Road continues west and south.  A large, imposing building lies
+    to the east.  Farther to the south, you can see an Inn of some sort.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      A large, imposing building lies to the east.  A sign reads 'Shiriff Post'.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1110
+  - dir: 2
+    desc: |
+      To the south runs Bywater Road.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1112
+  - dir: 3
+    desc: |
+      To the west runs Bywater Road.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1106
+  extra_descs: []
+- vnum: 1110
+  name: Shiriff Post of the Eastern Shire
+  description: "You are in the Shiriff Post which acts as the nucleus for the three\
+    \ shiriffs\nof the Eastern Shire.  As you examine the shiriffs on duty, you come\
+    \ to realize\nthat the halflings of the Shire are not to be reckoned with.  You\
+    \ cower with \nawe.  A door offers passage to the east.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      A door offers passage to the office of the Thain.
+    keywords: door
+    exit_flags: A
+    key: 0
+    to_vnum: 1111
+  - dir: 3
+    desc: |
+      To the west you can see Bywater Road.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1109
+  extra_descs: []
+- vnum: 1111
+  name: Thain's Office
+  description: |
+    You stand inside the office of the Thain, the police protectorate of the
+    great Shire.  The Thain has sworn to protect the Shire from all thieves and
+    murderers with his life, and so eyes you suspiciously.  A door to the west
+    leads to the Shiriff Post.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      A door offers passage to the Shiriff Post.
+    keywords: door
+    exit_flags: A
+    key: 0
+    to_vnum: 1110
+  extra_descs: []
+- vnum: 1112
+  name: Bywater Road
+  description: |
+    You stand on Bywater Road, the busiest street in all of Shiredom.  The road
+    continues to the north and south.  To the east you spy the training grounds for
+    shiriffs in training.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north runs Bywater Road.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1109
+  - dir: 1
+    desc: |
+      The Shiriff Training Grounds lies to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1117
+  - dir: 2
+    desc: |
+      To the south runs Bywater Road.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1113
+  extra_descs: []
+- vnum: 1113
+  name: Bywater Road
+  description: |
+    You stand on Bywater Road, the busiest street in all of Shiredom.  The road
+    continues to the north.  The private residences of Shire inhabitants are to
+    the east and west while to the south lies the Ivy Bush, second only to the
+    Green Dragon for its hospitality and service.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north runs Bywater Road.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1112
+  - dir: 1
+    desc: |
+      You spy the private dwelling of a Shire folk to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1115
+  - dir: 2
+    desc: |
+      To the south you see the Ivy Bush, a favorite haunt of Shire urbanites and
+      seasoned travelers.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1116
+  - dir: 3
+    desc: |
+      You spy the private dwelling of a Shire folk to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1114
+  extra_descs: []
+- vnum: 1114
+  name: A smial
+  description: |
+    You are inside a smial, a hole in the ground which serves as the proper
+    dwelling place for halflings.  As you look around this private abode, you feel
+    as if you were intruding and so quickly cover your eyes.  The only exit lies
+    to the east.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      The only exit lies to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1113
+  extra_descs: []
+- vnum: 1115
+  name: A smial
+  description: |
+    You are inside a smial, a hole in the ground which serves as the proper
+    dwelling place for halflings.  As you look around this private abode, you feel
+    as if you were intruding and so quickly cover your eyes.  The only exit lies
+    to the west.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      The only exit lies to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1113
+  extra_descs: []
+- vnum: 1116
+  name: The Ivy Bush
+  description: |
+    You are in the Ivy Bush, one of the most famous inns in all of Shiredom.
+    Chique Shire urbanites and seasoned travelers fill the confines of the room
+    with gay and lively talk.  A jovial innkeeper stops all that he is doing to
+    await your command.  The only exit lies to the north.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The only exit lies to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1113
+  extra_descs: []
+- vnum: 1117
+  name: Shiriff Training Grounds
+  description: "The sounds of mock battle and feigned death cries fill your ears.\
+    \  Every\nwhich way you turn you see halfling trainees at the prime of their youth.\
+    \  A\nwizened old battle instructor meets your gaze and asks if he may be of \n\
+    service.  The only exit lies to the west.\n"
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      The only exit lies to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1112
+  extra_descs: []
+- vnum: 1118
+  name: Bywater Road
+  description: |
+    You stand on Bywater Road, the busiest street in all of Shiredom.  The road
+    continues to the east and west.  A large, imposing building lies to the south.
+    You catch a glimpse of the Brandywine River to the north.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      To the east you see the entrance to the Shire.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1103
+  - dir: 2
+    desc: |
+      A large, imposing building lies to the south.  A sign reads 'Shiriff Post'.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1119
+  - dir: 3
+    desc: |
+      To the west runs Bywater Road.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1120
+  extra_descs: []
+- vnum: 1119
+  name: Shiriff Post of the Bridge
+  description: |
+    You are in the Shiriff Post which acts as the nucleus for the three shiriffs
+    of the Bridge.  As you examine the shiriffs on duty, you come to realize that
+    the halflings of the Shire are not to be reckoned with.  You cower with awe.
+    The only exit is to the north.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The only exit is to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1118
+  extra_descs: []
+- vnum: 1120
+  name: Bywater Road
+  description: |
+    You stand on Bywater Road, the busiest street in all of Shiredom.  The road
+    continues to the east and west.  To the south you spy the Grocer's Delight,
+    the premium grocer's shop in all the realm while to the north lies Brandywine
+    Bridge.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Brandywine Bridge offers safe passage across the tumultuous river.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1131
+  - dir: 1
+    desc: |
+      To the east runs Bywater Road.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1118
+  - dir: 2
+    desc: |
+      You see the Grocer's Delight to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1121
+  - dir: 3
+    desc: |
+      To the west runs Bywater Road.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1122
+  extra_descs: []
+- vnum: 1121
+  name: The Grocer's Delight
+  description: "You tremble with ecstasy as the tempting odors of freshly made pipeweed\n\
+    bread fill your lungs.  Rumor has it that the pipeweed bread sold here can\nrestore\
+    \ vitality.  You look around but find no one to take your order.  \nYou then peep\
+    \ over the counter and discover a friendly grocer who is too \nshort to be seen\
+    \ over the counter.  The only exit is to the north.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The only exit is to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1120
+  extra_descs: []
+- vnum: 1122
+  name: Bywater Road
+  description: |
+    You stand on Bywater Road, the busiest street in all of Shiredom.  The road
+    continues to the east.  A small hill lies to the west while you can see a
+    watermill to the far south.  You catch a glimpse of the Brandywine River to
+    the north.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      To the east runs Bywater Road.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1120
+  - dir: 2
+    desc: |
+      An entrance to the watermill lies to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1123
+  - dir: 3
+    desc: |
+      A small hill to the west blocks your view.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1126
+  extra_descs: []
+- vnum: 1123
+  name: Entrance to Watermill
+  description: |
+    You stand at the entrance to a watermill.  You hear the bustle of busy
+    workers and the sound of a creaking mill.  Bywater Road is to the north while
+    the watermill continues to the south.
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see Bywater Road to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1122
+  - dir: 2
+    desc: |
+      A watermill meets your gaze.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1124
+  extra_descs: []
+- vnum: 1124
+  name: The Watermill
+  description: |
+    Halfling workers are scattered everywhere, busy at work.  You see the river
+    to the west and get a compelling urge to grab the nearest worker and to toss
+    him into the river.  The entrance stands to the north while a door offers
+    passage to the south.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see the entrance.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1123
+  - dir: 2
+    desc: |
+      A wooden door leads to the rear of the watermill.
+    keywords: door
+    exit_flags: A
+    key: 0
+    to_vnum: 1125
+  extra_descs: []
+- vnum: 1125
+  name: Rear of watermill
+  description: |
+    You stand in a damp, dimly lit room.  Mildew clings to the walls and it
+    appears as if you were the first person to enter the room in ages.  A barely
+    visible portal in the ground catches your eye.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      A watermill meets your gaze.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1124
+  - dir: 5
+    desc: |
+      A hidden portal reveals a passageway down.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1146
+  extra_descs: []
+- vnum: 1126
+  name: Took Hill
+  description: |
+    You stand on top of Took Hill, named after the legendary Bandobras Took.
+    You feel honored to be standing on a hill named after your hero.  From this
+    vantage point you can see all of shiredom.  You get the feeling that with
+    one stomp you could eliminate their great city.  You can see the outline of
+    Midgaard to the far east.  Sounds of joyful celebration are heard from the
+    fields west of here.  The Brandywine flows by lazily nearby.
+  room_flags: '0'
+  sector: 4
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      To the east runs Bywater Road.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1122
+  - dir: 3
+    desc: |
+      You see a grassy field to the west.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1128
+  extra_descs: []
+- vnum: 1127
+  name: Northern end of grassy field
+  description: |
+    You stand in a grassy field--nothing to get too excited about.  The field
+    extends toward the south and the west.  To the east you see Took Hill.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      You see a grassy field.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1128
+  extra_descs: []
+- vnum: 1128
+  name: A grassy field
+  description: |
+    You stand in the center of a grassy field.  A great birthday party appears
+    to be taking place.  Great tables of food are spread out and a young halfling
+    beauty offers you welcome.  You are enticed by her generosity and suggestive
+    winks.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see a grassy field.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1127
+  - dir: 1
+    desc: |
+      A small hill to the east blocks your view.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1126
+  - dir: 2
+    desc: |
+      You see a grassy field.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1129
+  - dir: 3
+    desc: |
+      You see a grassy field.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1130
+  extra_descs: []
+- vnum: 1129
+  name: Southern end of grassy field
+  description: |
+    You stand in a grassy field--nothing to get too excited about.  The field
+    extends toward the north and the west.  To the east you see Took Hill.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see a grassy field.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1128
+  extra_descs: []
+- vnum: 1130
+  name: Western end of grassy field
+  description: |
+    You stand in a grassy field--nothing to get too excited about.  The field
+    extends every which way but west.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see a grassy field.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1128
+  extra_descs: []
+- vnum: 1131
+  name: Brandywine Bridge
+  description: |
+    You stand on a solidly built bridge.  As you look down you spy gaily
+    colored fish swimming with the current of Brandywine River.  The cool water
+    looks invitingly refreshing and you get a sudden urge to strip and bathe in
+    the river, but you hear the laughter of women nearby and so resist the urge.
+    Delving Lane extends to the north while Bywater Road can be seen to the south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see Delving Lane.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1132
+  - dir: 2
+    desc: |
+      To the south runs Bywater Road.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1120
+  extra_descs: []
+- vnum: 1132
+  name: Delving Lane
+  description: "Delving Lane runs north and south in this small borough of the Shire.\
+    \  To \nthe south stands Brandywine Bridge.  The Green Dragon, the undisputed\
+    \ leader\nin the art of innkeeping, offers rest and comfort to the east.  You\
+    \ hear the\nbray of horses from the west.\n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see Delving Lane.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1133
+  - dir: 1
+    desc: |
+      The Green Dragon offers food, drink, and above all hospitality for mere gold.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1144
+  - dir: 2
+    desc: |
+      Brandywine Bridge offers safe passage across the tumultuous river.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1131
+  extra_descs: []
+- vnum: 1133
+  name: Delving Lane
+  description: "Delving Lane runs north and south in this small borough of the Shire.\
+    \  A \nlarge, imposing building lies to the east.  You hear the bray of horses\
+    \ from\nthe west.\n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see Delving Lane.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1134
+  - dir: 1
+    desc: |
+      A large, imposing building lies to the east.  A sign reads 'Shiriff Post'.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1145
+  - dir: 2
+    desc: |
+      You see Delving Lane.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1132
+  - dir: 3
+    desc: |
+      You see a grassy field.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1138
+  extra_descs: []
+- vnum: 1134
+  name: Delving Lane
+  description: |
+    Delving Lane runs north and south in this small borough of the Shire. There
+    is a small house to the west, nothing to the east, and up ahead you see a round
+    door which leads to a rather impressive abode.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      A large, magnificent house meets your steady gaze.  Above the round door a
+      sign reads 'Bag End'.
+    keywords: ''
+    exit_flags: A
+    key: -1
+    to_vnum: 1135
+  - dir: 2
+    desc: |
+      You see Delving Lane.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1133
+  extra_descs: []
+- vnum: 1135
+  name: Bag End
+  description: |
+    You stand in a comfortably well-equipped house, a palace by humble halfling
+    standards.  On the wall you see a banner which reads "Home Sweet Home".
+    A solid oak door to the east leads to a pantry while you see a cozy bedroom
+    to the west.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Through the keyhole you see what looks like a well stocked pantry.
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 1137
+  - dir: 2
+    desc: |
+      You see Delving Lane.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1134
+  - dir: 3
+    desc: |
+      You see a bedroom.  It looks like the beds have recently been slept in.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1136
+  extra_descs: []
+- vnum: 1136
+  name: Bedroom
+  description: |
+    You stand in the private bedroom of Bag End.  There are two beds to the
+    side, neither of which are made.  Portraits of halflings hang on the wall,
+    and as you gaze upon them you come to the conclusion that the owner of
+    Bag End comes from a long line of distinguished halflings.  A cozy fire
+    in the fireplace keeps the room warm and comfortable.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Through the doorway you see the main room of Bag End.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1135
+  extra_descs: []
+- vnum: 1137
+  name: Pantry
+  description: |
+    You are inside the pantry.  Shelves filled with food and drink surround
+    you on all sides.  You wonder why a halfling would need so much to eat.
+    The presence of something unseen chills you to your bones.  On the floor
+    you spy a trapdoor.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      Beyond the door you see the main room of Bag End.
+    keywords: door
+    exit_flags: A
+    key: -1
+    to_vnum: 1135
+  - dir: 5
+    desc: |
+      It's anyone's guess as to where the trapdoor leads.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1156
+  extra_descs: []
+- vnum: 1138
+  name: A grassy field
+  description: |
+    You stand upon a grassy field.  A bull stands grazing not far away and
+    out of the corner of your eye you can see him considering you.  The sound
+    of animals fill the air from the north.  To the south you see a pig pen.
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see a large barn.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1142
+  - dir: 1
+    desc: |
+      You see Delving Lane.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1133
+  - dir: 2
+    desc: |
+      A rather large pig pen is to the south.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1139
+  extra_descs: []
+- vnum: 1139
+  name: Pig pen
+  description: |
+    You feel your boots sinking into the mud.  Numerous pigs roam about,
+    oblivious to your company.  A grassy field is to the north while you see
+    a small path winding to the west.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see a grassy field.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1138
+  - dir: 3
+    desc: |
+      A small path winds its way eastward.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1140
+  extra_descs: []
+- vnum: 1140
+  name: A stony path
+  description: |
+    You walk on a stony path which leads to a small residence to the north.
+    From the east you hear the noisy din of pigs.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      To the north you see a modest house.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1141
+  - dir: 1
+    desc: |
+      A rather large pig pen is to the east.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1139
+  extra_descs: []
+- vnum: 1141
+  name: Gamgee Residence
+  description: "You stand inside a modest home.  You deduce that this is indeed the\
+    \ home\nof whomever owns the surrounding lands.  The air is somewhat musty and\
+    \ \nthe smell reminds you of a stable.  As you look around disdainfully, you\n\
+    think to yourself that this is more of a shack than a proper residence and\nyou\
+    \ long for the urban riches of the Shire proper.\n"
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      You see a small path winding its way southward.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1140
+  extra_descs: []
+- vnum: 1142
+  name: A barn
+  description: |
+    Animals of every sort fill the small barn.  You feel the hot breath of
+    horses and cows on your neck and you feel the sudden need for fresh air.
+    Other than that, you feel cozy and protected and don't mind staying for a
+    bit longer.  All the warmth and good vibes remind you of the days when your
+    mother would hold you in her arms and sing you to sleep.  You find yourself
+    wanting to cradle all the animals.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see a chicken coop to the north.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1143
+  - dir: 2
+    desc: |
+      You see a grassy field.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1138
+  extra_descs: []
+- vnum: 1143
+  name: A chicken coop
+  description: |
+    You stand inside a rather crowded chicken coop.  The cackle of hens fill
+    the air.  The only exit is to the south.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      You see a large barn.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1142
+  extra_descs: []
+- vnum: 1144
+  name: The Green Dragon
+  description: |
+    Welcome to the Green Dragon, the undisputed leader in the art of
+    innkeeping.  A rather charming and friendly hostess stands to the side,
+    ready to offer you food and drink.  While most of the patrons are halfling
+    locals, you spy an occasional human or two.  As you listen more closely
+    to the conversations that fill the inn, you hear the tales of great and
+    seasoned adventurers as well as the usual gossip.  You feel as if you've
+    found your second home in the Green Dragon.  You see a stairway leading
+    upwards.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      You see Delving Lane.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1132
+  - dir: 4
+    desc: |
+      You see the reception.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1157
+  extra_descs: []
+- vnum: 1145
+  name: Shiriff Post of Delving Lane
+  description: |
+    You are in the Shiriff Post which acts as the nucleus for the three shiriffs
+    of Delving Lane.  As you examine the shiriffs on duty, you come to realize
+    that the halflings of the Shire are not to be reckoned with.  You cower with
+    awe.  The only exit is to the west.
+  room_flags: D
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      You see Delving Lane.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1133
+  extra_descs: []
+- vnum: 1146
+  name: A dark tunnel
+  description: |
+    You stand inside a small underground tunnel.  The ceiling is so low that
+    you must crouch to avoid hitting your head.  You see light from a small
+    hole in the ceiling while to the east you see nothing but darkness.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see a dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1147
+  - dir: 4
+    desc: |
+      You see a portal which leads to a small room.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1125
+  extra_descs: []
+- vnum: 1147
+  name: A dark tunnel
+  description: |
+    You stand inside a small underground tunnel.  The ceiling is so low that
+    you must crouch to avoid hitting your head.  The tunnel continues east and
+    west.  All you can see is darkness.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see a dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1148
+  - dir: 3
+    desc: |
+      You see a dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1146
+  extra_descs: []
+- vnum: 1148
+  name: A dark tunnel
+  description: |
+    You stand inside a small underground tunnel.  The ceiling is so low that
+    you must crouch to avoid hitting your head.  The tunnel continues east and
+    west.  All you can see is darkness.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see a dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1149
+  - dir: 3
+    desc: |
+      You see a dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1147
+  extra_descs: []
+- vnum: 1149
+  name: A three way intersection
+  description: |
+    You stand at an intersection.  The tunnel continues east and west while
+    to the north you can barely make out a smaller trail.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see a dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1151
+  - dir: 1
+    desc: |
+      You see a dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1150
+  - dir: 3
+    desc: |
+      You see a dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1148
+  extra_descs: []
+- vnum: 1150
+  name: End of a dark tunnel
+  description: |
+    You stand at the end of a dark tunnel.  The underground tunnel continues
+    to the west.  From a trapdoor in the ceiling you can hear the din of
+    adventurers.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      You see a dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1149
+  - dir: 4
+    desc: |
+      You hear the din of adventurers.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3001
+  extra_descs: []
+- vnum: 1151
+  name: A dark tunnel
+  description: |
+    You stand inside a small underground tunnel.  The ceiling is so low that
+    you must crouch to avoid hitting your head.  The tunnel continues north and
+    south.  To the west you see a Shirriff Post while to the east lies a small
+    home.  All you can see is darkness.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see a dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1152
+  - dir: 1
+    desc: |
+      You see a halfling hole.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1154
+  - dir: 2
+    desc: |
+      You see a dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1149
+  - dir: 3
+    desc: |
+      Above a great oak door you see a sign which reads 'Shirriff Post'.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1153
+  extra_descs: []
+- vnum: 1152
+  name: A dark tunnel
+  description: "You stand inside a small underground tunnel.  The ceiling is so low\
+    \ that \nyou must crouch to avoid hitting your head.  The tunnel continues north\
+    \ and\nsouth.  To the west lies a small home.  All you can see is darkness.\n"
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      You see a dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1156
+  - dir: 2
+    desc: |
+      You see a dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1151
+  - dir: 3
+    desc: |
+      You see a halfling hole.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1155
+  extra_descs: []
+- vnum: 1153
+  name: Shiriff Post of the Lower Shire
+  description: "You are in the shiriff Post which acts as the nucleus for the three\
+    \ shiriffs \nof the Lower Shire.  As you examine the shiriffs on duty, you come\
+    \ to realize\nthat the halflings of the Shire are not to be reckoned with.  You\
+    \ cower with\nawe.  The only exit is to the east.\n"
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see a dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1151
+  extra_descs: []
+- vnum: 1154
+  name: A halfling hole
+  description: |
+    You stand inside a rather crudely built halfling hole.  The many passageways
+    and winding paths remind you of a rodent's lair.  The air is musty and damp
+    and you feel the need for fresh air.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      You see a dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1151
+  extra_descs: []
+- vnum: 1155
+  name: A halfling hole
+  description: |
+    You stand inside a rather crudely built halfling hole.  The many passageways
+    and winding paths remind you of a rodent's lair.  The air is musty and damp
+    and you feel the need for fresh air.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      You see a dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1152
+  extra_descs: []
+- vnum: 1156
+  name: End of a dark tunnel
+  description: |
+    You are at one end of a dark tunnel.  The tunnel continues to the south
+    while on the ceiling you can make out a trapdoor.
+  room_flags: AD
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      You see a dark tunnel.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1152
+  - dir: 4
+    desc: |
+      A trapdoor on the ceiling reveals a passageway.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1137
+  extra_descs: []
+- vnum: 1157
+  name: The Inn of the Green Dragon
+  description: "You are standing in the Inn of the Green dragon.  Large paintings\
+    \ of \nhalflings at work, and halflings at play adorn the walls.  Comfortable\
+    \ \nbenches and seats line the walls.  A stairway leads down.\n"
+  room_flags: DE
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 1144
+  extra_descs: []
+resets:
+- command: O
+  arg1: 1102
+  arg2: 0
+  arg3: 1103
+- command: M
+  arg1: 1118
+  arg2: 1
+  arg3: 1105
+- command: G
+  arg1: 1111
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 1112
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 1120
+  arg2: 1
+  arg3: 1107
+- command: M
+  arg1: 1104
+  arg2: 2
+  arg3: 1108
+- command: M
+  arg1: 1104
+  arg2: 2
+  arg3: 1108
+- command: M
+  arg1: 1103
+  arg2: 6
+  arg3: 1108
+- command: M
+  arg1: 1103
+  arg2: 6
+  arg3: 1108
+- command: M
+  arg1: 1103
+  arg2: 6
+  arg3: 1108
+- command: M
+  arg1: 1103
+  arg2: 6
+  arg3: 1108
+- command: M
+  arg1: 1103
+  arg2: 6
+  arg3: 1108
+- command: M
+  arg1: 1103
+  arg2: 6
+  arg3: 1108
+- command: M
+  arg1: 1110
+  arg2: 8
+  arg3: 1110
+- command: E
+  arg1: 1109
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 616
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 1110
+  arg2: 8
+  arg3: 1110
+- command: E
+  arg1: 616
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 1111
+  arg2: 4
+  arg3: 1110
+- command: E
+  arg1: 616
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 1112
+  arg2: 1
+  arg3: 1111
+- command: E
+  arg1: 1113
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 616
+  arg2: 0
+  arg3: 5
+- command: E
+  arg1: 1108
+  arg2: 0
+  arg3: 13
+- command: M
+  arg1: 1128
+  arg2: 4
+  arg3: 1114
+- command: G
+  arg1: 1103
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 1128
+  arg2: 4
+  arg3: 1115
+- command: G
+  arg1: 1103
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 1113
+  arg2: 1
+  arg3: 1116
+- command: G
+  arg1: 1110
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 648
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 649
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 650
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 1123
+  arg2: 4
+  arg3: 1116
+- command: M
+  arg1: 1123
+  arg2: 4
+  arg3: 1116
+- command: M
+  arg1: 1124
+  arg2: 2
+  arg3: 1116
+- command: M
+  arg1: 1124
+  arg2: 2
+  arg3: 1116
+- command: M
+  arg1: 1127
+  arg2: 7
+  arg3: 1116
+- command: M
+  arg1: 1127
+  arg2: 7
+  arg3: 1116
+- command: M
+  arg1: 1127
+  arg2: 7
+  arg3: 1116
+- command: M
+  arg1: 1121
+  arg2: 1
+  arg3: 1117
+- command: E
+  arg1: 1113
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 1126
+  arg2: 3
+  arg3: 1117
+- command: E
+  arg1: 1113
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 1126
+  arg2: 3
+  arg3: 1117
+- command: E
+  arg1: 1113
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 1126
+  arg2: 3
+  arg3: 1117
+- command: E
+  arg1: 1113
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 1110
+  arg2: 8
+  arg3: 1119
+- command: E
+  arg1: 1109
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 616
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 1110
+  arg2: 8
+  arg3: 1119
+- command: E
+  arg1: 616
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 1111
+  arg2: 4
+  arg3: 1119
+- command: E
+  arg1: 616
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 1119
+  arg2: 1
+  arg3: 1121
+- command: G
+  arg1: 1103
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 1115
+  arg2: 6
+  arg3: 1123
+- command: M
+  arg1: 1115
+  arg2: 6
+  arg3: 1123
+- command: M
+  arg1: 1115
+  arg2: 6
+  arg3: 1124
+- command: M
+  arg1: 1115
+  arg2: 6
+  arg3: 1124
+- command: M
+  arg1: 1115
+  arg2: 6
+  arg3: 1124
+- command: M
+  arg1: 1114
+  arg2: 1
+  arg3: 1124
+- command: M
+  arg1: 1115
+  arg2: 6
+  arg3: 1125
+- command: M
+  arg1: 1122
+  arg2: 9
+  arg3: 1127
+- command: M
+  arg1: 1122
+  arg2: 9
+  arg3: 1127
+- command: M
+  arg1: 1122
+  arg2: 9
+  arg3: 1127
+- command: M
+  arg1: 1125
+  arg2: 1
+  arg3: 1128
+- command: M
+  arg1: 1100
+  arg2: 1
+  arg3: 1128
+- command: E
+  arg1: 1104
+  arg2: 0
+  arg3: 12
+- command: E
+  arg1: 1100
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 1122
+  arg2: 9
+  arg3: 1129
+- command: M
+  arg1: 1122
+  arg2: 9
+  arg3: 1129
+- command: M
+  arg1: 1122
+  arg2: 9
+  arg3: 1129
+- command: M
+  arg1: 1122
+  arg2: 9
+  arg3: 1130
+- command: M
+  arg1: 1122
+  arg2: 9
+  arg3: 1130
+- command: M
+  arg1: 1122
+  arg2: 9
+  arg3: 1130
+- command: M
+  arg1: 1116
+  arg2: 1
+  arg3: 1136
+- command: E
+  arg1: 1106
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 622
+  arg2: 0
+  arg3: 6
+- command: M
+  arg1: 1117
+  arg2: 1
+  arg3: 1136
+- command: E
+  arg1: 1107
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 621
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 1101
+  arg2: 1
+  arg3: 1137
+- command: E
+  arg1: 1101
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 1105
+  arg2: 0
+  arg3: 1
+- command: E
+  arg1: 623
+  arg2: 0
+  arg3: 7
+- command: M
+  arg1: 1108
+  arg2: 1
+  arg3: 1138
+- command: M
+  arg1: 1106
+  arg2: 5
+  arg3: 1139
+- command: M
+  arg1: 1106
+  arg2: 5
+  arg3: 1139
+- command: M
+  arg1: 1106
+  arg2: 5
+  arg3: 1139
+- command: M
+  arg1: 1106
+  arg2: 5
+  arg3: 1139
+- command: M
+  arg1: 1106
+  arg2: 5
+  arg3: 1139
+- command: M
+  arg1: 1102
+  arg2: 1
+  arg3: 1141
+- command: M
+  arg1: 1105
+  arg2: 3
+  arg3: 1142
+- command: M
+  arg1: 1105
+  arg2: 3
+  arg3: 1142
+- command: M
+  arg1: 1105
+  arg2: 3
+  arg3: 1142
+- command: M
+  arg1: 1109
+  arg2: 4
+  arg3: 1142
+- command: M
+  arg1: 1109
+  arg2: 4
+  arg3: 1142
+- command: M
+  arg1: 1109
+  arg2: 4
+  arg3: 1142
+- command: M
+  arg1: 1109
+  arg2: 4
+  arg3: 1142
+- command: M
+  arg1: 1107
+  arg2: 6
+  arg3: 1143
+- command: G
+  arg1: 1110
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 1107
+  arg2: 6
+  arg3: 1143
+- command: G
+  arg1: 1110
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 1107
+  arg2: 6
+  arg3: 1143
+- command: G
+  arg1: 1110
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 1107
+  arg2: 6
+  arg3: 1143
+- command: G
+  arg1: 1110
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 1107
+  arg2: 6
+  arg3: 1143
+- command: G
+  arg1: 1110
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 1107
+  arg2: 6
+  arg3: 1143
+- command: G
+  arg1: 1110
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 1130
+  arg2: 1
+  arg3: 1144
+- command: G
+  arg1: 1110
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 648
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 649
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 650
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 1123
+  arg2: 6
+  arg3: 1144
+- command: M
+  arg1: 1123
+  arg2: 6
+  arg3: 1144
+- command: M
+  arg1: 1123
+  arg2: 6
+  arg3: 1144
+- command: M
+  arg1: 1127
+  arg2: 7
+  arg3: 1144
+- command: M
+  arg1: 1127
+  arg2: 7
+  arg3: 1144
+- command: M
+  arg1: 1127
+  arg2: 7
+  arg3: 1144
+- command: M
+  arg1: 1127
+  arg2: 7
+  arg3: 1144
+- command: M
+  arg1: 1110
+  arg2: 8
+  arg3: 1145
+- command: E
+  arg1: 1109
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 616
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 1110
+  arg2: 8
+  arg3: 1145
+- command: E
+  arg1: 616
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 1111
+  arg2: 4
+  arg3: 1145
+- command: E
+  arg1: 616
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 1110
+  arg2: 8
+  arg3: 1153
+- command: E
+  arg1: 1109
+  arg2: 0
+  arg3: 16
+- command: E
+  arg1: 616
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 1110
+  arg2: 8
+  arg3: 1153
+- command: E
+  arg1: 616
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 1111
+  arg2: 4
+  arg3: 1153
+- command: E
+  arg1: 616
+  arg2: 0
+  arg3: 5
+- command: M
+  arg1: 1128
+  arg2: 4
+  arg3: 1154
+- command: M
+  arg1: 1128
+  arg2: 4
+  arg3: 1155
+- command: M
+  arg1: 1131
+  arg2: 1
+  arg3: 1157
+shops:
+- keeper: 1113
+  buy_types:
+  - 17
+  - 0
+  - 0
+  - 0
+  - 0
+  profit_buy: 150
+  profit_sell: 50
+  open_hour: 0
+  close_hour: 23
+- keeper: 1118
+  buy_types:
+  - 13
+  - 5
+  - 15
+  - 1
+  - 17
+  profit_buy: 150
+  profit_sell: 50
+  open_hour: 0
+  close_hour: 23
+- keeper: 1119
+  buy_types:
+  - 13
+  - 5
+  - 15
+  - 1
+  - 17
+  profit_buy: 150
+  profit_sell: 50
+  open_hour: 0
+  close_hour: 23
+- keeper: 1120
+  buy_types:
+  - 9
+  - 5
+  - 0
+  - 0
+  - 0
+  profit_buy: 150
+  profit_sell: 50
+  open_hour: 0
+  close_hour: 23
+- keeper: 1130
+  buy_types:
+  - 17
+  - 0
+  - 0
+  - 0
+  - 0
+  profit_buy: 150
+  profit_sell: 50
+  open_hour: 0
+  close_hour: 23
+specials:
+- vnum: 1100
+  spec_fun: spec_cast_mage
+- vnum: 1110
+  spec_fun: spec_guard
+- vnum: 1111
+  spec_fun: spec_guard
+- vnum: 1112
+  spec_fun: spec_guard
+- vnum: 1116
+  spec_fun: spec_cast_mage
+- vnum: 1117
+  spec_fun: spec_cast_cleric
+- vnum: 1121
+  spec_fun: spec_guard
+- vnum: 1122
+  spec_fun: spec_thief
+- vnum: 1132
+  spec_fun: spec_guard

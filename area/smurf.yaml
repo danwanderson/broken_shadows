@@ -1,0 +1,1707 @@
+area:
+  name: '{ 1 10} Generic Smurf Village'
+  builders: None
+  security: 9
+  area_flags: 0
+  vnums:
+  - 100
+  - 129
+mobiles:
+- vnum: 101
+  keywords: smurf
+  short_desc: a smurf
+  long_desc: |
+    A smurf is singing and walking along.
+  description: |
+    A cute little blue smurf with a white hat and white boots.  You have a sudden
+    urge to crush him.
+  race: Human
+  act: AGHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 100
+  clan: 0
+  level: 1
+  hitroll: 0
+  hit:
+    number: 1
+    type: 2
+    bonus: 6
+  mana:
+    number: 1
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 2
+    bonus: 0
+  dam_type: 7
+  ac:
+    pierce: 9
+    bash: 9
+    slash: 9
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 2
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_thief
+- vnum: 102
+  keywords: smurf
+  short_desc: a smurf
+  long_desc: |
+    A smurf is here, picking berries.
+  description: |
+    A small smurf is quietly picking berries.  He seems to hardly notice you.
+  race: Human
+  act: ABHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 100
+  clan: 0
+  level: 1
+  hitroll: 0
+  hit:
+    number: 1
+    type: 2
+    bonus: 6
+  mana:
+    number: 1
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 2
+    bonus: 0
+  dam_type: 7
+  ac:
+    pierce: 9
+    bash: 9
+    slash: 9
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 2
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_thief
+- vnum: 103
+  keywords: brainy smurf
+  short_desc: Brainy Smurf
+  long_desc: |
+    Brainy Smurf is here, mumbling something to himself.
+  description: |
+    Brainy Smurf has on his usual glasses.  Brainy Smurf isn't liked much by the
+    other smurfs.  They fear his knowledge.  Knowledge is power!
+  race: Human
+  act: AGHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 100
+  clan: 0
+  level: 2
+  hitroll: 0
+  hit:
+    number: 1
+    type: 2
+    bonus: 16
+  mana:
+    number: 2
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 3
+    bonus: 1
+  dam_type: 7
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 3
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_thief
+- vnum: 104
+  keywords: handy smurf
+  short_desc: Handy Smurf
+  long_desc: |
+    Handy Smurf is building something here.
+  description: |
+    Handy is always building something.  He never takes a break.  Why don't you
+    give him a break, like all of his bones.
+  race: Human
+  act: AGHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 100
+  clan: 0
+  level: 3
+  hitroll: 0
+  hit:
+    number: 1
+    type: 6
+    bonus: 23
+  mana:
+    number: 3
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 5
+    bonus: 1
+  dam_type: 7
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 3
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_thief
+- vnum: 105
+  keywords: sleepy smurf
+  short_desc: Sleepy Smurf
+  long_desc: |
+    Sleepy Smurf is sleep walking here.
+  description: |
+    Sleepy never gets enough sleep.  You would think he goes to college.  I wonder
+    if he has ever stayed up a whole night without sleeping.
+  race: Human
+  act: AGHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 100
+  clan: 0
+  level: 2
+  hitroll: 0
+  hit:
+    number: 1
+    type: 2
+    bonus: 16
+  mana:
+    number: 2
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 3
+    bonus: 1
+  dam_type: 7
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 3
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_thief
+- vnum: 106
+  keywords: hefty smurf
+  short_desc: Hefty Smurf
+  long_desc: |
+    Hefty Smurf is lifting weights here.
+  description: |
+    Hefty is a total health nut.  He lifts weights, eats right, and exercises all
+    the time.  Won't do him much good when he's DEAD.
+  race: Human
+  act: AGHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 100
+  clan: 0
+  level: 3
+  hitroll: 0
+  hit:
+    number: 1
+    type: 6
+    bonus: 23
+  mana:
+    number: 3
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 5
+    bonus: 1
+  dam_type: 3
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 3
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_thief
+- vnum: 107
+  keywords: grumpy smurf
+  short_desc: Grumpy Smurf
+  long_desc: |
+    Grumpy Smurf is here, swearing.
+  description: |
+    Grumpy has never been happy in his whole life.  So why don't you just end it?
+  race: Human
+  act: AGHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 100
+  clan: 0
+  level: 2
+  hitroll: 0
+  hit:
+    number: 1
+    type: 2
+    bonus: 16
+  mana:
+    number: 2
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 3
+    bonus: 1
+  dam_type: 7
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 3
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_thief
+- vnum: 108
+  keywords: jokey smurf
+  short_desc: Jokey Smurf
+  long_desc: |
+    Jokey Smurf is here, holding a present.
+  description: |
+    Jokey loves to give people presents.  Too bad the present explodes when opened.
+    Oh well, to each his own.
+  race: Human
+  act: AGHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 100
+  clan: 0
+  level: 3
+  hitroll: 0
+  hit:
+    number: 1
+    type: 6
+    bonus: 23
+  mana:
+    number: 3
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 5
+    bonus: 1
+  dam_type: 11
+  ac:
+    pierce: 8
+    bash: 8
+    slash: 8
+    exotic: 9
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 3
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_thief
+- vnum: 109
+  keywords: smurfette
+  short_desc: Smurfette
+  long_desc: |
+    Smurfette is here, looking beautiful.
+  description: |
+    Smurfette is the cutest little smurf you've ever seen.  If only she were your
+    size.  I wonder how much she charges the other smurfs.
+  race: Human
+  act: AGHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 100
+  clan: 0
+  level: 4
+  hitroll: 0
+  hit:
+    number: 1
+    type: 10
+    bonus: 33
+  mana:
+    number: 4
+    type: 10
+    bonus: 100
+  damage:
+    number: 1
+    type: 7
+    bonus: 2
+  dam_type: 7
+  ac:
+    pierce: 7
+    bash: 7
+    slash: 7
+    exotic: 8
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 3
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_thief
+- vnum: 110
+  keywords: papa smurf
+  short_desc: Papa Smurf
+  long_desc: |
+    Papa Smurf is practicing magic here.
+  description: |
+    Yep, its Papa Smurf all right.  Red hat and boots and the funny little white
+    beard.  Papa Smurf treats his fellow smurfs with dignity and respect.  That
+    is why Papa Smurf is so popular among the ladies.
+  race: Human
+  act: AGHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: 100
+  clan: 0
+  level: 10
+  hitroll: 0
+  hit:
+    number: 2
+    type: 33
+    bonus: 96
+  mana:
+    number: 10
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 5
+    bonus: 7
+  dam_type: 11
+  ac:
+    pierce: 3
+    bash: 3
+    slash: 3
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 5
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_mage
+- vnum: 111
+  keywords: gargamel
+  short_desc: Gargamel
+  long_desc: |
+    Gargamel is here, cursing out the smurfs.
+  description: |
+    Gargamel has never done anything right in his life.  He has caught smurfs
+    before but always lets them escape.  He brings true meaning to the word moron.
+  race: Human
+  act: ABHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -100
+  clan: 0
+  level: 10
+  hitroll: 0
+  hit:
+    number: 2
+    type: 33
+    bonus: 96
+  mana:
+    number: 10
+    type: 10
+    bonus: 100
+  damage:
+    number: 3
+    type: 5
+    bonus: 7
+  dam_type: 7
+  ac:
+    pierce: 3
+    bash: 3
+    slash: 3
+    exotic: 6
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 5
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_cleric
+- vnum: 112
+  keywords: azreal cat
+  short_desc: Azreal
+  long_desc: |
+    Azreal is here, licking himself.
+  description: |
+    Gargamel's worthless cat.  He is just about as dumb as Gargamel.  He should
+    just grab a smurf in his teeth and chew away.
+  race: Human
+  act: ABHT
+  affected_by: '0'
+  affected2_by: '0'
+  alignment: -100
+  clan: 0
+  level: 8
+  hitroll: 0
+  hit:
+    number: 2
+    type: 21
+    bonus: 73
+  mana:
+    number: 8
+    type: 10
+    bonus: 100
+  damage:
+    number: 2
+    type: 7
+    bonus: 4
+  dam_type: 11
+  ac:
+    pierce: 5
+    bash: 5
+    slash: 5
+    exotic: 7
+  off_flags: '0'
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 2
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_poison
+objects:
+- vnum: 100
+  name: bunch berries smurfberries
+  short_desc: a bunch of smurfberries
+  description: A bunch of delicious looking smurfberries lie here.
+  material: none
+  item_type: 26
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 8
+  - 0
+  - 0
+  - 82
+  - 0
+  level: 1
+  weight: 2
+  cost: 10
+  affects: []
+  extra_descs: []
+- vnum: 101
+  name: glasses
+  short_desc: a pair of glasses
+  description: An odd pair of glasses has been left here.
+  material: none
+  item_type: 9
+  extra_flags: A
+  wear_flags: AE
+  values:
+  - 3
+  - 3
+  - 3
+  - 0
+  - 0
+  level: 2
+  weight: 2
+  cost: 20
+  affects:
+  - where: O
+    location: 4
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 102
+  name: smurf hat
+  short_desc: a smurf hat
+  description: A smurf hat has been left here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AE
+  values:
+  - 3
+  - 3
+  - 3
+  - 0
+  - 0
+  level: 1
+  weight: 2
+  cost: 10
+  affects: []
+  extra_descs: []
+- vnum: 103
+  name: axe small
+  short_desc: a small axe
+  description: A small axe has been dropped here.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 5
+  - 1
+  - 10
+  - 3
+  - 0
+  level: 3
+  weight: 2
+  cost: 30
+  affects: []
+  extra_descs: []
+- vnum: 104
+  name: necklace
+  short_desc: a small necklace
+  description: A small necklace is lying on the ground.
+  material: none
+  item_type: 9
+  extra_flags: A
+  wear_flags: AC
+  values:
+  - 3
+  - 3
+  - 3
+  - 0
+  - 0
+  level: 4
+  weight: 2
+  cost: 40
+  affects:
+  - where: O
+    location: 3
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 105
+  name: pink potion
+  short_desc: a pink potion
+  description: A pink potion is barely visible on the ground.
+  material: none
+  item_type: 10
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 6
+  - 1
+  - 14
+  - 0
+  - 0
+  level: 10
+  weight: 2
+  cost: 100
+  affects: []
+  extra_descs: []
+- vnum: 106
+  name: wand
+  short_desc: a small wand
+  description: A small wand lies on the ground.
+  material: none
+  item_type: 3
+  extra_flags: '0'
+  wear_flags: AO
+  values:
+  - 5
+  - 1
+  - 1
+  - 5
+  - 0
+  level: 10
+  weight: 2
+  cost: 100
+  affects: []
+  extra_descs: []
+- vnum: 107
+  name: key
+  short_desc: a tiny key
+  description: A tiny key is lying on the ground.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 2
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 4
+  weight: 2
+  cost: 40
+  affects: []
+  extra_descs: []
+- vnum: 108
+  name: well
+  short_desc: a smurf well
+  description: A small smurfy well is here.
+  material: none
+  item_type: 25
+  extra_flags: '0'
+  wear_flags: '0'
+  values:
+  - 50
+  - 50
+  - 0
+  - 0
+  - 0
+  level: 0
+  weight: 500
+  cost: -10
+  affects: []
+  extra_descs: []
+- vnum: 109
+  name: key
+  short_desc: a small key
+  description: A key to Gargamel's door lies here.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 2
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 10
+  weight: 2
+  cost: 100
+  affects: []
+  extra_descs: []
+rooms:
+- vnum: 101
+  name: Dimly Lit Path
+  description: |
+    This path is made of crushed granite with curious blue streaks in it.
+    The path continues north to a village, or south to the eastern road.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The path continues toward the village.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 102
+  - dir: 2
+    desc: |
+      The path heads back toward the eastern road.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 3525
+  extra_descs: []
+- vnum: 102
+  name: Dimly Lit Path
+  description: |
+    This section of the road is badly worn and frequently traversed.  There is
+    faint singing to the north.  The path back to the road lies to the south.
+  room_flags: C
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The path continues toward the village.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 103
+  - dir: 2
+    desc: |
+      The dimly lit path.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 101
+  extra_descs: []
+- vnum: 103
+  name: Dimly Lit Path
+  description: |
+    This section of the road is badly worn and frequently traversed.  Singing is
+    getting stronger to the north.  The path back to the road lies to the south.
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      The entrance to smurf village.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 104
+  - dir: 2
+    desc: |
+      The dimly lit path.
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 102
+  extra_descs: []
+- vnum: 104
+  name: Entrance to Smurf Village
+  description: "You stand at the entrance to a tiny village.  You can see across the\
+    \ whole\nvillage easily.  Little blue creatures with white hats and boots and\
+    \ little \nfluffy tails scamper about.  They sing continuously.  The singing is\
+    \ getting\non your nerves and you have the urge to squash them.\n"
+  room_flags: '0'
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 105
+  - dir: 2
+    desc: |
+      Dimly Lit Path
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 103
+  extra_descs: []
+- vnum: 105
+  name: Smurfy Road
+  description: |
+    You are way too big to be using this road.  But who cares.  Who's gonna stop
+    you?  These little blue smurfs?  The singing is growing intense.  Your ears
+    are starting to ring.  Smurfy Road continues to the north, west, and east.
+    There is still time to turn back and go south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 106
+  - dir: 1
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 110
+  - dir: 2
+    desc: |
+      Entrance to smurf village
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 104
+  - dir: 3
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 111
+  extra_descs: []
+- vnum: 106
+  name: Smurfy Road
+  description: |
+    You continue to travel down Smurfy Road.  Isn't it just smurfy?  Smurfy road
+    continues its smurfy path to the smurfy north, smurfy west, and smurfy south.
+    A smurfy home lies to the smurfy east.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 107
+  - dir: 1
+    desc: |
+      Smurfy Home
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 120
+  - dir: 2
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 105
+  - dir: 3
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 112
+  extra_descs: []
+- vnum: 107
+  name: Smurfy Road
+  description: |
+    Oh boy, another smurfy road!  Smurfy Road goes north and south here.  There
+    is a smurfy, mushroom home to the west.  A beautiful smurfberry patch is to
+    the east.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 108
+  - dir: 1
+    desc: |
+      Smurfberry Patch
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 116
+  - dir: 2
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 106
+  - dir: 3
+    desc: |
+      A Smurfy Home
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 129
+  extra_descs: []
+- vnum: 108
+  name: Smurfy Road
+  description: |
+    Smurfy Road continues to smurf here.  It smurfs to the south and smurfs to
+    an end to the north.  A smurfberry patch is to the east.  A stone path lies
+    to the west.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 109
+  - dir: 1
+    desc: |
+      Smurfberry patch
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 117
+  - dir: 2
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 107
+  - dir: 3
+    desc: |
+      A stone path
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 113
+  extra_descs: []
+- vnum: 109
+  name: Smurfy Road
+  description: |
+    A smurfy well lies here in the middle of Smurfy Road.  A fence separates
+    the smurfs from harm to the north.  A berry patch is to the east.  Smurfy
+    Road continues to to the south and west.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Smurfberry Patch
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 118
+  - dir: 2
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 108
+  - dir: 3
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 114
+  extra_descs:
+  - keywords: smurfy well
+    description: |
+      A small well is here.  Just the right size if you're a smurf.  But big
+      enough for you to get some water from.  I'm sure the smurfs wont mind.
+- vnum: 110
+  name: Smurfy Road
+  description: |
+    A corner of smurfy road is where you stand.  A smurfy fence blocks passage
+    to the east or south.  A smurfy home is to the north.  Smurfy Road goes back
+    to the west.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Smurfy Home
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 119
+  - dir: 3
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 105
+  extra_descs: []
+- vnum: 111
+  name: Smurfy Road
+  description: |
+    Western corner of Smurfy Road.  You can continue to smurf down the road
+    to the east and north.  You can also smurf into a smurfy home to the south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 112
+  - dir: 1
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 105
+  - dir: 2
+    desc: |
+      Smurfy Home
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 121
+  extra_descs: []
+- vnum: 112
+  name: Smurfy Road
+  description: |
+    There's no place like smurf.  There's no place like smurf.  Sorry wrong
+    movie.  A smurfy home is to the west.  Papa Smurf's backyard is to the
+    north but you can't go there.  Smurfy Road continues to the south and
+    east.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 106
+  - dir: 2
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 111
+  - dir: 3
+    desc: |
+      Smurfy Home
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 122
+  extra_descs: []
+- vnum: 113
+  name: Stone Path
+  description: |
+    You are walking along a cute little stone path.  To the south lies Papa
+    Smurf's house.  A Smurfy house is to the west.  Smurfy road is to the east.
+    Everything is so peaceful here.  You could stay forever.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 108
+  - dir: 2
+    desc: |
+      Papa Smurf's House
+    keywords: door
+    exit_flags: A
+    key: 107
+    to_vnum: 125
+  - dir: 3
+    desc: |
+      Smurfy House
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 123
+  extra_descs: []
+- vnum: 114
+  name: Smurfy Road
+  description: |
+    Yet another part of Smurfy Road.  Hey if you go west its the last
+    section of Smurfy Road.  You can go back to the smurfy well to the east.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 109
+  - dir: 3
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 115
+  extra_descs: []
+- vnum: 115
+  name: Smurfy Road
+  description: |
+    The last piece of Smurfy Road.  You can go back to Smurfy Road to the east.
+    A nice, beautiful, smurfy, mushroom home is to the south.  In the distance to
+    the north you can see Gargamel's Castle.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Path to Gargamel's Castle
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 126
+  - dir: 1
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 114
+  - dir: 2
+    desc: |
+      Smurfy Home
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 124
+  extra_descs: []
+- vnum: 116
+  name: Smurfberry Patch
+  description: |
+    Delicious smurfberries grow here.  You could probably eat a year's worth of
+    smurfberries in one sitting.  Smurfy Road is back to the west.  Another
+    smurfberry patch is to the north.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Smurfberry Patch
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 117
+  - dir: 3
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 107
+  extra_descs: []
+- vnum: 117
+  name: Smurfberry Patch
+  description: |
+    Another patch of smurfberries is growing here.  The smell is driving your
+    nostrils crazy.  It almost, ALMOST, makes you forget all the singing going
+    on.  Smurfy Road is to the west, while smurfberry patches are to the north
+    and south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Smurfberry Patch
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 118
+  - dir: 2
+    desc: |
+      Smurfberry Patch
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 116
+  - dir: 3
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 108
+  extra_descs: []
+- vnum: 118
+  name: Smurfberry Patch
+  description: |
+    The northernmost of the smurfberry patches grows here.  It looks just
+    as scrumptious as all the rest.  Just take a few; they'll never know.  Smurfy
+    Road is to the west.  A smurfberry patch is to the south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      Smurfberry Patch
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 117
+  - dir: 3
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 109
+  extra_descs: []
+- vnum: 119
+  name: Brainy Smurf's Home
+  description: |
+    You rip the roof of the home to get a good look inside.  You see
+    many smurfy books.  The print is so small you couldn't even read it
+    with a magnifying glass.  I wonder if Brainy Smurf minds if you
+    destroy his home?  Smurfy Road is back to the south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 110
+  extra_descs: []
+- vnum: 120
+  name: Handy Smurf's Home
+  description: |
+    This home was well built.  Of course, until you rip it apart you big meany
+    you.  Tools are all over the place.  Too small for you to use.  Smurfy Road is
+    back to the west.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 3
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 106
+  extra_descs: []
+- vnum: 121
+  name: Hefty Smurf's Home
+  description: "Hefty is anything but wimpy.  So is his house.  It actually took you\
+    \ a \ncouple of minutes to destroy his house.  Better watch out -- he might be\n\
+    a little mad at you.  Smurfy Road is back to the north.\n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 111
+  extra_descs: []
+- vnum: 122
+  name: Sleepy Smurf's Home
+  description: |
+    Be vewy vewy quiet.  Sleepy Smurf is probably sleeping.  You see so many
+    beds you can't even tell if he is here.  Maybe you should quietly go back to
+    Smurfy Road to the east.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 112
+  extra_descs: []
+- vnum: 123
+  name: Grumpy Smurf's Home
+  description: |
+    This is Grumpy Smurf's home.  He is pissed at you.  Of course, he is pissed
+    at everyone.  So don't take it bad.  Maybe you'd better leave before he really
+    gets mad.  Smurfy Road to the east is your only salvation.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 113
+  extra_descs: []
+- vnum: 124
+  name: Jokey Smurf's Home
+  description: |
+    You pull the top of his house and it explodes in your face.  That Jokey
+    Smurf, what a kidder.  You can hear his laughter as you wipe the ashes off
+    your face.  You better get even.  Smurfy Road is to the north.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 115
+  extra_descs: []
+- vnum: 125
+  name: Papa Smurf's Home
+  description: |
+    It's the home of the leader of the smurfs.  Papa Smurf has a nicely decorated
+    home.  He takes pride in his work.  You could get to know him or just squash
+    him.  If Papa Smurf is not here he is probably at Smurfette's putting the
+    moves on her.  A stone path lies to the north.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Stone Path
+    keywords: door
+    exit_flags: A
+    key: 107
+    to_vnum: 113
+  extra_descs: []
+- vnum: 126
+  name: Path to Gargamel's Castle
+  description: |
+    You are walking along a path to Gargamel's Castle to the North.
+    Smurfy Road lies to the south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Outside Gargamel's Castle
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 127
+  - dir: 2
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 115
+  extra_descs: []
+- vnum: 127
+  name: Outside Gargamel's Castle
+  description: |
+    You are standing outside Gargamel's Castle.  You can hear him screaming at
+    Azreal from inside.  You can also him cursing out those wretched smurfs.
+    His Castle is to the north while Smurfy Road is to the south.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      Gargamel's Castle
+    keywords: door
+    exit_flags: A
+    key: 109
+    to_vnum: 128
+  - dir: 2
+    desc: |
+      Path to Gargamel's Castle
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 126
+  extra_descs: []
+- vnum: 128
+  name: Gargamel's Castle
+  description: |
+    This is Gargamel's Castle.  His big black kettle is in the middle of the room.
+    Where else would he put it?  The place has only one room.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 2
+    desc: |
+      Outside Gargamel's Castle
+    keywords: door
+    exit_flags: A
+    key: 109
+    to_vnum: 127
+  extra_descs: []
+- vnum: 129
+  name: Smurfette's House
+  description: |
+    This house is conveniently next to Papa Smurfs.  Makes it easier for Papa
+    Smurf to sneak over at night.  I hope he uses protection.  I would hate to
+    have little smurfs running around.  The only exit is to the east.
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 1
+    desc: |
+      Smurfy Road
+    keywords: ''
+    exit_flags: '0'
+    key: -1
+    to_vnum: 107
+  extra_descs: []
+resets:
+- command: M
+  arg1: 101
+  arg2: 3
+  arg3: 104
+- command: G
+  arg1: 102
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 101
+  arg2: 3
+  arg3: 105
+- command: M
+  arg1: 101
+  arg2: 3
+  arg3: 107
+- command: M
+  arg1: 101
+  arg2: 3
+  arg3: 108
+- command: G
+  arg1: 102
+  arg2: 0
+  arg3: 0
+- command: O
+  arg1: 108
+  arg2: 0
+  arg3: 109
+- command: M
+  arg1: 101
+  arg2: 3
+  arg3: 109
+- command: M
+  arg1: 101
+  arg2: 3
+  arg3: 110
+- command: G
+  arg1: 102
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 101
+  arg2: 3
+  arg3: 111
+- command: M
+  arg1: 101
+  arg2: 3
+  arg3: 112
+- command: G
+  arg1: 102
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 102
+  arg2: 3
+  arg3: 116
+- command: G
+  arg1: 100
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 102
+  arg2: 3
+  arg3: 117
+- command: G
+  arg1: 100
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 102
+  arg2: 3
+  arg3: 118
+- command: G
+  arg1: 100
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 103
+  arg2: 1
+  arg3: 119
+- command: E
+  arg1: 101
+  arg2: 0
+  arg3: 6
+- command: M
+  arg1: 104
+  arg2: 1
+  arg3: 120
+- command: E
+  arg1: 103
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 106
+  arg2: 1
+  arg3: 121
+- command: E
+  arg1: 103
+  arg2: 0
+  arg3: 16
+- command: M
+  arg1: 105
+  arg2: 1
+  arg3: 122
+- command: M
+  arg1: 107
+  arg2: 1
+  arg3: 123
+- command: M
+  arg1: 108
+  arg2: 1
+  arg3: 124
+- command: M
+  arg1: 110
+  arg2: 1
+  arg3: 125
+- command: G
+  arg1: 105
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 109
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 111
+  arg2: 1
+  arg3: 128
+- command: E
+  arg1: 106
+  arg2: 0
+  arg3: 17
+- command: M
+  arg1: 112
+  arg2: 1
+  arg3: 128
+- command: M
+  arg1: 109
+  arg2: 1
+  arg3: 129
+- command: E
+  arg1: 104
+  arg2: 0
+  arg3: 3
+- command: G
+  arg1: 107
+  arg2: 0
+  arg3: 0
+specials:
+- vnum: 101
+  spec_fun: spec_thief
+- vnum: 102
+  spec_fun: spec_thief
+- vnum: 103
+  spec_fun: spec_thief
+- vnum: 104
+  spec_fun: spec_thief
+- vnum: 105
+  spec_fun: spec_thief
+- vnum: 106
+  spec_fun: spec_thief
+- vnum: 107
+  spec_fun: spec_thief
+- vnum: 108
+  spec_fun: spec_thief
+- vnum: 109
+  spec_fun: spec_thief
+- vnum: 110
+  spec_fun: spec_cast_mage
+- vnum: 111
+  spec_fun: spec_cast_cleric
+- vnum: 112
+  spec_fun: spec_poison

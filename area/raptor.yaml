@@ -1,0 +1,2973 @@
+area:
+  name: '{??-??} Raptor  Cheshire'
+  builders: Raptor
+  security: 9
+  area_flags: 0
+  vnums:
+  - 10400
+  - 10499
+mobiles:
+- vnum: 10401
+  keywords: shakespeare armorer legend
+  short_desc: Shakespeare, the armorer
+  long_desc: |
+    Shakespeare is here, showing off his latest piece of work.
+  description: "You see a miidle aged man with great skill in his chosen profession.\
+    \  He\nputs such great care into each piece that he will be known by his works,\n\
+    even long after he has died.  \n"
+  race: Human
+  act: ABQ
+  affected_by: DFHN
+  affected2_by: '0'
+  alignment: 750
+  clan: 0
+  level: 75
+  hitroll: 40
+  hit:
+    number: 11
+    type: 551
+    bonus: 1842
+  mana:
+    number: 20
+    type: 20
+    bonus: 1000
+  damage:
+    number: 7
+    type: 13
+    bonus: 31
+  dam_type: 19
+  ac:
+    pierce: 25
+    bash: 25
+    slash: 25
+    exotic: 25
+  off_flags: FNO
+  imm_flags: AB
+  res_flags: NQ
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 5000000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_cleric
+- vnum: 10402
+  keywords: rupert
+  short_desc: Rupert, weaponmaster
+  long_desc: |
+    Rupert grins and says, "You want some of me?"
+  description: "You see before you a huge dragon.  Though he appears to be clumsy,\
+    \ his\nweapons are very fine, and well crafted.  \n"
+  race: Wyvern
+  act: ABT
+  affected_by: DFT
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 76
+  hitroll: 50
+  hit:
+    number: 11
+    type: 574
+    bonus: 1886
+  mana:
+    number: 10
+    type: 100
+    bonus: 1000
+  damage:
+    number: 7
+    type: 13
+    bonus: 31
+  dam_type: 5
+  ac:
+    pierce: 0
+    bash: 0
+    slash: 0
+    exotic: 0
+  off_flags: CFHK
+  imm_flags: ABL
+  res_flags: '0'
+  vuln_flags: S
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 5000000
+  form: ABHMVZc
+  parts: ABCDEFGHIJKQUVX
+  size: H
+  material: none
+  spec_fun: ''
+- vnum: 10403
+  keywords: Emily
+  short_desc: Emily Dickinson
+  long_desc: |
+    Emily is here baking, and selling food.
+  description: "The woman before you reminds you of your grandmother.  She wants to\
+    \ give\nyou food!  \n"
+  race: Human
+  act: ABR
+  affected_by: HN
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 75
+  hitroll: 100
+  hit:
+    number: 11
+    type: 551
+    bonus: 1842
+  mana:
+    number: 20
+    type: 20
+    bonus: 2000
+  damage:
+    number: 7
+    type: 13
+    bonus: 35
+  dam_type: 16
+  ac:
+    pierce: -25
+    bash: -25
+    slash: -25
+    exotic: -10
+  off_flags: '0'
+  imm_flags: AB
+  res_flags: C
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 0
+  gold: 5000000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_mage
+- vnum: 10404
+  keywords: mayor cheshire
+  short_desc: the Mayor of Cheshire
+  long_desc: |
+    The mayor of Cheshire is here, trying to look busy.
+  description: ''
+  race: cat
+  act: AG
+  affected_by: Z
+  affected2_by: '0'
+  alignment: 600
+  clan: 0
+  level: 55
+  hitroll: 50
+  hit:
+    number: 11
+    type: 216
+    bonus: 1076
+  mana:
+    number: 10
+    type: 100
+    bonus: 800
+  damage:
+    number: 6
+    type: 10
+    bonus: 27
+  dam_type: 5
+  ac:
+    pierce: 18
+    bash: 18
+    slash: 18
+    exotic: 9
+  off_flags: FH
+  imm_flags: AB
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 10000
+  form: AGHV
+  parts: ACDEFHJKQUV
+  size: M
+  material: none
+  spec_fun: ''
+- vnum: 10405
+  keywords: citizen man
+  short_desc: a Cheshire male
+  long_desc: |
+    A male citizen of Cheshire is passing by.
+  description: "You see a citizen of Cheshire.  These people are an intellegent cat-like\n\
+    race.  These have developed a small community here in the woods, overcoming\n\
+    their natural territorial instincts to band together against the force\noutside\
+    \ the walls.  \n"
+  race: cat
+  act: AGT
+  affected_by: JPZ
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 46
+  hitroll: 35
+  hit:
+    number: 10
+    type: 135
+    bonus: 802
+  mana:
+    number: 5
+    type: 100
+    bonus: 500
+  damage:
+    number: 5
+    type: 9
+    bonus: 24
+  dam_type: 5
+  ac:
+    pierce: 15
+    bash: 15
+    slash: 15
+    exotic: 7
+  off_flags: FH
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 5000
+  form: AGHV
+  parts: ACDEFHJKQUV
+  size: L
+  material: none
+  spec_fun: ''
+- vnum: 10406
+  keywords: chesire woman
+  short_desc: a Cheshire woman
+  long_desc: |
+    A female citizen of Cheshire is here, talking.
+  description: "This woman is helping her race adapt to living within these walls,\
+    \ by\nturning their minds to other things.  Just why they are living together,\n\
+    something so unnatural for most cat-like races, remains a mystery.  \n"
+  race: cat
+  act: AGT
+  affected_by: JPZ
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 46
+  hitroll: 35
+  hit:
+    number: 10
+    type: 135
+    bonus: 802
+  mana:
+    number: 5
+    type: 100
+    bonus: 500
+  damage:
+    number: 5
+    type: 9
+    bonus: 24
+  dam_type: 5
+  ac:
+    pierce: 15
+    bash: 15
+    slash: 15
+    exotic: 7
+  off_flags: FH
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 1000
+  form: AGV
+  parts: ACDEFHJKQUV
+  size: L
+  material: none
+  spec_fun: ''
+- vnum: 10407
+  keywords: guard cheshire north
+  short_desc: North Cheshire Guard
+  long_desc: |
+    A member of the North Cheshire Guards stands at attention here.
+  description: "A very clean, tidy guard stands here, paying rapt attention to the\n\
+    surrounding scene.  You get the sense that not much can get past the steely\n\
+    gaze of this guard.  \n"
+  race: cat
+  act: ABT
+  affected_by: Z
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 55
+  hitroll: 40
+  hit:
+    number: 11
+    type: 216
+    bonus: 1076
+  mana:
+    number: 10
+    type: 60
+    bonus: 400
+  damage:
+    number: 6
+    type: 10
+    bonus: 27
+  dam_type: 5
+  ac:
+    pierce: 24
+    bash: 24
+    slash: 24
+    exotic: 7
+  off_flags: FH
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 3
+  gold: 600
+  form: AGV
+  parts: ACDEFHJKQUV
+  size: L
+  material: none
+  spec_fun: spec_guard
+- vnum: 10408
+  keywords: guard cheshire south
+  short_desc: South Cheshire Guard
+  long_desc: |
+    A member of the South Cheshire Guards leans against a nearby building.
+  description: "It's a large, sloppy, cat-like guard.  You laugh at his obvious\n\
+    incompetance, and think you can prolly whip his tail any time.  \n"
+  race: cat
+  act: ABT
+  affected_by: Z
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 55
+  hitroll: 40
+  hit:
+    number: 11
+    type: 200
+    bonus: 1076
+  mana:
+    number: 10
+    type: 60
+    bonus: 400
+  damage:
+    number: 6
+    type: 10
+    bonus: 22
+  dam_type: 5
+  ac:
+    pierce: 24
+    bash: 24
+    slash: 24
+    exotic: 7
+  off_flags: FH
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 1
+  gold: 500
+  form: AGV
+  parts: ACDEFHJKQUV
+  size: L
+  material: none
+  spec_fun: spec_guard
+- vnum: 10409
+  keywords: stormy healer
+  short_desc: Stormy
+  long_desc: |
+    Stormy is here to heal the wounded.
+  description: "You see a beautiful young brunette here, dressed in the robes of a\n\
+    healer.  She has spent many years searching for Raptor, and has now found a\n\
+    temple dedicated to him.  She waits here in this temple for him, and helps\nall\
+    \ those who come in.  \n"
+  race: Human
+  act: ABQa
+  affected_by: CHN
+  affected2_by: '0'
+  alignment: 1000
+  clan: 0
+  level: 101
+  hitroll: 60
+  hit:
+    number: 21
+    type: 400
+    bonus: 2000
+  mana:
+    number: 10
+    type: 20
+    bonus: 1200
+  damage:
+    number: 3
+    type: 20
+    bonus: 75
+  dam_type: 16
+  ac:
+    pierce: 55
+    bash: 55
+    slash: 55
+    exotic: 25
+  off_flags: FHI
+  imm_flags: NPS
+  res_flags: LQ
+  vuln_flags: K
+  start_pos: 8
+  default_pos: 8
+  sex: 2
+  gold: 8000
+  form: AHMV
+  parts: ABCDEFGHIJK
+  size: M
+  material: none
+  spec_fun: spec_cast_cleric
+- vnum: 10410
+  keywords: museum curator
+  short_desc: the Museum's curator
+  long_desc: |
+    The Poetry Museum's curator is here, talking to patrons.
+  description: "The curator is one of the oldest members of this race that you have\
+    \ ever\nseen.  One must know a great deal about the history of this place to even\n\
+    apply to work at the museum, and she is the curator.  You could probably\nlearn\
+    \ alot from her, if you asked the right questions.  \n"
+  race: cat
+  act: ABR
+  affected_by: Z
+  affected2_by: '0'
+  alignment: 700
+  clan: 0
+  level: 46
+  hitroll: 30
+  hit:
+    number: 10
+    type: 135
+    bonus: 802
+  mana:
+    number: 10
+    type: 135
+    bonus: 500
+  damage:
+    number: 5
+    type: 9
+    bonus: 25
+  dam_type: 5
+  ac:
+    pierce: -19
+    bash: -19
+    slash: -19
+    exotic: -4
+  off_flags: FH
+  imm_flags: '0'
+  res_flags: '0'
+  vuln_flags: '0'
+  start_pos: 8
+  default_pos: 8
+  sex: 3
+  gold: 450
+  form: AGV
+  parts: ACDEFHJKQUV
+  size: L
+  material: none
+  spec_fun: spec_cast_mage
+objects:
+- vnum: 10401
+  name: mayor desk
+  short_desc: the Cheshire Mayor's Desk
+  description: The Mayor's desk is here, covered with papers.
+  material: none
+  item_type: 15
+  extra_flags: OS
+  wear_flags: '0'
+  values:
+  - 100
+  - 15
+  - 10403
+  - 0
+  - 0
+  level: 60
+  weight: 1500
+  cost: 20000
+  affects: []
+  extra_descs:
+  - keywords: desk
+    description: "You see the mayor's desk, with stacks of important looking papers\
+      \ all\nover it.  However, he only keeps it that way so people will think he's\n\
+      really busy...  Now, you know the truth.  \n"
+- vnum: 10402
+  name: bills money
+  short_desc: a large pile of bills
+  description: A huge stack of bills, worth a ton of gold.
+  material: none
+  item_type: 20
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 10000
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 0
+  weight: 0
+  cost: 0
+  affects: []
+  extra_descs: []
+- vnum: 10403
+  name: purple key
+  short_desc: '`Ma purple key`w'
+  description: There is a small purple key, lying here in the dirt.
+  material: none
+  item_type: 18
+  extra_flags: N
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 25
+  weight: 1
+  cost: 100
+  affects: []
+  extra_descs: []
+- vnum: 10404
+  name: statue raptor
+  short_desc: a statue of the minor god Raptor
+  description: '`wA large statue of `RRaptor`w is standing here.'
+  material: none
+  item_type: 12
+  extra_flags: BO
+  wear_flags: '0'
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 0
+  weight: 500
+  cost: 2000
+  affects: []
+  extra_descs: []
+- vnum: 10405
+  name: bed
+  short_desc: a bed
+  description: A large bed is here, waiting for occupants.
+  material: none
+  item_type: 12
+  extra_flags: '0'
+  wear_flags: '0'
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 40
+  weight: 200
+  cost: 1000
+  affects: []
+  extra_descs: []
+- vnum: 10408
+  name: bottle dp dr pepper
+  short_desc: a 20 oz `rDr. Pepper`w
+  description: A bottle of `rDr. Pepper`g is here.  `YJOY!`w
+  material: none
+  item_type: 17
+  extra_flags: N
+  wear_flags: A
+  values:
+  - 50
+  - 50
+  - 15
+  - 0
+  - 0
+  level: 25
+  weight: 2
+  cost: 100
+  affects: []
+  extra_descs: []
+- vnum: 10409
+  name: orange pill
+  short_desc: '`Ban `yorange`B pill`w'
+  description: An `yorange`g pill lies here.`w
+  material: none
+  item_type: 26
+  extra_flags: N
+  wear_flags: A
+  values:
+  - 40
+  - 66
+  - 0
+  - 0
+  - 0
+  level: 40
+  weight: 3
+  cost: 40000
+  affects: []
+  extra_descs:
+  - keywords: pill
+    description: "You see a pill here, but you don't know what it does.  There is\
+      \ but one\nword on the side of it.  The word is: 'rock' Hmmmmm.  \n"
+- vnum: 10410
+  name: feathered pen
+  short_desc: a feathered pen
+  description: A sharp-looking feathered pen is here.
+  material: none
+  item_type: 5
+  extra_flags: G
+  wear_flags: AN
+  values:
+  - 2
+  - 5
+  - 9
+  - 11
+  - 8
+  level: 45
+  weight: 3
+  cost: 265000
+  affects:
+  - where: O
+    location: 19
+    modifier: 10
+    bitvector: '0'
+  extra_descs:
+  - keywords: pen
+    description: |
+      You see a feathered pen, but you think it might make a decent weapon.
+- vnum: 10411
+  name: potion odd red
+  short_desc: an odd red potion
+  description: A odd little bottle of red fluid lies here.
+  material: none
+  item_type: 10
+  extra_flags: N
+  wear_flags: A
+  values:
+  - 50
+  - 512
+  - 66
+  - 0
+  - 0
+  level: 45
+  weight: 15
+  cost: 300000
+  affects: []
+  extra_descs: []
+- vnum: 10412
+  name: cap blarney poet's
+  short_desc: poet's cap of blarney
+  description: An odd floppy hat lies here.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: AE
+  values:
+  - 20
+  - 20
+  - 20
+  - 2
+  - 0
+  level: 40
+  weight: 3
+  cost: 20000
+  affects:
+  - where: O
+    location: 4
+    modifier: 1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 10413
+  name: cloak bard
+  short_desc: cloak of the Bard
+  description: A long, flowing cloak lies here in a heap.
+  material: none
+  item_type: 9
+  extra_flags: '0'
+  wear_flags: '0'
+  values:
+  - 30
+  - 30
+  - 30
+  - 3
+  - 0
+  level: 40
+  weight: 5
+  cost: 30000
+  affects: []
+  extra_descs: []
+- vnum: 10414
+  name: great tome poetry
+  short_desc: a great tome of poetry
+  description: A HUGE tome is crushing everything under it.
+  material: none
+  item_type: 5
+  extra_flags: '0'
+  wear_flags: AN
+  values:
+  - 4
+  - 5
+  - 8
+  - 8
+  - 0
+  level: 40
+  weight: 8
+  cost: 100000
+  affects:
+  - where: O
+    location: 18
+    modifier: -10
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 30
+    bitvector: '0'
+  - where: O
+    location: 2
+    modifier: -1
+    bitvector: '0'
+  extra_descs: []
+- vnum: 10415
+  name: jukebox
+  short_desc: an old jukebox
+  description: An old jukebox is here, ready for your selection.
+  material: none
+  item_type: 31
+  extra_flags: B
+  wear_flags: '0'
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 40
+  weight: 100
+  cost: 10000
+  affects: []
+  extra_descs:
+  - keywords: jukebox
+    description: "You see an old jukebox standing in the corner.  You are surprised\
+      \ at how\nwell it still works given its apparent age.  \n"
+- vnum: 10428
+  name: glass case
+  short_desc: a glass case
+  description: A large glass case is here, filled with poetry.
+  material: none
+  item_type: 15
+  extra_flags: '0'
+  wear_flags: '0'
+  values:
+  - 25
+  - 5
+  - 0
+  - 0
+  - 0
+  level: 20
+  weight: 20
+  cost: 2
+  affects: []
+  extra_descs: []
+- vnum: 10429
+  name: combination slip paper
+  short_desc: a safe combination
+  description: A crumpled slip of paper is here.
+  material: none
+  item_type: 18
+  extra_flags: N
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 25
+  weight: 0
+  cost: 0
+  affects: []
+  extra_descs: []
+- vnum: 10430
+  name: tree large
+  short_desc: a hollow tree
+  description: A large tree stands here.
+  material: none
+  item_type: 15
+  extra_flags: '0'
+  wear_flags: '0'
+  values:
+  - 1500
+  - 12
+  - 10498
+  - 0
+  - 0
+  level: 0
+  weight: 50
+  cost: 100
+  affects: []
+  extra_descs:
+  - keywords: tree
+    description: |
+      You see a large oak standing here in a large forest.  It is an aging tree, and the wood is beautiful, probably destined for some rich CEO's desk.
+- vnum: 10431
+  name: tree stump
+  short_desc: a tree stump
+  description: A hollow tree stump is here, filled with leaves.
+  material: none
+  item_type: 15
+  extra_flags: O
+  wear_flags: '0'
+  values:
+  - 100
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 20
+  weight: 100
+  cost: 5
+  affects: []
+  extra_descs: []
+- vnum: 10459
+  name: portal
+  short_desc: '`RRaptor''s `WImmortal `YPortal`w'
+  description: A portal to `RRaptor's`w pad is here.
+  material: none
+  item_type: 30
+  extra_flags: '0'
+  wear_flags: A
+  values:
+  - 0
+  - 0
+  - 0
+  - 10021
+  - 0
+  level: 25
+  weight: 0
+  cost: 25
+  affects: []
+  extra_descs: []
+- vnum: 10496
+  name: vorpal blade hero
+  short_desc: the VORPAL blade
+  description: A large glowing sword lies here.
+  material: none
+  item_type: 5
+  extra_flags: A
+  wear_flags: AN
+  values:
+  - 1
+  - 6
+  - 16
+  - 1
+  - 16
+  level: 60
+  weight: 10
+  cost: 750
+  affects:
+  - where: O
+    location: 19
+    modifier: 14
+    bitvector: '0'
+  - where: O
+    location: 18
+    modifier: 8
+    bitvector: '0'
+  extra_descs: []
+- vnum: 10497
+  name: tooth jaberwock
+  short_desc: a tooth from the Jabberwock
+  description: A large tooth is here.  It might make a good weapon.
+  material: none
+  item_type: 5
+  extra_flags: MV
+  wear_flags: AN
+  values:
+  - 2
+  - 7
+  - 14
+  - 10
+  - 4
+  level: 60
+  weight: 5
+  cost: 1200
+  affects:
+  - where: O
+    location: 18
+    modifier: 8
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 14
+    bitvector: '0'
+  extra_descs: []
+- vnum: 10498
+  name: wood cutter's axe
+  short_desc: a woodcutter's axe
+  description: A large sharp axe lies here against a tree.
+  material: none
+  item_type: 18
+  extra_flags: '0'
+  wear_flags: ANPQRSTUVWXYZabcdef
+  values:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  level: 40
+  weight: 30
+  cost: 10000
+  affects:
+  - where: O
+    location: 18
+    modifier: 4
+    bitvector: '0'
+  - where: O
+    location: 19
+    modifier: 3
+    bitvector: '0'
+  extra_descs: []
+- vnum: 10499
+  name: scroll vogon poetry
+  short_desc: a scroll of Vogon poetry
+  description: A well-traveled scroll of poetry is here.
+  material: none
+  item_type: 2
+  extra_flags: N
+  wear_flags: A
+  values:
+  - 60
+  - 27
+  - 533
+  - 503
+  - 0
+  level: 40
+  weight: 2
+  cost: 25000
+  affects: []
+  extra_descs: []
+rooms:
+- vnum: 10400
+  name: Before the South Gate
+  description: "You stand gazing up at the high walls around the town of Cheshire.\
+    \  They\ntower over you, and you wonder why they are so tall.  The gate into the\
+    \ town\nis to the north.  \n"
+  room_flags: '0'
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: gate
+    exit_flags: A
+    key: 0
+    to_vnum: 10401
+  extra_descs: []
+- vnum: 10401
+  name: '`RSouth Gate of Cheshire`w'
+  description: "This is the south gate of Cheshire, the home town of Lewis Carroll.\
+    \  The\nlarge rock wall surrounding the town makes you wonder what it protects\
+    \ them\nfrom.  You then wonder if you really want to know...  \n"
+  room_flags: S
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10403
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: A
+    key: 0
+    to_vnum: 10400
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10402
+  extra_descs: []
+- vnum: 10402
+  name: '`RSouth Cheshire Guard Shack`w'
+  description: "Here is a musty guard shack, carved out of the stone of the wall.\
+    \  It is\nfilled with all kinds of police equipment, from radios to nightsticks.\
+    \  My,\nthis place could use a good cleaning!  \n"
+  room_flags: DS
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10401
+  extra_descs: []
+- vnum: 10403
+  name: '`RSouth Lewis Road`w'
+  description: "You stand in the middle of Lewis Road, the main North - South road\
+    \ in\nCheshire.  To the north is the town square, and to the south is the south\n\
+    gate.  Off to the west is the Armorer of Legend, and to the east is the Town\n\
+    Hall.  \n"
+  room_flags: S
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10406
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10404
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10401
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10410
+  extra_descs: []
+- vnum: 10404
+  name: '`RCheshire Town Hall`w'
+  description: "This is the Cheshire Town Hall.  To the east is the Mayor's office,\
+    \ and\nexits to the north and west lead outside.  On the wall is the great seal\
+    \ of\nthe town of Cheshire.  The citizens are really proud of their town.  \n\
+    There is a stairway here, leading down.\n"
+  room_flags: DS
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10407
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10405
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10403
+  - dir: 5
+    desc: "You see an opening to a staircase leading down.  Above it on the wall is\n\
+      a large `RR`w.  I wonder what's down there?  \n"
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10425
+  extra_descs:
+  - keywords: seal
+    description: |
+      `B A beautiful round seal hangs on the wall.  It has two red circles on
+      a field of blue.  In the center of the inner circle, there is a large,
+      toothy grin, with no face.  The sight of it sends a shiver down your spine.
+      `w
+- vnum: 10405
+  name: '`RThe Mayor''s Office`w'
+  description: |
+    This is the office of the Mayor of Cheshire.  I wonder where he is?
+  room_flags: DS
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10404
+  extra_descs: []
+- vnum: 10406
+  name: '`RCheshire Town Center`w'
+  description: "This is the Cheshire town center, the meeting of the two roads of\n\
+    Cheshire, Carroll Road and Dodgson Drive.  East and west are the residential\n\
+    areas of the town.  North and south are the gates of the city.  \n"
+  room_flags: S
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10409
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10407
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10403
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10408
+  extra_descs: []
+- vnum: 10407
+  name: '`REast Dodgson Drive`w'
+  description: "This is an eastern part of Dodgson Drive.  To the north is a diner,\
+    \ where\nyou can get a byte to eat.  To the south is the Cheshire Town Hall. \
+    \ Off to\nthe east you spot what looks like a group of small buildings, a low-rent\n\
+    residential district.  The road continues east and west.  \n"
+  room_flags: S
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10412
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10416
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10404
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10406
+  extra_descs: []
+- vnum: 10408
+  name: '`RWest Dodgson Drive`w'
+  description: "This is a western part of Dodgson Drive.  To the north is a weapons\
+    \ shop,\nand to the south is an armor shop.  To the east is the town center. \
+    \ Off in\nthe distance to the west is a residential area.  Go ahead, meet some\
+    \ of the\nlocals.  They'll probably read some of their poetry to you!  \n"
+  room_flags: S
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10411
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10406
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10410
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10420
+  extra_descs: []
+- vnum: 10409
+  name: '`RNorth Carroll Road`w'
+  description: "Here you stand, in the middle of a major road.  Watch out for carts!\
+    \ \nAnyway, south is to the town square, and there are shops to the east and\n\
+    west.  Up ahead is the north gate.  Have fun!  \n"
+  room_flags: S
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10413
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10412
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10406
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10411
+  extra_descs: []
+- vnum: 10410
+  name: '`RArmorer of Legends`w'
+  description: "Here you stand, before Shakespeare.  You think, \"Shakespeare runs\
+    \ an\narmory?\"  But you must realize that poetry has weaved itself into the fabric\n\
+    of reality in this land, with many strange effects on life here. \nShakespeare\
+    \ offers to show you a piece he just finished this morning.  \n"
+  room_flags: DS
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10408
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10403
+  extra_descs: []
+- vnum: 10411
+  name: '`RPoetic Justice`w'
+  description: "Here you can find some odd, yet powerful, weapons.  However, you'd\
+    \ better\nexpect to pay some serious cash for them.  Just talk to Rupert, he'll\
+    \ set\nyou up.  \n"
+  room_flags: DS
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10409
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10408
+  extra_descs: []
+- vnum: 10412
+  name: '`RThe Lewis Diner and Caffiene Shop`w'
+  description: "Here you find your basic diner.  Try the food, but you might want\
+    \ to get\nsome Tums!  \n"
+  room_flags: DS
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10407
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10409
+  extra_descs: []
+- vnum: 10413
+  name: '`RNorth Gate of Cheshire`w'
+  description: "This is the north gate of Cheshire.  Maybe out here you will discover\
+    \ the\nsecret of this town and its immense fear of things from outside the wall.\
+    \ \nDare you venture outside?  \n"
+  room_flags: S
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: A
+    key: 0
+    to_vnum: 10430
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10414
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10409
+  extra_descs: []
+- vnum: 10414
+  name: '`RNorth Cheshire Guard Shack`w'
+  description: "You have entered the guard shack for the north gate guards.  These\
+    \ guards\npride themseleves on being the neatest in the town, hence this room\
+    \ is\nspotless.  Everything has a place and is in its proper place.  Doesn't it\n\
+    just make you sick?  \n"
+  room_flags: DS
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10413
+  extra_descs: []
+- vnum: 10415
+  name: '`RA Small House`w'
+  description: "This is just a small house in the town of Cheshire, nothing really\n\
+    special about it.  A small family lives here.  \nThe door back out to the street\
+    \ is south.\n"
+  room_flags: DS
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: A
+    key: 0
+    to_vnum: 10416
+  extra_descs: []
+- vnum: 10416
+  name: '`REast End of Dodgson`w'
+  description: "This is the east end of Dodgson Drive, which ends in a small residential\n\
+    area.  All around you are houses, but to the west is the main part of town. \n"
+  room_flags: S
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: A
+    key: 0
+    to_vnum: 10415
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: A
+    key: 0
+    to_vnum: 10422
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: A
+    key: 0
+    to_vnum: 10417
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10407
+  extra_descs: []
+- vnum: 10417
+  name: '`RAnother House in Cheshire`w'
+  description: "Here is another copy-cat house in Cheshire.  I guess the lack of space\n\
+    within the walls has made them resort to a single, space-saving design.  Too\n\
+    bad they aren't too big on individuality.  \n"
+  room_flags: DS
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: A
+    key: 0
+    to_vnum: 10416
+  extra_descs: []
+- vnum: 10418
+  name: '`RA Large House`w'
+  description: "This large house belongs to the Dodgson family.  Charles, the head\
+    \ of\nthis family, has become somewhat of a recluse, and lives in a room upstairs.\n\
+    Mrs.  Dodgson, however, is just fine, and is here to deal with the family's\n\
+    outside connections, such as keeping the utilities paid, etc.  \n"
+  room_flags: DS
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10420
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10426
+  extra_descs: []
+- vnum: 10419
+  name: '`RThe Cheshire Poetry Museum`w'
+  description: "This is the begining of Broken Shadows only museum dedicated to poetry,\n\
+    the Cheshire Poetry Museum.  Here they keep all kinds of poetry, from the\nexciting\
+    \ to the drab, from the Great to the truely horrifying.  Why don't\nyou look around\
+    \ for a bit, this museum is free!  \n"
+  room_flags: DS
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10420
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10427
+  extra_descs: []
+- vnum: 10420
+  name: '`RWest End of Dodgson`w'
+  description: "This is the richer side of town.  The Mayor's mansion is to the west,\
+    \ and\nthere is another large house to the south.  Off to the north is the Cheshire\n\
+    Poetry Museum.  Isn't this a lovely little town?  \n"
+  room_flags: S
+  sector: 1
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10419
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10408
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10418
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10421
+  extra_descs: []
+- vnum: 10421
+  name: '`RThe Mayor''s House`w'
+  description: "You have entered the mansion of the Cheshire Mayor.  It is a beautiful\n\
+    building, with columns in the front, outer walls made of imported red brick.\n\
+    Inside it is warm and comfy, and there servants to bring you anything you\nwant\
+    \ at a gesture.  There appears to be a kitchen off to the west, and to\nthe north\
+    \ is the Mayor's bedroom.  \n"
+  room_flags: DS
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: |
+      This door leads to the Mayor's bedroom.  I'd stay out of there if I were you.  His wife doesn't like unexpected visitors...
+    keywords: ''
+    exit_flags: A
+    key: 0
+    to_vnum: 10423
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10420
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10424
+  extra_descs: []
+- vnum: 10422
+  name: '`RA Medium-sized House`w'
+  description: "Just another house in Cheshire, host to family of cat-like beings.\
+    \  There\nare pictures of the family on the walls, and other similar family house\n\
+    paraphenalia, but that's about it.  \nThe exit is to the west.\n"
+  room_flags: DS
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: A
+    key: 0
+    to_vnum: 10416
+  extra_descs: []
+- vnum: 10423
+  name: '`RThe Mayor''s Bedroom`w'
+  description: "You have entered the inner sanctum of one of the most powerful men\
+    \ in\ntown.  Why you would want to check out the Mayor's bedroom, I have no idea.\
+    \ \nHowever, the Mayor's wife is here, and she might be a good reason to enter,\n\
+    if you're into large female cats...  \n"
+  room_flags: DS
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: A
+    key: 0
+    to_vnum: 10421
+  extra_descs: []
+- vnum: 10424
+  name: '`RThe Kitchen`w'
+  description: "You have entered the Mayor's kitchen.  There are all kinds of food\n\
+    preparation tools lying around in here.  You better watch out, the cooks are\n\
+    really territorial!  \n"
+  room_flags: DS
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10421
+  extra_descs: []
+- vnum: 10425
+  name: '`RThe Cave Temple`w'
+  description: "You wander about this temple curiously, because you've never seen\
+    \ a\ntemple built underground before.  But then you realize that this temple was\n\
+    built for `RRaptor`w, and a cave would make a fitting temple for a dwarf. \nYou\
+    \ feel safe here, knowing that `RRaptor`w is watching over you.  \n"
+  room_flags: DKS
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 4
+    desc: |
+      You see a set of stairs leading back up to the town hall.
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10404
+  extra_descs: []
+- vnum: 10426
+  name: '`RAt the Top of the Stairs`w'
+  description: ''
+  room_flags: DS
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: AE
+    key: 0
+    to_vnum: 10429
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10418
+  extra_descs: []
+- vnum: 10427
+  name: '`RThe Poetry Museum`w'
+  description: "Further into the museum, there are a greater variety of poetic works.\
+    \ \nEverything from Shakespeare to Dickinson, even some by unknown poets.  To\n\
+    the north, there are guards standing before a vault door.  There is a sign\non\
+    \ the door, with large warning labels on it, as well as some much smaller\ntext.\
+    \  \n"
+  room_flags: DS
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: vault
+    exit_flags: AC
+    key: 10429
+    to_vnum: 10428
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10419
+  extra_descs:
+  - keywords: sign
+    description: "`Y        WARNING!!!!!`w\n \nThis vault contains some very\nbad\
+      \ poetry, which has been locked\nup for the protection of the\ninnocent.\n`RENTER\
+      \ AT YOUR OWN RISK!!`w\n"
+- vnum: 10428
+  name: '`RInside the Vault`w'
+  description: "You are inside a large vault in the poetry museum.  You wonder what\
+    \ they\ncould have that they needed to lock up and guard with this much protection.\
+    \ \nThere was a guard outside, and a couple in here...  And all those warning\n\
+    labels.  Look, there's another one in here!  \n"
+  room_flags: ADS
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: AC
+    key: 10429
+    to_vnum: 10427
+  extra_descs:
+  - keywords: warning
+    description: "WARNING: The Cheshire Poetry Museum holds NO liability for what\
+      \ will\nhappen when you read this poetry.  \nCAUTION: Read this poetry at your\
+      \ own risk!\n"
+  - keywords: label
+    description: "WARNING: The Cheshire Poetry Museum holds NO liability for what\
+      \ will\nhappen when you read this poetry.  \nCAUTION: Read this poetry at your\
+      \ own risk!\n"
+- vnum: 10429
+  name: '`RCharles Dodgson''s Room`w'
+  description: ''
+  room_flags: ADS
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: AE
+    key: 0
+    to_vnum: 10426
+  extra_descs: []
+- vnum: 10430
+  name: '`RBefore the North Gate`w'
+  description: "You stand here, where the forest meets the north gate of Cheshire.\
+    \  Do\nyou want to continue, or retreat?  There are some odd scratches on the\
+    \ wall\nbeside the gate.  \n"
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10431
+  - dir: 2
+    desc: ''
+    keywords: gate
+    exit_flags: A
+    key: 0
+    to_vnum: 10413
+  extra_descs:
+  - keywords: scratches
+    description: "You look closer, and see:\n \nBeware the Jab'\nHmmm, I wonder why\
+      \ they didn't finish it?\n"
+- vnum: 10431
+  name: '`REntering the Dark Wood`w'
+  description: "You have just entered a VERY dark forest.  There is no telling what\
+    \ kinds\nof creepy beings could be around the next turn.  If you're smart, you'll\n\
+    examine the light to the south a little more carefully.  It looks like an\nexit\
+    \ to this scary place.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10433
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10434
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10430
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10432
+  extra_descs: []
+- vnum: 10432
+  name: '`RWithin the Dark Wood`w'
+  description: "You decided to walk further into the forest, and decide that that\
+    \ may not\nhave been the best plan of action.  Wandering through a strange forest\
+    \ has\ngotten you lost again.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10436
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10431
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10446
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10435
+  extra_descs: []
+- vnum: 10433
+  name: '`RWithin the Dark Wood`w'
+  description: "You decided to walk further into the forest, and decide that that\
+    \ may not\nhave been the best plan of action.  Wandering through a strange forest\
+    \ has\ngotten you lost again.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10443
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10439
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10431
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10437
+  extra_descs: []
+- vnum: 10434
+  name: '`RWithin the Dark Wood`w'
+  description: "You decided to walk further into the forest, and decide that that\
+    \ may not\nhave been the best plan of action.  Wandering through a strange forest\
+    \ has\ngotten you lost again.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10440
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10441
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10435
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10431
+  extra_descs: []
+- vnum: 10435
+  name: '`RWithin the Dark Wood`w'
+  description: "You decided to walk further into the forest, and decide that that\
+    \ may not\nhave been the best plan of action.  Wandering through a strange forest\
+    \ has\ngotten you lost again.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10434
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10432
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10442
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10440
+  extra_descs: []
+- vnum: 10436
+  name: '`RWithin the Dark Wood`w'
+  description: "You decided to walk further into the forest, and decide that that\
+    \ may not\nhave been the best plan of action.  Wandering through a strange forest\
+    \ has\ngotten you lost again.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10449
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10437
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10432
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10441
+  extra_descs: []
+- vnum: 10437
+  name: '`RWithin the Dark Wood`w'
+  description: "You decided to walk further into the forest, and decide that that\
+    \ may not\nhave been the best plan of action.  Wandering through a strange forest\
+    \ has\ngotten you lost again.  Odd, there appears to be a small clearing to the\n\
+    south.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10438
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10433
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10451
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10436
+  extra_descs: []
+- vnum: 10438
+  name: '`RDeep Within the Dark Wood`w'
+  description: "You decided to walk even further into the forest, and decide that\
+    \ now you\nare completely lost.  The more you wander through this place, the more\n\
+    hopeless you feel.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10442
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10446
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10437
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10443
+  extra_descs: []
+- vnum: 10439
+  name: '`RWithin the Dark Wood`w'
+  description: "You decided to walk further into the forest, and decide that that\
+    \ may not\nhave been the best plan of action.  Wandering through a strange forest\
+    \ has\ngotten you lost again.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10448
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10440
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10441
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10433
+  extra_descs: []
+- vnum: 10440
+  name: '`RDeep Within the Dark Wood`w'
+  description: "You decided to walk even further into the forest, and decide that\
+    \ now you\nare completely lost.  The more you wander through this place, the more\n\
+    hopeless you feel.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10450
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10435
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10434
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10439
+  extra_descs: []
+- vnum: 10441
+  name: '`RDeep Within the Dark Wood`w'
+  description: "You decided to walk even further into the forest, and decide that\
+    \ now you\nare completely lost.  The more you wander through this place, the more\n\
+    hopeless you feel.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10439
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10436
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10449
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10434
+  extra_descs: []
+- vnum: 10442
+  name: '`RDeep Within the Dark Wood`w'
+  description: "You decided to walk even further into the forest, and decide that\
+    \ now you\nare completely lost.  The more you wander through this place, the more\n\
+    hopeless you feel.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10435
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10444
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10438
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10450
+  extra_descs: []
+- vnum: 10443
+  name: '`RDeep Within the Dark Wood`w'
+  description: "You decided to walk even further into the forest, and decide that\
+    \ now you\nare completely lost.  The more you wander through this place, the more\n\
+    hopeless you feel.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10446
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10438
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10433
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10449
+  extra_descs: []
+- vnum: 10444
+  name: '`RWithin the Dark Wood`w'
+  description: "You decided to walk even further into the forest, and decide that\
+    \ now you\nare completely lost.  The more you wander through this place, the more\n\
+    hopeless you feel.  Don'tcha just hate these mazes?  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10460
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10445
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10445
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10442
+  extra_descs: []
+- vnum: 10445
+  name: '`RDeep Within the Dark Wood`w'
+  description: "You decided to walk even further into the forest, and decide that\
+    \ now you\nare completely lost.  The more you wander through this place, the more\n\
+    hopeless you feel.  It seems that you are merely walking around in circles,\n\
+    going past the same trees over and over.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10444
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10447
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10447
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10444
+  extra_descs: []
+- vnum: 10446
+  name: '`RDeep Within the Dark Wood`w'
+  description: "You decided to walk even further into the forest, and decide that\
+    \ now you\nare completely lost.  The more you wander through this place, the more\n\
+    hopeless you feel.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10432
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10450
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10443
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10438
+  extra_descs: []
+- vnum: 10447
+  name: '`RDeep Within the Dark Wood`w'
+  description: "You decided to walk even further into the forest, and decide that\
+    \ now you\nare completely lost.  The more you wander through this place, the more\n\
+    hopeless you feel.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10445
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10448
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10450
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10445
+  extra_descs: []
+- vnum: 10448
+  name: '`RWithin the Dark Wood`w'
+  description: "You decided to walk even further into the forest, and decide that\
+    \ now you\nare completely lost.  This forest must be HUGE!  You begin to wonder\
+    \ just\nhow big this forest really is.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10449
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10439
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10447
+  extra_descs: []
+- vnum: 10449
+  name: '`RDeep Within the Dark Wood`w'
+  description: "You decided to walk even further into the forest, and decide that\
+    \ now you\nare completely lost.  The more you wander through this place, the more\n\
+    hopeless you feel.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10441
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10443
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10436
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10448
+  extra_descs: []
+- vnum: 10450
+  name: '`RDeep Within the Dark Wood`w'
+  description: "You decided to walk even further into the forest, and decide that\
+    \ now you\nare completely lost.  The more you wander through this place, the more\n\
+    hopeless you feel.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10447
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10442
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10440
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10446
+  extra_descs: []
+- vnum: 10451
+  name: '`RA Small Clearing in the Dark Wood`w'
+  description: "You seem to have stumbled upon a small forested spot in the middle\
+    \ of the\nDark Wood.  It is nice and calm, and some sunlight shines in between\
+    \ the\ntops of the surrounding trees.  You feel safe, as if nothing could attack\n\
+    you here.  \n"
+  room_flags: K
+  sector: 2
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10437
+  extra_descs: []
+- vnum: 10460
+  name: '`RBefore the TumTum Tree`w'
+  description: "You stand before the mighty Tumtum tree, and wonder how it got it's\
+    \ name.\nThere seems to be an odd moss growing on the tree off to the west.  You\
+    \ are\nalso curious as to why this \"horrible monster\" the villagers were so\
+    \ afraid\nof hasn't appeared yet.  You notice a sign, stuck into the ground here.\
+    \  \n"
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10462
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10444
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10463
+  extra_descs:
+  - keywords: sign
+    description: |
+      The sign reads:
+      Watch for large attacking monsters.
+      Thanks,
+      `R    Raptor`w
+- vnum: 10461
+  name: '`RInside the Tumtum Tree`w'
+  description: ''
+  room_flags: DN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: A
+    key: 0
+    to_vnum: 10466
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10469
+  extra_descs: []
+- vnum: 10462
+  name: '`RNear the Tumtum Tree`w'
+  description: "You walk around the tree, and it suddenly gets very dark.  The tree-tops\n\
+    here seem to be closer together, so that even in the middle of the day,\nalmost\
+    \ no light comes through.  You can still feel the tree, so you think\nyou can\
+    \ continue on around it.  Maybe there will be more light as you\nproceed, but\
+    \ you doubt it.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10468
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10460
+  extra_descs: []
+- vnum: 10463
+  name: '`RNear the Tumtum Tree`w'
+  description: "You begin to wander around the mighty tree, and notice the moss growing\n\
+    on it.  You remember hearing somewhere that moss only grew on the north side\n\
+    of trees.  Apparently, this is not the case here, because the moss continues\n\
+    around the tree in both directions.  \n"
+  room_flags: A
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10464
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10460
+  extra_descs: []
+- vnum: 10464
+  name: '`RBeside the Tumtum Tree`w'
+  description: ''
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10465
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10463
+  extra_descs: []
+- vnum: 10465
+  name: '`RNear the Tumtum Tree`w'
+  description: ''
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10466
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10464
+  extra_descs: []
+- vnum: 10466
+  name: '`RBehind the Tumtum Tree`w'
+  description: ''
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10467
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: A
+    key: 10498
+    to_vnum: 10461
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10465
+  extra_descs: []
+- vnum: 10467
+  name: '`RNear the Tumtum Tree`w'
+  description: "There is even more moisture on this side of the tree, to the point\
+    \ that\nmoss is growing all over the bark.  It's somewhat slimy, and you are glad\n\
+    that there is some light off to the west, so you don't have to hold onto the\n\
+    tree anymore.  \n"
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10468
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10466
+  extra_descs: []
+- vnum: 10468
+  name: '`RBeside the Tumtum Tree`w'
+  description: "It's still quite dark, you can't even see to brush the branches from\n\
+    nearby plants out of the way.  You begin to feel a little damp, as moisture\n\
+    from the surrounding leaves falls on you as you walk around the tree. \nHopefully\
+    \ there will be someplace dry and light around, so you don't die\nfrom mildew...\
+    \  \n"
+  room_flags: '0'
+  sector: 3
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10467
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10462
+  extra_descs: []
+- vnum: 10469
+  name: '`RWithin the Tree`w'
+  description: "This is a normal description for a room in a tree.. Ya know, a laddar...\n\
+    Andf light shafting down.\n \nThere are words carved in the wall here.\n"
+  room_flags: DN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 0
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10470
+  - dir: 1
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10471
+  - dir: 4
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10472
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10461
+  extra_descs:
+  - keywords: words
+    description: |
+      EXAR WVZ HERE
+- vnum: 10470
+  name: '`RWithin the Tree`w'
+  description: ''
+  room_flags: DN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 2
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10469
+  extra_descs: []
+- vnum: 10471
+  name: '`RWithin the Tree`w'
+  description: ''
+  room_flags: DN
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 3
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10469
+  extra_descs: []
+- vnum: 10472
+  name: '`RThe Third Level of the Tree`w'
+  description: ''
+  room_flags: '0'
+  sector: 0
+  owner: ''
+  exits:
+  - dir: 5
+    desc: ''
+    keywords: ''
+    exit_flags: '0'
+    key: 0
+    to_vnum: 10469
+  extra_descs: []
+resets:
+- command: D
+  arg1: 10400
+  arg2: 0
+  arg3: 0
+- command: D
+  arg1: 10401
+  arg2: 2
+  arg3: 0
+- command: D
+  arg1: 10413
+  arg2: 0
+  arg3: 0
+- command: D
+  arg1: 10415
+  arg2: 2
+  arg3: 0
+- command: D
+  arg1: 10416
+  arg2: 0
+  arg3: 0
+- command: D
+  arg1: 10416
+  arg2: 1
+  arg3: 0
+- command: D
+  arg1: 10416
+  arg2: 2
+  arg3: 0
+- command: D
+  arg1: 10417
+  arg2: 0
+  arg3: 0
+- command: D
+  arg1: 10421
+  arg2: 0
+  arg3: 0
+- command: D
+  arg1: 10422
+  arg2: 3
+  arg3: 0
+- command: D
+  arg1: 10423
+  arg2: 2
+  arg3: 0
+- command: D
+  arg1: 10426
+  arg2: 2
+  arg3: 0
+- command: D
+  arg1: 10427
+  arg2: 0
+  arg3: 2
+- command: D
+  arg1: 10428
+  arg2: 2
+  arg3: 2
+- command: D
+  arg1: 10429
+  arg2: 0
+  arg3: 0
+- command: D
+  arg1: 10430
+  arg2: 2
+  arg3: 0
+- command: D
+  arg1: 10461
+  arg2: 0
+  arg3: 1
+- command: D
+  arg1: 10466
+  arg2: 2
+  arg3: 1
+- command: M
+  arg1: 10408
+  arg2: 4
+  arg3: 10400
+- command: M
+  arg1: 10408
+  arg2: 4
+  arg3: 10401
+- command: M
+  arg1: 10408
+  arg2: 4
+  arg3: 10402
+- command: M
+  arg1: 10405
+  arg2: 6
+  arg3: 10403
+- command: O
+  arg1: 10401
+  arg2: 0
+  arg3: 10405
+- command: P
+  arg1: 10402
+  arg2: 0
+  arg3: 10401
+- command: M
+  arg1: 10404
+  arg2: 1
+  arg3: 10406
+- command: G
+  arg1: 10403
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 10406
+  arg2: 6
+  arg3: 10409
+- command: M
+  arg1: 10401
+  arg2: 1
+  arg3: 10410
+- command: G
+  arg1: 10412
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 10413
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 10402
+  arg2: 1
+  arg3: 10411
+- command: G
+  arg1: 10410
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 10414
+  arg2: 0
+  arg3: 0
+- command: M
+  arg1: 10403
+  arg2: 1
+  arg3: 10412
+- command: G
+  arg1: 10408
+  arg2: 0
+  arg3: 0
+- command: G
+  arg1: 10409
+  arg2: 0
+  arg3: 0
+- command: O
+  arg1: 10415
+  arg2: 0
+  arg3: 10412
+- command: M
+  arg1: 10407
+  arg2: 4
+  arg3: 10413
+- command: M
+  arg1: 10407
+  arg2: 4
+  arg3: 10414
+- command: M
+  arg1: 10406
+  arg2: 6
+  arg3: 10415
+- command: M
+  arg1: 10405
+  arg2: 6
+  arg3: 10415
+- command: M
+  arg1: 10406
+  arg2: 6
+  arg3: 10417
+- command: M
+  arg1: 10405
+  arg2: 6
+  arg3: 10417
+- command: M
+  arg1: 10406
+  arg2: 6
+  arg3: 10419
+- command: M
+  arg1: 10410
+  arg2: 1
+  arg3: 10419
+- command: G
+  arg1: 10429
+  arg2: 0
+  arg3: 0
+- command: O
+  arg1: 10428
+  arg2: 0
+  arg3: 10419
+- command: M
+  arg1: 10405
+  arg2: 6
+  arg3: 10422
+- command: M
+  arg1: 10406
+  arg2: 6
+  arg3: 10422
+- command: O
+  arg1: 10405
+  arg2: 0
+  arg3: 10423
+- command: O
+  arg1: 10404
+  arg2: 0
+  arg3: 10425
+- command: M
+  arg1: 10409
+  arg2: 1
+  arg3: 10425
+- command: M
+  arg1: 10405
+  arg2: 6
+  arg3: 10427
+- command: O
+  arg1: 10428
+  arg2: 0
+  arg3: 10427
+- command: O
+  arg1: 10431
+  arg2: 0
+  arg3: 10451
+- command: P
+  arg1: 10498
+  arg2: 0
+  arg3: 10431
+shops:
+- keeper: 10401
+  buy_types:
+  - 9
+  - 0
+  - 0
+  - 0
+  - 0
+  profit_buy: 100
+  profit_sell: 100
+  open_hour: 0
+  close_hour: 23
+- keeper: 10402
+  buy_types:
+  - 5
+  - 0
+  - 0
+  - 0
+  - 0
+  profit_buy: 50
+  profit_sell: 50
+  open_hour: 0
+  close_hour: 23
+- keeper: 10403
+  buy_types:
+  - 19
+  - 17
+  - 26
+  - 0
+  - 0
+  profit_buy: 50
+  profit_sell: 50
+  open_hour: 0
+  close_hour: 23
+specials:
+- vnum: 10401
+  spec_fun: spec_cast_cleric
+- vnum: 10403
+  spec_fun: spec_cast_mage
+- vnum: 10407
+  spec_fun: spec_guard
+- vnum: 10408
+  spec_fun: spec_guard
+- vnum: 10409
+  spec_fun: spec_cast_cleric
+- vnum: 10410
+  spec_fun: spec_cast_mage
