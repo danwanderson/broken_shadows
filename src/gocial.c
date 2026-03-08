@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2022 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -175,7 +175,7 @@ void do_gocial(CHAR_DATA *ch, char *argument)
                 act_new(buf,ch,NULL,vch,TO_VICT,POS_DEAD);
             }
         }
-    }               
+    }
     else
     {
         buf[0] = '\0';
@@ -244,7 +244,7 @@ void do_gocial(CHAR_DATA *ch, char *argument)
                         break;
                 }
                 continue;
-            }    
+            }
             else if (buf[counter] == '$' && buf[counter + 1] == 'M')
             {
                 buf[counter] = '%';

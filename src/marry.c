@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2022 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -58,7 +58,7 @@ void do_marry( CHAR_DATA *ch, char *argument)
     argument = one_argument( argument, arg2 );
 
    if ((ch->level >= LEVEL_IMMORTAL))
-   { 
+   {
     if ( arg1[0] == '\0' || arg2[0] == '\0' )
     {
         send_to_char( "Syntax: marry <char1> <char2>\n\r",ch);
@@ -72,21 +72,21 @@ void do_marry( CHAR_DATA *ch, char *argument)
         buffer_free( buf );
         return;
     }
-    
+
     if ( ( victim2 = get_char_world( ch, arg2 ) ) == NULL )
     {
         send_to_char( "The second person mentioned isn't playing.\n\r", ch);
         buffer_free( buf );
         return;
     }
-    
+
     if ( IS_NPC(victim) || IS_NPC(victim2))
     {
      	send_to_char("I don't think they want to be Married to the Mob.\n\r", ch);
      	buffer_free( buf );
      	return;
-    }        
-    
+    }
+
     if (!IS_SET(victim->act, PLR_CONSENT) || !IS_SET(victim2->act, PLR_CONSENT))
     {
      	send_to_char( "They have not given consent.\n\r", ch);
@@ -100,24 +100,24 @@ void do_marry( CHAR_DATA *ch, char *argument)
         buffer_free( buf );
         return;
     }
-    
-    if ( victim->pcdata->spouse != NULL || 
-        victim2->pcdata->spouse != NULL ) 
+
+    if ( victim->pcdata->spouse != NULL ||
+        victim2->pcdata->spouse != NULL )
     {
        send_to_char( "They are already married! \n\r", ch);
        buffer_free( buf );
        return;
     }
-   
+
     if (victim->level < 10 || victim2->level < 10)
     {
        send_to_char( "They are not of the proper level to marry.\n\r", ch);
        buffer_free( buf );
        return;
     }
-    
+
     bprintf( buf, "You pronounce %s and %s man and wife!\n\r",
-        victim->name, victim2->name ); 
+        victim->name, victim2->name );
     send_to_char( buf->data, ch );
     bprintf( buf, "You say the big 'I do' to %s.\n\r", victim2->name);
     send_to_char( buf->data, victim );
@@ -132,7 +132,7 @@ void do_marry( CHAR_DATA *ch, char *argument)
     buffer_free( buf );
     return;
 
-   } 
+   }
    else
    {
     	send_to_char( "You do not have the ability to perform the ceremony.\n\r", ch);
@@ -149,13 +149,13 @@ void do_divorce( CHAR_DATA *ch, char *argument)
     char arg1[MAX_INPUT_LENGTH],arg2[MAX_INPUT_LENGTH];
     CHAR_DATA *victim;
     CHAR_DATA *victim2;
-    BUFFER *buf = buffer_new( MAX_INPUT_LENGTH ); 
-    
+    BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
+
     argument = one_argument( argument, arg1 );
     argument = one_argument( argument, arg2 );
 
    if (ch->level >= LEVEL_IMMORTAL)
-   { 
+   {
     if ( arg1[0] == '\0' || arg2[0] == '\0' )
     {
         send_to_char( "Syntax: divorce <char1> <char2>\n\r",ch);
@@ -168,21 +168,21 @@ void do_divorce( CHAR_DATA *ch, char *argument)
         buffer_free( buf );
         return;
     }
-    
+
     if ( ( victim2 = get_char_world( ch, arg2 ) ) == NULL )
     {
         send_to_char( "The second person mentioned isn't playing.\n\r", ch);
         buffer_free( buf );
         return;
     }
-    
+
     if ( IS_NPC(victim) || IS_NPC(victim2))
     {
      send_to_char("I don't think they're Married to the Mob...\n\r", ch);
      buffer_free( buf );
      return;
     }
-            
+
     if (!IS_SET(victim->act, PLR_CONSENT) || !IS_SET(victim2->act, PLR_CONSENT))
     {
      send_to_char( "They have not consented.\n\r", ch);
@@ -197,15 +197,15 @@ void do_divorce( CHAR_DATA *ch, char *argument)
         return;
     }
 
-    
+
     if (str_cmp( victim->pcdata->spouse, victim2->name ) )
     {
      send_to_char( "They aren't even married!!\n\r",ch);
      buffer_free( buf );
      return;
     }
-       
-    bprintf( buf, "You hand %s and %s their divorce papers.\n\r", 
+
+    bprintf( buf, "You hand %s and %s their divorce papers.\n\r",
         victim->name, victim2->name );
     send_to_char( buf->data, ch );
     send_to_char( "Your divorce is final.\n\r", victim);
@@ -219,7 +219,7 @@ void do_divorce( CHAR_DATA *ch, char *argument)
     buffer_free( buf );
     return;
 
-   } 
+   }
    else
    {
     send_to_char( "Hire an attorney.\n\r", ch);
@@ -234,14 +234,14 @@ void do_consent( CHAR_DATA *ch )
 {
    if (IS_NPC(ch))
     return;
-    
+
    if ( IS_SET(ch->act, PLR_CONSENT) )
    {
     send_to_char( "You no longer give consent.\n\r", ch);
     REMOVE_BIT(ch->act, PLR_CONSENT);
     return;
    }
-                           
+
    send_to_char( "You now give consent to married!\n\r", ch);
    SET_BIT(ch->act, PLR_CONSENT);
    return;
@@ -253,7 +253,7 @@ void do_spousetalk( CHAR_DATA *ch, char *argument )
     BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
     DESCRIPTOR_DATA *d;
     int found = FALSE;
- 
+
     if ( ch->pcdata->spouse == NULL )
     {
         send_to_char( "You aren't married.\n\r", ch );
@@ -269,8 +269,8 @@ void do_spousetalk( CHAR_DATA *ch, char *argument )
     }
     else  /* message sent */
     {
-       
-      bprintf( buf, "`MYou say to %s, '%s`M'\n\r`w", ch->pcdata->spouse, 
+
+      bprintf( buf, "`MYou say to %s, '%s`M'\n\r`w", ch->pcdata->spouse,
         argument );
       send_to_char( buf->data, ch );
       for ( d = descriptor_list; d != NULL; d = d->next )
@@ -279,7 +279,7 @@ void do_spousetalk( CHAR_DATA *ch, char *argument )
             /*  d->character != ch && */
              !str_cmp( d->character->name, ch->pcdata->spouse) )
         {
-          act_new( "`M$n says to you, '$t`M'`w", 
+          act_new( "`M$n says to you, '$t`M'`w",
                    ch, argument, d->character, TO_VICT, POS_SLEEPING );
            found = TRUE;
         }

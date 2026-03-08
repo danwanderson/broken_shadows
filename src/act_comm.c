@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2022 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -38,9 +38,9 @@
 
 extern AUCTION_DATA *auction;
 
-/* 
+/*
  * random quote stuff.. added by Rahl.
- * originally by elfren@aros.net 
+ * originally by elfren@aros.net
  */
 
 /* quote structure */
@@ -82,12 +82,12 @@ const char* colors[] = {
 	"`C",
 	"`B"
 };
-    
+
 
 /*
  * The quote routine
  */
-void do_quote( CHAR_DATA *ch ) {   
+void do_quote( CHAR_DATA *ch ) {
     BUFFER *quote;
     int number = 0;
     int number2 = 0;
@@ -145,7 +145,7 @@ void do_delete( CHAR_DATA *ch, char *argument) {
             sprintf( strsave, "%s%s", PLAYER_DIR, capitalize( ch->name ) );
 
             wiznet("$N turns $Mself into line noise.", ch, NULL,0,0,0);
-        
+
             if ( ch->pcdata->clan != 0 ) {
                 sprintf( buf, "%d", ch->pcdata->clan );
                 Clan = find_clan ( buf );
@@ -171,7 +171,7 @@ void do_delete( CHAR_DATA *ch, char *argument) {
 
     return;
 }
-        
+
 
 /* RT code to display channel status */
 void do_channels( CHAR_DATA *ch, char *argument) {
@@ -180,7 +180,7 @@ void do_channels( CHAR_DATA *ch, char *argument) {
     /* lists all channels and their status */
     send_to_char("`W   channel   status`w\n\r",ch);
     send_to_char("`K---------------------`w\n\r",ch);
- 
+
     send_to_char("gossip         ",ch);
     if (!IS_SET(ch->comm,COMM_NOGOSSIP))
       send_to_char("`GON`w\n\r",ch);
@@ -218,7 +218,7 @@ void do_channels( CHAR_DATA *ch, char *argument) {
         if (!IS_SET(ch->comm,COMM_NOCLAN))
             send_to_char("`GON\n\r`w",ch);
         else
-            send_to_char("`ROFF\n\r`w",ch);   
+            send_to_char("`ROFF\n\r`w",ch);
     }
 
     send_to_char("grats          ",ch);
@@ -255,7 +255,7 @@ void do_channels( CHAR_DATA *ch, char *argument) {
 
     if (IS_SET(ch->comm,COMM_NOTELL))
       send_to_char("You cannot use tell.\n\r",ch);
- 
+
     if (IS_SET(ch->comm,COMM_NOCHANNELS))
      send_to_char("You cannot use channels.\n\r",ch);
 
@@ -297,7 +297,7 @@ void do_gossip( CHAR_DATA *ch, char *argument ) {
             buffer_free( buf );
             return;
         }
- 
+
         if (IS_SET(ch->comm,COMM_NOCHANNELS)) {
           send_to_char("The gods have revoked your channel priviliges.\n\r",ch);
           buffer_free( buf );
@@ -305,20 +305,20 @@ void do_gossip( CHAR_DATA *ch, char *argument ) {
         }
 
         REMOVE_BIT(ch->comm,COMM_NOGOSSIP);
- 
+
         bprintf( buf, "`BYou gossip '%s`B'`w\n\r", argument );
         send_to_char( buf->data, ch );
 
         for ( d = descriptor_list; d != NULL; d = d->next ) {
             CHAR_DATA *victim;
- 
+
             victim = d->original ? d->original : d->character;
- 
+
             if ( d->connected == CON_PLAYING &&
                  d->character != ch &&
                  !IS_SET(victim->comm,COMM_NOGOSSIP) &&
                  !IS_SET(victim->comm,COMM_QUIET) ) {
-                 act_new( "`B$n gossips '$t`B'`w", 
+                 act_new( "`B$n gossips '$t`B'`w",
                     ch,argument, d->character, TO_VICT,POS_SLEEPING );
             }
         }
@@ -347,23 +347,23 @@ void do_music( CHAR_DATA *ch, char *argument ) {
         	buffer_free( buf );
         	return;
         }
- 
+
         if (IS_SET(ch->comm,COMM_NOCHANNELS)) {
           send_to_char("The gods have revoked your channel priviliges.\n\r",ch);
           buffer_free( buf );
           return;
         }
- 
+
         REMOVE_BIT(ch->comm,COMM_NOMUSIC);
- 
+
         bprintf( buf, "`CYou MUSIC: '%s`C'\n\r`w", argument );
         send_to_char( buf->data, ch );
 
         for ( d = descriptor_list; d != NULL; d = d->next ) {
             CHAR_DATA *victim;
- 
+
             victim = d->original ? d->original : d->character;
- 
+
             if ( d->connected == CON_PLAYING &&
                  d->character != ch &&
                  !IS_SET(victim->comm,COMM_NOMUSIC) &&
@@ -387,7 +387,7 @@ void do_immtalk( CHAR_DATA *ch, char *argument ) {
         } else {
             send_to_char("`WImmortal channel is now OFF\n\r`w",ch);
             SET_BIT(ch->comm,COMM_NOWIZ);
-        } 
+        }
         return;
     }
 
@@ -396,8 +396,8 @@ void do_immtalk( CHAR_DATA *ch, char *argument ) {
     act_new("`W$n: $t`w",ch,argument,NULL,TO_CHAR,POS_DEAD);
 
     for ( d = descriptor_list; d != NULL; d = d->next ) {
-         if ( d->connected == CON_PLAYING && 
-             IS_IMMORTAL(d->character) && 
+         if ( d->connected == CON_PLAYING &&
+             IS_IMMORTAL(d->character) &&
              !IS_SET(d->character->comm,COMM_NOWIZ) ) {
             act_new("`W$n: $t`w",ch,argument,d->character,TO_VICT,POS_DEAD);
         }
@@ -424,7 +424,7 @@ void do_say( CHAR_DATA *ch, char *argument ) {
 void do_sendinfo( CHAR_DATA *ch, char *argument ) {
     DESCRIPTOR_DATA *d;
     BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
-    
+
     if (argument[0] == '\0' ) {
       if (IS_SET(ch->comm,COMM_NOINFO)) {
         send_to_char("`BInfo channel is now ON.\n\r`w",ch);
@@ -498,7 +498,7 @@ void do_tell( CHAR_DATA *ch, char *argument ) {
         buffer_clear( buf );
         bprintf(buf,"`R%s tells you '%s`R'`w\n\r",PERS(ch,victim),argument);
         buf->data[0] = UPPER(buf->data[0]);
-    
+
         victim->reply   = ch;
         buffer_strcat( victim->pcdata->buffer, buf->data );
         victim->pcdata->message_ctr++;
@@ -510,7 +510,7 @@ void do_tell( CHAR_DATA *ch, char *argument ) {
         act( "$E can't hear you, but your tell is being recorded.", ch, 0,
             victim, TO_CHAR );
         buffer_clear( buf );
-    
+
         if ( IS_NPC( victim ) ) {
             buffer_free( buf );
             return;
@@ -526,7 +526,7 @@ void do_tell( CHAR_DATA *ch, char *argument ) {
         buffer_free( buf );
         return;
     }
-  
+
     if ( IS_SET(victim->comm,COMM_QUIET) && !IS_IMMORTAL(ch)) {
         act( "$E is not receiving tells.", ch, 0, victim, TO_CHAR );
         buffer_free( buf );
@@ -534,7 +534,7 @@ void do_tell( CHAR_DATA *ch, char *argument ) {
     }
 
     if ( IS_SET( victim->act, PLR_AFK ) ) {
-        buffer_clear( buf ); 
+        buffer_clear( buf );
 
         if ( IS_NPC( victim ) ) {
             buffer_free( buf );
@@ -549,7 +549,7 @@ void do_tell( CHAR_DATA *ch, char *argument ) {
         bprintf(buf,"`R%s tells you '%s`R'`w\n\r",
             PERS(ch,victim),argument);
         buf->data[0] = UPPER(buf->data[0]);
-  
+
         victim->reply   = ch;
         buffer_strcat( victim->pcdata->buffer, buf->data );
         victim->pcdata->message_ctr++;
@@ -573,7 +573,7 @@ void do_reply( CHAR_DATA *ch, char *argument ) {
 
     buffer_clear( buf );
 
-    if ( IS_SET(ch->comm, COMM_NOTELL) ) { 
+    if ( IS_SET(ch->comm, COMM_NOTELL) ) {
         send_to_char( "Your message didn't get through.\n\r", ch );
         buffer_free( buf );
         return;
@@ -678,7 +678,7 @@ void do_yell( CHAR_DATA *ch, char *argument ) {
         if ( d->connected == CON_PLAYING
         &&   d->character != ch
         &&   d->character->in_room != NULL
-        &&   d->character->in_room->area == ch->in_room->area 
+        &&   d->character->in_room->area == ch->in_room->area
         &&   !IS_SET(d->character->comm,COMM_QUIET) ) {
             act("`Y$n yells '$t`Y'`w",ch,argument,d->character,TO_VICT);
         }
@@ -743,7 +743,7 @@ void do_quit( CHAR_DATA *ch, char *argument ) {
         return;
     }
 
-    if ( auction->item != NULL && ( ( ch == auction->buyer ) 
+    if ( auction->item != NULL && ( ( ch == auction->buyer )
     || ( ch == auction->seller ) ) ) {
         send_to_char( "Wait till you have bought/sold the item on auction.\n\r", ch );
         return;
@@ -757,7 +757,7 @@ void do_quit( CHAR_DATA *ch, char *argument ) {
     act( "$n has left the game.", ch, NULL, NULL, TO_ROOM );
     sprintf( log_buf, "%s has quit.", ch->name );
     log_string( log_buf );
-    
+
     log_buf[0] = '\0';
 
     wiznet("$N rejoins the real world.",ch,NULL,WIZ_LOGINS,0,get_trust(ch));
@@ -844,7 +844,7 @@ void do_follow( CHAR_DATA *ch, char *argument ) {
     }
 
     REMOVE_BIT(ch->act,PLR_NOFOLLOW);
-    
+
     if ( ch->master != NULL )
         stop_follower( ch );
 
@@ -896,7 +896,7 @@ void stop_follower( CHAR_DATA *ch ) {
 }
 
 /* nukes charmed monsters and pets */
-void nuke_pets( CHAR_DATA *ch ) {    
+void nuke_pets( CHAR_DATA *ch ) {
     CHAR_DATA *pet;
 
     if ((pet = ch->pet) != NULL) {
@@ -1074,13 +1074,13 @@ void do_group( CHAR_DATA *ch, char *argument ) {
         buffer_free( buf );
         return;
     }
-    
+
     if (IS_AFFECTED(victim,AFF_CHARM)) {
         send_to_char("You can't remove charmed mobs from your group.\n\r",ch);
         buffer_free( buf );
         return;
     }
-    
+
     if (IS_AFFECTED(ch,AFF_CHARM)) {
         act("You like your master too much to leave $m!",ch,NULL,victim,
             TO_VICT);
@@ -1137,7 +1137,7 @@ void do_split( CHAR_DATA *ch, char *argument ) {
         buffer_free( buf );
         return;
     }
-    
+
     amount = atoi( arg );
 
     if ( amount < 0 ) {
@@ -1152,12 +1152,12 @@ void do_split( CHAR_DATA *ch, char *argument ) {
         return;
     }
 
-    if ( ch->gold < amount ) { 
+    if ( ch->gold < amount ) {
         send_to_char( "You don't have that much gold.\n\r", ch );
         buffer_free( buf );
         return;
     }
-  
+
     members = 0;
     for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room ) {
         if ( is_same_group( gch, ch ) && !IS_AFFECTED(gch,AFF_CHARM))
@@ -1169,7 +1169,7 @@ void do_split( CHAR_DATA *ch, char *argument ) {
         buffer_free( buf );
         return;
     }
-        
+
     share = amount / members;
     extra = amount % members;
 
@@ -1291,7 +1291,7 @@ void do_ctell( CHAR_DATA *ch, char *argument ) {
         for ( d = descriptor_list; d != NULL; d = d->next ) {
             CHAR_DATA *victim;
             victim = d->original ? d->original : d->character;
-    
+
             if ( d->connected == CON_PLAYING &&
                  d->character != ch &&
                  is_same_clan (ch, victim ) &&
@@ -1309,13 +1309,13 @@ void do_ctell( CHAR_DATA *ch, char *argument ) {
 bool is_same_clan (CHAR_DATA *ch, CHAR_DATA *victim) {
     if ( ch->pcdata->clan == victim->pcdata->clan )
         return TRUE;
-    else 
+    else
         return FALSE;
 }
 
 void do_grats( CHAR_DATA *ch, char *argument ) {
     BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
-    DESCRIPTOR_DATA *d; 
+    DESCRIPTOR_DATA *d;
 
     if ( argument[0] == '\0' ) {
         if ( IS_SET(ch->comm, COMM_NOGRATS)) {
@@ -1393,13 +1393,13 @@ void do_herochan( CHAR_DATA *ch, char *argument ) {
         for ( d= descriptor_list; d!= NULL; d = d->next ) {
             CHAR_DATA *victim;
             victim = d->original ? d->original : d->character;
-            
+
             if ( d->connected == CON_PLAYING &&
                  d->character != ch &&
                  !IS_SET(victim->comm, COMM_NOHERO) &&
                  !IS_SET(victim->comm, COMM_QUIET) &&
                  victim->level >= LEVEL_HERO ) {
-            act_new( "`c$n>> $t`w", ch, argument, 
+            act_new( "`c$n>> $t`w", ch, argument,
                 d->character, TO_VICT,POS_SLEEPING);
             }
         }
@@ -1468,7 +1468,7 @@ void do_auction( CHAR_DATA *ch, char *argument ) {
             buffer_free( buf );
             return;
         } else { /* stop the auction */
-            bprintf( buf, "`mSale of %s `mhas been stopped by an immortal. Item confiscated.", 
+            bprintf( buf, "`mSale of %s `mhas been stopped by an immortal. Item confiscated.",
                 auction->item->short_descr );
             talk_auction( buf->data );
             obj_to_char( auction->item, ch );
@@ -1485,7 +1485,7 @@ void do_auction( CHAR_DATA *ch, char *argument ) {
     if ( !str_cmp( arg1, "bid" ) ) {
         if ( auction->item != NULL ) {
             long newbet;
-        
+
             /* make - perhaps - a bet now */
             if ( argument[0] == '\0' ) {
                 send_to_char( "Bid how much?\n\r", ch );
@@ -1514,18 +1514,18 @@ void do_auction( CHAR_DATA *ch, char *argument ) {
             }
 
             /* the acutal bet is ok */
-        
+
             /* return the gold to the last buyer, if one exists */
             if ( auction->buyer != NULL )
                 auction->buyer->gold += auction->bet;
-    
+
             ch->gold -= newbet; /* subtract the gold - important :) */
             auction->buyer = ch;
             auction->bet = newbet;
             auction->going = 0;
-            auction->pulse = PULSE_AUCTION; /* start the auction over again */ 
-      
-            bprintf( buf, "`mA bid of %ld gold has been received on %s`m.`w", 
+            auction->pulse = PULSE_AUCTION; /* start the auction over again */
+
+            bprintf( buf, "`mA bid of %ld gold has been received on %s`m.`w",
                 newbet, auction->item->short_descr );
             talk_auction( buf->data );
             buffer_free( buf );
@@ -1637,7 +1637,7 @@ void talk_auction( char *argument ) {
     bprintf( buf, "`mAUCTION: %s`w\n\r", argument );
 
     for ( d = descriptor_list; d != NULL; d = d->next ) {
-    if ( ( d->connected == CON_PLAYING ) && 
+    if ( ( d->connected == CON_PLAYING ) &&
         !IS_SET( d->character->comm, COMM_NOAUCTION ) &&
         !IS_SET( d->character->comm, COMM_QUIET ) )
         send_to_char( buf->data, d->character );
@@ -1646,7 +1646,7 @@ void talk_auction( char *argument ) {
     return;
 }
 
-/* 
+/*
  * code by James Seldon (jseldon@cariboo.bc.ca)
  * added here by Rahl
  */
@@ -1662,7 +1662,7 @@ void show_time( CHAR_DATA *ch ) {
     s -= h * 3600;
     m = s / 60;
     s -= m * 60;
-   
+
     bprintf( buf, "You were on for %ld hours, %ld minutes, and %ld"
                   " seconds.\n\r\n\r", h, m, s );
     send_to_char( buf->data, ch );
@@ -1693,7 +1693,7 @@ void do_gmote( CHAR_DATA *ch, char *argument ) {
         if ( d->connected == CON_PLAYING &&
              d->character != ch &&
              !IS_SET(victim->comm,COMM_QUIET) ) {
-            act_new( "`cGmote: `w$n $t`w", 
+            act_new( "`cGmote: `w$n $t`w",
                 ch, argument, d->character, TO_VICT, POS_RESTING );
         }
     }

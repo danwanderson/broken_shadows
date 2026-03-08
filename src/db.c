@@ -2667,6 +2667,11 @@ char *str_dup( const char *str )
         return (char *) str;
 
     str_new = malloc( strlen(str) + 1 );
+    if ( str_new == NULL )
+    {
+        bugf( "str_dup: malloc failed for %d bytes.", (int)strlen(str) + 1 );
+        abort();
+    }
     strcpy( str_new, str );
     return str_new;
 }

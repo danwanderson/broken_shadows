@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2022 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -85,9 +85,20 @@ BUFFER * __buffer_new (int min_size, const char * file, unsigned line)
     }
 
     buffer = malloc (sizeof(BUFFER));
+    if (buffer == NULL)
+    {
+        bugf( "buffer_new: malloc failed for BUFFER struct (%d bytes).", (int)sizeof(BUFFER));
+        abort();
+    }
 
     buffer->size = size;
     buffer->data = malloc (size);
+    if (buffer->data == NULL)
+    {
+        bugf( "buffer_new: malloc failed for buffer data (%d bytes).", size);
+        free(buffer);
+        abort();
+    }
     buffer->overflowed = FALSE;
 
     buffer->len = 0;
@@ -143,11 +154,17 @@ void __buffer_strcat (BUFFER *buffer, const char *text, const char * file, unsig
     /* Allocate the new buffer */
 
     new_data = malloc (new_size);
+    if (new_data == NULL)
+    {
+        bugf( "buffer_strcat: malloc failed for expanded buffer (%d bytes).", new_size);
+        buffer->overflowed = TRUE;
+        return;
+    }
 
     /* Copy the current buffer to the new buffer */
 
     memcpy (new_data, buffer->data, buffer->len);
-    free(buffer->data );
+    free(buffer->data);
     buffer->data = new_data;
     buffer->size = new_size;
 

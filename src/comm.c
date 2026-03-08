@@ -600,6 +600,11 @@ void init_descriptor( DESCRIPTOR_DATA *dnew, int desc)
     dnew->pString       = NULL;                 /* OLC */
     dnew->editor        = 0;                    /* OLC */
     dnew->outbuf        = malloc( dnew->outsize );
+    if ( dnew->outbuf == NULL )
+    {
+        perror( "init_descriptor: malloc" );
+        return;
+    }
 }
 
 
@@ -657,7 +662,12 @@ void new_descriptor( int control )
     dnew->pString       = NULL;                 /* OLC */
     dnew->editor        = 0;                    /* OLC */
     dnew->outbuf        = malloc( dnew->outsize );
-
+    if ( dnew->outbuf == NULL )
+    {
+        perror( "new_descriptor: malloc" );
+        close( desc );
+        return;
+    }
 
     size = sizeof(sock);
     if ( getpeername( desc, (struct sockaddr *) &sock, &size ) < 0 )
@@ -1119,6 +1129,12 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
             return;
         }
         outbuf      = malloc( 2 * d->outsize );
+        if ( outbuf == NULL )
+        {
+            bug( "write_to_buffer: malloc failed, closing socket.", 0 );
+            close_socket( d );
+            return;
+        }
         strncpy( outbuf, d->outbuf, d->outtop );
         free( d->outbuf );
         d->outbuf   = outbuf;
@@ -1530,6 +1546,11 @@ void page_to_char( const char *txt, CHAR_DATA *ch )
 /* if added by Rahl */
     if ( ch->desc == NULL ) return;
     ch->desc->showstr_head = malloc(strlen(txt) + 1);
+    if ( ch->desc->showstr_head == NULL )
+    {
+        perror( "page_to_char: malloc" );
+        return;
+    }
     strcpy(ch->desc->showstr_head,txt);
     ch->desc->showstr_point = ch->desc->showstr_head;
     show_string(ch->desc,"");

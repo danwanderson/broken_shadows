@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2022 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -64,7 +64,7 @@ bool show_version( CHAR_DATA *ch, char *argument )
     send_to_char( "\n\r", ch );
 
     return FALSE;
-}    
+}
 
 /*
  * This table contains help commands and a brief description of each.
@@ -102,7 +102,7 @@ const struct olc_help_type help_table[] =
     {   "size",         size_flags,      "Mobile size."                  },
     {   "position",     position_flags,  "Mobile positions."             },
     {   "material",     material_type,   "Material mob/obj is made from."},
-    {   "wclass",       weapon_class,    "Weapon class."                 }, 
+    {   "wclass",       weapon_class,    "Weapon class."                 },
     {   "wtype",        weapon_type,     "Special weapon type."          },
     {   "",             0,               ""                              }
 };
@@ -120,7 +120,7 @@ void show_flag_cmds( CHAR_DATA *ch, const struct flag_type *flag_table )
     BUFFER *buf1 = buffer_new( MAX_STRING_LENGTH );
     int  flag;
     int  col;
- 
+
     buf1->data[0] = '\0';
     col = 0;
     for (flag = 0; flag_table[flag].name[0] != '\0'; flag++)
@@ -133,7 +133,7 @@ void show_flag_cmds( CHAR_DATA *ch, const struct flag_type *flag_table )
                 buffer_strcat( buf1, "\n\r" );
         }
     }
- 
+
     if ( col % 4 != 0 )
         buffer_strcat( buf1, "\n\r" );
 
@@ -159,7 +159,7 @@ void show_skill_cmds( CHAR_DATA *ch, int tar )
     BUFFER *buf1 = buffer_new( MAX_INPUT_LENGTH );
     int  sn;
     int  col;
- 
+
     buf1->data[0] = '\0';
     col = 0;
     for (sn = 0; sn < MAX_SKILL; sn++)
@@ -179,7 +179,7 @@ void show_skill_cmds( CHAR_DATA *ch, int tar )
                 buffer_strcat( buf1, "\n\r" );
         }
     }
- 
+
     if ( col % 4 != 0 )
         buffer_strcat( buf1, "\n\r" );
 
@@ -202,7 +202,7 @@ void show_spec_cmds( CHAR_DATA *ch )
     BUFFER *buf1 = buffer_new( MAX_INPUT_LENGTH );
     int  spec;
     int  col;
- 
+
     buf1->data[0] = '\0';
     col = 0;
     send_to_char( "Preceed special functions with 'spec_'\n\r\n\r", ch );
@@ -213,7 +213,7 @@ void show_spec_cmds( CHAR_DATA *ch )
         if ( ++col % 4 == 0 )
             buffer_strcat( buf1, "\n\r" );
     }
- 
+
     if ( col % 4 != 0 )
         buffer_strcat( buf1, "\n\r" );
 
@@ -312,7 +312,7 @@ bool show_help( CHAR_DATA *ch, char *argument )
                     send_to_char( "Syntax:  ? spell "
                         "[ignore/attack/defend/self/object/all/other]\n\r", ch );
                 buffer_free( buf );
-                buffer_free( buffer );    
+                buffer_free( buffer );
                 return FALSE;
             }
             else
@@ -527,9 +527,9 @@ REDIT( redit_mshow )
         ch->desc->pEdit = (void *)pMob;
     }
 /*
- * This bugfix by Rahl. What was happening is that IMMs would type "mshow 
- * all" (don't ask my why they couldn't read the instructions..) and it 
- * would crash the MUD. This _SHOULD_ keep that from happening again 
+ * This bugfix by Rahl. What was happening is that IMMs would type "mshow
+ * all" (don't ask my why they couldn't read the instructions..) and it
+ * would crash the MUD. This _SHOULD_ keep that from happening again
  * (crashing that is..)
  */
 
@@ -538,10 +538,10 @@ REDIT( redit_mshow )
         send_to_char( "That's not a valid vnum.\n\r", ch );
         return FALSE;
     }
- 
+
     medit_show( ch, argument );
     ch->desc->pEdit = (void *)ch->in_room;
-    return FALSE; 
+    return FALSE;
 }
 
 
@@ -570,18 +570,18 @@ REDIT( redit_oshow )
     }
 
 /*
- * Bugfix by Rahl. oshow all also crashes the MUD when given a non-number 
+ * Bugfix by Rahl. oshow all also crashes the MUD when given a non-number
  * argument.
  */
     else
     {
         send_to_char( "That's not a valid vnum.\n\r", ch );
         return FALSE;
-    }   
+    }
 
     oedit_show( ch, argument );
     ch->desc->pEdit = (void *)ch->in_room;
-    return FALSE; 
+    return FALSE;
 }
 
 
@@ -667,7 +667,7 @@ AEDIT( aedit_show )
     bprintf( buf, "Builders: [%s]\n\r", pArea->builders );
     send_to_char( buf->data, ch );
 
-    bprintf( buf, "Flags:    [%s]\n\r", 
+    bprintf( buf, "Flags:    [%s]\n\r",
         flag_string( area_flags, pArea->area_flags ) );
     send_to_char( buf->data, ch );
 
@@ -753,7 +753,7 @@ AEDIT( aedit_file )
         send_to_char( "No more than eight characters allowed.\n\r", ch );
         return FALSE;
     }
-    
+
     /*
      * Allow only letters and numbers.
      */
@@ -764,7 +764,7 @@ AEDIT( aedit_file )
             send_to_char( "Only letters and numbers are valid.\n\r", ch );
             return FALSE;
         }
-    }    
+    }
 
     free_string( pArea->filename );
     strcat( file, ".are" );
@@ -960,7 +960,7 @@ AEDIT( aedit_vnum )
         send_to_char( "AEdit:  Upper must be larger then lower.\n\r", ch );
         return FALSE;
     }
-    
+
     if ( !check_range( atoi( lower ), atoi( upper ) ) )
     {
         send_to_char( "AEdit:  Range must include only this area.\n\r", ch );
@@ -1014,7 +1014,7 @@ AEDIT( aedit_lvnum )
         send_to_char( "AEdit:  Value must be less than the uvnum.\n\r", ch );
         return FALSE;
     }
-    
+
     if ( !check_range( ilower, iupper ) )
     {
         send_to_char( "AEdit:  Range must include only this area.\n\r", ch );
@@ -1057,7 +1057,7 @@ AEDIT( aedit_uvnum )
         send_to_char( "AEdit:  Upper must be larger then lower.\n\r", ch );
         return FALSE;
     }
-    
+
     if ( !check_range( ilower, iupper ) )
     {
         send_to_char( "AEdit:  Range must include only this area.\n\r", ch );
@@ -1091,11 +1091,11 @@ REDIT( redit_show )
     CHAR_DATA           *rch;
     int                 door;
     bool                fcnt;
-    
+
     EDIT_ROOM(ch, pRoom);
 
     buf1->data[0] = '\0';
-    
+
     bprintf( buf, "Description:\n\r%s", pRoom->description );
     buffer_strcat( buf1, buf->data );
 
@@ -1276,7 +1276,7 @@ bool change_exit( CHAR_DATA *ch, char *argument, int door )
             TOGGLE_BIT(pToRoom->exit[rev]->rs_flags,  value);
             TOGGLE_BIT(pToRoom->exit[rev]->exit_info, value);
         }
-        
+
         send_to_char( "Exit flag toggled.\n\r", ch );
         return TRUE;
     }
@@ -1303,7 +1303,7 @@ bool change_exit( CHAR_DATA *ch, char *argument, int door )
     {
         ROOM_INDEX_DATA *pToRoom;
         sh_int rev;                                     /* ROM OLC */
-        
+
         if ( !pRoom->exit[door] )
         {
             send_to_char( "REdit:  Cannot delete a null exit.\n\r", ch );
@@ -1315,7 +1315,7 @@ bool change_exit( CHAR_DATA *ch, char *argument, int door )
          */
         rev = rev_dir[door];
         pToRoom = pRoom->exit[door]->u1.to_room;       /* ROM OLC */
-        
+
         if ( pToRoom->exit[rev] )
         {
             free_exit( pToRoom->exit[rev] );
@@ -1382,17 +1382,17 @@ bool change_exit( CHAR_DATA *ch, char *argument, int door )
         send_to_char( "Two-way link established.\n\r", ch );
         return TRUE;
     }
-        
+
     if ( !str_cmp( command, "dig" ) )
     {
         char buf[MAX_INPUT_LENGTH];
-        
+
         if ( arg[0] == '\0' || !is_number( arg ) )
         {
             send_to_char( "Syntax: [direction] dig <vnum>\n\r", ch );
             return FALSE;
         }
-        
+
         redit_create( ch, arg );
         sprintf( buf, "link %s", arg );
         change_exit( ch, buf, door);
@@ -1702,7 +1702,7 @@ REDIT( redit_create )
     ROOM_INDEX_DATA *pRoom;
     int value;
     int iHash;
-    
+
     EDIT_ROOM(ch, pRoom);
 
     value = atoi( argument );
@@ -1911,13 +1911,13 @@ const struct wear_type wear_table[] =
 int wear_loc(int bits, int count)
 {
     int flag;
- 
+
     for (flag = 0; wear_table[flag].wear_bit != NO_FLAG; flag++)
     {
         if ( IS_SET(bits, wear_table[flag].wear_bit) && --count < 1)
             return wear_table[flag].wear_loc;
     }
- 
+
     return NO_FLAG;
 }
 
@@ -1931,13 +1931,13 @@ int wear_loc(int bits, int count)
 int wear_bit(int loc)
 {
     int flag;
- 
+
     for (flag = 0; wear_table[flag].wear_loc != NO_FLAG; flag++)
     {
         if ( loc == wear_table[flag].wear_loc )
             return wear_table[flag].wear_bit;
     }
- 
+
     return 0;
 }
 
@@ -2152,7 +2152,7 @@ void show_obj_values( CHAR_DATA *ch, OBJ_INDEX_DATA *obj )
     {
         default:        /* No values. */
             break;
-            
+
         case ITEM_LIGHT:
             if ( obj->value[2] == -1 || obj->value[2] == 999 ) /* ROM OLC */
                 bprintf( buf, "[v2] Light:  Infinite[-1]\n\r" );
@@ -2267,7 +2267,7 @@ void show_obj_values( CHAR_DATA *ch, OBJ_INDEX_DATA *obj )
             bprintf( buf, "[v0] Gold:   [%d]\n\r", obj->value[0] );
             send_to_char( buf->data, ch );
             break;
-        
+
         case ITEM_PORTAL:
             bprintf( buf, "[v3] Destination: [%d]\n\r", obj->value[3] );
             send_to_char( buf->data, ch );
@@ -2287,7 +2287,7 @@ bool set_obj_values( CHAR_DATA *ch, OBJ_INDEX_DATA *pObj, int value_num, char *a
     {
         default:
             break;
-            
+
         case ITEM_LIGHT:
             switch ( value_num )
             {
@@ -2416,7 +2416,7 @@ bool set_obj_values( CHAR_DATA *ch, OBJ_INDEX_DATA *pObj, int value_num, char *a
             switch ( value_num )
             {
                 int value;
-                
+
                 default:
                     do_help( ch, "ITEM_CONTAINER" );
                     return FALSE;
@@ -2783,7 +2783,7 @@ OEDIT( oedit_long )
         send_to_char( "Syntax:  long [string]\n\r", ch );
         return FALSE;
     }
-        
+
     free_string( pObj->description );
     pObj->description = str_dup( argument );
     pObj->description[0] = UPPER( pObj->description[0] );
@@ -2950,11 +2950,11 @@ OEDIT( oedit_create )
         send_to_char( "OEdit:  Object vnum already exists.\n\r", ch );
         return FALSE;
     }
-        
+
     pObj                        = new_obj_index();
     pObj->vnum                  = value;
     pObj->area                  = pArea;
-        
+
     if ( value > top_vnum_obj )
         top_vnum_obj = value;
 
@@ -3258,7 +3258,7 @@ MEDIT( medit_show )
     bprintf( buf, "Vnum:        [%5d]\n\rSex:         [%s]\n\r",
         pMob->vnum,
         pMob->sex == SEX_MALE    ? "male"   :
-        pMob->sex == SEX_FEMALE  ? "female" : 
+        pMob->sex == SEX_FEMALE  ? "female" :
         pMob->sex == 3           ? "random" : "neutral" );  /* ROM magic number */
     buffer_strcat( buf1, buf->data );
 
@@ -3294,7 +3294,7 @@ MEDIT( medit_show )
              pMob->mana[DICE_TYPE],
              pMob->mana[DICE_BONUS] );
     buffer_strcat( buf1, buf->data );
-    
+
     bprintf( buf, "Damage Type: [%s]\n\r",
              attack_table[pMob->dam_type].name);
     buffer_strcat( buf1, buf->data );
@@ -3363,7 +3363,7 @@ MEDIT( medit_show )
 
     if ( pMob->spec_fun )
     {
-        bprintf( buf, "Spec fun:    [%s]\n\r",  
+        bprintf( buf, "Spec fun:    [%s]\n\r",
             spec_string( pMob->spec_fun ) );
         buffer_strcat( buf1, buf->data );
     }
@@ -3454,9 +3454,9 @@ MEDIT( medit_create )
     pMob                        = new_mob_index();
     pMob->vnum                  = value;
     pMob->area                  = pArea;
-        
+
     if ( value > top_vnum_mob )
-        top_vnum_mob = value;        
+        top_vnum_mob = value;
 
     pMob->act                   = ACT_IS_NPC;
     iHash                       = value % MAX_KEY_HASH;
@@ -3743,7 +3743,7 @@ MEDIT( medit_shop )
         SHOP_DATA *pShop_next;
         int value;
         int cnt = 0;
-        
+
         if ( arg1[0] == '\0' || !is_number( arg1 ) )
         {
             send_to_char( "Syntax:  shop delete [#0-4]\n\r", ch );
@@ -3751,7 +3751,7 @@ MEDIT( medit_shop )
         }
 
         value = atoi( argument );
-        
+
         if ( !pMob->pShop )
         {
             send_to_char( "REdit:  Non-existant shop.\n\r", ch );
@@ -3932,7 +3932,7 @@ MEDIT( medit_ac )
         pMob->ac[AC_BASH]   = bash;
         pMob->ac[AC_SLASH]  = slash;
         pMob->ac[AC_EXOTIC] = exotic;
-        
+
         send_to_char( "Ac set.\n\r", ch );
         return TRUE;
     } while ( FALSE );    /* Just do it once.. */
@@ -4151,7 +4151,7 @@ MEDIT( medit_hitdice )
     if ( *cp != '\0' ) *cp = '\0';
 
     if ( ( !is_number( num   ) || atoi( num   ) < 1 )
-    ||   ( !is_number( type  ) || atoi( type  ) < 1 ) 
+    ||   ( !is_number( type  ) || atoi( type  ) < 1 )
     ||   ( !is_number( bonus ) || atoi( bonus ) < 0 ) )
     {
         send_to_char( syntax, ch );
@@ -4202,7 +4202,7 @@ MEDIT( medit_manadice )
     }
 
     if ( ( !is_number( num   ) || atoi( num   ) < 1 )
-    ||   ( !is_number( type  ) || atoi( type  ) < 1 ) 
+    ||   ( !is_number( type  ) || atoi( type  ) < 1 )
     ||   ( !is_number( bonus ) || atoi( bonus ) < 0 ) )
     {
         send_to_char( syntax, ch );
@@ -4253,7 +4253,7 @@ MEDIT( medit_damdice )
     }
 
     if ( ( !is_number( num   ) || atoi( num   ) < 1 )
-    ||   ( !is_number( type  ) || atoi( type  ) < 1 ) 
+    ||   ( !is_number( type  ) || atoi( type  ) < 1 )
     ||   ( !is_number( bonus ) || atoi( bonus ) < 0 ) )
     {
         send_to_char( syntax, ch );
@@ -4293,7 +4293,7 @@ MEDIT( medit_damtype )
             return TRUE;
         }
     }
-    
+
     return FALSE;
 }
 

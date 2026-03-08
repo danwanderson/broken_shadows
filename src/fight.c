@@ -700,8 +700,7 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
 
             if (!saves_spell(level / 2,victim, DAM_POISON))
             {
-                send_to_char("You feel poison coursing through your veins.",
-                    victim);
+                send_to_char("You feel poison coursing through your veins.", victim);
                 act("$n is poisoned by the venom on $p.",
                     victim,wield,NULL,TO_ROOM);
 
@@ -722,7 +721,9 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
                 poison->duration = UMAX(0,poison->duration - 1);
 
                 if (poison->level == 0 || poison->duration == 0)
+                {
                     act("The poison on $p has worn off.",ch,wield,NULL,TO_CHAR);
+                }
             }
         }
 
@@ -1717,7 +1718,6 @@ void stop_fighting( CHAR_DATA *ch, bool fBoth )
  */
 void make_corpse( CHAR_DATA *ch )
 {
-    BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
     OBJ_DATA *corpse;
     OBJ_DATA *obj;
     OBJ_DATA *obj_next;
@@ -1757,37 +1757,56 @@ void make_corpse( CHAR_DATA *ch )
 
     corpse->level = ch->level;
 
-    bprintf( buf, corpse->short_descr, name );
-    free_string( corpse->short_descr );
-    corpse->short_descr = str_dup( buf->data );
+    /* Use safe %s-only substitution instead of passing area-defined strings
+     * directly as printf format strings (format string vulnerability fix). */
+    {
+        char tmp[MAX_STRING_LENGTH];
+        char *fmt;
+        char *pct;
 
-    bprintf( buf, corpse->description, name );
-    free_string( corpse->description );
-    corpse->description = str_dup( buf->data );
+        fmt = corpse->short_descr;
+        pct = strstr( fmt, "%s" );
+        if ( pct )
+            snprintf( tmp, sizeof(tmp), "%.*s%s%s", (int)(pct - fmt), fmt, name, pct + 2 );
+        else
+            snprintf( tmp, sizeof(tmp), "%s", fmt );
+        free_string( corpse->short_descr );
+        corpse->short_descr = str_dup( tmp );
+
+        fmt = corpse->description;
+        pct = strstr( fmt, "%s" );
+        if ( pct )
+            snprintf( tmp, sizeof(tmp), "%.*s%s%s", (int)(pct - fmt), fmt, name, pct + 2 );
+        else
+            snprintf( tmp, sizeof(tmp), "%s", fmt );
+        free_string( corpse->description );
+        corpse->description = str_dup( tmp );
+    }
 
     if ( IS_NPC(ch) || (ch->pcdata->nemesis == NULL)
         || (!IS_NPC(ch) && IS_NPC(ch->pcdata->nemesis)) )
-    for ( obj = ch->carrying; obj != NULL; obj = obj_next )
     {
-        obj_next = obj->next_content;
-        obj_from_char( obj );
-        if (obj->item_type == ITEM_POTION)
-            obj->timer = number_range(500,1000);
-        if (obj->item_type == ITEM_SCROLL)
-            obj->timer = number_range(1000,2500);
-        if (IS_SET(obj->extra_flags,ITEM_ROT_DEATH))
-            obj->timer = number_range(5,10);
-        REMOVE_BIT(obj->extra_flags,ITEM_VIS_DEATH);
-        REMOVE_BIT(obj->extra_flags,ITEM_ROT_DEATH);
+        for ( obj = ch->carrying; obj != NULL; obj = obj_next )
+        {
+            obj_next = obj->next_content;
+            obj_from_char( obj );
+            if (obj->item_type == ITEM_POTION)
+                obj->timer = number_range(500,1000);
+            if (obj->item_type == ITEM_SCROLL)
+                obj->timer = number_range(1000,2500);
+            if (IS_SET(obj->extra_flags,ITEM_ROT_DEATH))
+                obj->timer = number_range(5,10);
+            REMOVE_BIT(obj->extra_flags,ITEM_VIS_DEATH);
+            REMOVE_BIT(obj->extra_flags,ITEM_ROT_DEATH);
 
-        if ( IS_SET( obj->extra_flags, ITEM_INVENTORY ) )
-            extract_obj( obj );
-        else
-            obj_to_obj( obj, corpse );
+            if ( IS_SET( obj->extra_flags, ITEM_INVENTORY ) )
+                extract_obj( obj );
+            else
+                obj_to_obj( obj, corpse );
+        }
     }
 
     obj_to_room( corpse, ch->in_room );
-    buffer_free( buf );
     return;
 }
 
@@ -1862,7 +1881,6 @@ void death_cry( CHAR_DATA *ch )
 
     if ( vnum != 0 )
     {
-        BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
         OBJ_DATA *obj;
         char *name;
 
@@ -1870,13 +1888,30 @@ void death_cry( CHAR_DATA *ch )
         obj             = create_object( get_obj_index( vnum ), 0 );
         obj->timer      = number_range( 4, 7 );
 
-        bprintf( buf, obj->short_descr, name );
-        free_string( obj->short_descr );
-        obj->short_descr = str_dup( buf->data );
+        /* Safe %s-only substitution (format string vulnerability fix) */
+        {
+            char tmp[MAX_STRING_LENGTH];
+            char *fmt;
+            char *pct;
 
-        bprintf( buf, obj->description, name );
-        free_string( obj->description );
-        obj->description = str_dup( buf->data );
+            fmt = obj->short_descr;
+            pct = strstr( fmt, "%s" );
+            if ( pct )
+                snprintf( tmp, sizeof(tmp), "%.*s%s%s", (int)(pct - fmt), fmt, name, pct + 2 );
+            else
+                snprintf( tmp, sizeof(tmp), "%s", fmt );
+            free_string( obj->short_descr );
+            obj->short_descr = str_dup( tmp );
+
+            fmt = obj->description;
+            pct = strstr( fmt, "%s" );
+            if ( pct )
+                snprintf( tmp, sizeof(tmp), "%.*s%s%s", (int)(pct - fmt), fmt, name, pct + 2 );
+            else
+                snprintf( tmp, sizeof(tmp), "%s", fmt );
+            free_string( obj->description );
+            obj->description = str_dup( tmp );
+        }
 
         if (obj->item_type == ITEM_FOOD)
         {
@@ -1887,7 +1922,6 @@ void death_cry( CHAR_DATA *ch )
         }
 
         obj_to_room( obj, ch->in_room );
-        buffer_free( buf );
     }
 
     if ( IS_NPC(ch) )

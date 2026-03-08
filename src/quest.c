@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 ////  Broken Shadows (c) 1995-2022 by Daniel Anderson
-////  
+////
 ////  Permission to use this code is given under the conditions set
 ////  forth in ../doc/shadows.license
 ////
@@ -131,7 +131,7 @@ void do_quest(CHAR_DATA *ch, char *argument)
             return;
         }
     }
- 
+
     if (!str_prefix(arg1, "info"))
     {
         if (IS_SET(ch->act, PLR_QUESTOR))
@@ -153,7 +153,7 @@ void do_quest(CHAR_DATA *ch, char *argument)
                         " %s!\n\r", questinfoobj->short_descr);
                     send_to_char(buf->data, ch);
                 }
-                else 
+                else
                     send_to_char("You aren't currently on a quest.\n\r",
                         ch);
                 buffer_free( buf );
@@ -168,7 +168,7 @@ void do_quest(CHAR_DATA *ch, char *argument)
                         " %s!\n\r", questinfo->short_descr);
                     send_to_char(buf->data, ch);
                 }
-                else 
+                else
                     send_to_char("You aren't currently on a quest.\n\r",
                         ch);
                 buffer_free( buf );
@@ -194,7 +194,7 @@ void do_quest(CHAR_DATA *ch, char *argument)
             send_to_char("You aren't currently on a quest.\n\r",ch);
             if (ch->nextquest > 1)
             {
-                bprintf(buf, "There are %d minutes remaining until you can" 
+                bprintf(buf, "There are %d minutes remaining until you can"
                     " go on another quest.\n\r",ch->nextquest);
                 send_to_char(buf->data, ch);
             }
@@ -207,7 +207,7 @@ void do_quest(CHAR_DATA *ch, char *argument)
         }
         else if (ch->countdown > 0)
         {
-            bprintf(buf, "Time left for current quest: %d\n\r", 
+            bprintf(buf, "Time left for current quest: %d\n\r",
                 ch->countdown);
             send_to_char(buf->data, ch);
         }
@@ -320,7 +320,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r");
             }
             else
             {
-                bprintf(buf, "Sorry, %s, but you can't have that right now.", 
+                bprintf(buf, "Sorry, %s, but you can't have that right now.",
                     ch->name);
                 do_say(questman,buf->data);
                 buffer_free( buf );
@@ -361,7 +361,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r");
                 obj->value[1] = ch->level/3;
                 obj->value[2] = ch->level/3;
                 obj->value[3] = ch->level/3 - 2;
-        
+
                 add_random_apply( ch, obj );
             }
             else
@@ -402,9 +402,9 @@ To buy an item, type 'QUEST BUY <item>'.\n\r");
             {
                 ch->questpoints -= 700;
                 ch->practice += 30;
-                act( "$N gives 30 practices to $n.", ch, NULL, questman, 
+                act( "$N gives 30 practices to $n.", ch, NULL, questman,
                     TO_ROOM);
-                act( "$N gives you 30 practices.",   ch, NULL, questman, 
+                act( "$N gives you 30 practices.",   ch, NULL, questman,
                     TO_CHAR);
                 buffer_free( buf );
                 return;
@@ -467,7 +467,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r");
         }
         if (ch->nextquest > 0)
         {
-            bprintf(buf, "You're very brave, %s, but let someone else have" 
+            bprintf(buf, "You're very brave, %s, but let someone else have"
                 " a chance.", ch->name);
             do_say(questman, buf->data);
             bprintf(buf, "Come back later.");
@@ -506,9 +506,9 @@ To buy an item, type 'QUEST BUY <item>'.\n\r");
     }
     else if (!str_prefix(arg1, "complete"))
     {
-        act( "$n informs $N $e has completed $s quest.", ch, NULL, questman, 
+        act( "$n informs $N $e has completed $s quest.", ch, NULL, questman,
             TO_ROOM);
-        act ("You inform $N you have completed $s quest.",ch, NULL, questman, 
+        act ("You inform $N you have completed $s quest.",ch, NULL, questman,
             TO_CHAR);
         if (ch->questgiver != questman)
         {
@@ -525,13 +525,13 @@ To buy an item, type 'QUEST BUY <item>'.\n\r");
             {
                 int reward, pointreward, pracreward;
 
-                /* 
+                /*
                  * I removed a zero from the reward. I think players are
                  * getting too much money from quests. - Rahl
                  */
                 reward = number_range(15,250);
                 pointreward = number_range(10,40);
-                
+
                 bprintf(buf, "Congratulations on completing your quest!");
                 do_say(questman,buf->data);
                 bprintf(buf,"As a reward, I am giving you %d quest points"
@@ -554,7 +554,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r");
                 ch->nextquest = 15;
                 ch->gold += reward;
                 ch->questpoints += pointreward;
-        
+
                 buffer_free( buf );
                 return;
             }
@@ -576,13 +576,13 @@ To buy an item, type 'QUEST BUY <item>'.\n\r");
                 {
                     int reward, pointreward, pracreward;
 
-                /* 
+                /*
                  * I removed a zero from the reward. I think players are
                  * getting too much money from quests. - Rahl
                  */
                     reward = number_range(150,2500);
                     pointreward = number_range(10,40);
-                    
+
                     act("You hand $p to $N.",ch, obj, questman, TO_CHAR);
                     act("$n hands $p to $N.",ch, obj, questman, TO_ROOM);
 
@@ -596,7 +596,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r");
                     if (chance(15))
                     {
                         pracreward = number_range(1,6);
-                        bprintf(buf, "You gain %d practices!\n\r", 
+                        bprintf(buf, "You gain %d practices!\n\r",
                             pracreward);
                         send_to_char(buf->data, ch);
                         ch->practice += pracreward;
@@ -611,7 +611,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r");
                     ch->gold += reward;
                     ch->questpoints += pointreward;
                     extract_obj(obj);
-        
+
                     buffer_free( buf );
                     return;
                 }
@@ -637,7 +637,7 @@ To buy an item, type 'QUEST BUY <item>'.\n\r");
         }
         if (ch->nextquest > 0)
             bprintf(buf,"But you didn't complete your quest in time!");
-        else 
+        else
             bprintf(buf, "You have to REQUEST a quest first, %s.",
                 ch->name);
         do_say(questman, buf->data);
@@ -795,7 +795,7 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman)
             "general area of %s.'\n\r",
             questman->short_descr,&room->area->name[16]);
         send_to_char(buf->data,ch);
- 
+
    }
     ch->questmob = victim->pIndexData->vnum;
    }
@@ -810,7 +810,7 @@ void generate_quest(CHAR_DATA *ch, CHAR_DATA *questman)
 bool quest_level_diff(int clevel, int mlevel)
 {
     int upper = 0;
-    
+
     /* was clevel+10 - changed by Rahl */
     upper = clevel+7;
     if(upper > 100)
@@ -822,7 +822,7 @@ bool quest_level_diff(int clevel, int mlevel)
       return FALSE;
 
 }
-                
+
 /* Called from update_handler() by pulse_area */
 
 void quest_update(void)
