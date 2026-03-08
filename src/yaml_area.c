@@ -948,7 +948,7 @@ parse_yaml_file( const char *filename, yaml_parser_t *parser,
     fp = fopen( filename, "r" );
     if ( !fp )
     {
-        bug( "parse_yaml_file: cannot open '%s'.", (int)filename );
+        { char _msg[512]; snprintf(_msg, sizeof(_msg), "parse_yaml_file: cannot open '%s'.", filename); bug(_msg, 0); }
         return FALSE;
     }
 
@@ -963,8 +963,7 @@ parse_yaml_file( const char *filename, yaml_parser_t *parser,
 
     if ( !yaml_parser_load( parser, doc ) )
     {
-        bug( "parse_yaml_file: YAML parse error in '%s' line %lu: %s",
-             (int)filename );
+        { char _msg[512]; snprintf(_msg, sizeof(_msg), "parse_yaml_file: YAML parse error in '%s'.", filename); bug(_msg, 0); }
         yaml_parser_delete( parser );
         fclose( fp );
         return FALSE;
@@ -1044,8 +1043,7 @@ load_yaml_area_file( const char *filename )
     root = yaml_document_get_root_node( &doc );
     if ( !root || root->type != YAML_MAPPING_NODE )
     {
-        bug( "load_yaml_area_file: root is not a mapping in '%s'.",
-             (int)filename );
+        { char _msg[512]; snprintf(_msg, sizeof(_msg), "load_yaml_area_file: root is not a mapping in '%s'.", filename); bug(_msg, 0); }
         yaml_document_delete( &doc );
         yaml_parser_delete( &parser );
         return FALSE;
@@ -1062,8 +1060,7 @@ load_yaml_area_file( const char *filename )
     if ( area_id )
         load_yaml_area_section( &doc, area_id );
     else
-        bug( "load_yaml_area_file: no 'area:' section in '%s'.",
-             (int)filename );
+        { char _msg[512]; snprintf(_msg, sizeof(_msg), "load_yaml_area_file: no 'area:' section in '%s'.", filename); bug(_msg, 0); }
 
     if ( mobs_id )
         load_yaml_mobiles_section( &doc, mobs_id );
@@ -1144,7 +1141,6 @@ emit_scalar( yaml_emitter_t *em, const char *value )
         YAML_ANY_SCALAR_STYLE
     );
     yaml_emitter_emit( em, &ev );
-    yaml_event_delete( &ev );
 }
 
 static void
@@ -1182,7 +1178,6 @@ emit_mapping_start( yaml_emitter_t *em )
     yaml_mapping_start_event_initialize(
         &ev, NULL, NULL, 1, YAML_BLOCK_MAPPING_STYLE );
     yaml_emitter_emit( em, &ev );
-    yaml_event_delete( &ev );
 }
 
 static void
@@ -1191,7 +1186,6 @@ emit_mapping_end( yaml_emitter_t *em )
     yaml_event_t ev;
     yaml_mapping_end_event_initialize( &ev );
     yaml_emitter_emit( em, &ev );
-    yaml_event_delete( &ev );
 }
 
 static void
@@ -1201,7 +1195,6 @@ emit_sequence_start( yaml_emitter_t *em )
     yaml_sequence_start_event_initialize(
         &ev, NULL, NULL, 1, YAML_BLOCK_SEQUENCE_STYLE );
     yaml_emitter_emit( em, &ev );
-    yaml_event_delete( &ev );
 }
 
 static void
@@ -1210,7 +1203,6 @@ emit_sequence_end( yaml_emitter_t *em )
     yaml_event_t ev;
     yaml_sequence_end_event_initialize( &ev );
     yaml_emitter_emit( em, &ev );
-    yaml_event_delete( &ev );
 }
 
 bool
@@ -1248,7 +1240,7 @@ save_yaml_area( AREA_DATA *pArea )
     fp = fopen( yaml_file, "w" );
     if ( !fp )
     {
-        bug( "save_yaml_area: cannot open '%s' for write.", (int)yaml_file );
+        { char _msg[512]; snprintf(_msg, sizeof(_msg), "save_yaml_area: cannot open '%s' for write.", yaml_file); bug(_msg, 0); }
         return FALSE;
     }
 
@@ -1264,11 +1256,9 @@ save_yaml_area( AREA_DATA *pArea )
     /* Stream / document start */
     yaml_stream_start_event_initialize( &ev, YAML_UTF8_ENCODING );
     yaml_emitter_emit( &em, &ev );
-    yaml_event_delete( &ev );
 
     yaml_document_start_event_initialize( &ev, NULL, NULL, NULL, 1 );
     yaml_emitter_emit( &em, &ev );
-    yaml_event_delete( &ev );
 
     emit_mapping_start( &em );          /* root mapping */
 
@@ -1566,11 +1556,9 @@ save_yaml_area( AREA_DATA *pArea )
 
     yaml_document_end_event_initialize( &ev, 1 );
     yaml_emitter_emit( &em, &ev );
-    yaml_event_delete( &ev );
 
     yaml_stream_end_event_initialize( &ev );
     yaml_emitter_emit( &em, &ev );
-    yaml_event_delete( &ev );
 
     yaml_emitter_delete( &em );
     fclose( fp );

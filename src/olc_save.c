@@ -884,6 +884,7 @@ void do_asave( CHAR_DATA *ch, char *argument )
     AREA_DATA *pArea;
     int value;
 
+    one_argument( argument, arg1 );
     value = atoi( arg1 );
 
     if ( !( pArea = get_area_data( value ) ) && is_number( arg1 ) )

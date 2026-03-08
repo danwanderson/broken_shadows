@@ -24,31 +24,45 @@ Requirements:
 import sys
 import os
 import re
-import subprocess
-import time
-import asyncio
-import telnetlib3
-import argparse
-from pathlib import Path
-from typing import Optional, Tuple, Any
+
+# Re-exec with the repo .venv python if it exists and we're not already in it.
+_here = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_venv_py = os.path.join(_here, ".venv", "bin", "python3")
+_venv_prefix = os.path.abspath(os.path.join(_here, ".venv"))
+if os.path.exists(_venv_py) and sys.prefix != _venv_prefix:
+    os.execv(_venv_py, [_venv_py] + sys.argv)
+import subprocess  # noqa: E402
+import time  # noqa: E402
+import asyncio  # noqa: E402
+import telnetlib3  # noqa: E402
+import argparse  # noqa: E402
+from pathlib import Path  # noqa: E402
+from typing import Optional, Tuple, Any  # noqa: E402
 
 
 class MUDTestSuite:
     """Automated test suite for Broken Shadows MUD."""
 
     def __init__(
-        self, port: int = 4000, skip_build: bool = False, debug: bool = False
+        self, port: int = 4000, skip_build: bool = False, debug: bool = False,
+        no_cleanup: bool = False
     ):
         """Initialize test suite with configuration."""
         self.port = port
         self.skip_build = skip_build
         self.debug = debug
+        self.no_cleanup = no_cleanup
         self.test_character = "TestChar"
         self.test_password = "test123"
         self.game_prompt = " MV >"
         self.workspace_root = Path(__file__).parent.parent
         self.player_file = self.workspace_root / "player" / self.test_character
+        self.yaml_player_file = (
+            self.workspace_root / "player" / (self.test_character + ".yaml")
+        )
         self.container_name = "broken_shadows"
+        self.core_dir = self.workspace_root / "core"
+        self._core_files_before: set[Path] = set()
         self.success_count = 0
         self.failure_count = 0
 
@@ -123,13 +137,35 @@ class MUDTestSuite:
         )
         return cleaned
 
+    def snapshot_core_files(self) -> None:
+        """Record which core files exist before tests run."""
+        if self.core_dir.exists():
+            self._core_files_before = set(self.core_dir.iterdir())
+        else:
+            self._core_files_before = set()
+
+    def check_no_new_core_files(self) -> bool:
+        """Fail if any new core files appeared since snapshot."""
+        if not self.core_dir.exists():
+            self.test_passed("No core files")
+            return True
+        current = set(self.core_dir.iterdir())
+        new_files = current - self._core_files_before
+        if new_files:
+            for f in sorted(new_files):
+                self.log(f"Core file created: {f}", "ERROR")
+            self.test_failed("No core files")
+            return False
+        self.test_passed("No core files")
+        return True
+
     def cleanup_docker(self) -> None:
         """Stop and remove docker container."""
         self.log("Cleaning up Docker container...")
         try:
             # Stop container
             self.run_command(
-                "docker-compose down --remove-orphans",
+                "docker compose down --remove-orphans",
                 timeout=15,
                 check=False,
             )
@@ -139,14 +175,15 @@ class MUDTestSuite:
             self.log(f"Docker cleanup error: {e}", "WARNING")
 
     def cleanup_player_file(self) -> None:
-        """Remove test player file."""
+        """Remove test player files (legacy and YAML)."""
         self.log("Cleaning up player file...")
-        if self.player_file.exists():
-            try:
-                self.player_file.unlink()
-                self.log(f"Removed player file: {self.player_file}")
-            except Exception as e:
-                self.log(f"Failed to remove player file: {e}", "WARNING")
+        for path in (self.player_file, self.yaml_player_file):
+            if path.exists():
+                try:
+                    path.unlink()
+                    self.log(f"Removed player file: {path}")
+                except Exception as e:
+                    self.log(f"Failed to remove player file: {e}", "WARNING")
 
     def build_image(self) -> bool:
         """Build Docker image for the MUD."""
@@ -696,6 +733,42 @@ class MUDTestSuite:
             self.test_failed("Inventory check")
             return False
 
+    async def test_save(
+        self, reader: Any, writer: Any
+    ) -> bool:
+        """Test the save command — verifies no crash and YAML file written."""
+        self.log("Testing save command...")
+        try:
+            response = await self.send_command(
+                reader, writer, "save", wait_for=self.game_prompt
+            )
+            if self.debug:
+                self.log(f"Full save output:\n{response}", "DEBUG")
+
+            # Give the server a moment to finish writing the file.
+            await asyncio.sleep(1)
+
+            if self.yaml_player_file.exists():
+                size = self.yaml_player_file.stat().st_size
+                self.log(
+                    f"YAML player file written: {self.yaml_player_file} "
+                    f"({size} bytes)"
+                )
+                self.test_passed("Save (YAML file written)")
+                return True
+            else:
+                self.log(
+                    f"YAML player file not found at {self.yaml_player_file}",
+                    "ERROR",
+                )
+                self.test_failed("Save (YAML file not found)")
+                return False
+
+        except Exception as e:
+            self.log(f"Save test failed: {e}", "ERROR")
+            self.test_failed("Save")
+            return False
+
     async def test_quit(
         self, reader: Any, writer: Any
     ) -> bool:
@@ -765,6 +838,9 @@ class MUDTestSuite:
 
             reader, writer = connection
 
+            # Snapshot core files before running any game tests.
+            self.snapshot_core_files()
+
             # Game functionality tests
             try:
                 await self.test_character_creation(reader, writer)
@@ -773,7 +849,11 @@ class MUDTestSuite:
                 await asyncio.sleep(1)
                 await self.test_inventory(reader, writer)
                 await asyncio.sleep(1)
+                await self.test_save(reader, writer)
+                await asyncio.sleep(1)
                 await self.test_quit(reader, writer)
+                await asyncio.sleep(1)
+                self.check_no_new_core_files()
             finally:
                 try:
                     writer.close()
@@ -782,7 +862,10 @@ class MUDTestSuite:
                     pass
 
             # Cleanup phase
-            self.cleanup_docker()
+            if self.no_cleanup:
+                self.log("Skipping Docker cleanup (--no-cleanup enabled)")
+            else:
+                self.cleanup_docker()
             time.sleep(1)
             self.cleanup_player_file()
 
@@ -798,12 +881,14 @@ class MUDTestSuite:
 
         except KeyboardInterrupt:
             self.log("\nTest suite interrupted by user", "WARNING")
-            self.cleanup_docker()
+            if not self.no_cleanup:
+                self.cleanup_docker()
             self.cleanup_player_file()
             return 130
         except Exception as e:
             self.log(f"Unexpected error: {e}", "ERROR")
-            self.cleanup_docker()
+            if not self.no_cleanup:
+                self.cleanup_docker()
             self.cleanup_player_file()
             return 1
 
@@ -829,6 +914,11 @@ def main() -> int:
         action="store_true",
         help="Enable debug output (show telnet send/receive)",
     )
+    parser.add_argument(
+        "--no-cleanup",
+        action="store_true",
+        help="Leave Docker container running after tests complete",
+    )
 
     args = parser.parse_args()
 
@@ -838,7 +928,8 @@ def main() -> int:
         return 1
 
     test_suite = MUDTestSuite(
-        port=args.port, skip_build=args.skip_build, debug=args.debug
+        port=args.port, skip_build=args.skip_build, debug=args.debug,
+        no_cleanup=args.no_cleanup
     )
     return asyncio.run(test_suite.run_all_tests())
 

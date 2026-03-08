@@ -61,7 +61,6 @@ ys_scalar( yaml_emitter_t *em, const char *value )
         (int)strlen( value ? value : "" ),
         1, 1, YAML_ANY_SCALAR_STYLE );
     yaml_emitter_emit( em, &ev );
-    yaml_event_delete( &ev );
 }
 
 static void
@@ -99,7 +98,6 @@ ys_map_start( yaml_emitter_t *em )
     yaml_mapping_start_event_initialize(
         &ev, NULL, NULL, 1, YAML_BLOCK_MAPPING_STYLE );
     yaml_emitter_emit( em, &ev );
-    yaml_event_delete( &ev );
 }
 
 static void
@@ -108,7 +106,6 @@ ys_map_end( yaml_emitter_t *em )
     yaml_event_t ev;
     yaml_mapping_end_event_initialize( &ev );
     yaml_emitter_emit( em, &ev );
-    yaml_event_delete( &ev );
 }
 
 static void
@@ -118,7 +115,6 @@ ys_seq_start( yaml_emitter_t *em )
     yaml_sequence_start_event_initialize(
         &ev, NULL, NULL, 1, YAML_BLOCK_SEQUENCE_STYLE );
     yaml_emitter_emit( em, &ev );
-    yaml_event_delete( &ev );
 }
 
 static void
@@ -127,7 +123,6 @@ ys_seq_end( yaml_emitter_t *em )
     yaml_event_t ev;
     yaml_sequence_end_event_initialize( &ev );
     yaml_emitter_emit( em, &ev );
-    yaml_event_delete( &ev );
 }
 
 /* ------------------------------------------------------------------ */
@@ -339,7 +334,7 @@ save_char_obj_yaml( CHAR_DATA *ch )
     fp = fopen( strtmp, "w" );
     if ( !fp )
     {
-        bug( "save_char_obj_yaml: fopen failed for %s", (int)strtmp );
+        { char _msg[512]; snprintf(_msg, sizeof(_msg), "save_char_obj_yaml: fopen failed for %s", strtmp); bug(_msg, 0); }
         fpReserve = fopen( NULL_FILE, "r" );
         return;
     }
@@ -356,11 +351,9 @@ save_char_obj_yaml( CHAR_DATA *ch )
 
     yaml_stream_start_event_initialize( &ev, YAML_UTF8_ENCODING );
     yaml_emitter_emit( &em, &ev );
-    yaml_event_delete( &ev );
 
     yaml_document_start_event_initialize( &ev, NULL, NULL, NULL, 1 );
     yaml_emitter_emit( &em, &ev );
-    yaml_event_delete( &ev );
 
     ys_map_start( &em );     /* root */
 
@@ -614,11 +607,9 @@ save_char_obj_yaml( CHAR_DATA *ch )
 
     yaml_document_end_event_initialize( &ev, 1 );
     yaml_emitter_emit( &em, &ev );
-    yaml_event_delete( &ev );
 
     yaml_stream_end_event_initialize( &ev );
     yaml_emitter_emit( &em, &ev );
-    yaml_event_delete( &ev );
 
     yaml_emitter_delete( &em );
     fclose( fp );
@@ -1005,7 +996,7 @@ load_yaml_char( CHAR_DATA *ch, yaml_document_t *doc, int player_id )
         sn    = skill_lookup( sname );
         if ( sn < 0 )
         {
-            bug( "load_yaml_char: unknown affect skill '%s'", (int)sname );
+            { char _msg[512]; snprintf(_msg, sizeof(_msg), "load_yaml_char: unknown affect skill '%s'", sname); bug(_msg, 0); }
             sn = 0;
         }
         paf->type      = (sh_int)sn;
@@ -1269,7 +1260,7 @@ load_char_obj_yaml( DESCRIPTOR_DATA *d, const char *name )
     if ( !yaml_parser_initialize( &parser )
     ||   !fp )
     {
-        bug( "load_char_obj_yaml: parser init failed for %s", (int)strsave );
+        { char _msg[512]; snprintf(_msg, sizeof(_msg), "load_char_obj_yaml: parser init failed for %s", strsave); bug(_msg, 0); }
         if (fp) fclose(fp);
         fpReserve = fopen( NULL_FILE, "r" );
         return FALSE;
@@ -1278,7 +1269,7 @@ load_char_obj_yaml( DESCRIPTOR_DATA *d, const char *name )
     yaml_parser_set_input_file( &parser, fp );
     if ( !yaml_parser_load( &parser, &doc ) )
     {
-        bug( "load_char_obj_yaml: YAML parse error in %s", (int)strsave );
+        { char _msg[512]; snprintf(_msg, sizeof(_msg), "load_char_obj_yaml: YAML parse error in %s", strsave); bug(_msg, 0); }
         yaml_parser_delete( &parser );
         fclose( fp );
         fpReserve = fopen( NULL_FILE, "r" );
@@ -1289,7 +1280,7 @@ load_char_obj_yaml( DESCRIPTOR_DATA *d, const char *name )
     root = yaml_document_get_root_node( &doc );
     if ( !root || root->type != YAML_MAPPING_NODE )
     {
-        bug( "load_char_obj_yaml: root not a mapping in %s", (int)strsave );
+        { char _msg[512]; snprintf(_msg, sizeof(_msg), "load_char_obj_yaml: root not a mapping in %s", strsave); bug(_msg, 0); }
         yaml_document_delete( &doc );
         yaml_parser_delete( &parser );
         fpReserve = fopen( NULL_FILE, "r" );
