@@ -406,8 +406,11 @@ void boot_db(  )
             if ( strArea[0] == '$' )
                 break;
 
-            /* YAML: if a .yaml counterpart exists, load it instead of .are */
-            if ( yaml_area_file_exists( strArea, yaml_fn ) )
+            /* YAML: if a .yaml counterpart exists, load it instead of .are.
+             * clans.are is special (#CLANS section) and always uses its own
+             * legacy loader regardless of whether a .yaml file exists. */
+            if ( str_cmp( strArea, "clans.are" ) != 0
+             &&  yaml_area_file_exists( strArea, yaml_fn ) )
             {
                 load_yaml_area_file( yaml_fn );
                 continue;
@@ -483,8 +486,10 @@ void boot_db(  )
             if ( strArea[0] == '$' )
                 break;
 
-            /* YAML: load resets/shops from .yaml counterpart if it exists */
-            if ( yaml_area_file_exists( strArea, yaml_fn ) )
+            /* YAML: load resets/shops from .yaml counterpart if it exists.
+             * clans.are has no rooms/resets/shops; skip it. */
+            if ( str_cmp( strArea, "clans.are" ) != 0
+             &&  yaml_area_file_exists( strArea, yaml_fn ) )
             {
                 load_yaml_area_resets_shops( yaml_fn );
                 continue;
