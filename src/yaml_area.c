@@ -197,6 +197,19 @@ doc_seq_item( yaml_document_t *doc, int seq_id, int n )
     return (int)*item;
 }
 
+static int
+doc_seq_int( yaml_document_t *doc, int seq_id, int n, int def )
+{
+    int         item = doc_seq_item( doc, seq_id, n );
+    const char *s;
+    if ( !item )
+        return def;
+    s = doc_scalar( doc, item );
+    if ( !s || s[0] == '\0' )
+        return def;
+    return atoi( s );
+}
+
 /* ------------------------------------------------------------------ */
 /* Internal: section loaders (pass 1)                                  */
 /* ------------------------------------------------------------------ */
@@ -214,7 +227,7 @@ load_yaml_area_section( yaml_document_t *doc, int node_id )
     pArea->name         = str_dup( doc_str( doc, node_id, "name" ) );
     pArea->builders     = str_dup( doc_str( doc, node_id, "builders" ) );
     pArea->security     = doc_int( doc, node_id, "security", 9 );
-    pArea->area_flags   = doc_int( doc, node_id, "area_flags", 0 );
+    pArea->area_flags   = (int)doc_flag( doc, node_id, "area_flags", 0 );
 
     /* vnums: [low, high] sequence */
     {
@@ -319,23 +332,23 @@ load_yaml_mobiles_section( yaml_document_t *doc, int seq_id )
         pMobIndex->level        = (sh_int)doc_int( doc, mob_id, "level", 1 );
         pMobIndex->hitroll      = (sh_int)doc_int( doc, mob_id, "hitroll", 0 );
 
-        /* hit/mana/damage dice: mappings {number, type, bonus} */
+        /* hit/mana/damage dice: sequences [number, type, bonus] */
         {
             int dice_id;
             dice_id = doc_find( doc, mob_id, "hit" );
-            pMobIndex->hit[DICE_NUMBER] = (sh_int)doc_int( doc, dice_id, "number", 0 );
-            pMobIndex->hit[DICE_TYPE]   = (sh_int)doc_int( doc, dice_id, "type",   0 );
-            pMobIndex->hit[DICE_BONUS]  = (sh_int)doc_int( doc, dice_id, "bonus",  0 );
+            pMobIndex->hit[DICE_NUMBER] = (sh_int)doc_seq_int( doc, dice_id, 0, 0 );
+            pMobIndex->hit[DICE_TYPE]   = (sh_int)doc_seq_int( doc, dice_id, 1, 0 );
+            pMobIndex->hit[DICE_BONUS]  = (sh_int)doc_seq_int( doc, dice_id, 2, 0 );
 
             dice_id = doc_find( doc, mob_id, "mana" );
-            pMobIndex->mana[DICE_NUMBER] = (sh_int)doc_int( doc, dice_id, "number", 0 );
-            pMobIndex->mana[DICE_TYPE]   = (sh_int)doc_int( doc, dice_id, "type",   0 );
-            pMobIndex->mana[DICE_BONUS]  = (sh_int)doc_int( doc, dice_id, "bonus",  0 );
+            pMobIndex->mana[DICE_NUMBER] = (sh_int)doc_seq_int( doc, dice_id, 0, 0 );
+            pMobIndex->mana[DICE_TYPE]   = (sh_int)doc_seq_int( doc, dice_id, 1, 0 );
+            pMobIndex->mana[DICE_BONUS]  = (sh_int)doc_seq_int( doc, dice_id, 2, 0 );
 
             dice_id = doc_find( doc, mob_id, "damage" );
-            pMobIndex->damage[DICE_NUMBER] = (sh_int)doc_int( doc, dice_id, "number", 0 );
-            pMobIndex->damage[DICE_TYPE]   = (sh_int)doc_int( doc, dice_id, "type",   0 );
-            pMobIndex->damage[DICE_BONUS]  = (sh_int)doc_int( doc, dice_id, "bonus",  0 );
+            pMobIndex->damage[DICE_NUMBER] = (sh_int)doc_seq_int( doc, dice_id, 0, 0 );
+            pMobIndex->damage[DICE_TYPE]   = (sh_int)doc_seq_int( doc, dice_id, 1, 0 );
+            pMobIndex->damage[DICE_BONUS]  = (sh_int)doc_seq_int( doc, dice_id, 2, 0 );
         }
 
         pMobIndex->dam_type     = (sh_int)doc_int( doc, mob_id, "dam_type", 0 );
@@ -1157,6 +1170,13 @@ emit_int_kv( yaml_emitter_t *em, const char *key, long value )
 }
 
 static void
+emit_flags_kv( yaml_emitter_t *em, const char *key, int value )
+{
+    emit_key( em, key );
+    emit_scalar( em, print_flags( value ) );
+}
+
+static void
 emit_mapping_start( yaml_emitter_t *em )
 {
     yaml_event_t ev;
@@ -1257,7 +1277,7 @@ save_yaml_area( AREA_DATA *pArea )
         emit_str_kv( &em, "name",      pArea->name     );
         emit_str_kv( &em, "builders",  pArea->builders );
         emit_int_kv( &em, "security",  pArea->security  );
-        emit_int_kv( &em, "area_flags", pArea->area_flags );
+        emit_flags_kv( &em, "area_flags", pArea->area_flags );
         emit_key( &em, "vnums" );
         emit_sequence_start( &em );
             emit_int( &em, pArea->lvnum );
@@ -1284,13 +1304,13 @@ save_yaml_area( AREA_DATA *pArea )
                 emit_str_kv(  &em, "description", pMob->description    );
                 /* race: look up name */
                 emit_str_kv(  &em, "race",        race_table[pMob->race].name );
-                emit_int_kv(  &em, "act",         pMob->act
+                emit_flags_kv( &em, "act",         pMob->act
                                                 & ~(ACT_IS_NPC
                                                    | race_table[pMob->race].act ) );
-                emit_int_kv(  &em, "affected_by", pMob->affected_by
-                                                & ~race_table[pMob->race].aff  );
-                emit_int_kv(  &em, "affected2_by", pMob->affected2_by
-                                                 & ~race_table[pMob->race].aff2 );
+                emit_flags_kv( &em, "affected_by", pMob->affected_by
+                                                 & ~race_table[pMob->race].aff  );
+                emit_flags_kv( &em, "affected2_by", pMob->affected2_by
+                                                  & ~race_table[pMob->race].aff2 );
                 emit_int_kv(  &em, "alignment",   pMob->alignment      );
                 emit_int_kv(  &em, "clan",        pMob->clan           );
                 emit_int_kv(  &em, "level",       pMob->level          );
@@ -1327,22 +1347,22 @@ save_yaml_area( AREA_DATA *pArea )
                     emit_int_kv( &em, "exotic", pMob->ac[AC_EXOTIC] / 10 );
                 emit_mapping_end( &em );
 
-                emit_int_kv( &em, "off_flags",  pMob->off_flags
-                                              & ~race_table[pMob->race].off  );
-                emit_int_kv( &em, "imm_flags",  pMob->imm_flags
-                                              & ~race_table[pMob->race].imm  );
-                emit_int_kv( &em, "res_flags",  pMob->res_flags
-                                              & ~race_table[pMob->race].res  );
-                emit_int_kv( &em, "vuln_flags", pMob->vuln_flags
-                                              & ~race_table[pMob->race].vuln );
+                emit_flags_kv( &em, "off_flags",  pMob->off_flags
+                                               & ~race_table[pMob->race].off  );
+                emit_flags_kv( &em, "imm_flags",  pMob->imm_flags
+                                               & ~race_table[pMob->race].imm  );
+                emit_flags_kv( &em, "res_flags",  pMob->res_flags
+                                               & ~race_table[pMob->race].res  );
+                emit_flags_kv( &em, "vuln_flags", pMob->vuln_flags
+                                               & ~race_table[pMob->race].vuln );
                 emit_int_kv( &em, "start_pos",   pMob->start_pos   );
                 emit_int_kv( &em, "default_pos", pMob->default_pos );
                 emit_int_kv( &em, "sex",         pMob->sex         );
                 emit_int_kv( &em, "gold",        pMob->gold        );
-                emit_int_kv( &em, "form",        pMob->form
-                                              & ~race_table[pMob->race].form  );
-                emit_int_kv( &em, "parts",       pMob->parts
-                                              & ~race_table[pMob->race].parts );
+                emit_flags_kv( &em, "form",        pMob->form
+                                               & ~race_table[pMob->race].form  );
+                emit_flags_kv( &em, "parts",       pMob->parts
+                                               & ~race_table[pMob->race].parts );
 
                 /* size as single letter */
                 snprintf( buf, sizeof(buf), "%c",
@@ -1383,8 +1403,8 @@ save_yaml_area( AREA_DATA *pArea )
                 emit_str_kv( &em, "description", pObj->description );
                 emit_str_kv( &em, "material",    material_name( pObj->material ) );
                 emit_int_kv( &em, "item_type",   pObj->item_type   );
-                emit_int_kv( &em, "extra_flags", pObj->extra_flags );
-                emit_int_kv( &em, "wear_flags",  pObj->wear_flags  );
+                emit_flags_kv( &em, "extra_flags", pObj->extra_flags );
+                emit_flags_kv( &em, "wear_flags",  pObj->wear_flags  );
                 emit_int_kv( &em, "level",       pObj->level       );
                 emit_int_kv( &em, "weight",      pObj->weight      );
                 emit_int_kv( &em, "cost",        pObj->cost        );
@@ -1413,7 +1433,7 @@ save_yaml_area( AREA_DATA *pArea )
                         emit_str_kv( &em, "where",     where_str     );
                         emit_int_kv( &em, "location",  paf->location );
                         emit_int_kv( &em, "modifier",  paf->modifier );
-                        emit_int_kv( &em, "bitvector", paf->bitvector );
+                        emit_flags_kv( &em, "bitvector", paf->bitvector );
                     emit_mapping_end( &em );
                 }
                 emit_sequence_end( &em );
@@ -1450,7 +1470,7 @@ save_yaml_area( AREA_DATA *pArea )
                 emit_int_kv( &em, "vnum",        pRoom->vnum        );
                 emit_str_kv( &em, "name",        pRoom->name        );
                 emit_str_kv( &em, "description", pRoom->description );
-                emit_int_kv( &em, "room_flags",  pRoom->room_flags  );
+                emit_flags_kv( &em, "room_flags",  pRoom->room_flags  );
                 emit_int_kv( &em, "sector",      pRoom->sector_type );
                 emit_str_kv( &em, "owner",       pRoom->owner       );
 
@@ -1465,7 +1485,7 @@ save_yaml_area( AREA_DATA *pArea )
                         emit_int_kv( &em, "dir",        d                    );
                         emit_str_kv( &em, "desc",       pexit->description   );
                         emit_str_kv( &em, "keywords",   pexit->keyword       );
-                        emit_int_kv( &em, "exit_flags", pexit->rs_flags      );
+                        emit_flags_kv( &em, "exit_flags", pexit->rs_flags      );
                         emit_int_kv( &em, "key",        pexit->key           );
                         emit_int_kv( &em, "to_vnum",    pexit->u1.to_room
                                           ? pexit->u1.to_room->vnum : -1     );
