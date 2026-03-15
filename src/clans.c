@@ -221,45 +221,9 @@ void new_clan(char *clan_name, CHAR_DATA *ch)
  *  Called By:  do_asave (olc_save.c).                                     *
  ***************************************************************************/
 
-void save_clans()                      
+void save_clans()
 {
-   FILE *clanfile;
-   CLAN_DATA *Clan;
-   int iClass, iRace;
-/*   int iMembers; */
-   
-   clanfile = fopen( "clans.are", "w" );
-   Clan=clan_first;
-   fprintf( clanfile, "#CLANS\n" );
-   while (Clan != NULL)
-     {
-        fprintf( clanfile, "%d\n", Clan->number);
-        fprintf( clanfile, "%s~\n%s~\n", Clan->name, Clan->visible);
-       /* fprintf( clanfile, "%s~\n%s~\n", Clan->leader, Clan->god); */
-        fprintf( clanfile, "%s~\n", Clan->god );
-        fprintf( clanfile, "%d %d %d ", Clan->max_members, Clan->min_level, Clan->num_members);
-        fprintf( clanfile, "%ld ", Clan->req_flags);
-        fprintf( clanfile, "%ld %ld ", Clan->cost_gold, Clan->cost_xp);
-        for ( iClass=0;iClass<MAX_CLASS;iClass++)
-         fprintf( clanfile, "%d ", Clan->classes[iClass]);
-        fprintf( clanfile, "\n");
-        for ( iRace=0;iRace<MAX_PC_RACE;iRace++)
-         fprintf( clanfile, "%d ", Clan->races[iRace]);
-        fprintf( clanfile, "\n");
-        fprintf( clanfile, "%d\n", Clan->auto_accept);
-/*
-        for ( iMembers=0;iMembers<Clan->num_members;iMembers++)
-         fprintf( clanfile, "%s~\n", Clan->members[iMembers]);
-*/
-        fprintf( clanfile, "\n");
-        Clan=Clan->next;
-    }
-    fprintf( clanfile, "999\n");
-    fprintf( clanfile, "#$\n");
-    fclose(clanfile);
-
     save_clans_yaml();
-    return;
 }            
 
 /***************************************************************************

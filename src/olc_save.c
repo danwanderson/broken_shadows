@@ -109,7 +109,7 @@ void save_area_list()
          * Add any help files that need to be loaded at
          * startup to this section.
          */
-        fprintf( fp, "clans.are\n"  );    /* Zane sucks */
+        fprintf( fp, "clans.yaml\n" );    /* Zane sucks */
         fprintf( fp, "help.are\n"   );
         fprintf( fp, "social.are\n" );    /* ROM OLC */
         fprintf( fp, "shadows.are\n"    );    /* ROM OLC */
