@@ -13,7 +13,7 @@ L_FLAGS = -O2 $(PROF) -lcrypt -lyaml
 
 O_FILES = act_comm.o act_enter.o act_info.o act_move.o act_obj.o act_wiz.o \
 	alias.o ban.o bit.o board.o bonus_update.o buffer.o clans.o comm.o \
-	const.o db.o dice_games.o engrave.o effects.o fight.o flowers.o \
+	const.o db.o dice_games.o engrave.o effects.o fight.o flags_util.o flowers.o \
 	gocial.o handle_con.o handler.o healer.o interp.o magic.o marry.o \
 	mem.o music.o new_dump.o olc.o \
 	olc_act.o olc_save.o quest.o remort.o save.o skills.o \
@@ -36,6 +36,8 @@ clean:
 	-rm -f tests/test_buffer
 	-rm -f tests/test_bit
 	-rm -f tests/test_handler
+	-rm -f tests/test_flags
+	-rm -f tests/test_yaml_clans
 
 src:
 	#-rm -f src.*.tar*

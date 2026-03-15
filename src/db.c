@@ -407,8 +407,15 @@ void boot_db(  )
                 break;
 
             /* YAML: if a .yaml counterpart exists, load it instead of .are.
-             * clans.are is special (#CLANS section) and always uses its own
-             * legacy loader regardless of whether a .yaml file exists. */
+             * clans.are uses its own YAML loader (load_clans_yaml) rather
+             * than the generic area loader. */
+            if ( str_cmp( strArea, "clans.are" ) == 0
+             &&  yaml_area_file_exists( strArea, yaml_fn ) )
+            {
+                load_clans_yaml( yaml_fn );
+                continue;
+            }
+
             if ( str_cmp( strArea, "clans.are" ) != 0
              &&  yaml_area_file_exists( strArea, yaml_fn ) )
             {
@@ -2324,26 +2331,7 @@ long fread_flag( FILE *fp)
     return number;
 }
 
-long flag_convert(char letter )
-{
-    long bitsum = 0;
-    char i;
-
-    if ('A' <= letter && letter <= 'Z')
-    {
-        bitsum = 1;
-        for (i = letter; i > 'A'; i--)
-            bitsum *= 2;
-    }
-    else if ('a' <= letter && letter <= 'z')
-    {
-        bitsum = 67108864; /* 2^26 */
-        for (i = letter; i > 'a'; i --)
-            bitsum *= 2;
-    }
-
-    return bitsum;
-}
+/* flag_convert moved to flags_util.c */
 
 
 

@@ -1847,32 +1847,4 @@ void fread_obj( CHAR_DATA *ch, FILE *fp )
     }
 }
 
-/* added by Rahl */
-char *print_flags(int flag)
-{
-    int count, pos = 0;
-    static char buf[52];
-
-
-    for (count = 0; count < 32;  count++)
-    {
-        if (IS_SET(flag,1<<count))
-        {
-            if (count < 26)
-                buf[pos] = 'A' + count;
-            else
-                buf[pos] = 'a' + (count - 26);
-            pos++;
-        }
-    }
-
-    if (pos == 0)
-    {
-        buf[pos] = '0';
-        pos++;
-    }
-
-    buf[pos] = '\0';
-
-    return buf;
-}
+/* print_flags moved to flags_util.c */

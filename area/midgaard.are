@@ -1226,14 +1226,14 @@ none~
 0 0 250 0 0
 0 4 60
 E
-letters~
-They say, "Use 'hold lantern' to activate."
-~
-E
 lantern~
 It is a large and robust but somewhat battered oil lantern made from brass,
 equipped with a handle to make it handy and a hood to protect its flame.
 Some letters have been scratched on its bottom.
+~
+E
+letters~
+They say, "Use 'hold lantern' to activate."
 ~
 #3032
 bag~
@@ -1314,9 +1314,9 @@ none~
 0 0 0 0 0
 5 1 500
 A
-24 -1
-A
 17 -2
+A
+24 -1
 E
 ring~
 It's a silver ring set with a gleaming moonstone.
@@ -2408,9 +2408,9 @@ none~
 A B AC AB 0
 8 5 0
 A
-19 1
-A
 18 1
+A
+19 1
 E
 sword~
 You see a sword of great craftsmanship.  Imprinted on the side is:
@@ -2425,9 +2425,9 @@ none~
 B A BC ABD 0
 2 2 0
 A
-19 1
-A
 18 1
+A
+19 1
 E
 dagger~
 You see a dagger of great craftsmanship.  Imprinted on the side is:
@@ -2442,9 +2442,9 @@ none~
 C B C ABC 0
 7 10 0
 A
-19 2
-A
 18 1
+A
+19 2
 E
 mace~
 You see a mace of great craftsmanship.  Imprinted on the side is:
@@ -2602,9 +2602,9 @@ none~
 0 0 0 0 0
 12 1 0
 A
-24 -1
-A
 17 -5
+A
+24 -1
 #3365
 banner war merc~
 a war banner~
@@ -2614,9 +2614,9 @@ none~
 0 0 500 0 0
 8 1 0
 A
-17 -2
-A
 24 -1
+A
+17 -2
 E
 banner~
 This is the official Merc war banner to see you through the darkest realm!
@@ -3114,11 +3114,6 @@ A road sign is here.
 ~
 0 262144 1
 E
-chain~
-The the chain reaches the clouds high above you.  It must take some really
-powerful magic to hold such a chain in place.
-~
-E
 sign~
 The sign points in all directions:
 
@@ -3130,6 +3125,11 @@ The sign points in all directions:
 Someone has added the following with red paint:
 
    Up    - Redferne's Flying Citadel.
+~
+E
+chain~
+The the chain reaches the clouds high above you.  It must take some really
+powerful magic to hold such a chain in place.
 ~
 D0
 ~
@@ -3209,8 +3209,8 @@ hanging on the grate.  The concourse crosses Elm Street to the east.
 ~
 0 262144 1
 E
-elm tree~
-The fresh young leaves of the elm tree wave gently in the wind.
+grate grating~
+Looks heavy.  A small sign is hanging on it.
 ~
 E
 sign~
@@ -3222,8 +3222,8 @@ The sign says :-
           Please show respect and do not desecrate their tombs.
 ~
 E
-grate grating~
-Looks heavy.  A small sign is hanging on it.
+elm tree~
+The fresh young leaves of the elm tree wave gently in the wind.
 ~
 D1
 You see the concourse.
@@ -3610,13 +3610,13 @@ half hidden by a stack of books, leads to a room in the back of the shop.
 ~
 0 262150 0
 E
-window~
-You peer out the window and see a cityguard beating up an old lady.
-~
-E
 bookcase~
 You see many cartographer journals and topographical studies.  You also see
 quite a few tomes written by someone named "Anson MacDonald".
+~
+E
+window~
+You peer out the window and see a cityguard beating up an old lady.
 ~
 D0
 A sign on the door says, "Unauthorized Personel Prohibited".
@@ -4523,12 +4523,12 @@ you search vainly for a clean table to sit at, and then give up.
 ~
 0 262152 0
 E
-wall walls~
-Bare, except for the holes.
-~
-E
 table tables~
 You find a table that's relatively vomit-free.
+~
+E
+wall walls~
+Bare, except for the holes.
 ~
 D2
 A dark alley is to the south.
@@ -4863,11 +4863,6 @@ A small sign with big letters is fastened to the bar.
 ~
 0 262152 0
 E
-writing carving carvings symbols symbol~
-Although it is very hard to understand, you think it looks a lot like beer,
-poems about beer, and small beer-mugs.
-~
-E
 sign~
 The sign reads:
 Free instructions provided by the Grunting Boar Inn.
@@ -4875,6 +4870,11 @@ Free instructions provided by the Grunting Boar Inn.
    Buy  - Buy something (drinkable) from the bartender.
    List - The bartender will show you all the different drinks and
           specialties, and tell the price of each.
+~
+E
+writing carving carvings symbols symbol~
+Although it is very hard to understand, you think it looks a lot like beer,
+poems about beer, and small beer-mugs.
 ~
 D3
 You see the exit to the entrance hall.
@@ -4903,14 +4903,6 @@ the counter.
 ~
 0 262152 0
 E
-sign~
-Free instructions provided by the store:
-
-   Buy  - Will buy you some bread or pastry.
-   List - The baker will kindly tell you the price and sort of the bread in
-          his bakery.
-~
-E
 danish pastry~
 You see that this is truly delicious pastry.  Must be made by a Dane from
 Denmark (which surely is not the capital of Sweden!).  Former ruler of
@@ -4919,6 +4911,14 @@ Iceland, Estonia etc. etc.
    The sight of those large, wholesome chokoladeboller makes your mouth water
 and your soul sing.
 
+~
+E
+sign~
+Free instructions provided by the store:
+
+   Buy  - Will buy you some bread or pastry.
+   List - The baker will kindly tell you the price and sort of the bread in
+          his bakery.
 ~
 D2
 You see the main street.
@@ -5466,17 +5466,17 @@ sorts and sizes.
 ~
 0 262152 0
 E
-scrolls~
-Each scroll is stored in a leather tube that protects it from moist.
+jars bottles~
+Some of them are transparent enabling you to see that some contain colored
+powders while others contain body parts of various animals.
 ~
 E
 books~
 Most of them appear to be very old and dusty.
 ~
 E
-jars bottles~
-Some of them are transparent enabling you to see that some contain colored
-powders while others contain body parts of various animals.
+scrolls~
+Each scroll is stored in a leather tube that protects it from moist.
 ~
 D2
 You see the main street.
@@ -5493,6 +5493,15 @@ A small sign with golden letters stands on the desk.
 ~
 0 262152 0
 E
+oil lamps~
+They are made from polished gold and looks as if they are securely fastened
+to the smooth stone walls.
+~
+E
+desk~
+Your face is reflected in its surface.
+~
+E
 sign~
 The golden letters say :-
 
@@ -5502,15 +5511,6 @@ The golden letters say :-
         'value <item>' to make the jeweller evaluate an item.
  
    Type 'help engrave' for information on how to have something engraved.
-~
-E
-desk~
-Your face is reflected in its surface.
-~
-E
-oil lamps~
-They are made from polished gold and looks as if they are securely fastened
-to the smooth stone walls.
 ~
 D0
 You see Main Street.
@@ -5528,17 +5528,8 @@ A wooden sign is hanging above the fireplace.
 ~
 0 262152 0
 E
-sign~
-The wooden sign says :-
-
-    Use 'list' to see what is in store,
-        'buy <item>' to buy an item,
-        'sell <item>' to sell an item and
-        'value <item>' to make the leather worker evaluate an item.
-~
-E
-pot~
-Several large pieces of leather hide are boiling in the iron pot.
+fireplace~
+It is a rather large fireplace made from heavy granite rocks.
 ~
 E
 table~
@@ -5547,8 +5538,17 @@ covered in marks and scratches.  A large burning candle stands directly on
 the table surface, tallow flowing down its sides.
 ~
 E
-fireplace~
-It is a rather large fireplace made from heavy granite rocks.
+pot~
+Several large pieces of leather hide are boiling in the iron pot.
+~
+E
+sign~
+The wooden sign says :-
+
+    Use 'list' to see what is in store,
+        'buy <item>' to buy an item,
+        'sell <item>' to sell an item and
+        'value <item>' to make the leather worker evaluate an item.
 ~
 D2
 You see the alley.
@@ -5564,14 +5564,9 @@ east and Wall Road leads both north and south from here.
 ~
 0 262144 1
 E
-wall~
-It is built from large grey rocks that have been fastened to each other with
-some kind of mortar.  It is far too high to climb.
-~
-E
-tower towers~
-Both of the towers are built from large grey rocks that have been fastened to
-each other with some kind of mortar, just like the city wall.
+bridge footbridge~
+It is too high up to reach but it looks as if one easily could walk across it
+from one tower to the other.
 ~
 E
 gate~
@@ -5580,9 +5575,14 @@ reinforced with large iron bands to make them even more sturdy.  One of the
 doors is equipped with a very big lock.
 ~
 E
-bridge footbridge~
-It is too high up to reach but it looks as if one easily could walk across it
-from one tower to the other.
+tower towers~
+Both of the towers are built from large grey rocks that have been fastened to
+each other with some kind of mortar, just like the city wall.
+~
+E
+wall~
+It is built from large grey rocks that have been fastened to each other with
+some kind of mortar.  It is far too high to climb.
 ~
 D0
 Wall road runs along the inner city wall to the north.
@@ -5615,14 +5615,9 @@ the city wall.
 ~
 0 262144 1
 E
-wall~
-It is built from large grey rocks that have been fastened to each other with
-some kind of mortar.  It is far too high to climb.
-~
-E
-tower towers~
-Both of the towers are built from large grey rocks that have been fastened to
-each other with some kind of mortar, just like the city wall.
+bridge footbridge~
+It is too high up to reach but it looks as if one easily could walk across it
+from one tower to the other.
 ~
 E
 gate~
@@ -5631,9 +5626,14 @@ reinforced with large iron bands to make them even more sturdy.  One of the
 doors is equipped with a very big lock.
 ~
 E
-bridge footbridge~
-It is too high up to reach but it looks as if one easily could walk across it
-from one tower to the other.
+tower towers~
+Both of the towers are built from large grey rocks that have been fastened to
+each other with some kind of mortar, just like the city wall.
+~
+E
+wall~
+It is built from large grey rocks that have been fastened to each other with
+some kind of mortar.  It is far too high to climb.
 ~
 D0
 Wall road heads north along the city wall.
@@ -5685,13 +5685,13 @@ Some letters have been written on the wall here.
 ~
 0 262144 1
 E
+letters~
+It says 'Who watches the watchmen?'
+~
+E
 wall~
 It is built from large grey rocks that have been fastened to each other with
 some kind of mortar.  It is far too high to climb.
-~
-E
-letters~
-It says 'Who watches the watchmen?'
 ~
 D0
 The road continues further north.
@@ -5877,18 +5877,18 @@ opening in the wall ten feet below the bridge.
 ~
 0 262144 1
 E
-wall~
+bridge~
 It is built from large grey rocks that have been fastened to each other with
-some kind of mortar.  It is far too high to climb.
+some kind of mortar, just like the wall.
 ~
 E
 opening~
 You cannot really see it from here as it is somewhere beneath your feet.
 ~
 E
-bridge~
+wall~
 It is built from large grey rocks that have been fastened to each other with
-some kind of mortar, just like the wall.
+some kind of mortar.  It is far too high to climb.
 ~
 D0
 You see the road.
@@ -5910,14 +5910,9 @@ wall.
 ~
 0 262144 1
 E
-wall~
-It is built from large grey rocks that have been fastened to each other with
-some kind of mortar.  It is far too high to climb.
-~
-E
-tower towers~
-Both of the towers are built from large grey rocks that have been fastened to
-each other with some kind of mortar, just like the city wall.
+bridge footbridge~
+It is too high up to reach but it looks as if one easily could walk across it
+from one tower to the other.
 ~
 E
 gate~
@@ -5926,9 +5921,14 @@ reinforced with large iron bands to make them even more sturdy.  One of the
 doors is equipped with a very big lock.
 ~
 E
-bridge footbridge~
-It is too high up to reach but it looks as if one easily could walk across it
-from one tower to the other.
+tower towers~
+Both of the towers are built from large grey rocks that have been fastened to
+each other with some kind of mortar, just like the city wall.
+~
+E
+wall~
+It is built from large grey rocks that have been fastened to each other with
+some kind of mortar.  It is far too high to climb.
 ~
 D0
 The trail continues around the City of Midgaard.
@@ -5955,14 +5955,9 @@ the city wall.
 ~
 0 262144 1
 E
-wall~
-It is built from large grey rocks that have been fastened to each other with
-some kind of mortar.  It is far too high to climb.
-~
-E
-tower towers~
-Both of the towers are built from large grey rocks that have been fastened to
-each other with some kind of mortar, just like the city wall.
+bridge footbridge~
+It is too high up to reach but it looks as if one easily could walk across it
+from one tower to the other.
 ~
 E
 gate~
@@ -5971,9 +5966,14 @@ reinforced with large iron bands to make them even more sturdy.  One of the
 doors is equipped with a very big lock.
 ~
 E
-bridge footbridge~
-It is too high up to reach but it looks as if one easily could walk across it
-from one tower to the other.
+tower towers~
+Both of the towers are built from large grey rocks that have been fastened to
+each other with some kind of mortar, just like the city wall.
+~
+E
+wall~
+It is built from large grey rocks that have been fastened to each other with
+some kind of mortar.  It is far too high to climb.
 ~
 D0
 The trail continues around the City of Midgaard.
@@ -6000,15 +6000,15 @@ a rainbow.
 ~
 0 263180 0
 E
+altar~
+Even though the altar is more than ten feet long it appears to be made from a
+single block of white virgin marble.
+~
+E
 statue Mota king god~
 The statue represents the Great God Mota, holding his staff.  He has long, grey
 hair and beard and a kindly look on his face.  His staff is topped by a painted
 cube, the 6 faces of which represent the 6 aspects of his power.
-~
-E
-altar~
-Even though the altar is more than ten feet long it appears to be made from a
-single block of white virgin marble.
 ~
 D2
 You see the southern end of the temple.

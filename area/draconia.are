@@ -327,9 +327,9 @@ none~
 B AC BC ABD 0
 27 8 270
 A
-2 1
-A
 19 2
+A
+2 1
 #2203
 bracelet dragon~
 a dragon skin bracelet~
@@ -411,9 +411,9 @@ none~
 AB AB AB 0 0
 0 6 0
 A
-18 3
-A
 19 3
+A
+18 3
 #2230
 ring copper~
 a copper ring~
@@ -555,9 +555,9 @@ none~
 D D D 0 0
 26 10 260
 A
-19 2
-A
 1 1
+A
+19 2
 #2260
 scimitar golden~
 a golden scimitar~
@@ -567,9 +567,9 @@ none~
 A AC AC AB 0
 19 10 190
 A
-3 1
-A
 4 1
+A
+3 1
 #2261
 brooch diamond~
 a diamond brooch~
@@ -617,9 +617,9 @@ none~
 D D D 0 0
 26 10 260
 A
-1 1
-A
 13 10
+A
+1 1
 #2280
 leggings dragon scale~
 a pair of dragon scale leggings~
@@ -645,9 +645,9 @@ none~
 ABC AC AD C 0
 40 14 400
 A
-18 2
-A
 19 2
+A
+18 2
 #2286
 hammer copper~
 a copper hammer~
@@ -736,12 +736,12 @@ You trudge down the hallway.  You notice doors to the east and west.
 ~
 0 8 0
 E
-sign~
-The sign says "NURSERY" in bold letters.     
-~
-E
 inscription~
 It says "STORAGE"
+~
+E
+sign~
+The sign says "NURSERY" in bold letters.     
 ~
 D0
 The hall continues. 
@@ -1355,17 +1355,17 @@ path leads up the mountain.  The small opening is back to the north.
 ~
 0 0 2
 E
-well~
-You peer over the side of the well.  It looks VERY, VERY deep.  It appears
-to be ENDLESS.
-~
-E
 sign~
 The sign reads:
          This is a bottomless pit cleverly disguised as a well.  People have
 fallen in and never been heard from again.  Trust me, you don't want to go 
 down there.
                         The All Powerful Well Keeper
+~
+E
+well~
+You peer over the side of the well.  It looks VERY, VERY deep.  It appears
+to be ENDLESS.
 ~
 D0
 the small opening

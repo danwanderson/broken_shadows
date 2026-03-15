@@ -10,825 +10,797 @@ mobiles:
 - vnum: 6500
   keywords: dwarf guard
   short_desc: the dwarven guard
-  long_desc: |
-    A dwarven guard is here.
-  description: |
-    The guard looks very tough and mean.
+  long_desc: "A dwarven guard is here.\n\r"
+  description: "The guard looks very tough and mean.\n\r"
   race: Dwarf
-  act: ABLT
-  affected_by: DJ
-  affected2_by: '0'
+  act: 526338
+  affected_by: 8
+  affected2_by: 0
   alignment: 500
   clan: 0
   level: 19
   hitroll: 0
   hit:
-    number: 7
-    type: 34
-    bonus: 223
+  - 7
+  - 34
+  - 223
   mana:
-    number: 19
-    type: 10
-    bonus: 100
+  - 19
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 6
-    bonus: 12
+  - 5
+  - 6
+  - 12
   dam_type: 3
   ac:
     pierce: -1
     bash: -1
     slash: -1
     exotic: 4
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: CLQ
-  vuln_flags: R
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6501
   keywords: dwarf worker miner
   short_desc: the dwarven worker
-  long_desc: |
-    A dwarven mining worker is here.
-  description: |
-    He is very dirty, and looks extremely over-worked.
+  long_desc: "A dwarven mining worker is here.\n\r"
+  description: "He is very dirty, and looks extremely over-worked.\n\r"
   race: Dwarf
-  act: AGLT
-  affected_by: J
-  affected2_by: '0'
+  act: 526400
+  affected_by: 0
+  affected2_by: 0
   alignment: 900
   clan: 0
   level: 12
   hitroll: 0
   hit:
-    number: 3
-    type: 32
-    bonus: 120
+  - 3
+  - 32
+  - 120
   mana:
-    number: 12
-    type: 10
-    bonus: 100
+  - 12
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 7
-    bonus: 6
+  - 3
+  - 7
+  - 6
   dam_type: 7
   ac:
     pierce: 2
     bash: 2
     slash: 2
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: CLQ
-  vuln_flags: R
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 350
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6502
   keywords: wraith
   short_desc: the wraith
-  long_desc: |
-    A wraith is awaiting your first move here.
-  description: |
-    A black, almost transparent wraith.
+  long_desc: "A wraith is awaiting your first move here.\n\r"
+  description: "A black, almost transparent wraith.\n\r"
   race: Human
-  act: ABT
-  affected_by: DF
-  affected2_by: '0'
+  act: 524290
+  affected_by: 40
+  affected2_by: 0
   alignment: -900
   clan: 0
   level: 30
   hitroll: 0
   hit:
-    number: 10
-    type: 60
-    bonus: 426
+  - 10
+  - 60
+  - 426
   mana:
-    number: 30
-    type: 10
-    bonus: 100
+  - 30
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 10
-    bonus: 17
+  - 5
+  - 10
+  - 17
   dam_type: 7
   ac:
     pierce: -8
     bash: -8
     slash: -8
     exotic: 0
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 5000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6503
   keywords: storekeeper
   short_desc: the storekeeper
-  long_desc: |
-    There is the Hide & Tooth storekeeper standing here, waiting patiently.
-  description: |
-    The storekeeper is very rotund, but looks like a sharp guy.
+  long_desc: "There is the Hide & Tooth storekeeper standing here, waiting patiently.\n\r"
+  description: "The storekeeper is very rotund, but looks like a sharp guy.\n\r"
   race: Human
-  act: ABLT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 526338
+  affected_by: 0
+  affected2_by: 0
   alignment: 900
   clan: 0
   level: 34
   hitroll: 0
   hit:
-    number: 10
-    type: 78
-    bonus: 505
+  - 10
+  - 78
+  - 505
   mana:
-    number: 34
-    type: 10
-    bonus: 100
+  - 34
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 11
-    bonus: 21
+  - 5
+  - 11
+  - 21
   dam_type: 7
   ac:
     pierce: -11
     bash: -11
     slash: -11
     exotic: 0
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 10000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6504
   keywords: baker
   short_desc: the baker
-  long_desc: |
-    Granite Head, the baker, is waiting for a customer here.
-  description: |
-    Granite Head is covered with flour and grains.
+  long_desc: "Granite Head, the baker, is waiting for a customer here.\n\r"
+  description: "Granite Head is covered with flour and grains.\n\r"
   race: Human
-  act: ABLT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 526338
+  affected_by: 0
+  affected2_by: 0
   alignment: 900
   clan: 0
   level: 35
   hitroll: 0
   hit:
-    number: 10
-    type: 82
-    bonus: 534
+  - 10
+  - 82
+  - 534
   mana:
-    number: 35
-    type: 10
-    bonus: 100
+  - 35
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 12
-    bonus: 18
+  - 5
+  - 12
+  - 18
   dam_type: 11
   ac:
     pierce: -11
     bash: -11
     slash: -11
     exotic: 0
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 100
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6505
   keywords: lizard
   short_desc: the giant lizard
-  long_desc: |
-    A giant lizard is here.
-  description: |
-    This scaly creature looks like it is well adapted to it's underground
-    habitat.  He looks very powerful.
+  long_desc: "A giant lizard is here.\n\r"
+  description: "This scaly creature looks like it is well adapted to it's underground\n\rhabitat.
+    \ He looks very powerful.\n\r"
   race: lizard
-  act: AGT
-  affected_by: D
-  affected2_by: '0'
+  act: 524352
+  affected_by: 8
+  affected2_by: 0
   alignment: 100
   clan: 0
   level: 18
   hitroll: 0
   hit:
-    number: 6
-    type: 36
-    bonus: 205
+  - 6
+  - 36
+  - 205
   mana:
-    number: 18
-    type: 10
-    bonus: 100
+  - 18
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 7
-    bonus: 12
+  - 4
+  - 7
+  - 12
   dam_type: 3
   ac:
     pierce: -1
     bash: -1
     slash: -1
     exotic: 4
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: L
-  vuln_flags: I
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 120
-  form: AGXc
-  parts: ACDEFHKQV
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6506
   keywords: giant
   short_desc: the giant
-  long_desc: |
-    A giant is here.
-  description: |
-    The giant is about 8 feet tall, with arms of steel, and looks very strong.
+  long_desc: "A giant is here.\n\r"
+  description: "The giant is about 8 feet tall, with arms of steel, and looks very
+    strong.\n\r"
   race: Giant
-  act: AGT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524352
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 16
   hitroll: 0
   hit:
-    number: 5
-    type: 34
-    bonus: 175
+  - 5
+  - 34
+  - 175
   mana:
-    number: 16
-    type: 10
-    bonus: 100
+  - 16
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 7
-    bonus: 8
+  - 4
+  - 7
+  - 8
   dam_type: 3
   ac:
     pierce: 0
     bash: 0
     slash: 0
     exotic: 5
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: HI
-  vuln_flags: JP
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 200
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6507
   keywords: dwarf miner
   short_desc: the dwarven miner
-  long_desc: |
-    A dwarven miner is here.
-  description: |
-    The mineworker is very tired, and very dirty, and he has bulging muscles.
+  long_desc: "A dwarven miner is here.\n\r"
+  description: "The mineworker is very tired, and very dirty, and he has bulging muscles.\n\r"
   race: Dwarf
-  act: ABLT
-  affected_by: J
-  affected2_by: '0'
+  act: 526338
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 9
   hitroll: 0
   hit:
-    number: 2
-    type: 27
-    bonus: 83
+  - 2
+  - 27
+  - 83
   mana:
-    number: 9
-    type: 10
-    bonus: 100
+  - 9
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 7
-    bonus: 6
+  - 2
+  - 7
+  - 6
   dam_type: 3
   ac:
     pierce: 4
     bash: 4
     slash: 4
     exotic: 7
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: CLQ
-  vuln_flags: R
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 4
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6508
   keywords: dwarf leader
   short_desc: the dwarven mine leader
-  long_desc: |
-    A dwarven mine leader is here.
-  description: |
-    The mine leader is very big and very strong.
+  long_desc: "A dwarven mine leader is here.\n\r"
+  description: "The mine leader is very big and very strong.\n\r"
   race: Dwarf
-  act: ABLT
-  affected_by: J
-  affected2_by: '0'
+  act: 526338
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 20
   hitroll: 0
   hit:
-    number: 7
-    type: 38
-    bonus: 238
+  - 7
+  - 38
+  - 238
   mana:
-    number: 20
-    type: 10
-    bonus: 100
+  - 20
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 7
-    bonus: 10
+  - 5
+  - 7
+  - 10
   dam_type: 7
   ac:
     pierce: -2
     bash: -2
     slash: -2
     exotic: 3
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: CLQ
-  vuln_flags: R
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 2000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6509
   keywords: dwarf doctor
   short_desc: the dwarven doctor
-  long_desc: |
-    The dwarven doctor is here.
-  description: |
-    He is a very skilled surgeon, with hands of steel.
+  long_desc: "The dwarven doctor is here.\n\r"
+  description: "He is a very skilled surgeon, with hands of steel.\n\r"
   race: Dwarf
-  act: ABLT
-  affected_by: DHJ
-  affected2_by: '0'
+  act: 526338
+  affected_by: 136
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 9
   hitroll: 0
   hit:
-    number: 2
-    type: 27
-    bonus: 83
+  - 2
+  - 27
+  - 83
   mana:
-    number: 9
-    type: 10
-    bonus: 100
+  - 9
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 7
-    bonus: 6
+  - 2
+  - 7
+  - 6
   dam_type: 7
   ac:
     pierce: 4
     bash: 4
     slash: 4
     exotic: 7
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: CLQ
-  vuln_flags: R
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 150
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6510
   keywords: dwarf peon
   short_desc: the dwarven peon
-  long_desc: |
-    A dwarven peon is awaiting help here.
-  description: ''
+  long_desc: "A dwarven peon is awaiting help here.\n\r"
+  description:
   race: Dwarf
-  act: ABLT
-  affected_by: J
-  affected2_by: '0'
+  act: 526338
+  affected_by: 0
+  affected2_by: 0
   alignment: 500
   clan: 0
   level: 2
   hitroll: 0
   hit:
-    number: 1
-    type: 2
-    bonus: 16
+  - 1
+  - 2
+  - 16
   mana:
-    number: 2
-    type: 10
-    bonus: 100
+  - 2
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 3
-    bonus: 1
+  - 1
+  - 3
+  - 1
   dam_type: 7
   ac:
     pierce: 8
     bash: 8
     slash: 8
     exotic: 9
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: CLQ
-  vuln_flags: R
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 7
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6511
   keywords: dwarf
   short_desc: the dwarf
-  long_desc: |
-    A grinning dwarf is here.
-  description: ''
+  long_desc: "A grinning dwarf is here.\n\r"
+  description:
   race: Dwarf
-  act: ABLT
-  affected_by: J
-  affected2_by: '0'
+  act: 526338
+  affected_by: 0
+  affected2_by: 0
   alignment: 500
   clan: 0
   level: 9
   hitroll: 0
   hit:
-    number: 2
-    type: 27
-    bonus: 83
+  - 2
+  - 27
+  - 83
   mana:
-    number: 9
-    type: 10
-    bonus: 100
+  - 9
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 7
-    bonus: 6
+  - 2
+  - 7
+  - 6
   dam_type: 11
   ac:
     pierce: 4
     bash: 4
     slash: 4
     exotic: 7
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: CLQ
-  vuln_flags: R
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 125
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6512
   keywords: dwarf son
   short_desc: the unwanted son
-  long_desc: |
-    An unwanted son is here.  You feel sorry for the guy.
-  description: ''
+  long_desc: "An unwanted son is here.  You feel sorry for the guy.\n\r"
+  description:
   race: Dwarf
-  act: AGT
-  affected_by: J
-  affected2_by: '0'
+  act: 524352
+  affected_by: 0
+  affected2_by: 0
   alignment: 250
   clan: 0
   level: 8
   hitroll: 0
   hit:
-    number: 2
-    type: 21
-    bonus: 73
+  - 2
+  - 21
+  - 73
   mana:
-    number: 8
-    type: 10
-    bonus: 100
+  - 8
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 7
-    bonus: 4
+  - 2
+  - 7
+  - 4
   dam_type: 7
   ac:
     pierce: 5
     bash: 5
     slash: 5
     exotic: 7
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: CLQ
-  vuln_flags: R
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 5
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6513
   keywords: dwarf daughter
   short_desc: the unwanted daughter
-  long_desc: |
-    An unwanted daughter is here.  You feel sorry for her.
-  description: ''
+  long_desc: "An unwanted daughter is here.  You feel sorry for her.\n\r"
+  description:
   race: Dwarf
-  act: AGT
-  affected_by: J
-  affected2_by: '0'
+  act: 524352
+  affected_by: 0
+  affected2_by: 0
   alignment: 250
   clan: 0
   level: 11
   hitroll: 0
   hit:
-    number: 3
-    type: 27
-    bonus: 107
+  - 3
+  - 27
+  - 107
   mana:
-    number: 11
-    type: 10
-    bonus: 100
+  - 11
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 6
-    bonus: 6
+  - 3
+  - 6
+  - 6
   dam_type: 3
   ac:
     pierce: 3
     bash: 3
     slash: 3
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: CLQ
-  vuln_flags: R
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 5
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6514
   keywords: dwarf guard
   short_desc: the barracks guard
-  long_desc: |
-    A barrack guard is here.
-  description: ''
+  long_desc: "A barrack guard is here.\n\r"
+  description:
   race: Dwarf
-  act: ABLT
-  affected_by: J
-  affected2_by: '0'
+  act: 526338
+  affected_by: 0
+  affected2_by: 0
   alignment: 100
   clan: 0
   level: 17
   hitroll: 0
   hit:
-    number: 5
-    type: 39
-    bonus: 187
+  - 5
+  - 39
+  - 187
   mana:
-    number: 17
-    type: 10
-    bonus: 100
+  - 17
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 7
-    bonus: 10
+  - 4
+  - 7
+  - 10
   dam_type: 7
   ac:
     pierce: 0
     bash: 0
     slash: 0
     exotic: 4
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: CLQ
-  vuln_flags: R
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 300
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6515
   keywords: man
   short_desc: the man in waiting
-  long_desc: |
-    A man in waiting is here.  He looks nervous and unsure of himself.
-  description: ''
+  long_desc: "A man in waiting is here.  He looks nervous and unsure of himself.\n\r"
+  description:
   race: Human
-  act: ABLT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 526338
+  affected_by: 0
+  affected2_by: 0
   alignment: 300
   clan: 0
   level: 16
   hitroll: 0
   hit:
-    number: 5
-    type: 34
-    bonus: 175
+  - 5
+  - 34
+  - 175
   mana:
-    number: 16
-    type: 10
-    bonus: 100
+  - 16
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 7
-    bonus: 8
+  - 4
+  - 7
+  - 8
   dam_type: 3
   ac:
     pierce: 0
     bash: 0
     slash: 0
     exotic: 5
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 696
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6516
   keywords: mazekeeper
   short_desc: the mazekeeper
-  long_desc: |
-    A mazekeeper is here.
-  description: |
-    He looks VERY tough.
+  long_desc: "A mazekeeper is here.\n\r"
+  description: "He looks VERY tough.\n\r"
   race: Human
-  act: ABFLT
-  affected_by: H
-  affected2_by: '0'
+  act: 526370
+  affected_by: 128
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 28
   hitroll: 0
   hit:
-    number: 10
-    type: 52
-    bonus: 387
+  - 10
+  - 52
+  - 387
   mana:
-    number: 28
-    type: 10
-    bonus: 100
+  - 28
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 9
-    bonus: 18
+  - 5
+  - 9
+  - 18
   dam_type: 11
   ac:
     pierce: -7
     bash: -7
     slash: -7
     exotic: 1
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 8000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6517
   keywords: snake
   short_desc: the giant snake
-  long_desc: |
-    There is a giant snake here.
-  description: ''
+  long_desc: "There is a giant snake here.\n\r"
+  description:
   race: snake
-  act: ABFT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524322
+  affected_by: 0
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 15
   hitroll: 0
   hit:
-    number: 4
-    type: 37
-    bonus: 162
+  - 4
+  - 37
+  - 162
   mana:
-    number: 15
-    type: 10
-    bonus: 100
+  - 15
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 6
-    bonus: 9
+  - 4
+  - 6
+  - 9
   dam_type: 3
   ac:
     pierce: 0
     bash: 0
     slash: 0
     exotic: 5
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: L
-  vuln_flags: I
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 300
-  form: AGRXYc
-  parts: ADEFKLQVX
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 objects:
 - vnum: 6502
   name: key green
@@ -836,17 +808,17 @@ objects:
   description: A deep green key is on the floor.
   material: none
   item_type: 18
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 19
+  weight: 1
+  cost: 190
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 19
-  weight: 1
-  cost: 190
   affects: []
   extra_descs: []
 - vnum: 6504
@@ -855,17 +827,17 @@ objects:
   description: There is a dwarven hammer laying here.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 10
+  weight: 3
+  cost: 600
   values:
   - 4
   - 3
   - 5
   - 8
   - 0
-  level: 10
-  weight: 3
-  cost: 600
   affects: []
   extra_descs: []
 - vnum: 6505
@@ -874,17 +846,17 @@ objects:
   description: There is dwarven plate mail laying here.
   material: none
   item_type: 9
-  extra_flags: '0'
-  wear_flags: AD
+  extra_flags: 0
+  wear_flags: 9
+  level: 19
+  weight: 4
+  cost: 1000
   values:
   - 6
   - 6
   - 6
   - 0
   - 0
-  level: 19
-  weight: 4
-  cost: 1000
   affects: []
   extra_descs: []
 - vnum: 6506
@@ -893,17 +865,17 @@ objects:
   description: There is a long, black stick lying here.
   material: none
   item_type: 4
-  extra_flags: '0'
-  wear_flags: AO
+  extra_flags: 0
+  wear_flags: 16385
+  level: 9
+  weight: 1
+  cost: 90
   values:
   - 4
   - 10
   - 10
-  - 15
+  - 23
   - 0
-  level: 9
-  weight: 1
-  cost: 90
   affects: []
   extra_descs: []
 - vnum: 6507
@@ -912,17 +884,17 @@ objects:
   description: There is a long, black stick here.
   material: none
   item_type: 1
-  extra_flags: '0'
-  wear_flags: AO
+  extra_flags: 0
+  wear_flags: 16385
+  level: 10
+  weight: 1
+  cost: 100
   values:
   - 0
   - 0
   - 50
   - 0
   - 0
-  level: 10
-  weight: 1
-  cost: 100
   affects: []
   extra_descs: []
 - vnum: 6508
@@ -931,17 +903,17 @@ objects:
   description: There is a dwarven club laying here.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 9
+  weight: 1
+  cost: 90
   values:
   - 4
   - 3
   - 5
   - 8
   - 0
-  level: 9
-  weight: 1
-  cost: 90
   affects: []
   extra_descs: []
 - vnum: 6509
@@ -950,26 +922,26 @@ objects:
   description: A two-handed Dwarven axe is here.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 17
+  weight: 5
+  cost: 170
   values:
   - 5
   - 5
   - 4
   - 1
   - 32
-  level: 17
-  weight: 5
-  cost: 170
   affects:
-  - where: O
-    location: 1
-    modifier: 2
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 1
+    modifier: 2
+    bitvector: 0
   extra_descs: []
 - vnum: 6510
   name: helmet
@@ -977,17 +949,17 @@ objects:
   description: A dwarven helmet is here.
   material: none
   item_type: 9
-  extra_flags: '0'
-  wear_flags: AE
+  extra_flags: 0
+  wear_flags: 17
+  level: 19
+  weight: 4
+  cost: 1000
   values:
   - 6
   - 6
   - 6
   - 0
   - 0
-  level: 19
-  weight: 4
-  cost: 1000
   affects: []
   extra_descs: []
 - vnum: 6511
@@ -996,26 +968,26 @@ objects:
   description: A pretty golden ring is here.
   material: none
   item_type: 8
-  extra_flags: G
-  wear_flags: AB
+  extra_flags: 64
+  wear_flags: 3
+  level: 19
+  weight: 1
+  cost: 1000
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 19
-  weight: 1
-  cost: 1000
   affects:
-  - where: O
-    location: 19
-    modifier: 1
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 1
+    bitvector: 0
   extra_descs: []
 - vnum: 6512
   name: gloves
@@ -1023,26 +995,26 @@ objects:
   description: Thick dwarven gloves lay here.
   material: none
   item_type: 9
-  extra_flags: '0'
-  wear_flags: AH
+  extra_flags: 0
+  wear_flags: 129
+  level: 19
+  weight: 2
+  cost: 1000
   values:
   - 6
   - 6
   - 6
   - 0
   - 0
-  level: 19
-  weight: 2
-  cost: 1000
   affects:
-  - where: O
-    location: 2
-    modifier: 1
-    bitvector: '0'
   - where: O
     location: 1
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 2
+    modifier: 1
+    bitvector: 0
   extra_descs: []
 - vnum: 6513
   name: note
@@ -1050,40 +1022,39 @@ objects:
   description: A crumpled note is here.
   material: none
   item_type: 12
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 7
+  weight: 0
+  cost: 70
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 7
-  weight: 0
-  cost: 70
   affects: []
   extra_descs:
   - keywords: note letter letters
-    description: |
-      It seems to be a hot love letter from the Queen.  Unfortunately,
-      it's not suitable for transmission across a public data network.
+    description: "It seems to be a hot love letter from the Queen.  Unfortunately,\n\rit's
+      not suitable for transmission across a public data network.\n\r"
 - vnum: 6514
   name: castle key
   short_desc: a castle key
   description: There is a key to Strangelove Castle here.
   material: none
   item_type: 18
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 9
+  weight: 0
+  cost: 90
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 9
-  weight: 0
-  cost: 90
   affects: []
   extra_descs: []
 - vnum: 6516
@@ -1092,17 +1063,17 @@ objects:
   description: There is a key to the mines here.
   material: none
   item_type: 18
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 14
+  weight: 0
+  cost: 140
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 14
-  weight: 0
-  cost: 140
   affects: []
   extra_descs: []
 - vnum: 6517
@@ -1111,17 +1082,17 @@ objects:
   description: There is a chunk of coal here.
   material: none
   item_type: 13
-  extra_flags: '0'
-  wear_flags: AO
+  extra_flags: 0
+  wear_flags: 16385
+  level: 18
+  weight: 100
+  cost: 180
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 18
-  weight: 100
-  cost: 180
   affects: []
   extra_descs: []
 - vnum: 6518
@@ -1130,17 +1101,17 @@ objects:
   description: There is a mining pick here.
   material: none
   item_type: 5
-  extra_flags: I
-  wear_flags: AN
+  extra_flags: 256
+  wear_flags: 8193
+  level: 13
+  weight: 1
+  cost: 130
   values:
   - 4
   - 4
   - 5
   - 11
   - 0
-  level: 13
-  weight: 1
-  cost: 130
   affects: []
   extra_descs: []
 - vnum: 6519
@@ -1149,1334 +1120,1176 @@ objects:
   description: There is a box of birth control pills here.
   material: none
   item_type: 26
-  extra_flags: '0'
-  wear_flags: A
-  values:
-  - 20
-  - 0
-  - 0
-  - 82
-  - 0
+  extra_flags: 0
+  wear_flags: 1
   level: 9
   weight: 1
   cost: 90
+  values:
+  - 20
+  - -1
+  - -1
+  - 13
+  - 0
   affects: []
   extra_descs:
   - keywords: birth control pills pill
-    description: |
-      They are in a circular container, and there are numbers corresponding
-      to the day that they are to be taken.  You can tell they haven't been
-      used for a while.
+    description: "They are in a circular container, and there are numbers corresponding\n\rto
+      the day that they are to be taken.  You can tell they haven't been\n\rused for
+      a while.\n\r"
 - vnum: 6520
   name: map castle strangelove
   short_desc: a map of Castle Strangelove
   description: A rolled up map is here.
   material: none
   item_type: 28
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 9
+  weight: 1
+  cost: 90
   values:
   - 1
   - 0
   - 0
   - 0
   - 0
-  level: 9
-  weight: 1
-  cost: 90
   affects: []
   extra_descs:
   - keywords: map castle strangelove
-    description: |
-      .
-      * * * Castle Strangelove * * *       __________
-       = = ==================== = =        \ Queen's \
-            Untangled by Ezra               \ Bedroom \
-                                             \_________\
-                                                      *
-                                     __________    ____\_____
-           North  Up                 \  Top of \    \ Waiting \
-              \   |                   \ Stairs  \----\  Room   \
-                \ |                    \_________\    \_________\
-        West ---- + ---- East             |
-                  | \                _____|____
-                  |   \              \         \
-                Down  South           \ Stairs  \    [] - You need the Castle Key
-                                       \_________\        to get beyond this point.
-                                          |               The Castle Key can be
-                                     _____|____           found on the Grinning
-                                     \         \          Dwarves in the Barracks.
-                                      \ Stairs  \
-                                       \_________\    * - You need the Deep Green
-                                          |               Key to get beyond this
-                      __________     _____|____           point.  This key can be
-                      \ Door to \    \ Inside  \          found on the Wraith in
-                       \ Castle  \-[]-\ Castle  \         the wine cellar or on one
-                        \_________\    \_________\        of the Dwarven Guards on
-                                 \                        the Dark path.
-                               ____\_____
-                               \ Path to \
-                                \ Castle  \
-                                 \_________\
-                                          \
-                         __________     ____\_____
-                         \ Door to \    \ Path to \
-                          \ Kingdom \----\ Castle  \
-                           \_________\    \_________\
-                                    \
-                                 To Dwarven
-                                   Kingdom
+    description: ".\n\r* * * Castle Strangelove * * *       __________\n\r = = ====================
+      = =        \\ Queen's \\\n\r      Untangled by Ezra               \\ Bedroom
+      \\\n\r                                       \\_________\\\n\r                                                *\n\r
+      \                              __________    ____\\_____\n\r     North  Up                 \\
+      \ Top of \\    \\ Waiting \\\n\r        \\   |                   \\ Stairs  \\----\\
+      \ Room   \\\n\r          \\ |                    \\_________\\    \\_________\\\n\r
+      \ West ---- + ---- East             |\n\r            | \\                _____|____\n\r
+      \           |   \\              \\         \\\n\r          Down  South           \\
+      Stairs  \\    [] - You need the Castle Key\n\r                                 \\_________\\
+      \       to get beyond this point.\n\r                                    |               The
+      Castle Key can be\n\r                               _____|____           found
+      on the Grinning\n\r                               \\         \\          Dwarves
+      in the Barracks.\n\r                                \\ Stairs  \\\n\r                                 \\_________\\
+      \   * - You need the Deep Green\n\r                                    |               Key
+      to get beyond this\n\r                __________     _____|____           point.
+      \ This key can be\n\r                \\ Door to \\    \\ Inside  \\          found
+      on the Wraith in\n\r                 \\ Castle  \\-[]-\\ Castle  \\         the
+      wine cellar or on one\n\r                  \\_________\\    \\_________\\        of
+      the Dwarven Guards on\n\r                           \\                        the
+      Dark path.\n\r                         ____\\_____\n\r                         \\
+      Path to \\\n\r                          \\ Castle  \\\n\r                           \\_________\\\n\r
+      \                                   \\\n\r                   __________     ____\\_____\n\r
+      \                  \\ Door to \\    \\ Path to \\\n\r                    \\
+      Kingdom \\----\\ Castle  \\\n\r                     \\_________\\    \\_________\\\n\r
+      \                             \\\n\r                           To Dwarven\n\r
+      \                            Kingdom\n\r"
 rooms:
 - vnum: 6500
   name: Path to Dwarven Village
-  description: "All around you are the mountains of the southern range, home of dwarves\
-    \ and \ngiants.  You can climb back down the mountains to the west and leave these\
-    \ \nrealms, or seek riches in the northern mineshafts.  A dirt road leads south,\
-    \ \ntowards a small building.  You can hear crying and shrieking coming from it.\n"
-  room_flags: '0'
+  description: "All around you are the mountains of the southern range, home of dwarves
+    and \n\rgiants.  You can climb back down the mountains to the west and leave these
+    \n\rrealms, or seek riches in the northern mineshafts.  A dirt road leads south,
+    \n\rtowards a small building.  You can hear crying and shrieking coming from it.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The path continues.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The path continues.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6501
   - dir: 2
-    desc: |
-      You hear the patter of little feet.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You hear the patter of little feet.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6601
   - dir: 3
-    desc: |
-      A rocky road leads back to Midgaard and the mines of Moria.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A rocky road leads back to Midgaard and the mines of Moria.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6562
   extra_descs: []
 - vnum: 6501
   name: Path, base of mountain
-  description: |
-    Now you are at the bottom of a rugged mountain.  The forest around you is
-    very dense, and it seems very dark to the north.
-  room_flags: '0'
+  description: "Now you are at the bottom of a rugged mountain.  The forest around
+    you is\n\rvery dense, and it seems very dark to the north.\n\r"
+  room_flags: 0
   sector: 4
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The path continues up the mountain.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The path continues up the mountain.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6502
   - dir: 2
-    desc: |
-      The path heads toward the main city.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The path heads toward the main city.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6500
   extra_descs: []
 - vnum: 6502
   name: Path, middle of mountain
-  description: |
-    Standing on the middle of the mountain, you can easily see the turning
-    point to the south, and the top of the mountain is very near to the north.
-  room_flags: '0'
+  description: "Standing on the middle of the mountain, you can easily see the turning\n\rpoint
+    to the south, and the top of the mountain is very near to the north.\n\r"
+  room_flags: 0
   sector: 5
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The top of the mountain is easily seen from here.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The top of the mountain is easily seen from here.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6503
   - dir: 2
-    desc: |
-      The base of the mountain is near.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The base of the mountain is near.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6501
   extra_descs: []
 - vnum: 6503
   name: Top of mountain
-  description: |
-    You are now on the top of the mountain.  To the south you see a path
-    leading down the mountain.  To the east and west you see entrances to
-    what seems like mines.
-  room_flags: '0'
+  description: "You are now on the top of the mountain.  To the south you see a path\n\rleading
+    down the mountain.  To the east and west you see entrances to\n\rwhat seems like
+    mines.\n\r"
+  room_flags: 0
   sector: 4
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      An entrance to the mountain which seems to lead underground.
-    keywords: ''
-    exit_flags: '0'
+    desc: "An entrance to the mountain which seems to lead underground.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6540
   - dir: 2
-    desc: |
-      The path leads down the mountain to the main city.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The path leads down the mountain to the main city.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6502
   - dir: 3
-    desc: |
-      There is an entrance to the mountain.
-    keywords: ''
-    exit_flags: '0'
+    desc: "There is an entrance to the mountain.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6505
   extra_descs: []
 - vnum: 6504
   name: Narrow Path
-  description: |
-    This is a narrow path leading to the Dwarven Kingdom.  It looks less
-    travelled than the others, and it is very creepy.  The path opens up
-    to the south, and continues to the north.
-  room_flags: D
+  description: "This is a narrow path leading to the Dwarven Kingdom.  It looks less\n\rtravelled
+    than the others, and it is very creepy.  The path opens up\n\rto the south, and
+    continues to the north.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6506
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6540
   extra_descs: []
 - vnum: 6505
   name: Entrance to Mountain
-  description: |
-    Here is an entrance to the mountain.  The door looks very well built,
-    and you can hear noise coming from within.
-  room_flags: '0'
+  description: "Here is an entrance to the mountain.  The door looks very well built,\n\rand
+    you can hear noise coming from within.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6503
   - dir: 3
-    desc: ''
+    desc:
     keywords: door
-    exit_flags: AC
+    exit_flags: 15
     key: 6502
     to_vnum: 6513
   extra_descs: []
 - vnum: 6506
   name: Bend in Narrow Path
-  description: |
-    This is a narrow path that bends to the east here.  The trees hang over
-    the path, and it is very overgrown.  The narrow path continues to the
-    south and to the east.
-  room_flags: D
+  description: "This is a narrow path that bends to the east here.  The trees hang
+    over\n\rthe path, and it is very overgrown.  The narrow path continues to the\n\rsouth
+    and to the east.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6507
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6504
   extra_descs:
   - keywords: tree trees
-    description: |
-      They hang over the road in the most ominous of ways.
+    description: "They hang over the road in the most ominous of ways.\n\r"
 - vnum: 6507
   name: Narrow path
-  description: |
-    This path is very narrow, and it continues to the north and west.
-  room_flags: D
+  description: "This path is very narrow, and it continues to the north and west.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6508
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6506
   extra_descs: []
 - vnum: 6508
   name: Narrow north-south path
-  description: |
-    This path leads to the north and south.  To the north you can see a
-    door, and to the south the path continues.
-  room_flags: D
+  description: "This path leads to the north and south.  To the north you can see
+    a\n\rdoor, and to the south the path continues.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6509
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6507
   extra_descs: []
 - vnum: 6509
   name: Door to Kingdom
-  description: |
-    Here the path turns to the west.  You can see a door in front of you,
-    and the path continues to the west and south.
-  room_flags: D
+  description: "Here the path turns to the west.  You can see a door in front of you,\n\rand
+    the path continues to the west and south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
+    desc:
     keywords: door
-    exit_flags: AC
+    exit_flags: 15
     key: 6502
     to_vnum: 6510
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6508
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6522
   extra_descs: []
 - vnum: 6510
   name: Path to the Castle
-  description: |
-    You are on a path that will eventually lead to the castle.  It
-    continues north to the castle, and there is a door on the western wall.
-  room_flags: D
+  description: "You are on a path that will eventually lead to the castle.  It\n\rcontinues
+    north to the castle, and there is a door on the western wall.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6511
   - dir: 3
-    desc: ''
+    desc:
     keywords: door
-    exit_flags: AC
+    exit_flags: 15
     key: 6502
     to_vnum: 6509
   extra_descs: []
 - vnum: 6511
   name: Still on the path to the Castle
-  description: "You are still on the path to the castle, or back to the Dwarven village,\n\
-    whichever way you wish to go.  The path continues to the north and south.  \n"
-  room_flags: D
+  description: "You are still on the path to the castle, or back to the Dwarven village,\n\rwhichever
+    way you wish to go.  The path continues to the north and south.  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6512
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6510
   extra_descs: []
 - vnum: 6512
   name: Door to Castle
-  description: |
-    Here there is a door to the castle to the east.  The castle
-    is elegantly designed, and looks much like a roll of toilet paper
-    standing on end.  A sign says:
-
-                  ******************************************
-                  *  WELCOME TO THE CASTLE OF STRANGELOVE  *
-                  *      Here, celibacy is uninvited       *
-                  ******************************************
-  room_flags: D
+  description: "Here there is a door to the castle to the east.  The castle\n\ris
+    elegantly designed, and looks much like a roll of toilet paper\n\rstanding on
+    end.  A sign says:\n\r\n\r              ******************************************\n\r
+    \             *  WELCOME TO THE CASTLE OF STRANGELOVE  *\n\r              *      Here,
+    celibacy is uninvited       *\n\r              ******************************************\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
+    desc:
     keywords: door
-    exit_flags: A
+    exit_flags: 3
     key: 6514
     to_vnum: 6525
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6511
   extra_descs: []
 - vnum: 6513
   name: Inside the entrance
-  description: |
-    Everything here is covered in soot and very grimy.  The path continues
-    to the east and north, and there is a door to the west.
-  room_flags: D
+  description: "Everything here is covered in soot and very grimy.  The path continues\n\rto
+    the east and north, and there is a door to the west.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The little underground path continues to the north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The little underground path continues to the north.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6514
   - dir: 1
-    desc: |
-      The path leads outside the entrance.
+    desc: "The path leads outside the entrance.\n\r"
     keywords: door
-    exit_flags: AC
+    exit_flags: 15
     key: 6502
     to_vnum: 6505
   - dir: 3
-    desc: |
-      This looks like an entrance to some type of store room.
-    keywords: ''
-    exit_flags: '0'
+    desc: "This looks like an entrance to some type of store room.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6526
   extra_descs: []
 - vnum: 6514
   name: Path
-  description: |
-    You are on a path in the dwarven village which leads north to the shops
-    and south to the corner of the area.
-  room_flags: D
+  description: "You are on a path in the dwarven village which leads north to the
+    shops\n\rand south to the corner of the area.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6515
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6513
   extra_descs: []
 - vnum: 6515
   name: Turn in road
-  description: |
-    You are on a path that leads to a Hide & Tooth shop to the west, and the
-    path continues to the south.
-  room_flags: D
+  description: "You are on a path that leads to a Hide & Tooth shop to the west, and
+    the\n\rpath continues to the south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6514
   - dir: 3
-    desc: |
-      The Hide & Tooth shop is seen to the west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The Hide & Tooth shop is seen to the west.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6516
   extra_descs: []
 - vnum: 6516
   name: Hide & Tooth Shop
-  description: |
-    You are in the Hide & Tooth shop.  Here you may buy the finest in Dwarven
-    weapons and armors. The path continues to the north and east.
-  room_flags: D
+  description: "You are in the Hide & Tooth shop.  Here you may buy the finest in
+    Dwarven\n\rweapons and armors. The path continues to the north and east.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6517
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6515
   extra_descs: []
 - vnum: 6517
   name: Path to the north of shop
-  description: |
-    You are on a path to the north of the Hide & Tooth shop.  The path continues
-    to the north, and there is Granite Head's bakery to the west.
-  room_flags: D
+  description: "You are on a path to the north of the Hide & Tooth shop.  The path
+    continues\n\rto the north, and there is Granite Head's bakery to the west.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6518
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6516
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6535
   extra_descs: []
 - vnum: 6518
   name: North of Shops
-  description: |
-    Here the path bends to the east towards the barracks. To the
-    south you can see the shops.
-  room_flags: D
+  description: "Here the path bends to the east towards the barracks. To the\n\rsouth
+    you can see the shops.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6519
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6517
   extra_descs: []
 - vnum: 6519
   name: Path by Hospital
-  description: |
-    Here the path passes by the Hospital to the north.  It continues
-    to the east to the barracks, and to the west.
-  room_flags: D
+  description: "Here the path passes by the Hospital to the north.  It continues\n\rto
+    the east to the barracks, and to the west.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6534
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6520
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6518
   extra_descs: []
 - vnum: 6520
   name: Path next to barracks
-  description: |
-    Here the path continues west, and east to the barracks.
-  room_flags: D
+  description: "Here the path continues west, and east to the barracks.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6521
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6519
   extra_descs: []
 - vnum: 6521
   name: Entrance to barracks
-  description: |
-    Here there is an entrance to the barracks to the south, and
-    the path continues to the west.
-  room_flags: D
+  description: "Here there is an entrance to the barracks to the south, and\n\rthe
+    path continues to the west.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
+    desc:
     keywords: door
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 6523
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6520
   extra_descs: []
 - vnum: 6522
   name: Guard House
-  description: |
-    You are in the guard house to the west of the entrance
-    to the castle.  There are nude posters covering the walls.
-  room_flags: D
+  description: "You are in the guard house to the west of the entrance\n\rto the castle.
+    \ There are nude posters covering the walls.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6509
   extra_descs:
   - keywords: poster
-    description: |
-      There is a wall poster of a nude Minne Pearl.
+    description: "There is a wall poster of a nude Minne Pearl.\n\r"
 - vnum: 6523
   name: First Barrack room
-  description: |
-    Here is the first of two main rooms of barracks.  The
-    barracks continue to the south, and you can leave the room
-    to the north.
-  room_flags: D
+  description: "Here is the first of two main rooms of barracks.  The\n\rbarracks
+    continue to the south, and you can leave the room\n\rto the north.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
+    desc:
     keywords: door
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 6521
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6524
   extra_descs: []
 - vnum: 6524
   name: Back of Barracks
-  description: |
-    Here is the back of the dwarven barracks.  There are rows
-    of beds here, and there is a stench that is unbearable.
-  room_flags: D
+  description: "Here is the back of the dwarven barracks.  There are rows\n\rof beds
+    here, and there is a stench that is unbearable.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6523
   - dir: 5
-    desc: ''
+    desc:
     keywords: floorboards boards
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 2001
   extra_descs: []
 - vnum: 6525
   name: Inside of Castle Strangelove
-  description: "You are just inside the castle.  It is very tubular in shape, and\
-    \ it is\nvery featureless.  There is a set of stairs that lead up, and the door\
-    \ leads\nout of the castle to the west.  \n"
-  room_flags: D
+  description: "You are just inside the castle.  It is very tubular in shape, and
+    it is\n\rvery featureless.  There is a set of stairs that lead up, and the door
+    leads\n\rout of the castle to the west.  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
+    desc:
     keywords: door
-    exit_flags: A
+    exit_flags: 3
     key: 6514
     to_vnum: 6512
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6528
   extra_descs: []
 - vnum: 6526
   name: A store room
-  description: |
-    There is a layer of dust on the floor at least 3 inches thick!  It is
-    probable that not many people have been in here for many months.
-  room_flags: AD
+  description: "There is a layer of dust on the floor at least 3 inches thick!  It
+    is\n\rprobable that not many people have been in here for many months.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      A lighted area that looks like a well worn path.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A lighted area that looks like a well worn path.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6513
   - dir: 5
-    desc: ''
+    desc:
     keywords: trapdoor
-    exit_flags: A
+    exit_flags: 3
     key: 0
     to_vnum: 6527
   extra_descs:
   - keywords: floor dust
-    description: |
-      After blowing all the dust off the floor, you notice a trapdoor!
+    description: "After blowing all the dust off the floor, you notice a trapdoor!\n\r"
 - vnum: 6527
   name: Wine cellar
-  description: |
-    This room smells like wine, and you can only assume it used to be
-    a wine cellar at one time.
-  room_flags: AD
+  description: "This room smells like wine, and you can only assume it used to be\n\ra
+    wine cellar at one time.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 3
     key: -1
     to_vnum: 6526
   - dir: 5
-    desc: ''
+    desc:
     keywords: floorboards boards
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 2065
   extra_descs: []
 - vnum: 6528
   name: Stairs in castle
-  description: "The stairs continue to circle up and down here.  \n"
-  room_flags: D
+  description: "The stairs continue to circle up and down here.  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6529
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6525
   extra_descs: []
 - vnum: 6529
   name: Stairs
-  description: "You are still circling around on the stairs.  You are starting to\
-    \ get\ndizzy from going around and around and around and around and around.  The\n\
-    stairs continue up and down.  \n"
-  room_flags: D
+  description: "You are still circling around on the stairs.  You are starting to
+    get\n\rdizzy from going around and around and around and around and around.  The\n\rstairs
+    continue up and down.  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6530
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6528
   extra_descs: []
 - vnum: 6530
   name: Top of stairs
-  description: "You are at the top of the stairs in the castle.  There is an exit\
-    \ to the\neast, and the stairs lead down.  \n"
-  room_flags: D
+  description: "You are at the top of the stairs in the castle.  There is an exit
+    to the\n\reast, and the stairs lead down.  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6531
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6529
   extra_descs: []
 - vnum: 6531
   name: Queen's waiting room
-  description: "This is the Queen's waiting room.  Here the men literally 'wait' for\
-    \ the\nqueen.  You've heard that the queen really likes to get to 'know' her\n\
-    people, in the biblical sense.  The queen's bedroom is to the north, and you\n\
-    can see stairs to the west.  \n"
-  room_flags: D
+  description: "This is the Queen's waiting room.  Here the men literally 'wait' for
+    the\n\rqueen.  You've heard that the queen really likes to get to 'know' her\n\rpeople,
+    in the biblical sense.  The queen's bedroom is to the north, and you\n\rcan see
+    stairs to the west.  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
+    desc:
     keywords: door
-    exit_flags: AC
+    exit_flags: 15
     key: 6502
     to_vnum: 6532
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6530
   extra_descs: []
 - vnum: 6532
   name: Bedroom
-  description: |
-    This is the Queen's bedroom.  The bed is all ruffled, and there
-    is a stack of dirty sheets piled in the corner.
-
-    A note has been scrawled in lipstick on the mirror:
-
-        I'm out looking for my birth control pills.
-        Why don't you sleep into something comfortable while you're waiting?
-  room_flags: D
+  description: "This is the Queen's bedroom.  The bed is all ruffled, and there\n\ris
+    a stack of dirty sheets piled in the corner.\n\r\n\rA note has been scrawled in
+    lipstick on the mirror:\n\r\n\r    I'm out looking for my birth control pills.\n\r
+    \   Why don't you sleep into something comfortable while you're waiting?\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
+    desc:
     keywords: door
-    exit_flags: AC
+    exit_flags: 15
     key: 6502
     to_vnum: 6531
   extra_descs: []
 - vnum: 6534
   name: Hospital
-  description: |
-    You are inside the Dwarven Hospital.  It smells like rubbing
-    alcohol, and there is blood all over the walls.
-  room_flags: D
+  description: "You are inside the Dwarven Hospital.  It smells like rubbing\n\ralcohol,
+    and there is blood all over the walls.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6519
   extra_descs: []
 - vnum: 6535
   name: Granite Head's Bakery
-  description: |
-    The aroma coming from this room is sensuous.  You can almost taste
-    the pastries dissolving in your mouth.
-  room_flags: D
+  description: "The aroma coming from this room is sensuous.  You can almost taste\n\rthe
+    pastries dissolving in your mouth.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6517
   extra_descs: []
 - vnum: 6540
   name: Dark path
-  description: |
-    This path is very well worn, and there is an entrance to the mines to the
-    east, while the path continues to the north and west.
-  room_flags: D
+  description: "This path is very well worn, and there is an entrance to the mines
+    to the\n\reast, while the path continues to the north and west.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6504
   - dir: 1
-    desc: ''
+    desc:
     keywords: door
-    exit_flags: AC
+    exit_flags: 15
     key: 6502
     to_vnum: 6541
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6503
   extra_descs: []
 - vnum: 6541
   name: Mine entrance
-  description: |
-    The little path here leads down toward the mines, while the worn path
-    continues to the west.
-  room_flags: D
+  description: "The little path here leads down toward the mines, while the worn path\n\rcontinues
+    to the west.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
+    desc:
     keywords: door
-    exit_flags: AC
+    exit_flags: 15
     key: 6502
     to_vnum: 6540
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6542
   extra_descs: []
 - vnum: 6542
   name: Inside the mine
-  description: |
-    There are holes everywhere from the places that the workers blew
-    away the rock to get to whatever they were looking for.  A path leads
-    down and up.
-  room_flags: AD
+  description: "There are holes everywhere from the places that the workers blew\n\raway
+    the rock to get to whatever they were looking for.  A path leads\n\rdown and up.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6541
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6554
   extra_descs: []
 - vnum: 6543
   name: Path in the mine
-  description: |
-    You are deep inside the mine, and you feel very uncomfortable.  The
-    path continues to the east, and leads to the mineshaft to the west.
-  room_flags: AD
+  description: "You are deep inside the mine, and you feel very uncomfortable.  The\n\rpath
+    continues to the east, and leads to the mineshaft to the west.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6544
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6554
   extra_descs: []
 - vnum: 6544
   name: Mine crossroad
-  description: |
-    You are at a crossroad in the mine.  There is a door to the north,
-    and the path continues to the south, east, and west.
-  room_flags: AD
+  description: "You are at a crossroad in the mine.  There is a door to the north,\n\rand
+    the path continues to the south, east, and west.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
+    desc:
     keywords: door
-    exit_flags: AC
+    exit_flags: 15
     key: 6502
     to_vnum: 6546
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6545
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6551
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6543
   extra_descs: []
 - vnum: 6545
   name: Coal Room
-  description: |
-    You are inside the storage area for the raw materials
-    that are found down here.  The room is very unsturdy as the
-    supports are very rickety.
-  room_flags: AD
+  description: "You are inside the storage area for the raw materials\n\rthat are
+    found down here.  The room is very unsturdy as the\n\rsupports are very rickety.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6544
   extra_descs: []
 - vnum: 6546
   name: Mine Maze
-  description: |
-    You have entered the maze of the mines.  To the east you
-    can see some inscriptions, and you can exit to the south.
-  room_flags: AD
+  description: "You have entered the maze of the mines.  To the east you\n\rcan see
+    some inscriptions, and you can exit to the south.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6547
   - dir: 2
-    desc: ''
+    desc:
     keywords: door
-    exit_flags: AC
+    exit_flags: 15
     key: 6502
     to_vnum: 6544
   extra_descs: []
 - vnum: 6547
   name: Maze inscription
-  description: |
-    You are inside the maze, but not far enough in that you could get lost.
-  room_flags: AD
+  description: "You are inside the maze, but not far enough in that you could get
+    lost.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6548
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6546
   extra_descs: []
 - vnum: 6548
   name: Maze
-  description: |
-    You are in a maze.
-  room_flags: AD
+  description: "You are in a maze.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6549
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6547
   extra_descs: []
 - vnum: 6549
   name: Maze
-  description: |
-    You are in a maze.
-  room_flags: AD
+  description: "You are in a maze.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6550
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6548
   extra_descs: []
 - vnum: 6550
   name: Maze
-  description: |
-    You are in a maze.
-  room_flags: AD
+  description: "You are in a maze.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6549
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6552
   extra_descs: []
 - vnum: 6551
   name: Mining equipment room
-  description: |
-    This is the storage room for equipment used by the
-    Dwarven miners.  It is very small, and you can tell that
-    not many miners actually use any equipment.
-  room_flags: AD
+  description: "This is the storage room for equipment used by the\n\rDwarven miners.
+    \ It is very small, and you can tell that\n\rnot many miners actually use any
+    equipment.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6544
   extra_descs: []
 - vnum: 6552
   name: Solved the Maze.
-  description: |
-    You have solved the maze.  You can tell by the last few moves
-    that there is no way that a dumb worker could have figured that
-    out.  It seems pretty desolate here.  To the south is a bleak room.
-    To the north, you see the maze.  There is a sign above the south exit:
-
-        Those who enter, plan on a timely death.
-        Especially if you're loyal to the queen.
-  room_flags: AD
+  description: "You have solved the maze.  You can tell by the last few moves\n\rthat
+    there is no way that a dumb worker could have figured that\n\rout.  It seems pretty
+    desolate here.  To the south is a bleak room.\n\rTo the north, you see the maze.
+    \ There is a sign above the south exit:\n\r\n\r    Those who enter, plan on a
+    timely death.\n\r    Especially if you're loyal to the queen.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6550
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6553
   extra_descs: []
 - vnum: 6553
   name: The Mazekeeper's Room
-  description: |
-    You have entered the Mazekeeper's room.  There are pictures of
-    the Queen with darts thrown in it.  Spray-painted on the wall are
-    things like 'the queen shall suffer' and 'Catholics Rule'.
-  room_flags: AD
+  description: "You have entered the Mazekeeper's room.  There are pictures of\n\rthe
+    Queen with darts thrown in it.  Spray-painted on the wall are\n\rthings like 'the
+    queen shall suffer' and 'Catholics Rule'.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6552
   extra_descs: []
 - vnum: 6554
   name: Bottom of mineshaft
-  description: |
-    You are at the bottom of the mineshaft.  The air here is very sooty, and
-    it is very hard to breath.  The mineshaft leads up and east.
-  room_flags: AD
+  description: "You are at the bottom of the mineshaft.  The air here is very sooty,
+    and\n\rit is very hard to breath.  The mineshaft leads up and east.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6543
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6542
   extra_descs: []
 - vnum: 6562
   name: The mountains of the dwarven kingdom
-  description: "You are standing at the foot of the mountains of the dwarven kingdom,\
-    \ where\ndwarves and giants toil endlessly to pry gems and mithril from the mother\
-    \ \nearth.  Here lies the palace of the dwarven queen, and untold riches.\nBut\
-    \ beware, for the mines are said to be haunted by demon and spirit alike.\nThe\
-    \ dwarven kingdom lies to the east.\n"
-  room_flags: '0'
+  description: "You are standing at the foot of the mountains of the dwarven kingdom,
+    where\n\rdwarves and giants toil endlessly to pry gems and mithril from the mother
+    \n\rearth.  Here lies the palace of the dwarven queen, and untold riches.\n\rBut
+    beware, for the mines are said to be haunted by demon and spirit alike.\n\rThe
+    dwarven kingdom lies to the east.\n\r"
+  room_flags: 0
   sector: 5
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The dwarven kingdom awaits!
-    keywords: ''
-    exit_flags: '0'
+    desc: "The dwarven kingdom awaits!\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6500
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 4000
   extra_descs: []
 resets:
-- command: D
-  arg1: 6505
-  arg2: 3
-  arg3: 2
-- command: D
-  arg1: 6509
-  arg2: 1
-  arg3: 2
-- command: D
-  arg1: 6510
-  arg2: 3
-  arg3: 2
-- command: D
-  arg1: 6512
-  arg2: 1
-  arg3: 0
-- command: D
-  arg1: 6513
-  arg2: 1
-  arg3: 2
-- command: D
-  arg1: 6521
-  arg2: 2
-  arg3: 0
-- command: D
-  arg1: 6523
-  arg2: 0
-  arg3: 0
-- command: D
-  arg1: 6524
-  arg2: 5
-  arg3: 1
-- command: D
-  arg1: 6525
-  arg2: 3
-  arg3: 0
-- command: D
-  arg1: 6526
-  arg2: 5
-  arg3: 0
-- command: D
-  arg1: 6527
-  arg2: 4
-  arg3: 0
-- command: D
-  arg1: 6527
-  arg2: 5
-  arg3: 0
-- command: D
-  arg1: 6531
-  arg2: 0
-  arg3: 2
-- command: D
-  arg1: 6532
-  arg2: 2
-  arg3: 2
-- command: D
-  arg1: 6540
-  arg2: 1
-  arg3: 2
-- command: D
-  arg1: 6541
-  arg2: 3
-  arg3: 2
-- command: D
-  arg1: 6544
-  arg2: 0
-  arg3: 2
-- command: D
-  arg1: 6546
-  arg2: 2
-  arg3: 2
 - command: M
   arg1: 6501
   arg2: 6

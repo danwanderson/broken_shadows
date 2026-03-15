@@ -10,326 +10,319 @@ mobiles:
 - vnum: 10000
   keywords: Peace
   short_desc: Peace
-  long_desc: |
-    An immense red dragon is here, glaring at you with her yellow eyes.
-  description: "She is a large creature who likes her master.  You'd better stay on\
-    \ her\ngood side...  \n"
+  long_desc: "An immense red dragon is here, glaring at you with her yellow eyes.\n\r"
+  description: "She is a large creature who likes her master.  You'd better stay on
+    her\n\rgood side...  \n\r"
   race: Wyvern
-  act: AIRTVd
-  affected_by: DEFSTZc
-  affected2_by: '0'
+  act: 539623680
+  affected_by: 302252048
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 101
   hitroll: 130
   hit:
-    number: 1
-    type: 1
-    bonus: 30000
+  - 1
+  - 1
+  - 30000
   mana:
-    number: 101
-    type: 10
-    bonus: 100
+  - 101
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 1
-    bonus: 300
+  - 1
+  - 1
+  - 300
   dam_type: 5
   ac:
     pierce: -50
     bash: -50
     slash: -50
     exotic: -10
-  off_flags: CFHM
-  imm_flags: L
-  res_flags: CDHIPQ
-  vuln_flags: S
+  off_flags: 4096
+  imm_flags: 0
+  res_flags: 98700
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 500
-  form: BZc
-  parts: ACDEFHJKQUVX
+  form: 0
+  parts: 0
   size: G
   material: iron
   spec_fun: spec_breath_fire
 - vnum: 10001
   keywords: pet shop clerk
   short_desc: pet shop clerk
-  long_desc: |
-    A clerk is here, tending to the pets in his store.
-  description: |
-    He's a middle aged, blue collar, American worker. What else do you want?
+  long_desc: "A clerk is here, tending to the pets in his store.\n\r"
+  description: "He's a middle aged, blue collar, American worker. What else do you
+    want?\n\r"
   race: Human
-  act: ABGd
-  affected_by: '0'
-  affected2_by: '0'
+  act: 536870978
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 0
   hitroll: 0
   hit:
-    number: 1
-    type: 1
-    bonus: 0
+  - 1
+  - 1
+  - 0
   mana:
-    number: 0
-    type: 0
-    bonus: 0
+  - 0
+  - 0
+  - 0
   damage:
-    number: 1
-    type: 1
-    bonus: 0
+  - 1
+  - 1
+  - 0
   dam_type: 0
   ac:
     pierce: 0
     bash: 0
     slash: 0
     exotic: 0
-  off_flags: '0'
-  imm_flags: ABCD
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 15
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 1000000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 10003
   keywords: fjord fuzzy duckie
   short_desc: Fjord the cute duckie
-  long_desc: |
-    Fjord, the large fuzzy duckie dear to Lady Lily's heart, is quacking here.
-  description: |
-    Awwwww!  A huge `Yyellow`w fuzzy duckie is here, quacking happily at you.  He
-    waddles up and down the room, apparently waiting for someone or something.
+  long_desc: "Fjord, the large fuzzy duckie dear to Lady Lily's heart, is quacking
+    here.\n\r"
+  description: "Awwwww!  A huge `Yyellow`w fuzzy duckie is here, quacking happily
+    at you.  He\n\rwaddles up and down the room, apparently waiting for someone or
+    something.\n\r"
   race: water fowl
-  act: ABRT
-  affected_by: DFHTVZabc
-  affected2_by: '0'
+  act: 655362
+  affected_by: 371196072
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 110
   hitroll: 300
   hit:
-    number: 13
-    type: 1910
-    bonus: 3769
+  - 13
+  - 1910
+  - 3769
   mana:
-    number: 140
-    type: 130
-    bonus: 130
+  - 140
+  - 130
+  - 130
   damage:
-    number: 10
-    type: 20
-    bonus: 10
+  - 10
+  - 20
+  - 10
   dam_type: 23
   ac:
     pierce: -3
     bash: -3
     slash: -2
     exotic: -1
-  off_flags: DEFJKNV
-  imm_flags: IR
-  res_flags: CDJOQR
-  vuln_flags: '0'
+  off_flags: 2106936
+  imm_flags: 131328
+  res_flags: 82444
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1020
-  form: AGW
-  parts: ACDEFHKP
+  form: 0
+  parts: 0
   size: H
   material: none
   spec_fun: spec_breath_lightning
 - vnum: 10020
   keywords: stormy
   short_desc: Stormy
-  long_desc: |
-    Stormy is wandering here, looking for Raptor.
-  description: "You see a beautiful young brunette here.  She seems to be nervous,\
-    \ as if\nshe is looking for someone.  You hope she finds them soon!  \n"
+  long_desc: "Stormy is wandering here, looking for Raptor.\n\r"
+  description: "You see a beautiful young brunette here.  She seems to be nervous,
+    as if\n\rshe is looking for someone.  You hope she finds them soon!  \n\r"
   race: Human
-  act: AGQ
-  affected_by: CHNb
-  affected2_by: '0'
+  act: 65600
+  affected_by: 134226052
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 101
   hitroll: 60
   hit:
-    number: 21
-    type: 400
-    bonus: 2000
+  - 21
+  - 400
+  - 2000
   mana:
-    number: 10
-    type: 20
-    bonus: 1200
+  - 10
+  - 20
+  - 1200
   damage:
-    number: 3
-    type: 20
-    bonus: 75
+  - 3
+  - 20
+  - 75
   dam_type: 16
   ac:
     pierce: -55
     bash: -55
     slash: -55
     exotic: -25
-  off_flags: FHI
-  imm_flags: NPS
-  res_flags: LQ
-  vuln_flags: K
+  off_flags: 416
+  imm_flags: 303104
+  res_flags: 67584
+  vuln_flags: 1024
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 10000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 10021
   keywords: big owl
   short_desc: a large owl
-  long_desc: |
-    A large owl circles overhead.
-  description: |
-    A really big owl is here, who-ing at you.
+  long_desc: "A large owl circles overhead.\n\r"
+  description: "A really big owl is here, who-ing at you.\n\r"
   race: song bird
-  act: ATUc
-  affected_by: T
-  affected2_by: '0'
+  act: 270008320
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 91
   hitroll: 100
   hit:
-    number: 10
-    type: 10
-    bonus: 2000
+  - 10
+  - 10
+  - 2000
   mana:
-    number: 1
-    type: 1
-    bonus: 150
+  - 1
+  - 1
+  - 150
   damage:
-    number: 5
-    type: 10
-    bonus: 10
+  - 5
+  - 10
+  - 10
   dam_type: 23
   ac:
     pierce: 30
     bash: 30
     slash: 30
     exotic: 15
-  off_flags: FHX
-  imm_flags: R
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 8388608
+  imm_flags: 131072
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 10
-  form: AGW
-  parts: ACDEFHKP
+  form: 0
+  parts: 0
   size: L
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 10022
   keywords: dr pepper machine
   short_desc: '`rDr. Pepper Machine`w'
-  long_desc: |
-    `WA `rDr. Pepper`W Machine is humming here.`w
-  description: "Wow!  It's a Dr.  Pepper machine, and if you type list, you can see\
-    \ what\nyou can buy from it.  Then type 'buy <item>' to puchase your choice of\n\
-    liquid refreshment.  \n"
+  long_desc: "`WA `rDr. Pepper`W Machine is humming here.`w\n\r"
+  description: "Wow!  It's a Dr.  Pepper machine, and if you type list, you can see
+    what\n\ryou can buy from it.  Then type 'buy <item>' to puchase your choice of\n\rliquid
+    refreshment.  \n\r"
   race: Human
-  act: ABd
-  affected_by: '0'
-  affected2_by: '0'
+  act: 536870914
+  affected_by: 0
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 50
   hitroll: 0
   hit:
-    number: 1
-    type: 1
-    bonus: 500
+  - 1
+  - 1
+  - 500
   mana:
-    number: 0
-    type: 0
-    bonus: 0
+  - 0
+  - 0
+  - 0
   damage:
-    number: 0
-    type: 0
-    bonus: 0
+  - 0
+  - 0
+  - 0
   dam_type: 0
   ac:
     pierce: 0
     bash: 0
     slash: 0
     exotic: 0
-  off_flags: '0'
-  imm_flags: BCDEHLNQRS
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 469150
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 100000
-  form: AHJMVc
-  parts: ABCDEFGHIJK
+  form: 268435968
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 10050
   keywords: cow
   short_desc: a cow
-  long_desc: |
-    A cow stands here grazing.
-  description: ''
+  long_desc: "A cow stands here grazing.\n\r"
+  description:
   race: Human
-  act: ABG
-  affected_by: '0'
-  affected2_by: '0'
+  act: 66
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 100
   hitroll: 0
   hit:
-    number: 1
-    type: 1
-    bonus: 0
+  - 1
+  - 1
+  - 0
   mana:
-    number: 0
-    type: 0
-    bonus: 0
+  - 0
+  - 0
+  - 0
   damage:
-    number: 1
-    type: 1
-    bonus: 0
+  - 1
+  - 1
+  - 0
   dam_type: 0
   ac:
     pierce: 0
     bash: 0
     slash: 0
     exotic: 0
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: F
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 32
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 objects:
 - vnum: 10000
   name: wedding ring
@@ -337,17 +330,17 @@ objects:
   description: An intricate golden wedding ring is here.
   material: iron
   item_type: 9
-  extra_flags: IM
-  wear_flags: AB
+  extra_flags: 4352
+  wear_flags: 3
+  level: 93
+  weight: 0
+  cost: 0
   values:
   - 1000
   - 1000
   - 1000
   - 1000
   - 0
-  level: 93
-  weight: 0
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 10001
@@ -356,17 +349,17 @@ objects:
   description: A liter of Mt. Dew has been carelessly left here.
   material: none
   item_type: 17
-  extra_flags: N
-  wear_flags: A
+  extra_flags: 8192
+  wear_flags: 1
+  level: 0
+  weight: 2
+  cost: 1000
   values:
   - 30
   - 30
   - 19
   - 0
   - 0
-  level: 0
-  weight: 2
-  cost: 1000
   affects: []
   extra_descs: []
 - vnum: 10002
@@ -375,17 +368,17 @@ objects:
   description: A fun looking whip lies here, with a menacing aura.
   material: none
   item_type: 5
-  extra_flags: B
-  wear_flags: AN
+  extra_flags: 2
+  wear_flags: 8193
+  level: 93
+  weight: 1
+  cost: 100000
   values:
   - 0
   - 180
   - 180
   - 13
   - 64
-  level: 93
-  weight: 1
-  cost: 100000
   affects: []
   extra_descs: []
 - vnum: 10004
@@ -394,17 +387,17 @@ objects:
   description: A silver class ring with a blue stone is lying here.
   material: none
   item_type: 9
-  extra_flags: GI
-  wear_flags: AB
+  extra_flags: 320
+  wear_flags: 3
+  level: 93
+  weight: 2
+  cost: 10000
   values:
   - 100
   - 100
   - 100
   - 100
   - 0
-  level: 93
-  weight: 2
-  cost: 10000
   affects: []
   extra_descs: []
 - vnum: 10005
@@ -413,17 +406,17 @@ objects:
   description: A pair of blue jeans sits here, neatly folded.
   material: none
   item_type: 11
-  extra_flags: '0'
-  wear_flags: AF
+  extra_flags: 0
+  wear_flags: 33
+  level: 93
+  weight: 3
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 93
-  weight: 3
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 10006
@@ -433,17 +426,17 @@ objects:
     gift from Rahl with love to LadyLily.
   material: none
   item_type: 11
-  extra_flags: IST
-  wear_flags: AC
+  extra_flags: 786688
+  wear_flags: 5
+  level: 93
+  weight: 1
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 93
-  weight: 1
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 10008
@@ -452,17 +445,17 @@ objects:
   description: A large pair of black Nikes are lying jumbled in the corner.
   material: none
   item_type: 11
-  extra_flags: '0'
-  wear_flags: AG
+  extra_flags: 0
+  wear_flags: 65
+  level: 93
+  weight: 5
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 93
-  weight: 5
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 10010
@@ -471,17 +464,17 @@ objects:
   description: A dozen red roses sit here in a pretty vase.
   material: none
   item_type: 8
-  extra_flags: '0'
-  wear_flags: AO
+  extra_flags: 0
+  wear_flags: 16385
+  level: 0
+  weight: 1
+  cost: 300
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 300
   affects: []
   extra_descs: []
 - vnum: 10013
@@ -490,17 +483,17 @@ objects:
   description: A NIN shirt is lying here.
   material: none
   item_type: 9
-  extra_flags: E
-  wear_flags: AD
+  extra_flags: 16
+  wear_flags: 9
+  level: 93
+  weight: 1
+  cost: 10000
   values:
   - 500
   - 500
   - 500
   - 500
   - 0
-  level: 93
-  weight: 1
-  cost: 10000
   affects: []
   extra_descs: []
 - vnum: 10017
@@ -510,26 +503,26 @@ objects:
     fleeing hoodlum.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 93
+  weight: 2
+  cost: 100000
   values:
   - 0
   - 1
   - 1
   - 6
   - 0
-  level: 93
-  weight: 2
-  cost: 100000
   affects:
-  - where: O
-    location: 18
-    modifier: 100
-    bitvector: '0'
   - where: O
     location: 19
     modifier: 15000
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 100
+    bitvector: 0
   extra_descs: []
 - vnum: 10019
   name: ring engagement
@@ -537,17 +530,17 @@ objects:
   description: A small, beautiful ring of gold is lying here, carelessly forgotten.
   material: none
   item_type: 8
-  extra_flags: AGI
-  wear_flags: AB
+  extra_flags: 321
+  wear_flags: 3
+  level: 0
+  weight: 1
+  cost: 1000
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 1000
   affects: []
   extra_descs: []
 - vnum: 10021
@@ -556,39 +549,39 @@ objects:
   description: An inviting bed is here.
   material: none
   item_type: 12
-  extra_flags: O
-  wear_flags: '0'
+  extra_flags: 16384
+  wear_flags: 0
+  level: 0
+  weight: 0
+  cost: 666
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 0
-  cost: 666
   affects: []
   extra_descs:
   - keywords: bed
-    description: "An inviting bed is here, it makes you want to slip into something\
-      \ more\ncomfortable and get under the silk covers!  \n"
+    description: "An inviting bed is here, it makes you want to slip into something
+      more\n\rcomfortable and get under the silk covers!  \n\r"
 - vnum: 10022
   name: shoes
   short_desc: '`WA pair of `RF`Bi`Rl`Ba`W''s`w'
   description: A pair of Fila shoes lie here in the dirt....
   material: none
   item_type: 9
-  extra_flags: ABIS
-  wear_flags: AG
+  extra_flags: 262403
+  wear_flags: 65
+  level: 92
+  weight: 5
+  cost: 1000000
   values:
   - 200
   - 200
   - 200
   - 200
   - 0
-  level: 92
-  weight: 5
-  cost: 1000000
   affects: []
   extra_descs: []
 - vnum: 10023
@@ -597,17 +590,17 @@ objects:
   description: A pair of Tommy Hilfiger Jeans lie crumpled in the dirt....
   material: none
   item_type: 9
-  extra_flags: S
-  wear_flags: AF
+  extra_flags: 262144
+  wear_flags: 33
+  level: 93
+  weight: 5
+  cost: 1000000
   values:
   - 200
   - 200
   - 200
   - 200
   - 0
-  level: 93
-  weight: 5
-  cost: 1000000
   affects: []
   extra_descs: []
 - vnum: 10024
@@ -616,17 +609,17 @@ objects:
   description: A pile of grey silk, smooth to the touch, lies here.
   material: none
   item_type: 9
-  extra_flags: '0'
-  wear_flags: AD
+  extra_flags: 0
+  wear_flags: 9
+  level: 95
+  weight: 10
+  cost: 1000000
   values:
   - 250
   - 250
   - 250
   - 250
   - 0
-  level: 95
-  weight: 10
-  cost: 1000000
   affects: []
   extra_descs: []
 - vnum: 10025
@@ -636,17 +629,17 @@ objects:
     owner.
   material: none
   item_type: 15
-  extra_flags: G
-  wear_flags: AK
+  extra_flags: 64
+  wear_flags: 1025
+  level: 95
+  weight: 15
+  cost: 1000000
   values:
   - 200
   - 0
   - 0
   - 0
   - 0
-  level: 95
-  weight: 15
-  cost: 1000000
   affects: []
   extra_descs: []
 - vnum: 10026
@@ -656,17 +649,17 @@ objects:
     important, the initials T.N.R. are engraved on the clasp.
   material: none
   item_type: 9
-  extra_flags: GTV
-  wear_flags: AC
+  extra_flags: 2621504
+  wear_flags: 5
+  level: 95
+  weight: 2
+  cost: 1000000
   values:
   - 250
   - 250
   - 250
   - 250
   - 0
-  level: 95
-  weight: 2
-  cost: 1000000
   affects: []
   extra_descs: []
 - vnum: 10027
@@ -675,17 +668,17 @@ objects:
   description: A blue crystal is here, hanging from a silver chain.
   material: none
   item_type: 1
-  extra_flags: A
-  wear_flags: AC
+  extra_flags: 1
+  wear_flags: 5
+  level: 95
+  weight: 0
+  cost: 0
   values:
   - 0
   - 0
   - 999
   - 0
   - 0
-  level: 95
-  weight: 0
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 10028
@@ -694,17 +687,17 @@ objects:
   description: A very wide hat is here, almost three feet in diameter!
   material: none
   item_type: 11
-  extra_flags: T
-  wear_flags: AE
+  extra_flags: 524288
+  wear_flags: 17
+  level: 95
+  weight: 1
+  cost: 100
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 95
-  weight: 1
-  cost: 100
   affects: []
   extra_descs: []
 - vnum: 10029
@@ -713,26 +706,26 @@ objects:
   description: A long black trenchcoat is hanging on a strnage hook on the wall.
   material: none
   item_type: 15
-  extra_flags: ST
-  wear_flags: AK
+  extra_flags: 786432
+  wear_flags: 1025
+  level: 95
+  weight: 5
+  cost: 500
   values:
   - 5000
   - 1
   - 0
   - 0
   - 0
-  level: 95
-  weight: 5
-  cost: 500
   affects:
-  - where: O
-    location: 2
-    modifier: 5
-    bitvector: '0'
   - where: O
     location: 5
     modifier: 5
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 2
+    modifier: 5
+    bitvector: 0
   extra_descs: []
 - vnum: 10030
   name: levis 565 jeans
@@ -740,17 +733,17 @@ objects:
   description: A fairly new pair of Levis 565's are sitting in a folded pile.
   material: none
   item_type: 11
-  extra_flags: '0'
-  wear_flags: AF
+  extra_flags: 0
+  wear_flags: 33
+  level: 95
+  weight: 2
+  cost: 100
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 95
-  weight: 2
-  cost: 100
   affects: []
   extra_descs: []
 - vnum: 10031
@@ -759,17 +752,17 @@ objects:
   description: A denim shirt hangs from a strange peg on the wall.
   material: none
   item_type: 11
-  extra_flags: '0'
-  wear_flags: AD
+  extra_flags: 0
+  wear_flags: 9
+  level: 95
+  weight: 1
+  cost: 100
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 95
-  weight: 1
-  cost: 100
   affects: []
   extra_descs: []
 - vnum: 10032
@@ -778,17 +771,17 @@ objects:
   description: A short staff stands here of it's own accord.
   material: none
   item_type: 5
-  extra_flags: STV
-  wear_flags: AN
+  extra_flags: 2883584
+  wear_flags: 8193
+  level: 94
+  weight: 4
+  cost: 100000
   values:
   - 3
   - 10
   - 6
   - 13
   - 8
-  level: 94
-  weight: 4
-  cost: 100000
   affects: []
   extra_descs: []
 - vnum: 10033
@@ -797,17 +790,17 @@ objects:
   description: There is a wooden staff here, with gold inlayed around one end.
   material: wood
   item_type: 5
-  extra_flags: STV
-  wear_flags: AN
+  extra_flags: 2883584
+  wear_flags: 8193
+  level: 20
+  weight: 6
+  cost: 500
   values:
   - 0
   - 4
   - 6
   - 13
   - 0
-  level: 20
-  weight: 6
-  cost: 500
   affects: []
   extra_descs: []
 - vnum: 10034
@@ -816,17 +809,17 @@ objects:
   description: A large white towel is here.
   material: cloth
   item_type: 13
-  extra_flags: S
-  wear_flags: AC
+  extra_flags: 262144
+  wear_flags: 5
+  level: 99
+  weight: 0
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 99
-  weight: 0
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 10040
@@ -835,17 +828,17 @@ objects:
   description: Handcuffs are here to have fun with!
   material: none
   item_type: 9
-  extra_flags: '0'
-  wear_flags: AM
+  extra_flags: 0
+  wear_flags: 4097
+  level: 1
+  weight: 1
+  cost: 10000
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 1
-  weight: 1
-  cost: 10000
   affects: []
   extra_descs: []
 - vnum: 10041
@@ -855,17 +848,17 @@ objects:
     on a table.
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 1
+  cost: 100
   values:
   - 10
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 100
   affects: []
   extra_descs: []
 - vnum: 10043
@@ -874,17 +867,17 @@ objects:
   description: A potato chip is here!
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 0
+  cost: 10
   values:
   - 5
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 0
-  cost: 10
   affects: []
   extra_descs: []
 - vnum: 10047
@@ -893,17 +886,17 @@ objects:
   description: A nice, pressed tuxedo is hanging here.
   material: none
   item_type: 11
-  extra_flags: '0'
-  wear_flags: AK
+  extra_flags: 0
+  wear_flags: 1025
+  level: 0
+  weight: 1
+  cost: 100
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 100
   affects: []
   extra_descs: []
 - vnum: 10048
@@ -912,17 +905,17 @@ objects:
   description: A white wedding dress is hanging here.
   material: none
   item_type: 11
-  extra_flags: '0'
-  wear_flags: AK
+  extra_flags: 0
+  wear_flags: 1025
+  level: 0
+  weight: 1
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 10049
@@ -931,17 +924,17 @@ objects:
   description: A wad of silk is lying on the floor here.
   material: none
   item_type: 11
-  extra_flags: '0'
-  wear_flags: AD
+  extra_flags: 0
+  wear_flags: 9
+  level: 93
+  weight: 1
+  cost: 10000
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 93
-  weight: 1
-  cost: 10000
   affects: []
   extra_descs: []
 - vnum: 10054
@@ -950,17 +943,17 @@ objects:
   description: A beautiful glass filled with champagne is sitting on a table.
   material: none
   item_type: 17
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 1
+  cost: 100
   values:
   - 10
   - 10
   - 16
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 100
   affects: []
   extra_descs: []
 - vnum: 10055
@@ -970,17 +963,17 @@ objects:
     table.
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 1
+  cost: 100
   values:
   - 10
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 100
   affects: []
   extra_descs: []
 - vnum: 10060
@@ -989,17 +982,17 @@ objects:
   description: The claw of a dragon is here, you wonder where the rest of it is.
   material: none
   item_type: 5
-  extra_flags: O
-  wear_flags: AN
+  extra_flags: 16384
+  wear_flags: 8193
+  level: 93
+  weight: 0
+  cost: 0
   values:
   - 5
   - 10
   - 20
   - 5
   - 27
-  level: 93
-  weight: 0
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 10063
@@ -1008,17 +1001,17 @@ objects:
   description: '`wA `Yshimmery`w gold locket lies here, given with `Rlove`w from `MLadyLily`w.'
   material: none
   item_type: 8
-  extra_flags: AGIS
-  wear_flags: AC
+  extra_flags: 262465
+  wear_flags: 5
+  level: 95
+  weight: 2
+  cost: 5000000
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 95
-  weight: 2
-  cost: 5000000
   affects: []
   extra_descs: []
 - vnum: 10064
@@ -1027,17 +1020,17 @@ objects:
   description: A really long vacation sits here, waiting for Rahl to claim it.
   material: none
   item_type: 8
-  extra_flags: A
-  wear_flags: AK
+  extra_flags: 1
+  wear_flags: 1025
+  level: 102
+  weight: 1
+  cost: 100000000
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 102
-  weight: 1
-  cost: 100000000
   affects: []
   extra_descs: []
 - vnum: 10065
@@ -1046,49 +1039,49 @@ objects:
   description: A coupon for a free item restring is here.
   material: none
   item_type: 13
-  extra_flags: ABOS
-  wear_flags: AO
+  extra_flags: 278531
+  wear_flags: 16385
+  level: 1
+  weight: 1
+  cost: 1
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 1
-  weight: 1
-  cost: 1
   affects: []
   extra_descs:
   - keywords: coupon
-    description: "This is a coupon for a free restring of the item of your choice.\n\
-      To redeem this coupon, you must have:\n1) This coupon\n2) The item to be restrung\n\
-      \ \nRedeemable by immortals of GOD status or higher.\n"
+    description: "This is a coupon for a free restring of the item of your choice.\n\rTo
+      redeem this coupon, you must have:\n\r1) This coupon\n\r2) The item to be restrung\n\r
+      \n\rRedeemable by immortals of GOD status or higher.\n\r"
 - vnum: 10066
   name: book dead
   short_desc: '`Kthe Book of the Dead`w'
   description: A large powerful book is here.
   material: none
   item_type: 5
-  extra_flags: EG
-  wear_flags: AN
+  extra_flags: 80
+  wear_flags: 8193
+  level: 92
+  weight: 2
+  cost: 10
   values:
   - 0
   - 120
   - 120
   - 19
   - 0
-  level: 92
-  weight: 2
-  cost: 10
   affects:
-  - where: O
-    location: 19
-    modifier: 200
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 200
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 200
+    bitvector: 0
   extra_descs: []
 - vnum: 10067
   name: mohogany chair
@@ -1096,17 +1089,17 @@ objects:
   description: '`gA large, comfortable `rred leather`g chair is here, behind the desk.`w'
   material: none
   item_type: 12
-  extra_flags: O
-  wear_flags: '0'
+  extra_flags: 16384
+  wear_flags: 0
+  level: 90
+  weight: 100
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 90
-  weight: 100
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 10068
@@ -1115,17 +1108,17 @@ objects:
   description: A large mohogany desk is here, sitting in the corner by the window.
   material: none
   item_type: 12
-  extra_flags: O
-  wear_flags: '0'
+  extra_flags: 16384
+  wear_flags: 0
+  level: 0
+  weight: 200
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 200
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 10069
@@ -1134,17 +1127,17 @@ objects:
   description: A 9mm pistol is lying here
   material: none
   item_type: 5
-  extra_flags: AB
-  wear_flags: AN
+  extra_flags: 3
+  wear_flags: 8193
+  level: 100
+  weight: 15
+  cost: 1000
   values:
   - 0
   - 50
   - 50
   - 6
   - 1
-  level: 100
-  weight: 15
-  cost: 1000
   affects: []
   extra_descs: []
 - vnum: 10070
@@ -1153,26 +1146,26 @@ objects:
   description: A long piece of electricity lies here.
   material: none
   item_type: 5
-  extra_flags: AG
-  wear_flags: AN
+  extra_flags: 65
+  wear_flags: 8193
+  level: 92
+  weight: 5
+  cost: 100000
   values:
   - 0
   - 1
   - 1
   - 1
   - 80
-  level: 92
-  weight: 5
-  cost: 100000
   affects:
-  - where: O
-    location: 19
-    modifier: 5000
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 1000
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 5000
+    bitvector: 0
   extra_descs: []
 - vnum: 10071
   name: boots hermes winged
@@ -1180,17 +1173,17 @@ objects:
   description: A pair of boots with wings on them lie here.
   material: none
   item_type: 9
-  extra_flags: BI
-  wear_flags: AG
+  extra_flags: 258
+  wear_flags: 65
+  level: 92
+  weight: 2
+  cost: 10000
   values:
   - 200
   - 200
   - 200
   - 200
   - 0
-  level: 92
-  weight: 2
-  cost: 10000
   affects: []
   extra_descs: []
 - vnum: 10072
@@ -1199,17 +1192,17 @@ objects:
   description: A large rumbling shield lies here.
   material: none
   item_type: 9
-  extra_flags: BI
-  wear_flags: AJ
+  extra_flags: 258
+  wear_flags: 513
+  level: 92
+  weight: 5
+  cost: 100000
   values:
   - 200
   - 200
   - 200
   - 200
   - 0
-  level: 92
-  weight: 5
-  cost: 100000
   affects: []
   extra_descs: []
 - vnum: 10073
@@ -1218,17 +1211,17 @@ objects:
   description: '`gA large `Wwhite`g breastplate lies here.`w'
   material: none
   item_type: 9
-  extra_flags: IK
-  wear_flags: AD
+  extra_flags: 1280
+  wear_flags: 9
+  level: 92
+  weight: 10
+  cost: 500000
   values:
   - 300
   - 300
   - 300
   - 300
   - 0
-  level: 92
-  weight: 10
-  cost: 500000
   affects: []
   extra_descs: []
 - vnum: 10074
@@ -1237,17 +1230,17 @@ objects:
   description: A helmet lies here, covered in flames.
   material: none
   item_type: 9
-  extra_flags: A
-  wear_flags: AE
+  extra_flags: 1
+  wear_flags: 17
+  level: 92
+  weight: 5
+  cost: 100000
   values:
   - 200
   - 200
   - 200
   - 200
   - 0
-  level: 92
-  weight: 5
-  cost: 100000
   affects: []
   extra_descs: []
 - vnum: 10075
@@ -1256,17 +1249,17 @@ objects:
   description: A long silk robe lies here, carelessly tossed aside....HmMmmmmm....
   material: none
   item_type: 11
-  extra_flags: AFGS
-  wear_flags: AD
+  extra_flags: 262241
+  wear_flags: 9
+  level: 93
+  weight: 0
+  cost: 1000
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 93
-  weight: 0
-  cost: 1000
   affects: []
   extra_descs: []
 - vnum: 10088
@@ -1276,17 +1269,17 @@ objects:
     what's inside?
   material: none
   item_type: 15
-  extra_flags: GI
-  wear_flags: A
+  extra_flags: 320
+  wear_flags: 1
+  level: 93
+  weight: 0
+  cost: 3231996
   values:
   - 1000
   - 1
   - 0
   - 0
   - 0
-  level: 93
-  weight: 0
-  cost: 3231996
   affects: []
   extra_descs: []
 - vnum: 10089
@@ -1296,17 +1289,17 @@ objects:
   description: The *GREAT* sex you've always been looking for is here!
   material: none
   item_type: 9
-  extra_flags: GI
-  wear_flags: A
+  extra_flags: 320
+  wear_flags: 1
+  level: 5
+  weight: 1
+  cost: 100000
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 5
-  weight: 1
-  cost: 100000
   affects: []
   extra_descs: []
 - vnum: 10090
@@ -1316,41 +1309,41 @@ objects:
     `Rlove`w.
   material: none
   item_type: 8
-  extra_flags: GIMS
-  wear_flags: AB
+  extra_flags: 266560
+  wear_flags: 3
+  level: 93
+  weight: 0
+  cost: 1000000
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 93
-  weight: 0
-  cost: 1000000
   affects: []
   extra_descs:
   - keywords: ring
-    description: "A gold band with the inscription 'RL' intertwined inside, symbolizing\n\
-      their togetherness.  Through it all, love and friendship will prevail.  A\n\
-      band that promises love, hope, happiness, friendship, courage, trust, and\n\
-      above all, an unbreakable vine.  \n"
+    description: "A gold band with the inscription 'RL' intertwined inside, symbolizing\n\rtheir
+      togetherness.  Through it all, love and friendship will prevail.  A\n\rband
+      that promises love, hope, happiness, friendship, courage, trust, and\n\rabove
+      all, an unbreakable vine.  \n\r"
 - vnum: 10091
   name: radio
   short_desc: a small radio
   description: A small radio sits on a table in the corner, softly playing music.
   material: none
   item_type: 31
-  extra_flags: '0'
-  wear_flags: '0'
+  extra_flags: 0
+  wear_flags: 0
+  level: 0
+  weight: 0
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 0
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 10095
@@ -1360,337 +1353,317 @@ objects:
     on the side lie here.'
   material: none
   item_type: 9
-  extra_flags: '0'
-  wear_flags: AE
+  extra_flags: 0
+  wear_flags: 17
+  level: 92
+  weight: 1
+  cost: 0
   values:
   - 100
   - 100
   - 100
   - 100
   - 0
-  level: 92
-  weight: 1
-  cost: 0
   affects: []
   extra_descs: []
 rooms:
 - vnum: 10000
   name: Rahl's chamber
-  description: "As you look around, you wonder if anything could survive here.  All\n\
-    around you are books, papers, computer disks, and small weapons.  Just your\n\
-    typical, everyday college student's room...  \n"
-  room_flags: DPU
+  description: "As you look around, you wonder if anything could survive here.  All\n\raround
+    you are books, papers, computer disks, and small weapons.  Just your\n\rtypical,
+    everyday college student's room...  \n\r"
+  room_flags: 1081352
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: AF
+    desc:
+    keywords:
+    exit_flags: 35
     key: 0
     to_vnum: 10001
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10009
   extra_descs: []
 - vnum: 10001
   name: God's Pet Shop
-  description: "This is GOD's pet shop.  You feel a godly presence as you shop for\
-    \ a\ncompanion.  \n"
-  room_flags: DMS
+  description: "This is GOD's pet shop.  You feel a godly presence as you shop for
+    a\n\rcompanion.  \n\r"
+  room_flags: 266248
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 3
     key: 0
     to_vnum: 10020
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: AF
+    desc:
+    keywords:
+    exit_flags: 35
     key: 0
     to_vnum: 10000
   extra_descs: []
 - vnum: 10002
   name: storeroom
-  description: "As you look at the room before you, you see miles of shelves and cabinets\n\
-    covered with boxes and bags of stored items.  The dust in this room is\nalmost\
-    \ unbareable.  \n"
-  room_flags: CU
+  description: "As you look at the room before you, you see miles of shelves and cabinets\n\rcovered
+    with boxes and bags of stored items.  The dust in this room is\n\ralmost unbareable.
+    \ \n\r"
+  room_flags: 1048580
   sector: 0
-  owner: ''
+  owner:
   exits: []
   extra_descs: []
 - vnum: 10003
   name: The Tower Room
-  description: "You enter the tower chamber through a heavy oak door.  Long, narrow\n\
-    windows face the remaining three cardinal directions overlooking the forest\n\
-    beyond.  The thick stone walls are cold to the touch yet the room is warm\nand\
-    \ inviting.  Candles are scattered throughout casting a soft glow and\nfilling\
-    \ the room with the sweet scent of vanilla.  A deep blue velvet sofa\nsits between\
-    \ two of the windows and a huge canopy bed rests in the center of\nthe tower.\
-    \  Heavy drapes of ivory silk surround the feather mattress, which\nappears deep\
-    \ and comforting.  Finally, on the wall opposite the sofa is a\noil painting.\
-    \  It portrays two young girls dressed in simple grey robes. \nThey share identical\
-    \ features, and identical long, wavy red hair.  Their\nidentical green eyes peer\
-    \ through you and the expression they hold is not\nthat of sadness or joy, but\
-    \ of complete silence.  They are holding hands. \nThe title of the painting is\
-    \ emblazoned below in fine gold lettering, it\nsimply reads \"The Twins\".  \n"
-  room_flags: CDQU
+  description: "You enter the tower chamber through a heavy oak door.  Long, narrow\n\rwindows
+    face the remaining three cardinal directions overlooking the forest\n\rbeyond.
+    \ The thick stone walls are cold to the touch yet the room is warm\n\rand inviting.
+    \ Candles are scattered throughout casting a soft glow and\n\rfilling the room
+    with the sweet scent of vanilla.  A deep blue velvet sofa\n\rsits between two
+    of the windows and a huge canopy bed rests in the center of\n\rthe tower.  Heavy
+    drapes of ivory silk surround the feather mattress, which\n\rappears deep and
+    comforting.  Finally, on the wall opposite the sofa is a\n\roil painting.  It
+    portrays two young girls dressed in simple grey robes. \n\rThey share identical
+    features, and identical long, wavy red hair.  Their\n\ridentical green eyes peer
+    through you and the expression they hold is not\n\rthat of sadness or joy, but
+    of complete silence.  They are holding hands. \n\rThe title of the painting is
+    emblazoned below in fine gold lettering, it\n\rsimply reads \"The Twins\".  \n\r"
+  room_flags: 1114124
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10096
   extra_descs: []
 - vnum: 10004
   name: Awenyedd's Love Shack
-  description: |
-    A dimly lit room with quiet music and a wonderful almost vanilla smell
-    wafting through.  High stained glass windows add dapples of colour to the
-    plushly carpeted floor.  There are pillows and flowers scattered about the
-    room.
-  room_flags: AU
+  description: "A dimly lit room with quiet music and a wonderful almost vanilla smell\n\rwafting
+    through.  High stained glass windows add dapples of colour to the\n\rplushly carpeted
+    floor.  There are pillows and flowers scattered about the\n\rroom.\n\r"
+  room_flags: 1048577
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10005
   extra_descs: []
 - vnum: 10005
   name: The Bedroom
-  description: |
-    This room is darker than the main room.  The windows are stained glass
-    here as well, though smaller and higher up on the walls, creating the
-    splashes of colour over the soft-looking bed.  There are more flowers about
-    the room, and the wonderful vanilla smell is a little stronger here, coming
-    from a few candles deeply set in the walls.
-  room_flags: AJ
+  description: "This room is darker than the main room.  The windows are stained glass\n\rhere
+    as well, though smaller and higher up on the walls, creating the\n\rsplashes of
+    colour over the soft-looking bed.  There are more flowers about\n\rthe room, and
+    the wonderful vanilla smell is a little stronger here, coming\n\rfrom a few candles
+    deeply set in the walls.\n\r"
+  room_flags: 513
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10004
   extra_descs: []
 - vnum: 10009
   name: LadyLily's Bedroom
-  description: "Upon entering her beautiful bedroom, you eyes lay on the gigantic\
-    \ king\nsize bed draped with rich fabrics and surrounded by lilies, lavender,\
-    \ and\ndaffodils.  The lively , innocent scents and the cute teddybear on the\n\
-    pillow remind you of a little child's room, but when you open her\ncloset.....\
-    \  Whoa!  Hanging on bowed hangers are tight leather outfits,\nwhips, chains,\
-    \ and many boxes are on the floor.  Love letters are scattered\non the table,\
-    \ and many gifts are strewn along the couch.  Erotic Goddess\nindeed!  You wonder\
-    \ is she can get any man she wants....  And you'd love to\nfind out...  \n"
-  room_flags: DJ
+  description: "Upon entering her beautiful bedroom, you eyes lay on the gigantic
+    king\n\rsize bed draped with rich fabrics and surrounded by lilies, lavender,
+    and\n\rdaffodils.  The lively , innocent scents and the cute teddybear on the\n\rpillow
+    remind you of a little child's room, but when you open her\n\rcloset.....  Whoa!
+    \ Hanging on bowed hangers are tight leather outfits,\n\rwhips, chains, and many
+    boxes are on the floor.  Love letters are scattered\n\ron the table, and many
+    gifts are strewn along the couch.  Erotic Goddess\n\rindeed!  You wonder is she
+    can get any man she wants....  And you'd love to\n\rfind out...  \n\r"
+  room_flags: 520
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10010
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10000
   extra_descs: []
 - vnum: 10010
   name: LadyLily's Conservatory
-  description: "Glass walls and a glass ceiling frame a room of elegance.  A black\
-    \ grand\npiano is in the middle of the room, and some sheet music lays on it.\
-    \ \nOrchids, lilies, roses, tulips, and daffodils are sprinkled throughtout the\n\
-    room, and a large palm tree gives shade to the musician.  Frames are found\non\
-    \ the desk, with pictures old and new within.  A large golden frame\ncontains\
-    \ Medea's picture, and some medium size frames contain pictures of\nother friends,\
-    \ including The Demonic One and Hammer.  The sun floats into\nthe glass sanctuary,\
-    \ and a feminine voice is heard, humming softly.  \n"
-  room_flags: D
+  description: "Glass walls and a glass ceiling frame a room of elegance.  A black
+    grand\n\rpiano is in the middle of the room, and some sheet music lays on it.
+    \n\rOrchids, lilies, roses, tulips, and daffodils are sprinkled throughtout the\n\rroom,
+    and a large palm tree gives shade to the musician.  Frames are found\n\ron the
+    desk, with pictures old and new within.  A large golden frame\n\rcontains Medea's
+    picture, and some medium size frames contain pictures of\n\rother friends, including
+    The Demonic One and Hammer.  The sun floats into\n\rthe glass sanctuary, and a
+    feminine voice is heard, humming softly.  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10009
   extra_descs: []
 - vnum: 10011
   name: Rahl's Private Study
-  description: "You have entered the private sanctuary of Rahl.  Unlike his office,\
-    \ the\nstudy is quiet and orderly.  Around you, on many shelves, are books on\
-    \ all\nsubjects.  In the center of the room is a large desk with a large,\ncomfortable\
-    \ chair.  Facing the desk are several large and equally\ncomfortable chairs. \
-    \ On the desktop is an hourglass, slowly counting the\nminutes and hours since\
-    \ time began.  \n"
-  room_flags: CDOU
+  description: "You have entered the private sanctuary of Rahl.  Unlike his office,
+    the\n\rstudy is quiet and orderly.  Around you, on many shelves, are books on
+    all\n\rsubjects.  In the center of the room is a large desk with a large,\n\rcomfortable
+    chair.  Facing the desk are several large and equally\n\rcomfortable chairs.  On
+    the desktop is an hourglass, slowly counting the\n\rminutes and hours since time
+    began.  \n\r"
+  room_flags: 1064972
   sector: 0
-  owner: ''
+  owner:
   exits: []
   extra_descs: []
 - vnum: 10020
   name: Raptor's Office
-  description: "This room is practically empty, because Raptor hasn't had time to\
-    \ move in\nyet.  Enjoy the cleanliness.  It won't be this neat again for a\nlooooooooooong\
-    \ time....  Well, actually, the room has a couple things in it,\nas there is now\
-    \ a desk pushed up against the wall here.  Whoa!  Now there is\na small cot against\
-    \ another wall.  I guess Raptor decided that sleep is a\nGOOD thing!  \n"
-  room_flags: D
+  description: "This room is practically empty, because Raptor hasn't had time to
+    move in\n\ryet.  Enjoy the cleanliness.  It won't be this neat again for a\n\rlooooooooooong
+    time....  Well, actually, the room has a couple things in it,\n\ras there is now
+    a desk pushed up against the wall here.  Whoa!  Now there is\n\ra small cot against
+    another wall.  I guess Raptor decided that sleep is a\n\rGOOD thing!  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10021
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10022
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 3
     key: 0
     to_vnum: 10001
   extra_descs:
-  - keywords: cot
-    description: ''
   - keywords: desk
-    description: |
-      Here is Raptor's new desk, already has a stack of papers on it.
-      Hmm, looks like a print-out of the builder's help file....
+    description: "Here is Raptor's new desk, already has a stack of papers on it.\n\rHmm,
+      looks like a print-out of the builder's help file....\n\r"
+  - keywords: cot
+    description:
 - vnum: 10021
   name: Raptor's Den
-  description: "This is where Raptor meets with mortals outside his office.  This\
-    \ way\nthey can talk without being disturbed by people walking through, or wizards\n\
-    yelling advertisements.  \n"
-  room_flags: DJK
+  description: "This is where Raptor meets with mortals outside his office.  This
+    way\n\rthey can talk without being disturbed by people walking through, or wizards\n\ryelling
+    advertisements.  \n\r"
+  room_flags: 1544
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10020
   extra_descs: []
 - vnum: 10022
   name: Raptor's Kitchen
-  description: "Here is `RRaptor`w's kitchen, where he attempts to cook.  He can manage\n\
-    to do ok with simple stuff, so if it's complicated, he doesn't eat it. \nDon't\
-    \ open the fridge, or something might jump out at you.  \n"
-  room_flags: '0'
+  description: "Here is `RRaptor`w's kitchen, where he attempts to cook.  He can manage\n\rto
+    do ok with simple stuff, so if it's complicated, he doesn't eat it. \n\rDon't
+    open the fridge, or something might jump out at you.  \n\r"
+  room_flags: 0
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10020
   extra_descs: []
 - vnum: 10025
   name: The Immortal Conference Room
-  description: "You are in a large conference room.  In the center of the room is\
-    \ a large\ntable.  Surrounding the table are a number of comfortable, high-backed\n\
-    chairs, one for each immortal.  At the head of the table is a slightly\nlarger\
-    \ chair for the administrator.  \n"
-  room_flags: CDNU
+  description: "You are in a large conference room.  In the center of the room is
+    a large\n\rtable.  Surrounding the table are a number of comfortable, high-backed\n\rchairs,
+    one for each immortal.  At the head of the table is a slightly\n\rlarger chair
+    for the administrator.  \n\r"
+  room_flags: 1056780
   sector: 0
-  owner: ''
+  owner:
   exits: []
   extra_descs: []
 - vnum: 10096
   name: Mekare's Private Balcony
-  description: "You are standing on a wrough-iron balcony overlooking a beautiful\
-    \ garden.\nThe sky is a breathtaking shade of violet, twilight, Mekare's favorite\
-    \ time\nof day.  You close your eyes and inhale deeply...  The sweet scent of\n\
-    night-blooming jasmine overwelming you.  You hear the soft trickling of\nwater\
-    \ pouring from a nearby fountain, you feel yourself relax.  You open\nyour eyes\
-    \ and peer down into the garden, giant willow trees shelter the\narea, roses grow\
-    \ wildly...  Wisteria climbs the walls, wrapping around the\niron bars of the\
-    \ balcony.  Serveral stone statues are scattered randomly. \nYou suddenly feel\
-    \ yourself being watched and realize that these statues are\nwatching you intently.\
-    \  You feel tense, perhaps they don't like you being\nhere?  Afterall, they are\
-    \ the guardians of the lovely Vampire Queen and this\nis her private balcony.\
-    \  Perhaps you should come back when Mekare herself is\nwith you.  You eyes suddenly\
-    \ fix upon a large, dark statue of a demon with\ngoat's hoofs and huge black wings.\
-    \  You quickly realize that he wasn't there\nwhen you scanned the garden previously...\
-    \  Mekare's guardian indeed, and one\nyou'd rather not mess with.  You quickly\
-    \ pray for transportation.  \n"
-  room_flags: CJQU
+  description: "You are standing on a wrough-iron balcony overlooking a beautiful
+    garden.\n\rThe sky is a breathtaking shade of violet, twilight, Mekare's favorite
+    time\n\rof day.  You close your eyes and inhale deeply...  The sweet scent of\n\rnight-blooming
+    jasmine overwelming you.  You hear the soft trickling of\n\rwater pouring from
+    a nearby fountain, you feel yourself relax.  You open\n\ryour eyes and peer down
+    into the garden, giant willow trees shelter the\n\rarea, roses grow wildly...
+    \ Wisteria climbs the walls, wrapping around the\n\riron bars of the balcony.
+    \ Serveral stone statues are scattered randomly. \n\rYou suddenly feel yourself
+    being watched and realize that these statues are\n\rwatching you intently.  You
+    feel tense, perhaps they don't like you being\n\rhere?  Afterall, they are the
+    guardians of the lovely Vampire Queen and this\n\ris her private balcony.  Perhaps
+    you should come back when Mekare herself is\n\rwith you.  You eyes suddenly fix
+    upon a large, dark statue of a demon with\n\rgoat's hoofs and huge black wings.
+    \ You quickly realize that he wasn't there\n\rwhen you scanned the garden previously...
+    \ Mekare's guardian indeed, and one\n\ryou'd rather not mess with.  You quickly
+    pray for transportation.  \n\r"
+  room_flags: 1114628
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10003
   extra_descs: []
 - vnum: 10099
   name: The Waterfall
-  description: "You are standing at the base of a very large and beautiful waterfall.\
-    \  At\nyour feet is a large pool, collecting some of the water before it all runs\n\
-    off into the depths of the forest.  Around you is a small clearing, with a\nsoft\
-    \ carpet of green.  A few yards away, the trees of the forest stand their\nguard\
-    \ against intruders, while above you, the stars and the moon keep their\nsilent\
-    \ vigil, their ever-watchful eyes staring down from the heavens.  There\nare few\
-    \ who know the path here, but those who do will agree that this is the\nmost peaceful\
-    \ and serene place in the entire world.  \n"
-  room_flags: CDJU
+  description: "You are standing at the base of a very large and beautiful waterfall.
+    \ At\n\ryour feet is a large pool, collecting some of the water before it all
+    runs\n\roff into the depths of the forest.  Around you is a small clearing, with
+    a\n\rsoft carpet of green.  A few yards away, the trees of the forest stand their\n\rguard
+    against intruders, while above you, the stars and the moon keep their\n\rsilent
+    vigil, their ever-watchful eyes staring down from the heavens.  There\n\rare few
+    who know the path here, but those who do will agree that this is the\n\rmost peaceful
+    and serene place in the entire world.  \n\r"
+  room_flags: 1049100
   sector: 3
-  owner: ''
+  owner:
   exits: []
   extra_descs: []
 resets:
-- command: D
-  arg1: 10000
-  arg2: 0
-  arg3: 0
-- command: D
-  arg1: 10001
-  arg2: 1
-  arg3: 0
-- command: D
-  arg1: 10001
-  arg2: 2
-  arg3: 0
-- command: D
-  arg1: 10020
-  arg2: 3
-  arg3: 0
 - command: O
   arg1: 10091
   arg2: 0
@@ -1746,10 +1719,3 @@ shops:
   profit_sell: 100
   open_hour: 0
   close_hour: 24
-specials:
-- vnum: 10000
-  spec_fun: spec_breath_fire
-- vnum: 10003
-  spec_fun: spec_breath_lightning
-- vnum: 10020
-  spec_fun: spec_cast_cleric

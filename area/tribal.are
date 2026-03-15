@@ -395,9 +395,9 @@ none~
 AC BCG CDEF ACE 0
 90 20 10000
 A
-19 30
-A
 18 15
+A
+19 30
 E
 axe~
 You see the axe that once belonged to the Durin the Deathless.  It is the
@@ -476,9 +476,9 @@ none~
 B C AC ABD 0
 10 2 25
 A
-19 2
-A
 18 1
+A
+19 2
 #10211
 feather eagle necklace~
 an eagle feather necklace~
@@ -521,9 +521,9 @@ none~
 0 0 0 B 0
 10 2 70
 A
-13 5
-A
 19 1
+A
+13 5
 #10215
 key rusty~
 a rusty key~

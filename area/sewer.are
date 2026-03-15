@@ -398,9 +398,9 @@ none~
 0 C AC AC 0
 15 6 150
 A
-1 1
-A
 18 2
+A
+1 1
 E
 devil rod~
 This is indeed a mysterious rod.  It is dark black at the base but has four
@@ -473,13 +473,13 @@ AB AB AB 0 0
 A
 2 -4
 E
-writing text~
-You read the number '666'.
-~
-E
 white skull~
 The skull has two small horns in the forehead. You notice some writing on
 the inside.
+~
+E
+writing text~
+You read the number '666'.
 ~
 #7208
 stick small light~
@@ -490,13 +490,13 @@ none~
 0 0 120 0 0
 7 4 70
 E
-letters letter~
-It reads 'Hold me'.
-~
-E
 small stick~
 The small stick does not look interesting at all.  But just as you are going
 to throw it away you notice some small letters.
+~
+E
+letters letter~
+It reads 'Hold me'.
 ~
 #7209
 boots muddy~
@@ -542,9 +542,9 @@ none~
 0 AC ABC AC 0
 29 19 290
 A
-19 5
-A
 17 5
+A
+19 5
 E
 claw red redclaw~
 This big claw looks like a part of a dragon.
@@ -587,9 +587,9 @@ none~
 D D D 0 0
 29 14 290
 A
-18 1
-A
 18 3
+A
+18 1
 E
 gloves silvery~
 The gloves are made of silver threads.
@@ -676,9 +676,9 @@ none~
 A AC BC CE D
 29 20 10000
 A
-19 10
-A
 18 3
+A
+19 10
 #7298
 treasure coins~
 a huge treasure~
@@ -728,9 +728,9 @@ none~
 ACD BD BD 36 0
 31 5 310
 A
-4 2
-A
 3 2
+A
+4 2
 #7304
 red torso~
 a red dragon torso~
@@ -740,9 +740,9 @@ none~
 AD AD AD 0 0
 31 30 310
 A
-19 2
-A
 2 -1
+A
+19 2
 #7305
 leggings red~
 red dragonscale leggings~
@@ -752,9 +752,9 @@ none~
 AD AD AD 0 0
 31 17 310
 A
-19 2
-A
 2 -1
+A
+19 2
 #7306
 claws dragonclaws red~
 a pair of red dragon claws~
@@ -774,11 +774,11 @@ none~
 AD AD AD 0 0
 31 15 310
 A
-4 2
+2 -1
 A
 19 2
 A
-2 -1
+4 2
 #7308
 shield red~
 the red dragon shield~
@@ -798,9 +798,9 @@ none~
 AD AD AD 0 0
 31 40 310
 A
-2 -1
-A
 19 2
+A
+2 -1
 #7310
 arm guards red~
 red dragon arm guards~
@@ -810,9 +810,9 @@ none~
 AD AD AD 0 0
 31 40 310
 A
-2 -1
-A
 19 2
+A
+2 -1
 #0
 
 
@@ -851,12 +851,12 @@ get back into the inner lair through the stone door which is east.
 ~
 0 12 0
 E
-writing~
-You read the number '666'.
-~
-E
 door stone~
 This is a heavy black stone door it looks very solid.
+~
+E
+writing~
+You read the number '666'.
 ~
 D1
 You look back through the opening into the inner lair.
@@ -889,17 +889,17 @@ are a wooden door.
 ~
 0 8 1
 E
-torch sconce~
-The torch is bolted to the sconce and the sconce to the wall.
+skull skulls bones decay~
+On all the skulls you notice that there is a three inch hole in the 
+forehead. All the bones are broken and old.
 ~
 E
 slime~
 The slime is slimy and uninteresting.
 ~
 E
-skull skulls bones decay~
-On all the skulls you notice that there is a three inch hole in the 
-forehead. All the bones are broken and old.
+torch sconce~
+The torch is bolted to the sconce and the sconce to the wall.
 ~
 D0
 You can see the inner lair.
@@ -924,17 +924,17 @@ see a lot of slime. On the wall is a torch sitting in its sconce.
 ~
 0 8 1
 E
-torch sconce~
-The torch is bolted to the sconce and the sconce to the wall.
+skull skulls bones decay~
+On all the skulls you notice that there is a three inch hole in the 
+forehead. All the bones are broken and old.
 ~
 E
 slime~
 The slime is slimy and uninteresting.
 ~
 E
-skull skulls bones decay~
-On all the skulls you notice that there is a three inch hole in the 
-forehead. All the bones are broken and old.
+torch sconce~
+The torch is bolted to the sconce and the sconce to the wall.
 ~
 D0
 You see another part of the lair.
@@ -959,17 +959,17 @@ see a lot of slime. On the wall is a torch sitting in its sconce.
 ~
 0 8 1
 E
-torch sconce~
-The torch is bolted to the sconce and the sconce to the wall.
+skull skulls bones decay~
+On all the skulls you notice that there is a three inch hole in the 
+forehead. All the bones are broken and old.
 ~
 E
 slime~
 The slime is slimy and uninteresting.
 ~
 E
-skull skulls bones decay~
-On all the skulls you notice that there is a three inch hole in the 
-forehead. All the bones are broken and old.
+torch sconce~
+The torch is bolted to the sconce and the sconce to the wall.
 ~
 D0
 You see another part of the lair.
@@ -994,17 +994,17 @@ see a lot of slime. On the wall is a torch sitting in its sconce.
 ~
 0 8 1
 E
-torch sconce~
-The torch is bolted to the sconce and the sconce to the wall.
+skull skulls bones decay~
+On all the skulls you notice that there is a three inch hole in the 
+forehead. All the bones are broken and old.
 ~
 E
 slime~
 The slime is slimy and uninteresting.
 ~
 E
-skull skulls bones decay~
-On all the skulls you notice that there is a three inch hole in the 
-forehead. All the bones are broken and old.
+torch sconce~
+The torch is bolted to the sconce and the sconce to the wall.
 ~
 D2
 You see another part of the lair.
@@ -1024,16 +1024,16 @@ see a lot of slime. On the wall is a torch sitting in its sconce.
 ~
 0 12 1
 E
-torch sconce~
-The torch is bolted to the sconce and the sconce to the wall.
+bones decay~
+All the bones are broken and old.
 ~
 E
 slime~
 The slime is slimy and uninteresting.
 ~
 E
-bones decay~
-All the bones are broken and old.
+torch sconce~
+The torch is bolted to the sconce and the sconce to the wall.
 ~
 D0
 You see another part of the lair.
@@ -1058,17 +1058,17 @@ see a lot of slime. On the wall is a torch sitting in its sconce.
 ~
 0 8 1
 E
-torch sconce~
-The torch is bolted to the sconce and the sconce to the wall.
+skull skulls bones decay~
+On all the skulls you notice that there is a three inch hole in the 
+forehead. All the bones are broken and old.
 ~
 E
 slime~
 The slime is slimy and uninteresting.
 ~
 E
-skull skulls bones decay~
-On all the skulls you notice that there is a three inch hole in the 
-forehead. All the bones are broken and old.
+torch sconce~
+The torch is bolted to the sconce and the sconce to the wall.
 ~
 D0
 You see another part of the lair.
@@ -1248,12 +1248,12 @@ you see another drain.
 ~
 0 9 4
 E
-hole~
-Through the hole you can just make out a very small room.
-~
-E
 water~
 The water is dirty but it looks like you would be able to swim in it.
+~
+E
+hole~
+Through the hole you can just make out a very small room.
 ~
 D0
 You see the drain running down into some water.
@@ -1536,14 +1536,14 @@ door.
 ~
 0 9 1
 E
-triangle~
-The triangle is filled with small symbols in a language you have
-never seen before.
-~
-E
 altar~
 This altar are very special. Faces are smiling from it. There
 is a triangle in top of it.
+~
+E
+triangle~
+The triangle is filled with small symbols in a language you have
+never seen before.
 ~
 D0
 A beam of red light seeps through a hole in the door.
@@ -1562,16 +1562,16 @@ through an open black hole to the east. To the south there is a round door.
 ~
 0 8 1
 E
-walls~
-The walls look alive.
+small round door~
+The door is completely round without a keyhole.
 ~
 E
 red light~
 The red light glows from the walls.
 ~
 E
-small round door~
-The door is completely round without a keyhole.
+walls~
+The walls look alive.
 ~
 D1
 The hole seems more black than the night. It is appears to be "eating" the
@@ -1643,14 +1643,14 @@ see no exits at all!  Skeletons are lying all over the floor.
 ~
 0 12 1
 E
-writing wall~
-The writing says 'A pray to the GODS will not be heard, though
-the only exit is death..... Mother, I love you'.
-~
-E
 skeletons~
 The skeletons looks like they had suffered the death of hunger.
 One of them looks like he has written something at the wall.
+~
+E
+writing wall~
+The writing says 'A pray to the GODS will not be heard, though
+the only exit is death..... Mother, I love you'.
 ~
 S
 #7285
@@ -1661,15 +1661,15 @@ box, covered with dust. To the south you can just make out a small exit.
 ~
 0 8 1
 E
-big metal box~
-The metal box is covered with dust. You notice that is once has been
-filled with coal, as you see some of them.
-~
-E
 skeletons~
 When you look at the skeletons, you can see that they once had been in great 
 pain. They are hanging in their arms, and some of them has been killed
 with a sharp instrument.
+~
+E
+big metal box~
+The metal box is covered with dust. You notice that is once has been
+filled with coal, as you see some of them.
 ~
 D2
 To dark to tell.
@@ -1707,10 +1707,8 @@ A large portcullis blocks your way to the north.
 ~
 0 12 2
 E
-stairs staircase~
-This looks as if it has been standing here for at least 12 centuries. It's 
-Very worn and cracks in the surface mingle with the cores of mineral that
-penetrates the rock from which these steps are chiselled.
+portcullis gate~
+This seems like an exceptionally heavy gate, made of thick iron.
 ~
 E
 torch light~
@@ -1718,8 +1716,10 @@ This VERY old torch looks as if it has burned for ages, yet no traces of
 the searing flame can be seen on it!
 ~
 E
-portcullis gate~
-This seems like an exceptionally heavy gate, made of thick iron.
+stairs staircase~
+This looks as if it has been standing here for at least 12 centuries. It's 
+Very worn and cracks in the surface mingle with the cores of mineral that
+penetrates the rock from which these steps are chiselled.
 ~
 S
 #7399
@@ -1806,13 +1806,13 @@ awful, it is rotten. To the west you can see some light.
 ~
 0 9 2
 E
-worms~
-The worms are purple. They do not look edible.
-~
-E
 mud~
 When you examine the mud, you notice small worms crawling
 around.
+~
+E
+worms~
+The worms are purple. They do not look edible.
 ~
 D1
 To the east the tunnel still goes downwards.
@@ -1863,13 +1863,13 @@ south you see a grey block.
 ~
 0 8 1
 E
+socket~
+The socket looks like the work of a dwarf. It is VERY beautiful.
+~
+E
 crystal globe~
 The crystal globe is glowing with a pulsing light. It
 looks like there is smoke inside it.
-~
-E
-socket~
-The socket looks like the work of a dwarf. It is VERY beautiful.
 ~
 D0
 You see a round stone door.
@@ -2179,11 +2179,9 @@ north and east.
 ~
 0 9 1
 E
-dragon statue~
-it looks like a silver dragon. It is nailed onto the table.
-The dragon sits on a red dragon that looks dead. But the
-eyes of the red dragon is glowing pulsating red. You feel
-drained.
+table~
+On the table there is dust, in the center there is a small statue of a
+Dragon sleeping.
 ~
 E
 skeleton skeletons~
@@ -2191,9 +2189,11 @@ You can see that they have been killed in some sort of way. Not
 by sword or club.
 ~
 E
-table~
-On the table there is dust, in the center there is a small statue of a
-Dragon sleeping.
+dragon statue~
+it looks like a silver dragon. It is nailed onto the table.
+The dragon sits on a red dragon that looks dead. But the
+eyes of the red dragon is glowing pulsating red. You feel
+drained.
 ~
 D0
 the northern part of the lair.
@@ -2266,23 +2266,23 @@ can see a stone head hanging on the walls.
 ~
 0 9 1
 E
-blue~
-This looks like a good dragon
-~
-E
-red~
-This looks like a neutral dragon
+head heads~
+When you study the faces of the heads you see that it
+is faces of dragons. The face to the north is red, the
+face to the east is green and the face to the south is
+blue.
 ~
 E
 green~
 This looks like a evil dragon
 ~
 E
-head heads~
-When you study the faces of the heads you see that it
-is faces of dragons. The face to the north is red, the
-face to the east is green and the face to the south is
-blue.
+red~
+This looks like a neutral dragon
+~
+E
+blue~
+This looks like a good dragon
 ~
 D1
 you see nothing special.
@@ -3019,15 +3019,15 @@ sewer! The pipes leads north, south and east.
 ~
 0 9 5
 E
+mud~
+It's dark as tar and looks like something out of a toilet, on top of THAT
+the smell is absolutely OVERWHELMING.
+~
+E
 sediment~
 It's NOT the kind of matter that would concern you too much, normally, but
 as you are in the middle of it, it just might become your main concern.
 REAL YUCKY!
-~
-E
-mud~
-It's dark as tar and looks like something out of a toilet, on top of THAT
-the smell is absolutely OVERWHELMING.
 ~
 D0
 North. Sludge and sediment fills this corridor of the sewer that leads
@@ -4350,9 +4350,10 @@ darkness. The ledge seems to have an odd-looking edge here.
 ~
 0 13 5
 E
-rock~
-It looks as if it can be opened in a door-like fashion. Maybe this will lead
-the way down.
+edge odd-looking~
+This is truly a weird piece of craftsmanship in your eyes. The edge seems to
+form a step leading down, but WHAT a STEP DOWN. The Abyss opens down there 
+leading to seemingly total destruction.
 ~
 E
 step~
@@ -4360,10 +4361,9 @@ A small rock sticks out right under it, otherwise the way is DOWN, DOWN, and
 SPLAT!!!
 ~
 E
-edge odd-looking~
-This is truly a weird piece of craftsmanship in your eyes. The edge seems to
-form a step leading down, but WHAT a STEP DOWN. The Abyss opens down there 
-leading to seemingly total destruction.
+rock~
+It looks as if it can be opened in a door-like fashion. Maybe this will lead
+the way down.
 ~
 D0
 North. The ledge leads further north.
@@ -4478,16 +4478,16 @@ from here into darkness.
 ~
 0 13 5
 E
-soil soft earth~
-You can just make out the outline of a trapdoor here in the soil. The earth
-is probably there to conceal a secret entrance. This looks as if it leads down
-into the seemingly solid rock face of the ledge.
-~
-E
 ground ledge rock~
 The ground here seems a little different from all the other ledges along the
 Abyss. There's a kind of soft soil on this ledge, maybe you should look 
 carefully at this. It seems to be of some interest.
+~
+E
+soil soft earth~
+You can just make out the outline of a trapdoor here in the soil. The earth
+is probably there to conceal a secret entrance. This looks as if it leads down
+into the seemingly solid rock face of the ledge.
 ~
 D2
 ~

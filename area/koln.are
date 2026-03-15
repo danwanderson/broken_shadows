@@ -305,9 +305,9 @@ none~
 0 AC AC A 0
 20 9 20000
 A
-19 2
-A
 18 2
+A
+19 2
 #14402
 dwarven plate mail~
 dwarven plate mail~
@@ -325,9 +325,9 @@ none~
 A ABC AC CE A
 30 6 2500
 A
-19 3
-A
 18 1
+A
+19 3
 E
 sword~
 The sword of divine power is here waiting to be commanded.  It has the
@@ -374,9 +374,9 @@ none~
 C BD AB ABDE 0
 25 10 400
 A
-18 1
-A
 19 2
+A
+18 1
 #14409
 iron key~
 a great iron key~
@@ -394,11 +394,11 @@ none~
 DGH DGH DGH DGH 0
 93 0 300000
 A
-14 200
+1 5
 A
 3 5
 A
-1 5
+14 200
 #14411
 mug grog~
 a mug of grog~
@@ -464,9 +464,9 @@ none~
 B C AD A D
 30 3 0
 A
-19 3
-A
 18 2
+A
+19 3
 #14419
 knife bloodletter~
 a knife named "Bloodletter"~
@@ -476,9 +476,9 @@ none~
 B BC ABC B 0
 35 2 200
 A
-19 4
-A
 18 1
+A
+19 4
 #14420
 bladed whip~
 a long, bladed chain whip~
@@ -496,9 +496,9 @@ none~
 A AC ABC A D
 30 10 300
 A
-18 2
-A
 19 2
+A
+18 2
 #14422
 altar~
 the altar~
@@ -530,11 +530,11 @@ none~
 0 0 999 0 0
 30 1 250
 A
-25 1000
+12 30
 A
 4 2
 A
-12 30
+25 1000
 #14425
 ring dark shiny~
 the ring of the dark~
@@ -544,13 +544,13 @@ none~
 BD BD BD B 0
 30 1 300
 A
-25 -1000
-A
-1 1
+4 -2
 A
 19 6
 A
-4 -2
+1 1
+A
+25 -1000
 #14426
 mushrooms shrooms~
 some small dried mushrooms~
@@ -578,9 +578,9 @@ none~
 A BC AD AB D
 40 11 400
 A
-19 3
-A
 18 2
+A
+19 3
 #14429
 armor battle dwarven~
 dwarven battle armor~
@@ -600,9 +600,9 @@ none~
 AC AC ABC ADE F
 30 20 300
 A
-18 -2
-A
 19 4
+A
+18 -2
 #14431
 dwarven leg plates~
 a pair of dwarven leg plates~
@@ -770,8 +770,8 @@ wall.  There are some scratches on a stone in the corner of the wall.
 ~
 0 8 0
 E
-stone~
-You probably could move the stone.
+east~
+You see a loose stone that might be easily moved.
 ~
 E
 scratches~
@@ -779,8 +779,8 @@ You see some scratches around a large stone in the corner of the wall.
 The stone probably be moved if you needed to.  
 ~
 E
-east~
-You see a loose stone that might be easily moved.
+stone~
+You probably could move the stone.
 ~
 D1
 ~

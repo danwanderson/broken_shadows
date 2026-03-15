@@ -10,789 +10,780 @@ mobiles:
 - vnum: 6000
   keywords: john lumberjack
   short_desc: John the Lumberjack
-  long_desc: |
-    John the Lumberjack is here, looking for some trees to chop down.
-  description: |
-    He is six feet tall and looks quite strong, muscles bulging under his heavy,
-    chequered shirt.  His features are worn with hard work and his expression is
-    one of a peaceful man leading a simple life.
+  long_desc: "John the Lumberjack is here, looking for some trees to chop down.\n\r"
+  description: "He is six feet tall and looks quite strong, muscles bulging under
+    his heavy,\n\rchequered shirt.  His features are worn with hard work and his expression
+    is\n\rone of a peaceful man leading a simple life.\n\r"
   race: Human
-  act: AGT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524352
+  affected_by: 0
+  affected2_by: 0
   alignment: 350
   clan: 0
   level: 4
   hitroll: 0
   hit:
-    number: 1
-    type: 10
-    bonus: 33
+  - 1
+  - 10
+  - 33
   mana:
-    number: 4
-    type: 10
-    bonus: 100
+  - 4
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 7
-    bonus: 2
+  - 1
+  - 7
+  - 2
   dam_type: 11
   ac:
     pierce: 7
     bash: 7
     slash: 7
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 5
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6002
   keywords: bear
   short_desc: the brown bear
-  long_desc: |
-    A big, brown, angry-looking bear is here.
-  description: |
-    The bear is a big, brown, furry animal with very large claws and very sharp
-    teeth.  It doesn't resemble those cute little thingies from toy shops at all.
+  long_desc: "A big, brown, angry-looking bear is here.\n\r"
+  description: "The bear is a big, brown, furry animal with very large claws and very
+    sharp\n\rteeth.  It doesn't resemble those cute little thingies from toy shops
+    at all.\n\r"
   race: bear
-  act: AFGT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524384
+  affected_by: 0
+  affected2_by: 0
   alignment: -50
   clan: 0
   level: 9
   hitroll: 0
   hit:
-    number: 2
-    type: 27
-    bonus: 83
+  - 2
+  - 27
+  - 83
   mana:
-    number: 9
-    type: 10
-    bonus: 100
+  - 9
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 7
-    bonus: 6
+  - 2
+  - 7
+  - 6
   dam_type: 11
   ac:
     pierce: 4
     bash: 4
     slash: 4
     exotic: 7
-  off_flags: DEO
-  imm_flags: '0'
-  res_flags: EI
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 4
   default_pos: 8
   sex: 0
   gold: 0
-  form: AGV
-  parts: ABCDEFHJKUV
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6003
   keywords: rabbit
   short_desc: the ferocious rabbit
-  long_desc: |
-    A ferocious rabbit is here, glaring hungrily at you.
-  description: |
-    This small, furry creature with long ears and big feet has been attacked by
-    the dreaded rabbit rabies, a horrible disease that turns helpless and innocent
-    rabbits into ferocious and bloodthirsty monsters.
+  long_desc: "A ferocious rabbit is here, glaring hungrily at you.\n\r"
+  description: "This small, furry creature with long ears and big feet has been attacked
+    by\n\rthe dreaded rabbit rabies, a horrible disease that turns helpless and innocent\n\rrabbits
+    into ferocious and bloodthirsty monsters.\n\r"
   race: rabbit
-  act: AFGT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524384
+  affected_by: 0
+  affected2_by: 0
   alignment: -150
   clan: 0
   level: 2
   hitroll: 0
   hit:
-    number: 1
-    type: 2
-    bonus: 16
+  - 1
+  - 2
+  - 16
   mana:
-    number: 2
-    type: 10
-    bonus: 100
+  - 2
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 3
-    bonus: 1
+  - 1
+  - 3
+  - 1
   dam_type: 11
   ac:
     pierce: 8
     bash: 8
     slash: 8
     exotic: 9
-  off_flags: FH
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 4
   default_pos: 8
   sex: 0
   gold: 0
-  form: AGV
-  parts: ACDEFHJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6004
   keywords: deer
   short_desc: the fallow deer
-  long_desc: |
-    A fallow deer is grazing peacefully here.
-  description: |
-    She is a graceful creature on long, slender legs, and with large, brown eyes
-    looking back at you with an air of watchful interest.
+  long_desc: "A fallow deer is grazing peacefully here.\n\r"
+  description: "She is a graceful creature on long, slender legs, and with large,
+    brown eyes\n\rlooking back at you with an air of watchful interest.\n\r"
   race: Human
-  act: ABEGIT
-  affected_by: D
-  affected2_by: '0'
+  act: 524626
+  affected_by: 8
+  affected2_by: 0
   alignment: 350
   clan: 0
   level: 2
   hitroll: 0
   hit:
-    number: 1
-    type: 2
-    bonus: 16
+  - 1
+  - 2
+  - 16
   mana:
-    number: 2
-    type: 10
-    bonus: 100
+  - 2
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 3
-    bonus: 1
+  - 1
+  - 3
+  - 1
   dam_type: 11
   ac:
     pierce: 8
     bash: 8
     slash: 8
     exotic: 9
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6005
   keywords: fox
   short_desc: the brown fox
-  long_desc: |
-    A brown fox is here, looking for some rabbits to chew up.
-  description: |
-    It is a large fox with beautiful, red-brown fur and a long, thick brush.
+  long_desc: "A brown fox is here, looking for some rabbits to chew up.\n\r"
+  description: "It is a large fox with beautiful, red-brown fur and a long, thick
+    brush.\n\r"
   race: fox
-  act: AGT
-  affected_by: Z
-  affected2_by: '0'
+  act: 524352
+  affected_by: 0
+  affected2_by: 0
   alignment: -50
   clan: 0
   level: 1
   hitroll: 0
   hit:
-    number: 1
-    type: 2
-    bonus: 6
+  - 1
+  - 2
+  - 6
   mana:
-    number: 1
-    type: 10
-    bonus: 100
+  - 1
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 2
-    bonus: 0
+  - 1
+  - 2
+  - 0
   dam_type: 11
   ac:
     pierce: 9
     bash: 9
     slash: 9
     exotic: 9
-  off_flags: FH
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: AGV
-  parts: ACDEFHJKQV
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6100
   keywords: warg vicious
   short_desc: the vicious warg
-  long_desc: |
-    A vicious warg is here, snarling angrily at you.
-  description: |
-    It is an exceptionally large wolf with thick, black fur.  Saliva is dripping
-    quickly from its long, white fangs.  It looks quite dangerous and very angry.
+  long_desc: "A vicious warg is here, snarling angrily at you.\n\r"
+  description: "It is an exceptionally large wolf with thick, black fur.  Saliva is
+    dripping\n\rquickly from its long, white fangs.  It looks quite dangerous and
+    very angry.\n\r"
   race: Human
-  act: AFGT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524384
+  affected_by: 0
+  affected2_by: 0
   alignment: -350
   clan: 0
   level: 5
   hitroll: 0
   hit:
-    number: 1
-    type: 16
-    bonus: 42
+  - 1
+  - 16
+  - 42
   mana:
-    number: 5
-    type: 10
-    bonus: 100
+  - 5
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 4
-    bonus: 3
+  - 2
+  - 4
+  - 3
   dam_type: 7
   ac:
     pierce: 6
     bash: 6
     slash: 6
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6101
   keywords: warg ferocious
   short_desc: the ferocious warg
-  long_desc: |
-    A ferocious warg is here, snarling angrily at you.
-  description: |
-    It is an exceptionally large wolf with thick, black fur.  Saliva is dripping
-    quickly from its long, white fangs.  It looks quite dangerous and very angry.
+  long_desc: "A ferocious warg is here, snarling angrily at you.\n\r"
+  description: "It is an exceptionally large wolf with thick, black fur.  Saliva is
+    dripping\n\rquickly from its long, white fangs.  It looks quite dangerous and
+    very angry.\n\r"
   race: Human
-  act: AFGT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524384
+  affected_by: 0
+  affected2_by: 0
   alignment: -350
   clan: 0
   level: 4
   hitroll: 0
   hit:
-    number: 1
-    type: 10
-    bonus: 33
+  - 1
+  - 10
+  - 33
   mana:
-    number: 4
-    type: 10
-    bonus: 100
+  - 4
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 7
-    bonus: 2
+  - 1
+  - 7
+  - 2
   dam_type: 7
   ac:
     pierce: 7
     bash: 7
     slash: 7
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6102
   keywords: wolf grey
   short_desc: the large, grey wolf
-  long_desc: |
-    A large, grey wolf is here, glaring hungrily at you.
-  description: |
-    The large, grey wolf eyes you with interest while licking its lips.
+  long_desc: "A large, grey wolf is here, glaring hungrily at you.\n\r"
+  description: "The large, grey wolf eyes you with interest while licking its lips.\n\r"
   race: Wolf
-  act: AFGT
-  affected_by: Z
-  affected2_by: '0'
+  act: 524384
+  affected_by: 0
+  affected2_by: 0
   alignment: -150
   clan: 0
   level: 3
   hitroll: 0
   hit:
-    number: 1
-    type: 6
-    bonus: 23
+  - 1
+  - 6
+  - 23
   mana:
-    number: 3
-    type: 10
-    bonus: 100
+  - 3
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 5
-    bonus: 1
+  - 1
+  - 5
+  - 1
   dam_type: 7
   ac:
     pierce: 8
     bash: 8
     slash: 8
     exotic: 9
-  off_flags: FH
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: AGV
-  parts: ACDEFJKQV
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6103
   keywords: wolf black
   short_desc: the large, black wolf
-  long_desc: |
-    A large, black wolf is here, glaring hungrily at you.
-  description: |
-    The large, black wolf eyes you with interest while licking its lips.
+  long_desc: "A large, black wolf is here, glaring hungrily at you.\n\r"
+  description: "The large, black wolf eyes you with interest while licking its lips.\n\r"
   race: Wolf
-  act: AFGT
-  affected_by: Z
-  affected2_by: '0'
+  act: 524384
+  affected_by: 0
+  affected2_by: 0
   alignment: -150
   clan: 0
   level: 2
   hitroll: 0
   hit:
-    number: 1
-    type: 2
-    bonus: 16
+  - 1
+  - 2
+  - 16
   mana:
-    number: 2
-    type: 10
-    bonus: 100
+  - 2
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 3
-    bonus: 1
+  - 1
+  - 3
+  - 1
   dam_type: 11
   ac:
     pierce: 8
     bash: 8
     slash: 8
     exotic: 9
-  off_flags: FH
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: AGV
-  parts: ACDEFJKQV
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6112
   keywords: dragon green
   short_desc: the huge, green dragon
-  long_desc: |
-    A huge green dragon is here, its narrow yellow eyes glowing with rage.
-  description: |
-    This enormous winged serpent has dark green scales covering most of its
-    colossal body.  Numerous holes in its heavy wings tell of many fights as does
-    the nicks in the horns on its head.  It smells as disgusting as only dragons
-    do.
+  long_desc: "A huge green dragon is here, its narrow yellow eyes glowing with rage.\n\r"
+  description: "This enormous winged serpent has dark green scales covering most of
+    its\n\rcolossal body.  Numerous holes in its heavy wings tell of many fights as
+    does\n\rthe nicks in the horns on its head.  It smells as disgusting as only dragons\n\rdo.\n\r"
   race: Human
-  act: ABFGT
-  affected_by: D
-  affected2_by: '0'
+  act: 524386
+  affected_by: 8
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 26
   hitroll: 0
   hit:
-    number: 10
-    type: 45
-    bonus: 345
+  - 10
+  - 45
+  - 345
   mana:
-    number: 26
-    type: 10
-    bonus: 100
+  - 26
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 9
-    bonus: 13
+  - 5
+  - 9
+  - 13
   dam_type: 7
   ac:
     pierce: -6
     bash: -6
     slash: -6
     exotic: 1
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 5000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_breath_gas
 - vnum: 6115
   keywords: shargugh brownie
   short_desc: Shargugh
-  long_desc: |
-    Shargugh the Forest Brownie is here, grinning broadly at you.
-  description: |
-    This little fellow is only three foot tall with wild matted brown hair and long
-    tangled brown beard.  He wears ragged brown and green clothing and looks as if
-    he is having great fun.
+  long_desc: "Shargugh the Forest Brownie is here, grinning broadly at you.\n\r"
+  description: "This little fellow is only three foot tall with wild matted brown
+    hair and long\n\rtangled brown beard.  He wears ragged brown and green clothing
+    and looks as if\n\rhe is having great fun.\n\r"
   race: Human
-  act: ACEHT
-  affected_by: BDP
-  affected2_by: '0'
+  act: 524436
+  affected_by: 32778
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 10
   hitroll: 0
   hit:
-    number: 2
-    type: 33
-    bonus: 96
+  - 2
+  - 33
+  - 96
   mana:
-    number: 10
-    type: 10
-    bonus: 100
+  - 10
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 5
-    bonus: 7
+  - 3
+  - 5
+  - 7
   dam_type: 3
   ac:
     pierce: 3
     bash: 3
     slash: 3
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 100
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 6116
   keywords: elder druid
   short_desc: the elder druid
-  long_desc: |
-    The elder druid is here ... he looks very upset at your presence in his home.
-  description: |
-    The druid looks quite old.  You would think him venerable, but you know
-    he would be a tough foe.
+  long_desc: "The elder druid is here ... he looks very upset at your presence in
+    his home.\n\r"
+  description: "The druid looks quite old.  You would think him venerable, but you
+    know\n\rhe would be a tough foe.\n\r"
   race: Human
-  act: ABCFT
-  affected_by: D
-  affected2_by: '0'
+  act: 524326
+  affected_by: 8
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 17
   hitroll: 0
   hit:
-    number: 5
-    type: 39
-    bonus: 187
+  - 5
+  - 39
+  - 187
   mana:
-    number: 17
-    type: 10
-    bonus: 100
+  - 17
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 7
-    bonus: 10
+  - 4
+  - 7
+  - 10
   dam_type: 11
   ac:
     pierce: 0
     bash: 0
     slash: 0
     exotic: 4
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 500
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 objects:
+- vnum: 6155
+  name: morning-star star morning
+  short_desc: the morning star
+  description: The morning star is here collecting dust while it lies on the ground.
+  material: none
+  item_type: 5
+  extra_flags: 64
+  wear_flags: 8193
+  level: 17
+  weight: 10
+  cost: 170
+  values:
+  - 4
+  - 5
+  - 4
+  - 8
+  - 0
+  affects: []
+  extra_descs: []
 - vnum: 6000
   name: axe lumber
   short_desc: a lumber axe
   description: A heavy lumber axe lies here.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 4
+  weight: 10
+  cost: 40
   values:
   - 5
   - 2
   - 5
   - 1
   - 0
-  level: 4
-  weight: 10
-  cost: 40
   affects: []
   extra_descs:
   - keywords: axe lumber
-    description: |
-      It is a heavy axe of the kind lumberjacks use to chop down trees.
+    description: "It is a heavy axe of the kind lumberjacks use to chop down trees.\n\r"
 - vnum: 6001
   name: shirt
   short_desc: a chequered shirt
   description: A chequered shirt lies here.
   material: none
   item_type: 9
-  extra_flags: '0'
-  wear_flags: AD
+  extra_flags: 0
+  wear_flags: 9
+  level: 4
+  weight: 2
+  cost: 40
   values:
   - 3
   - 3
   - 3
   - 0
   - 0
-  level: 4
-  weight: 2
-  cost: 40
   affects: []
   extra_descs:
   - keywords: shirt
-    description: |
-      It is an extra large, chequered shirt made from heavy cloth.
+    description: "It is an extra large, chequered shirt made from heavy cloth.\n\r"
 - vnum: 6002
   name: boots
   short_desc: a pair of leather boots
   description: A pair of leather boots lies here.
   material: none
   item_type: 9
-  extra_flags: '0'
-  wear_flags: AG
+  extra_flags: 0
+  wear_flags: 65
+  level: 4
+  weight: 4
+  cost: 40
   values:
   - 3
   - 3
   - 3
   - 0
   - 0
-  level: 4
-  weight: 4
-  cost: 40
   affects: []
   extra_descs:
   - keywords: boots
-    description: |
-      They are fashioned from rough leather that has been oiled frequently to make
-      it stay waterproof.  They look worn but quite functional.
+    description: "They are fashioned from rough leather that has been oiled frequently
+      to make\n\rit stay waterproof.  They look worn but quite functional.\n\r"
 - vnum: 6003
   name: fireplace
   short_desc: a fireplace
   description: A fireplace made from stone is set against the east wall.
   material: none
   item_type: 15
-  extra_flags: '0'
-  wear_flags: '0'
+  extra_flags: 0
+  wear_flags: 0
+  level: 2
+  weight: 0
+  cost: 20
   values:
   - 200
   - 0
   - 0
   - 0
   - 0
-  level: 2
-  weight: 0
-  cost: 20
   affects: []
   extra_descs:
   - keywords: fireplace
-    description: |
-      It is fashioned from stones of various sizes that have been stacked on top of
-      each other and fastened with mortar.  Its chimney is constructed likewise and
-      leads the smoke out through the low cabin ceiling.
+    description: "It is fashioned from stones of various sizes that have been stacked
+      on top of\n\reach other and fastened with mortar.  Its chimney is constructed
+      likewise and\n\rleads the smoke out through the low cabin ceiling.\n\r"
 - vnum: 6005
   name: chest
   short_desc: a wooden chest
   description: A wooden chest stands in the corner.
   material: none
   item_type: 15
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 2
+  weight: 40
+  cost: 20
   values:
   - 100
   - 13
   - 6006
   - 0
   - 0
-  level: 2
-  weight: 40
-  cost: 20
   affects: []
   extra_descs:
   - keywords: chest
-    description: |
-      It is a robust chest made from short, heavy planks that have been fastened
-      together with tenons.  It is equipped with a simple brass lock.
+    description: "It is a robust chest made from short, heavy planks that have been
+      fastened\n\rtogether with tenons.  It is equipped with a simple brass lock.\n\r"
 - vnum: 6006
   name: key
   short_desc: a small brass key
   description: A small brass key lies here.
   material: none
   item_type: 18
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 2
+  weight: 1
+  cost: 20
   values:
   - 6005
   - 0
   - 0
   - 0
   - 0
-  level: 2
-  weight: 1
-  cost: 20
   affects: []
   extra_descs:
   - keywords: key
-    description: |
-      It is a small, simple brass key with no inscriptions or marks of any kind.
+    description: "It is a small, simple brass key with no inscriptions or marks of
+      any kind.\n\r"
 - vnum: 6007
   name: coins gold
   short_desc: a heap of gold coins
   description: Some gold coins lie piled up in a heap on the floor.
   material: none
   item_type: 20
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 2
+  weight: 0
+  cost: 20
   values:
   - 20
   - 0
   - 0
   - 0
   - 0
-  level: 2
-  weight: 0
-  cost: 20
   affects: []
   extra_descs:
   - keywords: coins
-    description: |
-      The coins seem to be gold.  They are obviously valuable.
+    description: "The coins seem to be gold.  They are obviously valuable.\n\r"
 - vnum: 6010
   name: blackberries
   short_desc: some blackberries
   description: Some blackberries grow on a bush nearby.
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 1
+  cost: 0
   values:
   - 3
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 0
   affects: []
   extra_descs:
   - keywords: blackberries
-    description: |
-      They look very tasty indeed.
+    description: "They look very tasty indeed.\n\r"
 - vnum: 6011
   name: mushroom
   short_desc: a mushroom
   description: A small mushroom grows nearby.
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 1
+  cost: -10
   values:
   - 6
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: -10
   affects: []
   extra_descs:
   - keywords: mushroom
-    description: |
-      It is a tasty little thing.
+    description: "It is a tasty little thing.\n\r"
 - vnum: 6013
   name: water barrel
   short_desc: the barrel
   description: A water barrel has been left here.
   material: none
   item_type: 17
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 2
+  weight: 65
+  cost: 20
   values:
   - 50
   - 50
   - 0
   - 0
   - 0
-  level: 2
-  weight: 65
-  cost: 20
   affects: []
   extra_descs: []
 - vnum: 6102
@@ -801,45 +792,43 @@ objects:
   description: A colossal tree blocks the way westwards.
   material: none
   item_type: 15
-  extra_flags: '0'
-  wear_flags: '0'
+  extra_flags: 0
+  wear_flags: 0
+  level: 8
+  weight: 0
+  cost: 80
   values:
   - 1000
   - 0
   - 0
   - 0
   - 0
-  level: 8
-  weight: 0
-  cost: 80
   affects: []
   extra_descs:
-  - keywords: tree
-    description: |
-      This enormous tree must be a thousand years old.  Its rough bark looks grey
-      and pale and is decorated with scratches and claw marks.  On its west side is a
-      small opening just above ground level.
   - keywords: opening
-    description: |
-      The opening is far too narrow for you to squeeze through but it looks as if the
-      tree is hollow.
+    description: "The opening is far too narrow for you to squeeze through but it
+      looks as if the\n\rtree is hollow.\n\r"
+  - keywords: tree
+    description: "This enormous tree must be a thousand years old.  Its rough bark
+      looks grey\n\rand pale and is decorated with scratches and claw marks.  On its
+      west side is a\n\rsmall opening just above ground level.\n\r"
 - vnum: 6103
   name: branch
   short_desc: a long, grey branch
   description: A long, grey branch rests heavily on the ground.
   material: none
   item_type: 1
-  extra_flags: '0'
-  wear_flags: AO
+  extra_flags: 0
+  wear_flags: 16385
+  level: 0
+  weight: 20
+  cost: 0
   values:
   - 0
   - 0
   - 25
   - 0
   - 0
-  level: 0
-  weight: 20
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 6104
@@ -848,22 +837,22 @@ objects:
   description: A long, grey branch rests heavily on the ground.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 0
+  weight: 30
+  cost: 0
   values:
   - 4
   - 1
   - 7
   - 7
   - 0
-  level: 0
-  weight: 30
-  cost: 0
   affects:
   - where: O
     location: 18
     modifier: -2
-    bitvector: '0'
+    bitvector: 0
   extra_descs: []
 - vnum: 6105
   name: branch
@@ -871,17 +860,17 @@ objects:
   description: A long, grey branch rests heavily on the ground.
   material: none
   item_type: 13
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 1
+  weight: 40
+  cost: 10
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 1
-  weight: 40
-  cost: 10
   affects: []
   extra_descs: []
 - vnum: 6106
@@ -890,2562 +879,2168 @@ objects:
   description: A large toadstool grows nearby.
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 5
+  cost: 0
   values:
   - 12
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 5
-  cost: 0
   affects: []
   extra_descs:
   - keywords: toadstool
-    description: |
-      It is a large, brown boletus that must weigh nearly five pounds.  The top
-      surface is covered in a thin layer of transparent slime that emits a weak,
-      musty smell.  Not the most delicious thing you have seen.
+    description: "It is a large, brown boletus that must weigh nearly five pounds.
+      \ The top\n\rsurface is covered in a thin layer of transparent slime that emits
+      a weak,\n\rmusty smell.  Not the most delicious thing you have seen.\n\r"
 - vnum: 6107
   name: toadstool
   short_desc: a toadstool
   description: A large toadstool grows nearby.
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 5
+  cost: 0
   values:
   - 12
   - 0
   - 0
   - 1
   - 0
-  level: 0
-  weight: 5
-  cost: 0
   affects: []
   extra_descs:
   - keywords: toadstool
-    description: |
-      It is a large, brown boletus that must weigh nearly five pounds.  It has small
-      white spots and the top surface is covered in a thin layer of transparent slime
-      that emits a weak, musty smell.  Not the most delicious thing you have seen.
+    description: "It is a large, brown boletus that must weigh nearly five pounds.
+      \ It has small\n\rwhite spots and the top surface is covered in a thin layer
+      of transparent slime\n\rthat emits a weak, musty smell.  Not the most delicious
+      thing you have seen.\n\r"
 - vnum: 6110
   name: potion yellow
   short_desc: a yellow potion
   description: A yellow potion has been left here.
   material: none
   item_type: 10
-  extra_flags: G
-  wear_flags: A
-  values:
-  - 15
-  - 39
-  - 0
-  - 0
-  - 0
+  extra_flags: 64
+  wear_flags: 1
   level: 26
   weight: 2
   cost: 260
+  values:
+  - 15
+  - 48
+  - -1
+  - -1
+  - 0
   affects: []
   extra_descs:
   - keywords: potion yellow
-    description: |
-      It has a deep yellow colour and and a strong spicy smell.
+    description: "It has a deep yellow colour and and a strong spicy smell.\n\r"
 - vnum: 6111
   name: shield large
   short_desc: a large round shield
   description: A large round shield has been left here.
   material: none
   item_type: 9
-  extra_flags: '0'
-  wear_flags: AJ
+  extra_flags: 0
+  wear_flags: 513
+  level: 26
+  weight: 15
+  cost: 260
   values:
   - 8
   - 8
   - 8
   - 0
   - 0
-  level: 26
-  weight: 15
-  cost: 260
   affects: []
   extra_descs:
   - keywords: shield large
-    description: |
-      It is made from hard wood that has been reinforced with heavy iron bands.
+    description: "It is made from hard wood that has been reinforced with heavy iron
+      bands.\n\r"
 - vnum: 6112
   name: crown iron
   short_desc: an iron crown
   description: An iron crown rests on the ground.
   material: none
   item_type: 9
-  extra_flags: G
-  wear_flags: AE
+  extra_flags: 64
+  wear_flags: 17
+  level: 26
+  weight: 10
+  cost: 260
   values:
   - 8
   - 8
   - 8
   - 0
   - 0
-  level: 26
-  weight: 10
-  cost: 260
   affects: []
   extra_descs:
   - keywords: crown iron
-    description: |
-      It is a heavy human-sized crown made from solid iron.
+    description: "It is a heavy human-sized crown made from solid iron.\n\r"
 - vnum: 6114
   name: ring iron
   short_desc: an iron ring
   description: An iron ring has been left here.
   material: none
   item_type: 9
-  extra_flags: G
-  wear_flags: AB
-  values:
-  - 5
-  - 5
-  - 5
-  - 0
-  - 0
+  extra_flags: 64
+  wear_flags: 3
   level: 10
   weight: 1
   cost: 100
+  values:
+  - 5
+  - 5
+  - 5
+  - 0
+  - 0
   affects: []
   extra_descs:
   - keywords: ring iron
-    description: |
-      It is a quite heavy human-sized ring made from solid iron.  It lacks
-      decorations of any kind.
-- vnum: 6155
-  name: morning-star star morning
-  short_desc: the morning star
-  description: The morning star is here collecting dust while it lies on the ground.
-  material: none
-  item_type: 5
-  extra_flags: G
-  wear_flags: AN
-  values:
-  - 4
-  - 5
-  - 4
-  - 8
-  - 0
-  level: 17
-  weight: 10
-  cost: 170
-  affects: []
-  extra_descs: []
+    description: "It is a quite heavy human-sized ring made from solid iron.  It lacks\n\rdecorations
+      of any kind.\n\r"
 rooms:
 - vnum: 6144
   name: A small path in the deep, dark forest
-  description: |
-    You are on a narrow path leading through the deep, dark forest.  Ancient,
-    grey trees loom everywhere.  The tree trunks here seem to be covered in some
-    sticky substance.  The path continues south and west.
-  room_flags: AD
+  description: "You are on a narrow path leading through the deep, dark forest.  Ancient,\n\rgrey
+    trees loom everywhere.  The tree trunks here seem to be covered in some\n\rsticky
+    substance.  The path continues south and west.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      The narrow path winds its way through the trees to the south.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the south.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6110
   - dir: 3
-    desc: |
-      The narrow path winds its way through the trees to the west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the west.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6130
   extra_descs:
-  - keywords: substance rope ropes thread threads
-    description: |
-      The substance reminds you of giant threads covered with glue.  If it had not
-      been for the size you could have sworn it was part of a spider web.
-  - keywords: tree trees trunk trunks
-    description: |
-      The ancient grey giants seem to observe you silently.
   - keywords: path
-    description: |
-      The path seems all too frail.  One of the giant roots could probably crush it
-      in a single blow.
+    description: "The path seems all too frail.  One of the giant roots could probably
+      crush it\n\rin a single blow.\n\r"
+  - keywords: tree trees trunk trunks
+    description: "The ancient grey giants seem to observe you silently.\n\r"
+  - keywords: substance rope ropes thread threads
+    description: "The substance reminds you of giant threads covered with glue.  If
+      it had not\n\rbeen for the size you could have sworn it was part of a spider
+      web.\n\r"
 - vnum: 6150
   name: The narrow trail.
-  description: |
-    This trail looks much spookier than any other thats you have seen.  The usual
-    animal claw marks and bites on the trees are getting far and few between. The
-    trail continues north.
-  room_flags: AD
+  description: "This trail looks much spookier than any other thats you have seen.
+    \ The usual\n\ranimal claw marks and bites on the trees are getting far and few
+    between. The\n\rtrail continues north.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      the narrow trail continues north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "the narrow trail continues north.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6151
   - dir: 2
-    desc: |
-      the trail intersects the main forest path.
-    keywords: ''
-    exit_flags: '0'
+    desc: "the trail intersects the main forest path.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6103
   extra_descs: []
 - vnum: 6151
   name: The narrow trail.
-  description: |
-    This area of the trail is also very peculiar.  You can see no signs of animal
-    life what so ever.  The structure of the surrounding trees forces the path to
-    make a sharp turn to the east.
-  room_flags: AD
+  description: "This area of the trail is also very peculiar.  You can see no signs
+    of animal\n\rlife what so ever.  The structure of the surrounding trees forces
+    the path to\n\rmake a sharp turn to the east.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      the trail bends east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "the trail bends east.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6152
   - dir: 2
-    desc: |
-      the start of the trail.
-    keywords: ''
-    exit_flags: '0'
+    desc: "the start of the trail.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6150
   extra_descs: []
 - vnum: 6152
   name: The circle of trees.
-  description: |
-    The trees here seem to form a circle around a HUGE tree that is in the center
-    of them.  You notice a wooden door carved into the huge tree to the east.  The
-    trail that you followed to get here seems to end at the base of the tree.
-  room_flags: AD
+  description: "The trees here seem to form a circle around a HUGE tree that is in
+    the center\n\rof them.  You notice a wooden door carved into the huge tree to
+    the east.  The\n\rtrail that you followed to get here seems to end at the base
+    of the tree.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The tree door is carved beautifully.
+    desc: "The tree door is carved beautifully.\n\r"
     keywords: door
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 6153
   - dir: 3
-    desc: |
-      the bend on the trail.
-    keywords: ''
-    exit_flags: A
+    desc: "the bend on the trail.\n\r"
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 6151
   extra_descs: []
 - vnum: 6153
   name: Inside the great tree.
-  description: |
-    You have stepped inside of this hollowed tree.  From here steps lead down into
-    darkness or you can exit the tree by going west.
-  room_flags: AD
+  description: "You have stepped inside of this hollowed tree.  From here steps lead
+    down into\n\rdarkness or you can exit the tree by going west.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: |
-      the door is carved beautifully.
+    desc: "the door is carved beautifully.\n\r"
     keywords: door
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 6152
   - dir: 5
-    desc: |
-      The steps look appear like they will hold your weight.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The steps look appear like they will hold your weight.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6154
   extra_descs: []
 - vnum: 6154
   name: The underground hallway.
-  description: |
-    This hallway is apparently one of the roots of the tree hollowed out.  The hall
-    leads south to a room where you hear strange noises or you can go up the steps.
-  room_flags: AD
+  description: "This hallway is apparently one of the roots of the tree hollowed out.
+    \ The hall\n\rleads south to a room where you hear strange noises or you can go
+    up the steps.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      the hallway looks quite grand.
-    keywords: ''
-    exit_flags: A
+    desc: "the hallway looks quite grand.\n\r"
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 6155
   - dir: 4
-    desc: |
-      the steps appear like they will hold your weight.
-    keywords: ''
-    exit_flags: A
+    desc: "the steps appear like they will hold your weight.\n\r"
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 6153
   extra_descs: []
 - vnum: 6155
   name: The cultist temple.
-  description: |
-    This temple is built to some god that you don't worship.  It is a nice place
-    to visit but you feel very uncomfortable about spending much time here.
-    The wooden altar seems almost to glow as you enter the room.  The only exit is
-    the way you came in.
-  room_flags: AD
+  description: "This temple is built to some god that you don't worship.  It is a
+    nice place\n\rto visit but you feel very uncomfortable about spending much time
+    here.\n\rThe wooden altar seems almost to glow as you enter the room.  The only
+    exit is\n\rthe way you came in.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      the hallway looks quite grand.
-    keywords: ''
-    exit_flags: A
+    desc: "the hallway looks quite grand.\n\r"
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 6154
   extra_descs: []
 - vnum: 6000
   name: The edge of the forest
-  description: "You are standing at the eastern edge of a big forest.  To the east\
-    \ is the\nWest Gate of Midgaard and to the west is a narrow trail, leading in\
-    \ through\nthe forest.  A dimly lit path leads north.  \n"
-  room_flags: C
+  description: "You are standing at the eastern edge of a big forest.  To the east
+    is the\n\rWest Gate of Midgaard and to the west is a narrow trail, leading in
+    through\n\rthe forest.  A dimly lit path leads north.  \n\r"
+  room_flags: 4
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see a dimly lit path.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a dimly lit path.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1100
   - dir: 1
-    desc: |
-      You see the West Gate of the City of Midgaard.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the West Gate of the City of Midgaard.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3052
   - dir: 3
-    desc: |
-      You see the narrow forest trail winding westwards in between the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the narrow forest trail winding westwards in between the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6001
   extra_descs:
-  - keywords: trail
-    description: |
-      The forest trail winds westwards through the trees.
   - keywords: tree trees
-    description: |
-      The trees are quite tall considering most of them appear to be quite young.
-      On one of the trees, crude letters forming the word "Haon-Dor" have been
-      carved into the bark.
+    description: "The trees are quite tall considering most of them appear to be quite
+      young.\n\rOn one of the trees, crude letters forming the word \"Haon-Dor\" have
+      been\n\rcarved into the bark.\n\r"
+  - keywords: trail
+    description: "The forest trail winds westwards through the trees.\n\r"
 - vnum: 6001
   name: A trail through the light forest
-  description: "You are on a trail leading through the forest.  To the east is the\
-    \ forest\nedge and to the west, the trail leads further into the forest.  \n"
-  room_flags: '0'
+  description: "You are on a trail leading through the forest.  To the east is the
+    forest\n\redge and to the west, the trail leads further into the forest.  \n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The trail continues eastwards out of the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The trail continues eastwards out of the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6000
   - dir: 3
-    desc: |
-      You see the narrow forest trail winding westwards in between the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the narrow forest trail winding westwards in between the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6002
   extra_descs:
-  - keywords: trail
-    description: |
-      The forest trail winds east-west through the trees.
-  - keywords: tree trees
-    description: |
-      The trees here are quite young and fresh.  They seem to accommodate many kinds
-      of birds, insects and other small animals.
   - keywords: birds insects animals
-    description: |
-      Very cute little creatures, they seem to enjoy life.
+    description: "Very cute little creatures, they seem to enjoy life.\n\r"
+  - keywords: tree trees
+    description: "The trees here are quite young and fresh.  They seem to accommodate
+      many kinds\n\rof birds, insects and other small animals.\n\r"
+  - keywords: trail
+    description: "The forest trail winds east-west through the trees.\n\r"
 - vnum: 6002
   name: A trail through the light forest
-  description: |
-    You are on a narrow trail leading east and west through the forest.  To the
-    west, the forest gradually becomes more dense.  A small forest path leads
-    south.
-  room_flags: '0'
+  description: "You are on a narrow trail leading east and west through the forest.
+    \ To the\n\rwest, the forest gradually becomes more dense.  A small forest path
+    leads\n\rsouth.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The trail continues eastwards through the young trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The trail continues eastwards through the young trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6001
   - dir: 2
-    desc: |
-      The small path leads south through the young trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads south through the young trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6011
   - dir: 3
-    desc: |
-      You see the narrow forest trail winding westwards into the dense forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the narrow forest trail winding westwards into the dense forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6003
   extra_descs:
-  - keywords: path paths
-    description: |
-      The narrow path is probably used by the animals living in the forest.
-  - keywords: trail
-    description: |
-      The forest trail winds east-west through the trees.
   - keywords: tree trees
-    description: |
-      The young, slender trees look beautiful, their fresh, green leaves moving
-      lightly in the wind.
+    description: "The young, slender trees look beautiful, their fresh, green leaves
+      moving\n\rlightly in the wind.\n\r"
+  - keywords: trail
+    description: "The forest trail winds east-west through the trees.\n\r"
+  - keywords: path paths
+    description: "The narrow path is probably used by the animals living in the forest.\n\r"
 - vnum: 6003
   name: A trail through the dense forest
-  description: |
-    You are on a trail leading east and west through the dense forest.  To the
-    east, the forest gradually seems to become lighter.
-  room_flags: '0'
+  description: "You are on a trail leading east and west through the dense forest.
+    \ To the\n\reast, the forest gradually seems to become lighter.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The trail continues eastwards to the younger part of the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The trail continues eastwards to the younger part of the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6002
   - dir: 3
-    desc: |
-      You see the narrow trail winding westwards through the dense forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the narrow trail winding westwards through the dense forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6004
   extra_descs:
-  - keywords: trail
-    description: |
-      The forest trail seems almost fragile compared to the massive trunks.
   - keywords: tree trees
-    description: |
-      The dense crowns of the mature trees leave only a fraction of the sky to be
-      seen through the leaves.
+    description: "The dense crowns of the mature trees leave only a fraction of the
+      sky to be\n\rseen through the leaves.\n\r"
+  - keywords: trail
+    description: "The forest trail seems almost fragile compared to the massive trunks.\n\r"
 - vnum: 6004
   name: A trail through the dense forest
-  description: |
-    You are on a trail leading east and west through the dense forest.  To the
-    west, the trees are so huge and their crowns so dense that forest remains in
-    total darkness.  A small path leads south through the trees.
-  room_flags: '0'
+  description: "You are on a trail leading east and west through the dense forest.
+    \ To the\n\rwest, the trees are so huge and their crowns so dense that forest
+    remains in\n\rtotal darkness.  A small path leads south through the trees.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The trail continues eastwards through the dense forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The trail continues eastwards through the dense forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6003
   - dir: 2
-    desc: |
-      The small path leads south through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads south through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6005
   - dir: 3
-    desc: |
-      The narrow trail almost seems to disappear between the enormous trunks.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow trail almost seems to disappear between the enormous trunks.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6100
   extra_descs:
-  - keywords: path paths
-    description: |
-      The narrow path is probably used by the animals living in the forest.
-  - keywords: trail
-    description: |
-      The forest trail seems almost fragile compared to the massive trunks.
   - keywords: tree trees
-    description: |
-      The crowns of the old trees almost cut out all light.
+    description: "The crowns of the old trees almost cut out all light.\n\r"
+  - keywords: trail
+    description: "The forest trail seems almost fragile compared to the massive trunks.\n\r"
+  - keywords: path paths
+    description: "The narrow path is probably used by the animals living in the forest.\n\r"
 - vnum: 6005
   name: A small path in the dense forest
-  description: |
-    You are on a small path leading through the dense forest.  The crowns of the
-    old trees leave the forest in an unreal twilight illumination.  The path
-    continues north and south.
-  room_flags: '0'
+  description: "You are on a small path leading through the dense forest.  The crowns
+    of the\n\rold trees leave the forest in an unreal twilight illumination.  The
+    path\n\rcontinues north and south.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The small path leads north through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads north through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6004
   - dir: 2
-    desc: |
-      The small path leads south through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads south through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6006
   extra_descs:
-  - keywords: path paths
-    description: |
-      The narrow path is probably used by the animals living in the forest.
   - keywords: tree trees
-    description: |
-      The trees are mostly old beeches and oaks.
+    description: "The trees are mostly old beeches and oaks.\n\r"
+  - keywords: path paths
+    description: "The narrow path is probably used by the animals living in the forest.\n\r"
 - vnum: 6006
   name: A small path in the dense forest
-  description: |
-    You are on a small path leading through the dense forest.  The crowns of the
-    old trees leave the forest in an unreal twilight illumination.  The path
-    continues north and east.
-  room_flags: '0'
+  description: "You are on a small path leading through the dense forest.  The crowns
+    of the\n\rold trees leave the forest in an unreal twilight illumination.  The
+    path\n\rcontinues north and east.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The small path leads north through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads north through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6005
   - dir: 1
-    desc: |
-      The small path leads east through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads east through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6007
   extra_descs:
-  - keywords: path paths
-    description: |
-      The narrow path is probably used by the animals living in the forest.
   - keywords: tree trees
-    description: |
-      The trees are mostly old beeches and oaks.
+    description: "The trees are mostly old beeches and oaks.\n\r"
+  - keywords: path paths
+    description: "The narrow path is probably used by the animals living in the forest.\n\r"
 - vnum: 6007
   name: An intersection in the dense forest
-  description: |
-    You are on a small path leading through the dense forest.  The crowns of the
-    old trees leave the forest in an unreal twilight illumination.  The forest
-    gradually lightens to the east.  Paths lead east, west and south.
-  room_flags: '0'
+  description: "You are on a small path leading through the dense forest.  The crowns
+    of the\n\rold trees leave the forest in an unreal twilight illumination.  The
+    forest\n\rgradually lightens to the east.  Paths lead east, west and south.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You can barely make out a clearing to the east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You can barely make out a clearing to the east.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6008
   - dir: 2
-    desc: |
-      The small path leads south through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads south through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6012
   - dir: 3
-    desc: |
-      The small path leads west through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads west through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6006
   extra_descs:
-  - keywords: path paths
-    description: |
-      The narrow path is probably used by the animals living in the forest.
   - keywords: tree trees
-    description: |
-      The trees are mostly old beeches and oaks.
+    description: "The trees are mostly old beeches and oaks.\n\r"
+  - keywords: path paths
+    description: "The narrow path is probably used by the animals living in the forest.\n\r"
 - vnum: 6008
   name: The forest clearing
-  description: |
-    You are in a clearing in the forest.  Lots of fresh stumps of varying sizes
-    protrude from the ground and heavy logs are stacked neatly in a big pile
-    supported by stakes set into the ground.  Paths lead north, east and west.
-  room_flags: '0'
+  description: "You are in a clearing in the forest.  Lots of fresh stumps of varying
+    sizes\n\rprotrude from the ground and heavy logs are stacked neatly in a big pile\n\rsupported
+    by stakes set into the ground.  Paths lead north, east and west.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The small path leads north through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads north through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6011
   - dir: 1
-    desc: |
-      The small path leads east through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads east through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6009
   - dir: 3
-    desc: |
-      The small path leads west through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads west through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6007
   extra_descs:
-  - keywords: log logs
-    description: |
-      Even though the logs have been chopped to shorter pieces, they are quite heavy
-      as they are fresh and still filled with sap.
-  - keywords: path paths
-    description: |
-      The narrow path is probably used by the animals living in the forest.
-  - keywords: stake stakes
-    description: |
-      The stakes keep the logs from rolling down.
-  - keywords: stump stumps
-    description: |
-      There are more stumps than logs and some of the stumps are partly covered in
-      moss.
   - keywords: tree trees
-    description: |
-      The trees are mostly old beeches and oaks.
+    description: "The trees are mostly old beeches and oaks.\n\r"
+  - keywords: stump stumps
+    description: "There are more stumps than logs and some of the stumps are partly
+      covered in\n\rmoss.\n\r"
+  - keywords: stake stakes
+    description: "The stakes keep the logs from rolling down.\n\r"
+  - keywords: path paths
+    description: "The narrow path is probably used by the animals living in the forest.\n\r"
+  - keywords: log logs
+    description: "Even though the logs have been chopped to shorter pieces, they are
+      quite heavy\n\ras they are fresh and still filled with sap.\n\r"
 - vnum: 6009
   name: Outside a small cabin in the forest
-  description: |
-    You are outside a small cabin built entirely from heavy logs.  There is a
-    wooden door to the north and small paths lead west and south through the trees.
-  room_flags: '0'
+  description: "You are outside a small cabin built entirely from heavy logs.  There
+    is a\n\rwooden door to the north and small paths lead west and south through the
+    trees.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The wooden door is quite sturdy but does not appear to be equipped with a lock.
+    desc: "The wooden door is quite sturdy but does not appear to be equipped with
+      a lock.\n\r"
     keywords: door wooden
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 6010
   - dir: 2
-    desc: |
-      The small path leads south through the dense forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads south through the dense forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6014
   - dir: 3
-    desc: |
-      The small path leads west through the light forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads west through the light forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6008
   extra_descs:
-  - keywords: cabin logs
-    description: |
-      It looks simple but comfortable and the slender trees make the whole place seem
-      pretty idyllic.  It's a cabin built from logs.  Wooden logs, not system logs.
-  - keywords: path paths
-    description: |
-      The path is probably used by the cabin's inhabitants.
   - keywords: tree trees
-    description: |
-      The trees are fairly young, not much more than a hundred years or so.
+    description: "The trees are fairly young, not much more than a hundred years or
+      so.\n\r"
+  - keywords: path paths
+    description: "The path is probably used by the cabin's inhabitants.\n\r"
+  - keywords: cabin logs
+    description: "It looks simple but comfortable and the slender trees make the whole
+      place seem\n\rpretty idyllic.  It's a cabin built from logs.  Wooden logs, not
+      system logs.\n\r"
 - vnum: 6010
   name: Inside the cabin
-  description: |
-    You are inside a small one-room cabin made entirely from heavy logs.  It is
-    very sparsely furnished, containing only most basic housekeeping equipment,
-    such as a bed, a chair and a table.
-  room_flags: D
+  description: "You are inside a small one-room cabin made entirely from heavy logs.
+    \ It is\n\rvery sparsely furnished, containing only most basic housekeeping equipment,\n\rsuch
+    as a bed, a chair and a table.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      The wooden door leads south.
+    desc: "The wooden door leads south.\n\r"
     keywords: door wooden
-    exit_flags: A
+    exit_flags: 1
     key: -1
     to_vnum: 6009
   extra_descs:
-  - keywords: bed
-    description: |
-      It is definitely not the most comfortable bed you have seen in your life.
-  - keywords: chair
-    description: |
-      It is made from oak and looks strong and sturdy.
   - keywords: table
-    description: |
-      A heavy table that doesn't even appear to rock.
+    description: "A heavy table that doesn't even appear to rock.\n\r"
+  - keywords: chair
+    description: "It is made from oak and looks strong and sturdy.\n\r"
+  - keywords: bed
+    description: "It is definitely not the most comfortable bed you have seen in your
+      life.\n\r"
 - vnum: 6011
   name: A small path through the light forest
-  description: |
-    You are on a small path leading through the forest.  The trees are tall and
-    slender.  Paths lead north and south.
-  room_flags: '0'
+  description: "You are on a small path leading through the forest.  The trees are
+    tall and\n\rslender.  Paths lead north and south.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The path leads north through the young trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The path leads north through the young trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6002
   - dir: 2
-    desc: |
-      The path leads south through the young trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The path leads south through the young trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6008
   extra_descs:
-  - keywords: path paths
-    description: |
-      The narrow path is probably used by the animals living in the forest.
   - keywords: tree trees
-    description: |
-      The trees are fairly young, not much more than a hundred years or so.
+    description: "The trees are fairly young, not much more than a hundred years or
+      so.\n\r"
+  - keywords: path paths
+    description: "The narrow path is probably used by the animals living in the forest.\n\r"
 - vnum: 6012
   name: An intersection in the dense forest
-  description: |
-    You are on a small path leading through the dense forest.  The crowns of the
-    old trees leave the forest floor in an unreal twilight illumination.  Paths
-    lead north, east and south.
-  room_flags: '0'
+  description: "You are on a small path leading through the dense forest.  The crowns
+    of the\n\rold trees leave the forest floor in an unreal twilight illumination.
+    \ Paths\n\rlead north, east and south.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The small path leads north through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads north through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6007
   - dir: 1
-    desc: |
-      The small path leads east through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads east through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6013
   - dir: 2
-    desc: |
-      The small path leads south through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads south through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6021
   extra_descs:
-  - keywords: path paths
-    description: |
-      The narrow path is probably used by the animals living in the forest.
   - keywords: tree trees
-    description: |
-      The trees are mostly old beeches and oaks.
+    description: "The trees are mostly old beeches and oaks.\n\r"
+  - keywords: path paths
+    description: "The narrow path is probably used by the animals living in the forest.\n\r"
 - vnum: 6013
   name: A small path in the dense forest
-  description: |
-    You are on a small path leading through the dense forest.  The crowns of the
-    old trees leave the forest in an unreal twilight illumination.  The path
-    continues east and west.
-  room_flags: '0'
+  description: "You are on a small path leading through the dense forest.  The crowns
+    of the\n\rold trees leave the forest in an unreal twilight illumination.  The
+    path\n\rcontinues east and west.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The small path leads east through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads east through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6014
   - dir: 3
-    desc: |
-      The small path leads west through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads west through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6012
   extra_descs:
-  - keywords: path paths
-    description: |
-      The narrow path is probably used by the animals living in the forest.
   - keywords: tree trees
-    description: |
-      The trees are mostly old beeches and oaks.
+    description: "The trees are mostly old beeches and oaks.\n\r"
+  - keywords: path paths
+    description: "The narrow path is probably used by the animals living in the forest.\n\r"
 - vnum: 6014
   name: An intersection in the dense forest
-  description: "You are on a small path leading through the dense forest.  The forest\n\
-    gradually lightens to the north.  Paths lead north, east and west.  \n"
-  room_flags: '0'
+  description: "You are on a small path leading through the dense forest.  The forest\n\rgradually
+    lightens to the north.  Paths lead north, east and west.  \n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The path leads north to a lighter part of the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The path leads north to a lighter part of the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6009
   - dir: 1
-    desc: |
-      The small path leads east through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads east through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6015
   - dir: 3
-    desc: |
-      The small path leads west through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads west through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6013
   extra_descs:
-  - keywords: path paths
-    description: |
-      The narrow path is probably used by the animals living in the forest.
   - keywords: tree trees
-    description: |
-      The crowns of the old trees leave the forest in an unreal twilight
-      illumination.
+    description: "The crowns of the old trees leave the forest in an unreal twilight\n\rillumination.\n\r"
+  - keywords: path paths
+    description: "The narrow path is probably used by the animals living in the forest.\n\r"
 - vnum: 6015
   name: A small path in the dense forest
-  description: |
-    You are on a small path leading through the dense forest.  The crowns of the
-    old trees leave the forest in an unreal twilight illumination.  The path
-    continues south and west.
-  room_flags: '0'
+  description: "You are on a small path leading through the dense forest.  The crowns
+    of the\n\rold trees leave the forest in an unreal twilight illumination.  The
+    path\n\rcontinues south and west.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      The small path leads south through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads south through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6016
   - dir: 3
-    desc: |
-      The small path leads west through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads west through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6014
   extra_descs:
-  - keywords: path paths
-    description: |
-      The narrow path is probably used by the animals living in the forest.
   - keywords: tree trees
-    description: |
-      The trees are mostly old beeches and oaks.
+    description: "The trees are mostly old beeches and oaks.\n\r"
+  - keywords: path paths
+    description: "The narrow path is probably used by the animals living in the forest.\n\r"
 - vnum: 6016
   name: A small path in the dense forest
-  description: |
-    You are on a small path leading through the dense forest.  The crowns of the
-    old trees leave the forest in an unreal twilight illumination.  The path
-    continues north and south.
-  room_flags: '0'
+  description: "You are on a small path leading through the dense forest.  The crowns
+    of the\n\rold trees leave the forest in an unreal twilight illumination.  The
+    path\n\rcontinues north and south.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The small path leads north through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads north through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6015
   - dir: 2
-    desc: |
-      The small path leads south through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads south through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6017
   extra_descs:
-  - keywords: path paths
-    description: |
-      The narrow path is probably used by the animals living in the forest.
   - keywords: tree trees
-    description: |
-      The trees are mostly old beeches and oaks.
+    description: "The trees are mostly old beeches and oaks.\n\r"
+  - keywords: path paths
+    description: "The narrow path is probably used by the animals living in the forest.\n\r"
 - vnum: 6017
   name: A small path in the dense forest
-  description: |
-    You are on a small path leading through the dense forest.  The forest seems to
-    become lighter to the west.  The path continues north and west.
-  room_flags: '0'
+  description: "You are on a small path leading through the dense forest.  The forest
+    seems to\n\rbecome lighter to the west.  The path continues north and west.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The small path leads north through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads north through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6016
   - dir: 3
-    desc: |
-      The small path leads west through the trees to a lighter part of the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads west through the trees to a lighter part of the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6018
   extra_descs:
-  - keywords: path paths
-    description: |
-      The narrow path is probably used by the animals living in the forest.
   - keywords: tree trees
-    description: |
-      The crowns of the old trees leave the forest in an unreal twilight
-      illumination.
+    description: "The crowns of the old trees leave the forest in an unreal twilight\n\rillumination.\n\r"
+  - keywords: path paths
+    description: "The narrow path is probably used by the animals living in the forest.\n\r"
 - vnum: 6018
   name: An intersection in the light forest
-  description: |
-    You are on a small path leading through the forest.  A path leads north to a
-    small field and other paths lead east and west into the dense forest.
-  room_flags: '0'
+  description: "You are on a small path leading through the forest.  A path leads
+    north to a\n\rsmall field and other paths lead east and west into the dense forest.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The path leads north to a small, grassy field.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The path leads north to a small, grassy field.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6023
   - dir: 1
-    desc: |
-      The path leads east to a dense part of the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The path leads east to a dense part of the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6017
   - dir: 3
-    desc: |
-      The path leads west to a dense part of the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The path leads west to a dense part of the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6019
   extra_descs:
-  - keywords: path paths
-    description: |
-      The narrow path is probably used by the animals living in the forest.
   - keywords: tree trees
-    description: |
-      The tall trees are young and slender, not much more than a hundred years or so.
+    description: "The tall trees are young and slender, not much more than a hundred
+      years or so.\n\r"
+  - keywords: path paths
+    description: "The narrow path is probably used by the animals living in the forest.\n\r"
 - vnum: 6019
   name: A small path in the dense forest
-  description: "You are on a small path leading through the dense forest.  The forest\n\
-    seems to become lighter to the east.  The path continues north and east.  \n"
-  room_flags: '0'
+  description: "You are on a small path leading through the dense forest.  The forest\n\rseems
+    to become lighter to the east.  The path continues north and east.  \n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The small path leads north through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads north through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6020
   - dir: 1
-    desc: |
-      The small path leads east through the trees to a lighter part of the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads east through the trees to a lighter part of the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6018
   extra_descs:
-  - keywords: path paths
-    description: |
-      The narrow path is probably used by the animals living in the forest.
   - keywords: tree trees
-    description: |
-      The crowns of the old trees leave the forest in an unreal twilight
-      illumination.
+    description: "The crowns of the old trees leave the forest in an unreal twilight\n\rillumination.\n\r"
+  - keywords: path paths
+    description: "The narrow path is probably used by the animals living in the forest.\n\r"
 - vnum: 6020
   name: A small path in the dense forest
-  description: |
-    You are on a small path leading through the dense forest.  The crowns of the
-    old trees leave the forest in an unreal twilight illumination.  The path
-    continues south and west.
-  room_flags: '0'
+  description: "You are on a small path leading through the dense forest.  The crowns
+    of the\n\rold trees leave the forest in an unreal twilight illumination.  The
+    path\n\rcontinues south and west.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      The small path leads south through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads south through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6019
   - dir: 3
-    desc: |
-      The small path leads west through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads west through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6021
   extra_descs:
-  - keywords: path paths
-    description: |
-      The narrow path is probably used by the animals living in the forest.
   - keywords: tree trees
-    description: |
-      The trees are mostly old beeches and oaks.
+    description: "The trees are mostly old beeches and oaks.\n\r"
+  - keywords: path paths
+    description: "The narrow path is probably used by the animals living in the forest.\n\r"
 - vnum: 6021
   name: A small path in the dense forest
-  description: "You are on a small path leading through the dense forest.  To the\
-    \ west\nthere is a cave entrance.  The path continues north and east.  \n"
-  room_flags: '0'
+  description: "You are on a small path leading through the dense forest.  To the
+    west\n\rthere is a cave entrance.  The path continues north and east.  \n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The small path leads north through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads north through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6012
   - dir: 1
-    desc: |
-      The small path leads east through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads east through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6020
   - dir: 3
-    desc: |
-      The cave is very dark.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The cave is very dark.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6022
   extra_descs:
-  - keywords: path paths
-    description: |
-      The narrow path is probably used by the animals living in the forest.
-  - keywords: tree trees
-    description: |
-      The crowns of the old trees leave the forest in an unreal twilight
-      illumination.
   - keywords: cave entrance
-    description: |
-      The irregular opening is eight feet wide and six feet tall.  An acrid smell
-      emanates from within.
+    description: "The irregular opening is eight feet wide and six feet tall.  An
+      acrid smell\n\remanates from within.\n\r"
+  - keywords: tree trees
+    description: "The crowns of the old trees leave the forest in an unreal twilight\n\rillumination.\n\r"
+  - keywords: path paths
+    description: "The narrow path is probably used by the animals living in the forest.\n\r"
 - vnum: 6022
   name: Inside the cave
-  description: |
-    You are in a natural cave.  Various sorts of debris cover the stone floor,
-    emitting a rather unpleasant smell that makes the air thick and hard to
-    breathe.  The only obvious exit is east.
-  room_flags: AD
+  description: "You are in a natural cave.  Various sorts of debris cover the stone
+    floor,\n\remitting a rather unpleasant smell that makes the air thick and hard
+    to\n\rbreathe.  The only obvious exit is east.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The cave opening is to the east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The cave opening is to the east.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6021
   extra_descs:
-  - keywords: debris
-    description: |
-      It consists mostly of gnawed bones mixed with small pieces of torn fur.
-  - keywords: cave walls floor stone
-    description: |
-      Quite uninteresting.
   - keywords: air smell
-    description: |
-      Kind of transparent, but quite noticeable nevertheless.
+    description: "Kind of transparent, but quite noticeable nevertheless.\n\r"
+  - keywords: cave walls floor stone
+    description: "Quite uninteresting.\n\r"
+  - keywords: debris
+    description: "It consists mostly of gnawed bones mixed with small pieces of torn
+      fur.\n\r"
 - vnum: 6023
   name: On a small, grassy field
-  description: |
-    You are in a small, grassy field somewhere in the forest.  The tall grass
-    nearly reaches your waist, and the surrounding oaks and beeches form an almost
-    wall-like thicket on all sides of the field.  A small path leads south through
-    the trees.
-  room_flags: '0'
+  description: "You are in a small, grassy field somewhere in the forest.  The tall
+    grass\n\rnearly reaches your waist, and the surrounding oaks and beeches form
+    an almost\n\rwall-like thicket on all sides of the field.  A small path leads
+    south through\n\rthe trees.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      The small path leads south in between the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The small path leads south in between the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6018
   extra_descs:
-  - keywords: grass
-    description: |
-      The tall grass makes a nice hiding place for animals.
-  - keywords: path
-    description: |
-      The narrow path is probably used by the animals living in the forest.
   - keywords: tree trees thicket
-    description: |
-      The trees form a close thicket.
+    description: "The trees form a close thicket.\n\r"
+  - keywords: path
+    description: "The narrow path is probably used by the animals living in the forest.\n\r"
+  - keywords: grass
+    description: "The tall grass makes a nice hiding place for animals.\n\r"
 - vnum: 6100
   name: A narrow trail through the deep, dark forest
-  description: |
-    You are on a narrow trail winding its way between the enormous, grey trunks.
-    The crowns of the trees must be very dense, as they leave the forest floor in
-    utter darkness.  The trail leads east and west.
-  room_flags: AD
+  description: "You are on a narrow trail winding its way between the enormous, grey
+    trunks.\n\rThe crowns of the trees must be very dense, as they leave the forest
+    floor in\n\rutter darkness.  The trail leads east and west.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The narrow trail leads east to a somewhat lighter part of the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow trail leads east to a somewhat lighter part of the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6004
   - dir: 3
-    desc: |
-      The narrow, dusty trail leads west through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads west through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6101
   extra_descs:
-  - keywords: trail
-    description: |
-      The dark and dusty trail seems fragile compared to the massive trunks, and in
-      some places, giant grey roots have broken up through its surface.
   - keywords: tree trees trunk trunks
-    description: |
-      These ancient trees must have been here for many, many years.  It is impossible
-      to catch even a glimpse of anything above the lowest branches.
+    description: "These ancient trees must have been here for many, many years.  It
+      is impossible\n\rto catch even a glimpse of anything above the lowest branches.\n\r"
+  - keywords: trail
+    description: "The dark and dusty trail seems fragile compared to the massive trunks,
+      and in\n\rsome places, giant grey roots have broken up through its surface.\n\r"
 - vnum: 6101
   name: A narrow trail through the deep, dark forest
-  description: |
-    You are on a dusty trail winding its way east-west between huge, ancient trees
-    whose grey trunks remind you of ancient pillars in a enormous, deserted hall.
-    To the south, a frail path leads away from the trail.
-  room_flags: AD
+  description: "You are on a dusty trail winding its way east-west between huge, ancient
+    trees\n\rwhose grey trunks remind you of ancient pillars in a enormous, deserted
+    hall.\n\rTo the south, a frail path leads away from the trail.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The narrow, dusty trail leads east through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads east through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6100
   - dir: 2
-    desc: |
-      The path leads south - away from the trail.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The path leads south - away from the trail.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6104
   - dir: 3
-    desc: |
-      The narrow, dusty trail leads west through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads west through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6102
   extra_descs:
-  - keywords: trail
-    description: |
-      The dark and dusty trail seems fragile compared to the massive trunks, and in
-      some places, giant grey roots have broken up through its surface.
-  - keywords: path
-    description: |
-      The path seems fragile and unsafe compared to the enormous trunks that loom
-      around it.
   - keywords: tree trees trunk trunks
-    description: |
-      These ancient trees must have been here for many, many years.  It is impossible
-      to catch even a glimpse of anything above the lowest branches.
+    description: "These ancient trees must have been here for many, many years.  It
+      is impossible\n\rto catch even a glimpse of anything above the lowest branches.\n\r"
+  - keywords: path
+    description: "The path seems fragile and unsafe compared to the enormous trunks
+      that loom\n\raround it.\n\r"
+  - keywords: trail
+    description: "The dark and dusty trail seems fragile compared to the massive trunks,
+      and in\n\rsome places, giant grey roots have broken up through its surface.\n\r"
 - vnum: 6102
   name: A narrow trail through the deep, dark forest
-  description: |
-    You are on a dusty trail winding its way east-west between huge, ancient trees
-    that stand close on all sides.  Not a sound is to be heard - everything is
-    ominously quiet.
-  room_flags: AD
+  description: "You are on a dusty trail winding its way east-west between huge, ancient
+    trees\n\rthat stand close on all sides.  Not a sound is to be heard - everything
+    is\n\rominously quiet.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The narrow, dusty trail leads east through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads east through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6101
   - dir: 3
-    desc: |
-      The narrow, dusty trail leads west through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads west through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6103
   extra_descs:
-  - keywords: trail
-    description: |
-      The dark and dusty trail seems fragile compared to the massive trunks, and in
-      some places, giant grey roots have broken up through its surface.
-  - keywords: path
-    description: |
-      The path seems fragile and unsafe compared to the enormous trunks that loom
-      around it.
   - keywords: tree trees trunk trunks
-    description: |
-      These ancient trees must have been here for many, many years.  It is impossible
-      to catch even a glimpse of anything above the lowest branches.
+    description: "These ancient trees must have been here for many, many years.  It
+      is impossible\n\rto catch even a glimpse of anything above the lowest branches.\n\r"
+  - keywords: path
+    description: "The path seems fragile and unsafe compared to the enormous trunks
+      that loom\n\raround it.\n\r"
+  - keywords: trail
+    description: "The dark and dusty trail seems fragile compared to the massive trunks,
+      and in\n\rsome places, giant grey roots have broken up through its surface.\n\r"
 - vnum: 6103
   name: A narrow trail through the deep, dark forest
-  description: |
-    You are where the dusty trail bends, as to avoid conflict with a colossal
-    trunk to the west.  Not a sound is to be heard - everything is ominously quiet.
-    The trail leads east and south.
-  room_flags: AD
+  description: "You are where the dusty trail bends, as to avoid conflict with a colossal\n\rtrunk
+    to the west.  Not a sound is to be heard - everything is ominously quiet.\n\rThe
+    trail leads east and south.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see a dark trail north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a dark trail north.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 6150
   - dir: 1
-    desc: |
-      The narrow, dusty trail leads east through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads east through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6102
   - dir: 2
-    desc: |
-      The narrow, dusty trail leads south through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads south through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6108
   extra_descs:
-  - keywords: trail
-    description: |
-      The dark and dusty trail seems fragile compared to the massive trunks, and in
-      some places, giant grey roots have broken up through its surface.
   - keywords: trees trunks
-    description: |
-      These ancient trees must have been here for many, many years.  It is impossible
-      to catch even a glimpse of anything above the lowest branches.
+    description: "These ancient trees must have been here for many, many years.  It
+      is impossible\n\rto catch even a glimpse of anything above the lowest branches.\n\r"
+  - keywords: trail
+    description: "The dark and dusty trail seems fragile compared to the massive trunks,
+      and in\n\rsome places, giant grey roots have broken up through its surface.\n\r"
 - vnum: 6104
   name: A small path in the deep, dark forest
-  description: |
-    You are on a narrow path leading through the deep, dark forest.  You feel as if
-    the ancient trees observe you in watchful silence.  The path continues north
-    and south.
-  room_flags: AD
+  description: "You are on a narrow path leading through the deep, dark forest.  You
+    feel as if\n\rthe ancient trees observe you in watchful silence.  The path continues
+    north\n\rand south.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The narrow path winds its way through the trees to the north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the north.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6101
   - dir: 2
-    desc: |
-      The narrow path winds its way through the trees to the south.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the south.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6105
   extra_descs:
-  - keywords: tree trees trunk trunks
-    description: |
-      The ancient grey giants seem to observe you silently.
   - keywords: path
-    description: |
-      The path seems all too frail.  One of the giant roots could probably crush it
-      in a single blow.
+    description: "The path seems all too frail.  One of the giant roots could probably
+      crush it\n\rin a single blow.\n\r"
+  - keywords: tree trees trunk trunks
+    description: "The ancient grey giants seem to observe you silently.\n\r"
 - vnum: 6105
   name: A small path in the deep, dark forest
-  description: |
-    You are on a narrow path leading through the deep, dark forest.  Ancient grey
-    trees loom all around you.  The path continues north and west.
-  room_flags: AD
+  description: "You are on a narrow path leading through the deep, dark forest.  Ancient
+    grey\n\rtrees loom all around you.  The path continues north and west.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The narrow path winds its way through the trees to the north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the north.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6104
   - dir: 3
-    desc: |
-      The narrow path winds its way through the trees to the west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the west.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6106
   extra_descs:
-  - keywords: tree trees trunk trunks
-    description: |
-      The ancient grey giants seem to observe you silently.
   - keywords: path
-    description: |
-      The path seems all too frail.  One of the giant roots could probably crush it
-      in a single blow.
+    description: "The path seems all too frail.  One of the giant roots could probably
+      crush it\n\rin a single blow.\n\r"
+  - keywords: tree trees trunk trunks
+    description: "The ancient grey giants seem to observe you silently.\n\r"
 - vnum: 6106
   name: A junction in the deep, dark forest
-  description: |
-    You are by a junction where three paths meet.  Ancient grey trees tower above
-    you on all sides.  Paths lead east, south and west.
-  room_flags: AD
+  description: "You are by a junction where three paths meet.  Ancient grey trees
+    tower above\n\ryou on all sides.  Paths lead east, south and west.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The narrow path winds its way through the trees to the east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the east.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6105
   - dir: 2
-    desc: |
-      The narrow path winds its way through the trees to the south.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the south.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6117
   - dir: 3
-    desc: |
-      The narrow path winds its way through the trees to the west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the west.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6107
   extra_descs:
-  - keywords: tree trees trunk trunks
-    description: |
-      The ancient grey giants seem to observe you silently.
   - keywords: path paths
-    description: |
-      The path seems all too frail.  One of the giant roots could probably crush it
-      in a single blow.
+    description: "The path seems all too frail.  One of the giant roots could probably
+      crush it\n\rin a single blow.\n\r"
+  - keywords: tree trees trunk trunks
+    description: "The ancient grey giants seem to observe you silently.\n\r"
 - vnum: 6107
   name: A small path in the deep, dark forest
-  description: |
-    You are on a narrow path leading through the deep, dark forest.  Ancient grey
-    trees loom all around you.  The path continues north and east.
-  room_flags: AD
+  description: "You are on a narrow path leading through the deep, dark forest.  Ancient
+    grey\n\rtrees loom all around you.  The path continues north and east.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The narrow path winds its way through the trees to the north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the north.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6108
   - dir: 1
-    desc: |
-      The narrow path winds its way through the trees to the east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the east.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6106
   extra_descs:
-  - keywords: tree trees trunk trunks
-    description: |
-      The ancient grey giants seem to observe you silently.
   - keywords: path
-    description: |
-      The path seems all too frail.  One of the giant roots could probably crush it
-      in a single blow.
+    description: "The path seems all too frail.  One of the giant roots could probably
+      crush it\n\rin a single blow.\n\r"
+  - keywords: tree trees trunk trunks
+    description: "The ancient grey giants seem to observe you silently.\n\r"
 - vnum: 6108
   name: A narrow trail through the deep, dark forest
-  description: |
-    You are on a dusty trail winding its way between huge, ancient trees
-    standing close on all sides.  The trail leads north and west and to the south,
-    a frail path leads away from the trail.
-  room_flags: AD
+  description: "You are on a dusty trail winding its way between huge, ancient trees\n\rstanding
+    close on all sides.  The trail leads north and west and to the south,\n\ra frail
+    path leads away from the trail.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The narrow, dusty trail leads north through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads north through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6103
   - dir: 2
-    desc: |
-      The path leads south - away from the trail.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The path leads south - away from the trail.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6107
   - dir: 3
-    desc: |
-      The narrow, dusty trail leads west through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads west through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6109
   extra_descs:
-  - keywords: trail
-    description: |
-      The dark and dusty trail seems fragile compared to the massive trunks, and in
-      some places, giant grey roots have broken up through its surface.
-  - keywords: path
-    description: |
-      The path seems fragile and unsafe compared to the enormous trunks that loom
-      around it.
   - keywords: tree trees trunk trunks
-    description: |
-      These ancient trees must have been here for many, many years.  It is impossible
-      to catch even a glimpse of anything above the lowest branches.
+    description: "These ancient trees must have been here for many, many years.  It
+      is impossible\n\rto catch even a glimpse of anything above the lowest branches.\n\r"
+  - keywords: path
+    description: "The path seems fragile and unsafe compared to the enormous trunks
+      that loom\n\raround it.\n\r"
+  - keywords: trail
+    description: "The dark and dusty trail seems fragile compared to the massive trunks,
+      and in\n\rsome places, giant grey roots have broken up through its surface.\n\r"
 - vnum: 6109
   name: A narrow trail through the deep, dark forest
-  description: |
-    You are on a dusty trail winding its way east-west between huge, ancient trees
-    that stand close on all sides.  Not a sound is to be heard - everything is
-    ominously quiet.
-  room_flags: AD
+  description: "You are on a dusty trail winding its way east-west between huge, ancient
+    trees\n\rthat stand close on all sides.  Not a sound is to be heard - everything
+    is\n\rominously quiet.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The narrow, dusty trail leads east through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads east through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6108
   - dir: 3
-    desc: |
-      The narrow, dusty trail leads west through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads west through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6110
   extra_descs:
-  - keywords: trail
-    description: |
-      The dark and dusty trail seems fragile compared to the massive trunks, and in
-      some places, giant grey roots have broken up through its surface.
   - keywords: tree trees trunk trunks
-    description: |
-      These ancient trees must have been here for many, many years.  It is impossible
-      to catch even a glimpse of anything above the lowest branches.
+    description: "These ancient trees must have been here for many, many years.  It
+      is impossible\n\rto catch even a glimpse of anything above the lowest branches.\n\r"
+  - keywords: trail
+    description: "The dark and dusty trail seems fragile compared to the massive trunks,
+      and in\n\rsome places, giant grey roots have broken up through its surface.\n\r"
 - vnum: 6110
   name: A narrow trail through the deep, dark forest
-  description: "You are on a dusty trail winding its way between huge, ancient trees\
-    \ that\nstand close on all sides.  The trail leads east and south.  To the north,\
-    \ a\nnarrow path leads away from the trail.  \n"
-  room_flags: AD
+  description: "You are on a dusty trail winding its way between huge, ancient trees
+    that\n\rstand close on all sides.  The trail leads east and south.  To the north,
+    a\n\rnarrow path leads away from the trail.  \n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The narrow path leads west between the giant trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path leads west between the giant trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6144
   - dir: 1
-    desc: |
-      The narrow, dusty trail leads east through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads east through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6109
   - dir: 2
-    desc: |
-      The narrow, dusty trail leads south through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads south through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6111
   extra_descs:
-  - keywords: trail
-    description: |
-      The dark and dusty trail seems fragile compared to the massive trunks, and in
-      some places, giant grey roots have broken up through its surface.
-  - keywords: path
-    description: |
-      The path seems fragile and unsafe compared to the enormous trunks that loom
-      around it.
   - keywords: tree trees trunk trunks
-    description: |
-      Some of the trunks to the west are covered in a thin, almost transparent
-      substance.  It looks like small threads woven carefully together.
+    description: "Some of the trunks to the west are covered in a thin, almost transparent\n\rsubstance.
+      \ It looks like small threads woven carefully together.\n\r"
+  - keywords: path
+    description: "The path seems fragile and unsafe compared to the enormous trunks
+      that loom\n\raround it.\n\r"
+  - keywords: trail
+    description: "The dark and dusty trail seems fragile compared to the massive trunks,
+      and in\n\rsome places, giant grey roots have broken up through its surface.\n\r"
 - vnum: 6111
   name: A narrow trail through the deep, dark forest
-  description: |
-    You are on a dusty trail winding its way north-south between huge, ancient
-    trees that loom ominously above you.
-  room_flags: AD
+  description: "You are on a dusty trail winding its way north-south between huge,
+    ancient\n\rtrees that loom ominously above you.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The narrow, dusty trail leads north through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads north through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6110
   - dir: 2
-    desc: |
-      The narrow, dusty trail leads south through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads south through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6112
   extra_descs:
-  - keywords: trail
-    description: |
-      The dark and dusty trail seems fragile compared to the massive trunks, and in
-      some places, giant grey roots have broken up through its surface.
   - keywords: tree trees trunk trunks
-    description: |
-      These ancient trees must have been here for many, many years.  It is impossible
-      to catch even a glimpse of anything above the lowest branches.
+    description: "These ancient trees must have been here for many, many years.  It
+      is impossible\n\rto catch even a glimpse of anything above the lowest branches.\n\r"
+  - keywords: trail
+    description: "The dark and dusty trail seems fragile compared to the massive trunks,
+      and in\n\rsome places, giant grey roots have broken up through its surface.\n\r"
 - vnum: 6112
   name: A narrow trail through the deep, dark forest
-  description: |
-    You are on a dusty trail winding its way between huge, ancient trees
-    standing close on all sides.  The trail leads north and west and to the east,
-    a frail path leads away from the trail.
-  room_flags: AD
+  description: "You are on a dusty trail winding its way between huge, ancient trees\n\rstanding
+    close on all sides.  The trail leads north and west and to the east,\n\ra frail
+    path leads away from the trail.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The narrow, dusty trail leads north through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads north through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6111
   - dir: 1
-    desc: |
-      The path leads east - away from the trail.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The path leads east - away from the trail.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6113
   - dir: 3
-    desc: |
-      The narrow, dusty trail leads west through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads west through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6127
   extra_descs:
-  - keywords: trail
-    description: |
-      The dark and dusty trail seems fragile compared to the massive trunks, and in
-      some places, giant grey roots have broken up through its surface.
-  - keywords: path
-    description: |
-      The path seems fragile and unsafe compared to the enormous trunks that loom
-      around it.
   - keywords: tree trees trunk trunks
-    description: |
-      These ancient trees must have been here for many, many years.  It is impossible
-      to catch even a glimpse of anything above the lowest branches.
+    description: "These ancient trees must have been here for many, many years.  It
+      is impossible\n\rto catch even a glimpse of anything above the lowest branches.\n\r"
+  - keywords: path
+    description: "The path seems fragile and unsafe compared to the enormous trunks
+      that loom\n\raround it.\n\r"
+  - keywords: trail
+    description: "The dark and dusty trail seems fragile compared to the massive trunks,
+      and in\n\rsome places, giant grey roots have broken up through its surface.\n\r"
 - vnum: 6113
   name: A small path in the deep, dark forest
-  description: |
-    You are on a narrow path leading through the deep, dark forest.  Ancient grey
-    trees loom in all directions.  The path continues south and west.
-  room_flags: AD
+  description: "You are on a narrow path leading through the deep, dark forest.  Ancient
+    grey\n\rtrees loom in all directions.  The path continues south and west.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      The narrow path winds its way through the trees to the south.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the south.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6114
   - dir: 3
-    desc: |
-      The narrow path winds its way through the trees to the west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the west.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6112
   extra_descs:
-  - keywords: tree trees trunk trunks
-    description: |
-      The ancient grey giants seem to observe you silently.
   - keywords: path
-    description: |
-      The path seems all too frail.  One of the giant roots could probably crush it
-      in a single blow.
+    description: "The path seems all too frail.  One of the giant roots could probably
+      crush it\n\rin a single blow.\n\r"
+  - keywords: tree trees trunk trunks
+    description: "The ancient grey giants seem to observe you silently.\n\r"
 - vnum: 6114
   name: A junction in the deep, dark forest
-  description: |
-    You are by a junction where three paths meet.  Ancient grey trees tower above
-    you on all sides.  Paths lead north, east and west.
-  room_flags: AD
+  description: "You are by a junction where three paths meet.  Ancient grey trees
+    tower above\n\ryou on all sides.  Paths lead north, east and west.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The narrow path winds its way through the trees to the north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the north.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6113
   - dir: 1
-    desc: |
-      The narrow path winds its way through the trees to the east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the east.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6115
   - dir: 3
-    desc: |
-      The narrow path winds its way through the trees to the west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the west.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6122
   extra_descs:
-  - keywords: tree trees trunk trunks
-    description: |
-      The ancient grey giants seem to observe you silently.
   - keywords: path paths
-    description: |
-      The path seems all too frail.  One of the giant roots could probably crush it
-      in a single blow.
+    description: "The path seems all too frail.  One of the giant roots could probably
+      crush it\n\rin a single blow.\n\r"
+  - keywords: tree trees trunk trunks
+    description: "The ancient grey giants seem to observe you silently.\n\r"
 - vnum: 6115
   name: A small path in the deep, dark forest
-  description: |
-    You are on a narrow path leading through the deep, dark forest.  You feel as
-    if the ancient trees observe you in watchful silence.  The path continues north
-    and west.
-  room_flags: AD
+  description: "You are on a narrow path leading through the deep, dark forest.  You
+    feel as\n\rif the ancient trees observe you in watchful silence.  The path continues
+    north\n\rand west.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The narrow path winds its way through the trees to the north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the north.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6116
   - dir: 3
-    desc: |
-      The narrow path winds its way through the trees to the west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the west.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6114
   extra_descs:
-  - keywords: tree trees trunk trunks
-    description: |
-      The ancient grey giants seem to observe you silently.
   - keywords: path
-    description: |
-      The path seems all too frail.  One of the giant roots could probably crush it
-      in a single blow.
+    description: "The path seems all too frail.  One of the giant roots could probably
+      crush it\n\rin a single blow.\n\r"
+  - keywords: tree trees trunk trunks
+    description: "The ancient grey giants seem to observe you silently.\n\r"
 - vnum: 6116
   name: A small path in the deep, dark forest
-  description: |
-    You are on a narrow path leading through the deep, dark forest.  Giant, grey
-    trees loom ominously on all sides.  The path continues east and south.
-  room_flags: AD
+  description: "You are on a narrow path leading through the deep, dark forest.  Giant,
+    grey\n\rtrees loom ominously on all sides.  The path continues east and south.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The narrow path winds its way through the trees to the east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the east.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6117
   - dir: 2
-    desc: |
-      The narrow path winds its way through the trees to the south.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the south.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6115
   extra_descs:
-  - keywords: tree trees trunk trunks
-    description: |
-      The ancient grey giants seem to observe you silently.
   - keywords: path
-    description: |
-      The path seems all too frail.  One of the giant roots could probably crush it
-      in a single blow.
+    description: "The path seems all too frail.  One of the giant roots could probably
+      crush it\n\rin a single blow.\n\r"
+  - keywords: tree trees trunk trunks
+    description: "The ancient grey giants seem to observe you silently.\n\r"
 - vnum: 6117
   name: A junction in the deep, dark forest
-  description: |
-    You are by a junction where three paths meet.  Ancient, grey trees seem to
-    observe you silently you from all sides.  Paths lead north, east and west.
-  room_flags: AD
+  description: "You are by a junction where three paths meet.  Ancient, grey trees
+    seem to\n\robserve you silently you from all sides.  Paths lead north, east and
+    west.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The narrow path winds its way through the trees to the north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the north.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6106
   - dir: 1
-    desc: |
-      The narrow path winds its way through the trees to the east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the east.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6118
   - dir: 3
-    desc: |
-      The narrow path winds its way through the trees to the west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the west.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6116
   extra_descs:
-  - keywords: tree trees trunk trunks
-    description: |
-      The ancient grey giants seem to observe you silently.
   - keywords: path paths
-    description: |
-      The path seems all too frail.  One of the giant roots could probably crush it
-      in a single blow.
+    description: "The path seems all too frail.  One of the giant roots could probably
+      crush it\n\rin a single blow.\n\r"
+  - keywords: tree trees trunk trunks
+    description: "The ancient grey giants seem to observe you silently.\n\r"
 - vnum: 6118
   name: A small path in the deep, dark forest
-  description: |
-    You are on a narrow path leading through the deep, dark forest.  Ancient,
-    grey trees loom everywhere.  The path continues south and west.
-  room_flags: AD
+  description: "You are on a narrow path leading through the deep, dark forest.  Ancient,\n\rgrey
+    trees loom everywhere.  The path continues south and west.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      The narrow path winds its way through the trees to the south.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the south.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6119
   - dir: 3
-    desc: |
-      The narrow path winds its way through the trees to the west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the west.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6117
   extra_descs:
-  - keywords: tree trees trunk trunks
-    description: |
-      The ancient grey giants seem to observe you silently.
   - keywords: path
-    description: |
-      The path seems all too frail.  One of the giant roots could probably crush it
-      in a single blow.
+    description: "The path seems all too frail.  One of the giant roots could probably
+      crush it\n\rin a single blow.\n\r"
+  - keywords: tree trees trunk trunks
+    description: "The ancient grey giants seem to observe you silently.\n\r"
 - vnum: 6119
   name: A small path in the deep, dark forest
-  description: "You are on a narrow path leading through the deep, dark forest.  Huge,\n\
-    ancient trees are on all sides.  The path continues north and south.  \n"
-  room_flags: AD
+  description: "You are on a narrow path leading through the deep, dark forest.  Huge,\n\rancient
+    trees are on all sides.  The path continues north and south.  \n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The narrow path winds its way through the trees to the north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the north.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6118
   - dir: 2
-    desc: |
-      The narrow path winds its way through the trees to the south.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the south.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6120
   extra_descs:
-  - keywords: tree trees trunk trunks
-    description: |
-      You feel as if they are watching you.
   - keywords: path
-    description: |
-      The path seems all too frail.  One of the giant roots could probably crush it
-      in a single blow.
+    description: "The path seems all too frail.  One of the giant roots could probably
+      crush it\n\rin a single blow.\n\r"
+  - keywords: tree trees trunk trunks
+    description: "You feel as if they are watching you.\n\r"
 - vnum: 6120
   name: On the river bank in the deep, dark forest
-  description: "You are on a narrow path leading through the deep, dark forest.  To\
-    \ the\nsouth a fast river is flowing westwards through the forest.  Ancient grey\n\
-    trees loom on both banks.  The path continues north and west.  \n"
-  room_flags: AD
+  description: "You are on a narrow path leading through the deep, dark forest.  To
+    the\n\rsouth a fast river is flowing westwards through the forest.  Ancient grey\n\rtrees
+    loom on both banks.  The path continues north and west.  \n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The narrow path winds its way through the trees to the north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the north.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6119
   - dir: 3
-    desc: |
-      The narrow path winds its way through the trees to the west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the west.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6121
   extra_descs:
-  - keywords: river
-    description: |
-      The river flows fast and strong.  It is black or looks so in the gloom.
-  - keywords: bank banks tree trees trunk trunks
-    description: |
-      The ancient crowns of trees on both banks reach together forming a dense roof
-      above the dark river.
   - keywords: path
-    description: |
-      The path seems all too frail.  One of the giant roots could probably crush it
-      in a single blow.
+    description: "The path seems all too frail.  One of the giant roots could probably
+      crush it\n\rin a single blow.\n\r"
+  - keywords: bank banks tree trees trunk trunks
+    description: "The ancient crowns of trees on both banks reach together forming
+      a dense roof\n\rabove the dark river.\n\r"
+  - keywords: river
+    description: "The river flows fast and strong.  It is black or looks so in the
+      gloom.\n\r"
 - vnum: 6121
   name: A dead end path on the river bank in the deep, dark forest
-  description: |
-    You are on a narrow path leading through the deep, dark forest.  The ancient
-    trees stand so close that the path disappears between the dusty roots.  To the
-    south a dark river flows from east to west.  The only exit appears to be east.
-  room_flags: AD
+  description: "You are on a narrow path leading through the deep, dark forest.  The
+    ancient\n\rtrees stand so close that the path disappears between the dusty roots.
+    \ To the\n\rsouth a dark river flows from east to west.  The only exit appears
+    to be east.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The narrow path winds its way through the trees to the east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the east.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6120
   extra_descs:
-  - keywords: river
-    description: |
-      The river flows fast and strong.  It is black or looks so in the gloom.
-  - keywords: bank banks tree trees trunk trunks
-    description: |
-      The ancient crowns of trees on both banks reach together forming a dense roof
-      above the dark river.
   - keywords: path
-    description: |
-      The path seems all too frail.  One of the giant roots could probably crush it
-      in a single blow.
+    description: "The path seems all too frail.  One of the giant roots could probably
+      crush it\n\rin a single blow.\n\r"
+  - keywords: bank banks tree trees trunk trunks
+    description: "The ancient crowns of trees on both banks reach together forming
+      a dense roof\n\rabove the dark river.\n\r"
+  - keywords: river
+    description: "The river flows fast and strong.  It is black or looks so in the
+      gloom.\n\r"
 - vnum: 6122
   name: A small path in the deep, dark forest
-  description: |
-    You are on a narrow path leading through the deep, dark forest.  Giant, grey
-    trees loom ominously all around.  The path continues east and south.
-  room_flags: AD
+  description: "You are on a narrow path leading through the deep, dark forest.  Giant,
+    grey\n\rtrees loom ominously all around.  The path continues east and south.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The narrow path winds its way through the trees to the east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the east.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6114
   - dir: 2
-    desc: |
-      The narrow path winds its way through the trees to the south.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the south.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6123
   extra_descs:
-  - keywords: tree trees trunk trunks
-    description: |
-      The ancient grey giants seem to observe you silently.
   - keywords: path
-    description: |
-      The path seems all too frail.  One of the giant roots could probably crush it
-      in a single blow.
+    description: "The path seems all too frail.  One of the giant roots could probably
+      crush it\n\rin a single blow.\n\r"
+  - keywords: tree trees trunk trunks
+    description: "The ancient grey giants seem to observe you silently.\n\r"
 - vnum: 6123
   name: A junction on the river bank in the deep, dark forest
-  description: "You are by a junction where three paths meet.  Ancient, grey trees\
-    \ seem to\nobserve you silently you from all around.  To the south a dark river\
-    \ flows from\neast to west through the forest.  Paths lead north, east and west.\
-    \ \n"
-  room_flags: AD
+  description: "You are by a junction where three paths meet.  Ancient, grey trees
+    seem to\n\robserve you silently you from all around.  To the south a dark river
+    flows from\n\reast to west through the forest.  Paths lead north, east and west.
+    \n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The narrow path winds its way through the trees to the north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the north.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6122
   - dir: 1
-    desc: |
-      The narrow path winds its way through the trees to the east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the east.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6124
   - dir: 2
-    desc: |
-      You see a dark river.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a dark river.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9774
   - dir: 3
-    desc: |
-      The narrow path winds its way through the trees to the west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the west.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6125
   extra_descs:
-  - keywords: river
-    description: |
-      The river flows fast and strong.  It is black or looks so in the gloom.
-  - keywords: bank banks tree trees trunk trunks
-    description: |
-      The ancient crowns of trees on both banks reach together forming a dense roof
-      above the dark river.
   - keywords: path paths
-    description: |
-      The path seems all too frail.  One of the giant roots could probably crush it
-      in a single blow.
+    description: "The path seems all too frail.  One of the giant roots could probably
+      crush it\n\rin a single blow.\n\r"
+  - keywords: bank banks tree trees trunk trunks
+    description: "The ancient crowns of trees on both banks reach together forming
+      a dense roof\n\rabove the dark river.\n\r"
+  - keywords: river
+    description: "The river flows fast and strong.  It is black or looks so in the
+      gloom.\n\r"
 - vnum: 6124
   name: A dead end path in the deep, dark forest
-  description: |
-    You are on a narrow path leading through the deep, dark forest.  The ancient
-    trees stand so close that the path disappears between the dusty roots.  To the
-    south a dark river flows from east to west.  The only exit appears to be west.
-  room_flags: AD
+  description: "You are on a narrow path leading through the deep, dark forest.  The
+    ancient\n\rtrees stand so close that the path disappears between the dusty roots.
+    \ To the\n\rsouth a dark river flows from east to west.  The only exit appears
+    to be west.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      It stinks in there.
-    keywords: ''
-    exit_flags: '0'
+    desc: "It stinks in there.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 2801
   - dir: 3
-    desc: |
-      The narrow path winds its way through the trees to the west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the west.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6123
   extra_descs:
-  - keywords: river
-    description: |
-      The river flows fast and strong.  It is black or looks so in the gloom.
-  - keywords: bank banks tree trees trunk trunks
-    description: |
-      The ancient crowns of trees on both banks reach together forming a dense roof
-      above the dark river.
   - keywords: path
-    description: |
-      The path seems all too frail.  One of the giant roots could probably crush it
-      in a single blow.
+    description: "The path seems all too frail.  One of the giant roots could probably
+      crush it\n\rin a single blow.\n\r"
+  - keywords: bank banks tree trees trunk trunks
+    description: "The ancient crowns of trees on both banks reach together forming
+      a dense roof\n\rabove the dark river.\n\r"
+  - keywords: river
+    description: "The river flows fast and strong.  It is black or looks so in the
+      gloom.\n\r"
 - vnum: 6125
   name: A small path on the river bank in the deep, dark forest
-  description: |
-    You are on a narrow path leading through the deep, dark forest.  Ancient grey
-    trees loom everywhere.  To the south you smell marsh gas.  The path continues
-    north and east.
-  room_flags: AD
+  description: "You are on a narrow path leading through the deep, dark forest.  Ancient
+    grey\n\rtrees loom everywhere.  To the south you smell marsh gas.  The path continues\n\rnorth
+    and east.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The narrow path winds its way through the trees to the north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the north.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6126
   - dir: 1
-    desc: |
-      The narrow path winds its way through the trees to the east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow path winds its way through the trees to the east.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6123
   - dir: 2
-    desc: |
-      You smell marsh gas.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You smell marsh gas.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 8301
   extra_descs:
-  - keywords: river
-    description: |
-      The river flows fast and strong.  It is black or looks so in the gloom.
-  - keywords: bank banks tree trees trunk trunks
-    description: |
-      The ancient crowns of trees on both banks reach together forming a dense roof
-      above the dark river.
   - keywords: path
-    description: |
-      The path seems all too frail.  One of the giant roots could probably crush it
-      in a single blow.
+    description: "The path seems all too frail.  One of the giant roots could probably
+      crush it\n\rin a single blow.\n\r"
+  - keywords: bank banks tree trees trunk trunks
+    description: "The ancient crowns of trees on both banks reach together forming
+      a dense roof\n\rabove the dark river.\n\r"
+  - keywords: river
+    description: "The river flows fast and strong.  It is black or looks so in the
+      gloom.\n\r"
 - vnum: 6126
   name: A narrow trail through the deep, dark forest
-  description: |
-    You are on a dusty trail winding its way between huge, ancient trees standing
-    close on all sides.  The trail leads north and west, and to the south a frail
-    path leads away from the trail.
-  room_flags: AD
+  description: "You are on a dusty trail winding its way between huge, ancient trees
+    standing\n\rclose on all sides.  The trail leads north and west, and to the south
+    a frail\n\rpath leads away from the trail.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The narrow, dusty trail leads north through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads north through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6127
   - dir: 2
-    desc: |
-      The path leads south - away from the trail.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The path leads south - away from the trail.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6125
   - dir: 3
-    desc: |
-      The narrow, dusty trail leads west through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads west through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6128
   extra_descs:
-  - keywords: trail
-    description: |
-      The dark and dusty trail seems fragile compared to the massive trunks, and in
-      some places, giant grey roots have broken up through its surface.
-  - keywords: path
-    description: |
-      The path seems fragile and unsafe compared to the enormous trunks that loom
-      around it.
   - keywords: tree trees trunk trunks
-    description: |
-      These ancient trees must have been here for many, many years.  It is impossible
-      to catch even a glimpse of anything above the lowest branches.
+    description: "These ancient trees must have been here for many, many years.  It
+      is impossible\n\rto catch even a glimpse of anything above the lowest branches.\n\r"
+  - keywords: path
+    description: "The path seems fragile and unsafe compared to the enormous trunks
+      that loom\n\raround it.\n\r"
+  - keywords: trail
+    description: "The dark and dusty trail seems fragile compared to the massive trunks,
+      and in\n\rsome places, giant grey roots have broken up through its surface.\n\r"
 - vnum: 6127
   name: A narrow trail through the deep, dark forest
-  description: |
-    You are on a dusty trail winding its way between huge, ancient trees
-    standing close on all sides.  The trail leads east and south.
-  room_flags: AD
+  description: "You are on a dusty trail winding its way between huge, ancient trees\n\rstanding
+    close on all sides.  The trail leads east and south.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The narrow, dusty trail leads east through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads east through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6112
   - dir: 2
-    desc: |
-      The narrow, dusty trail leads south through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads south through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6126
   extra_descs:
-  - keywords: trail
-    description: |
-      The dark and dusty trail seems fragile compared to the massive trunks, and in
-      some places, giant grey roots have broken up through its surface.
   - keywords: tree trees trunk trunks
-    description: |
-      These ancient trees must have been here for many, many years.  It is impossible
-      to catch even a glimpse of anything above the lowest branches.
+    description: "These ancient trees must have been here for many, many years.  It
+      is impossible\n\rto catch even a glimpse of anything above the lowest branches.\n\r"
+  - keywords: trail
+    description: "The dark and dusty trail seems fragile compared to the massive trunks,
+      and in\n\rsome places, giant grey roots have broken up through its surface.\n\r"
 - vnum: 6128
   name: A narrow trail through the deep, dark forest
-  description: |
-    You are on a dusty trail winding its way east-west between huge, ancient trees
-    that stand close on all sides.  Not a sound is to be heard - everything is
-    ominously quiet.
-  room_flags: AD
+  description: "You are on a dusty trail winding its way east-west between huge, ancient
+    trees\n\rthat stand close on all sides.  Not a sound is to be heard - everything
+    is\n\rominously quiet.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The narrow, dusty trail leads east through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads east through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6126
   - dir: 3
-    desc: |
-      The narrow, dusty trail leads west through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads west through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6129
   extra_descs:
-  - keywords: trail
-    description: |
-      The dark and dusty trail seems fragile compared to the massive trunks, and in
-      some places, giant grey roots have broken up through its surface.
   - keywords: tree trees trunk trunks
-    description: |
-      These ancient trees must have been here for many, many years.  It is impossible
-      to catch even a glimpse of anything above the lowest branches.
+    description: "These ancient trees must have been here for many, many years.  It
+      is impossible\n\rto catch even a glimpse of anything above the lowest branches.\n\r"
+  - keywords: trail
+    description: "The dark and dusty trail seems fragile compared to the massive trunks,
+      and in\n\rsome places, giant grey roots have broken up through its surface.\n\r"
 - vnum: 6129
   name: A narrow trail through the deep, dark forest
-  description: "You are on a dusty trail winding its way east-west between huge, ancient\n\
-    trees that stand close on all sides.  Not a sound is to be heard -\neverything\
-    \ is ominously quiet.  \n"
-  room_flags: AD
+  description: "You are on a dusty trail winding its way east-west between huge, ancient\n\rtrees
+    that stand close on all sides.  Not a sound is to be heard -\n\reverything is
+    ominously quiet.  \n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The narrow, dusty trail leads east through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads east through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6128
   - dir: 3
-    desc: |
-      The narrow, dusty trail leads west through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads west through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6135
   extra_descs:
-  - keywords: trail
-    description: |
-      The dark and dusty trail seems fragile compared to the massive trunks, and in
-      some places, giant grey roots have broken up through its surface.
   - keywords: tree trees trunk trunks
-    description: |
-      These ancient trees must have been here for many, many years.  It is impossible
-      to catch even a glimpse of anything above the lowest branches.
+    description: "These ancient trees must have been here for many, many years.  It
+      is impossible\n\rto catch even a glimpse of anything above the lowest branches.\n\r"
+  - keywords: trail
+    description: "The dark and dusty trail seems fragile compared to the massive trunks,
+      and in\n\rsome places, giant grey roots have broken up through its surface.\n\r"
 - vnum: 6130
   name: A narrow trail through the deep, dark forest
-  description: |
-    You are on a dusty trail winding its way westwards just below huge sticky
-    wires suspended like ropes between the trees.  To the west the path seems to
-    be completely covered in a giant web made from huge threads covered with glue.
-    This place gives you the creeps.
-  room_flags: AD
+  description: "You are on a dusty trail winding its way westwards just below huge
+    sticky\n\rwires suspended like ropes between the trees.  To the west the path
+    seems to\n\rbe completely covered in a giant web made from huge threads covered
+    with glue.\n\rThis place gives you the creeps.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The narrow, dusty trail leads east through the forest, away from the web.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The narrow, dusty trail leads east through the forest, away from the web.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6144
   - dir: 3
-    desc: |
-      The structure to the west looks most of all like an immense spider web.
-      It does not look as if you can go further without getting caught in it.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The structure to the west looks most of all like an immense spider web.\n\rIt
+      does not look as if you can go further without getting caught in it.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6131
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6132
   extra_descs:
-  - keywords: trail
-    description: |
-      The dark and dusty trail seems fragile compared to the massive trunks, and in
-      some places, giant grey roots have broken up through its surface.
   - keywords: substance wire wires rope ropes tree trees trunk trunks
-    description: |
-      The sticky substance is hanging like ropes between the ancient trees, crossing
-      the path just out of reach.  It might be possible to climb one of the sticky
-      trunks.
+    description: "The sticky substance is hanging like ropes between the ancient trees,
+      crossing\n\rthe path just out of reach.  It might be possible to climb one of
+      the sticky\n\rtrunks.\n\r"
+  - keywords: trail
+    description: "The dark and dusty trail seems fragile compared to the massive trunks,
+      and in\n\rsome places, giant grey roots have broken up through its surface.\n\r"
 - vnum: 6131
   name: The spider web
-  description: |
-    You are walking along the narrow path, ducking under the sticky ropes as you
-    advance...
-
-    >
-    A huge, poisonous spider drops from above!
-    A huge, poisonous spider drops from above!
-    A huge, poisonous spider drops from above!
-
-    >
-    The huge, poisonous spider stings you!  You resist the poison!
-    The huge, poisonous spider stings you!  You are poisoned!
-    The huge, poisonous spider stings you!  You are poisoned!
-
-    >
-    You've fallen, and you can't get up!!!!!
-  room_flags: CD
+  description: "You are walking along the narrow path, ducking under the sticky ropes
+    as you\n\radvance...\n\r\n\r>\n\rA huge, poisonous spider drops from above!\n\rA
+    huge, poisonous spider drops from above!\n\rA huge, poisonous spider drops from
+    above!\n\r\n\r>\n\rThe huge, poisonous spider stings you!  You resist the poison!\n\rThe
+    huge, poisonous spider stings you!  You are poisoned!\n\rThe huge, poisonous spider
+    stings you!  You are poisoned!\n\r\n\r>\n\rYou've fallen, and you can't get up!!!!!\n\r"
+  room_flags: 12
   sector: 3
-  owner: ''
+  owner:
   exits: []
   extra_descs: []
 - vnum: 6132
   name: Up in the tree
-  description: |
-    You are hanging on the outside of a huge tree trunk covered in a sticky
-    substance.  Directly to the west is an immense spider web suspended between
-    numerous of the giant trees including the one you are hanging on.
-  room_flags: ACD
+  description: "You are hanging on the outside of a huge tree trunk covered in a sticky\n\rsubstance.
+    \ Directly to the west is an immense spider web suspended between\n\rnumerous
+    of the giant trees including the one you are hanging on.\n\r"
+  room_flags: 13
   sector: 6
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: |
-      To the west is the immense spider web.  It seems to move softly.
-    keywords: ''
-    exit_flags: '0'
+    desc: "To the west is the immense spider web.  It seems to move softly.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6133
   - dir: 5
-    desc: |
-      Downwards is the narrow forest path.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Downwards is the narrow forest path.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6130
   extra_descs:
   - keywords: web
-    description: |
-      The spider web stretches out to the west.  It looks as if it is possible to
-      walk on it.
+    description: "The spider web stretches out to the west.  It looks as if it is
+      possible to\n\rwalk on it.\n\r"
 - vnum: 6133
   name: On the spider web
-  description: |
-    You are balancing carefully on the giant sticky threads that holds the giant
-    web in place.  To the east is a giant tree trunk and to the west is an entrance
-    to a cave-like structure made from many layers of spider web.
-  room_flags: AD
+  description: "You are balancing carefully on the giant sticky threads that holds
+    the giant\n\rweb in place.  To the east is a giant tree trunk and to the west
+    is an entrance\n\rto a cave-like structure made from many layers of spider web.\n\r"
+  room_flags: 9
   sector: 6
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The web continues to the north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The web continues to the north.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6200
   - dir: 1
-    desc: |
-      To the east is the giant tree trunk.
-    keywords: ''
-    exit_flags: '0'
+    desc: "To the east is the giant tree trunk.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6132
   - dir: 3
-    desc: |
-      To the west is the entrance to the cave-like structure.
-    keywords: ''
-    exit_flags: '0'
+    desc: "To the west is the entrance to the cave-like structure.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6134
   extra_descs:
-  - keywords: web
-    description: |
-      The immense spider web moves softly.
   - keywords: cave structure
-    description: |
-      It covers a ground area corresponding to an irregular circle with a diameter of
-      about 20 feet and is nearly 10 feet tall.  It looks very old.
+    description: "It covers a ground area corresponding to an irregular circle with
+      a diameter of\n\rabout 20 feet and is nearly 10 feet tall.  It looks very old.\n\r"
+  - keywords: web
+    description: "The immense spider web moves softly.\n\r"
 - vnum: 6134
   name: The Den of the Queen Spider
-  description: |
-    You are inside a cave-like structure that seems to be made entirely from
-    countless layers of spider web.  Temperature and humidity is very high making
-    it hard to breathe the foul air that lingers here.  The walls are covered with
-    open cocoons.
-  room_flags: AD
+  description: "You are inside a cave-like structure that seems to be made entirely
+    from\n\rcountless layers of spider web.  Temperature and humidity is very high
+    making\n\rit hard to breathe the foul air that lingers here.  The walls are covered
+    with\n\ropen cocoons.\n\r"
+  room_flags: 9
   sector: 6
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      Compared to this place the east exit looks inviting.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Compared to this place the east exit looks inviting.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6133
   extra_descs:
-  - keywords: web wall walls
-    description: |
-      The sticky walls are covered with open cocoons.
   - keywords: cocoon cocoons
-    description: |
-      The cocoons are burst open as if something inside really wanted to get out.
-      They are at the size of a human head.
+    description: "The cocoons are burst open as if something inside really wanted
+      to get out.\n\rThey are at the size of a human head.\n\r"
+  - keywords: web wall walls
+    description: "The sticky walls are covered with open cocoons.\n\r"
 - vnum: 6135
   name: A dusty trail in the deep, dark forest
-  description: |
-    You are on a dusty trail leading through the deep, dark forest.  Ancient grey
-    trees loom all around you.  The trail continues north and east.
-  room_flags: AD
+  description: "You are on a dusty trail leading through the deep, dark forest.  Ancient
+    grey\n\rtrees loom all around you.  The trail continues north and east.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The dusty trail leads north through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The dusty trail leads north through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6136
   - dir: 1
-    desc: |
-      The dusty trail leads east through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The dusty trail leads east through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6129
   extra_descs:
   - keywords: tree trees trunk trunks
-    description: |
-      The ancient grey giants seem to observe you silently.
+    description: "The ancient grey giants seem to observe you silently.\n\r"
 - vnum: 6136
   name: A dusty trail in the deep, dark forest
-  description: |
-    You are on a dusty trail leading through the deep, dark forest.  Ancient,
-    grey trees loom everywhere.  The trail continues south and west.  A broad
-    irregular path leads eastwards away from the trail.
-  room_flags: AD
+  description: "You are on a dusty trail leading through the deep, dark forest.  Ancient,\n\rgrey
+    trees loom everywhere.  The trail continues south and west.  A broad\n\rirregular
+    path leads eastwards away from the trail.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The trees standing on the sides of the path have scratch marks on them.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The trees standing on the sides of the path have scratch marks on them.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6142
   - dir: 2
-    desc: |
-      The dusty trail leads south through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The dusty trail leads south through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6135
   - dir: 3
-    desc: |
-      The dusty trail leads west through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The dusty trail leads west through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6137
   extra_descs:
-  - keywords: tree trees trunk trunks
-    description: |
-      To the east the ancient grey giants have many marks as if something with huge
-      claws has been tearing at them in rage.
-  - keywords: path
-    description: |
-      The trees standing on the sides of the path have scratch marks on them.
   - keywords: trail
-    description: |
-      The dark and dusty trail seems fragile compared to the massive trunks, and in
-      some places, giant grey roots have broken up through its surface.
+    description: "The dark and dusty trail seems fragile compared to the massive trunks,
+      and in\n\rsome places, giant grey roots have broken up through its surface.\n\r"
+  - keywords: path
+    description: "The trees standing on the sides of the path have scratch marks on
+      them.\n\r"
+  - keywords: tree trees trunk trunks
+    description: "To the east the ancient grey giants have many marks as if something
+      with huge\n\rclaws has been tearing at them in rage.\n\r"
 - vnum: 6137
   name: At the end of the trail through the deep, dark forest
-  description: |
-    You are on a dusty trail leading through the deep, dark forest.  Ancient grey
-    trees loom all around you.  You see a dark grove north of you.
-    The only other exit is east.
-  room_flags: AD
+  description: "You are on a dusty trail leading through the deep, dark forest.  Ancient
+    grey\n\rtrees loom all around you.  You see a dark grove north of you.\n\rThe
+    only other exit is east.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see a dark grove north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a dark grove north.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1300
   - dir: 1
-    desc: |
-      The dusty trail leads east through the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The dusty trail leads east through the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6136
   extra_descs:
   - keywords: tree trees trunk trunks
-    description: |
-      The ancient grey giants seem to observe you silently.
+    description: "The ancient grey giants seem to observe you silently.\n\r"
 - vnum: 6142
   name: Outside a cave in the deep, dark forest
-  description: |
-    You are at the end of a broad, irregular path.  To the north is a very large
-    ominous-looking cave opening.  The trees here have many marks as if something
-    with huge claws has been tearing at them in rage.
-  room_flags: AD
+  description: "You are at the end of a broad, irregular path.  To the north is a
+    very large\n\rominous-looking cave opening.  The trees here have many marks as
+    if something\n\rwith huge claws has been tearing at them in rage.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The disgusting smell of a large reptile emanates from the cave opening.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The disgusting smell of a large reptile emanates from the cave opening.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6143
   - dir: 3
-    desc: |
-      The path winds its way westwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The path winds its way westwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6136
   extra_descs:
-  - keywords: tree trees
-    description: |
-      The ancient grey giants have many marks as if something with huge claws has
-      been tearing at them in rage.
   - keywords: cave opening
-    description: |
-      The disgusting smell of a large reptile emanates from the cave opening.
+    description: "The disgusting smell of a large reptile emanates from the cave opening.\n\r"
+  - keywords: tree trees
+    description: "The ancient grey giants have many marks as if something with huge
+      claws has\n\rbeen tearing at them in rage.\n\r"
 - vnum: 6143
   name: The cave of the Green Dragon
-  description: |
-    You are in a big natural cave.  The floor is littered with bones of all sorts
-    and the stench is so massive that you could cut it with a knife.  The only exit
-    is to the south.
-  room_flags: AD
+  description: "You are in a big natural cave.  The floor is littered with bones of
+    all sorts\n\rand the stench is so massive that you could cut it with a knife.
+    \ The only exit\n\ris to the south.\n\r"
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      The exit leads out into the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The exit leads out into the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 6142
   extra_descs:
   - keywords: bone bones floor
-    description: |
-      Most of the bones on the floor appear to be of human origin.
+    description: "Most of the bones on the floor appear to be of human origin.\n\r"
 resets:
-- command: D
-  arg1: 6152
-  arg2: 1
-  arg3: 0
-- command: D
-  arg1: 6153
-  arg2: 3
-  arg3: 0
-- command: D
-  arg1: 6009
-  arg2: 0
-  arg3: 1
 - command: M
   arg1: 6116
   arg2: 1
@@ -3646,8 +3241,4 @@ resets:
   arg1: 6111
   arg2: 0
   arg3: 0
-specials:
-- vnum: 6112
-  spec_fun: spec_breath_gas
-- vnum: 6116
-  spec_fun: spec_cast_cleric
+shops: []

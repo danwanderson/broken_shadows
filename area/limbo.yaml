@@ -10,101 +10,98 @@ mobiles:
 - vnum: 1
   keywords: Puff
   short_desc: Puff
-  long_desc: |
-    Puff the Fractal Dragon is here, contemplating a higher reality.
-  description: "You see a fantastic, vaguely draconian-shaped mathematical pattern.\
-    \  \nEven as you watch, though, the form reiterates itself in finer detail--\n\
-    with each passing moment, the shape becomes more complex and interesting.\nAlmost,\
-    \ almost, you can discern the pattern...\n\nFor all her fabulous appearance, though,\
-    \ Puff seems quite... addled.  As \nthe definition of her eyes increases, you\
-    \ realize that the Fractal Dragon \nis obviously not paying much attention to\
-    \ the mortal world; she seems lost \nin strange contemplations.\n\n"
+  long_desc: "Puff the Fractal Dragon is here, contemplating a higher reality.\n\r"
+  description: "You see a fantastic, vaguely draconian-shaped mathematical pattern.
+    \ \n\rEven as you watch, though, the form reiterates itself in finer detail--\n\rwith
+    each passing moment, the shape becomes more complex and interesting.\n\rAlmost,
+    almost, you can discern the pattern...\n\r\n\rFor all her fabulous appearance,
+    though, Puff seems quite... addled.  As \n\rthe definition of her eyes increases,
+    you realize that the Fractal Dragon \n\ris obviously not paying much attention
+    to the mortal world; she seems lost \n\rin strange contemplations.\n\r\n\r"
   race: unique
-  act: A
-  affected_by: '0'
-  affected2_by: '0'
+  act: 0
+  affected_by: 0
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 26
   hitroll: 5
   hit:
-    number: 5
-    type: 10
-    bonus: 550
+  - 5
+  - 10
+  - 550
   mana:
-    number: 26
-    type: 5
-    bonus: 100
+  - 26
+  - 5
+  - 100
   damage:
-    number: 4
-    type: 6
-    bonus: 3
+  - 4
+  - 6
+  - 3
   dam_type: 32
   ac:
     pierce: -15
     bash: -15
     slash: -15
     exotic: -10
-  off_flags: MNc
-  imm_flags: AB
-  res_flags: CD
-  vuln_flags: '0'
+  off_flags: 268447744
+  imm_flags: 3
+  res_flags: 12
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 80
-  form: DHZ
-  parts: ACDEFHJKPQUVX
+  form: 33554568
+  parts: 11634365
   size: M
   material: none
   spec_fun: spec_puff
 - vnum: 2
   keywords: zombie
   short_desc: a zombie
-  long_desc: |
-    A zombie is here, slaving away for its master.
-  description: |
-    This zombie has a blank look on its face. Rest assured, it wouldn't stir
-    if you held a knife to its throat.
+  long_desc: "A zombie is here, slaving away for its master.\n\r"
+  description: "This zombie has a blank look on its face. Rest assured, it wouldn't
+    stir\n\rif you held a knife to its throat.\n\r"
   race: Human
-  act: ABT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524290
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 1
   hitroll: 0
   hit:
-    number: 1
-    type: 2
-    bonus: 6
+  - 1
+  - 2
+  - 6
   mana:
-    number: 1
-    type: 10
-    bonus: 100
+  - 1
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 2
-    bonus: 0
+  - 1
+  - 2
+  - 0
   dam_type: 3
   ac:
     pierce: 9
     bash: 9
     slash: 9
     exotic: 9
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 objects:
 - vnum: 1
   name: dummy object
@@ -112,17 +109,17 @@ objects:
   description: Dummy object is used for loading non-existent objects
   material: none
   item_type: 0
-  extra_flags: '0'
-  wear_flags: '0'
+  extra_flags: 0
+  wear_flags: 0
+  level: 0
+  weight: 0
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 0
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 2
@@ -131,17 +128,17 @@ objects:
   description: One miserable gold coin.
   material: none
   item_type: 20
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 1
+  cost: 0
   values:
   - 1
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 3
@@ -150,17 +147,17 @@ objects:
   description: A pile of gold coins.
   material: none
   item_type: 20
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 1
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 10
@@ -169,17 +166,17 @@ objects:
   description: The corpse of %s is lying here.
   material: none
   item_type: 23
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 100
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 1
   - 0
-  level: 0
-  weight: 100
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 11
@@ -188,17 +185,17 @@ objects:
   description: The corpse of %s is lying here.
   material: none
   item_type: 24
-  extra_flags: O
-  wear_flags: A
+  extra_flags: 16384
+  wear_flags: 1
+  level: 0
+  weight: 100
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 1
   - 0
-  level: 0
-  weight: 100
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 12
@@ -207,17 +204,17 @@ objects:
   description: The severed head of %s is lying here.
   material: none
   item_type: 13
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 5
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 5
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 13
@@ -226,17 +223,17 @@ objects:
   description: The torn-out heart of %s is lying here.
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 2
+  cost: 0
   values:
   - 16
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 2
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 14
@@ -245,17 +242,17 @@ objects:
   description: The sliced-off arm of %s is lying here.
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 5
+  cost: 0
   values:
   - 20
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 5
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 15
@@ -264,17 +261,17 @@ objects:
   description: The sliced-off leg of %s is lying here.
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 5
+  cost: 0
   values:
   - 20
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 5
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 16
@@ -283,17 +280,17 @@ objects:
   description: A steaming pile of %s's entrails is lying here.
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 2
+  cost: 0
   values:
   - 5
   - 0
   - 0
   - 1
   - 0
-  level: 0
-  weight: 2
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 17
@@ -302,17 +299,17 @@ objects:
   description: The splattered brains of %s are lying here.
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 2
+  cost: 0
   values:
   - 10
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 2
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 20
@@ -321,17 +318,17 @@ objects:
   description: A delicious magic mushroom is here.
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 1
+  cost: 10
   values:
   - 8
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 10
   affects: []
   extra_descs: []
 - vnum: 21
@@ -340,17 +337,17 @@ objects:
   description: A bright ball of light shimmers in the air.
   material: none
   item_type: 1
-  extra_flags: A
-  wear_flags: A
+  extra_flags: 1
+  wear_flags: 1
+  level: 0
+  weight: 0
+  cost: 0
   values:
   - 0
   - 0
   - 999
   - 0
   - 0
-  level: 0
-  weight: 0
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 22
@@ -359,17 +356,17 @@ objects:
   description: A magical spring flows from the ground here.
   material: none
   item_type: 25
-  extra_flags: G
-  wear_flags: '0'
+  extra_flags: 64
+  wear_flags: 0
+  level: 0
+  weight: 0
+  cost: 0
   values:
   - 100000
   - 100000
   - 0
   - 0
   - 0
-  level: 0
-  weight: 0
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 23
@@ -378,26 +375,26 @@ objects:
   description: A magic sword with a blade of flame is here on the ground.
   material: none
   item_type: 5
-  extra_flags: G
-  wear_flags: ANPQRSTUVWXYZabcdef
+  extra_flags: 64
+  wear_flags: -24575
+  level: 0
+  weight: 10
+  cost: 1000
   values:
   - 2
   - 0
   - 5
   - 29
   - 32
-  level: 0
-  weight: 10
-  cost: 1000
   affects:
-  - where: O
-    location: 19
-    modifier: 3
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 3
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 3
+    bitvector: 0
   extra_descs: []
 - vnum: 24
   name: steak
@@ -405,17 +402,17 @@ objects:
   description: A big, juicy steak is here.
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 1
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 25
@@ -424,17 +421,17 @@ objects:
   description: A beautiful red rose has been dropped on the floor.
   material: none
   item_type: 8
-  extra_flags: '0'
-  wear_flags: AO
+  extra_flags: 0
+  wear_flags: 16385
+  level: 0
+  weight: 1
+  cost: 100
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 100
   affects: []
   extra_descs: []
 - vnum: 26
@@ -443,17 +440,17 @@ objects:
   description: A shimmering gate is here, leading into the unknown.
   material: none
   item_type: 30
-  extra_flags: T
-  wear_flags: '0'
+  extra_flags: 524288
+  wear_flags: 0
+  level: 0
+  weight: 0
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 0
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 27
@@ -462,17 +459,17 @@ objects:
   description: '`gA single `Kblack`g, long stemmed rose lies here.`w'
   material: none
   item_type: 8
-  extra_flags: '0'
-  wear_flags: AO
+  extra_flags: 0
+  wear_flags: 16385
+  level: 0
+  weight: 1
+  cost: 200
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 200
   affects: []
   extra_descs: []
 - vnum: 28
@@ -481,17 +478,17 @@ objects:
   description: '`gA `Wwhite`g rose belonging to someone special lies here.`w'
   material: none
   item_type: 8
-  extra_flags: '0'
-  wear_flags: AO
+  extra_flags: 0
+  wear_flags: 16385
+  level: 0
+  weight: 1
+  cost: 200
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 200
   affects: []
   extra_descs: []
 - vnum: 29
@@ -500,17 +497,17 @@ objects:
   description: '`gA beautiful, `Rred`g, long stemed rose lies here for someone special.`w'
   material: none
   item_type: 8
-  extra_flags: '0'
-  wear_flags: AO
+  extra_flags: 0
+  wear_flags: 16385
+  level: 0
+  weight: 1
+  cost: 200
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 200
   affects: []
   extra_descs: []
 - vnum: 30
@@ -519,17 +516,17 @@ objects:
   description: '`gA dainty `Mpink`g rosebud belonging to someone special lies here.`w'
   material: none
   item_type: 8
-  extra_flags: '0'
-  wear_flags: AO
+  extra_flags: 0
+  wear_flags: 16385
+  level: 0
+  weight: 1
+  cost: 200
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 200
   affects: []
   extra_descs: []
 - vnum: 31
@@ -538,17 +535,17 @@ objects:
   description: '`gA `Rred `grose corsage waits here for someone special.`w'
   material: none
   item_type: 8
-  extra_flags: '0'
-  wear_flags: AM
+  extra_flags: 0
+  wear_flags: 4097
+  level: 0
+  weight: 1
+  cost: 300
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 300
   affects: []
   extra_descs: []
 - vnum: 32
@@ -558,17 +555,17 @@ objects:
     special.`w'
   material: none
   item_type: 8
-  extra_flags: '0'
-  wear_flags: AO
+  extra_flags: 0
+  wear_flags: 16385
+  level: 0
+  weight: 2
+  cost: 500
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 2
-  cost: 500
   affects: []
   extra_descs: []
 - vnum: 90
@@ -577,17 +574,17 @@ objects:
   description: A keen, dark blade is lying here.
   material: none
   item_type: 5
-  extra_flags: AC
-  wear_flags: AN
+  extra_flags: 5
+  wear_flags: 8193
+  level: 0
+  weight: 20
+  cost: 100000
   values:
   - 0
   - 0
   - 0
   - 19
   - 8
-  level: 0
-  weight: 20
-  cost: 100000
   affects: []
   extra_descs: []
 - vnum: 91
@@ -596,17 +593,17 @@ objects:
   description: A large plate of glossy black is here.
   material: none
   item_type: 9
-  extra_flags: C
-  wear_flags: AD
+  extra_flags: 4
+  wear_flags: 9
+  level: 0
+  weight: 25
+  cost: 90000
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 25
-  cost: 90000
   affects: []
   extra_descs: []
 - vnum: 92
@@ -615,17 +612,17 @@ objects:
   description: A pitch black shield with a knight's crest is here.
   material: none
   item_type: 9
-  extra_flags: CG
-  wear_flags: AJ
+  extra_flags: 68
+  wear_flags: 513
+  level: 0
+  weight: 15
+  cost: 80000
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 15
-  cost: 80000
   affects: []
   extra_descs: []
 - vnum: 93
@@ -634,17 +631,17 @@ objects:
   description: A pile of black cloth is here, shimmering slightly.
   material: none
   item_type: 9
-  extra_flags: C
-  wear_flags: AC
+  extra_flags: 4
+  wear_flags: 5
+  level: 0
+  weight: 5
+  cost: 70000
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 5
-  cost: 70000
   affects: []
   extra_descs: []
 - vnum: 94
@@ -653,17 +650,17 @@ objects:
   description: A black amulet is here, glowing slightly.
   material: none
   item_type: 9
-  extra_flags: AC
-  wear_flags: AC
+  extra_flags: 5
+  wear_flags: 5
+  level: 0
+  weight: 2
+  cost: 60000
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 2
-  cost: 60000
   affects: []
   extra_descs: []
 - vnum: 95
@@ -672,17 +669,17 @@ objects:
   description: A quest token is here. You wonder which one it is.
   material: none
   item_type: 18
-  extra_flags: PT
-  wear_flags: A
+  extra_flags: 557056
+  wear_flags: 1
+  level: 0
+  weight: 0
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 0
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 96
@@ -691,17 +688,17 @@ objects:
   description: A quest token is here. You wonder which one it is.
   material: none
   item_type: 18
-  extra_flags: PT
-  wear_flags: A
+  extra_flags: 557056
+  wear_flags: 1
+  level: 0
+  weight: 0
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 0
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 97
@@ -710,17 +707,17 @@ objects:
   description: A quest token is here. You wonder which one it is.
   material: none
   item_type: 18
-  extra_flags: PT
-  wear_flags: A
+  extra_flags: 557056
+  wear_flags: 1
+  level: 0
+  weight: 0
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 0
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 98
@@ -729,17 +726,17 @@ objects:
   description: A quest token is here. You wonder which one it is.
   material: none
   item_type: 18
-  extra_flags: PT
-  wear_flags: A
+  extra_flags: 557056
+  wear_flags: 1
+  level: 0
+  weight: 0
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 0
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 99
@@ -748,63 +745,60 @@ objects:
   description: A quest token is here. You wonder which one it is.
   material: none
   item_type: 18
-  extra_flags: PT
-  wear_flags: A
+  extra_flags: 557056
+  wear_flags: 1
+  level: 0
+  weight: 0
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 0
-  cost: 0
   affects: []
   extra_descs: []
 rooms:
 - vnum: 1
   name: The Void
-  description: |
-    You are floating in nothing.
-  room_flags: CDN
+  description: "You are floating in nothing.\n\r"
+  room_flags: 8204
   sector: 1
-  owner: ''
+  owner:
   exits: []
   extra_descs: []
 - vnum: 2
   name: Limbo
-  description: |
-    You are floating in a formless void, detached from all sensation of physical
-    matter, surrounded by swirling glowing light, which fades into the relative
-    darkness around you without any trace of edges or shadow.
-       There is a "No Tipping" notice pinned to the darkness.
-  room_flags: D
+  description: "You are floating in a formless void, detached from all sensation of
+    physical\n\rmatter, surrounded by swirling glowing light, which fades into the
+    relative\n\rdarkness around you without any trace of edges or shadow.\n\r   There
+    is a \"No Tipping\" notice pinned to the darkness.\n\r"
+  room_flags: 8
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3001
   extra_descs: []
 - vnum: 26
-  name: ''
-  description: ''
-  room_flags: C
+  name:
+  description:
+  room_flags: 4
   sector: 0
-  owner: ''
+  owner:
   exits: []
   extra_descs: []
 - vnum: 55
-  name: ''
-  description: ''
-  room_flags: C
+  name:
+  description:
+  room_flags: 4
   sector: 0
-  owner: ''
+  owner:
   exits: []
   extra_descs: []
-specials:
-- vnum: 1
-  spec_fun: spec_puff
+resets: []
+shops: []

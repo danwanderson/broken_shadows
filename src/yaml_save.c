@@ -163,7 +163,7 @@ write_affect( yaml_emitter_t *em, AFFECT_DATA *paf )
         ys_int_kv( em, "duration",  paf->duration    );
         ys_int_kv( em, "modifier",  paf->modifier    );
         ys_int_kv( em, "location",  paf->location    );
-        ys_int_kv( em, "bitvector", paf->bitvector   );
+        ys_str_kv( em, "bitvector", print_flags( paf->bitvector ) );
     ys_map_end( em );
 }
 
@@ -209,9 +209,9 @@ write_obj( yaml_emitter_t *em, CHAR_DATA *ch, OBJ_DATA *obj, int iNest )
     if ( obj->description != obj->pIndexData->description )
         ys_str_kv( em, "description", obj->description   );
     if ( obj->extra_flags != obj->pIndexData->extra_flags )
-        ys_int_kv( em, "extra_flags", obj->extra_flags   );
+        ys_str_kv( em, "extra_flags", print_flags( obj->extra_flags ) );
     if ( obj->wear_flags != obj->pIndexData->wear_flags )
-        ys_int_kv( em, "wear_flags",  obj->wear_flags    );
+        ys_str_kv( em, "wear_flags",  print_flags( obj->wear_flags ) );
     if ( obj->item_type != obj->pIndexData->item_type )
         ys_int_kv( em, "item_type",   obj->item_type     );
     if ( obj->weight != obj->pIndexData->weight )
@@ -407,11 +407,11 @@ save_char_obj_yaml( CHAR_DATA *ch )
     if ( ch->pcdata->spouse )
         ys_str_kv( &em, "spouse",   ch->pcdata->spouse                       );
     ys_int_kv( &em, "exp",          ch->exp                                  );
-    ys_int_kv( &em, "act",          ch->act                                  );
-    ys_int_kv( &em, "affected_by",  ch->affected_by                          );
-    ys_int_kv( &em, "affected2_by", ch->affected2_by                         );
-    ys_int_kv( &em, "comm",         ch->comm                                 );
-    ys_int_kv( &em, "wiznet",       ch->wiznet                               );
+    ys_str_kv( &em, "act",          print_flags( ch->act )          );
+    ys_str_kv( &em, "affected_by",  print_flags( ch->affected_by )  );
+    ys_str_kv( &em, "affected2_by", print_flags( ch->affected2_by ) );
+    ys_str_kv( &em, "comm",         print_flags( ch->comm )         );
+    ys_str_kv( &em, "wiznet",       print_flags( ch->wiznet )       );
     ys_int_kv( &em, "invis_level",  ch->invis_level                          );
     ys_int_kv( &em, "incog_level",  ch->incog_level                          );
     ys_int_kv( &em, "position",
@@ -1311,6 +1311,13 @@ load_char_obj_yaml( DESCRIPTOR_DATA *d, const char *name )
         }
 
         /* pets */
+        {
+            int pet_count = yl_seq_len( &doc, pets_id );
+            char _pmsg[128];
+            snprintf( _pmsg, sizeof(_pmsg),
+                "load_char_obj_yaml: %s has %d pet(s) in file", name, pet_count );
+            log_string( _pmsg );
+        }
         for ( i = 0; i < yl_seq_len( &doc, pets_id ); i++ )
         {
             int         pet_node   = yl_seq_item( &doc, pets_id, i );
@@ -1371,7 +1378,6 @@ load_char_obj_yaml( DESCRIPTOR_DATA *d, const char *name )
                 }
             }
 
-            char_to_room( pet, ch->in_room );
             pet->master = ch;
             pet->leader = ch;
             ch->pet     = pet;

@@ -621,9 +621,9 @@ none~
 B B AC B 0
 10 2 850
 A
-18 1
-A
 19 1
+A
+18 1
 E
 dirk~
 It's a medium sized, beautifully crafted dirk made from grey alloy.
@@ -665,9 +665,9 @@ none~
 BC A ABC ABDE 0
 5 7 260
 A
-19 2
-A
 17 1
+A
+19 2
 E
 flail~
 It's a stout wooden rod with two spiked balls attached, each weighing over 2
@@ -736,9 +736,9 @@ none~
 A AB AB A A
 8 1 1500
 A
-18 2
-A
 19 1
+A
+18 2
 #4102
 scroll ysafg~
 a scroll which reads "ysafg"~
@@ -810,12 +810,12 @@ none~
 ABCD C B 27 0
 11 5 3000
 E
-staff oak~
-You see it has some sort of runes on it.
-~
-E
 runes~
 The runes says : Funthark.
+~
+E
+staff oak~
+You see it has some sort of runes on it.
 ~
 #4152
 dagger light silver~
@@ -826,9 +826,9 @@ none~
 B B C B 0
 7 2 1500
 A
-18 1
-A
 17 -1
+A
+18 1
 E
 dagger light silver~
 It looks like an excellent weapon for thieves.
@@ -842,9 +842,9 @@ none~
 C B BC ABDE 0
 10 12 400
 A
-19 1
-A
 2 -1
+A
+19 1
 E
 star morning~
 It's a huge length of wood studded with iron spikes and bands. You wouldn't
@@ -1955,10 +1955,6 @@ the north marking the entrance to a cave (or a grave :-).
 ~
 0 4 4
 E
-bushes~
-Small crippled bushes desperately trying to grow south.
-~
-E
 sign~
 The sign says:
 
@@ -1975,6 +1971,10 @@ The sign says:
                  | |
                  | |
                  | |
+~
+E
+bushes~
+Small crippled bushes desperately trying to grow south.
 ~
 D0
 ~

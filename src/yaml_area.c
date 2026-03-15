@@ -64,6 +64,10 @@ extern char       *help_greeting;
 
 extern AFFECT_DATA *affect_free;
 
+extern CLAN_DATA   *clan_first;
+extern CLAN_DATA   *clan_last;
+extern int          top_clan;
+
 /* Functions from db.c needed here */
 extern void assign_area_vnum( int vnum );
 extern void new_reset( ROOM_INDEX_DATA *pR, RESET_DATA *pReset );
@@ -1568,4 +1572,210 @@ cleanup:
     yaml_emitter_delete( &em );
     fclose( fp );
     return FALSE;
+}
+
+/* ------------------------------------------------------------------ */
+/* Clan YAML loading and saving                                         */
+/* ------------------------------------------------------------------ */
+
+static bool
+doc_bool( yaml_document_t *doc, int map_id, const char *key, bool def )
+{
+    int         valnode = doc_find( doc, map_id, key );
+    const char *s;
+    if ( !valnode )
+        return def;
+    s = doc_scalar( doc, valnode );
+    if ( !s || s[0] == '\0' )
+        return def;
+    if ( strcmp( s, "true" ) == 0 || strcmp( s, "yes" ) == 0 || strcmp( s, "1" ) == 0 )
+        return TRUE;
+    if ( strcmp( s, "false" ) == 0 || strcmp( s, "no" ) == 0 || strcmp( s, "0" ) == 0 )
+        return FALSE;
+    return def;
+}
+
+static const char *clan_class_names[MAX_CLASS] = {
+    "mage", "cleric", "thief", "warrior", "paladin"
+};
+
+/* Only the 12 named pc_race_table entries (indices 0-11).
+ * Index 12 is beyond the pc_race_table array and is never used. */
+#define NUM_NAMED_PC_RACES  12
+static const char *clan_race_names[NUM_NAMED_PC_RACES] = {
+    "null_race", "dwarf", "elf", "giant", "hobbit", "human",
+    "troll", "drow", "gnome", "half_elf", "wyvern", "vampire"
+};
+
+bool
+load_clans_yaml( const char *filename )
+{
+    yaml_parser_t   parser;
+    yaml_document_t doc;
+    yaml_node_t    *root;
+    int             clans_id;
+    int             n, num_clans;
+
+    if ( !parse_yaml_file( filename, &parser, &doc ) )
+        return FALSE;
+
+    root = yaml_document_get_root_node( &doc );
+    if ( !root || root->type != YAML_MAPPING_NODE )
+    {
+        { char _msg[512]; snprintf(_msg, sizeof(_msg), "load_clans_yaml: root is not a mapping in '%s'.", filename); bug(_msg, 0); }
+        yaml_document_delete( &doc );
+        yaml_parser_delete( &parser );
+        return FALSE;
+    }
+
+    clans_id = doc_find( &doc, 1, "clans" );
+    if ( !clans_id )
+    {
+        { char _msg[512]; snprintf(_msg, sizeof(_msg), "load_clans_yaml: no 'clans:' section in '%s'.", filename); bug(_msg, 0); }
+        yaml_document_delete( &doc );
+        yaml_parser_delete( &parser );
+        return FALSE;
+    }
+
+    num_clans = doc_seq_len( &doc, clans_id );
+    for ( n = 0; n < num_clans; n++ )
+    {
+        int         clan_id;
+        CLAN_DATA  *pClan;
+        int         classes_id, races_id;
+        int         i;
+
+        clan_id = doc_seq_item( &doc, clans_id, n );
+        if ( !clan_id )
+            continue;
+
+        pClan = alloc_perm( sizeof(*pClan) );
+
+        pClan->number      = (sh_int)doc_int ( &doc, clan_id, "number",      0  );
+        pClan->name        = str_dup( doc_str ( &doc, clan_id, "name"              ) );
+        pClan->visible     = str_dup( doc_str ( &doc, clan_id, "visible"           ) );
+        pClan->god         = str_dup( doc_str ( &doc, clan_id, "god"               ) );
+        pClan->max_members = (sh_int)doc_int ( &doc, clan_id, "max_members",  0  );
+        pClan->min_level   = (sh_int)doc_int ( &doc, clan_id, "min_level",    0  );
+        pClan->num_members = (sh_int)doc_int ( &doc, clan_id, "num_members",  0  );
+        pClan->req_flags   = doc_flag( &doc, clan_id, "req_flags",  0L );
+        pClan->cost_gold   = doc_long( &doc, clan_id, "cost_gold",  0L );
+        pClan->cost_xp     = doc_long( &doc, clan_id, "cost_xp",    0L );
+        pClan->auto_accept = doc_bool( &doc, clan_id, "auto_accept", FALSE );
+
+        classes_id = doc_find( &doc, clan_id, "classes" );
+        if ( classes_id )
+        {
+            for ( i = 0; i < MAX_CLASS; i++ )
+                pClan->classes[i] = doc_bool( &doc, classes_id,
+                                              clan_class_names[i], FALSE );
+        }
+
+        races_id = doc_find( &doc, clan_id, "races" );
+        if ( races_id )
+        {
+            for ( i = 0; i < NUM_NAMED_PC_RACES; i++ )
+                pClan->races[i] = doc_bool( &doc, races_id,
+                                            clan_race_names[i], FALSE );
+            /* races[12] is beyond pc_race_table; leave as 0 */
+        }
+
+        if ( clan_first == NULL )
+            clan_first = pClan;
+        if ( clan_last != NULL )
+            clan_last->next = pClan;
+        clan_last   = pClan;
+        pClan->next = NULL;
+        top_clan++;
+    }
+
+    yaml_document_delete( &doc );
+    yaml_parser_delete( &parser );
+    return TRUE;
+}
+
+bool
+save_clans_yaml( void )
+{
+    static const char *filename = "clans.yaml";
+    FILE          *fp;
+    yaml_emitter_t em;
+    yaml_event_t   ev;
+    CLAN_DATA     *clan;
+    int            i;
+
+    fp = fopen( filename, "w" );
+    if ( !fp )
+    {
+        bug( "save_clans_yaml: cannot open clans.yaml for write.", 0 );
+        return FALSE;
+    }
+
+    if ( !yaml_emitter_initialize( &em ) )
+    {
+        bug( "save_clans_yaml: yaml_emitter_initialize failed.", 0 );
+        fclose( fp );
+        return FALSE;
+    }
+    yaml_emitter_set_output_file( &em, fp );
+    yaml_emitter_set_unicode( &em, 1 );
+
+    yaml_stream_start_event_initialize( &ev, YAML_UTF8_ENCODING );
+    yaml_emitter_emit( &em, &ev );
+
+    yaml_document_start_event_initialize( &ev, NULL, NULL, NULL, 1 );
+    yaml_emitter_emit( &em, &ev );
+
+    emit_mapping_start( &em );              /* root */
+
+    emit_int_kv( &em, "version", 1 );
+
+    emit_key( &em, "clans" );
+    emit_sequence_start( &em );
+
+    for ( clan = clan_first; clan != NULL; clan = clan->next )
+    {
+        emit_mapping_start( &em );
+
+        emit_int_kv ( &em, "number",      clan->number      );
+        emit_str_kv ( &em, "name",        clan->name        );
+        emit_str_kv ( &em, "visible",     clan->visible     );
+        emit_str_kv ( &em, "god",         clan->god         );
+        emit_int_kv ( &em, "max_members", clan->max_members );
+        emit_int_kv ( &em, "min_level",   clan->min_level   );
+        emit_int_kv ( &em, "num_members", clan->num_members );
+        emit_str_kv ( &em, "req_flags",   print_flags( clan->req_flags ) );
+        emit_int_kv ( &em, "cost_gold",   clan->cost_gold   );
+        emit_int_kv ( &em, "cost_xp",     clan->cost_xp     );
+        emit_str_kv ( &em, "auto_accept", clan->auto_accept ? "true" : "false" );
+
+        emit_key( &em, "classes" );
+        emit_mapping_start( &em );
+        for ( i = 0; i < MAX_CLASS; i++ )
+            emit_str_kv( &em, clan_class_names[i],
+                         clan->classes[i] ? "true" : "false" );
+        emit_mapping_end( &em );
+
+        emit_key( &em, "races" );
+        emit_mapping_start( &em );
+        for ( i = 0; i < NUM_NAMED_PC_RACES; i++ )
+            emit_str_kv( &em, clan_race_names[i],
+                         clan->races[i] ? "true" : "false" );
+        emit_mapping_end( &em );
+
+        emit_mapping_end( &em );            /* end clan entry */
+    }
+
+    emit_sequence_end( &em );              /* end clans */
+    emit_mapping_end( &em );              /* end root */
+
+    yaml_document_end_event_initialize( &ev, 1 );
+    yaml_emitter_emit( &em, &ev );
+
+    yaml_stream_end_event_initialize( &ev );
+    yaml_emitter_emit( &em, &ev );
+
+    yaml_emitter_delete( &em );
+    fclose( fp );
+    return TRUE;
 }

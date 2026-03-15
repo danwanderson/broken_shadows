@@ -10,618 +10,592 @@ mobiles:
 - vnum: 8000
   keywords: juve
   short_desc: a juve
-  long_desc: |
-    A juve is standing here plotting mischief.
-  description: |
-    He is a tall, thin boy.  He is looking for his gang mates.  He and his
-    mates have cost city authorities many millions of creds a week in
-    vandalism repairs.
+  long_desc: "A juve is standing here plotting mischief.\n\r"
+  description: "He is a tall, thin boy.  He is looking for his gang mates.  He and
+    his\n\rmates have cost city authorities many millions of creds a week in\n\rvandalism
+    repairs.\n\r"
   race: Human
-  act: ACT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524292
+  affected_by: 0
+  affected2_by: 0
   alignment: -400
   clan: 0
   level: 4
   hitroll: 0
   hit:
-    number: 1
-    type: 10
-    bonus: 33
+  - 1
+  - 10
+  - 33
   mana:
-    number: 4
-    type: 10
-    bonus: 100
+  - 4
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 7
-    bonus: 2
+  - 1
+  - 7
+  - 2
   dam_type: 7
   ac:
     pierce: 7
     bash: 7
     slash: 7
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 8001
   keywords: punk
   short_desc: a punk
-  long_desc: |
-    A punk is here plotting a crime wave.
-  description: |
-    This punk is from one of the rowdiest, scruffiest, and definitely most
-    fashionable of all gangs -- the Grunge Mongers.
+  long_desc: "A punk is here plotting a crime wave.\n\r"
+  description: "This punk is from one of the rowdiest, scruffiest, and definitely
+    most\n\rfashionable of all gangs -- the Grunge Mongers.\n\r"
   race: Human
-  act: ACGT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524356
+  affected_by: 0
+  affected2_by: 0
   alignment: -500
   clan: 0
   level: 11
   hitroll: 0
   hit:
-    number: 3
-    type: 27
-    bonus: 107
+  - 3
+  - 27
+  - 107
   mana:
-    number: 11
-    type: 10
-    bonus: 100
+  - 11
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 6
-    bonus: 6
+  - 3
+  - 6
+  - 6
   dam_type: 11
   ac:
     pierce: 3
     bash: 3
     slash: 3
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 8002
   keywords: Futsie
   short_desc: a Futsie
-  long_desc: |
-    A Futsie is here reciting Monty Python sketches.
-  description: |
-    A sad victim of Future Shock, this man is immensely dangerous and will
-    not be stopped by anyone who tries to deter him from revenge upon the
-    Justice Department.
+  long_desc: "A Futsie is here reciting Monty Python sketches.\n\r"
+  description: "A sad victim of Future Shock, this man is immensely dangerous and
+    will\n\rnot be stopped by anyone who tries to deter him from revenge upon the\n\rJustice
+    Department.\n\r"
   race: Human
-  act: ABFT
-  affected_by: D
-  affected2_by: '0'
+  act: 524322
+  affected_by: 8
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 17
   hitroll: 0
   hit:
-    number: 5
-    type: 39
-    bonus: 187
+  - 5
+  - 39
+  - 187
   mana:
-    number: 17
-    type: 10
-    bonus: 100
+  - 17
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 7
-    bonus: 10
+  - 4
+  - 7
+  - 10
   dam_type: 11
   ac:
     pierce: 0
     bash: 0
     slash: 0
     exotic: 4
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 8003
   keywords: Citi-Def Militiaman
   short_desc: a Citi-Def Militiaman
-  long_desc: |
-    A Citi-Def Militiaman is here contemplating a Block War.
-  description: |
-    A member of a local Block's Citi-Def militia, this man is well-armed
-    and undersupervised.
+  long_desc: "A Citi-Def Militiaman is here contemplating a Block War.\n\r"
+  description: "A member of a local Block's Citi-Def militia, this man is well-armed\n\rand
+    undersupervised.\n\r"
   race: Human
-  act: ACGT
-  affected_by: J
-  affected2_by: '0'
+  act: 524356
+  affected_by: 512
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 16
   hitroll: 0
   hit:
-    number: 5
-    type: 34
-    bonus: 175
+  - 5
+  - 34
+  - 175
   mana:
-    number: 16
-    type: 10
-    bonus: 100
+  - 16
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 7
-    bonus: 8
+  - 4
+  - 7
+  - 8
   dam_type: 11
   ac:
     pierce: 0
     bash: 0
     slash: 0
     exotic: 5
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_judge
 - vnum: 8004
   keywords: dunk
   short_desc: a dunk
-  long_desc: |
-    A dunk is here blending into the crowd.
-  description: |
-    He blends into the crowd as his hand travels into another citizen's pocket.
+  long_desc: "A dunk is here blending into the crowd.\n\r"
+  description: "He blends into the crowd as his hand travels into another citizen's
+    pocket.\n\r"
   race: Human
-  act: ACGHT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524484
+  affected_by: 0
+  affected2_by: 0
   alignment: -150
   clan: 0
   level: 10
   hitroll: 0
   hit:
-    number: 2
-    type: 33
-    bonus: 96
+  - 2
+  - 33
+  - 96
   mana:
-    number: 10
-    type: 10
-    bonus: 100
+  - 10
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 5
-    bonus: 7
+  - 3
+  - 5
+  - 7
   dam_type: 11
   ac:
     pierce: 3
     bash: 3
     slash: 3
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_thief
 - vnum: 8005
   keywords: tap
   short_desc: a tap
-  long_desc: |
-    A tap is here eyeing your belongings.
-  description: |
-    A practitioner in Mega-City One's largest growth industry, mugging, is
-    looking you over for a possible business transaction.
+  long_desc: "A tap is here eyeing your belongings.\n\r"
+  description: "A practitioner in Mega-City One's largest growth industry, mugging,
+    is\n\rlooking you over for a possible business transaction.\n\r"
   race: Human
-  act: ACGT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524356
+  affected_by: 0
+  affected2_by: 0
   alignment: -400
   clan: 0
   level: 15
   hitroll: 0
   hit:
-    number: 4
-    type: 37
-    bonus: 162
+  - 4
+  - 37
+  - 162
   mana:
-    number: 15
-    type: 10
-    bonus: 100
+  - 15
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 6
-    bonus: 9
+  - 4
+  - 6
+  - 9
   dam_type: 7
   ac:
     pierce: 0
     bash: 0
     slash: 0
     exotic: 5
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 8006
   keywords: rookie judge
   short_desc: a rookie judge
-  long_desc: |
-    A Rookie judge is on his first beat here.
-  description: |
-    A member of Mega-City One's Justice Department is here considering what
-    crimes you have committed.  Being a rookie he will probably be easier on
-    you though.
+  long_desc: "A Rookie judge is on his first beat here.\n\r"
+  description: "A member of Mega-City One's Justice Department is here considering
+    what\n\rcrimes you have committed.  Being a rookie he will probably be easier
+    on\n\ryou though.\n\r"
   race: Human
-  act: AGT
-  affected_by: DF
-  affected2_by: '0'
+  act: 524352
+  affected_by: 40
+  affected2_by: 0
   alignment: 300
   clan: 0
   level: 20
   hitroll: 0
   hit:
-    number: 7
-    type: 38
-    bonus: 238
+  - 7
+  - 38
+  - 238
   mana:
-    number: 20
-    type: 10
-    bonus: 100
+  - 20
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 7
-    bonus: 10
+  - 5
+  - 7
+  - 10
   dam_type: 11
   ac:
     pierce: -2
     bash: -2
     slash: -2
     exotic: 3
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_judge
 - vnum: 8007
   keywords: Wallaby Gleep
   short_desc: Wallaby Gleep
-  long_desc: |
-    Mr. Gleep is here wanting to know what you want.
-  description: |
-    Wallaby Gleep is a heavy-set man who gives you the impression that he is
-    unintelligent and unimaginative, but looks can be deceiving.
+  long_desc: "Mr. Gleep is here wanting to know what you want.\n\r"
+  description: "Wallaby Gleep is a heavy-set man who gives you the impression that
+    he is\n\runintelligent and unimaginative, but looks can be deceiving.\n\r"
   race: Human
-  act: ABCT
-  affected_by: DFJ
-  affected2_by: '0'
+  act: 524294
+  affected_by: 552
+  affected2_by: 0
   alignment: -600
   clan: 0
   level: 21
   hitroll: 0
   hit:
-    number: 8
-    type: 37
-    bonus: 252
+  - 8
+  - 37
+  - 252
   mana:
-    number: 21
-    type: 10
-    bonus: 100
+  - 21
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 7
-    bonus: 12
+  - 5
+  - 7
+  - 12
   dam_type: 11
   ac:
     pierce: -3
     bash: -3
     slash: -3
     exotic: 3
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 8008
   keywords: Pinkerton Throt
   short_desc: Pinkerton Throt
-  long_desc: |
-    Pinky Throt is here Wringing his hands.
-  description: |
-    He is a thin angular crook, pretty close to everyone's idea of Ebeneezer
-    Scrooge.  Indeed, the only thing guaranteed to bring a spark to his dead
-    eyes is the mention of money.
+  long_desc: "Pinky Throt is here Wringing his hands.\n\r"
+  description: "He is a thin angular crook, pretty close to everyone's idea of Ebeneezer\n\rScrooge.
+    \ Indeed, the only thing guaranteed to bring a spark to his dead\n\reyes is the
+    mention of money.\n\r"
   race: Human
-  act: ABCFT
-  affected_by: DF
-  affected2_by: '0'
+  act: 524326
+  affected_by: 40
+  affected2_by: 0
   alignment: -900
   clan: 0
   level: 26
   hitroll: 0
   hit:
-    number: 10
-    type: 45
-    bonus: 345
+  - 10
+  - 45
+  - 345
   mana:
-    number: 26
-    type: 10
-    bonus: 100
+  - 26
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 9
-    bonus: 13
+  - 5
+  - 9
+  - 13
   dam_type: 11
   ac:
     pierce: -6
     bash: -6
     slash: -6
     exotic: 1
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 8009
   keywords: Ernie Ramirez
   short_desc: Ernie Ramirez
-  long_desc: |
-    Ernie Ramirez is here collecting for the mob.
-  description: |
-    Ramirez is a dour man who knows that he's never going to get a better
-    deal out of life.  He is content to run the bite fights for Throt and
-    Gleep.
+  long_desc: "Ernie Ramirez is here collecting for the mob.\n\r"
+  description: "Ramirez is a dour man who knows that he's never going to get a better\n\rdeal
+    out of life.  He is content to run the bite fights for Throt and\n\rGleep.\n\r"
   race: Human
-  act: ABCT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524294
+  affected_by: 0
+  affected2_by: 0
   alignment: -400
   clan: 0
   level: 19
   hitroll: 0
   hit:
-    number: 7
-    type: 34
-    bonus: 223
+  - 7
+  - 34
+  - 223
   mana:
-    number: 19
-    type: 10
-    bonus: 100
+  - 19
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 6
-    bonus: 12
+  - 5
+  - 6
+  - 12
   dam_type: 3
   ac:
     pierce: -1
     bash: -1
     slash: -1
     exotic: 4
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 8010
   keywords: Judge Eckersely
   short_desc: Judge Eckersely
-  long_desc: |
-    Judge Eckersely is here shaking down a Perp.
-  description: |
-    He is a dedicated, if somewhat pessimistic Judge.  He is the Senior Judge
-    of the Downtown Quadrant.
+  long_desc: "Judge Eckersely is here shaking down a Perp.\n\r"
+  description: "He is a dedicated, if somewhat pessimistic Judge.  He is the Senior
+    Judge\n\rof the Downtown Quadrant.\n\r"
   race: Human
-  act: AGT
-  affected_by: DFH
-  affected2_by: '0'
+  act: 524352
+  affected_by: 168
+  affected2_by: 0
   alignment: 300
   clan: 0
   level: 30
   hitroll: 0
   hit:
-    number: 10
-    type: 60
-    bonus: 426
+  - 10
+  - 60
+  - 426
   mana:
-    number: 30
-    type: 10
-    bonus: 100
+  - 30
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 10
-    bonus: 17
+  - 5
+  - 10
+  - 17
   dam_type: 3
   ac:
     pierce: -8
     bash: -8
     slash: -8
     exotic: 0
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_judge
 - vnum: 8011
   keywords: Judge Beddows
   short_desc: Judge Beddows
-  long_desc: |
-    Judge Beddows is here calling Resyk.
-  description: |
-    Beddows is a clone from the same stock as the ex-Chief Judge McGruder.
-    She is fanatically dedicated to her job and has no ambitions other than
-    to enforce the LAW.
+  long_desc: "Judge Beddows is here calling Resyk.\n\r"
+  description: "Beddows is a clone from the same stock as the ex-Chief Judge McGruder.\n\rShe
+    is fanatically dedicated to her job and has no ambitions other than\n\rto enforce
+    the LAW.\n\r"
   race: Human
-  act: AGT
-  affected_by: DF
-  affected2_by: '0'
+  act: 524352
+  affected_by: 40
+  affected2_by: 0
   alignment: 500
   clan: 0
   level: 26
   hitroll: 0
   hit:
-    number: 10
-    type: 45
-    bonus: 345
+  - 10
+  - 45
+  - 345
   mana:
-    number: 26
-    type: 10
-    bonus: 100
+  - 26
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 9
-    bonus: 13
+  - 5
+  - 9
+  - 13
   dam_type: 11
   ac:
     pierce: -6
     bash: -6
     slash: -6
     exotic: 1
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_judge
 - vnum: 8012
   keywords: bite fighter
   short_desc: a bite fighter
-  long_desc: |
-    A bite fighter is here sharpening his teeth.
-  description: |
-    A bite fighter is here with sharpened teeth and a bad attitude.
+  long_desc: "A bite fighter is here sharpening his teeth.\n\r"
+  description: "A bite fighter is here with sharpened teeth and a bad attitude.\n\r"
   race: Human
-  act: ABFT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524322
+  affected_by: 0
+  affected2_by: 0
   alignment: -400
   clan: 0
   level: 20
   hitroll: 0
   hit:
-    number: 7
-    type: 38
-    bonus: 238
+  - 7
+  - 38
+  - 238
   mana:
-    number: 20
-    type: 10
-    bonus: 100
+  - 20
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 7
-    bonus: 10
+  - 5
+  - 7
+  - 10
   dam_type: 7
   ac:
     pierce: -2
     bash: -2
     slash: -2
     exotic: 3
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 objects:
 - vnum: 8000
   name: spit gun
@@ -629,1101 +603,973 @@ objects:
   description: There is a spit gun laying here.
   material: none
   item_type: 3
-  extra_flags: '0'
-  wear_flags: AO
+  extra_flags: 0
+  wear_flags: 16385
+  level: 16
+  weight: 2
+  cost: 160
   values:
   - 37
   - 10
   - 10
-  - 401
+  - 83
   - 0
-  level: 16
-  weight: 2
-  cost: 160
   affects: []
   extra_descs:
   - keywords: spit gun
-    description: |
-      A standard weapon in Mega-City One.  It uses general
-      purpose ammunition.
+    description: "A standard weapon in Mega-City One.  It uses general\n\rpurpose
+      ammunition.\n\r"
 - vnum: 8001
   name: knee pads
   short_desc: a set of knee pads
   description: There are some knee pads laying here.
   material: none
   item_type: 9
-  extra_flags: '0'
-  wear_flags: AF
+  extra_flags: 0
+  wear_flags: 33
+  level: 4
+  weight: 3
+  cost: 40
   values:
   - 3
   - 3
   - 3
   - 0
   - 0
-  level: 4
-  weight: 3
-  cost: 40
   affects: []
   extra_descs:
   - keywords: knee pads
-    description: |
-      It is a set of Grak Brothers knee pads.  They are currently
-      popular with the juve and punk gangs.
+    description: "It is a set of Grak Brothers knee pads.  They are currently\n\rpopular
+      with the juve and punk gangs.\n\r"
 - vnum: 8002
   name: stooky gland
   short_desc: a stooky gland
   description: There is a stooky gland laying here.
   material: none
   item_type: 26
-  extra_flags: '0'
-  wear_flags: A
-  values:
-  - 20
-  - 0
-  - 43
-  - 28
-  - 0
+  extra_flags: 0
+  wear_flags: 1
   level: 19
   weight: 1
   cost: 190
+  values:
+  - 20
+  - -1
+  - 26
+  - 51
+  - 0
   affects:
   - where: O
     location: 9
     modifier: -1
-    bitvector: '0'
+    bitvector: 0
   extra_descs:
   - keywords: stooky gland
-    description: |
-      Stooky glands are known for the restorative properties.
+    description: "Stooky glands are known for the restorative properties.\n\r"
 - vnum: 8003
   name: lawgiver
   short_desc: a lawgiver
   description: There is a lawgiver laying here.
   material: none
   item_type: 3
-  extra_flags: '0'
-  wear_flags: AO
+  extra_flags: 0
+  wear_flags: 16385
+  level: 26
+  weight: 2
+  cost: 260
   values:
   - 37
   - 10
   - 10
-  - 402
+  - 84
   - 0
-  level: 26
-  weight: 2
-  cost: 260
   affects: []
   extra_descs:
   - keywords: lawgiver gun
-    description: |
-      The standard weapon for the city's Judges.  It uses general
-      high explosive ammunition.
+    description: "The standard weapon for the city's Judges.  It uses general\n\rhigh
+      explosive ammunition.\n\r"
 - vnum: 8004
   name: safe
   short_desc: the magnetically shielded safe
   description: A indestructible, immobile safe is here.
   material: none
   item_type: 15
-  extra_flags: B
-  wear_flags: '0'
+  extra_flags: 2
+  wear_flags: 0
+  level: 19
+  weight: 1000
+  cost: 190
   values:
   - 1005
   - 13
   - 8005
   - 0
   - 0
-  level: 19
-  weight: 1000
-  cost: 190
   affects: []
   extra_descs:
   - keywords: safe
-    description: |
-      This safe looks like not even a Sov-Cit Nuke could open it.
-      You better find the code box.
+    description: "This safe looks like not even a Sov-Cit Nuke could open it.\n\rYou
+      better find the code box.\n\r"
 - vnum: 8005
   name: code box
   short_desc: a code box
   description: A code box of indeterminate use is here.
   material: none
   item_type: 18
-  extra_flags: B
-  wear_flags: AO
+  extra_flags: 2
+  wear_flags: 16385
+  level: 26
+  weight: 1
+  cost: 260
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 26
-  weight: 1
-  cost: 260
   affects: []
   extra_descs:
   - keywords: code box
-    description: |
-      The box looks like some kind of access device.
+    description: "The box looks like some kind of access device.\n\r"
 - vnum: 8006
   name: bashball bat
   short_desc: a bashball bat
   description: A bashball bat is laying here.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 4
+  weight: 3
+  cost: 40
   values:
   - 4
   - 2
   - 5
   - 7
   - 0
-  level: 4
-  weight: 3
-  cost: 40
   affects: []
   extra_descs:
   - keywords: bashball bat
-    description: |
-      This is the same type of bat used by the little spuggers
-      to play bashball.
+    description: "This is the same type of bat used by the little spuggers\n\rto play
+      bashball.\n\r"
 - vnum: 8007
   name: vibroblade
   short_desc: the Vibroblade
   description: The Vibroblade is here.
   material: none
   item_type: 5
-  extra_flags: ABF
-  wear_flags: AN
+  extra_flags: 35
+  wear_flags: 8193
+  level: 19
+  weight: 2
+  cost: 190
   values:
   - 2
   - 5
   - 5
   - 3
   - 0
-  level: 19
-  weight: 2
-  cost: 190
   affects:
-  - where: O
-    location: 2
-    modifier: 1
-    bitvector: '0'
-  - where: O
-    location: 5
-    modifier: 1
-    bitvector: '0'
-  - where: O
-    location: 19
-    modifier: 2
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: 0
+  - where: O
+    location: 5
+    modifier: 1
+    bitvector: 0
+  - where: O
+    location: 2
+    modifier: 1
+    bitvector: 0
   extra_descs:
   - keywords: vibroblade
-    description: |
-      Obviously of alien manufacture, this blade enhances fighting
-      and survival skills.
+    description: "Obviously of alien manufacture, this blade enhances fighting\n\rand
+      survival skills.\n\r"
 - vnum: 8008
   name: vacuum cleaner
   short_desc: a Hoover vacuum cleaner
   description: A Hoover vacuum cleaner is here idling.
   material: none
   item_type: 5
-  extra_flags: B
-  wear_flags: AN
+  extra_flags: 2
+  wear_flags: 8193
+  level: 17
+  weight: 10
+  cost: 170
   values:
   - 4
   - 5
   - 4
   - 12
   - 0
-  level: 17
-  weight: 10
-  cost: 170
   affects: []
   extra_descs:
   - keywords: vacuum cleaner
-    description: |
-      This vacuum looks well built and will last you many years of
-      cleaning pleasure.
+    description: "This vacuum looks well built and will last you many years of\n\rcleaning
+      pleasure.\n\r"
 - vnum: 8009
   name: knife
   short_desc: a knife
   description: A knife is sitting here...contemplating life.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 4
+  weight: 3
+  cost: 40
   values:
   - 2
   - 2
   - 5
   - 1
   - 0
-  level: 4
-  weight: 3
-  cost: 40
   affects: []
   extra_descs:
   - keywords: knife
-    description: |
-      It is a knife. 'Nuff said. (Marvel joke).
+    description: "It is a knife. 'Nuff said. (Marvel joke).\n\r"
 - vnum: 8010
   name: wet noodle
   short_desc: a wet noodle
   description: A wet noodle is laying here with clam sauce on it.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 17
+  weight: 1
+  cost: 170
   values:
   - 7
   - 5
   - 4
   - 4
   - 0
-  level: 17
-  weight: 1
-  cost: 170
   affects:
   - where: O
     location: 3
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
   extra_descs:
   - keywords: noodle
-    description: |
-      It looks like a noodle freshly made at the Olive Garden.
+    description: "It looks like a noodle freshly made at the Olive Garden.\n\r"
 - vnum: 8011
   name: judge club
   short_desc: a Judge's club
   description: A Judge's club is resting here.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 20
+  weight: 3
+  cost: 200
   values:
   - 4
   - 5
   - 5
   - 7
   - 0
-  level: 20
-  weight: 3
-  cost: 200
   affects:
   - where: O
     location: 19
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
   extra_descs:
   - keywords: judge club
-    description: |
-      It is a standard Justice Hall issue club.  Many a Perp's
-      head has been bashed with this baby.
+    description: "It is a standard Justice Hall issue club.  Many a Perp's\n\rhead
+      has been bashed with this baby.\n\r"
 - vnum: 8012
   name: vault key
   short_desc: a vault key
   description: A vault key is here.
   material: none
   item_type: 18
-  extra_flags: B
-  wear_flags: AO
+  extra_flags: 2
+  wear_flags: 16385
+  level: 21
+  weight: 1
+  cost: 210
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 21
-  weight: 1
-  cost: 210
   affects: []
   extra_descs:
   - keywords: vault key
-    description: |
-      The key looks like it could be useful.
+    description: "The key looks like it could be useful.\n\r"
 - vnum: 8013
   name: key card
   short_desc: a key card
   description: A key card is laying here.
   material: none
   item_type: 18
-  extra_flags: '0'
-  wear_flags: AO
+  extra_flags: 0
+  wear_flags: 16385
+  level: 19
+  weight: 1
+  cost: 190
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 19
-  weight: 1
-  cost: 190
   affects: []
   extra_descs:
   - keywords: key card
-    description: |
-      It looks like it fits a slot somewhere.
+    description: "It looks like it fits a slot somewhere.\n\r"
 rooms:
 - vnum: 8001
   name: Entrance to Mega-City One
-  description: |
-    A road begins here in the glowing sands.  You follow it through a gate
-    in a Plasteen wall onto the Megway of Mega-City One.
-  room_flags: '0'
+  description: "A road begins here in the glowing sands.  You follow it through a
+    gate\n\rin a Plasteen wall onto the Megway of Mega-City One.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the glowing sand of the badlands.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the glowing sand of the badlands.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5062
   - dir: 2
-    desc: |
-      The Megway continues in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The Megway continues in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8002
   extra_descs: []
 - vnum: 8002
   name: Mahmount Allesh Megway
-  description: |
-    You are on one mile of over 13 and a half billion kilometers of
-    roadway in Mega-City One.  The Megway continues north and south.
-  room_flags: '0'
+  description: "You are on one mile of over 13 and a half billion kilometers of\n\rroadway
+    in Mega-City One.  The Megway continues north and south.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The entrance to Mega-City One is in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The entrance to Mega-City One is in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8001
   - dir: 2
-    desc: |
-      There is an intersection ahead.
-    keywords: ''
-    exit_flags: '0'
+    desc: "There is an intersection ahead.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8003
   extra_descs: []
 - vnum: 8003
   name: Intersection of Junket Way and Megway
-  description: |
-    The Megway intersects with Junket Way here.  Junket Way is to the east,
-    the Megway continues north and south, and the Pustule Palace Cafe is
-    to the west.
-  room_flags: '0'
+  description: "The Megway intersects with Junket Way here.  Junket Way is to the
+    east,\n\rthe Megway continues north and south, and the Pustule Palace Cafe is\n\rto
+    the west.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The Megway continues in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The Megway continues in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8002
   - dir: 1
-    desc: |
-      Junket way continues in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Junket way continues in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8010
   - dir: 2
-    desc: |
-      The Megway continues in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The Megway continues in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8004
   - dir: 3
-    desc: |
-      The Pustule Palace Cafe is in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The Pustule Palace Cafe is in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8021
   extra_descs: []
 - vnum: 8004
   name: Mahmount Allesh Megway
-  description: |
-    The traffic here is really congested due in part to the over 11 million
-    people driving Mo-Pads, the mobile homes which are constantly on the
-    move until their owners can find an apartment in one of the City-blocks.
-    The Megway continues north and south.
-  room_flags: '0'
+  description: "The traffic here is really congested due in part to the over 11 million\n\rpeople
+    driving Mo-Pads, the mobile homes which are constantly on the\n\rmove until their
+    owners can find an apartment in one of the City-blocks.\n\rThe Megway continues
+    north and south.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      An intersection lies in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "An intersection lies in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8003
   - dir: 2
-    desc: |
-      The Megway continues in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The Megway continues in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8005
   extra_descs: []
 - vnum: 8005
   name: Mahmount Allesh Megway
-  description: |
-    The Megway continues north and south.  On the off-ramps here you see
-    many of the citizens of Mega-City One doing nothing.  You see of
-    every hundred citizens, it can be guaranteed that 87 of them will
-    be totally unemployed, and that a further five will not work more
-    than ten hours a week.  To the east there is a dark alley and to the
-    west is Rietzik's Shuggy Hall.
-  room_flags: '0'
+  description: "The Megway continues north and south.  On the off-ramps here you see\n\rmany
+    of the citizens of Mega-City One doing nothing.  You see of\n\revery hundred citizens,
+    it can be guaranteed that 87 of them will\n\rbe totally unemployed, and that a
+    further five will not work more\n\rthan ten hours a week.  To the east there is
+    a dark alley and to the\n\rwest is Rietzik's Shuggy Hall.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The Megway continues in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The Megway continues in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8004
   - dir: 1
-    desc: |
-      A dark alley lies to the east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A dark alley lies to the east.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8011
   - dir: 2
-    desc: |
-      A large plaza is in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A large plaza is in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8006
   - dir: 3
-    desc: |
-      A building is in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A building is in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8022
   extra_descs: []
 - vnum: 8006
   name: Central Plaza
-  description: |
-    You are at the Central Plaza of the downtown district.  There are a couple
-    of juves Boingging (tm) in the air above you.  Max Jaffa Boulevard goes
-    east, the Megway continues north and south, and Bazza's Home for the
-    Terminally Sarky is to the west.
-  room_flags: '0'
+  description: "You are at the Central Plaza of the downtown district.  There are
+    a couple\n\rof juves Boingging (tm) in the air above you.  Max Jaffa Boulevard
+    goes\n\reast, the Megway continues north and south, and Bazza's Home for the\n\rTerminally
+    Sarky is to the west.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The Megway continues in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The Megway continues in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8005
   - dir: 1
-    desc: |
-      Max Jaffa Boulevard goes in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Max Jaffa Boulevard goes in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8012
   - dir: 2
-    desc: |
-      The Megway continues in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The Megway continues in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8007
   - dir: 3
-    desc: |
-      A home for Sarky people is to the west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A home for Sarky people is to the west.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8023
   extra_descs: []
 - vnum: 8007
   name: Corner of Ed Hilldreth Memorial Parkway and Megway
-  description: |
-    Another major intersection which is being negotiated by vehicles that
-    are bound to minimum speed limits.  Many Slow Driving offenses are being
-    handed out by the Judges.  The Megway goes north and south, a Parkway
-    goes east, and Nu Phisog Parlour is west.
-  room_flags: '0'
+  description: "Another major intersection which is being negotiated by vehicles that\n\rare
+    bound to minimum speed limits.  Many Slow Driving offenses are being\n\rhanded
+    out by the Judges.  The Megway goes north and south, a Parkway\n\rgoes east, and
+    Nu Phisog Parlour is west.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      A plaza is to the north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A plaza is to the north.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8006
   - dir: 1
-    desc: |
-      Ed Hilldreth Mem. Parkwy is to the east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Ed Hilldreth Mem. Parkwy is to the east.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8013
   - dir: 2
-    desc: |
-      The Megway continues in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The Megway continues in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8008
   - dir: 3
-    desc: |
-      A City Block lies to the west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A City Block lies to the west.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8024
   extra_descs: []
 - vnum: 8008
   name: Mahmount Allesh Megway
-  description: |
-    As you travel the Megway you notice many citizens participating in their
-    favorite hobbies such as spot welding and metalwork, scratch building
-    fashion Kneepads, giving blood, or just looking out the window.  The
-    Megway continues north and south.
-  room_flags: '0'
+  description: "As you travel the Megway you notice many citizens participating in
+    their\n\rfavorite hobbies such as spot welding and metalwork, scratch building\n\rfashion
+    Kneepads, giving blood, or just looking out the window.  The\n\rMegway continues
+    north and south.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The Megway continues in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The Megway continues in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8007
   - dir: 2
-    desc: |
-      The Megway continues in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The Megway continues in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8009
   extra_descs: []
 - vnum: 8009
   name: Mahmount Allesh Megway
-  description: |
-    The Megway ends here.  To the west is Ziggi Piggi's Home for the
-    Semi-Stiff, to the east and south are construction areas, and the
-    Megway goes north.
-  room_flags: '0'
+  description: "The Megway ends here.  To the west is Ziggi Piggi's Home for the\n\rSemi-Stiff,
+    to the east and south are construction areas, and the\n\rMegway goes north.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The Megway is ahead.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The Megway is ahead.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8008
   - dir: 1
-    desc: |
-      There is construction this way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "There is construction this way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8014
   - dir: 2
-    desc: |
-      There is construction ahead.
-    keywords: ''
-    exit_flags: '0'
+    desc: "There is construction ahead.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8020
   - dir: 3
-    desc: |
-      Ziggi Piggi's Home the Semi-Stiff is ahead.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Ziggi Piggi's Home the Semi-Stiff is ahead.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8025
   extra_descs: []
 - vnum: 8010
   name: Junket Way
-  description: |
-    Junket Way a small Skedway continues east and west.
-  room_flags: '0'
+  description: "Junket Way a small Skedway continues east and west.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      An intersection is ahead.
-    keywords: ''
-    exit_flags: '0'
+    desc: "An intersection is ahead.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8015
   - dir: 3
-    desc: |
-      An intersection is ahead.
-    keywords: ''
-    exit_flags: '0'
+    desc: "An intersection is ahead.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8003
   extra_descs: []
 - vnum: 8011
   name: Davies Alley
-  description: |
-    You are in a very dark and seedy alley.  This is just the right place for
-    a bite fight.  Bite fighting is an illegal activity where both combatants
-    can only use their sharpened teeth as weapons.
-  room_flags: A
+  description: "You are in a very dark and seedy alley.  This is just the right place
+    for\n\ra bite fight.  Bite fighting is an illegal activity where both combatants\n\rcan
+    only use their sharpened teeth as weapons.\n\r"
+  room_flags: 1
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      An intersection is ahead.
-    keywords: ''
-    exit_flags: '0'
+    desc: "An intersection is ahead.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8017
   - dir: 3
-    desc: |
-      An intersection is ahead.
-    keywords: ''
-    exit_flags: '0'
+    desc: "An intersection is ahead.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8005
   extra_descs: []
 - vnum: 8012
   name: Max Jaffa Boulevard
-  description: |
-    Max Jaffa Boulevard continues east and west.
-  room_flags: '0'
+  description: "Max Jaffa Boulevard continues east and west.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      An intersection is ahead.
-    keywords: ''
-    exit_flags: '0'
+    desc: "An intersection is ahead.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8018
   - dir: 3
-    desc: |
-      A large plaza is to the west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A large plaza is to the west.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8006
   extra_descs: []
 - vnum: 8013
   name: 'Ed Hilldreth Memorial Parkway '
-  description: |
-    The Parkway goes east and west.
-  room_flags: '0'
+  description: "The Parkway goes east and west.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      An intersection is ahead.
-    keywords: ''
-    exit_flags: '0'
+    desc: "An intersection is ahead.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8019
   - dir: 3
-    desc: |
-      An intersection is ahead.
-    keywords: ''
-    exit_flags: '0'
+    desc: "An intersection is ahead.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8007
   extra_descs: []
 - vnum: 8014
   name: Construction site of the Harold Finkelbaum Block.
-  description: |
-    A Mega-City One City Block is being constructed at this site.  A
-    typical block is from 100 to 1000 stories high with hundreds of
-    thousands inhabitants.
-  room_flags: '0'
+  description: "A Mega-City One City Block is being constructed at this site.  A\n\rtypical
+    block is from 100 to 1000 stories high with hundreds of\n\rthousands inhabitants.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: |
-      An intersection is ahead.
-    keywords: ''
-    exit_flags: '0'
+    desc: "An intersection is ahead.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8009
   extra_descs: []
 - vnum: 8015
   name: Corner of Junket Way and Threep Lane
-  description: |
-    There is a second-hand kneepad stall is doing a brisk business with a
-    group of juves on their way to school.  Junket Way goes west and Threep
-    Lane travels south.
-  room_flags: '0'
+  description: "There is a second-hand kneepad stall is doing a brisk business with
+    a\n\rgroup of juves on their way to school.  Junket Way goes west and Threep\n\rLane
+    travels south.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      Threep Lane continues ahead.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Threep Lane continues ahead.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8016
   - dir: 3
-    desc: |
-      Junket Way is ahead.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Junket Way is ahead.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8010
   extra_descs: []
 - vnum: 8016
   name: Threep Lane
-  description: |
-    Threep Lane continues north and south.  There is a building to the east
-    with a sign next to the door.
-  room_flags: '0'
+  description: "Threep Lane continues north and south.  There is a building to the
+    east\n\rwith a sign next to the door.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      An intersection is ahead.
-    keywords: ''
-    exit_flags: '0'
+    desc: "An intersection is ahead.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8015
   - dir: 1
-    desc: |
-      A door to the east bodes ill.
+    desc: "A door to the east bodes ill.\n\r"
     keywords: door
-    exit_flags: A
+    exit_flags: 3
     key: 0
     to_vnum: 8026
   - dir: 2
-    desc: |
-      Threep Lane continues south.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Threep Lane continues south.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8017
   extra_descs:
   - keywords: sign
-    description: |
-      Throt and Gleep's Megger Store est. 2107
+    description: "Throt and Gleep's Megger Store est. 2107\n\r"
 - vnum: 8017
   name: Threep Lane
-  description: |
-    Threep Lane continues north and south.  There is a dark alley to the west.
-  room_flags: '0'
+  description: "Threep Lane continues north and south.  There is a dark alley to the
+    west.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      Threep Lane continues north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Threep Lane continues north.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8016
   - dir: 2
-    desc: |
-      An intersection is ahead.
-    keywords: ''
-    exit_flags: '0'
+    desc: "An intersection is ahead.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8018
   - dir: 3
-    desc: |
-      A dark alley is west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A dark alley is west.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8011
   extra_descs: []
 - vnum: 8018
   name: Corner of Max Jaffa Blvd and Threep Way
-  description: |
-    A proprietor of Uncle Sumpty's Ugly Emporium meanders by.  Threep Lane
-    continues north and south while Max Jaffa Boulevard goes west.
-  room_flags: '0'
+  description: "A proprietor of Uncle Sumpty's Ugly Emporium meanders by.  Threep
+    Lane\n\rcontinues north and south while Max Jaffa Boulevard goes west.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      Threep Lane continues north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Threep Lane continues north.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8017
   - dir: 2
-    desc: |
-      Threep Lane continues south.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Threep Lane continues south.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8019
   - dir: 3
-    desc: |
-      Max Jaffa Blvd continues west
-    keywords: ''
-    exit_flags: '0'
+    desc: "Max Jaffa Blvd continues west\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8012
   extra_descs: []
 - vnum: 8019
   name: Corner of Ed Hilldreth Mem. Prkwy and Threep Lane
-  description: |
-    Threep Lane goes north from here while Ed Hilldreth Memorial Parkway goes
-    west.
-  room_flags: '0'
+  description: "Threep Lane goes north from here while Ed Hilldreth Memorial Parkway
+    goes\n\rwest.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      Threep Lane continues north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Threep Lane continues north.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8018
   - dir: 3
-    desc: |
-      Ed Hilldreth continues west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Ed Hilldreth continues west.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8013
   extra_descs: []
 - vnum: 8020
   name: Construction Site for the Brit-Cit One tunnel.
-  description: |
-    Construction is under way for the Black Atlantic Tunnel to connect
-    Mega-City One and Brit-Cit One.
-  room_flags: '0'
+  description: "Construction is under way for the Black Atlantic Tunnel to connect\n\rMega-City
+    One and Brit-Cit One.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      An intersection lies north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "An intersection lies north.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8009
   extra_descs: []
 - vnum: 8021
   name: Pustule Palace Cafe
-  description: |
-    A scabrous hole.  Run by Ernie Ramirez, an ex-perp, it is a meeting place
-    for the low-life in the area.
-  room_flags: D
+  description: "A scabrous hole.  Run by Ernie Ramirez, an ex-perp, it is a meeting
+    place\n\rfor the low-life in the area.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      An intersection lies east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "An intersection lies east.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8003
   extra_descs: []
 - vnum: 8022
   name: Rietzik's Shuggy Hall
-  description: |
-    A sleazy dive and the meeting place of a lot of perps.  Shuggy is a
-    twenty-second Century version of pool, played on a hilly table, usually
-    with large side bets.
-  room_flags: D
+  description: "A sleazy dive and the meeting place of a lot of perps.  Shuggy is
+    a\n\rtwenty-second Century version of pool, played on a hilly table, usually\n\rwith
+    large side bets.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      An intersection lies east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "An intersection lies east.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8005
   extra_descs: []
 - vnum: 8023
   name: Bazza's Home for the Terminally Sarky
-  description: |
-    This is an experimental psychiatric home.  Named after a 20th Century
-    vid-critic, the home attempts, by various methods, to readjust the
-    socially unacceptable attitudes of the inmates.
-  room_flags: D
+  description: "This is an experimental psychiatric home.  Named after a 20th Century\n\rvid-critic,
+    the home attempts, by various methods, to readjust the\n\rsocially unacceptable
+    attitudes of the inmates.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      A large plaza lies east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A large plaza lies east.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8006
   extra_descs: []
 - vnum: 8024
   name: Nu Phisog Parlour
-  description: |
-    Opened as a direct rival to the New You Face Parlour chain to offer quick
-    and cheap face-changing facilities to the general public.  However,
-    since the closure of Sump's Ugly clinics, the craze for face-changing has
-    died down.
-  room_flags: D
+  description: "Opened as a direct rival to the New You Face Parlour chain to offer
+    quick\n\rand cheap face-changing facilities to the general public.  However,\n\rsince
+    the closure of Sump's Ugly clinics, the craze for face-changing has\n\rdied down.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      An intersection lies east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "An intersection lies east.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8007
   extra_descs: []
 - vnum: 8025
   name: Ziggi Piggi's Home for the Semi-Stiff
-  description: |
-    The only suspended animation parlour in the area.  It has a high turnover
-    rate.  It is rumored that the patrons are being used in body sharking and
-    organ legging activities.
-  room_flags: D
+  description: "The only suspended animation parlour in the area.  It has a high turnover\n\rrate.
+    \ It is rumored that the patrons are being used in body sharking and\n\rorgan
+    legging activities.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      An intersection lies east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "An intersection lies east.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8009
   extra_descs: []
 - vnum: 8026
   name: Throt & Gleep's Megger Store
-  description: |
-    This place promises to provide everything that the citizens don't need,
-    with the utmost discourtesy.  Of course, something as crazy as this was
-    bound to succeed.  There is a door to the north with a slot next to it.
-    There is also a sign next to the slot.
-  room_flags: D
+  description: "This place promises to provide everything that the citizens don't
+    need,\n\rwith the utmost discourtesy.  Of course, something as crazy as this was\n\rbound
+    to succeed.  There is a door to the north with a slot next to it.\n\rThere is
+    also a sign next to the slot.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
+    desc:
     keywords: door
-    exit_flags: AC
+    exit_flags: 15
     key: 8013
     to_vnum: 8027
   - dir: 3
-    desc: ''
+    desc:
     keywords: door
-    exit_flags: A
+    exit_flags: 3
     key: 0
     to_vnum: 8016
   extra_descs:
   - keywords: sign
-    description: |
-      To open insert card.
+    description: "To open insert card.\n\r"
 - vnum: 8027
   name: Stockroom of Throt & Gleep's Megger Store
-  description: |
-    Many useless items stock the shelves of this stockroom.  A door leads
-    south and large vault door is to the north.
-  room_flags: D
+  description: "Many useless items stock the shelves of this stockroom.  A door leads\n\rsouth
+    and large vault door is to the north.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
+    desc:
     keywords: vault door
-    exit_flags: AC
+    exit_flags: 15
     key: 8012
     to_vnum: 8028
   - dir: 2
-    desc: ''
+    desc:
     keywords: door
-    exit_flags: AC
+    exit_flags: 15
     key: 8013
     to_vnum: 8026
   extra_descs:
   - keywords: vault door
-    description: |
-      This vault seems impervious to breaking.  There is a keyhole in the lock
-      however.
+    description: "This vault seems impervious to breaking.  There is a keyhole in
+      the lock\n\rhowever.\n\r"
 - vnum: 8028
   name: Throt & Gleep's Vault
-  description: |
-    The vault is musty with a slight smell of ozone in the air.
-  room_flags: D
+  description: "The vault is musty with a slight smell of ozone in the air.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
+    desc:
     keywords: vault door
-    exit_flags: AC
+    exit_flags: 15
     key: 8012
     to_vnum: 8027
   extra_descs: []
 resets:
-- command: D
-  arg1: 8016
-  arg2: 1
-  arg3: 0
-- command: D
-  arg1: 8026
-  arg2: 0
-  arg3: 2
-- command: D
-  arg1: 8026
-  arg2: 3
-  arg3: 0
-- command: D
-  arg1: 8027
-  arg2: 0
-  arg3: 2
-- command: D
-  arg1: 8027
-  arg2: 2
-  arg3: 2
-- command: D
-  arg1: 8028
-  arg2: 2
-  arg3: 2
 - command: M
   arg1: 8004
   arg2: 5
@@ -1956,14 +1802,4 @@ resets:
   arg1: 8007
   arg2: 0
   arg3: 8004
-specials:
-- vnum: 8003
-  spec_fun: spec_cast_judge
-- vnum: 8004
-  spec_fun: spec_thief
-- vnum: 8006
-  spec_fun: spec_cast_judge
-- vnum: 8010
-  spec_fun: spec_cast_judge
-- vnum: 8011
-  spec_fun: spec_cast_judge
+shops: []

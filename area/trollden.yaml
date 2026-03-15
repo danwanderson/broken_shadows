@@ -10,435 +10,415 @@ mobiles:
 - vnum: 2800
   keywords: guardian beast
   short_desc: the guardian beast
-  long_desc: |
-    A guardian beast stares at you and snarls in rage.
-  description: |
-    Jet black fur covers this beast.  You stare at his two huge red eyes.  You can
-    count at least 50 teeth on this monster.  You can't tell whether it is blood or
-    saliva dripping from the beast's jaw.  The guardian beast snarls again.
+  long_desc: "A guardian beast stares at you and snarls in rage.\n\r"
+  description: "Jet black fur covers this beast.  You stare at his two huge red eyes.
+    \ You can\n\rcount at least 50 teeth on this monster.  You can't tell whether
+    it is blood or\n\rsaliva dripping from the beast's jaw.  The guardian beast snarls
+    again.\n\r"
   race: Human
-  act: ABCFGT
-  affected_by: DPQ
-  affected2_by: '0'
+  act: 524390
+  affected_by: 98312
+  affected2_by: 0
   alignment: -200
   clan: 0
   level: 8
   hitroll: 0
   hit:
-    number: 2
-    type: 21
-    bonus: 73
+  - 2
+  - 21
+  - 73
   mana:
-    number: 8
-    type: 10
-    bonus: 100
+  - 8
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 7
-    bonus: 4
+  - 2
+  - 7
+  - 4
   dam_type: 3
   ac:
     pierce: 5
     bash: 5
     slash: 5
     exotic: 7
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 2801
   keywords: young troll
   short_desc: the young troll
-  long_desc: |
-    A young troll is sitting down, chewing on a bone.
-  description: |
-    He is a tall, wiry, furry humanoid.
-    Your eyes lock with his.  He smiles, puts down his bone, and reaches for one
-    of yours!!
+  long_desc: "A young troll is sitting down, chewing on a bone.\n\r"
+  description: "He is a tall, wiry, furry humanoid.\n\rYour eyes lock with his.  He
+    smiles, puts down his bone, and reaches for one\n\rof yours!!\n\r"
   race: Human
-  act: ACFGT
-  affected_by: P
-  affected2_by: '0'
+  act: 524388
+  affected_by: 32768
+  affected2_by: 0
   alignment: -500
   clan: 0
   level: 7
   hitroll: 0
   hit:
-    number: 1
-    type: 33
-    bonus: 61
+  - 1
+  - 33
+  - 61
   mana:
-    number: 7
-    type: 10
-    bonus: 100
+  - 7
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 6
-    bonus: 3
+  - 2
+  - 6
+  - 3
   dam_type: 7
   ac:
     pierce: 5
     bash: 5
     slash: 5
     exotic: 7
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 6
   default_pos: 8
   sex: 1
   gold: 50
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 2802
   keywords: medium troll
   short_desc: the medium troll
-  long_desc: |
-    A troll is grooming his pet, a guardian beast.
-  description: |
-    He is a tall, lean, furry humanoid.
-    He is busy licking the ticks off of his beast.
-    His eyes dart toward you, as he realizes you are one third his size.
+  long_desc: "A troll is grooming his pet, a guardian beast.\n\r"
+  description: "He is a tall, lean, furry humanoid.\n\rHe is busy licking the ticks
+    off of his beast.\n\rHis eyes dart toward you, as he realizes you are one third
+    his size.\n\r"
   race: Human
-  act: ABCFGT
-  affected_by: P
-  affected2_by: '0'
+  act: 524390
+  affected_by: 32768
+  affected2_by: 0
   alignment: -500
   clan: 0
   level: 8
   hitroll: 0
   hit:
-    number: 2
-    type: 21
-    bonus: 73
+  - 2
+  - 21
+  - 73
   mana:
-    number: 8
-    type: 10
-    bonus: 100
+  - 8
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 7
-    bonus: 4
+  - 2
+  - 7
+  - 4
   dam_type: 3
   ac:
     pierce: 5
     bash: 5
     slash: 5
     exotic: 7
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 150
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 2803
   keywords: baby troll
   short_desc: a baby troll
-  long_desc: |
-    A baby troll is playing Doctor with a cadaver.
-  description: |
-    He is a large, chubby, furry humanoid.
-    He is trying to stuff an arm in a hole in the wall.
-    He notices you and gargles "WANNA JOIN?".
+  long_desc: "A baby troll is playing Doctor with a cadaver.\n\r"
+  description: "He is a large, chubby, furry humanoid.\n\rHe is trying to stuff an
+    arm in a hole in the wall.\n\rHe notices you and gargles \"WANNA JOIN?\".\n\r"
   race: Human
-  act: ABCFT
-  affected_by: P
-  affected2_by: '0'
+  act: 524326
+  affected_by: 32768
+  affected2_by: 0
   alignment: -100
   clan: 0
   level: 6
   hitroll: 0
   hit:
-    number: 1
-    type: 24
-    bonus: 51
+  - 1
+  - 24
+  - 51
   mana:
-    number: 6
-    type: 10
-    bonus: 100
+  - 6
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 5
-    bonus: 3
+  - 2
+  - 5
+  - 3
   dam_type: 3
   ac:
     pierce: 6
     bash: 6
     slash: 6
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 6
   default_pos: 8
   sex: 1
   gold: 25
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 2804
   keywords: giant troll
   short_desc: the giant troll
-  long_desc: |
-    A giant troll is lying on a pile of carnage, pleasing his mistress.
-  description: |
-    He is a gigantic, muscular, furry humanoid.
-    He gasps as he notices your intrusion.
-    You gasp as you realize you have intruded upon his acts of passion!
+  long_desc: "A giant troll is lying on a pile of carnage, pleasing his mistress.\n\r"
+  description: "He is a gigantic, muscular, furry humanoid.\n\rHe gasps as he notices
+    your intrusion.\n\rYou gasp as you realize you have intruded upon his acts of
+    passion!\n\r"
   race: Giant
-  act: ABCFGT
-  affected_by: P
-  affected2_by: '0'
+  act: 524390
+  affected_by: 32768
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 12
   hitroll: 0
   hit:
-    number: 3
-    type: 32
-    bonus: 120
+  - 3
+  - 32
+  - 120
   mana:
-    number: 12
-    type: 10
-    bonus: 100
+  - 12
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 7
-    bonus: 6
+  - 3
+  - 7
+  - 6
   dam_type: 3
   ac:
     pierce: 2
     bash: 2
     slash: 2
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: HI
-  vuln_flags: JP
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 5
   default_pos: 8
   sex: 1
   gold: 300
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 2805
   keywords: large troll female
   short_desc: the large female troll
-  long_desc: |
-    A large female troll is lying on the pile of carnage, blissfully writhing.
-  description: |
-    She is a huge, grotesque, furry humanoid.
-    She moans in passion but gasps as she notices you.
-    Her smiles turn into snarls as she screams at you!
+  long_desc: "A large female troll is lying on the pile of carnage, blissfully writhing.\n\r"
+  description: "She is a huge, grotesque, furry humanoid.\n\rShe moans in passion
+    but gasps as she notices you.\n\rHer smiles turn into snarls as she screams at
+    you!\n\r"
   race: Human
-  act: ABCFGT
-  affected_by: P
-  affected2_by: '0'
+  act: 524390
+  affected_by: 32768
+  affected2_by: 0
   alignment: -800
   clan: 0
   level: 12
   hitroll: 0
   hit:
-    number: 3
-    type: 32
-    bonus: 120
+  - 3
+  - 32
+  - 120
   mana:
-    number: 12
-    type: 10
-    bonus: 100
+  - 12
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 7
-    bonus: 6
+  - 3
+  - 7
+  - 6
   dam_type: 3
   ac:
     pierce: 2
     bash: 2
     slash: 2
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 5
   default_pos: 8
   sex: 2
   gold: 250
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 2806
   keywords: fat worm
   short_desc: a fat worm
-  long_desc: |
-    A fat worm scurries around, looking for food.
-  description: |
-    It is thick and long.  You can't find a head on this thing.
-    It moves quickly, from corpse to corpse.
+  long_desc: "A fat worm scurries around, looking for food.\n\r"
+  description: "It is thick and long.  You can't find a head on this thing.\n\rIt
+    moves quickly, from corpse to corpse.\n\r"
   race: Human
-  act: ACFHT
-  affected_by: PQ
-  affected2_by: '0'
+  act: 524452
+  affected_by: 98304
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 4
   hitroll: 0
   hit:
-    number: 1
-    type: 10
-    bonus: 33
+  - 1
+  - 10
+  - 33
   mana:
-    number: 4
-    type: 10
-    bonus: 100
+  - 4
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 7
-    bonus: 2
+  - 1
+  - 7
+  - 2
   dam_type: 3
   ac:
     pierce: 7
     bash: 7
     slash: 7
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 2807
   keywords: roving beast
   short_desc: the roving beast
-  long_desc: |
-    A roving beast is searching for prey.
-  description: |
-    Jet black fur covers this beast.
-    You stare at his two huge red eyes.  You can count at least 50 teeth on this
-    beast.  You can't tell whether it is blood or saliva dripping from the beast's
-    jaw.  The roving beast snarls at you.
+  long_desc: "A roving beast is searching for prey.\n\r"
+  description: "Jet black fur covers this beast.\n\rYou stare at his two huge red
+    eyes.  You can count at least 50 teeth on this\n\rbeast.  You can't tell whether
+    it is blood or saliva dripping from the beast's\n\rjaw.  The roving beast snarls
+    at you.\n\r"
   race: Human
-  act: ABCFGT
-  affected_by: DP
-  affected2_by: '0'
+  act: 524390
+  affected_by: 32776
+  affected2_by: 0
   alignment: -200
   clan: 0
   level: 8
   hitroll: 0
   hit:
-    number: 2
-    type: 21
-    bonus: 73
+  - 2
+  - 21
+  - 73
   mana:
-    number: 8
-    type: 10
-    bonus: 100
+  - 8
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 7
-    bonus: 4
+  - 2
+  - 7
+  - 4
   dam_type: 3
   ac:
     pierce: 5
     bash: 5
     slash: 5
     exotic: 7
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 2808
   keywords: medium troll
   short_desc: the medium troll
-  long_desc: |
-    A troll is wandering around, attending to his duties.
-  description: |
-    He is a tall, lean, furry humanoid.
-    He notices you, and is satisfied to find what he is looking for.
-    He advances toward you.
+  long_desc: "A troll is wandering around, attending to his duties.\n\r"
+  description: "He is a tall, lean, furry humanoid.\n\rHe notices you, and is satisfied
+    to find what he is looking for.\n\rHe advances toward you.\n\r"
   race: Human
-  act: ACFGT
-  affected_by: P
-  affected2_by: '0'
+  act: 524388
+  affected_by: 32768
+  affected2_by: 0
   alignment: -500
   clan: 0
   level: 9
   hitroll: 0
   hit:
-    number: 2
-    type: 27
-    bonus: 83
+  - 2
+  - 27
+  - 83
   mana:
-    number: 9
-    type: 10
-    bonus: 100
+  - 9
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 7
-    bonus: 6
+  - 2
+  - 7
+  - 6
   dam_type: 11
   ac:
     pierce: 4
     bash: 4
     slash: 4
     exotic: 7
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 150
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 objects:
 - vnum: 2800
   name: corpse cadaver
@@ -446,17 +426,17 @@ objects:
   description: A half eaten corpse is laying here
   material: none
   item_type: 15
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 7
+  weight: 50
+  cost: 70
   values:
   - 30
   - 0
   - 0
   - 0
   - 0
-  level: 7
-  weight: 50
-  cost: 70
   affects: []
   extra_descs: []
 - vnum: 2801
@@ -465,17 +445,17 @@ objects:
   description: There is a bed made of carnage here.
   material: none
   item_type: 15
-  extra_flags: '0'
-  wear_flags: '0'
+  extra_flags: 0
+  wear_flags: 0
+  level: 10
+  weight: 999
+  cost: 100
   values:
   - 30
   - 0
   - 0
   - 0
   - 0
-  level: 10
-  weight: 999
-  cost: 100
   affects: []
   extra_descs: []
 - vnum: 2802
@@ -484,240 +464,221 @@ objects:
   description: The filthy hide of a beast is laying here.
   material: none
   item_type: 9
-  extra_flags: '0'
-  wear_flags: AK
+  extra_flags: 0
+  wear_flags: 1025
+  level: 12
+  weight: 50
+  cost: 120
   values:
   - 5
   - 5
   - 5
   - 0
   - 0
-  level: 12
-  weight: 50
-  cost: 120
   affects:
   - where: O
     location: 1
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
   extra_descs:
   - keywords: troll skin
-    description: |
-      This is the skin from a huge (and dead) beast.  It looks bad, smells bad,
-      and feels bad.
+    description: "This is the skin from a huge (and dead) beast.  It looks bad, smells
+      bad,\n\rand feels bad.\n\r"
 - vnum: 2803
   name: ring opal
   short_desc: an opal ring
   description: A ring of black opal lies here gathering dust.
   material: none
   item_type: 9
-  extra_flags: G
-  wear_flags: AB
+  extra_flags: 64
+  wear_flags: 3
+  level: 10
+  weight: 1
+  cost: 100
   values:
   - 5
   - 5
   - 5
   - 0
   - 0
-  level: 10
-  weight: 1
-  cost: 100
   affects:
   - where: O
     location: 19
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
   extra_descs:
   - keywords: ring opal
-    description: |
-      It is a full circle of opal, smooth and simple.
+    description: "It is a full circle of opal, smooth and simple.\n\r"
 - vnum: 2804
   name: leather belt
   short_desc: a leather belt
   description: An old leather belt is left on the floor.
   material: none
   item_type: 9
-  extra_flags: G
-  wear_flags: AL
+  extra_flags: 64
+  wear_flags: 2049
+  level: 7
+  weight: 5
+  cost: 70
   values:
   - 4
   - 4
   - 4
   - 0
   - 0
-  level: 7
-  weight: 5
-  cost: 70
   affects: []
   extra_descs:
   - keywords: leather belt
-    description: |
-      This old, smelly belt looks like it is barely better than rotting cloth.
+    description: "This old, smelly belt looks like it is barely better than rotting
+      cloth.\n\r"
 - vnum: 2805
   name: bone cracked
   short_desc: a cracked bone
   description: A cracked piece of bone lies here.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 6
+  weight: 3
+  cost: 60
   values:
   - 4
   - 2
   - 6
   - 7
   - 0
-  level: 6
-  weight: 3
-  cost: 60
   affects:
-  - where: O
-    location: 19
-    modifier: -1
-    bitvector: '0'
   - where: O
     location: 18
     modifier: -1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: -1
+    bitvector: 0
   extra_descs:
   - keywords: bone
-    description: |
-      This piece of bone looks sturdy enough to be used as a weapon, but you
-      wouldn't want to entrust your life to it.
+    description: "This piece of bone looks sturdy enough to be used as a weapon, but
+      you\n\rwouldn't want to entrust your life to it.\n\r"
 rooms:
 - vnum: 2801
   name: Wastedump
-  description: |
-    This room is filled with bone shards and fragments.  Something (or things)
-    very big lives here.  A small plaque is on the wall.
-  room_flags: AD
+  description: "This room is filled with bone shards and fragments.  Something (or
+    things)\n\rvery big lives here.  A small plaque is on the wall.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You reach civilization again.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You reach civilization again.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 6124
   - dir: 2
-    desc: |
-      You find the stench is stronger inside.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You find the stench is stronger inside.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 2803
   extra_descs:
   - keywords: plaque
-    description: |
-      This zone (trollden) is created by MERC for any MERC Mud.
-      copyright 1992
+    description: "This zone (trollden) is created by MERC for any MERC Mud.\n\rcopyright
+      1992\n\r"
 - vnum: 2802
   name: Troll's Larder
-  description: |
-    This room has blood and grime all over the walls.  You see maggots and other
-    insects crawling up them.  The resident is definitely uncivilized.  Half-eaten
-    and rotting body parts scatter the floor, each having its own colony of flies,
-    worms, and maggots.
-  room_flags: AD
+  description: "This room has blood and grime all over the walls.  You see maggots
+    and other\n\rinsects crawling up them.  The resident is definitely uncivilized.
+    \ Half-eaten\n\rand rotting body parts scatter the floor, each having its own
+    colony of flies,\n\rworms, and maggots.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You welcome the fresh breeze coming from the east, but wrinkle your nose when
-      the stench bears down on you once more.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You welcome the fresh breeze coming from the east, but wrinkle your nose
+      when\n\rthe stench bears down on you once more.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 2803
   extra_descs:
   - keywords: Half-eaten body rotting corpse
-    description: |
-      YUCK!  You find worms crawling in and out this poor unfortunate former human.
+    description: "YUCK!  You find worms crawling in and out this poor unfortunate
+      former human.\n\r"
 - vnum: 2803
   name: Troll's Living Room
-  description: |
-    This small cave opens to the north, south, east, and west.  You are
-    overcome by the stench and consider turning around.
-  room_flags: AD
+  description: "This small cave opens to the north, south, east, and west.  You are\n\rovercome
+    by the stench and consider turning around.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      There is a trail of bone shards and fragments leading north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "There is a trail of bone shards and fragments leading north.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 2801
   - dir: 1
-    desc: |
-      Good God!  You spy corpses all over the floor in there.  It looks like a
-      virtual graveyard in there.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Good God!  You spy corpses all over the floor in there.  It looks like
+      a\n\rvirtual graveyard in there.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 2804
   - dir: 2
-    desc: |
-      Whoa!  You reel back from the stench.  You believe you have found the source
-      of this bad smell.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Whoa!  You reel back from the stench.  You believe you have found the source\n\rof
+      this bad smell.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 2805
   - dir: 3
-    desc: |
-      You puke as you watch worms crawl between this room and the room west of here
-      as they bore new holes into a corpse laying on the far wall of the west room.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You puke as you watch worms crawl between this room and the room west of
+      here\n\ras they bore new holes into a corpse laying on the far wall of the west
+      room.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 2802
   extra_descs: []
 - vnum: 2804
   name: The Playpen
-  description: |
-    The walls are covered with blood (and body parts!?!?).  Plastered on the far
-    wall you see what looks like a human arm.  A half-eaten body lies here with
-    its chest ripped out.  The predator seems disinterested in it.
-  room_flags: AD
+  description: "The walls are covered with blood (and body parts!?!?).  Plastered
+    on the far\n\rwall you see what looks like a human arm.  A half-eaten body lies
+    here with\n\rits chest ripped out.  The predator seems disinterested in it.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: |
-      You welcome the fresh breeze coming from the west, but wrinkle your nose when
-      the stench bears down on you once more.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You welcome the fresh breeze coming from the west, but wrinkle your nose
+      when\n\rthe stench bears down on you once more.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 2803
   extra_descs:
   - keywords: arm rotting
-    description: |
-      This reminds you of what a baby would do to its formula during dinnertime,
-      plastering it on the wall.
+    description: "This reminds you of what a baby would do to its formula during dinnertime,\n\rplastering
+      it on the wall.\n\r"
 - vnum: 2805
   name: Troll's Bedroom
-  description: |
-    Obviously something REALLY big lives here.  The stench is quite unbearable.
-    There are piles and piles of rotten and half-eaten body parts of animals,
-    orcs, (and humans?) strewn across the floor.  There is a larger, more
-    prominent pile of rotten parts over in a corner.  It seems to have been
-    flattened by something.
-  room_flags: ACD
+  description: "Obviously something REALLY big lives here.  The stench is quite unbearable.\n\rThere
+    are piles and piles of rotten and half-eaten body parts of animals,\n\rorcs, (and
+    humans?) strewn across the floor.  There is a larger, more\n\rprominent pile of
+    rotten parts over in a corner.  It seems to have been\n\rflattened by something.\n\r"
+  room_flags: 13
   sector: 5
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You welcome the fresh breeze coming from the north, but wrinkle your nose when
-      the stench bears down on you once more.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You welcome the fresh breeze coming from the north, but wrinkle your nose
+      when\n\rthe stench bears down on you once more.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 2803
   extra_descs: []
@@ -818,3 +779,4 @@ resets:
   arg1: 2803
   arg2: 0
   arg3: 2801
+shops: []

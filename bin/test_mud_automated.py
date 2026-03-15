@@ -65,6 +65,7 @@ class MUDTestSuite:
         self._core_files_before: set[Path] = set()
         self.success_count = 0
         self.failure_count = 0
+        self._connection_ok = False
 
     def log(self, message: str, level: str = "INFO") -> None:
         """Print timestamped log message."""
@@ -218,6 +219,13 @@ class MUDTestSuite:
         time.sleep(2)
 
         try:
+            self.log("Pulling latest image...")
+            returncode, _, stderr = self.run_command(
+                "docker compose pull", timeout=120
+            )
+            if returncode != 0:
+                self.log(f"docker compose pull failed: {stderr}", "WARNING")
+
             returncode, _, stderr = self.run_command(
                 "docker compose up -d", timeout=30
             )
@@ -287,6 +295,7 @@ class MUDTestSuite:
                 timeout=10,
             )
             self.log("Connected to MUD")
+            self._connection_ok = True
             self.test_passed("Telnet connection")
             return reader, writer
         except Exception as e:
@@ -419,6 +428,7 @@ class MUDTestSuite:
             return ""
         except Exception as e:
             self.log(f"Send error: {e}", "ERROR")
+            self._connection_ok = False
             return ""
 
     async def read_until(
@@ -523,6 +533,8 @@ class MUDTestSuite:
         self, reader: Any, writer: Any
     ) -> bool:
         """Test character creation."""
+        if not self.require_connection("Character creation"):
+            return False
         self.log("Testing character creation...")
         try:
             # Handle ANSI color prompt
@@ -615,6 +627,8 @@ class MUDTestSuite:
         self, reader: Any, writer: Any
     ) -> bool:
         """Test movement between rooms."""
+        if not self.require_connection("Movement"):
+            return False
         self.log("Testing movement...")
         try:
             # First look establishes the current room and available exits.
@@ -709,6 +723,8 @@ class MUDTestSuite:
         self, reader: Any, writer: Any
     ) -> bool:
         """Test inventory command."""
+        if not self.require_connection("Inventory check"):
+            return False
         self.log("Testing inventory...")
         try:
             response = await self.send_command(
@@ -737,6 +753,8 @@ class MUDTestSuite:
         self, reader: Any, writer: Any
     ) -> bool:
         """Test the save command — verifies no crash and YAML file written."""
+        if not self.require_connection("Save"):
+            return False
         self.log("Testing save command...")
         try:
             response = await self.send_command(
@@ -773,6 +791,8 @@ class MUDTestSuite:
         self, reader: Any, writer: Any
     ) -> bool:
         """Test logout/quit."""
+        if not self.require_connection("Logout"):
+            return False
         self.log("Testing logout...")
         try:
             await self.send_command(reader, writer, "quit", wait_for="?")
@@ -787,15 +807,22 @@ class MUDTestSuite:
             return True
 
         except Exception as e:
-            self.log(f"Logout test failed: {e}", "WARNING")
-            # Not critical if quit fails, still close connection
+            self.log(f"Logout test failed: {e}", "ERROR")
+            self._connection_ok = False
             try:
                 writer.close()
                 await writer.wait_closed()
             except Exception:
                 pass
-            self.test_passed("Logout (forced)")
-            return True
+            self.test_failed("Logout")
+            return False
+
+    def require_connection(self, test_name: str) -> bool:
+        """Fail the named test immediately if the connection is not healthy."""
+        if not self._connection_ok:
+            self.test_failed(f"{test_name} (no connection)")
+            return False
+        return True
 
     def test_passed(self, test_name: str) -> None:
         """Record passed test."""

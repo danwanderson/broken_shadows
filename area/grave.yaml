@@ -10,281 +10,270 @@ mobiles:
 - vnum: 3600
   keywords: henry gardener
   short_desc: Henry the Gardener
-  long_desc: |
-    Henry the Gardener is sitting here, looking drunk.
-  description: |
-    He is a tall but bulky man in his late fifties.  His features are worn with
-    decades of hard work and his somewhat crouched expression is one of deep
-    sorrow and depression.  He is haunted by a memory of a lost paradise.
+  long_desc: "Henry the Gardener is sitting here, looking drunk.\n\r"
+  description: "He is a tall but bulky man in his late fifties.  His features are
+    worn with\n\rdecades of hard work and his somewhat crouched expression is one
+    of deep\n\rsorrow and depression.  He is haunted by a memory of a lost paradise.\n\r"
   race: Human
-  act: AGT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524352
+  affected_by: 0
+  affected2_by: 0
   alignment: 350
   clan: 0
   level: 4
   hitroll: 0
   hit:
-    number: 1
-    type: 10
-    bonus: 33
+  - 1
+  - 10
+  - 33
   mana:
-    number: 4
-    type: 10
-    bonus: 100
+  - 4
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 7
-    bonus: 2
+  - 1
+  - 7
+  - 2
   dam_type: 3
   ac:
     pierce: 7
     bash: 7
     slash: 7
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 6
   default_pos: 6
   sex: 1
   gold: 5
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 3601
   keywords: zombie
   short_desc: the rotting zombie
-  long_desc: |
-    A rotting zombie is staggering towards you with outstretched hands.
-  description: |
-    Maggots crawl all over its decaying body.
+  long_desc: "A rotting zombie is staggering towards you with outstretched hands.\n\r"
+  description: "Maggots crawl all over its decaying body.\n\r"
   race: Human
-  act: ABFT
-  affected_by: J
-  affected2_by: '0'
+  act: 524322
+  affected_by: 512
+  affected2_by: 0
   alignment: -750
   clan: 0
   level: 5
   hitroll: 0
   hit:
-    number: 1
-    type: 16
-    bonus: 42
+  - 1
+  - 16
+  - 42
   mana:
-    number: 5
-    type: 10
-    bonus: 100
+  - 5
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 4
-    bonus: 3
+  - 2
+  - 4
+  - 3
   dam_type: 3
   ac:
     pierce: 6
     bash: 6
     slash: 6
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 5
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_undead
 - vnum: 3602
   keywords: ghoul
   short_desc: the ghastly ghoul
-  long_desc: |
-    A ghastly ghoul is here.
-  description: |
-    It is a walking corpse with long fangs and long, sharp nails that most of
-    resemble claws.  Its eyes are a dark yellow colour and glare hungrily at you.
+  long_desc: "A ghastly ghoul is here.\n\r"
+  description: "It is a walking corpse with long fangs and long, sharp nails that
+    most of\n\rresemble claws.  Its eyes are a dark yellow colour and glare hungrily
+    at you.\n\r"
   race: Human
-  act: ABFT
-  affected_by: J
-  affected2_by: '0'
+  act: 524322
+  affected_by: 512
+  affected2_by: 0
   alignment: -750
   clan: 0
   level: 6
   hitroll: 0
   hit:
-    number: 1
-    type: 24
-    bonus: 51
+  - 1
+  - 24
+  - 51
   mana:
-    number: 6
-    type: 10
-    bonus: 100
+  - 6
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 5
-    bonus: 3
+  - 2
+  - 5
+  - 3
   dam_type: 7
   ac:
     pierce: 6
     bash: 6
     slash: 6
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 10
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_undead
 - vnum: 3603
   keywords: skeleton
   short_desc: a dusty skeleton
-  long_desc: |
-    A dusty skeleton lies here.
-  description: |
-    The dusty bones are almost brown.  It must have been buried for a very long
-    time.
+  long_desc: "A dusty skeleton lies here.\n\r"
+  description: "The dusty bones are almost brown.  It must have been buried for a
+    very long\n\rtime.\n\r"
   race: Human
-  act: ABFT
-  affected_by: J
-  affected2_by: '0'
+  act: 524322
+  affected_by: 512
+  affected2_by: 0
   alignment: -750
   clan: 0
   level: 2
   hitroll: 0
   hit:
-    number: 1
-    type: 2
-    bonus: 16
+  - 1
+  - 2
+  - 16
   mana:
-    number: 2
-    type: 10
-    bonus: 100
+  - 2
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 3
-    bonus: 1
+  - 1
+  - 3
+  - 1
   dam_type: 7
   ac:
     pierce: 8
     bash: 8
     slash: 8
     exotic: 9
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_undead
 - vnum: 3604
   keywords: skeleton
   short_desc: a dusty skeleton
-  long_desc: |
-    A dusty skeleton lies here.
-  description: |
-    The dusty bones are almost brown.  It must have been buried for a very long
-    time.
+  long_desc: "A dusty skeleton lies here.\n\r"
+  description: "The dusty bones are almost brown.  It must have been buried for a
+    very long\n\rtime.\n\r"
   race: Human
-  act: AFT
-  affected_by: J
-  affected2_by: '0'
+  act: 524320
+  affected_by: 512
+  affected2_by: 0
   alignment: -750
   clan: 0
   level: 3
   hitroll: 0
   hit:
-    number: 1
-    type: 6
-    bonus: 23
+  - 1
+  - 6
+  - 23
   mana:
-    number: 3
-    type: 10
-    bonus: 100
+  - 3
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 5
-    bonus: 1
+  - 1
+  - 5
+  - 1
   dam_type: 7
   ac:
     pierce: 8
     bash: 8
     slash: 8
     exotic: 9
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_undead
 - vnum: 3605
   keywords: zombie
   short_desc: the rotting zombie
-  long_desc: |
-    A rotting zombie is staggering towards you with outstretched hands.
-  description: |
-    Maggots crawl all over its decaying body.
+  long_desc: "A rotting zombie is staggering towards you with outstretched hands.\n\r"
+  description: "Maggots crawl all over its decaying body.\n\r"
   race: Human
-  act: AFT
-  affected_by: J
-  affected2_by: '0'
+  act: 524320
+  affected_by: 512
+  affected2_by: 0
   alignment: -750
   clan: 0
   level: 5
   hitroll: 0
   hit:
-    number: 1
-    type: 16
-    bonus: 42
+  - 1
+  - 16
+  - 42
   mana:
-    number: 5
-    type: 10
-    bonus: 100
+  - 5
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 4
-    bonus: 3
+  - 2
+  - 4
+  - 3
   dam_type: 7
   ac:
     pierce: 6
     bash: 6
     slash: 6
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 10
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_undead
@@ -295,1201 +284,995 @@ objects:
   description: A pewter candlestick is standing here.
   material: none
   item_type: 1
-  extra_flags: '0'
-  wear_flags: AO
+  extra_flags: 0
+  wear_flags: 16385
+  level: 0
+  weight: 5
+  cost: 0
   values:
   - 0
   - 0
   - 24
   - 0
   - 0
-  level: 0
-  weight: 5
-  cost: 0
   affects: []
   extra_descs:
   - keywords: candlestick
-    description: |
-      It is a rather old-looking three-armed candlestick made from pewter.  Its
-      candles are a yellowish white colour.
+    description: "It is a rather old-looking three-armed candlestick made from pewter.
+      \ Its\n\rcandles are a yellowish white colour.\n\r"
 - vnum: 3601
   name: brandy bottle
   short_desc: a brandy bottle
   description: A brandy bottle is lying here.
   material: none
   item_type: 17
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 4
+  weight: 2
+  cost: 40
   values:
   - 10
   - 10
   - 5
   - 0
   - 0
-  level: 4
-  weight: 2
-  cost: 40
   affects: []
   extra_descs:
   - keywords: brandy bottle
-    description: |
-      The bottle is a special 'Dragon Blood' brandy bottle.  Its neck is shaped
-      like a small dragon's head.  Bottles like these are often worth a small
-      amount money, even when empty.
+    description: "The bottle is a special 'Dragon Blood' brandy bottle.  Its neck
+      is shaped\n\rlike a small dragon's head.  Bottles like these are often worth
+      a small\n\ramount money, even when empty.\n\r"
 - vnum: 3602
   name: brandy bottle
   short_desc: a brandy bottle
   description: A brandy bottle is lying here.
   material: none
   item_type: 17
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 2
+  weight: 2
+  cost: 20
   values:
   - 10
   - 0
   - 5
   - 0
   - 0
-  level: 2
-  weight: 2
-  cost: 20
   affects: []
   extra_descs:
   - keywords: brandy bottle
-    description: |
-      The bottle is a special 'Dragon Blood' brandy bottle.  Its neck is shaped
-      like a small dragon's head.  Bottles like these are often worth some money,
-      even when empty.
+    description: "The bottle is a special 'Dragon Blood' brandy bottle.  Its neck
+      is shaped\n\rlike a small dragon's head.  Bottles like these are often worth
+      some money,\n\reven when empty.\n\r"
 - vnum: 3603
   name: wheelbarrow
   short_desc: a wheelbarrow
   description: A green-painted wheelbarrow is standing here.
   material: none
   item_type: 22
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 1
+  weight: 100
+  cost: 10
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 1
-  weight: 100
-  cost: 10
   affects: []
   extra_descs:
   - keywords: wheelbarrow
-    description: |
-      It is a heavy wheelbarrow made from solid oaken planks that have been painted
-      a dark, green colour.
+    description: "It is a heavy wheelbarrow made from solid oaken planks that have
+      been painted\n\ra dark, green colour.\n\r"
 - vnum: 3604
   name: shovel
   short_desc: a shovel
   description: A shovel is lying here.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 2
+  weight: 8
+  cost: 20
   values:
   - 4
   - 1
   - 9
   - 7
   - 0
-  level: 2
-  weight: 8
-  cost: 20
   affects: []
   extra_descs:
   - keywords: shovel
-    description: |
-      It is a large metal shovel with a solid wooden handle.
+    description: "It is a large metal shovel with a solid wooden handle.\n\r"
 - vnum: 3605
   name: rake
   short_desc: a rake
   description: A rake is lying here.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 2
+  weight: 8
+  cost: 20
   values:
   - 4
   - 1
   - 9
   - 5
   - 0
-  level: 2
-  weight: 8
-  cost: 20
   affects: []
   extra_descs:
   - keywords: rake
-    description: |
-      It is a large metal rake with a solid wooden handle.
+    description: "It is a large metal rake with a solid wooden handle.\n\r"
 - vnum: 3610
   name: skeleton
   short_desc: a dusty skeleton
   description: A dusty skeleton lies here.
   material: none
   item_type: 12
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 1
+  weight: 15
+  cost: 10
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 1
-  weight: 15
-  cost: 10
   affects: []
   extra_descs:
   - keywords: skeleton
-    description: |
-      The dusty bones are almost brown.  It must have been buried for a very long
-      time.
-      A dusty skeleton is in an excellent condition.
+    description: "The dusty bones are almost brown.  It must have been buried for
+      a very long\n\rtime.\n\rA dusty skeleton is in an excellent condition.\n\r"
 - vnum: 3611
   name: amethyst gem
   short_desc: a amethyst
   description: A large, beautifully polished amethyst has been left here.
   material: none
   item_type: 8
-  extra_flags: '0'
-  wear_flags: AO
+  extra_flags: 0
+  wear_flags: 16385
+  level: 5
+  weight: 1
+  cost: 50
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 5
-  weight: 1
-  cost: 50
   affects: []
   extra_descs:
   - keywords: amethyst
-    description: |
-      It has a very deep purple colour.
+    description: "It has a very deep purple colour.\n\r"
 - vnum: 3612
   name: pendant silver
   short_desc: a silver pendant
   description: A silver pendant has been left here.
   material: none
   item_type: 9
-  extra_flags: '0'
-  wear_flags: AC
+  extra_flags: 0
+  wear_flags: 5
+  level: 6
+  weight: 1
+  cost: 60
   values:
   - 4
   - 4
   - 4
   - 0
   - 0
-  level: 6
-  weight: 1
-  cost: 60
   affects: []
   extra_descs:
   - keywords: pendant silver
-    description: |
-      It resembles Thor's hammer and appears to be made of solid silver.
+    description: "It resembles Thor's hammer and appears to be made of solid silver.\n\r"
 - vnum: 3613
   name: dagger silver
   short_desc: a silver dagger
   description: A long silver dagger is lying here.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 0
+  weight: 1
+  cost: 0
   values:
   - 2
   - 1
   - 7
   - 11
   - 0
-  level: 0
-  weight: 1
-  cost: 0
   affects:
   - where: O
     location: 19
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
   extra_descs:
   - keywords: dagger silver
-    description: |
-      It has a long, sharp blade that is made entirely from silver.  A small rune
-      has been engraved on the blade next to the hilt.
+    description: "It has a long, sharp blade that is made entirely from silver.  A
+      small rune\n\rhas been engraved on the blade next to the hilt.\n\r"
 rooms:
 - vnum: 3600
   name: A Gravel Road in the Graveyard
-  description: |
-    You are on a well-kept gravel road that leads north-south through the
-    graveyard.  On both sides of the road grow dark evergreen trees.  An iron
-    grate is to the north and narrow gravel paths lead east and west.
-  room_flags: '0'
+  description: "You are on a well-kept gravel road that leads north-south through
+    the\n\rgraveyard.  On both sides of the road grow dark evergreen trees.  An iron\n\rgrate
+    is to the north and narrow gravel paths lead east and west.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: "Through the solid iron bars you see Elm Street. \n"
+    desc: "Through the solid iron bars you see Elm Street. \n\r"
     keywords: grate
-    exit_flags: AC
+    exit_flags: 15
     key: 3121
     to_vnum: 3124
   - dir: 1
-    desc: |
-      The gravel path leads eastwards between the dark evergreen trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path leads eastwards between the dark evergreen trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3650
   - dir: 2
-    desc: |
-      The gravel road continues southwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel road continues southwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3601
   - dir: 3
-    desc: |
-      The gravel path leads westwards between the dark evergreen trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path leads westwards between the dark evergreen trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3606
   extra_descs: []
 - vnum: 3601
   name: A Gravel Road in the Graveyard
-  description: |
-    You are on a well-kept gravel road that leads north-south through the
-    graveyard.  On both sides of the road grow dark evergreen trees.
-  room_flags: '0'
+  description: "You are on a well-kept gravel road that leads north-south through
+    the\n\rgraveyard.  On both sides of the road grow dark evergreen trees.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The gravel road continues northwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel road continues northwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3600
   - dir: 2
-    desc: |
-      The gravel road continues southwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel road continues southwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3602
   extra_descs: []
 - vnum: 3602
   name: A Gravel Road in the Graveyard
-  description: |
-    You are on a well-kept gravel road that leads north-south through the
-    graveyard.  On both sides of the road grow dark evergreen trees.
-  room_flags: '0'
+  description: "You are on a well-kept gravel road that leads north-south through
+    the\n\rgraveyard.  On both sides of the road grow dark evergreen trees.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The gravel road continues northwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel road continues northwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3601
   - dir: 2
-    desc: |
-      The gravel road continues southwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel road continues southwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3603
   extra_descs: []
 - vnum: 3603
   name: A Gravel Road in the Graveyard
-  description: |
-    You are on a well-kept gravel road that leads north-south through the
-    graveyard.  On both sides of the road grow dark evergreen trees.
-  room_flags: '0'
+  description: "You are on a well-kept gravel road that leads north-south through
+    the\n\rgraveyard.  On both sides of the road grow dark evergreen trees.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The gravel road continues northwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel road continues northwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3602
   - dir: 2
-    desc: |
-      The gravel road continues southwards to an open space before a small
-      building.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel road continues southwards to an open space before a small\n\rbuilding.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3604
   extra_descs: []
 - vnum: 3604
   name: In front of the Chapel
-  description: |
-    You are on an open space before a small chapel.  A gravel road leads north
-    through the graveyard and the chapel entrance is to the south.
-  room_flags: '0'
+  description: "You are on an open space before a small chapel.  A gravel road leads
+    north\n\rthrough the graveyard and the chapel entrance is to the south.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The gravel road continues northwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel road continues northwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3603
   - dir: 1
-    desc: |
-      The gravel path leads eastwards between the dark evergreen trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path leads eastwards between the dark evergreen trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3638
   - dir: 2
-    desc: |
-      The chapel door is made of dark wood.
+    desc: "The chapel door is made of dark wood.\n\r"
     keywords: door
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 3405
   - dir: 3
-    desc: |
-      The gravel path leads westwards between the dark evergreen trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path leads westwards between the dark evergreen trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3618
   extra_descs: []
 - vnum: 3606
   name: A Gravel Path on the Graveyard
-  description: |
-    You are on a gravel path winding its way between dark evergreen trees on
-    the graveyard.  An old tomb is here.
-  room_flags: '0'
+  description: "You are on a gravel path winding its way between dark evergreen trees
+    on\n\rthe graveyard.  An old tomb is here.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The gravel path continues eastwards towards a gravel road.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues eastwards towards a gravel road.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3600
   - dir: 2
-    desc: |
-      The gravel path continues southwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues southwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3608
   - dir: 5
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 3607
   extra_descs:
   - keywords: tomb stone
-    description: |
-      It is a large rectangular slab of dark grey stone that has been placed face
-      up in the ground.  The name has been erased by the ravages of time.
+    description: "It is a large rectangular slab of dark grey stone that has been
+      placed face\n\rup in the ground.  The name has been erased by the ravages of
+      time.\n\r"
 - vnum: 3607
   name: In a dusty Tomb
-  description: |
-    You are in a dark burial chamber beneath a large tomb stone.
-    The only exit appears to be up.
-  room_flags: AD
+  description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
+    only exit appears to be up.\n\r"
+  room_flags: 9
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 3606
   extra_descs: []
 - vnum: 3608
   name: A Gravel Path on the Graveyard
-  description: |
-    You are on a gravel path winding its way between dark evergreen trees on
-    the graveyard.  The path leads north and west.  An old tomb is here.
-  room_flags: '0'
+  description: "You are on a gravel path winding its way between dark evergreen trees
+    on\n\rthe graveyard.  The path leads north and west.  An old tomb is here.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The gravel path continues northwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues northwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3606
   - dir: 3
-    desc: |
-      The gravel path continues westwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues westwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3610
   - dir: 5
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 3609
   extra_descs:
   - keywords: tomb stone
-    description: |
-      It is a large rectangular slab of dark grey stone that has been placed face
-      up in the ground.  The name has been erased by the ravages of time.
+    description: "It is a large rectangular slab of dark grey stone that has been
+      placed face\n\rup in the ground.  The name has been erased by the ravages of
+      time.\n\r"
 - vnum: 3609
   name: In a dusty Tomb
-  description: |
-    You are in a dark burial chamber beneath a large tomb stone.
-    The only exit appears to be up.
-  room_flags: AD
+  description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
+    only exit appears to be up.\n\r"
+  room_flags: 9
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 3608
   extra_descs: []
 - vnum: 3610
   name: A Gravel Path on the Graveyard
-  description: |
-    You are on a gravel path winding its way between dark evergreen trees on
-    the graveyard.  The path leads east and south.  An old tomb is here.
-  room_flags: '0'
+  description: "You are on a gravel path winding its way between dark evergreen trees
+    on\n\rthe graveyard.  The path leads east and south.  An old tomb is here.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The gravel path continues eastwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues eastwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3608
   - dir: 2
-    desc: |
-      The gravel path continues southwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues southwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3612
   - dir: 5
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 3611
   extra_descs:
   - keywords: tomb stone
-    description: |
-      It is a large rectangular slab of dark grey stone that has been placed face
-      up in the ground.  The name has been erased by the ravages of time.
+    description: "It is a large rectangular slab of dark grey stone that has been
+      placed face\n\rup in the ground.  The name has been erased by the ravages of
+      time.\n\r"
 - vnum: 3611
   name: In a dusty Tomb
-  description: |
-    You are in a dark burial chamber beneath a large tomb stone.
-    The only exit appears to be up.
-  room_flags: AD
+  description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
+    only exit appears to be up.\n\r"
+  room_flags: 9
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 3610
   extra_descs: []
 - vnum: 3612
   name: A Gravel Path on the Graveyard
-  description: |
-    You are on a gravel path winding its way between dark evergreen trees on
-    the graveyard.  The path leads north and east.  A small shed is to the west.
-  room_flags: '0'
+  description: "You are on a gravel path winding its way between dark evergreen trees
+    on\n\rthe graveyard.  The path leads north and east.  A small shed is to the west.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The gravel path continues northwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues northwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3610
   - dir: 1
-    desc: |
-      The gravel path continues eastwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues eastwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3614
   - dir: 3
-    desc: |
-      It is a small black-painted shed with a wooden door.
+    desc: "It is a small black-painted shed with a wooden door.\n\r"
     keywords: door
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 3613
   extra_descs: []
 - vnum: 3613
   name: In a shed on the Graveyard
-  description: |
-    You are in a small shed that looks as if it is used to store all sorts of
-    gardening equipment.  The only exit appears to be through a door to the east.
-  room_flags: D
+  description: "You are in a small shed that looks as if it is used to store all sorts
+    of\n\rgardening equipment.  The only exit appears to be through a door to the
+    east.\n\r"
+  room_flags: 8
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
+    desc:
     keywords: door
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 3612
   extra_descs: []
 - vnum: 3614
   name: A Gravel Path on the Graveyard
-  description: |
-    You are on a gravel path winding its way between dark evergreen trees on
-    the graveyard.  The path leads south and west.  An old tomb is here.
-  room_flags: '0'
+  description: "You are on a gravel path winding its way between dark evergreen trees
+    on\n\rthe graveyard.  The path leads south and west.  An old tomb is here.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      The gravel path continues southwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues southwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3616
   - dir: 3
-    desc: |
-      The gravel path continues westwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues westwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3612
   - dir: 5
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 3615
   extra_descs:
   - keywords: tomb stone
-    description: |
-      It is a large rectangular slab of dark grey stone that has been placed face
-      up in the ground.  The name has been erased by the ravages of time.
+    description: "It is a large rectangular slab of dark grey stone that has been
+      placed face\n\rup in the ground.  The name has been erased by the ravages of
+      time.\n\r"
 - vnum: 3615
   name: In a dusty Tomb
-  description: |
-    You are in a dark burial chamber beneath a large tomb stone.
-    The only exit appears to be up.
-  room_flags: AD
+  description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
+    only exit appears to be up.\n\r"
+  room_flags: 9
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 3614
   extra_descs: []
 - vnum: 3616
   name: A Gravel Path on the Graveyard
-  description: |
-    You are on a gravel path winding its way between dark evergreen trees on
-    the graveyard.  The path leads north and south.  An old tomb is here.
-  room_flags: '0'
+  description: "You are on a gravel path winding its way between dark evergreen trees
+    on\n\rthe graveyard.  The path leads north and south.  An old tomb is here.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The gravel path continues northwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues northwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3614
   - dir: 2
-    desc: |
-      The gravel path continues southwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues southwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3618
   - dir: 5
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 3617
   extra_descs:
   - keywords: tomb stone
-    description: |
-      It is a large rectangular slab of dark grey stone that has been placed face
-      up in the ground.  The name has been erased by the ravages of time.
+    description: "It is a large rectangular slab of dark grey stone that has been
+      placed face\n\rup in the ground.  The name has been erased by the ravages of
+      time.\n\r"
 - vnum: 3617
   name: In a dusty Tomb
-  description: |
-    You are in a dark burial chamber beneath a large tomb stone.
-    The only exit appears to be up.
-  room_flags: AD
+  description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
+    only exit appears to be up.\n\r"
+  room_flags: 9
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 3616
   extra_descs: []
 - vnum: 3618
   name: A Gravel Path on the Graveyard
-  description: |
-    You are on a gravel path winding its way between dark evergreen trees on
-    the graveyard.  The path leads north and east.  An old tomb is here.
-  room_flags: '0'
+  description: "You are on a gravel path winding its way between dark evergreen trees
+    on\n\rthe graveyard.  The path leads north and east.  An old tomb is here.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The gravel path continues northwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues northwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3616
   - dir: 1
-    desc: |
-      The gravel path continues eastwards towards a building of some sort.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues eastwards towards a building of some sort.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3604
   - dir: 5
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 3619
   extra_descs:
   - keywords: tomb stone
-    description: |
-      It is a large rectangular slab of dark grey stone that has been placed face
-      up in the ground.  The name has been erased by the ravages of time.
+    description: "It is a large rectangular slab of dark grey stone that has been
+      placed face\n\rup in the ground.  The name has been erased by the ravages of
+      time.\n\r"
 - vnum: 3619
   name: In a dusty Tomb
-  description: |
-    You are in a dark burial chamber beneath a large tomb stone.
-    The only exit appears to be up.
-  room_flags: AD
+  description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
+    only exit appears to be up.\n\r"
+  room_flags: 9
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 3618
   extra_descs: []
 - vnum: 3638
   name: A Gravel Path on the Graveyard
-  description: |
-    You are on a gravel path winding its way between dark evergreen trees on
-    the graveyard.  The path leads north and west.  An old tomb is here.
-  room_flags: '0'
+  description: "You are on a gravel path winding its way between dark evergreen trees
+    on\n\rthe graveyard.  The path leads north and west.  An old tomb is here.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The gravel path continues northwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues northwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3640
   - dir: 3
-    desc: |
-      The gravel path continues westwards towards a building of some sort.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues westwards towards a building of some sort.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3604
   - dir: 5
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 3639
   extra_descs:
   - keywords: tomb stone
-    description: |
-      It is a large rectangular slab of dark grey stone that has been placed face
-      up in the ground.  The name has been erased by the ravages of time.
+    description: "It is a large rectangular slab of dark grey stone that has been
+      placed face\n\rup in the ground.  The name has been erased by the ravages of
+      time.\n\r"
 - vnum: 3639
   name: In a dusty Tomb
-  description: |
-    You are in a dark burial chamber beneath a large tomb stone.
-    The only exit appears to be up.
-  room_flags: AD
+  description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
+    only exit appears to be up.\n\r"
+  room_flags: 9
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 3638
   extra_descs: []
 - vnum: 3640
   name: A Gravel Path on the Graveyard
-  description: |
-    You are on a gravel path winding its way between dark evergreen trees on
-    the graveyard.  The path leads north and south.  An old tomb is here.
-  room_flags: '0'
+  description: "You are on a gravel path winding its way between dark evergreen trees
+    on\n\rthe graveyard.  The path leads north and south.  An old tomb is here.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The gravel path continues northwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues northwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3642
   - dir: 2
-    desc: |
-      The gravel path continues southwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues southwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3638
   - dir: 5
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 3641
   extra_descs:
   - keywords: tomb stone
-    description: |
-      It is a large rectangular slab of dark grey stone that has been placed face
-      up in the ground.  The name has been erased by the ravages of time.
+    description: "It is a large rectangular slab of dark grey stone that has been
+      placed face\n\rup in the ground.  The name has been erased by the ravages of
+      time.\n\r"
 - vnum: 3641
   name: In a dusty Tomb
-  description: |
-    You are in a dark burial chamber beneath a large tomb stone.
-    The only exit appears to be up.
-  room_flags: AD
+  description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
+    only exit appears to be up.\n\r"
+  room_flags: 9
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 3640
   extra_descs: []
 - vnum: 3642
   name: A Gravel Path on the Graveyard
-  description: |
-    You are on a gravel path winding its way between dark evergreen trees on
-    the graveyard.  The path leads east and south.  An old tomb is here.
-  room_flags: '0'
+  description: "You are on a gravel path winding its way between dark evergreen trees
+    on\n\rthe graveyard.  The path leads east and south.  An old tomb is here.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The gravel path continues eastwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues eastwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3644
   - dir: 2
-    desc: |
-      The gravel path continues southwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues southwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3640
   - dir: 5
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 3643
   extra_descs:
   - keywords: tomb stone
-    description: |
-      It is a large rectangular slab of dark grey stone that has been placed face
-      up in the ground.  The name has been erased by the ravages of time.
+    description: "It is a large rectangular slab of dark grey stone that has been
+      placed face\n\rup in the ground.  The name has been erased by the ravages of
+      time.\n\r"
 - vnum: 3643
   name: In a dusty Tomb
-  description: |
-    You are in a dark burial chamber beneath a large tomb stone.
-    The only exit appears to be up.
-  room_flags: AD
+  description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
+    only exit appears to be up.\n\r"
+  room_flags: 9
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 3642
   extra_descs: []
 - vnum: 3644
   name: A Gravel Path on the Graveyard
-  description: |
-    You are on a gravel path winding its way between dark evergreen trees on
-    the graveyard.  The path leads north and west.  An old tomb is here.
-  room_flags: '0'
+  description: "You are on a gravel path winding its way between dark evergreen trees
+    on\n\rthe graveyard.  The path leads north and west.  An old tomb is here.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The gravel path continues northwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues northwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3646
   - dir: 3
-    desc: |
-      The gravel path continues westwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues westwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3642
   - dir: 5
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 3645
   extra_descs:
   - keywords: tomb stone
-    description: |
-      It is a large rectangular slab of dark grey stone that has been placed face
-      up in the ground.  The name has been erased by the ravages of time.
+    description: "It is a large rectangular slab of dark grey stone that has been
+      placed face\n\rup in the ground.  The name has been erased by the ravages of
+      time.\n\r"
 - vnum: 3645
   name: In a dusty Tomb
-  description: |
-    You are in a dark burial chamber beneath a large tomb stone.
-    The only exit appears to be up.
-  room_flags: AD
+  description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
+    only exit appears to be up.\n\r"
+  room_flags: 9
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 3644
   extra_descs: []
 - vnum: 3646
   name: A Gravel Path on the Graveyard
-  description: |
-    You are on a gravel path winding its way between dark evergreen trees on
-    the graveyard.  The path leads south and west.  An old tomb is here.
-  room_flags: '0'
+  description: "You are on a gravel path winding its way between dark evergreen trees
+    on\n\rthe graveyard.  The path leads south and west.  An old tomb is here.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      The gravel path continues southwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues southwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3644
   - dir: 3
-    desc: |
-      The gravel path continues westwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues westwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3648
   - dir: 5
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 3647
   extra_descs:
   - keywords: tomb stone
-    description: |
-      It is a large rectangular slab of dark grey stone that has been placed face
-      up in the ground.  The name has been erased by the ravages of time.
+    description: "It is a large rectangular slab of dark grey stone that has been
+      placed face\n\rup in the ground.  The name has been erased by the ravages of
+      time.\n\r"
 - vnum: 3647
   name: In a dusty Tomb
-  description: |
-    You are in a dark burial chamber beneath a large tomb stone.
-    The only exit appears to be up.
-  room_flags: AD
+  description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
+    only exit appears to be up.\n\r"
+  room_flags: 9
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 3646
   extra_descs: []
 - vnum: 3648
   name: A Gravel Path on the Graveyard
-  description: |
-    You are on a gravel path winding its way between dark evergreen trees on
-    the graveyard.  The path leads north and east.  An old tomb is here.
-  room_flags: '0'
+  description: "You are on a gravel path winding its way between dark evergreen trees
+    on\n\rthe graveyard.  The path leads north and east.  An old tomb is here.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The gravel path continues northwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues northwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3650
   - dir: 1
-    desc: |
-      The gravel path continues eastwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues eastwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3646
   - dir: 5
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 3649
   extra_descs:
   - keywords: tomb stone
-    description: |
-      It is a large rectangular slab of dark grey stone that has been placed face
-      up in the ground.  The name has been erased by the ravages of time.
+    description: "It is a large rectangular slab of dark grey stone that has been
+      placed face\n\rup in the ground.  The name has been erased by the ravages of
+      time.\n\r"
 - vnum: 3649
   name: In a dusty Tomb
-  description: |
-    You are in a dark burial chamber beneath a large tomb stone.
-    The only exit appears to be up.
-  room_flags: AD
+  description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
+    only exit appears to be up.\n\r"
+  room_flags: 9
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 3648
   extra_descs: []
 - vnum: 3650
   name: A Gravel Path on the Graveyard
-  description: |
-    You are on a gravel path winding its way between dark evergreen trees on
-    the graveyard.  The path leads south and west.  An old tomb is here.
-  room_flags: '0'
+  description: "You are on a gravel path winding its way between dark evergreen trees
+    on\n\rthe graveyard.  The path leads south and west.  An old tomb is here.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      The gravel path continues southwards.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues southwards.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3648
   - dir: 3
-    desc: |
-      The gravel path continues westwards towards a gravel road.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The gravel path continues westwards towards a gravel road.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3600
   - dir: 5
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 3651
   extra_descs:
   - keywords: tomb stone
-    description: |
-      It is a large rectangular slab of dark grey stone that has been placed face
-      up in the ground.  The name has been erased by the ravages of time.
+    description: "It is a large rectangular slab of dark grey stone that has been
+      placed face\n\rup in the ground.  The name has been erased by the ravages of
+      time.\n\r"
 - vnum: 3651
   name: In a dusty Tomb
-  description: |
-    You are in a dark burial chamber beneath a large tomb stone.
-    The only exit appears to be up.
-  room_flags: AD
+  description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
+    only exit appears to be up.\n\r"
+  room_flags: 9
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
+    desc:
     keywords: tomb stone
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 3650
   extra_descs: []
 resets:
-- command: D
-  arg1: 3600
-  arg2: 0
-  arg3: 2
-- command: D
-  arg1: 3604
-  arg2: 2
-  arg3: 0
-- command: D
-  arg1: 3606
-  arg2: 5
-  arg3: 1
-- command: D
-  arg1: 3607
-  arg2: 4
-  arg3: 1
-- command: D
-  arg1: 3608
-  arg2: 5
-  arg3: 0
-- command: D
-  arg1: 3609
-  arg2: 4
-  arg3: 0
-- command: D
-  arg1: 3610
-  arg2: 5
-  arg3: 1
-- command: D
-  arg1: 3611
-  arg2: 4
-  arg3: 1
-- command: D
-  arg1: 3612
-  arg2: 3
-  arg3: 0
-- command: D
-  arg1: 3613
-  arg2: 1
-  arg3: 0
-- command: D
-  arg1: 3614
-  arg2: 5
-  arg3: 1
-- command: D
-  arg1: 3615
-  arg2: 4
-  arg3: 1
-- command: D
-  arg1: 3616
-  arg2: 5
-  arg3: 1
-- command: D
-  arg1: 3617
-  arg2: 4
-  arg3: 1
-- command: D
-  arg1: 3618
-  arg2: 5
-  arg3: 1
-- command: D
-  arg1: 3619
-  arg2: 4
-  arg3: 1
-- command: D
-  arg1: 3638
-  arg2: 5
-  arg3: 1
-- command: D
-  arg1: 3639
-  arg2: 4
-  arg3: 1
-- command: D
-  arg1: 3640
-  arg2: 5
-  arg3: 1
-- command: D
-  arg1: 3641
-  arg2: 4
-  arg3: 1
-- command: D
-  arg1: 3642
-  arg2: 5
-  arg3: 1
-- command: D
-  arg1: 3643
-  arg2: 4
-  arg3: 1
-- command: D
-  arg1: 3644
-  arg2: 5
-  arg3: 0
-- command: D
-  arg1: 3645
-  arg2: 4
-  arg3: 0
-- command: D
-  arg1: 3646
-  arg2: 5
-  arg3: 0
-- command: D
-  arg1: 3647
-  arg2: 4
-  arg3: 0
-- command: D
-  arg1: 3648
-  arg2: 5
-  arg3: 0
-- command: D
-  arg1: 3649
-  arg2: 4
-  arg3: 0
-- command: D
-  arg1: 3650
-  arg2: 5
-  arg3: 0
-- command: D
-  arg1: 3651
-  arg2: 4
-  arg3: 0
 - command: M
   arg1: 3604
   arg2: 4
@@ -1602,14 +1385,4 @@ resets:
   arg1: 3605
   arg2: 3
   arg3: 3651
-specials:
-- vnum: 3601
-  spec_fun: spec_cast_undead
-- vnum: 3602
-  spec_fun: spec_cast_undead
-- vnum: 3603
-  spec_fun: spec_cast_undead
-- vnum: 3604
-  spec_fun: spec_cast_undead
-- vnum: 3605
-  spec_fun: spec_cast_undead
+shops: []

@@ -55,4 +55,17 @@ bool load_yaml_area_resets_shops( const char *filename );
  */
 bool save_yaml_area( AREA_DATA *pArea );
 
+/*
+ * Load clans from a YAML file (replaces load_clans for clans.yaml).
+ * Returns TRUE on success.
+ */
+bool load_clans_yaml( const char *filename );
+
+/*
+ * Save all clans to clans.yaml in the current area directory.
+ * Called alongside save_clans() to keep the YAML file in sync.
+ * Returns TRUE on success.
+ */
+bool save_clans_yaml( void );
+
 #endif /* YAML_AREA_H */

@@ -10,1663 +10,1606 @@ mobiles:
 - vnum: 600
   keywords: cityguard guard
   short_desc: the Ofcol cityguard
-  long_desc: |
-    An Ofcol cityguard is standing here, making sure there is no trouble.
-  description: "This guard is surely a trained and skilled fighter.  He is fully armed\
-    \ and\narmored, and he uses his equipment with a practiced precision.  Luckily\
-    \ for \nyou, this guard will only use his deadly skills for the good of the citizens\
-    \ of\nOfcol.\n"
+  long_desc: "An Ofcol cityguard is standing here, making sure there is no trouble.\n\r"
+  description: "This guard is surely a trained and skilled fighter.  He is fully armed
+    and\n\rarmored, and he uses his equipment with a practiced precision.  Luckily
+    for \n\ryou, this guard will only use his deadly skills for the good of the citizens
+    of\n\rOfcol.\n\r"
   race: Human
-  act: ACT
-  affected_by: N
-  affected2_by: '0'
+  act: 524292
+  affected_by: 8192
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 19
   hitroll: 0
   hit:
-    number: 7
-    type: 34
-    bonus: 223
+  - 7
+  - 34
+  - 223
   mana:
-    number: 19
-    type: 10
-    bonus: 100
+  - 19
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 6
-    bonus: 12
+  - 5
+  - 6
+  - 12
   dam_type: 3
   ac:
     pierce: -1
     bash: -1
     slash: -1
     exotic: 4
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 60
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_guard
 - vnum: 601
   keywords: marshall diana
   short_desc: Marshall Diana
-  long_desc: |
-    Diana, the Marshall of Ofcol, stands here proudly.
-  description: "Diana is a beautiful, powerfully built woman.  She wears platinum\
-    \ armor for\nthree reasons.  The first is to show she is strong enough to withstand\
-    \ the\nweight.  The second is to show her rank of office.  The third is that platinum\n\
-    is the hardest metal she can find.  She is willing to defend Ofcol to her \ndeath.\n"
+  long_desc: "Diana, the Marshall of Ofcol, stands here proudly.\n\r"
+  description: "Diana is a beautiful, powerfully built woman.  She wears platinum
+    armor for\n\rthree reasons.  The first is to show she is strong enough to withstand
+    the\n\rweight.  The second is to show her rank of office.  The third is that platinum\n\ris
+    the hardest metal she can find.  She is willing to defend Ofcol to her \n\rdeath.\n\r"
   race: Human
-  act: ABT
-  affected_by: DHN
-  affected2_by: '0'
+  act: 524290
+  affected_by: 8328
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 33
   hitroll: 0
   hit:
-    number: 10
-    type: 73
-    bonus: 487
+  - 10
+  - 73
+  - 487
   mana:
-    number: 33
-    type: 10
-    bonus: 100
+  - 33
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 11
-    bonus: 19
+  - 5
+  - 11
+  - 19
   dam_type: 7
   ac:
     pierce: -10
     bash: -10
     slash: -10
     exotic: 0
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 500
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 602
   keywords: derrick captain guard cityguard
   short_desc: Captain Derrick
-  long_desc: |
-    Derrick, Captain of the Guard, is here disciplining his guards.
-  description: |
-    Derrick is a very big man.  He has acquired this station, not by brains or
-    charm, but by brute strength.  He had fought in three orc wars and is a
-    descendent of a surviving cityguard of old Thalos.  He believes that everything
-    has to be hard won to be kept, and that laxity is for the weak.
+  long_desc: "Derrick, Captain of the Guard, is here disciplining his guards.\n\r"
+  description: "Derrick is a very big man.  He has acquired this station, not by brains
+    or\n\rcharm, but by brute strength.  He had fought in three orc wars and is a\n\rdescendent
+    of a surviving cityguard of old Thalos.  He believes that everything\n\rhas to
+    be hard won to be kept, and that laxity is for the weak.\n\r"
   race: Human
-  act: AGT
-  affected_by: DHN
-  affected2_by: '0'
+  act: 524352
+  affected_by: 8328
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 27
   hitroll: 0
   hit:
-    number: 10
-    type: 49
-    bonus: 360
+  - 10
+  - 49
+  - 360
   mana:
-    number: 27
-    type: 10
-    bonus: 100
+  - 27
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 9
-    bonus: 15
+  - 5
+  - 9
+  - 15
   dam_type: 3
   ac:
     pierce: -6
     bash: -6
     slash: -6
     exotic: 1
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 500
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 603
   keywords: jacklyn captain guard cityguard
   short_desc: Captain Jacklyn
-  long_desc: |
-    Jacklyn, Captain of the Citadel Guard, brings her soldiers' morale up.
-  description: |
-    Jacklyn is pale and wiry, but then, so are most other witches.  The fact that
-    Jacklyn is a mage and a warrior makes her the perfect captain of the citadel
-    guards.  Jacklyn is very beautiful, but whether it is due to her pale softness
-    or her magic, no one has ever found out.  She isn't very strong physically, but
-    she need not be.
+  long_desc: "Jacklyn, Captain of the Citadel Guard, brings her soldiers' morale up.\n\r"
+  description: "Jacklyn is pale and wiry, but then, so are most other witches.  The
+    fact that\n\rJacklyn is a mage and a warrior makes her the perfect captain of
+    the citadel\n\rguards.  Jacklyn is very beautiful, but whether it is due to her
+    pale softness\n\ror her magic, no one has ever found out.  She isn't very strong
+    physically, but\n\rshe need not be.\n\r"
   race: Human
-  act: ABT
-  affected_by: DN
-  affected2_by: '0'
+  act: 524290
+  affected_by: 8200
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 28
   hitroll: 0
   hit:
-    number: 10
-    type: 52
-    bonus: 387
+  - 10
+  - 52
+  - 387
   mana:
-    number: 28
-    type: 10
-    bonus: 100
+  - 28
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 9
-    bonus: 18
+  - 5
+  - 9
+  - 18
   dam_type: 11
   ac:
     pierce: -7
     bash: -7
     slash: -7
     exotic: 1
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 500
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_mage
 - vnum: 604
   keywords: jim blacksmith
   short_desc: Jim the Blacksmith
-  long_desc: |
-    Jim the Blacksmith is here, selling his latest works of metal.
-  description: |
-    Jim is big and brawny, just like what you'd expect of a blacksmith.  He is
-    smiling a very big smile, as he looks at your coins.  You wonder if he likes
-    the metals or the value of the coins.
+  long_desc: "Jim the Blacksmith is here, selling his latest works of metal.\n\r"
+  description: "Jim is big and brawny, just like what you'd expect of a blacksmith.
+    \ He is\n\rsmiling a very big smile, as he looks at your coins.  You wonder if
+    he likes\n\rthe metals or the value of the coins.\n\r"
   race: Human
-  act: ABT
-  affected_by: N
-  affected2_by: '0'
+  act: 524290
+  affected_by: 8192
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 30
   hitroll: 0
   hit:
-    number: 10
-    type: 60
-    bonus: 426
+  - 10
+  - 60
+  - 426
   mana:
-    number: 30
-    type: 10
-    bonus: 100
+  - 30
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 10
-    bonus: 17
+  - 5
+  - 10
+  - 17
   dam_type: 7
   ac:
     pierce: -8
     bash: -8
     slash: -8
     exotic: 0
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 3000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 605
   keywords: sam
   short_desc: Sam
-  long_desc: |
-    Sam is here, selling his leather works.
-  description: |
-    Sam is a middle-aged workman.  He looks tired, but never too tired to get that
-    last sale from you.  He grins at you slightly.
+  long_desc: "Sam is here, selling his leather works.\n\r"
+  description: "Sam is a middle-aged workman.  He looks tired, but never too tired
+    to get that\n\rlast sale from you.  He grins at you slightly.\n\r"
   race: Human
-  act: ABT
-  affected_by: N
-  affected2_by: '0'
+  act: 524290
+  affected_by: 8192
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 31
   hitroll: 0
   hit:
-    number: 10
-    type: 64
-    bonus: 448
+  - 10
+  - 64
+  - 448
   mana:
-    number: 31
-    type: 10
-    bonus: 100
+  - 31
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 10
-    bonus: 19
+  - 5
+  - 10
+  - 19
   dam_type: 7
   ac:
     pierce: -9
     bash: -9
     slash: -9
     exotic: 0
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1500
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 606
   keywords: madam tracy
   short_desc: Madam Tracy
-  long_desc: |
-    Madam Tracy is here, selling and buying little treasures.
-  description: |
-    Madam Tracy is a bit old, but not to the point of senility.  Besides, she knows
-    the hard ways of this world and is ready for it.  She spends her time at the
-    shop, trading little things (for a wee bit of profit).
+  long_desc: "Madam Tracy is here, selling and buying little treasures.\n\r"
+  description: "Madam Tracy is a bit old, but not to the point of senility.  Besides,
+    she knows\n\rthe hard ways of this world and is ready for it.  She spends her
+    time at the\n\rshop, trading little things (for a wee bit of profit).\n\r"
   race: Human
-  act: ABT
-  affected_by: N
-  affected2_by: '0'
+  act: 524290
+  affected_by: 8192
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 19
   hitroll: 0
   hit:
-    number: 7
-    type: 34
-    bonus: 223
+  - 7
+  - 34
+  - 223
   mana:
-    number: 19
-    type: 10
-    bonus: 100
+  - 19
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 6
-    bonus: 12
+  - 5
+  - 6
+  - 12
   dam_type: 11
   ac:
     pierce: -1
     bash: -1
     slash: -1
     exotic: 4
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 1500
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 607
   keywords: marty
   short_desc: Marty
-  long_desc: |
-    Marty the meat store owner is here, selling you his choice meats.
-  description: |
-    Marty is a big man.  He used to hunt the animals he sells, but now he lets his
-    son, Jim, raise and slaughter the animals for him.  Marty still knows how to
-    kill, though.
+  long_desc: "Marty the meat store owner is here, selling you his choice meats.\n\r"
+  description: "Marty is a big man.  He used to hunt the animals he sells, but now
+    he lets his\n\rson, Jim, raise and slaughter the animals for him.  Marty still
+    knows how to\n\rkill, though.\n\r"
   race: Human
-  act: ABT
-  affected_by: N
-  affected2_by: '0'
+  act: 524290
+  affected_by: 8192
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 31
   hitroll: 0
   hit:
-    number: 10
-    type: 64
-    bonus: 448
+  - 10
+  - 64
+  - 448
   mana:
-    number: 31
-    type: 10
-    bonus: 100
+  - 31
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 10
-    bonus: 19
+  - 5
+  - 10
+  - 19
   dam_type: 11
   ac:
     pierce: -9
     bash: -9
     slash: -9
     exotic: 0
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 500
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 608
   keywords: elizabeth farmer
   short_desc: Farmer Elizabeth
-  long_desc: |
-    Farmer Elizabeth is here, selling the latest crop.
-  description: |
-    Elizabeth is a very happy woman.  She can't believe the nice weather here in
-    Ofcol, and the great vegetables this land produces is unbelievable to her too.
-    Farmer Elizabeth smiles at you nicely, but you bet she is doing that just to
-    get a good price off of you!
+  long_desc: "Farmer Elizabeth is here, selling the latest crop.\n\r"
+  description: "Elizabeth is a very happy woman.  She can't believe the nice weather
+    here in\n\rOfcol, and the great vegetables this land produces is unbelievable
+    to her too.\n\rFarmer Elizabeth smiles at you nicely, but you bet she is doing
+    that just to\n\rget a good price off of you!\n\r"
   race: Human
-  act: ABT
-  affected_by: N
-  affected2_by: '0'
+  act: 524290
+  affected_by: 8192
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 20
   hitroll: 0
   hit:
-    number: 7
-    type: 38
-    bonus: 238
+  - 7
+  - 38
+  - 238
   mana:
-    number: 20
-    type: 10
-    bonus: 100
+  - 20
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 7
-    bonus: 10
+  - 5
+  - 7
+  - 10
   dam_type: 7
   ac:
     pierce: -2
     bash: -2
     slash: -2
     exotic: 3
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 500
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 609
   keywords: granny jenkins
   short_desc: Granny Jenkins
-  long_desc: |
-    Granny Jenkins is here, running the still.
-  description: |
-    Granny Jenkins is a feeble woman, but she knows her brew.  She might be very
-    old, but she is still in charge of the still.  She cackles lightly at herself
-    every time she tastes her whiskey, which is quite often!
-    Granny Jenkins cackles again.
+  long_desc: "Granny Jenkins is here, running the still.\n\r"
+  description: "Granny Jenkins is a feeble woman, but she knows her brew.  She might
+    be very\n\rold, but she is still in charge of the still.  She cackles lightly
+    at herself\n\revery time she tastes her whiskey, which is quite often!\n\rGranny
+    Jenkins cackles again.\n\r"
   race: Human
-  act: ABT
-  affected_by: N
-  affected2_by: '0'
+  act: 524290
+  affected_by: 8192
+  affected2_by: 0
   alignment: 500
   clan: 0
   level: 5
   hitroll: 0
   hit:
-    number: 1
-    type: 16
-    bonus: 42
+  - 1
+  - 16
+  - 42
   mana:
-    number: 5
-    type: 10
-    bonus: 100
+  - 5
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 4
-    bonus: 3
+  - 2
+  - 4
+  - 3
   dam_type: 11
   ac:
     pierce: 6
     bash: 6
     slash: 6
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 10
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 610
   keywords: jack
   short_desc: Jack
-  long_desc: |
-    Jack is here slaughtering away at the animals.
-  description: |
-    Jack is the son of Marty, and you can see the family resemblance (especially in
-    their shared affinity for slaughtering animals.)  Jack leers at you as you
-    enter.  "Came by to watch, eh?", he asks.
+  long_desc: "Jack is here slaughtering away at the animals.\n\r"
+  description: "Jack is the son of Marty, and you can see the family resemblance (especially
+    in\n\rtheir shared affinity for slaughtering animals.)  Jack leers at you as you\n\renter.
+    \ \"Came by to watch, eh?\", he asks.\n\r"
   race: Human
-  act: ABFHT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524450
+  affected_by: 0
+  affected2_by: 0
   alignment: 200
   clan: 0
   level: 12
   hitroll: 0
   hit:
-    number: 3
-    type: 32
-    bonus: 120
+  - 3
+  - 32
+  - 120
   mana:
-    number: 12
-    type: 10
-    bonus: 100
+  - 12
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 7
-    bonus: 6
+  - 3
+  - 7
+  - 6
   dam_type: 3
   ac:
     pierce: 2
     bash: 2
     slash: 2
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 10
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 611
   keywords: Sarah farmer
   short_desc: Farmer Sara
-  long_desc: |
-    Farmer Sara is here, milking the cows.
-  description: |
-    Farmer Sara is all covered with bits of straw and grime, but underneath all
-    that, she doesn't look that bad.  She smiles at you demurely, and goes back to
-    her work.
+  long_desc: "Farmer Sara is here, milking the cows.\n\r"
+  description: "Farmer Sara is all covered with bits of straw and grime, but underneath
+    all\n\rthat, she doesn't look that bad.  She smiles at you demurely, and goes
+    back to\n\rher work.\n\r"
   race: Human
-  act: ABHT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524418
+  affected_by: 0
+  affected2_by: 0
   alignment: 800
   clan: 0
   level: 6
   hitroll: 0
   hit:
-    number: 1
-    type: 24
-    bonus: 51
+  - 1
+  - 24
+  - 51
   mana:
-    number: 6
-    type: 10
-    bonus: 100
+  - 6
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 5
-    bonus: 3
+  - 2
+  - 5
+  - 3
   dam_type: 3
   ac:
     pierce: 6
     bash: 6
     slash: 6
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 10
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 612
   keywords: chicken hen
   short_desc: a hen
-  long_desc: |
-    A hen is here, squawking at your intrusion.
-  description: |
-    The hen has yellow feathers and small wings.  It looks like a chicken, if
-    you've ever seen one.
+  long_desc: "A hen is here, squawking at your intrusion.\n\r"
+  description: "The hen has yellow feathers and small wings.  It looks like a chicken,
+    if\n\ryou've ever seen one.\n\r"
   race: Human
-  act: AHIT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524672
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 2
   hitroll: 0
   hit:
-    number: 1
-    type: 2
-    bonus: 16
+  - 1
+  - 2
+  - 16
   mana:
-    number: 2
-    type: 10
-    bonus: 100
+  - 2
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 3
-    bonus: 1
+  - 1
+  - 3
+  - 1
   dam_type: 11
   ac:
     pierce: 8
     bash: 8
     slash: 8
     exotic: 9
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 613
   keywords: cow
   short_desc: the cow
-  long_desc: |
-    A cow is here, munching on grass.
-  description: |
-    The cow is here happily grazing.  It moos at you and goes back to grazing.
+  long_desc: "A cow is here, munching on grass.\n\r"
+  description: "The cow is here happily grazing.  It moos at you and goes back to
+    grazing.\n\r"
   race: Human
-  act: AIT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524544
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 5
   hitroll: 0
   hit:
-    number: 1
-    type: 16
-    bonus: 42
+  - 1
+  - 16
+  - 42
   mana:
-    number: 5
-    type: 10
-    bonus: 100
+  - 5
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 4
-    bonus: 3
+  - 2
+  - 4
+  - 3
   dam_type: 7
   ac:
     pierce: 6
     bash: 6
     slash: 6
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 614
   keywords: cow
   short_desc: the cow
-  long_desc: |
-    A cow is here, waiting to be milked.
-  description: |
-    The cow is just standing here.  She moos at you and otherwise ignores you.
+  long_desc: "A cow is here, waiting to be milked.\n\r"
+  description: "The cow is just standing here.  She moos at you and otherwise ignores
+    you.\n\r"
   race: Human
-  act: ABIT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524546
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 6
   hitroll: 0
   hit:
-    number: 1
-    type: 24
-    bonus: 51
+  - 1
+  - 24
+  - 51
   mana:
-    number: 6
-    type: 10
-    bonus: 100
+  - 6
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 5
-    bonus: 3
+  - 2
+  - 5
+  - 3
   dam_type: 3
   ac:
     pierce: 6
     bash: 6
     slash: 6
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 615
   keywords: horse young
   short_desc: the young horse
-  long_desc: |
-    A young horse is here, grazing.
-  description: |
-    The horse whinnies at you, then runs around you a few times, then just goes
-    back to grazing.
+  long_desc: "A young horse is here, grazing.\n\r"
+  description: "The horse whinnies at you, then runs around you a few times, then
+    just goes\n\rback to grazing.\n\r"
   race: Human
-  act: AFHIT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524704
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 5
   hitroll: 0
   hit:
-    number: 1
-    type: 16
-    bonus: 42
+  - 1
+  - 16
+  - 42
   mana:
-    number: 5
-    type: 10
-    bonus: 100
+  - 5
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 4
-    bonus: 3
+  - 2
+  - 4
+  - 3
   dam_type: 7
   ac:
     pierce: 6
     bash: 6
     slash: 6
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 616
   keywords: pig
   short_desc: the pig
-  long_desc: |
-    A pig is playing here, getting itself and you dirty.
-  description: |
-    The pig looks dirty.  It snorts and sniffs at you, then goes back to its slop.
+  long_desc: "A pig is playing here, getting itself and you dirty.\n\r"
+  description: "The pig looks dirty.  It snorts and sniffs at you, then goes back
+    to its slop.\n\r"
   race: pig
-  act: ABIT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524546
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 4
   hitroll: 0
   hit:
-    number: 1
-    type: 10
-    bonus: 33
+  - 1
+  - 10
+  - 33
   mana:
-    number: 4
-    type: 10
-    bonus: 100
+  - 4
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 7
-    bonus: 2
+  - 1
+  - 7
+  - 2
   dam_type: 11
   ac:
     pierce: 7
     bash: 7
     slash: 7
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: AGV
-  parts: ACDEFHJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 617
   keywords: citizen man
   short_desc: the citizen
-  long_desc: |
-    A citizen is here, smiling at you.
-  description: |
-    The citizen smiles at you.  He is having a great day, and he wishes the same
-    for you.  He looks at you strangely, though, wondering why you are so armed and
-    armored.
+  long_desc: "A citizen is here, smiling at you.\n\r"
+  description: "The citizen smiles at you.  He is having a great day, and he wishes
+    the same\n\rfor you.  He looks at you strangely, though, wondering why you are
+    so armed and\n\rarmored.\n\r"
   race: Human
-  act: AHT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524416
+  affected_by: 0
+  affected2_by: 0
   alignment: 500
   clan: 0
   level: 5
   hitroll: 0
   hit:
-    number: 1
-    type: 16
-    bonus: 42
+  - 1
+  - 16
+  - 42
   mana:
-    number: 5
-    type: 10
-    bonus: 100
+  - 5
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 4
-    bonus: 3
+  - 2
+  - 4
+  - 3
   dam_type: 7
   ac:
     pierce: 6
     bash: 6
     slash: 6
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 10
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 618
   keywords: citizen woman
   short_desc: the citizen
-  long_desc: |
-    A citizen is here, smiling at you.
-  description: |
-    The citizen smiles at you.  She is having a great day, and she wishes the same
-    for you.  She looks at you strangely, though, wondering why you are so armed
-    and armored.
+  long_desc: "A citizen is here, smiling at you.\n\r"
+  description: "The citizen smiles at you.  She is having a great day, and she wishes
+    the same\n\rfor you.  She looks at you strangely, though, wondering why you are
+    so armed\n\rand armored.\n\r"
   race: Human
-  act: AHT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524416
+  affected_by: 0
+  affected2_by: 0
   alignment: 500
   clan: 0
   level: 4
   hitroll: 0
   hit:
-    number: 1
-    type: 10
-    bonus: 33
+  - 1
+  - 10
+  - 33
   mana:
-    number: 4
-    type: 10
-    bonus: 100
+  - 4
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 7
-    bonus: 2
+  - 1
+  - 7
+  - 2
   dam_type: 7
   ac:
     pierce: 7
     bash: 7
     slash: 7
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 10
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 619
   keywords: child boy
   short_desc: the boy
-  long_desc: |
-    A boy is here, playing tag and other kids' games.
-  description: |
-    The little boy looks up at you and says, 'Hi.  Can I have a piece of candy?'
-    He then smiles and runs away, remembering his game.
+  long_desc: "A boy is here, playing tag and other kids' games.\n\r"
+  description: "The little boy looks up at you and says, 'Hi.  Can I have a piece
+    of candy?'\n\rHe then smiles and runs away, remembering his game.\n\r"
   race: Human
-  act: AHT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524416
+  affected_by: 0
+  affected2_by: 0
   alignment: 500
   clan: 0
   level: 3
   hitroll: 0
   hit:
-    number: 1
-    type: 6
-    bonus: 23
+  - 1
+  - 6
+  - 23
   mana:
-    number: 3
-    type: 10
-    bonus: 100
+  - 3
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 5
-    bonus: 1
+  - 1
+  - 5
+  - 1
   dam_type: 11
   ac:
     pierce: 8
     bash: 8
     slash: 8
     exotic: 9
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 620
   keywords: child girl
   short_desc: the girl
-  long_desc: |
-    A girl is here, playing jump jacks and other kids' games.
-  description: |
-    The little girl looks up at you and says, 'Hi.  Can I have a pretty little
-    coin?'  She then smiles and runs away, remembering her game.
+  long_desc: "A girl is here, playing jump jacks and other kids' games.\n\r"
+  description: "The little girl looks up at you and says, 'Hi.  Can I have a pretty
+    little\n\rcoin?'  She then smiles and runs away, remembering her game.\n\r"
   race: Human
-  act: AHT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524416
+  affected_by: 0
+  affected2_by: 0
   alignment: 500
   clan: 0
   level: 3
   hitroll: 0
   hit:
-    number: 1
-    type: 6
-    bonus: 23
+  - 1
+  - 6
+  - 23
   mana:
-    number: 3
-    type: 10
-    bonus: 100
+  - 3
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 5
-    bonus: 1
+  - 1
+  - 5
+  - 1
   dam_type: 3
   ac:
     pierce: 8
     bash: 8
     slash: 8
     exotic: 9
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 1
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 621
   keywords: maid woman
   short_desc: the maid
-  long_desc: |
-    A maid is here, cleaning the house and preparing the next meal.
-  description: |
-    The maid startles at your presence.  'You are ruining my floors!  Wait till
-    Master and Mistress come back.  You will get me in trouble!  Shoo!', she says.
-    She hits you with her broom.
+  long_desc: "A maid is here, cleaning the house and preparing the next meal.\n\r"
+  description: "The maid startles at your presence.  'You are ruining my floors!  Wait
+    till\n\rMaster and Mistress come back.  You will get me in trouble!  Shoo!', she
+    says.\n\rShe hits you with her broom.\n\r"
   race: Human
-  act: AHT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524416
+  affected_by: 0
+  affected2_by: 0
   alignment: 500
   clan: 0
   level: 5
   hitroll: 0
   hit:
-    number: 1
-    type: 16
-    bonus: 42
+  - 1
+  - 16
+  - 42
   mana:
-    number: 5
-    type: 10
-    bonus: 100
+  - 5
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 4
-    bonus: 3
+  - 2
+  - 4
+  - 3
   dam_type: 11
   ac:
     pierce: 6
     bash: 6
     slash: 6
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 5
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_janitor
 - vnum: 622
   keywords: Nyles
   short_desc: Nyles the Bartender
-  long_desc: |
-    Nyles the Bartender is here, ready to serve you up a good brew.
-  description: |
-    Nyles is a hefty guy, who looks like he's waiting for the next bar fight to
-    join in.  He keeps an eye on you and his glasses, making sure you don't steal
-    any.
+  long_desc: "Nyles the Bartender is here, ready to serve you up a good brew.\n\r"
+  description: "Nyles is a hefty guy, who looks like he's waiting for the next bar
+    fight to\n\rjoin in.  He keeps an eye on you and his glasses, making sure you
+    don't steal\n\rany.\n\r"
   race: Human
-  act: ABT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524290
+  affected_by: 0
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 29
   hitroll: 0
   hit:
-    number: 10
-    type: 56
-    bonus: 405
+  - 10
+  - 56
+  - 405
   mana:
-    number: 29
-    type: 10
-    bonus: 100
+  - 29
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 10
-    bonus: 15
+  - 5
+  - 10
+  - 15
   dam_type: 11
   ac:
     pierce: -8
     bash: -8
     slash: -8
     exotic: 1
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 100
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 623
   keywords: cityguard guard
   short_desc: the Ofcol cityguard
-  long_desc: |
-    An Ofcol cityguard is posted here to guard the gate.
-  description: "This guard is surely a trained and skilled fighter.  He is fully armed\
-    \ and\narmored, and he uses his equipment with a practiced precision.  Luckily\
-    \ for \nyou, this guard will only use his deadly skills for the good of the citizens\
-    \ of\nOfcol.\n"
+  long_desc: "An Ofcol cityguard is posted here to guard the gate.\n\r"
+  description: "This guard is surely a trained and skilled fighter.  He is fully armed
+    and\n\rarmored, and he uses his equipment with a practiced precision.  Luckily
+    for \n\ryou, this guard will only use his deadly skills for the good of the citizens
+    of\n\rOfcol.\n\r"
   race: Human
-  act: ABT
-  affected_by: N
-  affected2_by: '0'
+  act: 524290
+  affected_by: 8192
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 19
   hitroll: 0
   hit:
-    number: 7
-    type: 34
-    bonus: 223
+  - 7
+  - 34
+  - 223
   mana:
-    number: 19
-    type: 10
-    bonus: 100
+  - 19
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 6
-    bonus: 12
+  - 5
+  - 6
+  - 12
   dam_type: 7
   ac:
     pierce: -1
     bash: -1
     slash: -1
     exotic: 4
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 50
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_guard
 - vnum: 624
   keywords: bard
   short_desc: a bard
-  long_desc: |
-    A bard is here, singing of the glories of Ofcol.
-  description: |
-    After years of traveling around the world, this bard has decided to stay in the
-    peaceful city of Ofcol, and to sing of its unmatched glories.  He smiles at
-    you, hinting toward a tip from you in ever a subtle way.
+  long_desc: "A bard is here, singing of the glories of Ofcol.\n\r"
+  description: "After years of traveling around the world, this bard has decided to
+    stay in the\n\rpeaceful city of Ofcol, and to sing of its unmatched glories.  He
+    smiles at\n\ryou, hinting toward a tip from you in ever a subtle way.\n\r"
   race: Human
-  act: ABT
-  affected_by: N
-  affected2_by: '0'
+  act: 524290
+  affected_by: 8192
+  affected2_by: 0
   alignment: 800
   clan: 0
   level: 12
   hitroll: 0
   hit:
-    number: 3
-    type: 32
-    bonus: 120
+  - 3
+  - 32
+  - 120
   mana:
-    number: 12
-    type: 10
-    bonus: 100
+  - 12
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 7
-    bonus: 6
+  - 3
+  - 7
+  - 6
   dam_type: 7
   ac:
     pierce: 2
     bash: 2
     slash: 2
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 40
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 625
   keywords: servant
   short_desc: a servant
-  long_desc: |
-    A servant is here, carrying the duties of the Keeper of the Golden Citadel.
-  description: |
-    The servant smiles good-naturedly at you, then goes on his duties.
+  long_desc: "A servant is here, carrying the duties of the Keeper of the Golden Citadel.\n\r"
+  description: "The servant smiles good-naturedly at you, then goes on his duties.\n\r"
   race: Human
-  act: AGT
-  affected_by: N
-  affected2_by: '0'
+  act: 524352
+  affected_by: 8192
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 6
   hitroll: 0
   hit:
-    number: 1
-    type: 24
-    bonus: 51
+  - 1
+  - 24
+  - 51
   mana:
-    number: 6
-    type: 10
-    bonus: 100
+  - 6
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 5
-    bonus: 3
+  - 2
+  - 5
+  - 3
   dam_type: 3
   ac:
     pierce: 6
     bash: 6
     slash: 6
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 10
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 626
   keywords: squire
   short_desc: a squire
-  long_desc: |
-    A squire is here, scurrying from duty to duty.
-  description: |
-    This young man smiles at you, but is too busy to chat.
+  long_desc: "A squire is here, scurrying from duty to duty.\n\r"
+  description: "This young man smiles at you, but is too busy to chat.\n\r"
   race: Human
-  act: AGT
-  affected_by: N
-  affected2_by: '0'
+  act: 524352
+  affected_by: 8192
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 7
   hitroll: 0
   hit:
-    number: 1
-    type: 33
-    bonus: 61
+  - 1
+  - 33
+  - 61
   mana:
-    number: 7
-    type: 10
-    bonus: 100
+  - 7
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 6
-    bonus: 3
+  - 2
+  - 6
+  - 3
   dam_type: 11
   ac:
     pierce: 5
     bash: 5
     slash: 5
     exotic: 7
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 10
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 627
   keywords: page
   short_desc: a page
-  long_desc: |
-    A page is here, sending a message to his knight.
-  description: |
-    The page smiles for you, asking if he can do you a favor too.
+  long_desc: "A page is here, sending a message to his knight.\n\r"
+  description: "The page smiles for you, asking if he can do you a favor too.\n\r"
   race: Human
-  act: AGT
-  affected_by: N
-  affected2_by: '0'
+  act: 524352
+  affected_by: 8192
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 4
   hitroll: 0
   hit:
-    number: 1
-    type: 10
-    bonus: 33
+  - 1
+  - 10
+  - 33
   mana:
-    number: 4
-    type: 10
-    bonus: 100
+  - 4
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 7
-    bonus: 2
+  - 1
+  - 7
+  - 2
   dam_type: 11
   ac:
     pierce: 7
     bash: 7
     slash: 7
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 10
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 628
   keywords: priestess
   short_desc: the Priestess of Ofcol
-  long_desc: "The Priestess of Ofcol is here, blessing you \nwith her beatific smile.\n"
-  description: "The Priestess of Ofcol is an old woman, perfectly at peace with herself\
-    \ and \nwith the world.  She devotes all her time to help teach you the ways of\
-    \ her\ngod, Bahamut.  The dragon symbol around her neck looks almost alive.\n"
+  long_desc: "The Priestess of Ofcol is here, blessing you \n\rwith her beatific smile.\n\r"
+  description: "The Priestess of Ofcol is an old woman, perfectly at peace with herself
+    and \n\rwith the world.  She devotes all her time to help teach you the ways of
+    her\n\rgod, Bahamut.  The dragon symbol around her neck looks almost alive.\n\r"
   race: Human
-  act: ABT
-  affected_by: BHN
-  affected2_by: '0'
+  act: 524290
+  affected_by: 8322
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 30
   hitroll: 0
   hit:
-    number: 10
-    type: 60
-    bonus: 426
+  - 10
+  - 60
+  - 426
   mana:
-    number: 30
-    type: 10
-    bonus: 100
+  - 30
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 10
-    bonus: 17
+  - 5
+  - 10
+  - 17
   dam_type: 7
   ac:
     pierce: -8
     bash: -8
     slash: -8
     exotic: 0
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 100
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_adept
 - vnum: 629
   keywords: chaplain Jerrold
   short_desc: Chaplain Jerrold
-  long_desc: "Jerrold, the chaplain of this Citadel, is here \ndirecting the activities\
-    \ of the people around here.\n"
-  description: |
-    He smiles at you, with the enthusiasm of a little kid.  "What're you doing just
-    STANDING here, young man?  Go help that other squire there!", he yells.  He
-    turns to you and with a consipatory tone, whispers, "Kids!"
+  long_desc: "Jerrold, the chaplain of this Citadel, is here \n\rdirecting the activities
+    of the people around here.\n\r"
+  description: "He smiles at you, with the enthusiasm of a little kid.  \"What're
+    you doing just\n\rSTANDING here, young man?  Go help that other squire there!\",
+    he yells.  He\n\rturns to you and with a consipatory tone, whispers, \"Kids!\"\n\r"
   race: Human
-  act: AGT
-  affected_by: BHN
-  affected2_by: '0'
+  act: 524352
+  affected_by: 8322
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 20
   hitroll: 0
   hit:
-    number: 7
-    type: 38
-    bonus: 238
+  - 7
+  - 38
+  - 238
   mana:
-    number: 20
-    type: 10
-    bonus: 100
+  - 20
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 7
-    bonus: 10
+  - 5
+  - 7
+  - 10
   dam_type: 3
   ac:
     pierce: -2
     bash: -2
     slash: -2
     exotic: 3
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 75
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_guard
 - vnum: 630
   keywords: dragonlord lord dragon
   short_desc: a Dragonlord
-  long_desc: |
-    A knight wearing the scales of a dragon stands here.
-  description: "This person looks almost like a dragon itself.  His golden scales\
-    \ gleam with\npower.  He smiles at you with a vicious grin.  You're happy that\
-    \ he doesn't\nlook upset at your presence. \n"
+  long_desc: "A knight wearing the scales of a dragon stands here.\n\r"
+  description: "This person looks almost like a dragon itself.  His golden scales
+    gleam with\n\rpower.  He smiles at you with a vicious grin.  You're happy that
+    he doesn't\n\rlook upset at your presence. \n\r"
   race: Human
-  act: ABT
-  affected_by: BHN
-  affected2_by: '0'
+  act: 524290
+  affected_by: 8322
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 30
   hitroll: 0
   hit:
-    number: 10
-    type: 60
-    bonus: 426
+  - 10
+  - 60
+  - 426
   mana:
-    number: 30
-    type: 10
-    bonus: 100
+  - 30
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 10
-    bonus: 17
+  - 5
+  - 10
+  - 17
   dam_type: 3
   ac:
     pierce: -8
     bash: -8
     slash: -8
     exotic: 0
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 100
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_breath_any
 - vnum: 631
   keywords: dragon gold
   short_desc: The Ancient Gold Dragon
-  long_desc: "An old dragon shimmering with the colors of this \ncavern peers at you\
-    \ sleepily.\n"
-  description: |
-    This dragon's head is taller than you.  He is annoyed at your disturbance, but
-    realizing that you're no danger to him, he ignores you.  He waves to one of
-    his attendants to escort you away.
+  long_desc: "An old dragon shimmering with the colors of this \n\rcavern peers at
+    you sleepily.\n\r"
+  description: "This dragon's head is taller than you.  He is annoyed at your disturbance,
+    but\n\rrealizing that you're no danger to him, he ignores you.  He waves to one
+    of\n\rhis attendants to escort you away.\n\r"
   race: Human
-  act: ABCT
-  affected_by: BHJN
-  affected2_by: '0'
+  act: 524294
+  affected_by: 8834
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 38
   hitroll: 0
   hit:
-    number: 10
-    type: 97
-    bonus: 603
+  - 10
+  - 97
+  - 603
   mana:
-    number: 38
-    type: 10
-    bonus: 100
+  - 38
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 13
-    bonus: 20
+  - 5
+  - 13
+  - 20
   dam_type: 3
   ac:
     pierce: -13
     bash: -13
     slash: -13
     exotic: -1
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 10000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_breath_any
 - vnum: 632
   keywords: attendant
   short_desc: an attendant of the dragon
-  long_desc: |
-    A person robed in gold is attending to the Keeper of the Citadel.
-  description: |
-    This elder servant to the Gold Dragon is very loyal to him, willing to risk
-    his life for his liege.
+  long_desc: "A person robed in gold is attending to the Keeper of the Citadel.\n\r"
+  description: "This elder servant to the Gold Dragon is very loyal to him, willing
+    to risk\n\rhis life for his liege.\n\r"
   race: Human
-  act: ABT
-  affected_by: BN
-  affected2_by: '0'
+  act: 524290
+  affected_by: 8194
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 22
   hitroll: 0
   hit:
-    number: 9
-    type: 36
-    bonus: 270
+  - 9
+  - 36
+  - 270
   mana:
-    number: 22
-    type: 10
-    bonus: 100
+  - 22
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 7
-    bonus: 14
+  - 5
+  - 7
+  - 14
   dam_type: 11
   ac:
     pierce: -3
     bash: -3
     slash: -3
     exotic: 3
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 500
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_mage
 - vnum: 633
   keywords: dragonknight knight dragon
   short_desc: a Dragonknight
-  long_desc: "A person dressed in the scales of a gold dragon \nstands here, guarding\
-    \ the Golden Citadel.\n"
-  description: |
-    This person looks like a dragon itself.  His golden scales gleam with power.
-    He smiles at you, showing very sharp teeth.
+  long_desc: "A person dressed in the scales of a gold dragon \n\rstands here, guarding
+    the Golden Citadel.\n\r"
+  description: "This person looks like a dragon itself.  His golden scales gleam with
+    power.\n\rHe smiles at you, showing very sharp teeth.\n\r"
   race: Human
-  act: AGT
-  affected_by: BN
-  affected2_by: '0'
+  act: 524352
+  affected_by: 8194
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 21
   hitroll: 0
   hit:
-    number: 8
-    type: 37
-    bonus: 252
+  - 8
+  - 37
+  - 252
   mana:
-    number: 21
-    type: 10
-    bonus: 100
+  - 21
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 7
-    bonus: 12
+  - 5
+  - 7
+  - 12
   dam_type: 7
   ac:
     pierce: -3
     bash: -3
     slash: -3
     exotic: 3
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 500
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_breath_any
 - vnum: 634
   keywords: cityguard guard
   short_desc: the Ofcol cityguard
-  long_desc: |
-    An Ofcol cityguard is posted here to guard the gate.
-  description: "This guard is surely a trained and skilled fighter.  He is fully armed\
-    \ and\narmored, and he uses his equipment with a practiced precision.  Luckily\
-    \ for \nyou, this guard will only use his deadly skills for the good of the citizens\
-    \ of\nOfcol.\n"
+  long_desc: "An Ofcol cityguard is posted here to guard the gate.\n\r"
+  description: "This guard is surely a trained and skilled fighter.  He is fully armed
+    and\n\rarmored, and he uses his equipment with a practiced precision.  Luckily
+    for \n\ryou, this guard will only use his deadly skills for the good of the citizens
+    of\n\rOfcol.\n\r"
   race: Human
-  act: ABT
-  affected_by: N
-  affected2_by: '0'
+  act: 524290
+  affected_by: 8192
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 18
   hitroll: 0
   hit:
-    number: 6
-    type: 36
-    bonus: 205
+  - 6
+  - 36
+  - 205
   mana:
-    number: 18
-    type: 10
-    bonus: 100
+  - 18
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 7
-    bonus: 12
+  - 4
+  - 7
+  - 12
   dam_type: 7
   ac:
     pierce: -1
     bash: -1
     slash: -1
     exotic: 4
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 100
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_guard
@@ -1677,62 +1620,60 @@ objects:
   description: A hand axe is on the floor here.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 10
+  weight: 10
+  cost: 100
   values:
   - 5
   - 3
   - 5
   - 3
   - 0
-  level: 10
-  weight: 10
-  cost: 100
   affects: []
   extra_descs:
   - keywords: handaxe hand axe
-    description: |
-      You see a finely made axe.  Iron, with a nice wooden shaft, this axe can
-      withstand years of use.
+    description: "You see a finely made axe.  Iron, with a nice wooden shaft, this
+      axe can\n\rwithstand years of use.\n\r"
 - vnum: 601
   name: meat cleaver
   short_desc: a meat cleaver
   description: A sharp meat cleaver is just lying on the floor here!
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 10
+  weight: 5
+  cost: 100
   values:
   - 2
   - 3
   - 5
   - 3
   - 0
-  level: 10
-  weight: 5
-  cost: 100
   affects: []
   extra_descs:
   - keywords: meat cleaver
-    description: |
-      This meat cleaver is made of good steel.
+    description: "This meat cleaver is made of good steel.\n\r"
 - vnum: 602
   name: side meat beef
   short_desc: a side of beef
   description: A side of beef is here on the floor.
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 10
+  cost: 0
   values:
   - 24
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 10
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 603
@@ -1741,17 +1682,17 @@ objects:
   description: A side of pork is here on the floor.
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 10
+  cost: 0
   values:
   - 23
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 10
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 604
@@ -1760,17 +1701,17 @@ objects:
   description: A side of horse is here on the floor.
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 12
+  cost: 0
   values:
   - 30
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 12
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 605
@@ -1779,17 +1720,17 @@ objects:
   description: A defeathered chicken is here on the floor.
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 5
+  cost: 0
   values:
   - 16
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 5
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 606
@@ -1798,17 +1739,17 @@ objects:
   description: An emerald ring is on the floor, gathering dust.
   material: none
   item_type: 8
-  extra_flags: G
-  wear_flags: AB
+  extra_flags: 64
+  wear_flags: 3
+  level: 15
+  weight: 1
+  cost: 150
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 15
-  weight: 1
-  cost: 150
   affects: []
   extra_descs: []
 - vnum: 607
@@ -1817,22 +1758,22 @@ objects:
   description: A glass trinket is on the floor, gathering dust.
   material: none
   item_type: 8
-  extra_flags: '0'
-  wear_flags: AO
+  extra_flags: 0
+  wear_flags: 16385
+  level: 15
+  weight: 1
+  cost: 150
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 15
-  weight: 1
-  cost: 150
   affects:
   - where: O
     location: 24
     modifier: -1
-    bitvector: '0'
+    bitvector: 0
   extra_descs: []
 - vnum: 608
   name: golden necklace
@@ -1840,26 +1781,26 @@ objects:
   description: A golden necklace is on the floor, gathering dust.
   material: none
   item_type: 8
-  extra_flags: '0'
-  wear_flags: AC
+  extra_flags: 0
+  wear_flags: 5
+  level: 15
+  weight: 2
+  cost: 150
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 15
-  weight: 2
-  cost: 150
   affects:
-  - where: O
-    location: 4
-    modifier: -1
-    bitvector: '0'
   - where: O
     location: 9
     modifier: 10
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 4
+    modifier: -1
+    bitvector: 0
   extra_descs: []
 - vnum: 609
   name: cabbage
@@ -1867,17 +1808,17 @@ objects:
   description: Some fresh cabbage is here, get it while it lasts!
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 2
+  cost: 0
   values:
   - 12
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 2
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 610
@@ -1886,17 +1827,17 @@ objects:
   description: Some fresh lettuce is here, get it while it lasts!
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 2
+  cost: 0
   values:
   - 12
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 2
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 611
@@ -1905,17 +1846,17 @@ objects:
   description: A glass bottle of milk is on a shelf here, fresh from the cow.
   material: none
   item_type: 17
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 4
+  weight: 5
+  cost: 40
   values:
   - 20
   - 20
   - 10
   - 0
   - 0
-  level: 4
-  weight: 5
-  cost: 40
   affects: []
   extra_descs: []
 - vnum: 612
@@ -1924,17 +1865,17 @@ objects:
   description: An apple is on the ground.
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 1
+  cost: 0
   values:
   - 8
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 613
@@ -1943,17 +1884,17 @@ objects:
   description: An ear of corn is on the ground.
   material: none
   item_type: 19
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 1
+  cost: 0
   values:
   - 8
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 614
@@ -1962,17 +1903,17 @@ objects:
   description: There is a big pile of hay here.
   material: none
   item_type: 13
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 4
+  weight: 20
+  cost: 40
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 4
-  weight: 20
-  cost: 40
   affects: []
   extra_descs: []
 - vnum: 615
@@ -1981,17 +1922,17 @@ objects:
   description: A pitchfork is on the floor.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 10
+  weight: 10
+  cost: 100
   values:
   - 3
   - 3
   - 5
   - 11
   - 0
-  level: 10
-  weight: 10
-  cost: 100
   affects: []
   extra_descs: []
 - vnum: 616
@@ -2000,17 +1941,17 @@ objects:
   description: A leather vest is on the floor.
   material: none
   item_type: 9
-  extra_flags: '0'
-  wear_flags: AD
+  extra_flags: 0
+  wear_flags: 9
+  level: 8
+  weight: 10
+  cost: 80
   values:
   - 4
   - 4
   - 4
   - 0
   - 0
-  level: 8
-  weight: 10
-  cost: 80
   affects: []
   extra_descs: []
 - vnum: 617
@@ -2019,17 +1960,17 @@ objects:
   description: Some leather sleeves are on the floor.
   material: none
   item_type: 9
-  extra_flags: '0'
-  wear_flags: AI
+  extra_flags: 0
+  wear_flags: 257
+  level: 10
+  weight: 5
+  cost: 100
   values:
   - 5
   - 5
   - 5
   - 0
   - 0
-  level: 10
-  weight: 5
-  cost: 100
   affects: []
   extra_descs: []
 - vnum: 618
@@ -2038,17 +1979,17 @@ objects:
   description: Some leather leggings are on the floor.
   material: none
   item_type: 9
-  extra_flags: '0'
-  wear_flags: AF
+  extra_flags: 0
+  wear_flags: 33
+  level: 10
+  weight: 5
+  cost: 100
   values:
   - 5
   - 5
   - 5
   - 0
   - 0
-  level: 10
-  weight: 5
-  cost: 100
   affects: []
   extra_descs: []
 - vnum: 619
@@ -2057,17 +1998,17 @@ objects:
   description: Some leather boots are on the floor.
   material: none
   item_type: 9
-  extra_flags: '0'
-  wear_flags: AG
+  extra_flags: 0
+  wear_flags: 65
+  level: 10
+  weight: 5
+  cost: 100
   values:
   - 5
   - 5
   - 5
   - 0
   - 0
-  level: 10
-  weight: 5
-  cost: 100
   affects: []
   extra_descs: []
 - vnum: 620
@@ -2076,26 +2017,26 @@ objects:
   description: A shiny ring of gold is in the dirt.
   material: none
   item_type: 9
-  extra_flags: G
-  wear_flags: AB
+  extra_flags: 64
+  wear_flags: 3
+  level: 18
+  weight: 1
+  cost: 180
   values:
   - 6
   - 6
   - 6
   - 0
   - 0
-  level: 18
-  weight: 1
-  cost: 180
   affects:
-  - where: O
-    location: 24
-    modifier: -1
-    bitvector: '0'
   - where: O
     location: 13
     modifier: 5
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -1
+    bitvector: 0
   extra_descs: []
 - vnum: 621
   name: plate brass
@@ -2103,26 +2044,26 @@ objects:
   description: A pile of brass plates is against the wall here.
   material: none
   item_type: 9
-  extra_flags: G
-  wear_flags: AD
+  extra_flags: 64
+  wear_flags: 9
+  level: 17
+  weight: 10
+  cost: 170
   values:
   - 6
   - 6
   - 6
   - 0
   - 0
-  level: 17
-  weight: 10
-  cost: 170
   affects:
-  - where: O
-    location: 24
-    modifier: -2
-    bitvector: '0'
   - where: O
     location: 13
     modifier: 10
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -2
+    bitvector: 0
   extra_descs: []
 - vnum: 622
   name: helm brass
@@ -2130,26 +2071,26 @@ objects:
   description: A brass helm is against the wall here.
   material: none
   item_type: 9
-  extra_flags: G
-  wear_flags: AE
+  extra_flags: 64
+  wear_flags: 17
+  level: 17
+  weight: 10
+  cost: 170
   values:
   - 6
   - 6
   - 6
   - 0
   - 0
-  level: 17
-  weight: 10
-  cost: 170
   affects:
-  - where: O
-    location: 24
-    modifier: -1
-    bitvector: '0'
   - where: O
     location: 13
     modifier: 5
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -1
+    bitvector: 0
   extra_descs: []
 - vnum: 623
   name: leggings brass
@@ -2157,26 +2098,26 @@ objects:
   description: A pile of brass plates is against the wall here.
   material: none
   item_type: 9
-  extra_flags: G
-  wear_flags: AF
+  extra_flags: 64
+  wear_flags: 33
+  level: 19
+  weight: 10
+  cost: 190
   values:
   - 6
   - 6
   - 6
   - 0
   - 0
-  level: 19
-  weight: 10
-  cost: 190
   affects:
-  - where: O
-    location: 24
-    modifier: -1
-    bitvector: '0'
   - where: O
     location: 13
     modifier: 5
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -1
+    bitvector: 0
   extra_descs: []
 - vnum: 624
   name: boots brass
@@ -2184,26 +2125,26 @@ objects:
   description: Some brass boots are against the wall here.
   material: none
   item_type: 9
-  extra_flags: G
-  wear_flags: AG
+  extra_flags: 64
+  wear_flags: 65
+  level: 19
+  weight: 10
+  cost: 190
   values:
   - 6
   - 6
   - 6
   - 0
   - 0
-  level: 19
-  weight: 10
-  cost: 190
   affects:
-  - where: O
-    location: 24
-    modifier: -1
-    bitvector: '0'
   - where: O
     location: 13
     modifier: 5
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -1
+    bitvector: 0
   extra_descs: []
 - vnum: 625
   name: gauntlets brass
@@ -2211,26 +2152,26 @@ objects:
   description: Some brass gauntlets are against the wall here.
   material: none
   item_type: 9
-  extra_flags: G
-  wear_flags: AH
+  extra_flags: 64
+  wear_flags: 129
+  level: 19
+  weight: 10
+  cost: 190
   values:
   - 6
   - 6
   - 6
   - 0
   - 0
-  level: 19
-  weight: 10
-  cost: 190
   affects:
-  - where: O
-    location: 24
-    modifier: -1
-    bitvector: '0'
   - where: O
     location: 13
     modifier: 5
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -1
+    bitvector: 0
   extra_descs: []
 - vnum: 626
   name: sleeves brass
@@ -2238,26 +2179,26 @@ objects:
   description: A pile of brass plates is against the wall here.
   material: none
   item_type: 9
-  extra_flags: G
-  wear_flags: AI
+  extra_flags: 64
+  wear_flags: 257
+  level: 19
+  weight: 10
+  cost: 190
   values:
   - 6
   - 6
   - 6
   - 0
   - 0
-  level: 19
-  weight: 10
-  cost: 190
   affects:
-  - where: O
-    location: 24
-    modifier: -1
-    bitvector: '0'
   - where: O
     location: 13
     modifier: 5
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -1
+    bitvector: 0
   extra_descs: []
 - vnum: 627
   name: shield brass
@@ -2265,26 +2206,26 @@ objects:
   description: A big plate of brass is against the wall here.
   material: none
   item_type: 9
-  extra_flags: G
-  wear_flags: AJ
+  extra_flags: 64
+  wear_flags: 513
+  level: 18
+  weight: 10
+  cost: 180
   values:
   - 6
   - 6
   - 6
   - 0
   - 0
-  level: 18
-  weight: 10
-  cost: 180
   affects:
-  - where: O
-    location: 24
-    modifier: -1
-    bitvector: '0'
   - where: O
     location: 13
     modifier: 5
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -1
+    bitvector: 0
   extra_descs: []
 - vnum: 628
   name: girth brass
@@ -2292,26 +2233,26 @@ objects:
   description: A brass girth is against the wall here.
   material: none
   item_type: 9
-  extra_flags: G
-  wear_flags: AL
+  extra_flags: 64
+  wear_flags: 2049
+  level: 19
+  weight: 10
+  cost: 190
   values:
   - 6
   - 6
   - 6
   - 0
   - 0
-  level: 19
-  weight: 10
-  cost: 190
   affects:
-  - where: O
-    location: 24
-    modifier: -1
-    bitvector: '0'
   - where: O
     location: 13
     modifier: 5
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -1
+    bitvector: 0
   extra_descs: []
 - vnum: 629
   name: bracer brass
@@ -2319,26 +2260,26 @@ objects:
   description: A brass bracer is against the wall here.
   material: none
   item_type: 9
-  extra_flags: G
-  wear_flags: AM
+  extra_flags: 64
+  wear_flags: 4097
+  level: 19
+  weight: 10
+  cost: 190
   values:
   - 6
   - 6
   - 6
   - 0
   - 0
-  level: 19
-  weight: 10
-  cost: 190
   affects:
-  - where: O
-    location: 24
-    modifier: -1
-    bitvector: '0'
   - where: O
     location: 13
     modifier: 5
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -1
+    bitvector: 0
   extra_descs: []
 - vnum: 630
   name: claymore sword
@@ -2346,26 +2287,26 @@ objects:
   description: A VERY big sword is against the wall here.
   material: none
   item_type: 5
-  extra_flags: G
-  wear_flags: AN
+  extra_flags: 64
+  wear_flags: 8193
+  level: 18
+  weight: 16
+  cost: 180
   values:
   - 1
   - 5
   - 5
   - 1
   - 32
-  level: 18
-  weight: 16
-  cost: 180
   affects:
-  - where: O
-    location: 18
-    modifier: -2
-    bitvector: '0'
   - where: O
     location: 19
     modifier: 5
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: -2
+    bitvector: 0
   extra_descs: []
 - vnum: 631
   name: plate silver
@@ -2373,26 +2314,26 @@ objects:
   description: A pile of silver plating and chain is on the floor.
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AD
+  extra_flags: 1088
+  wear_flags: 9
+  level: 27
+  weight: 20
+  cost: 270
   values:
   - 8
   - 8
   - 8
   - 0
   - 0
-  level: 27
-  weight: 20
-  cost: 270
   affects:
-  - where: O
-    location: 12
-    modifier: 10
-    bitvector: '0'
   - where: O
     location: 1
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 12
+    modifier: 10
+    bitvector: 0
   extra_descs: []
 - vnum: 632
   name: helm silver
@@ -2400,26 +2341,26 @@ objects:
   description: A shiny helm is on the floor.
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AE
+  extra_flags: 1088
+  wear_flags: 17
+  level: 27
+  weight: 20
+  cost: 270
   values:
   - 8
   - 8
   - 8
   - 0
   - 0
-  level: 27
-  weight: 20
-  cost: 270
   affects:
-  - where: O
-    location: 12
-    modifier: 5
-    bitvector: '0'
   - where: O
     location: 2
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 12
+    modifier: 5
+    bitvector: 0
   extra_descs: []
 - vnum: 633
   name: leggings silver
@@ -2427,26 +2368,26 @@ objects:
   description: Some shiny leggings are on the floor.
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AF
+  extra_flags: 1088
+  wear_flags: 33
+  level: 27
+  weight: 20
+  cost: 270
   values:
   - 8
   - 8
   - 8
   - 0
   - 0
-  level: 27
-  weight: 20
-  cost: 270
   affects:
-  - where: O
-    location: 12
-    modifier: 5
-    bitvector: '0'
   - where: O
     location: 3
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 12
+    modifier: 5
+    bitvector: 0
   extra_descs: []
 - vnum: 634
   name: boots silver
@@ -2454,26 +2395,26 @@ objects:
   description: Some shiny boots are on the floor.
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AG
+  extra_flags: 1088
+  wear_flags: 65
+  level: 27
+  weight: 20
+  cost: 270
   values:
   - 8
   - 8
   - 8
   - 0
   - 0
-  level: 27
-  weight: 20
-  cost: 270
   affects:
-  - where: O
-    location: 12
-    modifier: 5
-    bitvector: '0'
   - where: O
     location: 4
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 12
+    modifier: 5
+    bitvector: 0
   extra_descs: []
 - vnum: 635
   name: gauntlets silver
@@ -2481,26 +2422,26 @@ objects:
   description: Some shiny gauntlets are on the floor.
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AH
+  extra_flags: 1088
+  wear_flags: 129
+  level: 27
+  weight: 20
+  cost: 270
   values:
   - 8
   - 8
   - 8
   - 0
   - 0
-  level: 27
-  weight: 20
-  cost: 270
   affects:
-  - where: O
-    location: 12
-    modifier: 5
-    bitvector: '0'
   - where: O
     location: 5
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 12
+    modifier: 5
+    bitvector: 0
   extra_descs: []
 - vnum: 636
   name: sleeves silver
@@ -2508,26 +2449,26 @@ objects:
   description: Some shiny sleeves are on the floor.
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AI
+  extra_flags: 1088
+  wear_flags: 257
+  level: 28
+  weight: 20
+  cost: 280
   values:
   - 8
   - 8
   - 8
   - 0
   - 0
-  level: 28
-  weight: 20
-  cost: 280
   affects:
-  - where: O
-    location: 12
-    modifier: 5
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 12
+    modifier: 5
+    bitvector: 0
   extra_descs: []
 - vnum: 637
   name: shield silver
@@ -2535,26 +2476,26 @@ objects:
   description: A shiny shield is on the floor.
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AJ
+  extra_flags: 1088
+  wear_flags: 513
+  level: 28
+  weight: 20
+  cost: 280
   values:
   - 8
   - 8
   - 8
   - 0
   - 0
-  level: 28
-  weight: 20
-  cost: 280
   affects:
-  - where: O
-    location: 12
-    modifier: 5
-    bitvector: '0'
   - where: O
     location: 17
     modifier: -3
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 12
+    modifier: 5
+    bitvector: 0
   extra_descs: []
 - vnum: 638
   name: girth silver
@@ -2562,26 +2503,26 @@ objects:
   description: A shiny girth is on the floor.
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AL
+  extra_flags: 1088
+  wear_flags: 2049
+  level: 28
+  weight: 20
+  cost: 280
   values:
   - 8
   - 8
   - 8
   - 0
   - 0
-  level: 28
-  weight: 20
-  cost: 280
   affects:
-  - where: O
-    location: 12
-    modifier: 5
-    bitvector: '0'
   - where: O
     location: 19
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 12
+    modifier: 5
+    bitvector: 0
   extra_descs: []
 - vnum: 639
   name: plate platinum
@@ -2589,26 +2530,26 @@ objects:
   description: A pile of silvery metal is on the floor.
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AD
+  extra_flags: 1088
+  wear_flags: 9
+  level: 33
+  weight: 50
+  cost: 330
   values:
   - 9
   - 9
   - 9
   - 0
   - 0
-  level: 33
-  weight: 50
-  cost: 330
   affects:
-  - where: O
-    location: 13
-    modifier: 15
-    bitvector: '0'
   - where: O
     location: 5
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 15
+    bitvector: 0
   extra_descs: []
 - vnum: 640
   name: helmet platinum
@@ -2616,26 +2557,26 @@ objects:
   description: A silvery helmet is on the floor.
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AE
+  extra_flags: 1088
+  wear_flags: 17
+  level: 33
+  weight: 30
+  cost: 330
   values:
   - 9
   - 9
   - 9
   - 0
   - 0
-  level: 33
-  weight: 30
-  cost: 330
   affects:
-  - where: O
-    location: 12
-    modifier: 10
-    bitvector: '0'
   - where: O
     location: 4
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 12
+    modifier: 10
+    bitvector: 0
   extra_descs: []
 - vnum: 641
   name: leggings platinum
@@ -2643,26 +2584,26 @@ objects:
   description: Some silvery leggings are on the floor.
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AF
+  extra_flags: 1088
+  wear_flags: 33
+  level: 33
+  weight: 40
+  cost: 330
   values:
   - 9
   - 9
   - 9
   - 0
   - 0
-  level: 33
-  weight: 40
-  cost: 330
   affects:
-  - where: O
-    location: 13
-    modifier: 10
-    bitvector: '0'
   - where: O
     location: 2
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 10
+    bitvector: 0
   extra_descs: []
 - vnum: 642
   name: boots platinum
@@ -2670,26 +2611,26 @@ objects:
   description: Some silvery boots are on the floor.
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AG
+  extra_flags: 1088
+  wear_flags: 65
+  level: 33
+  weight: 40
+  cost: 330
   values:
   - 9
   - 9
   - 9
   - 0
   - 0
-  level: 33
-  weight: 40
-  cost: 330
   affects:
-  - where: O
-    location: 13
-    modifier: 10
-    bitvector: '0'
   - where: O
     location: 14
     modifier: 100
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 10
+    bitvector: 0
   extra_descs: []
 - vnum: 643
   name: gauntlets platinum
@@ -2697,26 +2638,26 @@ objects:
   description: A pair of silvery gauntlets are on the floor.
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AH
+  extra_flags: 1088
+  wear_flags: 129
+  level: 33
+  weight: 40
+  cost: 330
   values:
   - 9
   - 9
   - 9
   - 0
   - 0
-  level: 33
-  weight: 40
-  cost: 330
   affects:
-  - where: O
-    location: 13
-    modifier: 10
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 10
+    bitvector: 0
   extra_descs: []
 - vnum: 644
   name: sleeves platinum
@@ -2724,26 +2665,26 @@ objects:
   description: A pair of silvery sleeves are on the floor.
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AI
+  extra_flags: 1088
+  wear_flags: 257
+  level: 33
+  weight: 40
+  cost: 330
   values:
   - 9
   - 9
   - 9
   - 0
   - 0
-  level: 33
-  weight: 40
-  cost: 330
   affects:
-  - where: O
-    location: 13
-    modifier: 10
-    bitvector: '0'
   - where: O
     location: 1
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 10
+    bitvector: 0
   extra_descs: []
 - vnum: 645
   name: shield spiked platinum
@@ -2751,26 +2692,26 @@ objects:
   description: A jagged, silvery shield is on the floor.
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AJ
+  extra_flags: 1088
+  wear_flags: 513
+  level: 33
+  weight: 40
+  cost: 330
   values:
   - 9
   - 9
   - 9
   - 0
   - 0
-  level: 33
-  weight: 40
-  cost: 330
   affects:
-  - where: O
-    location: 13
-    modifier: 10
-    bitvector: '0'
   - where: O
     location: 19
     modifier: 3
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 10
+    bitvector: 0
   extra_descs: []
 - vnum: 646
   name: girth platinum
@@ -2778,26 +2719,26 @@ objects:
   description: A silvery girth is on the floor.
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AL
+  extra_flags: 1088
+  wear_flags: 2049
+  level: 33
+  weight: 40
+  cost: 330
   values:
   - 9
   - 9
   - 9
   - 0
   - 0
-  level: 33
-  weight: 40
-  cost: 330
   affects:
-  - where: O
-    location: 13
-    modifier: 10
-    bitvector: '0'
   - where: O
     location: 24
     modifier: -5
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 10
+    bitvector: 0
   extra_descs: []
 - vnum: 647
   name: avenger holy sword
@@ -2805,26 +2746,26 @@ objects:
   description: A glowing silvery sword is hovering here, ready to possess an owner.
   material: none
   item_type: 5
-  extra_flags: GK
-  wear_flags: AN
+  extra_flags: 1088
+  wear_flags: 8193
+  level: 33
+  weight: 25
+  cost: 330
   values:
   - 1
   - 5
   - 8
   - 1
   - 0
-  level: 33
-  weight: 25
-  cost: 330
   affects:
-  - where: O
-    location: 18
-    modifier: 1
-    bitvector: '0'
   - where: O
     location: 19
     modifier: 6
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: 0
   extra_descs: []
 - vnum: 648
   name: whiskey shot
@@ -2832,17 +2773,17 @@ objects:
   description: A shot of whiskey is on the table.
   material: none
   item_type: 17
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 1
+  cost: 0
   values:
   - 5
   - 5
   - 5
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 649
@@ -2851,17 +2792,17 @@ objects:
   description: A quart of ale is on the table.
   material: none
   item_type: 17
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 3
+  weight: 8
+  cost: 30
   values:
   - 50
   - 50
   - 3
   - 0
   - 0
-  level: 3
-  weight: 8
-  cost: 30
   affects: []
   extra_descs: []
 - vnum: 650
@@ -2870,17 +2811,17 @@ objects:
   description: A quart of port brew is on the table.
   material: none
   item_type: 17
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 8
+  cost: 0
   values:
   - 50
   - 50
   - 4
   - 0
   - 0
-  level: 0
-  weight: 8
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 651
@@ -2889,17 +2830,17 @@ objects:
   description: A key is on the floor.
   material: none
   item_type: 18
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 18
+  weight: 1
+  cost: 180
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 18
-  weight: 1
-  cost: 180
   affects: []
   extra_descs: []
 - vnum: 652
@@ -2908,26 +2849,26 @@ objects:
   description: A very shiny symbol is on the floor.
   material: none
   item_type: 9
-  extra_flags: GIKL
-  wear_flags: AC
+  extra_flags: 3392
+  wear_flags: 5
+  level: 30
+  weight: 5
+  cost: 300
   values:
   - 9
   - 9
   - 9
   - 0
   - 0
-  level: 30
-  weight: 5
-  cost: 300
   affects:
-  - where: O
-    location: 12
-    modifier: 10
-    bitvector: '0'
   - where: O
     location: 4
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 12
+    modifier: 10
+    bitvector: 0
   extra_descs: []
 - vnum: 653
   name: ranseur polearm
@@ -2935,26 +2876,26 @@ objects:
   description: A heavy polearm is against the wall here, ready to inflict damage.
   material: none
   item_type: 5
-  extra_flags: GK
-  wear_flags: AN
+  extra_flags: 1088
+  wear_flags: 8193
+  level: 27
+  weight: 20
+  cost: 270
   values:
   - 8
   - 5
   - 6
   - 2
   - 0
-  level: 27
-  weight: 20
-  cost: 270
   affects:
-  - where: O
-    location: 18
-    modifier: 5
-    bitvector: '0'
   - where: O
     location: 19
     modifier: -1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 5
+    bitvector: 0
   extra_descs: []
 - vnum: 654
   name: torso dragonscale golden
@@ -2962,26 +2903,26 @@ objects:
   description: A golden dragonscale torso is on the floor!
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AD
+  extra_flags: 1088
+  wear_flags: 9
+  level: 21
+  weight: 25
+  cost: 210
   values:
   - 7
   - 7
   - 7
   - 0
   - 0
-  level: 21
-  weight: 25
-  cost: 210
   affects:
-  - where: O
-    location: 17
-    modifier: -5
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: -5
+    bitvector: 0
   extra_descs: []
 - vnum: 655
   name: dragonhelm golden
@@ -2989,26 +2930,26 @@ objects:
   description: A golden dragonhelm is on the floor!
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AE
+  extra_flags: 1088
+  wear_flags: 17
+  level: 0
+  weight: 10
+  cost: 0
   values:
   - 3
   - 3
   - 3
   - 0
   - 0
-  level: 0
-  weight: 10
-  cost: 0
   affects:
-  - where: O
-    location: 17
-    modifier: -3
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: -3
+    bitvector: 0
   extra_descs: []
 - vnum: 656
   name: leggings golden
@@ -3016,26 +2957,26 @@ objects:
   description: Some golden dragonscale leggings are on the floor!
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AF
+  extra_flags: 1088
+  wear_flags: 33
+  level: 30
+  weight: 10
+  cost: 300
   values:
   - 9
   - 9
   - 9
   - 0
   - 0
-  level: 30
-  weight: 10
-  cost: 300
   affects:
-  - where: O
-    location: 17
-    modifier: -3
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: -3
+    bitvector: 0
   extra_descs: []
 - vnum: 657
   name: boots golden
@@ -3043,26 +2984,26 @@ objects:
   description: Some golden dragonscale boots are on the floor!
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AG
+  extra_flags: 1088
+  wear_flags: 65
+  level: 30
+  weight: 10
+  cost: 300
   values:
   - 9
   - 9
   - 9
   - 0
   - 0
-  level: 30
-  weight: 10
-  cost: 300
   affects:
-  - where: O
-    location: 17
-    modifier: -3
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: -3
+    bitvector: 0
   extra_descs: []
 - vnum: 658
   name: gauntlets golden
@@ -3070,26 +3011,26 @@ objects:
   description: Some golden dragonscale gauntlets are on the floor!
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AH
+  extra_flags: 1088
+  wear_flags: 129
+  level: 30
+  weight: 10
+  cost: 300
   values:
   - 9
   - 9
   - 9
   - 0
   - 0
-  level: 30
-  weight: 10
-  cost: 300
   affects:
-  - where: O
-    location: 17
-    modifier: -3
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: -3
+    bitvector: 0
   extra_descs: []
 - vnum: 659
   name: sleeves golden
@@ -3097,26 +3038,26 @@ objects:
   description: Some golden dragonscale sleeves are on the floor!
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AI
+  extra_flags: 1088
+  wear_flags: 257
+  level: 30
+  weight: 10
+  cost: 300
   values:
   - 9
   - 9
   - 9
   - 0
   - 0
-  level: 30
-  weight: 10
-  cost: 300
   affects:
-  - where: O
-    location: 17
-    modifier: -3
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: -3
+    bitvector: 0
   extra_descs: []
 - vnum: 660
   name: shield golden
@@ -3124,26 +3065,26 @@ objects:
   description: A golden dragonscale shield is on the floor!
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AJ
+  extra_flags: 1088
+  wear_flags: 513
+  level: 21
+  weight: 10
+  cost: 210
   values:
   - 7
   - 7
   - 7
   - 0
   - 0
-  level: 21
-  weight: 10
-  cost: 210
   affects:
-  - where: O
-    location: 17
-    modifier: -3
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: -3
+    bitvector: 0
   extra_descs: []
 - vnum: 661
   name: girth golden
@@ -3151,26 +3092,26 @@ objects:
   description: A golden dragonscale girth is on the floor!
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AL
+  extra_flags: 1088
+  wear_flags: 2049
+  level: 30
+  weight: 10
+  cost: 300
   values:
   - 9
   - 9
   - 9
   - 0
   - 0
-  level: 30
-  weight: 10
-  cost: 300
   affects:
-  - where: O
-    location: 17
-    modifier: -3
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: -3
+    bitvector: 0
   extra_descs: []
 - vnum: 662
   name: claw golden
@@ -3178,22 +3119,22 @@ objects:
   description: A huge golden claw is on the floor
   material: none
   item_type: 5
-  extra_flags: GK
-  wear_flags: AN
+  extra_flags: 1088
+  wear_flags: 8193
+  level: 21
+  weight: 20
+  cost: 210
   values:
   - 0
   - 5
   - 5
   - 5
   - 0
-  level: 21
-  weight: 20
-  cost: 210
   affects:
   - where: O
     location: 19
     modifier: 4
-    bitvector: '0'
+    bitvector: 0
   extra_descs: []
 - vnum: 663
   name: orb dragonorb
@@ -3201,26 +3142,26 @@ objects:
   description: A very large pearl-like sphere is in the center of this room.
   material: none
   item_type: 4
-  extra_flags: GKL
-  wear_flags: AO
+  extra_flags: 3136
+  wear_flags: 16385
+  level: 38
+  weight: 30
+  cost: 380
   values:
   - 14
   - 4
   - 4
-  - 28
+  - 51
   - 0
-  level: 38
-  weight: 30
-  cost: 380
   affects:
-  - where: O
-    location: 3
-    modifier: 1
-    bitvector: '0'
   - where: O
     location: 4
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 3
+    modifier: 1
+    bitvector: 0
   extra_descs: []
 - vnum: 664
   name: robe golden
@@ -3228,22 +3169,22 @@ objects:
   description: A golden robe is on the floor.
   material: none
   item_type: 9
-  extra_flags: GK
-  wear_flags: AK
+  extra_flags: 1088
+  wear_flags: 1025
+  level: 20
+  weight: 10
+  cost: 200
   values:
   - 7
   - 7
   - 7
   - 0
   - 0
-  level: 20
-  weight: 10
-  cost: 200
   affects:
   - where: O
     location: 3
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
   extra_descs: []
 - vnum: 665
   name: house key
@@ -3251,17 +3192,17 @@ objects:
   description: A house key is on the floor.
   material: none
   item_type: 18
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 5
+  weight: 1
+  cost: 50
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 5
-  weight: 1
-  cost: 50
   affects: []
   extra_descs: []
 - vnum: 666
@@ -3270,26 +3211,26 @@ objects:
   description: A broom is against the wall here.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 5
+  weight: 8
+  cost: 50
   values:
   - 0
   - 2
   - 6
   - 7
   - 0
-  level: 5
-  weight: 8
-  cost: 50
   affects:
-  - where: O
-    location: 18
-    modifier: 3
-    bitvector: '0'
   - where: O
     location: 19
     modifier: -3
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 3
+    bitvector: 0
   extra_descs: []
 - vnum: 667
   name: chest
@@ -3297,2649 +3238,2350 @@ objects:
   description: A chest is on the floor here.
   material: none
   item_type: 15
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 10
+  cost: 0
   values:
   - 100
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 10
-  cost: 0
   affects: []
   extra_descs: []
 rooms:
 - vnum: 600
   name: Granny's Still Room
-  description: |
-    You are in Granny Jenkins' still room.  The smell of whiskey is heady, and
-    the bottles of it on the floor make your mouth water and your mind swirl.  You
-    also see a very large still.  So THIS is why there are so many grain fields!
-    The exit is to the east.
-  room_flags: D
+  description: "You are in Granny Jenkins' still room.  The smell of whiskey is heady,
+    and\n\rthe bottles of it on the floor make your mouth water and your mind swirl.
+    \ You\n\ralso see a very large still.  So THIS is why there are so many grain
+    fields!\n\rThe exit is to the east.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see the storage shed.
+    desc: "You see the storage shed.\n\r"
     keywords: door
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 616
   extra_descs: []
 - vnum: 601
   name: The Big Intersection
-  description: "You are in the big intersection between Raff Way and Impy Way.  Crowds\
-    \ \nof people walk past you as they go on their daily tasks.  Raff Way continues\n\
-    east and west, and Impy Way runs north and south.\n"
-  room_flags: '0'
+  description: "You are in the big intersection between Raff Way and Impy Way.  Crowds
+    \n\rof people walk past you as they go on their daily tasks.  Raff Way continues\n\reast
+    and west, and Impy Way runs north and south.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      Impy Way continues north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Impy Way continues north.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 625
   - dir: 1
-    desc: |
-      Raff Way continues east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Raff Way continues east.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 666
   - dir: 2
-    desc: |
-      Impy Way continues south.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Impy Way continues south.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 602
   - dir: 3
-    desc: |
-      Raff Way continues west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Raff Way continues west.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5553
   extra_descs: []
 - vnum: 602
   name: Impy Way
-  description: |
-    You are on Impy Way.  You can see a leather shop east and a blacksmith
-    west.  To the north you see a big intersection, and Impy Way continues south.
-  room_flags: '0'
+  description: "You are on Impy Way.  You can see a leather shop east and a blacksmith\n\rwest.
+    \ To the north you see a big intersection, and Impy Way continues south.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the big intersection.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the big intersection.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 601
   - dir: 1
-    desc: |
-      You see the leather shop.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the leather shop.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 604
   - dir: 2
-    desc: |
-      Impy Way continues south.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Impy Way continues south.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 605
   - dir: 3
-    desc: |
-      You see the blacksmith.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the blacksmith.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 603
   extra_descs: []
 - vnum: 603
   name: The Blacksmith
-  description: "You are in a black and smelly room.  Pieces of metal are strewn all\
-    \ over\nthe floor, and a wave of heat from a big furnace hits you.  An anvil sits\
-    \ on \none side of the room, and on the other side is a workbench.  The exit is\
-    \ east.\n"
-  room_flags: D
+  description: "You are in a black and smelly room.  Pieces of metal are strewn all
+    over\n\rthe floor, and a wave of heat from a big furnace hits you.  An anvil sits
+    on \n\rone side of the room, and on the other side is a workbench.  The exit is
+    east.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see Impy Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see Impy Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 602
   extra_descs: []
 - vnum: 604
   name: The Leather Shop
-  description: |
-    You are in a brown and smelly room.  Pieces of leather are strewn all over
-    the floor.  The smell of burnt hide assaults your nose.  You can tell by the
-    looks that the tanning is done VERY CLOSE to here!   A table is near the
-    entrance.  The exit is west.
-  room_flags: D
+  description: "You are in a brown and smelly room.  Pieces of leather are strewn
+    all over\n\rthe floor.  The smell of burnt hide assaults your nose.  You can tell
+    by the\n\rlooks that the tanning is done VERY CLOSE to here!   A table is near
+    the\n\rentrance.  The exit is west.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: |
-      You see Impy Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see Impy Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 602
   extra_descs: []
 - vnum: 605
   name: Impy Way
-  description: |
-    You are on Impy Way.  To the east is a meat store, and to the west is a
-    pawn shop.  Impy Way continues north and south.  People are rushing around you
-    to go to these stores.
-  room_flags: '0'
+  description: "You are on Impy Way.  To the east is a meat store, and to the west
+    is a\n\rpawn shop.  Impy Way continues north and south.  People are rushing around
+    you\n\rto go to these stores.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      Impy Way continues North.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Impy Way continues North.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 602
   - dir: 1
-    desc: |
-      You see the Meat Store.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the Meat Store.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 607
   - dir: 2
-    desc: |
-      Impy Way continues south.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Impy Way continues south.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 608
   - dir: 3
-    desc: |
-      You see the Pawn Shop.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the Pawn Shop.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 606
   extra_descs: []
 - vnum: 606
   name: The Pawn Shop.
-  description: |
-    You are in a little shop filled with a lot of knick knacks and semi-
-    valuable goods.  There is a display case full of little treasures that you are
-    sure that you or any other little kid would like to touch!  The exit is east.
-  room_flags: D
+  description: "You are in a little shop filled with a lot of knick knacks and semi-\n\rvaluable
+    goods.  There is a display case full of little treasures that you are\n\rsure
+    that you or any other little kid would like to touch!  The exit is east.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see Impy Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see Impy Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 605
   extra_descs: []
 - vnum: 607
   name: The Meat Store
-  description: |
-    You are in a meat store.  Hanging on hooks are meats of many kinds of
-    animals.  In the background, you can hear the sound of blade against flesh.
-    It smells like meat here (which is not a good smell).  The exit is west.
-  room_flags: D
+  description: "You are in a meat store.  Hanging on hooks are meats of many kinds
+    of\n\ranimals.  In the background, you can hear the sound of blade against flesh.\n\rIt
+    smells like meat here (which is not a good smell).  The exit is west.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: |
-      You see Impy Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see Impy Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 605
   extra_descs: []
 - vnum: 608
   name: Impy Way
-  description: |
-    You are on Impy Way.  To the east is Farmer's Market, and to the west is
-    Nyles' House of Ale.  Impy Way runs north and ends south of here.  You can hear
-    the sound of housewives gossiping at the market.
-  room_flags: '0'
+  description: "You are on Impy Way.  To the east is Farmer's Market, and to the west
+    is\n\rNyles' House of Ale.  Impy Way runs north and ends south of here.  You can
+    hear\n\rthe sound of housewives gossiping at the market.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      Impy Way continues north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Impy Way continues north.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 605
   - dir: 1
-    desc: |
-      You see the Farmer's Market.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the Farmer's Market.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 610
   - dir: 2
-    desc: |
-      You see the end of Impy Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the end of Impy Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 611
   - dir: 3
-    desc: |
-      You see Nyles' House of Ale.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see Nyles' House of Ale.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 609
   extra_descs: []
 - vnum: 609
   name: Nyles' House of Ale
-  description: |
-    This is a very busy bar, with everyone holding homemade bottles of
-    ale.  You see even the more gentile persons here, laughing along with
-    Nyles, who offers you a quart of ale too.
-  room_flags: D
+  description: "This is a very busy bar, with everyone holding homemade bottles of\n\rale.
+    \ You see even the more gentile persons here, laughing along with\n\rNyles, who
+    offers you a quart of ale too.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see Impy Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see Impy Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 608
   extra_descs: []
 - vnum: 610
   name: Farmer's Market
-  description: "You see many carts filled with fruits and vegetables.  Many farmers\
-    \ are\ntrying to sell you their produce, each saying their's is better.  The exit\n\
-    is west.  \n"
-  room_flags: D
+  description: "You see many carts filled with fruits and vegetables.  Many farmers
+    are\n\rtrying to sell you their produce, each saying their's is better.  The exit\n\ris
+    west.  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: |
-      You see Impy Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see Impy Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 608
   extra_descs: []
 - vnum: 611
   name: The End of Impy Way
-  description: |
-    You are at the end of Impy and of the city part of Ofcol.  To the east is
-    a dirt road leading toward the farm animals.  West from here are fields.  Impy
-    Way continues north.
-  room_flags: '0'
+  description: "You are at the end of Impy and of the city part of Ofcol.  To the
+    east is\n\ra dirt road leading toward the farm animals.  West from here are fields.
+    \ Impy\n\rWay continues north.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      Impy Way continues north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Impy Way continues north.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 608
   - dir: 1
-    desc: |
-      You see the dirt road.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the dirt road.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 668
   - dir: 3
-    desc: |
-      You see the fields.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the fields.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 612
   extra_descs: []
 - vnum: 612
   name: Fields
-  description: "You are in a corn field.  You can't see far, since the corn stalks\
-    \ are\ntaller than you are.  You remember that the end of Impy Way is east of\
-    \ here, \nand you think you see a building to the north.  The field continues\
-    \ south and \nwest.\n"
-  room_flags: '0'
+  description: "You are in a corn field.  You can't see far, since the corn stalks
+    are\n\rtaller than you are.  You remember that the end of Impy Way is east of
+    here, \n\rand you think you see a building to the north.  The field continues
+    south and \n\rwest.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You think you see a building north of here.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You think you see a building north of here.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 616
   - dir: 1
-    desc: |
-      You remember that the end of Impy Way is east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You remember that the end of Impy Way is east.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 611
   - dir: 2
-    desc: |
-      You can make a path to the fields south.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You can make a path to the fields south.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 613
   - dir: 3
-    desc: |
-      You can make a path to the fields west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You can make a path to the fields west.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 615
   extra_descs: []
 - vnum: 613
   name: Fields
-  description: "You are among fruit trees in a field.  You see many apple and orange\
-    \ \ntrees.  You can make out the corn fields north and some vegetable patches\
-    \ west.\nThe sight of the fruit makes your mouth water.\n"
-  room_flags: '0'
+  description: "You are among fruit trees in a field.  You see many apple and orange
+    \n\rtrees.  You can make out the corn fields north and some vegetable patches
+    west.\n\rThe sight of the fruit makes your mouth water.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the corn fields.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the corn fields.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 612
   - dir: 3
-    desc: |
-      You see the vegetable fields.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the vegetable fields.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 614
   extra_descs: []
 - vnum: 614
   name: Fields
-  description: |
-    You are among the vegetable fields.  You see many cabbage and lettuce
-    patches, along with tomato bushes and potato plants.  To the east are some
-    fruit trees, and north are some wheat fields.
-  room_flags: '0'
+  description: "You are among the vegetable fields.  You see many cabbage and lettuce\n\rpatches,
+    along with tomato bushes and potato plants.  To the east are some\n\rfruit trees,
+    and north are some wheat fields.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the wheat fields.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the wheat fields.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 615
   - dir: 1
-    desc: |
-      You see the fruit trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the fruit trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 613
   extra_descs: []
 - vnum: 615
   name: Fields
-  description: |
-    You are among the wheat fields.  The gentle caress of the wheat and the
-    cool shadow from the tall stalks and scarecrow lulls you to sleep and dream
-    of a little girl and little dog from a faraway place.  To the east are the corn
-    stalks, and south of you are the vegetable patches.
-  room_flags: '0'
+  description: "You are among the wheat fields.  The gentle caress of the wheat and
+    the\n\rcool shadow from the tall stalks and scarecrow lulls you to sleep and dream\n\rof
+    a little girl and little dog from a faraway place.  To the east are the corn\n\rstalks,
+    and south of you are the vegetable patches.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see the corn fields.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the corn fields.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 612
   - dir: 2
-    desc: |
-      You see the vegetable patches.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the vegetable patches.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 614
   extra_descs: []
 - vnum: 616
   name: The Shed
-  description: |
-    You are in the storage shed.  Bales of wheat, corn and hay are piled
-    against the wall, and some vegetables are in carts.  You see a small door
-    on the west door.  The main exit is south.
-  room_flags: D
+  description: "You are in the storage shed.  Bales of wheat, corn and hay are piled\n\ragainst
+    the wall, and some vegetables are in carts.  You see a small door\n\ron the west
+    door.  The main exit is south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      You see the corn fields.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the corn fields.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 612
   - dir: 3
-    desc: |
-      You see the door.
+    desc: "You see the door.\n\r"
     keywords: door
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 600
   extra_descs: []
 - vnum: 617
   name: Slaughterhouse
-  description: |
-    You are in the slaughterhouse, where all the animals are slaughtered so
-    that they can be sold or their skins be tanned.  The scream of dying animals
-    makes your stomach churn.  The exit is to the west.
-  room_flags: D
+  description: "You are in the slaughterhouse, where all the animals are slaughtered
+    so\n\rthat they can be sold or their skins be tanned.  The scream of dying animals\n\rmakes
+    your stomach churn.  The exit is to the west.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: |
-      You see the dirt road.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the dirt road.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 668
   extra_descs: []
 - vnum: 618
   name: Dirt Road
-  description: |
-    You are on a dirt road.  To the east is a barn, and you see a big chicken
-    coop south of you.  The dirt road continues north and west.
-  room_flags: '0'
+  description: "You are on a dirt road.  To the east is a barn, and you see a big
+    chicken\n\rcoop south of you.  The dirt road continues north and west.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the dirt road.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the dirt road.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 668
   - dir: 1
-    desc: |
-      You see the barn.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the barn.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 620
   - dir: 2
-    desc: |
-      You see the chicken coop.
+    desc: "You see the chicken coop.\n\r"
     keywords: coop
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 619
   - dir: 3
-    desc: |
-      You see the dirt road.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the dirt road.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 621
   extra_descs: []
 - vnum: 619
   name: Chicken Coop
-  description: |
-    You are in the chicken coop.  The smell of chickens and chicken droppings
-    makes you gasp.  The exit is north.
-  room_flags: D
+  description: "You are in the chicken coop.  The smell of chickens and chicken droppings\n\rmakes
+    you gasp.  The exit is north.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You can sense the fresh air.
-    keywords: ''
-    exit_flags: A
+    desc: "You can sense the fresh air.\n\r"
+    keywords:
+    exit_flags: 7
     key: -1
     to_vnum: 618
   extra_descs: []
 - vnum: 620
   name: Barn
-  description: |
-    You are in a barn.  There are some cows here, munching on mounds of hay.
-    Milk is milked and bottled here.  You see the exit west.
-  room_flags: D
+  description: "You are in a barn.  There are some cows here, munching on mounds of
+    hay.\n\rMilk is milked and bottled here.  You see the exit west.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: |
-      You see the dirt road.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the dirt road.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 618
   extra_descs: []
 - vnum: 621
   name: Dirt Road
-  description: "You are on a dirt road.  To the north and south, you see some grass\
-    \ \nfields.  There is a pigsty west, and the dirt road continues east.\n"
-  room_flags: '0'
+  description: "You are on a dirt road.  To the north and south, you see some grass
+    \n\rfields.  There is a pigsty west, and the dirt road continues east.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see some grass fields.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see some grass fields.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 622
   - dir: 1
-    desc: |
-      You see the dirt road.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the dirt road.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 618
   - dir: 2
-    desc: |
-      You see some grass fields.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see some grass fields.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 623
   - dir: 3
-    desc: |
-      You see the pigsty.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the pigsty.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 624
   extra_descs: []
 - vnum: 622
   name: Grass Field
-  description: |
-    You are in a grass field.  Fences block the way north, east, and west.
-    The dirt road is to the south.
-  room_flags: '0'
+  description: "You are in a grass field.  Fences block the way north, east, and west.\n\rThe
+    dirt road is to the south.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      You see the dirt road.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the dirt road.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 621
   extra_descs: []
 - vnum: 623
   name: Grass Field
-  description: |
-    You are in a grass field.  Fences block the way south, east, and west.
-    The dirt road is to the north.
-  room_flags: '0'
+  description: "You are in a grass field.  Fences block the way south, east, and west.\n\rThe
+    dirt road is to the north.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the dirt road.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the dirt road.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 621
   extra_descs: []
 - vnum: 624
   name: Pig Sty
-  description: |
-    For some reason, you are in a pig sty.  You wonder why you are standing in
-    muck.  To realize your senses and notice the dirt road is to the east.
-  room_flags: '0'
+  description: "For some reason, you are in a pig sty.  You wonder why you are standing
+    in\n\rmuck.  To realize your senses and notice the dirt road is to the east.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see the dry dirt road.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the dry dirt road.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 621
   extra_descs: []
 - vnum: 625
   name: Impy Way
-  description: |
-    You are on Impy Way.  East and west of you are big houses.  Impy Way
-    continues north and reaches a big intersection south.  Children are running to
-    from home to home.
-  room_flags: '0'
+  description: "You are on Impy Way.  East and west of you are big houses.  Impy Way\n\rcontinues
+    north and reaches a big intersection south.  Children are running to\n\rfrom home
+    to home.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      Impy Way continues north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Impy Way continues north.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 632
   - dir: 1
-    desc: |
-      You see a big house.
+    desc: "You see a big house.\n\r"
     keywords: door
-    exit_flags: AC
+    exit_flags: 15
     key: 665
     to_vnum: 626
   - dir: 2
-    desc: |
-      You see a big intersection.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a big intersection.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 601
   - dir: 3
-    desc: |
-      You see a big house.
+    desc: "You see a big house.\n\r"
     keywords: door
-    exit_flags: AC
+    exit_flags: 15
     key: 665
     to_vnum: 629
   extra_descs: []
 - vnum: 626
   name: Big House
-  description: |
-    You are in a big house.  Evidently, the owners of this house are richer
-    than the average citizen, since there is more than one room to this house.  A
-    door leads to the kitchen east, and a bedroom is upstairs.  The exit is to the
-    west.
-  room_flags: D
+  description: "You are in a big house.  Evidently, the owners of this house are richer\n\rthan
+    the average citizen, since there is more than one room to this house.  A\n\rdoor
+    leads to the kitchen east, and a bedroom is upstairs.  The exit is to the\n\rwest.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see the kitchen.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the kitchen.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 628
   - dir: 3
-    desc: |
-      You see Impy Way.
+    desc: "You see Impy Way.\n\r"
     keywords: door
-    exit_flags: AC
+    exit_flags: 15
     key: 665
     to_vnum: 625
   - dir: 4
-    desc: |
-      You see the bedroom.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the bedroom.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 627
   extra_descs: []
 - vnum: 627
   name: Bedroom
-  description: |
-    You are in the bedroom.  There isn't much of interest except for a bed and
-    a closet.  The stairs lead back down.
-  room_flags: D
+  description: "You are in the bedroom.  There isn't much of interest except for a
+    bed and\n\ra closet.  The stairs lead back down.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 5
-    desc: |
-      You see the main room of the house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the main room of the house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 626
   extra_descs: []
 - vnum: 628
   name: Kitchen
-  description: |
-    You are in a kitchen.  There isn't much of interest here.  The main room
-    is west of here.
-  room_flags: D
+  description: "You are in a kitchen.  There isn't much of interest here.  The main
+    room\n\ris west of here.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: |
-      You see the main room of the house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the main room of the house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 626
   extra_descs: []
 - vnum: 629
   name: Big House
-  description: |
-    You are in a big house.  Evidently, the owners of this house are richer
-    than the average citizen, since there is more than one room to this house.  A
-    door leads to the kitchen west, and a bedroom is upstairs.  The exit is to the
-    east.
-  room_flags: D
+  description: "You are in a big house.  Evidently, the owners of this house are richer\n\rthan
+    the average citizen, since there is more than one room to this house.  A\n\rdoor
+    leads to the kitchen west, and a bedroom is upstairs.  The exit is to the\n\reast.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see Impy Way.
+    desc: "You see Impy Way.\n\r"
     keywords: door
-    exit_flags: AC
+    exit_flags: 15
     key: 665
     to_vnum: 625
   - dir: 3
-    desc: |
-      You see the kitchen.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the kitchen.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 631
   - dir: 4
-    desc: |
-      You see the bedroom.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the bedroom.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 630
   extra_descs: []
 - vnum: 630
   name: Bedroom
-  description: |
-    You are in the bedroom.  There isn't much of interest except for a bed and
-    a closet.  The stairs lead back down.
-  room_flags: D
+  description: "You are in the bedroom.  There isn't much of interest except for a
+    bed and\n\ra closet.  The stairs lead back down.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 5
-    desc: |
-      You see the main room of the house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the main room of the house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 629
   extra_descs: []
 - vnum: 631
   name: Kitchen
-  description: |
-    You are in a kitchen.  There isn't much of interest here.  The main room
-    is east of here.
-  room_flags: D
+  description: "You are in a kitchen.  There isn't much of interest here.  The main
+    room\n\ris east of here.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see the main room of the house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the main room of the house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 629
   extra_descs: []
 - vnum: 632
   name: Impy Way
-  description: |
-    You are on Impy Way.  Houses are to the east and west of here.  Impy Way
-    continues north and south.  There are many people walking along the streets.
-  room_flags: '0'
+  description: "You are on Impy Way.  Houses are to the east and west of here.  Impy
+    Way\n\rcontinues north and south.  There are many people walking along the streets.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      Impy Way continues north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Impy Way continues north.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 637
   - dir: 1
-    desc: |
-      You see a house.
+    desc: "You see a house.\n\r"
     keywords: door
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 633
   - dir: 2
-    desc: |
-      Impy Way continues south.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Impy Way continues south.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 625
   - dir: 3
-    desc: |
-      You see a house.
+    desc: "You see a house.\n\r"
     keywords: door
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 635
   extra_descs: []
 - vnum: 633
   name: House
-  description: |
-    You are in a house.  The living room and kitchen are all bundled into
-    this room.  There is a bedroom south of here.  The exit is west.
-  room_flags: D
+  description: "You are in a house.  The living room and kitchen are all bundled into\n\rthis
+    room.  There is a bedroom south of here.  The exit is west.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      You see the bedroom.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the bedroom.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 634
   - dir: 3
-    desc: |
-      You see Impy Way.
+    desc: "You see Impy Way.\n\r"
     keywords: door
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 632
   extra_descs: []
 - vnum: 634
   name: Bedroom
-  description: |
-    You are in a bedroom.  There isn't much of interest here except for a bed
-    and a dresser.  The main room of the house is north of here.
-  room_flags: D
+  description: "You are in a bedroom.  There isn't much of interest here except for
+    a bed\n\rand a dresser.  The main room of the house is north of here.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the main room of the house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the main room of the house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 633
   extra_descs: []
 - vnum: 635
   name: House
-  description: |
-    You are in a house.  The living room and kitchen are all bundled into
-    this room.  There is a bedroom south of here.  The exit is east.
-  room_flags: D
+  description: "You are in a house.  The living room and kitchen are all bundled into\n\rthis
+    room.  There is a bedroom south of here.  The exit is east.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see Impy Way.
+    desc: "You see Impy Way.\n\r"
     keywords: door
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 632
   - dir: 2
-    desc: |
-      You see the bedroom.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the bedroom.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 636
   extra_descs: []
 - vnum: 636
   name: Bedroom
-  description: |
-    You are in a bedroom.  There isn't much of interest here except for a bed
-    and a dresser.  The main room of the house is north of here.
-  room_flags: D
+  description: "You are in a bedroom.  There isn't much of interest here except for
+    a bed\n\rand a dresser.  The main room of the house is north of here.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the main room of the house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the main room of the house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 635
   extra_descs: []
 - vnum: 637
   name: Impy Way
-  description: |
-    You are on Impy Way.  Houses are to the east and west of here.  Impy Way
-    continues south.  To the north is a big intersection.  There are many people
-    walking along the streets.
-  room_flags: '0'
+  description: "You are on Impy Way.  Houses are to the east and west of here.  Impy
+    Way\n\rcontinues south.  To the north is a big intersection.  There are many people\n\rwalking
+    along the streets.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see a big intersection.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a big intersection.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 642
   - dir: 1
-    desc: |
-      You see a house.
+    desc: "You see a house.\n\r"
     keywords: door
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 638
   - dir: 2
-    desc: |
-      Impy Way continues south.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Impy Way continues south.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 632
   - dir: 3
-    desc: |
-      You see a house.
+    desc: "You see a house.\n\r"
     keywords: door
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 640
   extra_descs: []
 - vnum: 638
   name: House
-  description: |
-    You are in a house.  The living room and kitchen are all bundled into
-    this room.  There is a bedroom south of here.  The exit is west.
-  room_flags: D
+  description: "You are in a house.  The living room and kitchen are all bundled into\n\rthis
+    room.  There is a bedroom south of here.  The exit is west.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      You see the bedroom.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the bedroom.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 639
   - dir: 3
-    desc: |
-      You see Impy Way.
+    desc: "You see Impy Way.\n\r"
     keywords: door
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 637
   extra_descs: []
 - vnum: 639
   name: Bedroom
-  description: |
-    You are in a bedroom.  There isn't much of interest here except for a bed
-    and a dresser.  The main room of the house is north of here.
-  room_flags: D
+  description: "You are in a bedroom.  There isn't much of interest here except for
+    a bed\n\rand a dresser.  The main room of the house is north of here.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the main room of the house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the main room of the house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 638
   extra_descs: []
 - vnum: 640
   name: House
-  description: |
-    You are in a house.  The living room and kitchen are all bundled into
-    this room.  There is a bedroom south of here.  The exit is east.
-  room_flags: D
+  description: "You are in a house.  The living room and kitchen are all bundled into\n\rthis
+    room.  There is a bedroom south of here.  The exit is east.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see Impy Way.
+    desc: "You see Impy Way.\n\r"
     keywords: door
-    exit_flags: A
+    exit_flags: 7
     key: -1
     to_vnum: 637
   - dir: 2
-    desc: |
-      You see the bedroom.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the bedroom.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 641
   extra_descs: []
 - vnum: 641
   name: Bedroom
-  description: |
-    You are in a bedroom.  There isn't much of interest here except for a bed
-    and a dresser.  The main room of the house is north of here.
-  room_flags: D
+  description: "You are in a bedroom.  There isn't much of interest here except for
+    a bed\n\rand a dresser.  The main room of the house is north of here.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the main room of the house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the main room of the house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 640
   extra_descs: []
 - vnum: 642
   name: The Big Intersection
-  description: |
-    You are on the intersection of Impy Way and Swiftest Way.  To the north of
-    you is a big house.  Swiftest Way runs east and west, and Impy way continues
-    south.  There are quite a few people on this intersection.
-  room_flags: '0'
+  description: "You are on the intersection of Impy Way and Swiftest Way.  To the
+    north of\n\ryou is a big house.  Swiftest Way runs east and west, and Impy way
+    continues\n\rsouth.  There are quite a few people on this intersection.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the big house.
+    desc: "You see the big house.\n\r"
     keywords: door
-    exit_flags: AC
+    exit_flags: 15
     key: 665
     to_vnum: 643
   - dir: 1
-    desc: |
-      Swiftest Way continues east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Swiftest Way continues east.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 646
   - dir: 2
-    desc: |
-      Impy Way continues south.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Impy Way continues south.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 637
   - dir: 3
-    desc: |
-      Swiftest Way continues west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Swiftest Way continues west.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 649
   extra_descs: []
 - vnum: 643
   name: Big House
-  description: "You are in a big house.  Evidently, the owners of this house are richer\n\
-    than the average citizen, since there is more than one room to this house.  A\n\
-    door leads to the kitchen north, and a bedroom is upstairs.  The exit is to \n\
-    the south.\n"
-  room_flags: D
+  description: "You are in a big house.  Evidently, the owners of this house are richer\n\rthan
+    the average citizen, since there is more than one room to this house.  A\n\rdoor
+    leads to the kitchen north, and a bedroom is upstairs.  The exit is to \n\rthe
+    south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the kitchen.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the kitchen.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 645
   - dir: 2
-    desc: |
-      You see Impy Way.
+    desc: "You see Impy Way.\n\r"
     keywords: door
-    exit_flags: AC
+    exit_flags: 15
     key: 665
     to_vnum: 642
   - dir: 4
-    desc: |
-      You see the bedroom.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the bedroom.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 644
   extra_descs: []
 - vnum: 644
   name: Bedroom
-  description: "You are in the bedroom.  There isn't much of interest except for a\
-    \ bed \nand a closet.  The stairs lead back down.\n"
-  room_flags: D
+  description: "You are in the bedroom.  There isn't much of interest except for a
+    bed \n\rand a closet.  The stairs lead back down.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 5
-    desc: |
-      You see the main room of the house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the main room of the house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 643
   extra_descs: []
 - vnum: 645
   name: Kitchen
-  description: |
-    You are in a kitchen.  There isn't much of interest here.  The main room
-    is east of here.
-  room_flags: D
+  description: "You are in a kitchen.  There isn't much of interest here.  The main
+    room\n\ris east of here.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      You see the main room of the house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the main room of the house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 643
   extra_descs: []
 - vnum: 646
   name: Swiftest Way
-  description: |
-    You are on Swiftest Way, the commoner's residential area.  Small houses
-    are north and south of you.  Swiftest Way continues east, and west is a big
-    intersection.
-  room_flags: '0'
+  description: "You are on Swiftest Way, the commoner's residential area.  Small houses\n\rare
+    north and south of you.  Swiftest Way continues east, and west is a big\n\rintersection.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see a small house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a small house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 652
   - dir: 1
-    desc: |
-      Swiftest Way continues east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Swiftest Way continues east.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 647
   - dir: 2
-    desc: |
-      You see a small house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a small house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 653
   - dir: 3
-    desc: |
-      You see a big intersection.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a big intersection.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 642
   extra_descs: []
 - vnum: 647
   name: Swiftest Way
-  description: |
-    You are on Swiftest Way, the commoner's residential area.  Small houses
-    are north and south of you.  Swiftest Way continues east and west.
-  room_flags: '0'
+  description: "You are on Swiftest Way, the commoner's residential area.  Small houses\n\rare
+    north and south of you.  Swiftest Way continues east and west.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see a small house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a small house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 654
   - dir: 1
-    desc: |
-      You see the end of Swiftest Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the end of Swiftest Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 648
   - dir: 2
-    desc: |
-      You see a small house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a small house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 655
   - dir: 3
-    desc: |
-      Swiftest Way continues west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Swiftest Way continues west.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 646
   extra_descs: []
 - vnum: 648
   name: End of Swiftest Way
-  description: |
-    You are on Swiftest Way, the commoner's residential area.  Small houses
-    are north, south, and east of you.  Swiftest Way continues west.
-  room_flags: '0'
+  description: "You are on Swiftest Way, the commoner's residential area.  Small houses\n\rare
+    north, south, and east of you.  Swiftest Way continues west.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see a small house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a small house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 656
   - dir: 1
-    desc: |
-      You see a small house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a small house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 657
   - dir: 2
-    desc: |
-      You see a small house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a small house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 658
   - dir: 3
-    desc: |
-      Swiftest Way continues west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Swiftest Way continues west.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 647
   extra_descs: []
 - vnum: 649
   name: Swiftest Way
-  description: |
-    You are on Swiftest Way, the commoner's residential area.  Small houses
-    are north and south of you.  Swiftest Way continues west, and to the east you
-    see a big intersection.
-  room_flags: '0'
+  description: "You are on Swiftest Way, the commoner's residential area.  Small houses\n\rare
+    north and south of you.  Swiftest Way continues west, and to the east you\n\rsee
+    a big intersection.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see a small house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a small house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 659
   - dir: 1
-    desc: |
-      You see the big intersection.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the big intersection.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 642
   - dir: 2
-    desc: |
-      You see a small house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a small house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 660
   - dir: 3
-    desc: |
-      Swiftest Way continues west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Swiftest Way continues west.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 650
   extra_descs: []
 - vnum: 650
   name: Swiftest Way
-  description: |
-    You are on Swiftest Way, the commoner's residential area.  Small houses
-    are north and south of you.  Swiftest Way continues east and west.
-  room_flags: '0'
+  description: "You are on Swiftest Way, the commoner's residential area.  Small houses\n\rare
+    north and south of you.  Swiftest Way continues east and west.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see a small house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a small house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 661
   - dir: 1
-    desc: |
-      Swiftest Way continues east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Swiftest Way continues east.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 649
   - dir: 2
-    desc: |
-      You see a small house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a small house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 662
   - dir: 3
-    desc: |
-      You see the end of Swiftest Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the end of Swiftest Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 651
   extra_descs: []
 - vnum: 651
   name: The end of Swiftest Way
-  description: |
-    You are on Swiftest Way, the commoner's residential area.  Small houses
-    are north, south, and west of you.  Swiftest Way continues east.
-  room_flags: '0'
+  description: "You are on Swiftest Way, the commoner's residential area.  Small houses\n\rare
+    north, south, and west of you.  Swiftest Way continues east.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see a small house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a small house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 663
   - dir: 1
-    desc: |
-      Swiftest Way continues east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Swiftest Way continues east.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 650
   - dir: 2
-    desc: |
-      You see a small house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a small house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 664
   - dir: 3
-    desc: |
-      You see a small house.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a small house.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 665
   extra_descs: []
 - vnum: 652
   name: Small House
-  description: |
-    You are in a small house, owned by a commoner of Ofcol.  There isn't much
-    of value here to you, but you'd bet that the owner really cherishes the pile
-    of stuff here.  The exit is to the south.
-  room_flags: D
+  description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
+    much\n\rof value here to you, but you'd bet that the owner really cherishes the
+    pile\n\rof stuff here.  The exit is to the south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      You see Swiftest Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see Swiftest Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 646
   extra_descs: []
 - vnum: 653
   name: Small House
-  description: |
-    You are in a small house, owned by a commoner of Ofcol.  There isn't much
-    of value here to you, but you'd bet that the owner really cherishes the pile
-    of stuff here.  The exit is to the north.
-  room_flags: D
+  description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
+    much\n\rof value here to you, but you'd bet that the owner really cherishes the
+    pile\n\rof stuff here.  The exit is to the north.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see Swiftest Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see Swiftest Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 646
   extra_descs: []
 - vnum: 654
   name: Small House
-  description: |
-    You are in a small house, owned by a commoner of Ofcol.  There isn't much
-    of value here to you, but you'd bet that the owner really cherishes the pile
-    of stuff here.  The exit is to the south.
-  room_flags: D
+  description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
+    much\n\rof value here to you, but you'd bet that the owner really cherishes the
+    pile\n\rof stuff here.  The exit is to the south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      You see Swiftest Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see Swiftest Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 647
   extra_descs: []
 - vnum: 655
   name: Small House
-  description: |
-    You are in a small house, owned by a commoner of Ofcol.  There isn't much
-    of value here to you, but you'd bet that the owner really cherishes the pile
-    of stuff here.  The exit is to the north.
-  room_flags: D
+  description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
+    much\n\rof value here to you, but you'd bet that the owner really cherishes the
+    pile\n\rof stuff here.  The exit is to the north.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see Swiftest Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see Swiftest Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 647
   extra_descs: []
 - vnum: 656
   name: Small House
-  description: |
-    You are in a small house, owned by a commoner of Ofcol.  There isn't much
-    of value here to you, but you'd bet that the owner really cherishes the pile
-    of stuff here.  The exit is to the south.
-  room_flags: D
+  description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
+    much\n\rof value here to you, but you'd bet that the owner really cherishes the
+    pile\n\rof stuff here.  The exit is to the south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      You see the end of Swiftest Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the end of Swiftest Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 648
   extra_descs: []
 - vnum: 657
   name: Small House
-  description: |
-    You are in a small house, owned by a commoner of Ofcol.  There isn't much
-    of value here to you, but you'd bet that the owner really cherishes the pile
-    of stuff here.  The exit is to the west.
-  room_flags: D
+  description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
+    much\n\rof value here to you, but you'd bet that the owner really cherishes the
+    pile\n\rof stuff here.  The exit is to the west.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: |
-      You see the end of Swiftest Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the end of Swiftest Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 648
   extra_descs: []
 - vnum: 658
   name: Small House
-  description: |
-    You are in a small house, owned by a commoner of Ofcol.  There isn't much
-    of value here to you, but you'd bet that the owner really cherishes the pile
-    of stuff here.  The exit is to the north.
-  room_flags: D
+  description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
+    much\n\rof value here to you, but you'd bet that the owner really cherishes the
+    pile\n\rof stuff here.  The exit is to the north.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the end of Swiftest Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the end of Swiftest Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 648
   extra_descs: []
 - vnum: 659
   name: Small House
-  description: |
-    You are in a small house, owned by a commoner of Ofcol.  There isn't much
-    of value here to you, but you'd bet that the owner really cherishes the pile
-    of stuff here.  The exit is to the south.
-  room_flags: D
+  description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
+    much\n\rof value here to you, but you'd bet that the owner really cherishes the
+    pile\n\rof stuff here.  The exit is to the south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      You see Swiftest Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see Swiftest Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 649
   extra_descs: []
 - vnum: 660
   name: Small House
-  description: |
-    You are in a small house, owned by a commoner of Ofcol.  There isn't much
-    of value here to you, but you'd bet that the owner really cherishes the pile
-    of stuff here.  The exit is to the north.
-  room_flags: D
+  description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
+    much\n\rof value here to you, but you'd bet that the owner really cherishes the
+    pile\n\rof stuff here.  The exit is to the north.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see Swiftest Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see Swiftest Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 649
   extra_descs: []
 - vnum: 661
   name: Small House
-  description: |
-    You are in a small house, owned by a commoner of Ofcol.  There isn't much
-    of value here to you, but you'd bet that the owner really cherishes the pile
-    of stuff here.  The exit is to the south.
-  room_flags: D
+  description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
+    much\n\rof value here to you, but you'd bet that the owner really cherishes the
+    pile\n\rof stuff here.  The exit is to the south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      You see Swiftest Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see Swiftest Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 650
   extra_descs: []
 - vnum: 662
   name: Small House
-  description: |
-    You are in a small house, owned by a commoner of Ofcol.  There isn't much
-    of value here to you, but you'd bet that the owner really cherishes the pile
-    of stuff here.  The exit is to the north.
-  room_flags: D
+  description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
+    much\n\rof value here to you, but you'd bet that the owner really cherishes the
+    pile\n\rof stuff here.  The exit is to the north.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see Swiftest Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see Swiftest Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 650
   extra_descs: []
 - vnum: 663
   name: Small House
-  description: |
-    You are in a small house, owned by a commoner of Ofcol.  There isn't much
-    of value here to you, but you'd bet that the owner really cherishes the pile
-    of stuff here.  The exit is to the south.
-  room_flags: D
+  description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
+    much\n\rof value here to you, but you'd bet that the owner really cherishes the
+    pile\n\rof stuff here.  The exit is to the south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      You see the end of Swiftest Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the end of Swiftest Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 651
   extra_descs: []
 - vnum: 664
   name: Small House
-  description: |
-    You are in a small house, owned by a commoner of Ofcol.  There isn't much
-    of value here to you, but you'd bet that the owner really cherishes the pile
-    of stuff here.  The exit is to the north.
-  room_flags: D
+  description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
+    much\n\rof value here to you, but you'd bet that the owner really cherishes the
+    pile\n\rof stuff here.  The exit is to the north.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the end of Swiftest Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the end of Swiftest Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 651
   extra_descs: []
 - vnum: 665
   name: Small House
-  description: |
-    You are in a small house, owned by a commoner of Ofcol.  There isn't much
-    of value here to you, but you'd bet that the owner really cherishes the pile
-    of stuff here.  The exit is to the east.
-  room_flags: D
+  description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
+    much\n\rof value here to you, but you'd bet that the owner really cherishes the
+    pile\n\rof stuff here.  The exit is to the east.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see the end of Swiftest Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the end of Swiftest Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 651
   extra_descs: []
 - vnum: 666
   name: Raff Way
-  description: "You are on Raff Way.  To the west, you can see a big intersection.\
-    \  To \nthe east, you see Raff Way continue toward the Golden Citadel.  There\
-    \ are \nbeautiful flowers growing along the road here, making this more of a garden\n\
-    than a road.\n"
-  room_flags: '0'
+  description: "You are on Raff Way.  To the west, you can see a big intersection.
+    \ To \n\rthe east, you see Raff Way continue toward the Golden Citadel.  There
+    are \n\rbeautiful flowers growing along the road here, making this more of a garden\n\rthan
+    a road.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      Raff Way continues east.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Raff Way continues east.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 667
   - dir: 3
-    desc: |
-      You see the big intersection.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the big intersection.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 601
   extra_descs: []
 - vnum: 667
   name: Raff Way
-  description: "You are on Raff Way.  Raff Way continues west to the city of Ofcol.\
-    \  To \nthe east, you see Raff Way continue toward the Golden Citadel.  There\
-    \ are \nbeautiful flowers growing along the road here, making this more of a garden\n\
-    than a road.\n"
-  room_flags: '0'
+  description: "You are on Raff Way.  Raff Way continues west to the city of Ofcol.
+    \ To \n\rthe east, you see Raff Way continue toward the Golden Citadel.  There
+    are \n\rbeautiful flowers growing along the road here, making this more of a garden\n\rthan
+    a road.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see the entrance of the Golden Citadel.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the entrance of the Golden Citadel.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 699
   - dir: 3
-    desc: |
-      Raff Way continues west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Raff Way continues west.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 666
   extra_descs: []
 - vnum: 668
   name: Dirt Road
-  description: |
-    You are on a dirt road.  To the east is a large building with a bad smell
-    emanating from it.  To the west is the end of Impy Way, and this road continues
-    south.
-  room_flags: '0'
+  description: "You are on a dirt road.  To the east is a large building with a bad
+    smell\n\remanating from it.  To the west is the end of Impy Way, and this road
+    continues\n\rsouth.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see the large building with the bad smell.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the large building with the bad smell.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 617
   - dir: 2
-    desc: |
-      The dirt road continues south.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The dirt road continues south.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 618
   - dir: 3
-    desc: |
-      You see the end of Impy Way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the end of Impy Way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 611
   extra_descs: []
 - vnum: 669
   name: The Temple of Ofcol
-  description: |
-    You are in the Temple of Ofcol.  Golden tiles cover the floor, and solid
-    gold columns reach the twelve foot ceiling of this vast chamber.  Servants in
-    golden livery wander this place, making even the raggiest messenger boy look
-    richer than you are.  Exits lead to the anterooms in the cardinal directions.
-  room_flags: D
+  description: "You are in the Temple of Ofcol.  Golden tiles cover the floor, and
+    solid\n\rgold columns reach the twelve foot ceiling of this vast chamber.  Servants
+    in\n\rgolden livery wander this place, making even the raggiest messenger boy
+    look\n\rricher than you are.  Exits lead to the anterooms in the cardinal directions.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 670
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 672
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 673
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 671
   extra_descs: []
 - vnum: 670
   name: The Anteroom to the Temple of Ofcol
-  description: |
-    You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the
-    floor, and servants in golden livery pass you by peaceably.  The temple is to
-    the south, and to the north is a hallway.  A stairways leads up.
-  room_flags: D
+  description: "You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the\n\rfloor,
+    and servants in golden livery pass you by peaceably.  The temple is to\n\rthe
+    south, and to the north is a hallway.  A stairways leads up.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 675
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 669
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 686
   extra_descs: []
 - vnum: 671
   name: The Anteroom to the Temple of Ofcol
-  description: |
-    You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the
-    floor, and servants in golden livery pass you by peaceably.  The temple is to
-    the east, and to the west is a hallway.  A stairways leads up.
-  room_flags: D
+  description: "You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the\n\rfloor,
+    and servants in golden livery pass you by peaceably.  The temple is to\n\rthe
+    east, and to the west is a hallway.  A stairways leads up.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 669
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 679
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 687
   extra_descs: []
 - vnum: 672
   name: The Anteroom to the Temple of Ofcol
-  description: |
-    You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the
-    floor, and servants in golden livery pass you by peaceably.  The temple is to
-    the west, and to the east is a hallway.  A stairways leads up.
-  room_flags: D
+  description: "You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the\n\rfloor,
+    and servants in golden livery pass you by peaceably.  The temple is to\n\rthe
+    west, and to the east is a hallway.  A stairways leads up.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 680
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 669
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 689
   extra_descs: []
 - vnum: 673
   name: The Anteroom to the Temple of Ofcol
-  description: |
-    You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the
-    floor, and servants in golden livery pass you by peaceably.  The temple is to
-    the north, and to the south is a hallway.  A stairways leads up.
-  room_flags: D
+  description: "You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the\n\rfloor,
+    and servants in golden livery pass you by peaceably.  The temple is to\n\rthe
+    north, and to the south is a hallway.  A stairways leads up.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 669
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 684
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 690
   extra_descs: []
 - vnum: 674
   name: A Hallway of the Golden Citadel
-  description: |
-    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
-    and rich golden tapestries drape the walls.  Servants in golden livery pass you
-    by peaceably.  Exits lead east and south.
-  room_flags: D
+  description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
+    floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
+    pass you\n\rby peaceably.  Exits lead east and south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 675
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 677
   extra_descs: []
 - vnum: 675
   name: A Hallway of the Golden Citadel
-  description: |
-    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
-    and rich golden tapestries drape the walls.  Servants in golden livery pass you
-    by peaceably.  Exits lead east, west, and south.
-  room_flags: D
+  description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
+    floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
+    pass you\n\rby peaceably.  Exits lead east, west, and south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 676
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 670
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 674
   extra_descs: []
 - vnum: 676
   name: A Hallway of the Golden Citadel
-  description: |
-    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
-    and rich golden tapestries drape the walls.  Servants in golden livery pass you
-    by peaceably.  Exits lead west and south.
-  room_flags: D
+  description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
+    floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
+    pass you\n\rby peaceably.  Exits lead west and south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 678
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 675
   extra_descs: []
 - vnum: 677
   name: A Hallway of the Golden Citadel
-  description: |
-    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
-    and rich golden tapestries drape the walls.  Servants in golden livery pass you
-    by peaceably.  Exits lead north and south.
-  room_flags: D
+  description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
+    floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
+    pass you\n\rby peaceably.  Exits lead north and south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 674
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 679
   extra_descs: []
 - vnum: 678
   name: A Hallway of the Golden Citadel
-  description: |
-    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
-    and rich golden tapestries drape the walls.  Servants in golden livery pass you
-    by peaceably.  Exits lead north and south.
-  room_flags: D
+  description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
+    floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
+    pass you\n\rby peaceably.  Exits lead north and south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 676
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 680
   extra_descs: []
 - vnum: 679
   name: A Hallway of the Golden Citadel
-  description: |
-    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
-    and rich golden tapestries drape the walls.  Servants in golden livery pass you
-    by peaceably.  Exits lead to the cardinal directions, with the east leading
-    toward the Temple of Ofcol, and west leading toward the City of Ofcol.
-  room_flags: D
+  description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
+    floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
+    pass you\n\rby peaceably.  Exits lead to the cardinal directions, with the east
+    leading\n\rtoward the Temple of Ofcol, and west leading toward the City of Ofcol.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 677
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 671
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 681
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 698
   extra_descs: []
 - vnum: 680
   name: A Hallway of the Golden Citadel
-  description: |
-    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
-    and rich golden tapestries drape the walls.  Servants in golden livery pass you
-    by peaceably.  Exits lead west, north and south.
-  room_flags: D
+  description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
+    floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
+    pass you\n\rby peaceably.  Exits lead west, north and south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 678
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 682
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 672
   extra_descs: []
 - vnum: 681
   name: A Hallway of the Golden Citadel
-  description: |
-    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
-    and rich golden tapestries drape the walls.  Servants in golden livery pass you
-    by peaceably.  Exits lead north and south.
-  room_flags: D
+  description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
+    floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
+    pass you\n\rby peaceably.  Exits lead north and south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 679
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 683
   extra_descs: []
 - vnum: 682
   name: A Hallway of the Golden Citadel
-  description: |
-    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
-    and rich golden tapestries drape the walls.  Servants in golden livery pass you
-    by peaceably.  Exits lead north and south.
-  room_flags: D
+  description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
+    floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
+    pass you\n\rby peaceably.  Exits lead north and south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 680
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 685
   extra_descs: []
 - vnum: 683
   name: A Hallway of the Golden Citadel
-  description: |
-    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
-    and rich golden tapestries drape the walls.  Servants in golden livery pass you
-    by peaceably.  Exits lead north and east.
-  room_flags: D
+  description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
+    floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
+    pass you\n\rby peaceably.  Exits lead north and east.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 681
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 684
   extra_descs: []
 - vnum: 684
   name: A Hallway of the Golden Citadel
-  description: |
-    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
-    and rich golden tapestries drape the walls.  Servants in golden livery pass you
-    by peaceably.  Exits lead east, west, and north.
-  room_flags: D
+  description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
+    floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
+    pass you\n\rby peaceably.  Exits lead east, west, and north.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 673
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 685
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 683
   extra_descs: []
 - vnum: 685
   name: A Hallway of the Golden Citadel
-  description: |
-    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
-    and rich golden tapestries drape the walls.  Servants in golden livery pass you
-    by peaceably.  Exits lead west and north.
-  room_flags: D
+  description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
+    floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
+    pass you\n\rby peaceably.  Exits lead west and north.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 682
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 684
   extra_descs: []
 - vnum: 686
   name: An Upper Chamber of the Golden Citadel
-  description: "You are in one of the upper chambers of the Golden Citadel.  The decora-\n\
-    tions of this place surpass even those of the first floor.  Gold tiles etched\n\
-    with platinum cover the floor, walls and the ceiling.  The lights from numerous\n\
-    torches reflect from these shimmering planes, giving the illusion that you are\n\
-    standing in a gem.  Stairways lead up and down, and the hall leads south. \n"
-  room_flags: D
+  description: "You are in one of the upper chambers of the Golden Citadel.  The decora-\n\rtions
+    of this place surpass even those of the first floor.  Gold tiles etched\n\rwith
+    platinum cover the floor, walls and the ceiling.  The lights from numerous\n\rtorches
+    reflect from these shimmering planes, giving the illusion that you are\n\rstanding
+    in a gem.  Stairways lead up and down, and the hall leads south. \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 688
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 691
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 670
   extra_descs: []
 - vnum: 687
   name: An Upper Chamber of the Golden Citadel
-  description: "You are in one of the upper chambers of the Golden Citadel.  The decora-\n\
-    tions of this place surpass even those of the first floor.  Gold tiles etched\n\
-    with platinum cover the floor, walls and the ceiling.  The lights from numerous\n\
-    torches reflect from these shimmering planes, giving the illusion that you are\n\
-    standing in a gem.  Stairways lead up and down, and the hall leads east. \n"
-  room_flags: D
+  description: "You are in one of the upper chambers of the Golden Citadel.  The decora-\n\rtions
+    of this place surpass even those of the first floor.  Gold tiles etched\n\rwith
+    platinum cover the floor, walls and the ceiling.  The lights from numerous\n\rtorches
+    reflect from these shimmering planes, giving the illusion that you are\n\rstanding
+    in a gem.  Stairways lead up and down, and the hall leads east. \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 688
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 692
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 671
   extra_descs: []
 - vnum: 688
   name: The Hall of the DragonLords
-  description: "You are in a vast hall, filled with the commanders of the Golden Citadel.\n\
-    Golden tiles etched with platinum cover the floors, and weapons of all types\n\
-    are mounted on the walls of this meeting hall.  Surrounding a solid gold table\n\
-    are four sons of the Keeper of the Golden Citadel.  They smile at you and ask\
-    \ \nyou to join them in lunch.  Exits lead to the cardinal directions. \n"
-  room_flags: D
+  description: "You are in a vast hall, filled with the commanders of the Golden Citadel.\n\rGolden
+    tiles etched with platinum cover the floors, and weapons of all types\n\rare mounted
+    on the walls of this meeting hall.  Surrounding a solid gold table\n\rare four
+    sons of the Keeper of the Golden Citadel.  They smile at you and ask \n\ryou to
+    join them in lunch.  Exits lead to the cardinal directions. \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 686
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 689
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 690
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 687
   extra_descs: []
 - vnum: 689
   name: An Upper Chamber of the Golden Citadel
-  description: "You are in one of the upper chambers of the Golden Citadel.  The decora-\n\
-    tions of this place surpass even those of the first floor.  Gold tiles etched\n\
-    with platinum cover the floor, walls and the ceiling.  The lights from numerous\n\
-    torches reflect from these shimmering planes, giving the illusion that you are\n\
-    standing in a gem.  Stairways lead up and down, and the hall leads west. \n"
-  room_flags: D
+  description: "You are in one of the upper chambers of the Golden Citadel.  The decora-\n\rtions
+    of this place surpass even those of the first floor.  Gold tiles etched\n\rwith
+    platinum cover the floor, walls and the ceiling.  The lights from numerous\n\rtorches
+    reflect from these shimmering planes, giving the illusion that you are\n\rstanding
+    in a gem.  Stairways lead up and down, and the hall leads west. \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 688
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 694
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 672
   extra_descs: []
 - vnum: 690
   name: An Upper Chamber of the Golden Citadel
-  description: "You are in one of the upper chambers of the Golden Citadel.  The decora-\n\
-    tions of this place surpass even those of the first floor.  Gold tiles etched\n\
-    with platinum cover the floor, walls and the ceiling.  The lights from numerous\n\
-    torches reflect from these shimmering planes, giving the illusion that you are\n\
-    standing in a gem.  Stairways lead up and down, and the hall leads north. \n"
-  room_flags: D
+  description: "You are in one of the upper chambers of the Golden Citadel.  The decora-\n\rtions
+    of this place surpass even those of the first floor.  Gold tiles etched\n\rwith
+    platinum cover the floor, walls and the ceiling.  The lights from numerous\n\rtorches
+    reflect from these shimmering planes, giving the illusion that you are\n\rstanding
+    in a gem.  Stairways lead up and down, and the hall leads north. \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 688
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 695
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 673
   extra_descs: []
 - vnum: 691
   name: A Top Chamber of the Golden Citadel
-  description: |
-    You are in one of the top chambers of the Golden Citadel.  The decorations
-    of this room looks like a dragon's hoard.  The whole room is carved out of pure
-    gold, and gems of all types glitter from the walls, ceiling, even the floor.
-    It is obvious that this room was not meant for you to intrude upon.  A stair-
-    case leads back down, and a doorway leads south.
-  room_flags: D
+  description: "You are in one of the top chambers of the Golden Citadel.  The decorations\n\rof
+    this room looks like a dragon's hoard.  The whole room is carved out of pure\n\rgold,
+    and gems of all types glitter from the walls, ceiling, even the floor.\n\rIt is
+    obvious that this room was not meant for you to intrude upon.  A stair-\n\rcase
+    leads back down, and a doorway leads south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 693
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 686
   extra_descs: []
 - vnum: 692
   name: A Top Chamber of the Golden Citadel
-  description: |
-    You are in one of the top chambers of the Golden Citadel.  The decorations
-    of this room looks like a dragon's hoard.  The whole room is carved out of pure
-    gold, and gems of all types glitter from the walls, ceiling, even the floor.
-    It is obvious that this room was not meant for you to intrude upon.  A stair-
-    case leads back down, and a doorway leads east.
-  room_flags: D
+  description: "You are in one of the top chambers of the Golden Citadel.  The decorations\n\rof
+    this room looks like a dragon's hoard.  The whole room is carved out of pure\n\rgold,
+    and gems of all types glitter from the walls, ceiling, even the floor.\n\rIt is
+    obvious that this room was not meant for you to intrude upon.  A stair-\n\rcase
+    leads back down, and a doorway leads east.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 693
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 687
   extra_descs: []
 - vnum: 693
   name: The Dragon Chamber
-  description: |
-    You are in a vast chamber carved from gold and platinum.  Gems the size of
-    a man's fist protrude from the walls, ceiling, and the floor, making your step
-    painful.  A vast open sky-light lets fresh air come in from the top.  In the
-    center of this chamber, you see a great wealth of coins, and on top of that
-    pile of coins, you see a golden dragon squinting at you.  Exits lead to the
-    cardinal directions to the anterooms.
-  room_flags: D
+  description: "You are in a vast chamber carved from gold and platinum.  Gems the
+    size of\n\ra man's fist protrude from the walls, ceiling, and the floor, making
+    your step\n\rpainful.  A vast open sky-light lets fresh air come in from the top.
+    \ In the\n\rcenter of this chamber, you see a great wealth of coins, and on top
+    of that\n\rpile of coins, you see a golden dragon squinting at you.  Exits lead
+    to the\n\rcardinal directions to the anterooms.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 691
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 694
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 695
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 692
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 696
   extra_descs: []
 - vnum: 694
   name: A Top Chamber of the Golden Citadel
-  description: |
-    You are in one of the top chambers of the Golden Citadel.  The decorations
-    of this room looks like a dragon's hoard.  The whole room is carved out of pure
-    gold, and gems of all types glitter from the walls, ceiling, even the floor.
-    It is obvious that this room was not meant for you to intrude upon.  A stair-
-    case leads back down, and a doorway leads west.
-  room_flags: D
+  description: "You are in one of the top chambers of the Golden Citadel.  The decorations\n\rof
+    this room looks like a dragon's hoard.  The whole room is carved out of pure\n\rgold,
+    and gems of all types glitter from the walls, ceiling, even the floor.\n\rIt is
+    obvious that this room was not meant for you to intrude upon.  A stair-\n\rcase
+    leads back down, and a doorway leads west.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 693
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 689
   extra_descs: []
 - vnum: 695
   name: A Top Chamber of the Golden Citadel
-  description: |
-    You are in one of the top chambers of the Golden Citadel.  The decorations
-    of this room looks like a dragon's hoard.  The whole room is carved out of pure
-    gold, and gems of all types glitter from the walls, ceiling, even the floor.
-    It is obvious that this room was not meant for you to intrude upon.  A stair-
-    case leads back down, and a doorway leads north.
-  room_flags: D
+  description: "You are in one of the top chambers of the Golden Citadel.  The decorations\n\rof
+    this room looks like a dragon's hoard.  The whole room is carved out of pure\n\rgold,
+    and gems of all types glitter from the walls, ceiling, even the floor.\n\rIt is
+    obvious that this room was not meant for you to intrude upon.  A stair-\n\rcase
+    leads back down, and a doorway leads north.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 695
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 690
   extra_descs: []
 - vnum: 696
   name: Above the Dragon Chamber
-  description: |
-    You are above the Dragon Chamber.  You curiously note that this shaft that
-    connects the chamber to the sky is wide enough that even a dragon can fit
-    through.  This shaft leads up and down.
-  room_flags: D
+  description: "You are above the Dragon Chamber.  You curiously note that this shaft
+    that\n\rconnects the chamber to the sky is wide enough that even a dragon can
+    fit\n\rthrough.  This shaft leads up and down.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 697
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 693
   extra_descs: []
 - vnum: 697
   name: In the Shaft from the Dragon Chamber
-  description: "You are in the shaft leading from the Dragon Chamber.  Below you lies\
-    \ the\nDragon Chamber of the Golden Citadel.  Above you, you see the sky, but\
-    \ \ncurrently, the way out is sealed by a layer of diamond that looks impenetrable.\n"
-  room_flags: D
+  description: "You are in the shaft leading from the Dragon Chamber.  Below you lies
+    the\n\rDragon Chamber of the Golden Citadel.  Above you, you see the sky, but
+    \n\rcurrently, the way out is sealed by a layer of diamond that looks impenetrable.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 696
   extra_descs: []
 - vnum: 698
   name: Inside the Entrance to the Golden Citadel
-  description: |
-    You are inside the entrance to the Golden Citadel.  Rich golden tapestries
-    line the walls, and golden tiles cover the floors.  The exit to this citadel is
-    to the west, while the citadel itself is to the east.
-  room_flags: D
+  description: "You are inside the entrance to the Golden Citadel.  Rich golden tapestries\n\rline
+    the walls, and golden tiles cover the floors.  The exit to this citadel is\n\rto
+    the west, while the citadel itself is to the east.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 679
   - dir: 3
-    desc: ''
+    desc:
     keywords: gate
-    exit_flags: A
+    exit_flags: 1
     key: 651
     to_vnum: 699
   extra_descs: []
 - vnum: 699
   name: Outside the Entrance to the Golden Citadel
-  description: |
-    You are outside the entrance to the Golden Citadel.  A great gate is to
-    to the east, marking the entranceway into the citadel.  The road also leads
-    back west to Raff Way.
-  room_flags: '0'
+  description: "You are outside the entrance to the Golden Citadel.  A great gate
+    is to\n\rto the east, marking the entranceway into the citadel.  The road also
+    leads\n\rback west to Raff Way.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: 651
     to_vnum: 698
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 667
   extra_descs: []
 resets:
-- command: D
-  arg1: 600
-  arg2: 1
-  arg3: 1
-- command: D
-  arg1: 616
-  arg2: 3
-  arg3: 1
-- command: D
-  arg1: 618
-  arg2: 2
-  arg3: 1
-- command: D
-  arg1: 619
-  arg2: 0
-  arg3: 1
-- command: D
-  arg1: 625
-  arg2: 1
-  arg3: 2
-- command: D
-  arg1: 625
-  arg2: 3
-  arg3: 2
-- command: D
-  arg1: 626
-  arg2: 3
-  arg3: 2
-- command: D
-  arg1: 629
-  arg2: 1
-  arg3: 2
-- command: D
-  arg1: 632
-  arg2: 1
-  arg3: 1
-- command: D
-  arg1: 632
-  arg2: 3
-  arg3: 1
-- command: D
-  arg1: 633
-  arg2: 3
-  arg3: 1
-- command: D
-  arg1: 635
-  arg2: 1
-  arg3: 1
-- command: D
-  arg1: 637
-  arg2: 1
-  arg3: 1
-- command: D
-  arg1: 637
-  arg2: 3
-  arg3: 1
-- command: D
-  arg1: 638
-  arg2: 3
-  arg3: 1
-- command: D
-  arg1: 640
-  arg2: 1
-  arg3: 1
-- command: D
-  arg1: 642
-  arg2: 0
-  arg3: 2
-- command: D
-  arg1: 643
-  arg2: 2
-  arg3: 2
 - command: M
   arg1: 609
   arg2: 1
@@ -6967,30 +6609,3 @@ shops:
   profit_sell: 10
   open_hour: 0
   close_hour: 23
-specials:
-- vnum: 600
-  spec_fun: spec_guard
-- vnum: 601
-  spec_fun: spec_cast_cleric
-- vnum: 602
-  spec_fun: spec_cast_cleric
-- vnum: 603
-  spec_fun: spec_cast_mage
-- vnum: 621
-  spec_fun: spec_janitor
-- vnum: 623
-  spec_fun: spec_guard
-- vnum: 628
-  spec_fun: spec_cast_adept
-- vnum: 629
-  spec_fun: spec_guard
-- vnum: 630
-  spec_fun: spec_breath_any
-- vnum: 631
-  spec_fun: spec_breath_any
-- vnum: 632
-  spec_fun: spec_cast_mage
-- vnum: 633
-  spec_fun: spec_breath_any
-- vnum: 634
-  spec_fun: spec_guard

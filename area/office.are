@@ -196,9 +196,9 @@ none~
 0 A A BC 0
 93 2 100000
 A
-18 100
-A
 19 15000
+A
+18 100
 #10019
 ring engagement~
 a golden engagement ring~
@@ -285,9 +285,9 @@ none~
 DHIJM A 0 0 0
 95 5 500
 A
-2 5
-A
 5 5
+A
+2 5
 #10030
 levis 565 jeans~
 `wReal. Comfortable. Jeans.~
@@ -442,9 +442,9 @@ none~
 0 DEFG DEFG ABE 0
 92 2 10
 A
-19 200
-A
 18 200
+A
+19 200
 #10067
 mohogany chair~
 a large comfortable chair~
@@ -478,9 +478,9 @@ none~
 0 A A A EG
 92 5 100000
 A
-19 5000
-A
 18 1000
+A
+19 5000
 #10071
 boots hermes winged~
 `Wwinged boots of Hermes`w~
@@ -723,12 +723,12 @@ GOOD thing!
 ~
 0 8 0
 E
-cot~
-~
-E
 desk~
 Here is Raptor's new desk, already has a stack of papers on it.
 Hmm, looks like a print-out of the builder's help file....
+~
+E
+cot~
 ~
 D0
 ~

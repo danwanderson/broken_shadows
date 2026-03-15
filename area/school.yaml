@@ -10,977 +10,935 @@ mobiles:
 - vnum: 3700
   keywords: acolyte cleric
   short_desc: the acolyte of Tempest
-  long_desc: |
-    An acolyte of Tempest welcomes you to mud school.
-  description: |
-    She's big and bad.  Don't mess with her.
+  long_desc: "An acolyte of Tempest welcomes you to mud school.\n\r"
+  description: "She's big and bad.  Don't mess with her.\n\r"
   race: Human
-  act: ABGTV
-  affected_by: CH
-  affected2_by: '0'
+  act: 2621506
+  affected_by: 132
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 30
   hitroll: 10
   hit:
-    number: 1
-    type: 1
-    bonus: 999
+  - 1
+  - 1
+  - 999
   mana:
-    number: 1
-    type: 1
-    bonus: 999
+  - 1
+  - 1
+  - 999
   damage:
-    number: 2
-    type: 4
-    bonus: 30
+  - 2
+  - 4
+  - 30
   dam_type: 13
   ac:
     pierce: -15
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: ACEFHIKN
-  imm_flags: ABCD
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 9653
+  imm_flags: 15
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 3701
   keywords: blob
   short_desc: the blob
-  long_desc: |
-    The blob is here, waiting to eat you up.
-  description: |
-    He is big, he is bad.  You don't want to fight him when he isn't chained up.
-    Perhaps now would be a good time to flee from him!!!  If you don't flee, you
-    would really suffer the consequences.
+  long_desc: "The blob is here, waiting to eat you up.\n\r"
+  description: "He is big, he is bad.  You don't want to fight him when he isn't chained
+    up.\n\rPerhaps now would be a good time to flee from him!!!  If you don't flee,
+    you\n\rwould really suffer the consequences.\n\r"
   race: unique
-  act: ABG
-  affected_by: C
-  affected2_by: '0'
+  act: 66
+  affected_by: 4
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 5
   hitroll: -5
   hit:
-    number: 1
-    type: 1
-    bonus: 49
+  - 1
+  - 1
+  - 49
   mana:
-    number: 1
-    type: 1
-    bonus: 99
+  - 1
+  - 1
+  - 99
   damage:
-    number: 1
-    type: 1
-    bonus: 0
+  - 1
+  - 1
+  - 0
   dam_type: 14
   ac:
     pierce: -15
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: AN
-  imm_flags: AB
-  res_flags: CD
-  vuln_flags: '0'
+  off_flags: 8193
+  imm_flags: 3
+  res_flags: 12
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: BSc
-  parts: '0'
+  form: 268697602
+  parts: 0
   size: L
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 3702
   keywords: monster
   short_desc: the monster
-  long_desc: |
-    There is a monster leashed here.
-  description: |
-    He looks mean, but you feel comfortable that you can kill him, especially since
-    he is leashed up, and you are not.
+  long_desc: "There is a monster leashed here.\n\r"
+  description: "He looks mean, but you feel comfortable that you can kill him, especially
+    since\n\rhe is leashed up, and you are not.\n\r"
   race: school monster
-  act: ABU
-  affected_by: '0'
-  affected2_by: '0'
+  act: 2
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 1
   hitroll: 0
   hit:
-    number: 1
-    type: 1
-    bonus: 7
+  - 1
+  - 1
+  - 7
   mana:
-    number: 1
-    type: 1
-    bonus: 99
+  - 1
+  - 1
+  - 99
   damage:
-    number: 1
-    type: 3
-    bonus: 0
+  - 1
+  - 3
+  - 0
   dam_type: 5
   ac:
     pierce: 10
     bash: 10
     slash: 10
     exotic: 10
-  off_flags: '0'
-  imm_flags: AB
-  res_flags: '0'
-  vuln_flags: C
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 10
-  form: AMV
-  parts: ABCDEFHJKQU
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 3703
   keywords: monster wimpy
   short_desc: the wimpy monster
-  long_desc: |
-    There is a wimpy monster leashed here.
-  description: |
-    He looks wimpy.  You feel comfortable that you can kill him, especially since
-    he is leashed up, and you are not.
+  long_desc: "There is a wimpy monster leashed here.\n\r"
+  description: "He looks wimpy.  You feel comfortable that you can kill him, especially
+    since\n\rhe is leashed up, and you are not.\n\r"
   race: school monster
-  act: ABHU
-  affected_by: '0'
-  affected2_by: '0'
+  act: 130
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 1
   hitroll: 0
   hit:
-    number: 1
-    type: 1
-    bonus: 7
+  - 1
+  - 1
+  - 7
   mana:
-    number: 1
-    type: 1
-    bonus: 99
+  - 1
+  - 1
+  - 99
   damage:
-    number: 1
-    type: 2
-    bonus: 0
+  - 1
+  - 2
+  - 0
   dam_type: 5
   ac:
     pierce: 10
     bash: 10
     slash: 10
     exotic: 10
-  off_flags: O
-  imm_flags: AB
-  res_flags: '0'
-  vuln_flags: C
+  off_flags: 16384
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 10
-  form: AMV
-  parts: ABCDEFHJKQU
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 3704
   keywords: monster aggressive
   short_desc: the aggressive monster
-  long_desc: |
-    There is an aggressive monster leashed here.
-  description: |
-    He looks mean, but you feel comfortable that you can kill him, especially since
-    he is leashed up, and you are not.
+  long_desc: "There is an aggressive monster leashed here.\n\r"
+  description: "He looks mean, but you feel comfortable that you can kill him, especially
+    since\n\rhe is leashed up, and you are not.\n\r"
   race: school monster
-  act: ABFU
-  affected_by: '0'
-  affected2_by: '0'
+  act: 34
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 1
   hitroll: 0
   hit:
-    number: 1
-    type: 1
-    bonus: 7
+  - 1
+  - 1
+  - 7
   mana:
-    number: 1
-    type: 1
-    bonus: 99
+  - 1
+  - 1
+  - 99
   damage:
-    number: 1
-    type: 4
-    bonus: 0
+  - 1
+  - 4
+  - 0
   dam_type: 5
   ac:
     pierce: 10
     bash: 10
     slash: 10
     exotic: 10
-  off_flags: EK
-  imm_flags: AB
-  res_flags: '0'
-  vuln_flags: C
+  off_flags: 1040
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 10
-  form: AMV
-  parts: ABCDEFHJKQU
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 3705
   keywords: monster wimpy aggressive
   short_desc: the wimpy aggressive monster
-  long_desc: |
-    There is a wimpy aggressive monster leashed here.
-  description: |
-    He looks mean, but you feel comfortable that you can kill him, especially since
-    he is leashed up, and you are not.
+  long_desc: "There is a wimpy aggressive monster leashed here.\n\r"
+  description: "He looks mean, but you feel comfortable that you can kill him, especially
+    since\n\rhe is leashed up, and you are not.\n\r"
   race: school monster
-  act: ABFHU
-  affected_by: '0'
-  affected2_by: '0'
+  act: 162
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 1
   hitroll: 0
   hit:
-    number: 1
-    type: 1
-    bonus: 7
+  - 1
+  - 1
+  - 7
   mana:
-    number: 1
-    type: 1
-    bonus: 99
+  - 1
+  - 1
+  - 99
   damage:
-    number: 1
-    type: 3
-    bonus: 0
+  - 1
+  - 3
+  - 0
   dam_type: 5
   ac:
     pierce: 10
     bash: 10
     slash: 10
     exotic: 10
-  off_flags: J
-  imm_flags: AB
-  res_flags: '0'
-  vuln_flags: C
+  off_flags: 512
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 10
-  form: AMV
-  parts: ABCDEFHJKQU
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 3706
   keywords: big creature
   short_desc: the big creature
-  long_desc: |
-    There is a big creature hulking over your form.
-  description: |
-    He looks mean, and you just might have a small problem killing him, but he
-    looks like a great prize!!!
+  long_desc: "There is a big creature hulking over your form.\n\r"
+  description: "He looks mean, and you just might have a small problem killing him,
+    but he\n\rlooks like a great prize!!!\n\r"
   race: school monster
-  act: ABU
-  affected_by: JZ
-  affected2_by: '0'
+  act: 2
+  affected_by: 33554944
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 2
   hitroll: 1
   hit:
-    number: 2
-    type: 2
-    bonus: 20
+  - 2
+  - 2
+  - 20
   mana:
-    number: 1
-    type: 1
-    bonus: 99
+  - 1
+  - 1
+  - 99
   damage:
-    number: 1
-    type: 4
-    bonus: 1
+  - 1
+  - 4
+  - 1
   dam_type: 5
   ac:
     pierce: 8
     bash: 8
     slash: 8
     exotic: 10
-  off_flags: FN
-  imm_flags: AB
-  res_flags: '0'
-  vuln_flags: C
+  off_flags: 8224
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 25
-  form: AMV
-  parts: ABCDEFHJKQU
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 3707
   keywords: adept cleric
   short_desc: the adept of Ezra
-  long_desc: |
-    An adept of the mighty god Ezra is here, contemplating your progress.
-  description: |
-    He is big and bad.  Don't mess with him.
+  long_desc: "An adept of the mighty god Ezra is here, contemplating your progress.\n\r"
+  description: "He is big and bad.  Don't mess with him.\n\r"
   race: Human
-  act: ABGTV
-  affected_by: CH
-  affected2_by: '0'
+  act: 2621506
+  affected_by: 132
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 30
   hitroll: 10
   hit:
-    number: 1
-    type: 1
-    bonus: 999
+  - 1
+  - 1
+  - 999
   mana:
-    number: 1
-    type: 1
-    bonus: 999
+  - 1
+  - 1
+  - 999
   damage:
-    number: 2
-    type: 4
-    bonus: 30
+  - 2
+  - 4
+  - 30
   dam_type: 13
   ac:
     pierce: -15
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: ACEFHIKN
-  imm_flags: ABCD
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 9653
+  imm_flags: 15
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_adept
 - vnum: 3708
   keywords: adept
   short_desc: the adept of Alander
-  long_desc: |
-    An adept of Alander is here, smiling at you.
-  description: |
-    He is big and bad.  Don't mess with him.
+  long_desc: "An adept of Alander is here, smiling at you.\n\r"
+  description: "He is big and bad.  Don't mess with him.\n\r"
   race: Human
-  act: ABGTV
-  affected_by: CH
-  affected2_by: '0'
+  act: 2621506
+  affected_by: 132
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 30
   hitroll: 10
   hit:
-    number: 1
-    type: 1
-    bonus: 999
+  - 1
+  - 1
+  - 999
   mana:
-    number: 1
-    type: 1
-    bonus: 999
+  - 1
+  - 1
+  - 999
   damage:
-    number: 2
-    type: 4
-    bonus: 30
+  - 2
+  - 4
+  - 30
   dam_type: 13
   ac:
     pierce: -15
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: ACEFHIKN
-  imm_flags: ABCD
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 9653
+  imm_flags: 15
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_adept
 - vnum: 3709
   keywords: rabbit
   short_desc: the rabbit
-  long_desc: |
-    A rabbit is bouncing around here.
-  description: |
-    The rabbit smiles at you, completely harmless!
+  long_desc: "A rabbit is bouncing around here.\n\r"
+  description: "The rabbit smiles at you, completely harmless!\n\r"
   race: rabbit
-  act: AGHU
-  affected_by: '0'
-  affected2_by: '0'
+  act: 1048768
+  affected_by: 0
+  affected2_by: 0
   alignment: 100
   clan: 0
   level: 1
   hitroll: 0
   hit:
-    number: 1
-    type: 1
-    bonus: 10
+  - 1
+  - 1
+  - 10
   mana:
-    number: 1
-    type: 1
-    bonus: 99
+  - 1
+  - 1
+  - 99
   damage:
-    number: 1
-    type: 3
-    bonus: 0
+  - 1
+  - 3
+  - 0
   dam_type: 10
   ac:
     pierce: 10
     bash: 10
     slash: 10
     exotic: 10
-  off_flags: FH
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 3
   gold: 0
-  form: AGV
-  parts: ACDEFHJK
+  form: 0
+  parts: 0
   size: T
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 3710
   keywords: lizard
   short_desc: the lizard
-  long_desc: |
-    A lizard slithers up to you.
-  description: |
-    It smiles at you, and tries to eat your leg.
+  long_desc: "A lizard slithers up to you.\n\r"
+  description: "It smiles at you, and tries to eat your leg.\n\r"
   race: lizard
-  act: AGU
-  affected_by: '0'
-  affected2_by: '0'
+  act: 1048640
+  affected_by: 0
+  affected2_by: 0
   alignment: -100
   clan: 0
   level: 2
   hitroll: 0
   hit:
-    number: 2
-    type: 2
-    bonus: 20
+  - 2
+  - 2
+  - 20
   mana:
-    number: 1
-    type: 1
-    bonus: 99
+  - 1
+  - 1
+  - 99
   damage:
-    number: 1
-    type: 4
-    bonus: 1
+  - 1
+  - 4
+  - 1
   dam_type: 10
   ac:
     pierce: 8
     bash: 8
     slash: 8
     exotic: 10
-  off_flags: R
-  imm_flags: '0'
-  res_flags: L
-  vuln_flags: I
+  off_flags: 131072
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 3
   gold: 0
-  form: AGXc
-  parts: ACDEFHKQV
+  form: 0
+  parts: 0
   size: S
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 3711
   keywords: boar
   short_desc: the boar
-  long_desc: |
-    A boar tries to run you over.
-  description: |
-    It grunts at you.
+  long_desc: "A boar tries to run you over.\n\r"
+  description: "It grunts at you.\n\r"
   race: pig
-  act: AGU
-  affected_by: '0'
-  affected2_by: '0'
+  act: 1048640
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 3
   hitroll: 1
   hit:
-    number: 3
-    type: 3
-    bonus: 30
+  - 3
+  - 3
+  - 30
   mana:
-    number: 1
-    type: 1
-    bonus: 99
+  - 1
+  - 1
+  - 99
   damage:
-    number: 1
-    type: 6
-    bonus: 1
+  - 1
+  - 6
+  - 1
   dam_type: 15
   ac:
     pierce: 7
     bash: 7
     slash: 7
     exotic: 9
-  off_flags: CDFR
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 131116
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 3
   gold: 0
-  form: AGV
-  parts: ACDEFHJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 3712
   keywords: fox
   short_desc: the fox
-  long_desc: |
-    A fox is here staring at you.
-  description: |
-    It's fur might be worth money.
+  long_desc: "A fox is here staring at you.\n\r"
+  description: "It's fur might be worth money.\n\r"
   race: fox
-  act: AGHU
-  affected_by: Z
-  affected2_by: '0'
+  act: 1048768
+  affected_by: 0
+  affected2_by: 0
   alignment: 100
   clan: 0
   level: 1
   hitroll: 1
   hit:
-    number: 1
-    type: 1
-    bonus: 12
+  - 1
+  - 1
+  - 12
   mana:
-    number: 1
-    type: 1
-    bonus: 99
+  - 1
+  - 1
+  - 99
   damage:
-    number: 1
-    type: 3
-    bonus: 1
+  - 1
+  - 3
+  - 1
   dam_type: 10
   ac:
     pierce: 8
     bash: 8
     slash: 8
     exotic: 10
-  off_flags: FHNR
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 139264
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 3
   gold: 0
-  form: AGV
-  parts: ACDEFHJKQV
+  form: 0
+  parts: 0
   size: S
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 3713
   keywords: snail
   short_desc: the snail
-  long_desc: |
-    A snail is trying to get out of your way.
-  description: |
-    You don't see much but slime about it.
+  long_desc: "A snail is trying to get out of your way.\n\r"
+  description: "You don't see much but slime about it.\n\r"
   race: unique
-  act: AGU
-  affected_by: '0'
-  affected2_by: '0'
+  act: 1048640
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 0
   hitroll: 0
   hit:
-    number: 1
-    type: 1
-    bonus: 0
+  - 1
+  - 1
+  - 0
   mana:
-    number: 1
-    type: 1
-    bonus: 99
+  - 1
+  - 1
+  - 99
   damage:
-    number: 1
-    type: 1
-    bonus: 0
+  - 1
+  - 1
+  - 0
   dam_type: 14
   ac:
     pierce: 10
     bash: 10
     slash: 10
     exotic: 10
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: AGQc
-  parts: AFHM
+  form: 268501057
+  parts: 4257
   size: T
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 3714
   keywords: beast
   short_desc: the beast
-  long_desc: |
-    A beast tries to feed off of you.
-  description: |
-    It looks mean.  You'd better run.
+  long_desc: "A beast tries to feed off of you.\n\r"
+  description: "It looks mean.  You'd better run.\n\r"
   race: school monster
-  act: AFTU
-  affected_by: Z
-  affected2_by: '0'
+  act: 524320
+  affected_by: 33554432
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 5
   hitroll: 1
   hit:
-    number: 5
-    type: 5
-    bonus: 55
+  - 5
+  - 5
+  - 55
   mana:
-    number: 1
-    type: 1
-    bonus: 99
+  - 1
+  - 1
+  - 99
   damage:
-    number: 1
-    type: 6
-    bonus: 3
+  - 1
+  - 6
+  - 3
   dam_type: 10
   ac:
     pierce: 5
     bash: 5
     slash: 5
     exotic: 8
-  off_flags: EKM
-  imm_flags: AB
-  res_flags: HI
-  vuln_flags: C
+  off_flags: 5136
+  imm_flags: 0
+  res_flags: 384
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 50
-  form: AMV
-  parts: ABCDEFHJKQU
+  form: 0
+  parts: 0
   size: L
   material: none
   spec_fun: spec_fido
 - vnum: 3715
   keywords: bear
   short_desc: the bear
-  long_desc: |
-    A bear is here growling at you.
-  description: |
-    The bear must be bigger than you!  It wants to rip your head off.
+  long_desc: "A bear is here growling at you.\n\r"
+  description: "The bear must be bigger than you!  It wants to rip your head off.\n\r"
   race: bear
-  act: AGU
-  affected_by: '0'
-  affected2_by: '0'
+  act: 1048640
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 4
   hitroll: 1
   hit:
-    number: 4
-    type: 4
-    bonus: 44
+  - 4
+  - 4
+  - 44
   mana:
-    number: 1
-    type: 1
-    bonus: 99
+  - 1
+  - 1
+  - 99
   damage:
-    number: 1
-    type: 6
-    bonus: 2
+  - 1
+  - 6
+  - 2
   dam_type: 5
   ac:
     pierce: 6
     bash: 5
     slash: 6
     exotic: 7
-  off_flags: CDEOR
-  imm_flags: '0'
-  res_flags: EI
-  vuln_flags: '0'
+  off_flags: 131076
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 3
   gold: 0
-  form: AGV
-  parts: ABCDEFHJKUV
+  form: 0
+  parts: 0
   size: L
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 3716
   keywords: wolf
   short_desc: the wolf
-  long_desc: |
-    A wolf is here snarling at you.
-  description: |
-    The wolf doesn't want to be bothered.
+  long_desc: "A wolf is here snarling at you.\n\r"
+  description: "The wolf doesn't want to be bothered.\n\r"
   race: Wolf
-  act: AGU
-  affected_by: Z
-  affected2_by: '0'
+  act: 1048640
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 4
   hitroll: 0
   hit:
-    number: 4
-    type: 4
-    bonus: 44
+  - 4
+  - 4
+  - 44
   mana:
-    number: 1
-    type: 1
-    bonus: 99
+  - 1
+  - 1
+  - 99
   damage:
-    number: 1
-    type: 6
-    bonus: 2
+  - 1
+  - 6
+  - 2
   dam_type: 10
   ac:
     pierce: 7
     bash: 7
     slash: 7
     exotic: 10
-  off_flags: FHNR
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 139264
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 3
   gold: 0
-  form: AGV
-  parts: ACDEFJKQV
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 3717
   keywords: adept cleric
   short_desc: the adept of Goose
-  long_desc: |
-    An adept of Goose is here, grinning and selling you things.
-  description: |
-    He is big and bad.  Don't mess with him.
+  long_desc: "An adept of Goose is here, grinning and selling you things.\n\r"
+  description: "He is big and bad.  Don't mess with him.\n\r"
   race: Human
-  act: ABCQTV
-  affected_by: CH
-  affected2_by: '0'
+  act: 2686982
+  affected_by: 132
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 30
   hitroll: 10
   hit:
-    number: 1
-    type: 1
-    bonus: 999
+  - 1
+  - 1
+  - 999
   mana:
-    number: 1
-    type: 1
-    bonus: 999
+  - 1
+  - 1
+  - 999
   damage:
-    number: 2
-    type: 4
-    bonus: 30
+  - 2
+  - 4
+  - 30
   dam_type: 13
   ac:
     pierce: -15
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: ACEFHIKN
-  imm_flags: ABCD
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 9653
+  imm_flags: 15
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 3718
   keywords: adept cleric
   short_desc: the adept of Furey
-  long_desc: |
-    An adept of Furey is here, training young students.
-  description: |
-    He is big and bad.  Don't mess with him.
+  long_desc: "An adept of Furey is here, training young students.\n\r"
+  description: "He is big and bad.  Don't mess with him.\n\r"
   race: Human
-  act: ABCJTV
-  affected_by: CH
-  affected2_by: '0'
+  act: 2621958
+  affected_by: 132
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 30
   hitroll: 10
   hit:
-    number: 1
-    type: 1
-    bonus: 999
+  - 1
+  - 1
+  - 999
   mana:
-    number: 1
-    type: 1
-    bonus: 999
+  - 1
+  - 1
+  - 999
   damage:
-    number: 2
-    type: 4
-    bonus: 30
+  - 2
+  - 4
+  - 30
   dam_type: 13
   ac:
     pierce: -15
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: ACEFHIKN
-  imm_flags: ABCD
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 9653
+  imm_flags: 15
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 3719
   keywords: priest cleric
   short_desc: the priest of Seth
-  long_desc: |
-    The priest of Seth is ready to help you practice.
-  description: |
-    He is big and bad.  Don't mess with him.
+  long_desc: "The priest of Seth is ready to help you practice.\n\r"
+  description: "He is big and bad.  Don't mess with him.\n\r"
   race: Human
-  act: ABCKTV
-  affected_by: CH
-  affected2_by: '0'
+  act: 2622470
+  affected_by: 132
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 30
   hitroll: 10
   hit:
-    number: 1
-    type: 1
-    bonus: 999
+  - 1
+  - 1
+  - 999
   mana:
-    number: 1
-    type: 1
-    bonus: 999
+  - 1
+  - 1
+  - 999
   damage:
-    number: 2
-    type: 4
-    bonus: 30
+  - 2
+  - 4
+  - 30
   dam_type: 13
   ac:
     pierce: -15
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: ACEFHIKN
-  imm_flags: ABCD
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 9653
+  imm_flags: 15
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 3720
   keywords: diploma beast
   short_desc: the diploma beast
-  long_desc: |
-    The hideous diploma beast is here, holding your graduation present!
-  description: |
-    This horrible creature is your final test for mud school.  Kill him, and the
-    diploma is yours.
+  long_desc: "The hideous diploma beast is here, holding your graduation present!\n\r"
+  description: "This horrible creature is your final test for mud school.  Kill him,
+    and the\n\rdiploma is yours.\n\r"
   race: school monster
-  act: ABU
-  affected_by: J
-  affected2_by: '0'
+  act: 2
+  affected_by: 512
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 3
   hitroll: 1
   hit:
-    number: 2
-    type: 4
-    bonus: 30
+  - 2
+  - 4
+  - 30
   mana:
-    number: 1
-    type: 1
-    bonus: 99
+  - 1
+  - 1
+  - 99
   damage:
-    number: 1
-    type: 6
-    bonus: 1
+  - 1
+  - 6
+  - 1
   dam_type: 5
   ac:
     pierce: 8
     bash: 8
     slash: 8
     exotic: 10
-  off_flags: EFN
-  imm_flags: AB
-  res_flags: '0'
-  vuln_flags: C
+  off_flags: 8240
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 30
-  form: AMV
-  parts: ABCDEFHJKQU
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 objects:
 - vnum: 3700
   name: mace sub merc
@@ -988,351 +946,337 @@ objects:
   description: You see a sub issue mace here.
   material: none
   item_type: 5
-  extra_flags: R
-  wear_flags: AN
+  extra_flags: 131072
+  wear_flags: 8193
+  level: 0
+  weight: 6
+  cost: 0
   values:
   - 4
   - 1
   - 6
   - 7
   - 0
-  level: 0
-  weight: 6
-  cost: 0
   affects:
   - where: O
     location: 18
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
   extra_descs:
   - keywords: mace
-    description: |
-      You see a mace of great but cheap craftsmanship.  Imprinted on the side is:
-      Merc Industries
+    description: "You see a mace of great but cheap craftsmanship.  Imprinted on the
+      side is:\n\rMerc Industries\n\r"
 - vnum: 3701
   name: dagger sub merc
   short_desc: a sub issue dagger
   description: You see a sub issue dagger here.
   material: none
   item_type: 5
-  extra_flags: R
-  wear_flags: AN
+  extra_flags: 131072
+  wear_flags: 8193
+  level: 0
+  weight: 3
+  cost: 0
   values:
   - 2
   - 1
   - 4
   - 11
   - 0
-  level: 0
-  weight: 3
-  cost: 0
   affects:
   - where: O
     location: 18
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
   extra_descs:
   - keywords: dagger
-    description: |
-      You see a dagger of great but cheap craftsmanship.  Imprinted on the side is:
-      Merc Industries
+    description: "You see a dagger of great but cheap craftsmanship.  Imprinted on
+      the side is:\n\rMerc Industries\n\r"
 - vnum: 3702
   name: sword sub merc
   short_desc: a sub issue sword
   description: You see a sub issue sword here.
   material: none
   item_type: 5
-  extra_flags: R
-  wear_flags: AN
+  extra_flags: 131072
+  wear_flags: 8193
+  level: 0
+  weight: 3
+  cost: 0
   values:
   - 1
   - 1
   - 6
   - 3
   - 0
-  level: 0
-  weight: 3
-  cost: 0
   affects:
   - where: O
     location: 18
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
   extra_descs:
   - keywords: sword
-    description: |
-      You see a sword of great but cheap craftsmanship.  Imprinted on the side is:
-      Merc Industries
+    description: "You see a sword of great but cheap craftsmanship.  Imprinted on
+      the side is:\n\rMerc Industries\n\r"
 - vnum: 3703
   name: vest sub merc
   short_desc: a sub issue vest
   description: You see a sub issue vest here.
   material: none
   item_type: 9
-  extra_flags: R
-  wear_flags: AD
+  extra_flags: 131072
+  wear_flags: 9
+  level: 0
+  weight: 5
+  cost: 0
   values:
   - 1
   - 1
   - 1
   - 0
   - 0
-  level: 0
-  weight: 5
-  cost: 0
   affects: []
   extra_descs:
   - keywords: vest
-    description: |
-      You see a vest of great but cheap craftsmanship.  Stamped on the side is:
-      Merc Industries
+    description: "You see a vest of great but cheap craftsmanship.  Stamped on the
+      side is:\n\rMerc Industries\n\r"
 - vnum: 3704
   name: shield sub merc
   short_desc: a sub issue shield
   description: You see a sub issue shield here.
   material: none
   item_type: 9
-  extra_flags: R
-  wear_flags: AJ
+  extra_flags: 131072
+  wear_flags: 513
+  level: 0
+  weight: 3
+  cost: 0
   values:
   - 1
   - 1
   - 1
   - 0
   - 0
-  level: 0
-  weight: 3
-  cost: 0
   affects: []
   extra_descs:
   - keywords: shield
-    description: |
-      You see a shield of great but cheap craftsmanship.  Imprinted on the side is:
-      Merc Industries
+    description: "You see a shield of great but cheap craftsmanship.  Imprinted on
+      the side is:\n\rMerc Industries\n\r"
 - vnum: 3705
   name: cloak sub merc
   short_desc: a sub issue cloak
   description: You see a sub issue cloak here.
   material: none
   item_type: 9
-  extra_flags: R
-  wear_flags: AC
+  extra_flags: 131072
+  wear_flags: 5
+  level: 0
+  weight: 4
+  cost: 0
   values:
   - 1
   - 1
   - 1
   - 0
   - 1
-  level: 0
-  weight: 4
-  cost: 0
   affects: []
   extra_descs:
   - keywords: cloak
-    description: |
-      You see a cloak of great but cheap craftsmanship.  Imprinted on the side is:
-      Merc Industries
+    description: "You see a cloak of great but cheap craftsmanship.  Imprinted on
+      the side is:\n\rMerc Industries\n\r"
 - vnum: 3706
   name: helmet sub merc
   short_desc: a sub issue helmet
   description: You see a sub issue helmet here.
   material: none
   item_type: 9
-  extra_flags: R
-  wear_flags: AE
+  extra_flags: 131072
+  wear_flags: 17
+  level: 0
+  weight: 3
+  cost: 0
   values:
   - 1
   - 1
   - 1
   - 0
   - 0
-  level: 0
-  weight: 3
-  cost: 0
   affects: []
   extra_descs:
   - keywords: helmet
-    description: |
-      You see a helmet of great but cheap craftsmanship.  Imprinted on the side is:
-      Merc Industries
+    description: "You see a helmet of great but cheap craftsmanship.  Imprinted on
+      the side is:\n\rMerc Industries\n\r"
 - vnum: 3707
   name: leggings sub merc
   short_desc: a pair of sub issue leggings
   description: You see a pair of sub issue leggings here.
   material: none
   item_type: 9
-  extra_flags: R
-  wear_flags: AF
+  extra_flags: 131072
+  wear_flags: 33
+  level: 0
+  weight: 3
+  cost: 0
   values:
   - 1
   - 1
   - 1
   - 0
   - 0
-  level: 0
-  weight: 3
-  cost: 0
   affects: []
   extra_descs:
   - keywords: leggings
-    description: |
-      You see leggings of great but cheap craftsmanship.  Imprinted on the side is:
-      Merc Industries
+    description: "You see leggings of great but cheap craftsmanship.  Imprinted on
+      the side is:\n\rMerc Industries\n\r"
 - vnum: 3708
   name: boots sub merc
   short_desc: a pair of sub issue boots
   description: You see a pair of sub issue boots here.
   material: none
   item_type: 9
-  extra_flags: R
-  wear_flags: AG
+  extra_flags: 131072
+  wear_flags: 65
+  level: 0
+  weight: 3
+  cost: 0
   values:
   - 1
   - 1
   - 1
   - 0
   - 0
-  level: 0
-  weight: 3
-  cost: 0
   affects: []
   extra_descs:
   - keywords: boots
-    description: |
-      You see boots of great but cheap craftsmanship.  Imprinted on the side is:
-      Merc Industries
+    description: "You see boots of great but cheap craftsmanship.  Imprinted on the
+      side is:\n\rMerc Industries\n\r"
 - vnum: 3709
   name: gloves sub merc
   short_desc: a pair of sub issue gloves
   description: You see a pair of sub issue gloves here.
   material: none
   item_type: 9
-  extra_flags: R
-  wear_flags: AH
+  extra_flags: 131072
+  wear_flags: 129
+  level: 0
+  weight: 1
+  cost: 0
   values:
   - 1
   - 1
   - 1
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 0
   affects: []
   extra_descs:
   - keywords: gloves
-    description: |
-      You see gloves of great but cheap craftsmanship.  Imprinted on the side is:
-      Merc Industries
+    description: "You see gloves of great but cheap craftsmanship.  Imprinted on the
+      side is:\n\rMerc Industries\n\r"
 - vnum: 3710
   name: sleeves sub merc
   short_desc: a pair of sub issue sleeves
   description: You see a pair of sub issue sleeves here.
   material: none
   item_type: 9
-  extra_flags: R
-  wear_flags: AI
+  extra_flags: 131072
+  wear_flags: 257
+  level: 0
+  weight: 2
+  cost: 0
   values:
   - 1
   - 1
   - 1
   - 0
   - 0
-  level: 0
-  weight: 2
-  cost: 0
   affects: []
   extra_descs:
   - keywords: sleeves
-    description: |
-      You see sleeves of great but cheap craftsmanship.  Imprinted on the side is:
-      Merc Industries
+    description: "You see sleeves of great but cheap craftsmanship.  Imprinted on
+      the side is:\n\rMerc Industries\n\r"
 - vnum: 3711
   name: cape sub merc
   short_desc: a sub issue cape
   description: You see a sub issue cape here.
   material: none
   item_type: 9
-  extra_flags: R
-  wear_flags: AK
+  extra_flags: 131072
+  wear_flags: 1025
+  level: 0
+  weight: 2
+  cost: 0
   values:
   - 1
   - 1
   - 1
   - 0
   - 0
-  level: 0
-  weight: 2
-  cost: 0
   affects: []
   extra_descs:
   - keywords: cape
-    description: |
-      You see a cape of great but cheap craftsmanship.  Imprinted on the side is:
-      Merc Industries
+    description: "You see a cape of great but cheap craftsmanship.  Imprinted on the
+      side is:\n\rMerc Industries\n\r"
 - vnum: 3712
   name: belt sub merc
   short_desc: a sub issue belt
   description: You see a sub issue belt here.
   material: none
   item_type: 9
-  extra_flags: R
-  wear_flags: AL
+  extra_flags: 131072
+  wear_flags: 2049
+  level: 0
+  weight: 1
+  cost: 0
   values:
   - 1
   - 1
   - 1
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 0
   affects: []
   extra_descs:
   - keywords: belt
-    description: |
-      You see a belt of great but cheap craftsmanship.  Imprinted on the side is:
-      Merc Industries
+    description: "You see a belt of great but cheap craftsmanship.  Imprinted on the
+      side is:\n\rMerc Industries\n\r"
 - vnum: 3713
   name: bracer sub merc
   short_desc: a sub issue bracer
   description: You see a sub issue bracer here.
   material: none
   item_type: 9
-  extra_flags: R
-  wear_flags: AM
+  extra_flags: 131072
+  wear_flags: 4097
+  level: 0
+  weight: 1
+  cost: 0
   values:
   - 0
   - 1
   - 1
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 0
   affects: []
   extra_descs:
   - keywords: bracer
-    description: |
-      You see a bracer of great but cheap craftsmanship.  Imprinted on the side is:
-      Merc Industries
+    description: "You see a bracer of great but cheap craftsmanship.  Imprinted on
+      the side is:\n\rMerc Industries\n\r"
 - vnum: 3714
   name: key
   short_desc: a key
   description: You see a very important key here!
   material: none
   item_type: 18
-  extra_flags: P
-  wear_flags: A
+  extra_flags: 32768
+  wear_flags: 1
+  level: 0
+  weight: 1
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 3715
@@ -1341,80 +1285,77 @@ objects:
   description: You see a mud school diploma here.
   material: none
   item_type: 8
-  extra_flags: G
-  wear_flags: AO
+  extra_flags: 64
+  wear_flags: 16385
+  level: 0
+  weight: 1
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 0
   affects:
-  - where: O
-    location: 4
-    modifier: 1
-    bitvector: '0'
   - where: O
     location: 5
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 4
+    modifier: 1
+    bitvector: 0
   extra_descs:
   - keywords: diploma
-    description: |
-      This document shows that you have graduated from Mud School.
-      It also has magical effects on your abilities if you hold it!
-
-      Merc Industries
+    description: "This document shows that you have graduated from Mud School.\n\rIt
+      also has magical effects on your abilities if you hold it!\n\r\n\rMerc Industries\n\r"
 - vnum: 3716
   name: banner war merc
   short_desc: a war banner
   description: A war banner is on the floor here.
   material: none
   item_type: 1
-  extra_flags: AG
-  wear_flags: A
+  extra_flags: 65
+  wear_flags: 1
+  level: 0
+  weight: 2
+  cost: 0
   values:
   - 0
   - 0
   - 200
   - 0
   - 0
-  level: 0
-  weight: 2
-  cost: 0
   affects:
-  - where: O
-    location: 17
-    modifier: -1
-    bitvector: '0'
   - where: O
     location: 24
     modifier: -1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: -1
+    bitvector: 0
   extra_descs:
   - keywords: banner
-    description: |
-      This is the official Merc war banner to see you through the darkest realm!
+    description: "This is the official Merc war banner to see you through the darkest
+      realm!\n\r"
 - vnum: 3717
   name: axe sub merc
   short_desc: a sub issue axe
   description: You see a sub issue axe here.
   material: none
   item_type: 5
-  extra_flags: R
-  wear_flags: AN
+  extra_flags: 131072
+  wear_flags: 8193
+  level: 0
+  weight: 6
+  cost: 0
   values:
   - 5
   - 1
   - 6
   - 25
   - 0
-  level: 0
-  weight: 6
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 3718
@@ -1423,17 +1364,17 @@ objects:
   description: You see a sub issue staff here.
   material: none
   item_type: 5
-  extra_flags: R
-  wear_flags: AN
+  extra_flags: 131072
+  wear_flags: 8193
+  level: 0
+  weight: 6
+  cost: 0
   values:
   - 3
   - 1
   - 6
   - 27
   - 0
-  level: 0
-  weight: 6
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 3719
@@ -1442,17 +1383,17 @@ objects:
   description: You see a sub issue flail here.
   material: none
   item_type: 5
-  extra_flags: R
-  wear_flags: AN
+  extra_flags: 131072
+  wear_flags: 8193
+  level: 0
+  weight: 6
+  cost: 0
   values:
   - 6
   - 1
   - 6
   - 26
   - 0
-  level: 0
-  weight: 6
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 3720
@@ -1461,17 +1402,17 @@ objects:
   description: You see a sub issue whip here.
   material: none
   item_type: 5
-  extra_flags: R
-  wear_flags: AN
+  extra_flags: 131072
+  wear_flags: 8193
+  level: 0
+  weight: 6
+  cost: 0
   values:
   - 7
   - 1
   - 6
   - 4
   - 0
-  level: 0
-  weight: 6
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 3721
@@ -1480,2019 +1421,1802 @@ objects:
   description: You see a sub issue polearm here.
   material: none
   item_type: 5
-  extra_flags: R
-  wear_flags: AN
+  extra_flags: 131072
+  wear_flags: 8193
+  level: 0
+  weight: 8
+  cost: 0
   values:
   - 8
   - 1
   - 6
   - 1
   - 0
-  level: 0
-  weight: 8
-  cost: 0
   affects: []
   extra_descs: []
 rooms:
 - vnum: 3700
   name: Entrance to Mud School
-  description: |
-    This is the entrance to the Merc Mud School.  Go north to go through mud
-    school.  If you have been here before and want to go directly to the arena,
-    go south.
-
-    A sign warns 'You may not pass these doors once you have passed level 5.'
-  room_flags: CD
+  description: "This is the entrance to the Merc Mud School.  Go north to go through
+    mud\n\rschool.  If you have been here before and want to go directly to the arena,\n\rgo
+    south.\n\r\n\rA sign warns 'You may not pass these doors once you have passed
+    level 5.'\n\r"
+  room_flags: 12
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the doorway into the Mud School Building.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the doorway into the Mud School Building.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3757
   - dir: 2
-    desc: |
-      You see the one way door into the Arena of Mud School.
+    desc: "You see the one way door into the Arena of Mud School.\n\r"
     keywords: door
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 3744
   - dir: 5
-    desc: |
-      You see the Temple of Midgaard.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the Temple of Midgaard.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3001
   extra_descs: []
 - vnum: 3701
   name: A Room in Mud School
-  description: |
-    You are in a square white room.  The walls are all blank, with no windows.
-    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
-    sign on the wall.  The exits are west and south.  A small plaque is on the
-    wall.
-  room_flags: CDR
+  description: "You are in a square white room.  The walls are all blank, with no
+    windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
+    there is a\n\rsign on the wall.  The exits are west and south.  A small plaque
+    is on the\n\rwall.\n\r"
+  room_flags: 131084
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      You see a path into another room.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a path into another room.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3757
   - dir: 3
-    desc: |
-      You see a path into another room.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a path into another room.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3702
   extra_descs:
-  - keywords: sign
-    description: |
-      Equipment check time!  Type 'EQUIPMENT' to see your current equipment.  Right
-      now, you have just a vest, a shield, and a weapon.  As you go through Mud
-      School you will acquire a complete set of equipment.
-
-      To pick up items on the ground as you see them, type 'GET item'.
-      To wear a piece of armor, type 'WEAR item'.
-      To hold a light source, type 'HOLD item'.
-      To wield a weapon, type 'WIELD weapon'.
-      To wear, hold, and wield everything you have, type 'WEAR ALL'.
-      To stop using a piece of equipment, type 'REMOVE item'.
-      Finally, to see the items in your inventory, type 'INVENTORY'.
-
-      When you are ready to continue, go west.
   - keywords: plaque
-    description: |
-      This zone (Mud School) is created by Hatchet for any Merc Mud.
-      Copyright 1992, 1993.
+    description: "This zone (Mud School) is created by Hatchet for any Merc Mud.\n\rCopyright
+      1992, 1993.\n\r"
+  - keywords: sign
+    description: "Equipment check time!  Type 'EQUIPMENT' to see your current equipment.
+      \ Right\n\rnow, you have just a vest, a shield, and a weapon.  As you go through
+      Mud\n\rSchool you will acquire a complete set of equipment.\n\r\n\rTo pick up
+      items on the ground as you see them, type 'GET item'.\n\rTo wear a piece of
+      armor, type 'WEAR item'.\n\rTo hold a light source, type 'HOLD item'.\n\rTo
+      wield a weapon, type 'WIELD weapon'.\n\rTo wear, hold, and wield everything
+      you have, type 'WEAR ALL'.\n\rTo stop using a piece of equipment, type 'REMOVE
+      item'.\n\rFinally, to see the items in your inventory, type 'INVENTORY'.\n\r\n\rWhen
+      you are ready to continue, go west.\n\r"
 - vnum: 3702
   name: The Center Room
-  description: |
-    You are in a square white room.  The walls are all blank, with no windows.
-    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
-    sign on the wall.  Exits lead in ALL directions.
-  room_flags: CDR
+  description: "You are in a square white room.  The walls are all blank, with no
+    windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
+    there is a\n\rsign on the wall.  Exits lead in ALL directions.\n\r"
+  room_flags: 131084
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the room north that will lead you to the next section.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the room north that will lead you to the next section.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3703
   - dir: 1
-    desc: |
-      You see a room.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a room.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3701
   - dir: 2
-    desc: |
-      You see a room.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a room.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3705
   - dir: 3
-    desc: |
-      You see a room.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a room.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3704
   - dir: 4
-    desc: |
-      You see a room.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a room.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3708
   - dir: 5
-    desc: |
-      You see a room.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a room.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3707
   extra_descs:
   - keywords: sign
-    description: |
-      This is the direction practicing room.  The directions you can go in any
-      room are: north, south, east, west, up, or down.  Of course, not all rooms
-      have all exits available.
-
-      To see the obvious exits in a room, type 'EXITS'.
-
-      Sometimes doors are closed, or locked, or secret.  Then you have to notice
-      clues in the room description, or try going into that direction and seeing
-      if you bump into a door.
-
-      Try going into each direction from here.  When you are done, go NORTH.
+    description: "This is the direction practicing room.  The directions you can go
+      in any\n\rroom are: north, south, east, west, up, or down.  Of course, not all
+      rooms\n\rhave all exits available.\n\r\n\rTo see the obvious exits in a room,
+      type 'EXITS'.\n\r\n\rSometimes doors are closed, or locked, or secret.  Then
+      you have to notice\n\rclues in the room description, or try going into that
+      direction and seeing\n\rif you bump into a door.\n\r\n\rTry going into each
+      direction from here.  When you are done, go NORTH.\n\r"
 - vnum: 3703
   name: A Room in Mud School
-  description: |
-    You are in a square white room.  The walls are all blank, with no windows.
-    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
-    sign on the wall.  Exits lead north and south.
-  room_flags: CDR
+  description: "You are in a square white room.  The walls are all blank, with no
+    windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
+    there is a\n\rsign on the wall.  Exits lead north and south.\n\r"
+  room_flags: 131084
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the next station ahead.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the next station ahead.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3709
   - dir: 2
-    desc: |
-      You see the central room.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the central room.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3702
   extra_descs:
   - keywords: sign
-    description: |
-      Since you are here, let us have another lesson.  You can see the statistics on
-      yourself by typing 'SCORE'.  Do that right now.  At higher levels, 'SCORE'
-      gives you more information.
+    description: "Since you are here, let us have another lesson.  You can see the
+      statistics on\n\ryourself by typing 'SCORE'.  Do that right now.  At higher
+      levels, 'SCORE'\n\rgives you more information.\n\r"
 - vnum: 3704
   name: A Room in Mud School
-  description: |
-    You are in a square white room.  The walls are all blank, with no windows.
-    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
-    sign on the wall.  The only exit is east.
-  room_flags: CDR
+  description: "You are in a square white room.  The walls are all blank, with no
+    windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
+    there is a\n\rsign on the wall.  The only exit is east.\n\r"
+  room_flags: 131084
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see the central room.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the central room.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3702
   extra_descs:
   - keywords: sign
-    description: |
-      Just go east to the central room.
+    description: "Just go east to the central room.\n\r"
 - vnum: 3705
   name: A Room in Mud School
-  description: |
-    You are in a square white room.  The walls are all blank, with no windows.
-    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
-    sign on the wall.  The only exit is north.
-  room_flags: CDR
+  description: "You are in a square white room.  The walls are all blank, with no
+    windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
+    there is a\n\rsign on the wall.  The only exit is north.\n\r"
+  room_flags: 131084
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the central room.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the central room.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3702
   extra_descs:
   - keywords: sign
-    description: |
-      Just go north to the central room.
+    description: "Just go north to the central room.\n\r"
 - vnum: 3707
   name: A Room in Mud School
-  description: |
-    You are in a square white room.  The walls are all blank, with no windows.
-    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
-    sign on the wall.  The only exit is up.
-  room_flags: CDR
+  description: "You are in a square white room.  The walls are all blank, with no
+    windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
+    there is a\n\rsign on the wall.  The only exit is up.\n\r"
+  room_flags: 131084
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: |
-      You see the central room.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the central room.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3702
   extra_descs:
   - keywords: sign
-    description: |
-      Just go up to the central room.
+    description: "Just go up to the central room.\n\r"
 - vnum: 3708
   name: A Room in Mud School
-  description: |
-    You are in a square white room.  The walls are all blank, with no windows.
-    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
-    sign on the wall.  The only exit is down.
-  room_flags: CDR
+  description: "You are in a square white room.  The walls are all blank, with no
+    windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
+    there is a\n\rsign on the wall.  The only exit is down.\n\r"
+  room_flags: 131084
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 5
-    desc: |
-      You see the central room.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the central room.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3702
   extra_descs:
   - keywords: sign
-    description: |
-      Just go down to the central room.
+    description: "Just go down to the central room.\n\r"
 - vnum: 3709
   name: A Room in Mud School
-  description: |
-    You are in a square white room.  The walls are all blank, with no windows.
-    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
-    sign on the wall.  Exits reach west and down.
-  room_flags: CDR
+  description: "You are in a square white room.  The walls are all blank, with no
+    windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
+    there is a\n\rsign on the wall.  Exits reach west and down.\n\r"
+  room_flags: 131084
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: |
-      You see the next station of Mud School.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the next station of Mud School.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3711
   - dir: 5
-    desc: |
-      You see a cage.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a cage.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3710
   extra_descs:
   - keywords: sign
-    description: |
-      Welcome to combat training.
-
-      The first lesson is knowing whom to fight.  Use the command 'CONSIDER' to
-      consider killing a monster.  Avoid fighting monsters that will kill you
-      easily.
-
-      The second lesson is running away.  There is a monster in the room down.
-      He is too strong for you to kill, but he won't kill you.  So go 'DOWN' from
-      here, then 'CONSIDER' him, then 'KILL' him.  After a while, type 'FLEE' to
-      escape from him.
-
-      You can also set your character to flee automatically with the 'WIMPY' command.
-      Type 'HELP WIMPY' to find out more about 'WIMPY'.
-
-      After you flee, you will be back in this room.  When you are ready to go on
-      to the next station, go 'WEST'.
+    description: "Welcome to combat training.\n\r\n\rThe first lesson is knowing whom
+      to fight.  Use the command 'CONSIDER' to\n\rconsider killing a monster.  Avoid
+      fighting monsters that will kill you\n\reasily.\n\r\n\rThe second lesson is
+      running away.  There is a monster in the room down.\n\rHe is too strong for
+      you to kill, but he won't kill you.  So go 'DOWN' from\n\rhere, then 'CONSIDER'
+      him, then 'KILL' him.  After a while, type 'FLEE' to\n\rescape from him.\n\r\n\rYou
+      can also set your character to flee automatically with the 'WIMPY' command.\n\rType
+      'HELP WIMPY' to find out more about 'WIMPY'.\n\r\n\rAfter you flee, you will
+      be back in this room.  When you are ready to go on\n\rto the next station, go
+      'WEST'.\n\r"
 - vnum: 3710
   name: The Blob Cage
-  description: |
-    You are in a smelly cage.  Strangely, the walls are still clean!
-    You see a sign here.  The only exit is up.
-  room_flags: DR
+  description: "You are in a smelly cage.  Strangely, the walls are still clean!\n\rYou
+    see a sign here.  The only exit is up.\n\r"
+  room_flags: 131080
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: |
-      You see a safe room up.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a safe room up.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3709
   extra_descs:
   - keywords: sign
-    description: |
-      Remember, don't fight the blob to the finish!  Just type 'KILL BLOB', then
-      when you are fighting, type 'FLEE', until you flee and are out of here.
+    description: "Remember, don't fight the blob to the finish!  Just type 'KILL BLOB',
+      then\n\rwhen you are fighting, type 'FLEE', until you flee and are out of here.\n\r"
 - vnum: 3711
   name: A Room in Mud School
-  description: |
-    You are in a square white room.  The walls are all blank, with no windows.
-    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
-    sign on the wall.
-  room_flags: CDR
+  description: "You are in a square white room.  The walls are all blank, with no
+    windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
+    there is a\n\rsign on the wall.\n\r"
+  room_flags: 131084
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see the next station of Mud School.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the next station of Mud School.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3709
   - dir: 5
-    desc: |
-      You see the combat hall.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the combat hall.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3712
   extra_descs:
   - keywords: sign
-    description: |
-      Welcome to the next station.  Here, you will actually fight real monsters,
-      without fleeing!  Kill every mob, since they hold some equipment you need.
-      To start, go down.
+    description: "Welcome to the next station.  Here, you will actually fight real
+      monsters,\n\rwithout fleeing!  Kill every mob, since they hold some equipment
+      you need.\n\rTo start, go down.\n\r"
 - vnum: 3712
   name: The Cage Room
-  description: |
-    You are in the cage room.  All around are 4 cages.  Light fluoresces off the
-    ceiling in soft white tones.  Of course, there is a big sign on the wall.
-    Exits lead into the cardinal directions plus down.
-  room_flags: CDR
+  description: "You are in the cage room.  All around are 4 cages.  Light fluoresces
+    off the\n\rceiling in soft white tones.  Of course, there is a big sign on the
+    wall.\n\rExits lead into the cardinal directions plus down.\n\r"
+  room_flags: 131084
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the aggressive monster inside!
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the aggressive monster inside!\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3713
   - dir: 1
-    desc: |
-      You see the unmodified monster inside!
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the unmodified monster inside!\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3716
   - dir: 2
-    desc: |
-      You see the wimpy monster inside!
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the wimpy monster inside!\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3715
   - dir: 3
-    desc: |
-      You see the aggressive wimpy monster inside!
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the aggressive wimpy monster inside!\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3714
   - dir: 5
-    desc: |
-      You see the next station below.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the next station below.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3717
   extra_descs:
   - keywords: sign
-    description: |
-      Welcome to the cage room.  The adepts of mud school have captured some
-      monsters for you to kill.  In the four cages are four monsters of various
-      types.  Kill them all!
-
-      After you kill each monster, get all of the equipment from their corpses
-      with the command 'GET ALL CORPSE'.  You can then use the command 'WEAR ALL'
-      to wear your newly won equipment.
-
-      When you are done with the corpse, 'SACRIFICE CORPSE' to give it to your God.
-      God will reward you for this.
-
-      Between combat, you may need to rest or sleep to regenerate hit points.
-      You can 'REST' to regenerate hit points, or you can 'SLEEP'.  'SLEEP' will
-      refresh you faster than 'REST', but you will be less aware of your
-      surroundings.
+    description: "Welcome to the cage room.  The adepts of mud school have captured
+      some\n\rmonsters for you to kill.  In the four cages are four monsters of various\n\rtypes.
+      \ Kill them all!\n\r\n\rAfter you kill each monster, get all of the equipment
+      from their corpses\n\rwith the command 'GET ALL CORPSE'.  You can then use the
+      command 'WEAR ALL'\n\rto wear your newly won equipment.\n\r\n\rWhen you are
+      done with the corpse, 'SACRIFICE CORPSE' to give it to your God.\n\rGod will
+      reward you for this.\n\r\n\rBetween combat, you may need to rest or sleep to
+      regenerate hit points.\n\rYou can 'REST' to regenerate hit points, or you can
+      'SLEEP'.  'SLEEP' will\n\rrefresh you faster than 'REST', but you will be less
+      aware of your\n\rsurroundings.\n\r"
 - vnum: 3713
   name: A Cage
-  description: |
-    You are in a cage.  Blood and gore are everywhere.  The keepers must be lax
-    in the upkeep here!  There is a sign on the wall.  The only exit is south.
-  room_flags: DR
+  description: "You are in a cage.  Blood and gore are everywhere.  The keepers must
+    be lax\n\rin the upkeep here!  There is a sign on the wall.  The only exit is
+    south.\n\r"
+  room_flags: 131080
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      You see the Cage Room.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the Cage Room.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3712
   extra_descs:
   - keywords: sign
-    description: |
-      There is an aggressive monster in this room.  Kill him and get out of here
-      fast!  Remember to loot and sacrifice the corpse.
+    description: "There is an aggressive monster in this room.  Kill him and get out
+      of here\n\rfast!  Remember to loot and sacrifice the corpse.\n\r"
 - vnum: 3714
   name: A Cage
-  description: |
-    You are in a cage.  Blood and gore are everywhere.  The keepers must be lax
-    in the upkeep here!  There is a sign on the wall.  The only exit is east.
-  room_flags: DR
+  description: "You are in a cage.  Blood and gore are everywhere.  The keepers must
+    be lax\n\rin the upkeep here!  There is a sign on the wall.  The only exit is
+    east.\n\r"
+  room_flags: 131080
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see the Cage Room.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the Cage Room.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3712
   extra_descs:
   - keywords: sign
-    description: |
-      There is a wimpy, aggressive monster in this room.  Kill him and get out of
-      here fast!  Remember to loot and sacrifice the corpse.
+    description: "There is a wimpy, aggressive monster in this room.  Kill him and
+      get out of\n\rhere fast!  Remember to loot and sacrifice the corpse.\n\r"
 - vnum: 3715
   name: A Cage
-  description: |
-    You are in a cage.  Blood and gore are everywhere.  The keepers must be lax
-    in the upkeep here!  There is a sign on the wall.  The only exit is north.
-  room_flags: DR
+  description: "You are in a cage.  Blood and gore are everywhere.  The keepers must
+    be lax\n\rin the upkeep here!  There is a sign on the wall.  The only exit is
+    north.\n\r"
+  room_flags: 131080
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the Cage Room.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the Cage Room.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3712
   extra_descs:
   - keywords: sign
-    description: |
-      There is a wimpy monster in this room.  Kill him and get out of here fast!
-      Remember to loot and sacrifice the corpse.
+    description: "There is a wimpy monster in this room.  Kill him and get out of
+      here fast!\n\rRemember to loot and sacrifice the corpse.\n\r"
 - vnum: 3716
   name: A Cage
-  description: |
-    You are in a cage.  Blood and gore are everywhere.  The keepers must be lax
-    in the upkeep here!  There is a sign on the wall.  The only exit is west.
-  room_flags: DR
+  description: "You are in a cage.  Blood and gore are everywhere.  The keepers must
+    be lax\n\rin the upkeep here!  There is a sign on the wall.  The only exit is
+    west.\n\r"
+  room_flags: 131080
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: |
-      You see the Cage Room.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the Cage Room.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3712
   extra_descs:
   - keywords: sign
-    description: |
-      There is a monster in this room.  Kill him and get out of here fast!
-      Remember to loot and sacrifice the corpse.
+    description: "There is a monster in this room.  Kill him and get out of here fast!\n\rRemember
+      to loot and sacrifice the corpse.\n\r"
 - vnum: 3717
   name: A Room in Mud School
-  description: |
-    You are in a square white room.  The walls are all blank, with no windows.
-    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
-    sign on the wall.  Find your own exit here.
-  room_flags: CDR
+  description: "You are in a square white room.  The walls are all blank, with no
+    windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
+    there is a\n\rsign on the wall.  Find your own exit here.\n\r"
+  room_flags: 131084
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see the next station of Mud School.
+    desc: "You see the next station of Mud School.\n\r"
     keywords: door
-    exit_flags: AC
+    exit_flags: 9
     key: -1
     to_vnum: 3719
   - dir: 2
-    desc: |
-      You see the Shop.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the Shop.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3718
   - dir: 4
-    desc: |
-      You see the Cage room.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the Cage room.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 3712
   extra_descs:
   - keywords: sign
-    description: |
-      By now, you must be hungry and thirsty.  Time to buy groceries!
-      To the south is a store.  Inside the store, you can use these commands:
-
-          BUY    Buy an item
-          LIST   List what is for sale
-
-      After buying some food and drink, you can 'EAT' and 'DRINK' it.
-
-      After that, find the next exit yourself.
+    description: "By now, you must be hungry and thirsty.  Time to buy groceries!\n\rTo
+      the south is a store.  Inside the store, you can use these commands:\n\r\n\r
+      \   BUY    Buy an item\n\r    LIST   List what is for sale\n\r\n\rAfter buying
+      some food and drink, you can 'EAT' and 'DRINK' it.\n\r\n\rAfter that, find the
+      next exit yourself.\n\r"
 - vnum: 3718
   name: The Store in Mud School
-  description: |
-    You are in a cramped room.  Stacked neatly on shelves everywhere are items
-    and packages.  Light fluoresces off the ceiling in soft white tones.  Of
-    course, there is a sign on the wall.  The only exit is north.
-  room_flags: DR
+  description: "You are in a cramped room.  Stacked neatly on shelves everywhere are
+    items\n\rand packages.  Light fluoresces off the ceiling in soft white tones.
+    \ Of\n\rcourse, there is a sign on the wall.  The only exit is north.\n\r"
+  room_flags: 131080
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the only exit out of here.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the only exit out of here.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3717
   extra_descs:
   - keywords: sign
-    description: |
-      The sign reads:
-
-         Buy   - Buy something from the storekeeper.
-         List  - The storekeeper will tell you what's for sale.
-         Value - The storekeeper will tell you how much he will give to you for
-                 that item.
-         Sell  - Sell that item to the storekeeper.
+    description: "The sign reads:\n\r\n\r   Buy   - Buy something from the storekeeper.\n\r
+      \  List  - The storekeeper will tell you what's for sale.\n\r   Value - The
+      storekeeper will tell you how much he will give to you for\n\r           that
+      item.\n\r   Sell  - Sell that item to the storekeeper.\n\r"
 - vnum: 3719
   name: A Room in Mud School
-  description: |
-    You are in a square white room.  The walls are all blank, with no windows.
-    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
-    sign on the wall.  The exits are north and west, with a door to the east.
-  room_flags: CDR
+  description: "You are in a square white room.  The walls are all blank, with no
+    windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
+    there is a\n\rsign on the wall.  The exits are north and west, with a door to
+    the east.\n\r"
+  room_flags: 131084
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see a darkened room inside.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a darkened room inside.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3720
   - dir: 1
-    desc: |
-      You see the next station of Mud School.
+    desc: "You see the next station of Mud School.\n\r"
     keywords: door
-    exit_flags: AC
+    exit_flags: 15
     key: 3714
     to_vnum: 3721
   - dir: 3
-    desc: |
-      You see the room you just came from.
+    desc: "You see the room you just came from.\n\r"
     keywords: door
-    exit_flags: AC
+    exit_flags: 9
     key: -1
     to_vnum: 3717
   extra_descs:
   - keywords: sign
-    description: |
-      North of you is a dark room.  I hope you still have the lantern!  If not,
-      you have to back to the store and buy one.
-
-      In the room is a monster with a key that you need.  After killing the
-      monster and getting the key, come back here, UNLOCK EAST, OPEN EAST,
-      and continue east.
+    description: "North of you is a dark room.  I hope you still have the lantern!
+      \ If not,\n\ryou have to back to the store and buy one.\n\r\n\rIn the room is
+      a monster with a key that you need.  After killing the\n\rmonster and getting
+      the key, come back here, UNLOCK EAST, OPEN EAST,\n\rand continue east.\n\r"
 - vnum: 3720
   name: The Darkened Room
-  description: |
-    This room was purposefully darkened so that you would need to hold on to a
-    light source to go through.  The walls are, of course, blank, and white.
-    The only exit is south.
-  room_flags: ADR
+  description: "This room was purposefully darkened so that you would need to hold
+    on to a\n\rlight source to go through.  The walls are, of course, blank, and white.\n\rThe
+    only exit is south.\n\r"
+  room_flags: 131081
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      You see the room that you have come from.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the room that you have come from.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3719
   extra_descs: []
 - vnum: 3721
   name: The End of Mud School!
-  description: |
-    This is a very bright room, with a marble pedestal in the center.  Behind
-    the pedestal stands a person cloaked in Silver.  Tapestries flow from every
-    wall, and you feel very happy to be here right now.  There is a big sign here.
-    The only exit is on the other side of the gate north of you.
-  room_flags: DR
+  description: "This is a very bright room, with a marble pedestal in the center.
+    \ Behind\n\rthe pedestal stands a person cloaked in Silver.  Tapestries flow from
+    every\n\rwall, and you feel very happy to be here right now.  There is a big sign
+    here.\n\rThe only exit is on the other side of the gate north of you.\n\r"
+  room_flags: 131080
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the Arena ahead.
+    desc: "You see the Arena ahead.\n\r"
     keywords: gate
-    exit_flags: AC
+    exit_flags: 9
     key: -1
     to_vnum: 3722
   extra_descs:
   - keywords: sign
-    description: "You have graduated from Mud School!  Take your diploma...if you\
-      \ can.\nGo 'NORTH' from here to visit our arena.  There are plenty of low-level\n\
-      monsters, but DON'T attack other players.\n\nIf you want to go directly back\
-      \ to the temple at any time, type 'RECALL'.\n\nDon't forget to type save to\
-      \ protect your character.  You won't be saved after\nquitting until you reach\
-      \ level 2, so also type save before you type quit.\n\nIf you need more help\
-      \ during the game, type 'HELP'.  If you see something\nwrong or have comments,\
-      \ use 'NOTE WRITE' in the appropriate board to \nreport them.\n\nMay your visit\
-      \ here be ... mercenary.\n"
+    description: "You have graduated from Mud School!  Take your diploma...if you
+      can.\n\rGo 'NORTH' from here to visit our arena.  There are plenty of low-level\n\rmonsters,
+      but DON'T attack other players.\n\r\n\rIf you want to go directly back to the
+      temple at any time, type 'RECALL'.\n\r\n\rDon't forget to type save to protect
+      your character.  You won't be saved after\n\rquitting until you reach level
+      2, so also type save before you type quit.\n\r\n\rIf you need more help during
+      the game, type 'HELP'.  If you see something\n\rwrong or have comments, use
+      'NOTE WRITE' in the appropriate board to \n\rreport them.\n\r\n\rMay your visit
+      here be ... mercenary.\n\r"
 - vnum: 3722
   name: South Wall of Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3729
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3725
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3723
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3723
   name: South Wall of Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3728
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3722
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3724
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3724
   name: South West Corner of Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3727
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3723
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3725
   name: South Wall of Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3730
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3726
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3722
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3726
   name: South East Corner of Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3731
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3725
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3727
   name: West Wall of Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3732
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3728
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3724
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3728
   name: Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3733
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3729
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3723
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3727
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3729
   name: Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3734
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3730
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3722
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3728
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3730
   name: Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3735
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3731
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3725
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3729
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3731
   name: East Wall of Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3736
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3726
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3730
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3732
   name: West Wall of Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3737
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3733
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3727
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3733
   name: Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3738
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3734
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3728
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3732
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3734
   name: Center of Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.  There is a BIG SIGN here.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.  There is a BIG SIGN here.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3739
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3735
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3729
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3733
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   - dir: 5
-    desc: |
-      You see a dark murky dungeon below.
+    desc: "You see a dark murky dungeon below.\n\r"
     keywords: grate
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 3748
   extra_descs:
   - keywords: sign
-    description: |
-      Those with high bravery or low senses of cautiousness might wish to go below
-      to the Dungeon.  However, know that there are aggressive monsters down there,
-      and there is no quick escape back out of here when you are in the dungeon.
+    description: "Those with high bravery or low senses of cautiousness might wish
+      to go below\n\rto the Dungeon.  However, know that there are aggressive monsters
+      down there,\n\rand there is no quick escape back out of here when you are in
+      the dungeon.\n\r"
 - vnum: 3735
   name: Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3740
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3736
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3730
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3734
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3736
   name: East Wall of Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3741
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3731
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3735
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3737
   name: West Wall of Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3742
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3738
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3732
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3738
   name: Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3743
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3739
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3733
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3737
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3739
   name: Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3744
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3740
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3734
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3738
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3740
   name: Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3745
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3741
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3735
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3739
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3741
   name: East Wall of Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3746
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3736
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3740
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3742
   name: North West Corner of Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3743
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3737
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3743
   name: North Wall of Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  You can barely see the ceiling.  You feel as if you are being watched
-    by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  You can barely see the ceiling.  You feel as if you are being
+    watched\n\rby some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3744
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3738
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3742
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3744
   name: North Wall of Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3745
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3739
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3743
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3745
   name: North Wall of Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3746
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3740
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3744
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3746
   name: North East Corner of Arena
-  description: |
-    You are in the Arena.  Remember, if you wish to get out of this Arena, just
-    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
-    being watched by some divine being.
-  room_flags: D
+  description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
+    just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
+    you are\n\rbeing watched by some divine being.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3741
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3745
   - dir: 4
-    desc: |
-      You see the EXIT.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the EXIT.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3760
   extra_descs: []
 - vnum: 3748
   name: The Center of the Dungeon
-  description: |
-    You are in the center of a large room.  A faint light from above shows that
-    the floors are all covered with slime.  A feeling of dread comes over you as
-    you notice that this is NOT a great place to go.  Exits go in all directions.
-    Of special note is the one that brings you back up!!!
-  room_flags: D
+  description: "You are in the center of a large room.  A faint light from above shows
+    that\n\rthe floors are all covered with slime.  A feeling of dread comes over
+    you as\n\ryou notice that this is NOT a great place to go.  Exits go in all directions.\n\rOf
+    special note is the one that brings you back up!!!\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the north wall.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the north wall.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3750
   - dir: 1
-    desc: |
-      You see the east wall.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the east wall.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3753
   - dir: 2
-    desc: |
-      You see the south wall.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the south wall.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3755
   - dir: 3
-    desc: |
-      You see the west wall.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the west wall.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3752
   - dir: 4
-    desc: |
-      You see safety!
+    desc: "You see safety!\n\r"
     keywords: grate
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 3734
   extra_descs: []
 - vnum: 3749
   name: The North West Corner of the Dungeon
-  description: |
-    You are against a wall in the dungeon.  It is quite dark here.  The lack of
-    any windows in the area explains the smell around you.
-  room_flags: AD
+  description: "You are against a wall in the dungeon.  It is quite dark here.  The
+    lack of\n\rany windows in the area explains the smell around you.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see the north wall.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the north wall.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3750
   - dir: 2
-    desc: |
-      You see the south wall.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the south wall.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3752
   extra_descs: []
 - vnum: 3750
   name: The North Wall of the Dungeon
-  description: |
-    You are against a wall in the dungeon.  It is quite dark here.  The lack of
-    any windows in the area explains the smell around you.
-  room_flags: AD
+  description: "You are against a wall in the dungeon.  It is quite dark here.  The
+    lack of\n\rany windows in the area explains the smell around you.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see the north east corner.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the north east corner.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3751
   - dir: 2
-    desc: |
-      You see the center of the dungeon.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the center of the dungeon.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3748
   - dir: 3
-    desc: |
-      You see the north west corner.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the north west corner.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3749
   extra_descs: []
 - vnum: 3751
   name: The North East Corner of the Dungeon
-  description: |
-    You are against a wall in the dungeon.  It is quite dark here.  The lack of
-    any windows in the area explains the smell around you.
-  room_flags: AD
+  description: "You are against a wall in the dungeon.  It is quite dark here.  The
+    lack of\n\rany windows in the area explains the smell around you.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      You see the east wall.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the east wall.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3753
   - dir: 3
-    desc: |
-      You see the north wall.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the north wall.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3750
   extra_descs: []
 - vnum: 3752
   name: The West Wall of the Dungeon
-  description: |
-    You are against a wall in the dungeon.  It is quite dark here.  The lack of
-    any windows in the area explains the smell around you.
-  room_flags: AD
+  description: "You are against a wall in the dungeon.  It is quite dark here.  The
+    lack of\n\rany windows in the area explains the smell around you.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the north west corner.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the north west corner.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3749
   - dir: 1
-    desc: |
-      You see the center of the dungeon.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the center of the dungeon.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3748
   - dir: 2
-    desc: |
-      You see the south west corner.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the south west corner.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3754
   extra_descs: []
 - vnum: 3753
   name: The East Wall of the Dungeon
-  description: |
-    You are against a wall in the dungeon.  It is quite dark here.  The lack of
-    any windows in the area explains the smell around you.
-  room_flags: AD
+  description: "You are against a wall in the dungeon.  It is quite dark here.  The
+    lack of\n\rany windows in the area explains the smell around you.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the north east corner.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the north east corner.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3751
   - dir: 2
-    desc: |
-      You see the south east corner.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the south east corner.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3756
   - dir: 3
-    desc: |
-      You see the center of the dungeon.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the center of the dungeon.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3748
   extra_descs: []
 - vnum: 3754
   name: The South West Corner of the Dungeon
-  description: |
-    You are against a wall in the dungeon.  It is quite dark here.  The lack of
-    any windows in the area explains the smell around you.
-  room_flags: AD
+  description: "You are against a wall in the dungeon.  It is quite dark here.  The
+    lack of\n\rany windows in the area explains the smell around you.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the north wall.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the north wall.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3752
   - dir: 1
-    desc: |
-      You see the south wall.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the south wall.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3755
   extra_descs: []
 - vnum: 3755
   name: The South Wall of the Dungeon
-  description: |
-    You are against a wall in the dungeon.  It is quite dark here.  The lack of
-    any windows in the area explains the smell around you.
-  room_flags: AD
+  description: "You are against a wall in the dungeon.  It is quite dark here.  The
+    lack of\n\rany windows in the area explains the smell around you.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the center of the dungeon.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the center of the dungeon.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3748
   - dir: 1
-    desc: |
-      You see the south east corner.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the south east corner.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3756
   - dir: 3
-    desc: |
-      You see the south west corner.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the south west corner.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3754
   extra_descs: []
 - vnum: 3756
   name: The South East Corner of the Dungeon
-  description: |
-    You are against a wall in the dungeon.  It is quite dark here.  The lack of
-    any windows in the area explains the smell around you.
-  room_flags: AD
+  description: "You are against a wall in the dungeon.  It is quite dark here.  The
+    lack of\n\rany windows in the area explains the smell around you.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the east wall.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the east wall.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3753
   - dir: 3
-    desc: |
-      You see the south wall.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the south wall.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3755
   extra_descs: []
 - vnum: 3757
   name: A Room in Mud School
-  description: |
-    You are in a room in Mud School.  Paintings of the heroic graduates of mud
-    school adorn the walls. To the west is Furey's Training Room, and to the east
-    is Seth's Guild Room.  North of you is the next Station of Mud School.
-    There is a sign on the wall (type 'LOOK SIGN' to read it).
-  room_flags: CDR
+  description: "You are in a room in Mud School.  Paintings of the heroic graduates
+    of mud\n\rschool adorn the walls. To the west is Furey's Training Room, and to
+    the east\n\ris Seth's Guild Room.  North of you is the next Station of Mud School.\n\rThere
+    is a sign on the wall (type 'LOOK SIGN' to read it).\n\r"
+  room_flags: 131084
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the next station of Mud School.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the next station of Mud School.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3701
   - dir: 1
-    desc: |
-      You see Seth's Guild Room.  Go there to practice your skills.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see Seth's Guild Room.  Go there to practice your skills.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3759
   - dir: 2
-    desc: |
-      You see the entrance to Mud School.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the entrance to Mud School.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3700
   - dir: 3
-    desc: |
-      You see Furey's Training Room.  Go there to train your attributes.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see Furey's Training Room.  Go there to train your attributes.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3758
   extra_descs:
   - keywords: sign
-    description: |
-      To find out your attributes, type 'score'.  You can improve your attributes
-      in Furey's Training Room to the west.  You can practice your skills and spells
-      in Seth's Guild Room to the east.  You can continue through mud school by
-      going north.
-
-      If you are a new character, you should go 'WEST' from here, train your
-      abilities, and then come back here and go 'NORTH'.
+    description: "To find out your attributes, type 'score'.  You can improve your
+      attributes\n\rin Furey's Training Room to the west.  You can practice your skills
+      and spells\n\rin Seth's Guild Room to the east.  You can continue through mud
+      school by\n\rgoing north.\n\r\n\rIf you are a new character, you should go 'WEST'
+      from here, train your\n\rabilities, and then come back here and go 'NORTH'.\n\r"
 - vnum: 3758
   name: Furey's Training Room
-  description: "You are in Furey's Training Room.  Around you are all sorts of physical\n\
-    and mental training tools.  The whole room is filled with magic, holiness, \n\
-    and sweat.  There is a sign on the wall.\n"
-  room_flags: CDR
+  description: "You are in Furey's Training Room.  Around you are all sorts of physical\n\rand
+    mental training tools.  The whole room is filled with magic, holiness, \n\rand
+    sweat.  There is a sign on the wall.\n\r"
+  room_flags: 131084
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see the room you came from, and the room you should go to.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the room you came from, and the room you should go to.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3757
   extra_descs:
   - keywords: sign
-    description: "Welcome to Furey's Training Room.  Here you can train your attributes.\
-      \  To \ntrain an attribute, you need enough practices.  To find out how many\
-      \ practice\nsessions you have, type 'train' while you are in this room.  To\
-      \ train for a \nspecific attribute, type 'train <attr>' where attr is the first\
-      \ 3 letters of\nthe attribute you want increased.  Type 'help train' for more\
-      \ information.\n"
+    description: "Welcome to Furey's Training Room.  Here you can train your attributes.
+      \ To \n\rtrain an attribute, you need enough practices.  To find out how many
+      practice\n\rsessions you have, type 'train' while you are in this room.  To
+      train for a \n\rspecific attribute, type 'train <attr>' where attr is the first
+      3 letters of\n\rthe attribute you want increased.  Type 'help train' for more
+      information.\n\r"
 - vnum: 3759
   name: Seth's Guild Room
-  description: |
-    You are in a room filled with weapons, books, and many combat dummies, some
-    cut and stabbed many times, others burnt to a crisp.  The room is filled with
-    sweat and an aura of magic.  There is a sign on the wall.
-  room_flags: CDR
+  description: "You are in a room filled with weapons, books, and many combat dummies,
+    some\n\rcut and stabbed many times, others burnt to a crisp.  The room is filled
+    with\n\rsweat and an aura of magic.  There is a sign on the wall.\n\r"
+  room_flags: 131084
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: |
-      You see the room you came from and the room you should go to.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the room you came from and the room you should go to.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3757
   extra_descs:
   - keywords: sign
-    description: |
-      Welcome to Seth's Guild Room.  Here you will learn your skills and spells.
-      To find out what skills and spells you can practice and how many practice
-      sessions you have, type 'practice'.  To practice the specific skill, type
-      'practice <skill>', where 'skill' is the skill or spell you wish to practice.
-      Practicing increases the amount you know of that skill or spell, up to a
-      certain maximum.  When you have practiced all you wish to practice, go west.
+    description: "Welcome to Seth's Guild Room.  Here you will learn your skills and
+      spells.\n\rTo find out what skills and spells you can practice and how many
+      practice\n\rsessions you have, type 'practice'.  To practice the specific skill,
+      type\n\r'practice <skill>', where 'skill' is the skill or spell you wish to
+      practice.\n\rPracticing increases the amount you know of that skill or spell,
+      up to a\n\rcertain maximum.  When you have practiced all you wish to practice,
+      go west.\n\r"
 - vnum: 3760
   name: A Safe Room
-  description: "You are in a safe room, away from all the mean rabbits and snails\
-    \ of the\nArena.  You can rest here, and go up to go back to the Temple of Midgaard.\
-    \  \n"
-  room_flags: CD
+  description: "You are in a safe room, away from all the mean rabbits and snails
+    of the\n\rArena.  You can rest here, and go up to go back to the Temple of Midgaard.
+    \ \n\r"
+  room_flags: 12
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: |
-      You see the Temple of Midgaard.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the Temple of Midgaard.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3001
   extra_descs: []
 resets:
-- command: D
-  arg1: 3700
-  arg2: 2
-  arg3: 0
-- command: D
-  arg1: 3719
-  arg2: 1
-  arg3: 2
-- command: D
-  arg1: 3734
-  arg2: 5
-  arg3: 0
-- command: D
-  arg1: 3748
-  arg2: 4
-  arg3: 0
 - command: M
   arg1: 3700
   arg2: 1
@@ -3649,10 +3373,3 @@ shops:
   profit_sell: 100
   open_hour: 0
   close_hour: 23
-specials:
-- vnum: 3707
-  spec_fun: spec_cast_adept
-- vnum: 3708
-  spec_fun: spec_cast_adept
-- vnum: 3714
-  spec_fun: spec_fido

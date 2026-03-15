@@ -10,49 +10,47 @@ mobiles:
 - vnum: 8600
   keywords: keeper
   short_desc: the keeper
-  long_desc: |
-    The keeper of the Morris equipment is here.
-  description: |
-    Her job is to set the level for this equipment.
+  long_desc: "The keeper of the Morris equipment is here.\n\r"
+  description: "Her job is to set the level for this equipment.\n\r"
   race: Human
-  act: AT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524288
+  affected_by: 0
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 7
   hitroll: 0
   hit:
-    number: 1
-    type: 33
-    bonus: 61
+  - 1
+  - 33
+  - 61
   mana:
-    number: 7
-    type: 10
-    bonus: 100
+  - 7
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 6
-    bonus: 3
+  - 2
+  - 6
+  - 3
   dam_type: 11
   ac:
     pierce: 5
     bash: 5
     slash: 5
     exotic: 7
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 10
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 objects:
 - vnum: 8600
   name: bells morris leggings
@@ -60,1719 +58,1500 @@ objects:
   description: A set of leggings with a dozen brass bells sewn on has been left here.
   material: none
   item_type: 9
-  extra_flags: '0'
-  wear_flags: AF
+  extra_flags: 0
+  wear_flags: 33
+  level: 9
+  weight: 5
+  cost: 90
   values:
   - 4
   - 4
   - 4
   - 0
   - 0
-  level: 9
-  weight: 5
-  cost: 90
   affects: []
   extra_descs:
-  - keywords: bells morris
-    description: |
-      These are a set of sturdy leather leggings with small brass bells sewn on.
-      They look like the leggings worn by Morris dancers.  There is a motto tooled
-      into the leather.
   - keywords: motto
-    description: |
-      'Time on the ground is time wasted.'
+    description: "'Time on the ground is time wasted.'\n\r"
+  - keywords: bells morris
+    description: "These are a set of sturdy leather leggings with small brass bells
+      sewn on.\n\rThey look like the leggings worn by Morris dancers.  There is a
+      motto tooled\n\rinto the leather.\n\r"
 - vnum: 8601
   name: handkerchief hankie kerchief morris
   short_desc: a morris handkerchief
   description: A white handkerchief is here.
   material: none
   item_type: 9
-  extra_flags: '0'
-  wear_flags: AM
+  extra_flags: 0
+  wear_flags: 4097
+  level: 9
+  weight: 5
+  cost: 90
   values:
   - 4
   - 4
   - 4
   - 0
   - 0
-  level: 9
-  weight: 5
-  cost: 90
   affects: []
   extra_descs:
   - keywords: handkerchief hankie kerchief
-    description: |
-      This is a fine linen handkerchief used for ritual Morris dances.
+    description: "This is a fine linen handkerchief used for ritual Morris dances.\n\r"
 - vnum: 8602
   name: sash morris white
   short_desc: a morris sash
   description: A white sash is here.
   material: none
   item_type: 9
-  extra_flags: '0'
-  wear_flags: AL
+  extra_flags: 0
+  wear_flags: 2049
+  level: 9
+  weight: 5
+  cost: 90
   values:
   - 4
   - 4
   - 4
   - 0
   - 0
-  level: 9
-  weight: 5
-  cost: 90
   affects: []
   extra_descs:
   - keywords: sash
-    description: |
-      This is a fine linen sash used for ritual Morris dances.
+    description: "This is a fine linen sash used for ritual Morris dances.\n\r"
 - vnum: 8603
   name: staff morris
   short_desc: a morris staff
   description: A short, stout staff made of polished wood is here.
   material: none
   item_type: 4
-  extra_flags: '0'
-  wear_flags: AO
+  extra_flags: 0
+  wear_flags: 16385
+  level: 9
+  weight: 5
+  cost: 90
   values:
   - 10
   - 4
   - 4
-  - 34
+  - 65
   - 0
-  level: 9
-  weight: 5
-  cost: 90
   affects: []
   extra_descs:
   - keywords: stick staff
-    description: |
-      Made from the wood of a Yule Tree, this staff is about one meter long and
-      highly polished.  It looks more like a ritual device than a weapon.
+    description: "Made from the wood of a Yule Tree, this staff is about one meter
+      long and\n\rhighly polished.  It looks more like a ritual device than a weapon.\n\r"
 rooms:
 - vnum: 8600
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8606
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8603
-  - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8602
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8610
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8620
   - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8601
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8606
+  - dir: 3
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8603
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8620
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8602
   extra_descs: []
 - vnum: 8601
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8604
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 0
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8602
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8621
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8611
-  - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 3
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8600
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8607
   - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
-    to_vnum: 8621
-  - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8600
+    to_vnum: 8604
   extra_descs: []
 - vnum: 8602
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8600
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8612
   - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8608
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
-    to_vnum: 8605
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    to_vnum: 8600
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8622
   - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8605
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8612
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8601
   extra_descs: []
 - vnum: 8603
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8623
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8606
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8613
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 0
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8604
-  - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8600
-  - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8605
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8623
+  - dir: 3
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8613
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8600
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8606
   extra_descs: []
 - vnum: 8604
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: CN
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8196
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8603
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8614
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8605
-  - dir: 5
-    desc: |
-      You see an abandoned warehouse.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 3050
   - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8601
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8614
   - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8605
+  - dir: 3
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8607
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8603
+  - dir: 5
+    desc: "You see an abandoned warehouse.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 3050
   extra_descs: []
 - vnum: 8605
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8625
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8615
-  - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8604
   - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8602
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8603
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8608
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8625
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8602
+  - dir: 3
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8603
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8604
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8615
   extra_descs: []
 - vnum: 8606
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
+  - dir: 0
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8626
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8608
   - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8607
+  - dir: 3
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8603
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8600
   - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8626
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8616
-  - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8608
-  - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8603
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8607
   extra_descs: []
 - vnum: 8607
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8604
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8601
   - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8617
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8608
   - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8606
   - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8617
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8627
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8601
   extra_descs: []
 - vnum: 8608
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8618
-  - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8607
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8628
   - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8605
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8606
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8602
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8628
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8607
+  - dir: 3
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8605
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8618
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8606
   extra_descs: []
 - vnum: 8610
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8616
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8613
-  - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8612
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8611
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8620
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8600
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8620
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8611
+  - dir: 3
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8616
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8612
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8613
   extra_descs: []
 - vnum: 8611
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 0
+    desc: "You see the Road to Newfane.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
-    to_vnum: 8601
-  - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    to_vnum: 8630
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8610
   - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8614
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8612
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8621
-  - dir: 0
-    desc: |
-      You see the Road to Newfane.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 3
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
-    to_vnum: 8630
+    to_vnum: 8601
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8614
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8612
   extra_descs: []
 - vnum: 8612
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8622
   - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8618
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8602
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8610
-  - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8611
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8602
   - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8615
+  - dir: 3
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8618
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8610
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8622
   extra_descs: []
 - vnum: 8613
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 3
-    desc: |
-      You see a road by a pond.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8636
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8603
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 0
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8616
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8623
-  - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8610
   - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8614
+  - dir: 2
+    desc: "You see a road by a pond.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8636
+  - dir: 3
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8623
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8610
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8603
   extra_descs: []
 - vnum: 8614
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 0
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8613
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8617
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8624
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8604
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
-    to_vnum: 8615
-  - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    to_vnum: 8624
+  - dir: 3
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8611
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8617
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8615
   extra_descs: []
 - vnum: 8615
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8614
   - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8612
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8625
   - dir: 1
-    desc: |
-      You see a large dance hall.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8612
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8614
+  - dir: 3
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8605
+  - dir: 4
+    desc: "You see a large dance hall.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8632
   - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8605
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8618
   extra_descs: []
 - vnum: 8616
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8617
-  - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8618
   - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8613
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8610
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
-    to_vnum: 8626
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    to_vnum: 8617
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8613
+  - dir: 3
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8606
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8618
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8626
   extra_descs: []
 - vnum: 8617
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 2
-    desc: |
-      You see a small hall.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8634
   - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8614
-  - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8616
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8627
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8618
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8607
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8627
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8616
+  - dir: 3
+    desc: "You see a small hall.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8634
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8614
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8618
   extra_descs: []
 - vnum: 8618
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8608
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8612
-  - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 0
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8617
-  - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8615
   - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8612
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8616
+  - dir: 3
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8608
   - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8615
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8628
   extra_descs: []
 - vnum: 8620
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8621
   - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
-    to_vnum: 8626
+    to_vnum: 8622
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8610
   - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8623
   - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
-    to_vnum: 8622
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8610
+    to_vnum: 8626
   - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8600
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8621
   extra_descs: []
 - vnum: 8621
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 0
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8622
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8624
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8611
   - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8620
-  - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8627
   - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8620
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8601
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8622
   extra_descs: []
 - vnum: 8622
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
-    to_vnum: 8628
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    to_vnum: 8621
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8625
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8620
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8602
   - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
-    to_vnum: 8621
+    to_vnum: 8620
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8628
   - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8612
   extra_descs: []
 - vnum: 8623
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 0
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8625
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8613
-  - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8620
   - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8625
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8626
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8624
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8603
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8624
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8626
   extra_descs: []
 - vnum: 8624
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8623
-  - dir: 4
-    desc: |
-      You see a mountain ridge against the sky.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8638
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8627
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 0
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8625
-  - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8623
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8627
+  - dir: 3
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8621
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8614
+  - dir: 5
+    desc: "You see a mountain ridge against the sky.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8638
   extra_descs: []
 - vnum: 8625
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8605
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 0
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8623
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8628
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8615
-  - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8622
-  - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8624
+  - dir: 3
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8615
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8605
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8628
   extra_descs: []
 - vnum: 8626
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8620
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8606
-  - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8628
   - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8623
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8627
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8616
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8627
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8620
+  - dir: 3
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8606
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8628
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8623
   extra_descs: []
 - vnum: 8627
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8617
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8621
   - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8624
-  - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8628
-  - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8626
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8607
+  - dir: 1
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8626
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8621
+  - dir: 3
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8617
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8628
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8624
   extra_descs: []
 - vnum: 8628
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: N
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 8192
   sector: 2
-  owner: ''
+  owner:
   exits:
-  - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8627
-  - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8618
   - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8625
-  - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8622
-  - dir: 4
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
-    key: 0
-    to_vnum: 8608
   - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8618
+  - dir: 2
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8626
+  - dir: 3
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8627
+  - dir: 4
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8622
+  - dir: 5
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 8608
   extra_descs: []
 - vnum: 8630
   name: Road to Newfane
-  description: |
-    You are on a gently curving north-south road.  On your east side a youthful
-    river sparkles blue and rushes in the sunlight.  On the west, green leaves and
-    green ferns burst against the rich brown earth.  You feel the heat of your
-    healthy muscles as you travel swiftly down the well-paved road.
-    You may recall now if you like.
-  room_flags: '0'
+  description: "You are on a gently curving north-south road.  On your east side a
+    youthful\n\rriver sparkles blue and rushes in the sunlight.  On the west, green
+    leaves and\n\rgreen ferns burst against the rich brown earth.  You feel the heat
+    of your\n\rhealthy muscles as you travel swiftly down the well-paved road.\n\rYou
+    may recall now if you like.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see a village square.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a village square.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8631
   - dir: 2
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8611
   extra_descs: []
 - vnum: 8631
   name: Newfane Village Square
-  description: |
-    You are on the lawn of the village square of Newfane, resting against an oak
-    after your vigorous journey.  The late spring breeze feels warm and sensuous
-    on your body.  An Ale is in progress: you spy more than a dozen fiddlers and
-    hundreds of Morris Dancers dressed in white cotton and wearing colorful hats
-    and bells.
-  room_flags: '0'
+  description: "You are on the lawn of the village square of Newfane, resting against
+    an oak\n\rafter your vigorous journey.  The late spring breeze feels warm and
+    sensuous\n\ron your body.  An Ale is in progress: you spy more than a dozen fiddlers
+    and\n\rhundreds of Morris Dancers dressed in white cotton and wearing colorful
+    hats\n\rand bells.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      You see the Road to Newfane.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the Road to Newfane.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8630
   extra_descs: []
 - vnum: 8632
   name: A Large Dance Hall
-  description: |
-    You are inside a large dance hall with a very polished, very slippery wooden
-    floor.  You see three long lines of dancers, alternating men and women, in
-    some sort of progressive country dance.  Two fiddlers, a flautist, and a
-    harpsichord player provide the music.  You hear scattered screams of joy
-    from the dancers.
-    You may recall now if you like.
-  room_flags: '0'
+  description: "You are inside a large dance hall with a very polished, very slippery
+    wooden\n\rfloor.  You see three long lines of dancers, alternating men and women,
+    in\n\rsome sort of progressive country dance.  Two fiddlers, a flautist, and a\n\rharpsichord
+    player provide the music.  You hear scattered screams of joy\n\rfrom the dancers.\n\rYou
+    may recall now if you like.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8615
   extra_descs:
   - keywords: dancer dancers
-    description: |
-      The dancers have been here all night and intend to dance until dawn.
+    description: "The dancers have been here all night and intend to dance until dawn.\n\r"
 - vnum: 8634
   name: A Small Hall
-  description: |
-    You are inside a small hall with a rough wooden floor.  You see dozens of
-    people in the hall chasing one poor man who is yelling at the top of
-    his lungs.  Wait a minute.  These people are all holding hands and smiling!
-    The man in front is leading them in a spiral!  They're DANCING!  And you
-    thought people didn't dance like this any more!
-    You may recall now if you like.
-  room_flags: '0'
+  description: "You are inside a small hall with a rough wooden floor.  You see dozens
+    of\n\rpeople in the hall chasing one poor man who is yelling at the top of\n\rhis
+    lungs.  Wait a minute.  These people are all holding hands and smiling!\n\rThe
+    man in front is leading them in a spiral!  They're DANCING!  And you\n\rthought
+    people didn't dance like this any more!\n\rYou may recall now if you like.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8617
   extra_descs: []
 - vnum: 8636
   name: Road by a Pond
-  description: |
-    You are passing by a large pond, almost a small lake.  You notice a small
-    wooden shack by the side of the road.
-    You may recall now if you like.
-  room_flags: '0'
+  description: "You are passing by a large pond, almost a small lake.  You notice
+    a small\n\rwooden shack by the side of the road.\n\rYou may recall now if you
+    like.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8613
   - dir: 3
-    desc: |
-      You see a wooden church set back among the trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a wooden church set back among the trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8637
   extra_descs:
   - keywords: shack
-    description: |
-      The shack looks hand-made by an amateur.
+    description: "The shack looks hand-made by an amateur.\n\r"
 - vnum: 8637
   name: An Old Wooden Church
-  description: |
-    As you enter the hall, you see the largest crowd of people you've ever seen in
-    your life.  They're also the noisiest crowd you've ever heard, and as they
-    press around you, the SWEATIEST crowd you've ever felt!  At the front of the
-    hall, a group of musicians are playing 'Chorus Jig'.
-  room_flags: '0'
+  description: "As you enter the hall, you see the largest crowd of people you've
+    ever seen in\n\ryour life.  They're also the noisiest crowd you've ever heard,
+    and as they\n\rpress around you, the SWEATIEST crowd you've ever felt!  At the
+    front of the\n\rhall, a group of musicians are playing 'Chorus Jig'.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see a road by a pond.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a road by a pond.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8636
   extra_descs: []
 - vnum: 8638
   name: Mountain Road
-  description: |
-    You are following a road at the top of a mountain ridge with sky all around
-    you.  Distant valleys are spread out below you on both sides.  There are
-    many horsemen and horsewomen on this road, riding hell-for-leather out of
-    sheer exhilaration.  You wish you had a horse!
-    You may recall now if you like.
-  room_flags: '0'
+  description: "You are following a road at the top of a mountain ridge with sky all
+    around\n\ryou.  Distant valleys are spread out below you on both sides.  There
+    are\n\rmany horsemen and horsewomen on this road, riding hell-for-leather out
+    of\n\rsheer exhilaration.  You wish you had a horse!\n\rYou may recall now if
+    you like.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: |
-      You see several acres of thickly planted, very young Yule Trees.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see several acres of thickly planted, very young Yule Trees.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8639
   - dir: 5
-    desc: |
-      You see machine dreams and taste violet phosphor.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see machine dreams and taste violet phosphor.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8624
   extra_descs: []
 - vnum: 8639
   name: Yule Tree Farm
-  description: |
-    This is the Yule Tree Farm at the top of Mountain Road.  All around you,
-    young Yule Trees saturate your senses with dark green needles and pine
-    essence.
-  room_flags: '0'
+  description: "This is the Yule Tree Farm at the top of Mountain Road.  All around
+    you,\n\ryoung Yule Trees saturate your senses with dark green needles and pine\n\ressence.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 5
-    desc: |
-      You see a mountain ridge against the sky.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a mountain ridge against the sky.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 8638
   extra_descs: []
 - vnum: 8699
   name: The Void
-  description: |
-    You are suspended in cool electric space above a translucent plain.  You feel
-    synesthesia invading your nerves and reshuffling your senses.  The sky is the
-    same obsidian color as the ground and you can't find a horizon.
-  room_flags: CL
+  description: "You are suspended in cool electric space above a translucent plain.
+    \ You feel\n\rsynesthesia invading your nerves and reshuffling your senses.  The
+    sky is the\n\rsame obsidian color as the ground and you can't find a horizon.\n\r"
+  room_flags: 2052
   sector: 2
-  owner: ''
+  owner:
   exits: []
   extra_descs: []
 resets:
@@ -1908,3 +1687,4 @@ resets:
   arg1: 8600
   arg2: 1
   arg3: 8699
+shops: []

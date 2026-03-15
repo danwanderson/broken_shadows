@@ -10,1123 +10,1100 @@ mobiles:
 - vnum: 10600
   keywords: guard Lileak mean nastier
   short_desc: A Nasty Lileak Guard
-  long_desc: |
-    A guard of the Lileak Kingdom stands here, and she looks ticked.
-  description: "She looks at you, and you get this feeling that charming your way\
-    \ into\nthe Kingdom isn't going to work.  \n"
+  long_desc: "A guard of the Lileak Kingdom stands here, and she looks ticked.\n\r"
+  description: "She looks at you, and you get this feeling that charming your way
+    into\n\rthe Kingdom isn't going to work.  \n\r"
   race: Human
-  act: ABS
-  affected_by: DHNV
-  affected2_by: '0'
+  act: 262146
+  affected_by: 2105480
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 100
   hitroll: 310
   hit:
-    number: 35
-    type: 430
-    bonus: 3500
+  - 35
+  - 430
+  - 3500
   mana:
-    number: 10
-    type: 21
-    bonus: 2
+  - 10
+  - 21
+  - 2
   damage:
-    number: 10
-    type: 20
-    bonus: 1
+  - 10
+  - 20
+  - 1
   dam_type: 2
   ac:
     pierce: -80
     bash: -80
     slash: -80
     exotic: -77
-  off_flags: IKQTV
-  imm_flags: AB
-  res_flags: JQ
-  vuln_flags: P
+  off_flags: 2688256
+  imm_flags: 3
+  res_flags: 66048
+  vuln_flags: 32768
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 3231997
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: L
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 10601
   keywords: Lileak guard noble
   short_desc: A Lileak Guard
-  long_desc: |
-    A guard from the Lileak Kingdom stands here looking stern.
-  description: "A guard of the Lileak Kingdom stands here, stern, and demands to know\
-    \ why\nyou are present here.  \n\n"
+  long_desc: "A guard from the Lileak Kingdom stands here looking stern.\n\r"
+  description: "A guard of the Lileak Kingdom stands here, stern, and demands to know
+    why\n\ryou are present here.  \n\r\n\r"
   race: Human
-  act: ABGT
-  affected_by: DFHZ
-  affected2_by: '0'
+  act: 524354
+  affected_by: 33554600
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 100
   hitroll: 300
   hit:
-    number: 35
-    type: 450
-    bonus: 3500
+  - 35
+  - 450
+  - 3500
   mana:
-    number: 100
-    type: 10
-    bonus: 100
+  - 100
+  - 10
+  - 100
   damage:
-    number: 10
-    type: 21
-    bonus: 1
+  - 10
+  - 21
+  - 1
   dam_type: 21
   ac:
     pierce: -30
     bash: -30
     slash: -30
     exotic: -12
-  off_flags: DFQTV
-  imm_flags: L
-  res_flags: B
-  vuln_flags: '0'
+  off_flags: 2687016
+  imm_flags: 2048
+  res_flags: 2
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1231997
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: G
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 10602
   keywords: Sturm shopkeeper dude
   short_desc: Sturm the shopkeep
-  long_desc: |
-    Sturm, the keeper of the shop, looks at you nerviously.
-  description: "Looking at the mysterious shopkeeper, you feel the evil wrath about\
-    \ him\nand his goods.  \n"
+  long_desc: "Sturm, the keeper of the shop, looks at you nerviously.\n\r"
+  description: "Looking at the mysterious shopkeeper, you feel the evil wrath about
+    him\n\rand his goods.  \n\r"
   race: Human
-  act: AB
-  affected_by: V
-  affected2_by: '0'
+  act: 2
+  affected_by: 2097152
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 75
   hitroll: 100
   hit:
-    number: 21
-    type: 400
-    bonus: 2000
+  - 21
+  - 400
+  - 2000
   mana:
-    number: 100
-    type: 10
-    bonus: 80
+  - 100
+  - 10
+  - 80
   damage:
-    number: 10
-    type: 20
-    bonus: 0
+  - 10
+  - 20
+  - 0
   dam_type: 0
   ac:
     pierce: -40
     bash: -40
     slash: -40
     exotic: -40
-  off_flags: IKO
-  imm_flags: AB
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 17664
+  imm_flags: 3
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 10
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 10603
   keywords: Xalis
   short_desc: Xalis
-  long_desc: |
-    Young Xalis is here, showing you ancient papers for a price.
-  description: "Handsome young Xalis, son of the wealthy Ghontihs, stands here quietly\n\
-    and alertly, asking if you need assistance.  \n"
+  long_desc: "Young Xalis is here, showing you ancient papers for a price.\n\r"
+  description: "Handsome young Xalis, son of the wealthy Ghontihs, stands here quietly\n\rand
+    alertly, asking if you need assistance.  \n\r"
   race: Human
-  act: AB
-  affected_by: H
-  affected2_by: '0'
+  act: 2
+  affected_by: 128
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 75
   hitroll: 200
   hit:
-    number: 21
-    type: 400
-    bonus: 2100
+  - 21
+  - 400
+  - 2100
   mana:
-    number: 100
-    type: 10
-    bonus: 100
+  - 100
+  - 10
+  - 100
   damage:
-    number: 10
-    type: 21
-    bonus: 1
+  - 10
+  - 21
+  - 1
   dam_type: 0
   ac:
     pierce: -30
     bash: -30
     slash: -30
     exotic: -25
-  off_flags: DM
-  imm_flags: B
-  res_flags: CF
-  vuln_flags: H
+  off_flags: 4104
+  imm_flags: 2
+  res_flags: 36
+  vuln_flags: 128
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 2017
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 10604
   keywords: Lileak Citizen
   short_desc: Lileak citizen
-  long_desc: |
-    A wealthy citizen rushes past you.
-  description: "Giving only a glance in your direction, he rushes off to his destination,\n\
-    carrying a briefcase and coffee.  \n"
+  long_desc: "A wealthy citizen rushes past you.\n\r"
+  description: "Giving only a glance in your direction, he rushes off to his destination,\n\rcarrying
+    a briefcase and coffee.  \n\r"
   race: Human
-  act: AG
-  affected_by: V
-  affected2_by: '0'
+  act: 64
+  affected_by: 2097152
+  affected2_by: 0
   alignment: 600
   clan: 0
   level: 61
   hitroll: 400
   hit:
-    number: 11
-    type: 291
-    bonus: 292
+  - 11
+  - 291
+  - 292
   mana:
-    number: 10
-    type: 10
-    bonus: 30
+  - 10
+  - 10
+  - 30
   damage:
-    number: 6
-    type: 11
-    bonus: 21
+  - 6
+  - 11
+  - 21
   dam_type: 17
   ac:
     pierce: -36
     bash: -36
     slash: -36
     exotic: -30
-  off_flags: IK
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 1280
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 100
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 10605
   keywords: a mounted policeman
   short_desc: a mounted policeman
-  long_desc: |
-    A policeman watches the bustle of the marketplace atop a rich, mocha colored horse.
-  description: "Acting as overseer and protector of the inhabitants of Lileak, he\
-    \ gives\nyou a gentle nod and continues to trot on through the marketplace.  \n"
+  long_desc: "A policeman watches the bustle of the marketplace atop a rich, mocha
+    colored horse.\n\r"
+  description: "Acting as overseer and protector of the inhabitants of Lileak, he
+    gives\n\ryou a gentle nod and continues to trot on through the marketplace.  \n\r"
   race: Human
-  act: AGQ
-  affected_by: a
-  affected2_by: '0'
+  act: 65600
+  affected_by: 67108864
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 80
   hitroll: 450
   hit:
-    number: 11
-    type: 677
-    bonus: 2070
+  - 11
+  - 677
+  - 2070
   mana:
-    number: 100
-    type: 100
-    bonus: 30
+  - 100
+  - 100
+  - 30
   damage:
-    number: 8
-    type: 13
-    bonus: 29
+  - 8
+  - 13
+  - 29
   dam_type: 7
   ac:
     pierce: -11
     bash: -11
     slash: -11
     exotic: -10
-  off_flags: E
-  imm_flags: N
-  res_flags: Q
-  vuln_flags: M
+  off_flags: 16
+  imm_flags: 8192
+  res_flags: 65536
+  vuln_flags: 4096
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 110
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: L
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 10606
   keywords: maid french
   short_desc: a maid
-  long_desc: |
-    A french maid sweeps some dust off the crystal vases.
-  description: "She is cute, very cute, wearing a form fitting classic french maid's\n\
-    outfit.  Almost the epitomy of the perfect woman for a man to have clean his\n\
-    home.  \n"
+  long_desc: "A french maid sweeps some dust off the crystal vases.\n\r"
+  description: "She is cute, very cute, wearing a form fitting classic french maid's\n\routfit.
+    \ Almost the epitomy of the perfect woman for a man to have clean his\n\rhome.
+    \ \n\r"
   race: Human
-  act: AHR
-  affected_by: Q
-  affected2_by: '0'
+  act: 131200
+  affected_by: 65536
+  affected2_by: 0
   alignment: 130
   clan: 0
   level: 55
   hitroll: 300
   hit:
-    number: 11
-    type: 216
-    bonus: 1211
+  - 11
+  - 216
+  - 1211
   mana:
-    number: 100
-    type: 100
-    bonus: 100
+  - 100
+  - 100
+  - 100
   damage:
-    number: 6
-    type: 10
-    bonus: 27
+  - 6
+  - 10
+  - 27
   dam_type: 16
   ac:
     pierce: -40
     bash: -40
     slash: -39
     exotic: -36
-  off_flags: FJ
-  imm_flags: '0'
-  res_flags: S
-  vuln_flags: Q
+  off_flags: 544
+  imm_flags: 0
+  res_flags: 262144
+  vuln_flags: 65536
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 150
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: S
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 10607
   keywords: servant
   short_desc: a servant
-  long_desc: |
-    A young servant walks calmly past you, wearing a salad bowl on his head.
-  description: "He looks surprised to see anyone around these halls, and walks past\
-    \ you\nwith graceful humility.  Some salad dressing drips down his back, lettuce\
-    \ is\ncaught in his lapel, and he hasn't bothered to remove the bowl carefully\n\
-    perched on his head.  \n"
+  long_desc: "A young servant walks calmly past you, wearing a salad bowl on his head.\n\r"
+  description: "He looks surprised to see anyone around these halls, and walks past
+    you\n\rwith graceful humility.  Some salad dressing drips down his back, lettuce
+    is\n\rcaught in his lapel, and he hasn't bothered to remove the bowl carefully\n\rperched
+    on his head.  \n\r"
   race: Human
-  act: AGT
-  affected_by: TW
-  affected2_by: '0'
+  act: 524352
+  affected_by: 4718592
+  affected2_by: 0
   alignment: 500
   clan: 0
   level: 70
   hitroll: 200
   hit:
-    number: 11
-    type: 443
-    bonus: 1629
+  - 11
+  - 443
+  - 1629
   mana:
-    number: 100
-    type: 100
-    bonus: 100
+  - 100
+  - 100
+  - 100
   damage:
-    number: 7
-    type: 12
-    bonus: 29
+  - 7
+  - 12
+  - 29
   dam_type: 27
   ac:
     pierce: -23
     bash: -23
     slash: -23
     exotic: -20
-  off_flags: CDN
-  imm_flags: '0'
-  res_flags: P
-  vuln_flags: S
+  off_flags: 8204
+  imm_flags: 0
+  res_flags: 32768
+  vuln_flags: 262144
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 500
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 10608
   keywords: cook
   short_desc: a cook
-  long_desc: |
-    A cook is here, chopping onions in the air with finesse.
-  description: ''
+  long_desc: "A cook is here, chopping onions in the air with finesse.\n\r"
+  description:
   race: Human
-  act: ABGRT
-  affected_by: AH
-  affected2_by: '0'
+  act: 655426
+  affected_by: 129
+  affected2_by: 0
   alignment: -300
   clan: 0
   level: 80
   hitroll: 100
   hit:
-    number: 11
-    type: 677
-    bonus: 2070
+  - 11
+  - 677
+  - 2070
   mana:
-    number: 100
-    type: 100
-    bonus: 100
+  - 100
+  - 100
+  - 100
   damage:
-    number: 8
-    type: 13
-    bonus: 28
+  - 8
+  - 13
+  - 28
   dam_type: 1
   ac:
     pierce: -20
     bash: -20
     slash: -20
     exotic: -18
-  off_flags: DEN
-  imm_flags: '0'
-  res_flags: J
-  vuln_flags: I
+  off_flags: 8216
+  imm_flags: 0
+  res_flags: 512
+  vuln_flags: 256
   start_pos: 8
   default_pos: 8
   sex: 3
   gold: 600
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: L
   material: none
   spec_fun: spec_breath_gas
 - vnum: 10609
   keywords: soap scum monster
   short_desc: a soap scum monster
-  long_desc: |
-    A ball of soap scum is here, threatening to gross you out to death!
-  description: "Whoa, this must be what happens when you forget to wash the bathroom\n\
-    often!  It moves towards you, gooey and dirty.  \n"
+  long_desc: "A ball of soap scum is here, threatening to gross you out to death!\n\r"
+  description: "Whoa, this must be what happens when you forget to wash the bathroom\n\roften!
+    \ It moves towards you, gooey and dirty.  \n\r"
   race: Human
-  act: ABR
-  affected_by: K
-  affected2_by: '0'
+  act: 131074
+  affected_by: 1024
+  affected2_by: 0
   alignment: -500
   clan: 0
   level: 88
   hitroll: 120
   hit:
-    number: 12
-    type: 921
-    bonus: 2466
+  - 12
+  - 921
+  - 2466
   mana:
-    number: 100
-    type: 100
-    bonus: 100
+  - 100
+  - 100
+  - 100
   damage:
-    number: 8
-    type: 16
-    bonus: 25
+  - 8
+  - 16
+  - 25
   dam_type: 13
   ac:
     pierce: -20
     bash: -20
     slash: -20
     exotic: -17
-  off_flags: JX
-  imm_flags: Q
-  res_flags: S
-  vuln_flags: HR
+  off_flags: 8389120
+  imm_flags: 65536
+  res_flags: 262144
+  vuln_flags: 131200
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 700
-  form: AHMSV
-  parts: ABCDEFGHIJKV
+  form: 262144
+  parts: 2097152
   size: L
   material: none
   spec_fun: spec_breath_gas
 - vnum: 10610
   keywords: waltzing couple
   short_desc: a waltzing couple
-  long_desc: |
-    A graceful couple waltzes past you.
-  description: "Their faces are serious and rigid, yet their movements across the\n\
-    flawless ballroom floor are graceful.  They are definitely upper class\ncitizens,\
-    \ judging from the expensive jewelry and dress.  \n"
+  long_desc: "A graceful couple waltzes past you.\n\r"
+  description: "Their faces are serious and rigid, yet their movements across the\n\rflawless
+    ballroom floor are graceful.  They are definitely upper class\n\rcitizens, judging
+    from the expensive jewelry and dress.  \n\r"
   race: Human
-  act: ABHQ
-  affected_by: PV
-  affected2_by: '0'
+  act: 65666
+  affected_by: 2129920
+  affected2_by: 0
   alignment: 300
   clan: 0
   level: 84
   hitroll: 140
   hit:
-    number: 12
-    type: 792
-    bonus: 2263
+  - 12
+  - 792
+  - 2263
   mana:
-    number: 100
-    type: 100
-    bonus: 100
+  - 100
+  - 100
+  - 100
   damage:
-    number: 8
-    type: 15
-    bonus: 23
+  - 8
+  - 15
+  - 23
   dam_type: 17
   ac:
     pierce: -20
     bash: -20
     slash: -20
     exotic: -19
-  off_flags: IK
-  imm_flags: E
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 1280
+  imm_flags: 16
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 623
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 10611
   keywords: young waiter handsome
   short_desc: a young waiter
-  long_desc: |
-    A handsome young waiter is here, carrying a tray of champagne.
-  description: "He is quite good looking, clean cut, with young vibrant eyes and good\n\
-    build.  He easily flirts with some of the women, handing out glasses in the\n\
-    process.  \n"
+  long_desc: "A handsome young waiter is here, carrying a tray of champagne.\n\r"
+  description: "He is quite good looking, clean cut, with young vibrant eyes and good\n\rbuild.
+    \ He easily flirts with some of the women, handing out glasses in the\n\rprocess.
+    \ \n\r"
   race: Human
-  act: ABCT
-  affected_by: T
-  affected2_by: '0'
+  act: 524294
+  affected_by: 524288
+  affected2_by: 0
   alignment: 700
   clan: 0
   level: 86
   hitroll: 130
   hit:
-    number: 12
-    type: 855
-    bonus: 2363
+  - 12
+  - 855
+  - 2363
   mana:
-    number: 100
-    type: 100
-    bonus: 70
+  - 100
+  - 100
+  - 70
   damage:
-    number: 8
-    type: 16
-    bonus: 23
+  - 8
+  - 16
+  - 23
   dam_type: 27
   ac:
     pierce: -20
     bash: -20
     slash: -19
     exotic: -19
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: N
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 8192
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 723
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: L
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 10612
   keywords: bright force
   short_desc: a bright force
-  long_desc: |
-    A bright force moves towards you, seemingly blending in to the rest of the room.
-  description: "You can't even look at this force, the brightness hurts your eyes....\
-    \  To\nfight it would be deadly.  \n"
+  long_desc: "A bright force moves towards you, seemingly blending in to the rest
+    of the room.\n\r"
+  description: "You can't even look at this force, the brightness hurts your eyes....
+    \ To\n\rfight it would be deadly.  \n\r"
   race: Human
-  act: ABFRc
-  affected_by: DFHJTZ
-  affected2_by: '0'
+  act: 268566562
+  affected_by: 34079400
+  affected2_by: 0
   alignment: -900
   clan: 0
   level: 90
   hitroll: 190
   hit:
-    number: 12
-    type: 991
-    bonus: 2571
+  - 12
+  - 991
+  - 2571
   mana:
-    number: 100
-    type: 100
-    bonus: 110
+  - 100
+  - 100
+  - 110
   damage:
-    number: 8
-    type: 17
-    bonus: 23
+  - 8
+  - 17
+  - 23
   dam_type: 19
   ac:
     pierce: -12
     bash: -12
     slash: -12
     exotic: -9
-  off_flags: ADEFJ
-  imm_flags: JOS
-  res_flags: CM
-  vuln_flags: D
+  off_flags: 569
+  imm_flags: 279040
+  res_flags: 4100
+  vuln_flags: 8
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 800
-  form: AHLMV
-  parts: ABCDEFGHIJK
+  form: 2048
+  parts: 0
   size: G
   material: none
   spec_fun: spec_cast_mage
 - vnum: 10613
   keywords: angry guard dog
   short_desc: an angry little guard dog
-  long_desc: |
-    An angry little guard dog is sitting here, yipping at your entrance.
-  description: "If this is what the guests of this room left behind to guard their\n\
-    valuables, there must be nothing of value here!  He yips at your entrance,\nand\
-    \ moves his little paws into attack position.  \n"
+  long_desc: "An angry little guard dog is sitting here, yipping at your entrance.\n\r"
+  description: "If this is what the guests of this room left behind to guard their\n\rvaluables,
+    there must be nothing of value here!  He yips at your entrance,\n\rand moves his
+    little paws into attack position.  \n\r"
   race: dog
-  act: ABFT
-  affected_by: DFJ
-  affected2_by: '0'
+  act: 524322
+  affected_by: 552
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 79
   hitroll: 100
   hit:
-    number: 11
-    type: 650
-    bonus: 2023
+  - 11
+  - 650
+  - 2023
   mana:
-    number: 100
-    type: 100
-    bonus: 90
+  - 100
+  - 100
+  - 90
   damage:
-    number: 8
-    type: 13
-    bonus: 28
+  - 8
+  - 13
+  - 28
   dam_type: 10
   ac:
     pierce: -20
     bash: -20
     slash: -18
     exotic: -17
-  off_flags: FHJK
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 1568
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 6
   sex: 1
   gold: 700
-  form: AGV
-  parts: ACDEFHJKUV
+  form: 0
+  parts: 0
   size: S
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 10614
   keywords: beautiful sleeping woman
   short_desc: a beautiful sleeping woman
-  long_desc: |
-    A beautiful woman is lying in bed, sleeping.
-  description: "Cascades of her black hair flow over the pillow, and the soft sound\
-    \ of\nher breathing fills the room.  Cream satin sheets cradle her body as she\n\
-    sleeps on her side, smiling sweetly in her dreams.  \n"
+  long_desc: "A beautiful woman is lying in bed, sleeping.\n\r"
+  description: "Cascades of her black hair flow over the pillow, and the soft sound
+    of\n\rher breathing fills the room.  Cream satin sheets cradle her body as she\n\rsleeps
+    on her side, smiling sweetly in her dreams.  \n\r"
   race: Human
-  act: ABQ
-  affected_by: c
-  affected2_by: '0'
+  act: 65538
+  affected_by: 268435456
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 87
   hitroll: 100
   hit:
-    number: 12
-    type: 887
-    bonus: 2414
+  - 12
+  - 887
+  - 2414
   mana:
-    number: 100
-    type: 100
-    bonus: 130
+  - 100
+  - 100
+  - 130
   damage:
-    number: 8
-    type: 16
-    bonus: 24
+  - 8
+  - 16
+  - 24
   dam_type: 22
   ac:
     pierce: -16
     bash: -17
     slash: -16
     exotic: -13
-  off_flags: EJKV
-  imm_flags: H
-  res_flags: N
-  vuln_flags: I
+  off_flags: 2098704
+  imm_flags: 128
+  res_flags: 8192
+  vuln_flags: 256
   start_pos: 5
   default_pos: 5
   sex: 2
   gold: 723
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 10615
   keywords: german shepard
   short_desc: a german shepard
-  long_desc: |
-    A strong looking German Shepard growls low at you as you approach.
-  description: "A purebred German Shepard does not look pleased to see you.  He growls\n\
-    quietly, stretches his hind legs, and moves towards you slowly and\ndelibrately.\
-    \  \n"
+  long_desc: "A strong looking German Shepard growls low at you as you approach.\n\r"
+  description: "A purebred German Shepard does not look pleased to see you.  He growls\n\rquietly,
+    stretches his hind legs, and moves towards you slowly and\n\rdelibrately.  \n\r"
   race: dog
-  act: ABFTc
-  affected_by: DFJa
-  affected2_by: '0'
+  act: 268959778
+  affected_by: 67109416
+  affected2_by: 0
   alignment: -780
   clan: 0
   level: 92
   hitroll: 200
   hit:
-    number: 12
-    type: 1064
-    bonus: 2679
+  - 12
+  - 1064
+  - 2679
   mana:
-    number: 100
-    type: 100
-    bonus: 130
+  - 100
+  - 100
+  - 130
   damage:
-    number: 8
-    type: 18
-    bonus: 21
+  - 8
+  - 18
+  - 21
   dam_type: 0
   ac:
     pierce: -9
     bash: -9
     slash: -9
     exotic: -7
-  off_flags: EFHKVX
-  imm_flags: K
-  res_flags: M
-  vuln_flags: '0'
+  off_flags: 10486832
+  imm_flags: 1024
+  res_flags: 4096
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 780
-  form: AGV
-  parts: ACDEFHJKUV
+  form: 0
+  parts: 0
   size: L
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 10616
   keywords: shadowy figure
   short_desc: a shadowy figure
-  long_desc: |
-    A shadowy figure is here, hitting you from nowhere and everywhere.
-  description: "You know this...  This thing exists, but you can't see it exactly\
-    \ to know\nwhere to swing your sword.  It is everywhere yet nowhere at once, tangible\n\
-    yet intangible all at the same time..  \n"
+  long_desc: "A shadowy figure is here, hitting you from nowhere and everywhere.\n\r"
+  description: "You know this...  This thing exists, but you can't see it exactly
+    to know\n\rwhere to swing your sword.  It is everywhere yet nowhere at once, tangible\n\ryet
+    intangible all at the same time..  \n\r"
   race: Human
-  act: ABFQc
-  affected_by: BDFTV
-  affected2_by: '0'
+  act: 268501026
+  affected_by: 2621482
+  affected2_by: 0
   alignment: -200
   clan: 0
   level: 78
   hitroll: 100
   hit:
-    number: 11
-    type: 624
-    bonus: 1977
+  - 11
+  - 624
+  - 1977
   mana:
-    number: 100
-    type: 100
-    bonus: 100
+  - 100
+  - 100
+  - 100
   damage:
-    number: 8
-    type: 13
-    bonus: 27
+  - 8
+  - 13
+  - 27
   dam_type: 20
   ac:
     pierce: -20
     bash: -17
     slash: -17
     exotic: -13
-  off_flags: EFO
-  imm_flags: FO
-  res_flags: M
-  vuln_flags: P
+  off_flags: 16432
+  imm_flags: 16416
+  res_flags: 4096
+  vuln_flags: 32768
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 780
-  form: AHKMV
-  parts: ABCDEFGHIJK
+  form: 1024
+  parts: 0
   size: H
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 10617
   keywords: guest suite
   short_desc: an angry guest
-  long_desc: |
-    A guest in this suite approaches, questioning the intrusion.
-  description: "Demanding ID and an explanation as to your presence here, he walks\n\
-    towards you hastily.  His hair is all wet, wearing only a black towel,\nprobably\
-    \ just emerging from the pool.  \n"
+  long_desc: "A guest in this suite approaches, questioning the intrusion.\n\r"
+  description: "Demanding ID and an explanation as to your presence here, he walks\n\rtowards
+    you hastily.  His hair is all wet, wearing only a black towel,\n\rprobably just
+    emerging from the pool.  \n\r"
   race: Human
-  act: ABT
-  affected_by: a
-  affected2_by: '0'
+  act: 524290
+  affected_by: 67108864
+  affected2_by: 0
   alignment: 405
   clan: 0
   level: 82
   hitroll: 110
   hit:
-    number: 11
-    type: 733
-    bonus: 2165
+  - 11
+  - 733
+  - 2165
   mana:
-    number: 100
-    type: 100
-    bonus: 100
+  - 100
+  - 100
+  - 100
   damage:
-    number: 8
-    type: 14
-    bonus: 27
+  - 8
+  - 14
+  - 27
   dam_type: 2
   ac:
     pierce: -19
     bash: -19
     slash: -17
     exotic: -15
-  off_flags: EKV
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 2098192
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 3
   gold: 830
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 10618
   keywords: gardener
   short_desc: a gardener
-  long_desc: |
-    A gardener is here, humming and watering the gardenias along the wall.
-  description: "The gardener is too busy with the plants to notice your entrance.\
-    \  Dirty\nrags poke from the gardener's pockets, along with some simple garden\
-    \ tools. \n"
+  long_desc: "A gardener is here, humming and watering the gardenias along the wall.\n\r"
+  description: "The gardener is too busy with the plants to notice your entrance.
+    \ Dirty\n\rrags poke from the gardener's pockets, along with some simple garden
+    tools. \n\r"
   race: Human
-  act: ABQ
-  affected_by: H
-  affected2_by: '0'
+  act: 65538
+  affected_by: 128
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 89
   hitroll: 0
   hit:
-    number: 12
-    type: 955
-    bonus: 2518
+  - 12
+  - 955
+  - 2518
   mana:
-    number: 110
-    type: 100
-    bonus: 110
+  - 110
+  - 100
+  - 110
   damage:
-    number: 8
-    type: 17
-    bonus: 22
+  - 8
+  - 17
+  - 22
   dam_type: 26
   ac:
     pierce: -12
     bash: -12
     slash: -11
     exotic: -9
-  off_flags: AFJK
-  imm_flags: S
-  res_flags: J
-  vuln_flags: E
+  off_flags: 1569
+  imm_flags: 262144
+  res_flags: 512
+  vuln_flags: 16
   start_pos: 8
   default_pos: 8
   sex: 3
   gold: 711
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 10619
   keywords: woman bloody dying
   short_desc: a bloody woman
-  long_desc: |
-    A woman is lying on the floor, bloody and motionless.
-  description: "Looking at her, she is slender and pale in color.  She lies on her\
-    \ side,\neyes closed, her blonde hair in her face.  You aren't even sure if she\
-    \ is\nalive, but she definitely needs medical attention...  \n"
+  long_desc: "A woman is lying on the floor, bloody and motionless.\n\r"
+  description: "Looking at her, she is slender and pale in color.  She lies on her
+    side,\n\reyes closed, her blonde hair in her face.  You aren't even sure if she
+    is\n\ralive, but she definitely needs medical attention...  \n\r"
   race: Human
-  act: ABQ
-  affected_by: HNU
-  affected2_by: '0'
+  act: 65538
+  affected_by: 1056896
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 86
   hitroll: 130
   hit:
-    number: 12
-    type: 855
-    bonus: 2378
+  - 12
+  - 855
+  - 2378
   mana:
-    number: 110
-    type: 110
-    bonus: 110
+  - 110
+  - 110
+  - 110
   damage:
-    number: 8
-    type: 16
-    bonus: 24
+  - 8
+  - 16
+  - 24
   dam_type: 22
   ac:
     pierce: -19
     bash: -19
     slash: -19
     exotic: -17
-  off_flags: AF
-  imm_flags: E
-  res_flags: K
-  vuln_flags: '0'
+  off_flags: 33
+  imm_flags: 16
+  res_flags: 1024
+  vuln_flags: 0
   start_pos: 4
   default_pos: 4
   sex: 2
   gold: 890
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 10620
   keywords: ghost being
   short_desc: a ghost-like being
-  long_desc: |
-    A ghost-like being is here, floating over the tables.
-  description: "Weaving through, around, and above the tables, this ghost-like being\
-    \ will\nbe a tough fight.  The only way you know it exists is the fuzzy appearance\n\
-    the room has when looking through it.  \n"
+  long_desc: "A ghost-like being is here, floating over the tables.\n\r"
+  description: "Weaving through, around, and above the tables, this ghost-like being
+    will\n\rbe a tough fight.  The only way you know it exists is the fuzzy appearance\n\rthe
+    room has when looking through it.  \n\r"
   race: Human
-  act: ABR
-  affected_by: BTV
-  affected2_by: '0'
+  act: 131074
+  affected_by: 2621442
+  affected2_by: 0
   alignment: -400
   clan: 0
   level: 92
   hitroll: 180
   hit:
-    number: 12
-    type: 1064
-    bonus: 2679
+  - 12
+  - 1064
+  - 2679
   mana:
-    number: 100
-    type: 190
-    bonus: 110
+  - 100
+  - 190
+  - 110
   damage:
-    number: 8
-    type: 18
-    bonus: 21
+  - 8
+  - 18
+  - 21
   dam_type: 19
   ac:
     pierce: -8
     bash: -8
     slash: -8
     exotic: -6
-  off_flags: AF
-  imm_flags: F
-  res_flags: G
-  vuln_flags: S
+  off_flags: 33
+  imm_flags: 32
+  res_flags: 64
+  vuln_flags: 262144
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 1000
-  form: AHLMV
-  parts: ABCDEFGHIJK
+  form: 2048
+  parts: 0
   size: L
   material: none
   spec_fun: spec_breath_any
 - vnum: 10621
   keywords: young Chinese servant woman
   short_desc: a Chinese servant
-  long_desc: |
-    A young Chinese woman screams as she sees you here!
-  description: "Wearing a cream silk kimono, this exotic servant emerges from behind\
-    \ the\nscreen, and screams to see you here.  Her skin tone is light, with her\
-    \ long\nblack hair flowing free.  There are a few bruises on her face, and on\
-    \ her\narms.  She looks upset, but that could be from the sudden intrusion...\
-    \  \n"
+  long_desc: "A young Chinese woman screams as she sees you here!\n\r"
+  description: "Wearing a cream silk kimono, this exotic servant emerges from behind
+    the\n\rscreen, and screams to see you here.  Her skin tone is light, with her
+    long\n\rblack hair flowing free.  There are a few bruises on her face, and on
+    her\n\rarms.  She looks upset, but that could be from the sudden intrusion...
+    \ \n\r"
   race: Human
-  act: ABHT
-  affected_by: QVa
-  affected2_by: '0'
+  act: 524418
+  affected_by: 69271552
+  affected2_by: 0
   alignment: 340
   clan: 0
   level: 91
   hitroll: 190
   hit:
-    number: 12
-    type: 1027
-    bonus: 2625
+  - 12
+  - 1027
+  - 2625
   mana:
-    number: 140
-    type: 100
-    bonus: 140
+  - 140
+  - 100
+  - 140
   damage:
-    number: 8
-    type: 18
-    bonus: 20
+  - 8
+  - 18
+  - 20
   dam_type: 2
   ac:
     pierce: -60
     bash: -60
     slash: -60
     exotic: -80
-  off_flags: EFJKNVX
-  imm_flags: '0'
-  res_flags: M
-  vuln_flags: '0'
+  off_flags: 10495536
+  imm_flags: 0
+  res_flags: 4096
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 900
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 10622
   keywords: dying woman
   short_desc: a dying woman
-  long_desc: |
-    A dying woman emerges from the shadows.
-  description: "From a dark corner of the room, she appears.  She makes not a sound,\
-    \ but\nis clearly afraid and dying.  Ribs protrude from her sides, and bruises\n\
-    sprinkle her body.  Whatever she has been through, it seems not over yet.  \n"
+  long_desc: "A dying woman emerges from the shadows.\n\r"
+  description: "From a dark corner of the room, she appears.  She makes not a sound,
+    but\n\ris clearly afraid and dying.  Ribs protrude from her sides, and bruises\n\rsprinkle
+    her body.  Whatever she has been through, it seems not over yet.  \n\r"
   race: Human
-  act: ABR
-  affected_by: NQ
-  affected2_by: '0'
+  act: 131074
+  affected_by: 73728
+  affected2_by: 0
   alignment: 900
   clan: 0
   level: 95
   hitroll: 200
   hit:
-    number: 12
-    type: 1182
-    bonus: 2846
+  - 12
+  - 1182
+  - 2846
   mana:
-    number: 130
-    type: 130
-    bonus: 140
+  - 130
+  - 130
+  - 140
   damage:
-    number: 9
-    type: 19
-    bonus: 10
+  - 9
+  - 19
+  - 10
   dam_type: 0
   ac:
     pierce: -90
     bash: -90
     slash: -90
     exotic: -87
-  off_flags: AFJK
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 1569
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 990
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_breath_any
 - vnum: 10624
   keywords: duckie ducky
   short_desc: a duckie
-  long_desc: |
-    A duckie is happily quacking along.
-  description: "The duck is quacking loudly to the others, ducking its head underwater\n\
-    occasionally to try and catch some food.  \n"
+  long_desc: "A duckie is happily quacking along.\n\r"
+  description: "The duck is quacking loudly to the others, ducking its head underwater\n\roccasionally
+    to try and catch some food.  \n\r"
   race: water fowl
-  act: ABR
-  affected_by: TVb
-  affected2_by: '0'
+  act: 131074
+  affected_by: 2097152
+  affected2_by: 0
   alignment: 800
   clan: 0
   level: 50
   hitroll: 20
   hit:
-    number: 11
-    type: 216
-    bonus: 1190
+  - 11
+  - 216
+  - 1190
   mana:
-    number: 100
-    type: 10
-    bonus: 10
+  - 100
+  - 10
+  - 10
   damage:
-    number: 6
-    type: 10
-    bonus: 25
+  - 6
+  - 10
+  - 25
   dam_type: 23
   ac:
     pierce: -30
     bash: -30
     slash: -30
     exotic: -25
-  off_flags: FK
-  imm_flags: R
-  res_flags: IR
-  vuln_flags: '0'
+  off_flags: 1056
+  imm_flags: 131072
+  res_flags: 256
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 3
   gold: 500
-  form: AGHVW
-  parts: ACDEFHJKP
+  form: 2097280
+  parts: 512
   size: S
   material: none
-  spec_fun: ''
+  spec_fun:
 objects:
 - vnum: 10601
   name: water night vial
@@ -1134,17 +1111,17 @@ objects:
   description: A bubbling vial of water is here. Strange.
   material: none
   item_type: 10
-  extra_flags: A
-  wear_flags: AO
-  values:
-  - 85
-  - 509
-  - 517
-  - 0
-  - 0
+  extra_flags: 1
+  wear_flags: 16385
   level: 75
   weight: 1
   cost: 0
+  values:
+  - 85
+  - 7
+  - 102
+  - -1
+  - 0
   affects: []
   extra_descs: []
 - vnum: 10602
@@ -1153,17 +1130,17 @@ objects:
   description: How filthy it is in here! Now you know the mind of men! *GASP*
   material: none
   item_type: 3
-  extra_flags: BEG
-  wear_flags: AO
+  extra_flags: 82
+  wear_flags: 16385
+  level: 85
+  weight: 2
+  cost: 0
   values:
   - 88
   - 4
   - 4
-  - 7
+  - 14
   - 0
-  level: 85
-  weight: 2
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 10603
@@ -1172,17 +1149,17 @@ objects:
   description: The evilness of a forever tainted soul is here, full of vengence.
   material: none
   item_type: 3
-  extra_flags: CE
-  wear_flags: AO
+  extra_flags: 20
+  wear_flags: 16385
+  level: 77
+  weight: 1
+  cost: 0
   values:
   - 90
   - 5
   - 5
-  - 514
+  - 99
   - 0
-  level: 77
-  weight: 1
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 10604
@@ -1191,17 +1168,17 @@ objects:
   description: The essence of a woman's seduction is here, draining your energy away...
   material: none
   item_type: 3
-  extra_flags: CG
-  wear_flags: AO
+  extra_flags: 68
+  wear_flags: 16385
+  level: 88
+  weight: 1
+  cost: 0
   values:
   - 92
   - 5
   - 5
-  - 25
+  - 40
   - 0
-  level: 88
-  weight: 1
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 10605
@@ -1210,17 +1187,17 @@ objects:
   description: A beautiful fountain is here, supplying aqua water to the inhabitants.
   material: none
   item_type: 25
-  extra_flags: O
-  wear_flags: '0'
+  extra_flags: 16384
+  wear_flags: 0
+  level: 50
+  weight: 100
+  cost: 100
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 50
-  weight: 100
-  cost: 100
   affects: []
   extra_descs: []
 - vnum: 10606
@@ -1229,17 +1206,17 @@ objects:
   description: A gorgeous fountain is here, bubbling sweetly.
   material: none
   item_type: 25
-  extra_flags: O
-  wear_flags: '0'
+  extra_flags: 16384
+  wear_flags: 0
+  level: 1
+  weight: 10000
+  cost: 0
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 1
-  weight: 10000
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 10607
@@ -1248,17 +1225,17 @@ objects:
   description: A set of hand-woven titanium legplates are here.
   material: titanium
   item_type: 9
-  extra_flags: GI
-  wear_flags: AF
+  extra_flags: 320
+  wear_flags: 33
+  level: 90
+  weight: 10
+  cost: 1000
   values:
   - 100
   - 100
   - 100
   - 100
   - 0
-  level: 90
-  weight: 10
-  cost: 1000
   affects: []
   extra_descs: []
 - vnum: 10608
@@ -1267,2117 +1244,2087 @@ objects:
   description: An executive style briefcase is here, holding important items.
   material: leather
   item_type: 15
-  extra_flags: AS
-  wear_flags: AO
+  extra_flags: 262145
+  wear_flags: 16385
+  level: 60
+  weight: 0
+  cost: 1020
   values:
   - 100
   - 1
   - 0
   - 0
   - 0
-  level: 60
-  weight: 0
-  cost: 1020
   affects: []
   extra_descs: []
 rooms:
 - vnum: 10600
   name: Entrance to the Kingdom
-  description: "Upon your approach to the rich kingdom before you, a strong gust of\
-    \ wind\nbreezes through your hair, causing a slight shiver through your body.\
-    \ \nLooking through the gates ahead, you can only see a neatly kept road of\n\
-    cobblestone, probably the main road in Lileak.  \n"
-  room_flags: '0'
+  description: "Upon your approach to the rich kingdom before you, a strong gust of
+    wind\n\rbreezes through your hair, causing a slight shiver through your body.
+    \n\rLooking through the gates ahead, you can only see a neatly kept road of\n\rcobblestone,
+    probably the main road in Lileak.  \n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10601
   extra_descs: []
 - vnum: 10601
   name: Outside the Gates of Lileak
-  description: "Standing outside the gates of this kingdom, the guards on either side\
-    \ of\nthe gold gate glance at you, and ask your reason for journeying into the\n\
-    kingdom.  After quickly formulating an excuse, the gates open, and you are\nallowed\
-    \ through.  \n \nAn inscription has been carved in the gatepost.\n"
-  room_flags: '0'
+  description: "Standing outside the gates of this kingdom, the guards on either side
+    of\n\rthe gold gate glance at you, and ask your reason for journeying into the\n\rkingdom.
+    \ After quickly formulating an excuse, the gates open, and you are\n\rallowed
+    through.  \n\r \n\rAn inscription has been carved in the gatepost.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10602
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10600
   extra_descs:
   - keywords: inscription
-    description: |
-      EXAr WVZ HErE
+    description: "EXAr WVZ HErE\n\r"
 - vnum: 10602
   name: Enormous Cobblestone Road
-  description: "Stretched before you is a gigantic cobblestone road, neatly swept.\
-    \  Far\noff in the horizon are large snowcapped mountains, upon which sit a large\n\
-    palace.  Along this road are numerous mansions, and quaint stores for the\nwealthy\
-    \ people of this kingdom.  You begin to wonder who rules a city of\nsuch wealth!\
-    \  \n"
-  room_flags: '0'
+  description: "Stretched before you is a gigantic cobblestone road, neatly swept.
+    \ Far\n\roff in the horizon are large snowcapped mountains, upon which sit a large\n\rpalace.
+    \ Along this road are numerous mansions, and quaint stores for the\n\rwealthy
+    people of this kingdom.  You begin to wonder who rules a city of\n\rsuch wealth!
+    \ \n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10603
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10601
   extra_descs: []
 - vnum: 10603
   name: Enormous Cobblestone Road
-  description: "Further down this road, you spot a few shops on either side of you,\
-    \ as\nwell as a large mansion.  I wonder who lives in there?  \n"
-  room_flags: '0'
+  description: "Further down this road, you spot a few shops on either side of you,
+    as\n\rwell as a large mansion.  I wonder who lives in there?  \n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10605
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10602
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10604
   extra_descs: []
 - vnum: 10604
   name: Dark Magic
-  description: "This store is, well....  Dark, as the name suggests, in lighting as\
-    \ well\nas the overall ambiance of the room.  \n"
-  room_flags: K
+  description: "This store is, well....  Dark, as the name suggests, in lighting as
+    well\n\ras the overall ambiance of the room.  \n\r"
+  room_flags: 1024
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10603
   extra_descs: []
 - vnum: 10605
   name: Enormous Cobblestone Road
-  description: "Further down this long road...  Will it ever end?  On your right is\
-    \ a\nbeautiful mansion, and on your left is a small store.  Looking ahead of\n\
-    you...  This road continues!  \n"
-  room_flags: '0'
+  description: "Further down this long road...  Will it ever end?  On your right is
+    a\n\rbeautiful mansion, and on your left is a small store.  Looking ahead of\n\ryou...
+    \ This road continues!  \n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10648
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10607
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10603
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10606
   extra_descs: []
 - vnum: 10606
   name: Papers of Mystery
-  description: "Old parchments are scattered about the room, keeping secrets of long\
-    \ ago.  \n"
-  room_flags: K
+  description: "Old parchments are scattered about the room, keeping secrets of long
+    ago.  \n\r"
+  room_flags: 1024
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10605
   extra_descs: []
 - vnum: 10607
   name: Mansion Porch
-  description: "You enter a cozy, warm porch.  Deep green vines wrap around the columns\n\
-    holding up the mansion, and lilies are scattered both in vases and on the\nporch\
-    \ table.  Your eyes fix on the large oak door, complete with stain\nglass, and\
-    \ you wonder...  Should I go in?  \n"
-  room_flags: '0'
+  description: "You enter a cozy, warm porch.  Deep green vines wrap around the columns\n\rholding
+    up the mansion, and lilies are scattered both in vases and on the\n\rporch table.
+    \ Your eyes fix on the large oak door, complete with stain\n\rglass, and you wonder...
+    \ Should I go in?  \n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 3
     key: 0
     to_vnum: 10608
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10605
   extra_descs: []
 - vnum: 10608
   name: Mansion Foyer
-  description: "Whoa!  This is a *really* big house!  Abstract paintings hang from\
-    \ left\nwall.  Over to the right wall, you notice...  A map!  Yay!  Now maybe\
-    \ you\nwon't get lost..  \n"
-  room_flags: D
+  description: "Whoa!  This is a *really* big house!  Abstract paintings hang from
+    left\n\rwall.  Over to the right wall, you notice...  A map!  Yay!  Now maybe
+    you\n\rwon't get lost..  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10609
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 3
     key: 0
     to_vnum: 10607
   extra_descs: []
 - vnum: 10609
   name: A Hallway
-  description: "Stretched out before you is a long hallway.  White plush carpeting\n\
-    cushions your footsteps, and more abstract paintings adorn the walls.  You\ncan\
-    \ either venture futher east, or explore the upstairs.  \n"
-  room_flags: D
+  description: "Stretched out before you is a long hallway.  White plush carpeting\n\rcushions
+    your footsteps, and more abstract paintings adorn the walls.  You\n\rcan either
+    venture futher east, or explore the upstairs.  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10611
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10608
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10610
   extra_descs: []
 - vnum: 10610
   name: Upstairs Hallway
-  description: "Welp, the upstairs looks vaguely the same as the downstairs, same\n\
-    carpeting and designs.  It doesn't look all that big...  Map.  Humph.  You\ndon't\
-    \ need it!  Although, looking further down the hall...  There's an\nupstairs!\
-    \  \n"
-  room_flags: D
+  description: "Welp, the upstairs looks vaguely the same as the downstairs, same\n\rcarpeting
+    and designs.  It doesn't look all that big...  Map.  Humph.  You\n\rdon't need
+    it!  Although, looking further down the hall...  There's an\n\rupstairs!  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10624
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10636
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10609
   extra_descs: []
 - vnum: 10611
   name: A Hallway
-  description: |
-    Walking further down the hallway, there is a room which looks like a
-    dining hall from the large doors which keep it secret.  More expensive
-    looking paintings hang from the walls, but you can't make out what they are.
-  room_flags: '0'
+  description: "Walking further down the hallway, there is a room which looks like
+    a\n\rdining hall from the large doors which keep it secret.  More expensive\n\rlooking
+    paintings hang from the walls, but you can't make out what they are.\n\r"
+  room_flags: 0
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10614
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10612
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10609
   extra_descs: []
 - vnum: 10612
   name: Dining Hall
-  description: "Wowee!  Stretched before you is a massively long dining table.  A\
-    \ crystal\nchandolier hangs from the ceiling, and upon closer inspection, you\
-    \ notice\nthe table is set.  You'd better leave before the company arrives!  \n"
-  room_flags: D
+  description: "Wowee!  Stretched before you is a massively long dining table.  A
+    crystal\n\rchandolier hangs from the ceiling, and upon closer inspection, you
+    notice\n\rthe table is set.  You'd better leave before the company arrives!  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10611
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10613
   extra_descs: []
 - vnum: 10613
   name: The Kitchen
-  description: "What luck!  You sneak into the kitchen unseen, and steal some bits\
-    \ of\nfood to taste.  You still have this nagging feeling that you should get\
-    \ out\nof here before your luck runs out...  \n"
-  room_flags: D
+  description: "What luck!  You sneak into the kitchen unseen, and steal some bits
+    of\n\rfood to taste.  You still have this nagging feeling that you should get
+    out\n\rof here before your luck runs out...  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10612
   extra_descs: []
 - vnum: 10614
   name: A Hallway
-  description: "The hallway continues on, with more rooms stretched out before you...\
-    \  \n"
-  room_flags: D
+  description: "The hallway continues on, with more rooms stretched out before you...
+    \ \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10616
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10615
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10611
   extra_descs: []
 - vnum: 10615
   name: Sitting Room
-  description: "You enter an ornate room, with three plush couches and sitting chairs.\
-    \ \nThis is presumably where the host and hostess serve cocktails before dinner.\n\
-    An antique painting hangs over the fireplace, and a fountain bubbles spring\n\
-    water.  \n"
-  room_flags: '0'
+  description: "You enter an ornate room, with three plush couches and sitting chairs.
+    \n\rThis is presumably where the host and hostess serve cocktails before dinner.\n\rAn
+    antique painting hangs over the fireplace, and a fountain bubbles spring\n\rwater.
+    \ \n\r"
+  room_flags: 0
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10614
   extra_descs: []
 - vnum: 10616
   name: A Hallway
-  description: "You're slowly reaching the end of this hallway, with only a few more\n\
-    rooms until the end.  A room glowing with light down the end of the hallway\n\
-    looks particularly interesting.  \n"
-  room_flags: D
+  description: "You're slowly reaching the end of this hallway, with only a few more\n\rrooms
+    until the end.  A room glowing with light down the end of the hallway\n\rlooks
+    particularly interesting.  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10617
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10619
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10614
   extra_descs: []
 - vnum: 10617
   name: Powder Room
-  description: "You enter a warmly decorated bathroom.  It even has a fuzzy toliet\
-    \ cover!\nIt is gigantic, complete with a jacuzzi and large vanity.  You hear\
-    \ some\nwater running from the other side of the bathroom..  Uh oh..  \n"
-  room_flags: D
+  description: "You enter a warmly decorated bathroom.  It even has a fuzzy toliet
+    cover!\n\rIt is gigantic, complete with a jacuzzi and large vanity.  You hear
+    some\n\rwater running from the other side of the bathroom..  Uh oh..  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10616
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10618
   extra_descs: []
 - vnum: 10618
   name: Powder Room
-  description: "Oh no.  You hear the jacuzzi water running and swirling, pray they\
-    \ aren't\ntaking a bath yet!  You quickly notice a towel draped on the floor,\
-    \ with\nbrushes of dark pink.  Weird.  \n"
-  room_flags: D
+  description: "Oh no.  You hear the jacuzzi water running and swirling, pray they
+    aren't\n\rtaking a bath yet!  You quickly notice a towel draped on the floor,
+    with\n\rbrushes of dark pink.  Weird.  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10617
   extra_descs: []
 - vnum: 10619
   name: A Hallway
-  description: "This long hallway is coming to a close, finally.  You see only two\
-    \ more\nrooms down this end, and one of them is still glowing..  \n"
-  room_flags: D
+  description: "This long hallway is coming to a close, finally.  You see only two
+    more\n\rrooms down this end, and one of them is still glowing..  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10622
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10620
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10616
   extra_descs: []
 - vnum: 10620
   name: The Ballroom
-  description: "As soon as you set your eyes on this room, you realize the importance\
-    \ and\nexpense it holds.  Crystal and glass are abound, as is gold and diamonds.\
-    \ \nPalm trees are lining the edge of the walls, and the marble floor is perfect\n\
-    for dancing.  Many important people have probably been entertained here.  \n"
-  room_flags: D
+  description: "As soon as you set your eyes on this room, you realize the importance
+    and\n\rexpense it holds.  Crystal and glass are abound, as is gold and diamonds.
+    \n\rPalm trees are lining the edge of the walls, and the marble floor is perfect\n\rfor
+    dancing.  Many important people have probably been entertained here.  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10619
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10621
   extra_descs: []
 - vnum: 10621
   name: The Ballroom
-  description: "Nearing the back of the ballroom, some tables are set up for guests\
-    \ who\nwish to dine in-between musical numbers.  All the tables are set with the\n\
-    finest champagne glasses and plates adorned in gold.  Linen tablecloths\ncover\
-    \ the tables, and a bar is set up in the back.  \n"
-  room_flags: D
+  description: "Nearing the back of the ballroom, some tables are set up for guests
+    who\n\rwish to dine in-between musical numbers.  All the tables are set with the\n\rfinest
+    champagne glasses and plates adorned in gold.  Linen tablecloths\n\rcover the
+    tables, and a bar is set up in the back.  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10620
   extra_descs: []
 - vnum: 10622
   name: A Hallway
-  description: "Whew!  You almost made it to the end of the downstairs hallway.  It's\n\
-    much brighter down this end, but you attribute that to the glowing door\nnearby...\
-    \  \n"
-  room_flags: D
+  description: "Whew!  You almost made it to the end of the downstairs hallway.  It's\n\rmuch
+    brighter down this end, but you attribute that to the glowing door\n\rnearby...
+    \ \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10623
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10619
   extra_descs: []
 - vnum: 10623
   name: Bedroom
-  description: "You enter the room...  The light is blinding!  You can almost make\
-    \ out a\nglass globe in the middle of the floor, but you're uncertain as to what\
-    \ is\nradiating that light.  You've got more problems that the blinding light\n\
-    however!  A mysterious force moves towards you, and it doesn't look\nfriendly...\
-    \  \n"
-  room_flags: D
+  description: "You enter the room...  The light is blinding!  You can almost make
+    out a\n\rglass globe in the middle of the floor, but you're uncertain as to what
+    is\n\rradiating that light.  You've got more problems that the blinding light\n\rhowever!
+    \ A mysterious force moves towards you, and it doesn't look\n\rfriendly...  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10622
   extra_descs: []
 - vnum: 10624
   name: Upstairs Hallway
-  description: "Following the upstairs halllway, the only noticeable difference is\
-    \ that\nthe carpeting is grey.  Potted plants decorate the hallway, and many doors\n\
-    can be seen further down.  \n"
-  room_flags: D
+  description: "Following the upstairs halllway, the only noticeable difference is
+    that\n\rthe carpeting is grey.  Potted plants decorate the hallway, and many doors\n\rcan
+    be seen further down.  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10633
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10625
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10610
   extra_descs: []
 - vnum: 10625
   name: Upstairs Hallway
-  description: "Moving farther down the hallway, you notice this floor consists mostly\
-    \ of\nguest bedrooms.  Far off in the distance, you see another staircase, and\n\
-    some light shining down over it.  \n"
-  room_flags: D
+  description: "Moving farther down the hallway, you notice this floor consists mostly
+    of\n\rguest bedrooms.  Far off in the distance, you see another staircase, and\n\rsome
+    light shining down over it.  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10626
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10632
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10624
   extra_descs: []
 - vnum: 10626
   name: Upstairs Hallway
-  description: "More bedrooms can be seen, and a few steps away it looks like the\
-    \ master\nand mistress' bedroom.  Maybe you can take a quick peek?  \n"
-  room_flags: D
+  description: "More bedrooms can be seen, and a few steps away it looks like the
+    master\n\rand mistress' bedroom.  Maybe you can take a quick peek?  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10627
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10629
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10625
   extra_descs: []
 - vnum: 10627
   name: Upstairs Hallway
-  description: "You are nearing the end of the hallway, and the stairs leading up\
-    \ to\nhopefully the last floor.  It's very quiet near this end.  The whole mansion\n\
-    is quiet, mind you, but it seems even more eerily quiet here.  Strange.  \n"
-  room_flags: D
+  description: "You are nearing the end of the hallway, and the stairs leading up
+    to\n\rhopefully the last floor.  It's very quiet near this end.  The whole mansion\n\ris
+    quiet, mind you, but it seems even more eerily quiet here.  Strange.  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10628
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10626
   extra_descs: []
 - vnum: 10628
   name: Upstairs Hallway
-  description: "It is the end of the hallway, coming upon the stairs to go up another\n\
-    floor.  Do you dare enter?  \n"
-  room_flags: D
+  description: "It is the end of the hallway, coming upon the stairs to go up another\n\rfloor.
+    \ Do you dare enter?  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10627
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10637
   extra_descs: []
 - vnum: 10629
   name: Master Bedroom
-  description: "The bedroom is decorated in flowers and dainty lace, obviously by\
-    \ the\nmistress.  A waterbed stands alone in the middle of the room, with the\
-    \ light\nof a skylight shining down on it.  Three dressers line one wall, and\
-    \ the\nhard wood floor makes subtle noises as you walk on it.  \n"
-  room_flags: D
+  description: "The bedroom is decorated in flowers and dainty lace, obviously by
+    the\n\rmistress.  A waterbed stands alone in the middle of the room, with the
+    light\n\rof a skylight shining down on it.  Three dressers line one wall, and
+    the\n\rhard wood floor makes subtle noises as you walk on it.  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10626
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10630
   extra_descs: []
 - vnum: 10630
   name: Master Bath
-  description: "Walking further south, you come across the master bath.  And the other\n\
-    powder rooms were big?  Ha!  This one laughs in comparison.  A pool is\nstreched\
-    \ out before you, a gorgeous, blue color.  Some rafts are floating in\nit, and\
-    \ a smaller room is towards the back, undoubtedly the actual bathroom.\nPalm trees\
-    \ delicately wave over the edge of the pool, and music is being\nplayed here,\
-    \ softly.  \n"
-  room_flags: D
+  description: "Walking further south, you come across the master bath.  And the other\n\rpowder
+    rooms were big?  Ha!  This one laughs in comparison.  A pool is\n\rstreched out
+    before you, a gorgeous, blue color.  Some rafts are floating in\n\rit, and a smaller
+    room is towards the back, undoubtedly the actual bathroom.\n\rPalm trees delicately
+    wave over the edge of the pool, and music is being\n\rplayed here, softly.  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10629
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10631
   extra_descs: []
 - vnum: 10631
   name: The Master Powder Room
-  description: "This room is much smaller, and houses the normal facilities found\
-    \ in a\npowder room.  It is decorated in soft lavender, to match the other rooms.\
-    \ \nThe smell of distant flowers tickles your nose, as also a sense of impending\n\
-    danger..  \n"
-  room_flags: D
+  description: "This room is much smaller, and houses the normal facilities found
+    in a\n\rpowder room.  It is decorated in soft lavender, to match the other rooms.
+    \n\rThe smell of distant flowers tickles your nose, as also a sense of impending\n\rdanger..
+    \ \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10630
   extra_descs: []
 - vnum: 10632
   name: Guest Bedroom
-  description: "This guest bedroom has more than enough room for a couple, with a\
-    \ lovely\ncanopy bed in the center.  White satin draperies flow over the bay window\n\
-    and the bed, and the floor is made of black marble.  It looks like a lovely,\n\
-    safe place to spend the night...  *grin* \n"
-  room_flags: D
+  description: "This guest bedroom has more than enough room for a couple, with a
+    lovely\n\rcanopy bed in the center.  White satin draperies flow over the bay window\n\rand
+    the bed, and the floor is made of black marble.  It looks like a lovely,\n\rsafe
+    place to spend the night...  *grin* \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10625
   extra_descs: []
 - vnum: 10633
   name: Royal Guest Quarters
-  description: "These must be the quarters for the special guests, it is larger and\
-    \ more\nexquisite than the others you have seen so far.  The bedframe is made\
-    \ of a\ndeep colored wood, and looks quite heavy.  Dressers and closets made of\
-    \ the\nsame wood also fill the room, and you can see another door further in.\
-    \  A\nmirror is hung from the ceiling, and a palm trees are scattered about the\n\
-    room.  \n"
-  room_flags: D
+  description: "These must be the quarters for the special guests, it is larger and
+    more\n\rexquisite than the others you have seen so far.  The bedframe is made
+    of a\n\rdeep colored wood, and looks quite heavy.  Dressers and closets made of
+    the\n\rsame wood also fill the room, and you can see another door further in.
+    \ A\n\rmirror is hung from the ceiling, and a palm trees are scattered about the\n\rroom.
+    \ \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10634
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10624
   extra_descs: []
 - vnum: 10634
   name: Royal Guest's Sitting Room
-  description: "After walking into this room, you are now certain these quarters are\n\
-    reserved for people only held in the highest esteem.  This room contains\nmany\
-    \ odd paintings, one of which is all alone on one of the walls.  Who\nresides\
-    \ here?  Who owns this place?  You want to search for answers, before\nyou find\
-    \ out the hard way....  \n"
-  room_flags: D
+  description: "After walking into this room, you are now certain these quarters are\n\rreserved
+    for people only held in the highest esteem.  This room contains\n\rmany odd paintings,
+    one of which is all alone on one of the walls.  Who\n\rresides here?  Who owns
+    this place?  You want to search for answers, before\n\ryou find out the hard way....
+    \ \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
+    desc:
     keywords: secret
-    exit_flags: A
+    exit_flags: 1
     key: 0
     to_vnum: 10635
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10633
   extra_descs: []
 - vnum: 10635
   name: Inside the Vault
-  description: "Whoa!  You've stumbled inside a walk-in vault!  It's too dark to see\n\
-    anything, but you're certain that tons of gold and diamonds must be here! \nYou\
-    \ fumble for a light switch so you can feast your eyes on your new\ntreasure,\
-    \ but a quiet, low growling freezes you in mid-action...  \n"
-  room_flags: AD
+  description: "Whoa!  You've stumbled inside a walk-in vault!  It's too dark to see\n\ranything,
+    but you're certain that tons of gold and diamonds must be here! \n\rYou fumble
+    for a light switch so you can feast your eyes on your new\n\rtreasure, but a quiet,
+    low growling freezes you in mid-action...  \n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: 0
     to_vnum: 10634
   extra_descs: []
 - vnum: 10636
   name: Guest Bedroom
-  description: "You have arrived at a fairly large bedroom, primarily used for guests,\n\
-    you presume.  Ivy lines the walls where it meets the ceiling, and is the\ndesign\
-    \ on the oak headboard.  The newly waxed hardwood floor is covered only\nby a\
-    \ chinese rug, which sits right under the bed.  The windows to the south\nare\
-    \ open, letting the weather in.  \n"
-  room_flags: D
+  description: "You have arrived at a fairly large bedroom, primarily used for guests,\n\ryou
+    presume.  Ivy lines the walls where it meets the ceiling, and is the\n\rdesign
+    on the oak headboard.  The newly waxed hardwood floor is covered only\n\rby a
+    chinese rug, which sits right under the bed.  The windows to the south\n\rare
+    open, letting the weather in.  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10610
   extra_descs: []
 - vnum: 10637
   name: The Sun Room
-  description: "The walls and ceiling are made of glass, letting the warm sun shine\n\
-    through.  Potted plants are lining the invisible walls, and couches and\nplush\
-    \ chairs are scattered about.  \n"
-  room_flags: '0'
+  description: "The walls and ceiling are made of glass, letting the warm sun shine\n\rthrough.
+    \ Potted plants are lining the invisible walls, and couches and\n\rplush chairs
+    are scattered about.  \n\r"
+  room_flags: 0
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10638
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10628
   extra_descs: []
 - vnum: 10638
   name: A Darkened Hallway
-  description: "This hallway mysteriously got much darker, contrasting to the Sun\
-    \ Room\nyou were just in.  Doesn't make sense, really.  Your senses feel heightened\n\
-    in the darkness, and you continue on..  \n"
-  room_flags: AD
+  description: "This hallway mysteriously got much darker, contrasting to the Sun
+    Room\n\ryou were just in.  Doesn't make sense, really.  Your senses feel heightened\n\rin
+    the darkness, and you continue on..  \n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10637
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10639
   extra_descs: []
 - vnum: 10639
   name: A Darkened Hallway
-  description: "Your footsteps echo through the hallway as you walk on the hardwood\n\
-    floor.  You hear noises further down, it sounds like a man crying.  Doors\nare\
-    \ closed on either side of you, for good reason...  Not everyone would\nwant to\
-    \ venture in..  \n"
-  room_flags: AD
+  description: "Your footsteps echo through the hallway as you walk on the hardwood\n\rfloor.
+    \ You hear noises further down, it sounds like a man crying.  Doors\n\rare closed
+    on either side of you, for good reason...  Not everyone would\n\rwant to venture
+    in..  \n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: 0
     to_vnum: 10640
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10638
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10641
   extra_descs: []
 - vnum: 10640
   name: Servant's Quarters
-  description: "Your first reaction when you walk into the room is complete horror.\
-    \ \nAlthough this room looks like it hasn't been occupied in years, the\nbloodstains\
-    \ on the bed and carpet are still apparent.  You don't think you\nwant to know\
-    \ what happened here...  \n"
-  room_flags: D
+  description: "Your first reaction when you walk into the room is complete horror.
+    \n\rAlthough this room looks like it hasn't been occupied in years, the\n\rbloodstains
+    on the bed and carpet are still apparent.  You don't think you\n\rwant to know
+    what happened here...  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: 0
     to_vnum: 10639
   extra_descs: []
 - vnum: 10641
   name: A Darkened Hallway
-  description: "Continuing down the hallway, you are certainly more relutant to explore\n\
-    than you were before.  Maybe you should just look for an exit, and forget\nyou\
-    \ ever saw this place..  \n"
-  room_flags: AD
+  description: "Continuing down the hallway, you are certainly more relutant to explore\n\rthan
+    you were before.  Maybe you should just look for an exit, and forget\n\ryou ever
+    saw this place..  \n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10639
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: 0
     to_vnum: 10642
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10643
   extra_descs: []
 - vnum: 10642
   name: The Library
-  description: "This room looks definitely more lived in than the servant's quarters.\
-    \ \nThe carpeting appears rather new, and the tables look waxed.  Tall lamps\n\
-    tower over the tables, shining pools of light onto the already open books. \n\
-    Peering down at a book at a nearby table, 'Sorcery', you wonder if it is a\njoke...\
-    \  \n"
-  room_flags: AD
+  description: "This room looks definitely more lived in than the servant's quarters.
+    \n\rThe carpeting appears rather new, and the tables look waxed.  Tall lamps\n\rtower
+    over the tables, shining pools of light onto the already open books. \n\rPeering
+    down at a book at a nearby table, 'Sorcery', you wonder if it is a\n\rjoke...
+    \ \n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: 0
     to_vnum: 10641
   extra_descs: []
 - vnum: 10643
   name: A Darkened Hallway
-  description: "This hallway sure isn't getting any brighter.  The crying is closer\
-    \ now,\nalmost choked sobs now.  More rooms line the hallway, but you're not sure\
-    \ if\nyou want to go in them...  \n"
-  room_flags: AD
+  description: "This hallway sure isn't getting any brighter.  The crying is closer
+    now,\n\ralmost choked sobs now.  More rooms line the hallway, but you're not sure
+    if\n\ryou want to go in them...  \n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: 0
     to_vnum: 10646
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10641
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10644
   extra_descs: []
 - vnum: 10644
   name: Darkened Hallway
-  description: "The crying is just on the other side of the door facing you.  It sounds\n\
-    almost like a tired crying, pitiful.  There is no light peeking out from\nunder\
-    \ the door, you can barely see enough to fumble for the doorknob..  \n"
-  room_flags: AD
+  description: "The crying is just on the other side of the door facing you.  It sounds\n\ralmost
+    like a tired crying, pitiful.  There is no light peeking out from\n\runder the
+    door, you can barely see enough to fumble for the doorknob..  \n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10643
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: 0
     to_vnum: 10647
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: 0
     to_vnum: 10645
   extra_descs: []
 - vnum: 10645
   name: A Dishevled Room
-  description: "This room is a pig sty, as your mother used to say.  Clothes are\n\
-    everywhere, the bed is unmade, and picture frames are thrown about the\nfloor.\
-    \  There is no sign of old dishes though, or of any animals living in\nhere. \
-    \ It's not quite so dirty as it is messy....  \n"
-  room_flags: AD
+  description: "This room is a pig sty, as your mother used to say.  Clothes are\n\reverywhere,
+    the bed is unmade, and picture frames are thrown about the\n\rfloor.  There is
+    no sign of old dishes though, or of any animals living in\n\rhere.  It's not quite
+    so dirty as it is messy....  \n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: 0
     to_vnum: 10644
   extra_descs: []
 - vnum: 10646
   name: Servant's Quarters
-  description: "This room looks a little better than the last, which is lucky for\
-    \ your\nstomach.  It is a bit messy, but it looks lived-in.  The bed isn't made,\
-    \ but\na pad of paper and a pen are on the nightstand.  Peering down at the paper,\n\
-    you can't understand the writing, but you do understand that the ink is\nfresh\
-    \ indeed...  \n"
-  room_flags: D
+  description: "This room looks a little better than the last, which is lucky for
+    your\n\rstomach.  It is a bit messy, but it looks lived-in.  The bed isn't made,
+    but\n\ra pad of paper and a pen are on the nightstand.  Peering down at the paper,\n\ryou
+    can't understand the writing, but you do understand that the ink is\n\rfresh indeed...
+    \ \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: 0
     to_vnum: 10643
   extra_descs: []
 - vnum: 10647
   name: Servant's Quarters
-  description: "Walking into the room, you hear someone humming from behind a Chinese\n\
-    screen.  Now you know this floor isn't abandoned, but you still want to\nleave\
-    \ before this servant discovers you..  \n"
-  room_flags: D
+  description: "Walking into the room, you hear someone humming from behind a Chinese\n\rscreen.
+    \ Now you know this floor isn't abandoned, but you still want to\n\rleave before
+    this servant discovers you..  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: 0
     to_vnum: 10644
   extra_descs: []
 - vnum: 10648
   name: Enormous Cobblestone Road
-  description: "Trekkin' on down the bumpy road, you see merchants walking around\
-    \ and\ncustomers chatting with each other.  Everyone seems friendly enough, want\n\
-    not make yourself comfortable?  \n"
-  room_flags: '0'
+  description: "Trekkin' on down the bumpy road, you see merchants walking around
+    and\n\rcustomers chatting with each other.  Everyone seems friendly enough, want\n\rnot
+    make yourself comfortable?  \n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10649
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10605
   extra_descs: []
 - vnum: 10649
   name: Enormous Cobblestone Road
-  description: "You have come to a fork in the road.  To the west is a smaller,\n\
-    residential road, while to the east the road becomes much darker.  Rows of\nhouses\
-    \ can just about be seen to the west, while to the east is nothing but\ntrees.\
-    \  Directly forward the road abruptly ends, becoming a beautiful jade\ncarved\
-    \ gate.  A regal, intricately designed castle lies beyond the gates,\nsurrounded\
-    \ by waterfalls and lush landscaping.  However, there appears to be\nno easy way\
-    \ in, and getting through the gates is impossible.  \n"
-  room_flags: '0'
+  description: "You have come to a fork in the road.  To the west is a smaller,\n\rresidential
+    road, while to the east the road becomes much darker.  Rows of\n\rhouses can just
+    about be seen to the west, while to the east is nothing but\n\rtrees.  Directly
+    forward the road abruptly ends, becoming a beautiful jade\n\rcarved gate.  A regal,
+    intricately designed castle lies beyond the gates,\n\rsurrounded by waterfalls
+    and lush landscaping.  However, there appears to be\n\rno easy way in, and getting
+    through the gates is impossible.  \n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10682
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10648
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10650
   extra_descs: []
 - vnum: 10650
   name: Smaller Cobblestone Road
-  description: "You turn the corner and find yourself in a nice surburban neighborhood.\
-    \ \nThe houses are quite smaller than the others you have seen, but still nice\n\
-    and appear new.  They all look similiar, except for color variations, and\nchildren\
-    \ are playing on every lawn.  \n"
-  room_flags: '0'
+  description: "You turn the corner and find yourself in a nice surburban neighborhood.
+    \n\rThe houses are quite smaller than the others you have seen, but still nice\n\rand
+    appear new.  They all look similiar, except for color variations, and\n\rchildren
+    are playing on every lawn.  \n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10649
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10651
   extra_descs: []
 - vnum: 10651
   name: Smaller Cobblestone Road
-  description: "Walking farther down the road, you suddenly get a errie feeling. \n\
-    Glancing around, a pair of children play on every lawn, and swingsets are\nvisible\
-    \ in every backyard.  No parents can be seen, but no cars are visible\neither.\
-    \  It all feels too...  Perfect.  Maybe it's just you...  It has been\na long\
-    \ day after all, and you are a bit hungry.  Is that a restaraunt\nfurther down?\
-    \  \n"
-  room_flags: '0'
+  description: "Walking farther down the road, you suddenly get a errie feeling. \n\rGlancing
+    around, a pair of children play on every lawn, and swingsets are\n\rvisible in
+    every backyard.  No parents can be seen, but no cars are visible\n\reither.  It
+    all feels too...  Perfect.  Maybe it's just you...  It has been\n\ra long day
+    after all, and you are a bit hungry.  Is that a restaraunt\n\rfurther down?  \n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10650
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10652
   extra_descs: []
 - vnum: 10652
   name: Smaller Cobblestone Road
-  description: "Now you can smell the scents of dinner, so now you know where the\
-    \ mothers\nare.  The chattering of the children is starting to get on your nerves,\
-    \ and\nsomething just doesn't feel right.  Everyone is so....  Happy.  Each lawn\n\
-    consists of a boy and a girl, with freshly planted flower beds that no dogs\n\
-    have got to.  Not far away, you can see a restaraunt, and a happy mailman\ndelivering\
-    \ mail.  Now you *know* something isn't right...  Happy mailmen??  \n"
-  room_flags: '0'
+  description: "Now you can smell the scents of dinner, so now you know where the
+    mothers\n\rare.  The chattering of the children is starting to get on your nerves,
+    and\n\rsomething just doesn't feel right.  Everyone is so....  Happy.  Each lawn\n\rconsists
+    of a boy and a girl, with freshly planted flower beds that no dogs\n\rhave got
+    to.  Not far away, you can see a restaraunt, and a happy mailman\n\rdelivering
+    mail.  Now you *know* something isn't right...  Happy mailmen??  \n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10651
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10653
   extra_descs: []
 - vnum: 10653
   name: Smaller Cobblestone Road
-  description: "You are now standing outside Mardeteit's, and the aromas are wonderful\n\
-    even outside.  Peering inside, it looks quite fancy, and the decorations,\nflowers,\
-    \ and fabrics are all perfectly matched.  Somehow, you aren't\nsurprised.  \n"
-  room_flags: '0'
+  description: "You are now standing outside Mardeteit's, and the aromas are wonderful\n\reven
+    outside.  Peering inside, it looks quite fancy, and the decorations,\n\rflowers,
+    and fabrics are all perfectly matched.  Somehow, you aren't\n\rsurprised.  \n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10654
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10652
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10656
   extra_descs: []
 - vnum: 10654
   name: Mardeteit's Foyer
-  description: "Walking inside, a pretty hostess takes your name, and says there will\
-    \ be\na fifteen minute wait.  Sitting down, you help yourself to a cocktail, and\n\
-    take in the lavish surroundings.  Feeling less uneasy, you decide it was\njust\
-    \ your hunger making you sensitive.  \n"
-  room_flags: D
+  description: "Walking inside, a pretty hostess takes your name, and says there will
+    be\n\ra fifteen minute wait.  Sitting down, you help yourself to a cocktail, and\n\rtake
+    in the lavish surroundings.  Feeling less uneasy, you decide it was\n\rjust your
+    hunger making you sensitive.  \n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10655
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10653
   extra_descs: []
 - vnum: 10655
   name: A Romantic Table
-  description: "Following the young hostess, she seats you at a quiet, dimly lit table\
-    \ in\nthe corner.  The mauve tablecloth is accented with a lace overlay.  Matching\n\
-    roses are partially opened in a crystal bud vase, and a white candle\nflickers\
-    \ sensually on your face.  Too bad you are dining alone!  \n"
-  room_flags: A
+  description: "Following the young hostess, she seats you at a quiet, dimly lit table
+    in\n\rthe corner.  The mauve tablecloth is accented with a lace overlay.  Matching\n\rroses
+    are partially opened in a crystal bud vase, and a white candle\n\rflickers sensually
+    on your face.  Too bad you are dining alone!  \n\r"
+  room_flags: 1
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10654
   extra_descs: []
 - vnum: 10656
   name: Smaller Cobblestone Road
-  description: "Only a few more houses can be seen, the end of this block is approaching.\n\
-    A library sign can be seen at the corner of the block, but nothing else of\ninterest\
-    \ is around.  You'll be glad to get out of this creepy neighborhood\nanyway, everything\
-    \ doesn't seem quite right here..  \n"
-  room_flags: '0'
+  description: "Only a few more houses can be seen, the end of this block is approaching.\n\rA
+    library sign can be seen at the corner of the block, but nothing else of\n\rinterest
+    is around.  You'll be glad to get out of this creepy neighborhood\n\ranyway, everything
+    doesn't seem quite right here..  \n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10653
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10657
   extra_descs: []
 - vnum: 10657
   name: Smaller Cobblestone Road
-  description: "Well, you have come to the end of the block.  A library is here, made\
-    \ of\nbrick with large glass windows that allow you to peer inside.  Looking\n\
-    around the corner, you are surprised to find a pond, but otherwise a dead\nend.\
-    \  \n"
-  room_flags: '0'
+  description: "Well, you have come to the end of the block.  A library is here, made
+    of\n\rbrick with large glass windows that allow you to peer inside.  Looking\n\raround
+    the corner, you are surprised to find a pond, but otherwise a dead\n\rend.  \n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10659
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10656
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10658
   extra_descs: []
 - vnum: 10658
   name: Smaller Cobblestone Road
-  description: "Not far off is a medium size pond, with a few ducks making graceful\n\
-    patterns on the water.  Maybe you should check it out?  \n"
-  room_flags: '0'
+  description: "Not far off is a medium size pond, with a few ducks making graceful\n\rpatterns
+    on the water.  Maybe you should check it out?  \n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10663
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10657
   extra_descs: []
 - vnum: 10659
   name: The Library
-  description: "Straight in front of you is the help desk, and the library branches\
-    \ off\nin opposite directions.  It is quite dark in here for a place of reading,\n\
-    the potted plants here noticably the variety that need little light.  It is\n\
-    almost dead quiet in here, except for the occasional whispers and book\nstampings.\
-    \  \n"
-  room_flags: AD
+  description: "Straight in front of you is the help desk, and the library branches
+    off\n\rin opposite directions.  It is quite dark in here for a place of reading,\n\rthe
+    potted plants here noticably the variety that need little light.  It is\n\ralmost
+    dead quiet in here, except for the occasional whispers and book\n\rstampings.
+    \ \n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10661
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10657
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10660
   extra_descs: []
 - vnum: 10660
   name: The Library
-  description: "To this end of the library is mainly children's books.  Two groups\
-    \ of\nfour tables are arranged in the room, at the perfect height for toddlers\
-    \ and\npre-schoolers.  The sound of childish chatter can be heard, but you don't\n\
-    see any children around.  \n"
-  room_flags: AD
+  description: "To this end of the library is mainly children's books.  Two groups
+    of\n\rfour tables are arranged in the room, at the perfect height for toddlers
+    and\n\rpre-schoolers.  The sound of childish chatter can be heard, but you don't\n\rsee
+    any children around.  \n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10659
   extra_descs: []
 - vnum: 10661
   name: The Library
-  description: "At first glance, this looks like the reference section of the library.\
-    \ \nHowever, as you walk up and down the aisles, the titles are in a foreign\n\
-    language, none of which you have ever seen before.  Picking up one of the\nbooks,\
-    \ you notice illustrations on a few of the pages.  Beakers and\nsolutions are\
-    \ drawn, but you cannot tell what it all means.  Giving up, you\nplace the book\
-    \ back on the shelf, and start to walk away.  As you approach\nthe next room,\
-    \ you hear a subtle boom, and spin around to see a book fall\nfrom the section\
-    \ you were just in.  You decide not to pick it up.  \n"
-  room_flags: AD
+  description: "At first glance, this looks like the reference section of the library.
+    \n\rHowever, as you walk up and down the aisles, the titles are in a foreign\n\rlanguage,
+    none of which you have ever seen before.  Picking up one of the\n\rbooks, you
+    notice illustrations on a few of the pages.  Beakers and\n\rsolutions are drawn,
+    but you cannot tell what it all means.  Giving up, you\n\rplace the book back
+    on the shelf, and start to walk away.  As you approach\n\rthe next room, you hear
+    a subtle boom, and spin around to see a book fall\n\rfrom the section you were
+    just in.  You decide not to pick it up.  \n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10662
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10659
   extra_descs: []
 - vnum: 10662
   name: The Library
-  description: "Ah ha!  This must be where they keep the adult books.  Tables are\
-    \ lined\nneatly in the middle of the room, with bookcases on either side.  This\
-    \ is\nthe quietest room so far, too quiet for you.  \n"
-  room_flags: AD
+  description: "Ah ha!  This must be where they keep the adult books.  Tables are
+    lined\n\rneatly in the middle of the room, with bookcases on either side.  This
+    is\n\rthe quietest room so far, too quiet for you.  \n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10661
   extra_descs: []
 - vnum: 10663
   name: Near the Edge of a Pond
-  description: "Closer to the pond now, it seems on a slant.  Odd.  Well, that can't\
-    \ be\npossible, obviously.  You are just acting silly again.  Anyways, a bunch\
-    \ of\nlittle duckies are quacking happily in the pond, splashing a bit of water\
-    \ on\nyour feet.  Care to go for a swim?  \n"
-  room_flags: '0'
+  description: "Closer to the pond now, it seems on a slant.  Odd.  Well, that can't
+    be\n\rpossible, obviously.  You are just acting silly again.  Anyways, a bunch
+    of\n\rlittle duckies are quacking happily in the pond, splashing a bit of water
+    on\n\ryour feet.  Care to go for a swim?  \n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10665
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10658
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10664
   extra_descs: []
 - vnum: 10664
   name: The Edge of a Pond
-  description: "You are wading on the very edge of the pond, hesitant on whether or\
-    \ not\nto venture in.  The water is almost the same temperature as the air, and\
-    \ the\nwildlife doesn't seem very threatening.  \n"
-  room_flags: '0'
+  description: "You are wading on the very edge of the pond, hesitant on whether or
+    not\n\rto venture in.  The water is almost the same temperature as the air, and
+    the\n\rwildlife doesn't seem very threatening.  \n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10663
   extra_descs: []
 - vnum: 10665
   name: In the Pond
-  description: "The water is up to your ribcage now.  The bottom feels kind of odd,\
-    \ a bit\ntoo smooth in areas.  Lily pads float a few feet away, and the ducks\
-    \ are\nbusy quacking several yards away.  \n"
-  room_flags: N
+  description: "The water is up to your ribcage now.  The bottom feels kind of odd,
+    a bit\n\rtoo smooth in areas.  Lily pads float a few feet away, and the ducks
+    are\n\rbusy quacking several yards away.  \n\r"
+  room_flags: 8192
   sector: 6
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10667
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10663
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10666
   extra_descs: []
 - vnum: 10666
   name: In the Pond
-  description: "The water is around your ribcage now.  The bottom feels kind of odd,\
-    \ a\nbit too smooth in areas.  The whole area is quite serene and calm, an\nexample\
-    \ of perfection.  \n"
-  room_flags: N
+  description: "The water is around your ribcage now.  The bottom feels kind of odd,
+    a\n\rbit too smooth in areas.  The whole area is quite serene and calm, an\n\rexample
+    of perfection.  \n\r"
+  room_flags: 8192
   sector: 6
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10665
   extra_descs: []
 - vnum: 10667
   name: In the Pond
-  description: "You have almost reached the middle of the pond.  The water gently\n\
-    splashes against your shoulders as you walk on.  The ducks are quacking in\nan\
-    \ agitated way, calming down from their games to watch you closely.  The\nduckies\
-    \ are awfully cute, but don't take them lightly...  \n"
-  room_flags: N
+  description: "You have almost reached the middle of the pond.  The water gently\n\rsplashes
+    against your shoulders as you walk on.  The ducks are quacking in\n\ran agitated
+    way, calming down from their games to watch you closely.  The\n\rduckies are awfully
+    cute, but don't take them lightly...  \n\r"
+  room_flags: 8192
   sector: 6
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10670
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10669
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10665
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10668
   extra_descs: []
 - vnum: 10668
   name: In the Pond
-  description: "Gliding easily in the water, you feel warm and energized.  The water\
-    \ is\nunbelievably clear, aqua in color.  Lily pads are floating nearby, and you\n\
-    even see some fishies swimming near the bottom.  \n"
-  room_flags: N
+  description: "Gliding easily in the water, you feel warm and energized.  The water
+    is\n\runbelievably clear, aqua in color.  Lily pads are floating nearby, and you\n\reven
+    see some fishies swimming near the bottom.  \n\r"
+  room_flags: 8192
   sector: 6
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10667
   extra_descs: []
 - vnum: 10669
   name: In the Pond
-  description: "Gliding easily in the water, you feel warm and energized.  The water\
-    \ is\nunbelievably clear, aqua in color.  Lily pads are floating nearby, and you\n\
-    even see some fishies swimming near the bottom.  \n"
-  room_flags: N
+  description: "Gliding easily in the water, you feel warm and energized.  The water
+    is\n\runbelievably clear, aqua in color.  Lily pads are floating nearby, and you\n\reven
+    see some fishies swimming near the bottom.  \n\r"
+  room_flags: 8192
   sector: 6
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10667
   extra_descs: []
 - vnum: 10670
   name: In the Pond
-  description: "Swimming is a must, the water is now too high for simply standing.\
-    \ \nCroaks, quacks, and the rustling of trees are crystal clear, the town being\n\
-    far away now.  \n"
-  room_flags: N
+  description: "Swimming is a must, the water is now too high for simply standing.
+    \n\rCroaks, quacks, and the rustling of trees are crystal clear, the town being\n\rfar
+    away now.  \n\r"
+  room_flags: 8192
   sector: 6
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10674
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10672
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10667
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10671
   extra_descs: []
 - vnum: 10671
   name: In the Pond
-  description: "Swimming is a must, the water is now too high for simply standing.\
-    \ \nCroaks, quacks, and the rustling of trees are crystal clear, the town being\n\
-    far away now.  \n"
-  room_flags: N
+  description: "Swimming is a must, the water is now too high for simply standing.
+    \n\rCroaks, quacks, and the rustling of trees are crystal clear, the town being\n\rfar
+    away now.  \n\r"
+  room_flags: 8192
   sector: 6
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10676
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10670
   extra_descs: []
 - vnum: 10672
   name: In the Pond
-  description: "Swimming is a must, the water is now too high for simply standing.\
-    \ \nCroaks, quacks, and the rustling of trees are crystal clear, the town being\n\
-    far away now.  \n"
-  room_flags: '0'
+  description: "Swimming is a must, the water is now too high for simply standing.
+    \n\rCroaks, quacks, and the rustling of trees are crystal clear, the town being\n\rfar
+    away now.  \n\r"
+  room_flags: 0
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10673
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10670
   extra_descs: []
 - vnum: 10673
   name: In the Pond
-  description: "Swimming is a must, the water is now too high for simply standing.\
-    \ \nCroaks, quacks, and the rustling of trees are crystal clear, the town being\n\
-    far away now.  \n"
-  room_flags: '0'
+  description: "Swimming is a must, the water is now too high for simply standing.
+    \n\rCroaks, quacks, and the rustling of trees are crystal clear, the town being\n\rfar
+    away now.  \n\r"
+  room_flags: 0
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10672
   extra_descs: []
 - vnum: 10674
   name: In the Pond
-  description: "Swimming is a must, the water is now too high for simply standing.\
-    \ \nCroaks, quacks, and the rustling of trees are crystal clear, the town being\n\
-    far away now.  \n"
-  room_flags: N
+  description: "Swimming is a must, the water is now too high for simply standing.
+    \n\rCroaks, quacks, and the rustling of trees are crystal clear, the town being\n\rfar
+    away now.  \n\r"
+  room_flags: 8192
   sector: 6
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10677
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10676
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10670
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10675
   extra_descs: []
 - vnum: 10675
   name: In the Pond
-  description: "Swimming is a must, the water is now too high for simply standing.\
-    \ \nCroaks, quacks, and the rustling of trees are crystal clear, the town being\n\
-    far away now.  \n"
-  room_flags: '0'
+  description: "Swimming is a must, the water is now too high for simply standing.
+    \n\rCroaks, quacks, and the rustling of trees are crystal clear, the town being\n\rfar
+    away now.  \n\r"
+  room_flags: 0
   sector: 6
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10674
   extra_descs: []
 - vnum: 10676
   name: In the Pond
-  description: "The water is a bit more shallow in this area, but not shallow enough\
-    \ to\ntouch the bottom.  Water loving plants grow here, swaying gently in the\n\
-    breeze, a beacon for the ducks in this pond.  \n"
-  room_flags: N
+  description: "The water is a bit more shallow in this area, but not shallow enough
+    to\n\rtouch the bottom.  Water loving plants grow here, swaying gently in the\n\rbreeze,
+    a beacon for the ducks in this pond.  \n\r"
+  room_flags: 8192
   sector: 6
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10671
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10674
   extra_descs: []
 - vnum: 10677
   name: In the Pond
-  description: "The water is slowly growing more shallow as the banks of the pond\
-    \ are\ncloseby.  There seems to be not much of anything beyond the pond.  \n"
-  room_flags: N
+  description: "The water is slowly growing more shallow as the banks of the pond
+    are\n\rcloseby.  There seems to be not much of anything beyond the pond.  \n\r"
+  room_flags: 8192
   sector: 7
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10680
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10679
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10674
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10678
   extra_descs: []
 - vnum: 10678
   name: In the Pond
-  description: "The water is slowly growing more shallow as the banks of the pond\
-    \ are\ncloseby.  Trees block climbing out of the pond on this side.  \n"
-  room_flags: N
+  description: "The water is slowly growing more shallow as the banks of the pond
+    are\n\rcloseby.  Trees block climbing out of the pond on this side.  \n\r"
+  room_flags: 8192
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10677
   extra_descs: []
 - vnum: 10679
   name: In the Pond
-  description: "The water is slowly growing more shallow as the banks of the pond\
-    \ are\ncloseby.  Trees block climbing out of the pond on this side.  \n"
-  room_flags: N
+  description: "The water is slowly growing more shallow as the banks of the pond
+    are\n\rcloseby.  Trees block climbing out of the pond on this side.  \n\r"
+  room_flags: 8192
   sector: 7
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10677
   extra_descs: []
 - vnum: 10680
   name: The Edge of a Pond
-  description: "The water is quite shallow here, making it easy to climb out of the\
-    \ pond.\nA few ducks are here, quacking at their mates in the water.  Some muddy\n\
-    footprints are also here, leading away from the edge of the pond and then\ndisappearing\
-    \ into the dead end of the forest.  \n"
-  room_flags: N
+  description: "The water is quite shallow here, making it easy to climb out of the
+    pond.\n\rA few ducks are here, quacking at their mates in the water.  Some muddy\n\rfootprints
+    are also here, leading away from the edge of the pond and then\n\rdisappearing
+    into the dead end of the forest.  \n\r"
+  room_flags: 8192
   sector: 7
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10681
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10677
   extra_descs: []
 - vnum: 10681
   name: Near the Edge of the Pond
-  description: "The edge of the pond is south, and to the north is a seemingly\nunpenatrable\
-    \ forest.  The sound of trees rustling, crickets chirping, and\nthe low growl\
-    \ of an animal drift from the depths of the forest.  \n"
-  room_flags: A
+  description: "The edge of the pond is south, and to the north is a seemingly\n\runpenatrable
+    forest.  The sound of trees rustling, crickets chirping, and\n\rthe low growl
+    of an animal drift from the depths of the forest.  \n\r"
+  room_flags: 1
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10680
   extra_descs: []
 - vnum: 10682
   name: The Edge of a Forest
-  description: "This path quickly turned much darker, the sun obstructed from view\
-    \ by the\nmany tall trees.  A pack of crows flies dangerously low to the ground,\n\
-    squaking painfully while carrying fresh meat in their talons.  \n"
-  room_flags: A
+  description: "This path quickly turned much darker, the sun obstructed from view
+    by the\n\rmany tall trees.  A pack of crows flies dangerously low to the ground,\n\rsquaking
+    painfully while carrying fresh meat in their talons.  \n\r"
+  room_flags: 1
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10683
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10649
   extra_descs: []
 - vnum: 10683
   name: A Path in the Forest
-  description: "It would be best to enter the overgrown forest cautiously, due to\
-    \ the\nmany fallen trees blocking the path.  Many small woodland creatures scamper\n\
-    across the path and crunch the leaves underfoot.  Looking forward, the path\n\
-    continues on, twisting a bit further down.  \n"
-  room_flags: A
+  description: "It would be best to enter the overgrown forest cautiously, due to
+    the\n\rmany fallen trees blocking the path.  Many small woodland creatures scamper\n\racross
+    the path and crunch the leaves underfoot.  Looking forward, the path\n\rcontinues
+    on, twisting a bit further down.  \n\r"
+  room_flags: 1
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10684
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10682
   extra_descs: []
 - vnum: 10684
   name: A Path in the Forest
-  description: "A bloody carcass is lying here, just off the path.  Several birds\
-    \ and\nsmall animals are gathered around it, living off the dead.  Through closer\n\
-    inspection, it appears rather fresh, the blood staining the side of the path\n\
-    and the grass a deep red.  \n"
-  room_flags: A
+  description: "A bloody carcass is lying here, just off the path.  Several birds
+    and\n\rsmall animals are gathered around it, living off the dead.  Through closer\n\rinspection,
+    it appears rather fresh, the blood staining the side of the path\n\rand the grass
+    a deep red.  \n\r"
+  room_flags: 1
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10685
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10683
   extra_descs: []
 - vnum: 10685
   name: A Path in the Forest
-  description: |
-    It is becoming colder, the wind briskly shaking the trees, causing some leaves to sprinkle the ground.
-    The smell of decay is becoming unbearable, as you undoubtedly step closer to the source.
-  room_flags: A
+  description: "It is becoming colder, the wind briskly shaking the trees, causing
+    some leaves to sprinkle the ground.\n\rThe smell of decay is becoming unbearable,
+    as you undoubtedly step closer to the source.\n\r"
+  room_flags: 1
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10686
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10684
   extra_descs: []
 - vnum: 10686
   name: A Path in the Forest
-  description: "This section of the path looks like it has not been tread on in months.\
-    \ \nA decaying tree lies halfway on the road and partially on the grass, acting\n\
-    as a home for many bugs.  Leaves completely cover the walkway, and with each\n\
-    step, some small animals flee from underneath them.  The end is not near.  \n"
-  room_flags: A
+  description: "This section of the path looks like it has not been tread on in months.
+    \n\rA decaying tree lies halfway on the road and partially on the grass, acting\n\ras
+    a home for many bugs.  Leaves completely cover the walkway, and with each\n\rstep,
+    some small animals flee from underneath them.  The end is not near.  \n\r"
+  room_flags: 1
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10687
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10685
   extra_descs: []
 - vnum: 10687
   name: A Path in the Forest
-  description: "The forest is becoming more dense, the path narrowing a touch.  Foliage\n\
-    lines the road and grows in-between the many old trees, along with some\nscattered\
-    \ wildflowers.  Bugs fly and walk all around you, making you itch in\nparanoia.\
-    \  \n"
-  room_flags: A
+  description: "The forest is becoming more dense, the path narrowing a touch.  Foliage\n\rlines
+    the road and grows in-between the many old trees, along with some\n\rscattered
+    wildflowers.  Bugs fly and walk all around you, making you itch in\n\rparanoia.
+    \ \n\r"
+  room_flags: 1
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10686
   extra_descs: []
 - vnum: 10688
   name: A Path in the Forest
-  description: "The dark and damp forest is completely encapsulating, it is almost\
-    \ as\nthough nothing else but this exists.  It is a world of its own, but of what\n\
-    and where does it lead?  \n"
-  room_flags: A
+  description: "The dark and damp forest is completely encapsulating, it is almost
+    as\n\rthough nothing else but this exists.  It is a world of its own, but of what\n\rand
+    where does it lead?  \n\r"
+  room_flags: 1
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10689
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10687
   extra_descs: []
 - vnum: 10689
   name: A Path in the Forest
-  description: "Scary enough, there appears to be nothing but trees further down.\
-    \ \nHowever, the forest is so dense and dark that it is hard to see much of\n\
-    anything.  Squirrels skamper loudly only a foot away, apparently in a hurry\n\
-    somewhere.  \n"
-  room_flags: A
+  description: "Scary enough, there appears to be nothing but trees further down.
+    \n\rHowever, the forest is so dense and dark that it is hard to see much of\n\ranything.
+    \ Squirrels skamper loudly only a foot away, apparently in a hurry\n\rsomewhere.
+    \ \n\r"
+  room_flags: 1
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10690
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10688
   extra_descs: []
 - vnum: 10690
   name: A Path in the Forest
-  description: "The path appears to just....  End.  If the path *does* continue on,\
-    \ it\nwould be impossible to do so due to the density of the trees ahead.  The\n\
-    path right under your feet is a different shade than the rest of the path,\nand\
-    \ is also an odd texture in comparison.  This journey appears to be a\nwaste.\
-    \  \n"
-  room_flags: A
+  description: "The path appears to just....  End.  If the path *does* continue on,
+    it\n\rwould be impossible to do so due to the density of the trees ahead.  The\n\rpath
+    right under your feet is a different shade than the rest of the path,\n\rand is
+    also an odd texture in comparison.  This journey appears to be a\n\rwaste.  \n\r"
+  room_flags: 1
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10689
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10691
   extra_descs: []
 - vnum: 10691
   name: The Catacombs
-  description: "There seems to be an underworld underneath the real world.  It is\
-    \ damp\nand completely dark down here, the walls carved out of stone.  Exits lie\
-    \ in\nalmost all directions, except down, each one leading to blackness.  \n"
-  room_flags: ADX
+  description: "There seems to be an underworld underneath the real world.  It is
+    damp\n\rand completely dark down here, the walls carved out of stone.  Exits lie
+    in\n\ralmost all directions, except down, each one leading to blackness.  \n\r"
+  room_flags: 8388617
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 10690
   extra_descs: []
-resets:
-- command: D
-  arg1: 10607
-  arg2: 1
-  arg3: 0
-- command: D
-  arg1: 10608
-  arg2: 3
-  arg3: 0
-specials:
-- vnum: 10608
-  spec_fun: spec_breath_gas
-- vnum: 10609
-  spec_fun: spec_breath_gas
-- vnum: 10610
-  spec_fun: spec_cast_cleric
-- vnum: 10612
-  spec_fun: spec_cast_mage
-- vnum: 10619
-  spec_fun: spec_cast_cleric
-- vnum: 10620
-  spec_fun: spec_breath_any
-- vnum: 10622
-  spec_fun: spec_breath_any
+resets: []
+shops: []

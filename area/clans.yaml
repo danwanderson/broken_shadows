@@ -1,0 +1,92 @@
+version: 1
+clans:
+- number: 1
+  name: rose
+  visible: '`KBlack Rose`w'
+  god: Rahl
+  max_members: 30
+  min_level: 10
+  num_members: 13
+  req_flags: 0
+  cost_gold: 0
+  cost_xp: 0
+  auto_accept: true
+  classes:
+    mage: true
+    cleric: true
+    thief: true
+    warrior: true
+    paladin: true
+  races:
+    null_race: true
+    dwarf: true
+    elf: true
+    giant: true
+    hobbit: true
+    human: true
+    troll: true
+    drow: true
+    gnome: true
+    half_elf: true
+    wyvern: true
+    vampire: true
+- number: 2
+  name: nightfall
+  visible: '`BNightfall`w'
+  god: none
+  max_members: 30
+  min_level: 20
+  num_members: 6
+  req_flags: a
+  cost_gold: 0
+  cost_xp: 0
+  auto_accept: true
+  classes:
+    mage: true
+    cleric: true
+    thief: true
+    warrior: true
+    paladin: true
+  races:
+    null_race: true
+    dwarf: true
+    elf: true
+    giant: true
+    hobbit: false
+    human: true
+    troll: false
+    drow: true
+    gnome: true
+    half_elf: true
+    wyvern: true
+    vampire: true
+- number: 3
+  name: theguild
+  visible: '`KT`whe`WGu`wil`Kd`w'
+  god: raptor
+  max_members: 30
+  min_level: 1
+  num_members: 19
+  req_flags: 0
+  cost_gold: 0
+  cost_xp: 0
+  auto_accept: false
+  classes:
+    mage: true
+    cleric: true
+    thief: true
+    warrior: true
+    paladin: true
+  races:
+    null_race: true
+    dwarf: true
+    elf: true
+    giant: true
+    hobbit: true
+    human: true
+    troll: true
+    drow: true
+    gnome: true
+    half_elf: true
+    wyvern: true
+    vampire: true

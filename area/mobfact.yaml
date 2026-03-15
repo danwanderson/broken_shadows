@@ -10,1080 +10,1026 @@ mobiles:
 - vnum: 9401
   keywords: fido mutant dog
   short_desc: The mutant beastly fido
-  long_desc: |
-    The mutant beastly fido is here, his eyes glowing green!
-  description: |
-    You see a mutant beastly fido, glaring at you with green eyes!  You wonder if
-    this factory meets ASPCA guidlines....
+  long_desc: "The mutant beastly fido is here, his eyes glowing green!\n\r"
+  description: "You see a mutant beastly fido, glaring at you with green eyes!  You
+    wonder if\n\rthis factory meets ASPCA guidlines....\n\r"
   race: fido
-  act: AFGHT
-  affected_by: D
-  affected2_by: '0'
+  act: 524512
+  affected_by: 8
+  affected2_by: 0
   alignment: -700
   clan: 0
   level: 5
   hitroll: 0
   hit:
-    number: 1
-    type: 16
-    bonus: 42
+  - 1
+  - 16
+  - 42
   mana:
-    number: 5
-    type: 10
-    bonus: 100
+  - 5
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 4
-    bonus: 3
+  - 2
+  - 4
+  - 3
   dam_type: 3
   ac:
     pierce: 6
     bash: 6
     slash: 6
     exotic: 8
-  off_flags: FR
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: C
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: BGV
-  parts: ACDEFHJKQV
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 9402
   keywords: foreman floyd
   short_desc: Foreman Floyd
-  long_desc: |
-    Foreman Floyd is here, making plans for the factory's future.
-  description: |
-    You see Foreman Floyd of the Mob factory -- a sterling example of what comes
-    of dedicated Mudding!  Rewarded for his years of dedication as a monster
-    slayer, Floyd now creates the beasts for other adventurers to fight.
+  long_desc: "Foreman Floyd is here, making plans for the factory's future.\n\r"
+  description: "You see Foreman Floyd of the Mob factory -- a sterling example of
+    what comes\n\rof dedicated Mudding!  Rewarded for his years of dedication as a
+    monster\n\rslayer, Floyd now creates the beasts for other adventurers to fight.\n\r"
   race: Human
-  act: ABGT
-  affected_by: DFH
-  affected2_by: '0'
+  act: 524354
+  affected_by: 168
+  affected2_by: 0
   alignment: 2
   clan: 0
   level: 11
   hitroll: 0
   hit:
-    number: 3
-    type: 27
-    bonus: 107
+  - 3
+  - 27
+  - 107
   mana:
-    number: 11
-    type: 10
-    bonus: 100
+  - 11
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 6
-    bonus: 6
+  - 3
+  - 6
+  - 6
   dam_type: 11
   ac:
     pierce: 3
     bash: 3
     slash: 3
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 6
   default_pos: 8
   sex: 1
   gold: 100
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 9403
   keywords: cityguard guard head
   short_desc: The Cityguard head
-  long_desc: |
-    The Cityguard head floats around aimlessly.
-  description: |
-    You see a Cityguard head floating around without a care in the world.
-    Obviously, this one got past quality control!  Careful, those teeth look
-    sharp...
+  long_desc: "The Cityguard head floats around aimlessly.\n\r"
+  description: "You see a Cityguard head floating around without a care in the world.\n\rObviously,
+    this one got past quality control!  Careful, those teeth look\n\rsharp...\n\r"
   race: Human
-  act: AGT
-  affected_by: T
-  affected2_by: '0'
+  act: 524352
+  affected_by: 524288
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 9
   hitroll: 0
   hit:
-    number: 2
-    type: 27
-    bonus: 83
+  - 2
+  - 27
+  - 83
   mana:
-    number: 9
-    type: 10
-    bonus: 100
+  - 9
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 7
-    bonus: 6
+  - 2
+  - 7
+  - 6
   dam_type: 11
   ac:
     pierce: 4
     bash: 4
     slash: 4
     exotic: 7
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 9404
   keywords: revolving drunk
   short_desc: The revolving drunk
-  long_desc: |
-    The Revolving drunk is here, spinning in place.
-  description: |
-    You see and smell a drunk who looks much like other drunks...but he is spinning
-    in place!  Someone should tell him that he is a REVOLTING drunk.
+  long_desc: "The Revolving drunk is here, spinning in place.\n\r"
+  description: "You see and smell a drunk who looks much like other drunks...but he
+    is spinning\n\rin place!  Someone should tell him that he is a REVOLTING drunk.\n\r"
   race: Human
-  act: ACGHT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524484
+  affected_by: 0
+  affected2_by: 0
   alignment: 1
   clan: 0
   level: 1
   hitroll: 0
   hit:
-    number: 1
-    type: 2
-    bonus: 6
+  - 1
+  - 2
+  - 6
   mana:
-    number: 1
-    type: 10
-    bonus: 100
+  - 1
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 2
-    bonus: 0
+  - 1
+  - 2
+  - 0
   dam_type: 3
   ac:
     pierce: 9
     bash: 9
     slash: 9
     exotic: 9
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 5
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 9405
   keywords: toxic slime
   short_desc: The toxic slime
-  long_desc: |
-    A pool of toxic slime lies on  the floor.
-  description: "Yick.  Looks like someone had digestion problems!  Either that, or\
-    \ the \nhydraulic fluid is leaking again.\n"
+  long_desc: "A pool of toxic slime lies on  the floor.\n\r"
+  description: "Yick.  Looks like someone had digestion problems!  Either that, or
+    the \n\rhydraulic fluid is leaking again.\n\r"
   race: Human
-  act: ABCT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524294
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 3
   hitroll: 0
   hit:
-    number: 1
-    type: 6
-    bonus: 23
+  - 1
+  - 6
+  - 23
   mana:
-    number: 3
-    type: 10
-    bonus: 100
+  - 3
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 5
-    bonus: 1
+  - 1
+  - 5
+  - 1
   dam_type: 3
   ac:
     pierce: 8
     bash: 8
     slash: 8
     exotic: 9
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 6
   default_pos: 6
   sex: 0
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 9406
   keywords: worker
   short_desc: The factory worker
-  long_desc: |
-    A Mob Factory worker is standing here, looking bored.
-  description: |
-    The worker wears a bright orange pair of overalls, with the words "Mob
-    Factory" written in a bright purple starburst.  Fashion plate, he's not.
+  long_desc: "A Mob Factory worker is standing here, looking bored.\n\r"
+  description: "The worker wears a bright orange pair of overalls, with the words
+    \"Mob\n\rFactory\" written in a bright purple starburst.  Fashion plate, he's
+    not.\n\r"
   race: Human
-  act: AGHT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524480
+  affected_by: 0
+  affected2_by: 0
   alignment: 100
   clan: 0
   level: 3
   hitroll: 0
   hit:
-    number: 1
-    type: 6
-    bonus: 23
+  - 1
+  - 6
+  - 23
   mana:
-    number: 3
-    type: 10
-    bonus: 100
+  - 3
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 5
-    bonus: 1
+  - 1
+  - 5
+  - 1
   dam_type: 11
   ac:
     pierce: 8
     bash: 8
     slash: 8
     exotic: 9
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 5
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 9407
   keywords: worker
   short_desc: The factory worker
-  long_desc: |
-    A Mob Factory worker is here, asleep in a chair.
-  description: |
-    If Floyd walks in, you can bet there'll be trouble.  Guess she shouldn't have
-    worked the late shift!
+  long_desc: "A Mob Factory worker is here, asleep in a chair.\n\r"
+  description: "If Floyd walks in, you can bet there'll be trouble.  Guess she shouldn't
+    have\n\rworked the late shift!\n\r"
   race: Human
-  act: ABHT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524418
+  affected_by: 0
+  affected2_by: 0
   alignment: 150
   clan: 0
   level: 4
   hitroll: 0
   hit:
-    number: 1
-    type: 10
-    bonus: 33
+  - 1
+  - 10
+  - 33
   mana:
-    number: 4
-    type: 10
-    bonus: 100
+  - 4
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 7
-    bonus: 2
+  - 1
+  - 7
+  - 2
   dam_type: 11
   ac:
     pierce: 7
     bash: 7
     slash: 7
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 4
   default_pos: 6
   sex: 2
   gold: 7
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
+objects: []
 rooms:
 - vnum: 9400
   name: Entrance to the Mob Factory
-  description: |
-    You find that you have entered a strange factory. This factory doesn't
-    make cars or computers or something - it makes mobs! The sound of
-    machinery can be heard in the background; the grinding gears drive you
-    crazy! To the north you see the storage area, to the south the
-    foreman's office, to the east the entrance hallway, and to the west the
-    familiar paving of wall road.
-  room_flags: D
+  description: "You find that you have entered a strange factory. This factory doesn't\n\rmake
+    cars or computers or something - it makes mobs! The sound of\n\rmachinery can
+    be heard in the background; the grinding gears drive you\n\rcrazy! To the north
+    you see the storage area, to the south the\n\rforeman's office, to the east the
+    entrance hallway, and to the west the\n\rfamiliar paving of wall road.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9401
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9407
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9403
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 3047
   extra_descs: []
 - vnum: 9401
   name: Mob Factory Storage Area
-  description: |
-    This is where the raw materials from which mobs are manufactured are
-    stored. You see sacks of sawdust, cans of pink paint, a large box
-    containing wigs and a bottle mysteriously labelled "solution x". Exits
-    are more of storage to the east and north, and entrance to the mob
-    factory to the south.
-  room_flags: D
+  description: "This is where the raw materials from which mobs are manufactured are\n\rstored.
+    You see sacks of sawdust, cans of pink paint, a large box\n\rcontaining wigs and
+    a bottle mysteriously labelled \"solution x\". Exits\n\rare more of storage to
+    the east and north, and entrance to the mob\n\rfactory to the south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9402
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9406
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9400
   extra_descs: []
 - vnum: 9402
   name: Mob Factory Storage Area
-  description: |
-    This is where the raw materials from which mobs are manufactured are
-    stored. You see sacks of sawdust, cans of pink paint, a large box
-    containing wigs and a bottle mysteriously labelled "solution X". Exits
-    are more of storage to the east and south.
-  room_flags: D
+  description: "This is where the raw materials from which mobs are manufactured are\n\rstored.
+    You see sacks of sawdust, cans of pink paint, a large box\n\rcontaining wigs and
+    a bottle mysteriously labelled \"solution X\". Exits\n\rare more of storage to
+    the east and south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9405
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9401
   extra_descs: []
 - vnum: 9403
   name: Foreman's Office
-  description: |
-    This is the ofice of the mob factory foreman. The room is sparsely
-    furnished with a metal desk, a couple of chairs, a shelf with helmets
-    of various sizes and a Sports Illustrated Swimsuit calendar on the west
-    wall. Exits lead north to the mob factory entrance and south to the
-    foreman's bathroom.
-  room_flags: D
+  description: "This is the ofice of the mob factory foreman. The room is sparsely\n\rfurnished
+    with a metal desk, a couple of chairs, a shelf with helmets\n\rof various sizes
+    and a Sports Illustrated Swimsuit calendar on the west\n\rwall. Exits lead north
+    to the mob factory entrance and south to the\n\rforeman's bathroom.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9400
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9404
   extra_descs: []
 - vnum: 9404
   name: Foreman's Bathroom
-  description: |
-    This is the place where the foreman makes frequent visits. The smell
-    here is very strong and reminds you of bovine excrement! There is a
-    shower to the back, and a urinal to the left. On the floor you can
-    see stains of a very suspicious nature. The only exit leads north to
-    the foreman's office.
-  room_flags: D
+  description: "This is the place where the foreman makes frequent visits. The smell\n\rhere
+    is very strong and reminds you of bovine excrement! There is a\n\rshower to the
+    back, and a urinal to the left. On the floor you can\n\rsee stains of a very suspicious
+    nature. The only exit leads north to\n\rthe foreman's office.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9403
   extra_descs: []
 - vnum: 9405
   name: Mob Factory Storage Area
-  description: |
-    This is where the raw materials from which mobs are manufactured are
-    stored. You see sacks of sawdust, cans of pink paint, a large box
-    containing wigs and a bottle mysteriously labelled "solution X". Exits
-    are more of storage to the west and south, and an inspection room to
-    the east.
-  room_flags: D
+  description: "This is where the raw materials from which mobs are manufactured are\n\rstored.
+    You see sacks of sawdust, cans of pink paint, a large box\n\rcontaining wigs and
+    a bottle mysteriously labelled \"solution X\". Exits\n\rare more of storage to
+    the west and south, and an inspection room to\n\rthe east.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9410
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9406
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9402
   extra_descs: []
 - vnum: 9406
   name: Mob Factory Storage Area
-  description: |
-    This is where the raw materials from which mobs are manufactured are
-    stored. You see sacks of sawdust, cans of pink paint, a large box
-    containing wigs and a bottle mysteriously labelled "solution X". Exits
-    are more of storage to the west and north, an inspection room to the
-    east and the entrance hallway to the south.
-  room_flags: D
+  description: "This is where the raw materials from which mobs are manufactured are\n\rstored.
+    You see sacks of sawdust, cans of pink paint, a large box\n\rcontaining wigs and
+    a bottle mysteriously labelled \"solution X\". Exits\n\rare more of storage to
+    the west and north, an inspection room to the\n\reast and the entrance hallway
+    to the south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9405
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9411
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9407
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9401
   extra_descs: []
 - vnum: 9407
   name: Entrance Hallway to Mob Factoy
-  description: |
-    You are standing in the entrance hallway of the mob factory. The sound
-    of machinery gets louder now, and you can hear people shouting in the
-    distance. Every once in a while you get creepy feeling that a pair of
-    eyes is observing you...... Exits are north to the storage area, east
-    to the entrance hallway, south to the cafeteria and west to the mob
-    factory entrance.
-  room_flags: D
+  description: "You are standing in the entrance hallway of the mob factory. The sound\n\rof
+    machinery gets louder now, and you can hear people shouting in the\n\rdistance.
+    Every once in a while you get creepy feeling that a pair of\n\reyes is observing
+    you...... Exits are north to the storage area, east\n\rto the entrance hallway,
+    south to the cafeteria and west to the mob\n\rfactory entrance.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9406
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9412
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9408
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9400
   extra_descs: []
 - vnum: 9408
   name: Mob Factory Cafeteria
-  description: |
-    You find that you have entered the cafeteria of the mob factory. There
-    are many workers eating at the numerous tables placed around the room.
-    The food doesn't look too appetising, but the factory workers don't
-    seem to care. There are many places where food and drink have been
-    spilled on the ground. Exits are north to the entrance hallway and
-    south to the mob factory cafeteria.
-  room_flags: D
+  description: "You find that you have entered the cafeteria of the mob factory. There\n\rare
+    many workers eating at the numerous tables placed around the room.\n\rThe food
+    doesn't look too appetising, but the factory workers don't\n\rseem to care. There
+    are many places where food and drink have been\n\rspilled on the ground. Exits
+    are north to the entrance hallway and\n\rsouth to the mob factory cafeteria.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9407
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9409
   extra_descs: []
 - vnum: 9409
   name: Mob Factory Cafeteria
-  description: |
-    You find that you have entered the cafeteria of the mob factory. There
-    are many workers eating at the numerous tables placed around the room.
-    The food doesn't look too appetising, but the factory workers don't
-    seem to care. There are many places where food and drink have been
-    spilled on the ground. The only exit is north to the mob factory
-    cafeteria.
-  room_flags: D
+  description: "You find that you have entered the cafeteria of the mob factory. There\n\rare
+    many workers eating at the numerous tables placed around the room.\n\rThe food
+    doesn't look too appetising, but the factory workers don't\n\rseem to care. There
+    are many places where food and drink have been\n\rspilled on the ground. The only
+    exit is north to the mob factory\n\rcafeteria.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9408
   extra_descs: []
 - vnum: 9410
   name: Mob Factory Inspection Room
-  description: |
-    You have entered the mob factory inspections room. This is where the
-    mobs manufactured on the assembly lines are inspected for defects. A
-    whole team of inspectors from the Midgaard Inspections Bureau is
-    standing around, trying to look busy. Exits are south to the mob
-    factory inspection room, east to the primary assembly line and west to
-    the storage area.
-  room_flags: D
+  description: "You have entered the mob factory inspections room. This is where the\n\rmobs
+    manufactured on the assembly lines are inspected for defects. A\n\rwhole team
+    of inspectors from the Midgaard Inspections Bureau is\n\rstanding around, trying
+    to look busy. Exits are south to the mob\n\rfactory inspection room, east to the
+    primary assembly line and west to\n\rthe storage area.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9415
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9411
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9405
   extra_descs: []
 - vnum: 9411
   name: Mob Factory Inspection Room
-  description: |
-    You have entered the mob factory inspections room. This is where the
-    mobs manufactured on the assembly lines are inspected for defects. A
-    whole team of inspectors from the Midgaard Inspections Bureau is
-    standing around, trying to look busy. Exits are south to the mob
-    factory inspection room, east to the primary assembly line and west to
-    the storage area.
-  room_flags: D
+  description: "You have entered the mob factory inspections room. This is where the\n\rmobs
+    manufactured on the assembly lines are inspected for defects. A\n\rwhole team
+    of inspectors from the Midgaard Inspections Bureau is\n\rstanding around, trying
+    to look busy. Exits are south to the mob\n\rfactory inspection room, east to the
+    primary assembly line and west to\n\rthe storage area.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9410
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9416
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9412
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9406
   extra_descs: []
 - vnum: 9412
   name: Entrance Hallway to Mob Factoy
-  description: |
-    You are standing in the entrance hallway of the mob factory. The sound
-    of machinery gets louder now, and you can hear people shouting in the
-    distance. Every once in a while you get creepy feeling that a pair of
-    eyes is observing you...... Exits are north to the inspection room,
-    east to the primary assembly line, south to the reject room and west
-    to the entrance hallway.
-  room_flags: D
+  description: "You are standing in the entrance hallway of the mob factory. The sound\n\rof
+    machinery gets louder now, and you can hear people shouting in the\n\rdistance.
+    Every once in a while you get creepy feeling that a pair of\n\reyes is observing
+    you...... Exits are north to the inspection room,\n\reast to the primary assembly
+    line, south to the reject room and west\n\rto the entrance hallway.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9411
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9417
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9413
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9407
   extra_descs: []
 - vnum: 9413
   name: Mob Factory Reject Room
-  description: |
-    This is the factory reject room. All the mobs that are manufactured
-    incorrectly or have some defect are placed here before subsequent
-    destruction. You shudder at the many deformed and grotesque shapes
-    present before you. Exits are south to the reject room and north to
-    the entrance hallway.
-  room_flags: D
+  description: "This is the factory reject room. All the mobs that are manufactured\n\rincorrectly
+    or have some defect are placed here before subsequent\n\rdestruction. You shudder
+    at the many deformed and grotesque shapes\n\rpresent before you. Exits are south
+    to the reject room and north to\n\rthe entrance hallway.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9412
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9414
   extra_descs: []
 - vnum: 9414
   name: Mob Factory Reject Room
-  description: |
-    This is the factory reject room. All the mobs that are manufactured
-    incorrectly or have some defect are placed here before subsequent
-    destruction. You shudder at the many deformed and grotesque shapes
-    present before you. The only exit is north to the reject room.
-  room_flags: D
+  description: "This is the factory reject room. All the mobs that are manufactured\n\rincorrectly
+    or have some defect are placed here before subsequent\n\rdestruction. You shudder
+    at the many deformed and grotesque shapes\n\rpresent before you. The only exit
+    is north to the reject room.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9413
   extra_descs: []
 - vnum: 9415
   name: Primary Assembly Line
-  description: |
-    This is the primary assembly line of the mob factory. Here, all the
-    mobs seen roaming around the city of Midgaard are manufactured from
-    raw materials. There is a big conveyor belt present which makes a lot
-    of noise! It seems that the workers are making drunks today. Exits are
-    east to the secondary assembly line, south to the primary assembly
-    line and west to the inspection room.
-  room_flags: D
+  description: "This is the primary assembly line of the mob factory. Here, all the\n\rmobs
+    seen roaming around the city of Midgaard are manufactured from\n\rraw materials.
+    There is a big conveyor belt present which makes a lot\n\rof noise! It seems that
+    the workers are making drunks today. Exits are\n\reast to the secondary assembly
+    line, south to the primary assembly\n\rline and west to the inspection room.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9420
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9416
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9410
   extra_descs: []
 - vnum: 9416
   name: Primary Assembly Line
-  description: |
-    This is the primary assembly line of the mob factory. Here, all the
-    mobs seen roaming around the city of Midgaard are manufactured from
-    raw materials. There is a big conveyor belt present which makes a lot
-    of noise! It seems that the workers are making drunks today. Exits are
-    east to the secondary assembly line, north and south to the primary
-    assembly line and west to the inspection room.
-  room_flags: D
+  description: "This is the primary assembly line of the mob factory. Here, all the\n\rmobs
+    seen roaming around the city of Midgaard are manufactured from\n\rraw materials.
+    There is a big conveyor belt present which makes a lot\n\rof noise! It seems that
+    the workers are making drunks today. Exits are\n\reast to the secondary assembly
+    line, north and south to the primary\n\rassembly line and west to the inspection
+    room.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9415
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9421
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9417
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9411
   extra_descs: []
 - vnum: 9417
   name: Primary Assembly Line
-  description: |
-    This is the primary assembly line of the mob factory. Here, all the
-    mobs seen roaming around the city of Midgaard are manufactured from
-    raw materials. There is a big conveyor belt present which makes a lot
-    of noise! It seems that the workers are making drunks today. Exits are
-    east to the secondary assembly line, north and south to the primary
-    assembly line and west to the entrance hallway.
-  room_flags: D
+  description: "This is the primary assembly line of the mob factory. Here, all the\n\rmobs
+    seen roaming around the city of Midgaard are manufactured from\n\rraw materials.
+    There is a big conveyor belt present which makes a lot\n\rof noise! It seems that
+    the workers are making drunks today. Exits are\n\reast to the secondary assembly
+    line, north and south to the primary\n\rassembly line and west to the entrance
+    hallway.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9416
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9422
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9418
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9412
   extra_descs: []
 - vnum: 9418
   name: Primary Assembly Line
-  description: |
-    This is the primary assembly line of the mob factory. Here, all the
-    mobs seen roaming around the city of Midgaard are manufactured from
-    raw materials. There is a big conveyor belt present which makes a lot
-    of noise! It seems that the workers are making drunks today. Exits are
-    east to the secondary assembly line, north and south to the primary
-    assembly line.
-  room_flags: D
+  description: "This is the primary assembly line of the mob factory. Here, all the\n\rmobs
+    seen roaming around the city of Midgaard are manufactured from\n\rraw materials.
+    There is a big conveyor belt present which makes a lot\n\rof noise! It seems that
+    the workers are making drunks today. Exits are\n\reast to the secondary assembly
+    line, north and south to the primary\n\rassembly line.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9417
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9423
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9419
   extra_descs: []
 - vnum: 9419
   name: Primary Assembly Line
-  description: |
-    This is the primary assembly line of the mob factory. Here, all the
-    mobs seen roaming around the city of Midgaard are manufactured from
-    raw materials. There is a big conveyor belt present which makes a lot
-    of noise! It seems that the workers are making drunks today. Exits are
-    east to the secondary assembly line and north to the primary
-    assembly line.
-  room_flags: D
+  description: "This is the primary assembly line of the mob factory. Here, all the\n\rmobs
+    seen roaming around the city of Midgaard are manufactured from\n\rraw materials.
+    There is a big conveyor belt present which makes a lot\n\rof noise! It seems that
+    the workers are making drunks today. Exits are\n\reast to the secondary assembly
+    line and north to the primary\n\rassembly line.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9418
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9424
   extra_descs: []
 - vnum: 9420
   name: Secondary Assembly Line
-  description: |
-    This is the secondary asembly line of the mob factory. You are
-    surprised to see cityguard heads come floating on the conveyor belt!
-    The very sight is sickening, but the workers seem to be quite
-    cheerful about their work. Exits are south to the secondary assembly
-    line and west to the primary assembly line.
-  room_flags: D
+  description: "This is the secondary asembly line of the mob factory. You are\n\rsurprised
+    to see cityguard heads come floating on the conveyor belt!\n\rThe very sight is
+    sickening, but the workers seem to be quite\n\rcheerful about their work. Exits
+    are south to the secondary assembly\n\rline and west to the primary assembly line.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9421
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9415
   extra_descs: []
 - vnum: 9421
   name: Secondary Assembly Line
-  description: |
-    This is the secondary asembly line of the mob factory. You are
-    surprised to see cityguard heads come floating on the conveyor belt!
-    The very sight is sickening, but the workers seem to be quite
-    cheerful about their work. Exits are north and south to the secondary
-    assembly line and west to the primary assembly line.
-  room_flags: D
+  description: "This is the secondary asembly line of the mob factory. You are\n\rsurprised
+    to see cityguard heads come floating on the conveyor belt!\n\rThe very sight is
+    sickening, but the workers seem to be quite\n\rcheerful about their work. Exits
+    are north and south to the secondary\n\rassembly line and west to the primary
+    assembly line.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9420
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9422
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9416
   extra_descs: []
 - vnum: 9422
   name: Secondary Assembly Line
-  description: |
-    This is the secondary asembly line of the mob factory. You are
-    surprised to see cityguard heads come floating on the conveyor belt!
-    The very sight is sickening, but the workers seem to be quite
-    cheerful about their work. Exits are north and south to the secondary
-    assembly line and west to the primary assembly line.
-  room_flags: D
+  description: "This is the secondary asembly line of the mob factory. You are\n\rsurprised
+    to see cityguard heads come floating on the conveyor belt!\n\rThe very sight is
+    sickening, but the workers seem to be quite\n\rcheerful about their work. Exits
+    are north and south to the secondary\n\rassembly line and west to the primary
+    assembly line.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9421
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9423
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9417
   extra_descs: []
 - vnum: 9423
   name: Secondary Assembly Line
-  description: |
-    This is the secondary asembly line of the mob factory. You are
-    surprised to see cityguard heads come floating on the conveyor belt!
-    The very sight is sickening, but the workers seem to be quite
-    cheerful about their work. Exits are north and south to the secondary
-    assembly line and west to the primary assembly line.
-  room_flags: D
+  description: "This is the secondary asembly line of the mob factory. You are\n\rsurprised
+    to see cityguard heads come floating on the conveyor belt!\n\rThe very sight is
+    sickening, but the workers seem to be quite\n\rcheerful about their work. Exits
+    are north and south to the secondary\n\rassembly line and west to the primary
+    assembly line.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9422
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9424
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9418
   extra_descs: []
 - vnum: 9424
   name: Secondary Assembly Line
-  description: |
-    This is the secondary asembly line of the mob factory. You are
-    surprised to see cityguard heads come floating on the conveyor belt!
-    The very sight is sickening, but the workers seem to be quite
-    cheerful about their work. Exits are north to the secondary
-    assembly line and west to the primary assembly line.
-  room_flags: D
+  description: "This is the secondary asembly line of the mob factory. You are\n\rsurprised
+    to see cityguard heads come floating on the conveyor belt!\n\rThe very sight is
+    sickening, but the workers seem to be quite\n\rcheerful about their work. Exits
+    are north to the secondary\n\rassembly line and west to the primary assembly line.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9423
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9419
   extra_descs: []
@@ -1216,3 +1162,4 @@ resets:
   arg1: 9405
   arg2: 7
   arg3: 9424
+shops: []

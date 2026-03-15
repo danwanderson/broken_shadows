@@ -324,15 +324,15 @@ none~
 DFGHIJ 0 0 0 0
 8 0 80
 E
+opening~
+The opening is far too narrow for you to squeeze through but it looks as if the
+tree is hollow.
+~
+E
 tree~
 This enormous tree must be a thousand years old.  Its rough bark looks grey
 and pale and is decorated with scratches and claw marks.  On its west side is a
 small opening just above ground level.
-~
-E
-opening~
-The opening is far too narrow for you to squeeze through but it looks as if the
-tree is hollow.
 ~
 #6103
 branch~
@@ -458,18 +458,18 @@ sticky substance.  The path continues south and west.
 ~
 0 9 3
 E
-substance rope ropes thread threads~
-The substance reminds you of giant threads covered with glue.  If it had not
-been for the size you could have sworn it was part of a spider web.
+path~
+The path seems all too frail.  One of the giant roots could probably crush it
+in a single blow.
 ~
 E
 tree trees trunk trunks~
 The ancient grey giants seem to observe you silently.
 ~
 E
-path~
-The path seems all too frail.  One of the giant roots could probably crush it
-in a single blow.
+substance rope ropes thread threads~
+The substance reminds you of giant threads covered with glue.  If it had not
+been for the size you could have sworn it was part of a spider web.
 ~
 D2
 The narrow path winds its way through the trees to the south.
@@ -592,14 +592,14 @@ the forest.  A dimly lit path leads north.
 ~
 0 4 2
 E
-trail~
-The forest trail winds westwards through the trees.
-~
-E
 tree trees~
 The trees are quite tall considering most of them appear to be quite young.
 On one of the trees, crude letters forming the word "Haon-Dor" have been
 carved into the bark.
+~
+E
+trail~
+The forest trail winds westwards through the trees.
 ~
 D0
 You see a dimly lit path.
@@ -624,8 +624,8 @@ edge and to the west, the trail leads further into the forest.
 ~
 0 0 3
 E
-trail~
-The forest trail winds east-west through the trees.
+birds insects animals~
+Very cute little creatures, they seem to enjoy life.
 ~
 E
 tree trees~
@@ -633,8 +633,8 @@ The trees here are quite young and fresh.  They seem to accommodate many kinds
 of birds, insects and other small animals.
 ~
 E
-birds insects animals~
-Very cute little creatures, they seem to enjoy life.
+trail~
+The forest trail winds east-west through the trees.
 ~
 D1
 The trail continues eastwards out of the forest.
@@ -655,17 +655,17 @@ south.
 ~
 0 0 3
 E
-path paths~
-The narrow path is probably used by the animals living in the forest.
+tree trees~
+The young, slender trees look beautiful, their fresh, green leaves moving
+lightly in the wind.
 ~
 E
 trail~
 The forest trail winds east-west through the trees.
 ~
 E
-tree trees~
-The young, slender trees look beautiful, their fresh, green leaves moving
-lightly in the wind.
+path paths~
+The narrow path is probably used by the animals living in the forest.
 ~
 D1
 The trail continues eastwards through the young trees.
@@ -690,13 +690,13 @@ east, the forest gradually seems to become lighter.
 ~
 0 0 3
 E
-trail~
-The forest trail seems almost fragile compared to the massive trunks.
-~
-E
 tree trees~
 The dense crowns of the mature trees leave only a fraction of the sky to be
 seen through the leaves.
+~
+E
+trail~
+The forest trail seems almost fragile compared to the massive trunks.
 ~
 D1
 The trail continues eastwards to the younger part of the forest.
@@ -717,16 +717,16 @@ total darkness.  A small path leads south through the trees.
 ~
 0 0 3
 E
-path paths~
-The narrow path is probably used by the animals living in the forest.
+tree trees~
+The crowns of the old trees almost cut out all light.
 ~
 E
 trail~
 The forest trail seems almost fragile compared to the massive trunks.
 ~
 E
-tree trees~
-The crowns of the old trees almost cut out all light.
+path paths~
+The narrow path is probably used by the animals living in the forest.
 ~
 D1
 The trail continues eastwards through the dense forest.
@@ -752,12 +752,12 @@ continues north and south.
 ~
 0 0 3
 E
-path paths~
-The narrow path is probably used by the animals living in the forest.
-~
-E
 tree trees~
 The trees are mostly old beeches and oaks.
+~
+E
+path paths~
+The narrow path is probably used by the animals living in the forest.
 ~
 D0
 The small path leads north through the trees.
@@ -778,12 +778,12 @@ continues north and east.
 ~
 0 0 3
 E
-path paths~
-The narrow path is probably used by the animals living in the forest.
-~
-E
 tree trees~
 The trees are mostly old beeches and oaks.
+~
+E
+path paths~
+The narrow path is probably used by the animals living in the forest.
 ~
 D0
 The small path leads north through the trees.
@@ -804,12 +804,12 @@ gradually lightens to the east.  Paths lead east, west and south.
 ~
 0 0 3
 E
-path paths~
-The narrow path is probably used by the animals living in the forest.
-~
-E
 tree trees~
 The trees are mostly old beeches and oaks.
+~
+E
+path paths~
+The narrow path is probably used by the animals living in the forest.
 ~
 D1
 You can barely make out a clearing to the east.
@@ -835,17 +835,8 @@ supported by stakes set into the ground.  Paths lead north, east and west.
 ~
 0 0 3
 E
-log logs~
-Even though the logs have been chopped to shorter pieces, they are quite heavy
-as they are fresh and still filled with sap.
-~
-E
-path paths~
-The narrow path is probably used by the animals living in the forest.
-~
-E
-stake stakes~
-The stakes keep the logs from rolling down.
+tree trees~
+The trees are mostly old beeches and oaks.
 ~
 E
 stump stumps~
@@ -853,8 +844,17 @@ There are more stumps than logs and some of the stumps are partly covered in
 moss.
 ~
 E
-tree trees~
-The trees are mostly old beeches and oaks.
+stake stakes~
+The stakes keep the logs from rolling down.
+~
+E
+path paths~
+The narrow path is probably used by the animals living in the forest.
+~
+E
+log logs~
+Even though the logs have been chopped to shorter pieces, they are quite heavy
+as they are fresh and still filled with sap.
 ~
 D0
 The small path leads north through the trees.
@@ -879,17 +879,17 @@ wooden door to the north and small paths lead west and south through the trees.
 ~
 0 0 3
 E
-cabin logs~
-It looks simple but comfortable and the slender trees make the whole place seem
-pretty idyllic.  It's a cabin built from logs.  Wooden logs, not system logs.
+tree trees~
+The trees are fairly young, not much more than a hundred years or so.
 ~
 E
 path paths~
 The path is probably used by the cabin's inhabitants.
 ~
 E
-tree trees~
-The trees are fairly young, not much more than a hundred years or so.
+cabin logs~
+It looks simple but comfortable and the slender trees make the whole place seem
+pretty idyllic.  It's a cabin built from logs.  Wooden logs, not system logs.
 ~
 D0
 The wooden door is quite sturdy but does not appear to be equipped with a lock.
@@ -915,16 +915,16 @@ such as a bed, a chair and a table.
 ~
 0 8 0
 E
-bed~
-It is definitely not the most comfortable bed you have seen in your life.
+table~
+A heavy table that doesn't even appear to rock.
 ~
 E
 chair~
 It is made from oak and looks strong and sturdy.
 ~
 E
-table~
-A heavy table that doesn't even appear to rock.
+bed~
+It is definitely not the most comfortable bed you have seen in your life.
 ~
 D2
 The wooden door leads south.
@@ -939,12 +939,12 @@ slender.  Paths lead north and south.
 ~
 0 0 3
 E
-path paths~
-The narrow path is probably used by the animals living in the forest.
-~
-E
 tree trees~
 The trees are fairly young, not much more than a hundred years or so.
+~
+E
+path paths~
+The narrow path is probably used by the animals living in the forest.
 ~
 D0
 The path leads north through the young trees.
@@ -965,12 +965,12 @@ lead north, east and south.
 ~
 0 0 3
 E
-path paths~
-The narrow path is probably used by the animals living in the forest.
-~
-E
 tree trees~
 The trees are mostly old beeches and oaks.
+~
+E
+path paths~
+The narrow path is probably used by the animals living in the forest.
 ~
 D0
 The small path leads north through the trees.
@@ -996,12 +996,12 @@ continues east and west.
 ~
 0 0 3
 E
-path paths~
-The narrow path is probably used by the animals living in the forest.
-~
-E
 tree trees~
 The trees are mostly old beeches and oaks.
+~
+E
+path paths~
+The narrow path is probably used by the animals living in the forest.
 ~
 D1
 The small path leads east through the trees.
@@ -1021,13 +1021,13 @@ gradually lightens to the north.  Paths lead north, east and west.
 ~
 0 0 3
 E
-path paths~
-The narrow path is probably used by the animals living in the forest.
-~
-E
 tree trees~
 The crowns of the old trees leave the forest in an unreal twilight
 illumination.
+~
+E
+path paths~
+The narrow path is probably used by the animals living in the forest.
 ~
 D0
 The path leads north to a lighter part of the forest.
@@ -1053,12 +1053,12 @@ continues south and west.
 ~
 0 0 3
 E
-path paths~
-The narrow path is probably used by the animals living in the forest.
-~
-E
 tree trees~
 The trees are mostly old beeches and oaks.
+~
+E
+path paths~
+The narrow path is probably used by the animals living in the forest.
 ~
 D2
 The small path leads south through the trees.
@@ -1079,12 +1079,12 @@ continues north and south.
 ~
 0 0 3
 E
-path paths~
-The narrow path is probably used by the animals living in the forest.
-~
-E
 tree trees~
 The trees are mostly old beeches and oaks.
+~
+E
+path paths~
+The narrow path is probably used by the animals living in the forest.
 ~
 D0
 The small path leads north through the trees.
@@ -1104,13 +1104,13 @@ become lighter to the west.  The path continues north and west.
 ~
 0 0 3
 E
-path paths~
-The narrow path is probably used by the animals living in the forest.
-~
-E
 tree trees~
 The crowns of the old trees leave the forest in an unreal twilight
 illumination.
+~
+E
+path paths~
+The narrow path is probably used by the animals living in the forest.
 ~
 D0
 The small path leads north through the trees.
@@ -1130,12 +1130,12 @@ small field and other paths lead east and west into the dense forest.
 ~
 0 0 3
 E
-path paths~
-The narrow path is probably used by the animals living in the forest.
-~
-E
 tree trees~
 The tall trees are young and slender, not much more than a hundred years or so.
+~
+E
+path paths~
+The narrow path is probably used by the animals living in the forest.
 ~
 D0
 The path leads north to a small, grassy field.
@@ -1160,13 +1160,13 @@ seems to become lighter to the east.  The path continues north and east.
 ~
 0 0 3
 E
-path paths~
-The narrow path is probably used by the animals living in the forest.
-~
-E
 tree trees~
 The crowns of the old trees leave the forest in an unreal twilight
 illumination.
+~
+E
+path paths~
+The narrow path is probably used by the animals living in the forest.
 ~
 D0
 The small path leads north through the trees.
@@ -1187,12 +1187,12 @@ continues south and west.
 ~
 0 0 3
 E
-path paths~
-The narrow path is probably used by the animals living in the forest.
-~
-E
 tree trees~
 The trees are mostly old beeches and oaks.
+~
+E
+path paths~
+The narrow path is probably used by the animals living in the forest.
 ~
 D2
 The small path leads south through the trees.
@@ -1212,8 +1212,9 @@ there is a cave entrance.  The path continues north and east.
 ~
 0 0 3
 E
-path paths~
-The narrow path is probably used by the animals living in the forest.
+cave entrance~
+The irregular opening is eight feet wide and six feet tall.  An acrid smell
+emanates from within.
 ~
 E
 tree trees~
@@ -1221,9 +1222,8 @@ The crowns of the old trees leave the forest in an unreal twilight
 illumination.
 ~
 E
-cave entrance~
-The irregular opening is eight feet wide and six feet tall.  An acrid smell
-emanates from within.
+path paths~
+The narrow path is probably used by the animals living in the forest.
 ~
 D0
 The small path leads north through the trees.
@@ -1249,16 +1249,16 @@ breathe.  The only obvious exit is east.
 ~
 0 9 0
 E
-debris~
-It consists mostly of gnawed bones mixed with small pieces of torn fur.
+air smell~
+Kind of transparent, but quite noticeable nevertheless.
 ~
 E
 cave walls floor stone~
 Quite uninteresting.
 ~
 E
-air smell~
-Kind of transparent, but quite noticeable nevertheless.
+debris~
+It consists mostly of gnawed bones mixed with small pieces of torn fur.
 ~
 D1
 The cave opening is to the east.
@@ -1275,16 +1275,16 @@ the trees.
 ~
 0 0 2
 E
-grass~
-The tall grass makes a nice hiding place for animals.
+tree trees thicket~
+The trees form a close thicket.
 ~
 E
 path~
 The narrow path is probably used by the animals living in the forest.
 ~
 E
-tree trees thicket~
-The trees form a close thicket.
+grass~
+The tall grass makes a nice hiding place for animals.
 ~
 D2
 The small path leads south in between the trees.
@@ -1300,14 +1300,14 @@ utter darkness.  The trail leads east and west.
 ~
 0 9 3
 E
-trail~
-The dark and dusty trail seems fragile compared to the massive trunks, and in
-some places, giant grey roots have broken up through its surface.
-~
-E
 tree trees trunk trunks~
 These ancient trees must have been here for many, many years.  It is impossible
 to catch even a glimpse of anything above the lowest branches.
+~
+E
+trail~
+The dark and dusty trail seems fragile compared to the massive trunks, and in
+some places, giant grey roots have broken up through its surface.
 ~
 D1
 The narrow trail leads east to a somewhat lighter part of the forest.
@@ -1328,9 +1328,9 @@ To the south, a frail path leads away from the trail.
 ~
 0 9 3
 E
-trail~
-The dark and dusty trail seems fragile compared to the massive trunks, and in
-some places, giant grey roots have broken up through its surface.
+tree trees trunk trunks~
+These ancient trees must have been here for many, many years.  It is impossible
+to catch even a glimpse of anything above the lowest branches.
 ~
 E
 path~
@@ -1338,9 +1338,9 @@ The path seems fragile and unsafe compared to the enormous trunks that loom
 around it.
 ~
 E
-tree trees trunk trunks~
-These ancient trees must have been here for many, many years.  It is impossible
-to catch even a glimpse of anything above the lowest branches.
+trail~
+The dark and dusty trail seems fragile compared to the massive trunks, and in
+some places, giant grey roots have broken up through its surface.
 ~
 D1
 The narrow, dusty trail leads east through the forest.
@@ -1366,9 +1366,9 @@ ominously quiet.
 ~
 0 9 3
 E
-trail~
-The dark and dusty trail seems fragile compared to the massive trunks, and in
-some places, giant grey roots have broken up through its surface.
+tree trees trunk trunks~
+These ancient trees must have been here for many, many years.  It is impossible
+to catch even a glimpse of anything above the lowest branches.
 ~
 E
 path~
@@ -1376,9 +1376,9 @@ The path seems fragile and unsafe compared to the enormous trunks that loom
 around it.
 ~
 E
-tree trees trunk trunks~
-These ancient trees must have been here for many, many years.  It is impossible
-to catch even a glimpse of anything above the lowest branches.
+trail~
+The dark and dusty trail seems fragile compared to the massive trunks, and in
+some places, giant grey roots have broken up through its surface.
 ~
 D1
 The narrow, dusty trail leads east through the forest.
@@ -1399,14 +1399,14 @@ The trail leads east and south.
 ~
 0 9 3
 E
-trail~
-The dark and dusty trail seems fragile compared to the massive trunks, and in
-some places, giant grey roots have broken up through its surface.
-~
-E
 trees trunks~
 These ancient trees must have been here for many, many years.  It is impossible
 to catch even a glimpse of anything above the lowest branches.
+~
+E
+trail~
+The dark and dusty trail seems fragile compared to the massive trunks, and in
+some places, giant grey roots have broken up through its surface.
 ~
 D0
 You see a dark trail north.
@@ -1432,13 +1432,13 @@ and south.
 ~
 0 9 3
 E
-tree trees trunk trunks~
-The ancient grey giants seem to observe you silently.
-~
-E
 path~
 The path seems all too frail.  One of the giant roots could probably crush it
 in a single blow.
+~
+E
+tree trees trunk trunks~
+The ancient grey giants seem to observe you silently.
 ~
 D0
 The narrow path winds its way through the trees to the north.
@@ -1458,13 +1458,13 @@ trees loom all around you.  The path continues north and west.
 ~
 0 9 3
 E
-tree trees trunk trunks~
-The ancient grey giants seem to observe you silently.
-~
-E
 path~
 The path seems all too frail.  One of the giant roots could probably crush it
 in a single blow.
+~
+E
+tree trees trunk trunks~
+The ancient grey giants seem to observe you silently.
 ~
 D0
 The narrow path winds its way through the trees to the north.
@@ -1484,13 +1484,13 @@ you on all sides.  Paths lead east, south and west.
 ~
 0 9 3
 E
-tree trees trunk trunks~
-The ancient grey giants seem to observe you silently.
-~
-E
 path paths~
 The path seems all too frail.  One of the giant roots could probably crush it
 in a single blow.
+~
+E
+tree trees trunk trunks~
+The ancient grey giants seem to observe you silently.
 ~
 D1
 The narrow path winds its way through the trees to the east.
@@ -1515,13 +1515,13 @@ trees loom all around you.  The path continues north and east.
 ~
 0 9 3
 E
-tree trees trunk trunks~
-The ancient grey giants seem to observe you silently.
-~
-E
 path~
 The path seems all too frail.  One of the giant roots could probably crush it
 in a single blow.
+~
+E
+tree trees trunk trunks~
+The ancient grey giants seem to observe you silently.
 ~
 D0
 The narrow path winds its way through the trees to the north.
@@ -1542,9 +1542,9 @@ a frail path leads away from the trail.
 ~
 0 9 3
 E
-trail~
-The dark and dusty trail seems fragile compared to the massive trunks, and in
-some places, giant grey roots have broken up through its surface.
+tree trees trunk trunks~
+These ancient trees must have been here for many, many years.  It is impossible
+to catch even a glimpse of anything above the lowest branches.
 ~
 E
 path~
@@ -1552,9 +1552,9 @@ The path seems fragile and unsafe compared to the enormous trunks that loom
 around it.
 ~
 E
-tree trees trunk trunks~
-These ancient trees must have been here for many, many years.  It is impossible
-to catch even a glimpse of anything above the lowest branches.
+trail~
+The dark and dusty trail seems fragile compared to the massive trunks, and in
+some places, giant grey roots have broken up through its surface.
 ~
 D0
 The narrow, dusty trail leads north through the forest.
@@ -1580,14 +1580,14 @@ ominously quiet.
 ~
 0 9 3
 E
-trail~
-The dark and dusty trail seems fragile compared to the massive trunks, and in
-some places, giant grey roots have broken up through its surface.
-~
-E
 tree trees trunk trunks~
 These ancient trees must have been here for many, many years.  It is impossible
 to catch even a glimpse of anything above the lowest branches.
+~
+E
+trail~
+The dark and dusty trail seems fragile compared to the massive trunks, and in
+some places, giant grey roots have broken up through its surface.
 ~
 D1
 The narrow, dusty trail leads east through the forest.
@@ -1608,9 +1608,9 @@ narrow path leads away from the trail.
 ~
 0 9 3
 E
-trail~
-The dark and dusty trail seems fragile compared to the massive trunks, and in
-some places, giant grey roots have broken up through its surface.
+tree trees trunk trunks~
+Some of the trunks to the west are covered in a thin, almost transparent
+substance.  It looks like small threads woven carefully together.
 ~
 E
 path~
@@ -1618,9 +1618,9 @@ The path seems fragile and unsafe compared to the enormous trunks that loom
 around it.
 ~
 E
-tree trees trunk trunks~
-Some of the trunks to the west are covered in a thin, almost transparent
-substance.  It looks like small threads woven carefully together.
+trail~
+The dark and dusty trail seems fragile compared to the massive trunks, and in
+some places, giant grey roots have broken up through its surface.
 ~
 D0
 The narrow path leads west between the giant trees.
@@ -1645,14 +1645,14 @@ trees that loom ominously above you.
 ~
 0 9 3
 E
-trail~
-The dark and dusty trail seems fragile compared to the massive trunks, and in
-some places, giant grey roots have broken up through its surface.
-~
-E
 tree trees trunk trunks~
 These ancient trees must have been here for many, many years.  It is impossible
 to catch even a glimpse of anything above the lowest branches.
+~
+E
+trail~
+The dark and dusty trail seems fragile compared to the massive trunks, and in
+some places, giant grey roots have broken up through its surface.
 ~
 D0
 The narrow, dusty trail leads north through the forest.
@@ -1673,9 +1673,9 @@ a frail path leads away from the trail.
 ~
 0 9 3
 E
-trail~
-The dark and dusty trail seems fragile compared to the massive trunks, and in
-some places, giant grey roots have broken up through its surface.
+tree trees trunk trunks~
+These ancient trees must have been here for many, many years.  It is impossible
+to catch even a glimpse of anything above the lowest branches.
 ~
 E
 path~
@@ -1683,9 +1683,9 @@ The path seems fragile and unsafe compared to the enormous trunks that loom
 around it.
 ~
 E
-tree trees trunk trunks~
-These ancient trees must have been here for many, many years.  It is impossible
-to catch even a glimpse of anything above the lowest branches.
+trail~
+The dark and dusty trail seems fragile compared to the massive trunks, and in
+some places, giant grey roots have broken up through its surface.
 ~
 D0
 The narrow, dusty trail leads north through the forest.
@@ -1710,13 +1710,13 @@ trees loom in all directions.  The path continues south and west.
 ~
 0 9 3
 E
-tree trees trunk trunks~
-The ancient grey giants seem to observe you silently.
-~
-E
 path~
 The path seems all too frail.  One of the giant roots could probably crush it
 in a single blow.
+~
+E
+tree trees trunk trunks~
+The ancient grey giants seem to observe you silently.
 ~
 D2
 The narrow path winds its way through the trees to the south.
@@ -1736,13 +1736,13 @@ you on all sides.  Paths lead north, east and west.
 ~
 0 9 3
 E
-tree trees trunk trunks~
-The ancient grey giants seem to observe you silently.
-~
-E
 path paths~
 The path seems all too frail.  One of the giant roots could probably crush it
 in a single blow.
+~
+E
+tree trees trunk trunks~
+The ancient grey giants seem to observe you silently.
 ~
 D0
 The narrow path winds its way through the trees to the north.
@@ -1768,13 +1768,13 @@ and west.
 ~
 0 9 3
 E
-tree trees trunk trunks~
-The ancient grey giants seem to observe you silently.
-~
-E
 path~
 The path seems all too frail.  One of the giant roots could probably crush it
 in a single blow.
+~
+E
+tree trees trunk trunks~
+The ancient grey giants seem to observe you silently.
 ~
 D0
 The narrow path winds its way through the trees to the north.
@@ -1794,13 +1794,13 @@ trees loom ominously on all sides.  The path continues east and south.
 ~
 0 9 3
 E
-tree trees trunk trunks~
-The ancient grey giants seem to observe you silently.
-~
-E
 path~
 The path seems all too frail.  One of the giant roots could probably crush it
 in a single blow.
+~
+E
+tree trees trunk trunks~
+The ancient grey giants seem to observe you silently.
 ~
 D1
 The narrow path winds its way through the trees to the east.
@@ -1820,13 +1820,13 @@ observe you silently you from all sides.  Paths lead north, east and west.
 ~
 0 9 3
 E
-tree trees trunk trunks~
-The ancient grey giants seem to observe you silently.
-~
-E
 path paths~
 The path seems all too frail.  One of the giant roots could probably crush it
 in a single blow.
+~
+E
+tree trees trunk trunks~
+The ancient grey giants seem to observe you silently.
 ~
 D0
 The narrow path winds its way through the trees to the north.
@@ -1851,13 +1851,13 @@ grey trees loom everywhere.  The path continues south and west.
 ~
 0 9 3
 E
-tree trees trunk trunks~
-The ancient grey giants seem to observe you silently.
-~
-E
 path~
 The path seems all too frail.  One of the giant roots could probably crush it
 in a single blow.
+~
+E
+tree trees trunk trunks~
+The ancient grey giants seem to observe you silently.
 ~
 D2
 The narrow path winds its way through the trees to the south.
@@ -1877,13 +1877,13 @@ ancient trees are on all sides.  The path continues north and south.
 ~
 0 9 3
 E
-tree trees trunk trunks~
-You feel as if they are watching you.
-~
-E
 path~
 The path seems all too frail.  One of the giant roots could probably crush it
 in a single blow.
+~
+E
+tree trees trunk trunks~
+You feel as if they are watching you.
 ~
 D0
 The narrow path winds its way through the trees to the north.
@@ -1904,8 +1904,9 @@ trees loom on both banks.  The path continues north and west.
 ~
 0 9 3
 E
-river~
-The river flows fast and strong.  It is black or looks so in the gloom.
+path~
+The path seems all too frail.  One of the giant roots could probably crush it
+in a single blow.
 ~
 E
 bank banks tree trees trunk trunks~
@@ -1913,9 +1914,8 @@ The ancient crowns of trees on both banks reach together forming a dense roof
 above the dark river.
 ~
 E
-path~
-The path seems all too frail.  One of the giant roots could probably crush it
-in a single blow.
+river~
+The river flows fast and strong.  It is black or looks so in the gloom.
 ~
 D0
 The narrow path winds its way through the trees to the north.
@@ -1936,8 +1936,9 @@ south a dark river flows from east to west.  The only exit appears to be east.
 ~
 0 9 3
 E
-river~
-The river flows fast and strong.  It is black or looks so in the gloom.
+path~
+The path seems all too frail.  One of the giant roots could probably crush it
+in a single blow.
 ~
 E
 bank banks tree trees trunk trunks~
@@ -1945,9 +1946,8 @@ The ancient crowns of trees on both banks reach together forming a dense roof
 above the dark river.
 ~
 E
-path~
-The path seems all too frail.  One of the giant roots could probably crush it
-in a single blow.
+river~
+The river flows fast and strong.  It is black or looks so in the gloom.
 ~
 D1
 The narrow path winds its way through the trees to the east.
@@ -1962,13 +1962,13 @@ trees loom ominously all around.  The path continues east and south.
 ~
 0 9 3
 E
-tree trees trunk trunks~
-The ancient grey giants seem to observe you silently.
-~
-E
 path~
 The path seems all too frail.  One of the giant roots could probably crush it
 in a single blow.
+~
+E
+tree trees trunk trunks~
+The ancient grey giants seem to observe you silently.
 ~
 D1
 The narrow path winds its way through the trees to the east.
@@ -1989,8 +1989,9 @@ east to west through the forest.  Paths lead north, east and west.
 ~
 0 9 3
 E
-river~
-The river flows fast and strong.  It is black or looks so in the gloom.
+path paths~
+The path seems all too frail.  One of the giant roots could probably crush it
+in a single blow.
 ~
 E
 bank banks tree trees trunk trunks~
@@ -1998,9 +1999,8 @@ The ancient crowns of trees on both banks reach together forming a dense roof
 above the dark river.
 ~
 E
-path paths~
-The path seems all too frail.  One of the giant roots could probably crush it
-in a single blow.
+river~
+The river flows fast and strong.  It is black or looks so in the gloom.
 ~
 D0
 The narrow path winds its way through the trees to the north.
@@ -2031,8 +2031,9 @@ south a dark river flows from east to west.  The only exit appears to be west.
 ~
 0 9 3
 E
-river~
-The river flows fast and strong.  It is black or looks so in the gloom.
+path~
+The path seems all too frail.  One of the giant roots could probably crush it
+in a single blow.
 ~
 E
 bank banks tree trees trunk trunks~
@@ -2040,9 +2041,8 @@ The ancient crowns of trees on both banks reach together forming a dense roof
 above the dark river.
 ~
 E
-path~
-The path seems all too frail.  One of the giant roots could probably crush it
-in a single blow.
+river~
+The river flows fast and strong.  It is black or looks so in the gloom.
 ~
 D2
 It stinks in there.
@@ -2063,8 +2063,9 @@ north and east.
 ~
 0 9 3
 E
-river~
-The river flows fast and strong.  It is black or looks so in the gloom.
+path~
+The path seems all too frail.  One of the giant roots could probably crush it
+in a single blow.
 ~
 E
 bank banks tree trees trunk trunks~
@@ -2072,9 +2073,8 @@ The ancient crowns of trees on both banks reach together forming a dense roof
 above the dark river.
 ~
 E
-path~
-The path seems all too frail.  One of the giant roots could probably crush it
-in a single blow.
+river~
+The river flows fast and strong.  It is black or looks so in the gloom.
 ~
 D0
 The narrow path winds its way through the trees to the north.
@@ -2100,9 +2100,9 @@ path leads away from the trail.
 ~
 0 9 3
 E
-trail~
-The dark and dusty trail seems fragile compared to the massive trunks, and in
-some places, giant grey roots have broken up through its surface.
+tree trees trunk trunks~
+These ancient trees must have been here for many, many years.  It is impossible
+to catch even a glimpse of anything above the lowest branches.
 ~
 E
 path~
@@ -2110,9 +2110,9 @@ The path seems fragile and unsafe compared to the enormous trunks that loom
 around it.
 ~
 E
-tree trees trunk trunks~
-These ancient trees must have been here for many, many years.  It is impossible
-to catch even a glimpse of anything above the lowest branches.
+trail~
+The dark and dusty trail seems fragile compared to the massive trunks, and in
+some places, giant grey roots have broken up through its surface.
 ~
 D0
 The narrow, dusty trail leads north through the forest.
@@ -2137,14 +2137,14 @@ standing close on all sides.  The trail leads east and south.
 ~
 0 9 3
 E
-trail~
-The dark and dusty trail seems fragile compared to the massive trunks, and in
-some places, giant grey roots have broken up through its surface.
-~
-E
 tree trees trunk trunks~
 These ancient trees must have been here for many, many years.  It is impossible
 to catch even a glimpse of anything above the lowest branches.
+~
+E
+trail~
+The dark and dusty trail seems fragile compared to the massive trunks, and in
+some places, giant grey roots have broken up through its surface.
 ~
 D1
 The narrow, dusty trail leads east through the forest.
@@ -2165,14 +2165,14 @@ ominously quiet.
 ~
 0 9 3
 E
-trail~
-The dark and dusty trail seems fragile compared to the massive trunks, and in
-some places, giant grey roots have broken up through its surface.
-~
-E
 tree trees trunk trunks~
 These ancient trees must have been here for many, many years.  It is impossible
 to catch even a glimpse of anything above the lowest branches.
+~
+E
+trail~
+The dark and dusty trail seems fragile compared to the massive trunks, and in
+some places, giant grey roots have broken up through its surface.
 ~
 D1
 The narrow, dusty trail leads east through the forest.
@@ -2193,14 +2193,14 @@ everything is ominously quiet.
 ~
 0 9 3
 E
-trail~
-The dark and dusty trail seems fragile compared to the massive trunks, and in
-some places, giant grey roots have broken up through its surface.
-~
-E
 tree trees trunk trunks~
 These ancient trees must have been here for many, many years.  It is impossible
 to catch even a glimpse of anything above the lowest branches.
+~
+E
+trail~
+The dark and dusty trail seems fragile compared to the massive trunks, and in
+some places, giant grey roots have broken up through its surface.
 ~
 D1
 The narrow, dusty trail leads east through the forest.
@@ -2222,15 +2222,15 @@ This place gives you the creeps.
 ~
 0 9 3
 E
-trail~
-The dark and dusty trail seems fragile compared to the massive trunks, and in
-some places, giant grey roots have broken up through its surface.
-~
-E
 substance wire wires rope ropes tree trees trunk trunks~
 The sticky substance is hanging like ropes between the ancient trees, crossing
 the path just out of reach.  It might be possible to climb one of the sticky
 trunks.
+~
+E
+trail~
+The dark and dusty trail seems fragile compared to the massive trunks, and in
+some places, giant grey roots have broken up through its surface.
 ~
 D1
 The narrow, dusty trail leads east through the forest, away from the web.
@@ -2299,13 +2299,13 @@ to a cave-like structure made from many layers of spider web.
 ~
 0 9 6
 E
-web~
-The immense spider web moves softly.
-~
-E
 cave structure~
 It covers a ground area corresponding to an irregular circle with a diameter of
 about 20 feet and is nearly 10 feet tall.  It looks very old.
+~
+E
+web~
+The immense spider web moves softly.
 ~
 D0
 The web continues to the north.
@@ -2332,13 +2332,13 @@ open cocoons.
 ~
 0 9 6
 E
-web wall walls~
-The sticky walls are covered with open cocoons.
-~
-E
 cocoon cocoons~
 The cocoons are burst open as if something inside really wanted to get out.
 They are at the size of a human head.
+~
+E
+web wall walls~
+The sticky walls are covered with open cocoons.
 ~
 D1
 Compared to this place the east exit looks inviting.
@@ -2375,18 +2375,18 @@ irregular path leads eastwards away from the trail.
 ~
 0 9 3
 E
-tree trees trunk trunks~
-To the east the ancient grey giants have many marks as if something with huge
-claws has been tearing at them in rage.
+trail~
+The dark and dusty trail seems fragile compared to the massive trunks, and in
+some places, giant grey roots have broken up through its surface.
 ~
 E
 path~
 The trees standing on the sides of the path have scratch marks on them.
 ~
 E
-trail~
-The dark and dusty trail seems fragile compared to the massive trunks, and in
-some places, giant grey roots have broken up through its surface.
+tree trees trunk trunks~
+To the east the ancient grey giants have many marks as if something with huge
+claws has been tearing at them in rage.
 ~
 D1
 The trees standing on the sides of the path have scratch marks on them.
@@ -2434,13 +2434,13 @@ with huge claws has been tearing at them in rage.
 ~
 0 9 3
 E
+cave opening~
+The disgusting smell of a large reptile emanates from the cave opening.
+~
+E
 tree trees~
 The ancient grey giants have many marks as if something with huge claws has
 been tearing at them in rage.
-~
-E
-cave opening~
-The disgusting smell of a large reptile emanates from the cave opening.
 ~
 D0
 The disgusting smell of a large reptile emanates from the cave opening.

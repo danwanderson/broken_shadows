@@ -10,1291 +10,1240 @@ mobiles:
 - vnum: 1601
   keywords: killer frog
   short_desc: a killer frog
-  long_desc: |
-    A killer frog rises up out of the water.
-  description: |
-    The killer frog looks ravenous.
+  long_desc: "A killer frog rises up out of the water.\n\r"
+  description: "The killer frog looks ravenous.\n\r"
   race: Human
-  act: ABFGT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524386
+  affected_by: 0
+  affected2_by: 0
   alignment: -300
   clan: 0
   level: 5
   hitroll: 0
   hit:
-    number: 1
-    type: 16
-    bonus: 42
+  - 1
+  - 16
+  - 42
   mana:
-    number: 5
-    type: 10
-    bonus: 100
+  - 5
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 4
-    bonus: 3
+  - 2
+  - 4
+  - 3
   dam_type: 3
   ac:
     pierce: 6
     bash: 6
     slash: 6
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1602
   keywords: stone gargoyle
   short_desc: the stone gargoyle
-  long_desc: |
-    A stone gargoyle looms over you.
-  description: |
-    As you look, the figure seems to shift and move ...
+  long_desc: "A stone gargoyle looms over you.\n\r"
+  description: "As you look, the figure seems to shift and move ...\n\r"
   race: Human
-  act: ABFGHT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524514
+  affected_by: 0
+  affected2_by: 0
   alignment: -400
   clan: 0
   level: 10
   hitroll: 0
   hit:
-    number: 2
-    type: 33
-    bonus: 96
+  - 2
+  - 33
+  - 96
   mana:
-    number: 10
-    type: 10
-    bonus: 100
+  - 10
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 5
-    bonus: 7
+  - 3
+  - 5
+  - 7
   dam_type: 3
   ac:
     pierce: 3
     bash: 3
     slash: 3
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 4
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1603
   keywords: angry gargoyle
   short_desc: an angry gargoyle
-  long_desc: |
-    An angry gargoyle glares at you.
-  description: |
-    He looks ready to attack!
+  long_desc: "An angry gargoyle glares at you.\n\r"
+  description: "He looks ready to attack!\n\r"
   race: Human
-  act: ACFGT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524388
+  affected_by: 0
+  affected2_by: 0
   alignment: -600
   clan: 0
   level: 9
   hitroll: 0
   hit:
-    number: 2
-    type: 27
-    bonus: 83
+  - 2
+  - 27
+  - 83
   mana:
-    number: 9
-    type: 10
-    bonus: 100
+  - 9
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 7
-    bonus: 6
+  - 2
+  - 7
+  - 6
   dam_type: 7
   ac:
     pierce: 4
     bash: 4
     slash: 4
     exotic: 7
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 5
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1604
   keywords: elite gargoyle
   short_desc: the elite gargoyle
-  long_desc: |
-    An elite gargoyle guards this room against intrusion.
-  description: |
-    He snarls at you and says LEAVE OR DIE!
+  long_desc: "An elite gargoyle guards this room against intrusion.\n\r"
+  description: "He snarls at you and says LEAVE OR DIE!\n\r"
   race: Human
-  act: ABCT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524294
+  affected_by: 0
+  affected2_by: 0
   alignment: -600
   clan: 0
   level: 12
   hitroll: 0
   hit:
-    number: 3
-    type: 32
-    bonus: 120
+  - 3
+  - 32
+  - 120
   mana:
-    number: 12
-    type: 10
-    bonus: 100
+  - 12
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 7
-    bonus: 6
+  - 3
+  - 7
+  - 6
   dam_type: 3
   ac:
     pierce: 2
     bash: 2
     slash: 2
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 8
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1605
   keywords: gargoyle shaman
   short_desc: the gargoyle shaman
-  long_desc: |
-    The gargoyle shaman is here, preparing to do battle.
-  description: |
-    She says 'I can SEE you! I have been waiting ...'.
+  long_desc: "The gargoyle shaman is here, preparing to do battle.\n\r"
+  description: "She says 'I can SEE you! I have been waiting ...'.\n\r"
   race: Human
-  act: ABCGT
-  affected_by: DF
-  affected2_by: '0'
+  act: 524358
+  affected_by: 40
+  affected2_by: 0
   alignment: -900
   clan: 0
   level: 13
   hitroll: 0
   hit:
-    number: 3
-    type: 38
-    bonus: 131
+  - 3
+  - 38
+  - 131
   mana:
-    number: 13
-    type: 10
-    bonus: 100
+  - 13
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 7
-    bonus: 8
+  - 3
+  - 7
+  - 8
   dam_type: 7
   ac:
     pierce: 1
     bash: 1
     slash: 1
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 30
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 1606
   keywords: carnivorous plant
   short_desc: a carnivorous plant
-  long_desc: |
-    Amidst the jungle here, a huge Carnivorous plant reaches out to grab you!
-  description: |
-    The plant looks something like a Venus fly-trap, only MUCH larger.
+  long_desc: "Amidst the jungle here, a huge Carnivorous plant reaches out to grab
+    you!\n\r"
+  description: "The plant looks something like a Venus fly-trap, only MUCH larger.\n\r"
   race: Human
-  act: ABFGT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524386
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 10
   hitroll: 0
   hit:
-    number: 2
-    type: 33
-    bonus: 96
+  - 2
+  - 33
+  - 96
   mana:
-    number: 10
-    type: 10
-    bonus: 100
+  - 10
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 5
-    bonus: 7
+  - 3
+  - 5
+  - 7
   dam_type: 11
   ac:
     pierce: 3
     bash: 3
     slash: 3
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1607
   keywords: gruesome ogre
   short_desc: a gruesome ogre
-  long_desc: |
-    A huge, gruesome ogre is sprawled here, gnawing some strange meat.
-  description: |
-    It thinks that perhaps you would make a better meal.
+  long_desc: "A huge, gruesome ogre is sprawled here, gnawing some strange meat.\n\r"
+  description: "It thinks that perhaps you would make a better meal.\n\r"
   race: Human
-  act: ABCFGT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524390
+  affected_by: 0
+  affected2_by: 0
   alignment: -200
   clan: 0
   level: 11
   hitroll: 0
   hit:
-    number: 3
-    type: 27
-    bonus: 107
+  - 3
+  - 27
+  - 107
   mana:
-    number: 11
-    type: 10
-    bonus: 100
+  - 11
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 6
-    bonus: 6
+  - 3
+  - 6
+  - 6
   dam_type: 7
   ac:
     pierce: 3
     bash: 3
     slash: 3
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 6
   default_pos: 8
   sex: 0
   gold: 12
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1608
   keywords: shadow
   short_desc: a shadow
-  long_desc: |
-    A dark shadow moves about the room.
-  description: |
-    The Shadow is vaguely humanoid. Two glowing pinpoints look at you.
+  long_desc: "A dark shadow moves about the room.\n\r"
+  description: "The Shadow is vaguely humanoid. Two glowing pinpoints look at you.\n\r"
   race: Human
-  act: ACFGT
-  affected_by: BDF
-  affected2_by: '0'
+  act: 524388
+  affected_by: 42
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 10
   hitroll: 0
   hit:
-    number: 2
-    type: 33
-    bonus: 96
+  - 2
+  - 33
+  - 96
   mana:
-    number: 10
-    type: 10
-    bonus: 100
+  - 10
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 5
-    bonus: 7
+  - 3
+  - 5
+  - 7
   dam_type: 3
   ac:
     pierce: 3
     bash: 3
     slash: 3
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 9
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1609
   keywords: evil wight
   short_desc: an evil wight
-  long_desc: |
-    An evil wight lurks in the shadows!
-  description: |
-    He glares at you savagely and charges!
+  long_desc: "An evil wight lurks in the shadows!\n\r"
+  description: "He glares at you savagely and charges!\n\r"
   race: Human
-  act: ABCFGT
-  affected_by: DF
-  affected2_by: '0'
+  act: 524390
+  affected_by: 40
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 12
   hitroll: 0
   hit:
-    number: 3
-    type: 32
-    bonus: 120
+  - 3
+  - 32
+  - 120
   mana:
-    number: 12
-    type: 10
-    bonus: 100
+  - 12
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 7
-    bonus: 6
+  - 3
+  - 7
+  - 6
   dam_type: 11
   ac:
     pierce: 2
     bash: 2
     slash: 2
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 22
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_undead
 - vnum: 1610
   keywords: burly minotaur
   short_desc: A burly minotaur
-  long_desc: |
-    A burly minotaur watches you solemnly.
-  description: |
-    This powerful creature wonders whether to kill you or not ...
+  long_desc: "A burly minotaur watches you solemnly.\n\r"
+  description: "This powerful creature wonders whether to kill you or not ...\n\r"
   race: Human
-  act: ACGT
-  affected_by: D
-  affected2_by: '0'
+  act: 524356
+  affected_by: 8
+  affected2_by: 0
   alignment: -600
   clan: 0
   level: 13
   hitroll: 0
   hit:
-    number: 3
-    type: 38
-    bonus: 131
+  - 3
+  - 38
+  - 131
   mana:
-    number: 13
-    type: 10
-    bonus: 100
+  - 13
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 7
-    bonus: 8
+  - 3
+  - 7
+  - 8
   dam_type: 11
   ac:
     pierce: 1
     bash: 1
     slash: 1
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 15
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1612
   keywords: savage minotaur
   short_desc: the savage minotaur
-  long_desc: |
-    A bloodthirsty minotaur slowly counts his loot
-  description: |
-    He looks up at you and screams 'SO! Coming to steal my hoard!'
+  long_desc: "A bloodthirsty minotaur slowly counts his loot\n\r"
+  description: "He looks up at you and screams 'SO! Coming to steal my hoard!'\n\r"
   race: Human
-  act: ABCFGT
-  affected_by: D
-  affected2_by: '0'
+  act: 524390
+  affected_by: 8
+  affected2_by: 0
   alignment: -600
   clan: 0
   level: 14
   hitroll: 0
   hit:
-    number: 4
-    type: 33
-    bonus: 145
+  - 4
+  - 33
+  - 145
   mana:
-    number: 14
-    type: 10
-    bonus: 100
+  - 14
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 6
-    bonus: 7
+  - 4
+  - 6
+  - 7
   dam_type: 11
   ac:
     pierce: 1
     bash: 1
     slash: 1
     exotic: 5
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1613
   keywords: minotaur captain
   short_desc: the captain
-  long_desc: |
-    Sitting here in this room is the Minotaur Captain.
-  description: |
-    He looks at you, and a sinister grin slowly spreads on his face ...
+  long_desc: "Sitting here in this room is the Minotaur Captain.\n\r"
+  description: "He looks at you, and a sinister grin slowly spreads on his face ...\n\r"
   race: Human
-  act: ABCFGT
-  affected_by: D
-  affected2_by: '0'
+  act: 524390
+  affected_by: 8
+  affected2_by: 0
   alignment: -900
   clan: 0
   level: 18
   hitroll: 0
   hit:
-    number: 6
-    type: 36
-    bonus: 205
+  - 6
+  - 36
+  - 205
   mana:
-    number: 18
-    type: 10
-    bonus: 100
+  - 18
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 7
-    bonus: 12
+  - 4
+  - 7
+  - 12
   dam_type: 11
   ac:
     pierce: -1
     bash: -1
     slash: -1
     exotic: 4
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1614
   keywords: black pudding
   short_desc: the black pudding
-  long_desc: |
-    A huge black pudding fills the center of the room!!
-  description: |
-    It is a huge black blob that oozes about the room. Its heading toward YOU!
+  long_desc: "A huge black pudding fills the center of the room!!\n\r"
+  description: "It is a huge black blob that oozes about the room. Its heading toward
+    YOU!\n\r"
   race: Human
-  act: ACFGT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524388
+  affected_by: 0
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 14
   hitroll: 0
   hit:
-    number: 4
-    type: 33
-    bonus: 145
+  - 4
+  - 33
+  - 145
   mana:
-    number: 14
-    type: 10
-    bonus: 100
+  - 14
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 6
-    bonus: 7
+  - 4
+  - 6
+  - 7
   dam_type: 3
   ac:
     pierce: 1
     bash: 1
     slash: 1
     exotic: 5
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_breath_acid
 - vnum: 1615
   keywords: lesser golem
   short_desc: a lesser golem
-  long_desc: |
-    A lesser Golem stands guarding the entrance.
-  description: |
-    The golem appears to be made of some kind of clay, enchanted to come to life!
+  long_desc: "A lesser Golem stands guarding the entrance.\n\r"
+  description: "The golem appears to be made of some kind of clay, enchanted to come
+    to life!\n\r"
   race: Human
-  act: ABGT
-  affected_by: D
-  affected2_by: '0'
+  act: 524354
+  affected_by: 8
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 16
   hitroll: 0
   hit:
-    number: 5
-    type: 34
-    bonus: 175
+  - 5
+  - 34
+  - 175
   mana:
-    number: 16
-    type: 10
-    bonus: 100
+  - 16
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 7
-    bonus: 8
+  - 4
+  - 7
+  - 8
   dam_type: 7
   ac:
     pierce: 0
     bash: 0
     slash: 0
     exotic: 5
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1616
   keywords: ancient wyvern
   short_desc: the ancient wyvern
-  long_desc: |
-    An enormous, ancient wyvern stares down at your tiny form...
-  description: |
-    It thunders loudly 'I must protect my Master's wealth!'
+  long_desc: "An enormous, ancient wyvern stares down at your tiny form...\n\r"
+  description: "It thunders loudly 'I must protect my Master's wealth!'\n\r"
   race: Human
-  act: ACFGT
-  affected_by: DF
-  affected2_by: '0'
+  act: 524388
+  affected_by: 40
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 18
   hitroll: 0
   hit:
-    number: 6
-    type: 36
-    bonus: 205
+  - 6
+  - 36
+  - 205
   mana:
-    number: 18
-    type: 10
-    bonus: 100
+  - 18
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 7
-    bonus: 12
+  - 4
+  - 7
+  - 12
   dam_type: 3
   ac:
     pierce: -1
     bash: -1
     slash: -1
     exotic: 4
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 5
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_breath_any
 - vnum: 1617
   keywords: spectre
   short_desc: the spectre
-  long_desc: |
-    A spectre has begun to materialize in front of you!
-  description: |
-    Terror fills your heart as you view this master of the undead.
+  long_desc: "A spectre has begun to materialize in front of you!\n\r"
+  description: "Terror fills your heart as you view this master of the undead.\n\r"
   race: Human
-  act: ACFGT
-  affected_by: BDH
-  affected2_by: '0'
+  act: 524388
+  affected_by: 138
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 20
   hitroll: 0
   hit:
-    number: 7
-    type: 38
-    bonus: 238
+  - 7
+  - 38
+  - 238
   mana:
-    number: 20
-    type: 10
-    bonus: 100
+  - 20
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 7
-    bonus: 10
+  - 5
+  - 7
+  - 10
   dam_type: 7
   ac:
     pierce: -2
     bash: -2
     slash: -2
     exotic: 3
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_undead
 - vnum: 1702
   keywords: trapper
   short_desc: a trapper
-  long_desc: |
-    A trapper stands here, bartering his pelts.
-  description: |
-    The trapper is clad mostly in the fur of various animals he's caught.
+  long_desc: "A trapper stands here, bartering his pelts.\n\r"
+  description: "The trapper is clad mostly in the fur of various animals he's caught.\n\r"
   race: Human
-  act: ACT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524292
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 5
   hitroll: 0
   hit:
-    number: 1
-    type: 16
-    bonus: 42
+  - 1
+  - 16
+  - 42
   mana:
-    number: 5
-    type: 10
-    bonus: 100
+  - 5
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 4
-    bonus: 3
+  - 2
+  - 4
+  - 3
   dam_type: 7
   ac:
     pierce: 6
     bash: 6
     slash: 6
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1704
   keywords: hunter
   short_desc: a hunter
-  long_desc: |
-    A hunter rests in here, carrying a fresh kill.
-  description: |
-    The hunter is rugged and sturdy from his occupation.
+  long_desc: "A hunter rests in here, carrying a fresh kill.\n\r"
+  description: "The hunter is rugged and sturdy from his occupation.\n\r"
   race: Human
-  act: ACT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524292
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 9
   hitroll: 0
   hit:
-    number: 2
-    type: 27
-    bonus: 83
+  - 2
+  - 27
+  - 83
   mana:
-    number: 9
-    type: 10
-    bonus: 100
+  - 9
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 7
-    bonus: 6
+  - 2
+  - 7
+  - 6
   dam_type: 3
   ac:
     pierce: 4
     bash: 4
     slash: 4
     exotic: 7
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 5
   default_pos: 8
   sex: 1
   gold: 1
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1706
   keywords: ranger
   short_desc: a ranger
-  long_desc: |
-    A grim ranger reclines at a table.
-  description: |
-    The years of wanderings have left the ranger hardened and strong.
+  long_desc: "A grim ranger reclines at a table.\n\r"
+  description: "The years of wanderings have left the ranger hardened and strong.\n\r"
   race: Human
-  act: ACGT
-  affected_by: D
-  affected2_by: '0'
+  act: 524356
+  affected_by: 8
+  affected2_by: 0
   alignment: 200
   clan: 0
   level: 11
   hitroll: 0
   hit:
-    number: 3
-    type: 27
-    bonus: 107
+  - 3
+  - 27
+  - 107
   mana:
-    number: 11
-    type: 10
-    bonus: 100
+  - 11
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 6
-    bonus: 6
+  - 3
+  - 6
+  - 6
   dam_type: 11
   ac:
     pierce: 3
     bash: 3
     slash: 3
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 5
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1707
   keywords: ranger leader
   short_desc: a ranger leader
-  long_desc: |
-    A leader of the Rangers is watching you solemnly.
-  description: |
-    This individual has quite a reputation at the local trading posts!
+  long_desc: "A leader of the Rangers is watching you solemnly.\n\r"
+  description: "This individual has quite a reputation at the local trading posts!\n\r"
   race: Human
-  act: ABCT
-  affected_by: D
-  affected2_by: '0'
+  act: 524294
+  affected_by: 8
+  affected2_by: 0
   alignment: 300
   clan: 0
   level: 16
   hitroll: 0
   hit:
-    number: 5
-    type: 34
-    bonus: 175
+  - 5
+  - 34
+  - 175
   mana:
-    number: 16
-    type: 10
-    bonus: 100
+  - 16
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 7
-    bonus: 8
+  - 4
+  - 7
+  - 8
   dam_type: 11
   ac:
     pierce: 0
     bash: 0
     slash: 0
     exotic: 5
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1708
   keywords: ranger lord
   short_desc: the Lord of the Rangers
-  long_desc: |
-    The Lord of the Rangers catches your eye.
-  description: ''
+  long_desc: "The Lord of the Rangers catches your eye.\n\r"
+  description:
   race: Human
-  act: ABCT
-  affected_by: D
-  affected2_by: '0'
+  act: 524294
+  affected_by: 8
+  affected2_by: 0
   alignment: 400
   clan: 0
   level: 21
   hitroll: 0
   hit:
-    number: 8
-    type: 37
-    bonus: 252
+  - 8
+  - 37
+  - 252
   mana:
-    number: 21
-    type: 10
-    bonus: 100
+  - 21
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 7
-    bonus: 12
+  - 5
+  - 7
+  - 12
   dam_type: 7
   ac:
     pierce: -3
     bash: -3
     slash: -3
     exotic: 3
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1710
   keywords: male centaur
   short_desc: a centaur
-  long_desc: |
-    A male centaur wanders about this area.
-  description: |
-    The centaur has the upper torso of a man and lower body of a horse.
+  long_desc: "A male centaur wanders about this area.\n\r"
+  description: "The centaur has the upper torso of a man and lower body of a horse.\n\r"
   race: Human
-  act: ACT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524292
+  affected_by: 0
+  affected2_by: 0
   alignment: 200
   clan: 0
   level: 7
   hitroll: 0
   hit:
-    number: 1
-    type: 33
-    bonus: 61
+  - 1
+  - 33
+  - 61
   mana:
-    number: 7
-    type: 10
-    bonus: 100
+  - 7
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 6
-    bonus: 3
+  - 2
+  - 6
+  - 3
   dam_type: 3
   ac:
     pierce: 5
     bash: 5
     slash: 5
     exotic: 7
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1711
   keywords: female centaur
   short_desc: a centaur
-  long_desc: |
-    A female centaur wanders about this area.
-  description: |
-    The centaur has the upper torso of a woman and lower body of a horse.
+  long_desc: "A female centaur wanders about this area.\n\r"
+  description: "The centaur has the upper torso of a woman and lower body of a horse.\n\r"
   race: Human
-  act: ACT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524292
+  affected_by: 0
+  affected2_by: 0
   alignment: 200
   clan: 0
   level: 7
   hitroll: 0
   hit:
-    number: 1
-    type: 33
-    bonus: 61
+  - 1
+  - 33
+  - 61
   mana:
-    number: 7
-    type: 10
-    bonus: 100
+  - 7
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 6
-    bonus: 3
+  - 2
+  - 6
+  - 3
   dam_type: 7
   ac:
     pierce: 5
     bash: 5
     slash: 5
     exotic: 7
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 1
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1712
   keywords: old centaur
   short_desc: an old centaur
-  long_desc: |
-    An old centaur is resting in a corner.
-  description: |
-    This centaur has lived a full life.
+  long_desc: "An old centaur is resting in a corner.\n\r"
+  description: "This centaur has lived a full life.\n\r"
   race: Human
-  act: ACT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524292
+  affected_by: 0
+  affected2_by: 0
   alignment: 200
   clan: 0
   level: 6
   hitroll: 0
   hit:
-    number: 1
-    type: 24
-    bonus: 51
+  - 1
+  - 24
+  - 51
   mana:
-    number: 6
-    type: 10
-    bonus: 100
+  - 6
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 5
-    bonus: 3
+  - 2
+  - 5
+  - 3
   dam_type: 3
   ac:
     pierce: 6
     bash: 6
     slash: 6
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 5
   default_pos: 5
   sex: 1
   gold: 1
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1714
   keywords: centaur elder
   short_desc: an elder centaur
-  long_desc: |
-    One of the centaur elders is here, watching you.
-  description: |
-    The elders act as counselors and advisors to the chief.
+  long_desc: "One of the centaur elders is here, watching you.\n\r"
+  description: "The elders act as counselors and advisors to the chief.\n\r"
   race: Human
-  act: ABCT
-  affected_by: B
-  affected2_by: '0'
+  act: 524294
+  affected_by: 2
+  affected2_by: 0
   alignment: 200
   clan: 0
   level: 9
   hitroll: 0
   hit:
-    number: 2
-    type: 27
-    bonus: 83
+  - 2
+  - 27
+  - 83
   mana:
-    number: 9
-    type: 10
-    bonus: 100
+  - 9
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 7
-    bonus: 6
+  - 2
+  - 7
+  - 6
   dam_type: 7
   ac:
     pierce: 4
     bash: 4
     slash: 4
     exotic: 7
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1715
   keywords: centaur guard
   short_desc: a centaur guard
-  long_desc: |
-    A strong centaur is standing guard here.
-  description: |
-    He appears to be blocking entrance to the next room.
+  long_desc: "A strong centaur is standing guard here.\n\r"
+  description: "He appears to be blocking entrance to the next room.\n\r"
   race: Human
-  act: ABT
-  affected_by: B
-  affected2_by: '0'
+  act: 524290
+  affected_by: 2
+  affected2_by: 0
   alignment: 200
   clan: 0
   level: 9
   hitroll: 0
   hit:
-    number: 2
-    type: 27
-    bonus: 83
+  - 2
+  - 27
+  - 83
   mana:
-    number: 9
-    type: 10
-    bonus: 100
+  - 9
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 7
-    bonus: 6
+  - 2
+  - 7
+  - 6
   dam_type: 3
   ac:
     pierce: 4
     bash: 4
     slash: 4
     exotic: 7
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 1716
   keywords: centaur chief
   short_desc: the centaur chief
-  long_desc: |
-    The chief of the centaur villagers reclines here.
-  description: |
-    He has been the leader of this tribe for many years, and has acquired much
-    wisdom.
+  long_desc: "The chief of the centaur villagers reclines here.\n\r"
+  description: "He has been the leader of this tribe for many years, and has acquired
+    much\n\rwisdom.\n\r"
   race: Human
-  act: ABCT
-  affected_by: B
-  affected2_by: '0'
+  act: 524294
+  affected_by: 2
+  affected2_by: 0
   alignment: 200
   clan: 0
   level: 11
   hitroll: 0
   hit:
-    number: 3
-    type: 27
-    bonus: 107
+  - 3
+  - 27
+  - 107
   mana:
-    number: 11
-    type: 10
-    bonus: 100
+  - 11
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 6
-    bonus: 6
+  - 3
+  - 6
+  - 6
   dam_type: 7
   ac:
     pierce: 3
     bash: 3
     slash: 3
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 5
   default_pos: 8
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_undead
 - vnum: 1720
   keywords: displacer beast
   short_desc: a displacer beast
-  long_desc: |
-    A displacer beast is grazing nearby.
-  description: |
-    As you watch this strange creature, its position seems to flicker and shift.
+  long_desc: "A displacer beast is grazing nearby.\n\r"
+  description: "As you watch this strange creature, its position seems to flicker
+    and shift.\n\r"
   race: Human
-  act: AHT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524416
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 10
   hitroll: 0
   hit:
-    number: 2
-    type: 33
-    bonus: 96
+  - 2
+  - 33
+  - 96
   mana:
-    number: 10
-    type: 10
-    bonus: 100
+  - 10
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 5
-    bonus: 7
+  - 3
+  - 5
+  - 7
   dam_type: 3
   ac:
     pierce: 3
     bash: 3
     slash: 3
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 objects:
 - vnum: 1601
   name: rusty cleaver
@@ -1302,17 +1251,17 @@ objects:
   description: A rusty cleaver lies on a counter top.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 8
+  weight: 2
+  cost: 80
   values:
   - 2
   - 3
   - 5
   - 3
   - 0
-  level: 8
-  weight: 2
-  cost: 80
   affects: []
   extra_descs: []
 - vnum: 1602
@@ -1321,22 +1270,22 @@ objects:
   description: There is a large mace of fine quality here.
   material: none
   item_type: 5
-  extra_flags: G
-  wear_flags: AN
+  extra_flags: 64
+  wear_flags: 8193
+  level: 13
+  weight: 11
+  cost: 130
   values:
   - 4
   - 4
   - 5
   - 7
   - 0
-  level: 13
-  weight: 11
-  cost: 130
   affects:
   - where: O
     location: 18
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
   extra_descs: []
 - vnum: 1603
   name: elven dagger
@@ -1344,22 +1293,22 @@ objects:
   description: A long elven dagger made of adamantite is here.
   material: none
   item_type: 5
-  extra_flags: AG
-  wear_flags: AN
+  extra_flags: 65
+  wear_flags: 8193
+  level: 8
+  weight: 2
+  cost: 80
   values:
   - 2
   - 3
   - 5
   - 11
   - 0
-  level: 8
-  weight: 2
-  cost: 80
   affects:
   - where: O
     location: 18
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
   extra_descs: []
 - vnum: 1604
   name: steel broad sword
@@ -1367,26 +1316,26 @@ objects:
   description: A fine steel broad sword is lying on the ground.
   material: none
   item_type: 5
-  extra_flags: AG
-  wear_flags: AN
+  extra_flags: 65
+  wear_flags: 8193
+  level: 9
+  weight: 12
+  cost: 90
   values:
   - 1
   - 3
   - 5
   - 3
   - 0
-  level: 9
-  weight: 12
-  cost: 90
   affects:
-  - where: O
-    location: 18
-    modifier: 1
-    bitvector: '0'
   - where: O
     location: 19
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: 0
   extra_descs: []
 - vnum: 1606
   name: rod might
@@ -1394,26 +1343,26 @@ objects:
   description: A Rod of Might is lying here.
   material: none
   item_type: 5
-  extra_flags: BG
-  wear_flags: AN
+  extra_flags: 66
+  wear_flags: 8193
+  level: 16
+  weight: 13
+  cost: 160
   values:
   - 4
   - 5
   - 4
   - 6
   - 0
-  level: 16
-  weight: 13
-  cost: 160
   affects:
-  - where: O
-    location: 18
-    modifier: 2
-    bitvector: '0'
   - where: O
     location: 1
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 2
+    bitvector: 0
   extra_descs: []
 - vnum: 1612
   name: black kite shield
@@ -1421,22 +1370,22 @@ objects:
   description: There is a large black kite shield lying here.
   material: none
   item_type: 9
-  extra_flags: AG
-  wear_flags: AJ
+  extra_flags: 65
+  wear_flags: 513
+  level: 14
+  weight: 6
+  cost: 140
   values:
   - 5
   - 5
   - 5
   - 0
   - 0
-  level: 14
-  weight: 6
-  cost: 140
   affects:
   - where: O
     location: 24
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
   extra_descs: []
 - vnum: 1614
   name: helm
@@ -1444,22 +1393,22 @@ objects:
   description: A commander's helm rests on a table here.
   material: none
   item_type: 9
-  extra_flags: AG
-  wear_flags: AE
+  extra_flags: 65
+  wear_flags: 17
+  level: 18
+  weight: 4
+  cost: 180
   values:
   - 6
   - 6
   - 6
   - 0
   - 0
-  level: 18
-  weight: 4
-  cost: 180
   affects:
   - where: O
     location: 4
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
   extra_descs:
   - keywords: helm
     description: This elegant helm is plated in mithril and silver.
@@ -1469,22 +1418,22 @@ objects:
   description: A magical bracer made from mithril lies on the ground!
   material: none
   item_type: 9
-  extra_flags: BG
-  wear_flags: AM
+  extra_flags: 66
+  wear_flags: 4097
+  level: 18
+  weight: 2
+  cost: 180
   values:
   - 6
   - 6
   - 6
   - 0
   - 0
-  level: 18
-  weight: 2
-  cost: 180
   affects:
   - where: O
     location: 1
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
   extra_descs: []
 - vnum: 1616
   name: dark blue cloak
@@ -1492,26 +1441,26 @@ objects:
   description: A valuable cloak of dark blue cloth lies on the floor.
   material: none
   item_type: 9
-  extra_flags: AG
-  wear_flags: AC
+  extra_flags: 65
+  wear_flags: 5
+  level: 20
+  weight: 2
+  cost: 200
   values:
   - 7
   - 7
   - 7
   - 0
   - 0
-  level: 20
-  weight: 2
-  cost: 200
   affects:
-  - where: O
-    location: 17
-    modifier: -6
-    bitvector: '0'
   - where: O
     location: 12
     modifier: 5
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: -6
+    bitvector: 0
   extra_descs: []
 - vnum: 1621
   name: dark red potion
@@ -1519,17 +1468,17 @@ objects:
   description: A dark red potion rests on the ground.
   material: none
   item_type: 10
-  extra_flags: AG
-  wear_flags: AO
-  values:
-  - 9
-  - 14
-  - 15
-  - 0
-  - 0
+  extra_flags: 65
+  wear_flags: 16385
   level: 11
   weight: 1
   cost: 110
+  values:
+  - 9
+  - 22
+  - 23
+  - -1
+  - 0
   affects: []
   extra_descs: []
 - vnum: 1651
@@ -1538,17 +1487,17 @@ objects:
   description: There is a sturdy bronze chest in the corner.
   material: none
   item_type: 15
-  extra_flags: '0'
-  wear_flags: A
-  values:
-  - 30
-  - 5
-  - 4294967295
-  - 0
-  - 0
+  extra_flags: 0
+  wear_flags: 1
   level: 8
   weight: 10
   cost: 80
+  values:
+  - 30
+  - 5
+  - -1
+  - 0
+  - 0
   affects: []
   extra_descs: []
 - vnum: 1652
@@ -1557,17 +1506,17 @@ objects:
   description: There is a small barrel in one corner.
   material: none
   item_type: 17
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 3
+  weight: 8
+  cost: 30
   values:
   - 5
   - 2
   - 3
   - 0
   - 0
-  level: 3
-  weight: 8
-  cost: 30
   affects: []
   extra_descs: []
 - vnum: 1691
@@ -1576,17 +1525,17 @@ objects:
   description: There is a shiny skeleton key on the ground here.
   material: none
   item_type: 18
-  extra_flags: '0'
-  wear_flags: A
+  extra_flags: 0
+  wear_flags: 1
+  level: 0
+  weight: 1
+  cost: 0
   values:
   - 1
   - 0
   - 0
   - 0
   - 0
-  level: 0
-  weight: 1
-  cost: 0
   affects: []
   extra_descs: []
 - vnum: 1692
@@ -1595,22 +1544,22 @@ objects:
   description: There is a very strange-looking key on the ground here.
   material: none
   item_type: 18
-  extra_flags: AG
-  wear_flags: AO
+  extra_flags: 65
+  wear_flags: 16385
+  level: 12
+  weight: 1
+  cost: 120
   values:
   - 2
   - 0
   - 0
   - 0
   - 0
-  level: 12
-  weight: 1
-  cost: 120
   affects:
   - where: O
     location: 17
     modifier: -5
-    bitvector: '0'
+    bitvector: 0
   extra_descs:
   - keywords: strange key
     description: This key is of an unusual shape ... must go to an unusual lock!
@@ -1620,70 +1569,68 @@ objects:
   description: A short bow has been carelessly left here.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 7
+  weight: 5
+  cost: 70
   values:
   - 0
   - 2
   - 7
   - 11
   - 0
-  level: 7
-  weight: 5
-  cost: 70
   affects: []
   extra_descs:
   - keywords: short bow
-    description: |
-      It looks like the bows used by rustin hunters.
+    description: "It looks like the bows used by rustin hunters.\n\r"
 - vnum: 1702
   name: long bow
   short_desc: a long bow
   description: A long bow has been foolishly abandoned here.
   material: none
   item_type: 5
-  extra_flags: AG
-  wear_flags: AN
+  extra_flags: 65
+  wear_flags: 8193
+  level: 11
+  weight: 8
+  cost: 110
   values:
   - 0
   - 3
   - 6
   - 11
   - 0
-  level: 11
-  weight: 8
-  cost: 110
   affects:
   - where: O
     location: 18
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
   extra_descs:
   - keywords: long bow
-    description: |
-      It looks like the bows used by rustin hunters.
+    description: "It looks like the bows used by rustin hunters.\n\r"
 - vnum: 1703
   name: gnarled staff
   short_desc: a gnarled staff
   description: A gnarled looking staff lies on the ground.
   material: none
   item_type: 5
-  extra_flags: AG
-  wear_flags: AN
+  extra_flags: 65
+  wear_flags: 8193
+  level: 0
+  weight: 7
+  cost: 0
   values:
   - 3
   - 1
   - 7
   - 7
   - 0
-  level: 0
-  weight: 7
-  cost: 0
   affects:
   - where: O
     location: 13
     modifier: 5
-    bitvector: '0'
+    bitvector: 0
   extra_descs: []
 - vnum: 1704
   name: ancient sword
@@ -1691,26 +1638,26 @@ objects:
   description: An ancient long sword has been left here.
   material: none
   item_type: 5
-  extra_flags: BG
-  wear_flags: AN
+  extra_flags: 66
+  wear_flags: 8193
+  level: 0
+  weight: 10
+  cost: 0
   values:
   - 1
   - 1
   - 7
   - 3
   - 0
-  level: 0
-  weight: 10
-  cost: 0
   affects:
-  - where: O
-    location: 18
-    modifier: 3
-    bitvector: '0'
   - where: O
     location: 19
     modifier: 3
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 3
+    bitvector: 0
   extra_descs: []
 - vnum: 1711
   name: fur cap
@@ -1718,17 +1665,17 @@ objects:
   description: A fur cap lies here on the ground.
   material: none
   item_type: 9
-  extra_flags: '0'
-  wear_flags: AE
+  extra_flags: 0
+  wear_flags: 17
+  level: 5
+  weight: 1
+  cost: 50
   values:
   - 4
   - 4
   - 4
   - 0
   - 0
-  level: 5
-  weight: 1
-  cost: 50
   affects: []
   extra_descs: []
 - vnum: 1712
@@ -1737,22 +1684,22 @@ objects:
   description: A sturdy pair of travelling boots lies here.
   material: none
   item_type: 9
-  extra_flags: G
-  wear_flags: AG
+  extra_flags: 64
+  wear_flags: 65
+  level: 0
+  weight: 2
+  cost: 0
   values:
   - 3
   - 3
   - 3
   - 0
   - 0
-  level: 0
-  weight: 2
-  cost: 0
   affects:
   - where: O
     location: 14
     modifier: 10
-    bitvector: '0'
+    bitvector: 0
   extra_descs: []
 - vnum: 1713
   name: bronze ring
@@ -1760,1461 +1707,1352 @@ objects:
   description: A ring of etched bronze gleams dimly on the ground.
   material: none
   item_type: 9
-  extra_flags: G
-  wear_flags: AB
+  extra_flags: 64
+  wear_flags: 3
+  level: 11
+  weight: 1
+  cost: 110
   values:
   - 5
   - 5
   - 5
   - 0
   - 0
-  level: 11
-  weight: 1
-  cost: 110
   affects:
   - where: O
     location: 12
     modifier: 5
-    bitvector: '0'
+    bitvector: 0
   extra_descs: []
 rooms:
 - vnum: 1601
   name: Rough East-West Path
-  description: |
-    You are on a very rough and overgrown path heading east-west over rugged
-    terrain.  To the east the path passes between low hills.
-  room_flags: '0'
+  description: "You are on a very rough and overgrown path heading east-west over
+    rugged\n\rterrain.  To the east the path passes between low hills.\n\r"
+  room_flags: 0
   sector: 4
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The road heads into low hills this way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The road heads into low hills this way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1602
   - dir: 3
-    desc: |
-      The cross-roads and a trading post lie in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The cross-roads and a trading post lie in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1702
   extra_descs: []
 - vnum: 1602
   name: Rough Path Between the Hills
-  description: |
-    Here the path passes between low hills. The going is very rough, but
-    to the east the ground is smoother. In that direction a pair of tower
-    looms above the hills.
-  room_flags: '0'
+  description: "Here the path passes between low hills. The going is very rough, but\n\rto
+    the east the ground is smoother. In that direction a pair of tower\n\rlooms above
+    the hills.\n\r"
+  room_flags: 0
   sector: 4
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see a pair of tall towers in the distance.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a pair of tall towers in the distance.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1603
   - dir: 3
-    desc: |
-      The road continues.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The road continues.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1601
   extra_descs: []
 - vnum: 1603
   name: Path through an Open Area
-  description: |
-    You are on a path through an open area. East of here loom two tall towers,
-    joined by a barbican and surrounded by a murky moat. West the path passes
-    between low hills.
-  room_flags: '0'
+  description: "You are on a path through an open area. East of here loom two tall
+    towers,\n\rjoined by a barbican and surrounded by a murky moat. West the path
+    passes\n\rbetween low hills.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      Two fantastic towers surrounded by a moat rise before you.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Two fantastic towers surrounded by a moat rise before you.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1604
   - dir: 3
-    desc: |
-      The road continues.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The road continues.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1602
   extra_descs: []
 - vnum: 1604
   name: West Side of Moat
-  description: "You stand on the west side of a moat that encircles two towers, each\n\
-    over 50 feet high. You will need a boat to go east across the moat. A\nrugged\
-    \ path heads west, and another one heads north to a cluster of low \nbuildings.\n"
-  room_flags: '0'
+  description: "You stand on the west side of a moat that encircles two towers, each\n\rover
+    50 feet high. You will need a boat to go east across the moat. A\n\rrugged path
+    heads west, and another one heads north to a cluster of low \n\rbuildings.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      A worn path leads to a cluster of low buildings.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A worn path leads to a cluster of low buildings.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1605
   - dir: 1
-    desc: |
-      The Towers loom directly over you, just beyond the moat.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The Towers loom directly over you, just beyond the moat.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1620
   - dir: 3
-    desc: |
-      An old ill-kept roads leads away to the west.
-    keywords: ''
-    exit_flags: '0'
+    desc: "An old ill-kept roads leads away to the west.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1603
   extra_descs: []
 - vnum: 1605
   name: Path North of Moat
-  description: |
-    You walk on a faint path heading south toward the west side of the moat,
-    and north to three small buildings.
-  room_flags: '0'
+  description: "You walk on a faint path heading south toward the west side of the
+    moat,\n\rand north to three small buildings.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      Several low buildings lie this way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "Several low buildings lie this way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1606
   - dir: 2
-    desc: |
-      The path ends west of the moat.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The path ends west of the moat.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1604
   extra_descs: []
 - vnum: 1606
   name: Cluster of Buildings
-  description: |
-    You are in the middle of a cluster of small buildings. There is a building
-    to the north, east, and west.  A sign over the eastern building says
-    'House of Pancakes'.
-  room_flags: '0'
+  description: "You are in the middle of a cluster of small buildings. There is a
+    building\n\rto the north, east, and west.  A sign over the eastern building says\n\r'House
+    of Pancakes'.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      There is an entrance to a building.
-    keywords: ''
-    exit_flags: '0'
+    desc: "There is an entrance to a building.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1609
   - dir: 1
-    desc: |
-      A sign over the door reads 'House of Pancakes'.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A sign over the door reads 'House of Pancakes'.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1607
   - dir: 2
-    desc: |
-      A path heads south toward the west side of the towers.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A path heads south toward the west side of the towers.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1605
   - dir: 3
-    desc: |
-      There is an entrance to a building here.
-    keywords: ''
-    exit_flags: '0'
+    desc: "There is an entrance to a building here.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1608
   extra_descs: []
 - vnum: 1607
   name: House of Pancakes
-  description: |
-    The moment you enter this room, the ceiling descends and crushes you
-    into a pancake.  Don't you hate it when that happens?
-  room_flags: BC
+  description: "The moment you enter this room, the ceiling descends and crushes you\n\rinto
+    a pancake.  Don't you hate it when that happens?\n\r"
+  room_flags: 6
   sector: 0
-  owner: ''
+  owner:
   exits: []
   extra_descs: []
 - vnum: 1608
   name: Old Store Room
-  description: |
-    You have entered what appears to be an old storeroom. Most of the items
-    that were in here appear to have been ruined long ago.
-  room_flags: AD
+  description: "You have entered what appears to be an old storeroom. Most of the
+    items\n\rthat were in here appear to have been ruined long ago.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1606
   extra_descs: []
 - vnum: 1609
   name: Empty Room
-  description: |
-    This room appears to be completely empty. The only exit seems to be the
-    way you came.  There are some scratches around the floor.
-  room_flags: AD
+  description: "This room appears to be completely empty. The only exit seems to be
+    the\n\rway you came.  There are some scratches around the floor.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1606
   - dir: 5
-    desc: |
-      You see a concealed opening leading down.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a concealed opening leading down.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1610
   extra_descs: []
 - vnum: 1610
   name: Minotaur's Room
-  description: |
-    You have entered a secret chamber under the empty room. In this room is
-    the worn but cared-for gear and trappings of some large humanoid.
-  room_flags: ACD
+  description: "You have entered a secret chamber under the empty room. In this room
+    is\n\rthe worn but cared-for gear and trappings of some large humanoid.\n\r"
+  room_flags: 13
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1609
   extra_descs: []
 - vnum: 1620
   name: Western Moat
-  description: |
-    You are in the middle of the moat, on the west side of the tower.  There is a
-    landing on both sides of the moat.  Deep throated 'ribbids' come from the
-    water all around you.
-  room_flags: '0'
+  description: "You are in the middle of the moat, on the west side of the tower.
+    \ There is a\n\rlanding on both sides of the moat.  Deep throated 'ribbids' come
+    from the\n\rwater all around you.\n\r"
+  room_flags: 0
   sector: 7
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1621
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1623
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1622
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1604
   extra_descs: []
 - vnum: 1621
   name: Northern Moat
-  description: |
-    You are in the middle of the moat, on the north side of the tower.  There is
-    no place to land here.  Deep throated 'ribbids' come from the water all
-    around you.
-  room_flags: '0'
+  description: "You are in the middle of the moat, on the north side of the tower.
+    \ There is\n\rno place to land here.  Deep throated 'ribbids' come from the water
+    all\n\raround you.\n\r"
+  room_flags: 0
   sector: 7
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1620
   extra_descs: []
 - vnum: 1622
   name: Southern Moat
-  description: |
-    You are in the middle of the moat, on the south side of the tower.  There is
-    no place to land here.  Deep throated 'ribbids' come from the water all
-    around you.
-  room_flags: '0'
+  description: "You are in the middle of the moat, on the south side of the tower.
+    \ There is\n\rno place to land here.  Deep throated 'ribbids' come from the water
+    all\n\raround you.\n\r"
+  room_flags: 0
   sector: 7
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1620
   extra_descs: []
 - vnum: 1623
   name: Tower Foyer
-  description: "You are on a foyer on the west side of the structure. The moat is\
-    \ west of \nhere. There is also a large door eastward into the structure.  You\
-    \ notice that\nthe walls are ornately decorated with very life-like stone gargoyles.\n"
-  room_flags: AD
+  description: "You are on a foyer on the west side of the structure. The moat is
+    west of \n\rhere. There is also a large door eastward into the structure.  You
+    notice that\n\rthe walls are ornately decorated with very life-like stone gargoyles.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1624
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1620
   extra_descs: []
 - vnum: 1624
   name: The Grand Lobby
-  description: |
-    You have entered a vast lobby. This lobby appears to have once been very
-    ornately furnished, but now everything is decayed and moldering.  A highly
-    ornate balcony surrounds the lobby. To the east, below the balcony, is an
-    opening. The door leading out is west.  You notice that the balcony is
-    covered in highly ornate and life-like stone gargoyles.
-  room_flags: AD
+  description: "You have entered a vast lobby. This lobby appears to have once been
+    very\n\rornately furnished, but now everything is decayed and moldering.  A highly\n\rornate
+    balcony surrounds the lobby. To the east, below the balcony, is an\n\ropening.
+    The door leading out is west.  You notice that the balcony is\n\rcovered in highly
+    ornate and life-like stone gargoyles.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1625
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1623
   extra_descs: []
 - vnum: 1625
   name: Base of the Western Tower
-  description: |
-    You stand in the center of the Western tower's base. Torch brackets occupy
-    the four corners of this huge room. Above each torch is a lifelike ornate
-    stone gargoyle.  There are doors north and south, and passages east and west.
-  room_flags: D
+  description: "You stand in the center of the Western tower's base. Torch brackets
+    occupy\n\rthe four corners of this huge room. Above each torch is a lifelike ornate\n\rstone
+    gargoyle.  There are doors north and south, and passages east and west.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1627
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1626
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1628
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1624
   extra_descs: []
 - vnum: 1626
   name: The Musty Corridor
-  description: |
-    You are walking along a musty east-west corridor joining the two towers.
-    There are room on each side of the corridor, and openings at each end.
-  room_flags: AD
+  description: "You are walking along a musty east-west corridor joining the two towers.\n\rThere
+    are room on each side of the corridor, and openings at each end.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1629
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1631
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1630
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1625
   extra_descs: []
 - vnum: 1627
   name: Kitchen
-  description: |
-    You have entered what must once have been a kitchen. The rusting remains of
-    various utensils lie on countertops. There is also an old wash basin and a
-    pot-belly stove.  There is a door south, and a serving hatch east.
-  room_flags: AD
+  description: "You have entered what must once have been a kitchen. The rusting remains
+    of\n\rvarious utensils lie on countertops. There is also an old wash basin and
+    a\n\rpot-belly stove.  There is a door south, and a serving hatch east.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1625
   extra_descs: []
 - vnum: 1628
   name: Conservatory
-  description: |
-    You are in the tower's private conservatory. However, through years of neglect,
-    the plants have grown into a hideous jungle.  The only exit is north.
-  room_flags: AD
+  description: "You are in the tower's private conservatory. However, through years
+    of neglect,\n\rthe plants have grown into a hideous jungle.  The only exit is
+    north.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1625
   extra_descs: []
 - vnum: 1629
   name: The Dining Hall
-  description: |
-    You have entered a fabulous dining hall.  The wrecked remains of a long table
-    dominate the room. A horrible odor pervades the room, like some foul-smelling
-    beast has been eating and shitting in here.  There is a serving hatch west and
-    a door south.
-  room_flags: AD
+  description: "You have entered a fabulous dining hall.  The wrecked remains of a
+    long table\n\rdominate the room. A horrible odor pervades the room, like some
+    foul-smelling\n\rbeast has been eating and shitting in here.  There is a serving
+    hatch west and\n\ra door south.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1626
   extra_descs: []
 - vnum: 1630
   name: Art Gallery
-  description: |
-    You are in the ruined remains of an art gallery. Everything appears to
-    have been stolen long ago, however.  The only exit is north.
-  room_flags: AD
+  description: "You are in the ruined remains of an art gallery. Everything appears
+    to\n\rhave been stolen long ago, however.  The only exit is north.\n\r"
+  room_flags: 9
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1626
   extra_descs: []
 - vnum: 1631
   name: Base of the Eastern Tower
-  description: "You stand in the center of the Eastern tower's base.  Torch brackets\n\
-    occupy the four corners of this huge room.  Above each torch is a lifelike\nornate\
-    \ stone gargoyle.  There are are open doors to the north and south, and\na passage\
-    \ west.  In addition, a spiral staircase leads up to the next level\nof this tower.\
-    \  \n"
-  room_flags: D
+  description: "You stand in the center of the Eastern tower's base.  Torch brackets\n\roccupy
+    the four corners of this huge room.  Above each torch is a lifelike\n\rornate
+    stone gargoyle.  There are are open doors to the north and south, and\n\ra passage
+    west.  In addition, a spiral staircase leads up to the next level\n\rof this tower.
+    \ \n\r"
+  room_flags: 8
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1632
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1633
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1626
   - dir: 4
-    desc: |
-      You see a spiral staircase leading up.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a spiral staircase leading up.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1635
   extra_descs: []
 - vnum: 1632
   name: The Common Room
-  description: |
-    You are in what must once have been a common room for all residents of the
-    tower. There is a huge fire pit with a chimney in the center, and the smashed
-    remains of a great many table and chairs.  The exit is south.
-  room_flags: D
+  description: "You are in what must once have been a common room for all residents
+    of the\n\rtower. There is a huge fire pit with a chimney in the center, and the
+    smashed\n\rremains of a great many table and chairs.  The exit is south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1631
   - dir: 5
-    desc: |
-      You notice a grate in the bottom of the fire pit.  Maybe it's an opening ...
-    keywords: ''
-    exit_flags: A
+    desc: "You notice a grate in the bottom of the fire pit.  Maybe it's an opening
+      ...\n\r"
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 1634
   extra_descs: []
 - vnum: 1633
   name: Servant's Quarters
-  description: |
-    You are in what once was the servant's quarters, as evidenced by the shabby
-    belongings and decor. What little remains is rotting and of little value
-    anyway.  The only exit is north.
-  room_flags: AD
+  description: "You are in what once was the servant's quarters, as evidenced by the
+    shabby\n\rbelongings and decor. What little remains is rotting and of little value\n\ranyway.
+    \ The only exit is north.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1631
   extra_descs: []
 - vnum: 1634
   name: A Large Murky Cellar
-  description: |
-    You are in a large, murky cellar. An almost tangible air of horror pervades
-    the room.  A thin layer of nitre covers the walls and ceiling.  Rotting
-    furniture looms obliquely about the room.
-  room_flags: AD
+  description: "You are in a large, murky cellar. An almost tangible air of horror
+    pervades\n\rthe room.  A thin layer of nitre covers the walls and ceiling.  Rotting\n\rfurniture
+    looms obliquely about the room.\n\r"
+  room_flags: 9
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 1632
   extra_descs: []
 - vnum: 1635
   name: On the First Staircase
-  description: |
-    You are on a Spiral staircase connecting the first and second levels of
-    the eastern tower. You can go up or down.
-  room_flags: AD
+  description: "You are on a Spiral staircase connecting the first and second levels
+    of\n\rthe eastern tower. You can go up or down.\n\r"
+  room_flags: 9
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1636
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1631
   extra_descs: []
 - vnum: 1636
   name: Second Level of the Eastern Tower
-  description: |
-    You are in the center of the second level of the Eastern tower. This large
-    room appears quite empty, except for the candle abras firmly fixed to the
-    walls.  An opening leads westward, and a spiral staircase leads down.
-  room_flags: AD
+  description: "You are in the center of the second level of the Eastern tower. This
+    large\n\rroom appears quite empty, except for the candle abras firmly fixed to
+    the\n\rwalls.  An opening leads westward, and a spiral staircase leads down.\n\r"
+  room_flags: 9
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1637
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1635
   extra_descs: []
 - vnum: 1637
   name: The Elegant Hall
-  description: |
-    You are in what was once a elegant hall, although everything is moldering now.
-    The rotted remains of a plush carpet covers the floor, while several moldy
-    tapestries adorn the each side of the hall.  There are door north and south,
-    and openings east and west.
-  room_flags: AD
+  description: "You are in what was once a elegant hall, although everything is moldering
+    now.\n\rThe rotted remains of a plush carpet covers the floor, while several moldy\n\rtapestries
+    adorn the each side of the hall.  There are door north and south,\n\rand openings
+    east and west.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1638
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1636
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1639
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1640
   extra_descs: []
 - vnum: 1638
   name: The Shaman's Room
-  description: |
-    You have entered an elegantly furnished room that looks to be still in use!
-    Costly paintings and pieces of furniture are tastefully situated.  On the
-    north wall is an altar to Knar, the ghastly patron of Gargoyles.  The only
-    exit is south.
-  room_flags: D
+  description: "You have entered an elegantly furnished room that looks to be still
+    in use!\n\rCostly paintings and pieces of furniture are tastefully situated.  On
+    the\n\rnorth wall is an altar to Knar, the ghastly patron of Gargoyles.  The only\n\rexit
+    is south.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1637
   extra_descs: []
 - vnum: 1639
   name: The Library
-  description: |
-    This room appears to have been a library.  Empty book shelves line each wall.
-    The only exit is north.
-  room_flags: AD
+  description: "This room appears to have been a library.  Empty book shelves line
+    each wall.\n\rThe only exit is north.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1637
   extra_descs: []
 - vnum: 1640
   name: Second Level of the Western Tower
-  description: "You are in the center of the western tower's second floor.  A large\
-    \ spiral \nstaircase of 29 steps connects this level with the third.  There are\
-    \ doors\nto the east and west.  Except for a torch bracket in each corner, the\
-    \ \nroom is barren.\n"
-  room_flags: D
+  description: "You are in the center of the western tower's second floor.  A large
+    spiral \n\rstaircase of 29 steps connects this level with the third.  There are
+    doors\n\rto the east and west.  Except for a torch bracket in each corner, the
+    \n\rroom is barren.\n\r"
+  room_flags: 8
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1637
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1641
   - dir: 4
-    desc: |
-      You see the spiral staircase leading up.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the spiral staircase leading up.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1642
   extra_descs: []
 - vnum: 1641
   name: On the Balcony
-  description: |
-    You are on the balcony overlooking the Grand lobby.  You have a fabulous
-    view of the entire room.  The only exit is the way you came in.
-  room_flags: D
+  description: "You are on the balcony overlooking the Grand lobby.  You have a fabulous\n\rview
+    of the entire room.  The only exit is the way you came in.\n\r"
+  room_flags: 8
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1640
   extra_descs: []
 - vnum: 1642
   name: The Spiral Stairs
-  description: "You are on a large spiral staircase of 29 steps, leading between the\
-    \ \nsecond and third floors.  You can go up or down.\n"
-  room_flags: D
+  description: "You are on a large spiral staircase of 29 steps, leading between the
+    \n\rsecond and third floors.  You can go up or down.\n\r"
+  room_flags: 8
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1643
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1640
   extra_descs: []
 - vnum: 1643
   name: Third Level of Western Tower
-  description: |
-    You stand in the center of the western tower's third floor.  This large room
-    glows mysteriously with a strange light all its own.  From a door to the east
-    comes a strange inky blackness.  A spiral staircase leads down.
-  room_flags: D
+  description: "You stand in the center of the western tower's third floor.  This
+    large room\n\rglows mysteriously with a strange light all its own.  From a door
+    to the east\n\rcomes a strange inky blackness.  A spiral staircase leads down.\n\r"
+  room_flags: 8
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 1644
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1642
   extra_descs: []
 - vnum: 1644
   name: It's too dark to see anything!
-  description: ''
-  room_flags: AD
+  description:
+  room_flags: 9
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 1645
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 1647
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 1646
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 1643
   extra_descs: []
 - vnum: 1645
   name: The Armory
-  description: |
-    In this room, which has somehow evaded the ravages of time, are neatly stored
-    racks of common weapons.  They appear to be quite ordinary; however, a chest
-    in one corner catches your eye.  The only exit is the way you came in.
-  room_flags: AD
+  description: "In this room, which has somehow evaded the ravages of time, are neatly
+    stored\n\rracks of common weapons.  They appear to be quite ordinary; however,
+    a chest\n\rin one corner catches your eye.  The only exit is the way you came
+    in.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 1644
   extra_descs: []
 - vnum: 1646
   name: The Officer's Quarters
-  description: |
-    You have entered a lavish but functional room decked out in a military style.
-    Murals on the wall show battle scenes in gargoyles, minotaurs, and huge,
-    flying snake-like reptiles with poisonous tails fight humans and dwarves.
-    Various objects in the room give evidence that it is occupied by individuals
-    of authority.  The only door is north.
-  room_flags: AD
+  description: "You have entered a lavish but functional room decked out in a military
+    style.\n\rMurals on the wall show battle scenes in gargoyles, minotaurs, and huge,\n\rflying
+    snake-like reptiles with poisonous tails fight humans and dwarves.\n\rVarious
+    objects in the room give evidence that it is occupied by individuals\n\rof authority.
+    \ The only door is north.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 1644
   extra_descs: []
 - vnum: 1647
   name: Third Level of Eastern Tower
-  description: |
-    You are in the center of the Eastern Tower's third floor.  The room you are in
-    glows with a mysterious light that has no source.  In the center of the room a
-    ladder climbs up to a hatchway in the ceiling.  The hatchway is a strange
-    looking keyhole.  There is also a door to the west.
-  room_flags: D
+  description: "You are in the center of the Eastern Tower's third floor.  The room
+    you are in\n\rglows with a mysterious light that has no source.  In the center
+    of the room a\n\rladder climbs up to a hatchway in the ceiling.  The hatchway
+    is a strange\n\rlooking keyhole.  There is also a door to the west.\n\r"
+  room_flags: 8
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 1644
   - dir: 4
-    desc: |
-      The hatchway appears securely fastened.  In it is a strange keyhole.
-    keywords: ''
-    exit_flags: A
+    desc: "The hatchway appears securely fastened.  In it is a strange keyhole.\n\r"
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 1648
   extra_descs: []
 - vnum: 1648
   name: Turret of the Eastern Tower
-  description: |
-    You stand in the turret of the eastern tower.  A huge hole has been
-    made in the roof by some enormous beast, letting the daylight (or moonlight)
-    in.  There is a hatchway in the floor, and an opening to the west leading out
-    onto a catwalk.
-  room_flags: '0'
+  description: "You stand in the turret of the eastern tower.  A huge hole has been\n\rmade
+    in the roof by some enormous beast, letting the daylight (or moonlight)\n\rin.
+    \ There is a hatchway in the floor, and an opening to the west leading out\n\ronto
+    a catwalk.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: |
-      There is a small opening this way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "There is a small opening this way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1649
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 1647
   extra_descs: []
 - vnum: 1649
   name: On the Catwalk
-  description: "You are outdoors on a catwalk between the turrets of the eastern and\
-    \ \nwestern towers.  There is a 40 foot drop to the north and south.  You have\n\
-    a fabulous view of the surrounding countryside, which consists of a bleak\nwilderness.\
-    \  At the east end of the catwalk is a small opening leading\ninside the eastern\
-    \ turret.  At the western end, a strange mirror-like portal\nleads into the western\
-    \ turret.\n"
-  room_flags: '0'
+  description: "You are outdoors on a catwalk between the turrets of the eastern and
+    \n\rwestern towers.  There is a 40 foot drop to the north and south.  You have\n\ra
+    fabulous view of the surrounding countryside, which consists of a bleak\n\rwilderness.
+    \ At the east end of the catwalk is a small opening leading\n\rinside the eastern
+    turret.  At the western end, a strange mirror-like portal\n\rleads into the western
+    turret.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1648
   - dir: 3
-    desc: |
-      A mirror-like portal glimmers, allowing entry into the western turret.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A mirror-like portal glimmers, allowing entry into the western turret.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1650
   extra_descs: []
 - vnum: 1650
   name: Turret of the Western Tower
-  description: |
-    You are in the turret of the western tower.  You feel very strange here.
-    Scattered about this room are a great many coins and valuable articles.
-    Yet you can't get rid of a feeling of dread!  A mirror-like portal is in the
-    western wall.
-  room_flags: AD
+  description: "You are in the turret of the western tower.  You feel very strange
+    here.\n\rScattered about this room are a great many coins and valuable articles.\n\rYet
+    you can't get rid of a feeling of dread!  A mirror-like portal is in the\n\rwestern
+    wall.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1649
   - dir: 3
-    desc: |
-      A mirror-like portal glimmers in this wall.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A mirror-like portal glimmers in this wall.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1651
   extra_descs: []
 - vnum: 1651
   name: On the Other Side
-  description: |
-    You are outdoors on a catwalk between the turrets of the Eastern and Western
-    towers.  There is no opening into the western tower of any kind.  You have a
-    fabulous view of your surroundings, a murky city partially obscured by strange
-    smoke that creeps along the ground instead of rising. The city stretches as far
-    as the eye can see under the conditions.
-  room_flags: '0'
+  description: "You are outdoors on a catwalk between the turrets of the Eastern and
+    Western\n\rtowers.  There is no opening into the western tower of any kind.  You
+    have a\n\rfabulous view of your surroundings, a murky city partially obscured
+    by strange\n\rsmoke that creeps along the ground instead of rising. The city stretches
+    as far\n\ras the eye can see under the conditions.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1650
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1652
   extra_descs: []
 - vnum: 1652
   name: The Chamber
-  description: |
-    You are in a small carpeted chamber. The chamber is empty except for a single
-    chair facing a mirror on the wall.
-  room_flags: '0'
+  description: "You are in a small carpeted chamber. The chamber is empty except for
+    a single\n\rchair facing a mirror on the wall.\n\r"
+  room_flags: 0
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1651
   extra_descs: []
 - vnum: 1701
   name: Main Eastern Road
-  description: |
-    You are on the old Eastern Road.  The crossroads to the east joins ANOTHER
-    northern route to this road, which continues east.  South of the crossroads is
-    an old building.  The area around here is lightly timbered.
-  room_flags: C
+  description: "You are on the old Eastern Road.  The crossroads to the east joins
+    ANOTHER\n\rnorthern route to this road, which continues east.  South of the crossroads
+    is\n\ran old building.  The area around here is lightly timbered.\n\r"
+  room_flags: 4
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see a cross roads and an old building.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a cross roads and an old building.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1702
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5267
   extra_descs: []
 - vnum: 1702
   name: Crossroads to the Wilderness
-  description: "You are at a crossroads to the wilderness areas east and north of\
-    \ here,\nand the more civilized areas to the west. The main road is west, an\n\
-    older road continues east, and a simple trail heads north.  To the south,\nan\
-    \ old ram-shackle building is being used as a trading post for the\nsurrounding\
-    \ wilderness. \n"
-  room_flags: '0'
+  description: "You are at a crossroads to the wilderness areas east and north of
+    here,\n\rand the more civilized areas to the west. The main road is west, an\n\rolder
+    road continues east, and a simple trail heads north.  To the south,\n\ran old
+    ram-shackle building is being used as a trading post for the\n\rsurrounding wilderness.
+    \n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see a trail leading north.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see a trail leading north.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1704
   - dir: 1
-    desc: |
-      The old Eastern road continues this way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The old Eastern road continues this way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1601
   - dir: 2
-    desc: |
-      An old, ram-shackle building serves as a trading post here.
-    keywords: ''
-    exit_flags: '0'
+    desc: "An old, ram-shackle building serves as a trading post here.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1703
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1701
   extra_descs: []
 - vnum: 1703
   name: Trading Post
-  description: |
-    You are in a trading post just south of the crossroads, where rangers,
-    trappers and hunters from the surrounding area come to buy, sell, and
-    barter goods.
-  room_flags: D
+  description: "You are in a trading post just south of the crossroads, where rangers,\n\rtrappers
+    and hunters from the surrounding area come to buy, sell, and\n\rbarter goods.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The door opens out on the crossroads.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The door opens out on the crossroads.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1702
   extra_descs: []
 - vnum: 1704
   name: Trail north of crossroads
-  description: |
-    You are on a primitive north-south trail. South of here is a major cross-
-    roads and an old building. To the north the trail continues toward a
-    deep, dark forest.
-  room_flags: '0'
+  description: "You are on a primitive north-south trail. South of here is a major
+    cross-\n\rroads and an old building. To the north the trail continues toward a\n\rdeep,
+    dark forest.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The trail continues toward a deep, dark, forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The trail continues toward a deep, dark, forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1705
   - dir: 2
-    desc: |
-      A major crossroads and a building lie in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A major crossroads and a building lie in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1702
   extra_descs: []
 - vnum: 1705
   name: Trail south of forest
-  description: |
-    You are on a primitive north-south trail.  Just north of here looms the
-    entrance to a deep, dark forest. To the south the trail continues.
-  room_flags: '0'
+  description: "You are on a primitive north-south trail.  Just north of here looms
+    the\n\rentrance to a deep, dark forest. To the south the trail continues.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The trail enters a dark forest of thick oaks this way.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The trail enters a dark forest of thick oaks this way.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1706
   - dir: 2
-    desc: |
-      The trail continues.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The trail continues.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1704
   extra_descs: []
 - vnum: 1706
   name: Entrance to the forest
-  description: |
-    You are at the entrance to dark forest comprised mostly of huge black oak
-    and towering firs.  A trail from the south continues north on into the
-    woods at this point.
-  room_flags: '0'
+  description: "You are at the entrance to dark forest comprised mostly of huge black
+    oak\n\rand towering firs.  A trail from the south continues north on into the\n\rwoods
+    at this point.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the trail continuing into the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the trail continuing into the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1707
   - dir: 2
-    desc: |
-      You see the trail head back on south.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the trail head back on south.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1705
   extra_descs: []
 - vnum: 1707
   name: Trail in Dark Oak Forest
-  description: |
-    The trail here passes through groves of closely knit Black Oak. Some of
-    these trees are of enormous size.  Rustling and other low noises come
-    from the forest on either side of the trail.  The trail continues on north
-    and south.
-  room_flags: '0'
+  description: "The trail here passes through groves of closely knit Black Oak. Some
+    of\n\rthese trees are of enormous size.  Rustling and other low noises come\n\rfrom
+    the forest on either side of the trail.  The trail continues on north\n\rand south.\n\r"
+  room_flags: 0
   sector: 4
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      You see the trail continue into thick, dark forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the trail continue into thick, dark forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1708
   - dir: 2
-    desc: |
-      The edge of the forest is visible in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The edge of the forest is visible in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1706
   extra_descs: []
 - vnum: 1708
   name: Junction in Dark Forest
-  description: |
-    You are in the midst of a deep dark forest of huge oak trees.  There is a
-    junction of trails here, with paths leading south, west and east.
-  room_flags: '0'
+  description: "You are in the midst of a deep dark forest of huge oak trees.  There
+    is a\n\rjunction of trails here, with paths leading south, west and east.\n\r"
+  room_flags: 0
   sector: 4
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      A path disappears into thick forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A path disappears into thick forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1720
   - dir: 2
-    desc: |
-      A path disappears into thick forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A path disappears into thick forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1707
   - dir: 3
-    desc: |
-      You see the path to the Centaur village.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the path to the Centaur village.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1709
   extra_descs: []
 - vnum: 1709
   name: Path to Centaur Village
-  description: |
-    You are on an east-west path in the forest.  Here the forest is mostly
-    towering firs, not quite as dense as the oak groves that can be seen eastward.
-    Westward, the trail heads toward a small clearing.
-  room_flags: '0'
+  description: "You are on an east-west path in the forest.  Here the forest is mostly\n\rtowering
+    firs, not quite as dense as the oak groves that can be seen eastward.\n\rWestward,
+    the trail heads toward a small clearing.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      A path disappears into thick forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A path disappears into thick forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1708
   - dir: 3
-    desc: |
-      There is a small clearing in this direction.
-    keywords: ''
-    exit_flags: '0'
+    desc: "There is a small clearing in this direction.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1710
   extra_descs: []
 - vnum: 1710
   name: The East side of the Centaur Clearing
-  description: |
-    You are on the east side of a clearing.  Small primitive huts are scattered
-    about the edges of this clearing.  Beyond these on all sides are towering
-    fir trees.  A path leads east out of the clearing. The clearing continues to
-    the west.
-  room_flags: '0'
+  description: "You are on the east side of a clearing.  Small primitive huts are
+    scattered\n\rabout the edges of this clearing.  Beyond these on all sides are
+    towering\n\rfir trees.  A path leads east out of the clearing. The clearing continues
+    to\n\rthe west.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      There is a hut here.
-    keywords: ''
-    exit_flags: '0'
+    desc: "There is a hut here.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1712
   - dir: 1
-    desc: |
-      A path leads away through the forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "A path leads away through the forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1709
   - dir: 2
-    desc: |
-      There is a hut here.
-    keywords: ''
-    exit_flags: '0'
+    desc: "There is a hut here.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1713
   - dir: 3
-    desc: |
-      You see the west side of the clearing.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the west side of the clearing.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1711
   extra_descs: []
 - vnum: 1711
   name: West side of the Centaur Clearing
-  description: |
-    You are on the west side of the clearing in the center of the Centaur village.
-    Huts surround the clearing on all sides, and beyond are towering firs.  The
-    clearing continues to the east.  To the west is a very large hut.
-  room_flags: '0'
+  description: "You are on the west side of the clearing in the center of the Centaur
+    village.\n\rHuts surround the clearing on all sides, and beyond are towering firs.
+    \ The\n\rclearing continues to the east.  To the west is a very large hut.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      There is a hut here.
-    keywords: ''
-    exit_flags: '0'
+    desc: "There is a hut here.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1714
   - dir: 1
-    desc: |
-      You see the east side of the clearing.
-    keywords: ''
-    exit_flags: '0'
+    desc: "You see the east side of the clearing.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1710
   - dir: 2
-    desc: |
-      There is a hut here.
-    keywords: ''
-    exit_flags: '0'
+    desc: "There is a hut here.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1715
   - dir: 3
-    desc: |
-      There is a hut here.
-    keywords: ''
-    exit_flags: '0'
+    desc: "There is a hut here.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1716
   extra_descs: []
 - vnum: 1712
   name: A Centaur's Hut
-  description: |
-    You are inside a smallish hut, the home of a family of Centaurs.  The hut
-    is sparsely furnished, mostly the trappings of survival.
-  room_flags: D
+  description: "You are inside a smallish hut, the home of a family of Centaurs.  The
+    hut\n\ris sparsely furnished, mostly the trappings of survival.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      The opening leads out onto the clearing.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The opening leads out onto the clearing.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1710
   extra_descs: []
 - vnum: 1713
   name: A Centaur's Hut
-  description: |
-    You are inside a smallish hut, the home of a family of Centaurs.  The hut
-    is sparsely furnished, mostly the trappings of survival.
-  room_flags: D
+  description: "You are inside a smallish hut, the home of a family of Centaurs.  The
+    hut\n\ris sparsely furnished, mostly the trappings of survival.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The opening leads out onto the clearing.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The opening leads out onto the clearing.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1710
   extra_descs: []
 - vnum: 1714
   name: A Centaur's Hut
-  description: |
-    You are inside a smallish hut, the home of a family of Centaurs.  The hut
-    is sparsely furnished, mostly the trappings of survival.
-  room_flags: D
+  description: "You are inside a smallish hut, the home of a family of Centaurs.  The
+    hut\n\ris sparsely furnished, mostly the trappings of survival.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: |
-      The opening leads out onto the clearing.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The opening leads out onto the clearing.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1711
   extra_descs: []
 - vnum: 1715
   name: A Centaur's Hut
-  description: |
-    You are inside a smallish hut, the home of a family of Centaurs.  The hut
-    is sparsely furnished, mostly the trappings of survival.
-  room_flags: D
+  description: "You are inside a smallish hut, the home of a family of Centaurs.  The
+    hut\n\ris sparsely furnished, mostly the trappings of survival.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: |
-      The opening leads out onto the clearing.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The opening leads out onto the clearing.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1711
   extra_descs: []
 - vnum: 1716
   name: Entrance to a Large Hut
-  description: |
-    You are in the entry foyer of a large hut.  A curtain separates this section
-    of the hut from the next section to the west.  To the east is an opening out
-    onto the clearing.
-  room_flags: D
+  description: "You are in the entry foyer of a large hut.  A curtain separates this
+    section\n\rof the hut from the next section to the west.  To the east is an opening
+    out\n\ronto the clearing.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      The opening leads out onto the clearing.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The opening leads out onto the clearing.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1711
   - dir: 3
-    desc: |
-      There is a curtain here separating this section from the next.
-    keywords: ''
-    exit_flags: '0'
+    desc: "There is a curtain here separating this section from the next.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1717
   extra_descs: []
 - vnum: 1717
   name: Back of a Large Hut
-  description: |
-    You are in the back of a large hut.  A curtain separates this section from
-    the front of the hut to the east.  This room is finely decorated, if
-    somewhat primitive.  The decor suggests someone of authority lives here.
-  room_flags: D
+  description: "You are in the back of a large hut.  A curtain separates this section
+    from\n\rthe front of the hut to the east.  This room is finely decorated, if\n\rsomewhat
+    primitive.  The decor suggests someone of authority lives here.\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      There is a curtain here separating this room from the front of the hut.
-    keywords: ''
-    exit_flags: '0'
+    desc: "There is a curtain here separating this room from the front of the hut.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1716
   extra_descs: []
 - vnum: 1720
   name: Eastern Path in Dark Forest
-  description: |
-    You are on an east-west path through extremely old growths of oak.  The path
-    is fairly faint here.  Undergrowth closes in so closely that little can
-    be seen in any direction.
-  room_flags: '0'
+  description: "You are on an east-west path through extremely old growths of oak.
+    \ The path\n\ris fairly faint here.  Undergrowth closes in so closely that little
+    can\n\rbe seen in any direction.\n\r"
+  room_flags: 0
   sector: 4
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: |
-      The path continues west through thick forest.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The path continues west through thick forest.\n\r"
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 1708
   extra_descs: []
@@ -3527,16 +3365,4 @@ resets:
   arg1: 1713
   arg2: 0
   arg3: 2
-specials:
-- vnum: 1605
-  spec_fun: spec_cast_cleric
-- vnum: 1609
-  spec_fun: spec_cast_undead
-- vnum: 1614
-  spec_fun: spec_breath_acid
-- vnum: 1616
-  spec_fun: spec_breath_any
-- vnum: 1617
-  spec_fun: spec_cast_undead
-- vnum: 1716
-  spec_fun: spec_cast_undead
+shops: []

@@ -514,9 +514,9 @@ none~
 BC BC BC 0 0
 18 10 180
 A
-19 2
-A
 1 1
+A
+19 2
 E
 arm~
 These mighty armors have been worn by this immortal, since the ancient time.
@@ -567,9 +567,9 @@ none~
 ABC ABC ABC 0 0
 21 10 210
 A
-19 1
-A
 14 50
+A
+19 1
 E
 hoof~
 It is with these hooves that Taurus can stand against Orion's attacks.
@@ -583,9 +583,9 @@ none~
 ABC ABC ABC 0 0
 21 7 210
 A
-2 2
-A
 1 1
+A
+2 2
 E
 mask~
 You notice the mask has got two faces, one smiling and the other crying.
@@ -641,9 +641,9 @@ none~
 ABC ABC ABC 0 0
 22 15 220
 A
-13 5
-A
 17 -3
+A
+13 5
 E
 scale~
 It is a shield of justice, used in the ancient battle against injustice.
@@ -657,9 +657,9 @@ none~
 ABC ABC ABC 0 0
 22 15 220
 A
-13 -30
-A
 17 6
+A
+13 -30
 E
 scale~
 It is a shield of injustice, it picks on the innocent.
@@ -673,9 +673,9 @@ none~
 0 AC BC ABD 0
 23 7 230
 A
-19 1
-A
 18 3
+A
+19 1
 E
 sting~
 This dreadful weapon put a lot of mortals to death before Scorpio was banished.
@@ -701,9 +701,9 @@ none~
 0 AC AC BC 0
 22 20 220
 A
-19 3
-A
 18 1
+A
+19 3
 E
 bow~
 The gigantic bow used by the Archer; it is a very powerful weapon.
@@ -717,9 +717,9 @@ none~
 ABC ABC ABC 0 0
 22 6 220
 A
-19 2
-A
 18 3
+A
+19 2
 E
 horn~
 These strange horns are the work of gods, shaped to fit on hands.
@@ -747,9 +747,9 @@ none~
 ABC ABC ABC 0 0
 23 10 230
 A
-2 -2
-A
 17 -2
+A
+2 -2
 E
 tail~
 This tail can actually be worn by mortals somehow as leggings ... another
@@ -764,9 +764,9 @@ none~
 D D D 0 0
 26 3 260
 A
-3 2
-A
 12 25
+A
+3 2
 E
 ring~
 This ring belongs to Cassiopeia, queen of the Universe.
@@ -781,9 +781,9 @@ none~
 0 0 999 0 0
 26 4 260
 A
-19 2
-A
 18 2
+A
+19 2
 E
 sceptre~
 You'd better give it back, or the king of the Universe will punish you.
@@ -797,9 +797,9 @@ none~
 AD AD AD 0 0
 30 3 300
 A
-13 30
-A
 12 10
+A
+13 30
 E
 ring~
 It conceals the power of the universe.
@@ -813,9 +813,9 @@ none~
 0 AC ABC BC 0
 30 20 300
 A
-19 2
-A
 18 2
+A
+19 2
 #9324
 spring shoot~
 a spring shoot~

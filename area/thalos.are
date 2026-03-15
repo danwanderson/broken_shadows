@@ -149,9 +149,9 @@ none~
 D D D 0 0
 26 30 260
 A
-19 1
-A
 1 2
+A
+19 1
 #5201
 helm mithril~
 a mithril helm~
@@ -171,9 +171,9 @@ none~
 D D D 0 0
 26 10 260
 A
-18 1
-A
 19 1
+A
+18 1
 #5203
 sleeves mithril~
 some mithril sleeves~
@@ -183,9 +183,9 @@ none~
 D D D 0 0
 26 10 260
 A
-18 1
-A
 19 1
+A
+18 1
 #5204
 boots mithril~
 a pair of mithril boots~
@@ -195,9 +195,9 @@ none~
 D D D 0 0
 26 6 260
 A
-18 1
-A
 2 1
+A
+18 1
 #5205
 leggings mithril~
 a set of mithril leggings~
@@ -207,9 +207,9 @@ none~
 D D D 0 0
 26 10 260
 A
-18 1
-A
 2 1
+A
+18 1
 #5206
 girth mithril~
 a mithril girth~
@@ -239,9 +239,9 @@ none~
 D D D 0 0
 25 5 250
 A
-20 -2
-A
 21 -2
+A
+20 -2
 #5210
 potion black~
 a black potion~
@@ -299,9 +299,9 @@ none~
 AC AC AC 0 0
 10 11 100
 A
-1 -10
-A
 2 -8
+A
+1 -10
 #5219
 venison chunk~
 a chunk of venison~
@@ -327,9 +327,9 @@ none~
 A AC BC AB F
 26 24 260
 A
-18 2
-A
 19 3
+A
+18 2
 #5222
 robe black silk~
 a black silk robe~
@@ -513,9 +513,9 @@ none~
 B AB AC ABD 0
 10 4 100
 A
-18 1
-A
 19 1
+A
+18 1
 #0
 
 
@@ -1859,15 +1859,15 @@ Some writings are on this wall.
 ~
 0 1 3
 E
+skeleton skeletons~
+Something is strange about these skeletons.  Upon further investigation, these
+skeletons appear illusionary.
+~
+E
 writings writing words~
 This cave along with the valley and dwarf forest is made by Hatchet for any
 Merc Mud.
 copyright 1992
-~
-E
-skeleton skeletons~
-Something is strange about these skeletons.  Upon further investigation, these
-skeletons appear illusionary.
 ~
 D0
 You see more of the cave.

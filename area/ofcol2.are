@@ -652,9 +652,9 @@ none~
 0 0 0 0 0
 15 2 150
 A
-4 -1
-A
 9 10
+A
+4 -1
 #609
 cabbage~
 a head of cabbage~
@@ -752,9 +752,9 @@ none~
 BC BC BC 0 0
 18 1 180
 A
-24 -1
-A
 13 5
+A
+24 -1
 #621
 plate brass~
 brass plate~
@@ -764,9 +764,9 @@ none~
 BC BC BC 0 0
 17 10 170
 A
-24 -2
-A
 13 10
+A
+24 -2
 #622
 helm brass~
 a brass helm~
@@ -776,9 +776,9 @@ none~
 BC BC BC 0 0
 17 10 170
 A
-24 -1
-A
 13 5
+A
+24 -1
 #623
 leggings brass~
 brass leggings~
@@ -788,9 +788,9 @@ none~
 BC BC BC 0 0
 19 10 190
 A
-24 -1
-A
 13 5
+A
+24 -1
 #624
 boots brass~
 brass boots~
@@ -800,9 +800,9 @@ none~
 BC BC BC 0 0
 19 10 190
 A
-24 -1
-A
 13 5
+A
+24 -1
 #625
 gauntlets brass~
 brass gauntlets~
@@ -812,9 +812,9 @@ none~
 BC BC BC 0 0
 19 10 190
 A
-24 -1
-A
 13 5
+A
+24 -1
 #626
 sleeves brass~
 brass sleeves~
@@ -824,9 +824,9 @@ none~
 BC BC BC 0 0
 19 10 190
 A
-24 -1
-A
 13 5
+A
+24 -1
 #627
 shield brass~
 a brass shield~
@@ -836,9 +836,9 @@ none~
 BC BC BC 0 0
 18 10 180
 A
-24 -1
-A
 13 5
+A
+24 -1
 #628
 girth brass~
 a brass girth~
@@ -848,9 +848,9 @@ none~
 BC BC BC 0 0
 19 10 190
 A
-24 -1
-A
 13 5
+A
+24 -1
 #629
 bracer brass~
 a brass bracer~
@@ -860,9 +860,9 @@ none~
 BC BC BC 0 0
 19 10 190
 A
-24 -1
-A
 13 5
+A
+24 -1
 #630
 claymore sword~
 a claymore~
@@ -872,9 +872,9 @@ none~
 A AC AC A F
 18 16 180
 A
-18 -2
-A
 19 5
+A
+18 -2
 #631
 plate silver~
 silver plate~
@@ -884,9 +884,9 @@ none~
 D D D 0 0
 27 20 270
 A
-12 10
-A
 1 1
+A
+12 10
 #632
 helm silver~
 a silver helm~
@@ -896,9 +896,9 @@ none~
 D D D 0 0
 27 20 270
 A
-12 5
-A
 2 1
+A
+12 5
 #633
 leggings silver~
 silver leggings~
@@ -908,9 +908,9 @@ none~
 D D D 0 0
 27 20 270
 A
-12 5
-A
 3 1
+A
+12 5
 #634
 boots silver~
 silver boots~
@@ -920,9 +920,9 @@ none~
 D D D 0 0
 27 20 270
 A
-12 5
-A
 4 1
+A
+12 5
 #635
 gauntlets silver~
 silver gauntlets~
@@ -932,9 +932,9 @@ none~
 D D D 0 0
 27 20 270
 A
-12 5
-A
 5 1
+A
+12 5
 #636
 sleeves silver~
 silver sleeves~
@@ -944,9 +944,9 @@ none~
 D D D 0 0
 28 20 280
 A
-12 5
-A
 18 1
+A
+12 5
 #637
 shield silver~
 the silver shield~
@@ -956,9 +956,9 @@ none~
 D D D 0 0
 28 20 280
 A
-12 5
-A
 17 -3
+A
+12 5
 #638
 girth silver~
 the silver girth~
@@ -968,9 +968,9 @@ none~
 D D D 0 0
 28 20 280
 A
-12 5
-A
 19 1
+A
+12 5
 #639
 plate platinum~
 platinum plate~
@@ -980,9 +980,9 @@ none~
 AD AD AD 0 0
 33 50 330
 A
-13 15
-A
 5 2
+A
+13 15
 #640
 helmet platinum~
 the platinum helmet~
@@ -992,9 +992,9 @@ none~
 AD AD AD 0 0
 33 30 330
 A
-12 10
-A
 4 2
+A
+12 10
 #641
 leggings platinum~
 platinum leggings~
@@ -1004,9 +1004,9 @@ none~
 AD AD AD 0 0
 33 40 330
 A
-13 10
-A
 2 2
+A
+13 10
 #642
 boots platinum~
 platinum boots~
@@ -1016,9 +1016,9 @@ none~
 AD AD AD 0 0
 33 40 330
 A
-13 10
-A
 14 100
+A
+13 10
 #643
 gauntlets platinum~
 platinum gauntlets~
@@ -1028,9 +1028,9 @@ none~
 AD AD AD 0 0
 33 40 330
 A
-13 10
-A
 18 2
+A
+13 10
 #644
 sleeves platinum~
 platinum sleeves~
@@ -1040,9 +1040,9 @@ none~
 AD AD AD 0 0
 33 40 330
 A
-13 10
-A
 1 2
+A
+13 10
 #645
 shield spiked platinum~
 the platinum spiked shield~
@@ -1052,9 +1052,9 @@ none~
 AD AD AD 0 0
 33 40 330
 A
-13 10
-A
 19 3
+A
+13 10
 #646
 girth platinum~
 the platinum girth~
@@ -1064,9 +1064,9 @@ none~
 AD AD AD 0 0
 33 40 330
 A
-13 10
-A
 24 -5
+A
+13 10
 #647
 avenger holy sword~
 holy Avenger~
@@ -1076,9 +1076,9 @@ none~
 A AC D A 0
 33 25 330
 A
-18 1
-A
 19 6
+A
+18 1
 #648
 whiskey shot~
 a shot of whiskey~
@@ -1120,9 +1120,9 @@ none~
 AD AD AD 0 0
 30 5 300
 A
-12 10
-A
 4 2
+A
+12 10
 #653
 ranseur polearm~
 a ranseur~
@@ -1132,9 +1132,9 @@ none~
 D AC BC B 0
 27 20 270
 A
-18 5
-A
 19 -1
+A
+18 5
 #654
 torso dragonscale golden~
 a golden dragonscale torso~
@@ -1144,9 +1144,9 @@ none~
 ABC ABC ABC 0 0
 21 25 210
 A
-17 -5
-A
 18 2
+A
+17 -5
 #655
 dragonhelm golden~
 a golden dragonhelm~
@@ -1156,9 +1156,9 @@ none~
 AB AB AB 0 0
 0 10 0
 A
-17 -3
-A
 18 1
+A
+17 -3
 #656
 leggings golden~
 golden dragonscale leggings~
@@ -1168,9 +1168,9 @@ none~
 AD AD AD 0 0
 30 10 300
 A
-17 -3
-A
 18 1
+A
+17 -3
 #657
 boots golden~
 golden dragonscale boots~
@@ -1180,9 +1180,9 @@ none~
 AD AD AD 0 0
 30 10 300
 A
-17 -3
-A
 18 1
+A
+17 -3
 #658
 gauntlets golden~
 golden dragonscale gauntlets~
@@ -1192,9 +1192,9 @@ none~
 AD AD AD 0 0
 30 10 300
 A
-17 -3
-A
 18 1
+A
+17 -3
 #659
 sleeves golden~
 golden dragonscale sleeves~
@@ -1204,9 +1204,9 @@ none~
 AD AD AD 0 0
 30 10 300
 A
-17 -3
-A
 18 1
+A
+17 -3
 #660
 shield golden~
 a golden dragonscale shield~
@@ -1216,9 +1216,9 @@ none~
 ABC ABC ABC 0 0
 21 10 210
 A
-17 -3
-A
 18 1
+A
+17 -3
 #661
 girth golden~
 a golden dragonscale girth~
@@ -1228,9 +1228,9 @@ none~
 AD AD AD 0 0
 30 10 300
 A
-17 -3
-A
 18 1
+A
+17 -3
 #662
 claw golden~
 the Golden Claw~
@@ -1250,9 +1250,9 @@ none~
 BCD C C 28 0
 38 30 380
 A
-3 1
-A
 4 2
+A
+3 1
 #664
 robe golden~
 a golden robe~
@@ -1280,9 +1280,9 @@ none~
 0 B BC ABC 0
 5 8 50
 A
-18 3
-A
 19 -3
+A
+18 3
 #667
 chest~
 a chest~

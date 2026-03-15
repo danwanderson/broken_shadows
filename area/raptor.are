@@ -286,11 +286,11 @@ none~
 C AC D D 0
 40 8 100000
 A
-18 -10
+2 -1
 A
 19 30
 A
-2 -1
+18 -10
 #10415
 jukebox~
 an old jukebox~
@@ -357,9 +357,9 @@ none~
 A BC E A E
 60 10 750
 A
-19 14
-A
 18 8
+A
+19 14
 #10497
 tooth jaberwock~
 a tooth from the Jabberwock~
@@ -369,9 +369,9 @@ none~
 B ABC BCD BD C
 60 5 1200
 A
-18 8
-A
 19 14
+A
+18 8
 #10498
 wood cutter's axe~
 a woodcutter's axe~
@@ -381,9 +381,9 @@ none~
 0 0 0 0 0
 40 30 10000
 A
-18 4
-A
 19 3
+A
+18 4
 #10499
 scroll vogon poetry~
 a scroll of Vogon poetry~
@@ -919,13 +919,13 @@ labels.  Look, there's another one in here!
 ~
 0 262153 0
 E
-warning~
+label~
 WARNING: The Cheshire Poetry Museum holds NO liability for what will
 happen when you read this poetry.  
 CAUTION: Read this poetry at your own risk!
 ~
 E
-label~
+warning~
 WARNING: The Cheshire Poetry Museum holds NO liability for what will
 happen when you read this poetry.  
 CAUTION: Read this poetry at your own risk!

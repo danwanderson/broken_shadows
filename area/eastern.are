@@ -273,9 +273,9 @@ none~
 D D D 0 0
 29 0 290
 A
-2 2
-A
 17 -4
+A
+2 2
 #5002
 halberd~
 the halberd~
@@ -285,9 +285,9 @@ none~
 D AC ABC B 0
 29 16 290
 A
-18 2
-A
 19 2
+A
+18 2
 #5003
 amulet~
 the amulet~
@@ -473,9 +473,9 @@ none~
 D D D 0 0
 28 10 280
 A
-13 10
-A
 19 2
+A
+13 10
 #5026
 gem ruby~
 a large ruby~
@@ -908,26 +908,26 @@ A vast desert stretches for miles, the sand constantly shifting around you.
 You feel lost.
 ~
 0 8192 10
-D0
-Sand as far as the eye can see.
-~
-~
-0 0 5030
 D3
 Sand as far as the eye can see.
 ~
 ~
 0 0 5026
-D1
+D0
 Sand as far as the eye can see.
 ~
 ~
-0 0 5025
+0 0 5030
 D2
 Sand as far as the eye can see.
 ~
 ~
 0 0 5027
+D1
+Sand as far as the eye can see.
+~
+~
+0 0 5025
 S
 #5025
 The Sands of Sorrow~
@@ -940,6 +940,11 @@ Sand as far as the eye can see.
 ~
 ~
 0 0 5026
+D0
+You see a nomad camp by an oasis.
+~
+~
+0 0 5056
 D3
 Sand as far as the eye can see.
 ~
@@ -950,11 +955,6 @@ Sand as far as the eye can see.
 ~
 ~
 0 0 5028
-D0
-You see a nomad camp by an oasis.
-~
-~
-0 0 5056
 S
 #5026
 The Sands of Sorrow~
@@ -962,16 +962,16 @@ A vast desert stretches for miles, the sand constantly shifting around you.
 You feel lost.
 ~
 0 8192 10
-D1
-Sand as far as the eye can see.
-~
-~
-0 0 5024
 D3
 Sand as far as the eye can see.
 ~
 ~
 0 0 5025
+D1
+Sand as far as the eye can see.
+~
+~
+0 0 5024
 D2
 Sand as far as the eye can see.
 ~
@@ -1021,6 +1021,11 @@ Sand as far as the eye can see.
 ~
 ~
 0 0 5031
+D0
+Sand as far as the eye can see.
+~
+~
+0 0 5025
 D1
 Sand as far as the eye can see.
 ~
@@ -1031,11 +1036,6 @@ Sand as far as the eye can see.
 ~
 ~
 0 0 5027
-D0
-Sand as far as the eye can see.
-~
-~
-0 0 5025
 S
 #5029
 The Sands of Sorrow~
@@ -1043,11 +1043,6 @@ A vast desert stretches for miles, the sand constantly shifting around you.
 You feel lost.
 ~
 0 8192 10
-D2
-Sand as far as the eye can see.
-~
-~
-0 0 5032
 D1
 The sand is glowing in this direction.
 ~
@@ -1063,6 +1058,11 @@ Sand as far as the eye can see.
 ~
 ~
 0 0 5026
+D2
+Sand as far as the eye can see.
+~
+~
+0 0 5032
 S
 #5030
 The Sands of Sorrow~
@@ -1070,26 +1070,26 @@ A vast desert stretches for miles, the sand constantly shifting around you.
 You feel lost.
 ~
 0 8192 10
-D3
-Sand as far as the eye can see.
-~
-~
-0 0 5032
-D2
-Sand as far as the eye can see.
-~
-~
-0 0 5024
 D0
 Sand as far as the eye can see.
 ~
 ~
 0 0 5027
+D3
+Sand as far as the eye can see.
+~
+~
+0 0 5032
 D1
 Sand as far as the eye can see.
 ~
 ~
 0 0 5031
+D2
+Sand as far as the eye can see.
+~
+~
+0 0 5024
 S
 #5031
 The Sands of Sorrow~
@@ -1097,11 +1097,11 @@ A vast desert stretches for miles, the sand constantly shifting around you.
 You feel lost.
 ~
 0 8192 10
-D0
+D2
 Sand as far as the eye can see.
 ~
 ~
-0 0 5028
+0 0 5063
 D3
 Sand as far as the eye can see.
 ~
@@ -1112,11 +1112,11 @@ Sand as far as the eye can see.
 ~
 ~
 0 0 5032
-D2
+D0
 Sand as far as the eye can see.
 ~
 ~
-0 0 5063
+0 0 5028
 S
 #5032
 The Sands of Sorrow~

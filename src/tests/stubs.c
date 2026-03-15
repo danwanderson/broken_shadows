@@ -48,6 +48,23 @@ int         top_ed         = 0;
 char        str_empty[1]   = { '\0' };  /* declared extern in recycle.h */
 int         mobile_count   = 0;         /* declared extern in recycle.h */
 
+/* Clan globals — needed by yaml_area.c's load_clans_yaml / save_clans_yaml. */
+CLAN_DATA  *clan_first     = NULL;
+CLAN_DATA  *clan_last      = NULL;
+int         top_clan       = 0;
+
+/*
+ * alloc_perm — permanent (never-freed) allocator used throughout db.c.
+ * In tests we just use malloc; memory is reclaimed when the process exits.
+ */
+void *alloc_perm( int size )
+{
+    void *p = malloc( (size_t)size );
+    if ( p )
+        memset( p, 0, (size_t)size );
+    return p;
+}
+
 /* ================================================================== */
 /*  comm.c / handler.c stubs                                            */
 /*                                                                      */

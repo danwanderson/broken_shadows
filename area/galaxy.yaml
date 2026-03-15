@@ -10,1499 +10,1453 @@ mobiles:
 - vnum: 9301
   keywords: poor mudder
   short_desc: a poor mudder
-  long_desc: |
-    A poor mudder, lost in this place.
-  description: |
-    You will become him if you are not careful.
+  long_desc: "A poor mudder, lost in this place.\n\r"
+  description: "You will become him if you are not careful.\n\r"
   race: Human
-  act: ACGT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524356
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 3
   hitroll: 0
   hit:
-    number: 1
-    type: 6
-    bonus: 23
+  - 1
+  - 6
+  - 23
   mana:
-    number: 3
-    type: 10
-    bonus: 100
+  - 3
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 5
-    bonus: 1
+  - 1
+  - 5
+  - 1
   dam_type: 3
   ac:
     pierce: 8
     bash: 8
     slash: 8
     exotic: 9
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 10
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_thief
 - vnum: 9302
   keywords: star
   short_desc: a beautiful star
-  long_desc: |
-    A beautiful white star smiles at you.
-  description: |
-    You can't tell what the star looks like, she is too bright!
+  long_desc: "A beautiful white star smiles at you.\n\r"
+  description: "You can't tell what the star looks like, she is too bright!\n\r"
   race: Human
-  act: ABGT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524354
+  affected_by: 0
+  affected2_by: 0
   alignment: 500
   clan: 0
   level: 8
   hitroll: 0
   hit:
-    number: 2
-    type: 21
-    bonus: 73
+  - 2
+  - 21
+  - 73
   mana:
-    number: 8
-    type: 10
-    bonus: 100
+  - 8
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 7
-    bonus: 4
+  - 2
+  - 7
+  - 4
   dam_type: 11
   ac:
     pierce: 5
     bash: 5
     slash: 5
     exotic: 7
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 50
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 9303
   keywords: nebula young
   short_desc: a young nebula
-  long_desc: |
-    A young nebula, waiting to become a star.
-  description: |
-    It hasn't got a definite shape, it is just a cloud of mist.
+  long_desc: "A young nebula, waiting to become a star.\n\r"
+  description: "It hasn't got a definite shape, it is just a cloud of mist.\n\r"
   race: Human
-  act: AGT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524352
+  affected_by: 0
+  affected2_by: 0
   alignment: 200
   clan: 0
   level: 10
   hitroll: 0
   hit:
-    number: 2
-    type: 33
-    bonus: 96
+  - 2
+  - 33
+  - 96
   mana:
-    number: 10
-    type: 10
-    bonus: 100
+  - 10
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 5
-    bonus: 7
+  - 3
+  - 5
+  - 7
   dam_type: 3
   ac:
     pierce: 3
     bash: 3
     slash: 3
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 100
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 9304
   keywords: comet speedy
   short_desc: a speedy comet
-  long_desc: |
-    A speedy comet is waiting to crush your head in.
-  description: |
-    You see the offspring of Halley's comet, here just to wipe everything out.
+  long_desc: "A speedy comet is waiting to crush your head in.\n\r"
+  description: "You see the offspring of Halley's comet, here just to wipe everything
+    out.\n\r"
   race: Human
-  act: ACFGT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524388
+  affected_by: 0
+  affected2_by: 0
   alignment: -500
   clan: 0
   level: 11
   hitroll: 0
   hit:
-    number: 3
-    type: 27
-    bonus: 107
+  - 3
+  - 27
+  - 107
   mana:
-    number: 11
-    type: 10
-    bonus: 100
+  - 11
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 6
-    bonus: 6
+  - 3
+  - 6
+  - 6
   dam_type: 3
   ac:
     pierce: 3
     bash: 3
     slash: 3
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 150
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 9305
   keywords: red supergiant
   short_desc: a red supergiant
-  long_desc: |
-    An enormous, red supergiant is forced to protect the galaxy.
-  description: |
-    You notice the giant is not as tough as his name sounds ...
-    Still he can be very powerful.
+  long_desc: "An enormous, red supergiant is forced to protect the galaxy.\n\r"
+  description: "You notice the giant is not as tough as his name sounds ...\n\rStill
+    he can be very powerful.\n\r"
   race: Human
-  act: ABGHT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524482
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 16
   hitroll: 0
   hit:
-    number: 5
-    type: 34
-    bonus: 175
+  - 5
+  - 34
+  - 175
   mana:
-    number: 16
-    type: 10
-    bonus: 100
+  - 16
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 7
-    bonus: 8
+  - 4
+  - 7
+  - 8
   dam_type: 3
   ac:
     pierce: 0
     bash: 0
     slash: 0
     exotic: 5
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 4
   default_pos: 4
   sex: 1
   gold: 200
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 9306
   keywords: white dwarf
   short_desc: a white dwarf
-  long_desc: "A tiny white dwarf is trying to sneak away from duty. \n"
-  description: |
-    Like the red giant, he is also appointed to stand guard for the galaxy.
-    But somehow he manages to escape.  Though tiny, it can take a lot of hits!
+  long_desc: "A tiny white dwarf is trying to sneak away from duty. \n\r"
+  description: "Like the red giant, he is also appointed to stand guard for the galaxy.\n\rBut
+    somehow he manages to escape.  Though tiny, it can take a lot of hits!\n\r"
   race: Human
-  act: ACGT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524356
+  affected_by: 0
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 16
   hitroll: 0
   hit:
-    number: 5
-    type: 34
-    bonus: 175
+  - 5
+  - 34
+  - 175
   mana:
-    number: 16
-    type: 10
-    bonus: 100
+  - 16
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 7
-    bonus: 8
+  - 4
+  - 7
+  - 8
   dam_type: 3
   ac:
     pierce: 0
     bash: 0
     slash: 0
     exotic: 5
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 200
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 9307
   keywords: horsehead nebula
   short_desc: a horsehead nebula
-  long_desc: |
-    A huge nebula is here, resembling a horsehead.
-  description: |
-    You can only make out its shape from the darkness.  He was cursed to stay in
-    here and his face may never be seen by anyone again.
+  long_desc: "A huge nebula is here, resembling a horsehead.\n\r"
+  description: "You can only make out its shape from the darkness.  He was cursed
+    to stay in\n\rhere and his face may never be seen by anyone again.\n\r"
   race: Human
-  act: ABGT
-  affected_by: PQ
-  affected2_by: '0'
+  act: 524354
+  affected_by: 98304
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 17
   hitroll: 0
   hit:
-    number: 5
-    type: 39
-    bonus: 187
+  - 5
+  - 39
+  - 187
   mana:
-    number: 17
-    type: 10
-    bonus: 100
+  - 17
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 7
-    bonus: 10
+  - 4
+  - 7
+  - 10
   dam_type: 3
   ac:
     pierce: 0
     bash: 0
     slash: 0
     exotic: 4
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 6
   default_pos: 6
   sex: 1
   gold: 600
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 9308
   keywords: andromeda
   short_desc: poor Andromeda
-  long_desc: |
-    The poor Andromeda is chained to the wall, suffering ...
-  description: |
-    She was once a princess of beauty.  However, her beauty has led to a Goddess's
-    jealousy and she has to suffer here endlessly until Perseus comes.
+  long_desc: "The poor Andromeda is chained to the wall, suffering ...\n\r"
+  description: "She was once a princess of beauty.  However, her beauty has led to
+    a Goddess's\n\rjealousy and she has to suffer here endlessly until Perseus comes.\n\r"
   race: Human
-  act: ABEGT
-  affected_by: H
-  affected2_by: '0'
+  act: 524370
+  affected_by: 128
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 18
   hitroll: 0
   hit:
-    number: 6
-    type: 36
-    bonus: 205
+  - 6
+  - 36
+  - 205
   mana:
-    number: 18
-    type: 10
-    bonus: 100
+  - 18
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 7
-    bonus: 12
+  - 4
+  - 7
+  - 12
   dam_type: 11
   ac:
     pierce: -1
     bash: -1
     slash: -1
     exotic: 4
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 750
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 9309
   keywords: hercules
   short_desc: the mighty Hercules
-  long_desc: |
-    The Mighty Hercules is working hard on his extra Labours for the Gods.
-  description: |
-    He has been put to do the Ten Labours -- ten impossible tasks, by Hera, the
-    queen goddess, who disliked him.  But he finished them all and at the end was
-    granted immortality. He is a very brave and strong fighter.
+  long_desc: "The Mighty Hercules is working hard on his extra Labours for the Gods.\n\r"
+  description: "He has been put to do the Ten Labours -- ten impossible tasks, by
+    Hera, the\n\rqueen goddess, who disliked him.  But he finished them all and at
+    the end was\n\rgranted immortality. He is a very brave and strong fighter.\n\r"
   race: Human
-  act: ABGT
-  affected_by: H
-  affected2_by: '0'
+  act: 524354
+  affected_by: 128
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 18
   hitroll: 0
   hit:
-    number: 6
-    type: 36
-    bonus: 205
+  - 6
+  - 36
+  - 205
   mana:
-    number: 18
-    type: 10
-    bonus: 100
+  - 18
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 7
-    bonus: 12
+  - 4
+  - 7
+  - 12
   dam_type: 3
   ac:
     pierce: -1
     bash: -1
     slash: -1
     exotic: 4
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 750
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 9310
   keywords: pegasus
   short_desc: the wild Pegasus
-  long_desc: |
-    The wild pegasus is grazing peacefully.
-  description: |
-    It is the legendary horse with wings on its back.
+  long_desc: "The wild pegasus is grazing peacefully.\n\r"
+  description: "It is the legendary horse with wings on its back.\n\r"
   race: Human
-  act: ABGHT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524482
+  affected_by: 0
+  affected2_by: 0
   alignment: 300
   clan: 0
   level: 16
   hitroll: 0
   hit:
-    number: 5
-    type: 34
-    bonus: 175
+  - 5
+  - 34
+  - 175
   mana:
-    number: 16
-    type: 10
-    bonus: 100
+  - 16
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 7
-    bonus: 8
+  - 4
+  - 7
+  - 8
   dam_type: 3
   ac:
     pierce: 0
     bash: 0
     slash: 0
     exotic: 5
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 500
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 9311
   keywords: orion
   short_desc: Orion the hunter
-  long_desc: |
-    Orion is still hunting for Scorpio.
-  description: "He is the legendary hunter who almost defeated Taurus the bull, but\
-    \ got\nkilled by Scorpio.  The gods put them both up as constellations but one\n\
-    appears on one side of the sky and the other the other side so they will\nnever\
-    \ meet. \n"
+  long_desc: "Orion is still hunting for Scorpio.\n\r"
+  description: "He is the legendary hunter who almost defeated Taurus the bull, but
+    got\n\rkilled by Scorpio.  The gods put them both up as constellations but one\n\rappears
+    on one side of the sky and the other the other side so they will\n\rnever meet.
+    \n\r"
   race: Human
-  act: ABGT
-  affected_by: H
-  affected2_by: '0'
+  act: 524354
+  affected_by: 128
+  affected2_by: 0
   alignment: 300
   clan: 0
   level: 19
   hitroll: 0
   hit:
-    number: 7
-    type: 34
-    bonus: 223
+  - 7
+  - 34
+  - 223
   mana:
-    number: 19
-    type: 10
-    bonus: 100
+  - 19
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 6
-    bonus: 12
+  - 5
+  - 6
+  - 12
   dam_type: 3
   ac:
     pierce: -1
     bash: -1
     slash: -1
     exotic: 4
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 750
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 9312
   keywords: pleiades
   short_desc: the Pleiades
-  long_desc: |
-    The Pleiades are here, weeping for the loss of their sisters.
-  description: |
-    These are the seven sisters of the Myths, and as for why they are here, no
-    one knows; even the Gods themselves have forgotten.
+  long_desc: "The Pleiades are here, weeping for the loss of their sisters.\n\r"
+  description: "These are the seven sisters of the Myths, and as for why they are
+    here, no\n\rone knows; even the Gods themselves have forgotten.\n\r"
   race: Human
-  act: ABGT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524354
+  affected_by: 0
+  affected2_by: 0
   alignment: 300
   clan: 0
   level: 11
   hitroll: 0
   hit:
-    number: 3
-    type: 27
-    bonus: 107
+  - 3
+  - 27
+  - 107
   mana:
-    number: 11
-    type: 10
-    bonus: 100
+  - 11
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 6
-    bonus: 6
+  - 3
+  - 6
+  - 6
   dam_type: 7
   ac:
     pierce: 3
     bash: 3
     slash: 3
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 300
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 9313
   keywords: draco head
   short_desc: the Head of Draco
-  long_desc: |
-    The gigantic Head of Draco lurks out from beneath and prepares to roast you.
-  description: "This evil-looking head is even larger than a giant.  He is the last\
-    \ guardian \nbefore entering the inner galaxy.  His neck is flexing in a random\
-    \ fashion so \nhitting the head is certainly not easy.\n"
+  long_desc: "The gigantic Head of Draco lurks out from beneath and prepares to roast
+    you.\n\r"
+  description: "This evil-looking head is even larger than a giant.  He is the last
+    guardian \n\rbefore entering the inner galaxy.  His neck is flexing in a random
+    fashion so \n\rhitting the head is certainly not easy.\n\r"
   race: Human
-  act: ABFGT
-  affected_by: DH
-  affected2_by: '0'
+  act: 524386
+  affected_by: 136
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 25
   hitroll: 0
   hit:
-    number: 10
-    type: 42
-    bonus: 322
+  - 10
+  - 42
+  - 322
   mana:
-    number: 25
-    type: 10
-    bonus: 100
+  - 25
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 8
-    bonus: 16
+  - 5
+  - 8
+  - 16
   dam_type: 11
   ac:
     pierce: -5
     bash: -5
     slash: -5
     exotic: 2
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 1500
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_breath_fire
 - vnum: 9314
   keywords: draco baby
   short_desc: a baby draco
-  long_desc: |
-    A baby draco is crawling on the Draco's body.
-  description: |
-    You see a tiny creature which looks like a dragon except that its body
-    resembles a snake.  Gosh, is this a draco, you wonder, is this the thing
-    we are on now?
+  long_desc: "A baby draco is crawling on the Draco's body.\n\r"
+  description: "You see a tiny creature which looks like a dragon except that its
+    body\n\rresembles a snake.  Gosh, is this a draco, you wonder, is this the thing\n\rwe
+    are on now?\n\r"
   race: Human
-  act: ACGHT
-  affected_by: '0'
-  affected2_by: '0'
+  act: 524484
+  affected_by: 0
+  affected2_by: 0
   alignment: -700
   clan: 0
   level: 9
   hitroll: 0
   hit:
-    number: 2
-    type: 27
-    bonus: 83
+  - 2
+  - 27
+  - 83
   mana:
-    number: 9
-    type: 10
-    bonus: 100
+  - 9
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 7
-    bonus: 6
+  - 2
+  - 7
+  - 6
   dam_type: 3
   ac:
     pierce: 4
     bash: 4
     slash: 4
     exotic: 7
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 400
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_breath_fire
 - vnum: 9315
   keywords: aries
   short_desc: Aries
-  long_desc: |
-    Aries is sitting here, welcoming you.
-  description: |
-    You see a white goat here, the first guardian of the Zodiac,
-    also the ruler of Spring. He looks as if he is expecting you.
+  long_desc: "Aries is sitting here, welcoming you.\n\r"
+  description: "You see a white goat here, the first guardian of the Zodiac,\n\ralso
+    the ruler of Spring. He looks as if he is expecting you.\n\r"
   race: Human
-  act: ABGT
-  affected_by: H
-  affected2_by: '0'
+  act: 524354
+  affected_by: 128
+  affected2_by: 0
   alignment: 700
   clan: 0
   level: 22
   hitroll: 0
   hit:
-    number: 9
-    type: 36
-    bonus: 270
+  - 9
+  - 36
+  - 270
   mana:
-    number: 22
-    type: 10
-    bonus: 100
+  - 22
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 7
-    bonus: 14
+  - 5
+  - 7
+  - 14
   dam_type: 3
   ac:
     pierce: -3
     bash: -3
     slash: -3
     exotic: 3
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 6
   default_pos: 6
   sex: 1
   gold: 1000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 9316
   keywords: taurus
   short_desc: Taurus
-  long_desc: |
-    Taurus wants to leave, but has been forced to stay as a guardian here.
-  description: "You see a wild-looking bull with a bad temper.  He is well-built and\
-    \ looks like \nhe can fight well ... indeed he has fought with Orion before and\
-    \ survived.\n"
+  long_desc: "Taurus wants to leave, but has been forced to stay as a guardian here.\n\r"
+  description: "You see a wild-looking bull with a bad temper.  He is well-built and
+    looks like \n\rhe can fight well ... indeed he has fought with Orion before and
+    survived.\n\r"
   race: Human
-  act: ABFGT
-  affected_by: DH
-  affected2_by: '0'
+  act: 524386
+  affected_by: 136
+  affected2_by: 0
   alignment: -100
   clan: 0
   level: 21
   hitroll: 0
   hit:
-    number: 8
-    type: 37
-    bonus: 252
+  - 8
+  - 37
+  - 252
   mana:
-    number: 21
-    type: 10
-    bonus: 100
+  - 21
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 7
-    bonus: 12
+  - 5
+  - 7
+  - 12
   dam_type: 3
   ac:
     pierce: -3
     bash: -3
     slash: -3
     exotic: 3
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 9317
   keywords: gemini
   short_desc: Gemini
-  long_desc: |
-    Gemini is looking for his brother; have you seen him?
-  description: |
-    As soon as you see him you know that he is the most perfect man you have seen.
-    You can't find any imperfections on him.
+  long_desc: "Gemini is looking for his brother; have you seen him?\n\r"
+  description: "As soon as you see him you know that he is the most perfect man you
+    have seen.\n\rYou can't find any imperfections on him.\n\r"
   race: Human
-  act: ABGT
-  affected_by: H
-  affected2_by: '0'
+  act: 524354
+  affected_by: 128
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 21
   hitroll: 0
   hit:
-    number: 8
-    type: 37
-    bonus: 252
+  - 8
+  - 37
+  - 252
   mana:
-    number: 21
-    type: 10
-    bonus: 100
+  - 21
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 7
-    bonus: 12
+  - 5
+  - 7
+  - 12
   dam_type: 7
   ac:
     pierce: -3
     bash: -3
     slash: -3
     exotic: 3
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 9318
   keywords: gemini
   short_desc: Gemini
-  long_desc: |
-    Gemini is hiding from his brother, grinning evilly at you.
-  description: |
-    As soon as you see him you see the most imperfect man you have ever seen.
-    How can there be such a contrast?  You wonder ...
+  long_desc: "Gemini is hiding from his brother, grinning evilly at you.\n\r"
+  description: "As soon as you see him you see the most imperfect man you have ever
+    seen.\n\rHow can there be such a contrast?  You wonder ...\n\r"
   race: Human
-  act: ABCFGHT
-  affected_by: DHU
-  affected2_by: '0'
+  act: 524518
+  affected_by: 1048712
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 15
   hitroll: 0
   hit:
-    number: 4
-    type: 37
-    bonus: 162
+  - 4
+  - 37
+  - 162
   mana:
-    number: 15
-    type: 10
-    bonus: 100
+  - 15
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 6
-    bonus: 9
+  - 4
+  - 6
+  - 9
   dam_type: 7
   ac:
     pierce: 0
     bash: 0
     slash: 0
     exotic: 5
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 500
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 9319
   keywords: cancer
   short_desc: Cancer
-  long_desc: |
-    Cancer the crab is here, hoarding the treasure away from you.
-  description: "You see a gigantic crab (YES, it is bigger than you!) with a crushed\
-    \ shell.\nLegend is that he was crushed by Hercules when he was sent by Hera to\
-    \ kill him.\nSo Hera made Cancer a constellation for his work. \n"
+  long_desc: "Cancer the crab is here, hoarding the treasure away from you.\n\r"
+  description: "You see a gigantic crab (YES, it is bigger than you!) with a crushed
+    shell.\n\rLegend is that he was crushed by Hercules when he was sent by Hera to
+    kill him.\n\rSo Hera made Cancer a constellation for his work. \n\r"
   race: Human
-  act: ABGT
-  affected_by: H
-  affected2_by: '0'
+  act: 524354
+  affected_by: 128
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 22
   hitroll: 0
   hit:
-    number: 9
-    type: 36
-    bonus: 270
+  - 9
+  - 36
+  - 270
   mana:
-    number: 22
-    type: 10
-    bonus: 100
+  - 22
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 7
-    bonus: 14
+  - 5
+  - 7
+  - 14
   dam_type: 3
   ac:
     pierce: -3
     bash: -3
     slash: -3
     exotic: 3
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1200
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 9320
   keywords: leo
   short_desc: Leo
-  long_desc: |
-    Leo the lion is roaring at you, ready for a strike!
-  description: |
-    His metallic skin means that he could be the one which was killed by Hercules
-    during his first Labour.  His skin is so weapon-proof that Hercules had to use
-    his bare hands to tear the lion into two from its mouth!
+  long_desc: "Leo the lion is roaring at you, ready for a strike!\n\r"
+  description: "His metallic skin means that he could be the one which was killed
+    by Hercules\n\rduring his first Labour.  His skin is so weapon-proof that Hercules
+    had to use\n\rhis bare hands to tear the lion into two from its mouth!\n\r"
   race: Human
-  act: ABFGT
-  affected_by: DH
-  affected2_by: '0'
+  act: 524386
+  affected_by: 136
+  affected2_by: 0
   alignment: -100
   clan: 0
   level: 22
   hitroll: 0
   hit:
-    number: 9
-    type: 36
-    bonus: 270
+  - 9
+  - 36
+  - 270
   mana:
-    number: 22
-    type: 10
-    bonus: 100
+  - 22
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 7
-    bonus: 14
+  - 5
+  - 7
+  - 14
   dam_type: 11
   ac:
     pierce: -3
     bash: -3
     slash: -3
     exotic: 3
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 9321
   keywords: virgo
   short_desc: Virgo
-  long_desc: |
-    Virgo is sitting here, winking at you suggestively ... you are alarmed!
-  description: |
-    From what you have seen, you now realize that legends are legends, and Virgo
-    may not be the maid of chastity and purity at all!  But still she looks
-    gorgeous and is waiting for your first move, whatever it is ...
+  long_desc: "Virgo is sitting here, winking at you suggestively ... you are alarmed!\n\r"
+  description: "From what you have seen, you now realize that legends are legends,
+    and Virgo\n\rmay not be the maid of chastity and purity at all!  But still she
+    looks\n\rgorgeous and is waiting for your first move, whatever it is ...\n\r"
   race: Human
-  act: ABGT
-  affected_by: H
-  affected2_by: '0'
+  act: 524354
+  affected_by: 128
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 23
   hitroll: 0
   hit:
-    number: 9
-    type: 39
-    bonus: 290
+  - 9
+  - 39
+  - 290
   mana:
-    number: 23
-    type: 10
-    bonus: 100
+  - 23
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 8
-    bonus: 11
+  - 5
+  - 8
+  - 11
   dam_type: 11
   ac:
     pierce: -4
     bash: -4
     slash: -4
     exotic: 2
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 6
   default_pos: 6
   sex: 2
   gold: 1000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 9322
   keywords: libra
   short_desc: Libra
-  long_desc: |
-    Libra, the fair and just, is staring at you, weighing up the sins of your past.
-  description: |
-    He is a wise old man and can see people's thoughts through their eyes....
-    Now all he can see from you is greed and bloodshed.
+  long_desc: "Libra, the fair and just, is staring at you, weighing up the sins of
+    your past.\n\r"
+  description: "He is a wise old man and can see people's thoughts through their eyes....\n\rNow
+    all he can see from you is greed and bloodshed.\n\r"
   race: Human
-  act: ABGT
-  affected_by: H
-  affected2_by: '0'
+  act: 524354
+  affected_by: 128
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 22
   hitroll: 0
   hit:
-    number: 9
-    type: 36
-    bonus: 270
+  - 9
+  - 36
+  - 270
   mana:
-    number: 22
-    type: 10
-    bonus: 100
+  - 22
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 7
-    bonus: 14
+  - 5
+  - 7
+  - 14
   dam_type: 11
   ac:
     pierce: -3
     bash: -3
     slash: -3
     exotic: 3
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 9323
   keywords: scorpio
   short_desc: Scorpio
-  long_desc: |
-    Scorpio is moving his tail towards you, waiting to put an end to some mortals.
-  description: "Ever since he killed Orion in the myths, he has been punished by having\
-    \ \nSagittarius' arrow aimed at his heart forever.\n"
+  long_desc: "Scorpio is moving his tail towards you, waiting to put an end to some
+    mortals.\n\r"
+  description: "Ever since he killed Orion in the myths, he has been punished by having
+    \n\rSagittarius' arrow aimed at his heart forever.\n\r"
   race: Human
-  act: ABFGT
-  affected_by: DH
-  affected2_by: '0'
+  act: 524386
+  affected_by: 136
+  affected2_by: 0
   alignment: -200
   clan: 0
   level: 23
   hitroll: 0
   hit:
-    number: 9
-    type: 39
-    bonus: 290
+  - 9
+  - 39
+  - 290
   mana:
-    number: 23
-    type: 10
-    bonus: 100
+  - 23
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 8
-    bonus: 11
+  - 5
+  - 8
+  - 11
   dam_type: 7
   ac:
     pierce: -4
     bash: -4
     slash: -4
     exotic: 2
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 9324
   keywords: sagittarius
   short_desc: Sagittarius
-  long_desc: |
-    Sagittarius the centaur is waiting to let go of his well aimed arrow ...
-  description: |
-    He is a centaur and a well trained archer. No one can escape his arrows.
+  long_desc: "Sagittarius the centaur is waiting to let go of his well aimed arrow
+    ...\n\r"
+  description: "He is a centaur and a well trained archer. No one can escape his arrows.\n\r"
   race: Human
-  act: ABGT
-  affected_by: H
-  affected2_by: '0'
+  act: 524354
+  affected_by: 128
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 22
   hitroll: 0
   hit:
-    number: 9
-    type: 36
-    bonus: 270
+  - 9
+  - 36
+  - 270
   mana:
-    number: 22
-    type: 10
-    bonus: 100
+  - 22
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 7
-    bonus: 14
+  - 5
+  - 7
+  - 14
   dam_type: 3
   ac:
     pierce: -3
     bash: -3
     slash: -3
     exotic: 3
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 9325
   keywords: capricon
   short_desc: Capricon
-  long_desc: |
-    Capricon is here, feeling bored ... he wants a fight!
-  description: "You see a mean-looking ram here.  He used to be a fierce fighter in\
-    \ the ancient\nwar but now the gods have decided to put him here, to live out\
-    \ the rest of his \ndays in peace.\n"
+  long_desc: "Capricon is here, feeling bored ... he wants a fight!\n\r"
+  description: "You see a mean-looking ram here.  He used to be a fierce fighter in
+    the ancient\n\rwar but now the gods have decided to put him here, to live out
+    the rest of his \n\rdays in peace.\n\r"
   race: Human
-  act: ABGT
-  affected_by: H
-  affected2_by: '0'
+  act: 524354
+  affected_by: 128
+  affected2_by: 0
   alignment: 700
   clan: 0
   level: 22
   hitroll: 0
   hit:
-    number: 9
-    type: 36
-    bonus: 270
+  - 9
+  - 36
+  - 270
   mana:
-    number: 22
-    type: 10
-    bonus: 100
+  - 22
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 7
-    bonus: 14
+  - 5
+  - 7
+  - 14
   dam_type: 3
   ac:
     pierce: -3
     bash: -3
     slash: -3
     exotic: 3
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 9326
   keywords: aquarius
   short_desc: Aquarius
-  long_desc: |
-    The beautiful Aquarius is standing here, holding THE vessel.
-  description: "The pretty Water Bearer is smiling at you, you think you'd better\
-    \ give her a \nhand with holding the vessel. \n"
+  long_desc: "The beautiful Aquarius is standing here, holding THE vessel.\n\r"
+  description: "The pretty Water Bearer is smiling at you, you think you'd better
+    give her a \n\rhand with holding the vessel. \n\r"
   race: Human
-  act: ABGT
-  affected_by: H
-  affected2_by: '0'
+  act: 524354
+  affected_by: 128
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 23
   hitroll: 0
   hit:
-    number: 9
-    type: 39
-    bonus: 290
+  - 9
+  - 39
+  - 290
   mana:
-    number: 23
-    type: 10
-    bonus: 100
+  - 23
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 8
-    bonus: 11
+  - 5
+  - 8
+  - 11
   dam_type: 11
   ac:
     pierce: -4
     bash: -4
     slash: -4
     exotic: 2
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 1000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 9327
   keywords: pisces mermaid
   short_desc: Pisces the mermaid
-  long_desc: |
-    Pisces the mermaid is sitting here, waiting for your help.
-  description: |
-    She has been forced to serve her husband, who had been cursed to turn into a
-    fish and she deserves your pity.
+  long_desc: "Pisces the mermaid is sitting here, waiting for your help.\n\r"
+  description: "She has been forced to serve her husband, who had been cursed to turn
+    into a\n\rfish and she deserves your pity.\n\r"
   race: Human
-  act: ABGT
-  affected_by: H
-  affected2_by: '0'
+  act: 524354
+  affected_by: 128
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 23
   hitroll: 0
   hit:
-    number: 9
-    type: 39
-    bonus: 290
+  - 9
+  - 39
+  - 290
   mana:
-    number: 23
-    type: 10
-    bonus: 100
+  - 23
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 8
-    bonus: 11
+  - 5
+  - 8
+  - 11
   dam_type: 3
   ac:
     pierce: -4
     bash: -4
     slash: -4
     exotic: 2
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 6
   default_pos: 6
   sex: 2
   gold: 1000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 9328
   keywords: pisces fish
   short_desc: Pisces the fish
-  long_desc: |
-    Pisces the fish, is jealous of your approach...
-  description: |
-    He was once a very handsome man but now has turned into an ugly big fish.
-    So he becomes jealous of any living thing which is more handsome than him.
+  long_desc: "Pisces the fish, is jealous of your approach...\n\r"
+  description: "He was once a very handsome man but now has turned into an ugly big
+    fish.\n\rSo he becomes jealous of any living thing which is more handsome than
+    him.\n\r"
   race: Human
-  act: ABFGT
-  affected_by: H
-  affected2_by: '0'
+  act: 524386
+  affected_by: 128
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 21
   hitroll: 0
   hit:
-    number: 8
-    type: 37
-    bonus: 252
+  - 8
+  - 37
+  - 252
   mana:
-    number: 21
-    type: 10
-    bonus: 100
+  - 21
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 7
-    bonus: 12
+  - 5
+  - 7
+  - 12
   dam_type: 3
   ac:
     pierce: -3
     bash: -3
     slash: -3
     exotic: 3
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 9329
   keywords: bear ursa major
   short_desc: Ursa Major the bear
-  long_desc: |
-    Ursa Major the bear is the last defense against any intruders.
-  description: "The Huge Bear which resides in the northern skies is here. \nYou think\
-    \ you'd better turn back.  At least you have got a chance of survival.\n"
+  long_desc: "Ursa Major the bear is the last defense against any intruders.\n\r"
+  description: "The Huge Bear which resides in the northern skies is here. \n\rYou
+    think you'd better turn back.  At least you have got a chance of survival.\n\r"
   race: bear
-  act: ABFGT
-  affected_by: DH
-  affected2_by: '0'
+  act: 524386
+  affected_by: 136
+  affected2_by: 0
   alignment: 0
   clan: 0
   level: 26
   hitroll: 0
   hit:
-    number: 10
-    type: 45
-    bonus: 345
+  - 10
+  - 45
+  - 345
   mana:
-    number: 26
-    type: 10
-    bonus: 100
+  - 26
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 9
-    bonus: 13
+  - 5
+  - 9
+  - 13
   dam_type: 7
   ac:
     pierce: -6
     bash: -6
     slash: -6
     exotic: 1
-  off_flags: DEO
-  imm_flags: '0'
-  res_flags: EI
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 1500
-  form: AGV
-  parts: ABCDEFHJKUV
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 9330
   keywords: cassiopeia queen
   short_desc: Cassiopeia the Queen
-  long_desc: |
-    Cassiopeia, the queen of the Universe, is sitting on her throne.
-  description: |
-    She is the Queen of Dignity; facing her you feel all your dignity has gone.
+  long_desc: "Cassiopeia, the queen of the Universe, is sitting on her throne.\n\r"
+  description: "She is the Queen of Dignity; facing her you feel all your dignity
+    has gone.\n\r"
   race: Human
-  act: ABGT
-  affected_by: H
-  affected2_by: '0'
+  act: 524354
+  affected_by: 128
+  affected2_by: 0
   alignment: 700
   clan: 0
   level: 26
   hitroll: 0
   hit:
-    number: 10
-    type: 45
-    bonus: 345
+  - 10
+  - 45
+  - 345
   mana:
-    number: 26
-    type: 10
-    bonus: 100
+  - 26
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 9
-    bonus: 13
+  - 5
+  - 9
+  - 13
   dam_type: 3
   ac:
     pierce: -6
     bash: -6
     slash: -6
     exotic: 1
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 6
   default_pos: 6
   sex: 2
   gold: 1200
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_mage
 - vnum: 9331
   keywords: cepheus king
   short_desc: Cepheus the King
-  long_desc: |
-    Cepheus, the king of the Universe, is sitting on his throne.
-  description: |
-    He is the King of Might as well as of the Universe. You suddenly feel very
-    weak and useless in front of him.
+  long_desc: "Cepheus, the king of the Universe, is sitting on his throne.\n\r"
+  description: "He is the King of Might as well as of the Universe. You suddenly feel
+    very\n\rweak and useless in front of him.\n\r"
   race: Human
-  act: ABGT
-  affected_by: H
-  affected2_by: '0'
+  act: 524354
+  affected_by: 128
+  affected2_by: 0
   alignment: 700
   clan: 0
   level: 26
   hitroll: 0
   hit:
-    number: 10
-    type: 45
-    bonus: 345
+  - 10
+  - 45
+  - 345
   mana:
-    number: 26
-    type: 10
-    bonus: 100
+  - 26
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 9
-    bonus: 13
+  - 5
+  - 9
+  - 13
   dam_type: 7
   ac:
     pierce: -6
     bash: -6
     slash: -6
     exotic: 1
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 6
   default_pos: 6
   sex: 1
   gold: 1200
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_cast_mage
 - vnum: 9332
   keywords: polaris polar star
   short_desc: Polaris, the polar star
-  long_desc: |
-    Polaris, the polar star, who commands the whole Universe, stands before you!
-  description: "He is the Master of the Universe, (NOT He-Man!), the most powerful!\
-    \  \nEven the King and the Queen obey him.  As you look at him you notice he is\
-    \ \nactually a STAR, with dazzling bright light ... maybe you shouldn't have come\n\
-    here at all?\n"
+  long_desc: "Polaris, the polar star, who commands the whole Universe, stands before
+    you!\n\r"
+  description: "He is the Master of the Universe, (NOT He-Man!), the most powerful!
+    \ \n\rEven the King and the Queen obey him.  As you look at him you notice he
+    is \n\ractually a STAR, with dazzling bright light ... maybe you shouldn't have
+    come\n\rhere at all?\n\r"
   race: Human
-  act: ABGT
-  affected_by: BDH
-  affected2_by: '0'
+  act: 524354
+  affected_by: 138
+  affected2_by: 0
   alignment: 1000
   clan: 0
   level: 30
   hitroll: 0
   hit:
-    number: 10
-    type: 60
-    bonus: 426
+  - 10
+  - 60
+  - 426
   mana:
-    number: 30
-    type: 10
-    bonus: 100
+  - 30
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 10
-    bonus: 17
+  - 5
+  - 10
+  - 17
   dam_type: 11
   ac:
     pierce: -8
     bash: -8
     slash: -8
     exotic: 0
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 2000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_breath_acid
@@ -1513,17 +1467,17 @@ objects:
   description: A long, slender whip lies here.
   material: none
   item_type: 5
-  extra_flags: AB
-  wear_flags: AN
+  extra_flags: 3
+  wear_flags: 8193
+  level: 11
+  weight: 9
+  cost: 110
   values:
   - 7
   - 3
   - 6
   - 4
   - 0
-  level: 11
-  weight: 9
-  cost: 110
   affects: []
   extra_descs: []
 - vnum: 9302
@@ -1532,74 +1486,73 @@ objects:
   description: Arm plates of the Zodiac lie here.
   material: none
   item_type: 9
-  extra_flags: AGK
-  wear_flags: AI
+  extra_flags: 1089
+  wear_flags: 257
+  level: 18
+  weight: 10
+  cost: 180
   values:
   - 6
   - 6
   - 6
   - 0
   - 0
-  level: 18
-  weight: 10
-  cost: 180
   affects:
-  - where: O
-    location: 19
-    modifier: 2
-    bitvector: '0'
   - where: O
     location: 1
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: 0
   extra_descs:
   - keywords: arm
-    description: |
-      These mighty armors have been worn by this immortal, since the ancient time.
+    description: "These mighty armors have been worn by this immortal, since the ancient
+      time.\n\r"
 - vnum: 9304
   name: belt orion
   short_desc: the Titanic Belt of Orion
   description: A belt of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: AGK
-  wear_flags: AL
+  extra_flags: 1089
+  wear_flags: 2049
+  level: 19
+  weight: 7
+  cost: 190
   values:
   - 6
   - 6
   - 6
   - 0
   - 0
-  level: 19
-  weight: 7
-  cost: 190
   affects:
   - where: O
     location: 5
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
   extra_descs:
   - keywords: belt
-    description: |
-      You can immediately see that it belongs to Orion, from the three stars
-      engraved on it.
+    description: "You can immediately see that it belongs to Orion, from the three
+      stars\n\rengraved on it.\n\r"
 - vnum: 9305
   name: skull draco
   short_desc: an ugly skull of Draco
   description: A massive skull of a dead Draco lies here.
   material: none
   item_type: 4
-  extra_flags: BGH
-  wear_flags: AO
+  extra_flags: 194
+  wear_flags: 16385
+  level: 25
+  weight: 20
+  cost: 250
   values:
   - 15
   - 5
   - 5
   - 6
   - 0
-  level: 25
-  weight: 20
-  cost: 250
   affects: []
   extra_descs: []
 - vnum: 9306
@@ -1608,506 +1561,493 @@ objects:
   description: A fleece of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: AGK
-  wear_flags: AC
+  extra_flags: 1089
+  wear_flags: 5
+  level: 22
+  weight: 9
+  cost: 220
   values:
   - 7
   - 7
   - 7
   - 0
   - 0
-  level: 22
-  weight: 9
-  cost: 220
   affects:
   - where: O
     location: 17
     modifier: -2
-    bitvector: '0'
+    bitvector: 0
   extra_descs:
   - keywords: fleece
-    description: |
-      From a look it resembles the Golden Fleece that exists in the Greek myths.
+    description: "From a look it resembles the Golden Fleece that exists in the Greek
+      myths.\n\r"
 - vnum: 9307
   name: hoof taurus
   short_desc: the Titanic Hoof of Taurus
   description: A hoof of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: AGK
-  wear_flags: AG
+  extra_flags: 1089
+  wear_flags: 65
+  level: 21
+  weight: 10
+  cost: 210
   values:
   - 7
   - 7
   - 7
   - 0
   - 0
-  level: 21
-  weight: 10
-  cost: 210
   affects:
-  - where: O
-    location: 19
-    modifier: 1
-    bitvector: '0'
   - where: O
     location: 14
     modifier: 50
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 1
+    bitvector: 0
   extra_descs:
   - keywords: hoof
-    description: |
-      It is with these hooves that Taurus can stand against Orion's attacks.
+    description: "It is with these hooves that Taurus can stand against Orion's attacks.\n\r"
 - vnum: 9308
   name: mask gemini
   short_desc: the Titanic Mask of Gemini
   description: A mask of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: AGHK
-  wear_flags: AE
+  extra_flags: 1217
+  wear_flags: 17
+  level: 21
+  weight: 7
+  cost: 210
   values:
   - 7
   - 7
   - 7
   - 0
   - 0
-  level: 21
-  weight: 7
-  cost: 210
   affects:
-  - where: O
-    location: 2
-    modifier: 2
-    bitvector: '0'
   - where: O
     location: 1
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 2
+    modifier: 2
+    bitvector: 0
   extra_descs:
   - keywords: mask
-    description: |
-      You notice the mask has got two faces, one smiling and the other crying.
-      You don't know which way you should wear it.
+    description: "You notice the mask has got two faces, one smiling and the other
+      crying.\n\rYou don't know which way you should wear it.\n\r"
 - vnum: 9309
   name: shell cancer
   short_desc: the Titanic Shell of Cancer
   description: A shell of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: AGK
-  wear_flags: AD
+  extra_flags: 1089
+  wear_flags: 9
+  level: 22
+  weight: 15
+  cost: 220
   values:
   - 7
   - 7
   - 7
   - 0
   - 0
-  level: 22
-  weight: 15
-  cost: 220
   affects:
   - where: O
     location: 17
     modifier: -2
-    bitvector: '0'
+    bitvector: 0
   extra_descs:
   - keywords: shell
-    description: |
-      A shell which is dented in the middle, resulting from the Hercules' mighty
-      pound when the Crab was still an enemy of Hercules in ancient times.
+    description: "A shell which is dented in the middle, resulting from the Hercules'
+      mighty\n\rpound when the Crab was still an enemy of Hercules in ancient times.\n\r"
 - vnum: 9310
   name: skin leo
   short_desc: the Titanic Skin of Leo
   description: A skin of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: AGK
-  wear_flags: AK
+  extra_flags: 1089
+  wear_flags: 1025
+  level: 22
+  weight: 15
+  cost: 220
   values:
   - 7
   - 7
   - 7
   - 0
   - 0
-  level: 22
-  weight: 15
-  cost: 220
   affects: []
   extra_descs:
   - keywords: skin
-    description: |
-      A skin made of metal, which was worn by Hercules during his Ten Labours.
+    description: "A skin made of metal, which was worn by Hercules during his Ten
+      Labours.\n\r"
 - vnum: 9311
   name: bracelet virgo
   short_desc: the Titanic Bracelet of Virgo
   description: A bracelet of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: AGK
-  wear_flags: AM
+  extra_flags: 1089
+  wear_flags: 4097
+  level: 23
+  weight: 4
+  cost: 230
   values:
   - 7
   - 7
   - 7
   - 0
   - 0
-  level: 23
-  weight: 4
-  cost: 230
   affects:
   - where: O
     location: 4
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
   extra_descs:
   - keywords: bracelet
-    description: |
-      A bracelet of purity and youth, only worn by selected virgins.
+    description: "A bracelet of purity and youth, only worn by selected virgins.\n\r"
 - vnum: 9312
   name: scale libra
   short_desc: the Titanic Scale of Libra
   description: A shield of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: AGK
-  wear_flags: AJ
+  extra_flags: 1089
+  wear_flags: 513
+  level: 22
+  weight: 15
+  cost: 220
   values:
   - 7
   - 7
   - 7
   - 0
   - 0
-  level: 22
-  weight: 15
-  cost: 220
   affects:
-  - where: O
-    location: 13
-    modifier: 5
-    bitvector: '0'
   - where: O
     location: 17
     modifier: -3
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 5
+    bitvector: 0
   extra_descs:
   - keywords: scale
-    description: |
-      It is a shield of justice, used in the ancient battle against injustice.
+    description: "It is a shield of justice, used in the ancient battle against injustice.\n\r"
 - vnum: 9313
   name: scale libra
   short_desc: the Titanic Scale of Libra
   description: A shield of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: BGH
-  wear_flags: AJ
+  extra_flags: 194
+  wear_flags: 513
+  level: 22
+  weight: 15
+  cost: 220
   values:
   - 7
   - 7
   - 7
   - 0
   - 0
-  level: 22
-  weight: 15
-  cost: 220
   affects:
-  - where: O
-    location: 13
-    modifier: -30
-    bitvector: '0'
   - where: O
     location: 17
     modifier: 6
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: -30
+    bitvector: 0
   extra_descs:
   - keywords: scale
-    description: |
-      It is a shield of injustice, it picks on the innocent.
+    description: "It is a shield of injustice, it picks on the innocent.\n\r"
 - vnum: 9314
   name: sting scorpio
   short_desc: the Sting of Scorpio
   description: Sting of the Zodiac lies here.
   material: none
   item_type: 5
-  extra_flags: AGK
-  wear_flags: AN
+  extra_flags: 1089
+  wear_flags: 8193
+  level: 23
+  weight: 7
+  cost: 230
   values:
   - 0
   - 5
   - 6
   - 11
   - 0
-  level: 23
-  weight: 7
-  cost: 230
   affects:
-  - where: O
-    location: 19
-    modifier: 1
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 3
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 1
+    bitvector: 0
   extra_descs:
   - keywords: sting
-    description: |
-      This dreadful weapon put a lot of mortals to death before Scorpio was banished.
+    description: "This dreadful weapon put a lot of mortals to death before Scorpio
+      was banished.\n\r"
 - vnum: 9315
   name: arrow sagittarius
   short_desc: the Arrow of Sagittarius
   description: The Arrow of Sagittarius lies here.
   material: none
   item_type: 3
-  extra_flags: AGK
-  wear_flags: AO
+  extra_flags: 1089
+  wear_flags: 16385
+  level: 22
+  weight: 7
+  cost: 220
   values:
   - 10
   - 10
   - 10
-  - 30
+  - 57
   - 0
-  level: 22
-  weight: 7
-  cost: 220
   affects: []
   extra_descs:
   - keywords: arrow
-    description: |
-      It's an arrow of lightning; it will never miss any target.
+    description: "It's an arrow of lightning; it will never miss any target.\n\r"
 - vnum: 9316
   name: bow sagittarius
   short_desc: the Titanic Bow of Sagittarius
   description: The Titanic Bow of Sagittarius lies here.
   material: none
   item_type: 5
-  extra_flags: AGK
-  wear_flags: AN
+  extra_flags: 1089
+  wear_flags: 8193
+  level: 22
+  weight: 20
+  cost: 220
   values:
   - 0
   - 5
   - 5
   - 6
   - 0
-  level: 22
-  weight: 20
-  cost: 220
   affects:
-  - where: O
-    location: 19
-    modifier: 3
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 3
+    bitvector: 0
   extra_descs:
   - keywords: bow
-    description: |
-      The gigantic bow used by the Archer; it is a very powerful weapon.
+    description: "The gigantic bow used by the Archer; it is a very powerful weapon.\n\r"
 - vnum: 9317
   name: horns capricon
   short_desc: the Titanic Horns of Capricon
   description: A pair of horns of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: AGK
-  wear_flags: AH
+  extra_flags: 1089
+  wear_flags: 129
+  level: 22
+  weight: 6
+  cost: 220
   values:
   - 7
   - 7
   - 7
   - 0
   - 0
-  level: 22
-  weight: 6
-  cost: 220
   affects:
-  - where: O
-    location: 19
-    modifier: 2
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 3
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: 0
   extra_descs:
   - keywords: horn
-    description: |
-      These strange horns are the work of gods, shaped to fit on hands.
-      They look powerful indeed.
+    description: "These strange horns are the work of gods, shaped to fit on hands.\n\rThey
+      look powerful indeed.\n\r"
 - vnum: 9318
   name: vessel aquarius
   short_desc: the Ancient Vessel of Aquarius
   description: A vessel of the Zodiac lies here.
   material: none
   item_type: 4
-  extra_flags: AGK
-  wear_flags: AO
+  extra_flags: 1089
+  wear_flags: 16385
+  level: 23
+  weight: 12
+  cost: 230
   values:
   - 10
   - 10
   - 10
-  - 80
+  - 20
   - 0
-  level: 23
-  weight: 12
-  cost: 230
   affects: []
   extra_descs:
   - keywords: vessel
-    description: |
-      This vessel has been carried by the Water Bearer ever since she came to the
-      Zodiac.
+    description: "This vessel has been carried by the Water Bearer ever since she
+      came to the\n\rZodiac.\n\r"
 - vnum: 9319
   name: tail pisces
   short_desc: the Titanic Tail of Pisces
   description: A fish tail of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: AGK
-  wear_flags: AF
+  extra_flags: 1089
+  wear_flags: 33
+  level: 23
+  weight: 10
+  cost: 230
   values:
   - 7
   - 7
   - 7
   - 0
   - 0
-  level: 23
-  weight: 10
-  cost: 230
   affects:
-  - where: O
-    location: 2
-    modifier: -2
-    bitvector: '0'
   - where: O
     location: 17
     modifier: -2
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 2
+    modifier: -2
+    bitvector: 0
   extra_descs:
   - keywords: tail
-    description: |
-      This tail can actually be worn by mortals somehow as leggings ... another
-      work of the gods.
+    description: "This tail can actually be worn by mortals somehow as leggings ...
+      another\n\rwork of the gods.\n\r"
 - vnum: 9320
   name: ring dignity
   short_desc: the Ring of Dignity
   description: A ring of specialty lies here.
   material: none
   item_type: 9
-  extra_flags: ABFGK
-  wear_flags: AB
+  extra_flags: 1123
+  wear_flags: 3
+  level: 26
+  weight: 3
+  cost: 260
   values:
   - 8
   - 8
   - 8
   - 0
   - 0
-  level: 26
-  weight: 3
-  cost: 260
   affects:
-  - where: O
-    location: 3
-    modifier: 2
-    bitvector: '0'
   - where: O
     location: 12
     modifier: 25
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 3
+    modifier: 2
+    bitvector: 0
   extra_descs:
   - keywords: ring
-    description: |
-      This ring belongs to Cassiopeia, queen of the Universe.
-      Mortals, do not touch!
+    description: "This ring belongs to Cassiopeia, queen of the Universe.\n\rMortals,
+      do not touch!\n\r"
 - vnum: 9321
   name: sceptre might
   short_desc: the Sceptre of Might
   description: A sceptre of interest lies here.
   material: none
   item_type: 1
-  extra_flags: ABFGK
-  wear_flags: ACDEGHIJKLMN
+  extra_flags: 1123
+  wear_flags: 16349
+  level: 26
+  weight: 4
+  cost: 260
   values:
   - 0
   - 0
   - 999
   - 0
   - 0
-  level: 26
-  weight: 4
-  cost: 260
   affects:
-  - where: O
-    location: 19
-    modifier: 2
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: 0
   extra_descs:
   - keywords: sceptre
-    description: |
-      You'd better give it back, or the king of the Universe will punish you.
+    description: "You'd better give it back, or the king of the Universe will punish
+      you.\n\r"
 - vnum: 9322
   name: ring universe
   short_desc: the ring of the universe
   description: Here lies a fortune ... a small ring of power.
   material: none
   item_type: 9
-  extra_flags: ABFGI
-  wear_flags: AB
+  extra_flags: 355
+  wear_flags: 3
+  level: 30
+  weight: 3
+  cost: 300
   values:
   - 9
   - 9
   - 9
   - 0
   - 0
-  level: 30
-  weight: 3
-  cost: 300
   affects:
-  - where: O
-    location: 13
-    modifier: 30
-    bitvector: '0'
   - where: O
     location: 12
     modifier: 10
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 30
+    bitvector: 0
   extra_descs:
   - keywords: ring
-    description: |
-      It conceals the power of the universe.
+    description: "It conceals the power of the universe.\n\r"
 - vnum: 9323
   name: great dipper
   short_desc: the Great Dipper of the Skies
   description: A dazzling white object lies on the ground.
   material: none
   item_type: 5
-  extra_flags: ABFGI
-  wear_flags: AN
+  extra_flags: 355
+  wear_flags: 8193
+  level: 30
+  weight: 20
+  cost: 300
   values:
   - 0
   - 5
   - 7
   - 6
   - 0
-  level: 30
-  weight: 20
-  cost: 300
   affects:
-  - where: O
-    location: 19
-    modifier: 2
-    bitvector: '0'
   - where: O
     location: 18
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 2
+    bitvector: 0
   extra_descs: []
 - vnum: 9324
   name: spring shoot
@@ -2115,17 +2055,17 @@ objects:
   description: A shoot grows here, covered with dew.
   material: none
   item_type: 18
-  extra_flags: AB
-  wear_flags: A
+  extra_flags: 3
+  wear_flags: 1
+  level: 22
+  weight: 2
+  cost: 220
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 22
-  weight: 2
-  cost: 220
   affects: []
   extra_descs: []
 - vnum: 9325
@@ -2134,17 +2074,17 @@ objects:
   description: A flower grows here, waiting to be picked up.
   material: none
   item_type: 18
-  extra_flags: AB
-  wear_flags: A
+  extra_flags: 3
+  wear_flags: 1
+  level: 22
+  weight: 2
+  cost: 220
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 22
-  weight: 2
-  cost: 220
   affects: []
   extra_descs: []
 - vnum: 9326
@@ -2153,17 +2093,17 @@ objects:
   description: A leaf lies here, as if just fallen from a tree.
   material: none
   item_type: 18
-  extra_flags: AB
-  wear_flags: A
+  extra_flags: 3
+  wear_flags: 1
+  level: 22
+  weight: 2
+  cost: 220
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 22
-  weight: 2
-  cost: 220
   affects: []
   extra_descs: []
 - vnum: 9327
@@ -2172,17 +2112,17 @@ objects:
   description: A branch lies here, still covered with snow.
   material: none
   item_type: 18
-  extra_flags: AB
-  wear_flags: A
+  extra_flags: 3
+  wear_flags: 1
+  level: 22
+  weight: 2
+  cost: 220
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 22
-  weight: 2
-  cost: 220
   affects: []
   extra_descs: []
 - vnum: 9328
@@ -2191,1512 +2131,1440 @@ objects:
   description: Some chains lie on the floor.
   material: none
   item_type: 13
-  extra_flags: AF
-  wear_flags: A
+  extra_flags: 33
+  wear_flags: 1
+  level: 18
+  weight: 50
+  cost: 180
   values:
   - 0
   - 0
   - 0
   - 0
   - 0
-  level: 18
-  weight: 50
-  cost: 180
   affects: []
   extra_descs:
   - keywords: chains
-    description: |
-      They certainly look important!
+    description: "They certainly look important!\n\r"
 rooms:
 - vnum: 9301
   name: Inside a Tavern
-  description: |
-    You are inside a dimly-lit room.  The atmosphere makes you feel uncomfortable.
-    In front of you stands a mysterious gypsy.  She whispers 'Your fate and
-    destiny lie beyond this world.'  You are still wondering what she means when
-    you suddenly notice the crystal ball ... it glows fiercely and displays the
-    Universe!
-  room_flags: D
+  description: "You are inside a dimly-lit room.  The atmosphere makes you feel uncomfortable.\n\rIn
+    front of you stands a mysterious gypsy.  She whispers 'Your fate and\n\rdestiny
+    lie beyond this world.'  You are still wondering what she means when\n\ryou suddenly
+    notice the crystal ball ... it glows fiercely and displays the\n\rUniverse!\n\r"
+  room_flags: 8
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: |
-      The shadows cloud your vision.
-    keywords: ''
-    exit_flags: '0'
+    desc: "The shadows cloud your vision.\n\r"
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 1306
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9302
   extra_descs: []
 - vnum: 9302
   name: Inside the Crystal Ball
-  description: |
-    You have touched the crystal ball and find that you have gone inside it:
-    a world of stars and wonders!  As you look back you figure out there is no
-    choice but to go forward.
-  room_flags: '0'
+  description: "You have touched the crystal ball and find that you have gone inside
+    it:\n\ra world of stars and wonders!  As you look back you figure out there is
+    no\n\rchoice but to go forward.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9303
   extra_descs: []
 - vnum: 9303
   name: Inside the Galaxy
-  description: |
-    You are now inside the galaxy, around you you see stars and nebulae smiling
-    at your presence, and comets and meteors wandering around you.  You realize
-    that this world may not be the true galaxy after all, but just another
-    fantasy zone.  Exits lie virtually in all directions.
-  room_flags: '0'
+  description: "You are now inside the galaxy, around you you see stars and nebulae
+    smiling\n\rat your presence, and comets and meteors wandering around you.  You
+    realize\n\rthat this world may not be the true galaxy after all, but just another\n\rfantasy
+    zone.  Exits lie virtually in all directions.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9304
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9308
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9302
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9321
   extra_descs: []
 - vnum: 9304
   name: On an InterGalactic Walkway
-  description: |
-    You are on a well-paved path which seems that it was made deliberately for
-    visitors like you.  The walkway continues north and a small exit lies west.
-  room_flags: '0'
+  description: "You are on a well-paved path which seems that it was made deliberately
+    for\n\rvisitors like you.  The walkway continues north and a small exit lies west.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9305
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9303
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9322
   extra_descs: []
 - vnum: 9305
   name: End of the InterGalactic Walkway
-  description: |
-    You notice the walkway has come to an abrupt end and you wonder why. You see
-    that there is still a small path which leads north and one to the west.
-    To the east lies a bridge.
-  room_flags: '0'
+  description: "You notice the walkway has come to an abrupt end and you wonder why.
+    You see\n\rthat there is still a small path which leads north and one to the west.\n\rTo
+    the east lies a bridge.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9306
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9309
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9304
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9323
   extra_descs: []
 - vnum: 9306
   name: At the Undeveloped Part of the Galaxy
-  description: |
-    This place looks deserted, covered with space debris.  Not a sign of life
-    is around.
-  room_flags: '0'
+  description: "This place looks deserted, covered with space debris.  Not a sign
+    of life\n\ris around.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9305
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9324
   extra_descs: []
 - vnum: 9308
   name: On the Bridge of Stars
-  description: |
-    This bridge has been made by the stars to honour their ancestors.  The
-    bridge itself shines brightly and makes you feel that you are walking on
-    a path of light.  An entrance to an ancient building lies north and to
-    the east lies the Milky Way.
-  room_flags: '0'
+  description: "This bridge has been made by the stars to honour their ancestors.
+    \ The\n\rbridge itself shines brightly and makes you feel that you are walking
+    on\n\ra path of light.  An entrance to an ancient building lies north and to\n\rthe
+    east lies the Milky Way.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9331
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9312
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9303
   extra_descs: []
 - vnum: 9309
   name: On the Bridge of Nebulae
-  description: |
-    This bridge, like the other, was made as a memorial.  The nebulae had to
-    make one just to show that they are as capable as the stars.  North lies
-    a throne room.
-  room_flags: A
+  description: "This bridge, like the other, was made as a memorial.  The nebulae
+    had to\n\rmake one just to show that they are as capable as the stars.  North
+    lies\n\ra throne room.\n\r"
+  room_flags: 1
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9310
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9314
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9305
   extra_descs: []
 - vnum: 9310
   name: The Throne Room of the Nebula King
-  description: |
-    You can only faintly make out that it is a throne room as it is too
-    dark in here.  In the middle is an empty throne.  You wonder where
-    the King has gone, maybe he is hiding from you?
-  room_flags: AD
+  description: "You can only faintly make out that it is a throne room as it is too\n\rdark
+    in here.  In the middle is an empty throne.  You wonder where\n\rthe King has
+    gone, maybe he is hiding from you?\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9309
   extra_descs: []
 - vnum: 9312
   name: At the Start of the Milky Way
-  description: |
-    It is here that the famous old Milky Way starts flowing.  You are surrounded
-    by streams of mist the moment you tread on it.  You can't see well in
-    here ... luckily you haven't fallen yet!
-  room_flags: '0'
+  description: "It is here that the famous old Milky Way starts flowing.  You are
+    surrounded\n\rby streams of mist the moment you tread on it.  You can't see well
+    in\n\rhere ... luckily you haven't fallen yet!\n\r"
+  room_flags: 0
   sector: 4
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9313
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9308
   extra_descs: []
 - vnum: 9313
   name: Along the Milky Way
-  description: |
-    You are still travelling inside this path of mist.  You notice a small
-    opening to the east.
-  room_flags: '0'
+  description: "You are still travelling inside this path of mist.  You notice a small\n\ropening
+    to the east.\n\r"
+  room_flags: 0
   sector: 4
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9314
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9317
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9312
   extra_descs: []
 - vnum: 9314
   name: At the End of the Milky Way
-  description: |
-    Just as you started enjoying this journey inside the mist, you have come to
-    the end of it.  West leads to a bridge and east leads to somewhere else.
-  room_flags: '0'
+  description: "Just as you started enjoying this journey inside the mist, you have
+    come to\n\rthe end of it.  West leads to a bridge and east leads to somewhere
+    else.\n\r"
+  room_flags: 0
   sector: 4
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9318
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9313
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9309
   extra_descs: []
 - vnum: 9317
   name: A Small Clearing
-  description: |
-    You are inside a small clearing.  You can see that there are signs of a
-    living creature nearby.
-  room_flags: '0'
+  description: "You are inside a small clearing.  You can see that there are signs
+    of a\n\rliving creature nearby.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9318
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9313
   extra_descs: []
 - vnum: 9318
   name: An Edge of the Galaxy
-  description: |
-    You are on the very edge of the galaxy.  Nothing is here except that there
-    is a path which leads down.
-  room_flags: '0'
+  description: "You are on the very edge of the galaxy.  Nothing is here except that
+    there\n\ris a path which leads down.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9317
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9314
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9319
   extra_descs: []
 - vnum: 9319
   name: Very Near to a Gigantic Star
-  description: |
-    You are very near to a gigantic red star.  While you are still fascinated
-    by its beauty, the star keeps on growing ... suddenly you realize that you'd
-    better leave.
-  room_flags: C
+  description: "You are very near to a gigantic red star.  While you are still fascinated\n\rby
+    its beauty, the star keeps on growing ... suddenly you realize that you'd\n\rbetter
+    leave.\n\r"
+  room_flags: 4
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9320
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9320
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9320
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9320
   extra_descs: []
 - vnum: 9320
   name: Too Bright to Tell
-  description: "Indeed it is too bright to tell.  Because what you are witnessing\
-    \ is the\nrare event of a Supernova, how a star explodes itself into galactic\
-    \ dust.\nYou may find yourself lucky to witness this rare event but even luckier,\n\
-    you have finally got out of this galaxy as your body turns into dust.\nThat really\
-    \ HURTS!  \n"
-  room_flags: BC
+  description: "Indeed it is too bright to tell.  Because what you are witnessing
+    is the\n\rrare event of a Supernova, how a star explodes itself into galactic
+    dust.\n\rYou may find yourself lucky to witness this rare event but even luckier,\n\ryou
+    have finally got out of this galaxy as your body turns into dust.\n\rThat really
+    HURTS!  \n\r"
+  room_flags: 6
   sector: 0
-  owner: ''
+  owner:
   exits: []
   extra_descs: []
 - vnum: 9321
   name: The Star Cluster
-  description: |
-    You are inside the home of the stars.  All you can see around you are stars
-    and nothing else.  You eyes become pretty hurt as you look at them.
-  room_flags: D
+  description: "You are inside the home of the stars.  All you can see around you
+    are stars\n\rand nothing else.  You eyes become pretty hurt as you look at them.\n\r"
+  room_flags: 8
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9322
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9303
   extra_descs: []
 - vnum: 9322
   name: Another Edge of the Galaxy
-  description: |
-    This is another uninhabited place.  Exits lie north, east and south.
-  room_flags: '0'
+  description: "This is another uninhabited place.  Exits lie north, east and south.\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9323
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9304
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9321
   extra_descs: []
 - vnum: 9323
   name: Corner of the Galaxy
-  description: "You wonder why the galaxy is limited.  All you have done in Astronomy\n\
-    courses now prove worthless.  Well who told you to take one at the start?  \n"
-  room_flags: '0'
+  description: "You wonder why the galaxy is limited.  All you have done in Astronomy\n\rcourses
+    now prove worthless.  Well who told you to take one at the start?  \n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9324
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9305
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9322
   extra_descs: []
 - vnum: 9324
   name: Lost in Space
-  description: |
-    You are now lost in space.  Compasses don't work here, sorry.  What's more
-    you can sense darkness engulfing you.  You'd better get out quick.
-  room_flags: A
+  description: "You are now lost in space.  Compasses don't work here, sorry.  What's
+    more\n\ryou can sense darkness engulfing you.  You'd better get out quick.\n\r"
+  room_flags: 1
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9325
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9306
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9323
   extra_descs: []
 - vnum: 9325
   name: Black Hole
-  description: |
-    Well you have chosen the wrong path, sorry.  Nothing can escape from this
-    monster, not even light.
-    PANIC!  You can't escape!
-  room_flags: ABC
+  description: "Well you have chosen the wrong path, sorry.  Nothing can escape from
+    this\n\rmonster, not even light.\n\rPANIC!  You can't escape!\n\r"
+  room_flags: 7
   sector: 0
-  owner: ''
+  owner:
   exits: []
   extra_descs: []
 - vnum: 9326
   name: The Homes of the Pleiades
-  description: |
-    This is where the famous Seven Sisters live.  You'd better not disturb them.
-  room_flags: '0'
+  description: "This is where the famous Seven Sisters live.  You'd better not disturb
+    them.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9329
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9327
   extra_descs: []
 - vnum: 9327
   name: Western Side of the Temple
-  description: |
-    You are still wandering around this temple.  You notice exits lie in all
-    directions except west.
-  room_flags: '0'
+  description: "You are still wandering around this temple.  You notice exits lie
+    in all\n\rdirections except west.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9326
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9330
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9328
   extra_descs: []
 - vnum: 9328
   name: Orion's Hunting Lodge
-  description: |
-    This is dedicated to the Great Hunter of all time -- Orion.
-    Scattered on the floor is the famous hunting equipment used by him.
-  room_flags: '0'
+  description: "This is dedicated to the Great Hunter of all time -- Orion.\n\rScattered
+    on the floor is the famous hunting equipment used by him.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9327
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9331
   extra_descs: []
 - vnum: 9329
   name: Northern Side of the Temple
-  description: |
-    You are still wandering around this temple.  You notice exits lie in all
-    directions except north.
-  room_flags: '0'
+  description: "You are still wandering around this temple.  You notice exits lie
+    in all\n\rdirections except north.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9332
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9330
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9326
   extra_descs: []
 - vnum: 9330
   name: The Offering Chamber
-  description: |
-    This is the sacred offering chamber in which sacrifices are made.  You see a
-    young girl here, chained to the wall, as if she is waiting for execution.
-    You look up and realize the chains are sent down directly from above.
-    Below you recognize the temple of Thalos.
-  room_flags: '0'
+  description: "This is the sacred offering chamber in which sacrifices are made.
+    \ You see a\n\ryoung girl here, chained to the wall, as if she is waiting for
+    execution.\n\rYou look up and realize the chains are sent down directly from above.\n\rBelow
+    you recognize the temple of Thalos.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9329
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9333
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9331
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9327
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9339
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 5250
   extra_descs: []
 - vnum: 9331
   name: The Entrance of the Ancient Temple
-  description: |
-    You have entered into this old temple, which was built originally for the gods
-    in Mount Olympia, but it is now deserted as someone took over this part of the
-    Universe.
-  room_flags: '0'
+  description: "You have entered into this old temple, which was built originally
+    for the gods\n\rin Mount Olympia, but it is now deserted as someone took over
+    this part of the\n\rUniverse.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9330
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9334
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9308
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9328
   extra_descs: []
 - vnum: 9332
   name: Hercules' Mighty Throne
-  description: "You stand before the throne of a long-forgotten hero.  It is full\
-    \ of bounty\nthat he got from the Ten Labours. \n"
-  room_flags: '0'
+  description: "You stand before the throne of a long-forgotten hero.  It is full
+    of bounty\n\rthat he got from the Ten Labours. \n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9333
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9329
   extra_descs: []
 - vnum: 9333
   name: Eastern Side of the Temple
-  description: |
-    You are still wandering around this temple.  You notice exits lie in all
-    directions except east.
-  room_flags: '0'
+  description: "You are still wandering around this temple.  You notice exits lie
+    in all\n\rdirections except east.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9332
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9334
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9330
   extra_descs: []
 - vnum: 9334
   name: Perseus' Chamber
-  description: |
-    It is the chamber of the prince, Perseus.  However, he seems not to be here.
-    Maybe he has gone to get Pegasus to save Andromeda?
-  room_flags: '0'
+  description: "It is the chamber of the prince, Perseus.  However, he seems not to
+    be here.\n\rMaybe he has gone to get Pegasus to save Andromeda?\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9333
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9331
   extra_descs: []
 - vnum: 9339
   name: On the Mystic Chains
-  description: |
-    You are dangling on the chains.  You notice exits lie in all directions.
-    Up above you see the chains continue upwards.  But a forcefield prevents
-    you from going further upwards.
-  room_flags: '0'
+  description: "You are dangling on the chains.  You notice exits lie in all directions.\n\rUp
+    above you see the chains continue upwards.  But a forcefield prevents\n\ryou from
+    going further upwards.\n\r"
+  room_flags: 0
   sector: 5
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9348
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9351
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9342
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9345
   - dir: 4
-    desc: |
-      You see the forcefield of Spring.
+    desc: "You see the forcefield of Spring.\n\r"
     keywords: forcefield
-    exit_flags: AC
+    exit_flags: 15
     key: 9324
     to_vnum: 9354
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9330
   extra_descs: []
 - vnum: 9342
   name: On a Hill
-  description: |
-    Suddenly you find yourself on a hillside.  As you look around, you notice
-    that Spring has descended upon you.
-  room_flags: '0'
+  description: "Suddenly you find yourself on a hillside.  As you look around, you
+    notice\n\rthat Spring has descended upon you.\n\r"
+  room_flags: 0
   sector: 4
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9339
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9353
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9343
   extra_descs: []
 - vnum: 9343
   name: Inside a Spanish Bull-Ring
-  description: |
-    You are inside what used to be a ground for bull fighting.  But you notice
-    there are no Matadors around.  Maybe they are all dead?
-  room_flags: '0'
+  description: "You are inside what used to be a ground for bull fighting.  But you
+    notice\n\rthere are no Matadors around.  Maybe they are all dead?\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9342
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9344
   extra_descs: []
 - vnum: 9344
   name: Inside a study
-  description: |
-    This is a strange study. Besides the desks and chairs you also see a large
-    mirror in the middle.  So, you wonder, is this how you make a Gemini into
-    two Gemini?
-  room_flags: '0'
+  description: "This is a strange study. Besides the desks and chairs you also see
+    a large\n\rmirror in the middle.  So, you wonder, is this how you make a Gemini
+    into\n\rtwo Gemini?\n\r"
+  room_flags: 0
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9343
   extra_descs: []
 - vnum: 9345
   name: Along the seashore
-  description: "You start to feel the heat of Summer.  Amongst the rocky beach you\
-    \ notice\nhidden forms which could be camouflaged crabs. \n"
-  room_flags: '0'
+  description: "You start to feel the heat of Summer.  Amongst the rocky beach you
+    notice\n\rhidden forms which could be camouflaged crabs. \n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9339
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9346
   extra_descs: []
 - vnum: 9346
   name: Within the Deep Jungle
-  description: |
-    Nearby you can hear the roar of an animal.  Peering through the dense
-    overgrowth you think you glimpse a pair of menacing eyes.
-  room_flags: '0'
+  description: "Nearby you can hear the roar of an animal.  Peering through the dense\n\rovergrowth
+    you think you glimpse a pair of menacing eyes.\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9345
   extra_descs: []
 - vnum: 9347
   name: Inside a Luxurious Bedroom
-  description: |
-    A peaceful feeling overtakes you.  You see a magnificent four-poster bed.
-    It's a double bed and there is only room for one more!  Well, what now ... ?
-  room_flags: D
+  description: "A peaceful feeling overtakes you.  You see a magnificent four-poster
+    bed.\n\rIt's a double bed and there is only room for one more!  Well, what now
+    ... ?\n\r"
+  room_flags: 8
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9348
   extra_descs: []
 - vnum: 9348
   name: The Supreme Court
-  description: |
-    You are standing inside the dock of a court.  You feel an overwhelming
-    sense of guilt and you want to protest your innocence!  You fear retribution
-    and feel yourself exposed, just like the trees in Autumn.
-  room_flags: D
+  description: "You are standing inside the dock of a court.  You feel an overwhelming\n\rsense
+    of guilt and you want to protest your innocence!  You fear retribution\n\rand
+    feel yourself exposed, just like the trees in Autumn.\n\r"
+  room_flags: 8
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9339
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9349
   extra_descs: []
 - vnum: 9349
   name: In the Dry Desert
-  description: |
-    You are confused by the shifting sands around you.  Through the shimmering
-    heat you see the hazy outline of a giant scorpion ... is this a mirage?
-  room_flags: '0'
+  description: "You are confused by the shifting sands around you.  Through the shimmering\n\rheat
+    you see the hazy outline of a giant scorpion ... is this a mirage?\n\r"
+  room_flags: 0
   sector: 2
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9348
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9350
   extra_descs: []
 - vnum: 9350
   name: In the Woods
-  description: |
-    You find yourself in the center of a Centaurion hunting party.  You'd better
-    hide yourself before you become the 'center attraction'!
-  room_flags: '0'
+  description: "You find yourself in the center of a Centaurion hunting party.  You'd
+    better\n\rhide yourself before you become the 'center attraction'!\n\r"
+  room_flags: 0
   sector: 3
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9349
   extra_descs: []
 - vnum: 9351
   name: On a Mountain Peak
-  description: |
-    You are on the highest peak of the Universe.  You look around and notice
-    clouds below you.  One of the clouds resembles a goat-like form.
-  room_flags: '0'
+  description: "You are on the highest peak of the Universe.  You look around and
+    notice\n\rclouds below you.  One of the clouds resembles a goat-like form.\n\r"
+  room_flags: 0
   sector: 5
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9352
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9339
   extra_descs: []
 - vnum: 9352
   name: Inside a Waterfall
-  description: |
-    The noise is deafening.  You are about to take a drink when you realize
-    that the water is being poured out of a vessel of mind-boggling proportions!
-  room_flags: '0'
+  description: "The noise is deafening.  You are about to take a drink when you realize\n\rthat
+    the water is being poured out of a vessel of mind-boggling proportions!\n\r"
+  room_flags: 0
   sector: 5
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9351
   extra_descs: []
 - vnum: 9353
   name: Inside a Gigantic Clam
-  description: |
-    You feel uneasy here as if some evil magic is being cast on you.
-    You suspect something fishy is going on in here.
-  room_flags: '0'
+  description: "You feel uneasy here as if some evil magic is being cast on you.\n\rYou
+    suspect something fishy is going on in here.\n\r"
+  room_flags: 0
   sector: 5
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9342
   extra_descs: []
 - vnum: 9354
   name: End of the Mystic Chains
-  description: "You have reached the end of the mystic chains.  Looking up, you notice\
-    \ a\nsmall landing on which you can climb.  However, there seems to be another\n\
-    forcefield blocking your way.  \n"
-  room_flags: '0'
+  description: "You have reached the end of the mystic chains.  Looking up, you notice
+    a\n\rsmall landing on which you can climb.  However, there seems to be another\n\rforcefield
+    blocking your way.  \n\r"
+  room_flags: 0
   sector: 5
-  owner: ''
+  owner:
   exits:
   - dir: 4
-    desc: |
-      You see the forcefield of Summer.
+    desc: "You see the forcefield of Summer.\n\r"
     keywords: forcefield
-    exit_flags: AC
+    exit_flags: 15
     key: 9325
     to_vnum: 9355
   - dir: 5
-    desc: |
-      You see the forcefield of Spring.
-    keywords: ''
-    exit_flags: AC
+    desc: "You see the forcefield of Spring.\n\r"
+    keywords:
+    exit_flags: 9
     key: 9324
     to_vnum: 9339
   extra_descs: []
 - vnum: 9355
   name: On the Draco
-  description: |
-    You realize you are standing on scaly ground.  As you wonder what the ground
-    is made of, you feel the ground move.
-  room_flags: A
+  description: "You realize you are standing on scaly ground.  As you wonder what
+    the ground\n\ris made of, you feel the ground move.\n\r"
+  room_flags: 1
   sector: 4
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9356
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: AC
+    desc:
+    keywords:
+    exit_flags: 9
     key: 9325
     to_vnum: 9354
   extra_descs: []
 - vnum: 9356
   name: Tail of the Draco
-  description: "At last you realize that you are on a giant snake-like dragon called\
-    \ the\nDraco, the guardian of the inner galaxy.  You realize that the Draco is\n\
-    actually flying now! \n"
-  room_flags: A
+  description: "At last you realize that you are on a giant snake-like dragon called
+    the\n\rDraco, the guardian of the inner galaxy.  You realize that the Draco is\n\ractually
+    flying now! \n\r"
+  room_flags: 1
   sector: 4
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9357
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9355
   extra_descs: []
 - vnum: 9357
   name: Path of the Draco
-  description: |
-    As you struggle along this scaly creature you realize that the only way
-    you can reach to the inner galaxy is by going all the way to the head.
-  room_flags: A
+  description: "As you struggle along this scaly creature you realize that the only
+    way\n\ryou can reach to the inner galaxy is by going all the way to the head.\n\r"
+  room_flags: 1
   sector: 4
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9358
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9356
   extra_descs: []
 - vnum: 9358
   name: Near the Legs of Draco
-  description: |
-    You are approaching the leg part of this creature.  You look around and see
-    that the surrounding is all dark except for some faint lights from the
-    distant stars.
-  room_flags: A
+  description: "You are approaching the leg part of this creature.  You look around
+    and see\n\rthat the surrounding is all dark except for some faint lights from
+    the\n\rdistant stars.\n\r"
+  room_flags: 1
   sector: 4
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9359
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9357
   extra_descs: []
 - vnum: 9359
   name: On the Back of Draco
-  description: |
-    At last you are half way through this long, weary journey. You can see
-    the wings are to the east but it seems that another forcefield is in the way.
-  room_flags: A
+  description: "At last you are half way through this long, weary journey. You can
+    see\n\rthe wings are to the east but it seems that another forcefield is in the
+    way.\n\r"
+  room_flags: 1
   sector: 4
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: |
-      You see the forcefield of Autumn.
+    desc: "You see the forcefield of Autumn.\n\r"
     keywords: forcefield
-    exit_flags: AC
+    exit_flags: 15
     key: 9326
     to_vnum: 9360
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9358
   extra_descs: []
 - vnum: 9360
   name: Between the Wings of Draco
-  description: |
-    You hear some giant flapping sounds nearby.  You desperately try to get hold
-    of something as the forceful gusts sweep you away.
-  room_flags: A
+  description: "You hear some giant flapping sounds nearby.  You desperately try to
+    get hold\n\rof something as the forceful gusts sweep you away.\n\r"
+  room_flags: 1
   sector: 4
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9361
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: AC
+    desc:
+    keywords:
+    exit_flags: 9
     key: 9326
     to_vnum: 9359
   extra_descs: []
 - vnum: 9361
   name: Near the Arms of Draco
-  description: |
-    From above you can faintly make out the gigantic arms which extend far
-    beyond into the darkness.
-  room_flags: A
+  description: "From above you can faintly make out the gigantic arms which extend
+    far\n\rbeyond into the darkness.\n\r"
+  room_flags: 1
   sector: 4
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9362
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9360
   extra_descs: []
 - vnum: 9362
   name: On the Neck of Draco
-  description: |
-    Your journey is now approaching the end.  However, this neck seems to be
-    endless.
-  room_flags: A
+  description: "Your journey is now approaching the end.  However, this neck seems
+    to be\n\rendless.\n\r"
+  room_flags: 1
   sector: 4
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9361
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9363
   extra_descs: []
 - vnum: 9363
   name: Approaching the Head of Draco
-  description: |
-    You have come to the end of Draco, but you can't find the head!
-    You see a forcefield to the south, some distance away, beyond reach.
-    If only the head were here ...
-  room_flags: A
+  description: "You have come to the end of Draco, but you can't find the head!\n\rYou
+    see a forcefield to the south, some distance away, beyond reach.\n\rIf only the
+    head were here ...\n\r"
+  room_flags: 1
   sector: 4
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9362
   - dir: 2
     desc: You see the forcefield of Winter.
     keywords: forcefield
-    exit_flags: AC
+    exit_flags: 15
     key: 9327
     to_vnum: 9364
   extra_descs: []
 - vnum: 9364
   name: At the Entrance of the Great Dipper
-  description: |
-    Now you are in the innermost part of the galaxy.  What you are walking on now
-    is the path of the Great Dipper or the Plough.  You notice that there are
-    seven rooms in this zone, representing the seven stars of the Dipper.
-  room_flags: '0'
+  description: "Now you are in the innermost part of the galaxy.  What you are walking
+    on now\n\ris the path of the Great Dipper or the Plough.  You notice that there
+    are\n\rseven rooms in this zone, representing the seven stars of the Dipper.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
     desc: You see the forcefield of Winter.
     keywords: forcefield
-    exit_flags: AC
+    exit_flags: 9
     key: 9327
     to_vnum: 9363
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9365
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9366
   extra_descs: []
 - vnum: 9365
   name: Cassiopeia's Throne
-  description: "This is the Throne room of the Queen of the Universe.  From here you\
-    \ can see\nevery star and constellation in the Universe. \n"
-  room_flags: '0'
+  description: "This is the Throne room of the Queen of the Universe.  From here you
+    can see\n\revery star and constellation in the Universe. \n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9364
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9367
   extra_descs: []
 - vnum: 9366
   name: Along the Path of the Dipper
-  description: |
-    You see stars around you but nothing of special interest.
-  room_flags: '0'
+  description: "You see stars around you but nothing of special interest.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9364
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9367
   extra_descs: []
 - vnum: 9367
   name: Cepheus' Throne
-  description: "This is the Throne room of the King of the Universe.  From here you\
-    \ can see\nevery star and constellation in the Universe. \n"
-  room_flags: '0'
+  description: "This is the Throne room of the King of the Universe.  From here you
+    can see\n\revery star and constellation in the Universe. \n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9366
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9365
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9368
   extra_descs: []
 - vnum: 9368
   name: Along the path of the Dipper
-  description: |
-    You see stars around you but nothing of special interest.
-  room_flags: '0'
+  description: "You see stars around you but nothing of special interest.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9367
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9369
   extra_descs: []
 - vnum: 9369
   name: Along the path of the Dipper
-  description: |
-    You see stars around you but nothing of special interest.
-  room_flags: '0'
+  description: "You see stars around you but nothing of special interest.\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9368
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9370
   extra_descs: []
 - vnum: 9370
   name: End of the Dipper
-  description: "You have finished the path of the Dipper.  Here, the most prominent\
-    \ feature\nis a set of claw-marks.  You also notice a room to the south; it looks\
-    \ as\nif Polaris could lie here. \n"
-  room_flags: '0'
+  description: "You have finished the path of the Dipper.  Here, the most prominent
+    feature\n\ris a set of claw-marks.  You also notice a room to the south; it looks
+    as\n\rif Polaris could lie here. \n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9369
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 9371
   extra_descs: []
 - vnum: 9371
   name: The Polar Star
-  description: |
-    You have entered the private chamber of Polaris.  This is a room of great
-    significance.  You can see a powerful telescope pointing down towards the
-    Universe (SNOOPING!).  It is from here that Polaris commands the Universe.
-    You feel you have come to end of your search in this galaxy ...
-  room_flags: '0'
+  description: "You have entered the private chamber of Polaris.  This is a room of
+    great\n\rsignificance.  You can see a powerful telescope pointing down towards
+    the\n\rUniverse (SNOOPING!).  It is from here that Polaris commands the Universe.\n\rYou
+    feel you have come to end of your search in this galaxy ...\n\r"
+  room_flags: 0
   sector: 1
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 9370
   extra_descs: []
 resets:
-- command: D
-  arg1: 9339
-  arg2: 4
-  arg3: 2
-- command: D
-  arg1: 9354
-  arg2: 4
-  arg3: 2
-- command: D
-  arg1: 9359
-  arg2: 1
-  arg3: 2
-- command: D
-  arg1: 9363
-  arg2: 2
-  arg3: 2
 - command: M
   arg1: 9302
   arg2: 1
@@ -4061,46 +3929,4 @@ resets:
   arg1: 9323
   arg2: 0
   arg3: 16
-specials:
-- vnum: 9301
-  spec_fun: spec_thief
-- vnum: 9313
-  spec_fun: spec_breath_fire
-- vnum: 9314
-  spec_fun: spec_breath_fire
-- vnum: 9315
-  spec_fun: spec_cast_cleric
-- vnum: 9316
-  spec_fun: spec_cast_cleric
-- vnum: 9317
-  spec_fun: spec_cast_cleric
-- vnum: 9318
-  spec_fun: spec_cast_cleric
-- vnum: 9319
-  spec_fun: spec_cast_cleric
-- vnum: 9320
-  spec_fun: spec_cast_cleric
-- vnum: 9321
-  spec_fun: spec_cast_cleric
-- vnum: 9322
-  spec_fun: spec_cast_cleric
-- vnum: 9323
-  spec_fun: spec_cast_cleric
-- vnum: 9324
-  spec_fun: spec_cast_cleric
-- vnum: 9325
-  spec_fun: spec_cast_cleric
-- vnum: 9326
-  spec_fun: spec_cast_cleric
-- vnum: 9327
-  spec_fun: spec_cast_cleric
-- vnum: 9328
-  spec_fun: spec_cast_cleric
-- vnum: 9329
-  spec_fun: spec_cast_cleric
-- vnum: 9330
-  spec_fun: spec_cast_mage
-- vnum: 9331
-  spec_fun: spec_cast_mage
-- vnum: 9332
-  spec_fun: spec_breath_acid
+shops: []

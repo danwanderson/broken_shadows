@@ -729,13 +729,13 @@ none~
 C BEF CFG BE ACDEHIJKLMNOPQRSTUVWXYZabcdef
 93 1 0
 A
-1 10
-A
-2 10
+5 10
 A
 4 10
 A
-5 10
+2 10
+A
+1 10
 #20102
 Key castle skull engraved~
 a Key engraved with a Skull on it~
@@ -801,11 +801,11 @@ none~
 BDE BDE BDE CE 0
 80 35 40000
 A
-17 -20
+19 10
 A
 18 10
 A
-19 10
+17 -20
 #20144
 shepard cloak robe~
 A torn shepard's cloak~
@@ -815,11 +815,11 @@ none~
 ABCD ADE ABCD CE 0
 60 2 1000
 A
-1 2
+19 -15
 A
 18 30
 A
-19 -15
+1 2
 #20145
 shepard staff ~
 A short staff~
@@ -829,9 +829,9 @@ none~
 AB BC CD 0 0
 60 10 10
 A
-1 2
-A
 18 20
+A
+1 2
 #20146
 Ancient shield ages age~
 Ancient's Shield of the Ages~
@@ -841,9 +841,9 @@ none~
 CE CE ACDE CE 0
 75 175 10000
 A
-12 65
-A
 13 50
+A
+12 65
 #20147
 ancient whip egos~
 Ancient's Whip of Egos~
@@ -853,9 +853,9 @@ none~
 ABC AD CD BE DE
 72 20 5000
 A
-19 -5
-A
 18 20
+A
+19 -5
 #20148
 small burning candle~
 A small candle~
@@ -865,11 +865,11 @@ none~
 0 0 10000 0 0
 20 10 10
 A
-18 1
+4 2
 A
 17 -5
 A
-4 2
+18 1
 #20152
 Potion of Equality~
 a Potion of Equality~
@@ -895,11 +895,11 @@ none~
 0 0 100000 0 0
 70 15 50000
 A
-17 -20
+19 14
 A
 1 2
 A
-19 14
+17 -20
 #20155
 Shroud Ghost~
 Shroud of a Ghost~
@@ -909,11 +909,11 @@ none~
 CE ABCD CE CE 0
 75 35 800000
 A
-18 3
+19 10
 A
 4 1
 A
-19 10
+18 3
 #20156
 illusionist illusion belt of magic~
 The Master Illusionist's Belt of Magic~
@@ -923,13 +923,13 @@ none~
 BCDE CE BCDE ABCD 0
 78 1 10000
 A
-12 250
-A
-4 3
+18 -5
 A
 19 -5
 A
-18 -5
+4 3
+A
+12 250
 #20157
 black sword~
 a Black Long Sword~
@@ -939,9 +939,9 @@ none~
 A D CD AB C
 65 10 100000
 A
-19 20
-A
 18 -5
+A
+19 20
 #20158
 Dragon plate breastplate breast armor silver~
 a Silver Breastplate with a Golden Dragon Insignia~
@@ -961,9 +961,9 @@ none~
 A BD BD AB DE
 70 10 10000
 A
-18 12
-A
 19 10
+A
+18 12
 #20160
 Axe Golden insignia great~
 a Great Axe with a Golden Insignia~
@@ -973,9 +973,9 @@ none~
 AC ABC ABCD ADE D
 70 20 150000
 A
-19 20
-A
 5 3
+A
+19 20
 #20164
 battle plate mail royal~
 Royal Battle Plate Mail~
@@ -985,13 +985,13 @@ none~
 DF DF DF ADE 0
 85 50 1000
 A
-19 -5
-A
-18 2
+13 100
 A
 12 100
 A
-13 100
+18 2
+A
+19 -5
 #20166
 royal pole arm polearm~
 A Royal Polearm~
@@ -1001,9 +1001,9 @@ none~
 D D CE AB D
 85 25 15000
 A
-19 12
-A
 18 12
+A
+19 12
 #20167
 king mace sengir~
 The King's Mace~
@@ -1013,9 +1013,9 @@ none~
 C AD BE ABC ACH
 86 40 25000
 A
-19 25
-A
 18 20
+A
+19 25
 #20176
 Demon's teeth demon tooth~
 Demon's Teeth~
@@ -1049,9 +1049,9 @@ none~
 EGHIJK EGHIJK EGHIJK EGHIJK 0
 95 0 0
 A
-18 300
-A
 19 300
+A
+18 300
 #20203
 beautiful table dark wood~
 A Beautiful Table~
@@ -1085,9 +1085,9 @@ none~
 BCDE BCDE BCDE BCDE 0
 90 25 20000
 A
-12 100
-A
 13 100
+A
+12 100
 #20207
 white blade cross golden~
 a White Blade with a Golden Cross~
@@ -1105,9 +1105,9 @@ none~
 0 0 0 0 0
 90 1 10000
 A
-5 8
-A
 13 200
+A
+5 8
 #20217
 creature creatures tail~
 The Creatures Tail~
@@ -1117,11 +1117,11 @@ none~
 CE AC AE D 0
 73 8 1000
 A
-5 2
+17 -5
 A
 18 -2
 A
-17 -5
+5 2
 #20224
 juggler juggler's ball balls~
 A Juggler's ball~
@@ -1149,11 +1149,11 @@ none~
 D D ACD AB E
 70 2 10
 A
-4 -2
+18 20
 A
 19 -5
 A
-18 20
+4 -2
 #20245
 burning carcass bat~
 The Burning Carcass of a Bat~
@@ -1163,9 +1163,9 @@ none~
 0 0 100000 0 0
 80 5 1000
 A
-17 -20
-A
 19 10
+A
+17 -20
 #20246
 lord blood potion~
 The Lord's Blood~
@@ -1183,9 +1183,9 @@ none~
 BD BD BD BD 0
 85 1 1000
 A
-13 100
-A
 19 10
+A
+13 100
 #20277
 blade jameson hang~
 Jameson's Blade~
@@ -1211,9 +1211,9 @@ none~
 CE CE CE CE 0
 90 0 2000
 A
-2 3
-A
 1 3
+A
+2 3
 #20281
 dress queen~
 The Queen's Dress~
@@ -1223,9 +1223,9 @@ none~
 DF DF DF DF 0
 90 1 100
 A
-13 100
-A
 12 100
+A
+13 100
 #20282
 Queen's staff queen~
 The Queen's Staff~
@@ -2064,16 +2064,31 @@ guards sleep.  To the west is the castle gate, which stands open.
 ~
 0 4 0
 E
-documents~
-These are the official papers of the castle.  These were the names and
-ranks of the fallen soldiers.  There is little left on them that you can
-read for they have been stained with a thick coating of blood.   
+table~
+The table is covered in books and documents you should look at.  
 ~
 E
-document~
-These are the official papers of the castle.  These were the names and
-ranks of the fallen soldiers.  There is little left on them that you can
-read for they have been stained with a thick coating of blood.   
+book~
+This is a record of all the wars that took place in this castle up
+until the castle was overtaken a couple of weeks into the war.  The books
+are in great condition and it seems that whoever took the castle either
+wanted these records to be seen or they didn't know what they were. 
+Nevertheless these books are very interesting even if not valuable.  You are
+quite sure that they are safer here than on your person so you leave them
+here.  
+~
+E
+books~
+This is a record of all the wars that took place in this castle up
+until the castle was overtaken a couple of weeks into the war.  The books
+are in great condition and it seems that whoever took the castle either
+wanted these records to be seen or they didn't know what they were. 
+Nevertheless these books are very interesting even if not valuable.  You are
+quite sure that they are safer here than on your person so you leave them
+here.  
+~
+E
+record~
 ~
 E
 record~
@@ -2089,31 +2104,16 @@ Log of the Month of Futility
 Comments: The raids are coming more and more frequently. I am not afraid to die but I fear for my life. I hope the best for the castle and for Lord Sengir. God bless all that protect it.
 ~
 E
-record~
+document~
+These are the official papers of the castle.  These were the names and
+ranks of the fallen soldiers.  There is little left on them that you can
+read for they have been stained with a thick coating of blood.   
 ~
 E
-books~
-This is a record of all the wars that took place in this castle up
-until the castle was overtaken a couple of weeks into the war.  The books
-are in great condition and it seems that whoever took the castle either
-wanted these records to be seen or they didn't know what they were. 
-Nevertheless these books are very interesting even if not valuable.  You are
-quite sure that they are safer here than on your person so you leave them
-here.  
-~
-E
-book~
-This is a record of all the wars that took place in this castle up
-until the castle was overtaken a couple of weeks into the war.  The books
-are in great condition and it seems that whoever took the castle either
-wanted these records to be seen or they didn't know what they were. 
-Nevertheless these books are very interesting even if not valuable.  You are
-quite sure that they are safer here than on your person so you leave them
-here.  
-~
-E
-table~
-The table is covered in books and documents you should look at.  
+documents~
+These are the official papers of the castle.  These were the names and
+ranks of the fallen soldiers.  There is little left on them that you can
+read for they have been stained with a thick coating of blood.   
 ~
 D1
 ~
@@ -2469,18 +2469,18 @@ the castle.  The houses to the east and west look appealing also.
 ~
 0 0 0
 E
-sign~
-These houses belong to the rich of the town.  You could gain access to a
-tour...  If you had a key.  You notice a small insignia on the sign that
-resembles a key with a skull engraved on it.  You wonder what could be
-hidden behind such thick doors.  
-~
-E
 signs~
 These houses belong to the rich of the town.  You could gain access to a
 tour if you had a key...  You notice a small insignia on the sign that
 resembles a key with a skull engraved on it.  You wonder what could be
 hidden behind such thick doors...  
+~
+E
+sign~
+These houses belong to the rich of the town.  You could gain access to a
+tour...  If you had a key.  You notice a small insignia on the sign that
+resembles a key with a skull engraved on it.  You wonder what could be
+hidden behind such thick doors.  
 ~
 D0
 ~
@@ -2983,17 +2983,17 @@ ground.
 ~
 0 1024 0
 E
+grass~
+You don't find anything of interest but maybe this is a safe place to
+rest.  
+~
+E
+grass~
+You don't find anything of interest but maybe this is a safe place to
+rest.  
+~
+E
 green~
-You don't find anything of interest but maybe this is a safe place to
-rest.  
-~
-E
-grass~
-You don't find anything of interest but maybe this is a safe place to
-rest.  
-~
-E
-grass~
 You don't find anything of interest but maybe this is a safe place to
 rest.  
 ~
@@ -3075,10 +3075,10 @@ street runs North and South to your east.
 ~
 0 0 0
 E
-cuts~
-These cuts were made by the talons of a large flying creature landing in
-the soft ground.  You are sure that this creature was carrying something to
-eat...  And this was NOT his first hunting trip.  
+rubble~
+Amongst the rubble you see a large hole which goes into what seems to
+have been the foundation.  You are quite sure that something large lives
+down there.  
 ~
 E
 cut~
@@ -3087,10 +3087,10 @@ the soft ground.  You are sure that this creature was carrying something to
 eat...  And this was NOT his first hunting trip.  
 ~
 E
-rubble~
-Amongst the rubble you see a large hole which goes into what seems to
-have been the foundation.  You are quite sure that something large lives
-down there.  
+cuts~
+These cuts were made by the talons of a large flying creature landing in
+the soft ground.  You are sure that this creature was carrying something to
+eat...  And this was NOT his first hunting trip.  
 ~
 D0
 ~
@@ -3196,7 +3196,7 @@ stands open to the north.
 ~
 0 0 0
 E
-street~
+innes~
 This was once a beautiful inn.  There were originally three levels with
 many immaculate rooms.  Now there are two levels and you are not sure if you
 would stay here for any amount of money.  
@@ -3208,7 +3208,7 @@ many immaculate rooms.  Now there are two levels and you are not sure if you
 would stay here for any amount of money.  
 ~
 E
-innes~
+street~
 This was once a beautiful inn.  There were originally three levels with
 many immaculate rooms.  Now there are two levels and you are not sure if you
 would stay here for any amount of money.  
@@ -3237,18 +3237,18 @@ here and you think you can almost see a break in the clouds too.
 ~
 0 0 0
 E
-grass~
-This is a tall grass that grows here very well.  The direct sunlight here
-on the east allows it to grow at remarkable rates.  The roots are a dull
-red color.  
+weapon~
+There are bunches of broken weapons here, none of value though.
 ~
 E
 weapons~
 There are bunches of broken weapons here, none of value though.
 ~
 E
-weapon~
-There are bunches of broken weapons here, none of value though.
+grass~
+This is a tall grass that grows here very well.  The direct sunlight here
+on the east allows it to grow at remarkable rates.  The roots are a dull
+red color.  
 ~
 D0
 ~
@@ -3333,12 +3333,12 @@ grand archway.  There is a small office to the north, behind the desk.
 E
 tapestries~
 These once priceless tapestries are still beyond value but someone will
-have to clean them up.  Other than that there is little of interest.   
+have to clean them up.  Other than that there is little of interest.  
 ~
 E
 tapestries~
 These once priceless tapestries are still beyond value but someone will
-have to clean them up.  Other than that there is little of interest.  
+have to clean them up.  Other than that there is little of interest.   
 ~
 D0
 ~
@@ -3382,13 +3382,13 @@ lobby of the inn.
 ~
 0 0 0
 E
-tables~
+table~
 These tables are made of a fine hardwood found only on an island
 thousands of miles away.  The mugs which the beer is in is made of a fine
 bone china and you are sure the mugs alone are worth thousands.  
 ~
 E
-table~
+tables~
 These tables are made of a fine hardwood found only on an island
 thousands of miles away.  The mugs which the beer is in is made of a fine
 bone china and you are sure the mugs alone are worth thousands.  
@@ -3431,11 +3431,11 @@ worst that that can happen is that you will have nightmares for a while...
 ~
 0 0 0
 E
-nightmares~
+nightmare~
 Who wants to feel bad about eating human flesh?
 ~
 E
-nightmare~
+nightmares~
 Who wants to feel bad about eating human flesh?
 ~
 D1
@@ -3708,15 +3708,15 @@ in all it's glory, and to the south is Innes street.
 ~
 0 0 0
 E
+grass~
+There is a large patch of a bluish grass here although there isn't
+anything of interest in it.   
+~
+E
 pond~
 The pond is small with little waterfowl flapping around all near it. 
 The small pond is also full of fish, although you don't think that you want
 to fish here.   
-~
-E
-grass~
-There is a large patch of a bluish grass here although there isn't
-anything of interest in it.   
 ~
 D2
 ~

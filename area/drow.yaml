@@ -10,555 +10,533 @@ mobiles:
 - vnum: 5100
   keywords: goblin slave
   short_desc: the goblin slave
-  long_desc: |
-    A goblin slave lies here asleep.
-  description: |
-    The defenseless goblin begs for mercy.
+  long_desc: "A goblin slave lies here asleep.\n\r"
+  description: "The defenseless goblin begs for mercy.\n\r"
   race: goblin
-  act: ABHT
-  affected_by: J
-  affected2_by: '0'
+  act: 524418
+  affected_by: 0
+  affected2_by: 0
   alignment: -450
   clan: 0
   level: 2
   hitroll: 0
   hit:
-    number: 1
-    type: 2
-    bonus: 16
+  - 1
+  - 2
+  - 16
   mana:
-    number: 2
-    type: 10
-    bonus: 100
+  - 2
+  - 10
+  - 100
   damage:
-    number: 1
-    type: 3
-    bonus: 1
+  - 1
+  - 3
+  - 1
   dam_type: 3
   ac:
     pierce: 8
     bash: 8
     slash: 8
     exotic: 9
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: Q
-  vuln_flags: C
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 4
   default_pos: 4
   sex: 1
   gold: 0
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 5101
   keywords: drow commoner
   short_desc: the drow commoner
-  long_desc: |
-    A drow commoner walks on guard duty.
-  description: |
-    I doubt he is the type to give directions.
+  long_desc: "A drow commoner walks on guard duty.\n\r"
+  description: "I doubt he is the type to give directions.\n\r"
   race: unique
-  act: ADFGT
-  affected_by: DZ
-  affected2_by: '0'
+  act: 524392
+  affected_by: 33554440
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 10
   hitroll: 0
   hit:
-    number: 2
-    type: 33
-    bonus: 96
+  - 2
+  - 33
+  - 96
   mana:
-    number: 10
-    type: 10
-    bonus: 100
+  - 10
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 5
-    bonus: 7
+  - 3
+  - 5
+  - 7
   dam_type: 11
   ac:
     pierce: 3
     bash: 3
     slash: 3
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: B
-  vuln_flags: SZ
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 2
+  vuln_flags: 33816576
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 30
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 2101377
+  parts: 2047
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 5102
   keywords: drow noble warrior
   short_desc: the drow warrior noble
-  long_desc: |
-    The drow warrior noble stands here guarding his home.
-  description: |
-    He looks pissed off!
+  long_desc: "The drow warrior noble stands here guarding his home.\n\r"
+  description: "He looks pissed off!\n\r"
   race: unique
-  act: ABFT
-  affected_by: DZ
-  affected2_by: '0'
+  act: 524322
+  affected_by: 33554440
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 11
   hitroll: 0
   hit:
-    number: 3
-    type: 27
-    bonus: 107
+  - 3
+  - 27
+  - 107
   mana:
-    number: 11
-    type: 10
-    bonus: 100
+  - 11
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 6
-    bonus: 6
+  - 3
+  - 6
+  - 6
   dam_type: 11
   ac:
     pierce: 3
     bash: 3
     slash: 3
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: B
-  vuln_flags: SZ
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 2
+  vuln_flags: 33816576
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 100
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 2101377
+  parts: 2047
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 5103
   keywords: drow noble mage
   short_desc: the drow mage noble
-  long_desc: |
-    The drow mage noble is here protecting his home.
-  description: |
-    The mage prepares to cast a spell ... at you!!
+  long_desc: "The drow mage noble is here protecting his home.\n\r"
+  description: "The mage prepares to cast a spell ... at you!!\n\r"
   race: unique
-  act: ABFT
-  affected_by: DZ
-  affected2_by: '0'
+  act: 524322
+  affected_by: 33554440
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 15
   hitroll: 0
   hit:
-    number: 4
-    type: 37
-    bonus: 162
+  - 4
+  - 37
+  - 162
   mana:
-    number: 15
-    type: 10
-    bonus: 100
+  - 15
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 6
-    bonus: 9
+  - 4
+  - 6
+  - 9
   dam_type: 3
   ac:
     pierce: 0
     bash: 0
     slash: 0
     exotic: 5
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: B
-  vuln_flags: SZ
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 2
+  vuln_flags: 33816576
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 200
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 2101377
+  parts: 2047
   size: M
   material: none
   spec_fun: spec_cast_mage
 - vnum: 5104
   keywords: drow priestess
   short_desc: the drow priestess
-  long_desc: |
-    The drow priestess is here shouting orders.
-  description: |
-    I wouldn't want go get on her bad side!
+  long_desc: "The drow priestess is here shouting orders.\n\r"
+  description: "I wouldn't want go get on her bad side!\n\r"
   race: unique
-  act: ABFT
-  affected_by: DZ
-  affected2_by: '0'
+  act: 524322
+  affected_by: 33554440
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 17
   hitroll: 0
   hit:
-    number: 5
-    type: 39
-    bonus: 187
+  - 5
+  - 39
+  - 187
   mana:
-    number: 17
-    type: 10
-    bonus: 100
+  - 17
+  - 10
+  - 100
   damage:
-    number: 4
-    type: 7
-    bonus: 10
+  - 4
+  - 7
+  - 10
   dam_type: 3
   ac:
     pierce: 0
     bash: 0
     slash: 0
     exotic: 4
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: B
-  vuln_flags: SZ
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 2
+  vuln_flags: 33816576
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 400
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 2101377
+  parts: 2047
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 5105
   keywords: drow master
   short_desc: The drow master
-  long_desc: |
-    The drow master stares at you angrily.
-  description: |
-    The drow master is ALWAYS ready for a fight.
+  long_desc: "The drow master stares at you angrily.\n\r"
+  description: "The drow master is ALWAYS ready for a fight.\n\r"
   race: unique
-  act: ABFT
-  affected_by: DZ
-  affected2_by: '0'
+  act: 524322
+  affected_by: 33554440
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 22
   hitroll: 0
   hit:
-    number: 9
-    type: 36
-    bonus: 270
+  - 9
+  - 36
+  - 270
   mana:
-    number: 22
-    type: 10
-    bonus: 100
+  - 22
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 7
-    bonus: 14
+  - 5
+  - 7
+  - 14
   dam_type: 3
   ac:
     pierce: -3
     bash: -3
     slash: -3
     exotic: 3
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: B
-  vuln_flags: SZ
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 2
+  vuln_flags: 33816576
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 2101377
+  parts: 2047
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 5106
   keywords: drow weapons master
   short_desc: The weapons master
-  long_desc: |
-    The drow weapons master is here shadow boxing.
-  description: |
-    He definitely knows his way around in combat.
+  long_desc: "The drow weapons master is here shadow boxing.\n\r"
+  description: "He definitely knows his way around in combat.\n\r"
   race: unique
-  act: ABFT
-  affected_by: DZ
-  affected2_by: '0'
+  act: 524322
+  affected_by: 33554440
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 24
   hitroll: 0
   hit:
-    number: 10
-    type: 38
-    bonus: 311
+  - 10
+  - 38
+  - 311
   mana:
-    number: 24
-    type: 10
-    bonus: 100
+  - 24
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 8
-    bonus: 14
+  - 5
+  - 8
+  - 14
   dam_type: 3
   ac:
     pierce: -5
     bash: -5
     slash: -5
     exotic: 2
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: B
-  vuln_flags: SZ
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 2
+  vuln_flags: 33816576
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1500
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 2101377
+  parts: 2047
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 5107
   keywords: drow matron mother
   short_desc: the matron mother
-  long_desc: |
-    The matron mother of the house is standing here.
-  description: |
-    She looks really pissed off!
+  long_desc: "The matron mother of the house is standing here.\n\r"
+  description: "She looks really pissed off!\n\r"
   race: unique
-  act: ABFT
-  affected_by: DZ
-  affected2_by: '0'
+  act: 524322
+  affected_by: 33554440
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 25
   hitroll: 0
   hit:
-    number: 10
-    type: 42
-    bonus: 322
+  - 10
+  - 42
+  - 322
   mana:
-    number: 25
-    type: 10
-    bonus: 100
+  - 25
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 8
-    bonus: 16
+  - 5
+  - 8
+  - 16
   dam_type: 3
   ac:
     pierce: -5
     bash: -5
     slash: -5
     exotic: 2
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: B
-  vuln_flags: SZ
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 2
+  vuln_flags: 33816576
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 3000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 2101377
+  parts: 2047
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 5108
   keywords: drow matron mother
   short_desc: the matron mother
-  long_desc: |
-    The matron mother of the 1st house is waiting for you.
-  description: |
-    She looks like she is about to rip your head off and eat it.
+  long_desc: "The matron mother of the 1st house is waiting for you.\n\r"
+  description: "She looks like she is about to rip your head off and eat it.\n\r"
   race: unique
-  act: ABFT
-  affected_by: DHZ
-  affected2_by: '0'
+  act: 524322
+  affected_by: 33554568
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 26
   hitroll: 0
   hit:
-    number: 10
-    type: 45
-    bonus: 345
+  - 10
+  - 45
+  - 345
   mana:
-    number: 26
-    type: 10
-    bonus: 100
+  - 26
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 9
-    bonus: 13
+  - 5
+  - 9
+  - 13
   dam_type: 7
   ac:
     pierce: -6
     bash: -6
     slash: -6
     exotic: 1
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: B
-  vuln_flags: SZ
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 2
+  vuln_flags: 33816576
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 3000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 2101377
+  parts: 2047
   size: M
   material: none
   spec_fun: spec_cast_cleric
 - vnum: 5109
   keywords: yochlol
   short_desc: the yochlol
-  long_desc: |
-    A yochlol forms out of a swirling mist.
-  description: |
-    The yochlol is not in a good mood.
+  long_desc: "A yochlol forms out of a swirling mist.\n\r"
+  description: "The yochlol is not in a good mood.\n\r"
   race: Human
-  act: ABFT
-  affected_by: DH
-  affected2_by: '0'
+  act: 524322
+  affected_by: 136
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 34
   hitroll: 0
   hit:
-    number: 10
-    type: 78
-    bonus: 505
+  - 10
+  - 78
+  - 505
   mana:
-    number: 34
-    type: 10
-    bonus: 100
+  - 34
+  - 10
+  - 100
   damage:
-    number: 5
-    type: 11
-    bonus: 21
+  - 5
+  - 11
+  - 21
   dam_type: 7
   ac:
     pierce: -11
     bash: -11
     slash: -11
     exotic: 0
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: '0'
-  vuln_flags: '0'
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 0
+  vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 3000
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 0
+  parts: 0
   size: M
   material: none
   spec_fun: spec_breath_any
 - vnum: 5110
   keywords: drow guard
   short_desc: the drow guard
-  long_desc: |
-    The drow guard is here staring at you ominously.
-  description: |
-    The drow guard blends so well with his environment, you barely see his form.
+  long_desc: "The drow guard is here staring at you ominously.\n\r"
+  description: "The drow guard blends so well with his environment, you barely see
+    his form.\n\r"
   race: unique
-  act: ABFT
-  affected_by: JQZ
-  affected2_by: '0'
+  act: 524322
+  affected_by: 33620480
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 12
   hitroll: 0
   hit:
-    number: 3
-    type: 32
-    bonus: 120
+  - 3
+  - 32
+  - 120
   mana:
-    number: 12
-    type: 10
-    bonus: 100
+  - 12
+  - 10
+  - 100
   damage:
-    number: 3
-    type: 7
-    bonus: 6
+  - 3
+  - 7
+  - 6
   dam_type: 7
   ac:
     pierce: 2
     bash: 2
     slash: 2
     exotic: 6
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: B
-  vuln_flags: SZ
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 2
+  vuln_flags: 33816576
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 500
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 2101377
+  parts: 2047
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 - vnum: 5111
   keywords: drow scout
   short_desc: the drow scout
-  long_desc: |
-    The drow scout is here sneaking among the shadows.
-  description: |
-    The drow scout blends so well with her environment, you barely see her form.
+  long_desc: "The drow scout is here sneaking among the shadows.\n\r"
+  description: "The drow scout blends so well with her environment, you barely see
+    her form.\n\r"
   race: unique
-  act: AFHT
-  affected_by: PQZ
-  affected2_by: '0'
+  act: 524448
+  affected_by: 33652736
+  affected2_by: 0
   alignment: -1000
   clan: 0
   level: 6
   hitroll: 0
   hit:
-    number: 1
-    type: 24
-    bonus: 51
+  - 1
+  - 24
+  - 51
   mana:
-    number: 6
-    type: 10
-    bonus: 100
+  - 6
+  - 10
+  - 100
   damage:
-    number: 2
-    type: 5
-    bonus: 3
+  - 2
+  - 5
+  - 3
   dam_type: 7
   ac:
     pierce: 6
     bash: 6
     slash: 6
     exotic: 8
-  off_flags: '0'
-  imm_flags: '0'
-  res_flags: B
-  vuln_flags: SZ
+  off_flags: 0
+  imm_flags: 0
+  res_flags: 2
+  vuln_flags: 33816576
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 100
-  form: AHMV
-  parts: ABCDEFGHIJK
+  form: 2101377
+  parts: 2047
   size: M
   material: none
-  spec_fun: ''
+  spec_fun:
 objects:
 - vnum: 5100
   name: longsword commoner
@@ -566,26 +544,26 @@ objects:
   description: A commoner's longsword made of adamantite has been left here.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 6
+  weight: 2
+  cost: 60
   values:
   - 1
   - 2
   - 6
   - 3
   - 0
-  level: 6
-  weight: 2
-  cost: 60
   affects:
-  - where: O
-    location: 18
-    modifier: 1
-    bitvector: '0'
   - where: O
     location: 19
     modifier: 1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 1
+    bitvector: 0
   extra_descs: []
 - vnum: 5101
   name: longsword noble
@@ -593,26 +571,26 @@ objects:
   description: A drow noble's longsword made of adamantite lies here.
   material: none
   item_type: 5
-  extra_flags: '0'
-  wear_flags: AN
+  extra_flags: 0
+  wear_flags: 8193
+  level: 11
+  weight: 1
+  cost: 110
   values:
   - 1
   - 3
   - 6
   - 3
   - 0
-  level: 11
-  weight: 1
-  cost: 110
   affects:
-  - where: O
-    location: 18
-    modifier: 2
-    bitvector: '0'
   - where: O
     location: 19
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 2
+    bitvector: 0
   extra_descs: []
 - vnum: 5102
   name: whip snake two-headed
@@ -620,26 +598,26 @@ objects:
   description: A whip with two snakes heads lies here.
   material: none
   item_type: 5
-  extra_flags: AG
-  wear_flags: AN
+  extra_flags: 65
+  wear_flags: 8193
+  level: 15
+  weight: 0
+  cost: 150
   values:
   - 7
   - 4
   - 5
   - 4
   - 32
-  level: 15
-  weight: 0
-  cost: 150
   affects:
-  - where: O
-    location: 18
-    modifier: 2
-    bitvector: '0'
   - where: O
     location: 19
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 2
+    bitvector: 0
   extra_descs: []
 - vnum: 5103
   name: whip snake three-headed
@@ -647,26 +625,26 @@ objects:
   description: A whip with three snake heads has been left here.
   material: none
   item_type: 5
-  extra_flags: AG
-  wear_flags: AN
+  extra_flags: 65
+  wear_flags: 8193
+  level: 17
+  weight: 0
+  cost: 170
   values:
   - 7
   - 5
   - 4
   - 4
   - 0
-  level: 17
-  weight: 0
-  cost: 170
   affects:
-  - where: O
-    location: 18
-    modifier: 2
-    bitvector: '0'
   - where: O
     location: 19
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 2
+    bitvector: 0
   extra_descs: []
 - vnum: 5104
   name: whip snake four-headed
@@ -674,26 +652,26 @@ objects:
   description: A whip with four snake heads has been left here.
   material: none
   item_type: 5
-  extra_flags: AG
-  wear_flags: AN
+  extra_flags: 65
+  wear_flags: 8193
+  level: 22
+  weight: 0
+  cost: 220
   values:
   - 7
   - 5
   - 5
   - 4
   - 0
-  level: 22
-  weight: 0
-  cost: 220
   affects:
-  - where: O
-    location: 18
-    modifier: 2
-    bitvector: '0'
   - where: O
     location: 19
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 2
+    bitvector: 0
   extra_descs: []
 - vnum: 5105
   name: longsword black
@@ -701,26 +679,26 @@ objects:
   description: A black longsword has been carelessly left here.
   material: none
   item_type: 5
-  extra_flags: AG
-  wear_flags: AN
+  extra_flags: 65
+  wear_flags: 8193
+  level: 22
+  weight: 0
+  cost: 220
   values:
   - 1
   - 5
   - 5
   - 3
   - 0
-  level: 22
-  weight: 0
-  cost: 220
   affects:
-  - where: O
-    location: 18
-    modifier: 2
-    bitvector: '0'
   - where: O
     location: 19
     modifier: 2
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 2
+    bitvector: 0
   extra_descs: []
 - vnum: 5106
   name: whip snake five-headed
@@ -728,26 +706,26 @@ objects:
   description: A whip with five snake heads is lying here.
   material: none
   item_type: 5
-  extra_flags: AGJ
-  wear_flags: AN
+  extra_flags: 577
+  wear_flags: 8193
+  level: 0
+  weight: 0
+  cost: 0
   values:
   - 7
   - 1
   - 7
   - 4
   - 0
-  level: 0
-  weight: 0
-  cost: 0
   affects:
-  - where: O
-    location: 1
-    modifier: -1
-    bitvector: '0'
   - where: O
     location: 3
     modifier: -1
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 1
+    modifier: -1
+    bitvector: 0
   extra_descs: []
 - vnum: 5107
   name: whip snake six-headed
@@ -755,26 +733,26 @@ objects:
   description: A whip with six snake heads has been dropped here.
   material: none
   item_type: 5
-  extra_flags: AGJ
-  wear_flags: AN
+  extra_flags: 577
+  wear_flags: 8193
+  level: 0
+  weight: 0
+  cost: 0
   values:
   - 7
   - 1
   - 7
   - 4
   - 0
-  level: 0
-  weight: 0
-  cost: 0
   affects:
-  - where: O
-    location: 1
-    modifier: -2
-    bitvector: '0'
   - where: O
     location: 3
     modifier: -2
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 1
+    modifier: -2
+    bitvector: 0
   extra_descs: []
 - vnum: 5108
   name: bracers iron
@@ -782,17 +760,17 @@ objects:
   description: A pair of bracers has been dropped here.
   material: none
   item_type: 9
-  extra_flags: AG
-  wear_flags: AI
+  extra_flags: 65
+  wear_flags: 257
+  level: 25
+  weight: 3
+  cost: 250
   values:
   - 8
   - 8
   - 8
   - 0
   - 0
-  level: 25
-  weight: 3
-  cost: 250
   affects: []
   extra_descs: []
 - vnum: 5109
@@ -801,22 +779,22 @@ objects:
   description: A pair of gauntlets has been dropped here.
   material: none
   item_type: 9
-  extra_flags: A
-  wear_flags: AH
+  extra_flags: 1
+  wear_flags: 129
+  level: 24
+  weight: 2
+  cost: 240
   values:
   - 7
   - 7
   - 7
   - 0
   - 0
-  level: 24
-  weight: 2
-  cost: 240
   affects:
   - where: O
     location: 1
     modifier: 3
-    bitvector: '0'
+    bitvector: 0
   extra_descs: []
 - vnum: 5110
   name: wand blue silver
@@ -824,17 +802,17 @@ objects:
   description: A silvery blue wand has been dropped in the dirt.
   material: none
   item_type: 3
-  extra_flags: G
-  wear_flags: AO
+  extra_flags: 64
+  wear_flags: 16385
+  level: 22
+  weight: 1
+  cost: 220
   values:
   - 10
   - 3
   - 3
-  - 30
+  - 57
   - 0
-  level: 22
-  weight: 1
-  cost: 220
   affects: []
   extra_descs: []
 - vnum: 5111
@@ -843,22 +821,22 @@ objects:
   description: A small helmet lies up against a rock.
   material: none
   item_type: 9
-  extra_flags: G
-  wear_flags: AE
+  extra_flags: 64
+  wear_flags: 17
+  level: 25
+  weight: 5
+  cost: 250
   values:
   - 8
   - 8
   - 8
   - 0
   - 0
-  level: 25
-  weight: 5
-  cost: 250
   affects:
   - where: O
     location: 3
     modifier: 3
-    bitvector: '0'
+    bitvector: 0
   extra_descs: []
 - vnum: 5112
   name: ring ruby
@@ -866,22 +844,22 @@ objects:
   description: A small ruby ring lies in the dirt.
   material: none
   item_type: 9
-  extra_flags: G
-  wear_flags: AB
+  extra_flags: 64
+  wear_flags: 3
+  level: 26
+  weight: 1
+  cost: 260
   values:
   - 8
   - 8
   - 8
   - 0
   - 0
-  level: 26
-  weight: 1
-  cost: 260
   affects:
   - where: O
     location: 13
     modifier: 25
-    bitvector: '0'
+    bitvector: 0
   extra_descs: []
 - vnum: 5113
   name: dagger sacrificial
@@ -889,26 +867,26 @@ objects:
   description: A dagger with spider leg shaped blades lies on the ground.
   material: none
   item_type: 5
-  extra_flags: GJ
-  wear_flags: AN
+  extra_flags: 576
+  wear_flags: 8193
+  level: 34
+  weight: 2
+  cost: 340
   values:
   - 2
   - 5
   - 8
   - 11
   - 0
-  level: 34
-  weight: 2
-  cost: 340
   affects:
-  - where: O
-    location: 18
-    modifier: 3
-    bitvector: '0'
   - where: O
     location: 19
     modifier: 3
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 3
+    bitvector: 0
   extra_descs: []
 - vnum: 5114
   name: hat green
@@ -916,1219 +894,1161 @@ objects:
   description: A small bright green hat lies in the dirt.
   material: none
   item_type: 9
-  extra_flags: H
-  wear_flags: AE
+  extra_flags: 128
+  wear_flags: 17
+  level: 25
+  weight: 1
+  cost: 250
   values:
   - 8
   - 8
   - 8
   - 0
   - 0
-  level: 25
-  weight: 1
-  cost: 250
   affects:
-  - where: O
-    location: 9
-    modifier: -15
-    bitvector: '0'
   - where: O
     location: 17
     modifier: -2
-    bitvector: '0'
+    bitvector: 0
+  - where: O
+    location: 9
+    modifier: -15
+    bitvector: 0
   extra_descs: []
 rooms:
 - vnum: 5120
   name: Mage's Academy
-  description: |
-    The mages academy is fairly well decorated see that the drow prefer magic
-    over physical power greatly.
-  room_flags: AD
+  description: "The mages academy is fairly well decorated see that the drow prefer
+    magic\n\rover physical power greatly.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5121
   extra_descs: []
 - vnum: 5121
   name: City street
-  description: |
-    You walk along a highly ornate city street going eastward. To the north is
-    a building.
-  room_flags: AD
+  description: "You walk along a highly ornate city street going eastward. To the
+    north is\n\ra building.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5120
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5123
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5122
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5117
   extra_descs: []
 - vnum: 5122
   name: Slave Chamber
-  description: |
-    The room is in shambles. Straw is strewn all about the room as beds for the
-    unfortunate creatures who have fallen prey to drow imperialism.
-  room_flags: AD
+  description: "The room is in shambles. Straw is strewn all about the room as beds
+    for the\n\runfortunate creatures who have fallen prey to drow imperialism.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5121
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5101
   extra_descs: []
 - vnum: 5123
   name: City street
-  description: |
-    You walk along a highly ornate city street leading west and south. To the
-    north is a relatively small house.
-  room_flags: AD
+  description: "You walk along a highly ornate city street leading west and south.
+    To the\n\rnorth is a relatively small house.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5124
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5101
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5121
   extra_descs: []
 - vnum: 5124
   name: 4th house
-  description: |
-    You stand inside the 4th house of the city. Its inner courtyard is rather
-    dull by drow standards and rather small as well.
-  room_flags: AD
+  description: "You stand inside the 4th house of the city. Its inner courtyard is
+    rather\n\rdull by drow standards and rather small as well.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5125
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5123
   extra_descs: []
 - vnum: 5125
   name: Throne Room
-  description: |
-    The throne room is basically similar to the inner courtyard in regards
-    to decor. there is a small throne behind the altar but that is about it.
-  room_flags: AD
+  description: "The throne room is basically similar to the inner courtyard in regards\n\rto
+    decor. there is a small throne behind the altar but that is about it.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5124
   extra_descs: []
 - vnum: 5126
   name: Entrance Way
-  description: |
-    You stand in the entrance way to the temple which opens up to the north
-    into a large hallway going east and west. Small statues of spiders line the
-    entrance way's walls.
-  room_flags: AD
+  description: "You stand in the entrance way to the temple which opens up to the
+    north\n\rinto a large hallway going east and west. Small statues of spiders line
+    the\n\rentrance way's walls.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5127
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5119
   extra_descs: []
 - vnum: 5127
   name: Hallway
-  description: |
-    You are in a long hallway lined with adamantite. The walls are engraved
-    with pictures of elves and spiders. The hallway continues east and west. As you
-    look down the hallway you can make out one or two figures moving away from you.
-    To the north is a obsidian stairway.
-  room_flags: AD
+  description: "You are in a long hallway lined with adamantite. The walls are engraved\n\rwith
+    pictures of elves and spiders. The hallway continues east and west. As you\n\rlook
+    down the hallway you can make out one or two figures moving away from you.\n\rTo
+    the north is a obsidian stairway.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5135
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5128
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5126
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5131
   extra_descs: []
 - vnum: 5128
   name: Long Hallway
-  description: |
-    You are in a long hallway lined with adamantite. The walls are engraved
-    with pictures of elves and spiders. The hallway continues east and west. As you
-    look down the hallway you can make out one or two figures moving away from you.
-  room_flags: AD
+  description: "You are in a long hallway lined with adamantite. The walls are engraved\n\rwith
+    pictures of elves and spiders. The hallway continues east and west. As you\n\rlook
+    down the hallway you can make out one or two figures moving away from you.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5129
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5127
   extra_descs: []
 - vnum: 5129
   name: Long Hallway
-  description: |
-    You are in a long hallway lined with adamantite. The walls are engraved
-    with pictures of elves and spiders. The hallway continues east and west. As you
-    look down the hallway you can make out one or two figures moving away from you.
-    To the north is a door.
-  room_flags: AD
+  description: "You are in a long hallway lined with adamantite. The walls are engraved\n\rwith
+    pictures of elves and spiders. The hallway continues east and west. As you\n\rlook
+    down the hallway you can make out one or two figures moving away from you.\n\rTo
+    the north is a door.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5150
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5130
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5128
   extra_descs: []
 - vnum: 5130
   name: Long Hallway
-  description: |
-    You are in a long hallway lined with adamantite. The walls are engraved
-    with pictures of elves and spiders. The hallway continues east and west. As you
-    look down the hallway you can make out one or two figures moving away from you.
-  room_flags: AD
+  description: "You are in a long hallway lined with adamantite. The walls are engraved\n\rwith
+    pictures of elves and spiders. The hallway continues east and west. As you\n\rlook
+    down the hallway you can make out one or two figures moving away from you.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5134
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5129
   extra_descs: []
 - vnum: 5131
   name: Long Hallway
-  description: |
-    You are in a long hallway lined with adamantite. The walls are engraved
-    with pictures of elves and spiders. The hallway continues east and west. As you
-    look down the hallway you can make out one or two figures moving away from you.
-  room_flags: AD
+  description: "You are in a long hallway lined with adamantite. The walls are engraved\n\rwith
+    pictures of elves and spiders. The hallway continues east and west. As you\n\rlook
+    down the hallway you can make out one or two figures moving away from you.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5127
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5132
   extra_descs: []
 - vnum: 5132
   name: Long Hallway
-  description: |
-    You are in a long hallway lined with adamantite. The walls are engraved
-    with pictures of elves and spiders. The hallway continues east and west. As you
-    look down the hallway you can make out one or two figures moving away from you.
-    To the south is a door.
-  room_flags: AD
+  description: "You are in a long hallway lined with adamantite. The walls are engraved\n\rwith
+    pictures of elves and spiders. The hallway continues east and west. As you\n\rlook
+    down the hallway you can make out one or two figures moving away from you.\n\rTo
+    the south is a door.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5131
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5133
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5134
   extra_descs: []
 - vnum: 5133
   name: Warrior's Barracks
-  description: |
-    The room is a complete mess. None of the beds are made, clothes and other
-    items have been left all about the room. Well drow warriors never were known
-    for neatness.
-  room_flags: AD
+  description: "The room is a complete mess. None of the beds are made, clothes and
+    other\n\ritems have been left all about the room. Well drow warriors never were
+    known\n\rfor neatness.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5132
   extra_descs: []
 - vnum: 5134
   name: Long Hallway
-  description: |
-    You are in a long hallway lined with adamantite. The walls are engraved
-    with pictures of elves and spiders. The hallway continues east and west. As you
-    look down the hallway you can make out one or two figures moving away from you.
-  room_flags: AD
+  description: "You are in a long hallway lined with adamantite. The walls are engraved\n\rwith
+    pictures of elves and spiders. The hallway continues east and west. As you\n\rlook
+    down the hallway you can make out one or two figures moving away from you.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5132
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5130
   extra_descs: []
 - vnum: 5135
   name: Grand Stairway
-  description: |
-    You are standing at the bottom of a giant obsidian and adamantite
-    stairway. The edges are trimmed with gold.
-  room_flags: AD
+  description: "You are standing at the bottom of a giant obsidian and adamantite\n\rstairway.
+    The edges are trimmed with gold.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5127
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5136
   extra_descs: []
 - vnum: 5136
   name: Grand Hallway
-  description: |
-    You are standing in the middle of a grand hallway. The walls are
-    of the purest adamantite with gold trim. Mosaics line the walls.
-  room_flags: AD
+  description: "You are standing in the middle of a grand hallway. The walls are\n\rof
+    the purest adamantite with gold trim. Mosaics line the walls.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5138
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5137
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5135
   extra_descs: []
 - vnum: 5137
   name: Mage's Barracks
-  description: |
-    The mage's living quarters is rather clean with the exception of a few
-    used component containers. It is rather well decorated as well. Cots line the
-    floor for the mages to sleep on. the only door is to the west.
-  room_flags: AD
+  description: "The mage's living quarters is rather clean with the exception of a
+    few\n\rused component containers. It is rather well decorated as well. Cots line
+    the\n\rfloor for the mages to sleep on. the only door is to the west.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5136
   extra_descs: []
 - vnum: 5138
   name: Grand Hallway
-  description: |
-    You are walking down a grand hallway, heavily decorated with adamantite
-    and gold. To the north the hall goes down a flight of stairs while a door is
-    too the west.
-  room_flags: AD
+  description: "You are walking down a grand hallway, heavily decorated with adamantite\n\rand
+    gold. To the north the hall goes down a flight of stairs while a door is\n\rtoo
+    the west.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5136
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5139
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5140
   extra_descs: []
 - vnum: 5139
   name: Cleric's Barracks
-  description: |
-    The bed chamber is brightly decorated with spider shaped statues, murals
-    and the like. Large beds line the floor making this a comfortable room to live
-    in.
-  room_flags: AD
+  description: "The bed chamber is brightly decorated with spider shaped statues,
+    murals\n\rand the like. Large beds line the floor making this a comfortable room
+    to live\n\rin.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5138
   extra_descs: []
 - vnum: 5140
   name: Grand Stairway
-  description: |
-    You are climbing a set of obsidian stairs surrounded by adamantite walls.
-    To the north are a set of large golden doors.
-  room_flags: AD
+  description: "You are climbing a set of obsidian stairs surrounded by adamantite
+    walls.\n\rTo the north are a set of large golden doors.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5141
   - dir: 4
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5138
   extra_descs: []
 - vnum: 5141
   name: Main Chamber
-  description: |
-    This is the south side of a large auditorium used for services by the
-    drow priestesses. In the center is a large sacrificial pit and beyond that is
-    an altar.
-  room_flags: AD
+  description: "This is the south side of a large auditorium used for services by
+    the\n\rdrow priestesses. In the center is a large sacrificial pit and beyond that
+    is\n\ran altar.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5142
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5140
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5144
   extra_descs: []
 - vnum: 5142
   name: Eastern side of Chamber
-  description: |
-    You are on the eastern side of the chamber overlooking the pit. To the east
-    is a door while to the north is an altar.
-  room_flags: AD
+  description: "You are on the eastern side of the chamber overlooking the pit. To
+    the east\n\ris a door while to the north is an altar.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5145
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5146
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5141
   extra_descs: []
 - vnum: 5143
   name: Sacrificial Pit
-  description: |
-    A you climb down into the pit thousands of spiders cover you tearing your
-    body to shreds.
-
-    Lloth thanks you for your sacrifice.
-
-    You've fallen, and you can't get up!!!
-  room_flags: CD
+  description: "A you climb down into the pit thousands of spiders cover you tearing
+    your\n\rbody to shreds.\n\r\n\rLloth thanks you for your sacrifice.\n\r\n\rYou've
+    fallen, and you can't get up!!!\n\r"
+  room_flags: 12
   sector: 0
-  owner: ''
+  owner:
   exits: []
   extra_descs: []
 - vnum: 5144
   name: Western side of Chamber
-  description: |
-    You are on the western side of the main chamber overlooking a sacrificial
-    pit. To the north is an altar.
-  room_flags: AD
+  description: "You are on the western side of the main chamber overlooking a sacrificial\n\rpit.
+    To the north is an altar.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5145
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5141
   extra_descs: []
 - vnum: 5145
   name: The Altar
-  description: |
-    You are standing in front of a highly and freshly bloodstained altar.
-    Engraved on the top of the altar is a giant spider with a human head. Looking
-    down from the altar you see a large sacrificial pit.
-  room_flags: AD
+  description: "You are standing in front of a highly and freshly bloodstained altar.\n\rEngraved
+    on the top of the altar is a giant spider with a human head. Looking\n\rdown from
+    the altar you see a large sacrificial pit.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5148
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5142
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5144
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5143
   extra_descs: []
 - vnum: 5146
   name: Slave Cells
-  description: |
-    This is the main room to the cell chambers for the slaves to be
-    sacrificed. You notice there are no guards around.
-  room_flags: AD
+  description: "This is the main room to the cell chambers for the slaves to be\n\rsacrificed.
+    You notice there are no guards around.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5147
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5142
   extra_descs: []
 - vnum: 5147
   name: Slave Pen
-  description: |
-    Rotten meat and breads lie about the floor while shackles hang from the
-    walls. The room wreaks of death. You almost become nauseous and decide to leave
-    the room since you were obviously too late to save the slave.
-  room_flags: AD
+  description: "Rotten meat and breads lie about the floor while shackles hang from
+    the\n\rwalls. The room wreaks of death. You almost become nauseous and decide
+    to leave\n\rthe room since you were obviously too late to save the slave.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5146
   extra_descs: []
 - vnum: 5148
   name: Dais
-  description: |
-    You stand upon a dais behind the altar. Above you is a enormous illusion
-    of a female drow turning into a giant spider and back again. There is a door
-    to the west.
-  room_flags: AD
+  description: "You stand upon a dais behind the altar. Above you is a enormous illusion\n\rof
+    a female drow turning into a giant spider and back again. There is a door\n\rto
+    the west.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5145
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5149
   extra_descs: []
 - vnum: 5149
   name: The Treasury
-  description: |
-    This is obviously only a temporary storage place for the collected
-    treasure being rather bare.
-  room_flags: AD
+  description: "This is obviously only a temporary storage place for the collected\n\rtreasure
+    being rather bare.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5148
   extra_descs: []
 - vnum: 5150
   name: Weaponsmaster's Chamber
-  description: |
-    This one person bedchamber is very elegant. The owner must be held in high
-    to get this kind of treatment.
-  room_flags: AD
+  description: "This one person bedchamber is very elegant. The owner must be held
+    in high\n\rto get this kind of treatment.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5129
   extra_descs: []
 - vnum: 5100
   name: City Entrance
-  description: |
-    You are at the entrance to a small underground city. A great adamantite
-    gate lies open to the west allowing entrance into the city.
-  room_flags: AD
+  description: "You are at the entrance to a small underground city. A great adamantite\n\rgate
+    lies open to the west allowing entrance into the city.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 3
     desc: A huge gate opens to the west allowing entrance into the city.
     keywords: gate
-    exit_flags: '0'
+    exit_flags: 0
     key: 0
     to_vnum: 5101
   - dir: 4
     desc: A small hole in the ceiling leads up into darkness.
     keywords: door
-    exit_flags: A
+    exit_flags: 3
     key: -1
     to_vnum: 5270
   extra_descs:
-  - keywords: gate
-    description: |
-      A large adamantite gate with giant spider shaped emblems stands here.
   - keywords: hole
-    description: |
-      A small hole that looks to have sealed at one time.
+    description: "A small hole that looks to have sealed at one time.\n\r"
+  - keywords: gate
+    description: "A large adamantite gate with giant spider shaped emblems stands
+      here.\n\r"
 - vnum: 5101
   name: City street
-  description: |
-    You walk along a highly ornate street going north-south. A large gate
-    lies to the east while a building lies to the west.
-  room_flags: AD
+  description: "You walk along a highly ornate street going north-south. A large gate\n\rlies
+    to the east while a building lies to the west.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5123
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5100
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5102
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5122
   extra_descs: []
 - vnum: 5102
   name: City street
-  description: |
-    You walk along a highly ornate city street going north and west.
-  room_flags: AD
+  description: "You walk along a highly ornate city street going north and west.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5101
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5103
   extra_descs: []
 - vnum: 5103
   name: City street
-  description: |
-    You walk along a highly ornate city street going east-west. A large house
-    stands to the south.
-  room_flags: AD
+  description: "You walk along a highly ornate city street going east-west. A large
+    house\n\rstands to the south.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5102
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5104
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5106
   extra_descs: []
 - vnum: 5104
   name: 3rd House
-  description: |
-    You stand inside the 3rd house of the city; it is fairly well decorated
-    by drow standards having a few statues, murals and such. A door leads to the
-    south.
-  room_flags: AD
+  description: "You stand inside the 3rd house of the city; it is fairly well decorated\n\rby
+    drow standards having a few statues, murals and such. A door leads to the\n\rsouth.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5103
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5105
   extra_descs: []
 - vnum: 5105
   name: Throne Room
-  description: |
-    The throne room of the 3rd house is about as decorated as the inner
-    courtyard except with a blood covered altar in the center of the room.
-  room_flags: AD
+  description: "The throne room of the 3rd house is about as decorated as the inner\n\rcourtyard
+    except with a blood covered altar in the center of the room.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5104
   extra_descs: []
 - vnum: 5106
   name: City street
-  description: |
-    You walk along a highly ornate city street going east-west. To the north
-    is a large building.
-  room_flags: AD
+  description: "You walk along a highly ornate city street going east-west. To the
+    north\n\ris a large building.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5118
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5103
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5107
   extra_descs: []
 - vnum: 5107
   name: City street
-  description: |
-    You walk along a highly ornate city street leading north and east. To the
-    south is an extremely large house.
-  room_flags: AD
+  description: "You walk along a highly ornate city street leading north and east.
+    To the\n\rsouth is an extremely large house.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5110
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5106
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5108
   extra_descs: []
 - vnum: 5108
   name: 2nd House
-  description: |
-    You stand inside the 2nd house of the city. The room is highly decorated
-    with statues of spiders and murals everywhere.
-  room_flags: AD
+  description: "You stand inside the 2nd house of the city. The room is highly decorated\n\rwith
+    statues of spiders and murals everywhere.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5107
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5109
   extra_descs: []
 - vnum: 5109
   name: Throne Room
-  description: |
-    The throne room of the 2nd house is just a little more decorative than
-    the inner courtyard having an altar in the center of the room.
-  room_flags: AD
+  description: "The throne room of the 2nd house is just a little more decorative
+    than\n\rthe inner courtyard having an altar in the center of the room.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5108
   extra_descs: []
 - vnum: 5110
   name: Main Gate
-  description: |
-    You are at the entrance to the 1st house of the city. A large gate, almost
-    as big and elegant as the one at the entrance to the city, stands here.
-  room_flags: AD
+  description: "You are at the entrance to the 1st house of the city. A large gate,
+    almost\n\ras big and elegant as the one at the entrance to the city, stands here.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5114
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5107
   - dir: 3
     desc: A large gate lies to the west.
     keywords: gate
-    exit_flags: A
+    exit_flags: 1
     key: -1
     to_vnum: 5111
   extra_descs: []
 - vnum: 5111
   name: 1st House
-  description: |
-    You stand in the inner courtyard of the 1st and largest house in the city.
-    The room is extremely large and decorative. Mural and paintings hang on the
-    walls depicting some battles and a spider queen.
-  room_flags: ADV
+  description: "You stand in the inner courtyard of the 1st and largest house in the
+    city.\n\rThe room is extremely large and decorative. Mural and paintings hang
+    on the\n\rwalls depicting some battles and a spider queen.\n\r"
+  room_flags: 2097161
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5110
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5112
   extra_descs: []
 - vnum: 5112
   name: Throne Room
-  description: |
-    The throne room of the 1st house is in one word...awesome. It is so
-    horrifying it is almost beautiful.
-  room_flags: AD
+  description: "The throne room of the 1st house is in one word...awesome. It is so\n\rhorrifying
+    it is almost beautiful.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5113
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: -1
     to_vnum: 5111
   extra_descs: []
 - vnum: 5113
   name: Main Chamber
-  description: |
-    This is the council chamber for the Matron Mother herself. A huge table
-    and chairs surrounding it sits in the center of the room.
-  room_flags: AD
+  description: "This is the council chamber for the Matron Mother herself. A huge
+    table\n\rand chairs surrounding it sits in the center of the room.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5112
   extra_descs: []
 - vnum: 5114
   name: City street
-  description: |
-    You walk along a highly ornate city street leading north-south and east.
-  room_flags: AD
+  description: "You walk along a highly ornate city street leading north-south and
+    east.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5115
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5117
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5110
   extra_descs: []
 - vnum: 5115
   name: City street
-  description: |
-    You walk along a highly ornate city street leading south. A building is
-    to the west.
-  room_flags: AD
+  description: "You walk along a highly ornate city street leading south. A building
+    is\n\rto the west.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5114
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5116
   extra_descs: []
 - vnum: 5116
   name: Cleric Academy
-  description: |
-    This is the most lavish of the academies being that it is for the clerics.
-  room_flags: AD
+  description: "This is the most lavish of the academies being that it is for the
+    clerics.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5115
   extra_descs: []
 - vnum: 5117
   name: City street
-  description: |
-    You walk along a highly ornate city street going east-west. To the north
-    is a giant temple.
-  room_flags: AD
+  description: "You walk along a highly ornate city street going east-west. To the
+    north\n\ris a giant temple.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 0
     desc: The entrance to the temple of Lloth.
-    keywords: ''
-    exit_flags: A
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5119
   - dir: 1
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5121
   - dir: 3
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5114
   extra_descs: []
 - vnum: 5118
   name: Warrior's Academy
-  description: |
-    This looks more like a barracks than a school.
-  room_flags: AD
+  description: "This looks more like a barracks than a school.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5106
   extra_descs: []
 - vnum: 5119
   name: Entrance to the Temple of Lloth
-  description: |
-    The temple is the largest building in the city. Even it's doors are beyond
-    imagination. Inside of the temple entrance, the walls are made of gold and
-    adamantite.
-  room_flags: AD
+  description: "The temple is the largest building in the city. Even it's doors are
+    beyond\n\rimagination. Inside of the temple entrance, the walls are made of gold
+    and\n\radamantite.\n\r"
+  room_flags: 9
   sector: 0
-  owner: ''
+  owner:
   exits:
   - dir: 2
-    desc: ''
-    keywords: ''
-    exit_flags: A
+    desc:
+    keywords:
+    exit_flags: 1
     key: -1
     to_vnum: 5117
   - dir: 5
-    desc: ''
-    keywords: ''
-    exit_flags: '0'
+    desc:
+    keywords:
+    exit_flags: 0
     key: 0
     to_vnum: 5126
   extra_descs: []
 resets:
-- command: D
-  arg1: 5100
-  arg2: 4
-  arg3: 0
 - command: M
   arg1: 5105
   arg2: 3
@@ -2357,12 +2277,4 @@ resets:
   arg1: 5110
   arg2: 0
   arg3: 17
-specials:
-- vnum: 5103
-  spec_fun: spec_cast_mage
-- vnum: 5104
-  spec_fun: spec_cast_cleric
-- vnum: 5108
-  spec_fun: spec_cast_cleric
-- vnum: 5109
-  spec_fun: spec_breath_any
+shops: []

@@ -39,6 +39,7 @@
 #include <stdlib.h>
 #include <form.h>
 #include "merc.h"
+#include "yaml_area.h"
 
 /***************************************************************************
  *  Name:       find_clan                                                  *
@@ -256,7 +257,8 @@ void save_clans()
     fprintf( clanfile, "999\n");
     fprintf( clanfile, "#$\n");
     fclose(clanfile);
-    
+
+    save_clans_yaml();
     return;
 }            
 

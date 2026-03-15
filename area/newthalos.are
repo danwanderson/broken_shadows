@@ -2139,9 +2139,9 @@ none~
 AB AB AB 0 0
 0 1 0
 A
-2 1
-A
 14 10
+A
+2 1
 #9598
 daemon claw~
 the Daemon Claw~
@@ -2169,9 +2169,9 @@ none~
 D AC BC AB 0
 25 16 250
 A
-18 2
-A
 19 2
+A
+18 2
 #9601
 fountain water~
 a fountain~
@@ -2227,14 +2227,9 @@ tavern of the Dancing Daemon Inn, and your future adventures in New Thalos.
 ~
 0 124 0
 E
-4.picture~
-You see a picture of Loki... at least you think it's Loki.
-He seems to be hiding from the camera.
-~
-E
-3.picture~
-You see a picture of Hammor on the front porch of the Danjerhaus,
-drinking a guinness stout and petting Big Guy the Cat.
+1.1picture~
+You see a picture of Felix here, standing before the arena.
+He seems to be doing a body count.
 ~
 E
 2.picture~
@@ -2243,9 +2238,14 @@ Through a window in the back you see a large aquarium. The newbie seems to
 be cowering in fear.
 ~
 E
-1.1picture~
-You see a picture of Felix here, standing before the arena.
-He seems to be doing a body count.
+3.picture~
+You see a picture of Hammor on the front porch of the Danjerhaus,
+drinking a guinness stout and petting Big Guy the Cat.
+~
+E
+4.picture~
+You see a picture of Loki... at least you think it's Loki.
+He seems to be hiding from the camera.
 ~
 D5
 The stairs lead down to the Daemon.
@@ -4572,10 +4572,6 @@ blood, there is a barely readable sign.
 ~
 0 120 0
 E
-vat~
-You think you hear noises from the vat....nah.
-~
-E
 note sign~
 LIST : gives you a list of items for sale.
 VALUE : tells you how much an item is worth
@@ -4583,6 +4579,10 @@ SELL : sells an item to Butch for a generous sum
 BUY : Butch's FAVORITE command lets you have an item for his low low price.
 
                                         NEWBEE INTRUCTOR COMMITEE
+~
+E
+vat~
+You think you hear noises from the vat....nah.
 ~
 D3
 ~
@@ -5498,13 +5498,13 @@ hallway.
 ~
 0 8 0
 E
+mirror~
+You see a the fighting image of some armor clad humanoid wielding a weapon.
+~
+E
 window~
 Looking out this window you can see the grounds of the palace that
 seperate the walls of the palace from the building itself.
-~
-E
-mirror~
-You see a the fighting image of some armor clad humanoid wielding a weapon.
 ~
 D0
 ~
