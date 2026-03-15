@@ -35,6 +35,7 @@
 #include "merc.h"
 #include "magic.h"
 #include "interp.h"
+#include "yaml_save.h"
 
 extern AUCTION_DATA *auction;
 
@@ -116,6 +117,7 @@ void do_delet(CHAR_DATA *ch, char *argument) {
 
 void do_delete(CHAR_DATA *ch, char *argument) {
     char strsave[MAX_INPUT_LENGTH];
+    char yaml_path[MAX_INPUT_LENGTH];
     CLAN_DATA *Clan;
     char buf[20];
 
@@ -144,6 +146,7 @@ void do_delete(CHAR_DATA *ch, char *argument) {
         }
         else {
             sprintf(strsave, "%s%s", PLAYER_DIR, capitalize(ch->name));
+            yaml_player_file_exists( ch->name, yaml_path );
 
             wiznet("$N turns $Mself into line noise.", ch, NULL, 0, 0, 0);
 
@@ -155,6 +158,8 @@ void do_delete(CHAR_DATA *ch, char *argument) {
 
             do_quit(ch, "");
             unlink(strsave);
+            if ( yaml_path[0] )
+                unlink( yaml_path );
             return;
         }
     }

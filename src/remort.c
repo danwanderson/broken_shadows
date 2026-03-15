@@ -43,6 +43,7 @@
 #include <time.h>
 #include <form.h>
 #include "merc.h"
+#include "yaml_save.h"
 
 void do_remor( CHAR_DATA *ch, char *argument )
 {
@@ -54,6 +55,7 @@ void do_remort( CHAR_DATA *ch, char *argument )
 {
     DESCRIPTOR_DATA *d;
     char strsave[MAX_INPUT_LENGTH], player_name[MAX_INPUT_LENGTH];
+    char yaml_path[MAX_INPUT_LENGTH];
     char player_pwd[MAX_INPUT_LENGTH];
     BUFFER *buf = buffer_new( MAX_INPUT_LENGTH );
     int player_incarnations, clan, permit;
@@ -98,6 +100,7 @@ void do_remort( CHAR_DATA *ch, char *argument )
              * Get ready to delete the pfile, send a nice informational message.
              */
             sprintf( strsave, "%s%s", PLAYER_DIR, capitalize( ch->name ) );
+            yaml_player_file_exists( ch->name, yaml_path );
             stop_fighting( ch, TRUE );
             send_to_char( "You have chosen to remort.  You will now be dropped in at the race\n\r", ch );
             send_to_char( "selection section of character creation, and will be allowed to choose from\n\r", ch );
@@ -129,6 +132,8 @@ void do_remort( CHAR_DATA *ch, char *argument )
              * CON_BEGIN_REMORT.
              */
             unlink( strsave );
+            if ( yaml_path[0] )
+                unlink( yaml_path );
             load_char_obj( d, player_name );
             d->character->pcdata->pwd = str_dup( player_pwd );
             d->character->pcdata->incarnations = player_incarnations;

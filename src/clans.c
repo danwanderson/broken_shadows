@@ -40,6 +40,7 @@
 #include <form.h>
 #include "merc.h"
 #include "yaml_area.h"
+#include "yaml_save.h"
 
 /***************************************************************************
  *  Name:       find_clan                                                  *
@@ -401,10 +402,35 @@ void do_clan(CHAR_DATA *ch, char *argument)
                 buffer_free( buf );
                 return;
              }
-           send_to_char("That character is not playing.\n\r", ch);
-           /* fclose(fp); */
-           buffer_free( buf );
-           return;
+           /* Player not online — try loading from file */
+           {
+               DESCRIPTOR_DATA *d = alloc_perm( sizeof(DESCRIPTOR_DATA) );
+               if ( !load_char_obj( d, arg4 ) )
+               {
+                   send_to_char("That character does not exist on this mud.\n\r", ch);
+                   buffer_free( buf );
+                   return;
+               }
+               victim = d->character;
+               if ( victim->pcdata->clan_leader )
+               {
+                   bprintf(buf, "%s is no longer a leader of %s.\n\r",
+                       capitalize(arg4), Clan->visible);
+                   send_to_char( buf->data, ch );
+                   victim->pcdata->clan_leader = 0;
+               }
+               else
+               {
+                   bprintf(buf, "%s is now a leader of %s.\n\r",
+                       capitalize(arg4), Clan->visible);
+                   send_to_char( buf->data, ch );
+                   victim->pcdata->clan_leader = 1;
+               }
+               save_char_obj( victim );
+               free_char( victim );
+               buffer_free( buf );
+               return;
+           }
         }
       if (!str_cmp( arg3, "god") )
         {

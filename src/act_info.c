@@ -35,6 +35,7 @@
 #include <form.h>
 #include "merc.h"
 #include "interp.h"
+#include "yaml_save.h"
 
  /* color added by Rahl */
 char *const   where_name[] =
@@ -3335,32 +3336,9 @@ void do_show(CHAR_DATA *ch, char *argument) {
 void do_finger(CHAR_DATA *ch, char *argument) {
     char         arg[MAX_INPUT_LENGTH];
     CHAR_DATA *victim;
-    FILE *fp;
-    char         pfile[MAX_STRING_LENGTH], *title;
-    char *word, *ltime, *class, *email, *comment, *spou, *clan;
-    long         logon;
     BUFFER *buf = buffer_new(MAX_INPUT_LENGTH);
-    char *race;
-    sh_int       level, leader;
-    int          pkills, pkilled, killed, incarn;
 
     argument = one_argument(argument, arg);
-    pfile[0] = '\0';
-    word = NULL;
-    ltime = NULL;
-    class = NULL;
-    race = NULL;
-    title = NULL;
-    clan = NULL;
-    level = 0;
-    email = strdup("(none)");
-    pkills = 0;
-    pkilled = 0;
-    killed = 0;
-    incarn = 1;
-    leader = 0;
-    comment = strdup("(none)");
-    spou = NULL;
 
     if (arg[0] == '\0' || arg[0] == '.' || arg[0] == '/') {
         send_to_char("You want information about whom?\n\r", ch);
@@ -3408,97 +3386,51 @@ void do_finger(CHAR_DATA *ch, char *argument) {
         return;
     }
     else {
-        sprintf(pfile, "%s%s", PLAYER_DIR, capitalize(arg));
-        if ((fp = fopen(pfile, "r")) != NULL) {
-            for (; ; ) {
-                word = fread_word(fp);
-                if (!str_cmp(word, "#END")) {
-                    break;
-                }
-                if (!str_cmp(word, "Incr")) {
-                    incarn = fread_number(fp);
-                }
-                if (!str_cmp(word, "Spou")) {
-                    spou = fread_string(fp);
-                }
-                if (!str_cmp(word, "Comnt")) {
-                    comment = fread_string(fp);
-                }
-                if (!str_cmp(word, "Email")) {
-                    email = fread_string(fp);
-                }
-                if (!str_cmp(word, "Pkills")) {
-                    pkills = fread_number(fp);
-                }
-                if (!str_cmp(word, "Pkilled")) {
-                    pkilled = fread_number(fp);
-                }
-                if (!str_cmp(word, "Killed")) {
-                    killed = fread_number(fp);
-                }
-                if (!str_cmp(word, "Log")) {
-                    logon = fread_number(fp);
-                    ltime = ctime(&logon);
-                }
-                if (!str_cmp(word, "Levl")) {
-                    level = fread_number(fp);
-                }
-                if (!str_cmp(word, "Race")) {
-                    race = fread_string(fp);
-                }
-                if (!str_cmp(word, "Cla")) {
-                    class = (class_table[fread_number(fp)].name);
-                }
-                if (!str_cmp(word, "Titl")) {
-                    title = fread_string(fp);
-                }
-                if (!str_cmp(word, "Clan")) {
-                    clan = fread_string(fp);
-                }
-                if (!str_cmp(word, "Clan_leader")) {
-                    leader = fread_number(fp);
-                }
-                fread_to_eol(fp);
-                //  if ( word )
-                  //   free( word );
-            }
-            fclose(fp);
-            bprintf(buf, "%s %s is a level %d %s %s.\n\r",
-                capitalize(arg), title, level, race, class);
-            send_to_char(buf->data, ch);
-            if (clan != NULL)
-                bprintf(buf, "%s is %s of %s`w.\n\r", capitalize(arg),
-                    leader ? "a leader" : "a member",
-                    vis_clan(get_clan(clan)));
-            else
-                bprintf(buf, "%s is not a member of any clan.\n\r",
-                    capitalize(arg));
-            send_to_char(buf->data, ch);
-            if (ltime == NULL)
-                bprintf(buf, "Last login unknown.\n\r");
-            else
-                bprintf(buf, "%s last logged on %s\r",
-                    capitalize(arg), ltime);
-            send_to_char(buf->data, ch);
-            bprintf(buf, "Email address: %s`w\n\r", email);
-            send_to_char(buf->data, ch);
-            bprintf(buf, "Comment: %s`w\n\r", comment);
-            send_to_char(buf->data, ch);
-            bprintf(buf, "Killed: %d   Pkills: %d   Pkilled: %d   ",
-                killed, pkills, pkilled);
-            send_to_char(buf->data, ch);
-            bprintf(buf, "Incarnations: %d\n\r", incarn);
-            send_to_char(buf->data, ch);
-            if (spou != NULL)
-                bprintf(buf, "%s is married to %s.\n\r",
-                    capitalize(arg), spou);
-            else
-                bprintf(buf, "%s is not married.\n\r", capitalize(arg));
-            send_to_char(buf->data, ch);
+        /* Load the offline character (handles both YAML and legacy formats) */
+        DESCRIPTOR_DATA *d = alloc_perm( sizeof(DESCRIPTOR_DATA) );
+        if ( !load_char_obj( d, arg ) )
+        {
+            send_to_char("That character does not exist on this mud.\n\r", ch);
             buffer_free(buf);
             return;
         }
-        send_to_char("That character does not exist on this mud.\n\r", ch);
+        victim = d->character;
+        bprintf(buf, "%s %s is a level %d %s %s.\n\r",
+            capitalize(arg), victim->pcdata->title,
+            victim->level,
+            race_table[victim->race].name,
+            class_table[victim->ch_class].name);
+        send_to_char(buf->data, ch);
+        if (victim->pcdata->clan != 0)
+            bprintf(buf, "%s is %s of %s`w.\n\r", capitalize(arg),
+                is_clan_leader(victim, clan_lookup(victim->pcdata->clan))
+                    ? "a leader" : "a member",
+                vis_clan(victim->pcdata->clan));
+        else
+            bprintf(buf, "%s is not a member of any clan.\n\r", capitalize(arg));
+        send_to_char(buf->data, ch);
+        bprintf(buf, "%s last logged on %s\r",
+            capitalize(arg), ctime(&victim->logon));
+        send_to_char(buf->data, ch);
+        bprintf(buf, "Email address: %s`w\n\r",
+            victim->pcdata->email ? victim->pcdata->email : "(none)");
+        send_to_char(buf->data, ch);
+        bprintf(buf, "Comment: %s`w\n\r",
+            victim->pcdata->comment ? victim->pcdata->comment : "");
+        send_to_char(buf->data, ch);
+        bprintf(buf, "Killed: %d   Pkills: %d   Pkilled: %d   ",
+            victim->pcdata->killed, victim->pcdata->pkills,
+            victim->pcdata->pkilled);
+        send_to_char(buf->data, ch);
+        bprintf(buf, "Incarnations: %d\n\r", victim->pcdata->incarnations);
+        send_to_char(buf->data, ch);
+        if (victim->pcdata->spouse != NULL)
+            bprintf(buf, "%s is married to %s.\n\r",
+                capitalize(arg), victim->pcdata->spouse);
+        else
+            bprintf(buf, "%s is not married.\n\r", capitalize(arg));
+        send_to_char(buf->data, ch);
+        free_char(victim);
         buffer_free(buf);
         return;
     }

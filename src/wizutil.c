@@ -35,6 +35,7 @@
 #include <string.h>
 #include <form.h>
 #include "merc.h"
+#include "yaml_save.h"
 
 
 /*
@@ -169,25 +170,39 @@ void do_rename (CHAR_DATA* ch, char* argument)
     }
     fpReserve = fopen( NULL_FILE, "r" );  /* reopen the extra file */
 
+    /* Check for existing YAML player file with new name */
+    if ( yaml_player_file_exists( new_name, strsave ) )
+    {
+        send_to_char ("A player with that name already exists!\n\r",ch);
+        return;
+    }
+
     if (get_char_world(ch,new_name)) /* check for playing level-1 non-saved */
     {
         send_to_char ("A player with the name you specified already exists!\n\r",ch);
         return;
     }
 
-    /* Save the filename of the old name */
+    /* Save the filenames of the old name (both formats) before renaming */
     sprintf( strsave, "%s%s", PLAYER_DIR, capitalize( victim->name ) );
+    {
+        char old_yaml[MAX_INPUT_LENGTH];
+        old_yaml[0] = '\0';
+        yaml_player_file_exists( victim->name, old_yaml );
 
-    /* Rename the character and save him to a new file */
-    /* NOTE: Players who are level 1 do NOT get saved under a new name */
+        /* Rename the character and save him to a new file */
+        /* NOTE: Players who are level 1 do NOT get saved under a new name */
 
-    free_string (victim->name);
-    victim->name = str_dup (capitalize(new_name));
+        free_string (victim->name);
+        victim->name = str_dup (capitalize(new_name));
 
-    save_char_obj (victim);
+        save_char_obj (victim);
 
-    /* unlink the old file */
-    unlink (strsave); /* unlink does return a value.. but we do not care */
+        /* unlink the old files */
+        unlink (strsave);
+        if ( old_yaml[0] )
+            unlink( old_yaml );
+    }
 
     /* That's it! */
 
