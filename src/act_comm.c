@@ -1680,20 +1680,25 @@ void talk_auction(char *argument) {
  * added here by Rahl
  */
 void show_time(CHAR_DATA *ch) {
-    long h, m, s = 0;
+    long h, m, s, total;
     BUFFER *buf;
 
-    buf = buffer_new(100);
+    buf = buffer_new(200);
 
     s = current_time - ch->logon;
-
     h = s / 3600;
     s -= h * 3600;
     m = s / 60;
     s -= m * 60;
+    bprintf(buf, "You were on for %ld hours, %ld minutes, and %ld seconds.\n\r",
+        h, m, s);
+    send_to_char(buf->data, ch);
 
-    bprintf(buf, "You were on for %ld hours, %ld minutes, and %ld"
-        " seconds.\n\r\n\r", h, m, s);
+    total = ch->played + (current_time - ch->logon);
+    h = total / 3600;
+    total -= h * 3600;
+    m = total / 60;
+    bprintf(buf, "Total time played: %ld hours and %ld minutes.\n\r\n\r", h, m);
     send_to_char(buf->data, ch);
 
     buffer_free(buf);
