@@ -22,18 +22,18 @@ fi
 
 while true
 do 
+	DAY=$(date +%Y-%m-%d)
+	HOUR=$(date +%H%M%S)
+	DATE="${DAY}_${HOUR}"
     if [ -e "${SHADOWSDIR}/area/core" ] 
 	then
-		DAY=$(date +%m%d%Y)
-		HOUR=$(date +%H%M%S)
-		DATE="${DAY}_${HOUR}"
-        gdb -batch "${SHADOWSDIR}/bin/shadows" "${SHADOWSDIR}/area/core" > $SHADOWSDIR/core/core.$DATE.txt
-        mv "${SHADOWSDIR}/area/core" "${SHADOWSDIR}/core/core.$DATE"
+        gdb -batch "${SHADOWSDIR}/bin/shadows" "${SHADOWSDIR}/area/core" > "${SHADOWSDIR}/core/core.${DATE}.txt"
+        mv "${SHADOWSDIR}/area/core" "${SHADOWSDIR}/core/core.${DATE}"
 		rm -f "${SHADOWSDIR}/area/core"
     fi
 
     # Run shadows.
-    ../bin/shadows "${PORT}" > /dev/null 2>&1
+    ../bin/shadows "${PORT}" > "${SHADOWSDIR}/log/startup_${DATE}.log" 2>&1  #/dev/null 2>&1
 
     # Restart, giving old connections a chance to die.
     if [ -e shutdown.txt ] 
