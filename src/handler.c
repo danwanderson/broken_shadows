@@ -53,7 +53,7 @@ void    affect_modify   ( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd );
  *
  * Returns the current date as a formatted string.
  *
- * RETURNS: Pointer to static buffer containing date in mm/dd/yyyy format
+ * RETURNS: Pointer to static buffer containing date in yyyy-mm-dd format
  *
  * DESCRIPTION:
  *   Uses system time to generate current date string.
@@ -70,7 +70,7 @@ char *get_curdate()
    thedate[11]='\0';
    time(&tm);
    now = *localtime(&tm);
-   sprintf(thedate,"%02d/%02d/%04d",now.tm_mon+1,now.tm_mday,now.tm_year+1900);
+   sprintf(thedate,"%04d-%02d-%02d",now.tm_year+1900,now.tm_mon+1,now.tm_mday);
 
    return thedate;
 }

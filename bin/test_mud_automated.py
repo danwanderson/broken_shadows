@@ -620,6 +620,7 @@ class MUDTestSuite:
 
         except Exception as e:
             self.log(f"Character creation failed: {e}", "ERROR")
+            self._connection_ok = False
             self.test_failed("Character creation")
             return False
 
@@ -656,6 +657,11 @@ class MUDTestSuite:
 
             exits = self.parse_exits(initial_look)
             if not exits:
+                if not initial_look.strip():
+                    self.log("No response to look — game session not active", "ERROR")
+                    self._connection_ok = False
+                    self.test_failed("Movement (no response)")
+                    return False
                 self.log("No exits parsed from look output", "WARNING")
                 self.test_passed("Movement (no exits available)")
                 return True
@@ -740,9 +746,10 @@ class MUDTestSuite:
                 self.test_passed("Inventory check")
                 return True
             else:
-                self.log("Inventory check returned empty", "WARNING")
-                self.test_passed("Inventory check (empty)")
-                return True
+                self.log("Inventory check returned empty — game session not active", "ERROR")
+                self._connection_ok = False
+                self.test_failed("Inventory check (no response)")
+                return False
 
         except Exception as e:
             self.log(f"Inventory test failed: {e}", "ERROR")

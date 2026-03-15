@@ -406,6 +406,19 @@ void boot_db(  )
             if ( strArea[0] == '$' )
                 break;
 
+            /* YAML: if area.lst entry is already a .yaml file, load directly */
+            {
+                char *dot = strrchr( strArea, '.' );
+                if ( dot && strcmp( dot, ".yaml" ) == 0 )
+                {
+                    if ( strcmp( strArea, "clans.yaml" ) == 0 )
+                        load_clans_yaml( strArea );
+                    else
+                        load_yaml_area_file( strArea );
+                    continue;
+                }
+            }
+
             /* YAML: if a .yaml counterpart exists, load it instead of .are.
              * clans.are uses its own YAML loader (load_clans_yaml) rather
              * than the generic area loader. */
@@ -492,6 +505,17 @@ void boot_db(  )
             strcpy( strArea, fread_word( fpList ) );
             if ( strArea[0] == '$' )
                 break;
+
+            /* YAML: if area.lst entry is already a .yaml file, load directly */
+            {
+                char *dot = strrchr( strArea, '.' );
+                if ( dot && strcmp( dot, ".yaml" ) == 0 )
+                {
+                    if ( strcmp( strArea, "clans.yaml" ) != 0 )
+                        load_yaml_area_resets_shops( strArea );
+                    continue;
+                }
+            }
 
             /* YAML: load resets/shops from .yaml counterpart if it exists.
              * clans.are has no rooms/resets/shops; skip it. */
@@ -3235,55 +3259,29 @@ void log_string( const char *str )
 
 
 /*
- * new version of log_string by Rahl
- * opens new log file if the date is different than the old log file name
- * (which is the current date)
+ * log_string: appends str to the daily log file ../log/YYYY-MM-DD.log.
+ * Opens and closes the file on every call (simple and safe).
  */
 
 void log_string( const char *str )
 {
     char *strtime;
-    char logfile[22];
-    char buf[12];
-    char temp[22];
-    int i, j;
+    char path[32];
     FILE *log_file;
-    FILE *tempfile;
 
-    buf[0] = '\0';
-    temp[0] = '\0';
+    sprintf( path, "../log/%s.log", get_curdate() );
 
-    log_file = NULL;
-
-    sprintf( buf, "%s", get_curdate() );
-    for ( i = 0; i < 10; i++ )
+    log_file = fopen( path, "a" );
+    if ( log_file == NULL )
     {
-        if ( buf[i] == '/' )
-            buf[i] = '-';
-    }
-
-    sprintf( temp, "../log/%s.log", buf );
-
-    if ( strcmp( temp, logfile ) )
-    {
-        tempfile = fopen( temp, "a" );
-        if ( log_file != NULL )
-            fclose( log_file );
-        for ( j = 0; j < 22; j++ )
-            logfile[j] = temp[j];
-        log_file = fopen( logfile, "a" );
-		if ( tempfile ) {
-        	fclose( tempfile );
-		}
-
+        perror( path );
+        return;
     }
 
     strtime = ctime( &current_time );
     strtime[strlen(strtime)-1] = '\0';
     fprintf( log_file, "%s :: %s\n", strtime, str );
-	if ( log_file ) {
-    	fclose( log_file );
-	}
+    fclose( log_file );
     return;
 }
 

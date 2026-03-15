@@ -816,6 +816,15 @@ void save_shops( FILE *fp, AREA_DATA *pArea )
 void save_area( AREA_DATA *pArea )
 {
     FILE *fp;
+    const char *dot;
+
+    /* If the area was loaded from a .yaml file, only save YAML */
+    dot = strrchr( pArea->filename, '.' );
+    if ( dot && strcmp( dot, ".yaml" ) == 0 )
+    {
+        save_yaml_area( pArea );
+        return;
+    }
 
     fclose( fpReserve );
     if ( !( fp = fopen( pArea->filename, "w" ) ) )

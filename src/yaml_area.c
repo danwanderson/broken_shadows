@@ -522,21 +522,8 @@ load_yaml_objects_section( yaml_document_t *doc, int seq_id )
             top_ed++;
         }
 
-        /* translate spell slots to skill numbers for pill/potion/scroll/wand/staff */
-        switch ( pObjIndex->item_type )
-        {
-        case ITEM_PILL:
-        case ITEM_POTION:
-        case ITEM_SCROLL:
-            pObjIndex->value[1] = slot_lookup( pObjIndex->value[1] );
-            pObjIndex->value[2] = slot_lookup( pObjIndex->value[2] );
-            pObjIndex->value[3] = slot_lookup( pObjIndex->value[3] );
-            break;
-        case ITEM_WAND:
-        case ITEM_STAFF:
-            pObjIndex->value[3] = slot_lookup( pObjIndex->value[3] );
-            break;
-        }
+        /* YAML files store spell values as sn (already converted from slot);
+         * no slot_lookup needed unlike the legacy .are loader. */
 
         iHash                   = vnum % MAX_KEY_HASH;
         pObjIndex->next         = obj_index_hash[iHash];
@@ -1233,6 +1220,10 @@ save_yaml_area( AREA_DATA *pArea )
     {
         *dot = '\0';
         strcat( dot_buf, ".yaml" );
+    }
+    else if ( dot && strcmp( dot, ".yaml" ) == 0 )
+    {
+        /* already .yaml — use as-is */
     }
     else
     {
