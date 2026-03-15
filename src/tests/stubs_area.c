@@ -104,7 +104,7 @@ void new_reset( ROOM_INDEX_DATA *pR, RESET_DATA *pReset )
 
 SPEC_FUN *spec_lookup( const char *name )   { (void)name; return NULL; }
 char     *spec_string( SPEC_FUN *fun )      { (void)fun;  return ""; }
-int       material_lookup( const char *name ) { (void)name; return 0; }
+long      material_lookup( const char *name ) { (void)name; return 0; }
 
 /*
  * race_lookup — returns 0 (the "unique" race index) for any name.
