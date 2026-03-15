@@ -3364,7 +3364,7 @@ void do_finger(CHAR_DATA *ch, char *argument) {
                 vis_clan(victim->pcdata->clan));
         send_to_char(buf->data, ch);
         bprintf(buf, "%s last logged on %s\r", victim->name,
-            ctime(&victim->logon));
+            ctime(&victim->pcdata->last_logon));
         send_to_char(buf->data, ch);
         bprintf(buf, "Email address: %s`w\n\r", victim->pcdata->email);
         send_to_char(buf->data, ch);
@@ -3410,7 +3410,7 @@ void do_finger(CHAR_DATA *ch, char *argument) {
             bprintf(buf, "%s is not a member of any clan.\n\r", capitalize(arg));
         send_to_char(buf->data, ch);
         bprintf(buf, "%s last logged on %s\r",
-            capitalize(arg), ctime(&victim->logon));
+            capitalize(arg), ctime(&victim->pcdata->last_logon));
         send_to_char(buf->data, ch);
         bprintf(buf, "Email address: %s`w\n\r",
             victim->pcdata->email ? victim->pcdata->email : "(none)");

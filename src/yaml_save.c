@@ -376,7 +376,7 @@ save_char_obj_yaml( CHAR_DATA *ch )
     if ( ch->trust )
         ys_int_kv( &em, "trust",    ch->trust                                );
     ys_int_kv( &em, "security",     ch->pcdata->security                     );
-    ys_int_kv( &em, "logon",        (long)ch->logon                          );
+    ys_int_kv( &em, "last_logon",   (long)ch->logon                          );
     ys_int_kv( &em, "played",
         (long)( ch->played + (int)(current_time - ch->logon) )               );
     ys_int_kv( &em, "last_note",    (long)ch->last_note                      );
@@ -765,7 +765,9 @@ load_yaml_char( CHAR_DATA *ch, yaml_document_t *doc, int player_id )
     ch->level       = (sh_int)yl_int( doc, player_id, "level",   1 );
     ch->trust       = (sh_int)yl_int( doc, player_id, "trust",   0 );
     ch->pcdata->security = yl_int( doc, player_id, "security", 0 );
-    ch->logon       = (time_t)yl_long( doc, player_id, "logon",   (long)current_time );
+    /* ch->logon is intentionally NOT loaded — it is set to current_time at char init */
+    ch->pcdata->last_logon = (time_t)yl_long( doc, player_id, "last_logon",
+        yl_long( doc, player_id, "logon", (long)current_time ) );
     ch->played      = yl_int(  doc, player_id, "played",    0 );
     ch->last_note   = (time_t)yl_long( doc, player_id, "last_note", 0 );
     ch->lines       = yl_int(  doc, player_id, "lines",     22 );
@@ -1239,6 +1241,7 @@ load_char_obj_yaml( DESCRIPTOR_DATA *d, const char *name )
     ch->pcdata->pkilled             = 0;
     ch->pcdata->incarnations        = 1;
     ch->pcdata->clan_leader         = 0;
+    ch->pcdata->last_logon          = current_time;
     ch->bonusPoints                 = 0;
 
     /* ------ open and parse YAML file ------------------------------ */

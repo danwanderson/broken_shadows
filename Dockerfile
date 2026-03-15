@@ -1,6 +1,8 @@
 FROM debian:latest
 
-RUN apt-get update && apt-get install -y telnet gdb make clang libyaml-dev \
+RUN apt-get update && apt-get install -y telnet gdb make clang libyaml-dev tzdata \
+    && ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime \
+    && echo "America/New_York" > /etc/timezone \
     && mkdir -p /srv/shadows \
     && useradd --no-create-home --home-dir /srv/shadows shadows
 
@@ -15,7 +17,9 @@ RUN make && make test && make clean
 
 FROM debian:latest
 
-RUN apt-get update && apt-get install -y telnet gdb libyaml-dev \
+RUN apt-get update && apt-get install -y telnet gdb libyaml-dev tzdata \
+    && ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime \
+    && echo "America/New_York" > /etc/timezone \
     && mkdir -p /srv/shadows \
     && useradd --no-create-home --home-dir /srv/shadows shadows
 

@@ -1591,6 +1591,7 @@ struct  pc_data
     bool                confirm_remort;
     sh_int              clan_leader;
 	char *				away_message;
+    time_t              last_logon;     /* timestamp of previous login, for finger */
 };
 
 /* Data for generating characters -- only used during generation */
