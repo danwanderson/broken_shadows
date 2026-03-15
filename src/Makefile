@@ -38,6 +38,7 @@ clean:
 	-rm -f tests/test_handler
 	-rm -f tests/test_flags
 	-rm -f tests/test_yaml_clans
+	-rm -f tests/test_yaml_area
 
 src:
 	#-rm -f src.*.tar*

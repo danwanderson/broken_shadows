@@ -1,11 +1,12 @@
 # Makefile for Broken Shadows unit tests
 #
-# Produces five independent test binaries:
+# Produces six independent test binaries:
 #   test_buffer     — tests for buffer.c  (find_mem_size, buffer_new/strcat/…)
 #   test_bit        — tests for bit.c     (is_stat, flag_lookup, flag_string, flag_value)
 #   test_handler    — tests for handler.c (get_date, get_time, lookups, check_immune)
 #   test_flags      — tests for flags_util.c (flag_convert, print_flags, round-trip)
 #   test_yaml_clans — tests for yaml_area.c clan functions (load/save/round-trip)
+#   test_yaml_area  — tests for yaml_area.c area/mob loading (dice, flag formats)
 #
 # Design notes:
 #   • Each binary links only the module(s) being tested plus stubs.c.
@@ -33,6 +34,9 @@ LDFLAGS = -O2 $(PROF) -Wl,--gc-sections -lm -pie
 # Shared stubs (always needed)
 stubs.o: stubs.c
 	$(CC) $(CFLAGS) -c stubs.c -o stubs.o
+
+stubs_area.o: stubs_area.c ../merc.h ../db.h
+	$(CC) $(CFLAGS) -c stubs_area.c -o stubs_area.o
 
 # Parent module objects compiled with test flags (suffix _t to avoid conflicts)
 buffer_t.o: ../buffer.c ../buffer.h ../merc.h
@@ -66,6 +70,9 @@ test_flags.o: test_flags.c test_framework.h ../merc.h ../flags_util.h
 test_yaml_clans.o: test_yaml_clans.c test_framework.h ../merc.h ../yaml_area.h
 	$(CC) $(CFLAGS) -c test_yaml_clans.c -o test_yaml_clans.o
 
+test_yaml_area.o: test_yaml_area.c test_framework.h ../merc.h ../db.h ../yaml_area.h
+	$(CC) $(CFLAGS) -c test_yaml_area.c -o test_yaml_area.o
+
 # ------------------------------------------------------------------ #
 #  Test binary link rules                                              #
 # ------------------------------------------------------------------ #
@@ -94,13 +101,19 @@ test_yaml_clans: test_yaml_clans.o yaml_area_t.o flags_util_t.o stubs.o
 	$(CC) $(LDFLAGS) -lyaml -o test_yaml_clans \
 		test_yaml_clans.o yaml_area_t.o flags_util_t.o stubs.o
 
+# test_yaml_area: exercises load_yaml_area_file() which reaches all section
+# loaders; stubs_area.o provides area-specific globals and function stubs.
+test_yaml_area: test_yaml_area.o yaml_area_t.o flags_util_t.o stubs.o stubs_area.o
+	$(CC) $(LDFLAGS) -lyaml -o test_yaml_area \
+		test_yaml_area.o yaml_area_t.o flags_util_t.o stubs.o stubs_area.o
+
 # ------------------------------------------------------------------ #
 #  Convenience targets                                                 #
 # ------------------------------------------------------------------ #
 
 .PHONY: all run clean
 
-all: test_buffer test_bit test_handler test_flags test_yaml_clans
+all: test_buffer test_bit test_handler test_flags test_yaml_clans test_yaml_area
 
 run: all
 	@echo ""
@@ -129,7 +142,12 @@ run: all
 	@echo "=============================="
 	./test_yaml_clans
 	@echo ""
+	@echo "=============================="
+	@echo " Running: test_yaml_area"
+	@echo "=============================="
+	./test_yaml_area
+	@echo ""
 	@echo "All test suites passed."
 
 clean:
-	-rm -f *.o test_buffer test_bit test_handler test_flags test_yaml_clans
+	-rm -f *.o test_buffer test_bit test_handler test_flags test_yaml_clans test_yaml_area

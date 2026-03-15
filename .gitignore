@@ -25,3 +25,4 @@ src/tests/test_bit
 src/tests/test_handler
 src/tests/test_flags
 src/tests/test_yaml_clans
+src/tests/test_yaml_area
