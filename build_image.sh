@@ -208,7 +208,7 @@ if [[ $BUILD_STATUS -eq 0 ]]; then
     FIRST_TAG=""
     read -ra TAG_PARTS <<< "$TAG_LIST"
     for i in "${!TAG_PARTS[@]}"; do
-        if [[ "${TAG_PARTS[$i]}" == "-t" ]]; then
+        if [[ "${TAG_PARTS[$i]}" == "-t" || "${TAG_PARTS[$i]}" == "--tag" ]]; then
             FIRST_TAG="${TAG_PARTS[$((i+1))]}"
             break
         fi

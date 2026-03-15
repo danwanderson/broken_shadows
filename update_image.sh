@@ -47,7 +47,7 @@ done
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR" || exit 1
 
-REGISTRY_BASE=$(docker compose config | awk '/^\s+image:/{print $2; exit}' | cut -d: -f1)
+REGISTRY_BASE=$(docker compose config | awk '/^[[:space:]]+image:/{print $2; exit}' | sed 's/:[^:]*$//')
 if [[ -z "$REGISTRY_BASE" ]]; then
     echo "Error: could not determine image from docker-compose config"
     exit 1
