@@ -15,12 +15,13 @@
 # EXENAME - the name of the executable
 # ARCHIVEDIR - where to store the archive once it's finished
 # ARCHIVENAME - name of the archive - assigned automatically
+SHADOWSDIR="/srv/shadows"
 MUDDIR="shadows"
 TEMPDIR="/tmp"
-AREADIR="${HOME}/${MUDDIR}/area"
-SRCDIR="${HOME}/${MUDDIR}/src"
+AREADIR="${SHADOWSDIR}/area"
+SRCDIR="${SHADOWSDIR}/src"
 EXENAME="shadows"
-ARCHIVEDIR="$HOME/archives"
+ARCHIVEDIR="${SHADOWSDIR}/backup"
 DATE=$(date +%Y-%m-%d_%H-%M)
 ARCHIVENAME="${EXENAME}.${DATE}.tar"
 MAILUSER="someuser@example.com"
@@ -38,15 +39,15 @@ then
  	if ! mkdir "${ARCHIVEDIR}"
 	then
 		echo "Error creating archive directory."
-		echo "Setting archive directory to ${HOME}"
-		ARCHIVEDIR="${HOME}"
+		echo "Setting archive directory to ${SHADOWSDIR}"
+		ARCHIVEDIR="${SHADOWSDIR}"
 	fi
 fi
 
 # Change into the MUD directory
-if ! cd "${HOME}/${MUDDIR}"
+if ! cd "${SHADOWSDIR}"
 then
-	echo "Error changing into ${HOME}/${MUDDIR}"
+	echo "Error changing into ${SHADOWSDIR}"
 	echo "Exiting..."
 	exit 1
 fi
@@ -67,7 +68,7 @@ rm -f "${SRCDIR}"/*.o
 # to pad everything with 0s, but it doesn't do the hour, apparently.
 #ARCHIVENAME=`echo "${ARCHIVENAME}" | sed -e 's/ /0/g'`
 
-cd "${HOME}" || exit
+cd "${SHADOWSDIR}/.." || exit
 
 # Create the tar archive
 tar cf "${TEMPDIR}/${ARCHIVENAME}" "${MUDDIR}"

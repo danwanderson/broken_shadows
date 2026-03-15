@@ -202,6 +202,30 @@ if [[ $BUILD_STATUS -eq 0 ]]; then
         echo "Hint: Use '--docker' flag to push to Docker Hub:"
         echo "  $0 --docker"
     fi
+
+    # Extract the shadows binary from the built image so it can be bind-mounted
+    # into the running container for copyover (hot reboot) support.
+    FIRST_TAG=""
+    read -ra TAG_PARTS <<< "$TAG_LIST"
+    for i in "${!TAG_PARTS[@]}"; do
+        if [[ "${TAG_PARTS[$i]}" == "-t" ]]; then
+            FIRST_TAG="${TAG_PARTS[$((i+1))]}"
+            break
+        fi
+    done
+
+    if [[ -n "$FIRST_TAG" ]]; then
+        echo ""
+        echo "Extracting binary from $FIRST_TAG for copyover support..."
+        docker pull "$FIRST_TAG"
+        CONTAINER_ID=$(docker create "$FIRST_TAG")
+        docker cp "${CONTAINER_ID}:/srv/shadows/bin/shadows" ./bin/shadows
+        docker rm "$CONTAINER_ID"
+        chmod +x ./bin/shadows
+        echo "✓ Binary extracted to ./bin/shadows"
+    else
+        echo "Warning: could not determine image tag from TAG_LIST to extract binary"
+    fi
 else
     echo "✗ Build failed with exit code $BUILD_STATUS"
     exit $BUILD_STATUS

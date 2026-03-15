@@ -6,6 +6,7 @@ services:
       - "4000:4000/tcp"
     # Volumes store your data between container upgrades
     volumes:
+      - './bin/:/srv/shadows/bin/:ro'
       - './area/:/srv/shadows/area/'
       - './gods/:/srv/shadows/gods/'
       - './log/:/srv/shadows/log/'

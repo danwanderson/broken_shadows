@@ -10,12 +10,12 @@
 # TEMPFILE - the name of the temp file
 # LOGDIR - where we'll store the log file
 # LOGFILE - name of the log file
-SHADOWSDIR="${HOME}/shadows"
+SHADOWSDIR="/srv/shadows"
 PLAYERDIR="${SHADOWSDIR}/player"
 TEMPDIR="/tmp"
 TEMPFILE="${TEMPDIR}/clean_pfiles$$.tmp"
 TEMPPFILE="${TEMPDIR}/pfiles.tmp"
-LOGDIR="${HOME}/shadows"
+LOGDIR="${SHADOWSDIR}/log"
 LOGFILE="${LOGDIR}/removed_pfiles.log"
 
 # Make sure the temp dir/file are readable/writable
