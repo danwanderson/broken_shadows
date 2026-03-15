@@ -47,12 +47,12 @@ done
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR" || exit 1
 
-REGISTRY_BASE=$(docker compose config | awk '/^[[:space:]]+image:/{print $2; exit}' | sed 's/:[^:]*$//')
-if [[ -z "$REGISTRY_BASE" ]]; then
+REGISTRY_IMAGE=$(docker compose config | awk '/^[[:space:]]+image:/{print $2; exit}')
+if [[ -z "$REGISTRY_IMAGE" ]]; then
     echo "Error: could not determine image from docker-compose config"
     exit 1
 fi
-REGISTRY_IMAGE="${REGISTRY_BASE}:latest"
+REGISTRY_LATEST="$(echo "$REGISTRY_IMAGE" | sed 's/:[^:]*$//')":latest
 
 if [[ "$FULL" == true ]]; then
     DATE=$(date +%Y%m%d_%H%M)
@@ -64,11 +64,18 @@ if [[ "$FULL" == true ]]; then
     docker compose pull
     docker compose up -d
     docker image prune --force
+
+    echo "Extracting binary from $REGISTRY_IMAGE ..."
+    CONTAINER_ID=$(docker create "$REGISTRY_IMAGE")
+    docker cp "${CONTAINER_ID}:/srv/shadows/bin/shadows" ./bin/shadows
+    docker rm "$CONTAINER_ID"
+    chmod +x ./bin/shadows
+    echo "✓ Binary extracted to ./bin/shadows"
     echo "✓ Full update complete."
 else
-    echo "Pulling binary from $REGISTRY_IMAGE ..."
-    docker pull "$REGISTRY_IMAGE"
-    CONTAINER_ID=$(docker create "$REGISTRY_IMAGE")
+    echo "Pulling binary from $REGISTRY_LATEST ..."
+    docker pull "$REGISTRY_LATEST"
+    CONTAINER_ID=$(docker create "$REGISTRY_LATEST")
     docker cp "${CONTAINER_ID}:/srv/shadows/bin/shadows" ./bin/shadows
     docker rm "$CONTAINER_ID"
     chmod +x ./bin/shadows
