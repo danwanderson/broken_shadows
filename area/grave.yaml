@@ -15,7 +15,7 @@ mobiles:
     worn with\n\rdecades of hard work and his somewhat crouched expression is one
     of deep\n\rsorrow and depression.  He is haunted by a memory of a lost paradise.\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 350
@@ -59,8 +59,8 @@ mobiles:
   long_desc: "A rotting zombie is staggering towards you with outstretched hands.\n\r"
   description: "Maggots crawl all over its decaying body.\n\r"
   race: Human
-  act: 524322
-  affected_by: 512
+  act: BFT
+  affected_by: J
   affected2_by: 0
   alignment: -750
   clan: 0
@@ -105,8 +105,8 @@ mobiles:
     most of\n\rresemble claws.  Its eyes are a dark yellow colour and glare hungrily
     at you.\n\r"
   race: Human
-  act: 524322
-  affected_by: 512
+  act: BFT
+  affected_by: J
   affected2_by: 0
   alignment: -750
   clan: 0
@@ -150,8 +150,8 @@ mobiles:
   description: "The dusty bones are almost brown.  It must have been buried for a
     very long\n\rtime.\n\r"
   race: Human
-  act: 524322
-  affected_by: 512
+  act: BFT
+  affected_by: J
   affected2_by: 0
   alignment: -750
   clan: 0
@@ -195,8 +195,8 @@ mobiles:
   description: "The dusty bones are almost brown.  It must have been buried for a
     very long\n\rtime.\n\r"
   race: Human
-  act: 524320
-  affected_by: 512
+  act: FT
+  affected_by: J
   affected2_by: 0
   alignment: -750
   clan: 0
@@ -239,8 +239,8 @@ mobiles:
   long_desc: "A rotting zombie is staggering towards you with outstretched hands.\n\r"
   description: "Maggots crawl all over its decaying body.\n\r"
   race: Human
-  act: 524320
-  affected_by: 512
+  act: FT
+  affected_by: J
   affected2_by: 0
   alignment: -750
   clan: 0
@@ -285,7 +285,7 @@ objects:
   material: none
   item_type: 1
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 0
   weight: 5
   cost: 0
@@ -307,7 +307,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 4
   weight: 2
   cost: 40
@@ -330,7 +330,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 2
   weight: 2
   cost: 20
@@ -353,7 +353,7 @@ objects:
   material: none
   item_type: 22
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 1
   weight: 100
   cost: 10
@@ -375,7 +375,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 2
   weight: 8
   cost: 20
@@ -396,7 +396,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 2
   weight: 8
   cost: 20
@@ -417,7 +417,7 @@ objects:
   material: none
   item_type: 12
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 1
   weight: 15
   cost: 10
@@ -439,7 +439,7 @@ objects:
   material: none
   item_type: 8
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 5
   weight: 1
   cost: 50
@@ -460,7 +460,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 5
+  wear_flags: AC
   level: 6
   weight: 1
   cost: 60
@@ -481,7 +481,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 0
   weight: 1
   cost: 0
@@ -513,7 +513,7 @@ rooms:
   - dir: 0
     desc: "Through the solid iron bars you see Elm Street. \n\r"
     keywords: grate
-    exit_flags: 15
+    exit_flags: ABCD
     key: 3121
     to_vnum: 3124
   - dir: 1
@@ -621,7 +621,7 @@ rooms:
   - dir: 2
     desc: "The chapel door is made of dark wood.\n\r"
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3405
   - dir: 3
@@ -654,7 +654,7 @@ rooms:
   - dir: 5
     desc:
     keywords: tomb stone
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 3607
   extra_descs:
@@ -666,14 +666,14 @@ rooms:
   name: In a dusty Tomb
   description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
     only exit appears to be up.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
   - dir: 4
     desc:
     keywords: tomb stone
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 3606
   extra_descs: []
@@ -700,7 +700,7 @@ rooms:
   - dir: 5
     desc:
     keywords: tomb stone
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3609
   extra_descs:
@@ -712,14 +712,14 @@ rooms:
   name: In a dusty Tomb
   description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
     only exit appears to be up.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
   - dir: 4
     desc:
     keywords: tomb stone
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3608
   extra_descs: []
@@ -746,7 +746,7 @@ rooms:
   - dir: 5
     desc:
     keywords: tomb stone
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 3611
   extra_descs:
@@ -758,14 +758,14 @@ rooms:
   name: In a dusty Tomb
   description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
     only exit appears to be up.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
   - dir: 4
     desc:
     keywords: tomb stone
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 3610
   extra_descs: []
@@ -792,7 +792,7 @@ rooms:
   - dir: 3
     desc: "It is a small black-painted shed with a wooden door.\n\r"
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3613
   extra_descs: []
@@ -801,14 +801,14 @@ rooms:
   description: "You are in a small shed that looks as if it is used to store all sorts
     of\n\rgardening equipment.  The only exit appears to be through a door to the
     east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
   - dir: 1
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3612
   extra_descs: []
@@ -835,7 +835,7 @@ rooms:
   - dir: 5
     desc:
     keywords: tomb stone
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 3615
   extra_descs:
@@ -847,14 +847,14 @@ rooms:
   name: In a dusty Tomb
   description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
     only exit appears to be up.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
   - dir: 4
     desc:
     keywords: tomb stone
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 3614
   extra_descs: []
@@ -881,7 +881,7 @@ rooms:
   - dir: 5
     desc:
     keywords: tomb stone
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 3617
   extra_descs:
@@ -893,14 +893,14 @@ rooms:
   name: In a dusty Tomb
   description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
     only exit appears to be up.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
   - dir: 4
     desc:
     keywords: tomb stone
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 3616
   extra_descs: []
@@ -927,7 +927,7 @@ rooms:
   - dir: 5
     desc:
     keywords: tomb stone
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 3619
   extra_descs:
@@ -939,14 +939,14 @@ rooms:
   name: In a dusty Tomb
   description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
     only exit appears to be up.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
   - dir: 4
     desc:
     keywords: tomb stone
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 3618
   extra_descs: []
@@ -973,7 +973,7 @@ rooms:
   - dir: 5
     desc:
     keywords: tomb stone
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 3639
   extra_descs:
@@ -985,14 +985,14 @@ rooms:
   name: In a dusty Tomb
   description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
     only exit appears to be up.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
   - dir: 4
     desc:
     keywords: tomb stone
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 3638
   extra_descs: []
@@ -1019,7 +1019,7 @@ rooms:
   - dir: 5
     desc:
     keywords: tomb stone
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 3641
   extra_descs:
@@ -1031,14 +1031,14 @@ rooms:
   name: In a dusty Tomb
   description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
     only exit appears to be up.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
   - dir: 4
     desc:
     keywords: tomb stone
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 3640
   extra_descs: []
@@ -1065,7 +1065,7 @@ rooms:
   - dir: 5
     desc:
     keywords: tomb stone
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 3643
   extra_descs:
@@ -1077,14 +1077,14 @@ rooms:
   name: In a dusty Tomb
   description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
     only exit appears to be up.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
   - dir: 4
     desc:
     keywords: tomb stone
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 3642
   extra_descs: []
@@ -1111,7 +1111,7 @@ rooms:
   - dir: 5
     desc:
     keywords: tomb stone
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3645
   extra_descs:
@@ -1123,14 +1123,14 @@ rooms:
   name: In a dusty Tomb
   description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
     only exit appears to be up.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
   - dir: 4
     desc:
     keywords: tomb stone
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3644
   extra_descs: []
@@ -1157,7 +1157,7 @@ rooms:
   - dir: 5
     desc:
     keywords: tomb stone
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3647
   extra_descs:
@@ -1169,14 +1169,14 @@ rooms:
   name: In a dusty Tomb
   description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
     only exit appears to be up.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
   - dir: 4
     desc:
     keywords: tomb stone
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3646
   extra_descs: []
@@ -1203,7 +1203,7 @@ rooms:
   - dir: 5
     desc:
     keywords: tomb stone
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3649
   extra_descs:
@@ -1215,14 +1215,14 @@ rooms:
   name: In a dusty Tomb
   description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
     only exit appears to be up.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
   - dir: 4
     desc:
     keywords: tomb stone
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3648
   extra_descs: []
@@ -1249,7 +1249,7 @@ rooms:
   - dir: 5
     desc:
     keywords: tomb stone
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3651
   extra_descs:
@@ -1261,14 +1261,14 @@ rooms:
   name: In a dusty Tomb
   description: "You are in a dark burial chamber beneath a large tomb stone.\n\rThe
     only exit appears to be up.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
   - dir: 4
     desc:
     keywords: tomb stone
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3650
   extra_descs: []

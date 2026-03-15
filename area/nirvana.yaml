@@ -14,7 +14,7 @@ mobiles:
   description: "You see what appears to be a 3 sided pyramid with spidery arms and
     legs.\n\r"
   race: modron
-  act: 68
+  act: CG
   affected_by: 0
   affected2_by: 0
   alignment: 300
@@ -39,7 +39,7 @@ mobiles:
     bash: 3
     slash: 4
     exotic: 5
-  off_flags: 8192
+  off_flags: N
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -48,7 +48,7 @@ mobiles:
   sex: 0
   gold: 0
   form: 0
-  parts: 256
+  parts: I
   size: M
   material: none
   spec_fun:
@@ -58,8 +58,8 @@ mobiles:
   long_desc: "A quadrone is here watching for trespassers.\n\r"
   description: "A cubic creature, with spiny arms and legs.\n\r"
   race: modron
-  act: 524384
-  affected_by: 8
+  act: FGT
+  affected_by: D
   affected2_by: 0
   alignment: 300
   clan: 0
@@ -83,7 +83,7 @@ mobiles:
     bash: 0
     slash: 1
     exotic: 2
-  off_flags: 1044
+  off_flags: CEK
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -92,7 +92,7 @@ mobiles:
   sex: 0
   gold: 0
   form: 0
-  parts: 256
+  parts: I
   size: M
   material: none
   spec_fun:
@@ -103,8 +103,8 @@ mobiles:
   description: "A five-armed creature which resembles a starfish on thin stilt-like
     legs.\n\r"
   race: modron
-  act: 524386
-  affected_by: 8
+  act: BFGT
+  affected_by: D
   affected2_by: 0
   alignment: 300
   clan: 0
@@ -128,8 +128,8 @@ mobiles:
     bash: -2
     slash: 0
     exotic: -1
-  off_flags: 10292
-  imm_flags: 131072
+  off_flags: CEFLN
+  imm_flags: R
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -137,7 +137,7 @@ mobiles:
   sex: 0
   gold: 0
   form: 0
-  parts: 8192
+  parts: N
   size: M
   material: none
   spec_fun:
@@ -147,8 +147,8 @@ mobiles:
   long_desc: "A decaton is here overseeing the other modrons.\n\r"
   description: "The decaton is a large, ten-tentacled sphere on stumpy legs.\n\r"
   race: modron
-  act: 589922
-  affected_by: 8
+  act: BFGQT
+  affected_by: D
   affected2_by: 0
   alignment: 300
   clan: 0
@@ -172,16 +172,16 @@ mobiles:
     bash: -4
     slash: 0
     exotic: -2
-  off_flags: 9237
-  imm_flags: 131072
+  off_flags: ACEKN
+  imm_flags: R
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: 4096
-  parts: 8192
+  form: M
+  parts: N
   size: M
   material: none
   spec_fun:
@@ -191,8 +191,8 @@ mobiles:
   long_desc: "A nonaton is here preserving law and order.\n\r"
   description: "A cylidrical modron with 9 tentacles and stubby legs.\n\r"
   race: modron
-  act: 589922
-  affected_by: 136
+  act: BFGQT
+  affected_by: DH
   affected2_by: 0
   alignment: 300
   clan: 0
@@ -216,16 +216,16 @@ mobiles:
     bash: -4
     slash: -2
     exotic: -3
-  off_flags: 8241
-  imm_flags: 131072
+  off_flags: AEFN
+  imm_flags: R
   res_flags: 0
-  vuln_flags: 64
+  vuln_flags: G
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: 4096
-  parts: 8192
+  form: M
+  parts: N
   size: L
   material: none
   spec_fun:
@@ -236,8 +236,8 @@ mobiles:
   description: "The octon has a collar at shoulder level with 8 tentacled arms growing
     out of\n\rit.\n\r"
   race: modron
-  act: 65634
-  affected_by: 8
+  act: BFGQ
+  affected_by: D
   affected2_by: 0
   alignment: 300
   clan: 0
@@ -261,16 +261,16 @@ mobiles:
     bash: -5
     slash: -3
     exotic: -4
-  off_flags: 1173
-  imm_flags: 131072
+  off_flags: ACEHK
+  imm_flags: R
   res_flags: 0
-  vuln_flags: 64
+  vuln_flags: G
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: 4096
-  parts: 8192
+  form: M
+  parts: N
   size: L
   material: none
   spec_fun:
@@ -281,8 +281,8 @@ mobiles:
   description: "The septon appears as a human with a large bald head. It has a shoulder
     collar\n\rwith 7 tentacles coming from it.\n\r"
   race: modron
-  act: 196706
-  affected_by: 8
+  act: BFGQR
+  affected_by: D
   affected2_by: 0
   alignment: 300
   clan: 0
@@ -306,16 +306,16 @@ mobiles:
     bash: -6
     slash: -6
     exotic: -4
-  off_flags: 17441
-  imm_flags: 131072
+  off_flags: AFKO
+  imm_flags: R
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: 4096
-  parts: 8448
+  form: M
+  parts: IN
   size: M
   material: none
   spec_fun:
@@ -326,8 +326,8 @@ mobiles:
   description: "A hexton appears as a humanoid with 6 arms: 2 large human arms with
     6 fingers,\n\rand 4 tentacles below tipped with sharp claws.\n\r"
   race: modron
-  act: 589922
-  affected_by: 168
+  act: BFGQT
+  affected_by: DFH
   affected2_by: 0
   alignment: 300
   clan: 0
@@ -351,16 +351,16 @@ mobiles:
     bash: -8
     slash: -8
     exotic: -4
-  off_flags: 11701
-  imm_flags: 131073
-  res_flags: 4
+  off_flags: ACEFHIKLN
+  imm_flags: AR
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: 4096
-  parts: 41216
+  form: M
+  parts: INP
   size: L
   material: none
   spec_fun:
@@ -372,8 +372,8 @@ mobiles:
     from the\n\rshoulders.  A prehensile tail serves as the creature's 5th arm, and
     they have\n\rfan-like wings attached to their shoulders.\n\r"
   race: modron
-  act: 65634
-  affected_by: 8
+  act: BFGQ
+  affected_by: D
   affected2_by: 0
   alignment: 300
   clan: 0
@@ -397,16 +397,16 @@ mobiles:
     bash: -8
     slash: -6
     exotic: -8
-  off_flags: 21505
-  imm_flags: 131073
+  off_flags: AKMO
+  imm_flags: AR
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: 4096
-  parts: 106752
+  form: M
+  parts: INPQ
   size: L
   material: none
   spec_fun:
@@ -418,8 +418,8 @@ mobiles:
     from\n\rthe sides of their bald heads, and the long prehensile tail ending in
     a mace-\n\rlike ball.\n\r"
   race: modron
-  act: 720994
-  affected_by: 8
+  act: BFGQRT
+  affected_by: D
   affected2_by: 0
   alignment: 300
   clan: 0
@@ -443,16 +443,16 @@ mobiles:
     bash: -13
     slash: -10
     exotic: -9
-  off_flags: 52
-  imm_flags: 131073
-  res_flags: 4
+  off_flags: CEF
+  imm_flags: AR
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: 4096
-  parts: 4194560
+  form: M
+  parts: IW
   size: H
   material: none
   spec_fun:
@@ -463,8 +463,8 @@ mobiles:
   description: "The secundi is an incredibly thin, tall humanoids with long, narrow
     faces\n\rand deepset eyes. It radiates intense power.\n\r"
   race: modron
-  act: 720994
-  affected_by: 168
+  act: BFGQRT
+  affected_by: DFH
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -488,16 +488,16 @@ mobiles:
     bash: -14
     slash: -11
     exotic: -12
-  off_flags: 9648
-  imm_flags: 132481
-  res_flags: 4
+  off_flags: EFHIKN
+  imm_flags: AHIKR
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: 4096
-  parts: 256
+  form: M
+  parts: I
   size: H
   material: none
   spec_fun:
@@ -509,8 +509,8 @@ mobiles:
     at you with\n\rviolet eyes. His right hand is wreathed in darkness, his left in
     light, and\n\rhe looks very displeased to see you.\n\r"
   race: modron
-  act: 720994
-  affected_by: 168
+  act: BFGQRT
+  affected_by: DFH
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -534,16 +534,16 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 129
-  imm_flags: 394625
-  res_flags: 4
+  off_flags: AH
+  imm_flags: AHIKRS
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: 4096
-  parts: 256
+  form: M
+  parts: I
   size: G
   material: none
   spec_fun:
@@ -554,8 +554,8 @@ objects:
   description: THE long sword of Primus is here.
   material: none
   item_type: 5
-  extra_flags: 1601
-  wear_flags: 8193
+  extra_flags: AGJK
+  wear_flags: AN
   level: 32
   weight: 40
   cost: 0
@@ -567,11 +567,11 @@ objects:
   - 48
   affects:
   - where: O
-    location: 19
+    location: 18
     modifier: 5
     bitvector: 0
   - where: O
-    location: 18
+    location: 19
     modifier: 5
     bitvector: 0
   extra_descs:
@@ -737,7 +737,7 @@ rooms:
   description: "Entering the tower, there seems to be enough light to see by, but
     no source is \n\rvisible.  The hall continues to the east, while a door lies to
     the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -750,7 +750,7 @@ rooms:
   - dir: 3
     desc: "A great door lies to the west\n\r"
     keywords: door
-    exit_flags: 9
+    exit_flags: AD
     key: -1
     to_vnum: 9013
   extra_descs: []
@@ -758,14 +758,14 @@ rooms:
   name: A hallway in the Tower of Nirvana
   description: "You are in a east-west hallway in the tower.  to the west, the hall
     continues \n\rand a door lies to the east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc: "A great door lies to the east\n\r"
     keywords: door
-    exit_flags: 9
+    exit_flags: AD
     key: -1
     to_vnum: 9012
   - dir: 3
@@ -778,7 +778,7 @@ rooms:
 - vnum: 9009
   name: An east-west hallway in the Tower of Nirvana
   description: "The hallway continues to the east, and stretches to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -798,7 +798,7 @@ rooms:
 - vnum: 9010
   name: An east-west passage in the Tower of Nirvana
   description:
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -819,7 +819,7 @@ rooms:
   name: An intersection in the Tower of Nirvana
   description: "You are at an intersection where the east-west passage continues,
     but a large \n\rpassage leads to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -865,7 +865,7 @@ rooms:
   - dir: 3
     desc: "A mighty door lies to the west\n\r"
     keywords: door
-    exit_flags: 9
+    exit_flags: AD
     key: -1
     to_vnum: 9008
   extra_descs:
@@ -889,7 +889,7 @@ rooms:
   - dir: 1
     desc: "A mighty door sits to the east\n\r"
     keywords: door
-    exit_flags: 9
+    exit_flags: AD
     key: 0
     to_vnum: 9007
   - dir: 2
@@ -945,7 +945,7 @@ rooms:
 - vnum: 9016
   name: Dead End
   description: "You stand at a dead end where the only exit appears to be west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -959,7 +959,7 @@ rooms:
 - vnum: 9017
   name: Dead End
   description: "You are at what appears to be a dead end.  The only exit is back east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -974,7 +974,7 @@ rooms:
   name: A Tertain's lair
   description: "You quite possibly have made a terrible mistake coming in here.\n\rExits
     lead east and west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -995,7 +995,7 @@ rooms:
   name: A Tertian's lair
   description: "You might have made a terrible mistake coming into here.\n\rExits
     lead east and west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1017,7 +1017,7 @@ rooms:
   description: "You are in a large hall, with a massive pool of what appears to be
     pure energy \n\rin the center of the room.  Exits lead in all the cardinal directions.
     \ From \n\rthe pool rises the master of the Plane of Nirvana....\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1050,7 +1050,7 @@ rooms:
   name: A Tertian's lair
   description: "Maybe coming here wasn't such a hot idea.  You feel very unwelcome
     here.  \n\rExits lead north and south\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1072,7 +1072,7 @@ rooms:
   description: "You have stumbled upon the office of a page to Primus.\n\rScrolls
     lie about the room along with me strange objects...you can't imagine \n\rwhat
     kind of creature would use them.  Exits lead in all the cardinal \n\rdirections.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1104,7 +1104,7 @@ rooms:
 - vnum: 9023
   name: A wide north-south passageway
   description: "you find yourself in a passage where the exits are north and south\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1124,7 +1124,7 @@ rooms:
 - vnum: 9024
   name: A Tertian's lair
   description: "You find yourself in a lair of a Tertian.  Exits lead north and south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1144,7 +1144,7 @@ rooms:
 - vnum: 9025
   name: A north south tunnel
   description: "You are in a passage where the only exits are north and south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1165,14 +1165,14 @@ rooms:
   name: An intersection of passages
   description: "You stand at an intersection.  Exits lead off to the east and south.
     \n\rA door lies to the north\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc: "you see a massive door\n\r"
     keywords: door
-    exit_flags: 9
+    exit_flags: AD
     key: 0
     to_vnum: 9031
   - dir: 1
@@ -1284,7 +1284,7 @@ rooms:
   - dir: 2
     desc: "A large door blocks the way to the south.\n\r"
     keywords: door
-    exit_flags: 9
+    exit_flags: AD
     key: 0
     to_vnum: 9026
   - dir: 3
@@ -1297,7 +1297,7 @@ rooms:
 - vnum: 9032
   name: A Junction in the passage
   description: "Here, passages lead off in all cardinal directions.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1329,7 +1329,7 @@ rooms:
 - vnum: 9033
   name: The office of the Octon
   description: "you are in a small room, the only exit is south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1343,7 +1343,7 @@ rooms:
 - vnum: 9034
   name: A small room
   description: "The only exit is north\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1357,7 +1357,7 @@ rooms:
 - vnum: 9035
   name: A passageway
   description: "Exits lead in all cardinal directions.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1391,7 +1391,7 @@ rooms:
   description: "You are in a room that is in complete disrepair.  Items are thrown
     throughout \n\rthe room making them worthless piles of junk.\n\rThe only exit
     is back south\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1406,7 +1406,7 @@ rooms:
   name: Office of a Hexton
   description: "A makeshift desk forms the center of this room.  The only exit is
     north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1422,7 +1422,7 @@ rooms:
   description: "You are standing in a office of one of the Viceroys of the Plane of
     Nirvana.  \n\rThe occupant doesn't look real thrilled with your presence.  The
     only exits is \n\rwest.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1436,7 +1436,7 @@ rooms:
 - vnum: 9039
   name: A Junction in the hallway
   description: "Your are standing in a junction, exits lead in all the cardinal directions.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1469,7 +1469,7 @@ rooms:
   name: Office of an Octon
   description: "You see a messy room with papers scattered everywhere.\n\rThe only
     exit leads back to the south\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1484,7 +1484,7 @@ rooms:
   name: Office of a Septon
   description: "A neat and tidy room, it appear to be inhabited my a neatenss freak.
     \ The only \n\rexit lies to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1498,7 +1498,7 @@ rooms:
 - vnum: 9042
   name: An east-west passage
   description: "In east west passage is here with exits in all of the cardinal directions.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1532,7 +1532,7 @@ rooms:
   description: "A dusty room, with a almost untolerable odor, the barracks are being
     inspected \n\rby a Hexton and his personal enterage.\n\rThe only exit lies to
     the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1549,7 +1549,7 @@ rooms:
     in the Plane \n\rOf Nirvana.  The room is well furnished and a sense of courage
     and bravery \n\rovertakes you as you enter the room.  The only exit lies to the
     north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1564,7 +1564,7 @@ rooms:
   name: The chamber of the second Secundus
   description: "This huge room is furnished with the finest, and a personal legion
     guards the \n\rSecundus. the only exit is to the east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1579,7 +1579,7 @@ rooms:
   name: A Passageway
   description: "You are in a well lit passage.  I sense of forboding danger envelopes
     you.  \n\rExits lead in all cardinal directions.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1612,7 +1612,7 @@ rooms:
   name: Chamber of the Octon
   description: "A small room, sparsely furnished, it leaves you with a sense of fear.
     \ The \n\ronly exit is to the south\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1627,7 +1627,7 @@ rooms:
   name: Chamber of the Nonaton
   description: "You have entered the chamber of the principal law and order overseers.
     \ The \n\ronly exit lies to the north\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1642,7 +1642,7 @@ rooms:
   name: End of the passageway
   description: "You have reached the end of a long east-west passage.  The passage
     contiues to \n\rthe west, and rooms lie to the north, south, and east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1675,7 +1675,7 @@ rooms:
   name: Chamber of a Hexton
   description: "You have entered the chamber of a Hexton.  Trophies adorn the walls,
     some of \n\rwhich are human. the only exit is to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1690,7 +1690,7 @@ rooms:
   name: Chamber of a Hexton
   description: "You have entered a room where you are not very popular. The only exit
     lies \n\rnorthbound.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1705,7 +1705,7 @@ rooms:
   name: Chamber of the Secudus
   description: "A large canvernous room, this chamber serves as the sleeping quarters
     for the \n\rthird Secudus, Viceroy to Primus. The only exit lies to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1719,7 +1719,7 @@ rooms:
 - vnum: 9053
   name: A passageway
   description: "You are in a passagway where you may go in any cardinal direction.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1751,7 +1751,7 @@ rooms:
 - vnum: 9054
   name: A small chamber
   description: "You are in a small cramped chamber.  The only exit lies to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1766,7 +1766,7 @@ rooms:
   name: A cramped room
   description: "You are in a small, crowded room.  The only exit appears to lie to
     the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1781,7 +1781,7 @@ rooms:
   name: A large room
   description: "You have entered a room where you are not wanted.  The only exit lies
     to the \n\rsouth.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1796,7 +1796,7 @@ rooms:
   name: A room
   description: "You have entered a room where there was obviously a hurried move going
     on.  \n\rThe only exit lies to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1812,7 +1812,7 @@ rooms:
   description: "You have disturbed the rest of the First Viceroy to Primus the Prime,
     The \n\rSecundus.  He does not look like a happy camper. The only exit lies to
     the \n\reast.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1826,7 +1826,7 @@ rooms:
 - vnum: 9059
   name: Junction in the hallway
   description: "Exits lead off in all of the cardinal directions\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:

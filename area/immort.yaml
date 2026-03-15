@@ -16,8 +16,8 @@ mobiles:
     never\n\rleaves his side, and shall remain unwinded until the dread ship Naglfar
     sails\n\rtowards Valhalla on the dawn of Ragnarok \n\r"
   race: Human
-  act: 2621442
-  affected_by: 33554988
+  act: BTV
+  affected_by: CDFJZ
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -41,9 +41,9 @@ mobiles:
     bash: -20
     slash: -20
     exotic: -10
-  off_flags: 552381
-  imm_flags: 32771
-  res_flags: 12
+  off_flags: ACDEFHIKLNOT
+  imm_flags: ABP
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -63,8 +63,8 @@ mobiles:
     never\n\rleaves his side, and shall remain unwinded until the dread ship Naglfar
     sails\n\rtowards Valhalla on the dawn of Ragnarok \n\r"
   race: Human
-  act: 2621442
-  affected_by: 33554988
+  act: BTV
+  affected_by: CDFJZ
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -88,9 +88,9 @@ mobiles:
     bash: -20
     slash: -20
     exotic: -10
-  off_flags: 552381
-  imm_flags: 32771
-  res_flags: 12
+  off_flags: ACDEFHIKLNOT
+  imm_flags: ABP
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -109,7 +109,7 @@ rooms:
     fire\n\rwhich twinkles happily in a warm fireplace.  This is one of the many rooms\n\rwhere
     the heroes and gods come to socialize.  It is by far one of the most\n\rcomfortable!
     \n\r"
-  room_flags: 66056
+  room_flags: DJQ
   sector: 0
   owner:
   exits:
@@ -127,7 +127,7 @@ rooms:
     \ This room was designed for total relaxation.  You can watch\n\rtelevision, listen
     to the stereo, even soak in a hot tub.  There is a bell\n\rhere for the butler.
     \ \n\r"
-  room_flags: 65544
+  room_flags: DQ
   sector: 0
   owner:
   exits:
@@ -143,7 +143,7 @@ rooms:
   description: "You are at the centre of the universe, everything is filled with bright\n\rlight
     in all colors. You feel time and space no longer exist here.\n\rExits fill the
     room in all 42 dimensions, leading everywhere.\n\r"
-  room_flags: 65544
+  room_flags: DQ
   sector: 0
   owner:
   exits:
@@ -160,14 +160,14 @@ rooms:
     building stretches infinitely in all directions.  Valhalla \n\rcontinues to the
     east, and the gods make their homes north and south of\n\rthe halls.  The golden
     gates are to the west.  You know not what lies \n\rupward...\n\r"
-  room_flags: 32776
+  room_flags: DP
   sector: 0
   owner:
   exits:
   - dir: 0
     desc: "Warbird and Thanatos own an office to the north.\n\r"
     keywords: door
-    exit_flags: 9
+    exit_flags: AD
     key: -1
     to_vnum: 1209
   - dir: 1
@@ -179,7 +179,7 @@ rooms:
   - dir: 2
     desc: "A sea cave is south of here.\n\r"
     keywords: door
-    exit_flags: 9
+    exit_flags: AD
     key: -1
     to_vnum: 1208
   - dir: 3
@@ -201,14 +201,14 @@ rooms:
     the world!!!  On a table in the middle of the room lies a book titled :\n\r\"All
     You Ever Wanted to Know About Sex..But Were Afraid to Ask\"\n\rThere are things
     here that you never even imagined in your wildest dreams!\n\r"
-  room_flags: 33288
+  room_flags: DJP
   sector: 0
   owner:
   exits:
   - dir: 0
     desc: "Valhalla is to the north.\n\r"
     keywords: door
-    exit_flags: 9
+    exit_flags: AD
     key: -1
     to_vnum: 1218
   extra_descs: []
@@ -222,7 +222,7 @@ rooms:
     is strangely peaceful in here, with the sun shining in from above\n\rand a flock
     of birds winging across the sky.  You stretch out and relax, this\n\rstorm is
     going to be here a while.\n\r"
-  room_flags: 8196
+  room_flags: CN
   sector: 9
   owner:
   exits: []
@@ -235,7 +235,7 @@ rooms:
     of Earth, looking fragile and far away, but full of hope.  A sense of\n\rwistful
     regret touches you, as you think about what might have been, and what\n\rwill
     be.\n\r"
-  room_flags: 8196
+  room_flags: CN
   sector: 0
   owner:
   exits: []
@@ -254,7 +254,7 @@ rooms:
     the wall.  Looking around, you can see the great deal of\n\rknowledge and wisdom
     contained in these volumes, and you wonder what a\n\rGoddess of deceit would find
     so interesting.  Then you notice the small\n\rplaque on the wall.  \n\r"
-  room_flags: 520
+  room_flags: DJ
   sector: 0
   owner:
   exits:
@@ -265,15 +265,15 @@ rooms:
     key: 0
     to_vnum: 1208
   extra_descs:
+  - keywords: desk
+    description: "The desk is old, but looks to be well taken care of.  There are
+      various\n\rqwill pens, paper, and reference books scattered about the top as
+      if Tia was\n\rrecently looking for something of importance.  \n\r"
   - keywords: plaque
     description: "The plaque is wooden, well worn, and appears to be hand carved.
       \ The\n\rwords of wisdom look back at you: Mans greatness is not found in his
       armies,\n\rfor all men have armies.  Mans greatness is found in his ability
       to stop\n\rwar, seek truth, and find courage instead.  \n\r"
-  - keywords: desk
-    description: "The desk is old, but looks to be well taken care of.  There are
-      various\n\rqwill pens, paper, and reference books scattered about the top as
-      if Tia was\n\rrecently looking for something of importance.  \n\r"
 - vnum: 1208
   name: A Sea Cave
   description: "You are in a small cave in the cliff next to a deep green sea.  Fine\n\rgold
@@ -283,14 +283,14 @@ rooms:
     the weather in your cozy cave.  The foamy surf\n\rnever seems to quite reach your
     feet.  Several boulders here have been\n\rworn by time into a shape similar to
     a comfortable chair.\n\r"
-  room_flags: 33288
+  room_flags: DJP
   sector: 0
   owner:
   exits:
   - dir: 0
     desc: "Valhalla lies to the north.\n\r"
     keywords: door
-    exit_flags: 9
+    exit_flags: AD
     key: -1
     to_vnum: 1203
   - dir: 3
@@ -308,14 +308,14 @@ rooms:
     people often forget what the absentee immort looks like. Lastly you\n\rnotice
     two huge oaken desks strewn with toy cannons, books of military\n\rhistory and
     various battle maps.\n\rThere is a sign on the wall.\n\r"
-  room_flags: 33288
+  room_flags: DJP
   sector: 0
   owner:
   exits:
   - dir: 2
     desc: "Valhalla lies to the south.\n\r"
     keywords: door
-    exit_flags: 9
+    exit_flags: AD
     key: -1
     to_vnum: 1203
   extra_descs:
@@ -329,30 +329,30 @@ rooms:
     \ In front of the window is a large desk.  Completely covering\n\rthe east wall
     is a bookshelf, that is crammed full.  In the northwest\n\rcorner, you notice
     a statue.\n\r"
-  room_flags: 33288
+  room_flags: DJP
   sector: 0
   owner:
   exits:
   - dir: 0
     desc: "Valhalla is to the north\n\r"
     keywords: door
-    exit_flags: 9
+    exit_flags: AD
     key: -1
     to_vnum: 1217
   extra_descs:
-  - keywords: bookshelf
-    description: "This is the most amazing collection of chess books you have ever
-      seen.\n\rEverything from Damiano's manuscripts, to a complete collection of
-      the\n\rEncyclopedia of Chess Openings, to the latest Imformants are all here.\n\r"
-  - keywords: statue
-    description: "You recognize this as a statue of Robert James Fischer, one of the
-      most \n\rcreative, if not eccentric, players of all time.  The inscription on
-      the\n\rbase reads, \"I like the moment when I crush a man's ego.\"\n\r"
   - keywords: desk
     description: "This desk is much larger than anyone could possibly need.  At one
       end you \n\rnotice a large, disorderly mass of papers; it must be all his immortal\n\rpaperwork.
       \ At the other end is a magnificent wooden inlaid board with\n\rhandcrafted
       ebony and hardwood pieces.\n\r"
+  - keywords: statue
+    description: "You recognize this as a statue of Robert James Fischer, one of the
+      most \n\rcreative, if not eccentric, players of all time.  The inscription on
+      the\n\rbase reads, \"I like the moment when I crush a man's ego.\"\n\r"
+  - keywords: bookshelf
+    description: "This is the most amazing collection of chess books you have ever
+      seen.\n\rEverything from Damiano's manuscripts, to a complete collection of
+      the\n\rEncyclopedia of Chess Openings, to the latest Imformants are all here.\n\r"
 - vnum: 1211
   name: Arena of Judgement
   description: "The scene lain before you is one that gives you the feeling of being
@@ -361,14 +361,14 @@ rooms:
     where many aged crosses still stand.  The Arena is set in a wide\n\rpit-like field
     of trampled bloodstained grass, and is guarded by high walls\n\rof veinous marble.
     \ A bloodstone seat awaits the true paragon of Romanity.\n\r"
-  room_flags: 33288
+  room_flags: DJP
   sector: 0
   owner:
   exits:
   - dir: 2
     desc: "Valhalla is to the south.\n\r"
     keywords: door
-    exit_flags: 9
+    exit_flags: AD
     key: -1
     to_vnum: 1218
   extra_descs:
@@ -381,7 +381,7 @@ rooms:
   description: "You are standing on an immense, grey stone floor that stretches as
     far as you\n\rcan see in all directions.  Rough winds plunging from the dark,
     starless sky\n\rtear savagely at your fragile body.\n\r"
-  room_flags: 8200
+  room_flags: DN
   sector: 0
   owner:
   exits:
@@ -410,12 +410,12 @@ rooms:
     key: -1
     to_vnum: 1212
   extra_descs:
+  - keywords: sky wind winds
+    description: "Cold winds plunge ceaselessly at you from the dark, cloudless sky.\n\r"
   - keywords: floor
     description: "The stone floor is the same shade of grey as the sky and is completely
       plain\n\rand unscratched.  It is probably too hard for anything to leave as
       much as a\n\rscratch on it.\n\r"
-  - keywords: sky wind winds
-    description: "Cold winds plunge ceaselessly at you from the dark, cloudless sky.\n\r"
 - vnum: 1213
   name: Asgard
   description: "You stand on a huge expanse of glass.  Below you are clouds and the
@@ -462,7 +462,7 @@ rooms:
   description: "This is the room full of souls that never made it to Asgard.  They
     are \n\rtrapped here eternally, left to wander about in misery.  They were infidels\n\rand
     cowards.  Their cries of misery send a shiver down your spine.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -503,7 +503,7 @@ rooms:
     You stare in awe at the sparkling mansion before you.  You\n\rwonder what secrets
     are held behind these doors and long to hear the stories\n\rof bravery and glory
     that you know are kept within the walls of Valhalla.\n\r"
-  room_flags: 32768
+  room_flags: P
   sector: 1
   owner:
   exits:
@@ -526,7 +526,7 @@ rooms:
     Tyr,\n\rLoki, Freyr, Feyja, and Balder line the walls.  The cavernous hall extends\n\rto
     the east and west.  Rooms belonging to the gods lie to the north and \n\rsouth.
     \ There appears to be an exit above you, but you do not know what is\n\rup there...\n\r"
-  room_flags: 32768
+  room_flags: P
   sector: 0
   owner:
   exits:
@@ -539,7 +539,7 @@ rooms:
   - dir: 2
     desc: "Bigfoots' room is south of here.\n\r"
     keywords: door
-    exit_flags: 9
+    exit_flags: AD
     key: -1
     to_vnum: 1210
   - dir: 3
@@ -561,14 +561,14 @@ rooms:
     line\n\rthe walls.  A statue of Odin is here.  The halls continue to the east
     and\n\rwest, and there are doors to the north and south of you.  There is some
     \n\rsort of exit above you, but you do not know where it leads...\n\r"
-  room_flags: 32768
+  room_flags: P
   sector: 0
   owner:
   exits:
   - dir: 0
     desc: "Pontius' room is north of here.\n\r"
     keywords: door
-    exit_flags: 9
+    exit_flags: AD
     key: -1
     to_vnum: 1211
   - dir: 1
@@ -580,7 +580,7 @@ rooms:
   - dir: 2
     desc: "Priscilla's Pleasure Palace is south of here.\n\r"
     keywords: door
-    exit_flags: 9
+    exit_flags: AD
     key: -1
     to_vnum: 1204
   - dir: 3
@@ -605,7 +605,7 @@ rooms:
     doors\n\ron 3 walls.  They lead into the rooms of the gods.  The hall goes back
     to\n\rthe west, and there is some sort of an exit above you.  Torches sputter\n\rsoftly
     and the scent of incense is strong here.\n\r"
-  room_flags: 32768
+  room_flags: P
   sector: 0
   owner:
   exits:

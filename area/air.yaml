@@ -14,8 +14,8 @@ mobiles:
   description: "It's a cute little multi-colored dragon...about 2 foot long.\n\rIt
     gracefully dances around your head.\n\r"
   race: Human
-  act: 524352
-  affected_by: 24
+  act: GT
+  affected_by: DE
   affected2_by: 0
   alignment: 500
   clan: 0
@@ -59,7 +59,7 @@ mobiles:
   description: "Golden maned and black all over.  It's quite a beautiful creature
     if not\n\rfor the fact it is hungry and is attacking you!\n\r"
   race: Human
-  act: 524384
+  act: FGT
   affected_by: 0
   affected2_by: 0
   alignment: 300
@@ -105,7 +105,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 17
+  wear_flags: AE
   level: 0
   weight: 2
   cost: 0

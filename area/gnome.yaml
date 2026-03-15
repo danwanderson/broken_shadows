@@ -14,7 +14,7 @@ mobiles:
   description: "The little tyke looks so innocent playing with his boomerang that
     you \n\rjust want to pick him up and hug him.\n\r"
   race: Human
-  act: 524308
+  act: CET
   affected_by: 0
   affected2_by: 0
   alignment: 600
@@ -59,7 +59,7 @@ mobiles:
   description: "The woman is short and gnarled, but acts like a woman several times
     her beauty.\n\rShe's starting to look pretty attractive to you ...\n\r"
   race: Human
-  act: 524308
+  act: CET
   affected_by: 0
   affected2_by: 0
   alignment: 600
@@ -104,7 +104,7 @@ mobiles:
   description: "This is a prime example of a gnome.  He looks short and weak, but
     at the\n\rsame time an intelligent creature who could outsmart you.\n\r"
   race: Human
-  act: 524292
+  act: CT
   affected_by: 0
   affected2_by: 0
   alignment: 500
@@ -149,7 +149,7 @@ mobiles:
   description: "You see a gnome who is lost deep into some invention that he is about\n\rto
     make.  His hair is white, but he looks fairly strong.\n\r"
   race: Human
-  act: 524294
+  act: BCT
   affected_by: 0
   affected2_by: 0
   alignment: 500
@@ -194,7 +194,7 @@ mobiles:
   description: "This is a well trained gnome.  He might not have a lot of strength
     but\n\rhe makes up for it with his weapons skill.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 400
@@ -239,7 +239,7 @@ mobiles:
   description: "The Chief looks like he could whap you hard.  He looks not only powerful\n\rbut
     wise and resourceful.  You better not mess with him.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 550
@@ -284,7 +284,7 @@ mobiles:
   description: "The small troll is a short and stocky beast with a human-like face\n\rbut
     with the eyes and fangs of a wild beast.\n\r"
   race: Troll
-  act: 524326
+  act: BCFT
   affected_by: 0
   affected2_by: 0
   alignment: -900
@@ -328,7 +328,7 @@ mobiles:
   long_desc: "A small mouse runs across your foot.\n\r"
   description: "The Mouse is a cute little creature.\n\r"
   race: Human
-  act: 524550
+  act: BCIT
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -372,7 +372,7 @@ mobiles:
   long_desc: "A small rat shrieks and runs around.\n\r"
   description: "The rat is a little evil creature that deserves death.\n\r"
   race: Human
-  act: 524292
+  act: CT
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -416,7 +416,7 @@ mobiles:
   long_desc: "A large rat runs up to you and nibbles on your boots.\n\r"
   description: "You have the urge to kill this vile creature.\n\r"
   race: Human
-  act: 524292
+  act: CT
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -460,7 +460,7 @@ mobiles:
   long_desc: "A giant rat growls at you and prepares to attack.\n\r"
   description: "This rat has grown up to be the size of an average dog.\n\r"
   race: Human
-  act: 524292
+  act: CT
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -505,7 +505,7 @@ mobiles:
   description: "You see before you a huge mass of living flesh.  You cringe in fear
     as\n\rhe lifts his powerful arm to bludgeon you.\n\r"
   race: Troll
-  act: 524322
+  act: BFT
   affected_by: 0
   affected2_by: 0
   alignment: -800
@@ -549,7 +549,7 @@ mobiles:
   long_desc: "A black bat hangs from the ceiling.\n\r"
   description: "The bat is a grotesque little creature with large wings and fangs.\n\r"
   race: bat
-  act: 524288
+  act: T
   affected_by: 0
   affected2_by: 0
   alignment: -500
@@ -594,7 +594,7 @@ mobiles:
   description: "This is a creature which has passed away long ago.  His body has been\n\rpulled
     out of its resting place by some evil force.\n\r"
   race: Human
-  act: 524288
+  act: T
   affected_by: 0
   affected2_by: 0
   alignment: -700
@@ -639,8 +639,8 @@ mobiles:
   description: "You see a huge flame which resembles the shape of a bat.  The creature\n\rhangs
     from the ceiling and bites at you.\n\r"
   race: bat
-  act: 524326
-  affected_by: 8
+  act: BCFT
+  affected_by: D
   affected2_by: 0
   alignment: -900
   clan: 0
@@ -684,7 +684,7 @@ mobiles:
   description: "This is an extra large, extra ugly goblin like creature.  He grins
     evilly\n\ras he attempts to brain you.\n\r"
   race: Human
-  act: 524322
+  act: BFT
   affected_by: 0
   affected2_by: 0
   alignment: -700
@@ -729,7 +729,7 @@ mobiles:
   description: "This is just a low life hobgoblin, who couldn't make it to the ranks\n\rof
     the elite guards.  He looks pissed.\n\r"
   race: Human
-  act: 524322
+  act: BFT
   affected_by: 0
   affected2_by: 0
   alignment: -600
@@ -774,7 +774,7 @@ mobiles:
   description: "This is one of the elite hobgoblin guards.  He stands tall for his
     short\n\rstature.  He grins a toothy grin as he prepares to attack.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: -500
@@ -819,7 +819,7 @@ mobiles:
   description: "The king is a silly looking hobgoblin whose muscles bulge out of his
     robes,\n\rdestroying the sophisticated effect he was trying to create.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: -500
@@ -863,7 +863,7 @@ mobiles:
   long_desc: "A hobgoblin miner stands here looking for gold.\n\r"
   description: "The miner is totally covered in dust.\n\r"
   race: Human
-  act: 524294
+  act: BCT
   affected_by: 0
   affected2_by: 0
   alignment: -400
@@ -908,7 +908,7 @@ mobiles:
   description: "The hobgoblin treasurer is an old goblin with glasses.  It appears
     that he\n\rcan only see a couple feet in front of him.\n\r"
   race: Human
-  act: 524294
+  act: BCT
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -952,7 +952,7 @@ mobiles:
   long_desc: "A gnome prisoner is here resting in the straw.\n\r"
   description: "The prisoner is just barely alive.\n\r"
   race: Human
-  act: 524294
+  act: BCT
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -996,7 +996,7 @@ mobiles:
   long_desc: "A human prisoner is here resting in the straw.\n\r"
   description: "The prisoner is just barely alive.\n\r"
   race: Human
-  act: 524294
+  act: BCT
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -1041,7 +1041,7 @@ mobiles:
   description: "The hermit crab is about 5 feet high and looks mad that you had the
     nerve\n\rto wake it up.\n\r"
   race: Human
-  act: 524326
+  act: BCFT
   affected_by: 0
   affected2_by: 0
   alignment: -10
@@ -1086,7 +1086,7 @@ mobiles:
   description: "The cook is a dirty and fat hobgoblin.  He burps as he stirs up something\n\rin
     a pot.\n\r"
   race: Human
-  act: 524294
+  act: BCT
   affected_by: 0
   affected2_by: 0
   alignment: -300
@@ -1132,7 +1132,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 7
   weight: 1
   cost: 70
@@ -1151,7 +1151,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 13
   weight: 1
   cost: 130
@@ -1170,7 +1170,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 2
   weight: 5
   cost: 20
@@ -1189,7 +1189,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 3
   weight: 15
   cost: 30
@@ -1208,7 +1208,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 7
   weight: 15
   cost: 70
@@ -1227,7 +1227,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 513
+  wear_flags: AJ
   level: 3
   weight: 16
   cost: 30
@@ -1246,7 +1246,7 @@ objects:
   material: none
   item_type: 10
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 7
   weight: 22
   cost: 70
@@ -1264,8 +1264,8 @@ objects:
   description: A bloody cloak lies in a corner.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 5
+  extra_flags: G
+  wear_flags: AC
   level: 7
   weight: 15
   cost: 70
@@ -1283,8 +1283,8 @@ objects:
   description: A ring in the shape of a bat lies here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 3
+  extra_flags: G
+  wear_flags: AB
   level: 15
   weight: 2
   cost: 150
@@ -1307,7 +1307,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 5
+  wear_flags: AC
   level: 15
   weight: 8
   cost: 150
@@ -1329,8 +1329,8 @@ objects:
   description: An electrum sword lies here.
   material: none
   item_type: 5
-  extra_flags: 65
-  wear_flags: 8193
+  extra_flags: AG
+  wear_flags: AN
   level: 15
   weight: 20
   cost: 150
@@ -1349,7 +1349,7 @@ objects:
   material: none
   item_type: 15
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 7
   weight: 5
   cost: 70
@@ -1368,7 +1368,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 7
   weight: 9
   cost: 70
@@ -1387,7 +1387,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 7
   weight: 8
   cost: 70
@@ -1406,7 +1406,7 @@ objects:
   material: none
   item_type: 22
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 7
   weight: 24
   cost: 70
@@ -1425,7 +1425,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 65
+  wear_flags: AG
   level: 0
   weight: 12
   cost: 0
@@ -1448,7 +1448,7 @@ objects:
   material: none
   item_type: 20
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 8
   weight: 1
   cost: 80
@@ -1467,7 +1467,7 @@ objects:
   material: none
   item_type: 20
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 8
   weight: 1
   cost: 80
@@ -1486,7 +1486,7 @@ objects:
   material: none
   item_type: 20
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 11
   weight: 1
   cost: 110
@@ -1505,7 +1505,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 513
+  wear_flags: AJ
   level: 0
   weight: 35
   cost: 0
@@ -1528,7 +1528,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 12
   weight: 30
   cost: 120
@@ -1547,7 +1547,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 1
   weight: 22
   cost: 10
@@ -1566,7 +1566,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 5
   cost: 0
@@ -1584,8 +1584,8 @@ objects:
   description: A potion of life healing has left here.
   material: none
   item_type: 10
-  extra_flags: 128
-  wear_flags: 1
+  extra_flags: H
+  wear_flags: A
   level: 0
   weight: 1
   cost: 0
@@ -1602,7 +1602,7 @@ rooms:
   name: Entrance to Gnome Village
   description: "You stand on a dusty path that leads north and east.  To the east
     you hear\n\rthe sounds of a small village.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 2
   owner:
   exits:
@@ -1833,7 +1833,7 @@ rooms:
   name: A Small Gnome House
   description: "This is a small suburban house made from quality wood.  You can see
     the\n\rexpert workmanship that went into making it, but it lacks creativity.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1848,7 +1848,7 @@ rooms:
   name: A Small Gnome House
   description: "This is a small suburban house made from quality wood.  You can see
     the\n\rexpert workmanship that went into making it, but it lacks creativity.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1863,7 +1863,7 @@ rooms:
   name: A Small Gnome House
   description: "This is a small suburban house made from quality wood.  You can see
     the\n\rexpert workmanship that went into making it, but it lacks creativity.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1878,7 +1878,7 @@ rooms:
   name: A Small Gnome House
   description: "This is a small suburban house made from quality wood.  You can see
     the\n\rexpert workmanship that went into making it, but it lacks creativity.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1893,7 +1893,7 @@ rooms:
   name: A Small Gnome House
   description: "This is a small suburban house made from quality wood.  You can see
     the\n\rexpert workmanship that went into making it, but it lacks creativity.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1908,7 +1908,7 @@ rooms:
   name: A Gnome Shop
   description: "You are in one of the several shops of this fine town.  The wares
     look fine,\n\rbut unfortunately the gnomes don't do business with outsiders.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1923,7 +1923,7 @@ rooms:
   name: A Gnome Shop
   description: "You are in one of the several shops of this fine town.  The wares
     look fine,\n\rbut unfortunately the gnomes don't do business with outsiders.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1938,7 +1938,7 @@ rooms:
   name: A Gnome Shop
   description: "You are in one of the several shops of this fine town.  The wares
     look fine,\n\rbut unfortunately the gnomes don't do business with outsiders.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1953,7 +1953,7 @@ rooms:
   name: Path by a Stream
   description: "You are on a small path leading north and west, that is surrounded
     on the\n\rother two sides by a small stream.  The water looks mighty cold.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 2
   owner:
   exits:
@@ -2006,16 +2006,16 @@ rooms:
     key: -1
     to_vnum: 1519
   extra_descs:
-  - keywords: stream
-    description: "The stream is pretty small, but it looks too cold to swim.\n\r"
   - keywords: hut
     description: "The hut looks well built, but it seems to have taken some damage.\n\r"
+  - keywords: stream
+    description: "The stream is pretty small, but it looks too cold to swim.\n\r"
 - vnum: 1519
   name: A Small Hut
   description: "The hut is a mess!  Blood has stained the grass walls into a dark
     rich\n\rcrimson color.  Torn clothes and trash lie all around, and you think you\n\rsee
     a skeleton in the corner.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2103,7 +2103,7 @@ rooms:
   name: The Dark Cave
   description: "The cave gleams as your light reflects off of it.  As you squint your
     eyes\n\rand try to look ahead, you think you see something move.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2124,7 +2124,7 @@ rooms:
   name: Darker Cave
   description: "The cave gets even darker as your terror grows stronger.  You fear
     for your\n\rlife as something emerges out of the shadows.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2139,7 +2139,7 @@ rooms:
   name: A Dusty Path
   description: "You are on a well traveled path that leads in many directions.  To
     the north\n\ris a large house, and to the west is a fortress.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 1
   owner:
   exits:
@@ -2191,7 +2191,7 @@ rooms:
     \n\rhaven't killed you.  As you glance around, you notice that the walls and\n\rfloors
     are spotlessly cleaned.  The barracks are to the north and a\n\rstorage room is
     to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2225,7 +2225,7 @@ rooms:
   description: "You are now inside of the fortress; you must be lucky that the guards
     \n\rhaven't killed you.  As you glance around, you notice that the walls and\n\rfloors
     are spotlessly cleaned.  A mess hall is to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2253,7 +2253,7 @@ rooms:
   description: "You now stand in the sleeping quarters of the gnome guards.  Every
     bed is\n\rmade perfectly, and not single article of clothing is on the floor.
     \ There\n\ris a small storage room to the east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2274,7 +2274,7 @@ rooms:
   name: A Small Storage Room
   description: "This is where the gnomes store all their spare clothing and armor.\n\rThere
     is not much here, but you might come up with something.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2289,7 +2289,7 @@ rooms:
   name: A Small Storage Room
   description: "This is where the gnomes store all their spare weapons.  A door leads
     off\n\rto the east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2310,7 +2310,7 @@ rooms:
   name: A Small Storage Room
   description: "This is yet another room for storing gnome stuff.  Maps and battle
     plans\n\rare stored in neat stacks on the shelves.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2326,7 +2326,7 @@ rooms:
   description: "You are in the room where the guards come to get their grub.  The
     benches \n\rand tables are neatly cleaned and straightened, while shiny plates
     line\n\rthe walls.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2341,7 +2341,7 @@ rooms:
   name: A Small Room
   description: "This is a small plain room.  Its only interesting feature is a ladder
     down.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2363,14 +2363,14 @@ rooms:
   description: "You stand in a small room in an unused section of the fortress.  The
     whole\n\rroom is coated with dust and cobwebs.  The ladder leads back up, and\n\ra
     rusty door is to the east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
   - dir: 1
     desc: "You see a rusty door.\n\r"
     keywords: rusty door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 1500
     to_vnum: 1537
   - dir: 4
@@ -2385,7 +2385,7 @@ rooms:
   description: "You find yourself in a very old section of the fortress.  You must
     be the\n\rfirst person to pass through here in years.  The hallway continues south\n\rand
     a door leads off to the east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -2404,7 +2404,7 @@ rooms:
   - dir: 3
     desc: "You see a rusty door.\n\r"
     keywords: door
-    exit_flags: 9
+    exit_flags: AD
     key: 1500
     to_vnum: 1536
   extra_descs: []
@@ -2412,7 +2412,7 @@ rooms:
   name: Torture Chamber
   description: "This is a room that was once used to extract lies out of helpless
     victims.\n\rThe machines look unused, but could still work.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -2430,7 +2430,7 @@ rooms:
   name: Dark Hallway
   description: "The hall continues in a north-south direction.  The floor is coated
     with\n\rsome kind of molded slime.  Doors lead east and west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -2463,7 +2463,7 @@ rooms:
   name: Dark Hallway
   description: "The hall continues in a north-south direction.  The floor is coated
     with\n\rsome kind of molded slime.  Doors lead east and west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -2496,7 +2496,7 @@ rooms:
   name: Prison Cell
   description: "You are in a dark and nasty prison cell.  Bodies lying on the floor
     give off\n\ran unbearable stench.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -2511,7 +2511,7 @@ rooms:
   name: Prison Cell
   description: "You are in a dark and nasty prison cell.  Bodies lying on the floor
     give off\n\ran unbearable stench.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -2526,7 +2526,7 @@ rooms:
   name: Prison Cell
   description: "You are in a dark and nasty prison cell.  Bodies lying on the floor
     give off\n\ran unbearable stench.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -2541,7 +2541,7 @@ rooms:
   name: Prison Cell
   description: "You are in a dark and nasty prison cell.  Bodies lying on the floor
     give off\n\ran unbearable stench.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -2556,7 +2556,7 @@ rooms:
   name: End of the Dark Hallway
   description: "You have reached the end of the dark hallway and maybe the end of
     your puny\n\rlife.  Something lumbers its way out of the shadows.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -2569,21 +2569,21 @@ rooms:
   - dir: 3
     desc: "You see a decaying door.\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 1501
     to_vnum: 1546
   extra_descs: []
 - vnum: 1546
   name: A Ladder
   description: "You have come into a vertical tunnel with a ladder.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
   - dir: 1
     desc: "You see a decaying door.\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 1501
     to_vnum: 1545
   - dir: 5
@@ -2597,7 +2597,7 @@ rooms:
   name: Lair
   description: "You have entered a new lair in the fortress.  Anything could be lurking\n\raround
     the corner.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -2618,7 +2618,55 @@ rooms:
   name: A Damp Hallway
   description: "You are wandering in a dark, damp, twisting hallway.  The temperature\n\rseems
     to be greater here, as well as your fear.\n\r"
-  room_flags: 8201
+  room_flags: ADN
+  sector: 2
+  owner:
+  exits:
+  - dir: 1
+    desc:
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 1549
+  - dir: 2
+    desc:
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 1551
+  - dir: 3
+    desc:
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 1547
+  extra_descs: []
+- vnum: 1549
+  name: A Damp Hallway
+  description: "You are wandering in a dark, damp, twisting hallway.  The temperature\n\rseems
+    to be greater here, as well as your fear.\n\r"
+  room_flags: ADN
+  sector: 2
+  owner:
+  exits:
+  - dir: 1
+    desc:
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 1550
+  - dir: 2
+    desc:
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 1548
+  extra_descs: []
+- vnum: 1550
+  name: A Damp Hallway
+  description: "You are wandering in a dark, damp, twisting hallway.  The temperature\n\rseems
+    to be greater here, as well as your fear.\n\r"
+  room_flags: ADN
   sector: 2
   owner:
   exits:
@@ -2627,56 +2675,8 @@ rooms:
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1547
-  - dir: 2
-    desc:
-    keywords:
-    exit_flags: 0
-    key: -1
-    to_vnum: 1549
-  - dir: 3
-    desc:
-    keywords:
-    exit_flags: 0
-    key: -1
-    to_vnum: 1551
-  extra_descs: []
-- vnum: 1549
-  name: A Damp Hallway
-  description: "You are wandering in a dark, damp, twisting hallway.  The temperature\n\rseems
-    to be greater here, as well as your fear.\n\r"
-  room_flags: 8201
-  sector: 2
-  owner:
-  exits:
-  - dir: 1
-    desc:
-    keywords:
-    exit_flags: 0
-    key: -1
-    to_vnum: 1548
-  - dir: 3
-    desc:
-    keywords:
-    exit_flags: 0
-    key: -1
-    to_vnum: 1550
-  extra_descs: []
-- vnum: 1550
-  name: A Damp Hallway
-  description: "You are wandering in a dark, damp, twisting hallway.  The temperature\n\rseems
-    to be greater here, as well as your fear.\n\r"
-  room_flags: 8201
-  sector: 2
-  owner:
-  exits:
-  - dir: 1
-    desc:
-    keywords:
-    exit_flags: 0
-    key: -1
     to_vnum: 1555
-  - dir: 2
+  - dir: 1
     desc:
     keywords:
     exit_flags: 0
@@ -2687,28 +2687,28 @@ rooms:
   name: A Damp Hallway
   description: "You are wandering in a dark, damp, twisting hallway.  The temperature\n\rseems
     to be greater here, as well as your fear.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 2
   owner:
   exits:
-  - dir: 0
-    desc:
-    keywords:
-    exit_flags: 0
-    key: -1
-    to_vnum: 1548
-  - dir: 2
+  - dir: 1
     desc:
     keywords:
     exit_flags: 0
     key: -1
     to_vnum: 1552
+  - dir: 3
+    desc:
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 1548
   extra_descs: []
 - vnum: 1552
   name: A Damp Hallway
   description: "You are wandering in a dark, damp, twisting hallway.  The temperature\n\rseems
     to be greater here, as well as your fear.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 2
   owner:
   exits:
@@ -2718,7 +2718,7 @@ rooms:
     exit_flags: 0
     key: -1
     to_vnum: 1551
-  - dir: 2
+  - dir: 3
     desc:
     keywords:
     exit_flags: 0
@@ -2729,28 +2729,28 @@ rooms:
   name: A Damp Hallway
   description: "You are wandering in a dark, damp, twisting hallway.  The temperature\n\rseems
     to be greater here, as well as your fear.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 2
   owner:
   exits:
-  - dir: 0
-    desc:
-    keywords:
-    exit_flags: 0
-    key: -1
-    to_vnum: 1552
-  - dir: 2
+  - dir: 1
     desc:
     keywords:
     exit_flags: 0
     key: -1
     to_vnum: 1554
+  - dir: 3
+    desc:
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 1552
   extra_descs: []
 - vnum: 1554
   name: A Damp Hallway
   description: "You are wandering in a dark, damp, twisting hallway.  The temperature\n\rseems
     to be greater here, as well as your fear.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 2
   owner:
   exits:
@@ -2759,29 +2759,29 @@ rooms:
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1556
-  - dir: 2
+    to_vnum: 1553
+  - dir: 1
     desc:
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1555
+    to_vnum: 1556
   - dir: 3
     desc:
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1553
+    to_vnum: 1555
   extra_descs: []
 - vnum: 1555
   name: A Damp Hallway
   description: "You are wandering in a dark, damp, twisting hallway.  The temperature\n\rseems
     to be greater here, as well as your fear.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 2
   owner:
   exits:
-  - dir: 1
+  - dir: 0
     desc:
     keywords:
     exit_flags: 0
@@ -2798,7 +2798,7 @@ rooms:
   name: The End of the Hallway
   description: "You make your way out of the hallway, just to find yourself in greater\n\rdanger.
     \ Before you looms the source of the great heat.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 2
   owner:
   exits:
@@ -2819,7 +2819,7 @@ rooms:
   name: The Altar
   description: "You finally reach the end of the maze.  There is a great altar here
     in the\n\rshape of a bat.  A passageway leads off to the west.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 2
   owner:
   exits:
@@ -2835,7 +2835,7 @@ rooms:
   description: "You enter into a large and luxurious house.  The floor is coated with
     carpets\n\rand the walls are covered in paintings.  You feel privileged just for
     stepping\n\rinside.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2850,7 +2850,7 @@ rooms:
   name: The Unused Path
   description: "You are now on a fairly unused path that leads east out of the village.
     \ \n\rYou wonder what could be out this way.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 1
   owner:
   exits:
@@ -2914,7 +2914,7 @@ rooms:
   name: Entrance to the Mine Shaft
   description: "As you enter the mine shaft, you get a sudden fear of the walls closing\n\rin
     on you.  You are surprised to notice that you don't need a light.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -2935,7 +2935,7 @@ rooms:
   name: Mine Shaft
   description: "This mine shaft looks stable, at least in this area.  The wooden supports
     are\n\rthick and strong.  Torches line the walls.  Exits lead in all directions.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -2968,7 +2968,7 @@ rooms:
   name: Mine Shaft
   description: "This mine shaft looks stable, at least in this area.  The wooden supports
     are\n\rthick and strong.  Torches line the walls.  Exits lead in all directions.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -3002,7 +3002,7 @@ rooms:
   description: "This mine shaft looks stable, at least in this area.  The wooden supports
     are\n\rthick and strong.  Torches line the walls.  Exits lead in all directions\n\rexcept
     north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -3030,7 +3030,7 @@ rooms:
   description: "You are on a well built path in the middle of a mountain.  You sense
     something\n\rgreat up ahead, considering the hard work that must have gone into
     creating\n\rthis passage.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -3052,7 +3052,7 @@ rooms:
   description: "You are on a well built path in the middle of a mountain.  You sense
     something\n\rgreat up ahead, considering the hard work that must have gone into
     creating\n\rthis passage.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -3074,7 +3074,7 @@ rooms:
   description: "You have stepped into the Grand Hall of the hobgoblin kingdom; your
     luck\n\rmust be running low by now.  Golden pillars span the hallway, and you\n\rnotice
     a red carpet beneath your feet.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3095,7 +3095,7 @@ rooms:
   name: The Throne Room
   description: "This is large bright room filled with Hobgoblins.  To the south there
     is\n\ra large golden throne against the wall.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3110,7 +3110,7 @@ rooms:
   name: The Treasury
   description: "You are inside the hobgoblin's treasury.  Your eyes are almost blinded
     by the\n\rgold, silver and copper coins.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3125,7 +3125,7 @@ rooms:
   name: Guarded Room
   description: "You are inside a well guarded room.  The place is slightly better
     built than\n\rthe mine shafts, and is lit by lanterns.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -3146,7 +3146,7 @@ rooms:
   name: Guarded Room
   description: "You are inside a well guarded room.  The place is slightly better
     built than\n\rthe mine shafts, and is lit by lanterns.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -3167,7 +3167,7 @@ rooms:
   name: Hobgoblin Armory
   description: "The guards store their spare weapons and armor here.  There are rusty
     swords\n\ron rotting shelves, and armor hanging from hooks or laying on the floor.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -3183,7 +3183,7 @@ rooms:
   description: "You enter a part of the mine shaft where the torches have grown dim\n\rand
     are almost ready to go out.  From what you can see, there are plenty\n\rof cobwebs
     on the walls and rats at your feet.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -3205,7 +3205,7 @@ rooms:
   description: "The floor dips slightly as you walk into this dark and nasty place.
     \ Your\n\rskin crawls as you look at the filth on the walls and see it move.  Most\n\rof
     the exits lead into jail cells.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -3239,7 +3239,7 @@ rooms:
   description: "You are in the deepest and darkest part of the mine shafts.  The light
     from\n\rthe torches barely reaches to where you are.  Most directions from here\n\rlead
     to jail cells.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -3272,7 +3272,7 @@ rooms:
   name: A Jail Cell
   description: "You are in a musty, dark jail cell.  Wet and dirty straw covers the
     floor.\n\rThe walls glisten with slime.  You see something stir in the straw.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -3287,7 +3287,7 @@ rooms:
   name: The Jail Cell
   description: "You are in a musty, dark jail cell.  Wet and dirty straw covers the
     floor.\n\rThe walls glisten with slime.  You see something stir in the straw.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -3302,7 +3302,7 @@ rooms:
   name: The Jail Cell
   description: "You are in a musty, dark jail cell.  Wet and dirty straw covers the
     floor.\n\rThe walls glisten with slime.  You see something stir in the straw.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -3317,7 +3317,7 @@ rooms:
   name: The Jail Cell
   description: "You are in a musty, dark jail cell.  Wet and dirty straw covers the
     floor.\n\rThe walls glisten with slime.  You see something stir in the straw.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -3332,7 +3332,7 @@ rooms:
   name: The Jail Cell
   description: "You are in a musty, dark jail cell.  Wet and dirty straw covers the
     floor.\n\rThe walls glisten with slime.  You see something stir in the straw.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -3347,7 +3347,7 @@ rooms:
   name: Small Mine Shaft
   description: "You are in a small extension of the mine shaft.  The dust on the floor
     is\n\rundisturbed by footprints.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -3369,7 +3369,7 @@ rooms:
   description: "You are suddenly surrounded by a small army of hobgoblin guards.  The
     room\n\ritself is a mess with clothes and armor everywhere.  The beds are unmade
     and\n\rstained.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -3396,7 +3396,7 @@ rooms:
   name: Hobgoblin Barracks
   description: "Yech!  As you continue forward, the smell just keeps getting worse.\n\rWhat
     are you DOING here?\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -3412,7 +3412,7 @@ rooms:
   description: "You stand in the hobgoblin eating area.  There are a few rotting tables\n\rand
     many broken dishes scattered around the room.  You almost slip on a\n\rrotten
     piece of meat, but catch yourself just in time.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -3439,7 +3439,7 @@ rooms:
   name: A Store Room
   description: "You stand in a small room filled with flour, grain, fruit, and bat
     droppings.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -3455,7 +3455,7 @@ rooms:
   description: "This kitchen hasn't been cleaned since the creation of humans.  The
     trash and\n\rspoiled food laying on the floor reach up to your knees.  Off to
     the side a\n\rpot is boiling over.  A human hand floats in it.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -3470,7 +3470,7 @@ rooms:
   name: A Small Mine Shaft
   description: "You come to a place in the mine shaft where a tunnel leads down.  The\n\rsmall
     passage continues north and south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -3498,7 +3498,7 @@ rooms:
   description: "You are in a small section where the mine wall has collapsed to reveal
     a\n\rtiny one-room cave.  The area is barely lit, but you can make out something\n\rmoving
     towards you.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -3512,7 +3512,7 @@ rooms:
 - vnum: 1590
   name: A Hole
   description: "You are in a hole.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 3
   owner:
   exits:

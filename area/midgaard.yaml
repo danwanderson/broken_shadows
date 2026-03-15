@@ -13,7 +13,7 @@ mobiles:
   long_desc: "A cityguard is here, guarding the gate.  He is half asleep.\n\r"
   description: "A big, strong, helpful, trustworthy guard.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -38,9 +38,9 @@ mobiles:
     bash: 0
     slash: 0
     exotic: 8
-  off_flags: 1575964
+  off_flags: CDEKLTU
   imm_flags: 0
-  res_flags: 4
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -57,8 +57,8 @@ mobiles:
   long_desc: "A small loyal kitten is here.\n\r"
   description: "The kitten looks like a cute, little, fierce fighter.\n\r"
   race: cat
-  act: 1048834
-  affected_by: 262144
+  act: BIU
+  affected_by: S
   affected2_by: 0
   alignment: 400
   clan: 0
@@ -84,7 +84,7 @@ mobiles:
     exotic: 10
   off_flags: 0
   imm_flags: 0
-  res_flags: 4
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -101,8 +101,8 @@ mobiles:
   long_desc: "A small loyal puppy is here.\n\r"
   description: "The puppy looks like a cute, little, fierce fighter.\n\r"
   race: dog
-  act: 1048834
-  affected_by: 262176
+  act: BIU
+  affected_by: FS
   affected2_by: 0
   alignment: 400
   clan: 0
@@ -126,16 +126,16 @@ mobiles:
     bash: 7
     slash: 7
     exotic: 10
-  off_flags: 8192
+  off_flags: N
   imm_flags: 0
-  res_flags: 4
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 3
   gold: 0
   form: 0
-  parts: 65536
+  parts: Q
   size: S
   material: none
   spec_fun:
@@ -145,8 +145,8 @@ mobiles:
   long_desc: "A small, quick, loyal beagle is here.\n\r"
   description: "The beagle looks like a fierce fighter.\n\r"
   race: dog
-  act: 1048834
-  affected_by: 262176
+  act: BIU
+  affected_by: FS
   affected2_by: 0
   alignment: 400
   clan: 0
@@ -170,16 +170,16 @@ mobiles:
     bash: 5
     slash: 5
     exotic: 9
-  off_flags: 8192
+  off_flags: N
   imm_flags: 0
-  res_flags: 4
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 3
   gold: 0
   form: 0
-  parts: 65536
+  parts: Q
   size: S
   material: none
   spec_fun:
@@ -189,8 +189,8 @@ mobiles:
   long_desc: "A large, loyal rottweiler is here.\n\r"
   description: "The rottweiler looks like a strong, fierce fighter.\n\r"
   race: dog
-  act: 1048834
-  affected_by: 262176
+  act: BIU
+  affected_by: FS
   affected2_by: 0
   alignment: 400
   clan: 0
@@ -214,9 +214,9 @@ mobiles:
     bash: 4
     slash: 4
     exotic: 8
-  off_flags: 2060
+  off_flags: CDL
   imm_flags: 0
-  res_flags: 4
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -233,8 +233,8 @@ mobiles:
   long_desc: "A large, trained wolf is here.\n\r"
   description: "The wolf looks like a strong, fearless fighter.\n\r"
   race: Wolf
-  act: 1048834
-  affected_by: 262176
+  act: BIU
+  affected_by: FS
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -258,9 +258,9 @@ mobiles:
     bash: 4
     slash: 4
     exotic: 8
-  off_flags: 4
+  off_flags: C
   imm_flags: 0
-  res_flags: 4
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -277,8 +277,8 @@ mobiles:
   long_desc: "A tough, strong waiter, who could easily waste you, even while drunk.\n\r"
   description:
   race: Human
-  act: 589826
-  affected_by: 268443648
+  act: BQT
+  affected_by: Nc
   affected2_by: 0
   alignment: 500
   clan: 0
@@ -302,9 +302,9 @@ mobiles:
     bash: -30
     slash: -30
     exotic: -25
-  off_flags: 1212
+  off_flags: CDEFHK
   imm_flags: 0
-  res_flags: 12
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -323,7 +323,7 @@ mobiles:
     \ He\n\rhas scars on his body from his many crusades and his shield, adorned with
     a\n\rcrucifix, is battered from its many battles.  \n\r"
   race: Human
-  act: 537461762
+  act: BKQTd
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -348,9 +348,9 @@ mobiles:
     bash: -40
     slash: -40
     exotic: -35
-  off_flags: 3580
+  off_flags: CDEFGHIKL
   imm_flags: 0
-  res_flags: 12
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -369,8 +369,8 @@ mobiles:
     and on\n\rhis shield are holy symbols, reminding you of his obligations to the
     gods. \n\rHe doesn't look like he likes intruders.  \n\r"
   race: Human
-  act: 589826
-  affected_by: 8320
+  act: BQT
+  affected_by: HN
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -394,9 +394,9 @@ mobiles:
     bash: -30
     slash: -30
     exotic: -25
-  off_flags: 1212
+  off_flags: CDEFHK
   imm_flags: 0
-  res_flags: 12
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -414,7 +414,7 @@ mobiles:
   description: "She is very beautiful with golden hair, and deep blue eyes. A good
     reason\n\rfor coming here more often.\n\r"
   race: Human
-  act: 2097154
+  act: BV
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -439,9 +439,9 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 96
-  imm_flags: 3
-  res_flags: 12
+  off_flags: FG
+  imm_flags: AB
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -458,7 +458,7 @@ mobiles:
   long_desc: "A sexton is sitting here, drinking hot tea.\n\r"
   description: "The sexton looks like he is relaxing after another grave-digging job.\n\r"
   race: Human
-  act: 130
+  act: BH
   affected_by: 0
   affected2_by: 0
   alignment: 800
@@ -486,7 +486,7 @@ mobiles:
   off_flags: 0
   imm_flags: 0
   res_flags: 0
-  vuln_flags: 4
+  vuln_flags: C
   start_pos: 6
   default_pos: 6
   sex: 1
@@ -502,7 +502,7 @@ mobiles:
   long_desc: "A swan is swimming around in the pond.\n\r"
   description: "The white swan is very elegant.\n\r"
   race: water fowl
-  act: 1048578
+  act: BU
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -527,10 +527,10 @@ mobiles:
     bash: 8
     slash: 8
     exotic: 10
-  off_flags: 131108
+  off_flags: CFR
   imm_flags: 0
   res_flags: 0
-  vuln_flags: 4
+  vuln_flags: C
   start_pos: 8
   default_pos: 8
   sex: 3
@@ -546,7 +546,7 @@ mobiles:
   long_desc: "A duckling is swimming around in the pond.\n\r"
   description: "The duckling is adorable, it looks most of all like a tiny furball.\n\r"
   race: water fowl
-  act: 1048578
+  act: BU
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -571,10 +571,10 @@ mobiles:
     bash: 10
     slash: 10
     exotic: 10
-  off_flags: 131104
+  off_flags: FR
   imm_flags: 0
   res_flags: 0
-  vuln_flags: 4
+  vuln_flags: C
   start_pos: 8
   default_pos: 8
   sex: 3
@@ -590,7 +590,7 @@ mobiles:
   long_desc: "A sparrow is flapping around on the ground.\n\r"
   description: "The sparrow looks like it is enjoying life.\n\r"
   race: song bird
-  act: 1048768
+  act: GHU
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -615,10 +615,10 @@ mobiles:
     bash: 10
     slash: 10
     exotic: 10
-  off_flags: 131072
+  off_flags: R
   imm_flags: 0
   res_flags: 0
-  vuln_flags: 4
+  vuln_flags: C
   start_pos: 8
   default_pos: 8
   sex: 3
@@ -634,7 +634,7 @@ mobiles:
   long_desc: "A duck is here, quacking happily.\n\r"
   description: "The duck is quite fat.  It looks like it is enjoying life.\n\r"
   race: water fowl
-  act: 1048640
+  act: GU
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -659,10 +659,10 @@ mobiles:
     bash: 10
     slash: 10
     exotic: 10
-  off_flags: 131104
+  off_flags: FR
   imm_flags: 0
   res_flags: 0
-  vuln_flags: 4
+  vuln_flags: C
   start_pos: 8
   default_pos: 8
   sex: 3
@@ -678,8 +678,8 @@ mobiles:
   long_desc: "The captain of the guard is looking very upset.\n\r"
   description: "A big, strong, angry captain.\n\r"
   race: Human
-  act: 524326
-  affected_by: 8
+  act: BCFT
+  affected_by: D
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -703,9 +703,9 @@ mobiles:
     bash: -2
     slash: -2
     exotic: 6
-  off_flags: 1051804
+  off_flags: CDEHKLU
   imm_flags: 0
-  res_flags: 4
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -722,7 +722,7 @@ mobiles:
   long_desc: "A cityguard stands here, looking very upset.\n\r"
   description: "A big, strong, angry guard.\n\r"
   race: Human
-  act: 524326
+  act: BCFT
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -747,9 +747,9 @@ mobiles:
     bash: 0
     slash: 0
     exotic: 8
-  off_flags: 1051804
+  off_flags: CDEHKLU
   imm_flags: 0
-  res_flags: 4
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -768,7 +768,7 @@ mobiles:
     extremely busy today'.\n\rThe Secretary says 'Please sit down and have a seat
     in the meantime'.\n\r"
   race: Human
-  act: 2
+  act: B
   affected_by: 0
   affected2_by: 0
   alignment: 900
@@ -793,7 +793,7 @@ mobiles:
     bash: 0
     slash: 0
     exotic: 8
-  off_flags: 416
+  off_flags: FHI
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -812,8 +812,8 @@ mobiles:
   long_desc: "The mayor is here.  He shakes your hand.\n\r"
   description: "He is a stocky, middle-aged man with thin, grey hair.\n\r"
   race: Human
-  act: 2
-  affected_by: 8192
+  act: B
+  affected_by: N
   affected2_by: 0
   alignment: 900
   clan: 0
@@ -837,9 +837,9 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 270384
-  imm_flags: 3
-  res_flags: 12
+  off_flags: EFNS
+  imm_flags: AB
+  res_flags: CD
   vuln_flags: 0
   start_pos: 4
   default_pos: 4
@@ -856,7 +856,7 @@ mobiles:
   long_desc: "The town crier is here, weeping quietly.\n\r"
   description: "He is very good at his job - completely dissolved in tears.\n\r"
   race: Human
-  act: 128
+  act: H
   affected_by: 0
   affected2_by: 0
   alignment: 900
@@ -881,10 +881,10 @@ mobiles:
     bash: 10
     slash: 10
     exotic: 10
-  off_flags: 8
+  off_flags: D
   imm_flags: 0
   res_flags: 0
-  vuln_flags: 4
+  vuln_flags: C
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -901,7 +901,7 @@ mobiles:
   description: "Esme brushes a lock of dark hair away from her wire-rimmed glasess
     and\n\rsmiles warmly at you.\n\r"
   race: Human
-  act: 2097154
+  act: BV
   affected_by: 0
   affected2_by: 0
   alignment: 900
@@ -926,8 +926,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 96
-  imm_flags: 15
+  off_flags: FG
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -948,7 +948,7 @@ mobiles:
     \n\rframe.  She looks up from her pile of papers and maps and looks inquiringly\n\rat
     you, smiling faintly.\n\r"
   race: Human
-  act: 2097154
+  act: BV
   affected_by: 0
   affected2_by: 0
   alignment: 900
@@ -973,8 +973,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 96
-  imm_flags: 15
+  off_flags: FG
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -994,8 +994,8 @@ mobiles:
     about his \n\rjaw, almost as if he were smiling at you.  He's quite friendly,
     but don't\n\rget him drunk.\n\r"
   race: snake
-  act: 2097154
-  affected_by: 8
+  act: BV
+  affected_by: D
   affected2_by: 0
   alignment: 200
   clan: 0
@@ -1019,9 +1019,9 @@ mobiles:
     bash: -5
     slash: -2
     exotic: 4
-  off_flags: 139424
+  off_flags: FHNR
   imm_flags: 0
-  res_flags: 32
+  res_flags: F
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -1039,8 +1039,8 @@ mobiles:
   description: "As you gaze upon him, you somehow know that his story is almost as\n\relaborate
     as the countless numbers of tales he tells about the treasures\n\rabout him.  \n\r"
   race: Human
-  act: 538968130
-  affected_by: 680
+  act: BGVd
+  affected_by: DFHJ
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -1065,7 +1065,7 @@ mobiles:
     slash: 0
     exotic: 0
   off_flags: 0
-  imm_flags: 3
+  imm_flags: AB
   res_flags: 0
   vuln_flags: 0
   start_pos: 6
@@ -1085,8 +1085,8 @@ mobiles:
     closer\n\rinspection, you can see a kind, old face buried deep under his hood.
     \ \n\r"
   race: Human
-  act: 806355008
-  affected_by: 168
+  act: GUcd
+  affected_by: DFH
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -1131,8 +1131,8 @@ mobiles:
     \ The more so because you know he controls a lot of money. \n\rIncluding your
     own.  \n\r"
   race: Human
-  act: 1611137026
-  affected_by: 168
+  act: BTde
+  affected_by: DFH
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -1156,8 +1156,8 @@ mobiles:
     bash: -50
     slash: -50
     exotic: -55
-  off_flags: 1
-  imm_flags: 14
+  off_flags: A
+  imm_flags: BCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -1176,7 +1176,7 @@ mobiles:
   description: "Known simply as the gamemaster, he is an expert at all games.  You'd\n\rbetter
     hope luck is on your side.  \n\r"
   race: Human
-  act: 536870914
+  act: Bd
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -1221,7 +1221,7 @@ mobiles:
   description: "A young and good-looking girl, she seems to have a good eye for arranging\n\rflowers,
     as all around you are the most beautiful collections you've ever\n\rseen.  \n\r"
   race: Human
-  act: 536870914
+  act: Bd
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -1266,8 +1266,8 @@ mobiles:
   description: "The wizard looks old and senile, and yet he looks like a very powerful\n\rwizard.
     He is equipped with fine clothing, and is wearing many fine\n\rrings and bracelets.\n\r"
   race: Human
-  act: 2097154
-  affected_by: 8
+  act: BV
+  affected_by: D
   affected2_by: 0
   alignment: 900
   clan: 0
@@ -1291,8 +1291,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 33
-  imm_flags: 15
+  off_flags: AF
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -1311,7 +1311,7 @@ mobiles:
   description: "A fat, nice looking baker. But you can see that he has many scars
     on his\n\rbody.\n\r"
   race: Human
-  act: 2097154
+  act: BV
   affected_by: 0
   affected2_by: 0
   alignment: 900
@@ -1336,8 +1336,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 44
-  imm_flags: 15
+  off_flags: CDF
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -1357,7 +1357,7 @@ mobiles:
   description: "A tall grocer, who moves two 200 pounds bag of flour around on his
     shoulders.\n\r"
   race: Human
-  act: 2097154
+  act: BV
   affected_by: 0
   affected2_by: 0
   alignment: 900
@@ -1382,8 +1382,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 560
-  imm_flags: 15
+  off_flags: EFJ
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -1401,7 +1401,7 @@ mobiles:
   long_desc: "A weaponsmith.\n\r"
   description: "A young weaponsmith, who still has lots to learn.\n\r"
   race: Human
-  act: 2621442
+  act: BTV
   affected_by: 0
   affected2_by: 0
   alignment: 900
@@ -1426,8 +1426,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 1300
-  imm_flags: 15
+  off_flags: CEIK
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -1446,7 +1446,7 @@ mobiles:
   description: "An old but very strong armourer, he has made more armours in his\n\rlifetime
     than you have ever seen.\n\r"
   race: Human
-  act: 2097154
+  act: BV
   affected_by: 0
   affected2_by: 0
   alignment: 900
@@ -1471,8 +1471,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 9780
-  imm_flags: 15
+  off_flags: CEFJKN
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -1490,8 +1490,8 @@ mobiles:
   long_desc: "A thief, all dressed in black.\n\r"
   description: "Well COUNT your money!\n\r"
   race: Human
-  act: 262276
-  affected_by: 98304
+  act: CHS
+  affected_by: PQ
   affected2_by: 0
   alignment: -100
   clan: 0
@@ -1515,7 +1515,7 @@ mobiles:
     bash: 4
     slash: 3
     exotic: 7
-  off_flags: 8752
+  off_flags: EFJN
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -1534,7 +1534,7 @@ mobiles:
   long_desc: "A retired captain stands here, selling boats.\n\r"
   description: "This captain has killed more sharks than you have eaten peas.\n\r"
   race: Human
-  act: 2621442
+  act: BTV
   affected_by: 0
   affected2_by: 0
   alignment: 900
@@ -1559,8 +1559,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 276
-  imm_flags: 15
+  off_flags: CEI
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -1578,7 +1578,7 @@ mobiles:
   long_desc: "A sailor stands here, waiting to train you.\n\r"
   description: "He looks like a strong, fit sailor.\n\r"
   race: Human
-  act: 136839682
+  act: BJTVb
   affected_by: 0
   affected2_by: 0
   alignment: 900
@@ -1603,8 +1603,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 8864
-  imm_flags: 15
+  off_flags: FHJN
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -1622,7 +1622,7 @@ mobiles:
   long_desc: "A pet shop boy is here, humming gently.\n\r"
   description: "He is young and close-cropped and looks quite happy.\n\r"
   race: Human
-  act: 2097154
+  act: BV
   affected_by: 0
   affected2_by: 0
   alignment: 900
@@ -1648,7 +1648,7 @@ mobiles:
     slash: -15
     exotic: -15
   off_flags: 0
-  imm_flags: 15
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -1666,7 +1666,7 @@ mobiles:
   long_desc: "The jeweller is standing behind the desk.\n\r"
   description: "He is fat and has a content although watchful look on his face.\n\r"
   race: Human
-  act: 538968066
+  act: BVd
   affected_by: 0
   affected2_by: 0
   alignment: 900
@@ -1691,8 +1691,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 33
-  imm_flags: 15
+  off_flags: AF
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -1711,7 +1711,7 @@ mobiles:
   description: "She looks as an honest, hard-working artisan who only just earns enough
     to\n\rkeep herself going.\n\r"
   race: Human
-  act: 2097154
+  act: BV
   affected_by: 0
   affected2_by: 0
   alignment: 900
@@ -1736,8 +1736,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 8225
-  imm_flags: 15
+  off_flags: AFN
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -1757,8 +1757,8 @@ mobiles:
     of Rivers of Mud, towers over you.  He's over 12 feet\n\rtall, every inch of it
     muscle. It would be a Bad Thing to commit a crime\n\rin his presence.\n\r"
   race: Giant
-  act: 2621442
-  affected_by: 33554988
+  act: BTV
+  affected_by: CDFJZ
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1782,9 +1782,9 @@ mobiles:
     bash: -20
     slash: -20
     exotic: -10
-  off_flags: 552381
-  imm_flags: 32771
-  res_flags: 12
+  off_flags: ACDEFHIKLNOT
+  imm_flags: ABP
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -1802,8 +1802,8 @@ mobiles:
   description: "Although retired from adventuring, the healer still lends a hand.\n\rType
     'heal' to see a listing of spells.\n\r"
   race: Human
-  act: 606142466
-  affected_by: 168
+  act: BQVad
+  affected_by: DFH
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1827,8 +1827,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 1440
-  imm_flags: 15
+  off_flags: FHIK
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -1848,8 +1848,8 @@ mobiles:
     see the\n\rvast amount of knowledge she possesses. She is wearing fine magic clothing,\n\rand
     you notice that she is surrounded by a blue shimmering aura.\n\r"
   race: Elf
-  act: 539100162
-  affected_by: 33554488
+  act: BKRVd
+  affected_by: DEFZ
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1873,8 +1873,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 96
-  imm_flags: 15
+  off_flags: FG
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -1894,8 +1894,8 @@ mobiles:
     he has\n\ra peaceful, loving look. You notice that he is surrounded by a white
     aura.\n\r"
   race: Human
-  act: 539034626
-  affected_by: 33554620
+  act: BKQVd
+  affected_by: CDEFHZ
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1919,8 +1919,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 1456
-  imm_flags: 15
+  off_flags: EFHIK
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -1940,8 +1940,8 @@ mobiles:
     it:\n\rthe way of the true thief.  She is dressed in poor clothing, having the\n\rappearance
     of a beggar.  \n\r"
   race: Human
-  act: 2360322
-  affected_by: 33554472
+  act: BKSV
+  affected_by: DFZ
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1965,8 +1965,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 8882
-  imm_flags: 15
+  off_flags: BEFHJN
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -1986,8 +1986,8 @@ mobiles:
     scars\n\racross his body prove that he was using arms before you were born.  He\n\rhas
     a calm look on his face.\n\r"
   race: Dwarf
-  act: 2622466
-  affected_by: 40
+  act: BKTV
+  affected_by: DF
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -2011,8 +2011,8 @@ mobiles:
     bash: -20
     slash: -20
     exotic: -20
-  off_flags: 1309
-  imm_flags: 15
+  off_flags: ACDEIK
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -2032,8 +2032,8 @@ mobiles:
     Magic.\n\rHe is here to guard the Mage's Guild and his superior knowledge of offensive\n\ras
     well as defensive spells make him a deadly opponent.\n\r"
   race: Elf
-  act: 2752514
-  affected_by: 10
+  act: BRTV
+  affected_by: BD
   affected2_by: 0
   alignment: 800
   clan: 0
@@ -2057,9 +2057,9 @@ mobiles:
     bash: -10
     slash: -10
     exotic: -8
-  off_flags: 81
-  imm_flags: 3
-  res_flags: 12
+  off_flags: AEG
+  imm_flags: AB
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -2079,8 +2079,8 @@ mobiles:
     attacks and\n\rhis religious devotion combined with his superior skill makes him
     a deadly\n\ropponent.\n\r"
   race: Human
-  act: 2686978
-  affected_by: 520
+  act: BQTV
+  affected_by: DJ
   affected2_by: 0
   alignment: 800
   clan: 0
@@ -2104,9 +2104,9 @@ mobiles:
     bash: -10
     slash: -10
     exotic: -7
-  off_flags: 1304
-  imm_flags: 3
-  res_flags: 12
+  off_flags: DEIK
+  imm_flags: AB
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -2126,8 +2126,8 @@ mobiles:
     where to use\n\rthem combined with his extraordinary stealth makes him a deadly
     opponent.\n\r"
   race: Human
-  act: 2883586
-  affected_by: 98344
+  act: BSTV
+  affected_by: DFPQ
   affected2_by: 0
   alignment: 800
   clan: 0
@@ -2151,9 +2151,9 @@ mobiles:
     bash: -12
     slash: -12
     exotic: -6
-  off_flags: 2105906
-  imm_flags: 3
-  res_flags: 12
+  off_flags: BEFJNV
+  imm_flags: AB
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -2172,8 +2172,8 @@ mobiles:
     deeds.  His duty is to protect the Guild of Swordsmen and his\n\rextreme skill
     combined with his experience in warfare makes him a deadly\n\ropponent.\n\r"
   race: Human
-  act: 2621442
-  affected_by: 40
+  act: BTV
+  affected_by: DF
   affected2_by: 0
   alignment: 800
   clan: 0
@@ -2197,9 +2197,9 @@ mobiles:
     bash: -10
     slash: -10
     exotic: -4
-  off_flags: 1437
-  imm_flags: 3
-  res_flags: 12
+  off_flags: ACDEHIK
+  imm_flags: AB
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -2216,7 +2216,7 @@ mobiles:
   long_desc: "A bartender watches you calmly, while he skillfully mixes a drink.\n\r"
   description: "A tired looking Bartender who hates trouble in his bar.\n\r"
   race: Human
-  act: 2097154
+  act: BV
   affected_by: 0
   affected2_by: 0
   alignment: 900
@@ -2241,9 +2241,9 @@ mobiles:
     bash: -6
     slash: -6
     exotic: 0
-  off_flags: 8864
-  imm_flags: 3
-  res_flags: 12
+  off_flags: FHJN
+  imm_flags: AB
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -2260,7 +2260,7 @@ mobiles:
   long_desc: "A waiter is going around from one place to another.\n\r"
   description: "A tired looking waiter.\n\r"
   race: Human
-  act: 2097154
+  act: BV
   affected_by: 0
   affected2_by: 0
   alignment: 900
@@ -2285,9 +2285,9 @@ mobiles:
     bash: -6
     slash: -6
     exotic: 0
-  off_flags: 8864
-  imm_flags: 3
-  res_flags: 12
+  off_flags: FHJN
+  imm_flags: AB
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -2305,8 +2305,8 @@ mobiles:
     life as a waiter.\n\r"
   description:
   race: Human
-  act: 2228226
-  affected_by: 8
+  act: BRV
+  affected_by: D
   affected2_by: 0
   alignment: 600
   clan: 0
@@ -2330,9 +2330,9 @@ mobiles:
     bash: -6
     slash: -6
     exotic: 0
-  off_flags: 8736
-  imm_flags: 3
-  res_flags: 12
+  off_flags: FJN
+  imm_flags: AB
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -2349,7 +2349,7 @@ mobiles:
   long_desc: "A waiter who seems to have reached contact with God.\n\r"
   description:
   race: Human
-  act: 2162690
+  act: BQV
   affected_by: 0
   affected2_by: 0
   alignment: 600
@@ -2374,9 +2374,9 @@ mobiles:
     bash: -6
     slash: -6
     exotic: 0
-  off_flags: 8864
-  imm_flags: 3
-  res_flags: 12
+  off_flags: FHJN
+  imm_flags: AB
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -2393,7 +2393,7 @@ mobiles:
   long_desc: "A waiter who knows where all his customers keep their money.\n\r"
   description:
   race: Human
-  act: 2359298
+  act: BSV
   affected_by: 0
   affected2_by: 0
   alignment: 600
@@ -2418,9 +2418,9 @@ mobiles:
     bash: -6
     slash: -6
     exotic: 0
-  off_flags: 8864
-  imm_flags: 3
-  res_flags: 12
+  off_flags: FHJN
+  imm_flags: AB
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -2437,7 +2437,7 @@ mobiles:
   long_desc: "A waiter who easily could kill you, and still carry quite a few firebreathers.\n\r"
   description:
   race: Human
-  act: 2621442
+  act: BTV
   affected_by: 0
   affected2_by: 0
   alignment: 600
@@ -2462,9 +2462,9 @@ mobiles:
     bash: -6
     slash: -6
     exotic: 0
-  off_flags: 8866
-  imm_flags: 3
-  res_flags: 12
+  off_flags: BFHJN
+  imm_flags: AB
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -2482,7 +2482,7 @@ mobiles:
   description: "Filthy looks real, ehm, dirty. He likes to keep his costumers happy,\n\rbut
     do not mess with him or else he'll get upset.\n\r"
   race: Human
-  act: 2359298
+  act: BSV
   affected_by: 0
   affected2_by: 0
   alignment: 600
@@ -2507,9 +2507,9 @@ mobiles:
     bash: -8
     slash: -8
     exotic: -4
-  off_flags: 8754
-  imm_flags: 3
-  res_flags: 12
+  off_flags: BEFJN
+  imm_flags: AB
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -2526,7 +2526,7 @@ mobiles:
   long_desc: "A cityguard stands here.\n\r"
   description: "A big, strong, helpful, trustworthy guard.\n\r"
   race: Human
-  act: 524356
+  act: CGT
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -2551,9 +2551,9 @@ mobiles:
     bash: 0
     slash: 0
     exotic: 8
-  off_flags: 1575964
+  off_flags: CDEKLTU
   imm_flags: 0
-  res_flags: 4
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -2570,7 +2570,7 @@ mobiles:
   long_desc: "A janitor is walking around, cleaning up.\n\r"
   description:
   race: Human
-  act: 192
+  act: GH
   affected_by: 0
   affected2_by: 0
   alignment: 900
@@ -2595,10 +2595,10 @@ mobiles:
     bash: 10
     slash: 10
     exotic: 10
-  off_flags: 1056768
+  off_flags: NU
   imm_flags: 0
   res_flags: 0
-  vuln_flags: 4
+  vuln_flags: C
   start_pos: 8
   default_pos: 8
   sex: 3
@@ -2615,7 +2615,7 @@ mobiles:
   description: "Fido is a small dog that has a foul smell and pieces of rotted meat
     hanging\n\raround its teeth.\n\r"
   race: fido
-  act: 1048800
+  act: FGHU
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -2659,7 +2659,7 @@ mobiles:
   long_desc: "A vagabond is here, looking for victims.\n\r"
   description: "He looks pretty mean.\n\r"
   race: Human
-  act: 262148
+  act: CS
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -2684,10 +2684,10 @@ mobiles:
     bash: 5
     slash: 5
     exotic: 10
-  off_flags: 74242
+  off_flags: BJNQ
   imm_flags: 0
   res_flags: 0
-  vuln_flags: 4
+  vuln_flags: C
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -2703,7 +2703,7 @@ mobiles:
   long_desc: "A singing, happy drunk wanders around, singing about Moria.\n\r"
   description: "A drunk who seems to be too happy, and to carry too much money.\n\r"
   race: Human
-  act: 64
+  act: G
   affected_by: 0
   affected2_by: 0
   alignment: 400
@@ -2728,10 +2728,10 @@ mobiles:
     bash: 8
     slash: 8
     exotic: 10
-  off_flags: 1048576
+  off_flags: U
   imm_flags: 0
   res_flags: 0
-  vuln_flags: 4
+  vuln_flags: C
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -2747,7 +2747,7 @@ mobiles:
   long_desc: "A beggar is here, asking for a few coins.\n\r"
   description: "The beggar looks like she is fed up with life.\n\r"
   race: Human
-  act: 2
+  act: B
   affected_by: 0
   affected2_by: 0
   alignment: 400
@@ -2772,10 +2772,10 @@ mobiles:
     bash: 8
     slash: 8
     exotic: 10
-  off_flags: 1057312
+  off_flags: FJNU
   imm_flags: 0
   res_flags: 0
-  vuln_flags: 4
+  vuln_flags: C
   start_pos: 8
   default_pos: 8
   sex: 2
@@ -2791,7 +2791,7 @@ mobiles:
   long_desc: "An alley cat hisses at you.\n\r"
   description: "The alley cat is half starved and more than a little feral.\n\r"
   race: cat
-  act: 1048800
+  act: FGHU
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -2816,10 +2816,10 @@ mobiles:
     bash: 8
     slash: 8
     exotic: 9
-  off_flags: 131080
+  off_flags: DR
   imm_flags: 0
   res_flags: 0
-  vuln_flags: 4
+  vuln_flags: C
   start_pos: 8
   default_pos: 8
   sex: 3
@@ -2835,7 +2835,7 @@ mobiles:
   long_desc: "A cityguard is here, guarding the gate.\n\r"
   description: "A big, strong, helpful, trustworthy guard.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -2860,9 +2860,9 @@ mobiles:
     bash: 0
     slash: 0
     exotic: 8
-  off_flags: 1575964
+  off_flags: CDEKLTU
   imm_flags: 0
-  res_flags: 4
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -2879,7 +2879,7 @@ mobiles:
   long_desc: "A cityguard is here, guarding the gate.\n\r"
   description: "A big, strong, helpful, trustworthy guard.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -2904,9 +2904,9 @@ mobiles:
     bash: 0
     slash: 0
     exotic: 8
-  off_flags: 1575964
+  off_flags: CDEKLTU
   imm_flags: 0
-  res_flags: 4
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -2923,8 +2923,8 @@ mobiles:
   long_desc: "A cityguard is here, guarding the mayor.\n\r"
   description: "A big, strong, helpful, trustworthy guard.\n\r"
   race: Human
-  act: 524290
-  affected_by: 65538
+  act: BT
+  affected_by: BQ
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -2948,9 +2948,9 @@ mobiles:
     bash: -6
     slash: -6
     exotic: 0
-  off_flags: 1576092
+  off_flags: CDEHKLTU
   imm_flags: 0
-  res_flags: 4
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -2968,8 +2968,8 @@ mobiles:
     buy a nice love potion?'\n\r"
   description: "He looks very dangerous.  I wouldn't try to rob him.\n\r"
   race: Human
-  act: 2293762
-  affected_by: 56
+  act: BQRV
+  affected_by: DEF
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -2993,8 +2993,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 224
-  imm_flags: 15
+  off_flags: FGH
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -3012,7 +3012,7 @@ mobiles:
   long_desc: "A cityguard is here, guarding the gate alertly.\n\r"
   description: "A big, strong, helpful, trustworthy guard.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -3037,9 +3037,9 @@ mobiles:
     bash: 0
     slash: 0
     exotic: 8
-  off_flags: 1575964
+  off_flags: CDEKLTU
   imm_flags: 0
-  res_flags: 4
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -3058,7 +3058,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 5
   weight: 14
   cost: 500
@@ -3077,7 +3077,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 17
+  wear_flags: AE
   level: 5
   weight: 4
   cost: 250
@@ -3096,7 +3096,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 33
+  wear_flags: AF
   level: 5
   weight: 8
   cost: 250
@@ -3115,7 +3115,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 65
+  wear_flags: AG
   level: 5
   weight: 4
   cost: 250
@@ -3134,7 +3134,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 129
+  wear_flags: AH
   level: 5
   weight: 2
   cost: 250
@@ -3153,7 +3153,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 257
+  wear_flags: AI
   level: 5
   weight: 6
   cost: 250
@@ -3171,8 +3171,8 @@ objects:
   description: A potion of healing is here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 15
   weight: 1
   cost: 1000
@@ -3190,8 +3190,8 @@ objects:
   description: A potion of sanctuary is here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 10
   weight: 1
   cost: 1250
@@ -3209,8 +3209,8 @@ objects:
   description: A potion of divine protection is here.
   material: none
   item_type: 10
-  extra_flags: 323
-  wear_flags: 16385
+  extra_flags: ABGI
+  wear_flags: AO
   level: 20
   weight: 1
   cost: 2000
@@ -3228,8 +3228,8 @@ objects:
   description: A potion of cure light wounds is here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 0
   weight: 1
   cost: 50
@@ -3247,8 +3247,8 @@ objects:
   description: A potion of cure serious wounds is here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 5
   weight: 1
   cost: 150
@@ -3266,8 +3266,8 @@ objects:
   description: A potion of cure critical wounds is here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 8
   weight: 1
   cost: 500
@@ -3285,8 +3285,8 @@ objects:
   description: A bottle of antidote is here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 0
   weight: 1
   cost: 150
@@ -3304,8 +3304,8 @@ objects:
   description: A potion of cure blindness is here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 0
   weight: 1
   cost: 100
@@ -3323,8 +3323,8 @@ objects:
   description: A vial of holy water is here.
   material: none
   item_type: 10
-  extra_flags: 321
-  wear_flags: 16385
+  extra_flags: AGI
+  wear_flags: AO
   level: 5
   weight: 1
   cost: 1500
@@ -3342,8 +3342,8 @@ objects:
   description: A potion of armor is here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 0
   weight: 1
   cost: 250
@@ -3361,8 +3361,8 @@ objects:
   description: A potion of negation is here.
   material: none
   item_type: 10
-  extra_flags: 66
-  wear_flags: 16385
+  extra_flags: BG
+  wear_flags: AO
   level: 0
   weight: 1
   cost: 500
@@ -3380,8 +3380,8 @@ objects:
   description: A potion of flying is here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 0
   weight: 1
   cost: 100
@@ -3399,8 +3399,8 @@ objects:
   description: A potion of true sight is here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 0
   weight: 1
   cost: 250
@@ -3419,7 +3419,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 513
+  wear_flags: AJ
   level: 5
   weight: 3
   cost: 500
@@ -3438,7 +3438,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 5
@@ -3459,7 +3459,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 7
@@ -3480,7 +3480,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 1
@@ -3501,7 +3501,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 4097
+  wear_flags: AM
   level: 15
   weight: 3
   cost: 2500
@@ -3520,7 +3520,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 4097
+  wear_flags: AM
   level: 18
   weight: 4
   cost: 5000
@@ -3539,7 +3539,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 10
   weight: 18
   cost: 1000
@@ -3558,7 +3558,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 17
+  wear_flags: AE
   level: 10
   weight: 5
   cost: 500
@@ -3577,7 +3577,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 33
+  wear_flags: AF
   level: 10
   weight: 10
   cost: 500
@@ -3596,7 +3596,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 65
+  wear_flags: AG
   level: 10
   weight: 6
   cost: 500
@@ -3615,7 +3615,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 129
+  wear_flags: AH
   level: 10
   weight: 4
   cost: 500
@@ -3634,7 +3634,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 257
+  wear_flags: AI
   level: 10
   weight: 8
   cost: 500
@@ -3653,7 +3653,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 513
+  wear_flags: AJ
   level: 10
   weight: 10
   cost: 1000
@@ -3672,7 +3672,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 513
+  wear_flags: AJ
   level: 3
   weight: 2
   cost: 100
@@ -3691,7 +3691,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 0
@@ -3712,7 +3712,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 0
@@ -3734,7 +3734,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 0
@@ -3755,7 +3755,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 0
@@ -3777,7 +3777,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 5
   cost: 600
@@ -3798,7 +3798,7 @@ objects:
   material: none
   item_type: 13
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 0
   weight: 4
   cost: 200
@@ -3859,7 +3859,7 @@ objects:
   material: none
   item_type: 20
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 0
   cost: 52385
@@ -3878,7 +3878,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 25
   cost: 10000
@@ -3919,7 +3919,7 @@ objects:
   description: A small white fountain gushes forth here.
   material: none
   item_type: 25
-  extra_flags: 16384
+  extra_flags: O
   wear_flags: 0
   level: 0
   weight: 500
@@ -3941,7 +3941,7 @@ objects:
   material: none
   item_type: 20
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 0
   cost: 20
@@ -3960,7 +3960,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 0
@@ -3981,7 +3981,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 5
   cost: 30
@@ -4050,7 +4050,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 25
@@ -4071,7 +4071,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 2
   cost: 30
@@ -4092,7 +4092,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 3
   cost: 50
@@ -4114,7 +4114,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 5
@@ -4136,7 +4136,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 2
   cost: 20
@@ -4158,7 +4158,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 0
   weight: 1
   cost: 0
@@ -4177,7 +4177,7 @@ objects:
   material: none
   item_type: 28
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 100
@@ -4229,7 +4229,7 @@ objects:
   material: none
   item_type: 28
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 500
@@ -4276,7 +4276,7 @@ objects:
   material: none
   item_type: 28
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 250
@@ -4330,7 +4330,7 @@ objects:
   material: none
   item_type: 28
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 750
@@ -4376,7 +4376,7 @@ objects:
   material: none
   item_type: 28
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 1500
@@ -4422,7 +4422,7 @@ objects:
   material: none
   item_type: 28
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 2500
@@ -4487,7 +4487,7 @@ objects:
   material: none
   item_type: 28
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 2000
@@ -4526,8 +4526,8 @@ objects:
   description: You see a standard issue sword here.
   material: none
   item_type: 5
-  extra_flags: 64
-  wear_flags: 8193
+  extra_flags: G
+  wear_flags: AN
   level: 8
   weight: 5
   cost: 0
@@ -4539,11 +4539,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
+    location: 19
     modifier: 1
     bitvector: 0
   - where: O
-    location: 19
+    location: 18
     modifier: 1
     bitvector: 0
   extra_descs:
@@ -4556,8 +4556,8 @@ objects:
   description: You see a standard issue dagger here.
   material: none
   item_type: 5
-  extra_flags: 64
-  wear_flags: 8193
+  extra_flags: G
+  wear_flags: AN
   level: 2
   weight: 2
   cost: 0
@@ -4569,11 +4569,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
+    location: 19
     modifier: 1
     bitvector: 0
   - where: O
-    location: 19
+    location: 18
     modifier: 1
     bitvector: 0
   extra_descs:
@@ -4586,8 +4586,8 @@ objects:
   description: You see a standard issue mace here.
   material: none
   item_type: 5
-  extra_flags: 64
-  wear_flags: 8193
+  extra_flags: G
+  wear_flags: AN
   level: 7
   weight: 10
   cost: 0
@@ -4599,12 +4599,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 2
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 1
     bitvector: 0
   extra_descs:
   - keywords: mace
@@ -4617,7 +4617,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 6
   weight: 5
   cost: 0
@@ -4639,7 +4639,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 513
+  wear_flags: AJ
   level: 6
   weight: 3
   cost: 0
@@ -4661,7 +4661,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 5
+  wear_flags: AC
   level: 6
   weight: 4
   cost: 0
@@ -4683,7 +4683,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 17
+  wear_flags: AE
   level: 6
   weight: 3
   cost: 0
@@ -4705,7 +4705,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 33
+  wear_flags: AF
   level: 6
   weight: 3
   cost: 0
@@ -4727,7 +4727,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 65
+  wear_flags: AG
   level: 6
   weight: 3
   cost: 0
@@ -4749,7 +4749,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 129
+  wear_flags: AH
   level: 6
   weight: 3
   cost: 0
@@ -4771,7 +4771,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 257
+  wear_flags: AI
   level: 6
   weight: 2
   cost: 0
@@ -4793,7 +4793,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 1025
+  wear_flags: AK
   level: 6
   weight: 2
   cost: 0
@@ -4815,7 +4815,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 2049
+  wear_flags: AL
   level: 6
   weight: 2
   cost: 0
@@ -4837,7 +4837,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 4097
+  wear_flags: AM
   level: 6
   weight: 1
   cost: 0
@@ -4858,8 +4858,8 @@ objects:
   description: You see a ring with a strange symbol on the floor.
   material: none
   item_type: 8
-  extra_flags: 64
-  wear_flags: 3
+  extra_flags: G
+  wear_flags: AB
   level: 12
   weight: 1
   cost: 0
@@ -4871,12 +4871,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 17
-    modifier: -5
-    bitvector: 0
-  - where: O
     location: 24
     modifier: -1
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: -5
     bitvector: 0
   extra_descs: []
 - vnum: 3365
@@ -4885,8 +4885,8 @@ objects:
   description: A war banner is on the floor here.
   material: none
   item_type: 1
-  extra_flags: 65
-  wear_flags: 1
+  extra_flags: AG
+  wear_flags: A
   level: 8
   weight: 1
   cost: 0
@@ -4898,12 +4898,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 24
-    modifier: -1
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -2
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -1
     bitvector: 0
   extra_descs:
   - keywords: banner
@@ -4915,8 +4915,8 @@ objects:
   description: Vanya's diamond wedding ring has been left here.
   material: none
   item_type: 8
-  extra_flags: 256
-  wear_flags: 3
+  extra_flags: I
+  wear_flags: AB
   level: 0
   weight: 1
   cost: 0
@@ -4942,8 +4942,8 @@ objects:
   description: House's gold wedding band has been left here.
   material: none
   item_type: 8
-  extra_flags: 256
-  wear_flags: 3
+  extra_flags: I
+  wear_flags: AB
   level: 0
   weight: 1
   cost: 0
@@ -4986,8 +4986,8 @@ objects:
   description: A well-cut diamond is lere, lying on the ground.
   material: none
   item_type: 32
-  extra_flags: 794624
-  wear_flags: 1
+  extra_flags: NST
+  wear_flags: A
   level: 5
   weight: 0
   cost: 100
@@ -5006,7 +5006,7 @@ objects:
   material: none
   item_type: 2
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 0
   weight: 1
   cost: 500
@@ -5025,7 +5025,7 @@ objects:
   material: none
   item_type: 10
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 0
   weight: 1
   cost: 500
@@ -5044,7 +5044,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 25
   cost: 300
@@ -5063,7 +5063,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 2
   cost: 20
@@ -5082,7 +5082,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 2
   cost: 10
@@ -5101,7 +5101,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 2
   cost: 50
@@ -5120,7 +5120,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 2
   cost: 20
@@ -5138,8 +5138,8 @@ objects:
   description: Hassan's scimitar lies upon the ground, waiting for its owner.
   material: none
   item_type: 5
-  extra_flags: 258
-  wear_flags: 8193
+  extra_flags: BI
+  wear_flags: AN
   level: 91
   weight: 45
   cost: 30000
@@ -5166,7 +5166,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 2
   cost: 100
@@ -5184,7 +5184,7 @@ objects:
   description: A pit for sacrifices is in front of the altar.
   material: none
   item_type: 15
-  extra_flags: 16384
+  extra_flags: O
   wear_flags: 0
   level: 0
   weight: 0
@@ -5207,7 +5207,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 10
@@ -5226,7 +5226,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 25
@@ -5245,7 +5245,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 40
@@ -5264,7 +5264,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 18
@@ -5283,7 +5283,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 0
   weight: 1
   cost: 10
@@ -5302,7 +5302,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 0
   weight: 3
   cost: 60
@@ -5321,7 +5321,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 7
   weight: 5
   cost: 250
@@ -5340,7 +5340,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 3
   weight: 3
   cost: 25
@@ -5363,7 +5363,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 6
   weight: 10
   cost: 70
@@ -5386,7 +5386,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 0
   weight: 5
   cost: 50
@@ -5405,7 +5405,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 7
   weight: 9
   cost: 200
@@ -5424,7 +5424,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 4
   weight: 5
   cost: 50
@@ -5443,7 +5443,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 4
   weight: 4
   cost: 40
@@ -5466,7 +5466,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 3
   weight: 5
   cost: 50
@@ -5489,7 +5489,7 @@ objects:
   material: none
   item_type: 1
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 10
@@ -5508,7 +5508,7 @@ objects:
   material: none
   item_type: 1
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 4
   cost: 60
@@ -5520,12 +5520,12 @@ objects:
   - 0
   affects: []
   extra_descs:
+  - keywords: letters
+    description: "They say, \"Use 'hold lantern' to activate.\"\n\r"
   - keywords: lantern
     description: "It is a large and robust but somewhat battered oil lantern made
       from brass,\n\requipped with a handle to make it handy and a hood to protect
       its flame.\n\rSome letters have been scratched on its bottom.\n\r"
-  - keywords: letters
-    description: "They say, \"Use 'hold lantern' to activate.\"\n\r"
 - vnum: 3032
   name: bag
   short_desc: a bag
@@ -5533,7 +5533,7 @@ objects:
   material: none
   item_type: 15
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 2
   cost: 20
@@ -5552,7 +5552,7 @@ objects:
   material: none
   item_type: 15
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 3
   cost: 50
@@ -5570,8 +5570,8 @@ objects:
   description: A rolled vellum scroll is here.
   material: none
   item_type: 2
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 0
   weight: 1
   cost: 200
@@ -5591,8 +5591,8 @@ objects:
   description: A scroll has carelessly been left here.
   material: none
   item_type: 2
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 5
   weight: 1
   cost: 150
@@ -5613,8 +5613,8 @@ objects:
   description: A small yellow potion has carelessly been left here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 0
   weight: 1
   cost: 100
@@ -5634,8 +5634,8 @@ objects:
   description: A scroll has carelessly been left here.
   material: none
   item_type: 2
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 0
   weight: 2
   cost: 150
@@ -5655,8 +5655,8 @@ objects:
   description: an enchanted ring of protection sits on the floor.
   material: none
   item_type: 8
-  extra_flags: 64
-  wear_flags: 3
+  extra_flags: G
+  wear_flags: AB
   level: 5
   weight: 1
   cost: 500
@@ -5668,12 +5668,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 17
-    modifier: -2
-    bitvector: 0
-  - where: O
     location: 24
     modifier: -1
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: -2
     bitvector: 0
   extra_descs:
   - keywords: ring
@@ -5684,8 +5684,8 @@ objects:
   description: a wooden stick lies on the ground.
   material: none
   item_type: 3
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 0
   weight: 1
   cost: 350
@@ -5706,7 +5706,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 5
   weight: 16
   cost: 600
@@ -5725,7 +5725,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 15
   weight: 20
   cost: 7000
@@ -5744,7 +5744,7 @@ objects:
   material: none
   item_type: 22
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 75
   cost: 400
@@ -5765,7 +5765,7 @@ objects:
   material: none
   item_type: 22
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 32
   cost: 1000
@@ -5786,7 +5786,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 4097
+  wear_flags: AM
   level: 0
   weight: 1
   cost: 80
@@ -5805,7 +5805,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 2049
+  wear_flags: AL
   level: 0
   weight: 1
   cost: 50
@@ -5824,7 +5824,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 2049
+  wear_flags: AL
   level: 3
   weight: 2
   cost: 100
@@ -5843,7 +5843,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 0
   weight: 5
   cost: 100
@@ -5862,7 +5862,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 17
+  wear_flags: AE
   level: 0
   weight: 1
   cost: 50
@@ -5881,7 +5881,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 33
+  wear_flags: AF
   level: 0
   weight: 5
   cost: 50
@@ -5900,7 +5900,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 65
+  wear_flags: AG
   level: 0
   weight: 3
   cost: 50
@@ -5919,7 +5919,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 129
+  wear_flags: AH
   level: 0
   weight: 1
   cost: 50
@@ -5938,7 +5938,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 257
+  wear_flags: AI
   level: 0
   weight: 3
   cost: 50
@@ -5957,7 +5957,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 3
   weight: 8
   cost: 200
@@ -5976,7 +5976,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 17
+  wear_flags: AE
   level: 3
   weight: 2
   cost: 100
@@ -5995,7 +5995,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 33
+  wear_flags: AF
   level: 3
   weight: 7
   cost: 100
@@ -6014,7 +6014,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 65
+  wear_flags: AG
   level: 3
   weight: 4
   cost: 100
@@ -6033,7 +6033,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 129
+  wear_flags: AH
   level: 3
   weight: 1
   cost: 100
@@ -6052,7 +6052,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 257
+  wear_flags: AI
   level: 3
   weight: 4
   cost: 100
@@ -6070,7 +6070,7 @@ rooms:
   description: "You are at the concourse, the city wall is just west.  A small promenade\n\rgoes
     east, and the bridge is just north of here.  The concourse continues\n\rsouth
     along the city wall.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6097,7 +6097,7 @@ rooms:
   name: Promenade
   description: "The river gently flows west just north of here.  The promenade continues\n\rfurther
     east and to the west you see the city wall.  Park Road leads south\n\rfrom here.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6128,7 +6128,7 @@ rooms:
     of here you see the entrance to the park, and a small building seems\n\rto be
     just west of the entrance.  Austral Square, home Kate's Diner, lies\n\rto your
     east.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6165,7 +6165,7 @@ rooms:
     at the pilings of the dock by Kate's Diner, which is to your\n\rnorth.  Emerald
     Avenue begins to the south, the Promenade continues west,\n\rand the concourse
     ends to your east.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6200,7 +6200,7 @@ rooms:
     Square,\n\rhome of Kate's Diner, is west.  Looking across the river you see an
     old  \n\rwarehouse.  A strong stone bridge crosses the river to the north, where
     the\n\rconcourse becomes wall road.  The Concourse continues south along the wall.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6231,7 +6231,7 @@ rooms:
   description: "You are standing just inside the small park of Midgaard.  To the north
     is\n\rthe promenade and a small path leads south into the park.  To your east
     is\n\rthe famous Park Cafe.\n\r"
-  room_flags: 262148
+  room_flags: CS
   sector: 1
   owner:
   exits:
@@ -6259,7 +6259,7 @@ rooms:
   description: "You are inside Park Cafe, a very well lighted, cosy place. The cafe\n\ris
     built from large logs. Through the windows in the northern wall you\n\rsee the
     river, and through the southern window you see many vigorous\n\rcolorful plants.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -6274,7 +6274,7 @@ rooms:
   name: Small path through the park
   description: "You are walking along a small path through the park.  The path continues\n\rsouth
     and east.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6296,7 +6296,7 @@ rooms:
   description: "You are standing on a small path inside the park.  The park entrance
     is\n\rjust north of here, and Park Cafe is just east of the entrance.  The path\n\rleads
     further east and west.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6323,7 +6323,7 @@ rooms:
   name: Small path in the park
   description: "You are on a small path running through the park.  It continues west
     and\n\rsouth and just north of here you see the southern wall of Park Cafe.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6344,20 +6344,20 @@ rooms:
   name: Cityguard Head Quarters
   description: "You are inside a tidy office.  A big desk made from dark wood is standing\n\rin
     the centre of the room.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
   - dir: 1
     desc: "You see Park Road.\n\r"
     keywords: door
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 3111
   - dir: 3
     desc: "You see a sign saying 'KEEP OUT'.\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 3120
     to_vnum: 3142
   extra_descs: []
@@ -6365,7 +6365,7 @@ rooms:
   name: Park Road
   description: "The road continues north and south.  A building is just west of here,
     you\n\rnotice a sign on the door.  The park entrance is to the east.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6390,7 +6390,7 @@ rooms:
   - dir: 3
     desc: "You see the cityguard head quarters.\n\r"
     keywords: door
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 3110
   extra_descs:
@@ -6402,7 +6402,7 @@ rooms:
   description: "You are standing at the western end of the park.  A small path leads
     east\n\rinto the park and going west through the entrance you will reach Park
     Road.\n\r"
-  room_flags: 262148
+  room_flags: CS
   sector: 1
   owner:
   exits:
@@ -6423,7 +6423,7 @@ rooms:
   name: A path in the park
   description: "You are in the park.  The paths lead north and west.  Westwards is
     the\n\rpark entrance and to the east you see a small pond.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6450,7 +6450,7 @@ rooms:
   name: The Pond
   description: "You are swimming around in the pond, feeling rather stupid.  You can
     get\n\rback on the path from the eastern and western end of the pond.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 6
   owner:
   exits:
@@ -6471,7 +6471,7 @@ rooms:
   name: A path in the park
   description: "You are in the park.  The paths lead north and east.  Eastwards is
     the\n\rpark entrance and to the west you see a small pond.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6498,7 +6498,7 @@ rooms:
   name: Eastern Park Entrance
   description: "You are standing at the eastern end of the park.  A small path leads
     west\n\rinto the park.  Going east through the entrance you will reach Emerald\n\rAvenue.\n\r"
-  room_flags: 262148
+  room_flags: CS
   sector: 1
   owner:
   exits:
@@ -6520,7 +6520,7 @@ rooms:
   description: "You are at Emerald Avenue which continues north and south.  To the
     west is\n\rthe park entrance and to the east is the not very big Town Hall of
     Midgaard.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6552,7 +6552,7 @@ rooms:
 - vnum: 3118
   name: Park Road
   description: "You are on Park Road which leads north and south.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6574,7 +6574,7 @@ rooms:
   description: "You are standing at a bend on Emerald Avenue.  The road leads north
     and west.\n\rTo the east, you see some run-down slums...it looks like the bad
     part of\n\rtown.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6603,7 +6603,7 @@ rooms:
     huge black iron chain as thick as a tree trunk is fastened into the ground\n\rat
     the centre of the road cross.  Its other end leads directly upwards towards\n\rthe
     sky.\n\rA road sign is here.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6638,19 +6638,19 @@ rooms:
     key: -1
     to_vnum: 7914
   extra_descs:
+  - keywords: chain
+    description: "The the chain reaches the clouds high above you.  It must take some
+      really\n\rpowerful magic to hold such a chain in place.\n\r"
   - keywords: sign
     description: "The sign points in all directions:\n\r\n\r   North - Emerald Avenue.\n\r
       \  East  - Park Road.\n\r   South - Emerald Avenue.\n\r   West  - Park Road.\n\r\n\rSomeone
       has added the following with red paint:\n\r\n\r   Up    - Redferne's Flying
       Citadel.\n\r"
-  - keywords: chain
-    description: "The the chain reaches the clouds high above you.  It must take some
-      really\n\rpowerful magic to hold such a chain in place.\n\r"
 - vnum: 3121
   name: Emerald Avenue
   description: "You are standing at a bend on Emerald Avenue.  The road leads south
     and\n\reast.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6671,7 +6671,7 @@ rooms:
   name: Park Road
   description: "You are on Park Road which leads south and north.  Elm Street is east
     of\n\rhere.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6698,7 +6698,7 @@ rooms:
   name: Elm Street
   description: "You are on Elm street.  Park Road is to the west and Elm Street continues\n\rin
     eastward direction.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6720,7 +6720,7 @@ rooms:
   description: "You near the end of Elm Street.  An old elm tree grows here.  A heavy\n\riron
     grating is south, surrounding the city's graveyard.  You can see a sign\n\rhanging
     on the grate.  The concourse crosses Elm Street to the east.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6733,7 +6733,7 @@ rooms:
   - dir: 2
     desc: "Through the solid iron bars you see the graveyard.\n\r"
     keywords: grate
-    exit_flags: 15
+    exit_flags: ABCD
     key: 3121
     to_vnum: 3600
   - dir: 3
@@ -6743,19 +6743,19 @@ rooms:
     key: -1
     to_vnum: 3123
   extra_descs:
-  - keywords: grate grating
-    description: "Looks heavy.  A small sign is hanging on it.\n\r"
+  - keywords: elm tree
+    description: "The fresh young leaves of the elm tree wave gently in the wind.\n\r"
   - keywords: sign
     description: "The sign says :-\n\r \n\r                          Graveyard of
       Midgaard\n\r \n\r    Many brave adventurers have found their final resting place
       here.\n\r          Please show respect and do not desecrate their tombs.\n\r"
-  - keywords: elm tree
-    description: "The fresh young leaves of the elm tree wave gently in the wind.\n\r"
+  - keywords: grate grating
+    description: "Looks heavy.  A small sign is hanging on it.\n\r"
 - vnum: 3125
   name: Emerald Avenue
   description: "You are on Emerald Avenue which continues north.\n\rThe Concourse
     is south of here.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6776,7 +6776,7 @@ rooms:
   name: Park Road
   description: "You are on Park Road which continues north.  The Concourse is south
     of here.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6797,7 +6797,7 @@ rooms:
   name: On the Concourse
   description: "You are at the southwest corner of the city wall.  The Concourse leads\n\rboth
     north and east.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6820,7 +6820,7 @@ rooms:
     around\n\rthe city of Midgaard.  The south gate of the city lies to your east,
     and the \n\rsouthwestern corner of the city wall is west.  Emerald Avenue stretches
     out\n\rto the north.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6848,7 +6848,7 @@ rooms:
   description: "The concourse continues its path around the city.  The southern gates
     of\n\rthe city are west of here, and park road lies north.  The southeastern\n\rcorner
     of the city wall is east.  \n\r"
-  room_flags: 262145
+  room_flags: AS
   sector: 1
   owner:
   exits:
@@ -6875,7 +6875,7 @@ rooms:
   name: On the Concourse
   description: "You are at the southeast corner of the city wall.  The Concourse leads\n\rboth
     north and west.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6895,7 +6895,7 @@ rooms:
 - vnum: 3131
   name: Park Road
   description: "You are at Park Road which continues north and south.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6917,7 +6917,7 @@ rooms:
   description: "You are standing on the north end of Emerald Avenue.  To the north
     is \n\rAustral Square and Kate's Diner, to the east is the small street Penny
     Lane.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6944,7 +6944,7 @@ rooms:
   name: Emerald Avenue
   description: "You are standing at a bend on Emerald Avenue.  To the east the road
     goes on\n\rand to the south is the Road Crossing.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6965,7 +6965,7 @@ rooms:
   name: Emerald Avenue
   description: "You are standing at a bend on Emerald Avenue.  To the west the road
     goes on\n\rand to the north is the Road Crossing.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -6987,7 +6987,7 @@ rooms:
   description: "You are at a bend on Park Road.  To the north the road goes on and
     to the\n\reast is the Road Crossing.  To the south, the ancient cliffs rise from
     deep\n\runder the ground, forming a wall.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7008,7 +7008,7 @@ rooms:
   name: Park Road
   description: "You are at a bend on Park Road.  To the south the road goes on and
     to the\n\rwest is the Road Crossing.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7029,7 +7029,7 @@ rooms:
   name: The Waiting Room
   description: "You are standing in the waiting room at the town hall.  Wooden chairs
     stand\n\ralong the walls and a long desk is placed in the middle of the room.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -7052,7 +7052,7 @@ rooms:
     and\n\rpolished but completely empty desk is standing in front of an armchair
     that\n\rlooks so comfortable that it most of all resembles a bed with the head
     end\n\rraised slightly.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -7071,7 +7071,7 @@ rooms:
   name: Penny Lane
   description: "You are on Penny Lane.  Emerald Avenue is to the west and Penny Lane\n\rcontinues
     in eastward direction.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7092,7 +7092,7 @@ rooms:
   name: Penny Lane
   description: "You are on Penny Lane.  The narrow road continues north and west,
     and\n\rthe concourse intersects this street to the east.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7118,7 +7118,7 @@ rooms:
 - vnum: 3141
   name: The end of Penny Lane
   description: "You are at the end of Penny Lane.  The only exit appears to be south.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7133,20 +7133,20 @@ rooms:
   name: Captain's Office
   description: "You are in the Office of the Captain of the Guard.  The Midgaard Coat
     of\n\rArms is hanging on the north wall and a heavy steel door is to the south.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
   - dir: 1
     desc: "You see the Cityguard Head Quarters.\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 3120
     to_vnum: 3110
   - dir: 2
     desc: "You see the heavy steel door.\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 3137
     to_vnum: 3143
   extra_descs:
@@ -7156,14 +7156,14 @@ rooms:
   name: The Jail
   description: "You are in a dark and humid jail.  The dark stone walls are hard and
     cold\n\rto the touch.  A heavy steel door is to the north.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
   - dir: 0
     desc: "You see the heavy steel door.\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 3137
     to_vnum: 3142
   extra_descs:
@@ -7184,7 +7184,7 @@ rooms:
     find Kate here, testing a batch of stew or brewing\n\ra special pot of cinnamon
     coffee, eerily just in time for your arrival\n\rPull up a chair, perhaps play
     a game, and take time out to talk.\n\r"
-  room_flags: 263176
+  room_flags: DKS
   sector: 0
   owner:
   exits:
@@ -7222,14 +7222,14 @@ rooms:
     full of scrolls is behind the desk.  A bookcase is to the left of you, \n\rand
     to the left is a window overlooking the Common Square.  A small door, \n\rhalf
     hidden by a stack of books, leads to a room in the back of the shop.\n\r"
-  room_flags: 262150
+  room_flags: BCS
   sector: 0
   owner:
   exits:
   - dir: 0
     desc: "A sign on the door says, \"Unauthorized Personel Prohibited\".\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 3161
     to_vnum: 3161
   - dir: 2
@@ -7239,11 +7239,11 @@ rooms:
     key: -1
     to_vnum: 3024
   extra_descs:
+  - keywords: window
+    description: "You peer out the window and see a cityguard beating up an old lady.\n\r"
   - keywords: bookcase
     description: "You see many cartographer journals and topographical studies.  You
       also see\n\rquite a few tomes written by someone named \"Anson MacDonald\".\n\r"
-  - keywords: window
-    description: "You peer out the window and see a cityguard beating up an old lady.\n\r"
 - vnum: 3161
   name: Melancholy's Room
   description: "A faint smell of incense teases your nose as you enter this room.
@@ -7252,14 +7252,14 @@ rooms:
     of Melancholy's trappings from her adventuring days.  On a small table\n\runder
     a window to the east is a vase with a single white rose.  Other than\n\rthat,
     the room is quite bare.  \n\r"
-  room_flags: 262662
+  room_flags: BCJS
   sector: 0
   owner:
   exits:
   - dir: 2
     desc: "A small door to the south leads out into the map shop.\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 3161
     to_vnum: 3160
   - dir: 4
@@ -7280,7 +7280,7 @@ rooms:
     that there are mud puddles all around the room, and\n\rthis is some weird version
     of windows.  In a flash of revelation, you\n\rrealize that you've entered the
     Temple of Stupid.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -7304,7 +7304,7 @@ rooms:
   description: "The arch under the bridge is covered by seaweed for one foot above
     the\n\rsurface of the river.  The water gently flows through an opening in the
     lower\n\rpart of the city wall.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 7
   owner:
   exits:
@@ -7328,7 +7328,7 @@ rooms:
   name: On the River
   description: "North of here you see the miserable buildings of the poor alley.  The\n\rriver
     flows west towards the bridge.  The riverbanks are too steep to climb.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 7
   owner:
   exits:
@@ -7350,7 +7350,7 @@ rooms:
   description: "North of here you see the dump.  The river flows from east to west.
     \ The\n\rriverbanks are too steep to climb.  A bridge passes overhead, connecting
     the\n\rdump to the promenade.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 7
   owner:
   exits:
@@ -7371,7 +7371,7 @@ rooms:
   name: On the River
   description: "The levee is directly north of here, and a small boat landing for
     Kate's\n\rDiner is to the south.  The river flows in an east west direction.\n\r"
-  room_flags: 262148
+  room_flags: CS
   sector: 7
   owner:
   exits:
@@ -7405,7 +7405,7 @@ rooms:
   description: "You see the warehouse on the northern riverbank.  East of here the
     river\n\rpasses under the eastern bridge and through the city wall. The banks
     of the \n\rlevee are west, in the direction of the current.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 7
   owner:
   exits:
@@ -7427,7 +7427,7 @@ rooms:
   description: "The river enters from a hole in the eastern city wall.  The hole has
     been\n\rblocked by several vertically positioned iron bars set into the wall.
     Overhead\n\ryou can see the stone buttresses of the eastern bridge.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 7
   owner:
   exits:
@@ -7450,7 +7450,7 @@ rooms:
   description: "Wall road extends north and south along the eastern walls of the city.\n\rThe
     east gate is north of you, south is an intersection with a dark alley. You\n\rcheck
     to make sure you still have your wallet.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7473,7 +7473,7 @@ rooms:
     \n\rbetween the east gate and a bridge to the south.  A dark, dirty alley lies
     east \n\rof here.  You step carefully around a pool of liquid...who knows what
     it could \n\rbe in a place this foul...\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7503,7 +7503,7 @@ rooms:
     safe\n\rfrom its enemies...you hope.  An intersection with a dark alley lies north,\n\rand
     a bridge over the Midgaard river is south.  Beyond the bridge wall road \n\rturns
     in the concourse.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7526,7 +7526,7 @@ rooms:
     you, the river flows into an opening in the city wall, sealed with\n\rstrong metal
     bars.  North of you is wall road, south of here the concourse\n\rloops around
     the inside of the city walls.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7554,7 +7554,7 @@ rooms:
     \ You can smell the stench of the dump to the north, the fresher\n\rair of the
     promenade seems preferable.  Below you are the swift-moving \n\rcurrents of the
     Midgaard river.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7578,7 +7578,7 @@ rooms:
     city wall,\n\rto guard against the goblins that lurk in the southern forests.
     \ You can exit\n\rthe city to the south, if you dare, or walk down the concourse
     to the east\n\ror west.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7591,7 +7591,7 @@ rooms:
   - dir: 2
     desc: "You see the southern gate.\n\r"
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: 3133
     to_vnum: 3256
   - dir: 3
@@ -7608,14 +7608,14 @@ rooms:
     of\n\rthe gate, as they stand watch to protect the city from the goblins of this\n\rforest.
     \ The trees and goblins of the Miden'nir are south, the gate back to \n\rMigaard
     lies north.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 3
   owner:
   exits:
   - dir: 0
     desc: "You see the southern gate.\n\r"
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: 3133
     to_vnum: 3255
   - dir: 2
@@ -7630,7 +7630,7 @@ rooms:
   description: "You are walking along wall road, just north of the west gate of Midgaard.
     \ \n\rThe road continues along the western wall to the north, towards an intersection\n\rwith
     a busy market street.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7652,7 +7652,7 @@ rooms:
   description: "Wall road intersects with a crowded market street here, filled with
     shops and\n\rartisans.  The street stretches off to the east, towards the far
     wall of the\n\rcity.  Wall road continues to the north and south.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7683,7 +7683,7 @@ rooms:
     the western\n\rwall of Midgaard.  To the south, you can see an intersection with
     a crowded\n\rmarket street.  The northwestern corner of the city wall lies ahead
     to the\n\rnorth.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7705,7 +7705,7 @@ rooms:
   description: "You are standing beneath the northwestern corner of the city wall,
     on a turn\n\rin wall road.  You can head south, towards the west gate, or east,
     to the \n\rnorth gate.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7727,7 +7727,7 @@ rooms:
   description: "The city walls tower over you as walk down wall road, between the\n\rnorthwestern
     corner of the wall to the west, and the northern gate of\n\rMidgaard to the east.
     \ \n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7752,14 +7752,14 @@ rooms:
     to\n\rthe north, or continues along wall road to the west and east.  A teeming
     market\n\rstreet is visible to the south, and beyond that the graceful spires
     of the\n\rTemple of Mota, but there is no way to reach them from here.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
   - dir: 0
     desc: "The northern plains are visible through the gate.\n\r"
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: 3133
     to_vnum: 3268
   - dir: 1
@@ -7780,7 +7780,7 @@ rooms:
   description: "You are walking along wall road, between the northern gate of the
     city and the\n\rnortheastern corner of the city walls.  You can see bloodstains
     on the road...\n\rbetter be on guard for thieves.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7802,7 +7802,7 @@ rooms:
   description: "Wall road turns the corner here, as you pass by the northeastern edge
     of the\n\rcity wall.  The north gate lies to your west, and the road south leads
     to the\n\reastern gate of Midgaard.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7824,7 +7824,7 @@ rooms:
   description: "Just south of you is an intersection with a crowded market street.
     \ The \n\reastern wall of Midgaard is beside you, and to the north you can see
     the \n\rnortheast corner of the city wall.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7847,7 +7847,7 @@ rooms:
     the \n\rwest, and the far fall of the city.  You can smell spices, perfume, freshly\n\rcured
     hide, and other strange scents, all mingle together in one heady aroma.\n\rWall
     road continues to the north and south.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7875,7 +7875,7 @@ rooms:
   description: "You are near the center of wall road, just north of the east gate
     of the city.\n\rTo the north, you can see an intersection with a crowded market
     street.\n\rThe guards at the gate eye you suspiciously from afar.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7898,7 +7898,7 @@ rooms:
     dusty \n\rtrail is visibile to the north, it stretches around the walls of the
     city.  \n\rFurther north are the wide expanses of the northern plains, leading
     to the \n\rvillage of Ofcol.  You can return to Midgaard to the south.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 2
   owner:
   exits:
@@ -7911,7 +7911,7 @@ rooms:
   - dir: 2
     desc: "You see the north gate of Midgaard.\n\r"
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: 3133
     to_vnum: 3262
   extra_descs: []
@@ -7920,7 +7920,7 @@ rooms:
   description: "The strong stone walls of Midgaard rise up to the west, keeping evil
     at bay.\n\rThe concourse heads towards a bridge to the north, and continues south
     \n\ralongside a beautiful park.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7942,7 +7942,7 @@ rooms:
   description: "You are walking down the Concoruse, along the western wall of Midgaard.
     \ To\n\rthe north, the road passes by a beautiful park, to the south, you can
     see\n\rthe southwest corner of the city wall.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7965,7 +7965,7 @@ rooms:
     the north,\n\rthe concourse heads towards a bridge into northern Midgaard.  To
     the south, \n\ryou can see an intersection with Elm Street.  The quaint paved
     streets of\n\rPenny Lane lie west.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -7993,7 +7993,7 @@ rooms:
   description: "The air grows chill as you pass near the Elm Street graveyard.  The
     walls of\n\rMidgaard are to the east, and the concourse continues to the north
     and south.\n\rTo your west, you see Elm Street at the graveyard entrance.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -8022,7 +8022,7 @@ rooms:
   name: Donation Room
   description: "You are standing in the middle of a room cluttered with discarded
     objects.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -8039,7 +8039,7 @@ rooms:
     is\n\rlight.  This is a quieter section of Midgaard.  You can hear the sound of\n\rhaggling
     coming from the east.  South is the Questmaster's home.  North is\n\rthe First
     National Bank of Midgaard.  \n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -8074,7 +8074,7 @@ rooms:
     in the air.  It seems to be coming from a doorway to the north.\n\rLooking up,
     you realize that it is the butchers shop.  To the south of \n\ryou is the jewellers
     shop.  Market Road continues on to the east and \n\rthe west.  \n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -8107,7 +8107,7 @@ rooms:
   name: Market Road
   description: "The shops on this stretch of Market road are long-closed and boarded
     up.\n\rNot much traffic passes through this part, as there is nothing to buy.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -8137,7 +8137,7 @@ rooms:
     are open wide, and you can see happy people inside the building.\n\rTo the north
     of you is a large trading post.  The scents of spices and\n\rincense mix pleasantly
     and pour through the door.  Market road continues\n\roff to the east and west.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -8174,7 +8174,7 @@ rooms:
     \ North of you is a small florists shop.  If you close\n\ryour eyes, you can smell
     the roses, petunias, tulips, and carnations.\n\rMarket Road continues to the east
     and west.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -8209,7 +8209,7 @@ rooms:
     tall\n\rwall around the city looms up before you and casts its shadow on you.
     \n\rMarket Road continues to the west.  To the north is the guild of paladins.
     \ \n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -8242,7 +8242,7 @@ rooms:
     treasures and, behind each, a tale almost as elaborate as the item\n\ritself.
     \ Before you know it, the elderly gentleman begins a story, retelling\n\rthe history
     of one of these treasures.  \n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -8258,7 +8258,7 @@ rooms:
   description: "The opulence of this bank is astounding.  You begin to wonder where
     all\n\rthe money to pay for this came from.  The finely crafted furniture is\n\rarranged
     around a large desk in the far corner of the room.  \n\r"
-  room_flags: 2359304
+  room_flags: DSV
   sector: 0
   owner:
   exits:
@@ -8274,7 +8274,7 @@ rooms:
   description: "As you enter the home of the gamemaster, he invites you to take a
     seat at\n\rone of the many game tables in the room.  Around you on the walls,\n\rbookshelves,
     and floor, are components to various games.  \n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -8294,7 +8294,7 @@ rooms:
     to the front of the shop and a few tools are strewn\n\rabout on it.  There is
     a heavy door in the back of the room.  You assume\n\rthat it leads to the jewellers
     back room where he stores his valuables.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 0
   owner:
   exits:
@@ -8314,7 +8314,7 @@ rooms:
     other animals hang on large hooks along the walls and \n\rin rest piles on butchering
     blocks.  A sign hangs nearby. Large wooden \n\rnumbers hang from a large nail
     on the sign.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 0
   owner:
   exits:
@@ -8334,7 +8334,7 @@ rooms:
     of the room.  There's no\n\rdecorations on the wall; they've all been ripped down
     in anger\n\ror for use as weapons at one time or another.  Looking around,\n\ryou
     search vainly for a clean table to sit at, and then give up.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -8345,10 +8345,10 @@ rooms:
     key: 0
     to_vnum: 3026
   extra_descs:
-  - keywords: table tables
-    description: "You find a table that's relatively vomit-free.\n\r"
   - keywords: wall walls
     description: "Bare, except for the holes.\n\r"
+  - keywords: table tables
+    description: "You find a table that's relatively vomit-free.\n\r"
 - vnum: 3353
   name: The Trading Post
   description: "Bolts of cloth are stacked in monstrous heaps around the room.  Barrells
@@ -8357,7 +8357,7 @@ rooms:
     boxes filled with mysterious goods and bound for exotic locations.\n\rA schedule
     for the various caravans is posted on the walls.  This is the\n\rlocal trading
     post.  It hums and buzzes with excitement.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 0
   owner:
   exits:
@@ -8379,7 +8379,7 @@ rooms:
     near the front of the room.  A counter stands in the back of the\n\rroom.  A woman
     is there, trimming some sort of small, green plant.  On the\n\rwall is a sign.
     \ \n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 0
   owner:
   exits:
@@ -8400,7 +8400,7 @@ rooms:
     of his customers are met.  The bar is to your south.  East\n\rof you is another
     section of the pub.  You know that there are rooms to\n\rbe had somewhere around
     here...\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 0
   owner:
   exits:
@@ -8432,7 +8432,7 @@ rooms:
     of ale and mead.  Another part of the pub\n\ris located to your west. The bar
     is to the south.  A set of steps occupy\n\rin a corner of the room.  They lead
     up to the inn section of this \n\rprosperous establishment.  \n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 0
   owner:
   exits:
@@ -8469,7 +8469,7 @@ rooms:
     bartender stands next to the cask polishing\n\rglasses.  A couple of the bar maids
     stand in a corner and throw the most \n\rinviting glances your way.\n\rA sign
     is on the wall.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 0
   owner:
   exits:
@@ -8490,7 +8490,7 @@ rooms:
     but friendly looking bartender stands next to the cask polishing\n\rglasses.  A
     couple of the bar maids stand in a corner and throw the most\n\rinviting glances
     your way.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 0
   owner:
   exits:
@@ -8512,7 +8512,7 @@ rooms:
     the desk working dilligently on his books.\n\rHe looks up as you enter the room.
     \ He looks at you quizzically.  He is \n\rprobably waiting for you to ask him
     for a room.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 0
   owner:
   exits:
@@ -8533,7 +8533,7 @@ rooms:
     square below.\n\r   Equally large steps lead UP through a small door into the
     ENTRANCE to MUD \n\rSCHOOL.  (type 'up' to go to MUD SCHOOL.)  A small plaque
     is on this wall.\n\r"
-  room_flags: 262156
+  room_flags: CDS
   sector: 0
   owner:
   exits:
@@ -8572,7 +8572,7 @@ rooms:
     on\n\rthe wall, just above the altar which is set against the western wall.  A
     well\n\rin the middle of the floor leads down into darkness.  Vile smells waft
     from\n\rthe depths.\n\r"
-  room_flags: 262156
+  room_flags: CDS
   sector: 0
   owner:
   exits:
@@ -8595,7 +8595,7 @@ rooms:
   description: "The bar is one of the finest in the land, lucky it is members only.
     \ Fine\n\rfurniture is set all around the room.  A small sign is hanging on the
     wall.\n\r"
-  room_flags: 262156
+  room_flags: CDS
   sector: 0
   owner:
   exits:
@@ -8622,7 +8622,7 @@ rooms:
   description: "The entrance hall is a small modest room, reflecting the true nature
     of\n\rthe Clerics.  The exit leads east to the temple square.  A small entrance
     to\n\rthe bar is in the northern wall.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -8645,7 +8645,7 @@ rooms:
     to the\n\rtemple gate.  The entrance to the Clerics Guild is to the west, and
     the old\n\rGrunting Boar Inn, is to the east.  Just south of here you see the
     market\n\rsquare, the center of Midgaard.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -8685,7 +8685,7 @@ rooms:
   description: "You are standing in the entrance hall of the Grunting Boar Inn.  The
     hall\n\rhas been wisely decorated with simple but functional furniture.  A small\n\rstaircase
     leads up to the defunct reception room and the bar is to the east.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -8715,7 +8715,7 @@ rooms:
     is built into\n\rthe western wall, and through the southeastern windows you can
     see the temple\n\rsquare.  This place makes you feel like home.\n\rA small sign
     with big letters is fastened to the bar.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -8726,19 +8726,19 @@ rooms:
     key: -1
     to_vnum: 3006
   extra_descs:
+  - keywords: writing carving carvings symbols symbol
+    description: "Although it is very hard to understand, you think it looks a lot
+      like beer,\n\rpoems about beer, and small beer-mugs.\n\r"
   - keywords: sign
     description: "The sign reads:\n\rFree instructions provided by the Grunting Boar
       Inn.\n\r\n\r   Buy  - Buy something (drinkable) from the bartender.\n\r   List
       - The bartender will show you all the different drinks and\n\r          specialties,
       and tell the price of each.\n\r"
-  - keywords: writing carving carvings symbols symbol
-    description: "Although it is very hard to understand, you think it looks a lot
-      like beer,\n\rpoems about beer, and small beer-mugs.\n\r"
 - vnum: 3008
   name: The Defunct Reception
   description: "You are standing in a dusty, defunct reception.  The staircase leads\n\rdown
     to the entrance hall.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -8755,7 +8755,7 @@ rooms:
     and\n\rfine bread fills the room.  The bread and Danish are arranged in fine order\n\ron
     the shelves, and seem to be of the finest quality.  A small sign is on\n\rthe
     counter.  \n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -8766,22 +8766,22 @@ rooms:
     key: -1
     to_vnum: 3013
   extra_descs:
+  - keywords: sign
+    description: "Free instructions provided by the store:\n\r\n\r   Buy  - Will buy
+      you some bread or pastry.\n\r   List - The baker will kindly tell you the price
+      and sort of the bread in\n\r          his bakery.\n\r"
   - keywords: danish pastry
     description: "You see that this is truly delicious pastry.  Must be made by a
       Dane from\n\rDenmark (which surely is not the capital of Sweden!).  Former ruler
       of\n\rScandinavia, England, Northern Germany, Northern France, Russia, Greenland,\n\rIceland,
       Estonia etc. etc.\n\r   The sight of those large, wholesome chokoladeboller
       makes your mouth water\n\rand your soul sing.\n\r\n\r"
-  - keywords: sign
-    description: "Free instructions provided by the store:\n\r\n\r   Buy  - Will buy
-      you some bread or pastry.\n\r   List - The baker will kindly tell you the price
-      and sort of the bread in\n\r          his bakery.\n\r"
 - vnum: 3010
   name: The General Store
   description: "You are inside the general store.  All sorts of items are stacked
     on shelves\n\rbehind the counter, safely out of your reach.\n\rA small note hangs
     on the wall.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -8800,7 +8800,7 @@ rooms:
 - vnum: 3011
   name: The Weapon Shop
   description: "You are inside the weapon shop.  There is a small note on the counter.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -8821,7 +8821,7 @@ rooms:
   description: "You are at the end of the main street of Midgaard.  South of here
     is the\n\rentrance to the Guild of Magic Users.  The street continues east towards
     the\n\rmarket square.  The magic shop is to the north and to the west is the city\n\rgate.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -8855,7 +8855,7 @@ rooms:
   description: "You are on the main street passing through the City of Midgaard.  South
     of\n\rhere is the entrance to the Armoury, and the bakery is to the north.  East
     of\n\rhere is the market square.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -8890,7 +8890,7 @@ rooms:
     large, peculiar looking statue is standing in the middle of the square.\n\rRoads
     lead in every direction, north to the temple square, south to the\n\rcommon square,
     east and westbound is the main street.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -8927,7 +8927,7 @@ rooms:
   description: "You are on Main Street crossing through town.  To the north is the
     general\n\rstore, and the main street continues east.  To the west you see and
     hear the\n\rmarket place and to the south is the Jeweller's Shop.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -8961,7 +8961,7 @@ rooms:
   description: "The main street, to the north is the weapon shop and to the south
     is the\n\rGuild of Swordsmen.  To the east you leave town and to the west the
     street\n\rleads to the market square.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -8993,7 +8993,7 @@ rooms:
 - vnum: 3017
   name: Entrance to Mage's Guild
   description: "The entrance hall is a small, poor lighted room.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -9014,7 +9014,7 @@ rooms:
   name: Mage's Bar
   description: "The bar is one of the wierdest in the land.  Mystical images float
     around\n\rthe air.  Illusions of fine furniture appear all around the room.\n\r"
-  room_flags: 262156
+  room_flags: CDS
   sector: 0
   owner:
   exits:
@@ -9039,7 +9039,7 @@ rooms:
     weirder symbols, and a blackboard in a dark corner has only been\n\rpartially
     cleaned, some painful-looking letters faintly visible.  A well in\n\rthe middle
     of the floor leads down into darkness.  Vile smells waft from the\n\rdepths.\n\r"
-  room_flags: 262156
+  room_flags: CDS
   sector: 0
   owner:
   exits:
@@ -9062,7 +9062,7 @@ rooms:
   description: "The armoury with all kinds of armours on the walls and in the window.
     \ You\n\rsee helmets, shields and chain mails.  To the north is the main street.\n\rOn
     the wall is a small note.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -9085,7 +9085,7 @@ rooms:
   description: "The entrance hall to the Guild of Swordsmen.  A place where one has
     to be\n\rcareful not to say something wrong (or right).  To the east is the bar
     and to\n\rthe north is the main street.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -9107,7 +9107,7 @@ rooms:
   description: "The bar of swordsmen, once upon a time beautifully furnished.  But
     now the\n\rfurniture is all around you in small pieces.  To the south is the yard,
     and\n\rto the west is the entrance hall.\n\r"
-  room_flags: 262156
+  room_flags: CDS
   sector: 0
   owner:
   exits:
@@ -9128,7 +9128,7 @@ rooms:
   name: The Tournament and Practice Yard
   description: "The practice yard of the fighters.  To the north is the bar.  A well
     leads\n\rdown into darkness.\n\r"
-  room_flags: 262156
+  room_flags: CDS
   sector: 0
   owner:
   exits:
@@ -9151,7 +9151,7 @@ rooms:
   description: "You are at the poor alley. South of here is the Grubby Inn and to
     the\n\reast you see common square. Melancholy's map shop is north. The alley continues
     \n\rfurther west.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -9186,7 +9186,7 @@ rooms:
     west is\n\rthe poor alley and to the east is the dark alley.  To the north, this
     square\n\ris connected to the market square.  From the south you notice a nasty
     smell.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -9220,7 +9220,7 @@ rooms:
   description: "The dark alley, to the west is the common square and to the south
     is the\n\rGuild of Thieves.  Grebe's Tavern, the famous sailor's dive, is north.\n\rThe
     alley continues east.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -9257,7 +9257,7 @@ rooms:
   description: "The entrance hall to the thieves' and assassins' guild.  A place where
     you\n\rcan lose both your life and your money, if you are not careful.  To the
     north\n\ris the dark alley and to the east is the thieves' bar.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -9279,7 +9279,7 @@ rooms:
   description: "The bar of the thieves.  Once upon a time this place was beautifully\n\rfurnished,
     but now it seems almost empty.  To the south is the yard, and to\n\rthe west is
     the entrance hall.\n\r   (Maybe the furniture has been stolen?!)\n\r"
-  room_flags: 262156
+  room_flags: CDS
   sector: 0
   owner:
   exits:
@@ -9302,7 +9302,7 @@ rooms:
   name: The Secret Yard
   description: "The secret practice yard of thieves and assassins.  To the north is
     the\n\rbar.  A well leads down into darkness.\n\r"
-  room_flags: 262156
+  room_flags: CDS
   sector: 0
   owner:
   exits:
@@ -9326,7 +9326,7 @@ rooms:
     the\n\rgarbage you can see a large junction of pipes, looks like the entrance
     to the\n\rsewer system.  South of here you see the river and to the north is the
     common\n\rsquare.  A rickety old bridge leads south to the promenade.\n\r"
-  room_flags: 262148
+  room_flags: CS
   sector: 2
   owner:
   exits:
@@ -9354,7 +9354,7 @@ rooms:
   name: The Pet Shop
   description: "The Pet Shop is a small crowded store, full of cages and animals of\n\rvarious
     sorts and sizes.  There is a sign on the wall.\n\r"
-  room_flags: 266248
+  room_flags: DMS
   sector: 0
   owner:
   exits:
@@ -9375,7 +9375,7 @@ rooms:
   name: Pet Shop Store
   description: "This is the small dark room in which the Pet Shop Boy keeps his pets.\n\rIt
     is vital that this room be immediately after the pet shop.\n\r"
-  room_flags: 262156
+  room_flags: CDS
   sector: 0
   owner:
   exits: []
@@ -9385,7 +9385,7 @@ rooms:
   description: "You are in a small room that smells of rare chemicals and spices.\n\rDividing
     the room in two is a large desk, and on the wall behind it are\n\rnumerous shelves
     crammed with jars, bottles, books and scrolls of all\n\rsorts and sizes.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -9396,20 +9396,20 @@ rooms:
     key: -1
     to_vnum: 3012
   extra_descs:
+  - keywords: scrolls
+    description: "Each scroll is stored in a leather tube that protects it from moist.\n\r"
+  - keywords: books
+    description: "Most of them appear to be very old and dusty.\n\r"
   - keywords: jars bottles
     description: "Some of them are transparent enabling you to see that some contain
       colored\n\rpowders while others contain body parts of various animals.\n\r"
-  - keywords: books
-    description: "Most of them appear to be very old and dusty.\n\r"
-  - keywords: scrolls
-    description: "Each scroll is stored in a leather tube that protects it from moist.\n\r"
 - vnum: 3034
   name: The Jeweller's Shop
   description: "You are in a small, beautifully furnished room.  The warm light emanating\n\rfrom
     the small oil lamps on the walls is reflected in the hard, polished\n\rsurface
     of the big mahogany desk that stands in the centre of the room.\n\rA small sign
     with golden letters stands on the desk.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -9420,23 +9420,23 @@ rooms:
     key: -1
     to_vnum: 3015
   extra_descs:
-  - keywords: oil lamps
-    description: "They are made from polished gold and looks as if they are securely
-      fastened\n\rto the smooth stone walls.\n\r"
-  - keywords: desk
-    description: "Your face is reflected in its surface.\n\r"
   - keywords: sign
     description: "The golden letters say :-\n\r\n\r    Use 'list' to see what is in
       store,\n\r        'buy <item>' to buy an item,\n\r        'sell <item>' to sell
       an item and\n\r        'value <item>' to make the jeweller evaluate an item.\n\r
       \n\r   Type 'help engrave' for information on how to have something engraved.\n\r"
+  - keywords: desk
+    description: "Your face is reflected in its surface.\n\r"
+  - keywords: oil lamps
+    description: "They are made from polished gold and looks as if they are securely
+      fastened\n\rto the smooth stone walls.\n\r"
 - vnum: 3035
   name: The Leather Shop
   description: "An acrid smell fills this large room.  Along the walls are numerous\n\rshelves
     containing all sorts of animal hide and in the crackling fireplace\n\rhangs a
     big iron pot with boiling water.  In the middle of the room is a\n\rlarge oak
     table.\n\rA wooden sign is hanging above the fireplace.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -9447,25 +9447,25 @@ rooms:
     key: -1
     to_vnum: 3044
   extra_descs:
-  - keywords: fireplace
-    description: "It is a rather large fireplace made from heavy granite rocks.\n\r"
-  - keywords: table
-    description: "It is made from solid oak but appears to be very used.  Its surface
-      is\n\rcovered in marks and scratches.  A large burning candle stands directly
-      on\n\rthe table surface, tallow flowing down its sides.\n\r"
-  - keywords: pot
-    description: "Several large pieces of leather hide are boiling in the iron pot.\n\r"
   - keywords: sign
     description: "The wooden sign says :-\n\r\n\r    Use 'list' to see what is in
       store,\n\r        'buy <item>' to buy an item,\n\r        'sell <item>' to sell
       an item and\n\r        'value <item>' to make the leather worker evaluate an
       item.\n\r"
+  - keywords: pot
+    description: "Several large pieces of leather hide are boiling in the iron pot.\n\r"
+  - keywords: table
+    description: "It is made from solid oak but appears to be very used.  Its surface
+      is\n\rcovered in marks and scratches.  A large burning candle stands directly
+      on\n\rthe table surface, tallow flowing down its sides.\n\r"
+  - keywords: fireplace
+    description: "It is a rather large fireplace made from heavy granite rocks.\n\r"
 - vnum: 3040
   name: Inside the West Gate of Midgaard
   description: "You are by two small towers that have been built into the city wall
     and\n\rconnected with a footbridge across the heavy wooden gate.  Main Street
     leads\n\reast and Wall Road leads both north and south from here.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -9491,30 +9491,30 @@ rooms:
   - dir: 3
     desc: "The city gate is to the west.\n\r"
     keywords: gate
-    exit_flags: 1
+    exit_flags: A
     key: 3133
     to_vnum: 3052
   extra_descs:
-  - keywords: bridge footbridge
-    description: "It is too high up to reach but it looks as if one easily could walk
-      across it\n\rfrom one tower to the other.\n\r"
+  - keywords: wall
+    description: "It is built from large grey rocks that have been fastened to each
+      other with\n\rsome kind of mortar.  It is far too high to climb.\n\r"
+  - keywords: tower towers
+    description: "Both of the towers are built from large grey rocks that have been
+      fastened to\n\reach other with some kind of mortar, just like the city wall.\n\r"
   - keywords: gate
     description: "It is a set of very big double doors made from hard wood.  They
       have been\n\rreinforced with large iron bands to make them even more sturdy.
       \ One of the\n\rdoors is equipped with a very big lock.\n\r"
-  - keywords: tower towers
-    description: "Both of the towers are built from large grey rocks that have been
-      fastened to\n\reach other with some kind of mortar, just like the city wall.\n\r"
-  - keywords: wall
-    description: "It is built from large grey rocks that have been fastened to each
-      other with\n\rsome kind of mortar.  It is far too high to climb.\n\r"
+  - keywords: bridge footbridge
+    description: "It is too high up to reach but it looks as if one easily could walk
+      across it\n\rfrom one tower to the other.\n\r"
 - vnum: 3041
   name: Inside the East Gate of Midgaard
   description: "You are by two small towers that have been built into the city wall
     and\n\rconnected with a footbridge across the heavy wooden gate.  Main Street
     leads\n\rwest from here.  Wall road crosses the street, heading north and south
     along\n\rthe city wall.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -9527,7 +9527,7 @@ rooms:
   - dir: 1
     desc: "You see the city gate.\n\r"
     keywords: gate
-    exit_flags: 1
+    exit_flags: A
     key: 3133
     to_vnum: 3053
   - dir: 2
@@ -9543,24 +9543,24 @@ rooms:
     key: -1
     to_vnum: 3016
   extra_descs:
-  - keywords: bridge footbridge
-    description: "It is too high up to reach but it looks as if one easily could walk
-      across it\n\rfrom one tower to the other.\n\r"
+  - keywords: wall
+    description: "It is built from large grey rocks that have been fastened to each
+      other with\n\rsome kind of mortar.  It is far too high to climb.\n\r"
+  - keywords: tower towers
+    description: "Both of the towers are built from large grey rocks that have been
+      fastened to\n\reach other with some kind of mortar, just like the city wall.\n\r"
   - keywords: gate
     description: "It is a set of very big double doors made from hard wood.  They
       have been\n\rreinforced with large iron bands to make them even more sturdy.
       \ One of the\n\rdoors is equipped with a very big lock.\n\r"
-  - keywords: tower towers
-    description: "Both of the towers are built from large grey rocks that have been
-      fastened to\n\reach other with some kind of mortar, just like the city wall.\n\r"
-  - keywords: wall
-    description: "It is built from large grey rocks that have been fastened to each
-      other with\n\rsome kind of mortar.  It is far too high to climb.\n\r"
+  - keywords: bridge footbridge
+    description: "It is too high up to reach but it looks as if one easily could walk
+      across it\n\rfrom one tower to the other.\n\r"
 - vnum: 3042
   name: Wall Road
   description: "You are walking next to the western city wall.  The road continues
     further\n\rsouth and the city gate is just north of here.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -9585,7 +9585,7 @@ rooms:
   description: "You are walking next to the western city wall.  Wall Road continues
     further\n\rnorth and south.  A small, poor alley leads east.\n\rSome letters have
     been written on the wall here.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -9608,16 +9608,16 @@ rooms:
     key: -1
     to_vnum: 3047
   extra_descs:
-  - keywords: letters
-    description: "It says 'Who watches the watchmen?'\n\r"
   - keywords: wall
     description: "It is built from large grey rocks that have been fastened to each
       other with\n\rsome kind of mortar.  It is far too high to climb.\n\r"
+  - keywords: letters
+    description: "It says 'Who watches the watchmen?'\n\r"
 - vnum: 3044
   name: Poor Alley
   description: "You are in narrow and dirty alley leading east and west.  The leather
     shop\n\ris to the north.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -9650,7 +9650,7 @@ rooms:
   name: Alley at Levee
   description: "You are standing in the alley which continues east and west.  South
     of\n\rhere you see the levee.  North is the Pet Shop.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -9684,7 +9684,7 @@ rooms:
   description: "You are standing at the eastern end of the alley,  near the city walls.
     \ \n\rWall road loops around the city to your east, and you can see an old \n\rthree-story
     warehouse to the south.  The Fountain of Youth Apothecary is \n\rnorth.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -9719,7 +9719,7 @@ rooms:
     north.  South of here is a bridge across the river.  To the east,\n\ryou see an
     odd looking building painted bright orange with purple trim...\n\rit must be the
     Mob Factory!\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -9749,7 +9749,7 @@ rooms:
   name: Grubby Inn
   description: "You are inside the old Grubby Inn.  This place has not been cleaned
     for\n\rseveral decades, vile smells make you dizzy.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -9765,7 +9765,7 @@ rooms:
   description: "You are at the levee.  South of here you see the river gently flowing
     west.\n\rThe river bank is very low making it possible to enter the river.  Directly\n\racross
     the river you can see a small boat landing built off of Kate's Diner.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -9787,7 +9787,7 @@ rooms:
   description: "You are inside the only room in the old warehouse.  The place is very
     dusty\n\rand appears to have been unused for many years.  The skylight spills\n\rviolet-tinged
     light.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -9809,7 +9809,7 @@ rooms:
   description: "You are standing on the stone bridge crosses the river.  The bridge
     is\n\rbuilt out from the western city wall and the river flows west through an\n\ropening
     in the wall ten feet below the bridge.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -9826,22 +9826,22 @@ rooms:
     key: -1
     to_vnum: 3100
   extra_descs:
-  - keywords: bridge
-    description: "It is built from large grey rocks that have been fastened to each
-      other with\n\rsome kind of mortar, just like the wall.\n\r"
-  - keywords: opening
-    description: "You cannot really see it from here as it is somewhere beneath your
-      feet.\n\r"
   - keywords: wall
     description: "It is built from large grey rocks that have been fastened to each
       other with\n\rsome kind of mortar.  It is far too high to climb.\n\r"
+  - keywords: opening
+    description: "You cannot really see it from here as it is somewhere beneath your
+      feet.\n\r"
+  - keywords: bridge
+    description: "It is built from large grey rocks that have been fastened to each
+      other with\n\rsome kind of mortar, just like the wall.\n\r"
 - vnum: 3052
   name: Outside the West Gate of Midgaard
   description: "You are by two small towers that have been built into the city wall
     and\n\rconnected with a footbridge across the heavy wooden gate.  To the west
     you\n\rcan see the edge of a big forest. A small dusty trail leads north along
     the\n\rwall.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -9854,7 +9854,7 @@ rooms:
   - dir: 1
     desc: "The city gate is to the east.\n\r"
     keywords: gate
-    exit_flags: 1
+    exit_flags: A
     key: 3133
     to_vnum: 3040
   - dir: 3
@@ -9864,26 +9864,26 @@ rooms:
     key: -1
     to_vnum: 6000
   extra_descs:
-  - keywords: bridge footbridge
-    description: "It is too high up to reach but it looks as if one easily could walk
-      across it\n\rfrom one tower to the other.\n\r"
+  - keywords: wall
+    description: "It is built from large grey rocks that have been fastened to each
+      other with\n\rsome kind of mortar.  It is far too high to climb.\n\r"
+  - keywords: tower towers
+    description: "Both of the towers are built from large grey rocks that have been
+      fastened to\n\reach other with some kind of mortar, just like the city wall.\n\r"
   - keywords: gate
     description: "It is a set of very big double doors made from hard wood.  They
       have been\n\rreinforced with large iron bands to make them even more sturdy.
       \ One of the\n\rdoors is equipped with a very big lock.\n\r"
-  - keywords: tower towers
-    description: "Both of the towers are built from large grey rocks that have been
-      fastened to\n\reach other with some kind of mortar, just like the city wall.\n\r"
-  - keywords: wall
-    description: "It is built from large grey rocks that have been fastened to each
-      other with\n\rsome kind of mortar.  It is far too high to climb.\n\r"
+  - keywords: bridge footbridge
+    description: "It is too high up to reach but it looks as if one easily could walk
+      across it\n\rfrom one tower to the other.\n\r"
 - vnum: 3053
   name: Outside the East Gate of Midgaard
   description: "You are by two small towers that have been built into the city wall
     and\n\rconnected with a footbridge across the heavy wooden gate.  To the east
     the\n\rplains stretch out in the distance. To the north a small dusty trail follow\n\rthe
     city wall.\n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -9902,23 +9902,23 @@ rooms:
   - dir: 3
     desc: "You see the city gate.\n\r"
     keywords: gate
-    exit_flags: 1
+    exit_flags: A
     key: 3133
     to_vnum: 3041
   extra_descs:
-  - keywords: bridge footbridge
-    description: "It is too high up to reach but it looks as if one easily could walk
-      across it\n\rfrom one tower to the other.\n\r"
+  - keywords: wall
+    description: "It is built from large grey rocks that have been fastened to each
+      other with\n\rsome kind of mortar.  It is far too high to climb.\n\r"
+  - keywords: tower towers
+    description: "Both of the towers are built from large grey rocks that have been
+      fastened to\n\reach other with some kind of mortar, just like the city wall.\n\r"
   - keywords: gate
     description: "It is a set of very big double doors made from hard wood.  They
       have been\n\rreinforced with large iron bands to make them even more sturdy.
       \ One of the\n\rdoors is equipped with a very big lock.\n\r"
-  - keywords: tower towers
-    description: "Both of the towers are built from large grey rocks that have been
-      fastened to\n\reach other with some kind of mortar, just like the city wall.\n\r"
-  - keywords: wall
-    description: "It is built from large grey rocks that have been fastened to each
-      other with\n\rsome kind of mortar.  It is far too high to climb.\n\r"
+  - keywords: bridge footbridge
+    description: "It is too high up to reach but it looks as if one easily could walk
+      across it\n\rfrom one tower to the other.\n\r"
 - vnum: 3054
   name: By the Temple Altar
   description: "You are by the temple altar in the northern end of the Temple of Mota.
@@ -9926,7 +9926,7 @@ rooms:
     and\n\rbehind it is a ten foot tall sitting statue of Odin, the King of the Gods.
     \n\rThe back of the altar opens into a beautiful atrium, above which can be seen\n\ra
     rainbow.  \n\r"
-  room_flags: 263180
+  room_flags: CDKS
   sector: 0
   owner:
   exits:
@@ -9943,20 +9943,20 @@ rooms:
     key: -1
     to_vnum: 1215
   extra_descs:
-  - keywords: altar
-    description: "Even though the altar is more than ten feet long it appears to be
-      made from a\n\rsingle block of white virgin marble.\n\r"
   - keywords: statue Mota king god
     description: "The statue represents the Great God Mota, holding his staff.  He
       has long, grey\n\rhair and beard and a kindly look on his face.  His staff is
       topped by a painted\n\rcube, the 6 faces of which represent the 6 aspects of
       his power.\n\r"
+  - keywords: altar
+    description: "Even though the altar is more than ten feet long it appears to be
+      made from a\n\rsingle block of white virgin marble.\n\r"
 - vnum: 3056
   name: The Fountain of Youth Apothecary
   description: "An old man putters around behind the counter, making strange love
     potions\n\rand curative philtres.  He turns as you enter, and looks on with avarice.\n\rJudging
     from the furnishings, he's been made very wealthy by his trade.\n\r"
-  room_flags: 263176
+  room_flags: DKS
   sector: 0
   owner:
   exits:
@@ -9971,7 +9971,7 @@ rooms:
   name: In the air...
   description: "WOW you can fly!  You are floating in the air above Temple Square
     of Midgaard.\n\r"
-  room_flags: 262148
+  room_flags: CS
   sector: 9
   owner:
   exits:
@@ -9993,7 +9993,7 @@ rooms:
   description: "The entrance hall to the guild of paladins, a solemn place where the\n\rvaliant
     warriors come to pray and practice their skills.  North is the bar,\n\rwhile south
     is Market Road.  \n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -10015,7 +10015,7 @@ rooms:
   description: "The Paladin's Bar is elegantly furnished.  Above the bar and on shelves\n\raround
     you are holy relics, recovered by brave paladins in days gone by. \n\rSouth is
     the entrance hall.  West is the practice yard.  \n\r"
-  room_flags: 262156
+  room_flags: CDS
   sector: 0
   owner:
   exits:
@@ -10036,7 +10036,7 @@ rooms:
   name: The practice yard
   description: "The practice and meditation yard of the paladins.  To the east is
     the bar.  \n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:

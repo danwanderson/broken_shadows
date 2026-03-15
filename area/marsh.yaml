@@ -14,7 +14,7 @@ mobiles:
   description: "This huge behemoth towers to a height of 15 feet.  He sneers at you
     \n\ras he approaches and raises two black taloned claws to strike you.\n\r"
   race: Troll
-  act: 524390
+  act: BCFGT
   affected_by: 0
   affected2_by: 0
   alignment: -600
@@ -60,7 +60,7 @@ mobiles:
     he seems to ply with utmost prowess.  He jabs his spear at you\n\rand cackles
     with glee.\n\r"
   race: Troll
-  act: 524388
+  act: CFGT
   affected_by: 0
   affected2_by: 0
   alignment: -400
@@ -104,7 +104,7 @@ mobiles:
   long_desc: "An ogre stands here getting ready to beat in your face.\n\r"
   description: "This mean bastard looks like he could tear you limb from limb.\n\r"
   race: Human
-  act: 524388
+  act: CFGT
   affected_by: 0
   affected2_by: 0
   alignment: -500
@@ -149,7 +149,7 @@ mobiles:
   description: "The Swamp Thing has huge fists, which look like they could pound you
     flat.\n\r"
   race: Human
-  act: 524388
+  act: CFGT
   affected_by: 0
   affected2_by: 0
   alignment: -700
@@ -193,8 +193,8 @@ mobiles:
   long_desc: "There is a mean looking gnoll here.\n\r"
   description: "The Gnoll seems annoyed at your presence.\n\r"
   race: Human
-  act: 524356
-  affected_by: 40
+  act: CGT
+  affected_by: DF
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -238,8 +238,8 @@ mobiles:
   description: "This huge beast stands about 20 feet in height and has huge green
     clawed\n\rappendages. \n\r"
   race: Human
-  act: 524388
-  affected_by: 40
+  act: CFGT
+  affected_by: DF
   affected2_by: 0
   alignment: -450
   clan: 0
@@ -283,8 +283,8 @@ mobiles:
   description: "This rather small beast looks like you could take it out with a single\n\rsword
     blow.\n\r"
   race: Human
-  act: 524484
-  affected_by: 32768
+  act: CGHT
+  affected_by: P
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -329,8 +329,8 @@ mobiles:
     stare as hard as you can at the glowing ball of floating light and\n\rare just
     able to notice a small pair of glowing eyes.\n\r"
   race: Human
-  act: 524484
-  affected_by: 32768
+  act: CGHT
+  affected_by: P
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -373,8 +373,8 @@ mobiles:
   long_desc: "A monstrous snake slithers towards you, thinking 'breakfast'.\n\r"
   description: "This 10 meter anaconda looks rather hungry.\n\r"
   race: snake
-  act: 524516
-  affected_by: 98304
+  act: CFGHT
+  affected_by: PQ
   affected2_by: 0
   alignment: -100
   clan: 0
@@ -417,8 +417,8 @@ mobiles:
   long_desc: "A rather large python rests in a coil here.\n\r"
   description: "It's the largest Amazon python you have ever seen.\n\r"
   race: snake
-  act: 524516
-  affected_by: 98304
+  act: CFGHT
+  affected_by: PQ
   affected2_by: 0
   alignment: -100
   clan: 0
@@ -463,7 +463,7 @@ mobiles:
     ok,\n\rbecause she thinks you stink too, and she's about to do something about
     it.\n\r"
   race: Human
-  act: 524356
+  act: CGT
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -508,8 +508,8 @@ mobiles:
   description: "This dark apparition stands a meager 13 feet in height.  Even in the
     dim\n\rswamp light, the blade of his scythe gleams.\n\r"
   race: Human
-  act: 524356
-  affected_by: 40
+  act: CGT
+  affected_by: DF
   affected2_by: 0
   alignment: -200
   clan: 0
@@ -553,7 +553,7 @@ mobiles:
   description: "This wolf looks plump.  She probably ate a friend or two of yours
     who came\n\rinto the marsh.\n\r"
   race: Wolf
-  act: 524388
+  act: CFGT
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -597,8 +597,8 @@ mobiles:
   long_desc: "A heap of garbage shambles towards you.\n\r"
   description: "This grotesque pile of plant matter fills you with utmost horror.\n\r"
   race: Human
-  act: 524356
-  affected_by: 65536
+  act: CGT
+  affected_by: Q
   affected2_by: 0
   alignment: -100
   clan: 0
@@ -642,8 +642,8 @@ mobiles:
   description: "This old orc has an array of bones stuck in his hair and strange symbols\n\rpainted
     on his face and hands.\n\r"
   race: Human
-  act: 524398
-  affected_by: 40
+  act: BCDFGT
+  affected_by: DF
   affected2_by: 0
   alignment: -100
   clan: 0
@@ -686,8 +686,8 @@ mobiles:
   long_desc: "A marsh giant stomps towards you.\n\r"
   description: "This huge monster of a man has green gnarly teeth and a BIG stick.\n\r"
   race: Giant
-  act: 524398
-  affected_by: 40
+  act: BCDFGT
+  affected_by: DF
   affected2_by: 0
   alignment: -100
   clan: 0
@@ -730,8 +730,8 @@ mobiles:
   long_desc: "A large gargoyle lands next to you, baring his fangs at you.\n\r"
   description: "This creepy fellow looks like he could use you as a meal.\n\r"
   race: Human
-  act: 524398
-  affected_by: 40
+  act: BCDFGT
+  affected_by: DF
   affected2_by: 0
   alignment: -100
   clan: 0
@@ -775,8 +775,8 @@ objects:
   description: A strange spear lies here.
   material: none
   item_type: 5
-  extra_flags: 640
-  wear_flags: 8193
+  extra_flags: HJ
+  wear_flags: AN
   level: 14
   weight: 10
   cost: 140
@@ -788,12 +788,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 2
-    modifier: 2
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 3
+    bitvector: 0
+  - where: O
+    location: 2
+    modifier: 2
     bitvector: 0
   extra_descs: []
 - vnum: 8302
@@ -802,8 +802,8 @@ objects:
   description: A wicked looking horned helmet lies here.
   material: none
   item_type: 9
-  extra_flags: 640
-  wear_flags: 17
+  extra_flags: HJ
+  wear_flags: AE
   level: 14
   weight: 5
   cost: 140
@@ -815,12 +815,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 3
-    modifier: -3
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 3
+    modifier: -3
     bitvector: 0
   extra_descs:
   - keywords: horns horn
@@ -831,8 +831,8 @@ objects:
   description: An old suit of chainmail lies here, corroded by the marsh.
   material: none
   item_type: 9
-  extra_flags: 640
-  wear_flags: 9
+  extra_flags: HJ
+  wear_flags: AD
   level: 30
   weight: 20
   cost: 300
@@ -850,8 +850,8 @@ objects:
   description: An evil, wicked-looking scythe lies in the shadows.
   material: none
   item_type: 5
-  extra_flags: 640
-  wear_flags: 8193
+  extra_flags: HJ
+  wear_flags: AN
   level: 19
   weight: 16
   cost: 190
@@ -863,11 +863,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
+    location: 18
     modifier: 3
     bitvector: 0
   - where: O
-    location: 18
+    location: 19
     modifier: 3
     bitvector: 0
   extra_descs: []
@@ -877,8 +877,8 @@ objects:
   description: A murky green potion lies here in the mud.
   material: none
   item_type: 10
-  extra_flags: 3
-  wear_flags: 1
+  extra_flags: AB
+  wear_flags: A
   level: 14
   weight: 1
   cost: 140
@@ -953,7 +953,7 @@ rooms:
     sparse\n\rtrees it is one.  Occasionally you see a whole humanoid form floating
     face down\n\rin the water, but mostly you only find pieces.  You hear a loud bellow
     in the\n\rdistance.  And feel fear creep into your heart.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 5
   owner:
   exits:
@@ -971,16 +971,16 @@ rooms:
     key: -1
     to_vnum: 8302
   extra_descs:
-  - keywords: pieces
-    description: "You see severed limbs and spongy intestines.\n\r"
   - keywords: humanoid corpse
     description: "He looks mangled and shredded.  You see one large gash mark that
       looks\n\rlike it came from the claw of some huge beast.\n\r"
+  - keywords: pieces
+    description: "You see severed limbs and spongy intestines.\n\r"
 - vnum: 8304
   name: On a hill.
   description: "You stand atop a hill on the northwestern side of the evil swamp.
     Dark\n\rclouds whip around you and the wind raises its voice and assails you.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 4
   owner:
   exits:
@@ -1009,7 +1009,7 @@ rooms:
     by groans and soughing of the air.  Several large winged\n\rbeasts flap over you
     and send chilling glares your way.  You feel out\n\rof place, and feel that the
     occupants of this realm will soon \n\rhave you for a feast.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 5
   owner:
   exits:
@@ -1033,14 +1033,14 @@ rooms:
   name: An Oozing Bog
   description: "The ground here is soft and oozing.  You feel slimy water seeping
     into your\n\rboots.  Better stop and check for leeches when you get out of here.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 5
   owner:
   exits:
   - dir: 3
     desc: "You see a large tree limb that looks easily moved.\n\r"
     keywords: limb
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 8305
   extra_descs:
@@ -1050,7 +1050,7 @@ rooms:
   name: Swamp Thing's Lair
   description: "A horrible swamp thing resides here.  Mutilated corpses suffuse the
     air with\n\rthe overwhelming stench of putrid flesh.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 6
   owner:
   exits:
@@ -1069,7 +1069,7 @@ rooms:
   description: "You stand by a large oozing pool of quick sand.  Luckily only a complete\n\rklutz
     could not avoid it.  Dancing lights fly about you and one seems to\n\rbe taunting
     you towards the pool.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 6
   owner:
   exits:
@@ -1092,16 +1092,16 @@ rooms:
     key: -1
     to_vnum: 8309
   extra_descs:
-  - keywords: quicksand
-    description: "It looks deadly to the foolish.\n\r"
   - keywords: 'lights '
     description: "From the stories you have heard, you recognize them as will-o-wisps.\n\r"
+  - keywords: quicksand
+    description: "It looks deadly to the foolish.\n\r"
 - vnum: 8309
   name: A Dark Pool.
   description: "You stand beside a large dark pond.  The water boils not with heat,
     but with\n\rmotion, as if it is alive.  A creaking beat pulses through the air,
     leaving\n\ryou with a cold sweat and fear in your heart.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 6
   owner:
   exits:
@@ -1132,7 +1132,7 @@ rooms:
     lies\n\ra huge patch of vegetation.  You sense an evil presence and notice \n\ra
     beast flying overhead to the south east, towards what looks to be a \n\rhuge fortress,
     half buried in the marsh.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 6
   owner:
   exits:
@@ -1149,20 +1149,20 @@ rooms:
     key: -1
     to_vnum: 8312
   extra_descs:
-  - keywords: vegetation
-    description: "It looks sentient.\n\r"
+  - keywords: clouds
+    description: "The clouds look dark and foreboding.\n\r"
+  - keywords: beast
+    description: "It looks to be a demon of some foul breed.\n\r"
   - keywords: fortress
     description: "It is surrounded by walls nearly 20 meters high.  In a tall tower
       on the\n\rnortheast side, a window glows blue with magical energy.\n\r"
-  - keywords: beast
-    description: "It looks to be a demon of some foul breed.\n\r"
-  - keywords: clouds
-    description: "The clouds look dark and foreboding.\n\r"
+  - keywords: vegetation
+    description: "It looks sentient.\n\r"
 - vnum: 8311
   name: Cloud of Darkness.
   description: "As you travel through this cloud of darkness, a fear such as you have
     never\n\rknown before assails you.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 6
   owner:
   exits:
@@ -1184,7 +1184,7 @@ rooms:
   description: "You stand near some of the strangest plant life you have ever seen,
     a mixture\n\rof tumescent vegetables, evil-smelling fruit trees, and malignant
     ferns.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 6
   owner:
   exits:
@@ -1208,7 +1208,7 @@ rooms:
   description: "You are standing near a monolith which protrudes some 20 feet from
     the\n\rmarsh into the air.  Its black obsidian surface shines darkly in the \n\rstrange,
     almost unearthly light that enters through the clouds above.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 5
   owner:
   exits:
@@ -1239,7 +1239,7 @@ rooms:
   description: "A murky bog surrounds you.  To the east a black monolith juts forth
     from the\n\rground.  Far to the north lies a huge pool of quicksand.  Snarls can
     be heard\n\rechoing as if from a great distance.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 5
   owner:
   exits:
@@ -1270,7 +1270,7 @@ rooms:
     \n\rexperience.  Many a creature bumps the bottom of your boat, and glares \n\rat
     you through unblinking eyes from the waters below.  The southern \n\rportion of
     the lake looks calm and serene compared to this wild place.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 7
   owner:
   exits:
@@ -1292,7 +1292,7 @@ rooms:
   description: "You are floating on a calm section of blue crystal water.  You feel
     much more\n\rat ease then you were before in this area.  Then a wave of fear passes
     over\n\ryou.  You are not alone.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 7
   owner:
   exits:
@@ -1316,7 +1316,7 @@ rooms:
   name: Beach
   description: "You are on a sandy shore.  Marsh life creeps across the surface.  To
     the west\n\rlies an evil fortress.  You see figures walking along the battlements.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 5
   owner:
   exits:
@@ -1340,7 +1340,7 @@ rooms:
   description: "You stand before the gates of a huge fortress.  The drawbridge is
     up, the\n\rgates closed, and the portcullis down.  This place looks very dangerous,\n\rand
     you decide not to continue onward.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:

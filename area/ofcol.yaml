@@ -119,7 +119,7 @@ rooms:
   name: The future training room
   description: "This is the future site of a training room.  The only exit is north\n\rleading
     to the small alley.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -135,7 +135,7 @@ rooms:
   description: "You are standing in a small shop, filled with all kinds of goods.\n\rHere
     you might be able to find just the thing you're looking for.\n\rThe only exit
     is east to village square.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -152,7 +152,7 @@ rooms:
     to have a drink or 5 if they have dry throats.\n\rYou can't help thinking that
     Ofcol is a dry city, when you see the\n\rmany people here.\n\rThe only exit is
     south to the village square.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -168,21 +168,21 @@ rooms:
   description: "This place is a small, cosy place where no one disturbs you all\n\rthe
     time. The room has little decoration except for some pictures\n\ron the wall.\n\rYou
     notice that there are no exits from this room.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 0
   owner:
   exits: []
   extra_descs:
-  - keywords: friend friends
-    description: "The list include such prominent names as : God, Lottie, Kurgan,\n\rEzzard,
-      Mike, Sprocket and Stormbringer.\n\r"
-  - keywords: foe foes enemies
-    description: "There is only one picture yet... Dim.\n\rIt pictures him hanging
-      from a gallow, north of the town.\n\rIt has the letters R.I.P. inscripted underneath.\n\r"
   - keywords: pictures picture decoration
     description: "These pictures show the friend's and foe's of Ravan.\n\rThey are
       easy to separate, as most of the foe's have the letters\n\rR.I.P. inscripted
       underneath them.\n\r"
+  - keywords: foe foes enemies
+    description: "There is only one picture yet... Dim.\n\rIt pictures him hanging
+      from a gallow, north of the town.\n\rIt has the letters R.I.P. inscripted underneath.\n\r"
+  - keywords: friend friends
+    description: "The list include such prominent names as : God, Lottie, Kurgan,\n\rEzzard,
+      Mike, Sprocket and Stormbringer.\n\r"
 resets:
 - command: M
   arg1: 303

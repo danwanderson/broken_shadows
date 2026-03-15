@@ -13,8 +13,8 @@ mobiles:
   long_desc: "A shadow guardian screams a challenge and attacks.\n\r"
   description: "It seems to be made of nothing more than darkness ...\n\r"
   race: Human
-  act: 524388
-  affected_by: 33290
+  act: CFGT
+  affected_by: BDJP
   affected2_by: 0
   alignment: -350
   clan: 0
@@ -58,7 +58,7 @@ mobiles:
   description: "He looks haggard and sickly; no doubt he's been lost here for quite
     some time.\n\r"
   race: Human
-  act: 524422
+  act: BCHT
   affected_by: 0
   affected2_by: 0
   alignment: 400
@@ -104,7 +104,7 @@ mobiles:
     see before you, one of Midgaard's finest fighting elite, the mighty\n\rbunny slayer
     himself, Edgar the Horrible!\n\r"
   race: Human
-  act: 524436
+  act: CEHT
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -148,8 +148,8 @@ mobiles:
   long_desc: "A huge diamond golem is standing guard here.\n\r"
   description: "It looks quite strong.\n\r"
   race: Human
-  act: 524354
-  affected_by: 8
+  act: BGT
+  affected_by: D
   affected2_by: 0
   alignment: 500
   clan: 0
@@ -193,8 +193,8 @@ mobiles:
   description: "He seems to be contemplating life, love and the mysteries of the universe.\n\rThen
     again, he may just have a headache.\n\r"
   race: Human
-  act: 524480
-  affected_by: 8
+  act: GHT
+  affected_by: D
   affected2_by: 0
   alignment: 450
   clan: 0
@@ -237,8 +237,8 @@ mobiles:
   long_desc: "Strick is here levitating drinks to his customers.\n\r"
   description: "He looks rather harmless, but then again so does a sleeping dragon.\n\r"
   race: Human
-  act: 524354
-  affected_by: 8
+  act: BGT
+  affected_by: D
   affected2_by: 0
   alignment: 750
   clan: 0
@@ -281,8 +281,8 @@ mobiles:
   long_desc: "Tatorious the wizard is here counting his earnings.\n\r"
   description: "Tatorious winks at you mischievously.\n\r"
   race: Human
-  act: 524354
-  affected_by: 8
+  act: BGT
+  affected_by: D
   affected2_by: 0
   alignment: 900
   clan: 0
@@ -325,8 +325,8 @@ mobiles:
   long_desc: "Ezmerelda the cook is here stirring a large pot of something.\n\r"
   description:
   race: Human
-  act: 524354
-  affected_by: 8
+  act: BGT
+  affected_by: D
   affected2_by: 0
   alignment: -500
   clan: 0
@@ -369,8 +369,8 @@ mobiles:
   long_desc: "The cook's assistant is here assisting the cook.\n\r"
   description:
   race: Human
-  act: 524482
-  affected_by: 8
+  act: BGHT
+  affected_by: D
   affected2_by: 0
   alignment: -200
   clan: 0
@@ -416,7 +416,7 @@ mobiles:
     mouth, whether to keep him from screaming, or to silence his spell\n\rcasting
     you cannot tell.\n\r\n\rHe looks quite mad, no doubt he's been mistreated horribly.\n\r"
   race: Human
-  act: 524518
+  act: BCFGHT
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -460,8 +460,8 @@ mobiles:
   long_desc: "The Jailor is here enjoying a comfortable nap.\n\r"
   description: "He looks rather dirty.\n\r"
   race: Human
-  act: 524354
-  affected_by: 8
+  act: BGT
+  affected_by: D
   affected2_by: 0
   alignment: 100
   clan: 0
@@ -504,8 +504,8 @@ mobiles:
   long_desc: "A straw broom is here leaning against the wall.\n\r"
   description: "The broom screams 'Take that you lout!'\n\r"
   race: Human
-  act: 524390
-  affected_by: 8
+  act: BCFGT
+  affected_by: D
   affected2_by: 0
   alignment: 50
   clan: 0
@@ -548,7 +548,7 @@ mobiles:
   long_desc: "A pair of disembodied hands floats in the air here.\n\r"
   description: "The hands twitch with anticipation of strangling someone.\n\r"
   race: Human
-  act: 524384
+  act: FGT
   affected_by: 0
   affected2_by: 0
   alignment: -400
@@ -592,8 +592,8 @@ mobiles:
   long_desc: "A pair of disembodied eyes floats here glaring at you.\n\r"
   description: "The eyes smolder with hatred.\n\r"
   race: Human
-  act: 524384
-  affected_by: 8
+  act: FGT
+  affected_by: D
   affected2_by: 0
   alignment: -600
   clan: 0
@@ -636,8 +636,8 @@ mobiles:
   long_desc: "A visiting mage is here snoring away in peaceful slumber.\n\r"
   description: "He looks quite sleepy.\n\r"
   race: Human
-  act: 524486
-  affected_by: 8
+  act: BCGHT
+  affected_by: D
   affected2_by: 0
   alignment: 250
   clan: 0
@@ -680,7 +680,7 @@ mobiles:
   long_desc: "A young apprentice magic user is here doing magical studies.\n\r"
   description: "She looks quite intent on her studies.\n\r"
   race: Human
-  act: 524482
+  act: BGHT
   affected_by: 0
   affected2_by: 0
   alignment: 400
@@ -724,7 +724,7 @@ mobiles:
   long_desc: "A young apprentice is here mumbling words of magic to himself.\n\r"
   description: "He looks to be oblivious to all but the spell he is memorizing.\n\r"
   race: Human
-  act: 524482
+  act: BGHT
   affected_by: 0
   affected2_by: 0
   alignment: 380
@@ -768,7 +768,7 @@ mobiles:
   long_desc: "A young apprentice is sleeping here.\n\r"
   description: "He seems to be dreaming.\n\r"
   race: Human
-  act: 524482
+  act: BGHT
   affected_by: 0
   affected2_by: 0
   alignment: 350
@@ -812,7 +812,7 @@ mobiles:
   long_desc: "A young apprentice is here teasing a cornered kitten.\n\r"
   description: "He looks like a mischievous youth.\n\r"
   race: Human
-  act: 524482
+  act: BGHT
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -857,7 +857,7 @@ mobiles:
   description: "The little ball of fur looks very unhappy.  Singed fur and a few minor
     burns\n\rmark its mottled coat.\n\r"
   race: Human
-  act: 524482
+  act: BGHT
   affected_by: 0
   affected2_by: 0
   alignment: 500
@@ -901,7 +901,7 @@ mobiles:
   long_desc: "A student of spells is here looking quite bored\n\r"
   description: "The student yawns.\n\r"
   race: Human
-  act: 524482
+  act: BGHT
   affected_by: 0
   affected2_by: 0
   alignment: 350
@@ -945,8 +945,8 @@ mobiles:
   long_desc: "The instructor screams at your interruption and attacks you.\n\r"
   description: "He looks quite angry at your interruption.\n\r"
   race: Human
-  act: 524386
-  affected_by: 8
+  act: BFGT
+  affected_by: D
   affected2_by: 0
   alignment: 300
   clan: 0
@@ -989,8 +989,8 @@ mobiles:
   long_desc: "A student of spells is here trying to master invisibility.\n\r"
   description: "He blinks in and out of existence, trying to master the spell.\n\r"
   race: Human
-  act: 524482
-  affected_by: 10
+  act: BGHT
+  affected_by: BD
   affected2_by: 0
   alignment: 400
   clan: 0
@@ -1033,8 +1033,8 @@ mobiles:
   long_desc: "A spell teacher screams at your interruption and attacks.\n\r"
   description:
   race: Human
-  act: 524386
-  affected_by: 10
+  act: BFGT
+  affected_by: BD
   affected2_by: 0
   alignment: 300
   clan: 0
@@ -1077,8 +1077,8 @@ mobiles:
   long_desc: "A student of spells has fallen asleep at her desk here.\n\r"
   description: "She looks to have collapsed from sheer boredom.\n\r"
   race: Human
-  act: 524482
-  affected_by: 8
+  act: BGHT
+  affected_by: D
   affected2_by: 0
   alignment: 400
   clan: 0
@@ -1121,8 +1121,8 @@ mobiles:
   long_desc: "An old wizard is here making a speech\n\r"
   description:
   race: Human
-  act: 524482
-  affected_by: 8
+  act: BGHT
+  affected_by: D
   affected2_by: 0
   alignment: 400
   clan: 0
@@ -1165,8 +1165,8 @@ mobiles:
   long_desc: "A young mage is here learning hand to hand combat.\n\r"
   description:
   race: Human
-  act: 524482
-  affected_by: 8
+  act: BGHT
+  affected_by: D
   affected2_by: 0
   alignment: 300
   clan: 0
@@ -1210,8 +1210,8 @@ mobiles:
   description: "She looks quite rugged. In fact, she more resembles a warrior than
     a magic\n\ruser.\n\r"
   race: Human
-  act: 524386
-  affected_by: 8
+  act: BFGT
+  affected_by: D
   affected2_by: 0
   alignment: 200
   clan: 0
@@ -1254,8 +1254,8 @@ mobiles:
   long_desc: "A spell teacher is here relaxing.\n\r"
   description:
   race: Human
-  act: 524354
-  affected_by: 8
+  act: BGT
+  affected_by: D
   affected2_by: 0
   alignment: 200
   clan: 0
@@ -1298,8 +1298,8 @@ mobiles:
   long_desc: "An aged wizard is sleeping here.\n\r"
   description:
   race: Human
-  act: 524514
-  affected_by: 8
+  act: BFGHT
+  affected_by: D
   affected2_by: 0
   alignment: 350
   clan: 0
@@ -1342,8 +1342,8 @@ mobiles:
   long_desc: "A scribe is here working on some manuscripts.\n\r"
   description:
   race: Human
-  act: 524486
-  affected_by: 8
+  act: BCGHT
+  affected_by: D
   affected2_by: 0
   alignment: 400
   clan: 0
@@ -1387,8 +1387,8 @@ mobiles:
   description: "She's quite cute.  Too bad her only interest seems to be the words
     of\n\rlore she is translating.\n\r"
   race: Human
-  act: 524482
-  affected_by: 8
+  act: BGHT
+  affected_by: D
   affected2_by: 0
   alignment: 500
   clan: 0
@@ -1432,8 +1432,8 @@ mobiles:
   description: "He seems to be so old, his skin has become nothing but a giant wrinkle.\n\rThe
     master scribe screams 'How dare you interrupt my important work???'\n\r"
   race: Human
-  act: 524514
-  affected_by: 8
+  act: BFGHT
+  affected_by: D
   affected2_by: 0
   alignment: 100
   clan: 0
@@ -1476,8 +1476,8 @@ mobiles:
   long_desc: "The scribe's assistant is here folding parchments.\n\r"
   description:
   race: Human
-  act: 524514
-  affected_by: 8
+  act: BFGHT
+  affected_by: D
   affected2_by: 0
   alignment: 100
   clan: 0
@@ -1520,8 +1520,8 @@ mobiles:
   long_desc: "The Enchanter is here placing a dweomer upon well made sword.\n\r"
   description:
   race: Human
-  act: 524386
-  affected_by: 8
+  act: BFGT
+  affected_by: D
   affected2_by: 0
   alignment: -200
   clan: 0
@@ -1564,7 +1564,7 @@ mobiles:
   long_desc: "A well crafted sword lies on the work table here.\n\r"
   description: "It looks quite sharp.\n\r"
   race: Human
-  act: 524386
+  act: BFGT
   affected_by: 0
   affected2_by: 0
   alignment: -500
@@ -1610,8 +1610,8 @@ mobiles:
     and he starts to drool.\n\r\n\rThe Mad Alchemist throws back his head and cackles
     with insane glee!\n\r"
   race: Human
-  act: 524518
-  affected_by: 8
+  act: BCFGHT
+  affected_by: D
   affected2_by: 0
   alignment: 150
   clan: 0
@@ -1654,8 +1654,8 @@ mobiles:
   long_desc: "The master summoner is here holding gateways open to other planes.\n\r"
   description:
   race: Human
-  act: 524514
-  affected_by: 8
+  act: BFGHT
+  affected_by: D
   affected2_by: 0
   alignment: -200
   clan: 0
@@ -1698,8 +1698,8 @@ mobiles:
   long_desc: "The master charmer utters the words, 'uuuzzldctz'.\n\r"
   description: "The master charmer sizes you up, always looking for a new pet.\n\r"
   race: Human
-  act: 524322
-  affected_by: 8
+  act: BFT
+  affected_by: D
   affected2_by: 0
   alignment: -400
   clan: 0
@@ -1742,8 +1742,8 @@ mobiles:
   long_desc: "A wooden golem stands a silent vigil here, guarding the stairs.\n\r"
   description: "He looks flammable.\n\r"
   race: Human
-  act: 524386
-  affected_by: 8
+  act: BFGT
+  affected_by: D
   affected2_by: 0
   alignment: 100
   clan: 0
@@ -1786,8 +1786,8 @@ mobiles:
   long_desc: "The master spell binder is here re-charging a blackened wand.\n\r"
   description: "The master spell binder snarls at you and attacks.\n\r"
   race: Human
-  act: 524518
-  affected_by: 8
+  act: BCFGHT
+  affected_by: D
   affected2_by: 0
   alignment: -500
   clan: 0
@@ -1830,8 +1830,8 @@ mobiles:
   long_desc: "The golem maker is here chiseling some stone.\n\r"
   description:
   race: Human
-  act: 524386
-  affected_by: 8
+  act: BFGT
+  affected_by: D
   affected2_by: 0
   alignment: 300
   clan: 0
@@ -1874,7 +1874,7 @@ mobiles:
   long_desc: "A granite golem stands here waiting to do its master's bidding.\n\r"
   description: "It looks like a statue, until you see it shamble towards you.\n\r"
   race: Human
-  act: 524386
+  act: BFGT
   affected_by: 0
   affected2_by: 0
   alignment: 300
@@ -1918,7 +1918,7 @@ mobiles:
   long_desc: "A bronze golem stands here shining in the light.\n\r"
   description: "He looks rather dim witted.\n\r"
   race: Human
-  act: 524354
+  act: BGT
   affected_by: 0
   affected2_by: 0
   alignment: 350
@@ -1963,7 +1963,7 @@ mobiles:
   description: "It looks to be made of a potpourri of different body parts; some don't
     even\n\rresemble anything human.\n\r"
   race: Human
-  act: 524386
+  act: BFGT
   affected_by: 0
   affected2_by: 0
   alignment: 200
@@ -2008,7 +2008,7 @@ mobiles:
   description: "It looks like a bunch of old rags, quite surprising it can actually
     walk.\n\r"
   race: Human
-  act: 524358
+  act: BCGT
   affected_by: 0
   affected2_by: 0
   alignment: 350
@@ -2053,7 +2053,7 @@ mobiles:
   description: "It seems to be forged of dark metal.  It looks strong and durable,\n\rbut
     somewhat un-intelligent.\n\r"
   race: Human
-  act: 524358
+  act: BCGT
   affected_by: 0
   affected2_by: 0
   alignment: 350
@@ -2097,8 +2097,8 @@ mobiles:
   long_desc: "A clay golem stands guard here.\n\r"
   description:
   race: Human
-  act: 524390
-  affected_by: 8
+  act: BCFGT
+  affected_by: D
   affected2_by: 0
   alignment: 200
   clan: 0
@@ -2142,8 +2142,8 @@ mobiles:
   description: "The image of an ugly dragon flickers slightly, and where the dragon
     was\n\rnow stands a small harmless looking old man.\n\r"
   race: Human
-  act: 524486
-  affected_by: 8
+  act: BCGHT
+  affected_by: D
   affected2_by: 0
   alignment: 150
   clan: 0
@@ -2189,8 +2189,8 @@ mobiles:
     which serve as eyes can be seen through the shadow.\n\rThe Necromancer shrieks
     some obscenities and orders his minions to attack.\n\r"
   race: Human
-  act: 524518
-  affected_by: 8
+  act: BCFGHT
+  affected_by: D
   affected2_by: 0
   alignment: -950
   clan: 0
@@ -2233,8 +2233,8 @@ mobiles:
   long_desc: "An animated skeleton screams silently and attacks.\n\r"
   description: "It feels no pain, and hacks at you ruthlessly.\n\r"
   race: Human
-  act: 524386
-  affected_by: 8
+  act: BFGT
+  affected_by: D
   affected2_by: 0
   alignment: -500
   clan: 0
@@ -2277,8 +2277,8 @@ mobiles:
   long_desc: "An undead giant lumbers towards you.\n\r"
   description:
   race: Human
-  act: 524390
-  affected_by: 8
+  act: BCFGT
+  affected_by: D
   affected2_by: 0
   alignment: -500
   clan: 0
@@ -2323,8 +2323,8 @@ mobiles:
     about where\n\rher mouth should be, comes a disgusting giggling sound that makes
     your skin\n\rcrawl with revulsion.\n\r"
   race: Human
-  act: 524390
-  affected_by: 8
+  act: BCFGT
+  affected_by: D
   affected2_by: 0
   alignment: -450
   clan: 0
@@ -2367,8 +2367,8 @@ mobiles:
   long_desc: "The Librarian has fallen asleep at his desk here.\n\r"
   description: "He looks like a rather peaceful old man.\n\r"
   race: Human
-  act: 524514
-  affected_by: 8
+  act: BFGHT
+  affected_by: D
   affected2_by: 0
   alignment: 450
   clan: 0
@@ -2413,8 +2413,8 @@ mobiles:
     balance\n\rhas given up his station in the mage guild hierarchy in order to serve
     the\n\rgreat master in hopes of gleaning secrets one could never hope to uncover\n\ralone.\n\r"
   race: Human
-  act: 524390
-  affected_by: 8
+  act: BCFGT
+  affected_by: D
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -2459,8 +2459,8 @@ mobiles:
     purrs\n\rcontentedly.  It looks rather harmless, until you notice its very large
     claws.\n\r"
   race: cat
-  act: 524354
-  affected_by: 32770
+  act: BGT
+  affected_by: BP
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -2504,8 +2504,8 @@ mobiles:
     universe.\n\r"
   description: "He looks quite peaceful.\n\r"
   race: Human
-  act: 524354
-  affected_by: 136
+  act: BGT
+  affected_by: DH
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -2550,8 +2550,8 @@ mobiles:
     once she\n\rmust have been beautiful, now the scar combined with what seems to
     be a\n\rpermanent scowl make her looks quite fearsome.\n\r"
   race: Human
-  act: 524390
-  affected_by: 32776
+  act: BCFGT
+  affected_by: DP
   affected2_by: 0
   alignment: -750
   clan: 0
@@ -2595,8 +2595,8 @@ mobiles:
   description: "It looks both mean and dangerous.  Petting seems to be completely
     out of\n\rthe question.\n\r"
   race: cat
-  act: 524354
-  affected_by: 32776
+  act: BGT
+  affected_by: DP
   affected2_by: 0
   alignment: -800
   clan: 0
@@ -2639,8 +2639,8 @@ mobiles:
   long_desc: "The master of the black robes is here plotting vile deeds.\n\r"
   description: "The master glares at you.\n\r"
   race: Human
-  act: 524358
-  affected_by: 136
+  act: BCGT
+  affected_by: DH
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -2684,8 +2684,8 @@ mobiles:
   description: "He looks like a fanatic.\n\rThe apprentice screams 'Thou art unworthy
     of this honor!'\n\r"
   race: Human
-  act: 524386
-  affected_by: 8
+  act: BFGT
+  affected_by: D
   affected2_by: 0
   alignment: 750
   clan: 0
@@ -2728,8 +2728,8 @@ mobiles:
   long_desc: "A white cat is here preening its fur.\n\r"
   description: "It seems to be nothing more than a large ball of fluff with claws.\n\r"
   race: cat
-  act: 524354
-  affected_by: 32776
+  act: BGT
+  affected_by: DP
   affected2_by: 0
   alignment: 800
   clan: 0
@@ -2772,8 +2772,8 @@ mobiles:
   long_desc: "The master of goodness is here frowning at your intrusion.\n\r"
   description: "He looks like a self-righteous bastard.\n\r"
   race: Human
-  act: 524354
-  affected_by: 136
+  act: BGT
+  affected_by: DH
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -2817,8 +2817,8 @@ mobiles:
   description: "It looks incredibly large for a cat, no doubt a giant of its species.\n\rA
     beautiful jewel encrusted collar about its neck is its only adornment.\n\r"
   race: cat
-  act: 524354
-  affected_by: 32776
+  act: BGT
+  affected_by: DP
   affected2_by: 0
   alignment: 800
   clan: 0
@@ -2864,8 +2864,8 @@ mobiles:
     appearance through the use of strong magics.\n\rThe Grand Master pets her familiar
     and smiles at you in confidence.\n\r"
   race: Human
-  act: 524354
-  affected_by: 136
+  act: BGT
+  affected_by: DH
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -2908,8 +2908,8 @@ mobiles:
   long_desc: "A wandering wizard is here mumbling to himself.\n\r"
   description:
   race: Human
-  act: 524356
-  affected_by: 32776
+  act: CGT
+  affected_by: DP
   affected2_by: 0
   alignment: 350
   clan: 0
@@ -2953,7 +2953,7 @@ objects:
   description: A huge black oven is here.
   material: none
   item_type: 15
-  extra_flags: 1
+  extra_flags: A
   wear_flags: 0
   level: 24
   weight: 1000
@@ -2994,7 +2994,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 24
   weight: 1
   cost: 240
@@ -3015,7 +3015,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 24
   weight: 2
   cost: 240
@@ -3034,7 +3034,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 24
   weight: 2
   cost: 240
@@ -3055,7 +3055,7 @@ objects:
   material: none
   item_type: 13
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 5
   weight: 5
   cost: 50
@@ -3075,7 +3075,7 @@ objects:
   description: A coffee machine is here.
   material: none
   item_type: 15
-  extra_flags: 2
+  extra_flags: B
   wear_flags: 0
   level: 0
   weight: 10000
@@ -3114,7 +3114,7 @@ objects:
   material: none
   item_type: 8
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 12
   weight: 10
   cost: 1500
@@ -3133,7 +3133,7 @@ objects:
   material: none
   item_type: 8
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 12
   weight: 11
   cost: 2000
@@ -3152,7 +3152,7 @@ objects:
   material: none
   item_type: 8
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 12
   weight: 12
   cost: 2500
@@ -3171,7 +3171,7 @@ objects:
   material: none
   item_type: 8
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 12
   weight: 15
   cost: 3000
@@ -3189,8 +3189,8 @@ objects:
   description: A mithril hammer has been left here
   material: none
   item_type: 5
-  extra_flags: 64
-  wear_flags: 8193
+  extra_flags: G
+  wear_flags: AN
   level: 12
   weight: 19
   cost: 120
@@ -3202,12 +3202,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 1
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 18
     modifier: 2
+    bitvector: 0
+  - where: O
+    location: 1
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 1315
@@ -3216,7 +3216,7 @@ objects:
   description: A chest is here.
   material: none
   item_type: 15
-  extra_flags: 1
+  extra_flags: A
   wear_flags: 0
   level: 12
   weight: 1000
@@ -3236,7 +3236,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 23
   weight: 1
   cost: 230
@@ -3255,7 +3255,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 12
   weight: 8
   cost: 120
@@ -3267,12 +3267,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: 2
-    bitvector: 0
-  - where: O
     location: 18
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 2
     bitvector: 0
   extra_descs: []
 - vnum: 1318
@@ -3282,7 +3282,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 12
   weight: 5
   cost: 120
@@ -3294,11 +3294,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
+    location: 18
     modifier: 2
     bitvector: 0
   - where: O
-    location: 18
+    location: 19
     modifier: 2
     bitvector: 0
   extra_descs: []
@@ -3309,7 +3309,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 12
   weight: 10
   cost: 120
@@ -3332,7 +3332,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 12
   weight: 6
   cost: 120
@@ -3389,7 +3389,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 17
   weight: 1
   cost: 170
@@ -3408,7 +3408,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 0
@@ -3427,7 +3427,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 23
   weight: 1
   cost: 230
@@ -3446,7 +3446,7 @@ objects:
   material: none
   item_type: 4
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 21
   weight: 8
   cost: 210
@@ -3465,7 +3465,7 @@ objects:
   material: none
   item_type: 4
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 21
   weight: 6
   cost: 210
@@ -3484,7 +3484,7 @@ objects:
   material: none
   item_type: 3
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 21
   weight: 4
   cost: 210
@@ -3503,7 +3503,7 @@ objects:
   material: none
   item_type: 3
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 21
   weight: 4
   cost: 210
@@ -3522,7 +3522,7 @@ objects:
   material: none
   item_type: 3
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 21
   weight: 5
   cost: 210
@@ -3560,7 +3560,7 @@ objects:
   material: none
   item_type: 13
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 18
   weight: 2
   cost: 180
@@ -3579,7 +3579,7 @@ objects:
   material: none
   item_type: 13
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 18
   weight: 1
   cost: 180
@@ -3597,8 +3597,8 @@ objects:
   description: An enormous book is lying open here
   material: none
   item_type: 15
-  extra_flags: 1
-  wear_flags: 1
+  extra_flags: A
+  wear_flags: A
   level: 22
   weight: 5000
   cost: 220
@@ -3616,8 +3616,8 @@ objects:
   description: A pair of wire-rimmed spectacles has been left here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 17
+  extra_flags: G
+  wear_flags: AE
   level: 22
   weight: 4
   cost: 220
@@ -3629,11 +3629,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 4
+    location: 3
     modifier: 1
     bitvector: 0
   - where: O
-    location: 3
+    location: 4
     modifier: 1
     bitvector: 0
   extra_descs: []
@@ -3662,8 +3662,8 @@ objects:
   description: A heart shaped medallion is here.
   material: none
   item_type: 9
-  extra_flags: 320
-  wear_flags: 5
+  extra_flags: GI
+  wear_flags: AC
   level: 48
   weight: 3
   cost: 480
@@ -3675,12 +3675,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 5
-    modifier: -1
-    bitvector: 0
-  - where: O
     location: 4
     modifier: 2
+    bitvector: 0
+  - where: O
+    location: 5
+    modifier: -1
     bitvector: 0
   extra_descs: []
 - vnum: 1338
@@ -3689,7 +3689,7 @@ objects:
   description: A large chest is here.
   material: none
   item_type: 15
-  extra_flags: 65
+  extra_flags: AG
   wear_flags: 0
   level: 48
   weight: 5000
@@ -3708,8 +3708,8 @@ objects:
   description: An intricately carved key has been left here.
   material: none
   item_type: 18
-  extra_flags: 65
-  wear_flags: 16385
+  extra_flags: AG
+  wear_flags: AO
   level: 50
   weight: 1
   cost: 500
@@ -3732,7 +3732,7 @@ objects:
   material: none
   item_type: 20
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 48
   weight: 1
   cost: 100000
@@ -3751,7 +3751,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 5
+  wear_flags: AC
   level: 48
   weight: 5
   cost: 480
@@ -3763,12 +3763,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 24
-    modifier: -3
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -5
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -3
     bitvector: 0
   extra_descs: []
 - vnum: 1342
@@ -3777,8 +3777,8 @@ objects:
   description: Some multicolored cloth is on the ground here
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 1025
+  extra_flags: G
+  wear_flags: AK
   level: 48
   weight: 4
   cost: 480
@@ -3790,12 +3790,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 17
-    modifier: -3
-    bitvector: 0
-  - where: O
     location: 2
     modifier: 2
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: -3
     bitvector: 0
   extra_descs: []
 - vnum: 1343
@@ -3804,8 +3804,8 @@ objects:
   description: A pair of old boots is here, they look very comfortable.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 65
+  extra_flags: G
+  wear_flags: AG
   level: 48
   weight: 2
   cost: 480
@@ -3827,8 +3827,8 @@ objects:
   description: A small seashell has been left here.
   material: none
   item_type: 22
-  extra_flags: 64
-  wear_flags: 3
+  extra_flags: G
+  wear_flags: AB
   level: 48
   weight: 2
   cost: 480
@@ -3847,7 +3847,7 @@ objects:
   material: none
   item_type: 15
   extra_flags: 0
-  wear_flags: 17409
+  wear_flags: AKO
   level: 48
   weight: 9
   cost: 480
@@ -3866,7 +3866,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 2
   cost: 0
@@ -3885,7 +3885,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 3
   cost: 0
@@ -3904,7 +3904,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 21
   weight: 8
   cost: 210
@@ -3922,8 +3922,8 @@ objects:
   description: Some chain shackles have heen discarded here.
   material: none
   item_type: 13
-  extra_flags: 4288
-  wear_flags: 65
+  extra_flags: GHM
+  wear_flags: AG
   level: 16
   weight: 15
   cost: 160
@@ -3935,12 +3935,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 14
-    modifier: -82
-    bitvector: 0
-  - where: O
     location: 12
     modifier: -100
+    bitvector: 0
+  - where: O
+    location: 14
+    modifier: -82
     bitvector: 0
   extra_descs: []
 - vnum: 1357
@@ -3949,8 +3949,8 @@ objects:
   description: A long dagger that seems to be made of silver is here.
   material: none
   item_type: 5
-  extra_flags: 64
-  wear_flags: 8193
+  extra_flags: G
+  wear_flags: AN
   level: 8
   weight: 5
   cost: 80
@@ -3973,7 +3973,7 @@ objects:
   material: none
   item_type: 2
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 23
   weight: 5
   cost: 230
@@ -3991,8 +3991,8 @@ objects:
   description: A bound scroll is here blowing in the breeze.
   material: none
   item_type: 2
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 23
   weight: 3
   cost: 230
@@ -4014,8 +4014,8 @@ objects:
   description: A long cylindrical tube is rolling around here.
   material: none
   item_type: 15
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 23
   weight: 8
   cost: 230
@@ -4034,7 +4034,7 @@ objects:
   material: none
   item_type: 2
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 16
   weight: 2
   cost: 160
@@ -4052,8 +4052,8 @@ objects:
   description: A blue scroll has been left here.
   material: none
   item_type: 2
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 23
   weight: 5
   cost: 230
@@ -4071,8 +4071,8 @@ objects:
   description: A leather pouch is on the ground here.
   material: none
   item_type: 15
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 24
   weight: 2
   cost: 240
@@ -4090,8 +4090,8 @@ objects:
   description: A silver stirring spoon has been left here.
   material: none
   item_type: 12
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 24
   weight: 1
   cost: 240
@@ -4113,8 +4113,8 @@ objects:
   description: A blue potion is here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 0
   weight: 2
   cost: 0
@@ -4132,8 +4132,8 @@ objects:
   description: A bright red potion is here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 24
   weight: 2
   cost: 240
@@ -4151,8 +4151,8 @@ objects:
   description: A green potion is here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 24
   weight: 2
   cost: 240
@@ -4170,8 +4170,8 @@ objects:
   description: An efervecent potion is bubbling away here
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 24
   weight: 2
   cost: 240
@@ -4192,7 +4192,7 @@ objects:
   material: none
   item_type: 10
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 24
   weight: 2
   cost: 240
@@ -4210,8 +4210,8 @@ objects:
   description: A black staff is leaning against the wall here.
   material: none
   item_type: 4
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 22
   weight: 5
   cost: 220
@@ -4229,8 +4229,8 @@ objects:
   description: A golden flute has been left here.
   material: none
   item_type: 4
-  extra_flags: 96
-  wear_flags: 16385
+  extra_flags: FG
+  wear_flags: AO
   level: 24
   weight: 4
   cost: 240
@@ -4252,8 +4252,8 @@ objects:
   description: A small figurine in the shape of a humanoid is standing here.
   material: none
   item_type: 4
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 24
   weight: 4
   cost: 240
@@ -4272,7 +4272,7 @@ objects:
   material: none
   item_type: 15
   extra_flags: 0
-  wear_flags: 2049
+  wear_flags: AL
   level: 23
   weight: 4
   cost: 230
@@ -4290,8 +4290,8 @@ objects:
   description: A blackened wand is here.
   material: none
   item_type: 3
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 23
   weight: 4
   cost: 230
@@ -4309,8 +4309,8 @@ objects:
   description: A runed chisel is here.
   material: none
   item_type: 5
-  extra_flags: 65
-  wear_flags: 8193
+  extra_flags: AG
+  wear_flags: AN
   level: 21
   weight: 6
   cost: 210
@@ -4333,7 +4333,7 @@ objects:
   material: none
   item_type: 15
   extra_flags: 0
-  wear_flags: 2049
+  wear_flags: AL
   level: 21
   weight: 5
   cost: 210
@@ -4352,7 +4352,7 @@ objects:
   material: none
   item_type: 4
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 21
   weight: 2
   cost: 210
@@ -4370,8 +4370,8 @@ objects:
   description: A dark cowl is here.
   material: none
   item_type: 9
-  extra_flags: 576
-  wear_flags: 5
+  extra_flags: GJ
+  wear_flags: AC
   level: 25
   weight: 5
   cost: 250
@@ -4383,12 +4383,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 24
-    modifier: -3
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -8
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -3
     bitvector: 0
   extra_descs: []
 - vnum: 1380
@@ -4397,8 +4397,8 @@ objects:
   description: An ashen wand is here
   material: none
   item_type: 3
-  extra_flags: 512
-  wear_flags: 16385
+  extra_flags: J
+  wear_flags: AO
   level: 25
   weight: 4
   cost: 250
@@ -4417,7 +4417,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 19
   weight: 29
   cost: 190
@@ -4435,8 +4435,8 @@ objects:
   description: A pile of grey cloth has been left here.
   material: none
   item_type: 15
-  extra_flags: 1600
-  wear_flags: 1025
+  extra_flags: GJK
+  wear_flags: AK
   level: 24
   weight: 8
   cost: 240
@@ -4448,12 +4448,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 24
-    modifier: -2
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -9
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -2
     bitvector: 0
   extra_descs: []
 - vnum: 1383
@@ -4462,8 +4462,8 @@ objects:
   description: A pile of grey cloth has been left here.
   material: none
   item_type: 9
-  extra_flags: 1600
-  wear_flags: 5
+  extra_flags: GJK
+  wear_flags: AC
   level: 30
   weight: 7
   cost: 300
@@ -4475,12 +4475,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 24
-    modifier: -3
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -12
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -3
     bitvector: 0
   extra_descs: []
 - vnum: 1384
@@ -4489,8 +4489,8 @@ objects:
   description: A glinting hoop of silvery metal is here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 4097
+  extra_flags: G
+  wear_flags: AM
   level: 24
   weight: 5
   cost: 240
@@ -4512,8 +4512,8 @@ objects:
   description: A grey piece of wood shod in iron has been left here.
   material: none
   item_type: 5
-  extra_flags: 64
-  wear_flags: 8193
+  extra_flags: G
+  wear_flags: AN
   level: 30
   weight: 7
   cost: 300
@@ -4535,8 +4535,8 @@ objects:
   description: A small clear cube is sitting here.
   material: none
   item_type: 9
-  extra_flags: 65
-  wear_flags: 16385
+  extra_flags: AG
+  wear_flags: AO
   level: 29
   weight: 5
   cost: 290
@@ -4558,8 +4558,8 @@ objects:
   description: A pile of black cloth is on the ground here.
   material: none
   item_type: 15
-  extra_flags: 2624
-  wear_flags: 1025
+  extra_flags: GJL
+  wear_flags: AK
   level: 20
   weight: 8
   cost: 200
@@ -4571,12 +4571,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 24
-    modifier: -2
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -9
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -2
     bitvector: 0
   extra_descs: []
 - vnum: 1388
@@ -4585,8 +4585,8 @@ objects:
   description: A hoop of black onyx is here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 4097
+  extra_flags: G
+  wear_flags: AM
   level: 20
   weight: 6
   cost: 200
@@ -4608,8 +4608,8 @@ objects:
   description: A pile of black cloth is on the ground here.
   material: none
   item_type: 9
-  extra_flags: 2624
-  wear_flags: 5
+  extra_flags: GJL
+  wear_flags: AC
   level: 29
   weight: 8
   cost: 290
@@ -4621,12 +4621,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 24
-    modifier: -3
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -12
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -3
     bitvector: 0
   extra_descs: []
 - vnum: 1390
@@ -4635,8 +4635,8 @@ objects:
   description: A piece of black glass is here.
   material: none
   item_type: 5
-  extra_flags: 512
-  wear_flags: 8193
+  extra_flags: J
+  wear_flags: AN
   level: 29
   weight: 8
   cost: 290
@@ -4658,8 +4658,8 @@ objects:
   description: A pile of white cloth is on the ground here.
   material: none
   item_type: 15
-  extra_flags: 3136
-  wear_flags: 1025
+  extra_flags: GKL
+  wear_flags: AK
   level: 20
   weight: 7
   cost: 200
@@ -4671,12 +4671,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 24
-    modifier: -2
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -9
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -2
     bitvector: 0
   extra_descs: []
 - vnum: 1392
@@ -4685,8 +4685,8 @@ objects:
   description: A hoop of silvery metal is here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 4097
+  extra_flags: G
+  wear_flags: AM
   level: 20
   weight: 5
   cost: 200
@@ -4708,8 +4708,8 @@ objects:
   description: A pile of white cloth is on the ground here.
   material: none
   item_type: 9
-  extra_flags: 3392
-  wear_flags: 5
+  extra_flags: GIKL
+  wear_flags: AC
   level: 30
   weight: 7
   cost: 300
@@ -4721,12 +4721,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 24
-    modifier: -3
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -12
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -3
     bitvector: 0
   extra_descs: []
 - vnum: 1394
@@ -4735,8 +4735,8 @@ objects:
   description: An ivory hilted dagger has been left here
   material: none
   item_type: 5
-  extra_flags: 1344
-  wear_flags: 8193
+  extra_flags: GIK
+  wear_flags: AN
   level: 30
   weight: 8
   cost: 300
@@ -4748,12 +4748,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: 2
-    bitvector: 0
-  - where: O
     location: 18
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 2
     bitvector: 0
   extra_descs: []
 - vnum: 1395
@@ -4762,8 +4762,8 @@ objects:
   description: A small spiked collar is here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 5
+  extra_flags: G
+  wear_flags: AC
   level: 26
   weight: 9
   cost: 260
@@ -4775,12 +4775,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: 3
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -2
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 3
     bitvector: 0
   extra_descs: []
 - vnum: 1396
@@ -4789,8 +4789,8 @@ objects:
   description: A multi-colored pile of cloth is here.
   material: none
   item_type: 15
-  extra_flags: 65
-  wear_flags: 5
+  extra_flags: AG
+  wear_flags: AC
   level: 0
   weight: 8
   cost: 0
@@ -4802,12 +4802,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 24
-    modifier: -5
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -15
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -5
     bitvector: 0
   extra_descs: []
 - vnum: 1397
@@ -4816,8 +4816,8 @@ objects:
   description: A small ring with a green gemstone is here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 3
+  extra_flags: G
+  wear_flags: AB
   level: 50
   weight: 5
   cost: 500
@@ -4839,8 +4839,8 @@ objects:
   description: A beautifully crafted hoop of emerald is here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 4097
+  extra_flags: G
+  wear_flags: AM
   level: 50
   weight: 5
   cost: 500
@@ -4852,12 +4852,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 3
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -5
+    bitvector: 0
+  - where: O
+    location: 3
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 1399
@@ -4866,8 +4866,8 @@ objects:
   description: A large clear crystal cube is here.
   material: none
   item_type: 9
-  extra_flags: 65
-  wear_flags: 16385
+  extra_flags: AG
+  wear_flags: AO
   level: 50
   weight: 6
   cost: 500
@@ -4879,12 +4879,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 24
-    modifier: -2
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -10
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -2
     bitvector: 0
   extra_descs: []
 - vnum: 1400
@@ -4893,8 +4893,8 @@ objects:
   description: A wavy bladed knife made of ebony is here.
   material: none
   item_type: 5
-  extra_flags: 64
-  wear_flags: 8193
+  extra_flags: G
+  wear_flags: AN
   level: 50
   weight: 9
   cost: 500
@@ -4906,12 +4906,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: 5
-    bitvector: 0
-  - where: O
     location: 2
     modifier: 2
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 5
     bitvector: 0
   extra_descs: []
 - vnum: 1401
@@ -4920,8 +4920,8 @@ objects:
   description: Some green dragon scales which have been sewn together are here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 9
+  extra_flags: G
+  wear_flags: AD
   level: 50
   weight: 9
   cost: 500
@@ -4933,12 +4933,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 17
-    modifier: -5
-    bitvector: 0
-  - where: O
     location: 2
     modifier: 3
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: -5
     bitvector: 0
   extra_descs:
   - keywords: green scale shirt
@@ -4950,7 +4950,7 @@ objects:
   description: A small refrigerator.
   material: none
   item_type: 15
-  extra_flags: 2
+  extra_flags: B
   wear_flags: 0
   level: 48
   weight: 5000
@@ -4970,7 +4970,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 48
   weight: 25
   cost: 480
@@ -4989,7 +4989,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 48
   weight: 25
   cost: 480
@@ -5008,7 +5008,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 0
   cost: 1000
@@ -5027,7 +5027,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 0
   cost: 1000
@@ -5046,7 +5046,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 0
   cost: 1000
@@ -5066,7 +5066,7 @@ rooms:
     the surrounding area. You have a strange urge to turn\n\rback and go back the
     way you've come.\n\r  A small path leads north into the shadows and back south
     to the road.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 3
   owner:
   exits:
@@ -5089,7 +5089,7 @@ rooms:
     all sides. The shadowy mist obscures most of your vision. Strange\n\rsounds of
     moaning and growling come from all directions.\n\r  All exits lead into shadows,
     you are very confused.\n\r"
-  room_flags: 8193
+  room_flags: AN
   sector: 3
   owner:
   exits:
@@ -5098,19 +5098,19 @@ rooms:
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1307
+    to_vnum: 1302
   - dir: 1
     desc: "The shadows cloud your vision.\n\r"
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1303
+    to_vnum: 1307
   - dir: 2
     desc: "The shadows cloud your vision.\n\r"
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1302
+    to_vnum: 1303
   - dir: 3
     desc: "The shadows cloud your vision.\n\r"
     keywords:
@@ -5124,7 +5124,7 @@ rooms:
     all sides. The shadowy mist obscures most of your vision. Strange\n\rsounds moaning
     and growling come from all directions.\n\r  All exits lead into shadows, you are
     very confused.\n\r"
-  room_flags: 8193
+  room_flags: AN
   sector: 3
   owner:
   exits:
@@ -5133,25 +5133,25 @@ rooms:
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1305
+    to_vnum: 1301
   - dir: 1
     desc: "The shadows cloud your vision.\n\r"
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1301
+    to_vnum: 1303
   - dir: 2
+    desc: "The shadows cloud your vision.\n\r"
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 1305
+  - dir: 3
     desc: "You see a small clearing in the shadows.\n\r"
     keywords:
     exit_flags: 0
     key: -1
     to_vnum: 1311
-  - dir: 3
-    desc: "The shadows cloud your vision.\n\r"
-    keywords:
-    exit_flags: 0
-    key: -1
-    to_vnum: 1303
   extra_descs: []
 - vnum: 1303
   name: The Shadow Grove
@@ -5159,7 +5159,7 @@ rooms:
     all sides. The shadowy mist obscures most of your vision. Strange\n\rsounds of
     moaning and growling come from all directions.\n\r  All exits lead into shadows,
     you are very confused.\n\r"
-  room_flags: 8193
+  room_flags: AN
   sector: 3
   owner:
   exits:
@@ -5168,13 +5168,13 @@ rooms:
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1302
+    to_vnum: 1301
   - dir: 1
     desc: "The shadows cloud your vision.\n\r"
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1306
+    to_vnum: 1302
   - dir: 2
     desc: "The shadows cloud your vision.\n\r"
     keywords:
@@ -5186,7 +5186,7 @@ rooms:
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1301
+    to_vnum: 1306
   extra_descs: []
 - vnum: 1304
   name: The Shadow Grove
@@ -5194,7 +5194,7 @@ rooms:
     all sides. The shadowy mist obscures most of your vision. Strange\n\rsounds of
     moaning and growling come from all directions.\n\r  All exits lead into shadows,
     you are very confused.\n\r"
-  room_flags: 8193
+  room_flags: AN
   sector: 3
   owner:
   exits:
@@ -5203,25 +5203,25 @@ rooms:
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1307
+    to_vnum: 1305
   - dir: 1
-    desc: "Dark gates loom in the mist.\n\r"
+    desc: "The shadows cloud your vision.\n\r"
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 2201
+    to_vnum: 1307
   - dir: 2
     desc: "The shadows cloud your vision.\n\r"
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1305
+    to_vnum: 1301
   - dir: 3
-    desc: "The shadows cloud your vision.\n\r"
+    desc: "Dark gates loom in the mist.\n\r"
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1301
+    to_vnum: 2201
   extra_descs: []
 - vnum: 1305
   name: The Shadow Grove
@@ -5229,7 +5229,7 @@ rooms:
     all sides. The shadowy mist obscures most of your vision. Strange\n\rsounds of
     moaning and growling come from all directions.\n\r  All exits lead into shadows,
     you are very confused.\n\r"
-  room_flags: 8193
+  room_flags: AN
   sector: 3
   owner:
   exits:
@@ -5238,25 +5238,25 @@ rooms:
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1302
+    to_vnum: 1304
   - dir: 1
     desc: "The shadows cloud your vision.\n\r"
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1306
+    to_vnum: 1308
   - dir: 2
     desc: "The shadows cloud your vision.\n\r"
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1308
+    to_vnum: 1306
   - dir: 3
     desc: "The shadows cloud your vision.\n\r"
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1304
+    to_vnum: 1302
   extra_descs: []
 - vnum: 1306
   name: The Shadow Grove
@@ -5264,7 +5264,7 @@ rooms:
     all sides. The shadowy mist obscures most of your vision. Strange\n\rsounds of
     moaning and growling come from all directions.\n\r  All exits lead into shadows,
     you are very confused.\n\r"
-  room_flags: 8193
+  room_flags: AN
   sector: 3
   owner:
   exits:
@@ -5273,7 +5273,7 @@ rooms:
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1305
+    to_vnum: 1303
   - dir: 1
     desc: "You see a shadowy tavern.\n\r"
     keywords:
@@ -5285,76 +5285,6 @@ rooms:
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1309
-  - dir: 3
-    desc: "The shadows cloud your vision.\n\r"
-    keywords:
-    exit_flags: 0
-    key: -1
-    to_vnum: 1303
-  extra_descs: []
-- vnum: 1307
-  name: The Shadow Grove
-  description: "You are inside the shadow grove. Giant trees seem to glare at you\n\rfrom
-    all sides. The shadowy mist obscures most of your vision. Strange\n\rsounds of
-    moaning and growling come from all directions.\n\r  All exits lead into shadows,
-    you are very confused.\n\r"
-  room_flags: 8193
-  sector: 3
-  owner:
-  exits:
-  - dir: 0
-    desc: "The shadows cloud your vision.\n\r"
-    keywords:
-    exit_flags: 0
-    key: -1
-    to_vnum: 1308
-  - dir: 1
-    desc: "The shadows cloud your vision.\n\r"
-    keywords:
-    exit_flags: 0
-    key: -1
-    to_vnum: 1309
-  - dir: 2
-    desc: "The shadows cloud your vision.\n\r"
-    keywords:
-    exit_flags: 0
-    key: -1
-    to_vnum: 1304
-  - dir: 3
-    desc: "The shadows cloud your vision.\n\r"
-    keywords:
-    exit_flags: 0
-    key: -1
-    to_vnum: 1301
-  extra_descs: []
-- vnum: 1308
-  name: The Shadow Grove
-  description: "You are inside the shadow grove. Giant trees seem to glare at you\n\rfrom
-    all sides. The shadowy mist obscures most of your vision. Strange\n\rsounds of
-    moaning and growling come from all directions.\n\r  All exits lead into shadows,
-    you are very confused.\n\r"
-  room_flags: 8193
-  sector: 3
-  owner:
-  exits:
-  - dir: 0
-    desc: "The shadows cloud your vision.\n\r"
-    keywords:
-    exit_flags: 0
-    key: -1
-    to_vnum: 1300
-  - dir: 1
-    desc: "The shadows cloud your vision.\n\r"
-    keywords:
-    exit_flags: 0
-    key: -1
-    to_vnum: 1307
-  - dir: 2
-    desc: "The shadows cloud your vision.\n\r"
-    keywords:
-    exit_flags: 0
-    key: -1
     to_vnum: 1305
   - dir: 3
     desc: "The shadows cloud your vision.\n\r"
@@ -5363,13 +5293,83 @@ rooms:
     key: -1
     to_vnum: 1309
   extra_descs: []
+- vnum: 1307
+  name: The Shadow Grove
+  description: "You are inside the shadow grove. Giant trees seem to glare at you\n\rfrom
+    all sides. The shadowy mist obscures most of your vision. Strange\n\rsounds of
+    moaning and growling come from all directions.\n\r  All exits lead into shadows,
+    you are very confused.\n\r"
+  room_flags: AN
+  sector: 3
+  owner:
+  exits:
+  - dir: 0
+    desc: "The shadows cloud your vision.\n\r"
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 1304
+  - dir: 1
+    desc: "The shadows cloud your vision.\n\r"
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 1309
+  - dir: 2
+    desc: "The shadows cloud your vision.\n\r"
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 1301
+  - dir: 3
+    desc: "The shadows cloud your vision.\n\r"
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 1308
+  extra_descs: []
+- vnum: 1308
+  name: The Shadow Grove
+  description: "You are inside the shadow grove. Giant trees seem to glare at you\n\rfrom
+    all sides. The shadowy mist obscures most of your vision. Strange\n\rsounds of
+    moaning and growling come from all directions.\n\r  All exits lead into shadows,
+    you are very confused.\n\r"
+  room_flags: AN
+  sector: 3
+  owner:
+  exits:
+  - dir: 0
+    desc: "The shadows cloud your vision.\n\r"
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 1305
+  - dir: 1
+    desc: "The shadows cloud your vision.\n\r"
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 1307
+  - dir: 2
+    desc: "The shadows cloud your vision.\n\r"
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 1309
+  - dir: 3
+    desc: "The shadows cloud your vision.\n\r"
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 1300
+  extra_descs: []
 - vnum: 1309
   name: The Shadow Grove
   description: "You are inside the shadow grove. Giant trees seem to glare at you\n\rfrom
     all sides. The shadowy mist obscures most of your vision. Strange\n\rsounds of
     moaning and growling come from all directions.\n\r  All directions lead into shadows,
     you are very confused.\n\r"
-  room_flags: 8193
+  room_flags: AN
   sector: 3
   owner:
   exits:
@@ -5384,19 +5384,19 @@ rooms:
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1307
+    to_vnum: 1308
   - dir: 2
     desc: "The shadows cloud your vision.\n\r"
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1306
+    to_vnum: 1307
   - dir: 3
     desc: "The shadows cloud your vision.\n\r"
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 1308
+    to_vnum: 1306
   extra_descs: []
 - vnum: 1311
   name: A small clearing
@@ -5405,7 +5405,7 @@ rooms:
     life shuns this spot. The shadowy mist hovers all around, obscuring\n\ryour view
     into the grove.\n\r  A small path leads north to some shadowy structure. All other
     exits are\n\rshrouded in shadowy mist.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -5428,7 +5428,7 @@ rooms:
     looms above you at an incredible height. It seems to disappear\n\rinto the storm
     clouds above.\n\r  A diamond gate is to the north, guarded by a huge golem. The
     trail\n\rback south has disappeared behind you.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5446,7 +5446,7 @@ rooms:
     it is on the outside. Young mages walk about, completely\n\roblivious to your
     presence.\n\r  Exits lead north to the common room, west to the dinning room,
     east to\n\ra plain hallway and back south through the gate.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5482,7 +5482,7 @@ rooms:
     from their rigorous studies. There are benches,\n\rtables and a small water fountain
     here, otherwise the room is quite\n\runremarkable.\n\r  Exits lead off in all
     directions.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5515,7 +5515,7 @@ rooms:
   name: The Hallway
   description: "You are in a long hallway, it seems rather unremarkable.\n\r  The
     hallway continues east and back west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5538,7 +5538,7 @@ rooms:
     and chairs here, you can see that this room could easily seat\n\rseveral hundred
     people. It is oddly deserted here, obviously not meal time.\n\r  Exits lead west
     to the kitchen, and back east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5551,7 +5551,7 @@ rooms:
   - dir: 3
     desc:
     keywords: door wooden
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1320
   extra_descs: []
@@ -5560,7 +5560,7 @@ rooms:
   description: "You are in a dark hallway. It is apparent that this area is seldom\n\rused
     by the regular occupants of the tower. Dust covers the floors\n\rhere.\n\r  The
     faint outline of a trapdoor can be seen in the dust.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -5573,7 +5573,7 @@ rooms:
   - dir: 5
     desc:
     keywords: trapdoor
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1321
   extra_descs: []
@@ -5583,7 +5583,7 @@ rooms:
     foreign food and drink. The other patrons pay you little heed, as\n\rthey obviously
     have more interesting things to contemplate. Strick the\n\rbartender is here waiting
     to take your order.\n\r  The only exit leads back west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5599,7 +5599,7 @@ rooms:
   description: "You are in the High Tower's store of magic. Tatorious stands behind\n\rthe
     counter, selling all sorts of herbs, parchment and other reagents\n\rused in magical
     studies.\n\r  The only exit leads back east to the common room.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5618,14 +5618,14 @@ rooms:
     equally enormous meat locker, large enough to\n\rcomfortably store several hapless
     adventurers no doubt. In the middle of\n\rthe room, hanging in mid-air is a spice
     rack.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: door wooden
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1316
   extra_descs: []
@@ -5634,14 +5634,14 @@ rooms:
   description: "You are below the trapdoor. It is very dark and dusty here, very little\n\rlight
     filters through from above. A faint sound of dripping water can be\n\rheard in
     the distance below.\n\r  A rope ladder leads down.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 4
     desc:
     keywords: trapdoor
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1317
   - dir: 5
@@ -5657,7 +5657,7 @@ rooms:
     the\n\rtower. The sound of running water can be heard coming from the south,\n\rother
     than that, an almost tangible stillness fills the air.\n\r  Passages lead off
     in all directions, and a ladder leads up.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -5696,14 +5696,14 @@ rooms:
   name: A dark passage
   description: "You are at the end of a dark passage which ends in a stout wooden
     door.\n\rOther then through the door, the only apparent exit is back the way you\n\rcame.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: oak door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 1323
     to_vnum: 1327
   - dir: 2
@@ -5718,14 +5718,14 @@ rooms:
   description: "You are at the end of a dark passage. A half opened door is to the
     east,\n\rshedding soft light around the edges. Faint snoring sounds can be heard\n\rbehind
     the door.\n\r  Exits lead east through the door, or back west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: door
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 1328
   - dir: 3
@@ -5741,7 +5741,7 @@ rooms:
     quite\n\rnauseating. This is apparently where the denizens of the tower dispose
     of\n\rtheir garbage. Faint gurgling can be heard from beneath the surface of the\n\rpool.\n\r
     \ Exits lead back north, or perhaps for the very adventurous, down into the\n\rpool.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -5763,7 +5763,7 @@ rooms:
   description: "You are in a dark passage, which comes to an abrupt stop at what appears\n\rto
     be a cave-in to the west. It is certainly unpassable, and perhaps quite\n\rdangerous
     just being this close.\n\r  The only exit leads back east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -5779,14 +5779,14 @@ rooms:
   description: "You are in a dark cell. Straw and dirt cover the floors here, it is\n\rvery
     dark. Someone, or something seems to be chained to the far wall.\n\r  The only
     exit is back south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: oak door
-    exit_flags: 15
+    exit_flags: ABCD
     key: -1
     to_vnum: 1323
   extra_descs: []
@@ -5796,14 +5796,14 @@ rooms:
     the\n\rsleeping form of the Jailor on duty, you can surmise that very few, if
     any\n\rprisoners survive long enough to spend much time in these dank dungeons.\n\r
     \ The only exit leads back west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 3
     desc:
     keywords: door
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 1324
   extra_descs: []
@@ -5813,7 +5813,7 @@ rooms:
     whirlpool\n\rdrags you under.  You are sucked into blackness.  You feel your lungs
     burst\n\rfrom lack of oxygen.  Just as you feel your life fading, you notice a
     change in\n\rdirection ... and are sucked under by a rip tide.\n\r"
-  room_flags: 13
+  room_flags: ACD
   sector: 0
   owner:
   exits: []
@@ -5822,14 +5822,14 @@ rooms:
   name: The hallway
   description: "You are in a long hallway leading east and west. The walls emit a
     faint\n\rmagical glow which provides enough light to see by.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door wooden
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 1332
   - dir: 1
@@ -5841,7 +5841,7 @@ rooms:
   - dir: 2
     desc:
     keywords: door wooden
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 1333
   - dir: 3
@@ -5855,26 +5855,26 @@ rooms:
   name: A bend in the hallway
   description: "You are at a bend in the hallway. The walls emit a faint magical glow\n\rwhich
     provides enough light to see by.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door wooden
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1334
   - dir: 1
     desc:
     keywords: door wooden
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1336
   - dir: 2
     desc:
     keywords: door wooden
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1335
   - dir: 3
@@ -5888,14 +5888,14 @@ rooms:
   name: A store room
   description: "You are in a small store room. Assorted junk is piled on shelves or\n\rleaning
     against walls.\n\r  The only apparent exit it back south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: door wooden
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 1330
   extra_descs: []
@@ -5904,14 +5904,14 @@ rooms:
   description: "You are in a dark broom closet. Many straw brooms and other cleaning\n\rinstruments
     have been left here, apparently unused (perhaps the maid quit?).\n\r  The only
     exit leads back north to the hallway.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door wooden
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 1330
   extra_descs: []
@@ -5919,7 +5919,7 @@ rooms:
   name: A hallway
   description: "You are in a long hallway leading north and south. The walls emit
     a\n\rfaint magical glow which provides enough light to see by.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5932,13 +5932,13 @@ rooms:
   - dir: 1
     desc:
     keywords: door wooden
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1337
   - dir: 2
     desc:
     keywords: door wooden
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1331
   extra_descs:
@@ -5949,14 +5949,14 @@ rooms:
   description: "You are in the chamber of the tower guardians. It is rather sparsely\n\rfurnished,
     but then again the odd occupants don't look to need furniture.\n\rHere and there
     a disembodied pair of hands or eyes flits about.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door wooden
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1331
   extra_descs: []
@@ -5965,14 +5965,14 @@ rooms:
   description: "You are in a small guest bedroom. A small cot is in one corner, and
     a\n\rdusty mirror on one wall, other than that the room looks quite bare, and\n\runused.\n\r
     \ The only apparent exit leads back west to the hallway.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 3
     desc:
     keywords: door wooden
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1331
   extra_descs:
@@ -5984,14 +5984,14 @@ rooms:
     energy\n\rfloats overhead, providing light. A small cot is in one corner looking\n\rever
     so comfortable, so comfortable in fact ...someone is sleeping in it.\n\r  The
     only apparent exit leads back west to the hallway.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 3
     desc:
     keywords: door wooden
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1334
   extra_descs: []
@@ -6000,14 +6000,14 @@ rooms:
   description: "You are in a long hallway leading from the south. The walls emit a
     faint\n\rmagical glow which provides enough light to see by.\n\r  Stairs lead
     up to the next level and the hallway leads back south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: door wooden
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1339
   - dir: 2
@@ -6029,14 +6029,14 @@ rooms:
     are\n\rblackened and burnt by what you could only imagine to be magical fire.\n\rThere
     is no sign of the previous occupant, undoubtedly he left in a hurry.\n\r  The
     only exit leads back west to the hallway.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 3
     desc:
     keywords: door charred
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1338
   extra_descs: []
@@ -6046,14 +6046,14 @@ rooms:
     faint\n\rmagical glow which provides enough light to see by. Some faint moonlight\n\rcan
     be seen in the culdesac to the east.\n\r  The hallway continues west and stairs
     lead down to the level below.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door oak
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1342
   - dir: 1
@@ -6080,7 +6080,7 @@ rooms:
   description: "You are in a small culdesac. A window to the east is letting in moonlight\n\rand
     a pleasant breeze. Through it, the surrounding country side can be seen.\n\r  The
     only apparent exit leads back west to the hallway.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6100,14 +6100,14 @@ rooms:
   description: "You are in the barracks of the apprentice magic users. Here and there,
     a\n\ryoung apprentice sits engrossed in magical study, or practicing a feeble\n\rcantrip.
     Cots line the walls, and the room continues west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: door oak
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1340
   - dir: 3
@@ -6122,14 +6122,14 @@ rooms:
   description: "You are in a long hallway leading east and west. The walls emit a
     faint\n\rmagical glow which provides enough light to see by.\n\r  There is a door
     to the north, and the hallway continues west or back east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door oak
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1344
   - dir: 1
@@ -6150,7 +6150,7 @@ rooms:
   description: "You are in the barracks of the apprentice magic users. Here and there,
     a\n\ryoung apprentice sits engrossed in magical study, or practicing a feeble\n\rcantrip.
     Cots line the walls, and the room continues east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6163,7 +6163,7 @@ rooms:
   - dir: 2
     desc:
     keywords: door oak
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1343
   extra_descs: []
@@ -6172,14 +6172,14 @@ rooms:
   description: "You are in a long hallway leading east and west. The walls emit a
     faint\n\rmagical glow which provides enough light to see by. Flashes of light
     can\n\rbe seen under the doorway to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc: "A flash of blue light momentarily lights up the doors outline\n\r"
     keywords: door oak
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1346
   - dir: 1
@@ -6201,14 +6201,14 @@ rooms:
     strewn\n\rabout on a few worktables. In the far corner several young mages have
     a\n\rsmall kitten cornered and seem to be testing spells upon it.\n\r  The only
     apparent exit leads back south to the hallway.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: door oak
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1345
   extra_descs: []
@@ -6216,7 +6216,7 @@ rooms:
   name: A bend in the hallway
   description: "You are at a bend in the hallway. The walls emit a faint magical glow\n\rwhich
     provides enough light to see by.\n\r  The hallway continues south and back east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6238,7 +6238,7 @@ rooms:
   description: "You are in a long hallway leading north and south. The walls emit
     a faint\n\rmagical glow which provides enough light to see by.\n\r  There is a
     closed metal door to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6257,7 +6257,7 @@ rooms:
   - dir: 3
     desc:
     keywords: door metal
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1349
   extra_descs: []
@@ -6267,14 +6267,14 @@ rooms:
     the\n\rart. The instructor stops in his lecture on the fine uses of magic missile\n\rat
     your entry and lunges to attack you.\n\r  The only apparent exit is back east
     to the hallway.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: door metal
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1348
   extra_descs: []
@@ -6282,7 +6282,7 @@ rooms:
   name: A hallway
   description: "You are in a long hallway leading north and south. The walls emit
     a faint\n\rmagical glow which provides enough light to see by.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6301,7 +6301,7 @@ rooms:
   - dir: 3
     desc:
     keywords: door metal
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1352
   extra_descs: []
@@ -6309,7 +6309,7 @@ rooms:
   name: A hallway
   description: "You are in a long hallway leading north and south. The walls emit
     a faint\n\rmagical glow which provides enough light to see by.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6328,7 +6328,7 @@ rooms:
   - dir: 3
     desc:
     keywords: door metal
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1354
   extra_descs: []
@@ -6337,14 +6337,14 @@ rooms:
   description: "You are in an empty classroom. Some strange sigils are written on
     a\n\rblackboard which is floating in the air here. Other than a few desks,\n\rit
     is bare of furnishings.\n\r  The only apparent exit leads back east to the hallway.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: door metal
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1350
   extra_descs: []
@@ -6352,7 +6352,7 @@ rooms:
   name: A bend in the hallway
   description: "You are at a bend in the hallway. The walls emit a faint magical glow\n\rwhich
     provides enough light to see by.\n\r  The hallway continues east and north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6374,14 +6374,14 @@ rooms:
   description: "You are in an apparently empty classroom. A strange feeling of being\n\rwatched
     comes over you, and you hear the faint rustle of robes.\n\r  The only apparent
     exit is back east to the hallway.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: door metal
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1351
   extra_descs: []
@@ -6390,7 +6390,7 @@ rooms:
   description: "You are in a long hallway leading east and west. The walls emit a
     faint\n\rmagical glow which provides enough light to see by.\n\r  A sturdy iron
     door can be seen to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6403,7 +6403,7 @@ rooms:
   - dir: 2
     desc:
     keywords: door sturdy iron
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1357
   - dir: 3
@@ -6418,7 +6418,7 @@ rooms:
   description: "You are in a long hallway leading east and west. The walls emit a
     faint\n\rmagical glow which provides enough light to see by.\n\r  There is a large
     oaken door to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6431,7 +6431,7 @@ rooms:
   - dir: 2
     desc:
     keywords: door large oaken
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1359
   - dir: 3
@@ -6446,14 +6446,14 @@ rooms:
   description: "You are in a small amphitheater. Rows of comfortable looking chairs
     circle\n\ra large podium. The echos of your footsteps seem very loud here.\n\r
     \ The only apparent exit leads north to the hallway.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door sturdy iron
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1355
   extra_descs: []
@@ -6462,7 +6462,7 @@ rooms:
   description: "You are in a long hallway leading east and west. The walls emit a
     faint\n\rmagical glow providing enough light to see by.\n\r  A small door can
     be seen to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6475,7 +6475,7 @@ rooms:
   - dir: 2
     desc:
     keywords: door small
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1361
   - dir: 3
@@ -6489,14 +6489,14 @@ rooms:
   name: The training room
   description: "You are in a large training room. It is filled with battle scared
     manikins\n\r, and many other devices used in the practice of fighting.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1356
   extra_descs: []
@@ -6504,7 +6504,7 @@ rooms:
   name: A bend in the hallway
   description: "You are at a bend in the hallway. The walls emit a faint magical glow\n\rwhich
     provides enough light to see by.\n\r  The hallway continues north and west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6526,14 +6526,14 @@ rooms:
   description: "You are in a large room used for duals arcane. The walls, ceiling
     and\n\rfloor all bare the scars of many fiery spells, but still look quite strong\n\rand
     hold fast.\n\r  The only exit leads north to the hallway.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door small
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1358
   extra_descs: []
@@ -6542,7 +6542,7 @@ rooms:
   description: "You are in a long hallway leading north and south. The walls emit
     a faint\n\rmagical glow which provides enough light to see by.\n\r  A doorway
     can be seen to the east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6555,7 +6555,7 @@ rooms:
   - dir: 1
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1364
   - dir: 2
@@ -6570,7 +6570,7 @@ rooms:
   description: "You are in a long hallway leading north and south. The walls emit
     a faint\n\rmagical glow which provides enough light to see by.\n\r  A wooden door
     can been seen to the east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6583,7 +6583,7 @@ rooms:
   - dir: 1
     desc:
     keywords: door wooden
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1365
   - dir: 2
@@ -6598,14 +6598,14 @@ rooms:
   description: "You are in a large comfortable looking lounge. Off duty spell teachers\n\rare
     here relaxing in their idle time. A large coffee machine is against\n\rthe far
     wall.\n\r  The only apparent exit leads back west to the hallway.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 3
     desc:
     keywords: door wooden
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1362
   extra_descs: []
@@ -6616,14 +6616,14 @@ rooms:
     and\n\ra scrying globe sit on a stand in the middle of the room. An enormous bed\n\rcan
     be seen floating about a meter above the floor.\n\r  The only exit leads back
     west to the hallway.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 3
     desc:
     keywords: door wooden
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1363
   extra_descs: []
@@ -6632,7 +6632,7 @@ rooms:
   description: "You are in a long hallway leading north and south. The walls emit
     a faint\n\rmagical glow providing enough light to see by.\n\r  A glass door can
     be seen to the east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6645,7 +6645,7 @@ rooms:
   - dir: 1
     desc:
     keywords: door glass
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1367
   - dir: 2
@@ -6661,14 +6661,14 @@ rooms:
     on the\n\rwalls, A huge table sits in the middle of the room, with maps weighted\n\rdown
     upon it. The only light source here comes from an interestingly non-\n\rmagical
     oil lamp.\n\r  The only apparent exit leads back west to the hallway.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 3
     desc:
     keywords: door glass
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1366
   extra_descs: []
@@ -6678,7 +6678,7 @@ rooms:
     glow\n\rwhich provides enough light to see by. A lesser guardian is here keeping\n\rsilent
     watch on the entrance to the levels above.\n\r  Stairs lead up and the hallway
     continues back south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6702,7 +6702,7 @@ rooms:
     those of the upper echelon of mages. The walls here emit a faint blue\n\rmagical
     aura which provides some light.\n\r  The hallway leads west from here and the
     stairs go down.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6724,14 +6724,14 @@ rooms:
   description: "You are in a long hallway stretching east and west. The walls here
     emit\n\ra faint magical energy providing enough light to see by.\n\r  There is
     a thick looking wooden door to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door wooden
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1371
   - dir: 1
@@ -6753,20 +6753,20 @@ rooms:
     quills, inkpots and parchments all about on desks and worktables.\n\rA section
     to the west seems to be curtained off, but the flicker of a\n\rcandle can be seen
     through the curtain.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: door wooden
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1370
   - dir: 3
     desc:
     keywords: curtain
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1373
   extra_descs: []
@@ -6774,7 +6774,7 @@ rooms:
   name: A hallway
   description: "You are in a long hallway leading east and west. The walls emit a
     faint\n\rmagical glow which provides enough light to see by.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6797,14 +6797,14 @@ rooms:
     lay on the writing table in the center of the room. A giant candle\n\rflickering
     with soft blue flames provides the only light here.\n\r  The only apparent exit
     is the way you came in.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: curtain
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1371
   extra_descs: []
@@ -6813,14 +6813,14 @@ rooms:
   description: "You are in a long hallway leading east and west. The walls emit a
     faint\n\rmagical glow which provides enough light to see by.\n\r  A half closed
     door can be seen to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc: "A dark room can be seen through the half opened door\n\r"
     keywords: door wooden
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1375
   - dir: 1
@@ -6840,14 +6840,14 @@ rooms:
   name: A store room
   description: "You are in a small dark store room. A few common items are stacked
     upon\n\rthe shelves here, but very little looks interesting.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: door wooden
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1374
   extra_descs: []
@@ -6856,7 +6856,7 @@ rooms:
   description: "You are at a bend in the long hallway. The walls emit a faint magical\n\rglow
     which provides enough light to see by.\n\r  The hallway continues south and east
     from here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6878,7 +6878,7 @@ rooms:
   description: "You are in a long hallway leading north and south. The walls emit
     a faint\n\rmagical glow which provides enough light to see by.\n\r  An iron bound
     door can be seen to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6897,7 +6897,7 @@ rooms:
   - dir: 3
     desc:
     keywords: door iron
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1379
   extra_descs: []
@@ -6906,7 +6906,7 @@ rooms:
   description: "You are in a long hallway leading north and south. The walls emit
     a faint\n\rmagical glow which provides enough light to see by.\n\r  The sharp
     sound of metal on metal can be heard to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6925,7 +6925,7 @@ rooms:
   - dir: 3
     desc:
     keywords: door iron
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1381
   extra_descs: []
@@ -6935,14 +6935,14 @@ rooms:
     are here along with many neatly stacked piles of precious metals.\n\rA large cabinet
     with sigils of warding is bolted to one wall.\n\r  The ring of metal on metal
     can be heard to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: door iron
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1377
   - dir: 2
@@ -6956,7 +6956,7 @@ rooms:
   name: A hallway
   description: "You are in a long hallway leading north and south. The walls emit
     a faint\n\rmagical glow which provides enough light to see by.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6980,32 +6980,32 @@ rooms:
     mithril anvil is in the center of the room, looking well\n\rused. Other tools
     of metallurgy hang on a rack which floats about three\n\rmeters in the air of
     its own force.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 1379
   - dir: 1
     desc:
     keywords: door iron
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1378
   - dir: 2
     desc:
     keywords: 'door '
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1382
   - dir: 4
     desc:
     keywords: vent
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1412
   extra_descs: []
@@ -7014,14 +7014,14 @@ rooms:
   description: "You have entered the master enchanter's chamber. Upon all the walls
     here\n\rare racks of finely crafted weapons. A huge chest with a glowing lock
     is\n\rset to one side. Several unfinished looking blades rest atop a small work\n\rtable.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1381
   extra_descs: []
@@ -7030,7 +7030,7 @@ rooms:
   description: "You are at a bend in a long hallway. The walls emit a faint magical
     glow\n\rwhich provides enough light to see by.\n\r  The hallway continues north
     and east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7052,7 +7052,7 @@ rooms:
   description: "You are in a long hallway leading east and west. The walls emit a
     faint\n\rmagical glow which provides enough light to see by.\n\r  A steel door
     can be seen to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7065,7 +7065,7 @@ rooms:
   - dir: 2
     desc:
     keywords: door steel
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1386
   - dir: 3
@@ -7079,7 +7079,7 @@ rooms:
   name: A hallway
   description: "You are in a long hallway leading east and west. The walls emit a
     faint\n\rmagical glow which provides enough light to see by.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7102,14 +7102,14 @@ rooms:
     some scrawled notes are piled about a workbench. This room is very\n\runtidy,
     looking almost abandoned, or used by a madman.\n\r  The only apparent exits are
     east and north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door steel
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1384
   - dir: 1
@@ -7124,7 +7124,7 @@ rooms:
   description: "You are in a long hallway leading east and west. The walls emit a
     faint\n\rmagical glow which provides enough light to see by.\n\r  You can see
     a steel door to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7137,7 +7137,7 @@ rooms:
   - dir: 2
     desc:
     keywords: door steel
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1390
   - dir: 3
@@ -7153,7 +7153,7 @@ rooms:
     tubes and scores of oddly shaped vials and bottles are everywhere.\n\rIt is incredibly
     messy here, crushed glass and other trash litter the floor.\n\r  The only apparent
     exit is the one you entered by.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7169,7 +7169,7 @@ rooms:
   description: "You are at a bend in a long hallway. The walls emit a faint magical
     glow\n\rwhich provides enough light to see by.\n\r  The hallway continues north
     and west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7190,14 +7190,14 @@ rooms:
   name: The pentagram chamber
   description: "You are in a large room with a five pointed star etched into the floor.\n\rA
     crackling energy field can be seen to the south, it looks quite dangerous.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door steel
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1387
   - dir: 2
@@ -7212,7 +7212,7 @@ rooms:
   description: "You are in a long hallway leading north and south. The walls emit
     a faint\n\rmagical glow which provides enough light to see by.\n\r  A bronze door
     can be seen to the east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7225,7 +7225,7 @@ rooms:
   - dir: 1
     desc:
     keywords: door bronze
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1394
   - dir: 2
@@ -7240,7 +7240,7 @@ rooms:
   description: "You feel a stomach twisting sensation as you enter the energy field.\n\rNice
     going!  You might as well wait here until the wizard who built this\n\rtrap comes
     back to imprison your soul as well as your body.\n\r"
-  room_flags: 8200
+  room_flags: DN
   sector: 0
   owner:
   exits:
@@ -7249,20 +7249,20 @@ rooms:
     keywords:
     exit_flags: 0
     key: 0
-    to_vnum: 938
-  - dir: 1
-    desc:
-    keywords:
-    exit_flags: 0
-    key: 0
     to_vnum: 3460
-  - dir: 2
+  - dir: 1
     desc:
     keywords:
     exit_flags: 0
     key: 0
     to_vnum: 7428
   - dir: 3
+    desc:
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 938
+  - dir: 4
     desc:
     keywords:
     exit_flags: 0
@@ -7280,7 +7280,7 @@ rooms:
   description: "You are in a long hallway leading north and south. The walls emit
     a faint\n\rmagical glow which provides enough light to see by.\n\r  A bronze door
     can be seen to the east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7293,7 +7293,7 @@ rooms:
   - dir: 1
     desc:
     keywords: door bronze
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1395
   - dir: 2
@@ -7307,14 +7307,14 @@ rooms:
   name: An empty room
   description: "You are in an empty room. It is both quiet and comfortable here, it
     looks\n\rlike a safe place to rest.\n\r"
-  room_flags: 12
+  room_flags: CD
   sector: 0
   owner:
   exits:
   - dir: 3
     desc:
     keywords: door bronze
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1391
   extra_descs: []
@@ -7323,20 +7323,20 @@ rooms:
   description: "You are in the chambers of the tower's master of charm. Some straw
     and\n\rdirt litters the floor here, it looks to have been recently used by wild\n\ranimals.\n\r
     \ Strange sounds can be heard through the bars to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: cage bars
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1397
   - dir: 3
     desc:
     keywords: door bronze
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 1393
   extra_descs: []
@@ -7344,7 +7344,7 @@ rooms:
   name: A hallway
   description: "You are in a long hallway leading north and south. The walls emit
     a faint\n\rmagical glow which provides enough light to see by.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7365,14 +7365,14 @@ rooms:
   name: The animal pens
   description: "You are in the animal pens. Many caged animals are here looking unhappy.\n\rObviously
     they are destined to be enslaved, or used in some cruel magical\n\rexperimentation.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: cage bars
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1395
   extra_descs: []
@@ -7381,7 +7381,7 @@ rooms:
   description: "You are at the end of a long north-south hallway. The walls emit a
     faint\n\rmagical glow which provides enough light to see by.\n\r  Stairs here
     lead up to the next level, and the hallway continues south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7403,7 +7403,7 @@ rooms:
   description: "You are atop the stairway to the upper levels of the high tower. The
     walls\n\remit a faint magical glow which provides enough light to see by.\n\r
     \ A hallway leads west from here, and the stairs lead down.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7425,14 +7425,14 @@ rooms:
   description: "You are in a long hallway leading east and west. The walls emit a
     faint\n\rmagical glow which provides enough light to see by.\n\r  A silver door
     can be seen to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door silver
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1401
   - dir: 1
@@ -7453,20 +7453,20 @@ rooms:
   description: "You are in a large store room. Raw materials are neatly bundled and
     piled\n\rhere and here. Many freshly cut staves rods and wands of different sizes\n\rare
     here.\n\r  You can see a silver door to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: door silver
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1400
   - dir: 3
     desc:
     keywords: door silver
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1402
   extra_descs: []
@@ -7476,20 +7476,20 @@ rooms:
     of similar nature, this one is without furnishings or tools. The\n\rspell binder
     obviously needs none for the working of his art.\n\r  A silver door can be seen
     to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: door silver
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1401
   - dir: 3
     desc:
     keywords: door silver
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1403
   extra_descs: []
@@ -7498,20 +7498,20 @@ rooms:
   description: "You have discovered the cache of the master spell binder. There are
     three\n\rvery large silver chased cabinets here, other than that, the room is
     bare.\n\r  A silver door can be seen to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: door silver
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1402
   - dir: 2
     desc:
     keywords: door silver
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1405
   extra_descs: []
@@ -7519,7 +7519,7 @@ rooms:
   name: A hallway
   description: "You are in a long hallway leading east and west. The walls emit a
     faint\n\rmagical glow which provides enough light to see by.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7541,14 +7541,14 @@ rooms:
   description: "You are in a long hallway leading east and west. The walls emit a
     faint\n\rmagical glow which provides enough light to see by.\n\r  A silver door
     can be seen to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door silver
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1403
   - dir: 1
@@ -7568,7 +7568,7 @@ rooms:
   name: A bend in the hallway
   description: "You are at a bend in the long hallway. The walls emit a faint magical\n\rglow
     which provides enough light to see by.\n\r  The hallway continues east and south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7589,7 +7589,7 @@ rooms:
   name: A hallway
   description: "You are in a long hallway leading north and south. The walls emit
     a faint\n\rmagical glow which provides enough light to see by.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7611,7 +7611,7 @@ rooms:
   description: "You are in a long hallway leading north and south. The walls emit
     a faint\n\rmagical glow which provides enough light to see by.\n\r  A rusty old
     door can be seen to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7630,7 +7630,7 @@ rooms:
   - dir: 3
     desc:
     keywords: door rusty
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1409
   extra_descs: []
@@ -7639,7 +7639,7 @@ rooms:
   description: "You are in the golem master's workshop. A few unfinished looking humanoid\n\rforms
     of different make are here, some moving, some not. The animated forms\n\rlunge
     to attack you.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7652,7 +7652,7 @@ rooms:
   - dir: 1
     desc:
     keywords: door rusty
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1408
   - dir: 2
@@ -7664,7 +7664,7 @@ rooms:
   - dir: 5
     desc:
     keywords: trapdoor
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1412
   extra_descs: []
@@ -7672,7 +7672,7 @@ rooms:
   name: A store room
   description: "You are in a small store room. Large chunks of clay, stone, wood and
     many\n\rother raw materials are here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7688,7 +7688,7 @@ rooms:
   description: "You are in the golem chamber. Golems made of every imaginable material\n\rare
     here, ranging in size from a hand-span to nearly the ceiling. They all\n\rseem
     to be sleeping.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7702,20 +7702,20 @@ rooms:
 - vnum: 1412
   name: It is very dark here...
   description: "It is very dark here...\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 4
     desc:
     keywords: trapdoor
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1409
   - dir: 5
     desc:
     keywords: vent
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1381
   extra_descs: []
@@ -7723,7 +7723,7 @@ rooms:
   name: A hallway
   description: "You are in a long hallway leading north and south. The walls emit
     a faint\n\rmagical glow which provides enough light to see by.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7745,7 +7745,7 @@ rooms:
   description: "You are at a bend in the long hallway. The walls emit a faint magical\n\rglow
     which provides enough light to see by.\n\r  The hallway continues north and east
     from here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7766,7 +7766,7 @@ rooms:
   name: A hallway
   description: "You are in a long hallway leading east and west. The walls emit a
     faint\n\rmagical glow which provides enough light to see by.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7788,7 +7788,7 @@ rooms:
   description: "You are in a long hallway leading east and west. The walls emit a
     faint\n\rmagical glow which provides enough light to see by.\n\r  An emerald door
     can be seen to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7801,7 +7801,7 @@ rooms:
   - dir: 2
     desc:
     keywords: door emerald
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1417
   - dir: 3
@@ -7817,14 +7817,14 @@ rooms:
     are\n\revery changing in color and texture, as if they were reforming before your\n\rvery
     eyes. Many splendorous treasures lie all around in heaps and piles, or\n\rat least
     they seem to be treasures...\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door emerald
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1416
   - dir: 3
@@ -7839,7 +7839,7 @@ rooms:
   description: "You are in the bedroom of the master of illusions. Strange looking
     items\n\rand artifacts float here and there in the air. The ripples of strong
     magic\n\rcan be felt everywhere.\n\r  The room seems much larger than it looks...\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7855,7 +7855,7 @@ rooms:
   description: "You are in a long hallway leading east and west. The walls emit a
     faint\n\rmagical glow which provides enough light to see by.\n\r  A glass door
     can be seen to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7868,7 +7868,7 @@ rooms:
   - dir: 2
     desc:
     keywords: door glass
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1420
   - dir: 3
@@ -7882,14 +7882,14 @@ rooms:
   name: The meditation chamber
   description: "You are in a meditation chamber. It is very silent here, in fact you\n\rcan
     not even hear your own footsteps.\n\r  You feel very peaceful.\n\r"
-  room_flags: 524
+  room_flags: CDJ
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door glass
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1419
   extra_descs: []
@@ -7898,7 +7898,7 @@ rooms:
   description: "You are at a bend in the long hallway. The walls emit a faint magical\n\rglow
     which provides enough light to see by.\n\r  The hallway continues north and west
     from here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7920,7 +7920,7 @@ rooms:
   description: "You are in a long hallway leading north and south. The walls emit
     a faint\n\rmagical glow which provides enough light to see by.\n\r  A blackened
     door can be seen to the east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -7933,7 +7933,7 @@ rooms:
   - dir: 1
     desc:
     keywords: door black
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1423
   - dir: 2
@@ -7948,7 +7948,7 @@ rooms:
   description: "You are in a large dark room. The air here seems quite stale, and
     a sense\n\rof extreme dread comes over you. The stench of rotten flesh seems to
     be\n\rwafting in from the open doorway to the north.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -7961,7 +7961,7 @@ rooms:
   - dir: 3
     desc:
     keywords: door black
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1422
   extra_descs: []
@@ -7971,7 +7971,7 @@ rooms:
     are body parts and half rotted corpses strewn about with complete\n\rabandon.
     Several operating tables with still forms that resemble nothing\n\ryou've ever
     seen alive are here.\n\r  Tortured screams can be heard from the north.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -7994,7 +7994,7 @@ rooms:
     types,\n\rhuman and otherwise stand here waiting to do their master's bidding.
     Some\n\rglowing arcane sigils have been etched into walls and floor, no doubt
     to\n\rprotect the evil master from his own ungodly creations.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -8009,7 +8009,7 @@ rooms:
   name: A hallway
   description: "You are in a long hallway leading north and south. The walls emit
     a faint\n\rmagical glow which provides enough light to see by.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8030,7 +8030,7 @@ rooms:
   name: A hallway
   description: "You are in a long hallway leading north and south. The walls emit
     a faint\n\rmagical glow which provides enough light to see by.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8052,7 +8052,7 @@ rooms:
   description: "You are at the end of a long hallway. The walls here glow with a faint\n\rmagical
     energy which provides plenty of light.\n\r  Stairs lead up to the next level here
     and the hallway continues south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8075,7 +8075,7 @@ rooms:
     with\n\rancient runes of power stretch out before you. Magical energies seem to\n\rcrackle
     with power all around and whisper in tongues long forgotten, almost\n\ras if the
     corridor it self were alive.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8098,7 +8098,7 @@ rooms:
     power stretch out before you. Magical energies seem to crackle with\n\rpower all
     around and whisper in tongues long forgotten, almost as if the\n\rcorridor itself
     were alive.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8121,7 +8121,7 @@ rooms:
     runes of power stretch out before you. Magical energies seem to\n\rcrackle with
     power all around and whisper in tongues long forgotten, almost\n\ras if the corridor
     itself were alive.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8144,7 +8144,7 @@ rooms:
     with ancient runes of power stretch out before you. Magical\n\renergies seem to
     crackle with power all around and whisper in tongues\n\rlong forgotten, almost
     as if the corridor itself were alive.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8165,7 +8165,7 @@ rooms:
   name: An intersection
   description: "You are at an intersection in the corridor. The obsidian walled halls\n\rlead
     off in every direction from here, pulsing with the power of their\n\rancient runes.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8199,14 +8199,14 @@ rooms:
   description: "You are at the end of a long corridor. Obsidian walls engraved with\n\rancient
     runes of power stretch out before you. A darkened door is to the\n\reast. Tendrils
     of mist cling to the floor here, they seem to be seeping\n\rfrom under the door.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: door black
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1435
   - dir: 3
@@ -8224,14 +8224,14 @@ rooms:
     \ A huge black cauldron is in the center of the room, bubbling and gurgling,\n\rit
     pours forth a constant stream of smokey fog into the air about you. Here\n\rand
     there on stands of different sizes are crystal balls and oddly shaped\n\rmirrors.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 3
     desc:
     keywords: door black
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1434
   extra_descs: []
@@ -8240,7 +8240,7 @@ rooms:
   description: "You have reached an end in the long corridor. Obsidian walls engraved\n\rwith
     ancient runes of power stretch out before you. The sound of snoring\n\rcan barely
     be heard through the door to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8253,7 +8253,7 @@ rooms:
   - dir: 3
     desc:
     keywords: door wooden
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 1437
   extra_descs: []
@@ -8262,7 +8262,7 @@ rooms:
   description: "You are in the entrance to the great library of magic. A giant desk
     is\n\rhere, covered with books parchments and scrolls. Long shelves loaded with\n\rrow
     upon row of books stretch out in every direction as far as the eye can\n\rsee.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8298,7 +8298,7 @@ rooms:
     tomes and scrolls of every possible shape size and color. The elusive\n\rbooks
     seem to wink in and out of existence before your untrained eyes.\n\r  It is very
     quiet here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8334,7 +8334,7 @@ rooms:
     tomes and scrolls of every possible shape size and color. The elusive\n\rbooks
     seem to wink in and out of existence before your untrained eyes.\n\r  It is very
     quiet here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8370,7 +8370,7 @@ rooms:
     tomes and scrolls of every possible shape size and color. The elusive\n\rbooks
     seem to wink in and out of existence before your untrained eyes.\n\r  It is very
     quiet here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8406,7 +8406,7 @@ rooms:
     tomes and scrolls of every possible shape size and color. The elusive\n\rbooks
     seem to wink in and out of existence before your untrained eyes.\n\r  It is very
     quiet here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8442,7 +8442,7 @@ rooms:
     tomes and scrolls of every possible shape size and color. The elusive\n\rbooks
     seem to wink in and out of existence before your untrained eyes.\n\r  It is very
     quiet here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8478,7 +8478,7 @@ rooms:
     tomes and scrolls of every possible shape size and color. The elusive\n\rbooks
     seem to wink in and out of existence before your untrained eyes.\n\r  It is very
     quiet here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8501,7 +8501,7 @@ rooms:
     here, you can barely maneuver between them. The musty smell is still\n\rstrong,
     and the elusive books still hover just out of reach.\n\r  A faint flicker of light
     can barely be made out to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8525,7 +8525,7 @@ rooms:
     looks\n\rboth heavy and ancient. Its jewel encrusted bindings are well worn as
     the\n\rbark of a tree. Spidery writings seem to crawls across the pages, totally\n\rincomprehensible
     to your mortal eye. Something seems to be wedged between\n\rthe pages.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8542,7 +8542,7 @@ rooms:
     with ancient runes of power stretch out before you. Magical\n\renergies seem to
     crackle with power all around and whisper in tongues\n\rlong forgotten, almost
     as if the corridor itself were alive.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8565,7 +8565,7 @@ rooms:
     an\n\rabrupt halt at the edge of a golden archway here. The hum of power is so\n\rstrong
     it nearly numbs your body.\n\r  The archway lies before you, glowing and pulsing
     with energy.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8588,7 +8588,7 @@ rooms:
     living\n\rmagical energies here had infused your body, found it wanting and left.
     The\n\rintense glow from the arch above you is almost blinding. Through the light\n\ryou
     can barely make out a stairway leading up.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8610,7 +8610,7 @@ rooms:
   description: "You are on a small landing in the middle of a long stairway leading
     up.\n\rYour senses seem dulled here, no sound or smell can be detected at all,
     and\n\rthe only thing you can see in any direction is endless stairway.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8635,7 +8635,7 @@ rooms:
     grey tiled hallway leads south, black tiled east, white tiled west, and\n\ra multi-colored
     hallway swirling with patterns that remain just barely\n\runrecognizable is to
     the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8675,7 +8675,7 @@ rooms:
   description: "You are in a grey tiled hallway leading north and south. Dim balls
     of\n\renergy float here and there shedding a warm light, and showing the way.\n\rA
     feeling of peace and balance comes over you.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8698,7 +8698,7 @@ rooms:
     of\n\renergy float here and there shedding a warm light, and showing the way.\n\rA
     feeling of peace and balance comes over you.\n\r  Large grey metal double doors
     can be seen to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8711,7 +8711,7 @@ rooms:
   - dir: 2
     desc:
     keywords: door grey
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1453
   extra_descs: []
@@ -8721,14 +8721,14 @@ rooms:
     A\n\rfeeling of strong magic floats in the air about you, almost as if you could\n\rtaste
     the power held within these walls.\n\r  Once your eyes adjust to the semi-light,
     you can make out a larger room\n\rto the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door grey
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1452
   - dir: 2
@@ -8744,7 +8744,7 @@ rooms:
     of\n\rneutrality. Some artifacts are hung on the walls here, or set on stands.\n\rThe
     room in general looks both comfortable and official. Probably where the\n\rmaster
     of neutrality holds audience.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8780,7 +8780,7 @@ rooms:
     and scrolls on it. The most notable thing in the room is\n\ra small set of scales,
     which floats about eye level. In perfect balance,\n\rthe scales are no doubt a
     sign of the master's neutrality.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8795,7 +8795,7 @@ rooms:
   name: A closet
   description: "You are in a small closet. It is filled with many cloaks, and some
     other\n\rapparel.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -8811,7 +8811,7 @@ rooms:
   description: "You are in the bedroom of the master magician of neutrality. Curtained\n\rwindows
     can be seen on the south wall. A large comfortable looking bed\n\rtakes up most
     of the room.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8827,7 +8827,7 @@ rooms:
   description: "You are in a long dark hallway leading east and west. Not much can
     be\n\rseen in the unnatural darkness here, but you get a deep sense of dread\n\rthe
     further you go.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -8849,7 +8849,7 @@ rooms:
   description: "You are in a long dark hallway leading east and west. Not much can
     be\n\rseen in the unnatural darkness here, but you get a deep sense of dread\n\rthe
     further you go.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -8871,14 +8871,14 @@ rooms:
   description: "You are at the end of a long dark hallway. The darkness here is almost\n\rtangible
     in its thickness. A deep sense of fear and loathing comes over\n\ryou.\n\r  A
     pair of obsidian doors can be seen to the east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: door obsidian
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1461
   - dir: 3
@@ -8894,7 +8894,7 @@ rooms:
     a very vague idea of the actual size of the room. Swirling here and\n\rthere in
     the dark, are patches of pure black which seem to suck in your\n\rlight and leave
     it that much darker here.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -8919,14 +8919,14 @@ rooms:
   - dir: 3
     desc:
     keywords: door obsidian
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1460
   extra_descs: []
 - vnum: 1462
   name: It is very dark here...
   description: "It is very dark here...\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -8943,7 +8943,7 @@ rooms:
     rack\n\ron the wall, they seem to quiver with anticipation of a victim as if they\n\rhad
     a mind of their own. An operating table is here, though it is bare.\n\r  An extreme
     feeling of evil permeates the entire area.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -8960,7 +8960,7 @@ rooms:
     of\n\rdark power, scrawled and traced in an evil language no longer known to most\n\rof
     this plane of existence. There is an obsidian altar here which seems to\n\rglow,
     but does not shed any light, in fact it seems to be taking light in.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -8977,7 +8977,7 @@ rooms:
     here\n\rare a milky white color, and glow with a warm luminescence, as does the\n\rfloor.
     A feeling of goodness permeates the area, and you feel unworthy to\n\rtread upon
     these sacred floors.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9001,7 +9001,7 @@ rooms:
     A feeling of goodness permeates the area, and you feel unworthy to\n\rtread upon
     these sacred floors.\n\r  A huge set of double doors in finely worked ivory can
     be seen to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9014,7 +9014,7 @@ rooms:
   - dir: 3
     desc:
     keywords: door ivory
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1467
   extra_descs: []
@@ -9024,14 +9024,14 @@ rooms:
     light cannot be seen. It is almost as if the room itself exudes a warm\n\rglow
     of goodness. A larger chamber can be seen to the west, but you do not\n\rfeel
     worthy to pass into it.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: door ivory
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1466
   - dir: 3
@@ -9082,7 +9082,7 @@ rooms:
   description: "You are in a small meditation chamber. White silk cushions are everywhere,\n\rlooking
     very comfortable. You get an easy peaceful feeling of relaxation\n\rhere, almost
     making you want to lie down and fall asleep.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9098,7 +9098,7 @@ rooms:
   description: "You are in a spacious study. It is extremely tidy here, to an almost\n\rantiseptic
     nature. One would wonder how anyone could study without a\n\rmess all around them,
     the master of this chamber obviously can.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9113,7 +9113,7 @@ rooms:
   name: A closet
   description: "You are in a small closet. Cloaks and vests hang from hooks in the
     wall,\n\rand a few old boots are all that can be seen here. Rather featureless.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -9129,14 +9129,14 @@ rooms:
   description: "You are in a large hallway, wide enough to accommodate several people\n\rstanding
     abreast. The floor here is a swirl of multicolored patterns, in\n\rconstant motion.\n\r
     \ A huge grey metal door blocks the way north, it looks quite sturdy.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door metal grey
-    exit_flags: 15
+    exit_flags: ABCD
     key: 1473
     to_vnum: 1474
   - dir: 2
@@ -9151,20 +9151,20 @@ rooms:
   description: "You are in a large hallway, wide enough to accommodate several people\n\rstanding
     abreast. The floor here is a swirl of multicolored patterns, in\n\rconstant motion.\n\r
     \ A huge black obsidian door blocks the way north, it looks quite sturdy.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door obsidian black
-    exit_flags: 15
+    exit_flags: ABCD
     key: 1474
     to_vnum: 1475
   - dir: 2
     desc:
     keywords: door metal grey
-    exit_flags: 15
+    exit_flags: ABCD
     key: 1473
     to_vnum: 1473
   extra_descs: []
@@ -9173,20 +9173,20 @@ rooms:
   description: "You are in a large hallway, wide enough to accommodate several people\n\rstanding
     abreast. The floor here is a swirl of multicolored patterns, in\n\rconstant motion.\n\r
     \ A huge white ivory door blocks the way north, it looks quite sturdy.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door ivory white
-    exit_flags: 15
+    exit_flags: ABCD
     key: 1475
     to_vnum: 1476
   - dir: 2
     desc:
     keywords: door obsidian black
-    exit_flags: 15
+    exit_flags: ABCD
     key: 1474
     to_vnum: 1474
   extra_descs: []
@@ -9196,7 +9196,7 @@ rooms:
     of\n\rmagic. Beautiful tapestries displaying the ancient masters of lore are on\n\rthe
     walls, and the floor is covered with a plush multicolored carpet, which\n\rseems
     to rustle and move at the touch of your boots.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9209,7 +9209,7 @@ rooms:
   - dir: 2
     desc:
     keywords: door white ivory
-    exit_flags: 15
+    exit_flags: ABCD
     key: 1475
     to_vnum: 1475
   extra_descs: []
@@ -9221,7 +9221,7 @@ rooms:
     again at random times. All this splendor plays about and draws\n\rattention to
     a large throne in the center of the room, it seems to be cut\n\rfrom a single
     enormous emerald.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9258,7 +9258,7 @@ rooms:
     some\n\routlandish colors hang from a rack suspended in mid air at eye level.
     The\n\ronly other interesting feature in the room is a large silver mirror on
     a\n\rfinely crafted gold stand.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9275,7 +9275,7 @@ rooms:
     atop\n\rshelves which span every wall. A large oaken writing table is in the center\n\rof
     the room with odd papers and parchments on it. The illumination here,\n\rto your
     surprise is a quite un-magical oil lamp.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9292,14 +9292,14 @@ rooms:
     Many icons to lesser deities line the room, but it is obvious by one\n\rglance
     at the symbols on the altar, that this room was designed for the\n\rworship of
     Mystra, the goddess of magic.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: door secret
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1481
   - dir: 2
@@ -9311,7 +9311,7 @@ rooms:
   - dir: 3
     desc:
     keywords: door secret
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1482
   extra_descs: []
@@ -9319,14 +9319,14 @@ rooms:
   name: The treasury
   description: "You are in a small chamber, the stale air here is testament to the
     fact\n\rthat it has gone undisturbed for many years.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 3
     desc:
     keywords: door secret
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 1480
   extra_descs: []
@@ -9337,7 +9337,7 @@ rooms:
     the wall here there hang several travel worthy cloaks, and a small\n\rleather
     backpack.  It looks as if someone has prepared this room to be used\n\rin the
     event speedy of a evacuation.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -9354,7 +9354,7 @@ rooms:
     see\n\rthe source of the energy, you can feel its power pushing at you from all\n\rsides,
     completely negating the effects of gravity.\n\r  An imperfection in the uniform
     blue can be seen overhead, it might be an\n\rexit.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9371,7 +9371,7 @@ rooms:
     wall, and\n\rbooks and papers cover every available flat surface. Empty beer cans
     lie here\n\rand there, discarded with total abandon. A few over full ashtrays
     can be seen\n\ron a desk.\n\r"
-  room_flags: 524
+  room_flags: CDJ
   sector: 0
   owner:
   exits: []

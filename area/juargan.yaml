@@ -14,7 +14,7 @@ mobiles:
   description: "The small dwarf is dirty and dressed only in a small tunic and leggings.
     \ His\n\rbeard is encrusted with cracked rock and dust from the tunnel walls.\n\r"
   race: Dwarf
-  act: 524292
+  act: CT
   affected_by: 0
   affected2_by: 0
   alignment: 500
@@ -60,7 +60,7 @@ mobiles:
     long beard.\n\rHis eyes are keen and sharp, well suited for sight in the dark
     tunnels of the\n\rmines.\n\r"
   race: Dwarf
-  act: 524292
+  act: CT
   affected_by: 0
   affected2_by: 0
   alignment: 500
@@ -106,7 +106,7 @@ mobiles:
     over.  The\n\rsmall body is strong which makes him a match for any foe.  The armor
     of the\n\rdwarf is of no use to anyone but him, but provides adequate defense.\n\r"
   race: Dwarf
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 700
@@ -152,8 +152,8 @@ mobiles:
     in many\n\ryellows and oranges, and seems to have a happy look about him despite
     his years\n\rof failure at growing rocks.\n\r"
   race: Dwarf
-  act: 524292
-  affected_by: 8
+  act: CT
+  affected_by: D
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -199,8 +199,8 @@ mobiles:
     in nothing\n\rbut a noble robe made of a grey silk.  His face has a visage of
     stone like his\n\rsurroundings, as if his burden has become to much for him.\n\r"
   race: Human
-  act: 524290
-  affected_by: 8
+  act: BT
+  affected_by: D
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -245,8 +245,8 @@ mobiles:
     through\n\rtheir isolation from the rest of the dwarven population and have become
     bitter\n\renemies with them.\n\r"
   race: Human
-  act: 524324
-  affected_by: 8
+  act: CFT
+  affected_by: D
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -292,8 +292,8 @@ mobiles:
     face has\n\rturned into a crude scowl as you can feel that his soul is not at
     ease.\n\r"
   race: Human
-  act: 524322
-  affected_by: 40
+  act: BFT
+  affected_by: DF
   affected2_by: 0
   alignment: -999
   clan: 0
@@ -339,8 +339,8 @@ mobiles:
     dwarves\n\rinto.  Judging by the size you can see that is has been eating quite
     a few too\n\rmany dwarves as it's body is at least five feet in diameter.\n\r"
   race: Human
-  act: 524322
-  affected_by: 8
+  act: BFT
+  affected_by: D
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -385,8 +385,8 @@ mobiles:
     existence.\n\rThe soul of some unfortunate dwarf now has to fly aimlessly through
     this chamber\n\rof eternal pain.\n\r"
   race: Human
-  act: 524322
-  affected_by: 168
+  act: BFT
+  affected_by: DFH
   affected2_by: 0
   alignment: -999
   clan: 0
@@ -431,7 +431,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 27
   weight: 1
   cost: 270
@@ -450,7 +450,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 8
   weight: 10
   cost: 80
@@ -469,7 +469,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 17
+  wear_flags: AE
   level: 10
   weight: 10
   cost: 100
@@ -488,7 +488,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 10
   weight: 15
   cost: 100
@@ -506,8 +506,8 @@ objects:
   description: A large dwarven shield lies here on the ground.
   material: none
   item_type: 9
-  extra_flags: 1
-  wear_flags: 513
+  extra_flags: A
+  wear_flags: AJ
   level: 14
   weight: 7
   cost: 140
@@ -519,12 +519,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 24
-    modifier: 4
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -2
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: 4
     bitvector: 0
   extra_descs: []
 - vnum: 4705
@@ -534,7 +534,7 @@ objects:
   material: none
   item_type: 20
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 14
   weight: 0
   cost: 140
@@ -552,8 +552,8 @@ objects:
   description: A large battle axe lies here on the ground.
   material: none
   item_type: 5
-  extra_flags: 320
-  wear_flags: 8193
+  extra_flags: GI
+  wear_flags: AN
   level: 27
   weight: 5
   cost: 270
@@ -565,11 +565,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
+    location: 18
     modifier: 1
     bitvector: 0
   - where: O
-    location: 18
+    location: 19
     modifier: 1
     bitvector: 0
   extra_descs:
@@ -600,8 +600,8 @@ objects:
   description: A large and intricate staff rests here.
   material: none
   item_type: 4
-  extra_flags: 2
-  wear_flags: 16385
+  extra_flags: B
+  wear_flags: AO
   level: 14
   weight: 10
   cost: 140
@@ -632,7 +632,7 @@ rooms:
   - dir: 4
     desc:
     keywords: stone
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 4772
   extra_descs: []
@@ -685,7 +685,7 @@ rooms:
   description: "This small tunnel is only five to six feet high and possibly the same\n\rdimensions
     wide.  It travels on a slight downslope to the west and to the south\n\rsome light
     can be seen.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -706,7 +706,7 @@ rooms:
   name: Mines
   description: "The small mine continues east and west here, small rocks and precious
     jewels\n\rscattered about.  There is a small tunnel that leads to the south here.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -734,7 +734,7 @@ rooms:
   description: "This is a small area that has been left unfinished at the moment.
     \ It would\n\rhave continued south from the main shaft that is to the north of
     here.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -749,7 +749,7 @@ rooms:
   name: Mines
   description: "This small shaft of the mines continues its tunneling east and west.
     \ Small\n\rglints of metal can be seen within the walls.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -771,7 +771,7 @@ rooms:
   description: "The small shaft travels east and south here, the masterful mining
     skills that\n\rmade this turn possible are evidently by the smooth cuts in the
     walls.  Almost\n\ras if a hot knife made its way through some warm butter.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -793,7 +793,7 @@ rooms:
   description: "This is a three-way intersection in these mazes of mines with directions\n\rgoing
     north, west, and south which travels further down into the heart of the\n\rmountain
     itself.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -821,7 +821,7 @@ rooms:
   description: "The walls of this mine are chipped and cut to perfection.  Workmanship
     of\n\rthis type could only have been done by the masterful Dwarven race.  Tunnels\n\rcontinue
     to the south and east, and the tunnel travels upward to the north.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -849,7 +849,7 @@ rooms:
   description: "Tunnels spread off in all directions except to the west where the
     wall is made\n\rof a dark and bleak stone.  A small glow emanates from the walls
     of the mines,\n\rbut not enough to see by.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -876,7 +876,7 @@ rooms:
   name: Dwarven mine
   description: "The small shaft ends abruptly at a jewel encrusted wall.  To the north
     the\n\rsmall shaft continues some past some small rocks.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -892,7 +892,7 @@ rooms:
   description: "This section of small shaft is a turning point and continues to the
     west and to\n\rthe south.  Small glints of gold and silver can be seen in the
     walls.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -913,7 +913,7 @@ rooms:
   name: Dwarven mine
   description: "The small shaft continues north and south deep inside this large mountain.
     \ A\n\rlight glow can be seen in the walls, but not enough to see by.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -935,7 +935,7 @@ rooms:
   description: "This section of the small shafts is a intersection of three separate
     tunnels.\n\rThey lead north, east, and west.  A faint glow is within the walls
     of this\n\rsmall intersection.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -962,7 +962,7 @@ rooms:
   name: Dwarven mines
   description: "The small shaft of glittering gold and silver travels east and south
     here.\n\rThe faint glow from within the walls give you a sense of safety.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -983,7 +983,7 @@ rooms:
   name: Dwarven mines
   description: "The small Dwarven carved shaft continues to the north and to the east
     here.\n\rSmall clumps of precious metals can be seen within the rocky walls.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -1004,7 +1004,7 @@ rooms:
   name: Dwarven mines
   description: "The small shaft of the mine continues to the west and to the south
     here.  A\n\rsmall amount of light can be seen to the south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -1026,7 +1026,7 @@ rooms:
   description: "The south section of the small tunnel is covered in a blue light,
     and also\n\rradiating a aura of heat.  The eastern and western walls also glow
     but not as\n\rfierce as the southern section.\n\r"
-  room_flags: 12
+  room_flags: CD
   sector: 1
   owner:
   exits:
@@ -1042,7 +1042,7 @@ rooms:
   description: "Small shafts lead off in all directions except northerly, where the
     wall seems\n\rto have a tinted blue color to it.  The southern tunnel seems to
     end a small\n\rways down.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -1069,7 +1069,7 @@ rooms:
   name: Unfinished shaft
   description: "The walls here are jagged and unfinished in there cuts, leaving sharp
     and\n\rjagged edges at every turn.  The only exit appears to be to the north.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -1084,7 +1084,7 @@ rooms:
   name: Dwarven mines
   description: "This small shaft travels to the west and to the south, sporting small
     clumps\n\rof precious metals as they go.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -1106,7 +1106,7 @@ rooms:
   description: "A slight downslope is present as this tunnel continues to the south
     and to the\n\rnorth.  To the south is where the small slope is present, traveling
     slightly\n\rfurther down into the depths of the mountain.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -1128,7 +1128,7 @@ rooms:
   description: "The southern wall of this mine has been left uncarved and unfinished
     as you\n\rcan see that the amount of metals in the walls have decreased slightly
     here.\n\rThe tunnel leads to the north out of this dead end.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -1143,7 +1143,7 @@ rooms:
   name: Dwarven mine
   description: "This small shaft travels to the east and west while along the way
     several\n\rspots of precious metal and rock jut forth from the red rock.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -1164,7 +1164,7 @@ rooms:
   name: Dwarven mine
   description: "The small tunnel continues to the west and to the south from this
     turning\n\rpoint.  Small spots of gold and silver can be seen in the walls.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -1185,7 +1185,7 @@ rooms:
   name: Dwarven mines
   description: "This is a north and south shaft that has been carved to perfection.
     \ The walls\n\rare almost square here, giving it a hall like appearance.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -1207,7 +1207,7 @@ rooms:
   description: "The small shaft here continues to the north and to the east. As it
     slopes\n\rslightly downward to the east, the walls have a more unfinished look
     to them.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -1229,7 +1229,7 @@ rooms:
   description: "This small east-west shaft, which travels slightly downward to the
     east, has\n\ra distinct smell to it.  The smell is revolting, coming close to
     that of rotting\n\rflesh.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -1251,7 +1251,7 @@ rooms:
   description: "This intersection combines three tunnels, the western tunnel leading
     up.  To\n\rthe south is darkness, but there is a disgusting stench emanating from
     a very\n\rlarge cavern.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -1278,7 +1278,7 @@ rooms:
   name: Dwarven mines
   description: "This is a small north and south passage that is bleak and void of
     any gold or\n\rsilver in the walls.  It continues into darkness to the south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -1299,7 +1299,7 @@ rooms:
   name: Dwarven mines
   description: "This small shaft ends abruptly at the southern wall.  There is a faint
     blue\n\rglow to the southern wall but no metals of jewels are present.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -1315,7 +1315,7 @@ rooms:
   description: "This is a large cavern that stinks of decay and death.  To the north
     there is\n\ra rather large hut, while to the west there is a small fire and several
     big\n\rboulders.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1343,7 +1343,7 @@ rooms:
   description: "Several small cots line the walls here  inside this large thatched
     hut.  Small\n\rscraps of food and several small disfigured bodies lie about, no
     doubt the\n\rremains of some unfortunate dwarf.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1359,7 +1359,7 @@ rooms:
   description: "Many small and disfigured bodies have been piled up here stinking
     up the whole\n\rcavern.  Blood stains line the walls and entrails are strewn about
     the floor.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1375,7 +1375,7 @@ rooms:
   description: "Several large rocks surround a petty little fire that has formed a
     cloud in\n\rthe ceiling of this large cavern.  A window of the hut looks out over
     this small\n\rmeeting area.  To the north a small dark cave can be seen.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1397,7 +1397,7 @@ rooms:
   description: "This small tunnel has been carved to perfection, the walls are smooth
     and the\n\rfloor has been worn soft through years of passage.  The red coloring
     of the\n\rrock gives this small tunnel a soft glow.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -1419,7 +1419,7 @@ rooms:
   description: "The walls of the small tunnel have been carved to perfection as well
     as the\n\rfloor that has been worn smooth.  It travels south and west leading
     off into\n\rdarkness.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -1440,7 +1440,7 @@ rooms:
   name: Carved Tunnel
   description: "The walls here are red and smooth as they have been carved into perfection.\n\rThe
     floor has been worm smooth with use and clear of any rubble.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -1462,7 +1462,7 @@ rooms:
   description: "Two monstrous pillars of stone support a great stone gate that leads
     south\n\rinto a gigantic cavern with a small city inside.  The redden rock of
     the of\n\rmountain gives this small gate and cavern within a slight reddish glow.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1485,7 +1485,7 @@ rooms:
     all of its\n\rscattered boulders and misplaced stalagmites.  To the south you
     can see a large\n\rarea of many multicolored rock, rising up in the center of
     which is a small\n\rbuilding.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1513,7 +1513,7 @@ rooms:
   description: "A small path works its way through all types of multicolored boulders
     of all\n\rsizes and shapes.  Despite it's hardness and great size it has a certain\n\rbeauty
     to it.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1540,7 +1540,7 @@ rooms:
   name: Rock Garden
   description: "A small path works its way south and west from this section of a enormously\n\rlarge,
     yet beautiful conglomeration of rocks and boulders.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1562,7 +1562,7 @@ rooms:
   description: "A small path works its way north and south through this large display
     of many\n\rdifferent colored boulders and rocks.  A large building can be seen
     rising above\n\rthe boulders directly to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1583,7 +1583,7 @@ rooms:
   name: Rock Garden
   description: "A small path works its way to the north and to the west as the many
     different\n\rcolored boulders and rocks perform a array of beauty before you.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1605,7 +1605,7 @@ rooms:
   description: "A small path works its way west and east through this array of multicolored\n\rboulders
     and rocks.  To the north a smooth path leads to a large and immaculate\n\rstone
     building.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1632,7 +1632,7 @@ rooms:
   name: Rock Garden
   description: "A small path works its way east and north through this small section
     of the\n\rlarge array of boulders and rocks of all different colors.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1654,7 +1654,7 @@ rooms:
   description: "A small path works its way north and south through this small section
     of the\n\rlarge garden of multicolored boulders.  Directly to the east a large
     building\n\rcan be seen rising above the piles of boulders.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1675,7 +1675,7 @@ rooms:
   name: Rock Garden
   description: "A small path works its way east and south through this section of
     the great\n\rmulticolored array of boulders and rock formations.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1698,7 +1698,7 @@ rooms:
     the ceiling\n\ris supported by pillars made of the deep red stone from the heart
     of the\n\rDra-Korrin.\n\r  In the center there is rests a large throne, formed
     of red rock.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1715,7 +1715,7 @@ rooms:
   name: Walkway
   description: "A small stone walkway travels east and west through the many stalagmites
     and\n\rstray boulders that scatter the floor of the great cavern.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1737,7 +1737,7 @@ rooms:
   description: "A small stone walkway travels east and south through the debris of
     many\n\rboulders and stalagmites.  Another small walkway leads west to a small
     building\n\rpushing a black smoke from its roof.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1765,7 +1765,7 @@ rooms:
   description: "A large black forge lies in the center of this small house pushing
     waves of\n\rheat into your face, barley allowing you to stand within the entranceway.
     \ A\n\rlarge trough of water and several anvils are resting here as well.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1780,7 +1780,7 @@ rooms:
   name: Walkway
   description: "A small walkway travels north and south through the many scattered
     boulders\n\rand stalagmites.  A separate, less used path leads to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1807,7 +1807,7 @@ rooms:
   name: Path in the Rock
   description: "A small path leads west further into the less carved rock while to
     the east\n\rthe larger walkway can be seen.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1829,7 +1829,7 @@ rooms:
   description: "This small uncarved path travels south and east as the edge of the
     cavern\n\rblocks any travel further west.  The wall of the cavern has a deep red
     color to\n\rit and with the many stalactites parts resemble dripping blood.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1851,7 +1851,7 @@ rooms:
   description: "This small, uncarved path leads north and south along the cavern wall,
     over\n\rmany boulders at points.  To the east you can see a path leading up to
     a small\n\rhole in a large boulder.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1879,7 +1879,7 @@ rooms:
   description: "A small path travels over boulders and crevices to the north and east.
     \ The\n\redge of the cavern lies to the west while mounds of boulders are heaped
     to the\n\rsouth.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1902,7 +1902,7 @@ rooms:
     as it\n\rmakes its way to the west.  To the east the small path ends in the larger
     walk-\n\rway of the city.  To the south a path leads to a small hut perched on
     top of a\n\rlarge boulder.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1929,7 +1929,7 @@ rooms:
   name: Walkway
   description: "A stone walkway travels north and south through this section of this
     rocky\n\rcity.  To the west you can see a uncarved and hug mound of rock and boulder.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1951,7 +1951,7 @@ rooms:
   description: "A stone walkway travels north and south through this section of the
     city.  A\n\rsmall and unused path can be seen traveling west into the uncut and
     jagged rock.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1979,7 +1979,7 @@ rooms:
   description: "This is a small stone dwelling with a large oven on the south wall.
     \ There are\n\rmany tables and chairs placed about the place and by the oven there
     is a table\n\rpiled with grains and a small bowl of dough.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1994,7 +1994,7 @@ rooms:
   name: Walkway
   description: "A stone walkway travels north and east through this section of the
     stone city.\n\rA small path leads south to a small rock dwelling.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2022,7 +2022,7 @@ rooms:
   description: "A stone walkway leads west from here.  To the east the small walkway
     ends in a\n\rlarge building, and to the south a small path leads to a small stone
     dwelling.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2049,7 +2049,7 @@ rooms:
   name: Leatherbies Home
   description: "This is a small stone dwelling with many sizes of leather strewn about
     the\n\rplace.  A small table with a few chairs sits in the center of the house.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2065,7 +2065,7 @@ rooms:
   description: "Many different colors and sizes of jewels hang from the walls of this
     well\n\rkept dwelling.  A small counter sits on the far wall with other small
     tables\n\rlining the walls.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2081,7 +2081,7 @@ rooms:
   description: "Many small cots line the walls of this large building as it serves
     for the\n\rhomes of many brave Dwarven men who pledge their lives to the suppression
     of\n\rtheir Duergar enemies.  A small archway leads south to a lower level.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2102,7 +2102,7 @@ rooms:
   name: Alcove
   description: "A small alcove serves as a turning point for this small, dark tunnel
     that goes\n\rnorth and west from here.\n\r"
-  room_flags: 13
+  room_flags: ACD
   sector: 1
   owner:
   exits:
@@ -2124,7 +2124,7 @@ rooms:
   description: "A large archway leads north to a dark vault.  An old stench emanates
     from it,\n\ras dust seems to continually flow from the old arch.  There is a small
     tunnel\n\rthat travels east into a darkness.\n\r"
-  room_flags: 13
+  room_flags: ACD
   sector: 1
   owner:
   exits:
@@ -2147,7 +2147,7 @@ rooms:
     tomb.\n\rThe walls are lined with holes that contain many coffers containing,
     no doubt,\n\rthe remains of some ancient dwarf.\n\r  A great stone door leads
     to the west, it has many inscriptions upon it.\n\r"
-  room_flags: 13
+  room_flags: ACD
   sector: 1
   owner:
   exits:
@@ -2160,7 +2160,7 @@ rooms:
   - dir: 3
     desc:
     keywords: tomb vault door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 4700
     to_vnum: 4770
   extra_descs: []
@@ -2169,14 +2169,14 @@ rooms:
   description: "This is more of a small alcove than anything else.  The ceiling is
     covered\n\rwith many descriptive carvings, as are the walls and floor.  Where
     it not for\n\rthe years of decay and no upkeep, this would be a glamorous chamber.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
   - dir: 1
     desc:
     keywords: tomb vault door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 4700
     to_vnum: 4769
   extra_descs: []
@@ -2185,7 +2185,7 @@ rooms:
   description: "A small and dark little room entombed within a large boulder, a very
     strange\n\rplace to want to live.  There is a small table in the center, but the
     room is\n\rvoid of any other objects.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2201,7 +2201,7 @@ rooms:
   description: "You barely squeeze through into this cave, and you don't see much
     to it\n\reither.  All you see are piles of stones.  At least none of the stones
     has\n\rfallen over your exit north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 4
   owner:
   exits:
@@ -2214,7 +2214,7 @@ rooms:
   - dir: 5
     desc: "You see rocks and stones.\n\r"
     keywords: stone stones rock rocks
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 4700
   extra_descs: []
@@ -2223,7 +2223,7 @@ rooms:
   description: "As you wring your clothes, you see sunlight reflect beautifully off
     the\n\rwaterfall, forming at rainbow.  With the sparkling illumination, you think
     you\n\rsee a cave to the south.\n\r"
-  room_flags: 12
+  room_flags: CD
   sector: 4
   owner:
   exits:
@@ -2319,7 +2319,7 @@ rooms:
     and lush\n\rgreen forests south-east.  To the north, you see the Mountains of
     Moria.  To\n\rthe west, you see the dirty trail again.  A trail leads down to
     the valley\n\rbelow.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 2
   owner:
   exits:

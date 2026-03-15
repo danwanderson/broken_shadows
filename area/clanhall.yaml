@@ -14,7 +14,7 @@ objects:
   description: A long forboding table is in the center of the room.
   material: none
   item_type: 12
-  extra_flags: 524884
+  extra_flags: CEGJT
   wear_flags: 0
   level: 1000
   weight: 0
@@ -38,7 +38,7 @@ objects:
   description: The great fountain is here.
   material: none
   item_type: 25
-  extra_flags: 261
+  extra_flags: ACI
   wear_flags: 0
   level: 0
   weight: 10000
@@ -57,7 +57,7 @@ rooms:
 - vnum: 10900
   name: Black Rose Clan Hall
   description:
-  room_flags: 1048588
+  room_flags: CDU
   sector: 0
   owner:
   exits: []
@@ -69,7 +69,7 @@ rooms:
     shade of red that can only be described as  bloody. The floor is carved with many
     symbols that seem omnious all by themselves. \n\rThe long stone table in the center
     of the room obviously has some great importance here.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 0
   owner:
   exits: []
@@ -77,7 +77,7 @@ rooms:
 - vnum: 10906
   name: 'Sith Recall '
   description:
-  room_flags: 4
+  room_flags: C
   sector: 0
   owner:
   exits: []

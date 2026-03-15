@@ -14,7 +14,7 @@ mobiles:
   description: "This huge winged creature looks really menacing.  You are happy it
     doesn't\n\rAPPEAR to be very hungry ... yet.\n\r"
   race: Wyvern
-  act: 64
+  act: G
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -39,7 +39,7 @@ mobiles:
     bash: 4
     slash: 5
     exotic: 6
-  off_flags: 139272
+  off_flags: DNR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -58,7 +58,7 @@ mobiles:
   long_desc: "A mountain goblin is wandering about, mumbling to himself.\n\r"
   description: "You see before you a small and twisted creature with knotted muscles.\n\r"
   race: goblin
-  act: 524384
+  act: FGT
   affected_by: 0
   affected2_by: 0
   alignment: -500
@@ -83,7 +83,7 @@ mobiles:
     bash: 6
     slash: 4
     exotic: 9
-  off_flags: 132096
+  off_flags: KR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -103,7 +103,7 @@ mobiles:
   description: "The poor boy has numerous cuts and scratches, but appears to be all
     right.\n\rHe is apparently the only survivor of the ambush.\n\r"
   race: Human
-  act: 130
+  act: BH
   affected_by: 0
   affected2_by: 0
   alignment: 500
@@ -128,10 +128,10 @@ mobiles:
     bash: 8
     slash: 8
     exotic: 10
-  off_flags: 256
+  off_flags: I
   imm_flags: 0
   res_flags: 0
-  vuln_flags: 4
+  vuln_flags: C
   start_pos: 5
   default_pos: 5
   sex: 1
@@ -149,7 +149,7 @@ mobiles:
     the\n\rnights are spent watching out for goblins.  His inn is no longer the happy\n\rplace
     that is used to be in days past.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 500
@@ -174,9 +174,9 @@ mobiles:
     bash: 2
     slash: 2
     exotic: 8
-  off_flags: 66594
-  imm_flags: 3
-  res_flags: 12
+  off_flags: BFKQ
+  imm_flags: AB
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -194,8 +194,8 @@ mobiles:
   description: "You can smell the alcohol on his breath from across the room.  This
     poor bard\n\rhas been sitting here quite a while, drinking himself into oblivion.\n\r"
   race: Human
-  act: 786434
-  affected_by: 8
+  act: BST
+  affected_by: D
   affected2_by: 0
   alignment: 600
   clan: 0
@@ -219,7 +219,7 @@ mobiles:
     bash: 5
     slash: 3
     exotic: 6
-  off_flags: 75552
+  off_flags: FIJKNQ
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -239,8 +239,8 @@ mobiles:
   description: "The man is obviously an outlaw, and has no qualms about slashing you
     into\n\rlittle bits.\n\r"
   race: Human
-  act: 262336
-  affected_by: 32768
+  act: GHS
+  affected_by: P
   affected2_by: 0
   alignment: -900
   clan: 0
@@ -264,7 +264,7 @@ mobiles:
     bash: 3
     slash: 3
     exotic: 6
-  off_flags: 67106
+  off_flags: BFJKQ
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -284,7 +284,7 @@ mobiles:
   description: "The goblin lieutenant is rather angry, and looking for one of his
     men to\n\rbeat up upon, but maybe you will do just fine ...\n\r"
   race: goblin
-  act: 524384
+  act: FGT
   affected_by: 0
   affected2_by: 0
   alignment: -600
@@ -309,7 +309,7 @@ mobiles:
     bash: 5
     slash: 3
     exotic: 8
-  off_flags: 140296
+  off_flags: DKNR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -329,7 +329,7 @@ mobiles:
   description: "The leader doesn't look too happy that you have found him here.  He
     grabs\n\rfor his shortsword and lunges for your neck.\n\r"
   race: goblin
-  act: 524388
+  act: CFGT
   affected_by: 0
   affected2_by: 0
   alignment: -900
@@ -354,7 +354,7 @@ mobiles:
     bash: 3
     slash: 1
     exotic: 6
-  off_flags: 140808
+  off_flags: DJKNR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -375,7 +375,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 5
   weight: 4
   cost: 50
@@ -401,7 +401,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 3
   weight: 8
   cost: 130
@@ -427,7 +427,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 17
+  wear_flags: AE
   level: 5
   weight: 3
   cost: 100
@@ -446,7 +446,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 5
+  wear_flags: AC
   level: 3
   weight: 4
   cost: 20
@@ -465,7 +465,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 4097
+  wear_flags: AM
   level: 7
   weight: 1
   cost: 400
@@ -489,8 +489,8 @@ objects:
   description: A wide-bladed knife sits undisturbed on the floor.
   material: none
   item_type: 5
-  extra_flags: 1088
-  wear_flags: 8193
+  extra_flags: GK
+  wear_flags: AN
   level: 6
   weight: 1
   cost: 750
@@ -601,7 +601,7 @@ rooms:
     of this\n\rland. The road leads east into the peace and quiet - and dangers -
     of the\n\rforest; and to the west it becomes the main street of the town; surrounded
     by\n\ra confusion of shops, bars, and market places.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 1
   owner:
   exits:
@@ -1054,7 +1054,7 @@ rooms:
     and\n\rsoaked into the ground. Two carcasses lie in front of you, seeming to look\n\rup
     at you. The forest is impassible to the south, but the other directions\n\rlook
     ok.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -1362,7 +1362,7 @@ rooms:
     this area very dark.  The forest continues west, but mountains block\n\rfurther
     exploration in all other directions, except south, where you notice a\n\rsmall
     tunnel dug into the mountainside.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -1384,7 +1384,7 @@ rooms:
   description: "The walls of this tunnel were carved out many years ago by the goblins
     of\n\rthis forest.  The floor is well worn, and continues south, into the\n\rmountain,
     or back north out into the forest.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
@@ -1406,7 +1406,7 @@ rooms:
   description: "The tunnel gets lighter to the north, presumably leading out, while
     to\n\rthe south the passage gets smaller and smaller.  A small alcove has been\n\rcarved
     into the east wall.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
@@ -1433,7 +1433,7 @@ rooms:
   name: A Small Alcove
   description: "A small alcove has been carved out here.  There are a bunch of twigs\n\rand
     leaves thrown into a pile here, probably serving as a bed.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
@@ -1452,7 +1452,7 @@ rooms:
   description: "As you explore further into the mountainside, the tunnel gets smaller
     and\n\rsmaller to the south.  You almost have to hunch over to make your way thru\n\rthis
     area.  A small archway to the south leads into a large chamber.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
@@ -1474,7 +1474,7 @@ rooms:
   description: "The tunnel widens into a large (well, large for goblins) cavern that\n\rserves
     as the living quarters for the goblins of Miden'nir.  The bones of\n\rnumbers
     woodland creatures are strewn about the room, the remanents of a\n\rrecent meal.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
@@ -1520,13 +1520,13 @@ rooms:
     key: 0
     to_vnum: 3574
   extra_descs:
-  - keywords: sign
-    description: "The sign reads:\n\r   The Woodsman\n\r"
   - keywords: credits credit author
     description: "+-------------------------------------------------+\n\r| This zone
       originally written for Copper II DIKU |\n\r|   by ?                                          |\n\r|
       Modification and alterations for MERCmud DIKU   |\n\r|   by VampLestat                        1
       JAN 93 |\n\r+-------------------------------------------------+\n\r"
+  - keywords: sign
+    description: "The sign reads:\n\r   The Woodsman\n\r"
 - vnum: 3571
   name: North of the Inn
   description: "You are standing north of the inn. Things don't look much different\n\rfrom
@@ -1600,7 +1600,7 @@ rooms:
     sits\n\rin the air here. The Inn is often empty, as the forest has become overrun
     by\n\rgoblins as of late, and it is no longer safe in these parts. The bar is
     just\n\rnorth of here. If you'd rather have your own table, one is empty to the\n\rsouth.\n\r"
-  room_flags: 12
+  room_flags: CD
   sector: 1
   owner:
   exits:
@@ -1674,7 +1674,7 @@ rooms:
   description: "You are in a darker corner in the Inn.  A large round table with a
     few\n\rwooden chairs sits here.  There is a large stain on the table, the remnants\n\rof
     a spilled drink.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1704,7 +1704,7 @@ rooms:
   name: A Quieter Section of the Inn
   description: "There seems to be no one in this end of the Woodsman, probably a safe
     place\n\rto rest and lick your wounds ...\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:

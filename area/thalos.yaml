@@ -15,8 +15,8 @@ mobiles:
     atop the round body which can do anything from charm you\n\rto disintegrate you.
     \ Beholders are not known for their personality.\n\r"
   race: Human
-  act: 524450
-  affected_by: 8
+  act: BFHT
+  affected_by: D
   affected2_by: 0
   alignment: -870
   clan: 0
@@ -61,7 +61,7 @@ mobiles:
     the lower\n\rbody of a four-legged beast.  She licks her lips as she looks at
     you greedily.\n\r"
   race: Human
-  act: 524388
+  act: CFGT
   affected_by: 0
   affected2_by: 0
   alignment: -999
@@ -106,8 +106,8 @@ mobiles:
   description: "A strong, wooden chest bound with iron straps and a heavy pad-lock
     on the\n\rfront.\n\r"
   race: Human
-  act: 524518
-  affected_by: 32768
+  act: BCFGHT
+  affected_by: P
   affected2_by: 0
   alignment: 10
   clan: 0
@@ -150,8 +150,8 @@ mobiles:
   long_desc: "Two skeletons lie crushed under a large boulder.\n\r"
   description:
   race: Human
-  act: 524518
-  affected_by: 32768
+  act: BCFGHT
+  affected_by: P
   affected2_by: 0
   alignment: -10
   clan: 0
@@ -194,8 +194,8 @@ mobiles:
   long_desc: "The stone floor of this house has been ripped apart.\n\r"
   description:
   race: Human
-  act: 524518
-  affected_by: 32768
+  act: BCFGHT
+  affected_by: P
   affected2_by: 0
   alignment: -140
   clan: 0
@@ -238,8 +238,8 @@ mobiles:
   long_desc: "Some broken shards of pottery lie strewn about the floor.\n\r"
   description:
   race: Human
-  act: 524518
-  affected_by: 32768
+  act: BCFGHT
+  affected_by: P
   affected2_by: 0
   alignment: 200
   clan: 0
@@ -282,8 +282,8 @@ mobiles:
   long_desc: "A few wooden planks lie stacked on a low shelf.\n\r"
   description:
   race: Human
-  act: 524518
-  affected_by: 32768
+  act: BCFGHT
+  affected_by: P
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -326,7 +326,7 @@ mobiles:
   long_desc: "A small horned lizard flicks his tongue and slithers away.\n\r"
   description: "A cute little lizard, that is, if you like reptiles!\n\r"
   race: lizard
-  act: 524416
+  act: HT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -371,8 +371,8 @@ mobiles:
   description: "It is a big chunk of rock that has been magically formed into a giant\n\rstone
     creature. He stands here still guarding the city.\n\r"
   race: Human
-  act: 524290
-  affected_by: 8192
+  act: BT
+  affected_by: N
   affected2_by: 0
   alignment: 600
   clan: 0
@@ -416,8 +416,8 @@ objects:
   description: A vest made of mithril plates lies heaped on the floor.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 9
+  extra_flags: GK
+  wear_flags: AD
   level: 26
   weight: 30
   cost: 260
@@ -429,12 +429,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 1
-    modifier: 2
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 1
+    modifier: 2
     bitvector: 0
   extra_descs: []
 - vnum: 5201
@@ -443,8 +443,8 @@ objects:
   description: Here lies a large mithril helm.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 17
+  extra_flags: GK
+  wear_flags: AE
   level: 26
   weight: 10
   cost: 260
@@ -466,8 +466,8 @@ objects:
   description: A pair of mithril gauntlets rests on the ground.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 129
+  extra_flags: GK
+  wear_flags: AH
   level: 26
   weight: 10
   cost: 260
@@ -479,11 +479,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
+    location: 18
     modifier: 1
     bitvector: 0
   - where: O
-    location: 18
+    location: 19
     modifier: 1
     bitvector: 0
   extra_descs: []
@@ -493,8 +493,8 @@ objects:
   description: A set of mithril sleeves lies on the ground.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 257
+  extra_flags: GK
+  wear_flags: AI
   level: 26
   weight: 10
   cost: 260
@@ -506,11 +506,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
+    location: 18
     modifier: 1
     bitvector: 0
   - where: O
-    location: 18
+    location: 19
     modifier: 1
     bitvector: 0
   extra_descs: []
@@ -520,8 +520,8 @@ objects:
   description: A pair of mithril boots stands has been left here.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 65
+  extra_flags: GK
+  wear_flags: AG
   level: 26
   weight: 6
   cost: 260
@@ -533,11 +533,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 2
+    location: 18
     modifier: 1
     bitvector: 0
   - where: O
-    location: 18
+    location: 2
     modifier: 1
     bitvector: 0
   extra_descs: []
@@ -547,8 +547,8 @@ objects:
   description: A set of mithril leggings lie here unattended.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 33
+  extra_flags: GK
+  wear_flags: AF
   level: 26
   weight: 10
   cost: 260
@@ -560,11 +560,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 2
+    location: 18
     modifier: 1
     bitvector: 0
   - where: O
-    location: 18
+    location: 2
     modifier: 1
     bitvector: 0
   extra_descs: []
@@ -574,8 +574,8 @@ objects:
   description: A large iron girth lies at your feet.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 2049
+  extra_flags: GK
+  wear_flags: AL
   level: 26
   weight: 6
   cost: 260
@@ -598,7 +598,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 1
   weight: 125
   cost: 10
@@ -620,8 +620,8 @@ objects:
   description: A small, but sturdy, iron shield has been left here.
   material: none
   item_type: 9
-  extra_flags: 576
-  wear_flags: 513
+  extra_flags: GJ
+  wear_flags: AJ
   level: 25
   weight: 5
   cost: 250
@@ -633,11 +633,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 21
+    location: 20
     modifier: -2
     bitvector: 0
   - where: O
-    location: 20
+    location: 21
     modifier: -2
     bitvector: 0
   extra_descs: []
@@ -647,8 +647,8 @@ objects:
   description: A jet black potion sits upright waiting to be taken.
   material: none
   item_type: 10
-  extra_flags: 96
-  wear_flags: 1
+  extra_flags: FG
+  wear_flags: A
   level: 10
   weight: 5
   cost: 100
@@ -666,8 +666,8 @@ objects:
   description: A small orange potion lies here.
   material: none
   item_type: 10
-  extra_flags: 96
-  wear_flags: 1
+  extra_flags: FG
+  wear_flags: A
   level: 12
   weight: 10
   cost: 120
@@ -685,8 +685,8 @@ objects:
   description: A smooth quartz ball lies here gleaming.
   material: none
   item_type: 1
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 4
   weight: 30
   cost: 40
@@ -704,8 +704,8 @@ objects:
   description: A worn and tattered scroll has been left here.
   material: none
   item_type: 2
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 8
   weight: 15
   cost: 80
@@ -723,8 +723,8 @@ objects:
   description: A bound scroll of detection lies at your feet.
   material: none
   item_type: 2
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 8
   weight: 15
   cost: 80
@@ -742,8 +742,8 @@ objects:
   description: A brilliant silver flute glimmers from beneath a rock.
   material: none
   item_type: 4
-  extra_flags: 65
-  wear_flags: 16385
+  extra_flags: AG
+  wear_flags: AO
   level: 10
   weight: 6
   cost: 100
@@ -761,8 +761,8 @@ objects:
   description: A demon-faced talisman glares at you angrily.
   material: none
   item_type: 9
-  extra_flags: 65
-  wear_flags: 5
+  extra_flags: AG
+  wear_flags: AC
   level: 10
   weight: 11
   cost: 100
@@ -774,12 +774,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 2
-    modifier: -8
-    bitvector: 0
-  - where: O
     location: 1
     modifier: -10
+    bitvector: 0
+  - where: O
+    location: 2
+    modifier: -8
     bitvector: 0
   extra_descs: []
 - vnum: 5219
@@ -789,7 +789,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 8
   weight: 20
   cost: 80
@@ -826,8 +826,8 @@ objects:
   description: A nice two-handed sword hangs on a hook in the wall.
   material: none
   item_type: 5
-  extra_flags: 1088
-  wear_flags: 8193
+  extra_flags: GK
+  wear_flags: AN
   level: 26
   weight: 24
   cost: 260
@@ -839,12 +839,12 @@ objects:
   - 32
   affects:
   - where: O
-    location: 19
-    modifier: 3
-    bitvector: 0
-  - where: O
     location: 18
     modifier: 2
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 3
     bitvector: 0
   extra_descs: []
 - vnum: 5222
@@ -854,7 +854,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 1025
+  wear_flags: AK
   level: 10
   weight: 6
   cost: 100
@@ -876,8 +876,8 @@ objects:
   description: A beautiful dark green cloak has been dropped by someone.
   material: none
   item_type: 9
-  extra_flags: 576
-  wear_flags: 5
+  extra_flags: GJ
+  wear_flags: AC
   level: 21
   weight: 12
   cost: 210
@@ -900,7 +900,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 21
   weight: 2
   cost: 210
@@ -938,7 +938,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 26
   weight: 2
   cost: 260
@@ -976,7 +976,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 8
   weight: 20
   cost: 80
@@ -994,8 +994,8 @@ objects:
   description: A pale blue stone sits here.
   material: none
   item_type: 8
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 4
   weight: 10
   cost: 40
@@ -1017,8 +1017,8 @@ objects:
   description: A pretty scarlet and blue stone has been dropped here.
   material: none
   item_type: 8
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 10
   weight: 10
   cost: 100
@@ -1040,8 +1040,8 @@ objects:
   description: A small incandescent blue stone lies here.
   material: none
   item_type: 8
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 10
   weight: 10
   cost: 100
@@ -1063,8 +1063,8 @@ objects:
   description: Someone has left a deep red stone here.
   material: none
   item_type: 8
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 10
   weight: 10
   cost: 100
@@ -1086,8 +1086,8 @@ objects:
   description: A tiny pink stone lies at your feet.
   material: none
   item_type: 8
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 0
   weight: 10
   cost: 0
@@ -1109,8 +1109,8 @@ objects:
   description: This pearly white stone would probably sell for a good price.
   material: none
   item_type: 8
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 10
   weight: 10
   cost: 100
@@ -1132,8 +1132,8 @@ objects:
   description: A stunning lavender and green stone rests on the ground.
   material: none
   item_type: 8
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 10
   weight: 10
   cost: 100
@@ -1156,7 +1156,7 @@ objects:
   material: none
   item_type: 8
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 10
   weight: 10
   cost: 100
@@ -1174,8 +1174,8 @@ objects:
   description: A bright pink and green stone has been left here.
   material: none
   item_type: 8
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 10
   weight: 10
   cost: 100
@@ -1197,8 +1197,8 @@ objects:
   description: A odd clear stone lies at your feet.
   material: none
   item_type: 8
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 5
   weight: 10
   cost: 50
@@ -1220,8 +1220,8 @@ objects:
   description: A mandolin lies against the wall.
   material: none
   item_type: 4
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 10
   weight: 20
   cost: 100
@@ -1239,8 +1239,8 @@ objects:
   description: A battered golden harp has been tipped over.
   material: none
   item_type: 4
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 10
   weight: 100
   cost: 100
@@ -1258,8 +1258,8 @@ objects:
   description: A long slim dagger has been left here.
   material: none
   item_type: 5
-  extra_flags: 64
-  wear_flags: 8193
+  extra_flags: G
+  wear_flags: AN
   level: 10
   weight: 4
   cost: 100
@@ -1271,11 +1271,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
+    location: 18
     modifier: 1
     bitvector: 0
   - where: O
-    location: 18
+    location: 19
     modifier: 1
     bitvector: 0
   extra_descs: []
@@ -1285,7 +1285,7 @@ rooms:
   description: "You stand in the archway of a gigantic stone archway. The two\n\rsteel
     gates have been forced open and have rusted in place. A hollow\n\rgust of wind
     blows by you into the deserted, and seemingly destroyed,\n\rcity.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 1
   owner:
   exits:
@@ -1588,7 +1588,7 @@ rooms:
   - dir: 1
     desc: "A small doorway leads into a partially collapsed house.\n\r"
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 5244
   - dir: 2
@@ -1846,7 +1846,7 @@ rooms:
     and chairs have been smashed and broken weapons lie strewn about\n\rthe floor
     as if some massive battle had taken place here. Draped along\n\rthe back wall
     is a tattered, jet-black banner with the symbol of the\n\rDarkside set upon it.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1883,7 +1883,7 @@ rooms:
   description: "In here you find tools and anvils used to make various weapons\n\rand
     items. The walls have been stripped clean and only a few incomplete\n\rpieces
     of armor and weaponry are left.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1998,7 +1998,7 @@ rooms:
   description: "This was once a very plain house with nothing more than a few chairs\n\rand
     a bed. A cold fireplace suggests that the city has been abandoned\n\rfor quite
     a while. Almost nothing remains of this humble abode.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2051,7 +2051,7 @@ rooms:
   description: "From the outside this place looks like an ordinary pile of rubble,\n\rbut
     inside these cramped quarters you discover what used to be a shop\n\rfilled with
     armor, weapons, and various other goods. A small sign flutters\n\rin the wind.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2088,7 +2088,7 @@ rooms:
     of the valuable items have been taken, leaving worthless debris.\n\rA few chairs
     have survived, as well as a large curved desk. To the east\n\ris a vine-covered
     archway leading out into a private courtyard.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2112,7 +2112,7 @@ rooms:
     gaping hole in the west wall allows you to see out to one of\n\rthe city's side
     streets. Obviously no one will be seeing you through today.\n\rHallways lead south
     and east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2148,7 +2148,7 @@ rooms:
     fancy, though. The only thing remaining intact here is a large\n\rglass cabinet.
     A long hallway leads west back to the reception area and\n\ran ivy-covered archway
     leads south into a private courtyard.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2230,7 +2230,7 @@ rooms:
     building through yet another collapsed wall.\n\rBetween the two buildings are
     a few blast craters and boulders. An old\n\rset of wooden steps leads up to a
     creaking second floor.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2261,7 +2261,7 @@ rooms:
     broken shelves and workbenches with various vials and pouches spilling\n\rcontents
     all across the floor. This was possibly the magic shop of the\n\rcity. The doorway
     to the east is blocked, making the only exit back west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2350,7 +2350,7 @@ rooms:
     reasonable). Closer inspection of the water\n\ryields a dead body floating around
     in it, skin melted away from months\n\rof floating in there. The west wall has
     collapsed revealing another\n\rcollapsed house.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2401,7 +2401,7 @@ rooms:
   description: "This home is practically the only one around that is still standing.\n\rExcept
     for the massive hole in the east wall, everything else looks\n\rintact, including
     the windows. Great amounts of steam issue forth from\n\rthe hole in the east wall.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2423,7 +2423,7 @@ rooms:
   description: "The minute you step off onto this floor you realize it was a mistake.\n\rThe
     old rotted floorboards suddenly give way and you fall down, impaling\n\ryourself
     on jagged boards below.\n\r\n\rYou've fallen, and you can't get up!!!\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 1
   owner:
   exits: []
@@ -2485,7 +2485,7 @@ rooms:
     and roof, sending sunlight streaming in on\n\ryou. A few books lie about, conveying
     to you a holy message in a\n\rstrange tongue.\n\r     Wind gusts through the four
     archways and howls and screams can be\n\rheard from all parts of the city.\n\r"
-  room_flags: 136
+  room_flags: DH
   sector: 1
   owner:
   exits:
@@ -2778,7 +2778,7 @@ rooms:
   description: "You see a more dense foliage in these stunted trees.  The gloom caused\n\rby
     them is enhanced by a draft coming from all around.  The trail turns south\n\rfrom
     the west.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2800,7 +2800,7 @@ rooms:
   description: "You see a more dense foliage in these stunted trees.  The gloom caused\n\rby
     them is enhanced by a draft coming from all around.  The trail turns east\n\rfrom
     the north.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2822,7 +2822,7 @@ rooms:
   description: "You see a more dense foliage in these stunted trees.  The gloom caused\n\rby
     them is enhanced by a draft coming from all around.  The trail leads\n\reast and
     west.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2844,7 +2844,7 @@ rooms:
   description: "You see a more dense foliage in these stunted trees.  The gloom caused\n\rby
     them is enhanced by a draft coming from all around.  The trail leads\n\rdown into
     a valley and west.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2865,7 +2865,7 @@ rooms:
   name: A valley in the dark dwarf forest
   description: "You are in a valley in the dark dwarf forest.  Short black grass grows\n\raround
     you.  Trails lead in all directions.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2890,7 +2890,7 @@ rooms:
   - dir: 3
     desc: "You see a dark fox hole.\n\r"
     keywords: hole fox
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 5268
   - dir: 4
@@ -2905,14 +2905,14 @@ rooms:
   description: "You see a small cave.  Skeletons of many types of creatures litter
     the area.\n\rObviously, no fox lives here!  The oppression makes you want to leave
     and\n\rvomit.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
   - dir: 1
     desc: "You see the exit from here!\n\r"
     keywords: fox hole
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 5267
   - dir: 2
@@ -2930,7 +2930,7 @@ rooms:
   description: "You are in a small ugly cave.  More skeletons lie around.  It is obvious\n\rthat
     the owner doesn't want you here.  The exit north is still visible.\n\rSome writings
     are on this wall.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2947,17 +2947,17 @@ rooms:
     key: 0
     to_vnum: 5270
   extra_descs:
-  - keywords: skeleton skeletons
-    description: "Something is strange about these skeletons.  Upon further investigation,
-      these\n\rskeletons appear illusionary.\n\r"
   - keywords: writings writing words
     description: "This cave along with the valley and dwarf forest is made by Hatchet
       for any\n\rMerc Mud.\n\rcopyright 1992\n\r"
+  - keywords: skeleton skeletons
+    description: "Something is strange about these skeletons.  Upon further investigation,
+      these\n\rskeletons appear illusionary.\n\r"
 - vnum: 5270
   name: Down the path into a dead end
   description: "You are down the path.  There is no obvious exit in this place, exit
     the\n\rone back up north.  All around you, you see skeletons.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2970,7 +2970,7 @@ rooms:
   - dir: 5
     desc: "You see nothing on the floor except skeletons.\n\r"
     keywords: secret
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 5100
   extra_descs:
@@ -2982,7 +2982,7 @@ rooms:
   name: The Valley in the dark dwarf forest
   description: "You are in a valley in the forest.  To the north is a trail out of
     this\n\rdark valley.  South is more of this valley.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -3004,7 +3004,7 @@ rooms:
   description: "You are in a dim trail in the dwarf forest.  Not much light passes
     through\n\rhere.  To the south is a gloomy valley, while to the north the light
     grows\n\rbrighter.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -3206,7 +3206,7 @@ rooms:
     are\n\rfalling down the mountain.  (You reach out and grab and no, it IS only
     water.)\n\rIt looks so nice here, you feel like taking a nap.\n\rThe trail leads
     north and south.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 4
   owner:
   exits: []

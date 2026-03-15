@@ -16,8 +16,8 @@ mobiles:
     and calms \n\ryou as you watch him swoop in and out of the trees. His sharp canine
     teeth \n\rpoints out his love of meat. Obviously a member of the Phyllostomadae.\n\r\n\r\n\r"
   race: bat
-  act: 64
-  affected_by: 2097152
+  act: G
+  affected_by: V
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -41,16 +41,16 @@ mobiles:
     bash: -27
     slash: -27
     exotic: -20
-  off_flags: 8196
+  off_flags: CN
   imm_flags: 0
-  res_flags: 18512
-  vuln_flags: 16777220
+  res_flags: EGLO
+  vuln_flags: CY
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 200
-  form: 2101376
-  parts: 3162434
+  form: HMV
+  parts: BGIOUV
   size: M
   material: none
   spec_fun:
@@ -62,8 +62,8 @@ mobiles:
     long guant fingers have that aura of goodness and you feel comforted by his soft
     smile. \n\r\n\r"
   race: Human
-  act: 67108864
-  affected_by: 41130
+  act: a
+  affected_by: BDFHNP
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -88,14 +88,14 @@ mobiles:
     slash: 0
     exotic: 0
   off_flags: 0
-  imm_flags: 13
+  imm_flags: ACD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: 4
+  form: C
   parts: 0
   size: M
   material: none
@@ -109,8 +109,8 @@ mobiles:
     all day...  Everyday!  Oh well maybe someday you will have your very\n\rown...
     \ (they are very hard to come by!)  \n\r"
   race: Human
-  act: 67109122
-  affected_by: 262144
+  act: BIa
+  affected_by: S
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -155,8 +155,8 @@ mobiles:
     \n\rYou let him eat whatever he wants, which is good because he is a huge bat.
     \n\rI would be thankful that he is on your side.  \n\r"
   race: Human
-  act: 256
-  affected_by: 524840
+  act: I
+  affected_by: DFJT
   affected2_by: 0
   alignment: 200
   clan: 0
@@ -180,16 +180,16 @@ mobiles:
     bash: -10
     slash: -10
     exotic: -2
-  off_flags: 266408
-  imm_flags: 131072
-  res_flags: 8
-  vuln_flags: 16388
+  off_flags: DFHMS
+  imm_flags: R
+  res_flags: D
+  vuln_flags: CO
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 100
-  form: 4194304
-  parts: 16384
+  form: W
+  parts: O
   size: M
   material: none
   spec_fun:
@@ -201,8 +201,8 @@ mobiles:
     of the\n\rking himself.  Now he is dressed in tattered burned up clothes.  His
     nails\n\rare long and formidable although he doesn't look very aggressive.   \n\r"
   race: Human
-  act: 2
-  affected_by: 16777216
+  act: B
+  affected_by: Y
   affected2_by: 0
   alignment: -300
   clan: 0
@@ -226,10 +226,10 @@ mobiles:
     bash: -43
     slash: -40
     exotic: -10
-  off_flags: 8208
-  imm_flags: 67584
-  res_flags: 16
-  vuln_flags: 64
+  off_flags: EN
+  imm_flags: LQ
+  res_flags: E
+  vuln_flags: G
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -248,8 +248,8 @@ mobiles:
     muscular with long blonde hair.  They wear breastplates with crosses\n\ron them.
     \ They hold traditional swords as weapons and will fight to the\n\rdeath.   \n\r"
   race: Human
-  act: 2
-  affected_by: 2097192
+  act: B
+  affected_by: DFV
   affected2_by: 0
   alignment: -100
   clan: 0
@@ -273,10 +273,10 @@ mobiles:
     bash: -30
     slash: -30
     exotic: -10
-  off_flags: 524312
-  imm_flags: 65536
-  res_flags: 64
-  vuln_flags: 8192
+  off_flags: DET
+  imm_flags: Q
+  res_flags: G
+  vuln_flags: N
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -296,8 +296,8 @@ mobiles:
     \ You feel sorry for him until he readies his armor for yet\n\ranother battle.
     \  \n\r"
   race: Human
-  act: 2
-  affected_by: 1572992
+  act: B
+  affected_by: HTU
   affected2_by: 0
   alignment: -700
   clan: 0
@@ -321,15 +321,15 @@ mobiles:
     bash: -25
     slash: -30
     exotic: -1
-  off_flags: 8288
+  off_flags: FGN
   imm_flags: 0
-  res_flags: 67588
-  vuln_flags: 96
+  res_flags: CLQ
+  vuln_flags: FG
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 1000
-  form: 256
+  form: I
   parts: 0
   size: M
   material: none
@@ -342,8 +342,8 @@ mobiles:
     the\n\rgood folks that once lived here.  He can no longer understand what is going\n\ron.
     \ He is now a man without a mind...  A quivering vegetable if you will.  \n\r"
   race: Human
-  act: 2
-  affected_by: 20971520
+  act: B
+  affected_by: WY
   affected2_by: 0
   alignment: 500
   clan: 0
@@ -367,10 +367,10 @@ mobiles:
     bash: -40
     slash: -27
     exotic: -9
-  off_flags: 288
+  off_flags: FI
   imm_flags: 0
-  res_flags: 16
-  vuln_flags: 4
+  res_flags: E
+  vuln_flags: C
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -389,7 +389,7 @@ mobiles:
     he no long contols anything.  \n\r"
   race: Human
   act: 0
-  affected_by: 268435464
+  affected_by: Dc
   affected2_by: 0
   alignment: -145
   clan: 0
@@ -413,10 +413,10 @@ mobiles:
     bash: -36
     slash: -35
     exotic: -13
-  off_flags: 73728
-  imm_flags: 32
-  res_flags: 128
-  vuln_flags: 256
+  off_flags: NQ
+  imm_flags: F
+  res_flags: H
+  vuln_flags: I
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -433,8 +433,8 @@ mobiles:
   description: "This old man hates everyone who is not like him...  So he attacks.
     \ Born\n\rin the very olden days...  He is just awful!  \n\r"
   race: Human
-  act: 2
-  affected_by: 69208192
+  act: B
+  affected_by: HLVa
   affected2_by: 0
   alignment: -400
   clan: 0
@@ -458,10 +458,10 @@ mobiles:
     bash: -35
     slash: -35
     exotic: -10
-  off_flags: 288
+  off_flags: FI
   imm_flags: 0
-  res_flags: 73808
-  vuln_flags: 260
+  res_flags: EGNQ
+  vuln_flags: CI
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -480,8 +480,8 @@ mobiles:
     you wonder how long she has been here...  Her face is long and thin and\n\ryou
     think that she is transparent...  \n\r"
   race: Human
-  act: 268435522
-  affected_by: 520
+  act: BGc
+  affected_by: DJ
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -513,7 +513,7 @@ mobiles:
   default_pos: 8
   sex: 2
   gold: 2000000
-  form: 256
+  form: I
   parts: 0
   size: M
   material: none
@@ -527,8 +527,8 @@ mobiles:
     of\n\ryou as a thin guant creature of the night.  You feel sadness for this poor\n\rsoul,
     although his wears are still being made even now in his undead form.  \n\r"
   race: Human
-  act: 805306434
-  affected_by: 8
+  act: BGcd
+  affected_by: D
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -573,8 +573,8 @@ mobiles:
     \ He appears as a dog.  He appears to be many many things.  His\n\rmastery of
     this skill is unmatched.  \n\r"
   race: Human
-  act: 2
-  affected_by: 2687114
+  act: B
+  affected_by: BDHQTV
   affected2_by: 0
   alignment: -35
   clan: 0
@@ -598,10 +598,10 @@ mobiles:
     bash: -40
     slash: -40
     exotic: -15
-  off_flags: 8196
+  off_flags: CN
   imm_flags: 0
-  res_flags: 96
-  vuln_flags: 4
+  res_flags: FG
+  vuln_flags: C
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -621,8 +621,8 @@ mobiles:
     this powerful fighter with a silver sword also.  You approach this\n\rghostly
     adversary with caution.  \n\r-\n\r"
   race: Human
-  act: 16448
-  affected_by: 2097152
+  act: GO
+  affected_by: V
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -646,15 +646,15 @@ mobiles:
     bash: -30
     slash: -30
     exotic: -15
-  off_flags: 928
-  imm_flags: 212992
-  res_flags: 272
-  vuln_flags: 192
+  off_flags: FHIJ
+  imm_flags: OQR
+  res_flags: EI
+  vuln_flags: GH
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 7000
-  form: 258
+  form: BI
   parts: 0
   size: M
   material: none
@@ -667,8 +667,8 @@ mobiles:
     \ His\n\rlarge teeth are the basis of his attacks and his claws look formidable
     also.\n\r"
   race: snake
-  act: 2
-  affected_by: 128
+  act: B
+  affected_by: H
   affected2_by: 0
   alignment: -100
   clan: 0
@@ -692,10 +692,10 @@ mobiles:
     bash: -60
     slash: -60
     exotic: -60
-  off_flags: 4288
-  imm_flags: 8
+  off_flags: GHM
+  imm_flags: D
   res_flags: 0
-  vuln_flags: 12
+  vuln_flags: CD
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -714,7 +714,7 @@ mobiles:
     mark of\n\rGolden Dragon on it.  His face is grizzled and worn, as if he hs been
     in\n\rmore battles than days.  He has many nice wares to show you.  \n\r"
   race: Human
-  act: 536870914
+  act: Bd
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -762,8 +762,8 @@ mobiles:
     \ His face has many long gashes in it.  He attempts a weak smile as\n\ryou enter.
     \ \n\r"
   race: Human
-  act: 536870914
-  affected_by: 8
+  act: Bd
+  affected_by: D
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -810,7 +810,7 @@ mobiles:
     think\n\ra more suitable pet would be something with claws.  Anyway this little
     man\n\rsticks of manure.  \n\r"
   race: Human
-  act: 536871170
+  act: BId
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -857,8 +857,8 @@ mobiles:
     ground\n\rand her hands are soft and comforting.  Her smile reveals perfect white\n\rteeth
     and somewhat large canines.  Thus is the plight of the undead.   \n\r"
   race: Human
-  act: 2
-  affected_by: 301990440
+  act: B
+  affected_by: DFJZc
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -882,15 +882,15 @@ mobiles:
     bash: -36
     slash: -40
     exotic: -15
-  off_flags: 8484
-  imm_flags: 83971
+  off_flags: CFIN
+  imm_flags: ABLOQ
   res_flags: 0
-  vuln_flags: 8192
+  vuln_flags: N
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 5000
-  form: 256
+  form: I
   parts: 0
   size: M
   material: none
@@ -904,8 +904,8 @@ mobiles:
     Battle plate.  A man sworn to protect...  The bodyguard is a\n\rforce to be reckoned
     with.    \n\r"
   race: Human
-  act: 2
-  affected_by: 2097192
+  act: B
+  affected_by: DFV
   affected2_by: 0
   alignment: -300
   clan: 0
@@ -929,10 +929,10 @@ mobiles:
     bash: -40
     slash: -40
     exotic: -20
-  off_flags: 1122320
-  imm_flags: 96
-  res_flags: 65536
-  vuln_flags: 8832
+  off_flags: ENQU
+  imm_flags: FG
+  res_flags: Q
+  vuln_flags: HJN
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -949,8 +949,8 @@ mobiles:
   description: "This poor soul is halfway in between a bat and a vampire.  It flaps\n\rhere
     and hovers here not really any one form...  It seems to be stuck.  \n\r"
   race: Human
-  act: 66
-  affected_by: 1074266112
+  act: BG
+  affected_by: Te
   affected2_by: 0
   alignment: -500
   clan: 0
@@ -974,10 +974,10 @@ mobiles:
     bash: -20
     slash: -35
     exotic: -10
-  off_flags: 2097284
-  imm_flags: 67840
+  off_flags: CHV
+  imm_flags: ILQ
   res_flags: 0
-  vuln_flags: 128
+  vuln_flags: H
   start_pos: 8
   default_pos: 8
   sex: 2
@@ -995,8 +995,8 @@ mobiles:
     and a\n\rlook...  A look that says...  DO NOT MESS WITH ME!!!  An extremely tough\n\rman...
     \  \n\r"
   race: Human
-  act: 2
-  affected_by: 2097192
+  act: B
+  affected_by: DFV
   affected2_by: 0
   alignment: -300
   clan: 0
@@ -1020,10 +1020,10 @@ mobiles:
     bash: -50
     slash: -50
     exotic: -15
-  off_flags: 1115280
-  imm_flags: 4
-  res_flags: 65536
-  vuln_flags: 64
+  off_flags: EHKQU
+  imm_flags: C
+  res_flags: Q
+  vuln_flags: G
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -1043,8 +1043,8 @@ mobiles:
     \ Although old and probrably just reincarnated from the dead... \n\rThe King will
     ALWAYS be a formidable enemy.   \n\r"
   race: Human
-  act: 2
-  affected_by: 69238952
+  act: B
+  affected_by: DFHPVa
   affected2_by: 0
   alignment: -300
   clan: 0
@@ -1068,10 +1068,10 @@ mobiles:
     bash: -60
     slash: -60
     exotic: -25
-  off_flags: 2183568
-  imm_flags: 73744
-  res_flags: 64
-  vuln_flags: 512
+  off_flags: EHIMOQV
+  imm_flags: ENQ
+  res_flags: G
+  vuln_flags: J
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -1091,7 +1091,7 @@ mobiles:
     proud to be in his presence.  \n\r"
   race: Human
   act: 0
-  affected_by: 268436480
+  affected_by: Kc
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -1115,15 +1115,15 @@ mobiles:
     bash: -45
     slash: -30
     exotic: -20
-  off_flags: 525824
-  imm_flags: 187137
-  res_flags: 2048
-  vuln_flags: 1216
+  off_flags: JKT
+  imm_flags: AIJLMOPR
+  res_flags: L
+  vuln_flags: GHK
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 100
-  form: 256
+  form: I
   parts: 0
   size: M
   material: none
@@ -1138,7 +1138,7 @@ mobiles:
     If I had the opportunity.  \n\r"
   race: Human
   act: 0
-  affected_by: 2654216
+  affected_by: DPTV
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -1162,16 +1162,16 @@ mobiles:
     bash: -20
     slash: -20
     exotic: -10
-  off_flags: 4480
-  imm_flags: 33792
-  res_flags: 16
-  vuln_flags: 50331776
+  off_flags: HIM
+  imm_flags: KP
+  res_flags: E
+  vuln_flags: HYZ
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 1000
-  form: 260
-  parts: 16384
+  form: CI
+  parts: O
   size: M
   material: none
   spec_fun:
@@ -1183,7 +1183,7 @@ mobiles:
     is\n\rthe nature of the undead...  \n\r"
   race: Human
   act: 0
-  affected_by: 2097152
+  affected_by: V
   affected2_by: 0
   alignment: -100
   clan: 0
@@ -1207,9 +1207,9 @@ mobiles:
     bash: -40
     slash: -40
     exotic: -15
-  off_flags: 4
+  off_flags: C
   imm_flags: 0
-  res_flags: 64
+  res_flags: G
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -1230,7 +1230,7 @@ mobiles:
     quite good shape considering...   \n\r"
   race: Human
   act: 0
-  affected_by: 303038464
+  affected_by: UZc
   affected2_by: 0
   alignment: -950
   clan: 0
@@ -1254,15 +1254,15 @@ mobiles:
     bash: -40
     slash: -50
     exotic: -15
-  off_flags: 8320
-  imm_flags: 131072
-  res_flags: 38912
-  vuln_flags: 9216
+  off_flags: HN
+  imm_flags: R
+  res_flags: LMP
+  vuln_flags: KN
   start_pos: 8
   default_pos: 8
   sex: 2
   gold: 3000
-  form: 256
+  form: I
   parts: 0
   size: M
   material: none
@@ -1276,8 +1276,8 @@ mobiles:
     the time\n\rof his roam was a long long time before now.  He is wearing a long
     black\n\rsuit with a top hat...  A very well dressed man.  \n\r"
   race: Human
-  act: 131074
-  affected_by: 73728
+  act: BR
+  affected_by: NQ
   affected2_by: 0
   alignment: -950
   clan: 0
@@ -1301,15 +1301,15 @@ mobiles:
     bash: -30
     slash: -25
     exotic: 0
-  off_flags: 1280
-  imm_flags: 65536
-  res_flags: 8
-  vuln_flags: 4
+  off_flags: IK
+  imm_flags: Q
+  res_flags: D
+  vuln_flags: C
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 2000
-  form: 256
+  form: I
   parts: 0
   size: M
   material: none
@@ -1323,8 +1323,8 @@ mobiles:
     anyone\n\ror anything could hurt a man with a voice as pure and melodious as his.
     \n\rYour thoughts are swept away into the night...   \n\r"
   race: Human
-  act: 81922
-  affected_by: 128
+  act: BOQ
+  affected_by: H
   affected2_by: 0
   alignment: 100
   clan: 0
@@ -1348,10 +1348,10 @@ mobiles:
     bash: -30
     slash: -40
     exotic: -3
-  off_flags: 36
-  imm_flags: 73728
-  res_flags: 256
-  vuln_flags: 36864
+  off_flags: CF
+  imm_flags: NQ
+  res_flags: I
+  vuln_flags: MP
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -1371,8 +1371,8 @@ mobiles:
     and his breath is hort even for someone who is transparent...  He is\n\robviously
     dead.  \n\r"
   race: Human
-  act: 16450
-  affected_by: 2097152
+  act: BGO
+  affected_by: V
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -1396,15 +1396,15 @@ mobiles:
     bash: -40
     slash: -40
     exotic: -10
-  off_flags: 160
-  imm_flags: 3
-  res_flags: 33088
-  vuln_flags: 36
+  off_flags: FH
+  imm_flags: AB
+  res_flags: GIP
+  vuln_flags: CF
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 1000
-  form: 260
+  form: CI
   parts: 0
   size: M
   material: none
@@ -1420,8 +1420,8 @@ mobiles:
     the weaponsmith.  Zorvax is the essense of everything that is pure\n\rand good,
     and his power shows it.  \n\r"
   race: Human
-  act: 194
-  affected_by: 69206664
+  act: BGH
+  affected_by: DHJVa
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1445,10 +1445,10 @@ mobiles:
     bash: -25
     slash: -25
     exotic: -10
-  off_flags: 10668
-  imm_flags: 7
-  res_flags: 64
-  vuln_flags: 36
+  off_flags: CDFHILN
+  imm_flags: ABC
+  res_flags: G
+  vuln_flags: CF
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -1467,8 +1467,8 @@ mobiles:
     hurt you but of course you don't know everytihing.  , Anyway just\n\rmake sure
     you are ready for the beast before you go charging in there.   \n\r"
   race: Human
-  act: 2
-  affected_by: 2097152
+  act: B
+  affected_by: V
   affected2_by: 0
   alignment: -10000
   clan: 0
@@ -1493,9 +1493,9 @@ mobiles:
     slash: -20
     exotic: -15
   off_flags: 0
-  imm_flags: 4
-  res_flags: 2048
-  vuln_flags: 8
+  imm_flags: C
+  res_flags: L
+  vuln_flags: D
   start_pos: 8
   default_pos: 8
   sex: 0
@@ -1516,8 +1516,8 @@ mobiles:
     and you wonder if you even have a chance here.  Perhaps you should just\n\rflee...
     \ No point in worrying about this now.   \n\r"
   race: lizard
-  act: 34
-  affected_by: 336142506
+  act: BF
+  affected_by: BDFHNQTac
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -1541,16 +1541,16 @@ mobiles:
     bash: -40
     slash: -40
     exotic: -20
-  off_flags: 29957
-  imm_flags: 13824
-  res_flags: 8
-  vuln_flags: 4
+  off_flags: ACIKMNO
+  imm_flags: JKMN
+  res_flags: D
+  vuln_flags: C
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 9000
   form: 0
-  parts: 32770
+  parts: BP
   size: H
   material: none
   spec_fun:
@@ -1564,8 +1564,8 @@ mobiles:
     \ You can't see the other side of him although you don't want to get\n\ranywhere
     near that huge mouth, full of sharp teeth.   \n\r"
   race: Human
-  act: 2
-  affected_by: 2097280
+  act: B
+  affected_by: HV
   affected2_by: 0
   alignment: -500
   clan: 0
@@ -1589,15 +1589,15 @@ mobiles:
     bash: -60
     slash: -36
     exotic: -20
-  off_flags: 4360
-  imm_flags: 11
-  res_flags: 4
+  off_flags: DIM
+  imm_flags: ABD
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 3000
-  form: 8388608
+  form: X
   parts: 0
   size: M
   material: none
@@ -1611,7 +1611,7 @@ mobiles:
     is\n\rhis occupation.  \n\r"
   race: Human
   act: 0
-  affected_by: 128
+  affected_by: H
   affected2_by: 0
   alignment: -230
   clan: 0
@@ -1635,10 +1635,10 @@ mobiles:
     bash: -20
     slash: -15
     exotic: -10
-  off_flags: 9868
-  imm_flags: 65536
-  res_flags: 4
-  vuln_flags: 80
+  off_flags: CDHJKN
+  imm_flags: Q
+  res_flags: C
+  vuln_flags: EG
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -1654,8 +1654,8 @@ mobiles:
   long_desc: "A Palace Royal guard stops you here.\n\r"
   description: "These are the palaces royal guards. They are not to be messed with.\n\r"
   race: Human
-  act: 2
-  affected_by: 2097280
+  act: B
+  affected_by: HV
   affected2_by: 0
   alignment: -10
   clan: 0
@@ -1679,10 +1679,10 @@ mobiles:
     bash: -50
     slash: -50
     exotic: -20
-  off_flags: 550160
-  imm_flags: 32
-  res_flags: 4
-  vuln_flags: 144
+  off_flags: EIKNOT
+  imm_flags: F
+  res_flags: C
+  vuln_flags: EH
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -1702,8 +1702,8 @@ mobiles:
     they\n\rshould be.  This woman got killed in the melee but i think down deep the\n\rVampire
     Lord is mad that she got killed.   \n\r"
   race: Human
-  act: 32
-  affected_by: 2097152
+  act: F
+  affected_by: V
   affected2_by: 0
   alignment: -200
   clan: 0
@@ -1727,10 +1727,10 @@ mobiles:
     bash: -20
     slash: -30
     exotic: -20
-  off_flags: 8196
-  imm_flags: 4
+  off_flags: CN
+  imm_flags: C
   res_flags: 0
-  vuln_flags: 64
+  vuln_flags: G
   start_pos: 8
   default_pos: 8
   sex: 2
@@ -1748,8 +1748,8 @@ mobiles:
     designed to deal lots of damage quickly although they aren't too tough. \n\rThey
     have long fangs and breath fire.   \n\r"
   race: bat
-  act: 34
-  affected_by: 2097280
+  act: BF
+  affected_by: HV
   affected2_by: 0
   alignment: -900
   clan: 0
@@ -1773,10 +1773,10 @@ mobiles:
     bash: -18
     slash: -15
     exotic: -2
-  off_flags: 17
-  imm_flags: 66048
-  res_flags: 16
-  vuln_flags: 8192
+  off_flags: AE
+  imm_flags: JQ
+  res_flags: E
+  vuln_flags: N
   start_pos: 8
   default_pos: 8
   sex: 2
@@ -1796,8 +1796,8 @@ mobiles:
     lord and his minions killed all the people in Sengir...  No one is\n\rreally alive
     all just ghosts...   \n\r"
   race: Human
-  act: 34
-  affected_by: 2622088
+  act: BF
+  affected_by: DHJTV
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -1821,10 +1821,10 @@ mobiles:
     bash: -80
     slash: -80
     exotic: -20
-  off_flags: 9663
-  imm_flags: 461315
-  res_flags: 80
-  vuln_flags: 8192
+  off_flags: ABCDEFHIKN
+  imm_flags: ABJLQRS
+  res_flags: EG
+  vuln_flags: N
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -1843,8 +1843,8 @@ mobiles:
     \n\rHis face is grim and he looks about shaking his head in disbelief.  It\n\rdoesn't
     look like the armies of the undead have found him yet...  If they\n\rdo...   \n\r"
   race: Human
-  act: 2
-  affected_by: 2097320
+  act: B
+  affected_by: DFHV
   affected2_by: 0
   alignment: 650
   clan: 0
@@ -1868,10 +1868,10 @@ mobiles:
     bash: -30
     slash: -30
     exotic: -10
-  off_flags: 8197
-  imm_flags: 8192
-  res_flags: 65536
-  vuln_flags: 4096
+  off_flags: ACN
+  imm_flags: N
+  res_flags: Q
+  vuln_flags: M
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -1888,8 +1888,8 @@ mobiles:
   description: "This is the royal mage.  He stands here conjuring various things.
     \ He\n\ris strong and very old.  You think twice about messing with him.   \n\r"
   race: Human
-  act: 2
-  affected_by: 2097280
+  act: B
+  affected_by: HV
   affected2_by: 0
   alignment: 200
   clan: 0
@@ -1913,10 +1913,10 @@ mobiles:
     bash: -50
     slash: -50
     exotic: -20
-  off_flags: 8196
-  imm_flags: 4
+  off_flags: CN
+  imm_flags: C
   res_flags: 0
-  vuln_flags: 96
+  vuln_flags: FG
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -1935,8 +1935,8 @@ mobiles:
     well\n\rmade with a high back and gold inlays.  She truely is magnificent and
     well\n\rloved.   \n\r"
   race: Human
-  act: 2
-  affected_by: 2097280
+  act: B
+  affected_by: HV
   affected2_by: 0
   alignment: 250
   clan: 0
@@ -1960,10 +1960,10 @@ mobiles:
     bash: -40
     slash: -40
     exotic: -20
-  off_flags: 2105348
-  imm_flags: 3
-  res_flags: 64
-  vuln_flags: 16
+  off_flags: CNV
+  imm_flags: AB
+  res_flags: G
+  vuln_flags: E
   start_pos: 8
   default_pos: 8
   sex: 2
@@ -1980,8 +1980,8 @@ objects:
   description: If you find this better sac it or else Kaitlin would be mad!
   material: none
   item_type: 5
-  extra_flags: 37088
-  wear_flags: -8191
+  extra_flags: FGHMP
+  wear_flags: ANOPQRSTUVWXYZabcdef
   level: 93
   weight: 1
   cost: 0
@@ -1993,11 +1993,7 @@ objects:
   - -99
   affects:
   - where: O
-    location: 5
-    modifier: 10
-    bitvector: 0
-  - where: O
-    location: 4
+    location: 1
     modifier: 10
     bitvector: 0
   - where: O
@@ -2005,7 +2001,11 @@ objects:
     modifier: 10
     bitvector: 0
   - where: O
-    location: 1
+    location: 4
+    modifier: 10
+    bitvector: 0
+  - where: O
+    location: 5
     modifier: 10
     bitvector: 0
   extra_descs: []
@@ -2017,7 +2017,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 40
   weight: 0
   cost: 200
@@ -2036,7 +2036,7 @@ objects:
   material: none
   item_type: 13
   extra_flags: 0
-  wear_flags: 129
+  wear_flags: AH
   level: 93
   weight: 0
   cost: 0
@@ -2054,8 +2054,8 @@ objects:
   description: There are bits of edible flesh lying here.
   material: none
   item_type: 19
-  extra_flags: 2
-  wear_flags: 1
+  extra_flags: B
+  wear_flags: A
   level: 60
   weight: 0
   cost: 10
@@ -2074,7 +2074,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 60
   weight: 10
   cost: 1000
@@ -2092,7 +2092,7 @@ objects:
   description: There is a small washbasin with clean water in it
   material: none
   item_type: 25
-  extra_flags: 1
+  extra_flags: A
   wear_flags: 0
   level: 1
   weight: 1000
@@ -2111,8 +2111,8 @@ objects:
   description: A Key to the Inner Sanctum sits here.
   material: none
   item_type: 18
-  extra_flags: 196609
-  wear_flags: 1
+  extra_flags: AQR
+  wear_flags: A
   level: 70
   weight: 100
   cost: 10
@@ -2130,8 +2130,8 @@ objects:
   description: A Royal Sword rests here.
   material: none
   item_type: 5
-  extra_flags: 1
-  wear_flags: 8193
+  extra_flags: A
+  wear_flags: AN
   level: 80
   weight: 10
   cost: 10000
@@ -2149,8 +2149,8 @@ objects:
   description: Royal Field Plate sits here.
   material: none
   item_type: 9
-  extra_flags: 1
-  wear_flags: 9
+  extra_flags: A
+  wear_flags: AD
   level: 80
   weight: 35
   cost: 40000
@@ -2162,16 +2162,16 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: 10
+    location: 17
+    modifier: -20
     bitvector: 0
   - where: O
     location: 18
     modifier: 10
     bitvector: 0
   - where: O
-    location: 17
-    modifier: -20
+    location: 19
+    modifier: 10
     bitvector: 0
   extra_descs: []
 - vnum: 20144
@@ -2180,8 +2180,8 @@ objects:
   description: A torn shepard's cloak lies in a heap here.
   material: none
   item_type: 9
-  extra_flags: 1
-  wear_flags: 5
+  extra_flags: A
+  wear_flags: AC
   level: 60
   weight: 2
   cost: 1000
@@ -2193,16 +2193,16 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: -15
+    location: 1
+    modifier: 2
     bitvector: 0
   - where: O
     location: 18
     modifier: 30
     bitvector: 0
   - where: O
-    location: 1
-    modifier: 2
+    location: 19
+    modifier: -15
     bitvector: 0
   extra_descs: []
 - vnum: 20145
@@ -2212,7 +2212,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 60
   weight: 10
   cost: 10
@@ -2224,12 +2224,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 20
-    bitvector: 0
-  - where: O
     location: 1
     modifier: 2
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 20
     bitvector: 0
   extra_descs: []
 - vnum: 20146
@@ -2238,8 +2238,8 @@ objects:
   description: An Ancient's Shield of the Ages glows here.
   material: none
   item_type: 9
-  extra_flags: 3
-  wear_flags: 513
+  extra_flags: AB
+  wear_flags: AJ
   level: 75
   weight: 175
   cost: 10000
@@ -2251,12 +2251,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 13
-    modifier: 50
-    bitvector: 0
-  - where: O
     location: 12
     modifier: 65
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 50
     bitvector: 0
   extra_descs: []
 - vnum: 20147
@@ -2265,8 +2265,8 @@ objects:
   description: An Ancient's Whip of Egos is coiled here.
   material: none
   item_type: 5
-  extra_flags: 1
-  wear_flags: 8193
+  extra_flags: A
+  wear_flags: AN
   level: 72
   weight: 20
   cost: 5000
@@ -2278,12 +2278,12 @@ objects:
   - 24
   affects:
   - where: O
-    location: 18
-    modifier: 20
-    bitvector: 0
-  - where: O
     location: 19
     modifier: -5
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 20
     bitvector: 0
   extra_descs: []
 - vnum: 20148
@@ -2292,8 +2292,8 @@ objects:
   description: A small candle burns and flickers here.
   material: none
   item_type: 1
-  extra_flags: 257
-  wear_flags: 1
+  extra_flags: AI
+  wear_flags: A
   level: 20
   weight: 10
   cost: 10
@@ -2305,16 +2305,16 @@ objects:
   - 0
   affects:
   - where: O
-    location: 4
-    modifier: 2
+    location: 18
+    modifier: 1
     bitvector: 0
   - where: O
     location: 17
     modifier: -5
     bitvector: 0
   - where: O
-    location: 18
-    modifier: 1
+    location: 4
+    modifier: 2
     bitvector: 0
   extra_descs: []
 - vnum: 20152
@@ -2324,7 +2324,7 @@ objects:
   material: none
   item_type: 10
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 40
   weight: 1
   cost: 600
@@ -2343,7 +2343,7 @@ objects:
   material: none
   item_type: 10
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 70
   weight: 20
   cost: 20000
@@ -2361,8 +2361,8 @@ objects:
   description: A Light of the Undead illuminates the room.
   material: none
   item_type: 1
-  extra_flags: 1
-  wear_flags: 16385
+  extra_flags: A
+  wear_flags: AO
   level: 70
   weight: 15
   cost: 50000
@@ -2374,16 +2374,16 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: 14
+    location: 17
+    modifier: -20
     bitvector: 0
   - where: O
     location: 1
     modifier: 2
     bitvector: 0
   - where: O
-    location: 17
-    modifier: -20
+    location: 19
+    modifier: 14
     bitvector: 0
   extra_descs: []
 - vnum: 20155
@@ -2392,8 +2392,8 @@ objects:
   description: The Shroud of a Ghost floats here.
   material: none
   item_type: 9
-  extra_flags: 97
-  wear_flags: 5
+  extra_flags: AFG
+  wear_flags: AC
   level: 75
   weight: 35
   cost: 800000
@@ -2405,16 +2405,16 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: 10
+    location: 18
+    modifier: 3
     bitvector: 0
   - where: O
     location: 4
     modifier: 1
     bitvector: 0
   - where: O
-    location: 18
-    modifier: 3
+    location: 19
+    modifier: 10
     bitvector: 0
   extra_descs: []
 - vnum: 20156
@@ -2423,8 +2423,8 @@ objects:
   description: The Master Illusionist's Belt of Magic is curled up here.
   material: none
   item_type: 9
-  extra_flags: 3
-  wear_flags: 1025
+  extra_flags: AB
+  wear_flags: AK
   level: 78
   weight: 1
   cost: 10000
@@ -2436,20 +2436,20 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: -5
-    bitvector: 0
-  - where: O
-    location: 19
-    modifier: -5
+    location: 12
+    modifier: 250
     bitvector: 0
   - where: O
     location: 4
     modifier: 3
     bitvector: 0
   - where: O
-    location: 12
-    modifier: 250
+    location: 19
+    modifier: -5
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: -5
     bitvector: 0
   extra_descs: []
 - vnum: 20157
@@ -2458,8 +2458,8 @@ objects:
   description: A Black Long Sword is resting here.
   material: none
   item_type: 5
-  extra_flags: 1
-  wear_flags: 8193
+  extra_flags: A
+  wear_flags: AN
   level: 65
   weight: 10
   cost: 100000
@@ -2471,12 +2471,12 @@ objects:
   - 4
   affects:
   - where: O
-    location: 18
-    modifier: -5
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 20
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: -5
     bitvector: 0
   extra_descs: []
 - vnum: 20158
@@ -2485,8 +2485,8 @@ objects:
   description: A Silver Breastplate with a Golden Dragon Insignia is here
   material: none
   item_type: 9
-  extra_flags: 2305
-  wear_flags: 9
+  extra_flags: AIL
+  wear_flags: AD
   level: 80
   weight: 30
   cost: 2000
@@ -2508,8 +2508,8 @@ objects:
   description: A Silver Sword with a Golden Dragon Insignia rests here.
   material: none
   item_type: 5
-  extra_flags: 257
-  wear_flags: 8193
+  extra_flags: AI
+  wear_flags: AN
   level: 70
   weight: 10
   cost: 10000
@@ -2521,12 +2521,12 @@ objects:
   - 24
   affects:
   - where: O
-    location: 19
-    modifier: 10
-    bitvector: 0
-  - where: O
     location: 18
     modifier: 12
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 10
     bitvector: 0
   extra_descs: []
 - vnum: 20160
@@ -2536,7 +2536,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 70
   weight: 20
   cost: 150000
@@ -2548,12 +2548,12 @@ objects:
   - 8
   affects:
   - where: O
-    location: 5
-    modifier: 3
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 20
+    bitvector: 0
+  - where: O
+    location: 5
+    modifier: 3
     bitvector: 0
   extra_descs: []
 - vnum: 20164
@@ -2562,8 +2562,8 @@ objects:
   description: A Suit of Royal Battle Plate Mail rests here.
   material: none
   item_type: 9
-  extra_flags: 3
-  wear_flags: 9
+  extra_flags: AB
+  wear_flags: AD
   level: 85
   weight: 50
   cost: 1000
@@ -2575,20 +2575,20 @@ objects:
   - 0
   affects:
   - where: O
-    location: 13
-    modifier: 100
-    bitvector: 0
-  - where: O
-    location: 12
-    modifier: 100
+    location: 19
+    modifier: -5
     bitvector: 0
   - where: O
     location: 18
     modifier: 2
     bitvector: 0
   - where: O
-    location: 19
-    modifier: -5
+    location: 12
+    modifier: 100
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 100
     bitvector: 0
   extra_descs: []
 - vnum: 20166
@@ -2597,8 +2597,8 @@ objects:
   description: A Royal Polearm glows softly here.
   material: none
   item_type: 5
-  extra_flags: 3
-  wear_flags: 8193
+  extra_flags: AB
+  wear_flags: AN
   level: 85
   weight: 25
   cost: 15000
@@ -2610,11 +2610,11 @@ objects:
   - 8
   affects:
   - where: O
-    location: 18
+    location: 19
     modifier: 12
     bitvector: 0
   - where: O
-    location: 19
+    location: 18
     modifier: 12
     bitvector: 0
   extra_descs: []
@@ -2624,8 +2624,8 @@ objects:
   description: The King of Sengir's Mace rests here.
   material: none
   item_type: 5
-  extra_flags: 258
-  wear_flags: 8193
+  extra_flags: BI
+  wear_flags: AN
   level: 86
   weight: 40
   cost: 25000
@@ -2637,12 +2637,12 @@ objects:
   - 133
   affects:
   - where: O
-    location: 18
-    modifier: 20
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 25
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 20
     bitvector: 0
   extra_descs: []
 - vnum: 20176
@@ -2652,7 +2652,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 70
   weight: 1
   cost: 1000
@@ -2670,7 +2670,7 @@ objects:
   description: Sengir Square Fountain pours clean water here.
   material: none
   item_type: 25
-  extra_flags: 16641
+  extra_flags: AIO
   wear_flags: 0
   level: 1
   weight: 10
@@ -2689,8 +2689,8 @@ objects:
   description: A Key to the Table sits here.
   material: none
   item_type: 18
-  extra_flags: 229472
-  wear_flags: 1
+  extra_flags: FGPQR
+  wear_flags: A
   level: 80
   weight: 1
   cost: 1
@@ -2708,8 +2708,8 @@ objects:
   description: Kaitlin's Long White Robes
   material: none
   item_type: 9
-  extra_flags: 32
-  wear_flags: 9
+  extra_flags: F
+  wear_flags: AD
   level: 95
   weight: 0
   cost: 0
@@ -2721,11 +2721,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
+    location: 18
     modifier: 300
     bitvector: 0
   - where: O
-    location: 18
+    location: 19
     modifier: 300
     bitvector: 0
   extra_descs: []
@@ -2735,7 +2735,7 @@ objects:
   description: A beautiful table made of an dark wood is here.
   material: none
   item_type: 15
-  extra_flags: 64
+  extra_flags: G
   wear_flags: 0
   level: 100
   weight: 10000
@@ -2754,8 +2754,8 @@ objects:
   description: A Finely Made Mug is here.
   material: none
   item_type: 3
-  extra_flags: 32800
-  wear_flags: 1
+  extra_flags: FP
+  wear_flags: A
   level: 80
   weight: 20
   cost: 2000
@@ -2773,8 +2773,8 @@ objects:
   description: A large meat clever is here.
   material: none
   item_type: 5
-  extra_flags: 257
-  wear_flags: 24576
+  extra_flags: AI
+  wear_flags: NO
   level: 85
   weight: 10
   cost: 1000
@@ -2792,8 +2792,8 @@ objects:
   description: A Silver Breastplate with a Golden Cross is lying here.
   material: none
   item_type: 9
-  extra_flags: 257
-  wear_flags: 9
+  extra_flags: AI
+  wear_flags: AD
   level: 90
   weight: 25
   cost: 20000
@@ -2805,11 +2805,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 13
+    location: 12
     modifier: 100
     bitvector: 0
   - where: O
-    location: 12
+    location: 13
     modifier: 100
     bitvector: 0
   extra_descs: []
@@ -2819,8 +2819,8 @@ objects:
   description: A White Blade with a Golden Cross is here.
   material: none
   item_type: 5
-  extra_flags: 3393
-  wear_flags: 8193
+  extra_flags: AGIKL
+  wear_flags: AN
   level: 90
   weight: 2
   cost: 15000
@@ -2838,8 +2838,8 @@ objects:
   description: A Glowing key with a Beast on it is here.
   material: none
   item_type: 18
-  extra_flags: 164163
-  wear_flags: 16385
+  extra_flags: ABGIPR
+  wear_flags: AO
   level: 90
   weight: 1
   cost: 10000
@@ -2851,12 +2851,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 13
-    modifier: 200
-    bitvector: 0
-  - where: O
     location: 5
     modifier: 8
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 200
     bitvector: 0
   extra_descs: []
 - vnum: 20217
@@ -2865,8 +2865,8 @@ objects:
   description: The Creatures Tail sits here.
   material: none
   item_type: 9
-  extra_flags: 257
-  wear_flags: 2049
+  extra_flags: AI
+  wear_flags: AL
   level: 73
   weight: 8
   cost: 1000
@@ -2878,16 +2878,16 @@ objects:
   - 0
   affects:
   - where: O
-    location: 17
-    modifier: -5
+    location: 5
+    modifier: 2
     bitvector: 0
   - where: O
     location: 18
     modifier: -2
     bitvector: 0
   - where: O
-    location: 5
-    modifier: 2
+    location: 17
+    modifier: -5
     bitvector: 0
   extra_descs: []
 - vnum: 20224
@@ -2896,8 +2896,8 @@ objects:
   description: A Juggler's ball bounces here magically.
   material: none
   item_type: 5
-  extra_flags: 259
-  wear_flags: 8193
+  extra_flags: ABI
+  wear_flags: AN
   level: 75
   weight: 1
   cost: 1000
@@ -2919,8 +2919,8 @@ objects:
   description: A Palace Gate Key sits here.
   material: none
   item_type: 18
-  extra_flags: 1
-  wear_flags: 1
+  extra_flags: A
+  wear_flags: A
   level: 60
   weight: 10
   cost: 1
@@ -2938,8 +2938,8 @@ objects:
   description: A Long Broom with the handle shapened...sits here.
   material: none
   item_type: 5
-  extra_flags: 1
-  wear_flags: 8193
+  extra_flags: A
+  wear_flags: AN
   level: 70
   weight: 2
   cost: 10
@@ -2951,16 +2951,16 @@ objects:
   - 16
   affects:
   - where: O
-    location: 18
-    modifier: 20
+    location: 4
+    modifier: -2
     bitvector: 0
   - where: O
     location: 19
     modifier: -5
     bitvector: 0
   - where: O
-    location: 4
-    modifier: -2
+    location: 18
+    modifier: 20
     bitvector: 0
   extra_descs: []
 - vnum: 20245
@@ -2969,8 +2969,8 @@ objects:
   description: The Burning Carcass of a Bat sits here.
   material: none
   item_type: 1
-  extra_flags: 1
-  wear_flags: 1
+  extra_flags: A
+  wear_flags: A
   level: 80
   weight: 5
   cost: 1000
@@ -2982,12 +2982,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: 10
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -20
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 10
     bitvector: 0
   extra_descs: []
 - vnum: 20246
@@ -2997,7 +2997,7 @@ objects:
   material: none
   item_type: 10
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 80
   weight: 2
   cost: 10
@@ -3016,7 +3016,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 4097
+  wear_flags: AM
   level: 85
   weight: 1
   cost: 1000
@@ -3028,12 +3028,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: 10
-    bitvector: 0
-  - where: O
     location: 13
     modifier: 100
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 10
     bitvector: 0
   extra_descs: []
 - vnum: 20277
@@ -3042,8 +3042,8 @@ objects:
   description: Jameson's Blade just hangs here in mid-air.
   material: none
   item_type: 5
-  extra_flags: 1
-  wear_flags: 8193
+  extra_flags: A
+  wear_flags: AN
   level: 90
   weight: 0
   cost: 1000
@@ -3080,8 +3080,8 @@ objects:
   description: A paper thin set of armplates sits here in a heap.
   material: none
   item_type: 9
-  extra_flags: 1
-  wear_flags: 257
+  extra_flags: A
+  wear_flags: AI
   level: 90
   weight: 0
   cost: 2000
@@ -3093,11 +3093,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 1
+    location: 2
     modifier: 3
     bitvector: 0
   - where: O
-    location: 2
+    location: 1
     modifier: 3
     bitvector: 0
   extra_descs: []
@@ -3107,8 +3107,8 @@ objects:
   description: The Queen's dress sits here in a heap.
   material: none
   item_type: 9
-  extra_flags: 1
-  wear_flags: 9
+  extra_flags: A
+  wear_flags: AD
   level: 90
   weight: 1
   cost: 100
@@ -3120,11 +3120,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 12
+    location: 13
     modifier: 100
     bitvector: 0
   - where: O
-    location: 13
+    location: 12
     modifier: 100
     bitvector: 0
   extra_descs: []
@@ -3134,8 +3134,8 @@ objects:
   description: The Queen's Staff lays on the ground here.
   material: none
   item_type: 5
-  extra_flags: 1
-  wear_flags: 8193
+  extra_flags: A
+  wear_flags: AN
   level: 90
   weight: 3
   cost: 1000
@@ -3155,7 +3155,7 @@ rooms:
     \n\rAs you pick your way through the underbrush, the drawbridge opens and a\n\rrider
     passes over it, heading for a small path off to your right. \n\rFortunately, he
     didn't see you.  \n\r"
-  room_flags: 4
+  room_flags: C
   sector: 3
   owner:
   exits: []
@@ -3206,7 +3206,7 @@ rooms:
   - dir: 1
     desc:
     keywords:
-    exit_flags: 35
+    exit_flags: ABF
     key: 0
     to_vnum: 20103
   - dir: 2
@@ -3223,14 +3223,14 @@ rooms:
     as black, flying creatures..  The air almost feels warmer here as if\n\rthere
     is someone wathing over you.  There is a bed here offering a safe\n\rplace to
     sleep.   \n\r"
-  room_flags: 1028
+  room_flags: CK
   sector: 0
   owner:
   exits:
   - dir: 3
     desc:
     keywords:
-    exit_flags: 35
+    exit_flags: ABF
     key: 0
     to_vnum: 20102
   extra_descs:
@@ -3246,7 +3246,7 @@ rooms:
     only a short distance away.  You want to turn around but you trek\n\ronward...
     \ The wall is now in front of you...  The cold gray stone extend to\n\rthe east
     and west.  The walls end in high towers on both sides.   \n\r"
-  room_flags: 4
+  room_flags: C
   sector: 4
   owner:
   exits:
@@ -3290,7 +3290,7 @@ rooms:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 20102
     to_vnum: 20106
   - dir: 1
@@ -3339,7 +3339,7 @@ rooms:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20105
   - dir: 3
@@ -3419,7 +3419,7 @@ rooms:
   - dir: 5
     desc:
     keywords:
-    exit_flags: 33
+    exit_flags: AF
     key: 0
     to_vnum: 20110
   extra_descs: []
@@ -3459,7 +3459,7 @@ rooms:
   - dir: 4
     desc:
     keywords:
-    exit_flags: 33
+    exit_flags: AF
     key: 0
     to_vnum: 20108
   extra_descs: []
@@ -3506,7 +3506,7 @@ rooms:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20113
   - dir: 1
@@ -3540,7 +3540,7 @@ rooms:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20112
   extra_descs: []
@@ -3556,7 +3556,7 @@ rooms:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20115
   - dir: 1
@@ -3586,13 +3586,13 @@ rooms:
   - dir: 1
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20116
   - dir: 2
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20114
   extra_descs: []
@@ -3610,7 +3610,7 @@ rooms:
   - dir: 3
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20115
   extra_descs: []
@@ -3663,7 +3663,7 @@ rooms:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20119
   - dir: 1
@@ -3692,7 +3692,7 @@ rooms:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20118
   extra_descs: []
@@ -3969,7 +3969,7 @@ rooms:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20132
   - dir: 1
@@ -3998,7 +3998,7 @@ rooms:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20131
   extra_descs: []
@@ -4117,7 +4117,7 @@ rooms:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 31
+    exit_flags: ABCDE
     key: 20135
     to_vnum: 20139
   - dir: 1
@@ -4171,7 +4171,7 @@ rooms:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 31
+    exit_flags: ABCDE
     key: 0
     to_vnum: 20137
   extra_descs: []
@@ -4240,7 +4240,7 @@ rooms:
     beside the door is empty as is the stand for the guard's armor.\n\rThere is a
     door leading to the east which you suppose is a place where the\n\rguards sleep.
     \ To the west is the castle gate, which stands open.   \n\r"
-  room_flags: 4
+  room_flags: C
   sector: 0
   owner:
   exits:
@@ -4257,25 +4257,14 @@ rooms:
     key: 0
     to_vnum: 20140
   extra_descs:
-  - keywords: table
-    description: "The table is covered in books and documents you should look at.
-      \ \n\r"
-  - keywords: book
-    description: "This is a record of all the wars that took place in this castle
-      up\n\runtil the castle was overtaken a couple of weeks into the war.  The books\n\rare
-      in great condition and it seems that whoever took the castle either\n\rwanted
-      these records to be seen or they didn't know what they were. \n\rNevertheless
-      these books are very interesting even if not valuable.  You are\n\rquite sure
-      that they are safer here than on your person so you leave them\n\rhere.  \n\r"
-  - keywords: books
-    description: "This is a record of all the wars that took place in this castle
-      up\n\runtil the castle was overtaken a couple of weeks into the war.  The books\n\rare
-      in great condition and it seems that whoever took the castle either\n\rwanted
-      these records to be seen or they didn't know what they were. \n\rNevertheless
-      these books are very interesting even if not valuable.  You are\n\rquite sure
-      that they are safer here than on your person so you leave them\n\rhere.  \n\r"
-  - keywords: record
-    description:
+  - keywords: documents
+    description: "These are the official papers of the castle.  These were the names
+      and\n\rranks of the fallen soldiers.  There is little left on them that you
+      can\n\rread for they have been stained with a thick coating of blood.   \n\r"
+  - keywords: document
+    description: "These are the official papers of the castle.  These were the names
+      and\n\rranks of the fallen soldiers.  There is little left on them that you
+      can\n\rread for they have been stained with a thick coating of blood.   \n\r"
   - keywords: record
     description: "Log of the Month of Futility\n\r1st-Small Raid on Castle 3 human
       casualties 12 enemy casualties(orc)\n\r6th-Large raid 24 human casualties 83
@@ -4287,14 +4276,25 @@ rooms:
       442 known enemy casualties...(zombies)\n\rComments: The raids are coming more
       and more frequently. I am not afraid to die but I fear for my life. I hope the
       best for the castle and for Lord Sengir. God bless all that protect it.\n\r"
-  - keywords: document
-    description: "These are the official papers of the castle.  These were the names
-      and\n\rranks of the fallen soldiers.  There is little left on them that you
-      can\n\rread for they have been stained with a thick coating of blood.   \n\r"
-  - keywords: documents
-    description: "These are the official papers of the castle.  These were the names
-      and\n\rranks of the fallen soldiers.  There is little left on them that you
-      can\n\rread for they have been stained with a thick coating of blood.   \n\r"
+  - keywords: record
+    description:
+  - keywords: books
+    description: "This is a record of all the wars that took place in this castle
+      up\n\runtil the castle was overtaken a couple of weeks into the war.  The books\n\rare
+      in great condition and it seems that whoever took the castle either\n\rwanted
+      these records to be seen or they didn't know what they were. \n\rNevertheless
+      these books are very interesting even if not valuable.  You are\n\rquite sure
+      that they are safer here than on your person so you leave them\n\rhere.  \n\r"
+  - keywords: book
+    description: "This is a record of all the wars that took place in this castle
+      up\n\runtil the castle was overtaken a couple of weeks into the war.  The books\n\rare
+      in great condition and it seems that whoever took the castle either\n\rwanted
+      these records to be seen or they didn't know what they were. \n\rNevertheless
+      these books are very interesting even if not valuable.  You are\n\rquite sure
+      that they are safer here than on your person so you leave them\n\rhere.  \n\r"
+  - keywords: table
+    description: "The table is covered in books and documents you should look at.
+      \ \n\r"
 - vnum: 20143
   name: Guard Sleeping Quarters
   description: "This is where the guards sleep when they are not on duty.  You are\n\rquite
@@ -4413,7 +4413,7 @@ rooms:
   - dir: 1
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20148
   - dir: 2
@@ -4438,7 +4438,7 @@ rooms:
   - dir: 3
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20147
   - dir: 4
@@ -4577,7 +4577,7 @@ rooms:
   - dir: 4
     desc:
     keywords:
-    exit_flags: 35
+    exit_flags: ABF
     key: 0
     to_vnum: 20155
   extra_descs:
@@ -4621,7 +4621,7 @@ rooms:
   - dir: 5
     desc:
     keywords:
-    exit_flags: 35
+    exit_flags: ABF
     key: 0
     to_vnum: 20153
   extra_descs: []
@@ -4701,7 +4701,7 @@ rooms:
   - dir: 3
     desc:
     keywords:
-    exit_flags: 35
+    exit_flags: ABF
     key: 0
     to_vnum: 20159
   extra_descs:
@@ -4714,21 +4714,21 @@ rooms:
     here. \n\rIt is hidden in a tiny little niche in the wall.  Oh well you can still
     buy\n\ra pet from here.  There may be a nice one for you to use.  It is always
     nice\n\rto have a companion.  \n\r"
-  room_flags: 4096
+  room_flags: M
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords:
-    exit_flags: 35
+    exit_flags: ABF
     key: 0
     to_vnum: 20158
   extra_descs: []
 - vnum: 20160
   name: Pet Storeroom :)
   description:
-  room_flags: 1057796
+  room_flags: CKNU
   sector: 0
   owner:
   exits: []
@@ -4753,7 +4753,7 @@ rooms:
   - dir: 1
     desc:
     keywords:
-    exit_flags: 7
+    exit_flags: ABC
     key: 20102
     to_vnum: 20163
   - dir: 2
@@ -4765,20 +4765,20 @@ rooms:
   - dir: 3
     desc:
     keywords:
-    exit_flags: 7
+    exit_flags: ABC
     key: 20102
     to_vnum: 20162
   extra_descs:
-  - keywords: signs
-    description: "These houses belong to the rich of the town.  You could gain access
-      to a\n\rtour if you had a key...  You notice a small insignia on the sign that\n\rresembles
-      a key with a skull engraved on it.  You wonder what could be\n\rhidden behind
-      such thick doors...  \n\r"
   - keywords: sign
     description: "These houses belong to the rich of the town.  You could gain access
       to a\n\rtour...  If you had a key.  You notice a small insignia on the sign
       that\n\rresembles a key with a skull engraved on it.  You wonder what could
       be\n\rhidden behind such thick doors.  \n\r"
+  - keywords: signs
+    description: "These houses belong to the rich of the town.  You could gain access
+      to a\n\rtour if you had a key...  You notice a small insignia on the sign that\n\rresembles
+      a key with a skull engraved on it.  You wonder what could be\n\rhidden behind
+      such thick doors...  \n\r"
 - vnum: 20162
   name: Sengir Noble House
   description: "Although quite similar to the house across the street in size and\n\rappearance,
@@ -4793,7 +4793,7 @@ rooms:
   - dir: 1
     desc:
     keywords:
-    exit_flags: 7
+    exit_flags: ABC
     key: 0
     to_vnum: 20161
   extra_descs: []
@@ -4812,7 +4812,7 @@ rooms:
   - dir: 3
     desc:
     keywords:
-    exit_flags: 7
+    exit_flags: ABC
     key: 0
     to_vnum: 20161
   - dir: 4
@@ -5098,7 +5098,7 @@ rooms:
     of\n\rthe tower.  The stairs lead up to the top and down to the courtyard.  You\n\rare
     most surprised by the thick boards that make up the battlements to the\n\rsouth
     and the east.  This small room has nothing else of interest.   \n\r"
-  room_flags: 4
+  room_flags: C
   sector: 0
   owner:
   exits:
@@ -5239,7 +5239,7 @@ rooms:
   description: "This is just another floor in the Tower.  The battlements lead to
     the\n\reast and to the south.  There is one little table covered in paper here.
     \n\rOther than that there is nothing of any interest here.   \n\r"
-  room_flags: 4
+  room_flags: C
   sector: 0
   owner:
   exits:
@@ -5295,7 +5295,7 @@ rooms:
   description: "This is the second level of the NE tower.  There is nothing here of\n\rinterest.
     \ The hard gray stone floor is covered in dust.  There are stairs\n\rleading up
     and down.  The battlements lead to the other towers of the\n\rcastle.   \n\r"
-  room_flags: 4
+  room_flags: C
   sector: 0
   owner:
   exits:
@@ -5408,7 +5408,7 @@ rooms:
     or\n\reast and the Central courtyard is to the west.  A small alleyway leads to\n\rthe
     north.  You feel like just curling up and having a nap on this soft\n\rground.
     \  \n\r"
-  room_flags: 1024
+  room_flags: K
   sector: 0
   owner:
   exits:
@@ -5437,13 +5437,13 @@ rooms:
     key: 0
     to_vnum: 20150
   extra_descs:
-  - keywords: grass
-    description: "You don't find anything of interest but maybe this is a safe place
-      to\n\rrest.  \n\r"
-  - keywords: grass
-    description: "You don't find anything of interest but maybe this is a safe place
-      to\n\rrest.  \n\r"
   - keywords: green
+    description: "You don't find anything of interest but maybe this is a safe place
+      to\n\rrest.  \n\r"
+  - keywords: grass
+    description: "You don't find anything of interest but maybe this is a safe place
+      to\n\rrest.  \n\r"
+  - keywords: grass
     description: "You don't find anything of interest but maybe this is a safe place
       to\n\rrest.  \n\r"
 - vnum: 20191
@@ -5543,18 +5543,18 @@ rooms:
     key: 0
     to_vnum: 20210
   extra_descs:
-  - keywords: rubble
-    description: "Amongst the rubble you see a large hole which goes into what seems
-      to\n\rhave been the foundation.  You are quite sure that something large lives\n\rdown
-      there.  \n\r"
-  - keywords: cut
-    description: "These cuts were made by the talons of a large flying creature landing
-      in\n\rthe soft ground.  You are sure that this creature was carrying something
-      to\n\reat...  And this was NOT his first hunting trip.  \n\r"
   - keywords: cuts
     description: "These cuts were made by the talons of a large flying creature landing
       in\n\rthe soft ground.  You are sure that this creature was carrying something
       to\n\reat...  And this was NOT his first hunting trip.  \n\r"
+  - keywords: cut
+    description: "These cuts were made by the talons of a large flying creature landing
+      in\n\rthe soft ground.  You are sure that this creature was carrying something
+      to\n\reat...  And this was NOT his first hunting trip.  \n\r"
+  - keywords: rubble
+    description: "Amongst the rubble you see a large hole which goes into what seems
+      to\n\rhave been the foundation.  You are quite sure that something large lives\n\rdown
+      there.  \n\r"
 - vnum: 20194
   name: Western Sengir Square
   description: "The famous Innes street is to the west, starting the area where the\n\rnobles
@@ -5606,7 +5606,7 @@ rooms:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20207
   - dir: 1
@@ -5624,7 +5624,7 @@ rooms:
   - dir: 3
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20206
   extra_descs: []
@@ -5696,7 +5696,7 @@ rooms:
     key: 0
     to_vnum: 20196
   extra_descs:
-  - keywords: innes
+  - keywords: street
     description: "This was once a beautiful inn.  There were originally three levels
       with\n\rmany immaculate rooms.  Now there are two levels and you are not sure
       if you\n\rwould stay here for any amount of money.  \n\r"
@@ -5704,7 +5704,7 @@ rooms:
     description: "This was once a beautiful inn.  There were originally three levels
       with\n\rmany immaculate rooms.  Now there are two levels and you are not sure
       if you\n\rwould stay here for any amount of money.  \n\r"
-  - keywords: street
+  - keywords: innes
     description: "This was once a beautiful inn.  There were originally three levels
       with\n\rmany immaculate rooms.  Now there are two levels and you are not sure
       if you\n\rwould stay here for any amount of money.  \n\r"
@@ -5745,14 +5745,14 @@ rooms:
     key: 0
     to_vnum: 20200
   extra_descs:
-  - keywords: weapon
-    description: "There are bunches of broken weapons here, none of value though.\n\r"
-  - keywords: weapons
-    description: "There are bunches of broken weapons here, none of value though.\n\r"
   - keywords: grass
     description: "This is a tall grass that grows here very well.  The direct sunlight
       here\n\ron the east allows it to grow at remarkable rates.  The roots are a
       dull\n\rred color.  \n\r"
+  - keywords: weapons
+    description: "There are bunches of broken weapons here, none of value though.\n\r"
+  - keywords: weapon
+    description: "There are bunches of broken weapons here, none of value though.\n\r"
 - vnum: 20199
   name: Southeastern Sengir Square
   description: "A small hole was dug here by a large creature.  It isn't nearly as
@@ -5833,7 +5833,7 @@ rooms:
     examine the hard floor and see that there was once a carpet\n\rthat covered the
     entire floor.  The commonroom is to the east through a\n\rgrand archway.  There
     is a small office to the north, behind the desk.   \n\r"
-  room_flags: 4
+  room_flags: C
   sector: 0
   owner:
   exits:
@@ -5859,11 +5859,11 @@ rooms:
   - keywords: tapestries
     description: "These once priceless tapestries are still beyond value but someone
       will\n\rhave to clean them up.  Other than that there is little of interest.
-      \ \n\r"
+      \  \n\r"
   - keywords: tapestries
     description: "These once priceless tapestries are still beyond value but someone
       will\n\rhave to clean them up.  Other than that there is little of interest.
-      \  \n\r"
+      \ \n\r"
 - vnum: 20202
   name: The Small Office of the Innes Street Inn.
   description: "This was the administrative area of the Inn.  There is a desk that
@@ -5910,11 +5910,11 @@ rooms:
     key: 0
     to_vnum: 20201
   extra_descs:
-  - keywords: table
+  - keywords: tables
     description: "These tables are made of a fine hardwood found only on an island\n\rthousands
       of miles away.  The mugs which the beer is in is made of a fine\n\rbone china
       and you are sure the mugs alone are worth thousands.  \n\r"
-  - keywords: tables
+  - keywords: table
     description: "These tables are made of a fine hardwood found only on an island\n\rthousands
       of miles away.  The mugs which the beer is in is made of a fine\n\rbone china
       and you are sure the mugs alone are worth thousands.  \n\r"
@@ -5966,9 +5966,9 @@ rooms:
     key: 0
     to_vnum: 20204
   extra_descs:
-  - keywords: nightmare
-    description: "Who wants to feel bad about eating human flesh?\n\r"
   - keywords: nightmares
+    description: "Who wants to feel bad about eating human flesh?\n\r"
+  - keywords: nightmare
     description: "Who wants to feel bad about eating human flesh?\n\r"
 - vnum: 20206
   name: Small Shack
@@ -5977,14 +5977,14 @@ rooms:
     this place feels safe.  The room has a large circle in it and there\n\ris a strange
     symbol in the circle.  You feel very powerful wards in this\n\rroom.  And for
     some reason they are of a good nature.   \n\r"
-  room_flags: 1028
+  room_flags: CK
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20195
   extra_descs: []
@@ -6003,7 +6003,7 @@ rooms:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20195
   extra_descs: []
@@ -6061,7 +6061,7 @@ rooms:
     \n\rYou are not sure that you want to meet something as big as the beast that\n\rscratched
     a cave like this.  There is 8 feets worth of clearance to the\n\rceiling and there
     are 10-12 feet between walls.  The path leads to the\n\rnorth.  \n\r"
-  room_flags: 4
+  room_flags: C
   sector: 0
   owner:
   exits:
@@ -6113,7 +6113,7 @@ rooms:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20213
   - dir: 2
@@ -6139,13 +6139,13 @@ rooms:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 31
+    exit_flags: ABCDE
     key: 20214
     to_vnum: 20214
   - dir: 2
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20212
   extra_descs:
@@ -6167,7 +6167,7 @@ rooms:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 31
+    exit_flags: ABCDE
     key: 20214
     to_vnum: 20213
   extra_descs: []
@@ -6306,13 +6306,13 @@ rooms:
     key: 0
     to_vnum: 20219
   extra_descs:
-  - keywords: grass
-    description: "There is a large patch of a bluish grass here although there isn't\n\ranything
-      of interest in it.   \n\r"
   - keywords: pond
     description: "The pond is small with little waterfowl flapping around all near
       it. \n\rThe small pond is also full of fish, although you don't think that you
       want\n\rto fish here.   \n\r"
+  - keywords: grass
+    description: "There is a large patch of a bluish grass here although there isn't\n\ranything
+      of interest in it.   \n\r"
 - vnum: 20221
   name: Corner of Winkle and Innes Streets
   description: "The famous Innes Street starts here and extends to the east.  To the\n\rwest
@@ -6442,7 +6442,7 @@ rooms:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 31
+    exit_flags: ABCDE
     key: 20225
     to_vnum: 20226
   - dir: 2
@@ -6472,7 +6472,7 @@ rooms:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 31
+    exit_flags: ABCDE
     key: 20225
     to_vnum: 20225
   extra_descs: []
@@ -6506,7 +6506,7 @@ rooms:
     here leading up out of sight.  The floor is clean and polished as is\n\reverything
     in sight.  To the north leads some guest bedrooms as does the\n\rhall to the south.
     \  \n\r"
-  room_flags: 8192
+  room_flags: N
   sector: 0
   owner:
   exits:
@@ -6534,7 +6534,7 @@ rooms:
   description: "A small hallway that leads fron the center tower to the northern\n\rhallway.
     \ There isn't anything of interest in this walkway although the\n\rcenter tower
     strangely pulls you toward it...   \n\r"
-  room_flags: 8192
+  room_flags: N
   sector: 0
   owner:
   exits:
@@ -6557,7 +6557,7 @@ rooms:
     leading down and a archway to the north.  The room is clean and\n\rthere is a
     small window looking out over the castle proper.  Other than the\n\rwindow there
     isn't much of interest.   \n\r"
-  room_flags: 8192
+  room_flags: N
   sector: 0
   owner:
   exits:
@@ -6579,7 +6579,7 @@ rooms:
   description: "Another room in the center tower.  This room has an archway to the\n\rsouth
     and to the east.  There isn't anything of interest here though.  The\n\rfloor
     and walls are slightly worn but other than that nothing.   \n\r"
-  room_flags: 8192
+  room_flags: N
   sector: 0
   owner:
   exits:
@@ -6603,7 +6603,7 @@ rooms:
     scorched here and there are blood stains across a good part of the\n\rground.
     \ To the south is an archway leading to a starwell up and to the west\n\ris an
     archway leading to another room.   \n\r"
-  room_flags: 8192
+  room_flags: N
   sector: 0
   owner:
   exits:
@@ -6627,7 +6627,7 @@ rooms:
     you are in now is in moderate condition with a small sofa that\n\rserved as a
     landing comfort.  The floor is uncovered although it is clean\n\rhowever cold.
     \  \n\r"
-  room_flags: 8192
+  room_flags: N
   sector: 0
   owner:
   exits:
@@ -6651,7 +6651,7 @@ rooms:
     castle.  There isn't as much fog when looking from here as there\n\rwas below.
     \ To the north is a small archway leading to another small room. \n\rThe floors
     here are clean stone as are the walls.  \n\r"
-  room_flags: 8192
+  room_flags: N
   sector: 0
   owner:
   exits:
@@ -6674,14 +6674,14 @@ rooms:
     \n\rThe walls and floors are uncovered stone with interesting work done within\n\rthe
     stone itself.  There is a small archway to the south leading to the\n\rstairwell
     down.  To the east is a door leading to another room.   \n\r"
-  room_flags: 8192
+  room_flags: N
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20236
   - dir: 2
@@ -6699,7 +6699,7 @@ rooms:
     painted a dull black color.  To the east is a door leading\n\rinto another room.
     \ To the south is an archway leading to another room...  A\n\rroom with a stairwell.
     \  \n\r"
-  room_flags: 8192
+  room_flags: N
   sector: 0
   owner:
   exits:
@@ -6712,7 +6712,7 @@ rooms:
   - dir: 3
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20235
   extra_descs: []
@@ -6723,7 +6723,7 @@ rooms:
     was once a small sofa sitting here but now it has been\n\rreduced into ash.  To
     the north is a small room also painted black.  There\n\ris a spiral stairwell
     leading up into another set of rooms...  Much closer\n\rto the royal suite.   \n\r"
-  room_flags: 8192
+  room_flags: N
   sector: 0
   owner:
   exits:
@@ -6747,7 +6747,7 @@ rooms:
     is\n\ra stairwell that leads down into the second level of the tower.  To the\n\rnorth
     is another small room that looks to be well decorated.  You can sense\n\revil
     here...  A bit stronger.   \n\r"
-  room_flags: 8192
+  room_flags: N
   sector: 0
   owner:
   exits:
@@ -6771,7 +6771,7 @@ rooms:
     something flapping loudly outside but you can't see anything.  To the\n\reast
     is an archway leading to another room.  To the south is the stairwell\n\rleading
     down into another level of rooms.   \n\r"
-  room_flags: 8192
+  room_flags: N
   sector: 0
   owner:
   exits:
@@ -6795,14 +6795,14 @@ rooms:
     tomes in addition to the large library on the main floor of the\n\rpalace.  To
     the south is a door which is large and painted black.  To the\n\rwest is a small
     archway which leads to another room.   \n\r"
-  room_flags: 8192
+  room_flags: N
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20241
   - dir: 3
@@ -6818,14 +6818,14 @@ rooms:
     up\n\rout of sight.  There is a small door leading north although you are pretty\n\rsure
     it is not locked.  There are curtains around a blacked out window and\n\ryou can
     see small blood stains on the curtains.   \n\r"
-  room_flags: 8192
+  room_flags: N
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20240
   - dir: 4
@@ -6843,7 +6843,7 @@ rooms:
     the object.  There is also a small drum and a few bells here\n\rtoo.  To the north
     is another room and there is a small spiral stairwell\n\rleading down to the third
     level.   \n\r"
-  room_flags: 8192
+  room_flags: N
   sector: 0
   owner:
   exits:
@@ -6866,7 +6866,7 @@ rooms:
     is a pile of shields lying here.  There are two beds here although\n\rthey do
     not have any linens on them now.  To the east is another room and\n\ryou can see
     a stairwell to the south.   \n\r"
-  room_flags: 8192
+  room_flags: N
   sector: 0
   owner:
   exits:
@@ -6889,7 +6889,7 @@ rooms:
     entire floor and the walls are scorched also.  You can sense great evil\n\rwas
     here...  And not too long ago.  To the south is another stairwell\n\rleading up
     and to the west is another guard room.   \n\r"
-  room_flags: 8192
+  room_flags: N
   sector: 0
   owner:
   exits:
@@ -6913,7 +6913,7 @@ rooms:
     this room of interest except for the chill you get as you enter the room.\n\rA
     small trapdoor leads up to the next level and to the north is another\n\rroom.
     \  \n\r"
-  room_flags: 8192
+  room_flags: N
   sector: 0
   owner:
   exits:
@@ -6926,7 +6926,7 @@ rooms:
   - dir: 4
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20246
   extra_descs: []
@@ -6936,20 +6936,20 @@ rooms:
     on\n\rthe cause but you know that many things have died at the hand of what is\n\rdirectly
     above you.  The room you are in has nothing except the stairs... \n\rBut you are
     scared...  So scared of what is above you.   \n\r"
-  room_flags: 8192
+  room_flags: N
   sector: 0
   owner:
   exits:
   - dir: 4
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20247
   - dir: 5
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20245
   extra_descs: []
@@ -6960,20 +6960,20 @@ rooms:
     that only the strongest and most powerful beings should antagonize. \n\rNot just
     one person should attack either...  Many many people should go on. \n\rYou can
     flee down or continue on above but either way you still feel the\n\revil.   \n\r"
-  room_flags: 8193
+  room_flags: AN
   sector: 0
   owner:
   exits:
   - dir: 4
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20248
   - dir: 5
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20246
   extra_descs: []
@@ -6985,14 +6985,14 @@ rooms:
     \n\rYou can see nothing but you feel something here...  Actually not\n\rsomething...
     \ Somethings...  You have just walked into a room of vampires...\n\rAnd their
     leader...!   \n\r"
-  room_flags: 8193
+  room_flags: AN
   sector: 0
   owner:
   exits:
   - dir: 5
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 20247
   extra_descs: []
@@ -7183,7 +7183,7 @@ rooms:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 35
+    exit_flags: ABF
     key: 0
     to_vnum: 20265
   - dir: 1
@@ -7377,7 +7377,7 @@ rooms:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 35
+    exit_flags: ABF
     key: 0
     to_vnum: 20256
   extra_descs: []
@@ -7669,7 +7669,7 @@ rooms:
     and\n\rend up here.  You are not sure where here is but you know that the\n\rpassageway
     you just came through is no longer open.  The painting swung back\n\rand sealed
     itself leaving nowhere to go but into the darkness...  To the\n\rnorth.   \n\r"
-  room_flags: 5
+  room_flags: AC
   sector: 0
   owner:
   exits:

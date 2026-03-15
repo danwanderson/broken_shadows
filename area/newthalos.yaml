@@ -13,8 +13,8 @@ mobiles:
   long_desc: "Your guildmaster stands here.\n\r"
   description: "An old man peering through ancient tomes rests here.\n\r"
   race: Human
-  act: 136447490
-  affected_by: 40
+  act: BJKRVb
+  affected_by: DF
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -38,8 +38,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 8352
-  imm_flags: 15
+  off_flags: FHN
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -57,8 +57,8 @@ mobiles:
   long_desc: "Your guildmaster stands here.\n\r"
   description: "An older man wrapped in purple, long-flowing robes meditates here.\n\r"
   race: Human
-  act: 136381954
-  affected_by: 168
+  act: BJKQVb
+  affected_by: DFH
   affected2_by: 0
   alignment: 250
   clan: 0
@@ -82,8 +82,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 1392
-  imm_flags: 15
+  off_flags: EFGIK
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -102,8 +102,8 @@ mobiles:
   description: "A smaller man dressed in nothing but a tunic stands here waiting to
     train you.\n\r"
   race: Human
-  act: 136840706
-  affected_by: 40
+  act: BJKTVb
+  affected_by: DF
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -127,8 +127,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 1461
-  imm_flags: 15
+  off_flags: ACEFHIK
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -148,8 +148,8 @@ mobiles:
     grabs\n\ra knife an throws it at you. It lands the wall next to your left ear.
     We\n\rwill now begin, is all he says.\n\r"
   race: Elf
-  act: 136840706
-  affected_by: 40
+  act: BJKTVb
+  affected_by: DF
   affected2_by: 0
   alignment: -100
   clan: 0
@@ -173,8 +173,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 9906
-  imm_flags: 15
+  off_flags: BEFHJKN
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -194,7 +194,7 @@ mobiles:
     As you attempt to sneak a peek under her veil you notice\n\ra small moon-shaped
     birthmark on her left cheek.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 800
@@ -238,8 +238,8 @@ mobiles:
   long_desc: "An old withered mage/bartender leans against the bar.\n\r"
   description: "He looks distracted as he pours five drinks at once without error.\n\r"
   race: Human
-  act: 61472770
-  affected_by: 8
+  act: BRTVXYZ
+  affected_by: D
   affected2_by: 0
   alignment: 800
   clan: 0
@@ -283,8 +283,8 @@ mobiles:
   description: "You see the lead singer of the Lokettes lip synching to an old Zeppelin
     tune.\n\r"
   race: Human
-  act: 524354
-  affected_by: 8
+  act: BGT
+  affected_by: D
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -327,7 +327,7 @@ mobiles:
   long_desc: "A panhandler rests here.\n\r"
   description: "A small skinny man rests here hoping to find a warm heart.\n\r"
   race: Human
-  act: 524484
+  act: CGHT
   affected_by: 0
   affected2_by: 0
   alignment: -20
@@ -371,7 +371,7 @@ mobiles:
   long_desc: "A panhandler rests here.\n\r"
   description: "A small skinny man rests here staring at your clothes.\n\r"
   race: Human
-  act: 524484
+  act: CGHT
   affected_by: 0
   affected2_by: 0
   alignment: -20
@@ -415,7 +415,7 @@ mobiles:
   long_desc: "A grubby beggar sits here in the filth.\n\r"
   description: "This poor soul seems down on his luck, perhaps you might spare a dime?\n\r"
   race: Human
-  act: 786628
+  act: CGHST
   affected_by: 0
   affected2_by: 0
   alignment: -20
@@ -460,8 +460,8 @@ mobiles:
   description: "You see a large man in a white apron covered in flour from head to
     toe.\n\r"
   race: Human
-  act: 598212610
-  affected_by: 8
+  act: BTVXYZd
+  affected_by: D
   affected2_by: 0
   alignment: 800
   clan: 0
@@ -485,8 +485,8 @@ mobiles:
     bash: -4
     slash: -4
     exotic: 2
-  off_flags: 4
-  imm_flags: 12
+  off_flags: C
+  imm_flags: CD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -504,8 +504,8 @@ mobiles:
   long_desc: "The shopkeeper stands here.\n\r"
   description: "You see a half-elf sitting on a stool behind his counter.\n\r"
   race: Human
-  act: 61341698
-  affected_by: 8
+  act: BTVXYZ
+  affected_by: D
   affected2_by: 0
   alignment: 800
   clan: 0
@@ -548,8 +548,8 @@ mobiles:
   long_desc: "A banker stands here waiting to help you.\n\r"
   description: "This small hobbit seems adept at counting money.\n\r"
   race: Human
-  act: 524290
-  affected_by: 8
+  act: BT
+  affected_by: D
   affected2_by: 0
   alignment: 800
   clan: 0
@@ -593,8 +593,8 @@ mobiles:
   description: "This middle-aged man looks over you with disdain and quickly suggests
     a new\n\rwardrobe.\n\r"
   race: Human
-  act: 61341698
-  affected_by: 8
+  act: BTVXYZ
+  affected_by: D
   affected2_by: 0
   alignment: 800
   clan: 0
@@ -637,8 +637,8 @@ mobiles:
   long_desc: "Vera the veggie lady beams as you look over her stand.\n\r"
   description: "A tall slender elf stands before you smiling broadly.\n\r"
   race: Human
-  act: 598212610
-  affected_by: 8
+  act: BTVXYZd
+  affected_by: D
   affected2_by: 0
   alignment: 800
   clan: 0
@@ -682,8 +682,8 @@ mobiles:
   description: "This stocky dwarf has a mad glint in his eye as he twirls his cleaver\n\rcarelessly
     into the air.\n\r"
   race: Human
-  act: 61341698
-  affected_by: 8
+  act: BTVXYZ
+  affected_by: D
   affected2_by: 0
   alignment: 800
   clan: 0
@@ -727,8 +727,8 @@ mobiles:
   description: "Abdul returns your gaze with a steady eye. You quickly glance away
     under\n\rhis cold stare and place your order.\n\r"
   race: Human
-  act: 61341698
-  affected_by: 8
+  act: BTVXYZ
+  affected_by: D
   affected2_by: 0
   alignment: 800
   clan: 0
@@ -771,8 +771,8 @@ mobiles:
   long_desc: "Igor stands here doing... something.\n\r"
   description: "You see a small dwarf with a large hump on his left shoulder.\n\r"
   race: Human
-  act: 598212610
-  affected_by: 8
+  act: BTVXYZd
+  affected_by: D
   affected2_by: 0
   alignment: 800
   clan: 0
@@ -817,8 +817,8 @@ mobiles:
     the\n\ropen sea. It is only through years of fishing that she is able to withstand\n\rthe
     smell that permeates the air.\n\r"
   race: Human
-  act: 524290
-  affected_by: 8
+  act: BT
+  affected_by: D
   affected2_by: 0
   alignment: 800
   clan: 0
@@ -862,7 +862,7 @@ mobiles:
   description: "A worried working dwarf stands here constantly making notes in his\n\rbook
     and looking at his watch.\n\r"
   race: Human
-  act: 524354
+  act: BGT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -906,7 +906,7 @@ mobiles:
   long_desc: "A construction worker steadily works here.\n\r"
   description: "A large sweaty looking man doesn't even return your glance.\n\r"
   race: Human
-  act: 524354
+  act: BGT
   affected_by: 0
   affected2_by: 0
   alignment: 10
@@ -950,7 +950,7 @@ mobiles:
   long_desc: "The statue of Tempest stands here.\n\r"
   description:
   race: Human
-  act: 8978434
+  act: BQTX
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -994,7 +994,7 @@ mobiles:
   long_desc: "The statue of Ezra stands here.\n\r"
   description:
   race: Human
-  act: 8978434
+  act: BQTX
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -1038,7 +1038,7 @@ mobiles:
   long_desc: "The statue of Seth stands here.\n\r"
   description: "A statue of Seth.\n\r"
   race: Human
-  act: 8978434
+  act: BQTX
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -1082,7 +1082,7 @@ mobiles:
   long_desc: "The statue of Pontius stands here.\n\r"
   description: "A statue of Pontius.\n\r"
   race: Human
-  act: 8978434
+  act: BQTX
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -1126,7 +1126,7 @@ mobiles:
   long_desc: "The statue of Lisa stands here.\n\r"
   description: "A statue of Lisa.\n\r"
   race: Human
-  act: 8978434
+  act: BQTX
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -1170,7 +1170,7 @@ mobiles:
   long_desc: "The statue of Kate stands here.\n\r"
   description: "A statue of Kate.\n\r"
   race: Human
-  act: 8978434
+  act: BQTX
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -1214,7 +1214,7 @@ mobiles:
   long_desc: "There a statue of Furey standing here.\n\r"
   description: "A statue of Furey.\n\r"
   race: Human
-  act: 9109506
+  act: BQRTX
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -1258,7 +1258,7 @@ mobiles:
   long_desc: "The statue of Alander stands here.\n\r"
   description: "A statue of Alander.\n\r"
   race: Human
-  act: 14352386
+  act: BQRTUWX
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -1302,8 +1302,8 @@ mobiles:
   long_desc: "Aziz the Human Canon stands here.\n\r"
   description: "You see nothing special...\n\r"
   race: Human
-  act: 590020
-  affected_by: 8
+  act: CGHQT
+  affected_by: D
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -1346,8 +1346,8 @@ mobiles:
   long_desc: "Mustafah the Human Robber stands here.\n\r"
   description: "You see nothing special...\n\r"
   race: Human
-  act: 786628
-  affected_by: 8
+  act: CGHST
+  affected_by: D
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -1390,8 +1390,8 @@ mobiles:
   long_desc: "Fatima the Elven Invoker stands here.\n\r"
   description: "You see nothing special...\n\r"
   race: Human
-  act: 1704132
-  affected_by: 8
+  act: CGHRTU
+  affected_by: D
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -1434,8 +1434,8 @@ mobiles:
   long_desc: "Kareem the Dwarven Mercenary stands here.\n\r"
   description: "You see nothing special...\n\r"
   race: Human
-  act: 524484
-  affected_by: 8
+  act: CGHT
+  affected_by: D
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -1479,7 +1479,7 @@ mobiles:
   description: "This robust fellow returns your gaze with a smile, but something inside\n\rtells
     you not to trust him very far.\n\r"
   race: Human
-  act: 524452
+  act: CFHT
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -1523,7 +1523,7 @@ mobiles:
   long_desc: "A bodyguard sizes you up.\n\r"
   description: "The large half-orc quickly glances you over and returns to his duties.\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -1567,7 +1567,7 @@ mobiles:
   long_desc: "A skinny kid wanders around.\n\r"
   description: "This small child sees you looking at him and quickly looks away.\n\r"
   race: Human
-  act: 786564
+  act: CHST
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -1612,7 +1612,7 @@ mobiles:
   description: "Although seemingly dull witted, this hulking mass carries the huge\n\rcrates
     from the boats like so many lilies.\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -1657,7 +1657,7 @@ mobiles:
   description: "The city's tax collector walks from store to store collecting the\n\rSultan's
     fee for living in his grand city.\n\r"
   race: Human
-  act: 524480
+  act: GHT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -1701,7 +1701,7 @@ mobiles:
   long_desc: "Gord the Rogue stands here.\n\r"
   description: "You see nothing special.\n\r"
   race: Human
-  act: 1835076
+  act: CGSTU
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -1745,7 +1745,7 @@ mobiles:
   long_desc: "Caramon the Knight stands here.\n\r"
   description: "You see nothing special.\n\r"
   race: Human
-  act: 1572928
+  act: GTU
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -1789,8 +1789,8 @@ mobiles:
   long_desc: "Raistlin, the Arch-Magician stands here.\n\r"
   description: "You see nothing special.\n\r"
   race: Human
-  act: 655556
-  affected_by: 8
+  act: CGHRT
+  affected_by: D
   affected2_by: 0
   alignment: 200
   clan: 0
@@ -1833,8 +1833,8 @@ mobiles:
   long_desc: "Curley GreenLeaf stands here.\n\r"
   description: "You see nothing special.\n\r"
   race: Human
-  act: 589888
-  affected_by: 8
+  act: GQT
+  affected_by: D
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -1878,7 +1878,7 @@ mobiles:
   description: "This sad case may have been an evangelist in another lifetime. He
     is known\n\rto stand on corners and accost passers-by with his doomsday preaching.\n\r"
   race: Human
-  act: 524416
+  act: HT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -1922,7 +1922,7 @@ mobiles:
   long_desc: "A small harmless feline searches for food.\n\r"
   description: "You see a small starved cat.\n\r"
   race: Human
-  act: 1572996
+  act: CHTU
   affected_by: 0
   affected2_by: 0
   alignment: -10
@@ -1967,7 +1967,7 @@ mobiles:
   description: "As you look up at this bird, you see the only thing it wants is a
     corpse.\n\r"
   race: Human
-  act: 524480
+  act: GHT
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -2011,7 +2011,7 @@ mobiles:
   long_desc: "An old man sits here playing chess.\n\r"
   description: "He seems intent on winning.\n\r"
   race: Human
-  act: 524416
+  act: HT
   affected_by: 0
   affected2_by: 0
   alignment: 200
@@ -2055,7 +2055,7 @@ mobiles:
   long_desc: "Conan the Librarian sits behind a desk.\n\r"
   description: "The huge hulking mass rises as someone asks him a question.\n\r"
   race: Human
-  act: 1572882
+  act: BETU
   affected_by: 0
   affected2_by: 0
   alignment: 300
@@ -2099,7 +2099,7 @@ mobiles:
   long_desc: "The wind kicks up some dust.\n\r"
   description: "What you see before you is really a baby air elemental.\n\r"
   race: Human
-  act: 1572900
+  act: CFTU
   affected_by: 0
   affected2_by: 0
   alignment: -1000
@@ -2143,7 +2143,7 @@ mobiles:
   long_desc: "A lamia stands here.\n\r"
   description: "A half snake half woman creature rears back to attack you.\n\r"
   race: Human
-  act: 655396
+  act: CFRT
   affected_by: 0
   affected2_by: 0
   alignment: -500
@@ -2187,8 +2187,8 @@ mobiles:
   long_desc: "A raggety dervish stands here.\n\r"
   description: "This man looks like he could use a lot of rest.\n\r"
   race: Human
-  act: 655408
-  affected_by: 1048576
+  act: EFRT
+  affected_by: U
   affected2_by: 0
   alignment: -750
   clan: 0
@@ -2231,8 +2231,8 @@ mobiles:
   long_desc: "The Sultan rests here on his throne.\n\r"
   description: "You see a large wealthy man in red robes smiling at you.\n\r"
   race: Human
-  act: 4718594
-  affected_by: 8
+  act: BTW
+  affected_by: D
   affected2_by: 0
   alignment: 200
   clan: 0
@@ -2276,7 +2276,7 @@ mobiles:
   description: "You see a dark skinned beauty, wearing almost transparent silks and
     \n\rlight blue viel. Her loyalty to the sultan is unwavering.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -2321,8 +2321,8 @@ mobiles:
   description: "You see a pathetic soul lying here. Some ex-nobleman that has fallen\n\rout
     of grace with the Sultan.\n\r"
   race: Human
-  act: 524422
-  affected_by: 8
+  act: BCHT
+  affected_by: D
   affected2_by: 0
   alignment: -100
   clan: 0
@@ -2366,8 +2366,8 @@ mobiles:
   description: "You see a large man whose only duty is to protect the harem. He has
     been\n\rcastrated for the ladies safety.\n\r"
   race: Human
-  act: 524322
-  affected_by: 8
+  act: BFT
+  affected_by: D
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -2411,8 +2411,8 @@ mobiles:
   description: "You see the most beautiful arabian girl that has ever met your eyes.
     Too\n\rbad she's about to kill you.\n\r"
   race: Human
-  act: 524304
-  affected_by: 8
+  act: ET
+  affected_by: D
   affected2_by: 0
   alignment: 100
   clan: 0
@@ -2455,8 +2455,8 @@ mobiles:
   long_desc: "Allah is here.\n\r"
   description: "You see the all-knowing Allah.\n\r"
   race: Human
-  act: 14352386
-  affected_by: 1048712
+  act: BQRTUWX
+  affected_by: DHU
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -2499,8 +2499,8 @@ mobiles:
   long_desc: "The Guard for the Guild of Mages stand here.\n\r"
   description: "This man looks like a mage/warrior, i wouldn't mess with him.\n\r"
   race: Human
-  act: 655362
-  affected_by: 8
+  act: BRT
+  affected_by: D
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -2543,8 +2543,8 @@ mobiles:
   long_desc: "The Guard for the Guild of Clerics stands here.\n\r"
   description: "This man looks like a cleric/warrior, I wouldn't mess with him.\n\r"
   race: Human
-  act: 589826
-  affected_by: 8
+  act: BQT
+  affected_by: D
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -2587,8 +2587,8 @@ mobiles:
   long_desc: "The Guard for the Guild of Warriors stands here.\n\r"
   description: "The man looks like Conan's cousin, I wouldn't mess with him.\n\r"
   race: Human
-  act: 1572866
-  affected_by: 8
+  act: BTU
+  affected_by: D
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -2632,8 +2632,8 @@ mobiles:
   description: "You see a thief dressed all in black, he quickly stands as you enter\n\rand
     steps to bar your way. You notice his hands resting on two sheafs.\n\r"
   race: Human
-  act: 786434
-  affected_by: 8
+  act: BST
+  affected_by: D
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -2676,7 +2676,7 @@ mobiles:
   long_desc: "A servant boy is here running errands.\n\r"
   description: "You see a small boy running around the halls of the palace.\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -2720,7 +2720,7 @@ mobiles:
   long_desc: "A guard stands here, protecting the innocent.\n\r"
   description: "You see a trained fighter, ready to help those in need.\n\r"
   race: Human
-  act: 524480
+  act: GHT
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -2764,7 +2764,7 @@ mobiles:
   long_desc: "A guard stands here, watching the gate.\n\r"
   description: "You see a trained fighter, ready to defend the city.\n\r"
   race: Human
-  act: 524354
+  act: BGT
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -2808,8 +2808,8 @@ mobiles:
   long_desc: "The chief of the sultan's guard stands here.\n\r"
   description: "You see a large man skilled in hunting and killing.\n\r"
   race: Human
-  act: 1572930
-  affected_by: 8
+  act: BGTU
+  affected_by: D
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -2852,7 +2852,7 @@ mobiles:
   long_desc: "A mercenary stands here waiting for a job.\n\r"
   description: "You see an assassin down on his luck looking to be freelanced out.\n\r"
   race: Human
-  act: 1572866
+  act: BTU
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -2897,7 +2897,7 @@ mobiles:
   description: "You see the shipwright of New Thalos, waiting to make someone a boat.
     He\n\rbeams a smile at you through his beard as you walk in.\n\r"
   race: Human
-  act: 61341698
+  act: BTVXYZ
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -2942,7 +2942,7 @@ mobiles:
   description: "You see a large human, dripping in sweat, standing before you. He
     takes a\n\rbreak from his swealtering work to bid you welcome.\n\r"
   race: Human
-  act: 61341698
+  act: BTVXYZ
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -2986,7 +2986,7 @@ mobiles:
   long_desc: "A horse stands here.\n\r"
   description: "You see one of the fine arabian beasts known about the land.\n\r"
   race: Human
-  act: 1573060
+  act: CGHTU
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -3032,7 +3032,7 @@ mobiles:
     and\n\ra nose guard. He's looking at a small road map that he seems to be holding\n\rupside
     down.\n\r"
   race: Human
-  act: 524484
+  act: CGHT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -3076,7 +3076,7 @@ mobiles:
   long_desc: "Shelbye stands here.\n\r"
   description: "You see nothing special.\n\r"
   race: Human
-  act: 524288
+  act: T
   affected_by: 0
   affected2_by: 0
   alignment: -1000
@@ -3120,7 +3120,7 @@ mobiles:
   long_desc: "The cryohydra stands here.\n\r"
   description: "A grey-brown reptillian creature with amber eyes stands before you.\n\r"
   race: Human
-  act: 4718688
+  act: FGTW
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -3164,7 +3164,7 @@ mobiles:
   long_desc: "The minotaur lizard stands here.\n\r"
   description: "A huge lizard like reptile with horns like a minotaur.\n\r"
   race: Giant
-  act: 524384
+  act: FGT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -3208,7 +3208,7 @@ mobiles:
   long_desc: "The death dog stands here.\n\r"
   description: "A large two-headed hound barks at you viciously.\n\r"
   race: dog
-  act: 1572960
+  act: FGTU
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -3252,7 +3252,7 @@ mobiles:
   long_desc: "The spotted lion stands here.\n\r"
   description: "A large fierce dapple skinned lion glares at you.\n\r"
   race: Human
-  act: 1572960
+  act: FGTU
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -3296,8 +3296,8 @@ mobiles:
   long_desc: "A behir slithers on the ground.\n\r"
   description: "You see a large snake like reptile with more than a dozen legs.\n\r"
   race: Human
-  act: 524322
-  affected_by: 8
+  act: BFT
+  affected_by: D
   affected2_by: 0
   alignment: -300
   clan: 0
@@ -3341,8 +3341,8 @@ mobiles:
   description: "The chimera is still a mystery, better left unexplored. This creature
     has\n\rthe hindquarters of a goat, the forepaws of a lion and the body of a red\n\rdragon.\n\r"
   race: Human
-  act: 524322
-  affected_by: 8
+  act: BFT
+  affected_by: D
   affected2_by: 0
   alignment: -500
   clan: 0
@@ -3386,8 +3386,8 @@ mobiles:
   description: "A beautiful creature with the body of a serpent and feathered wings
     the\n\rcolor of the rainbow.\n\r"
   race: Human
-  act: 1638418
-  affected_by: 2
+  act: BEQTU
+  affected_by: B
   affected2_by: 0
   alignment: 300
   clan: 0
@@ -3431,7 +3431,7 @@ mobiles:
   description: "The giant hornet hits you very hard!\n\rYou wish you wounds would
     stop BLEEDING so much!\n\r"
   race: Giant
-  act: 1572960
+  act: FGTU
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -3476,7 +3476,7 @@ mobiles:
   description: "A magnificant winged steed, this horse looks much like the arabian\n\rthoroughbred
     you've seen in the stables.\n\r"
   race: Human
-  act: 1572994
+  act: BHTU
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -3521,7 +3521,7 @@ mobiles:
   description: "You see a very healthy female dressed in black, with long flowing\n\rhair
     to match her outfit.\n\r"
   race: Human
-  act: 61472770
+  act: BRTVXYZ
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -3565,7 +3565,7 @@ mobiles:
   long_desc: "Braheem stands here talking to the walls.\n\r"
   description: "You see a powerful but slighty insane mage.\n\r"
   race: Human
-  act: 61472770
+  act: BRTVXYZ
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -3609,8 +3609,8 @@ mobiles:
   long_desc: "The high priest rests here meditating, well he WAS meditating.\n\r"
   description: "He does NOT look real happy that you have disturbed him.\n\r"
   race: Human
-  act: 589842
-  affected_by: 136
+  act: BEQT
+  affected_by: DH
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -3654,8 +3654,8 @@ mobiles:
   description: "You see one of the Royal Guards from Midgaard who seems to have gone\n\rthrough
     some training.\n\r"
   race: Human
-  act: 1573056
-  affected_by: 8
+  act: GHTU
+  affected_by: D
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -3699,8 +3699,8 @@ mobiles:
   description: "You see a really big guy here who seems to have lost an eye in one
     manner\n\ror another.\n\r"
   race: Human
-  act: 61341826
-  affected_by: 8
+  act: BHTVXYZ
+  affected_by: D
   affected2_by: 0
   alignment: -500
   clan: 0
@@ -3744,8 +3744,8 @@ mobiles:
   description: "You see a small hobbit with his feet kicked up on his desk waiting
     for\n\rsome sucker, um, customer to walk in his store.\n\r"
   race: Human
-  act: 61341826
-  affected_by: 8
+  act: BHTVXYZ
+  affected_by: D
   affected2_by: 0
   alignment: -500
   clan: 0
@@ -3789,7 +3789,7 @@ mobiles:
   description: "A young elf stands here in dirt covered overalls. He seems to be weeding\n\rhis
     garden.\n\r"
   race: Human
-  act: 1572866
+  act: BTU
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -3835,8 +3835,8 @@ mobiles:
     at the\n\rshoulder he breathes flame from his nostrils and leaps to protect\n\rhis
     love.\n\r"
   race: Human
-  act: 1572930
-  affected_by: 1048586
+  act: BGTU
+  affected_by: BDU
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -3880,8 +3880,8 @@ mobiles:
   description: "You see a half wolf- half human beast wearing a glove with long thin\n\rblades
     on it.\n\r"
   race: Human
-  act: 5767186
-  affected_by: 8
+  act: BETUW
+  affected_by: D
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -3924,7 +3924,7 @@ mobiles:
   long_desc: "You see an incredibly life-like painting of the Sultan's mother.\n\r"
   description: "Boy is she ugly.\n\r"
   race: Human
-  act: 655362
+  act: BRT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -3968,7 +3968,7 @@ mobiles:
   long_desc: "The Mayor of New Thalos stands here.\n\r"
   description: "You see a chubby hobbit dressed in his best suit.\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -4012,7 +4012,7 @@ mobiles:
   long_desc: "The chef stands here making dinner.\n\r"
   description: "You see a very large human who seems to taste everything he makes.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 400
@@ -4056,8 +4056,8 @@ mobiles:
   long_desc: "A very large ray with a wicked looking tail swims here.\n\r"
   description: "You see a large ray with sharp fangs and a barbed tail.\n\r"
   race: Human
-  act: 589842
-  affected_by: 8
+  act: BEQT
+  affected_by: D
   affected2_by: 0
   alignment: -500
   clan: 0
@@ -4100,7 +4100,7 @@ mobiles:
   long_desc: "A bodyguard stands here.\n\r"
   description: "A big, strong, helpful, trustworthy guard.\n\r"
   race: Human
-  act: 524288
+  act: T
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -4145,7 +4145,7 @@ mobiles:
   description: "A small, well-dressed man, he has been in the banking business his
     whole\n\rlife.  You think you can trust him with your money.  \n\r"
   race: Human
-  act: 1076363266
+  act: BTVe
   affected_by: 0
   affected2_by: 0
   alignment: 800
@@ -4191,7 +4191,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 5
   weight: 3
   cost: 50
@@ -4210,7 +4210,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 16389
+  wear_flags: ACO
   level: 21
   weight: 3
   cost: 210
@@ -4230,7 +4230,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 5
   cost: 100
@@ -4249,7 +4249,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 3
   cost: 100
@@ -4268,7 +4268,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 4
   cost: 100
@@ -4287,7 +4287,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 3
   cost: 100
@@ -4306,7 +4306,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 3
   cost: 100
@@ -4325,7 +4325,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 3
   cost: 100
@@ -4344,7 +4344,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 3
   cost: 100
@@ -4363,7 +4363,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 4
   cost: 100
@@ -4382,7 +4382,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 1
   cost: 100
@@ -4401,7 +4401,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 16
   cost: 100
@@ -4420,7 +4420,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 10
   cost: 100
@@ -4439,7 +4439,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 10
   cost: 100
@@ -4458,7 +4458,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 25
   weight: 25
   cost: 250
@@ -4477,7 +4477,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 10
   weight: 20
   cost: 100
@@ -4495,8 +4495,8 @@ objects:
   description: A suit of field plate lies here.
   material: none
   item_type: 9
-  extra_flags: 3424
-  wear_flags: 9
+  extra_flags: FGIKL
+  wear_flags: AD
   level: 10
   weight: 28
   cost: 100
@@ -4515,7 +4515,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 10
   weight: 36
   cost: 100
@@ -4538,7 +4538,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 10
   weight: 45
   cost: 100
@@ -4561,7 +4561,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 513
+  wear_flags: AJ
   level: 10
   weight: 1
   cost: 100
@@ -4580,7 +4580,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 513
+  wear_flags: AJ
   level: 10
   weight: 8
   cost: 100
@@ -4599,7 +4599,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 513
+  wear_flags: AJ
   level: 10
   weight: 6
   cost: 100
@@ -4618,7 +4618,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 10
   weight: 6
   cost: 100
@@ -4637,7 +4637,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 257
+  wear_flags: AI
   level: 10
   weight: 2
   cost: 100
@@ -4656,7 +4656,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 17
+  wear_flags: AE
   level: 10
   weight: 2
   cost: 100
@@ -4675,7 +4675,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 33
+  wear_flags: AF
   level: 10
   weight: 2
   cost: 100
@@ -4694,7 +4694,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 129
+  wear_flags: AH
   level: 10
   weight: 2
   cost: 100
@@ -4713,7 +4713,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 65
+  wear_flags: AG
   level: 10
   weight: 2
   cost: 100
@@ -4732,7 +4732,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 10
   weight: 10
   cost: 100
@@ -4751,7 +4751,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 257
+  wear_flags: AI
   level: 10
   weight: 3
   cost: 100
@@ -4770,7 +4770,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 33
+  wear_flags: AF
   level: 10
   weight: 3
   cost: 100
@@ -4789,7 +4789,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 129
+  wear_flags: AH
   level: 10
   weight: 3
   cost: 100
@@ -4808,7 +4808,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 513
+  wear_flags: AJ
   level: 10
   weight: 3
   cost: 100
@@ -4827,7 +4827,7 @@ objects:
   material: none
   item_type: 15
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 0
   weight: 1
   cost: 75
@@ -4846,7 +4846,7 @@ objects:
   material: none
   item_type: 1
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 15
@@ -4865,7 +4865,7 @@ objects:
   material: none
   item_type: 15
   extra_flags: 0
-  wear_flags: 1025
+  wear_flags: AK
   level: 0
   weight: 8
   cost: 100
@@ -4884,7 +4884,7 @@ objects:
   material: none
   item_type: 15
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 4
   cost: 75
@@ -4903,7 +4903,7 @@ objects:
   material: none
   item_type: 15
   extra_flags: 0
-  wear_flags: 2049
+  wear_flags: AL
   level: 0
   weight: 3
   cost: 50
@@ -4922,7 +4922,7 @@ objects:
   material: none
   item_type: 1
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 0
   weight: 1
   cost: 10
@@ -4941,7 +4941,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 17
@@ -4960,7 +4960,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 17
@@ -4979,7 +4979,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 2
   cost: 50
@@ -4998,7 +4998,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 3
   cost: 17
@@ -5017,7 +5017,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 17
@@ -5036,7 +5036,7 @@ objects:
   material: none
   item_type: 11
   extra_flags: 0
-  wear_flags: 4097
+  wear_flags: AM
   level: 0
   weight: 2
   cost: 30
@@ -5055,7 +5055,7 @@ objects:
   material: none
   item_type: 11
   extra_flags: 0
-  wear_flags: 65
+  wear_flags: AG
   level: 0
   weight: 3
   cost: 30
@@ -5074,7 +5074,7 @@ objects:
   material: none
   item_type: 11
   extra_flags: 0
-  wear_flags: 1025
+  wear_flags: AK
   level: 0
   weight: 2
   cost: 30
@@ -5093,7 +5093,7 @@ objects:
   material: none
   item_type: 11
   extra_flags: 0
-  wear_flags: 2049
+  wear_flags: AL
   level: 0
   weight: 1
   cost: 30
@@ -5112,7 +5112,7 @@ objects:
   material: none
   item_type: 11
   extra_flags: 0
-  wear_flags: 33
+  wear_flags: AF
   level: 0
   weight: 1
   cost: 30
@@ -5131,7 +5131,7 @@ objects:
   material: none
   item_type: 11
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 0
   weight: 2
   cost: 30
@@ -5150,7 +5150,7 @@ objects:
   material: none
   item_type: 11
   extra_flags: 0
-  wear_flags: 1033
+  wear_flags: ADK
   level: 0
   weight: 2
   cost: 30
@@ -5169,7 +5169,7 @@ objects:
   material: none
   item_type: 11
   extra_flags: 0
-  wear_flags: 65
+  wear_flags: AG
   level: 0
   weight: 1
   cost: 30
@@ -5188,7 +5188,7 @@ objects:
   material: none
   item_type: 11
   extra_flags: 0
-  wear_flags: 2049
+  wear_flags: AL
   level: 0
   weight: 1
   cost: 40
@@ -5207,7 +5207,7 @@ objects:
   material: none
   item_type: 11
   extra_flags: 0
-  wear_flags: 1025
+  wear_flags: AK
   level: 0
   weight: 1
   cost: 40
@@ -5226,7 +5226,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 13
@@ -5245,7 +5245,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 20
@@ -5264,7 +5264,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 15
@@ -5283,7 +5283,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 10
@@ -5302,7 +5302,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 15
@@ -5321,7 +5321,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 2
   cost: 50
@@ -5340,7 +5340,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 5
   cost: 75
@@ -5359,7 +5359,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 3
   cost: 60
@@ -5378,7 +5378,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 23
   weight: 1
   cost: 230
@@ -5397,7 +5397,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 23
   weight: 1
   cost: 230
@@ -5416,7 +5416,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 0
@@ -5435,7 +5435,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 0
@@ -5454,7 +5454,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 0
@@ -5472,8 +5472,8 @@ objects:
   description: A glowing blue vial lies here.
   material: none
   item_type: 10
-  extra_flags: 65
-  wear_flags: 16385
+  extra_flags: AG
+  wear_flags: AO
   level: 5
   weight: 1
   cost: 50
@@ -5491,8 +5491,8 @@ objects:
   description: A deep-green potion lies here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 5
   weight: 1
   cost: 50
@@ -5510,8 +5510,8 @@ objects:
   description: A crystal clear potion lies here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 5
   weight: 1
   cost: 50
@@ -5529,8 +5529,8 @@ objects:
   description: An off white potion lies here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 0
   weight: 1
   cost: 0
@@ -5548,8 +5548,8 @@ objects:
   description: A dark blue potion lies here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 5
   weight: 1
   cost: 50
@@ -5568,7 +5568,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 0
@@ -5587,7 +5587,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 5
   cost: 0
@@ -5606,7 +5606,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 0
@@ -5624,8 +5624,8 @@ objects:
   description: A scroll of recall lies here.
   material: none
   item_type: 2
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 10
   weight: 4
   cost: 100
@@ -5643,8 +5643,8 @@ objects:
   description: A grey-silver wand lies here.
   material: none
   item_type: 3
-  extra_flags: 65
-  wear_flags: 16385
+  extra_flags: AG
+  wear_flags: AO
   level: 15
   weight: 1
   cost: 150
@@ -5664,8 +5664,8 @@ objects:
   description: A wand of glinting yellow lies here.
   material: none
   item_type: 3
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 0
   weight: 1
   cost: 0
@@ -5686,8 +5686,8 @@ objects:
   description: A wand of oak lies here.
   material: none
   item_type: 3
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 15
   weight: 1
   cost: 150
@@ -5705,8 +5705,8 @@ objects:
   description: A pink wand lies here
   material: none
   item_type: 3
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 15
   weight: 1
   cost: 150
@@ -5725,7 +5725,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 2
   cost: 100
@@ -5743,8 +5743,8 @@ objects:
   description: A meat cleaver lies here
   material: none
   item_type: 5
-  extra_flags: 3072
-  wear_flags: 8193
+  extra_flags: KL
+  wear_flags: AN
   level: 10
   weight: 5
   cost: 100
@@ -5762,8 +5762,8 @@ objects:
   description: A fountain pen lies here.
   material: none
   item_type: 5
-  extra_flags: 2
-  wear_flags: 8193
+  extra_flags: B
+  wear_flags: AN
   level: 15
   weight: 1
   cost: 150
@@ -5782,7 +5782,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 24
   cost: 100
@@ -5800,8 +5800,8 @@ objects:
   description: A horse shoe lies here.
   material: none
   item_type: 9
-  extra_flags: 66
-  wear_flags: 16389
+  extra_flags: BG
+  wear_flags: ACO
   level: 10
   weight: 2
   cost: 100
@@ -5824,7 +5824,7 @@ objects:
   material: none
   item_type: 12
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 4
   cost: 0
@@ -5843,7 +5843,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 1
   cost: 100
@@ -5862,7 +5862,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 4
   weight: 10
   cost: 40
@@ -5881,7 +5881,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 0
   weight: 3
   cost: 0
@@ -5900,7 +5900,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8192
+  wear_flags: N
   level: 0
   weight: 1
   cost: 0
@@ -5919,7 +5919,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 18
   weight: 3
   cost: 180
@@ -5938,7 +5938,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 0
   weight: 3
   cost: 0
@@ -5956,8 +5956,8 @@ objects:
   description: A multi-colored shirt lies here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 9
+  extra_flags: G
+  wear_flags: AD
   level: 0
   weight: 1
   cost: 0
@@ -5975,8 +5975,8 @@ objects:
   description: A pair of jeans lie here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 33
+  extra_flags: G
+  wear_flags: AF
   level: 0
   weight: 1
   cost: 0
@@ -5994,8 +5994,8 @@ objects:
   description: A pair of nifty sneakers lie here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 65
+  extra_flags: G
+  wear_flags: AG
   level: 0
   weight: 1
   cost: 0
@@ -6007,12 +6007,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 14
-    modifier: 10
-    bitvector: 0
-  - where: O
     location: 2
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 14
+    modifier: 10
     bitvector: 0
   extra_descs: []
 - vnum: 9598
@@ -6021,8 +6021,8 @@ objects:
   description: A glove with blades mounted on it lies here
   material: none
   item_type: 5
-  extra_flags: 2
-  wear_flags: 8193
+  extra_flags: B
+  wear_flags: AN
   level: 5
   weight: 20
   cost: 50
@@ -6044,8 +6044,8 @@ objects:
   description: A claw from some animal lies here.
   material: none
   item_type: 5
-  extra_flags: 2
-  wear_flags: 8193
+  extra_flags: B
+  wear_flags: AN
   level: 12
   weight: 20
   cost: 120
@@ -6063,8 +6063,8 @@ objects:
   description: A mighty halberd lies against the wall.
   material: none
   item_type: 5
-  extra_flags: 320
-  wear_flags: 8193
+  extra_flags: GI
+  wear_flags: AN
   level: 25
   weight: 16
   cost: 250
@@ -6076,11 +6076,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
+    location: 18
     modifier: 2
     bitvector: 0
   - where: O
-    location: 18
+    location: 19
     modifier: 2
     bitvector: 0
   extra_descs: []
@@ -6090,7 +6090,7 @@ objects:
   description: A large fountain is here gurgling out an endless stream of water.
   material: none
   item_type: 25
-  extra_flags: 64
+  extra_flags: G
   wear_flags: 0
   level: 23
   weight: 5000
@@ -6109,8 +6109,8 @@ objects:
   description: A beautiful pearl is here, lying on the ground.
   material: none
   item_type: 29
-  extra_flags: 786496
-  wear_flags: 16385
+  extra_flags: GST
+  wear_flags: AO
   level: 30
   weight: 2
   cost: 1000
@@ -6129,7 +6129,7 @@ rooms:
     Chrome\n\rplated stairs spiral up to the reception area. To the south you hear
     the\n\rsounds of merriment and drinking and from the west you hear the bustling\n\ractivity
     of New Thalos.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6159,7 +6159,7 @@ rooms:
     carpeting under your feet is a nice change from the rugged paths\n\ryou are used
     to travelling. A chrome stairway spirals downstairs to the\n\rtavern of the Dancing
     Daemon Inn, and your future adventures in New Thalos.\n\r"
-  room_flags: 124
+  room_flags: CDEFG
   sector: 0
   owner:
   exits:
@@ -6170,19 +6170,19 @@ rooms:
     key: -1
     to_vnum: 9500
   extra_descs:
-  - keywords: 1.1picture
-    description: "You see a picture of Felix here, standing before the arena.\n\rHe
-      seems to be doing a body count.\n\r"
+  - keywords: 4.picture
+    description: "You see a picture of Loki... at least you think it's Loki.\n\rHe
+      seems to be hiding from the camera.\n\r"
+  - keywords: 3.picture
+    description: "You see a picture of Hammor on the front porch of the Danjerhaus,\n\rdrinking
+      a guinness stout and petting Big Guy the Cat.\n\r"
   - keywords: 2.picture
     description: "You see a picture of Shark standing behind his desk screaming at
       a newbie.\n\rThrough a window in the back you see a large aquarium. The newbie
       seems to\n\rbe cowering in fear.\n\r"
-  - keywords: 3.picture
-    description: "You see a picture of Hammor on the front porch of the Danjerhaus,\n\rdrinking
-      a guinness stout and petting Big Guy the Cat.\n\r"
-  - keywords: 4.picture
-    description: "You see a picture of Loki... at least you think it's Loki.\n\rHe
-      seems to be hiding from the camera.\n\r"
+  - keywords: 1.1picture
+    description: "You see a picture of Felix here, standing before the arena.\n\rHe
+      seems to be doing a body count.\n\r"
 - vnum: 9502
   name: The Dancing Daemon Inn
   description: "A huge circling wet-bar takes up most of the east end of the Daemon.
@@ -6191,7 +6191,7 @@ rooms:
     playing their usual gig on the stage. The large booths along the\n\rwall are filled
     with people drinking and having a grand time. You feel like\n\rpartying here.\n\rThe
     only obvious exit is to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -6476,7 +6476,7 @@ rooms:
   - dir: 0
     desc:
     keywords: gate
-    exit_flags: 7
+    exit_flags: ABC
     key: 9501
     to_vnum: 9513
   extra_descs: []
@@ -6528,7 +6528,7 @@ rooms:
   - dir: 2
     desc:
     keywords: gate
-    exit_flags: 7
+    exit_flags: ABC
     key: 9501
     to_vnum: 9511
   extra_descs: []
@@ -6790,7 +6790,7 @@ rooms:
   - dir: 0
     desc:
     keywords: gate
-    exit_flags: 7
+    exit_flags: ABC
     key: 9501
     to_vnum: 9667
   - dir: 1
@@ -6839,7 +6839,7 @@ rooms:
   - dir: 3
     desc:
     keywords: gate
-    exit_flags: 7
+    exit_flags: ABC
     key: 9501
     to_vnum: 9669
   extra_descs: []
@@ -7081,7 +7081,7 @@ rooms:
   - dir: 1
     desc:
     keywords: gate
-    exit_flags: 3
+    exit_flags: AB
     key: 9501
     to_vnum: 9668
   - dir: 3
@@ -7096,7 +7096,7 @@ rooms:
   description: "Nothing in your life has prepared you for the odor which fills your
     lungs.\n\rNot wanting to offend the beautiful shopkeeper you hold your tongue
     and\n\rquietly look over her selection.\n\r"
-  room_flags: 56
+  room_flags: DEF
   sector: 0
   owner:
   exits:
@@ -7739,7 +7739,7 @@ rooms:
 - vnum: 9557
   name: Underground
   description: "The small passage continues north and south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -7780,7 +7780,7 @@ rooms:
 - vnum: 9559
   name: Alley
   description: "The alley ends here.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
@@ -7793,7 +7793,7 @@ rooms:
   - dir: 5
     desc: "You see a manhole covering an opening in the road.\n\r"
     keywords: manhole hole man
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9575
   extra_descs: []
@@ -7955,7 +7955,7 @@ rooms:
   name: Alley
   description: "Even with your light you cannot seem to penetrate the magical cloak
     of\n\rdarkness covering this alley.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
@@ -7976,7 +7976,7 @@ rooms:
   name: Alley
   description: "Even with your light you cannot seem to penetrate the magical cloak
     of\n\rdarkness covering this alley.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
@@ -8003,7 +8003,7 @@ rooms:
   name: Alley
   description: "Even with your light you cannot seem to penetrate the magical cloak
     of\n\rdarkness covering this alley.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
@@ -8030,7 +8030,7 @@ rooms:
   name: Alley
   description: "Even with your light you cannot seem to penetrate the magical cloak
     of\n\rdarkness covering this alley.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
@@ -8051,7 +8051,7 @@ rooms:
   name: Alley
   description: "This is a tiny corner in the alley.  The temple walls are North and
     West.\n\rYou notice a fair amount of footprints to the east.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
@@ -8074,7 +8074,7 @@ rooms:
   name: Alley
   description: "This is a dead end to the tiny alley.  There is an unusual amount
     of wear\n\rappearent on the ground.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
@@ -8087,7 +8087,7 @@ rooms:
   - dir: 5
     desc: "You see a small iron circle imbedded in the ground.\n\r"
     keywords: manhole man hole
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9578
   extra_descs: []
@@ -8096,7 +8096,7 @@ rooms:
   description: "You are in a tiny ally between the temple and the bank. You hear some\n\rshouting
     and general roadwork to the south.  The ground is rough and\n\rin need of repair.
     \ In the road is a small pothole.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
@@ -8119,7 +8119,7 @@ rooms:
   name: Alley
   description: "You are on a small alley between the repair shop and the general store.\n\rNothing
     much here but small rodents and dust.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
@@ -8140,7 +8140,7 @@ rooms:
   name: Alley
   description: "This is a small corner in the alley behind the warehouses and the
     guild\n\rof warrior's. You notice  some small scrapings to the west.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
@@ -8160,7 +8160,7 @@ rooms:
 - vnum: 9574
   name: Alley
   description: "The alley ends here as do the footprints you had noticed earlier.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
@@ -8173,7 +8173,7 @@ rooms:
   - dir: 5
     desc: "You see a small round iron plate set in the ground.\n\r"
     keywords: manhole man hole
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 9581
   extra_descs: []
@@ -8181,7 +8181,7 @@ rooms:
   name: Underground
   description: "You are in a small underground passage beneath the city. You see a
     small\n\rglint of light from above and the passage continues south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -8194,14 +8194,14 @@ rooms:
   - dir: 4
     desc:
     keywords: man hole manhole
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9559
   extra_descs: []
 - vnum: 9576
   name: Underground
   description: "The passage continues north and south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -8221,7 +8221,7 @@ rooms:
 - vnum: 9577
   name: Underground
   description: "The tunnel branches here going north, east, and west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -8248,7 +8248,7 @@ rooms:
   name: Underground
   description: "The alley turns again here and heads south and west. You notice a
     small\n\rglint of light from above.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -8267,7 +8267,7 @@ rooms:
   - dir: 4
     desc:
     keywords: manhole man hole
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9570
   extra_descs: []
@@ -8276,7 +8276,7 @@ rooms:
   description: "The passage ends here and you hear some low chanting from the west.\n\rYou
     also notice the clearing of dust on the ground but can't seem to\n\rfind any door
     in that direction.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -8290,7 +8290,7 @@ rooms:
 - vnum: 9580
   name: Underground
   description: "The small passage continues north and south from here.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -8311,7 +8311,7 @@ rooms:
   name: Underground
   description: "The small passage heads north and east from here. You here the sounds\n\rof
     the city above you.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -8330,7 +8330,7 @@ rooms:
   - dir: 4
     desc:
     keywords: manhole man hole
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 9574
   extra_descs: []
@@ -8338,7 +8338,7 @@ rooms:
   name: Underground
   description: "The tunnel continues you west and east. Hopefully you have a good
     sense\n\rof direction.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -8483,7 +8483,7 @@ rooms:
   description: "You seem to have stumbled into a small hand made passage. The wall
     to\n\rthe west  doesn't look quite right but searching it reveals no secret\n\rdoors.
     The only exit it seems is east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -8499,7 +8499,7 @@ rooms:
   description: "The small passage continues east and west from here. Again you notice\n\rsomething
     peculiar about the wall, this time to the north, but you\n\rfail to find any secret
     doors. Voices can be faintly heard from the north.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -8519,7 +8519,7 @@ rooms:
 - vnum: 9590
   name: Dark Passage
   description: "The small passage continues west and east from here.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -8544,7 +8544,7 @@ rooms:
   description: "The small passage ends here for no apparent reason. Looking around
     you\n\rfind a small ladder half buried in the dirt. setting it up you find a\n\rtrap
     door in the ceiling. The passage continues west from here.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -8557,7 +8557,7 @@ rooms:
   - dir: 4
     desc:
     keywords: secret
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9670
   extra_descs:
@@ -8568,7 +8568,7 @@ rooms:
 - vnum: 9592
   name: Underground
   description: "The small passage continues west and east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -8591,7 +8591,7 @@ rooms:
 - vnum: 9593
   name: Underground
   description: "The small passage continues west and east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -8614,44 +8614,44 @@ rooms:
     large table dominates the center of this hall with many chairs were\n\rthe clan
     gathers for feasting, merriment, and meetings. On the walls\n\rhang large tapestries
     paying homage to thier leader Conner MacCleod.\n\r"
-  room_flags: 40
+  room_flags: DF
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: iron gate
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9599
   - dir: 1
     desc:
     keywords: door east
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9596
   - dir: 2
     desc:
     keywords: drawbridge draw bridge door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 7901
     to_vnum: 6100
   - dir: 3
     desc:
     keywords: door west
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9597
   - dir: 4
     desc:
     keywords: door up
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9595
   - dir: 5
     desc:
     keywords: door down
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9598
   extra_descs: []
@@ -8661,14 +8661,14 @@ rooms:
     small\n\runcomfortable looking bed rests in the corner, surrounded by ancient\n\rtomes.
     On the worn desk next to the window candles burn low, casting\n\rstrange shadows
     on the walls. The only noticeable decor is the mounted\n\rhead of the Demi-Lich.\n\r"
-  room_flags: 120
+  room_flags: DEFG
   sector: 0
   owner:
   exits:
   - dir: 5
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9594
   extra_descs: []
@@ -8679,14 +8679,14 @@ rooms:
     racks, holy symbols and pictures cover the walls, and\n\rthe smiley face button
     stuck on his bedpost tells you he'll probably\n\rhelp you out all he can. As you
     turn to leave the room the mounted head\n\rof Kalas stares past you into emptiness.\n\r"
-  room_flags: 120
+  room_flags: DEFG
   sector: 0
   owner:
   exits:
   - dir: 3
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9594
   extra_descs: []
@@ -8698,14 +8698,14 @@ rooms:
     lie.\n\r  One ring to rule them all, One ring to find them,\n\r  One ring to bring
     them all and in the darkness bind them\n\rIn the Land of Mordor where the Shadows
     lie.\n\r\n\rIf I have to explain, you wouldn't understand.\n\r"
-  room_flags: 120
+  room_flags: DEFG
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9594
   extra_descs: []
@@ -8717,14 +8717,14 @@ rooms:
     homemade one in the corner with a picture of Ice and under it the\n\rinscription,
     \"I LOVE the resurrection spell\". The only thing out of\n\rplace in this happy-go-lucky
     room is mounted head of Crimson Death.\n\r"
-  room_flags: 120
+  room_flags: DEFG
   sector: 0
   owner:
   exits:
   - dir: 4
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9594
   extra_descs: []
@@ -8733,21 +8733,21 @@ rooms:
   description: "You have entered the grand hall of the castle. A huge throne dominates
     a\n\rraised area in the northern part of then room. In front of this stands a\n\rdrafting
     table.\n\r"
-  room_flags: 120
+  room_flags: DEFG
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: iron gate
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 9594
   extra_descs: []
 - vnum: 9600
   name: Underground
   description: "The small passage continues west and east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -8767,7 +8767,7 @@ rooms:
 - vnum: 9601
   name: Underground
   description: "The small passage continues west and east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -8787,7 +8787,7 @@ rooms:
 - vnum: 9602
   name: Underground
   description: "The small passage continues west and east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -8809,7 +8809,7 @@ rooms:
   description: "You walk down the staircase into the silent inner sanctum. Here sits\n\ryour
     guildmaster ready to assist you when the time is right. The room\n\ris completely
     silent. The only obvious exit is back up the staircase\n\rinto the the Nectar.\n\r"
-  room_flags: 124
+  room_flags: CDEFG
   sector: 0
   owner:
   exits:
@@ -8817,7 +8817,7 @@ rooms:
     desc: "You notice the floor at the base of the eastern wall has some faint\n\rscratches
       in it.\n\r"
     keywords: secret door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 9579
   - dir: 4
@@ -8834,7 +8834,7 @@ rooms:
     you have heard however, this holy man has a bit of a temper,\n\rand he doesn't
     look very happy that you've disturbed his prayers.\n\rThe only obvious exit is
     south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8851,7 +8851,7 @@ rooms:
     A huge altar made of highly polished black onyx is standing\n\rin front of you.
     Behind this altar sits a twelve foot tall statue of\n\rLoki, the highest god in
     all the lands.\n\r"
-  room_flags: 76
+  room_flags: CDG
   sector: 0
   owner:
   exits:
@@ -8870,7 +8870,7 @@ rooms:
   description: "Rows and rows of uncut cloth lie about waiting to be hemmed up into\n\rtailored
     clothes. Cotton is brought in from the countryside and\n\rspun up into cloth and
     dyed different colors. A young boy walks\n\rin, grabs a pile of clothing and leaves.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8886,7 +8886,7 @@ rooms:
   description: "You have entered a busy workshop filled with people running amok\n\rwith
     various tools and materials.  The air is tense with the rush to\n\rcomplete various
     projects and creations.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8903,7 +8903,7 @@ rooms:
     looks immaculate. To the north you see the chamber of the High\n\rPriest and a
     sign on the door in BIG letters thats says DO NOT DISTURB.\n\rTo the south is
     the entrance to the Cleric's Guild.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8934,7 +8934,7 @@ rooms:
     full attention to the pulpit rising high  above the ground. The\n\rdeep red carpeting
     underfoot shows not a speck of wear or dirt. It's obvious\n\rthat New Thalonians
     take religion seriously.\n\r"
-  room_flags: 120
+  room_flags: DEFG
   sector: 0
   owner:
   exits:
@@ -8970,7 +8970,7 @@ rooms:
     hoarding some of the basic necessities for just such an occasion.\n\rThese days
     the donation room depends on the generosity of wealthy\n\radventureres, and a
     curse on any that walk in to get all.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -8986,7 +8986,7 @@ rooms:
   description: "Four large stone statues reside in the museum. They were constructed
     by\n\rthe people of New Thalos to pay homage to the saints they believe to\n\rhave
     saved all their lives.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9009,7 +9009,7 @@ rooms:
     its own right. Shaven heads and brown robes can be seen milling about\n\rquitely
     talking to each other. North is back inside the temple proper,\n\rand south is
     the entrance to the cleric's bar.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9060,7 +9060,7 @@ rooms:
   description: "You step into a shop swirling with smoke.  Ahkeem seems to have a
     liking for\n\rthings not of this world...very strange stuff indeed.  There is
     a large sign on\n\rthe wall.\n\r"
-  room_flags: 120
+  room_flags: DEFG
   sector: 0
   owner:
   exits:
@@ -9083,7 +9083,7 @@ rooms:
     telling\n\ryou 'Eat your Veggies'.  That's probably why you're mudding right now
     and\n\rnot hanging out with mom.  But wait...Vera looks just like your mother!\n\rThere
     is a large poster, behind the counter, taped to the wall.\n\r"
-  room_flags: 120
+  room_flags: DEFG
   sector: 0
   owner:
   exits:
@@ -9102,7 +9102,7 @@ rooms:
 - vnum: 9616
   name: The Museum of the Greater Gods
   description: "This room is identical to the one north of it, but contains four differnt\n\rstatues.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9124,7 +9124,7 @@ rooms:
   description: "You walk into a cold room whose only feature is an old wooden staircase\n\rspirling
     up along the wall to a higher level. Up these stairs, you are\n\rtold, lies the
     old mage who may be able to help you advance in your\n\rstudies.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9137,7 +9137,7 @@ rooms:
   - dir: 2
     desc: "You see some small scratches on the floor near the base of the wall.\n\r"
     keywords: secret door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 9624
   - dir: 4
@@ -9177,7 +9177,7 @@ rooms:
     goods to their cause. Perhaps because only clerics are\n\rallowed to enter this
     bar they have condoned making it as comfortable\n\ras possible. In the corner
     stands a staircase leading down to the\n\rmeditaion chambers.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9200,7 +9200,7 @@ rooms:
     bards, paladins and clerics mill around either preaching or\n\rlistening to their
     fellows preach. Huge marble steps lead up to the\n\rgates of the temple and Main
     Street lies to the south.\n\r"
-  room_flags: 32
+  room_flags: F
   sector: 1
   owner:
   exits:
@@ -9229,7 +9229,7 @@ rooms:
     satin.\n\rHuge pillars support an arched ceiling far above your head.  You wonder
     at\n\rthe skill the dwarves have for detail as you examine the trim.  Fine silver\n\rseparates
     the polished blocks that make up the floor.\n\r"
-  room_flags: 2097272
+  room_flags: DEFGV
   sector: 0
   owner:
   exits:
@@ -9247,7 +9247,7 @@ rooms:
     on hooks,\n\rstill bleeding into catch pans that drain into a single underground
     vat.\n\rYou wonder where that leads....  Taped to the counter, almost obscured
     by\n\rblood, there is a barely readable sign.\n\r"
-  room_flags: 120
+  room_flags: DEFG
   sector: 0
   owner:
   exits:
@@ -9258,13 +9258,13 @@ rooms:
     key: -1
     to_vnum: 9516
   extra_descs:
+  - keywords: vat
+    description: "You think you hear noises from the vat....nah.\n\r"
   - keywords: note sign
     description: "LIST : gives you a list of items for sale.\n\rVALUE : tells you
       how much an item is worth\n\rSELL : sells an item to Butch for a generous sum\n\rBUY
       : Butch's FAVORITE command lets you have an item for his low low price.\n\r\n\r
       \                                       NEWBEE INTRUCTOR COMMITEE\n\r"
-  - keywords: vat
-    description: "You think you hear noises from the vat....nah.\n\r"
 - vnum: 9623
   name: The Witch's Brew
   description: "The first thing you notice as you walk into this spacious shop is
@@ -9272,7 +9272,7 @@ rooms:
     feet makes it seem that you have stepped into a gateway to another\n\rplane. A
     tall brunette stands behind her cluttered table unaware of\n\ryour entrance.  An
     ornately lettered sign floats above your head.\n\r"
-  room_flags: 120
+  room_flags: DEFG
   sector: 0
   owner:
   exits:
@@ -9293,7 +9293,7 @@ rooms:
   description: "You enter a shop crowded with bookshelves and clutterd with scrolls.
     The\n\rowner seems to be hard at work on his latest magical creation. You see
     a\n\rsmall sign on the wall.\n\r"
-  room_flags: 120
+  room_flags: DEFG
   sector: 0
   owner:
   exits:
@@ -9312,7 +9312,7 @@ rooms:
   name: Entrance to the Mage's Tower
   description: "The entrance hall is a small poorly lit room. It would seem its only\n\rpurpose
     is to house the powerful sorcerer standing here guarding\n\rthe entrance.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9332,7 +9332,7 @@ rooms:
 - vnum: 9626
   name: Entrance to the Guild of Warriors'
   description: "This small hall is merely a check point to keep the unwanted out.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9355,7 +9355,7 @@ rooms:
     hive\n\rof activity. It is almost inhuman the way one man can fix all the area's\n\rarmor
     singlehandedly. If you have an item in need of repair simply give\n\rit to the
     man behind the counter.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9370,7 +9370,7 @@ rooms:
   name: The General Store
   description: "The new found wealth of this beautiful city is apearant in the exotic
     items\n\rfor sale here.  You wonder what would happen if you typed....LIST...\n\r"
-  room_flags: 120
+  room_flags: DEFG
   sector: 0
   owner:
   exits:
@@ -9389,7 +9389,7 @@ rooms:
     fast\n\rto follow.  The walls are adorned with all of Abdul's prize creations.
     \ Here\n\ryou can purchase suits of armor meant to keep monsters from hacking
     you into\n\rlittle pieces.\n\rA note on the wall beckons newbies.\n\r"
-  room_flags: 120
+  room_flags: DEFG
   sector: 0
   owner:
   exits:
@@ -9424,14 +9424,14 @@ rooms:
   - dir: 1
     desc: "You notice some small scratches in the floor next to the eastern wall.\n\r"
     keywords: secret door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9632
   extra_descs: []
 - vnum: 9631
   name: The Mercenary's Guild
   description: "This is the storage room for the mercenaries to be hired.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 0
   owner:
   exits: []
@@ -9441,7 +9441,7 @@ rooms:
   description: "This small, dark room has a single torch mounted in the wall for light.\n\rThere
     is a small wooden bench and a book lying on it. The assassin\n\rguarding the entrance
     from 'outsiders' stands as you walk in.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -9454,7 +9454,7 @@ rooms:
   - dir: 3
     desc:
     keywords: secret door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 9630
   extra_descs: []
@@ -9465,7 +9465,7 @@ rooms:
     from\n\rthe numerous bar brawls that have sprung up. It might be a good idea to
     hold\n\ryour tounge for a while as you soak up the atmosphere. There is an exit
     to\n\rthe east where the master swordsman awaits pupils to train with.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9487,14 +9487,14 @@ rooms:
   description: "This is a wide expanse of grass filled with dummies, punching bags
     and\n\rswordpupils. To the north you see a man dressed in black robes, unlike\n\rhis
     iron clad comrades, who you assume to be your master.\n\r"
-  room_flags: 124
+  room_flags: CDEFG
   sector: 0
   owner:
   exits:
   - dir: 1
     desc: "You see the grass near the base of the wall here is slightly torn.\n\r"
     keywords: secret door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 9573
   - dir: 3
@@ -9508,7 +9508,7 @@ rooms:
   name: The Bread Stand
   description: "A small stand has been set up here, showing the shopkeep's humble\n\rselection.
     You notice he has added a few things to his list.\n\r"
-  room_flags: 262264
+  room_flags: DEFGS
   sector: 0
   owner:
   exits:
@@ -9526,7 +9526,7 @@ rooms:
     \ A dwarf\n\rsits at a bench in the back hammering away on his latest creation.
     \ It is\n\rhere you can buy rare and exotic items not found in other parts of
     the world.\n\rA note catches your eye.\n\r"
-  room_flags: 104
+  room_flags: DFG
   sector: 0
   owner:
   exits:
@@ -9539,7 +9539,7 @@ rooms:
   - dir: 5
     desc:
     keywords: secret sesame
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9591
     to_vnum: 9750
   extra_descs:
@@ -9553,7 +9553,7 @@ rooms:
   description: "You are standing on a thick oriental rug surrounded on all sides by
     racks\n\rof numerous leather goods. A few women sit on leather cushions sewing
     in\n\rsome detail work on custom ordered jackets.  There is a note on the counter.\n\r"
-  room_flags: 120
+  room_flags: DEFG
   sector: 0
   owner:
   exits:
@@ -9575,7 +9575,7 @@ rooms:
     in.\n\rYou don't feel very welcome. The bar has numerous knife holes in it\n\rand
     the bartender leans over waiting for your order.  A large sign, pinned\n\rto the
     wall by a knife, awaits your inspection.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9595,7 +9595,7 @@ rooms:
     or\n\rdoor. Hooded figures lurk around in the shadows and speak in low voices.\n\rA
     flash of steel lets you know that weapons are in great abundance\n\rin this crowd.
     As you quickly check your beltpouch you notice\n\ra small staircase leading down.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9617,7 +9617,7 @@ rooms:
   description: "You are standing in a large room used to store merchandise made in
     the\n\rcity before it is shipped off. All the items here are made in New Thalos\n\rand
     shipped to other parts of the land.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9640,7 +9640,7 @@ rooms:
     This\n\rarea of the warehouse is used for storing the raw materials brought in\n\rfrom
     areas outside the city. These goods are then delivered to the various\n\rguilds.
     The export area of the warehouses is to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9663,7 +9663,7 @@ rooms:
     An\n\rold man with a curly, grey beard stand behind a small counter waiting to\n\rtake
     your order. Behind him are mounted various model sailboats and large\n\rfish.
     \ There is a large poster stapled to the counter.\n\r"
-  room_flags: 120
+  room_flags: DEFG
   sector: 0
   owner:
   exits:
@@ -9690,7 +9690,7 @@ rooms:
   description: "The walls are covered with paper sketchings of hull designs. This
     room is\n\rused by the shipwright to build his creations on paper before making\n\ra
     single cut in wood.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9708,7 +9708,7 @@ rooms:
     horseshoes made of iron. The room is hot, hotter than the desert\n\rjust south
     of here, and one wonders how the smithy can stand it.  Some\n\rletters have been
     burned into the wooden wall.\n\r"
-  room_flags: 124
+  room_flags: CDEFG
   sector: 0
   owner:
   exits:
@@ -9728,7 +9728,7 @@ rooms:
   description: "Nothing you wouldn't expect is here. Several stalls hold the Sultan's\n\rchoice
     Arabian Stallions, and each has its own trough for drinking.\n\rA small boy wanders
     in sometimes with a shovel to remove the offensive\n\rby-product of such beasts.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -9750,14 +9750,14 @@ rooms:
   description: "This is a hidden yard known to only a few people in New Thalos. Here
     you\n\rmay train in the arts of stealing, picking locks, and becoming almost\n\rinvisible.
     A small staircase leads back up to the unicorn.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 2
     desc: "You see some small scratches in the wall to the south.\n\r"
     keywords: secret door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 9589
   - dir: 4
@@ -9789,7 +9789,7 @@ rooms:
     of\n\rpotions, scroll, and wands lie in disarray. The man you see before you\n\rsits
     hunched over a small wooden table with two beakers of bubbling\n\rliquid in front
     of him. He looks up as you enter and smiles broadly.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9805,7 +9805,7 @@ rooms:
   description: "Not as big as the ones you see on farms in the country, this hay loft\n\rserves
     as a storage area for the horses in the stables. The young boy\n\ryou saw with
     the shovel seems to have taken up residence on the second\n\rstory.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9824,7 +9824,7 @@ rooms:
     on the ancient tapestries adorning the walls. The crick\n\rin your neck tells
     you it's time to stop staring. To the west the\n\rnumerous halls of the palace
     begin and the gate lies to the east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9837,7 +9837,7 @@ rooms:
   - dir: 1
     desc:
     keywords: gate
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9500
     to_vnum: 9658
   - dir: 2
@@ -9859,7 +9859,7 @@ rooms:
     been brought here by the committee appointed to recover the\n\rlost knowledge
     of Thalos.  Rows of shelves, filled with book in every\n\rcondition, lines the
     walls.  The air has the aroma of old parchment and\n\rglue.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9876,7 +9876,7 @@ rooms:
     up\n\rthe confetti and cigarette butts.  Hundreds of empty beer mugs on the\n\rtables
     surrounding the dance floor suggest that the citizens love their\n\rdrink.  There
     is still a banner on the wall.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9894,14 +9894,14 @@ rooms:
   name: Jail
   description: "You are in jail. For some reason the god's feel you've screwed up\n\rpretty
     bad and should be put away safely for a while.\n\r"
-  room_flags: 120
+  room_flags: DEFG
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: secret gate
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9593
     to_vnum: 9544
   extra_descs: []
@@ -9910,7 +9910,7 @@ rooms:
   description: "You stand inside the administrative head of the city. Here the decisions\n\rregarding
     city policy are made. Although the Sultan's word is law, he\n\rusually spends
     his time on affairs outside the city wall.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9928,7 +9928,7 @@ rooms:
     skills are rare to come by in the general populous.  A few boys are\n\rbusy in
     the corner preparing feathers for the fine shafts used in making\n\rarrows.  Some
     Elven craftsmen are carefuly inspecting each bow as it is\n\rfinished.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9946,7 +9946,7 @@ rooms:
     at work doing what they do best.  The hammers fly in a blur as\n\rthese talented
     craftsmen work the stone into ornate bricks, pillars, trim,\n\rand many other
     forms.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9962,7 +9962,7 @@ rooms:
   description: "You stand inside the southern of the two main guard houses. The stone\n\rinterior
     has a spartan look to it, only the bare neccesities. A few\n\rweapons are mounted
     on the walls in case they might be needed.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -9993,7 +9993,7 @@ rooms:
   - dir: 3
     desc:
     keywords: gate
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9500
     to_vnum: 9650
   extra_descs: []
@@ -10003,7 +10003,7 @@ rooms:
     here\n\ris great! To the west you see the tall mountains that make up the divide\n\rbetween
     here an Midgaard. The Ishtar river slowly flows from that direction.\n\rSouth
     you can see the entire city of New Thalos and the Sands of Sorrow \n\rto the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -10019,7 +10019,7 @@ rooms:
   description: "You stand inside the northern of the two main guard houses. Strong\n\rguards
     are seated here, playing cards. The stone interior is clean\n\rbut bare walled
     save the weapons and armor mounted in the walls.\n\rThe only exit is south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -10038,14 +10038,14 @@ rooms:
     meal. Servants scurry about grabbing utensils and preparing\n\rfresh hares. A
     small door leads out into the hall northward and the door\n\rto the dining hall
     is west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9663
   - dir: 3
@@ -10060,7 +10060,7 @@ rooms:
   description: "You stand on one of the four towers guarding the city. To the north
     you\n\rsee the wide plains and then the forest. South of here you see the city\n\rand
     the great eastern desert beyond.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -10075,14 +10075,14 @@ rooms:
   name: Hall
   description: "You are at the eastern end of the southern hallway. A small servants'\n\rentrance
     give access to the kitchen and the hall continues west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: door small
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9661
   - dir: 3
@@ -10099,7 +10099,7 @@ rooms:
     the many colors that these people have transformed the beautiful\n\rskins into.
     \ The people are stretching the leather and cutting it into\n\rthe shapes they
     need.  You notice a small message on a wall.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -10117,14 +10117,14 @@ rooms:
   description: "You have come to the eastern end of the northern hallway. The only
     exit\n\ris west except for the simple wooden door to the north. There is a\n\rgolden
     plaque above the door.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9666
   - dir: 3
@@ -10142,14 +10142,14 @@ rooms:
   description: "As you step into this room you seem to leave the material plane. The\n\rwalls
     here are decorated with beautiful, multi-colored tiles. There\n\ris a strange
     stillness about the air. You sense the presence of an\n\ralmighty being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9665
   extra_descs: []
@@ -10213,7 +10213,7 @@ rooms:
   - dir: 1
     desc:
     keywords: gate
-    exit_flags: 3
+    exit_flags: AB
     key: 9501
     to_vnum: 9523
   - dir: 3
@@ -10244,7 +10244,7 @@ rooms:
     gold trim, dominates the room. Although no diners occupy the room\n\ras of yet,
     servants sprint about setting the table and placing condiments.\n\rThe kitchen
     entrance is to the east, and two huge double doors open into\n\rthe hallway north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -10265,7 +10265,7 @@ rooms:
   name: Hall
   description: "You stand at a T-crossing in the long hallways. There are two\n\rlarge
     double doors to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -10284,7 +10284,7 @@ rooms:
   - dir: 2
     desc:
     keywords: double doors
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9671
   - dir: 3
@@ -10299,7 +10299,7 @@ rooms:
   description: "You stand at an intersection of the hallways. Wooden corridors lead
     off in\n\rall directions except west; the garden of the palace can be entered
     there.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -10332,14 +10332,14 @@ rooms:
   name: Hall
   description: "You have come to a T-crossing on the hallways. The wooden corridors\n\rcontinue
     east, west and south. There is a large iron door to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: iron heavy
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9675
   - dir: 1
@@ -10367,20 +10367,20 @@ rooms:
     seems very out of place compared to the splender of the rest of the\n\rpalace.
     A large steel grating leads down into darkness, and an iron door\n\rreturns you
     to the hallway.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: iron
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9674
   - dir: 5
     desc:
     keywords: steel
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9691
   extra_descs: []
@@ -10390,7 +10390,7 @@ rooms:
     stands\n\ron the east wall with a mirror hung right above it. A queen sized bed
     made\n\rup in satin sheets stands in the middle of the room against the south\n\rwall
     under a window. The only obvious exit is north back out into the\n\rhallway.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -10401,18 +10401,18 @@ rooms:
     key: -1
     to_vnum: 9677
   extra_descs:
-  - keywords: mirror
-    description: "You see a the fighting image of some armor clad humanoid wielding
-      a weapon.\n\r"
   - keywords: window
     description: "Looking out this window you can see the grounds of the palace that\n\rseperate
       the walls of the palace from the building itself.\n\r"
+  - keywords: mirror
+    description: "You see a the fighting image of some armor clad humanoid wielding
+      a weapon.\n\r"
 - vnum: 9677
   name: Hall
   description: "The long hall continues here with a wooden door in the south wall.
     On the\n\rnorth wall hangs the picture of some forgotten nobleman who once ruled\n\rthe
     land.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -10425,7 +10425,7 @@ rooms:
   - dir: 2
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9676
   - dir: 3
@@ -10482,14 +10482,14 @@ rooms:
     small\n\rred carpet covering the centerline is always underfoot and an occasional\n\rbench
     or potted plant lines the wall. There is a door here to the north\n\rwith a plaque
     mounted over it.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9680
   - dir: 1
@@ -10517,14 +10517,14 @@ rooms:
     and mirrors are placed in strategic\n\rlocations so the viewer may see an entire
     sculpture at a glance. Your\n\reyes, however, are pulled towards a painting that
     dominates the far wall.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9679
   extra_descs: []
@@ -10533,7 +10533,7 @@ rooms:
   description: "This is another room made up for visiting nobles. There is a dresser
     up\n\ragainst the eastern wall with a mirror above it and a queen sized bed,\n\rmade
     up in satin sheets, against the south wall.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -10548,7 +10548,7 @@ rooms:
   name: Hall
   description: "You have reached the western end of the southern hallway. The only
     exit\n\ris east except for the doors in the southern and western walls.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -10561,13 +10561,13 @@ rooms:
   - dir: 2
     desc:
     keywords: door south
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9681
   - dir: 3
     desc:
     keywords: door west
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9500
     to_vnum: 9687
   extra_descs: []
@@ -10576,7 +10576,7 @@ rooms:
   description: "Walking through the gardens you come across a small white wooden structure.\n\rThe
     sounds of birds, the smell of flowers, ahhh paradise. You believe\n\ryou have
     never been in a more peaceful setting.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -10591,14 +10591,14 @@ rooms:
   name: Hall
   description: "This is the western end of the northern hallway. Two doors are set
     in the\n\rwalls here, one to the north, another to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door north
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9685
   - dir: 1
@@ -10610,7 +10610,7 @@ rooms:
   - dir: 3
     desc:
     keywords: door west
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9689
   extra_descs: []
@@ -10619,14 +10619,14 @@ rooms:
   description: "You stand in a barren chamber lined with nothing but cots and footlockers.\n\rThe
     guards come here when off duty to sleep, for they may only leave the\n\rpalace
     grounds with special permission. The only exit is to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9684
   extra_descs: []
@@ -10636,7 +10636,7 @@ rooms:
     to\n\rthe rest of the palace, you see only cots and footlockers here. On the\n\rwalls
     you see pictures of well known knights who have given a proud name\n\rto the Sultan's
     Guard.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -10654,14 +10654,14 @@ rooms:
     can\n\ralmost see through. In the western end of the room stands a large mound\n\rof
     pillows and a beautiful young maiden sits perched atop. It is\n\runfortunate for
     you that only the Sultan is allowed in here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: secret door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9688
   - dir: 1
@@ -10681,7 +10681,7 @@ rooms:
   name: Small room
   description: "This is secret chamber allowing the Sultan direct access to his harem\n\rat
     any time he chooses.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -10704,26 +10704,26 @@ rooms:
     at attention near his side ready to make the ultimate sacrifice for\n\rtheir beloved
     leader. The gold inlaid throne studded with jewels stands\n\rupon a mable dias.
     The Sultan is not a man to be trifled with.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: secret throne
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9600
     to_vnum: 9690
   - dir: 1
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9684
   - dir: 2
     desc:
     keywords: "secret door\n\r"
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9688
   extra_descs: []
@@ -10733,7 +10733,7 @@ rooms:
     Sultan.\n\rThe alarm sounding in the background tells you that you must have\n\rtripped
     off some kind of alarm system. It might be adviseable to grab\n\ras much stuff
     as you possibly can and run for the door.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -10756,20 +10756,20 @@ rooms:
     There is a small bench with some old magazines and a low\n\rburning candle sitting
     off to one side. A door is set into the\n\rstone on the north wall, and the steel
     grating opens up above.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 9692
   - dir: 4
     desc:
     keywords: steel
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9675
   extra_descs: []
@@ -10777,14 +10777,14 @@ rooms:
   name: Tunnel in the Dungeon
   description: "You stand in a roughly hewn stone tunnel with cells to the north and\n\rsouth.
     The tunnel continues east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: cell north
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9593
     to_vnum: 9697
   - dir: 1
@@ -10796,13 +10796,13 @@ rooms:
   - dir: 2
     desc:
     keywords: cell south
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9593
     to_vnum: 9701
   - dir: 3
     desc:
     keywords: door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 9691
   extra_descs: []
@@ -10810,14 +10810,14 @@ rooms:
   name: Tunnel in the Dungeon
   description: "You stand in a roughly hewn stone tunnel with cells to the north and\n\rsouth.
     The tunnel continues east and west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: cell north
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9593
     to_vnum: 9698
   - dir: 1
@@ -10829,7 +10829,7 @@ rooms:
   - dir: 2
     desc:
     keywords: cell south
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9593
     to_vnum: 9702
   - dir: 3
@@ -10843,14 +10843,14 @@ rooms:
   name: Tunnel in the Dungeon
   description: "You stand in a roughly hewn stone tunnel with cells to the north and\n\rsouth.
     The tunnel continues east and west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: cell north
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9593
     to_vnum: 9699
   - dir: 1
@@ -10862,7 +10862,7 @@ rooms:
   - dir: 2
     desc:
     keywords: cell south
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9593
     to_vnum: 9703
   - dir: 3
@@ -10877,26 +10877,26 @@ rooms:
   description: "You stand in a roughly hewn stone tunnel with cells to the north and\n\rsouth.
     The tunnel continues west and you notice a small crack in the\n\rstone to the
     east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: cell north
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9593
     to_vnum: 9700
   - dir: 1
     desc:
     keywords: crack
-    exit_flags: 7
+    exit_flags: ABC
     key: 9500
     to_vnum: 9696
   - dir: 2
     desc:
     keywords: cell south
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9593
     to_vnum: 9704
   - dir: 3
@@ -10912,126 +10912,126 @@ rooms:
     about the floor covering bones of unkown origin. Spatterd blood\n\rand tufts of
     grey hair lie matted in one corner. As you turn to leave\n\ryou notice a pair
     of small red eyes peering at you from the darkness.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 3
     desc:
     keywords: crack
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9500
     to_vnum: 9695
   extra_descs: []
 - vnum: 9697
   name: Cell
   description: "You are in a cold, cramped chamber with only one exit.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: cell
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9593
     to_vnum: 9692
   extra_descs: []
 - vnum: 9698
   name: Cell
   description: "You are in a cold, cramped chamber with only one exit.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: cell
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9593
     to_vnum: 9693
   extra_descs: []
 - vnum: 9699
   name: Cell
   description: "You are in a cold, cramped chamber with only one exit.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: cell
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9593
     to_vnum: 9694
   extra_descs: []
 - vnum: 9700
   name: Cell
   description: "You are in a cold, cramped chamber with only one exit.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: cell
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9593
     to_vnum: 9695
   extra_descs: []
 - vnum: 9701
   name: Cell
   description: "You are in a cold, cramped chamber with only one exit.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: cell
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9593
     to_vnum: 9692
   extra_descs: []
 - vnum: 9702
   name: Cell
   description: "You are in a cold, cramped chamber with only one exit.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: cell
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9593
     to_vnum: 9693
   extra_descs: []
 - vnum: 9703
   name: Cell
   description: "You are in a cold, cramped chamber with only one exit.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: "cell\n\rcell"
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9593
     to_vnum: 9694
   extra_descs: []
 - vnum: 9704
   name: Cell
   description: "You are in a cold, cramped chamber with only one exit.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: "cell\n\rcell"
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9593
     to_vnum: 9695
   extra_descs: []
@@ -11040,7 +11040,7 @@ rooms:
   description: "You stand in a large cedar wood hall leading east and west. On the
     floor\n\rlies a thin and narrow purple rug. The hall leads west inside the palace\n\rand
     east to the Grand Entrance.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -11561,14 +11561,14 @@ rooms:
 - vnum: 9750
   name: Igor's Secret Chamber
   description:
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 4
     desc:
     keywords: secret sesame
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9591
     to_vnum: 9636
   extra_descs: []
@@ -11596,7 +11596,7 @@ rooms:
 - vnum: 9773
   name: On the Dark River
   description: "The river continues east and west meandering through the woods.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 7
   owner:
   exits:
@@ -11617,7 +11617,7 @@ rooms:
   name: On the Dark River
   description: "The river continues east and west meandering through the woods. You\n\rhear
     the sounds of chopping wood far off in the distance.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 7
   owner:
   exits:
@@ -11643,7 +11643,7 @@ rooms:
 - vnum: 9775
   name: On the Dark River
   description: "The river continues east meandering through the woods.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 7
   owner:
   exits:
@@ -11658,7 +11658,7 @@ rooms:
   name: Freefall
   description: "As your fingers slowly slip from the handguides you feel a sudden\n\reuphoria
     as you freefall the 200 + feet to your death.\n\r"
-  room_flags: 6
+  room_flags: BC
   sector: 5
   owner:
   exits: []
@@ -12110,7 +12110,7 @@ rooms:
   description: "You are swimming underneath the dock. You can see the four wooden\n\rpylons
     that support the structure. The murky water clouds your vision\n\ras you gaze
     westward, but you think you can make out an iron grating in\n\rthat direction.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 7
   owner:
   exits:
@@ -12123,7 +12123,7 @@ rooms:
   - dir: 3
     desc:
     keywords: grate
-    exit_flags: 3
+    exit_flags: AB
     key: 1
     to_vnum: 9799
   - dir: 4
@@ -12138,14 +12138,14 @@ rooms:
   description: "Blood swirls around in the water as the Ixitxachitl devours the\n\rlast
     of its meal. Swirling around quickly as you intrude upon\n\rits meal the large
     sting ray attacks!\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 7
   owner:
   exits:
   - dir: 1
     desc:
     keywords: grate
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 9798
   extra_descs: []

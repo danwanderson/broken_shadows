@@ -13,8 +13,8 @@ mobiles:
   long_desc: "An acolyte of Tempest welcomes you to mud school.\n\r"
   description: "She's big and bad.  Don't mess with her.\n\r"
   race: Human
-  act: 2621506
-  affected_by: 132
+  act: BGTV
+  affected_by: CH
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -38,8 +38,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 9653
-  imm_flags: 15
+  off_flags: ACEFHIKN
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -59,8 +59,8 @@ mobiles:
     up.\n\rPerhaps now would be a good time to flee from him!!!  If you don't flee,
     you\n\rwould really suffer the consequences.\n\r"
   race: unique
-  act: 66
-  affected_by: 4
+  act: BG
+  affected_by: C
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -84,15 +84,15 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 8193
-  imm_flags: 3
-  res_flags: 12
+  off_flags: AN
+  imm_flags: AB
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: 268697602
+  form: BSc
   parts: 0
   size: L
   material: none
@@ -104,7 +104,7 @@ mobiles:
   description: "He looks mean, but you feel comfortable that you can kill him, especially
     since\n\rhe is leashed up, and you are not.\n\r"
   race: school monster
-  act: 2
+  act: B
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -149,7 +149,7 @@ mobiles:
   description: "He looks wimpy.  You feel comfortable that you can kill him, especially
     since\n\rhe is leashed up, and you are not.\n\r"
   race: school monster
-  act: 130
+  act: BH
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -174,7 +174,7 @@ mobiles:
     bash: 10
     slash: 10
     exotic: 10
-  off_flags: 16384
+  off_flags: O
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -194,7 +194,7 @@ mobiles:
   description: "He looks mean, but you feel comfortable that you can kill him, especially
     since\n\rhe is leashed up, and you are not.\n\r"
   race: school monster
-  act: 34
+  act: BF
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -219,7 +219,7 @@ mobiles:
     bash: 10
     slash: 10
     exotic: 10
-  off_flags: 1040
+  off_flags: EK
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -239,7 +239,7 @@ mobiles:
   description: "He looks mean, but you feel comfortable that you can kill him, especially
     since\n\rhe is leashed up, and you are not.\n\r"
   race: school monster
-  act: 162
+  act: BFH
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -264,7 +264,7 @@ mobiles:
     bash: 10
     slash: 10
     exotic: 10
-  off_flags: 512
+  off_flags: J
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -284,8 +284,8 @@ mobiles:
   description: "He looks mean, and you just might have a small problem killing him,
     but he\n\rlooks like a great prize!!!\n\r"
   race: school monster
-  act: 2
-  affected_by: 33554944
+  act: B
+  affected_by: JZ
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -309,7 +309,7 @@ mobiles:
     bash: 8
     slash: 8
     exotic: 10
-  off_flags: 8224
+  off_flags: FN
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -328,8 +328,8 @@ mobiles:
   long_desc: "An adept of the mighty god Ezra is here, contemplating your progress.\n\r"
   description: "He is big and bad.  Don't mess with him.\n\r"
   race: Human
-  act: 2621506
-  affected_by: 132
+  act: BGTV
+  affected_by: CH
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -353,8 +353,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 9653
-  imm_flags: 15
+  off_flags: ACEFHIKN
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -372,8 +372,8 @@ mobiles:
   long_desc: "An adept of Alander is here, smiling at you.\n\r"
   description: "He is big and bad.  Don't mess with him.\n\r"
   race: Human
-  act: 2621506
-  affected_by: 132
+  act: BGTV
+  affected_by: CH
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -397,8 +397,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 9653
-  imm_flags: 15
+  off_flags: ACEFHIKN
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -416,7 +416,7 @@ mobiles:
   long_desc: "A rabbit is bouncing around here.\n\r"
   description: "The rabbit smiles at you, completely harmless!\n\r"
   race: rabbit
-  act: 1048768
+  act: GHU
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -460,7 +460,7 @@ mobiles:
   long_desc: "A lizard slithers up to you.\n\r"
   description: "It smiles at you, and tries to eat your leg.\n\r"
   race: lizard
-  act: 1048640
+  act: GU
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -485,7 +485,7 @@ mobiles:
     bash: 8
     slash: 8
     exotic: 10
-  off_flags: 131072
+  off_flags: R
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -504,7 +504,7 @@ mobiles:
   long_desc: "A boar tries to run you over.\n\r"
   description: "It grunts at you.\n\r"
   race: pig
-  act: 1048640
+  act: GU
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -529,7 +529,7 @@ mobiles:
     bash: 7
     slash: 7
     exotic: 9
-  off_flags: 131116
+  off_flags: CDFR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -548,7 +548,7 @@ mobiles:
   long_desc: "A fox is here staring at you.\n\r"
   description: "It's fur might be worth money.\n\r"
   race: fox
-  act: 1048768
+  act: GHU
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -573,7 +573,7 @@ mobiles:
     bash: 8
     slash: 8
     exotic: 10
-  off_flags: 139264
+  off_flags: NR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -592,7 +592,7 @@ mobiles:
   long_desc: "A snail is trying to get out of your way.\n\r"
   description: "You don't see much but slime about it.\n\r"
   race: unique
-  act: 1048640
+  act: GU
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -625,8 +625,8 @@ mobiles:
   default_pos: 8
   sex: 0
   gold: 0
-  form: 268501057
-  parts: 4257
+  form: AGQc
+  parts: AFHM
   size: T
   material: none
   spec_fun:
@@ -636,8 +636,8 @@ mobiles:
   long_desc: "A beast tries to feed off of you.\n\r"
   description: "It looks mean.  You'd better run.\n\r"
   race: school monster
-  act: 524320
-  affected_by: 33554432
+  act: FT
+  affected_by: Z
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -661,9 +661,9 @@ mobiles:
     bash: 5
     slash: 5
     exotic: 8
-  off_flags: 5136
+  off_flags: EKM
   imm_flags: 0
-  res_flags: 384
+  res_flags: HI
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -680,7 +680,7 @@ mobiles:
   long_desc: "A bear is here growling at you.\n\r"
   description: "The bear must be bigger than you!  It wants to rip your head off.\n\r"
   race: bear
-  act: 1048640
+  act: GU
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -705,7 +705,7 @@ mobiles:
     bash: 5
     slash: 6
     exotic: 7
-  off_flags: 131076
+  off_flags: CR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -724,7 +724,7 @@ mobiles:
   long_desc: "A wolf is here snarling at you.\n\r"
   description: "The wolf doesn't want to be bothered.\n\r"
   race: Wolf
-  act: 1048640
+  act: GU
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -749,7 +749,7 @@ mobiles:
     bash: 7
     slash: 7
     exotic: 10
-  off_flags: 139264
+  off_flags: NR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -768,8 +768,8 @@ mobiles:
   long_desc: "An adept of Goose is here, grinning and selling you things.\n\r"
   description: "He is big and bad.  Don't mess with him.\n\r"
   race: Human
-  act: 2686982
-  affected_by: 132
+  act: BCQTV
+  affected_by: CH
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -793,8 +793,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 9653
-  imm_flags: 15
+  off_flags: ACEFHIKN
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -812,8 +812,8 @@ mobiles:
   long_desc: "An adept of Furey is here, training young students.\n\r"
   description: "He is big and bad.  Don't mess with him.\n\r"
   race: Human
-  act: 2621958
-  affected_by: 132
+  act: BCJTV
+  affected_by: CH
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -837,8 +837,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 9653
-  imm_flags: 15
+  off_flags: ACEFHIKN
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -856,8 +856,8 @@ mobiles:
   long_desc: "The priest of Seth is ready to help you practice.\n\r"
   description: "He is big and bad.  Don't mess with him.\n\r"
   race: Human
-  act: 2622470
-  affected_by: 132
+  act: BCKTV
+  affected_by: CH
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -881,8 +881,8 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -15
-  off_flags: 9653
-  imm_flags: 15
+  off_flags: ACEFHIKN
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -901,8 +901,8 @@ mobiles:
   description: "This horrible creature is your final test for mud school.  Kill him,
     and the\n\rdiploma is yours.\n\r"
   race: school monster
-  act: 2
-  affected_by: 512
+  act: B
+  affected_by: J
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -926,7 +926,7 @@ mobiles:
     bash: 8
     slash: 8
     exotic: 10
-  off_flags: 8240
+  off_flags: EFN
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -946,8 +946,8 @@ objects:
   description: You see a sub issue mace here.
   material: none
   item_type: 5
-  extra_flags: 131072
-  wear_flags: 8193
+  extra_flags: R
+  wear_flags: AN
   level: 0
   weight: 6
   cost: 0
@@ -972,8 +972,8 @@ objects:
   description: You see a sub issue dagger here.
   material: none
   item_type: 5
-  extra_flags: 131072
-  wear_flags: 8193
+  extra_flags: R
+  wear_flags: AN
   level: 0
   weight: 3
   cost: 0
@@ -998,8 +998,8 @@ objects:
   description: You see a sub issue sword here.
   material: none
   item_type: 5
-  extra_flags: 131072
-  wear_flags: 8193
+  extra_flags: R
+  wear_flags: AN
   level: 0
   weight: 3
   cost: 0
@@ -1024,8 +1024,8 @@ objects:
   description: You see a sub issue vest here.
   material: none
   item_type: 9
-  extra_flags: 131072
-  wear_flags: 9
+  extra_flags: R
+  wear_flags: AD
   level: 0
   weight: 5
   cost: 0
@@ -1046,8 +1046,8 @@ objects:
   description: You see a sub issue shield here.
   material: none
   item_type: 9
-  extra_flags: 131072
-  wear_flags: 513
+  extra_flags: R
+  wear_flags: AJ
   level: 0
   weight: 3
   cost: 0
@@ -1068,8 +1068,8 @@ objects:
   description: You see a sub issue cloak here.
   material: none
   item_type: 9
-  extra_flags: 131072
-  wear_flags: 5
+  extra_flags: R
+  wear_flags: AC
   level: 0
   weight: 4
   cost: 0
@@ -1090,8 +1090,8 @@ objects:
   description: You see a sub issue helmet here.
   material: none
   item_type: 9
-  extra_flags: 131072
-  wear_flags: 17
+  extra_flags: R
+  wear_flags: AE
   level: 0
   weight: 3
   cost: 0
@@ -1112,8 +1112,8 @@ objects:
   description: You see a pair of sub issue leggings here.
   material: none
   item_type: 9
-  extra_flags: 131072
-  wear_flags: 33
+  extra_flags: R
+  wear_flags: AF
   level: 0
   weight: 3
   cost: 0
@@ -1134,8 +1134,8 @@ objects:
   description: You see a pair of sub issue boots here.
   material: none
   item_type: 9
-  extra_flags: 131072
-  wear_flags: 65
+  extra_flags: R
+  wear_flags: AG
   level: 0
   weight: 3
   cost: 0
@@ -1156,8 +1156,8 @@ objects:
   description: You see a pair of sub issue gloves here.
   material: none
   item_type: 9
-  extra_flags: 131072
-  wear_flags: 129
+  extra_flags: R
+  wear_flags: AH
   level: 0
   weight: 1
   cost: 0
@@ -1178,8 +1178,8 @@ objects:
   description: You see a pair of sub issue sleeves here.
   material: none
   item_type: 9
-  extra_flags: 131072
-  wear_flags: 257
+  extra_flags: R
+  wear_flags: AI
   level: 0
   weight: 2
   cost: 0
@@ -1200,8 +1200,8 @@ objects:
   description: You see a sub issue cape here.
   material: none
   item_type: 9
-  extra_flags: 131072
-  wear_flags: 1025
+  extra_flags: R
+  wear_flags: AK
   level: 0
   weight: 2
   cost: 0
@@ -1222,8 +1222,8 @@ objects:
   description: You see a sub issue belt here.
   material: none
   item_type: 9
-  extra_flags: 131072
-  wear_flags: 2049
+  extra_flags: R
+  wear_flags: AL
   level: 0
   weight: 1
   cost: 0
@@ -1244,8 +1244,8 @@ objects:
   description: You see a sub issue bracer here.
   material: none
   item_type: 9
-  extra_flags: 131072
-  wear_flags: 4097
+  extra_flags: R
+  wear_flags: AM
   level: 0
   weight: 1
   cost: 0
@@ -1266,8 +1266,8 @@ objects:
   description: You see a very important key here!
   material: none
   item_type: 18
-  extra_flags: 32768
-  wear_flags: 1
+  extra_flags: P
+  wear_flags: A
   level: 0
   weight: 1
   cost: 0
@@ -1285,8 +1285,8 @@ objects:
   description: You see a mud school diploma here.
   material: none
   item_type: 8
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 0
   weight: 1
   cost: 0
@@ -1298,11 +1298,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 5
+    location: 4
     modifier: 1
     bitvector: 0
   - where: O
-    location: 4
+    location: 5
     modifier: 1
     bitvector: 0
   extra_descs:
@@ -1315,8 +1315,8 @@ objects:
   description: A war banner is on the floor here.
   material: none
   item_type: 1
-  extra_flags: 65
-  wear_flags: 1
+  extra_flags: AG
+  wear_flags: A
   level: 0
   weight: 2
   cost: 0
@@ -1328,11 +1328,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 24
+    location: 17
     modifier: -1
     bitvector: 0
   - where: O
-    location: 17
+    location: 24
     modifier: -1
     bitvector: 0
   extra_descs:
@@ -1345,8 +1345,8 @@ objects:
   description: You see a sub issue axe here.
   material: none
   item_type: 5
-  extra_flags: 131072
-  wear_flags: 8193
+  extra_flags: R
+  wear_flags: AN
   level: 0
   weight: 6
   cost: 0
@@ -1364,8 +1364,8 @@ objects:
   description: You see a sub issue staff here.
   material: none
   item_type: 5
-  extra_flags: 131072
-  wear_flags: 8193
+  extra_flags: R
+  wear_flags: AN
   level: 0
   weight: 6
   cost: 0
@@ -1383,8 +1383,8 @@ objects:
   description: You see a sub issue flail here.
   material: none
   item_type: 5
-  extra_flags: 131072
-  wear_flags: 8193
+  extra_flags: R
+  wear_flags: AN
   level: 0
   weight: 6
   cost: 0
@@ -1402,8 +1402,8 @@ objects:
   description: You see a sub issue whip here.
   material: none
   item_type: 5
-  extra_flags: 131072
-  wear_flags: 8193
+  extra_flags: R
+  wear_flags: AN
   level: 0
   weight: 6
   cost: 0
@@ -1421,8 +1421,8 @@ objects:
   description: You see a sub issue polearm here.
   material: none
   item_type: 5
-  extra_flags: 131072
-  wear_flags: 8193
+  extra_flags: R
+  wear_flags: AN
   level: 0
   weight: 8
   cost: 0
@@ -1441,7 +1441,7 @@ rooms:
     mud\n\rschool.  If you have been here before and want to go directly to the arena,\n\rgo
     south.\n\r\n\rA sign warns 'You may not pass these doors once you have passed
     level 5.'\n\r"
-  room_flags: 12
+  room_flags: CD
   sector: 0
   owner:
   exits:
@@ -1454,7 +1454,7 @@ rooms:
   - dir: 2
     desc: "You see the one way door into the Arena of Mud School.\n\r"
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3744
   - dir: 5
@@ -1470,7 +1470,7 @@ rooms:
     windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
     there is a\n\rsign on the wall.  The exits are west and south.  A small plaque
     is on the\n\rwall.\n\r"
-  room_flags: 131084
+  room_flags: CDR
   sector: 0
   owner:
   exits:
@@ -1487,9 +1487,6 @@ rooms:
     key: -1
     to_vnum: 3702
   extra_descs:
-  - keywords: plaque
-    description: "This zone (Mud School) is created by Hatchet for any Merc Mud.\n\rCopyright
-      1992, 1993.\n\r"
   - keywords: sign
     description: "Equipment check time!  Type 'EQUIPMENT' to see your current equipment.
       \ Right\n\rnow, you have just a vest, a shield, and a weapon.  As you go through
@@ -1500,12 +1497,15 @@ rooms:
       you have, type 'WEAR ALL'.\n\rTo stop using a piece of equipment, type 'REMOVE
       item'.\n\rFinally, to see the items in your inventory, type 'INVENTORY'.\n\r\n\rWhen
       you are ready to continue, go west.\n\r"
+  - keywords: plaque
+    description: "This zone (Mud School) is created by Hatchet for any Merc Mud.\n\rCopyright
+      1992, 1993.\n\r"
 - vnum: 3702
   name: The Center Room
   description: "You are in a square white room.  The walls are all blank, with no
     windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
     there is a\n\rsign on the wall.  Exits lead in ALL directions.\n\r"
-  room_flags: 131084
+  room_flags: CDR
   sector: 0
   owner:
   exits:
@@ -1559,7 +1559,7 @@ rooms:
   description: "You are in a square white room.  The walls are all blank, with no
     windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
     there is a\n\rsign on the wall.  Exits lead north and south.\n\r"
-  room_flags: 131084
+  room_flags: CDR
   sector: 0
   owner:
   exits:
@@ -1585,7 +1585,7 @@ rooms:
   description: "You are in a square white room.  The walls are all blank, with no
     windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
     there is a\n\rsign on the wall.  The only exit is east.\n\r"
-  room_flags: 131084
+  room_flags: CDR
   sector: 0
   owner:
   exits:
@@ -1603,7 +1603,7 @@ rooms:
   description: "You are in a square white room.  The walls are all blank, with no
     windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
     there is a\n\rsign on the wall.  The only exit is north.\n\r"
-  room_flags: 131084
+  room_flags: CDR
   sector: 0
   owner:
   exits:
@@ -1621,7 +1621,7 @@ rooms:
   description: "You are in a square white room.  The walls are all blank, with no
     windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
     there is a\n\rsign on the wall.  The only exit is up.\n\r"
-  room_flags: 131084
+  room_flags: CDR
   sector: 0
   owner:
   exits:
@@ -1639,7 +1639,7 @@ rooms:
   description: "You are in a square white room.  The walls are all blank, with no
     windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
     there is a\n\rsign on the wall.  The only exit is down.\n\r"
-  room_flags: 131084
+  room_flags: CDR
   sector: 0
   owner:
   exits:
@@ -1657,7 +1657,7 @@ rooms:
   description: "You are in a square white room.  The walls are all blank, with no
     windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
     there is a\n\rsign on the wall.  Exits reach west and down.\n\r"
-  room_flags: 131084
+  room_flags: CDR
   sector: 0
   owner:
   exits:
@@ -1689,7 +1689,7 @@ rooms:
   name: The Blob Cage
   description: "You are in a smelly cage.  Strangely, the walls are still clean!\n\rYou
     see a sign here.  The only exit is up.\n\r"
-  room_flags: 131080
+  room_flags: DR
   sector: 0
   owner:
   exits:
@@ -1708,7 +1708,7 @@ rooms:
   description: "You are in a square white room.  The walls are all blank, with no
     windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
     there is a\n\rsign on the wall.\n\r"
-  room_flags: 131084
+  room_flags: CDR
   sector: 0
   owner:
   exits:
@@ -1734,7 +1734,7 @@ rooms:
   description: "You are in the cage room.  All around are 4 cages.  Light fluoresces
     off the\n\rceiling in soft white tones.  Of course, there is a big sign on the
     wall.\n\rExits lead into the cardinal directions plus down.\n\r"
-  room_flags: 131084
+  room_flags: CDR
   sector: 0
   owner:
   exits:
@@ -1785,7 +1785,7 @@ rooms:
   description: "You are in a cage.  Blood and gore are everywhere.  The keepers must
     be lax\n\rin the upkeep here!  There is a sign on the wall.  The only exit is
     south.\n\r"
-  room_flags: 131080
+  room_flags: DR
   sector: 0
   owner:
   exits:
@@ -1804,7 +1804,7 @@ rooms:
   description: "You are in a cage.  Blood and gore are everywhere.  The keepers must
     be lax\n\rin the upkeep here!  There is a sign on the wall.  The only exit is
     east.\n\r"
-  room_flags: 131080
+  room_flags: DR
   sector: 0
   owner:
   exits:
@@ -1823,7 +1823,7 @@ rooms:
   description: "You are in a cage.  Blood and gore are everywhere.  The keepers must
     be lax\n\rin the upkeep here!  There is a sign on the wall.  The only exit is
     north.\n\r"
-  room_flags: 131080
+  room_flags: DR
   sector: 0
   owner:
   exits:
@@ -1842,7 +1842,7 @@ rooms:
   description: "You are in a cage.  Blood and gore are everywhere.  The keepers must
     be lax\n\rin the upkeep here!  There is a sign on the wall.  The only exit is
     west.\n\r"
-  room_flags: 131080
+  room_flags: DR
   sector: 0
   owner:
   exits:
@@ -1861,14 +1861,14 @@ rooms:
   description: "You are in a square white room.  The walls are all blank, with no
     windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
     there is a\n\rsign on the wall.  Find your own exit here.\n\r"
-  room_flags: 131084
+  room_flags: CDR
   sector: 0
   owner:
   exits:
   - dir: 1
     desc: "You see the next station of Mud School.\n\r"
     keywords: door
-    exit_flags: 9
+    exit_flags: AD
     key: -1
     to_vnum: 3719
   - dir: 2
@@ -1895,7 +1895,7 @@ rooms:
   description: "You are in a cramped room.  Stacked neatly on shelves everywhere are
     items\n\rand packages.  Light fluoresces off the ceiling in soft white tones.
     \ Of\n\rcourse, there is a sign on the wall.  The only exit is north.\n\r"
-  room_flags: 131080
+  room_flags: DR
   sector: 0
   owner:
   exits:
@@ -1917,7 +1917,7 @@ rooms:
     windows.\n\rLight fluoresces off the ceiling in soft white tones.  Of course,
     there is a\n\rsign on the wall.  The exits are north and west, with a door to
     the east.\n\r"
-  room_flags: 131084
+  room_flags: CDR
   sector: 0
   owner:
   exits:
@@ -1930,13 +1930,13 @@ rooms:
   - dir: 1
     desc: "You see the next station of Mud School.\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 3714
     to_vnum: 3721
   - dir: 3
     desc: "You see the room you just came from.\n\r"
     keywords: door
-    exit_flags: 9
+    exit_flags: AD
     key: -1
     to_vnum: 3717
   extra_descs:
@@ -1950,7 +1950,7 @@ rooms:
   description: "This room was purposefully darkened so that you would need to hold
     on to a\n\rlight source to go through.  The walls are, of course, blank, and white.\n\rThe
     only exit is south.\n\r"
-  room_flags: 131081
+  room_flags: ADR
   sector: 0
   owner:
   exits:
@@ -1967,14 +1967,14 @@ rooms:
     \ Behind\n\rthe pedestal stands a person cloaked in Silver.  Tapestries flow from
     every\n\rwall, and you feel very happy to be here right now.  There is a big sign
     here.\n\rThe only exit is on the other side of the gate north of you.\n\r"
-  room_flags: 131080
+  room_flags: DR
   sector: 0
   owner:
   exits:
   - dir: 0
     desc: "You see the Arena ahead.\n\r"
     keywords: gate
-    exit_flags: 9
+    exit_flags: AD
     key: -1
     to_vnum: 3722
   extra_descs:
@@ -1993,7 +1993,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2027,7 +2027,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2061,7 +2061,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2089,7 +2089,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2123,7 +2123,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2151,7 +2151,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2185,7 +2185,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2225,7 +2225,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2265,7 +2265,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2305,7 +2305,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2339,7 +2339,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2373,7 +2373,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2413,7 +2413,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.  There is a BIG SIGN here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2450,7 +2450,7 @@ rooms:
   - dir: 5
     desc: "You see a dark murky dungeon below.\n\r"
     keywords: grate
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3748
   extra_descs:
@@ -2464,7 +2464,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2504,7 +2504,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2538,7 +2538,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2572,7 +2572,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2612,7 +2612,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2652,7 +2652,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2692,7 +2692,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2726,7 +2726,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2754,7 +2754,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  You can barely see the ceiling.  You feel as if you are being
     watched\n\rby some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2788,7 +2788,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2822,7 +2822,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2856,7 +2856,7 @@ rooms:
   description: "You are in the Arena.  Remember, if you wish to get out of this Arena,
     just\n\rgo up.  Ceilings can barely be seen in this huge Arena.  You feel as if
     you are\n\rbeing watched by some divine being.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2885,7 +2885,7 @@ rooms:
     that\n\rthe floors are all covered with slime.  A feeling of dread comes over
     you as\n\ryou notice that this is NOT a great place to go.  Exits go in all directions.\n\rOf
     special note is the one that brings you back up!!!\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2916,7 +2916,7 @@ rooms:
   - dir: 4
     desc: "You see safety!\n\r"
     keywords: grate
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3734
   extra_descs: []
@@ -2924,7 +2924,7 @@ rooms:
   name: The North West Corner of the Dungeon
   description: "You are against a wall in the dungeon.  It is quite dark here.  The
     lack of\n\rany windows in the area explains the smell around you.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2945,7 +2945,7 @@ rooms:
   name: The North Wall of the Dungeon
   description: "You are against a wall in the dungeon.  It is quite dark here.  The
     lack of\n\rany windows in the area explains the smell around you.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2972,7 +2972,7 @@ rooms:
   name: The North East Corner of the Dungeon
   description: "You are against a wall in the dungeon.  It is quite dark here.  The
     lack of\n\rany windows in the area explains the smell around you.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2993,7 +2993,7 @@ rooms:
   name: The West Wall of the Dungeon
   description: "You are against a wall in the dungeon.  It is quite dark here.  The
     lack of\n\rany windows in the area explains the smell around you.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3020,7 +3020,7 @@ rooms:
   name: The East Wall of the Dungeon
   description: "You are against a wall in the dungeon.  It is quite dark here.  The
     lack of\n\rany windows in the area explains the smell around you.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3047,7 +3047,7 @@ rooms:
   name: The South West Corner of the Dungeon
   description: "You are against a wall in the dungeon.  It is quite dark here.  The
     lack of\n\rany windows in the area explains the smell around you.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3068,7 +3068,7 @@ rooms:
   name: The South Wall of the Dungeon
   description: "You are against a wall in the dungeon.  It is quite dark here.  The
     lack of\n\rany windows in the area explains the smell around you.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3095,7 +3095,7 @@ rooms:
   name: The South East Corner of the Dungeon
   description: "You are against a wall in the dungeon.  It is quite dark here.  The
     lack of\n\rany windows in the area explains the smell around you.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3118,7 +3118,7 @@ rooms:
     of mud\n\rschool adorn the walls. To the west is Furey's Training Room, and to
     the east\n\ris Seth's Guild Room.  North of you is the next Station of Mud School.\n\rThere
     is a sign on the wall (type 'LOOK SIGN' to read it).\n\r"
-  room_flags: 131084
+  room_flags: CDR
   sector: 1
   owner:
   exits:
@@ -3158,7 +3158,7 @@ rooms:
   description: "You are in Furey's Training Room.  Around you are all sorts of physical\n\rand
     mental training tools.  The whole room is filled with magic, holiness, \n\rand
     sweat.  There is a sign on the wall.\n\r"
-  room_flags: 131084
+  room_flags: CDR
   sector: 1
   owner:
   exits:
@@ -3181,7 +3181,7 @@ rooms:
   description: "You are in a room filled with weapons, books, and many combat dummies,
     some\n\rcut and stabbed many times, others burnt to a crisp.  The room is filled
     with\n\rsweat and an aura of magic.  There is a sign on the wall.\n\r"
-  room_flags: 131084
+  room_flags: CDR
   sector: 1
   owner:
   exits:
@@ -3205,7 +3205,7 @@ rooms:
   description: "You are in a safe room, away from all the mean rabbits and snails
     of the\n\rArena.  You can rest here, and go up to go back to the Temple of Midgaard.
     \ \n\r"
-  room_flags: 12
+  room_flags: CD
   sector: 0
   owner:
   exits:

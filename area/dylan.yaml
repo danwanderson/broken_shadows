@@ -15,8 +15,8 @@ mobiles:
     in filth and grime and she stinks to high heaven.  Her razor-\n\rsharp talons
     flex as she considers you for her dinner.\n\r"
   race: Human
-  act: 524324
-  affected_by: 32808
+  act: CFT
+  affected_by: DFP
   affected2_by: 0
   alignment: -500
   clan: 0
@@ -61,8 +61,8 @@ mobiles:
     wings and you see insects crawling around them.  Her hair is\n\rmatted and greasy
     and you are sickened by the stench that pervades\n\rher presence.\n\r"
   race: Human
-  act: 524326
-  affected_by: 32808
+  act: BCFT
+  affected_by: DFP
   affected2_by: 0
   alignment: -750
   clan: 0
@@ -106,8 +106,8 @@ mobiles:
   description: "The air elemental is hard to see.  You know that it is there\n\rbecause
     objects behind it seem to waver and are slightly blurred.\n\r"
   race: Human
-  act: 524324
-  affected_by: 98344
+  act: CFT
+  affected_by: DFPQ
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -151,8 +151,8 @@ mobiles:
   description: "The effreeti towers menacingly over you.  It is dressed in the\n\rfinest
     ghostly silks and a headdress with an elaborate brooch.\n\r"
   race: Human
-  act: 524292
-  affected_by: 32904
+  act: CT
+  affected_by: DHP
   affected2_by: 0
   alignment: -100
   clan: 0
@@ -196,7 +196,7 @@ mobiles:
   description: "This bird has a wingspan that stretches several spear-lengths.  It\n\rmoves
     surprisingly fast for something of its size."
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 50
@@ -241,7 +241,7 @@ mobiles:
   description: "This bird has a wingspan that stretches several spear-lengths.  It\n\rmoves
     surprisingly fast for something of its size.\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 50
@@ -287,8 +287,8 @@ mobiles:
     warts and boils.  Her nails are long and sharp and look like\n\rthey would be
     quite painful.  Her eyes pierce your very soul.\n\r"
   race: Human
-  act: 524326
-  affected_by: 136
+  act: BCFT
+  affected_by: DH
   affected2_by: 0
   alignment: -600
   clan: 0
@@ -332,8 +332,8 @@ objects:
   description: A pair of winged boots flutters about
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 65
+  extra_flags: G
+  wear_flags: AG
   level: 0
   weight: 10
   cost: 0
@@ -345,12 +345,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 24
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 2
     modifier: 2
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 9102
@@ -360,7 +360,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 257
+  wear_flags: AI
   level: 28
   weight: 20
   cost: 280
@@ -378,8 +378,8 @@ objects:
   description: An ornate brooch was carelessly left here.
   material: none
   item_type: 9
-  extra_flags: 32
-  wear_flags: 5
+  extra_flags: F
+  wear_flags: AC
   level: 28
   weight: 10
   cost: 280
@@ -391,11 +391,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 4
+    location: 3
     modifier: 1
     bitvector: 0
   - where: O
-    location: 3
+    location: 4
     modifier: 1
     bitvector: 0
   extra_descs: []
@@ -405,8 +405,8 @@ objects:
   description: Bright magenta potion gathers dust.
   material: none
   item_type: 10
-  extra_flags: 512
-  wear_flags: 16385
+  extra_flags: J
+  wear_flags: AO
   level: 23
   weight: 2
   cost: 230
@@ -424,8 +424,8 @@ objects:
   description: An ancient illustrated parchment in the corner
   material: none
   item_type: 2
-  extra_flags: 129
-  wear_flags: 16385
+  extra_flags: AH
+  wear_flags: AO
   level: 23
   weight: 5
   cost: 230
@@ -445,7 +445,7 @@ rooms:
     as wisps of cloud blow over your face.\n\r\n\rA floating sign says:\n\r\n\r\"Scubdu's
     Area--Tread carefully! Only high levels should attempt\n\rthis place. Leave messages
     on the board if you have problems.\"\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 0
   owner:
   exits:
@@ -910,7 +910,7 @@ rooms:
   name: Dank, dark, smelly hole.
   description: "This hole must have been used as a lair or nest.  There are\n\rfeathers
     and bones everywhere and the floor is covered with\n\rsomething disgusting.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 5
   owner:
   exits:
@@ -954,7 +954,7 @@ rooms:
   description: "The stench in here is quite foul.  There are feathers, bones and\n\rrotting
     carcasses everywhere.  This place is absolutely gross and\n\ryou have to strain
     yourself not to lose your lunch.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 5
   owner:
   exits:
@@ -970,7 +970,7 @@ rooms:
   description: "The stench in here is quite foul.  There are feathers, bones and\n\rrotting
     carcasses everywhere.  This place is absolutely gross and\n\ryou have to strain
     yourself not to lose your lunch.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 5
   owner:
   exits:
@@ -1298,7 +1298,7 @@ rooms:
   name: Cold, damp cloud.
   description: "Your mood grows grumpy as you find yourself cold and wet from this\n\rdismal
     cloud.  You notice a rock outcropping above you.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 0
   owner:
   exits:
@@ -1320,14 +1320,14 @@ rooms:
   description: "This rock outcropping just seems to hang in midair.  To the north\n\ryou
     see a house and if you ease yourself down, you can land on a\n\rrather damp, dismal
     cloud.  The door to the house is closed.\n\r"
-  room_flags: 5
+  room_flags: AC
   sector: 0
   owner:
   exits:
   - dir: 0
     desc: "Eerie looking house.\n\r"
     keywords: door
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 9139
   - dir: 5
@@ -1343,7 +1343,7 @@ rooms:
     in a corner and turn to get a better look, nothing is\n\rthere.  The place is
     very dark.  Even with a torch, you have\n\rtrouble making out the room to the
     east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1366,7 +1366,7 @@ rooms:
     overpowering.  You hear strange creaks and groans ... is it\n\rthe wind or did
     someone (something?) make that noise.  To the west\n\ris the house and there is
     a stairway leading up into the tower.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1389,14 +1389,14 @@ rooms:
     in the\n\rcorner bubbling madly, belching a foul brew that must have come from
     hell.\n\rOn shelves lie jars of strange creatures you have never seen before,
     or\n\rhope to again.  A picture of a familiar temple hangs on the east wall.\n\r"
-  room_flags: 8205
+  room_flags: ACDN
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: picture
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3001
   - dir: 5
@@ -1456,17 +1456,17 @@ rooms:
   description: "You are buffeted and knocked about by the almost godlike strength\n\rof
     the raging hurricane.  It is hard to see and hear anything.\n\rYour only thought
     is to seek refuge from the storm.\n\r"
-  room_flags: 8193
+  room_flags: AN
   sector: 5
   owner:
   exits:
-  - dir: 0
+  - dir: 4
     desc:
     keywords:
     exit_flags: 0
     key: -1
     to_vnum: 9148
-  - dir: 3
+  - dir: 5
     desc:
     keywords:
     exit_flags: 0
@@ -1478,11 +1478,17 @@ rooms:
   description: "You are buffeted and knocked about by the almost godlike strength\n\rof
     the raging hurricane.  It is hard to see and hear anything.\n\rYour only thought
     is to seek refuge from the storm.\n\r"
-  room_flags: 8193
+  room_flags: AN
   sector: 5
   owner:
   exits:
-  - dir: 2
+  - dir: 0
+    desc: "You see a sneezy little cloud.\n\r"
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 9133
+  - dir: 1
     desc:
     keywords:
     exit_flags: 0
@@ -1494,29 +1500,23 @@ rooms:
     exit_flags: 0
     key: -1
     to_vnum: 9150
-  - dir: 4
-    desc: "You see a sneezy little cloud.\n\r"
-    keywords:
-    exit_flags: 0
-    key: -1
-    to_vnum: 9133
   extra_descs: []
 - vnum: 9146
   name: Raging hurricane.
   description: "You are buffeted and knocked about by the almost godlike strength\n\rof
     the raging hurricane.  It is hard to see and hear anything.\n\rYour only thought
     is to seek refuge from the storm.\n\r"
-  room_flags: 8193
+  room_flags: AN
   sector: 5
   owner:
   exits:
-  - dir: 4
+  - dir: 0
     desc:
     keywords:
     exit_flags: 0
     key: -1
     to_vnum: 9144
-  - dir: 5
+  - dir: 2
     desc:
     keywords:
     exit_flags: 0
@@ -1528,17 +1528,17 @@ rooms:
   description: "You are buffeted and knocked about by the almost godlike strength\n\rof
     the raging hurricane.  It is hard to see and hear anything.\n\rYour only thought
     is to seek refuge from the storm.\n\r"
-  room_flags: 8193
+  room_flags: AN
   sector: 5
   owner:
   exits:
-  - dir: 1
+  - dir: 3
     desc:
     keywords:
     exit_flags: 0
     key: -1
     to_vnum: 9148
-  - dir: 3
+  - dir: 5
     desc:
     keywords:
     exit_flags: 0
@@ -1550,35 +1550,7 @@ rooms:
   description: "You are buffeted and knocked about by the almost godlike strength\n\rof
     the raging hurricane.  It is hard to see and hear anything.\n\rYour only thought
     is to seek refuge from the storm.\n\r"
-  room_flags: 8193
-  sector: 5
-  owner:
-  exits:
-  - dir: 2
-    desc:
-    keywords:
-    exit_flags: 0
-    key: -1
-    to_vnum: 9144
-  - dir: 4
-    desc:
-    keywords:
-    exit_flags: 0
-    key: -1
-    to_vnum: 9147
-  - dir: 5
-    desc:
-    keywords:
-    exit_flags: 0
-    key: -1
-    to_vnum: 9145
-  extra_descs: []
-- vnum: 9149
-  name: Raging hurricane.
-  description: "You are buffeted and knocked about by the almost godlike strength\n\rof
-    the raging hurricane.  It is hard to see and hear anything.\n\rYour only thought
-    is to seek refuge from the storm.\n\r"
-  room_flags: 8193
+  room_flags: AN
   sector: 5
   owner:
   exits:
@@ -1587,14 +1559,42 @@ rooms:
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 9150
+    to_vnum: 9144
+  - dir: 2
+    desc:
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 9145
   - dir: 3
+    desc:
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 9147
+  extra_descs: []
+- vnum: 9149
+  name: Raging hurricane.
+  description: "You are buffeted and knocked about by the almost godlike strength\n\rof
+    the raging hurricane.  It is hard to see and hear anything.\n\rYour only thought
+    is to seek refuge from the storm.\n\r"
+  room_flags: AN
+  sector: 5
+  owner:
+  exits:
+  - dir: 0
+    desc:
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 9150
+  - dir: 1
     desc: "You see a cumulative nimbus cloud.\n\r"
     keywords:
     exit_flags: 0
     key: -1
     to_vnum: 9157
-  - dir: 4
+  - dir: 2
     desc:
     keywords:
     exit_flags: 0
@@ -1606,7 +1606,7 @@ rooms:
   description: "You are buffeted and knocked about by the almost godlike strength\n\rof
     the raging hurricane.  It is hard to see and hear anything.\n\rYour only thought
     is to seek refuge from the storm.\n\r"
-  room_flags: 8193
+  room_flags: AN
   sector: 5
   owner:
   exits:
@@ -1616,7 +1616,7 @@ rooms:
     exit_flags: 0
     key: -1
     to_vnum: 9151
-  - dir: 2
+  - dir: 4
     desc:
     keywords:
     exit_flags: 0
@@ -1634,17 +1634,17 @@ rooms:
   description: "You are buffeted and knocked about by the almost godlike strength\n\rof
     the raging hurricane.  It is hard to see and hear anything.\n\rYour only thought
     is to seek refuge from the storm.\n\r"
-  room_flags: 8193
+  room_flags: AN
   sector: 5
   owner:
   exits:
-  - dir: 1
+  - dir: 0
     desc:
     keywords:
     exit_flags: 0
     key: -1
     to_vnum: 9150
-  - dir: 4
+  - dir: 3
     desc:
     keywords:
     exit_flags: 0
@@ -1656,22 +1656,22 @@ rooms:
   description: "You are buffeted and knocked about by the almost godlike strength\n\rof
     the raging hurricane.  It is hard to see and hear anything.\n\rYour only thought
     is to seek refuge from the storm.\n\r"
-  room_flags: 8193
+  room_flags: AN
   sector: 5
   owner:
   exits:
-  - dir: 1
-    desc:
-    keywords:
-    exit_flags: 0
-    key: -1
-    to_vnum: 9151
-  - dir: 2
+  - dir: 0
     desc:
     keywords:
     exit_flags: 0
     key: -1
     to_vnum: 9149
+  - dir: 4
+    desc:
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 9151
   extra_descs: []
 - vnum: 9153
   name: Calm cloud.
@@ -1784,7 +1784,7 @@ rooms:
 - vnum: 9158
   name: Dark hidden cloud.
   description: "This cloud looks like the perfect place to hide.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 0
   owner:
   exits:
@@ -1821,7 +1821,7 @@ rooms:
   description: "There is a gate here.  It is huge, towering over you.  It creaks\n\ras
     it sways in the breeze.  To the south you see a huge lawn.\n\rThere is a rope
     ladder leading down.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 2
   owner:
   exits:
@@ -1976,7 +1976,7 @@ rooms:
   - dir: 2
     desc: "You see an ornate oak door.\n\r"
     keywords: oak door
-    exit_flags: 9
+    exit_flags: AD
     key: -1
     to_vnum: 9177
   - dir: 3
@@ -2148,7 +2148,7 @@ rooms:
 - vnum: 9174
   name: Dirty, dusty tunnel.
   description: "This dirty dusty tunnel must lead somewhere.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 5
   owner:
   exits:
@@ -2169,7 +2169,7 @@ rooms:
   name: Basement.
   description: "This seems like your average basement.  Old Christmas decorations,\n\rsuitcases,
     bicycles litter your way.  You hear the squeaking of\n\rrats in the corners.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 5
   owner:
   exits:
@@ -2191,7 +2191,7 @@ rooms:
   description: "You stand at the bottom of a long staircase leading up to the main\n\rhouse.
     \ To the south you can barely make out the accumulated\n\rclutter gathered throughout
     the years.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2215,14 +2215,14 @@ rooms:
     tapestries line the walls depicting scenes\n\rfrom throughout history.  Antiques
     furnitures and oriental rugs are\n\rtastefully placed in ideal spots.  The door
     is at least 10 feet\n\rhigh and is made of oak.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc: "You see an ornate oak door.\n\r"
     keywords: oak door
-    exit_flags: 9
+    exit_flags: AD
     key: -1
     to_vnum: 9166
   - dir: 1
@@ -2249,7 +2249,7 @@ rooms:
   description: "You are in a long, sprawling hallway connecting the eastern and\n\rwestern
     wings of the house.  There are several chairs and sofas in\n\rthe hallway and
     some gorgeous, handwoven drapes.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2277,7 +2277,7 @@ rooms:
   description: "You are overwhelmed by the sheer volumes of books here.  The\n\rshelves
     stretch all the way to the ceiling and are on every wall,\n\reven above the doorway.
     \ There are chairs for sitting and reading\n\rand a desk for more intense studies.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2293,7 +2293,7 @@ rooms:
   description: "A small indoor garden so that the residents don't have to go\n\routside
     to enjoy plants and commune with nature.  There are several\n\rtrees, a small
     pond and flowers of every kind.\n\r"
-  room_flags: 12
+  room_flags: CD
   sector: 0
   owner:
   exits:
@@ -2316,7 +2316,7 @@ rooms:
     spine and causes creaks and groans.  Curtains flutter in the\n\rwind, causing
     quite a distraction.  When you go to shut the window,\n\ryou see that the window
     is closed.  An old, wooden staircase leads\n\rup into darkness.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2340,7 +2340,7 @@ rooms:
     room is dark and there is almost a musty odor\n\rto it.  You are surprised that
     you can't detect any dust or dirt,\n\ralthough there are a couple of cobwebs in
     the corner.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -2356,7 +2356,7 @@ rooms:
   description: "You are in a long, sprawling hallway connecting the eastern and\n\rwestern
     wings of the house.  There are several chairs and sofas in\n\rthe hallway and
     some gorgeous, handwoven drapes.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2384,7 +2384,7 @@ rooms:
   description: "Here was the rehearsal and recital room for the residents of the\n\restate.
     \ There is a Steinway piano in the corner and various gilded\n\rinstruments are
     on display in a glass cabinet.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2401,7 +2401,7 @@ rooms:
     least ten feet by five feet and made of ebony and inlaid with\n\rmother of pearl.
     \ A grandfather clock towers over the room,\n\rmechanically ticking and tocking
     the hours away.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2424,7 +2424,7 @@ rooms:
     spine and causes creaks and groans.  Curtains flutter in the\n\rwind, causing
     quite a distraction.  When you go to shut the window,\n\ryou see that the window
     is closed.  An old, wooden staircase leads\n\rup into darkness.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2448,7 +2448,7 @@ rooms:
     room is dark and there is almost a musty odor\n\rto it.  You are surprised that
     you can't detect any dust or dirt,\n\ralthough there are a couple of cobwebs in
     the corner.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -2465,7 +2465,7 @@ rooms:
     the cliff.  Realizing your foolish error, you madly claw\n\rat the rock, vainly
     trying to get a precious hold and save your\n\rworthless hide.  Next time, heed
     your conscience.\n\r\n\rYou've fallen, and you can't get up!!!\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 2
   owner:
   exits: []

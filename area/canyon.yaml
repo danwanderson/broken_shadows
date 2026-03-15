@@ -13,7 +13,7 @@ mobiles:
   long_desc: "A frozen snowflake water elemental.\n\r"
   description: "It looks a little blue.\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 520
@@ -57,7 +57,7 @@ mobiles:
   long_desc: "A small rock.\n\r"
   description: "It seems to be a small living pebble!\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -101,7 +101,7 @@ mobiles:
   long_desc: "A small spark of electricity fizzles here.\n\r"
   description: "Zipping from place to place at the speed of light is tough work.\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -145,7 +145,7 @@ mobiles:
   long_desc: "A small blob of acid eats away at the stone aimlessly.\n\r"
   description: "The magical blob of acid is a cross between lightning and water.\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -189,7 +189,7 @@ mobiles:
   long_desc: "A lava beast spews from place to place.\n\r"
   description: "The magical lava beast is a cross between fire and earth.\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -233,7 +233,7 @@ mobiles:
   long_desc: "A mud monster slops around.\n\r"
   description: "The magical mud monster is a cross between water and earth.\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -277,7 +277,7 @@ mobiles:
   long_desc: "The air is magically misty here.\n\r"
   description: "The magical mist is a cross between water and air.\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -321,7 +321,7 @@ mobiles:
   long_desc: "A sub-atomic particle is too small for you to see.\n\r"
   description: "The magical manifestation of energy.\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -365,7 +365,7 @@ mobiles:
   long_desc: "A dust cloud blowing by makes you sneeze.\n\r"
   description: "The magical dust cloud is a cross between air and earth.\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -409,7 +409,7 @@ mobiles:
   long_desc: "A small eddie current swirls junk around here.\n\r"
   description: "The magical eddie current is a manifestation of an air elemental.\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -454,7 +454,7 @@ mobiles:
   description: "As you look you see what seems to be a face and almost a \n\rhumanoid
     figure somehow trapped in the fire.\n\r"
   race: Human
-  act: 524354
+  act: BGT
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -498,7 +498,7 @@ mobiles:
   long_desc: "The Magneto considers zapping you for the heck of it.\n\r"
   description: "A humanoid figure seems to be trapped in the field of the Magneto.\n\r"
   race: Human
-  act: 524354
+  act: BGT
   affected_by: 0
   affected2_by: 0
   alignment: -150
@@ -542,8 +542,8 @@ mobiles:
   long_desc: "The Ice Bandit strikes cold fear in your heart.\n\r"
   description: "A humanoid figure encased in ice but still apparently alive.\n\r"
   race: Human
-  act: 524482
-  affected_by: 32768
+  act: BGHT
+  affected_by: P
   affected2_by: 0
   alignment: -250
   clan: 0
@@ -586,7 +586,7 @@ mobiles:
   long_desc: "The Rock Monster considers you in stoney silence.\n\r"
   description: "A humanoid figure trapped in stone seems alive.\n\r"
   race: Human
-  act: 524354
+  act: BGT
   affected_by: 0
   affected2_by: 0
   alignment: -310
@@ -630,8 +630,8 @@ mobiles:
   long_desc: "A Hurricane rages across the sky.\n\r"
   description: "A humanoid figure is trapped in the rushing wind.\n\r"
   race: Human
-  act: 524354
-  affected_by: 32768
+  act: BGT
+  affected_by: P
   affected2_by: 0
   alignment: -10
   clan: 0
@@ -675,8 +675,8 @@ mobiles:
   description: "The elemental magician has come here in search of the fabled\n\rStone
     of Surrender which can be used to render opponents senseless.\n\r"
   race: Human
-  act: 524354
-  affected_by: 2
+  act: BGT
+  affected_by: B
   affected2_by: 0
   alignment: -50
   clan: 0
@@ -720,7 +720,7 @@ mobiles:
   description: "The Rainbow Cult has received special powers for their service to
     \n\rthe elemental forces.\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 150
@@ -765,7 +765,7 @@ mobiles:
   description: "He seeks their aid for a powerful new spell of deception.\n\r\n\r<wielded>
     \           The Sword of Illusions\n\r"
   race: Human
-  act: 524354
+  act: BGT
   affected_by: 0
   affected2_by: 0
   alignment: -50
@@ -809,7 +809,7 @@ mobiles:
   long_desc: "An alchemist wanders by in search of magical herbs.\n\r"
   description: "Rare herbs are rumored to grow only in the canyon.\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: -50
@@ -853,8 +853,8 @@ mobiles:
   long_desc: "A baby rainbow dragon plays among the elements here.\n\r"
   description: "It's only a baby by dragon standards.\n\r"
   race: Human
-  act: 524354
-  affected_by: 40
+  act: BGT
+  affected_by: DF
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -897,8 +897,8 @@ mobiles:
   long_desc: "A little imp runs along being annoying.\n\r"
   description: "The little bugger steals stuff and is generally obnoxious.\n\r"
   race: Human
-  act: 524484
-  affected_by: 98304
+  act: CGHT
+  affected_by: PQ
   affected2_by: 0
   alignment: -500
   clan: 0
@@ -941,7 +941,7 @@ mobiles:
   long_desc: "A HUGE elemental form stands here.\n\r"
   description: "HUGE, need i say more?\n\r"
   race: Human
-  act: 524354
+  act: BGT
   affected_by: 0
   affected2_by: 0
   alignment: 30
@@ -985,7 +985,7 @@ mobiles:
   long_desc: "A vendor is willing to sell you elixirs.\n\r"
   description: "I WOULD NOT suggest you attack me ...!\n\r"
   race: Human
-  act: 524370
+  act: BEGT
   affected_by: 0
   affected2_by: 0
   alignment: 900
@@ -1029,7 +1029,7 @@ mobiles:
   long_desc: "A mountain climber is making the same trek that you are.\n\r"
   description: "He wants to see what's on the other side of the mountain too.\n\r"
   race: Human
-  act: 524356
+  act: CGT
   affected_by: 0
   affected2_by: 0
   alignment: 500
@@ -1054,9 +1054,9 @@ mobiles:
     bash: 7
     slash: 7
     exotic: 8
-  off_flags: 8704
+  off_flags: JN
   imm_flags: 0
-  res_flags: 131968
+  res_flags: HIJR
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -1073,8 +1073,8 @@ mobiles:
   long_desc: "A hungry cyclops snarls at you!\n\r"
   description: "He looks like he's about to have dinner (maybe it's you?).\n\r"
   race: Giant
-  act: 589858
-  affected_by: 40
+  act: BFQT
+  affected_by: DF
   affected2_by: 0
   alignment: -700
   clan: 0
@@ -1098,9 +1098,9 @@ mobiles:
     bash: -7
     slash: -7
     exotic: -2
-  off_flags: 16653
-  imm_flags: 3
-  res_flags: 12
+  off_flags: ACDIO
+  imm_flags: AB
+  res_flags: CD
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -1117,7 +1117,7 @@ mobiles:
   long_desc: "A tiny elemental form wanders about.\n\r"
   description: "Rather small for an elemental form, looks like a reject.\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -1162,7 +1162,7 @@ mobiles:
   description: "You can't tell which kind of elemental it is, maybe it's a bit o'
     all of them?\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -1206,7 +1206,7 @@ mobiles:
   long_desc: "A small, rather non-descript elemental.\n\r"
   description: "A small elemental, a resident of the canyon.\n\r"
   race: Human
-  act: 524354
+  act: BGT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -1250,7 +1250,7 @@ mobiles:
   long_desc: "A medium-sized elemental.\n\r"
   description: "A medium elemental, a resident of the canyon.\n\r"
   race: Human
-  act: 524354
+  act: BGT
   affected_by: 0
   affected2_by: 0
   alignment: 10
@@ -1294,7 +1294,7 @@ mobiles:
   long_desc: "A large elemental.\n\r"
   description: "A large elemental, a resident of the canyon.  \n\r"
   race: Human
-  act: 524354
+  act: BGT
   affected_by: 0
   affected2_by: 0
   alignment: 20
@@ -1340,8 +1340,8 @@ mobiles:
     and knowledge of the Earth.  You can't really tell where \n\rhe begins and the
     rock wall ends.\n\r"
   race: Human
-  act: 524290
-  affected_by: 128
+  act: BT
+  affected_by: H
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -1384,8 +1384,8 @@ mobiles:
   long_desc: "The Ruler of the fire elementals.\n\r"
   description: "As you look at him he seems to blend in with the fire in his throne.\n\r"
   race: Human
-  act: 524290
-  affected_by: 128
+  act: BT
+  affected_by: H
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -1428,8 +1428,8 @@ mobiles:
   long_desc: "The Ruler of the air elementals.\n\r"
   description: "As you peer at him you seem to be looking at the sky itself.\n\r"
   race: Human
-  act: 524290
-  affected_by: 128
+  act: BT
+  affected_by: H
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -1473,8 +1473,8 @@ mobiles:
   description: "As you examine him there is a blinding flash of light and a deafening
     boom!\n\rYou rub your eyes and look and the ruler is there grinning at you.\n\r"
   race: Human
-  act: 524290
-  affected_by: 128
+  act: BT
+  affected_by: H
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -1518,8 +1518,8 @@ mobiles:
   description: "As you look at him he changes to mist, which swirls around you.  Just\n\ras
     you get scared, it reforms in elemental form.\n\r"
   race: water fowl
-  act: 524290
-  affected_by: 128
+  act: BT
+  affected_by: H
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -1562,7 +1562,7 @@ mobiles:
   long_desc: "A small puddle of water elemental.\n\r"
   description: "It trickles along the ground and gets your feet wet.\n\r"
   race: water fowl
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -1606,7 +1606,7 @@ mobiles:
   long_desc: "A small flickering flame elemental.\n\r"
   description: "It smolders along the grass aimlessly.\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -1651,8 +1651,8 @@ objects:
   description: An ice staff lies forgotten on the ground.
   material: none
   item_type: 4
-  extra_flags: 1
-  wear_flags: 16385
+  extra_flags: A
+  wear_flags: AO
   level: 8
   weight: 7
   cost: 80
@@ -1670,8 +1670,8 @@ objects:
   description: An earthquake rod lies forgotten on the ground.
   material: none
   item_type: 3
-  extra_flags: 1
-  wear_flags: 16385
+  extra_flags: A
+  wear_flags: AO
   level: 3
   weight: 7
   cost: 30
@@ -1689,8 +1689,8 @@ objects:
   description: An air wand lies forgotten on the ground.
   material: none
   item_type: 3
-  extra_flags: 1
-  wear_flags: 16385
+  extra_flags: A
+  wear_flags: AO
   level: 3
   weight: 7
   cost: 30
@@ -1708,8 +1708,8 @@ objects:
   description: A lightning wand lies forgotten on the ground.
   material: none
   item_type: 3
-  extra_flags: 1
-  wear_flags: 16385
+  extra_flags: A
+  wear_flags: AO
   level: 3
   weight: 7
   cost: 30
@@ -1728,7 +1728,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 3
   weight: 16
   cost: 30
@@ -1747,7 +1747,7 @@ objects:
   material: none
   item_type: 3
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 6
   weight: 2
   cost: 60
@@ -1765,8 +1765,8 @@ objects:
   description: A lantern which glows with a red glowing light has been dumped.
   material: none
   item_type: 1
-  extra_flags: 1
-  wear_flags: 1
+  extra_flags: A
+  wear_flags: A
   level: 8
   weight: 4
   cost: 80
@@ -1784,8 +1784,8 @@ objects:
   description: A scroll of energy replacement lies here.
   material: none
   item_type: 2
-  extra_flags: 2
-  wear_flags: 1
+  extra_flags: B
+  wear_flags: A
   level: 16
   weight: 1
   cost: 160
@@ -1804,7 +1804,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 6
   weight: 5
   cost: 60
@@ -1823,7 +1823,7 @@ objects:
   material: none
   item_type: 26
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 1
   weight: 1
   cost: 10
@@ -1841,8 +1841,8 @@ objects:
   description: A lance of blue flame burns the ground around it.
   material: none
   item_type: 5
-  extra_flags: 1
-  wear_flags: 8193
+  extra_flags: A
+  wear_flags: AN
   level: 25
   weight: 14
   cost: 250
@@ -1854,12 +1854,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 2
-    bitvector: 0
-  - where: O
     location: 13
     modifier: -20
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 2
     bitvector: 0
   extra_descs: []
 - vnum: 9227
@@ -1868,8 +1868,8 @@ objects:
   description: A glowing icicle dagger lies here amid a patch of frost.
   material: none
   item_type: 5
-  extra_flags: 1
-  wear_flags: 8193
+  extra_flags: A
+  wear_flags: AN
   level: 23
   weight: 1
   cost: 230
@@ -1881,12 +1881,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 1
-    modifier: -1
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 2
+    bitvector: 0
+  - where: O
+    location: 1
+    modifier: -1
     bitvector: 0
   extra_descs: []
 - vnum: 9228
@@ -1896,7 +1896,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 24
   weight: 16
   cost: 240
@@ -1918,8 +1918,8 @@ objects:
   description: A chain with a star on the end lies here.
   material: none
   item_type: 5
-  extra_flags: 1
-  wear_flags: 8193
+  extra_flags: A
+  wear_flags: AN
   level: 28
   weight: 11
   cost: 280
@@ -1931,12 +1931,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 17
-    modifier: -3
-    bitvector: 0
-  - where: O
     location: 23
     modifier: -5
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: -3
     bitvector: 0
   extra_descs: []
 - vnum: 9230
@@ -1945,8 +1945,8 @@ objects:
   description: A whip hums innocently too itself.
   material: none
   item_type: 5
-  extra_flags: 2
-  wear_flags: 8193
+  extra_flags: B
+  wear_flags: AN
   level: 22
   weight: 10
   cost: 220
@@ -1958,12 +1958,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 1
-    modifier: -2
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 3
+    bitvector: 0
+  - where: O
+    location: 1
+    modifier: -2
     bitvector: 0
   extra_descs: []
 - vnum: 9231
@@ -1973,7 +1973,7 @@ objects:
   material: none
   item_type: 10
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 5
   weight: 1
   cost: 50
@@ -1991,8 +1991,8 @@ objects:
   description: A dark ring which seems to absorb all the light around it lies here.
   material: none
   item_type: 9
-  extra_flags: 256
-  wear_flags: 3
+  extra_flags: I
+  wear_flags: AB
   level: 31
   weight: 5
   cost: 310
@@ -2004,11 +2004,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 4
+    location: 3
     modifier: 1
     bitvector: 0
   - where: O
-    location: 3
+    location: 4
     modifier: 1
     bitvector: 0
   extra_descs: []
@@ -2019,7 +2019,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 31
   weight: 70
   cost: 310
@@ -2041,8 +2041,8 @@ objects:
   description: A dagger made of fire crackles mysteriously here.
   material: none
   item_type: 5
-  extra_flags: 1
-  wear_flags: 8193
+  extra_flags: A
+  wear_flags: AN
   level: 29
   weight: 2
   cost: 290
@@ -2065,8 +2065,8 @@ objects:
     here.
   material: none
   item_type: 9
-  extra_flags: 1
-  wear_flags: 5
+  extra_flags: A
+  wear_flags: AC
   level: 29
   weight: 3
   cost: 290
@@ -2088,8 +2088,8 @@ objects:
   description: A pair of boots that look fast standing still are here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 65
+  extra_flags: G
+  wear_flags: AG
   level: 30
   weight: 1
   cost: 300
@@ -2112,8 +2112,8 @@ objects:
     here.
   material: none
   item_type: 9
-  extra_flags: 2
-  wear_flags: 17
+  extra_flags: B
+  wear_flags: AE
   level: 30
   weight: 4
   cost: 300
@@ -2135,8 +2135,8 @@ objects:
   description: A lightning bolt fashioned into a sword spits sparks here.
   material: none
   item_type: 5
-  extra_flags: 3
-  wear_flags: 8193
+  extra_flags: AB
+  wear_flags: AN
   level: 29
   weight: 10
   cost: 290
@@ -2148,12 +2148,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: 2
-    bitvector: 0
-  - where: O
     location: 18
     modifier: -1
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 2
     bitvector: 0
   extra_descs: []
 - vnum: 9208
@@ -2162,8 +2162,8 @@ objects:
   description: A shield made entirely of energy buzzes here.
   material: none
   item_type: 9
-  extra_flags: 2
-  wear_flags: 513
+  extra_flags: B
+  wear_flags: AJ
   level: 29
   weight: 8
   cost: 290
@@ -2175,12 +2175,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 5
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 1
     modifier: -1
+    bitvector: 0
+  - where: O
+    location: 5
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 9209
@@ -2190,7 +2190,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 2049
+  wear_flags: AL
   level: 30
   weight: 10
   cost: 300
@@ -2213,7 +2213,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 1025
+  wear_flags: AK
   level: 30
   weight: 6
   cost: 300
@@ -2225,12 +2225,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: -2
-    bitvector: 0
-  - where: O
     location: 12
     modifier: 25
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: -2
     bitvector: 0
   extra_descs: []
 - vnum: 9211
@@ -2239,8 +2239,8 @@ objects:
   description: An elemental Amulet glows with the power of the elemnts.
   material: none
   item_type: 9
-  extra_flags: 1
-  wear_flags: 5
+  extra_flags: A
+  wear_flags: AC
   level: 20
   weight: 1
   cost: 200
@@ -2263,7 +2263,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 4097
+  wear_flags: AM
   level: 20
   weight: 4
   cost: 200
@@ -2286,7 +2286,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 257
+  wear_flags: AI
   level: 22
   weight: 4
   cost: 220
@@ -2298,12 +2298,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 4
-    modifier: -2
-    bitvector: 0
-  - where: O
     location: 1
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 4
+    modifier: -2
     bitvector: 0
   extra_descs: []
 - vnum: 9214
@@ -2313,7 +2313,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 33
+  wear_flags: AF
   level: 22
   weight: 4
   cost: 220
@@ -2325,12 +2325,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 3
-    modifier: -2
-    bitvector: 0
-  - where: O
     location: 2
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 3
+    modifier: -2
     bitvector: 0
   extra_descs: []
 - vnum: 9215
@@ -2339,8 +2339,8 @@ objects:
   description: A fire wand lies forgotten on the ground.
   material: none
   item_type: 3
-  extra_flags: 1
-  wear_flags: 16385
+  extra_flags: A
+  wear_flags: AO
   level: 5
   weight: 7
   cost: 50
@@ -2475,7 +2475,7 @@ rooms:
   name: Dark Cave
   description: "You notice a path winding east among some huge boulders.  You feel
     a powerful\n\rsource of energy from that direction.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2498,7 +2498,7 @@ rooms:
     the cave\n\rare even darker than the darkness.  You hear a powerful humming all
     around\n\ryou.  Cave paths go south and east roughly, its hard to tell exactly
     when you\n\rcan't see where you are going.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2527,7 +2527,7 @@ rooms:
     the cave\n\rare even darker than the darkness.  You hear a powerful humming all
     around\n\ryou.  Cave paths go south and west roughly; it's hard to tell exactly
     when you\n\rcan't see where you are going.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2550,7 +2550,7 @@ rooms:
     the cave\n\rare even darker than the darkness.  You hear a powerful humming all
     around you.\n\rCave paths go north, south and east roughly; it's hard to tell
     exactly when\n\ryou can't see where you are going.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2579,7 +2579,7 @@ rooms:
     the cave\n\rare even darker than the darkness.  You hear a powerful humming all
     around you.\n\rCave paths go north, south and west roughly, it's hard to tell
     exactly when you\n\rcan't see where you are going.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2608,7 +2608,7 @@ rooms:
     seem\n\ronly to illuminate about a foot ahead of you.  You suddenly realize that
     the\n\rpath has descended quite a bit but you didn't notice before because of
     the\n\rdarkness.  You sense a great presence off to the east aways.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2631,7 +2631,7 @@ rooms:
     seem\n\ronly to illuminate about a foot ahead of you.  You suddenly realize that
     the\n\rpath has descended quite a bit but you didn't notice before because of
     the\n\rdarkness.  You sense a great presence directly to the east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2659,7 +2659,7 @@ rooms:
   description: "This is the abode of the Earth Ruler.  He decides about earthquakes,\n\rlandslides,
     and avalanches.  The Earth Ruler sits upon a huge marble throne\n\rcarved into
     the wall.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2885,7 +2885,7 @@ rooms:
     looks\n\rlike it's been here for a long, long time.  Though you are 'under water'
     there\n\ris no difficulty breathing normally, and oddly you do not feel the pressure
     of\n\rthe water above you.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 6
   owner:
   exits:
@@ -3125,7 +3125,7 @@ rooms:
   description: "There is some sort of control panel here. Apparently the Lightning
     Ruler\n\robserves and controls electric forces from here.  A set of steps carved
     into\n\rthe hill lead down to a causeway.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 6
   owner:
   exits:
@@ -3322,7 +3322,7 @@ rooms:
   description: "Tiny tornadoes come and go and dance along the ground here.  At the
     back\n\rof the chamber you notice a huge throne made of swirling clouds.\n\rA
     tunnel leads west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 6
   owner:
   exits:
@@ -3402,12 +3402,12 @@ rooms:
     key: -1
     to_vnum: 9202
   extra_descs:
-  - keywords: bodies body dead
-    description: "They look as if their necks have been broken and their flesh, chewed.\n\r"
   - keywords: heaps stones tombs
     description: "You are sure glad that YOU aren't under one of those piles!\n\rMany
       of the tombstones have the same name on them, 'Raff'.  He must come\n\rhere
       a lot.\n\r"
+  - keywords: bodies body dead
+    description: "They look as if their necks have been broken and their flesh, chewed.\n\r"
 - vnum: 9204
   name: A Blind Curve on the Mountain Path.
   description: "This looks like a normal mountain path, but it is NOT!  This section

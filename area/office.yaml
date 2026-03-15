@@ -14,8 +14,8 @@ mobiles:
   description: "She is a large creature who likes her master.  You'd better stay on
     her\n\rgood side...  \n\r"
   race: Wyvern
-  act: 539623680
-  affected_by: 302252048
+  act: IRTVd
+  affected_by: ESZc
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -39,9 +39,9 @@ mobiles:
     bash: -50
     slash: -50
     exotic: -10
-  off_flags: 4096
+  off_flags: M
   imm_flags: 0
-  res_flags: 98700
+  res_flags: CDHIPQ
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -59,7 +59,7 @@ mobiles:
   description: "He's a middle aged, blue collar, American worker. What else do you
     want?\n\r"
   race: Human
-  act: 536870978
+  act: BGd
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -85,7 +85,7 @@ mobiles:
     slash: 0
     exotic: 0
   off_flags: 0
-  imm_flags: 15
+  imm_flags: ABCD
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -106,8 +106,8 @@ mobiles:
     at you.  He\n\rwaddles up and down the room, apparently waiting for someone or
     something.\n\r"
   race: water fowl
-  act: 655362
-  affected_by: 371196072
+  act: BRT
+  affected_by: DFHVZac
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -131,9 +131,9 @@ mobiles:
     bash: -3
     slash: -2
     exotic: -1
-  off_flags: 2106936
-  imm_flags: 131328
-  res_flags: 82444
+  off_flags: DEFJKNV
+  imm_flags: IR
+  res_flags: CDJOQ
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -151,8 +151,8 @@ mobiles:
   description: "You see a beautiful young brunette here.  She seems to be nervous,
     as if\n\rshe is looking for someone.  You hope she finds them soon!  \n\r"
   race: Human
-  act: 65600
-  affected_by: 134226052
+  act: GQ
+  affected_by: CHNb
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -176,10 +176,10 @@ mobiles:
     bash: -55
     slash: -55
     exotic: -25
-  off_flags: 416
-  imm_flags: 303104
-  res_flags: 67584
-  vuln_flags: 1024
+  off_flags: FHI
+  imm_flags: NPS
+  res_flags: LQ
+  vuln_flags: K
   start_pos: 8
   default_pos: 8
   sex: 2
@@ -195,7 +195,7 @@ mobiles:
   long_desc: "A large owl circles overhead.\n\r"
   description: "A really big owl is here, who-ing at you.\n\r"
   race: song bird
-  act: 270008320
+  act: TUc
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -220,8 +220,8 @@ mobiles:
     bash: 30
     slash: 30
     exotic: 15
-  off_flags: 8388608
-  imm_flags: 131072
+  off_flags: X
+  imm_flags: R
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -241,7 +241,7 @@ mobiles:
     what\n\ryou can buy from it.  Then type 'buy <item>' to puchase your choice of\n\rliquid
     refreshment.  \n\r"
   race: Human
-  act: 536870914
+  act: Bd
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -267,14 +267,14 @@ mobiles:
     slash: 0
     exotic: 0
   off_flags: 0
-  imm_flags: 469150
+  imm_flags: BCDEHLNQRS
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 100000
-  form: 268435968
+  form: Jc
   parts: 0
   size: M
   material: none
@@ -285,7 +285,7 @@ mobiles:
   long_desc: "A cow stands here grazing.\n\r"
   description:
   race: Human
-  act: 66
+  act: BG
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -313,7 +313,7 @@ mobiles:
   off_flags: 0
   imm_flags: 0
   res_flags: 0
-  vuln_flags: 32
+  vuln_flags: F
   start_pos: 8
   default_pos: 8
   sex: 0
@@ -330,8 +330,8 @@ objects:
   description: An intricate golden wedding ring is here.
   material: iron
   item_type: 9
-  extra_flags: 4352
-  wear_flags: 3
+  extra_flags: IM
+  wear_flags: AB
   level: 93
   weight: 0
   cost: 0
@@ -349,8 +349,8 @@ objects:
   description: A liter of Mt. Dew has been carelessly left here.
   material: none
   item_type: 17
-  extra_flags: 8192
-  wear_flags: 1
+  extra_flags: N
+  wear_flags: A
   level: 0
   weight: 2
   cost: 1000
@@ -368,8 +368,8 @@ objects:
   description: A fun looking whip lies here, with a menacing aura.
   material: none
   item_type: 5
-  extra_flags: 2
-  wear_flags: 8193
+  extra_flags: B
+  wear_flags: AN
   level: 93
   weight: 1
   cost: 100000
@@ -387,8 +387,8 @@ objects:
   description: A silver class ring with a blue stone is lying here.
   material: none
   item_type: 9
-  extra_flags: 320
-  wear_flags: 3
+  extra_flags: GI
+  wear_flags: AB
   level: 93
   weight: 2
   cost: 10000
@@ -407,7 +407,7 @@ objects:
   material: none
   item_type: 11
   extra_flags: 0
-  wear_flags: 33
+  wear_flags: AF
   level: 93
   weight: 3
   cost: 0
@@ -426,8 +426,8 @@ objects:
     gift from Rahl with love to LadyLily.
   material: none
   item_type: 11
-  extra_flags: 786688
-  wear_flags: 5
+  extra_flags: IST
+  wear_flags: AC
   level: 93
   weight: 1
   cost: 0
@@ -446,7 +446,7 @@ objects:
   material: none
   item_type: 11
   extra_flags: 0
-  wear_flags: 65
+  wear_flags: AG
   level: 93
   weight: 5
   cost: 0
@@ -465,7 +465,7 @@ objects:
   material: none
   item_type: 8
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 0
   weight: 1
   cost: 300
@@ -483,8 +483,8 @@ objects:
   description: A NIN shirt is lying here.
   material: none
   item_type: 9
-  extra_flags: 16
-  wear_flags: 9
+  extra_flags: E
+  wear_flags: AD
   level: 93
   weight: 1
   cost: 10000
@@ -504,7 +504,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 93
   weight: 2
   cost: 100000
@@ -516,12 +516,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: 15000
-    bitvector: 0
-  - where: O
     location: 18
     modifier: 100
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 15000
     bitvector: 0
   extra_descs: []
 - vnum: 10019
@@ -530,8 +530,8 @@ objects:
   description: A small, beautiful ring of gold is lying here, carelessly forgotten.
   material: none
   item_type: 8
-  extra_flags: 321
-  wear_flags: 3
+  extra_flags: AGI
+  wear_flags: AB
   level: 0
   weight: 1
   cost: 1000
@@ -549,7 +549,7 @@ objects:
   description: An inviting bed is here.
   material: none
   item_type: 12
-  extra_flags: 16384
+  extra_flags: O
   wear_flags: 0
   level: 0
   weight: 0
@@ -571,8 +571,8 @@ objects:
   description: A pair of Fila shoes lie here in the dirt....
   material: none
   item_type: 9
-  extra_flags: 262403
-  wear_flags: 65
+  extra_flags: ABIS
+  wear_flags: AG
   level: 92
   weight: 5
   cost: 1000000
@@ -590,8 +590,8 @@ objects:
   description: A pair of Tommy Hilfiger Jeans lie crumpled in the dirt....
   material: none
   item_type: 9
-  extra_flags: 262144
-  wear_flags: 33
+  extra_flags: S
+  wear_flags: AF
   level: 93
   weight: 5
   cost: 1000000
@@ -610,7 +610,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 95
   weight: 10
   cost: 1000000
@@ -629,8 +629,8 @@ objects:
     owner.
   material: none
   item_type: 15
-  extra_flags: 64
-  wear_flags: 1025
+  extra_flags: G
+  wear_flags: AK
   level: 95
   weight: 15
   cost: 1000000
@@ -649,8 +649,8 @@ objects:
     important, the initials T.N.R. are engraved on the clasp.
   material: none
   item_type: 9
-  extra_flags: 2621504
-  wear_flags: 5
+  extra_flags: GTV
+  wear_flags: AC
   level: 95
   weight: 2
   cost: 1000000
@@ -668,8 +668,8 @@ objects:
   description: A blue crystal is here, hanging from a silver chain.
   material: none
   item_type: 1
-  extra_flags: 1
-  wear_flags: 5
+  extra_flags: A
+  wear_flags: AC
   level: 95
   weight: 0
   cost: 0
@@ -687,8 +687,8 @@ objects:
   description: A very wide hat is here, almost three feet in diameter!
   material: none
   item_type: 11
-  extra_flags: 524288
-  wear_flags: 17
+  extra_flags: T
+  wear_flags: AE
   level: 95
   weight: 1
   cost: 100
@@ -706,8 +706,8 @@ objects:
   description: A long black trenchcoat is hanging on a strnage hook on the wall.
   material: none
   item_type: 15
-  extra_flags: 786432
-  wear_flags: 1025
+  extra_flags: ST
+  wear_flags: AK
   level: 95
   weight: 5
   cost: 500
@@ -719,11 +719,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 5
+    location: 2
     modifier: 5
     bitvector: 0
   - where: O
-    location: 2
+    location: 5
     modifier: 5
     bitvector: 0
   extra_descs: []
@@ -734,7 +734,7 @@ objects:
   material: none
   item_type: 11
   extra_flags: 0
-  wear_flags: 33
+  wear_flags: AF
   level: 95
   weight: 2
   cost: 100
@@ -753,7 +753,7 @@ objects:
   material: none
   item_type: 11
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 95
   weight: 1
   cost: 100
@@ -771,8 +771,8 @@ objects:
   description: A short staff stands here of it's own accord.
   material: none
   item_type: 5
-  extra_flags: 2883584
-  wear_flags: 8193
+  extra_flags: STV
+  wear_flags: AN
   level: 94
   weight: 4
   cost: 100000
@@ -790,8 +790,8 @@ objects:
   description: There is a wooden staff here, with gold inlayed around one end.
   material: wood
   item_type: 5
-  extra_flags: 2883584
-  wear_flags: 8193
+  extra_flags: STV
+  wear_flags: AN
   level: 20
   weight: 6
   cost: 500
@@ -809,8 +809,8 @@ objects:
   description: A large white towel is here.
   material: cloth
   item_type: 13
-  extra_flags: 262144
-  wear_flags: 5
+  extra_flags: S
+  wear_flags: AC
   level: 99
   weight: 0
   cost: 0
@@ -829,7 +829,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 4097
+  wear_flags: AM
   level: 1
   weight: 1
   cost: 10000
@@ -849,7 +849,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 100
@@ -868,7 +868,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 0
   cost: 10
@@ -887,7 +887,7 @@ objects:
   material: none
   item_type: 11
   extra_flags: 0
-  wear_flags: 1025
+  wear_flags: AK
   level: 0
   weight: 1
   cost: 100
@@ -906,7 +906,7 @@ objects:
   material: none
   item_type: 11
   extra_flags: 0
-  wear_flags: 1025
+  wear_flags: AK
   level: 0
   weight: 1
   cost: 0
@@ -925,7 +925,7 @@ objects:
   material: none
   item_type: 11
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 93
   weight: 1
   cost: 10000
@@ -944,7 +944,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 100
@@ -964,7 +964,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 100
@@ -982,8 +982,8 @@ objects:
   description: The claw of a dragon is here, you wonder where the rest of it is.
   material: none
   item_type: 5
-  extra_flags: 16384
-  wear_flags: 8193
+  extra_flags: O
+  wear_flags: AN
   level: 93
   weight: 0
   cost: 0
@@ -1001,8 +1001,8 @@ objects:
   description: '`wA `Yshimmery`w gold locket lies here, given with `Rlove`w from `MLadyLily`w.'
   material: none
   item_type: 8
-  extra_flags: 262465
-  wear_flags: 5
+  extra_flags: AGIS
+  wear_flags: AC
   level: 95
   weight: 2
   cost: 5000000
@@ -1020,8 +1020,8 @@ objects:
   description: A really long vacation sits here, waiting for Rahl to claim it.
   material: none
   item_type: 8
-  extra_flags: 1
-  wear_flags: 1025
+  extra_flags: A
+  wear_flags: AK
   level: 102
   weight: 1
   cost: 100000000
@@ -1039,8 +1039,8 @@ objects:
   description: A coupon for a free item restring is here.
   material: none
   item_type: 13
-  extra_flags: 278531
-  wear_flags: 16385
+  extra_flags: ABOS
+  wear_flags: AO
   level: 1
   weight: 1
   cost: 1
@@ -1062,8 +1062,8 @@ objects:
   description: A large powerful book is here.
   material: none
   item_type: 5
-  extra_flags: 80
-  wear_flags: 8193
+  extra_flags: EG
+  wear_flags: AN
   level: 92
   weight: 2
   cost: 10
@@ -1075,11 +1075,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
+    location: 19
     modifier: 200
     bitvector: 0
   - where: O
-    location: 19
+    location: 18
     modifier: 200
     bitvector: 0
   extra_descs: []
@@ -1089,7 +1089,7 @@ objects:
   description: '`gA large, comfortable `rred leather`g chair is here, behind the desk.`w'
   material: none
   item_type: 12
-  extra_flags: 16384
+  extra_flags: O
   wear_flags: 0
   level: 90
   weight: 100
@@ -1108,7 +1108,7 @@ objects:
   description: A large mohogany desk is here, sitting in the corner by the window.
   material: none
   item_type: 12
-  extra_flags: 16384
+  extra_flags: O
   wear_flags: 0
   level: 0
   weight: 200
@@ -1127,8 +1127,8 @@ objects:
   description: A 9mm pistol is lying here
   material: none
   item_type: 5
-  extra_flags: 3
-  wear_flags: 8193
+  extra_flags: AB
+  wear_flags: AN
   level: 100
   weight: 15
   cost: 1000
@@ -1146,8 +1146,8 @@ objects:
   description: A long piece of electricity lies here.
   material: none
   item_type: 5
-  extra_flags: 65
-  wear_flags: 8193
+  extra_flags: AG
+  wear_flags: AN
   level: 92
   weight: 5
   cost: 100000
@@ -1159,12 +1159,12 @@ objects:
   - 80
   affects:
   - where: O
-    location: 18
-    modifier: 1000
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 5000
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 1000
     bitvector: 0
   extra_descs: []
 - vnum: 10071
@@ -1173,8 +1173,8 @@ objects:
   description: A pair of boots with wings on them lie here.
   material: none
   item_type: 9
-  extra_flags: 258
-  wear_flags: 65
+  extra_flags: BI
+  wear_flags: AG
   level: 92
   weight: 2
   cost: 10000
@@ -1192,8 +1192,8 @@ objects:
   description: A large rumbling shield lies here.
   material: none
   item_type: 9
-  extra_flags: 258
-  wear_flags: 513
+  extra_flags: BI
+  wear_flags: AJ
   level: 92
   weight: 5
   cost: 100000
@@ -1211,8 +1211,8 @@ objects:
   description: '`gA large `Wwhite`g breastplate lies here.`w'
   material: none
   item_type: 9
-  extra_flags: 1280
-  wear_flags: 9
+  extra_flags: IK
+  wear_flags: AD
   level: 92
   weight: 10
   cost: 500000
@@ -1230,8 +1230,8 @@ objects:
   description: A helmet lies here, covered in flames.
   material: none
   item_type: 9
-  extra_flags: 1
-  wear_flags: 17
+  extra_flags: A
+  wear_flags: AE
   level: 92
   weight: 5
   cost: 100000
@@ -1249,8 +1249,8 @@ objects:
   description: A long silk robe lies here, carelessly tossed aside....HmMmmmmm....
   material: none
   item_type: 11
-  extra_flags: 262241
-  wear_flags: 9
+  extra_flags: AFGS
+  wear_flags: AD
   level: 93
   weight: 0
   cost: 1000
@@ -1269,8 +1269,8 @@ objects:
     what's inside?
   material: none
   item_type: 15
-  extra_flags: 320
-  wear_flags: 1
+  extra_flags: GI
+  wear_flags: A
   level: 93
   weight: 0
   cost: 3231996
@@ -1289,8 +1289,8 @@ objects:
   description: The *GREAT* sex you've always been looking for is here!
   material: none
   item_type: 9
-  extra_flags: 320
-  wear_flags: 1
+  extra_flags: GI
+  wear_flags: A
   level: 5
   weight: 1
   cost: 100000
@@ -1309,8 +1309,8 @@ objects:
     `Rlove`w.
   material: none
   item_type: 8
-  extra_flags: 266560
-  wear_flags: 3
+  extra_flags: GIMS
+  wear_flags: AB
   level: 93
   weight: 0
   cost: 1000000
@@ -1354,7 +1354,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 17
+  wear_flags: AE
   level: 92
   weight: 1
   cost: 0
@@ -1372,14 +1372,14 @@ rooms:
   description: "As you look around, you wonder if anything could survive here.  All\n\raround
     you are books, papers, computer disks, and small weapons.  Just your\n\rtypical,
     everyday college student's room...  \n\r"
-  room_flags: 1081352
+  room_flags: DPU
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 35
+    exit_flags: ABF
     key: 0
     to_vnum: 10001
   - dir: 4
@@ -1393,20 +1393,20 @@ rooms:
   name: God's Pet Shop
   description: "This is GOD's pet shop.  You feel a godly presence as you shop for
     a\n\rcompanion.  \n\r"
-  room_flags: 266248
+  room_flags: DMS
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 10020
   - dir: 2
     desc:
     keywords:
-    exit_flags: 35
+    exit_flags: ABF
     key: 0
     to_vnum: 10000
   extra_descs: []
@@ -1415,7 +1415,7 @@ rooms:
   description: "As you look at the room before you, you see miles of shelves and cabinets\n\rcovered
     with boxes and bags of stored items.  The dust in this room is\n\ralmost unbareable.
     \ \n\r"
-  room_flags: 1048580
+  room_flags: CU
   sector: 0
   owner:
   exits: []
@@ -1435,7 +1435,7 @@ rooms:
     through you and the expression they hold is not\n\rthat of sadness or joy, but
     of complete silence.  They are holding hands. \n\rThe title of the painting is
     emblazoned below in fine gold lettering, it\n\rsimply reads \"The Twins\".  \n\r"
-  room_flags: 1114124
+  room_flags: CDQU
   sector: 0
   owner:
   exits:
@@ -1451,7 +1451,7 @@ rooms:
   description: "A dimly lit room with quiet music and a wonderful almost vanilla smell\n\rwafting
     through.  High stained glass windows add dapples of colour to the\n\rplushly carpeted
     floor.  There are pillows and flowers scattered about the\n\rroom.\n\r"
-  room_flags: 1048577
+  room_flags: AU
   sector: 0
   owner:
   exits:
@@ -1469,7 +1469,7 @@ rooms:
     colour over the soft-looking bed.  There are more flowers about\n\rthe room, and
     the wonderful vanilla smell is a little stronger here, coming\n\rfrom a few candles
     deeply set in the walls.\n\r"
-  room_flags: 513
+  room_flags: AJ
   sector: 0
   owner:
   exits:
@@ -1490,7 +1490,7 @@ rooms:
     boxes are on the floor.  Love letters are scattered\n\ron the table, and many
     gifts are strewn along the couch.  Erotic Goddess\n\rindeed!  You wonder is she
     can get any man she wants....  And you'd love to\n\rfind out...  \n\r"
-  room_flags: 520
+  room_flags: DJ
   sector: 0
   owner:
   exits:
@@ -1517,7 +1517,7 @@ rooms:
     picture, and some medium size frames contain pictures of\n\rother friends, including
     The Demonic One and Hammer.  The sun floats into\n\rthe glass sanctuary, and a
     feminine voice is heard, humming softly.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1536,7 +1536,7 @@ rooms:
     chair.  Facing the desk are several large and equally\n\rcomfortable chairs.  On
     the desktop is an hourglass, slowly counting the\n\rminutes and hours since time
     began.  \n\r"
-  room_flags: 1064972
+  room_flags: CDOU
   sector: 0
   owner:
   exits: []
@@ -1548,7 +1548,7 @@ rooms:
     time....  Well, actually, the room has a couple things in it,\n\ras there is now
     a desk pushed up against the wall here.  Whoa!  Now there is\n\ra small cot against
     another wall.  I guess Raptor decided that sleep is a\n\rGOOD thing!  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1567,21 +1567,21 @@ rooms:
   - dir: 3
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 10001
   extra_descs:
+  - keywords: cot
+    description:
   - keywords: desk
     description: "Here is Raptor's new desk, already has a stack of papers on it.\n\rHmm,
       looks like a print-out of the builder's help file....\n\r"
-  - keywords: cot
-    description:
 - vnum: 10021
   name: Raptor's Den
   description: "This is where Raptor meets with mortals outside his office.  This
     way\n\rthey can talk without being disturbed by people walking through, or wizards\n\ryelling
     advertisements.  \n\r"
-  room_flags: 1544
+  room_flags: DJK
   sector: 0
   owner:
   exits:
@@ -1614,7 +1614,7 @@ rooms:
     a large\n\rtable.  Surrounding the table are a number of comfortable, high-backed\n\rchairs,
     one for each immortal.  At the head of the table is a slightly\n\rlarger chair
     for the administrator.  \n\r"
-  room_flags: 1056780
+  room_flags: CDNU
   sector: 0
   owner:
   exits: []
@@ -1637,7 +1637,7 @@ rooms:
     \ You quickly realize that he wasn't there\n\rwhen you scanned the garden previously...
     \ Mekare's guardian indeed, and one\n\ryou'd rather not mess with.  You quickly
     pray for transportation.  \n\r"
-  room_flags: 1114628
+  room_flags: CJQU
   sector: 3
   owner:
   exits:
@@ -1658,7 +1658,7 @@ rooms:
     vigil, their ever-watchful eyes staring down from the heavens.  There\n\rare few
     who know the path here, but those who do will agree that this is the\n\rmost peaceful
     and serene place in the entire world.  \n\r"
-  room_flags: 1049100
+  room_flags: CDJU
   sector: 3
   owner:
   exits: []

@@ -14,8 +14,8 @@ mobiles:
     his way with magic. \n\r"
   description: "This guy can ace the SAT with his frontal lobe tied behind his back.\n\r"
   race: Human
-  act: 131110
-  affected_by: 8
+  act: BCFR
+  affected_by: D
   affected2_by: 0
   alignment: -100
   clan: 0
@@ -39,9 +39,9 @@ mobiles:
     bash: -2
     slash: -2
     exotic: 2
-  off_flags: 65568
+  off_flags: FQ
   imm_flags: 0
-  res_flags: 4
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -59,7 +59,7 @@ mobiles:
   description: "Whilst you look at this troll, you realize he is trying to\n\rfigure
     just how tender you are.\n\r"
   race: Troll
-  act: 524326
+  act: BCFT
   affected_by: 0
   affected2_by: 0
   alignment: -800
@@ -84,7 +84,7 @@ mobiles:
     bash: -3
     slash: 2
     exotic: 6
-  off_flags: 147476
+  off_flags: CEOR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -104,7 +104,7 @@ mobiles:
   description: "You take a closer look at this large snake while it tries to\n\rbite
     your head off!\n\r"
   race: snake
-  act: 38
+  act: BCF
   affected_by: 0
   affected2_by: 0
   alignment: -700
@@ -129,10 +129,10 @@ mobiles:
     bash: 0
     slash: 2
     exotic: 6
-  off_flags: 159872
+  off_flags: HMNOR
   imm_flags: 0
-  res_flags: 32
-  vuln_flags: 64
+  res_flags: F
+  vuln_flags: G
   start_pos: 8
   default_pos: 8
   sex: 3
@@ -148,7 +148,7 @@ mobiles:
   long_desc: "An ugly orc is standing here waiting for someone to practice on.\n\r"
   description: "Yrkk..  He belches in your face!\n\r"
   race: orc
-  act: 524516
+  act: CFGHT
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -173,7 +173,7 @@ mobiles:
     bash: 5
     slash: 5
     exotic: 8
-  off_flags: 131588
+  off_flags: CJR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -193,7 +193,7 @@ mobiles:
   description: "It doesn't seem to pay any attention towards you.  You are probably\n\rnot
     important.\n\r"
   race: centipede
-  act: 1048578
+  act: BU
   affected_by: 0
   affected2_by: 0
   alignment: 300
@@ -218,7 +218,7 @@ mobiles:
     bash: 6
     slash: 4
     exotic: 10
-  off_flags: 131104
+  off_flags: FR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -237,7 +237,7 @@ mobiles:
   long_desc: "A human warrior grins an evil grin in your face.\n\r"
   description: "He doesn't look friendly at all...  He is no Mr. Rogers!\n\r"
   race: Human
-  act: 524388
+  act: CFGT
   affected_by: 0
   affected2_by: 0
   alignment: -300
@@ -262,7 +262,7 @@ mobiles:
     bash: 2
     slash: 4
     exotic: 6
-  off_flags: 1114628
+  off_flags: CJQU
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -281,7 +281,7 @@ mobiles:
   long_desc: "A green kobold hobbles along the cave walls puking periodically.\n\r"
   description: "It looks a little sick.  Something he ate maybe?\n\r"
   race: kobold
-  act: 524388
+  act: CFGT
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -306,7 +306,7 @@ mobiles:
     bash: 5
     slash: 5
     exotic: 10
-  off_flags: 139264
+  off_flags: NR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -325,7 +325,7 @@ mobiles:
   long_desc: "A blue bat flies in circles while electrical charges arc here and there.\n\r"
   description: "Bzzzt.  Zap.  Crackle.  Speak about static electricity!\n\r"
   race: bat
-  act: 34
+  act: BF
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -350,10 +350,10 @@ mobiles:
     bash: 4
     slash: 4
     exotic: 6
-  off_flags: 131072
-  imm_flags: 512
+  off_flags: R
+  imm_flags: J
   res_flags: 0
-  vuln_flags: 50462720
+  vuln_flags: RYZ
   start_pos: 8
   default_pos: 8
   sex: 3
@@ -369,7 +369,7 @@ mobiles:
   long_desc: "A red bat hangs upside down from the ceiling, glowing.\n\r"
   description: "You can definitely feel some heat from this thing.  A fever perhaps?\n\r"
   race: bat
-  act: 34
+  act: BF
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -394,10 +394,10 @@ mobiles:
     bash: 4
     slash: 4
     exotic: 6
-  off_flags: 131072
-  imm_flags: 128
+  off_flags: R
+  imm_flags: H
   res_flags: 0
-  vuln_flags: 131328
+  vuln_flags: IR
   start_pos: 8
   default_pos: 8
   sex: 3
@@ -413,7 +413,7 @@ mobiles:
   long_desc: "A green bat flies from wall to wall leaving an awful smell.\n\r"
   description: "Whew!  What a stinker!\n\r"
   race: bat
-  act: 34
+  act: BF
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -438,15 +438,15 @@ mobiles:
     bash: 4
     slash: 4
     exotic: 6
-  off_flags: 131072
-  imm_flags: 2048
+  off_flags: R
+  imm_flags: L
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 3
   gold: 0
-  form: 2
+  form: B
   parts: 0
   size: T
   material: none
@@ -458,7 +458,7 @@ mobiles:
     from.\n\r"
   description: "Brrr!  You almost can't distinguish this bat from an ice cube.\n\r"
   race: bat
-  act: 34
+  act: BF
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -483,10 +483,10 @@ mobiles:
     bash: 4
     slash: 4
     exotic: 6
-  off_flags: 131072
-  imm_flags: 256
+  off_flags: R
+  imm_flags: I
   res_flags: 0
-  vuln_flags: 128
+  vuln_flags: H
   start_pos: 8
   default_pos: 8
   sex: 3
@@ -502,7 +502,7 @@ mobiles:
   long_desc: "A black bat flies from wall to wall leaving something hissing behind.\n\r"
   description: "Amazing!  This bat is grooming itself with acid!\n\r"
   race: bat
-  act: 34
+  act: BF
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -527,8 +527,8 @@ mobiles:
     bash: 4
     slash: 4
     exotic: 6
-  off_flags: 131072
-  imm_flags: 1024
+  off_flags: R
+  imm_flags: K
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -546,8 +546,8 @@ mobiles:
   long_desc: "A sneaky thief appears and disappears within the shadows.\n\r"
   description: "He definitely knows what he's doing.  Trust him.\n\r"
   race: Human
-  act: 262212
-  affected_by: 65538
+  act: CGS
+  affected_by: BQ
   affected2_by: 0
   alignment: 400
   clan: 0
@@ -571,7 +571,7 @@ mobiles:
     bash: 0
     slash: 0
     exotic: 6
-  off_flags: 1122850
+  off_flags: BFJNQU
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -590,7 +590,7 @@ mobiles:
   long_desc: "A large ugly troll is here mumbling something.\n\r"
   description: "He looks quite mean.  Don't mess with him.\n\r"
   race: Troll
-  act: 524326
+  act: BCFT
   affected_by: 0
   affected2_by: 0
   alignment: -700
@@ -615,10 +615,10 @@ mobiles:
     bash: -3
     slash: -1
     exotic: 4
-  off_flags: 147476
+  off_flags: CEOR
   imm_flags: 0
   res_flags: 0
-  vuln_flags: 4
+  vuln_flags: C
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -635,7 +635,7 @@ mobiles:
   description: "His little head is buried into his magic books.  He'd be very\n\rangry
     should you bother his studies.\n\r"
   race: Human
-  act: 131172
+  act: CFGR
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -660,9 +660,9 @@ mobiles:
     bash: 0
     slash: 0
     exotic: 2
-  off_flags: 1114112
+  off_flags: QU
   imm_flags: 0
-  res_flags: 4
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -680,7 +680,7 @@ mobiles:
   description: "Sickly brown as it is, you know what it really wants is you\n\rfor
     dinner.\n\r"
   race: snake
-  act: 1048610
+  act: BFU
   affected_by: 0
   affected2_by: 0
   alignment: 200
@@ -705,9 +705,9 @@ mobiles:
     bash: 3
     slash: 3
     exotic: 6
-  off_flags: 139360
+  off_flags: FGNR
   imm_flags: 0
-  res_flags: 48
+  res_flags: EF
   vuln_flags: 0
   start_pos: 7
   default_pos: 7
@@ -724,7 +724,7 @@ mobiles:
   long_desc: "A 'small' troll is here happily dancing.  Trala-la-la.  La-la.\n\r"
   description: "He is so happy, you are disgusted.  Kill him now!\n\r"
   race: Troll
-  act: 524388
+  act: CFGT
   affected_by: 0
   affected2_by: 0
   alignment: -300
@@ -749,7 +749,7 @@ mobiles:
     bash: 1
     slash: 3
     exotic: 6
-  off_flags: 131600
+  off_flags: EJR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -768,7 +768,7 @@ mobiles:
   long_desc: "A large orc growls in your face.\n\r"
   description: "He is just looking for a fight isn't he?\n\r"
   race: orc
-  act: 524388
+  act: CFGT
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -793,7 +793,7 @@ mobiles:
     bash: 2
     slash: 1
     exotic: 5
-  off_flags: 139780
+  off_flags: CJNR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -812,8 +812,8 @@ mobiles:
   long_desc: "The huge python rears its head and hisses at you. \n\r"
   description: "It sways back and forth contemplating whether or not to eat you.\n\r"
   race: snake
-  act: 34
-  affected_by: 8
+  act: BF
+  affected_by: D
   affected2_by: 0
   alignment: -200
   clan: 0
@@ -837,9 +837,9 @@ mobiles:
     bash: 0
     slash: 3
     exotic: 6
-  off_flags: 155808
+  off_flags: FHNOR
   imm_flags: 0
-  res_flags: 32
+  res_flags: F
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -856,7 +856,7 @@ mobiles:
   long_desc: "A small green garter snake slithers along the floor.\n\r"
   description: "It looks harmless enough.  Or is it?\n\r"
   race: snake
-  act: 1048578
+  act: BU
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -881,9 +881,9 @@ mobiles:
     bash: 3
     slash: 5
     exotic: 8
-  off_flags: 131232
+  off_flags: FHR
   imm_flags: 0
-  res_flags: 16
+  res_flags: E
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -900,7 +900,7 @@ mobiles:
   long_desc: "A small centipede here is looking for vegetation.\n\r"
   description: "It looks completely harmless but who knows for sure?\n\r"
   race: centipede
-  act: 1048578
+  act: BU
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -925,7 +925,7 @@ mobiles:
     bash: 7
     slash: 9
     exotic: 10
-  off_flags: 131104
+  off_flags: FR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -944,7 +944,7 @@ mobiles:
   long_desc: "An ugly kobold mumbles something under its breath.\n\r"
   description: "It looks ugly enough to scare its own mother.\n\r"
   race: kobold
-  act: 524356
+  act: CGT
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -969,7 +969,7 @@ mobiles:
     bash: 7
     slash: 7
     exotic: 10
-  off_flags: 131072
+  off_flags: R
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -988,7 +988,7 @@ mobiles:
   long_desc: "This orc is frothing around the mouth.  Better stay away.\n\r"
   description: "You notice a slight tinge of madness in his eyes.\n\r"
   race: orc
-  act: 524388
+  act: CFGT
   affected_by: 0
   affected2_by: 0
   alignment: -400
@@ -1013,15 +1013,15 @@ mobiles:
     bash: 7
     slash: 7
     exotic: 10
-  off_flags: 139276
+  off_flags: CDNR
   imm_flags: 0
-  res_flags: 4
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 60
-  form: 2
+  form: B
   parts: 0
   size: M
   material: none
@@ -1032,7 +1032,7 @@ mobiles:
   long_desc: "This large orc is looking for someone small to pick on.\n\r"
   description: "The orc says, \"Whatcha look'n at?\"\n\r"
   race: orc
-  act: 524356
+  act: CGT
   affected_by: 0
   affected2_by: 0
   alignment: -500
@@ -1057,7 +1057,7 @@ mobiles:
     bash: 5
     slash: 5
     exotic: 8
-  off_flags: 131588
+  off_flags: CJR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -1076,7 +1076,7 @@ mobiles:
   long_desc: "This tall warrior has more scars than even you!\n\r"
   description: "He's surely a strong, brainless fighter.  Like you.\n\r"
   race: Human
-  act: 524326
+  act: BCFT
   affected_by: 0
   affected2_by: 0
   alignment: -300
@@ -1101,7 +1101,7 @@ mobiles:
     bash: -1
     slash: 2
     exotic: 5
-  off_flags: 196868
+  off_flags: CIQR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -1121,7 +1121,7 @@ mobiles:
   description: "He seems to know his way with weapons.  And he wants\n\rto show you
     what he can do!\n\r"
   race: Human
-  act: 524324
+  act: CFT
   affected_by: 0
   affected2_by: 0
   alignment: -400
@@ -1146,10 +1146,10 @@ mobiles:
     bash: 5
     slash: 4
     exotic: 8
-  off_flags: 196868
+  off_flags: CIQR
   imm_flags: 0
   res_flags: 0
-  vuln_flags: 4
+  vuln_flags: C
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -1166,7 +1166,7 @@ mobiles:
   description: "Looking into the eyes of this poor soul makes you feel\n\rsad as you
     see the terror and fear in its eyes.  Why\n\rdon't you put it out of its misery?\n\r"
   race: hobgoblin
-  act: 524484
+  act: CGHT
   affected_by: 0
   affected2_by: 0
   alignment: -300
@@ -1191,10 +1191,10 @@ mobiles:
     bash: 5
     slash: 5
     exotic: 8
-  off_flags: 8192
+  off_flags: N
   imm_flags: 0
   res_flags: 0
-  vuln_flags: 4
+  vuln_flags: C
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -1210,7 +1210,7 @@ mobiles:
   long_desc: "A sickly brown snake watches you with caution.\n\r"
   description: "A closer look reveals a hungry demeanor.  Don't get too close!\n\r"
   race: snake
-  act: 1048610
+  act: BFU
   affected_by: 0
   affected2_by: 0
   alignment: -600
@@ -1235,9 +1235,9 @@ mobiles:
     bash: 2
     slash: 2
     exotic: 5
-  off_flags: 139360
+  off_flags: FGNR
   imm_flags: 0
-  res_flags: 48
+  res_flags: EF
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -1254,7 +1254,7 @@ mobiles:
   long_desc: "A white centipede crawls along the cave floors randomly.\n\r"
   description: "The centipede doesn't really seem to notice you.\n\r"
   race: centipede
-  act: 1048578
+  act: BU
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -1279,7 +1279,7 @@ mobiles:
     bash: 7
     slash: 5
     exotic: 10
-  off_flags: 131104
+  off_flags: FR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -1299,7 +1299,7 @@ mobiles:
   description: "Red, bloodshot eyes and drool dripping from its mouth makes you\n\rwonder
     just how far away you should be.\n\r"
   race: hobgoblin
-  act: 524356
+  act: CGT
   affected_by: 0
   affected2_by: 0
   alignment: -500
@@ -1324,9 +1324,9 @@ mobiles:
     bash: 2
     slash: 1
     exotic: 5
-  off_flags: 131596
+  off_flags: CDJR
   imm_flags: 0
-  res_flags: 4
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -1344,7 +1344,7 @@ mobiles:
   description: "As you already know, orcs have quite a ravenous appetite.  \n\rCare
     to be dinner?\n\r"
   race: orc
-  act: 524388
+  act: CFGT
   affected_by: 0
   affected2_by: 0
   alignment: -800
@@ -1369,7 +1369,7 @@ mobiles:
     bash: 3
     slash: 2
     exotic: 5
-  off_flags: 139268
+  off_flags: CNR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -1389,7 +1389,7 @@ mobiles:
   description: "Huge claws and big teeth make quite a fearsome opponent for\n\rthe
     weary.  Are you next?\n\r"
   race: cat
-  act: 96
+  act: FG
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -1414,9 +1414,9 @@ mobiles:
     bash: 0
     slash: 0
     exotic: 4
-  off_flags: 131088
+  off_flags: ER
   imm_flags: 0
-  res_flags: 16
+  res_flags: E
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -1434,7 +1434,7 @@ mobiles:
   description: "The hill giant looks like he's about 9 feet tall. By his actions you\n\rcome
     to the conclusion that he's not very intelligent.  A perfect\n\rplaymate for you.\n\r"
   race: Giant
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -1459,9 +1459,9 @@ mobiles:
     bash: -2
     slash: 0
     exotic: 4
-  off_flags: 147464
+  off_flags: DOR
   imm_flags: 0
-  res_flags: 8
+  res_flags: D
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -1479,8 +1479,8 @@ objects:
   description: An evil black demon blade is here.
   material: none
   item_type: 5
-  extra_flags: 2624
-  wear_flags: 8193
+  extra_flags: GJL
+  wear_flags: AN
   level: 11
   weight: 8
   cost: 5000
@@ -1500,8 +1500,8 @@ objects:
   description: Some gloves are here.  They look like the right equipment for fighting.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 129
+  extra_flags: G
+  wear_flags: AH
   level: 8
   weight: 1
   cost: 1500
@@ -1513,12 +1513,12 @@ objects:
   - 1
   affects:
   - where: O
-    location: 19
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 18
     modifier: 2
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 4102
@@ -1527,8 +1527,8 @@ objects:
   description: A scroll which reads "ysafg", it looks very fragile and quite old.
   material: none
   item_type: 2
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 5
   weight: 1
   cost: 1500
@@ -1548,8 +1548,8 @@ objects:
   description: A green slime mold is here. It smells REAL bad.
   material: none
   item_type: 19
-  extra_flags: 32768
-  wear_flags: 1
+  extra_flags: P
+  wear_flags: A
   level: 0
   weight: 1
   cost: 20
@@ -1569,8 +1569,8 @@ objects:
   description: A green slime mold is here. It smells REAL bad.
   material: none
   item_type: 19
-  extra_flags: 32768
-  wear_flags: 1
+  extra_flags: P
+  wear_flags: A
   level: 0
   weight: 1
   cost: 20
@@ -1591,7 +1591,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 9
   weight: 6
   cost: 50
@@ -1615,8 +1615,8 @@ objects:
   description: A thick black potion is here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 5
   weight: 1
   cost: 100
@@ -1636,8 +1636,8 @@ objects:
   description: A ancient heavy oak staff is here.
   material: none
   item_type: 4
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 11
   weight: 5
   cost: 3000
@@ -1649,10 +1649,10 @@ objects:
   - 0
   affects: []
   extra_descs:
-  - keywords: runes
-    description: "The runes says : Funthark.\n\r"
   - keywords: staff oak
     description: "You see it has some sort of runes on it.\n\r"
+  - keywords: runes
+    description: "The runes says : Funthark.\n\r"
 - vnum: 4152
   name: dagger light silver
   short_desc: a light silver dagger
@@ -1660,7 +1660,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 7
   weight: 2
   cost: 1500
@@ -1672,12 +1672,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 17
-    modifier: -1
-    bitvector: 0
-  - where: O
     location: 18
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: -1
     bitvector: 0
   extra_descs:
   - keywords: dagger light silver
@@ -1689,7 +1689,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 12
   cost: 400
@@ -1701,12 +1701,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 2
-    modifier: -1
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 2
+    modifier: -1
     bitvector: 0
   extra_descs:
   - keywords: star morning
@@ -1719,7 +1719,7 @@ objects:
   material: none
   item_type: 28
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 2000
@@ -1745,7 +1745,7 @@ objects:
   material: none
   item_type: 28
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 2500
@@ -1784,7 +1784,7 @@ objects:
   material: none
   item_type: 8
   extra_flags: 0
-  wear_flags: 3
+  wear_flags: AB
   level: 0
   weight: 1
   cost: 50
@@ -1808,8 +1808,8 @@ objects:
   description: A halfway decayed corpse of a cartographer.
   material: none
   item_type: 23
-  extra_flags: 32768
-  wear_flags: 1
+  extra_flags: P
+  wear_flags: A
   level: 0
   weight: 100
   cost: 0
@@ -1831,7 +1831,7 @@ objects:
   material: none
   item_type: 20
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 500
   cost: 0
@@ -1850,7 +1850,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 0
   weight: 1
   cost: 10
@@ -1875,7 +1875,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 3
   weight: 3
   cost: 100
@@ -1898,7 +1898,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 13
   weight: 25
   cost: 10
@@ -1924,7 +1924,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 1025
+  wear_flags: AK
   level: 10
   weight: 10
   cost: 20
@@ -1950,7 +1950,7 @@ objects:
   material: none
   item_type: 10
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 8
   weight: 1
   cost: 500
@@ -1970,8 +1970,8 @@ objects:
   description: A metal helmet is here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 17
+  extra_flags: G
+  wear_flags: AE
   level: 7
   weight: 4
   cost: 3000
@@ -1994,7 +1994,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 9
@@ -2014,8 +2014,8 @@ objects:
   description: A beautifully crafted dirk is lying here.
   material: none
   item_type: 5
-  extra_flags: 64
-  wear_flags: 8193
+  extra_flags: G
+  wear_flags: AN
   level: 10
   weight: 2
   cost: 850
@@ -2027,11 +2027,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
+    location: 18
     modifier: 1
     bitvector: 0
   - where: O
-    location: 18
+    location: 19
     modifier: 1
     bitvector: 0
   extra_descs:
@@ -2045,7 +2045,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 6
   weight: 7
   cost: 200
@@ -2071,7 +2071,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 6
   weight: 8
   cost: 400
@@ -2092,7 +2092,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 5
   weight: 7
   cost: 260
@@ -2104,12 +2104,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 17
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 2
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: 1
     bitvector: 0
   extra_descs:
   - keywords: flail
@@ -2122,7 +2122,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 6
   weight: 10
   cost: 180
@@ -2148,7 +2148,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 5
   weight: 8
   cost: 200
@@ -2170,7 +2170,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 12
   cost: 80
@@ -2193,7 +2193,7 @@ rooms:
 - vnum: 4100
   name: The tunnel
   description: "Suddenly you feel that the tunnel leads slightly down.\n\r"
-  room_flags: 13
+  room_flags: ACD
   sector: 3
   owner:
   exits:
@@ -2214,7 +2214,7 @@ rooms:
   name: The long tunnel
   description: "You are in a long east-west leading tunnel. The tunnel is quite\n\rwide
     at this point.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2235,7 +2235,7 @@ rooms:
   name: The long tunnel
   description: "You are in a long east-west leading tunnel. The tunnel becomes\n\rnarrow
     to the west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2256,7 +2256,7 @@ rooms:
   name: The long tunnel
   description: "You are in a long east-west leading tunnel. The tunnel is quite\n\rnarrow
     at this point. You notice a small hole leading south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2283,7 +2283,7 @@ rooms:
   name: The long tunnel
   description: "You are in a long east-west leading tunnel. The tunnel starts sloping\n\rdown
     towards the west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2304,7 +2304,7 @@ rooms:
   name: The golden cave
   description: "You are in a giant cave, all the walls are shining with a soft golden\n\rlight.
     The cave continues to the south and west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2325,7 +2325,7 @@ rooms:
   name: The golden cave
   description: "You are in a giant cave, all the walls are shining with a soft golden\n\rlight.
     The cave continues to the south and east, to the north is a narrow\n\rtunnel.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2351,7 +2351,7 @@ rooms:
 - vnum: 4107
   name: The passage
   description: "You are in a small passage, it leads south, to the west is a golden\n\rcave.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2372,7 +2372,7 @@ rooms:
   name: The golden cave
   description: "You are in a giant cave, all the walls are shining with a soft golden\n\rlight.
     The cave continues to the north and west, east from you there is\n\ra small passage.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2399,7 +2399,7 @@ rooms:
   name: The golden cave
   description: "You are in a giant cave, all the walls are shining with a soft golden\n\rlight.
     The cave continues to the south, east and north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2425,7 +2425,7 @@ rooms:
 - vnum: 4110
   name: The tunnel
   description: "You are at the end of the tunnel.\n\r"
-  room_flags: 13
+  room_flags: ACD
   sector: 3
   owner:
   exits:
@@ -2439,7 +2439,7 @@ rooms:
 - vnum: 4111
   name: The tunnel
   description: "You are in a small tunnel, it leads from east to the west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2459,7 +2459,7 @@ rooms:
 - vnum: 4112
   name: The tunnel
   description: "You are in a larger tunnel, it leads from west to east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2480,7 +2480,7 @@ rooms:
   name: The passage
   description: "You are in a passage that leads towards the south. To the east \n\ryou
     see a tunnel.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2507,7 +2507,7 @@ rooms:
   name: The golden cave
   description: "You are in a giant cave, all the walls are shining with a soft golden\n\rlight.
     The cave continues to the north, to the west you see a dark \n\rpassage.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2528,7 +2528,7 @@ rooms:
   name: The dark passage.
   description: "You are in a dark passage, that leads east. In the ceiling you notice\n\ra
     small hole, just big enough to pass through.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2549,7 +2549,7 @@ rooms:
   name: The passage
   description: "You are in a passage that leads north-south. You notice a small\n\rlight
     to the south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2569,7 +2569,7 @@ rooms:
 - vnum: 4117
   name: The secret chamber
   description: "You are in a secret chamber.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2585,7 +2585,7 @@ rooms:
   description: "You are in a light cave, from torches several feet above your\n\rhead
     fire lights the room. The cave continues to the west and south.\n\rTo the north
     a small hole leads to a tunnel.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2606,7 +2606,7 @@ rooms:
   name: The cave
   description: "You are in a light cave, from torches several feet above your\n\rhead
     fire lights the room. The cave continues to the east and south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2632,7 +2632,7 @@ rooms:
 - vnum: 4120
   name: The passage
   description: "You are in a north-south leading passage. To the south you see light.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2653,7 +2653,7 @@ rooms:
   name: The secret tunnel
   description: "You are in a secret tunnel that leads west, you feel evilness\n\rapproaching
     you as you continue west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2673,7 +2673,7 @@ rooms:
 - vnum: 4122
   name: The secret chamber
   description: "You are in a secret chamber, the room is filled with an evil\n\rfeeling.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2694,7 +2694,7 @@ rooms:
   name: The cave
   description: "You are in a light cave, from torches several feet above your\n\rhead
     fire lights the room. The cave continues to the north and west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2716,7 +2716,7 @@ rooms:
   description: "You are in a light cave, from torches several feet above your\n\rhead
     fire lights the room. The cave continues to the east and north.\n\rTo the west
     a passage leads north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2743,7 +2743,7 @@ rooms:
   name: The passage
   description: "You are in a passage, to the east you see a cave. Light from the\n\rcave
     lights up the passage. To the north the passage leads into\n\rthe darkness.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2766,7 +2766,7 @@ rooms:
     inscriptions on the wall, most of 'em the usual stuff, like:\n\r'Super Snude was
     here' and 'Why does the mayor likes secretaries with\n\rsmall hands?' - But one
     inscription gets your attention, it says:\n\rThe Balrog is ALIVE ...\n\r"
-  room_flags: 13
+  room_flags: ACD
   sector: 3
   owner:
   exits:
@@ -2781,7 +2781,7 @@ rooms:
   name: The small passage
   description: "You are in a small passage, to the north you see a hole, and to\n\rthe
     south you see a large tunnel. The air is damp in this area.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2807,7 +2807,7 @@ rooms:
 - vnum: 4152
   name: The tunnel
   description: "You suddenly feel that the tunnel leads down.\n\r"
-  room_flags: 13
+  room_flags: ACD
   sector: 3
   owner:
   exits:
@@ -2828,7 +2828,7 @@ rooms:
   name: The large tunnel
   description: "You are in a large tunnel leading from the south to the east. The\n\rair
     is damp in the area.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2855,7 +2855,7 @@ rooms:
   name: The large tunnel
   description: "You are in a large east-west leading tunnel, the air is damp and\n\rthe
     floor is wet.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2876,7 +2876,7 @@ rooms:
   name: The large tunnel
   description: "You are in a large tunnel, the tunnel leads west, and to the east\n\ryou
     notice a long tunnel. The air is damp in this area.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2896,7 +2896,7 @@ rooms:
 - vnum: 4156
   name: The long tunnel
   description: "You are standing in a long north-south tunnel.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2917,7 +2917,7 @@ rooms:
   name: The wet tunnel
   description: "You are in a wet, north-south leading tunnel, the floor is\n\rpartly
     covered by water.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2944,7 +2944,7 @@ rooms:
   name: The small maze
   description: "You are in a small maze, exits leads off to the east,  south\n\rand
     west. The floor is partly covered by water.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2971,7 +2971,7 @@ rooms:
   name: The small maze
   description: "You are in a small maze, exits leads off only to the south\n\rand
     west. The air is damp in this maze.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -2992,7 +2992,7 @@ rooms:
   name: In the tunnel at the inscription
   description: "You are in a north-south leading tunnel, the air is damp. On\n\rthe
     wall there is an inscription.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -3018,7 +3018,7 @@ rooms:
   name: The wet tunnel
   description: "You are in a north-south leading tunnel.  The floor is fully\n\rcovered
     by water.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -3039,7 +3039,7 @@ rooms:
   name: The small maze
   description: "You are in a small maze. The floor is mainly covered by\n\rwater,
     exits leads north, east and south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -3066,7 +3066,7 @@ rooms:
   name: The small maze
   description: "You are in a small maze, where the air is damp. Exits\n\rleads to
     the north and east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -3093,7 +3093,7 @@ rooms:
   name: The entrance to the small maze
   description: "You are in a north-south leading tunnel, and the air is damp.\n\rTo
     the west you see a small maze.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -3120,7 +3120,7 @@ rooms:
   name: In the water
   description: "You are standing in water, the tunnel continues both to the\n\rnorth
     and south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -3141,7 +3141,7 @@ rooms:
   name: The wet maze
   description: "You are in a part of the maze where the floor is fully covered\n\rby
     water. The maze continues to the north, east and south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -3168,7 +3168,7 @@ rooms:
   name: The wet maze
   description: "You are in a small maze, the floor is covered by water, the\n\rmaze
     continues east, west and south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -3195,7 +3195,7 @@ rooms:
   name: The end of the tunnel
   description: "The tunnel suddenly stops here, only exit is to the west.\n\rThe air
     is damp here.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -3215,7 +3215,7 @@ rooms:
 - vnum: 4169
   name: In the water
   description: "You are standing in the water, exits leads both north and east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -3235,7 +3235,7 @@ rooms:
 - vnum: 4170
   name: In the water
   description: "You are standing in the water, it continues east and west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -3262,7 +3262,7 @@ rooms:
   name: End of maze
   description: "You are at the end of the small maze which continues north.\n\rAbove
     you a hole leads up.\n\r"
-  room_flags: 13
+  room_flags: ACD
   sector: 3
   owner:
   exits:
@@ -3282,7 +3282,7 @@ rooms:
 - vnum: 4172
   name: At the sand bar
   description: "You are on a little sand bar in the water.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -3514,7 +3514,7 @@ rooms:
     these quiet hills. Glancing around you notice only a single bird.\n\rThe mountains
     of the dwarven kingdom rise up to your east, you can barely\n\rmake out the queen's
     mines from here.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 4
   owner:
   exits:
@@ -3546,7 +3546,7 @@ rooms:
     turning\n\rseveral times around itself.  To the south the hills have a lighter
     hue of\n\rdark. To the north however, the hills have become nightblack holes in
     the\n\rdistant mountains.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 4
   owner:
   exits:
@@ -3577,7 +3577,7 @@ rooms:
     large sign\n\rcarved into the mountain.  You feel you can hear the cry of help
     from a\n\rthousand silent voices all coming from an even darker hole in the mountain
     to\n\rthe north marking the entrance to a cave (or a grave :-).\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 4
   owner:
   exits:
@@ -3594,6 +3594,8 @@ rooms:
     key: 0
     to_vnum: 4001
   extra_descs:
+  - keywords: bushes
+    description: "Small crippled bushes desperately trying to grow south.\n\r"
   - keywords: sign
     description: "The sign says:\n\r\n\r        /---------------------\\\n\r        |
       The Mines of Moria! |\n\r        |                     |\n\r        | Four levels.
@@ -3601,8 +3603,6 @@ rooms:
       \       |                     |\n\r        \\---------------------/\n\r                 |
       |\n\r                 | |\n\r                 | |\n\r                 | |\n\r
       \                | |\n\r"
-  - keywords: bushes
-    description: "Small crippled bushes desperately trying to grow south.\n\r"
 - vnum: 4010
   name: The cave
   description: "You are in a large cave. The ceiling is lost somewhere above the reach
@@ -3612,7 +3612,7 @@ rooms:
     of fresh air enters from the south (probably lost too). Take a\n\rgood breath,
     it may be your last mouthful of air in a long, long time that\n\rothers haven't
     breathed before you.\n\rTo the north a small tunnel continues into the mountain.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -3638,7 +3638,7 @@ rooms:
     rocks\n\rprotruding from the walls threaten to scratch and cut you. \n\rTo the
     south you sense a freshness in the air which is rather unusual in these\n\rdamp,
     stuffy tunnels. To the north the tunnel continues.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -3660,7 +3660,7 @@ rooms:
   description: "You are in a part of the tunnel that looks uncannily like the rest
     except\n\rthat it goes in a east-north direction. To the north the tunnel widens
     into\n\ra cave.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -3681,7 +3681,7 @@ rooms:
   name: The tunnel
   description: "This tunnel, leading east-west, seems seldom used.  A thick layer
     of dust\n\rcovers the floor, making the air stuffy and dry. \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -3705,7 +3705,7 @@ rooms:
     flickering light. To the south the tunnel narrows even more making it\n\ralmost
     impossible to pass. To the north it slowly widens into a cave. There\n\ris a branch
     of the tunnel going west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -3737,7 +3737,7 @@ rooms:
 - vnum: 4015
   name: The tunnel
   description: "You are in a corner tunnel leading west and north.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -3758,7 +3758,7 @@ rooms:
   name: The large cave
   description: "You are in a large cave, the cave continues east and west, to the
     south\n\ryou notice a small tunnel.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -3784,7 +3784,7 @@ rooms:
 - vnum: 4017
   name: The large cave
   description: "You are in the east end of the large cave.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -3799,7 +3799,7 @@ rooms:
   name: The cave
   description: "You are in the south end of a cave, to the south you see a tunnel.
     You\n\rnotice a large pile of bones in the corner.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -3821,7 +3821,7 @@ rooms:
 - vnum: 4019
   name: The tunnel
   description: "You are in a north-south leading tunnel.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -3841,7 +3841,7 @@ rooms:
 - vnum: 4020
   name: The hole
   description: "You are by a hole in the floor, you can leave down, or north.\n\r"
-  room_flags: 13
+  room_flags: ACD
   sector: 3
   owner:
   exits:
@@ -3861,7 +3861,7 @@ rooms:
 - vnum: 4021
   name: The hole
   description: "A hole in the floor leads down here.\n\r"
-  room_flags: 13
+  room_flags: ACD
   sector: 3
   owner:
   exits:
@@ -3883,7 +3883,7 @@ rooms:
   description: "You are in a damp tunnel.  Your clothes feel wet.  The tunnel continues\n\rto
     the north; to the west you see a hole in the floor; and to the east\n\rthere is
     a large cave.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -3910,7 +3910,7 @@ rooms:
   name: The large cave
   description: "You are in the western part of the large cave, to the south you see\n\ra
     damp tunnel.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -3930,7 +3930,7 @@ rooms:
 - vnum: 4024
   name: The damp tunnel
   description: "You are in a corner of a damp tunnel.  You can go west or south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -3950,7 +3950,7 @@ rooms:
 - vnum: 4025
   name: The cave
   description: "You are in the north end of a cave.  To the east you see many tunnels.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -3970,7 +3970,7 @@ rooms:
 - vnum: 4026
   name: The many tunnels
   description: "You are at the intersection of many tunnels.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -4003,7 +4003,7 @@ rooms:
   name: The tunnel
   description: "You are in a north-south leading tunnel, you also notice a tunnel
     to\n\rthe west. From the north you sense the fresh air!\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -4030,7 +4030,7 @@ rooms:
   name: The smelly tunnel
   description: "You are in a north-south leading tunnel, you see a small light\n\rto
     the north. You notice a strange smell from the north..\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -4052,7 +4052,7 @@ rooms:
   description: "You are in a cave that is filled with fresh air, you sense the\n\rwind
     blowing from the north. To the south you see a small tunnel\n\rcontinue into the
     mountain.\n\r"
-  room_flags: 13
+  room_flags: ACD
   sector: 2
   owner:
   exits:
@@ -4375,7 +4375,7 @@ rooms:
 - vnum: 4050
   name: The tunnel
   description: "The tunnel turns here, continuing to the east and south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -4395,7 +4395,7 @@ rooms:
 - vnum: 4051
   name: The tunnel
   description: "You are in a narrow east-west tunnel.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -4415,7 +4415,7 @@ rooms:
 - vnum: 4052
   name: The tunnel
   description: "You are at a turn, the tunnel continues south and west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -4435,7 +4435,7 @@ rooms:
 - vnum: 4053
   name: The tunnel
   description: "You are at a turn, the tunnel continues north and east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -4456,7 +4456,7 @@ rooms:
   name: The light cave
   description: "You are in a cave, to south from you there is a large fire that lights\n\rthe
     entire cave, to the east and west tunnels leads off.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -4482,7 +4482,7 @@ rooms:
 - vnum: 4055
   name: The maze
   description: "You are in a maze of small damp tunnels.  The only exit is west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -4497,7 +4497,7 @@ rooms:
   name: The light cave
   description: "You are in a light cave, a large fire in front of you lights the room.\n\rThe
     cave continues to the north and south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -4517,7 +4517,7 @@ rooms:
 - vnum: 4057
   name: The maze
   description: "You are in a maze of small damp tunnels.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -4537,7 +4537,7 @@ rooms:
 - vnum: 4058
   name: The maze
   description: "You are in a maze of small damp tunnels.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -4558,7 +4558,7 @@ rooms:
   name: The tunnel
   description: "You are in a tunnel, only exit is to the east. You sense that the\n\rtunnel
     leads slightly down.\n\r"
-  room_flags: 13
+  room_flags: ACD
   sector: 3
   owner:
   exits:
@@ -4579,7 +4579,7 @@ rooms:
   name: The tunnel
   description: "You are in a small tunnel, to the west the tunnel continues and \n\rto
     the east you see some light.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -4599,7 +4599,7 @@ rooms:
 - vnum: 4061
   name: The light cave
   description: "You are in the south end of a light cave.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -4619,7 +4619,7 @@ rooms:
 - vnum: 4062
   name: The maze
   description: "You are in a maze of small damp tunnels.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -4639,7 +4639,7 @@ rooms:
 - vnum: 4063
   name: The maze
   description: "You are in a maze of small damp tunnels.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -4659,7 +4659,7 @@ rooms:
 - vnum: 4064
   name: The tunnel
   description: "You are at the eastern end of a tunnel.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -4679,7 +4679,7 @@ rooms:
 - vnum: 4065
   name: The maze
   description: "You are in a maze of small damp tunnels.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -4699,7 +4699,7 @@ rooms:
 - vnum: 4066
   name: The maze
   description: "You are in a maze of small damp tunnels.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -4725,7 +4725,7 @@ rooms:
 - vnum: 4067
   name: The maze
   description: "You are in a maze of small damp tunnels.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -4739,7 +4739,7 @@ rooms:
 - vnum: 4068
   name: The large cave
   description: "You are in the northwest end of a large cave.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -4760,7 +4760,7 @@ rooms:
   name: The large cave
   description: "You are in the northeast end of a large cave. To the north the\n\ris
     a small damp tunnel.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -4786,7 +4786,7 @@ rooms:
 - vnum: 4070
   name: The large cave
   description: "You are in the southwest end of a large cave.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -4807,7 +4807,7 @@ rooms:
   name: The large cave
   description: "You are in the southeast end of a large cave. To the east you\n\rnotice
     a small tunnel.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -4834,7 +4834,7 @@ rooms:
   name: The tunnel
   description: "You are in a narrow tunnel, which leads both to the east and the\n\rsouth.
     There is also an exit towards the west, where you see a large\n\rcave.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -4860,7 +4860,7 @@ rooms:
 - vnum: 4073
   name: End of tunnel
   description: "The tunnel stops here.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
@@ -4875,7 +4875,7 @@ rooms:
   name: The hole
   description: "You are at a small hole in the floor, you can either leave north\n\ror
     try your luck and leave down into the unknown!\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:

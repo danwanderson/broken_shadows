@@ -13,7 +13,7 @@ mobiles:
   long_desc: "The shopkeeper is here trying to sell you something.\n\r"
   description:
   race: Dwarf
-  act: 2621442
+  act: BTV
   affected_by: 0
   affected2_by: 0
   alignment: 400
@@ -38,7 +38,7 @@ mobiles:
     bash: -12
     slash: -12
     exotic: -1
-  off_flags: 1184
+  off_flags: FHK
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -58,7 +58,7 @@ mobiles:
   description: "YOu see before an old armorer who looks like he has been making and\n\rselling
     armor for many decades.  \n\r"
   race: Dwarf
-  act: 2621442
+  act: BTV
   affected_by: 0
   affected2_by: 0
   alignment: 400
@@ -83,7 +83,7 @@ mobiles:
     bash: -12
     slash: -12
     exotic: -1
-  off_flags: 1184
+  off_flags: FHK
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -105,7 +105,7 @@ mobiles:
     \ He\n\rtemporariy stops mashing up some mushrooms and looks up at you.  He says,\n\r\"Can
     I help you with something?\"  \n\r"
   race: Dwarf
-  act: 2621442
+  act: BTV
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -130,7 +130,7 @@ mobiles:
     bash: -12
     slash: -12
     exotic: -1
-  off_flags: 160
+  off_flags: FH
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -151,8 +151,8 @@ mobiles:
     of the\n\rliving by the invisible bonds of untimely death.  It is not happy about\n\rbeing
     forced to live between the worlds forever.  \n\r"
   race: unique
-  act: 540706
-  affected_by: 514
+  act: BFOT
+  affected_by: BJ
   affected2_by: 0
   alignment: -400
   clan: 0
@@ -178,13 +178,13 @@ mobiles:
     exotic: 4
   off_flags: 0
   imm_flags: 0
-  res_flags: 67972
-  vuln_flags: 131072
+  res_flags: CHILQ
+  vuln_flags: R
   start_pos: 8
   default_pos: 8
   sex: 0
   gold: 0
-  form: 2101377
+  form: AHMV
   parts: 0
   size: M
   material: none
@@ -198,7 +198,7 @@ mobiles:
     usally politely ask them to leave and if that doesn't work they splatter\n\rtheir
     brians across the floor.  \n\r"
   race: Dwarf
-  act: 589826
+  act: BQT
   affected_by: 0
   affected2_by: 0
   alignment: 700
@@ -223,7 +223,7 @@ mobiles:
     bash: -4
     slash: -4
     exotic: 2
-  off_flags: 1049736
+  off_flags: DHKU
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -243,7 +243,7 @@ mobiles:
   description: "The bartender is an old dwarf who used to be a great warrior.  Now
     he\n\rjust likes to sell alcoholic beverages to unsuspecting humans.  \n\r"
   race: Dwarf
-  act: 2621442
+  act: BTV
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -268,7 +268,7 @@ mobiles:
     bash: 0
     slash: 0
     exotic: 0
-  off_flags: 1156
+  off_flags: CHK
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -287,7 +287,7 @@ mobiles:
   long_desc: "A waitress is here waiting to take your order.\n\r"
   description:
   race: Dwarf
-  act: 2
+  act: B
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -335,7 +335,7 @@ mobiles:
     are\n\rhis long lost brother, and he is also trying to get you to go off to battle\n\renemies
     long since vanquished.  \n\r"
   race: Dwarf
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -360,7 +360,7 @@ mobiles:
     bash: 0
     slash: 0
     exotic: 0
-  off_flags: 131208
+  off_flags: DHR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -382,7 +382,7 @@ mobiles:
     their job to protect their anscestors from any attack that may come\n\rfrom within
     the Caves.  \n\r"
   race: Dwarf
-  act: 589824
+  act: QT
   affected_by: 0
   affected2_by: 0
   alignment: 700
@@ -407,7 +407,7 @@ mobiles:
     bash: -4
     slash: -4
     exotic: 2
-  off_flags: 1049736
+  off_flags: DHKU
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -430,7 +430,7 @@ mobiles:
     \ Katra dwarves generally hold all living beings in very low\n\rregard, and often
     try to make other people dead, because they think it's\n\rbetter that way.  \n\r"
   race: Dwarf
-  act: 524288
+  act: T
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -455,7 +455,7 @@ mobiles:
     bash: -9
     slash: -9
     exotic: 0
-  off_flags: 1049752
+  off_flags: DEHKU
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -475,7 +475,7 @@ mobiles:
   description: "The Knifemaster whips around some razor sharp knives in a threatening\n\rdisplay.
     \ \n\r"
   race: Dwarf
-  act: 524322
+  act: BFT
   affected_by: 0
   affected2_by: 0
   alignment: -330
@@ -500,7 +500,7 @@ mobiles:
     bash: -12
     slash: -12
     exotic: -1
-  off_flags: 131258
+  off_flags: BDEFHR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -522,7 +522,7 @@ mobiles:
     of\n\rthe dead, they practice for many hours learn easy and fast ways to \"correct\"\n\rthe
     living.  Understandibly, they are quite good at that.  \n\r"
   race: Dwarf
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -547,7 +547,7 @@ mobiles:
     bash: -9
     slash: -9
     exotic: 0
-  off_flags: 132280
+  off_flags: DEFHKR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -569,7 +569,7 @@ mobiles:
     comes through the entrance, regardless of of whether\n\rthe are likely to kill
     it or not.  These katra throw their lives into every\n\rfight.  \n\r"
   race: Dwarf
-  act: 524322
+  act: BFT
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -594,7 +594,7 @@ mobiles:
     bash: -9
     slash: -9
     exotic: 0
-  off_flags: 1049784
+  off_flags: DEFHKU
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -616,7 +616,7 @@ mobiles:
     their job to protect their anscestors from any attack that may come\n\rfrom within
     the Caves.  \n\r"
   race: Dwarf
-  act: 589826
+  act: BQT
   affected_by: 0
   affected2_by: 0
   alignment: 700
@@ -641,7 +641,7 @@ mobiles:
     bash: -4
     slash: -4
     exotic: 2
-  off_flags: 1049736
+  off_flags: DHKU
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -663,8 +663,8 @@ mobiles:
     torn\n\rbetween the world of the living and that of the dead.  This instability\n\rcauses
     him to lash out at almost everything.  \n\r"
   race: Dwarf
-  act: 524322
-  affected_by: 2097152
+  act: BFT
+  affected_by: V
   affected2_by: 0
   alignment: -700
   clan: 0
@@ -688,7 +688,7 @@ mobiles:
     bash: -15
     slash: -15
     exotic: -3
-  off_flags: 131258
+  off_flags: BDEFHR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -707,7 +707,7 @@ mobiles:
   long_desc: "A burly dwarven city guard is here on the watch.\n\r"
   description: "This tough-looking dwarf looks ready for any attack.\n\r"
   race: Dwarf
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -732,7 +732,7 @@ mobiles:
     bash: -9
     slash: -9
     exotic: 0
-  off_flags: 132248
+  off_flags: DEHKR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -777,7 +777,7 @@ mobiles:
     bash: -3
     slash: -3
     exotic: 3
-  off_flags: 131208
+  off_flags: DHR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -798,7 +798,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 18
   weight: 10
   cost: 10000
@@ -821,7 +821,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 20
   weight: 9
   cost: 20000
@@ -833,11 +833,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
+    location: 19
     modifier: 2
     bitvector: 0
   - where: O
-    location: 19
+    location: 18
     modifier: 2
     bitvector: 0
   extra_descs: []
@@ -848,7 +848,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 20
   weight: 15
   cost: 19000
@@ -866,8 +866,8 @@ objects:
   description: The sword of divine fire is here waiting to be commanded.
   material: none
   item_type: 5
-  extra_flags: 65
-  wear_flags: 8193
+  extra_flags: AG
+  wear_flags: AN
   level: 30
   weight: 6
   cost: 2500
@@ -879,12 +879,12 @@ objects:
   - 1
   affects:
   - where: O
-    location: 18
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 3
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 1
     bitvector: 0
   extra_descs:
   - keywords: sword
@@ -897,7 +897,7 @@ objects:
   material: none
   item_type: 26
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 17
   weight: 1
   cost: 200
@@ -916,7 +916,7 @@ objects:
   material: none
   item_type: 10
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 20
   weight: 2
   cost: 300
@@ -935,7 +935,7 @@ objects:
   material: none
   item_type: 26
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 19
   weight: 1
   cost: 400
@@ -954,7 +954,7 @@ objects:
   material: none
   item_type: 26
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 20
   weight: 1
   cost: 700
@@ -972,8 +972,8 @@ objects:
   description: A holy dwarven hammer is here.
   material: none
   item_type: 5
-  extra_flags: 1088
-  wear_flags: 8193
+  extra_flags: GK
+  wear_flags: AN
   level: 25
   weight: 10
   cost: 400
@@ -985,12 +985,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: 2
-    bitvector: 0
-  - where: O
     location: 18
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 2
     bitvector: 0
   extra_descs: []
 - vnum: 14409
@@ -1000,7 +1000,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 2
   cost: 0
@@ -1018,8 +1018,8 @@ objects:
   description: The Shroud of Light is floating here.
   material: none
   item_type: 9
-  extra_flags: 65
-  wear_flags: 9
+  extra_flags: AG
+  wear_flags: AD
   level: 93
   weight: 0
   cost: 300000
@@ -1031,16 +1031,16 @@ objects:
   - 0
   affects:
   - where: O
-    location: 1
-    modifier: 5
+    location: 14
+    modifier: 200
     bitvector: 0
   - where: O
     location: 3
     modifier: 5
     bitvector: 0
   - where: O
-    location: 14
-    modifier: 200
+    location: 1
+    modifier: 5
     bitvector: 0
   extra_descs: []
 - vnum: 14411
@@ -1050,7 +1050,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 5
   weight: 1
   cost: 15
@@ -1069,7 +1069,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 5
   weight: 2
   cost: 13
@@ -1088,7 +1088,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 9
   weight: 2
   cost: 20
@@ -1107,7 +1107,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 9
   weight: 2
   cost: 20
@@ -1126,7 +1126,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 12
   weight: 3
   cost: 30
@@ -1145,7 +1145,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 70
@@ -1164,7 +1164,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 3
   cost: 120
@@ -1183,7 +1183,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 30
   weight: 3
   cost: 0
@@ -1195,12 +1195,12 @@ objects:
   - 8
   affects:
   - where: O
-    location: 18
-    modifier: 2
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 3
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 2
     bitvector: 0
   extra_descs: []
 - vnum: 14419
@@ -1210,7 +1210,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 35
   weight: 2
   cost: 200
@@ -1222,12 +1222,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 4
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 14420
@@ -1237,7 +1237,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 30
   weight: 5
   cost: 300
@@ -1256,7 +1256,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 30
   weight: 10
   cost: 300
@@ -1268,11 +1268,11 @@ objects:
   - 8
   affects:
   - where: O
-    location: 19
+    location: 18
     modifier: 2
     bitvector: 0
   - where: O
-    location: 18
+    location: 19
     modifier: 2
     bitvector: 0
   extra_descs: []
@@ -1305,8 +1305,8 @@ objects:
   description: The corpse of a dead dwarf is here.
   material: none
   item_type: 23
-  extra_flags: 128
-  wear_flags: 1
+  extra_flags: H
+  wear_flags: A
   level: 25
   weight: 100
   cost: 0
@@ -1324,8 +1324,8 @@ objects:
   description: An old, dusty ring is here.
   material: none
   item_type: 1
-  extra_flags: 66625
-  wear_flags: 3
+  extra_flags: AGKQ
+  wear_flags: AB
   level: 30
   weight: 1
   cost: 250
@@ -1337,16 +1337,16 @@ objects:
   - 0
   affects:
   - where: O
-    location: 12
-    modifier: 30
+    location: 25
+    modifier: 1000
     bitvector: 0
   - where: O
     location: 4
     modifier: 2
     bitvector: 0
   - where: O
-    location: 25
-    modifier: 1000
+    location: 12
+    modifier: 30
     bitvector: 0
   extra_descs: []
 - vnum: 14425
@@ -1355,8 +1355,8 @@ objects:
   description: A shiny ring is here.
   material: none
   item_type: 9
-  extra_flags: 4612
-  wear_flags: 3
+  extra_flags: CJM
+  wear_flags: AB
   level: 30
   weight: 1
   cost: 300
@@ -1368,20 +1368,20 @@ objects:
   - 0
   affects:
   - where: O
-    location: 4
-    modifier: -2
-    bitvector: 0
-  - where: O
-    location: 19
-    modifier: 6
+    location: 25
+    modifier: -1000
     bitvector: 0
   - where: O
     location: 1
     modifier: 1
     bitvector: 0
   - where: O
-    location: 25
-    modifier: -1000
+    location: 19
+    modifier: 6
+    bitvector: 0
+  - where: O
+    location: 4
+    modifier: -2
     bitvector: 0
   extra_descs: []
 - vnum: 14426
@@ -1391,7 +1391,7 @@ objects:
   material: none
   item_type: 26
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 22
   weight: 1
   cost: 0
@@ -1409,8 +1409,8 @@ objects:
   description: A deep red cloak is here.
   material: none
   item_type: 9
-  extra_flags: 4612
-  wear_flags: 1025
+  extra_flags: CJM
+  wear_flags: AK
   level: 38
   weight: 7
   cost: 380
@@ -1432,8 +1432,8 @@ objects:
   description: A dark sword is here.
   material: none
   item_type: 5
-  extra_flags: 516
-  wear_flags: 8193
+  extra_flags: CJ
+  wear_flags: AN
   level: 40
   weight: 11
   cost: 400
@@ -1445,12 +1445,12 @@ objects:
   - 8
   affects:
   - where: O
-    location: 18
-    modifier: 2
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 3
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 2
     bitvector: 0
   extra_descs: []
 - vnum: 14429
@@ -1460,7 +1460,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 28
   weight: 40
   cost: 280
@@ -1483,7 +1483,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: -24575
+  wear_flags: ANPQRSTUVWXYZabcdef
   level: 30
   weight: 20
   cost: 300
@@ -1495,12 +1495,12 @@ objects:
   - 32
   affects:
   - where: O
-    location: 19
-    modifier: 4
-    bitvector: 0
-  - where: O
     location: 18
     modifier: -2
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 4
     bitvector: 0
   extra_descs: []
 - vnum: 14431
@@ -1510,7 +1510,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 33
+  wear_flags: AF
   level: 28
   weight: 7
   cost: 200
@@ -1529,7 +1529,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 17
+  wear_flags: AE
   level: 28
   weight: 11
   cost: 200
@@ -1554,7 +1554,7 @@ rooms:
   - dir: 0
     desc:
     keywords: gate
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 14401
   - dir: 2
@@ -1571,7 +1571,7 @@ rooms:
   description: "You on a small stone road just inside the main entrence to the Dwarven\n\rKingdom.
     \ To the west lies a the path that leads down to the mines of Ersin.\n\rAlong
     this road to the north lies the Dwarven city of Koln.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1584,7 +1584,7 @@ rooms:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 14400
   - dir: 3
@@ -1598,7 +1598,7 @@ rooms:
   name: A road
   description: "You are on a small road that leads in to the mines of Ersin.  To the
     east\n\rlies the way to the dwarven city of Koln.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1620,7 +1620,7 @@ rooms:
   description: "You are on a small road near the entrence to the mines of Ersin.  You
     see\n\rgrubby dwarves going to and fro with candles attatched to their hats,\n\rholding
     pick axes, muttering to each other about the minerals they've dug\n\rup.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1642,7 +1642,7 @@ rooms:
   description: "You are on the road that leads from the city of Koln to the Mines
     of\n\rErsin.  Some grubby dwarves walk by with candles burning on their hats.
     \ \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1665,7 +1665,7 @@ rooms:
     pully contraption here that allows the miners to go straight up and down\n\rwith
     using a latter.  Down will take to the floor of the mine, while south\n\rwill
     lead you back to the dwarven city of Koln.  \n\rThere is a sign here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1683,7 +1683,7 @@ rooms:
   description: "You are on the road that leads to the Dwarven city of Koln.  You can
     here\n\rthe sounds of drunken dwarves from here.  To the east lies another road.
     \ \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1705,7 +1705,7 @@ rooms:
   description: "You are on a road near the Dwarven city of Koln.  To the north lies
     the\n\rcity and to the east lies a small road which doesnt seem to lead anywhere.
     \ \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1732,14 +1732,14 @@ rooms:
   name: End of the road
   description: "You are at the end of the road.  It seems to run straight into a stone\n\rwall.
     \ There are some scratches on a stone in the corner of the wall. \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: stone
-    exit_flags: 35
+    exit_flags: ABF
     key: 0
     to_vnum: 14409
   - dir: 3
@@ -1749,18 +1749,18 @@ rooms:
     key: 0
     to_vnum: 14407
   extra_descs:
-  - keywords: east
-    description: "You see a loose stone that might be easily moved.\n\r"
+  - keywords: stone
+    description: "You probably could move the stone.\n\r"
   - keywords: scratches
     description: "You see some scratches around a large stone in the corner of the
       wall. \n\rThe stone probably be moved if you needed to.  \n\r"
-  - keywords: stone
-    description: "You probably could move the stone.\n\r"
+  - keywords: east
+    description: "You see a loose stone that might be easily moved.\n\r"
 - vnum: 14409
   name: The caves
   description: "You are a dead end in the caves.  To the east lies the way you came.
     \ On\n\rpart of the cave wall to the west you see some scratches.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1773,7 +1773,7 @@ rooms:
   - dir: 3
     desc:
     keywords: stone
-    exit_flags: 35
+    exit_flags: ABF
     key: 0
     to_vnum: 14408
   extra_descs:
@@ -1786,7 +1786,7 @@ rooms:
     see\n\rwhite cave crickets with extremely long antenea and legs walking from rock\n\rto
     rock.  To the east and west lie passageways.  To the north lies more of\n\rthe
     caves.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1813,7 +1813,7 @@ rooms:
   name: The caves
   description: "The passage way gets too small for you to fit through.  Water drips
     on\n\ryou as cave crickets walk by you.  To the west lies the way you came.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1828,7 +1828,7 @@ rooms:
   name: The caves
   description: "You are in the caves.  It is dark and wet, and spooky looking cave\n\rcrickets
     are walking around.  To the north and south lie more of the caves. \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1850,7 +1850,7 @@ rooms:
   description: "You are in the caves.  It is wet and dark.  Pale white cave crickets
     with\n\rextremely long antenea and legs calmly walk by you.  To the north you
     think\n\rit seems lighter.  To the south and west lie more of the caves.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1902,7 +1902,7 @@ rooms:
     as\n\rpale white cave crickets with extremely long antenae walk past you.  To
     the\n\rwest lies more of the caves.  To the east lies the exit to the hunting\n\rplains.
     \ \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1926,7 +1926,7 @@ rooms:
   name: The caves
   description: "You are at a dead end in the caves.  It is dark and wet and cave crickets\n\rwalk
     calmly walk past you.  The only exit is the way you came.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1942,7 +1942,7 @@ rooms:
   description: "You are in the Great Hall of Dwarves in the Castle Lotharang.  It
     is an\n\remense passageway carved out of the mountain and slopes slightly down
     to the\n\rnorth.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1964,7 +1964,7 @@ rooms:
   description: "You are on Main street in the dwarven city of Koln.  To the north
     lies\n\rsome shops and to the south lies the way to the main entrence to the\n\rkingdom.
     \ \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1987,7 +1987,7 @@ rooms:
     cases of all sorts of weapons from hammers and axes to some really\n\rweird bladed
     weapons.  You may look but if you want to try something out\n\rplease ask for
     assistance.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2004,7 +2004,7 @@ rooms:
     dwarf\n\rpromoting the benefits of good dwarven armor.  To the west you see a
     dwarf\n\rpromoting the benefits of good dwarven weapons.  To the south lies more
     of\n\rMain Street and to the north lie more shops and houses.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2038,7 +2038,7 @@ rooms:
   description: "You are in the Armor shop in the city of Koln.  There are very fine\n\rpeices
     of armor on the walls and on manekins.  You may look at the armor buy\n\rif you
     wish to try something one please ask for assistance.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2057,7 +2057,7 @@ rooms:
     north lies the bar and many a drunken dwarf.  To the east lies the\n\rfresh air
     of the city.  Upstairs is a common sleeping room for people\n\rrecovering from
     the effects that the bar bestows upon the unsuspecting\n\rout-of-towners.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2085,7 +2085,7 @@ rooms:
   description: "You are on a section of Main Street in the city of Koln.  To the west
     you\n\rcan see drunken dwarves having a grand old time in a tavern.  To the east
     is\n\ran unassuming house.  To the north and south lie more of Main Street.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2098,7 +2098,7 @@ rooms:
   - dir: 1
     desc:
     keywords: door
-    exit_flags: 7
+    exit_flags: ABC
     key: 0
     to_vnum: 14424
   - dir: 2
@@ -2121,14 +2121,14 @@ rooms:
   name: A house
   description: "You are in one of the houses in the dwarven city of Koln.  It is a\n\rsmallish,
     squattish house that is all together uninteresting.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 3
     desc:
     keywords: none
-    exit_flags: 7
+    exit_flags: ABC
     key: 0
     to_vnum: 14423
   extra_descs: []
@@ -2137,7 +2137,7 @@ rooms:
   description: "You are on the second floor of the Good Grub Tavern in the city of
     Koln. \n\rIn this room there are about twenty soft beds in the common slepping
     room. \n\rOff to the sides are private rooms.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2154,7 +2154,7 @@ rooms:
     the\n\rshop you are almost overwhellemed by the pleasent smell of herbs and spices.\n\rOn
     the walls is a spectrum of dried mushrooms, plants, and some stuff you\n\raren't
     sure what it is.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2170,7 +2170,7 @@ rooms:
   description: "YOu are on Main Street in the dwarven city of Koln.  To the north
     you can\n\rsee the entrence to the Castle Lotharang.  To the south you can see
     more of\n\rMain Street.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2191,7 +2191,7 @@ rooms:
   name: Side Street
   description: "You are on the Side Street in the dwarven city of Koln.  The street\n\rcontinues
     to the east and west.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2213,7 +2213,7 @@ rooms:
   description: "You are on the Side Street in the dwarven city of Koln.  From the
     south\n\rfloat strange smells of spices and herbs and maybe something rotten.
     \ To the\n\reast lies the intersection of Main and Side.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2240,7 +2240,7 @@ rooms:
   name: Intersection of Main and Side
   description: "You are at the intersection of Main Street and Side Street.  To the
     north\n\ryou can see the Castle Lotharang.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2273,7 +2273,7 @@ rooms:
   name: Side Street
   description: "You are on the Side Street in the dwarven city of Koln.  The intersection\n\rof
     Main and Side is to the west.  The road continues to the east.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2295,14 +2295,14 @@ rooms:
   description: "You are at the end of the Side Street in the dwarven city of Koln.
     \ To\n\rthe west lies the Side Street.  To the north you see an old, dilapidated\n\rdwarven
     house.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: 0
     to_vnum: 14433
   - dir: 3
@@ -2317,14 +2317,14 @@ rooms:
   description: "You are in an old, run-down dwarven house in the dwarven city of Koln.
     \n\rThe walls and ceiling are crumbling.  There is no furniture of anything\n\rhere.
     \ There are some stairs leading up to what's left of the second floor. \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: 0
     to_vnum: 14432
   - dir: 4
@@ -2340,7 +2340,7 @@ rooms:
     have fallen down to the first floor so watch your step.  The old,\n\rsomewhat
     rotten floor creaks and groans as you walk on it.  It might be a\n\rgood idea
     to leave before you cause the entire house to collapse.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2356,14 +2356,14 @@ rooms:
   description: "You are at the gates to the Castle Lotharang, named after the family
     that\n\rcurrently holds the office of king of the dwarves.  On the ornately carved\n\riron
     gates are the crests of Lotharang, Durin, and Koss.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: gate
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 14436
   - dir: 2
@@ -2381,7 +2381,7 @@ rooms:
   description: "You are inside the entrance to the Castle Lotharang.  The room you
     are in\n\rnow is massive.  Far off to the north lies the Thrown Room.  To the
     south\n\rlies the main gate.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2394,14 +2394,14 @@ rooms:
   - dir: 2
     desc: "You see the gates of the castle.\n\r"
     keywords: gate
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 14435
   extra_descs: []
 - vnum: 14437
   name: The Castle Lotharang
   description: "You are in another part of the castle Lotharang.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2415,7 +2415,7 @@ rooms:
 - vnum: 14438
   name: The Castle Lotharang
   description: "You are in another part of the Castle Lotharang.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2429,7 +2429,7 @@ rooms:
 - vnum: 14439
   name: Tha Castle Lotharang
   description: "You are in another part of the Castle Lotharang.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2446,7 +2446,7 @@ rooms:
     by it's\n\rmassivness.  In the center you see the mighty Throne of the Dwarven
     Kings,\n\rwhich has been sat upon by the great kings of the past for thousands
     of\n\ryears.  To the north you see the Great Hall of the Dwarves.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2472,7 +2472,7 @@ rooms:
 - vnum: 14441
   name: The Castle Lotharang
   description: "You are in another part of the Castle Lotharang.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2488,7 +2488,7 @@ rooms:
   description: "You are on the Side Street in the dwarven city of Koln.  The road
     turns\n\rto the south here and leads into a residential part of the city.  The
     Side\n\rStreet contiunes to the east.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2509,7 +2509,7 @@ rooms:
   name: Side Street
   description: "You are on the Side Street in the dwarven city of Koln.  To the west
     lies\n\ra dwarven house.  The road continues north and south.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2537,7 +2537,7 @@ rooms:
   description: "You are in one of the residential portions of the dwarven city of
     Koln. \n\rThe road continues and there is a house to the east and one to the west.
     \ \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2564,7 +2564,7 @@ rooms:
   name: A dwarven house
   description: "You are in a smallish, squatish dwarven house.  It has low ceilings
     and\n\rshort furniture.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2578,7 +2578,7 @@ rooms:
 - vnum: 14446
   name: A dwarven house
   description: "You are in a small dwarven house in the city of Koln.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2594,7 +2594,7 @@ rooms:
   description: "You are in a rather cosy, small dwarven house.  A small fires burns
     in\n\rthe fireplace in on of the walls.  The furniture is strong, plain, and\n\rfunctional.
     \ \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2611,7 +2611,7 @@ rooms:
     very\n\rquiet here.  The dead rest well.  There are parts of the cave walls that\n\rlook
     like they have been cut out and then bricked up.  To the south lies the\n\rGreat
     Iron Door of the Dead.  The caves extend to the east.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2624,7 +2624,7 @@ rooms:
   - dir: 2
     desc:
     keywords: gate
-    exit_flags: 15
+    exit_flags: ABCD
     key: 0
     to_vnum: 14471
   extra_descs: []
@@ -2632,7 +2632,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2659,7 +2659,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2686,7 +2686,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2713,7 +2713,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2740,7 +2740,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2767,7 +2767,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2794,7 +2794,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2815,7 +2815,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2848,7 +2848,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2875,7 +2875,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2896,7 +2896,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2917,7 +2917,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2938,7 +2938,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2965,7 +2965,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2992,7 +2992,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3012,7 +3012,7 @@ rooms:
 - vnum: 14464
   name: The Burial Caves
   description:
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3027,7 +3027,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3054,7 +3054,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3075,7 +3075,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3102,7 +3102,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3123,7 +3123,7 @@ rooms:
   name: The Burial Caves
   description: "You are in th Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  To the north you see some light.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3151,7 +3151,7 @@ rooms:
   description: "You are in the Altar room for the Goddess Oya.  The room is lit by
     the\n\rholy candles that light the way for the dead souls to reach the other side.
     \n\rTo the south lies the burial caves.  \n\r"
-  room_flags: 1032
+  room_flags: DK
   sector: 0
   owner:
   exits:
@@ -3169,14 +3169,14 @@ rooms:
     \ The giant doors are always locked except when a dead dwarf is going\n\rto be
     placed in the caves.  The keys to the gate are carrired by the dwarven\n\rpriests-warriors
     who guard the gates and watch over the dead.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc: "You see the Great Iron Gates of Death.\n\r"
     keywords: gate
-    exit_flags: 15
+    exit_flags: ABCD
     key: 14409
     to_vnum: 14448
   - dir: 2
@@ -3197,7 +3197,7 @@ rooms:
     of\n\ralcoholic beverages from grog to ale, and even the infamous Blackend Voodoo\n\rBeer!
     \ (Truely a drinking experience!)  To the south lies the way back to\n\rthe food
     serving section of the Good Grub tavern.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3212,7 +3212,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves of the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3239,7 +3239,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3266,7 +3266,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3293,7 +3293,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  There is something odd about the stone wall to the east.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3306,7 +3306,7 @@ rooms:
   - dir: 1
     desc:
     keywords: wall
-    exit_flags: 35
+    exit_flags: ABF
     key: 0
     to_vnum: 14477
   extra_descs:
@@ -3320,7 +3320,7 @@ rooms:
     \ On the walls are hung ancient, faded tapestries depicting\n\rvarious scenes
     from dwarven history.  There are passageways cut in the stone\n\rwalls to the
     north and east.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3339,7 +3339,7 @@ rooms:
   - dir: 3
     desc:
     keywords:
-    exit_flags: 35
+    exit_flags: ABF
     key: 0
     to_vnum: 14476
   extra_descs: []
@@ -3349,7 +3349,7 @@ rooms:
     old,\n\rdusty mattresses lying on the cold stone floor.  The smell of mushroom
     smoke\n\ris thick in the air.  To the west lies the entrance to the hideout and
     to\n\rthe north you see the weapons room.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3371,7 +3371,7 @@ rooms:
   description: "You are in the weapons room in the Katra hideout.  There are many
     strange\n\rand wicked looking weapons hanging from the walls and lying about on
     the\n\rfloor.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3394,7 +3394,7 @@ rooms:
     is\n\ra beam of light streaming out of a door.  To the north lies the Katra\n\rpractice
     room and to the west is the weapons room.  There is sign on the\n\rsouth wall.
     \ \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3407,7 +3407,7 @@ rooms:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 14481
   - dir: 3
@@ -3424,14 +3424,14 @@ rooms:
   description: "You are in the Deathmaster's room.  There are many old blood stains
     on\n\rthe walls and floors.  There is very little of intrest here.  It seems the\n\rDeathmaster
     lives humbly.  The only exit is north.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 14480
   extra_descs: []
@@ -3442,7 +3442,7 @@ rooms:
     \n\rIn his room there are many unusual and vicious looking weapons hanging on\n\rthe
     dark stone walls that the Katra make for themselves.  A halway leads to\n\rthe
     meditaion room to the west and another hall leads to the south.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3466,7 +3466,7 @@ rooms:
     here in the burial caves.  There air here is thick with musty smelling\n\rsmoke
     eminating from bowls that rest on the floor.  There are exits to the\n\reast and
     west.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3489,7 +3489,7 @@ rooms:
     hang on the otherwise bare stone walls.  The air is thick with\n\rthe smell of
     mushroom smoke.  To the east lies the Katra meditation room and\n\rto the south
     lies another part of the hideout.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3512,7 +3512,7 @@ rooms:
     of\n\rancient dwarven death tapestries hanging from the otherwise bare stone\n\rwalls.
     \ There is the smells of mushroom smoke in the air.  To the north is\n\ranother
     part of the hideout and to the south is the entrance.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3533,7 +3533,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3560,7 +3560,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves of the dwarven kingdom.  It is very peacful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3581,7 +3581,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3602,7 +3602,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here, \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3623,7 +3623,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3644,7 +3644,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3665,7 +3665,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3692,7 +3692,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3713,7 +3713,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3740,7 +3740,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3761,7 +3761,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here, \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3788,7 +3788,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here, \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3815,7 +3815,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3836,7 +3836,7 @@ rooms:
   name: The Burial Caves
   description: "You are in the Burial Caves in the dwarven kingdom.  It is very peaceful\n\rand
     quiet here.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:

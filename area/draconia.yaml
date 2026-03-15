@@ -15,8 +15,8 @@ mobiles:
     is only a\n\rfew feet long, its sharp teeth make you think twice about petting
     it.\n\r"
   race: Human
-  act: 524354
-  affected_by: 524288
+  act: BGT
+  affected_by: T
   affected2_by: 0
   alignment: -900
   clan: 0
@@ -61,8 +61,8 @@ mobiles:
     \ He \n\rhas black scales and a seven foot wingspan.  He scowls at you and hefts
     his \n\rspear as you enter the room.\n\r"
   race: Human
-  act: 524326
-  affected_by: 8
+  act: BCFT
+  affected_by: D
   affected2_by: 0
   alignment: -900
   clan: 0
@@ -105,8 +105,8 @@ mobiles:
   long_desc: "The lord of this crypt is here.\n\r"
   description: "He doesn't look happy to see you.\n\r"
   race: Human
-  act: 524326
-  affected_by: 524288
+  act: BCFT
+  affected_by: T
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -151,8 +151,8 @@ mobiles:
     \ You are\n\rsurprised at the fact that he is human, and realize that he must
     be very\n\rpowerful to have been accepted by the creatures which live here.\n\r"
   race: Human
-  act: 524290
-  affected_by: 138
+  act: BT
+  affected_by: BDH
   affected2_by: 0
   alignment: -900
   clan: 0
@@ -196,8 +196,8 @@ mobiles:
   description: "A Draconian stands here, dressed in simple robes.  Around his neck
     you \n\rnotice a golden medallion in the shape of a five headed dragon.  \n\r"
   race: Human
-  act: 524326
-  affected_by: 136
+  act: BCFT
+  affected_by: DH
   affected2_by: 0
   alignment: -900
   clan: 0
@@ -242,8 +242,8 @@ mobiles:
     as \n\rthough he could crush your head with a single blow.  Yet you sense that
     he \n\ris controlled by a greater power. \n\r"
   race: Human
-  act: 524294
-  affected_by: 136
+  act: BCT
+  affected_by: DH
   affected2_by: 0
   alignment: -900
   clan: 0
@@ -288,7 +288,7 @@ mobiles:
     at \n\rall.  You find yourself strangely repulsed as she draws a knife and \n\rprepares
     to defend herself. \n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: -500
@@ -333,8 +333,8 @@ mobiles:
   description: "This creature has devoted its life to defending the king.  Your intrusion
     has\n\rnot pleased it.\n\r"
   race: Human
-  act: 524322
-  affected_by: 44
+  act: BFT
+  affected_by: CDF
   affected2_by: 0
   alignment: -800
   clan: 0
@@ -378,8 +378,8 @@ mobiles:
   description: "You see before you the master of this Tower, Tiamat.  She frowns at
     you as she\n\rprepares to make you pay for your insolence ... with your lives!\n\r"
   race: Human
-  act: 524326
-  affected_by: 40
+  act: BCFT
+  affected_by: DF
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -423,8 +423,8 @@ mobiles:
   description: "This huge red dragon dominates the chamber.  As you turn to flee,
     he grins at\n\ryou and invites you to stay ... forever! \n\r"
   race: Human
-  act: 524326
-  affected_by: 40
+  act: BCFT
+  affected_by: DF
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -468,8 +468,8 @@ mobiles:
   description: "This huge black wyrm laughs at your puny weapons.  You realize that
     he is not\n\rgoing to roll over and die for you.\n\r"
   race: Human
-  act: 524326
-  affected_by: 40
+  act: BCFT
+  affected_by: DF
   affected2_by: 0
   alignment: -900
   clan: 0
@@ -514,8 +514,8 @@ mobiles:
     with white\n\rdragons, you are not afraid.  She smiles at you and says 'I think
     you will find\n\rme a greater challenge than my offspring.'\n\r"
   race: Human
-  act: 524326
-  affected_by: 40
+  act: BCFT
+  affected_by: DF
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -560,8 +560,8 @@ mobiles:
     \n\rShe looks at you with sorrow in her eyes and says 'You have slaughtered my
     \n\rchildren.  Prepare to die.'\n\r"
   race: Human
-  act: 524326
-  affected_by: 40
+  act: BCFT
+  affected_by: DF
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -605,8 +605,8 @@ mobiles:
   description: "A hydra is here, guarding the entrance to a sealed vault.  You have
     the feeling\n\rit isn't happy to see you.\n\r"
   race: Human
-  act: 524326
-  affected_by: 40
+  act: BCFT
+  affected_by: DF
   affected2_by: 0
   alignment: -800
   clan: 0
@@ -650,7 +650,7 @@ mobiles:
   description: "He looks like he's under a lot of stress.  He would probably like
     it if you\n\rleft him alone.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -695,8 +695,8 @@ mobiles:
   description: "This used to be one of the warriors of this tribe.  He was denied
     his final\n\rrest, however, and now guards this corridor tirelessly as a zombie.\n\r"
   race: Human
-  act: 524326
-  affected_by: 40
+  act: BCFT
+  affected_by: DF
   affected2_by: 0
   alignment: -400
   clan: 0
@@ -739,8 +739,8 @@ mobiles:
   long_desc: "A Phase Dragon is darting around the room.          \n\r"
   description: "This small dragon looks like he's up to no good. \n\r"
   race: Human
-  act: 524516
-  affected_by: 40
+  act: CFGHT
+  affected_by: DF
   affected2_by: 0
   alignment: -300
   clan: 0
@@ -784,7 +784,7 @@ mobiles:
   description: "This dragon man looks VERY foolish, dressed in a green and blue striped
     \n\rsuit.  As you enter the room, he points at you and laughs. \n\r"
   race: Human
-  act: 524480
+  act: GHT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -829,8 +829,8 @@ mobiles:
   description: "This draconian looks VERY busy as she orders her slaves around.  You
     think \n\rit might be a good idea to leave her alone. \n\r"
   race: Human
-  act: 524294
-  affected_by: 168
+  act: BCT
+  affected_by: DFH
   affected2_by: 0
   alignment: -600
   clan: 0
@@ -875,7 +875,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 14
   weight: 15
   cost: 140
@@ -894,7 +894,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 6
   weight: 10
   cost: 60
@@ -914,7 +914,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 27
   weight: 8
   cost: 270
@@ -926,12 +926,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: 2
-    bitvector: 0
-  - where: O
     location: 2
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 2
     bitvector: 0
   extra_descs: []
 - vnum: 2203
@@ -941,7 +941,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 4097
+  wear_flags: AM
   level: 19
   weight: 10
   cost: 190
@@ -960,7 +960,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 2049
+  wear_flags: AL
   level: 19
   weight: 25
   cost: 190
@@ -983,7 +983,7 @@ objects:
   material: none
   item_type: 15
   extra_flags: 0
-  wear_flags: 2049
+  wear_flags: AL
   level: 21
   weight: 25
   cost: 210
@@ -1005,8 +1005,8 @@ objects:
   description: A tarnished platinum bracelet has been dropped here.
   material: none
   item_type: 9
-  extra_flags: 1
-  wear_flags: 4097
+  extra_flags: A
+  wear_flags: AM
   level: 21
   weight: 5
   cost: 210
@@ -1024,8 +1024,8 @@ objects:
   description: A golden holy symbol is here.
   material: none
   item_type: 9
-  extra_flags: 1
-  wear_flags: 16389
+  extra_flags: A
+  wear_flags: ACO
   level: 21
   weight: 2
   cost: 210
@@ -1048,7 +1048,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 1025
+  wear_flags: AK
   level: 0
   weight: 3
   cost: 0
@@ -1071,7 +1071,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 26
   weight: 24
   cost: 260
@@ -1090,7 +1090,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 19
   weight: 18
   cost: 190
@@ -1109,7 +1109,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 3
+  wear_flags: AB
   level: 0
   weight: 6
   cost: 0
@@ -1121,11 +1121,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
+    location: 18
     modifier: 3
     bitvector: 0
   - where: O
-    location: 18
+    location: 19
     modifier: 3
     bitvector: 0
   extra_descs: []
@@ -1136,7 +1136,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 3
+  wear_flags: AB
   level: 0
   weight: 1
   cost: 0
@@ -1159,7 +1159,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 7
   weight: 1
   cost: 70
@@ -1178,7 +1178,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 26
   weight: 1
   cost: 260
@@ -1197,7 +1197,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 6
   weight: 1
   cost: 60
@@ -1216,7 +1216,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 19
   weight: 1
   cost: 190
@@ -1235,7 +1235,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 0
@@ -1254,7 +1254,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 6
   weight: 1
   cost: 60
@@ -1273,7 +1273,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 40
   weight: 1
   cost: 400
@@ -1292,7 +1292,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 513
+  wear_flags: AJ
   level: 26
   weight: 20
   cost: 260
@@ -1314,8 +1314,8 @@ objects:
   description: A golden wand has been dropped here.
   material: none
   item_type: 3
-  extra_flags: 1
-  wear_flags: 16385
+  extra_flags: A
+  wear_flags: AO
   level: 19
   weight: 5
   cost: 190
@@ -1333,8 +1333,8 @@ objects:
   description: A silver staff.
   material: none
   item_type: 4
-  extra_flags: 65
-  wear_flags: 16385
+  extra_flags: AG
+  wear_flags: AO
   level: 19
   weight: 5
   cost: 190
@@ -1352,8 +1352,8 @@ objects:
   description: A powerful oak staff has been left here.
   material: none
   item_type: 4
-  extra_flags: 65
-  wear_flags: 16385
+  extra_flags: AG
+  wear_flags: AO
   level: 45
   weight: 5
   cost: 450
@@ -1371,8 +1371,8 @@ objects:
   description: A set of scale mail has been abandoned here.
   material: none
   item_type: 9
-  extra_flags: 1
-  wear_flags: 9
+  extra_flags: A
+  wear_flags: AD
   level: 38
   weight: 20
   cost: 380
@@ -1390,8 +1390,8 @@ objects:
   description: You notice the faint outline of a staff.
   material: none
   item_type: 4
-  extra_flags: 513
-  wear_flags: 16385
+  extra_flags: AJ
+  wear_flags: AO
   level: 22
   weight: 25
   cost: 220
@@ -1410,7 +1410,7 @@ objects:
   material: none
   item_type: 10
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 22
   weight: 1
   cost: 220
@@ -1428,8 +1428,8 @@ objects:
   description: A magenta potion.
   material: none
   item_type: 10
-  extra_flags: 128
-  wear_flags: 1
+  extra_flags: H
+  wear_flags: A
   level: 21
   weight: 1
   cost: 210
@@ -1447,8 +1447,8 @@ objects:
   description: A pair of spiked gauntlets.
   material: none
   item_type: 9
-  extra_flags: 65
-  wear_flags: 129
+  extra_flags: AG
+  wear_flags: AH
   level: 26
   weight: 10
   cost: 260
@@ -1460,12 +1460,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 1
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 2
+    bitvector: 0
+  - where: O
+    location: 1
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 2260
@@ -1474,8 +1474,8 @@ objects:
   description: A golden scimitar.
   material: none
   item_type: 5
-  extra_flags: 1
-  wear_flags: 8193
+  extra_flags: A
+  wear_flags: AN
   level: 19
   weight: 10
   cost: 190
@@ -1487,11 +1487,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 4
+    location: 3
     modifier: 1
     bitvector: 0
   - where: O
-    location: 3
+    location: 4
     modifier: 1
     bitvector: 0
   extra_descs: []
@@ -1501,8 +1501,8 @@ objects:
   description: A diamond brooch.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 5
+  extra_flags: G
+  wear_flags: AC
   level: 22
   weight: 2
   cost: 220
@@ -1524,8 +1524,8 @@ objects:
   description: A runed scroll.
   material: none
   item_type: 2
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 21
   weight: 1
   cost: 210
@@ -1544,7 +1544,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 129
+  wear_flags: AH
   level: 27
   weight: 5
   cost: 270
@@ -1567,7 +1567,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 17
+  wear_flags: AE
   level: 45
   weight: 15
   cost: 450
@@ -1590,7 +1590,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 1025
+  wear_flags: AK
   level: 26
   weight: 10
   cost: 260
@@ -1602,12 +1602,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 13
-    modifier: 10
-    bitvector: 0
-  - where: O
     location: 1
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 10
     bitvector: 0
   extra_descs: []
 - vnum: 2280
@@ -1617,7 +1617,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 33
+  wear_flags: AF
   level: 39
   weight: 15
   cost: 390
@@ -1636,7 +1636,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 257
+  wear_flags: AI
   level: 27
   weight: 12
   cost: 270
@@ -1654,8 +1654,8 @@ objects:
   description: A dragon tailed whip is lying on the ground.
   material: none
   item_type: 5
-  extra_flags: 514
-  wear_flags: 8193
+  extra_flags: BJ
+  wear_flags: AN
   level: 40
   weight: 14
   cost: 400
@@ -1667,11 +1667,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
+    location: 18
     modifier: 2
     bitvector: 0
   - where: O
-    location: 18
+    location: 19
     modifier: 2
     bitvector: 0
   extra_descs: []
@@ -1682,7 +1682,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 19
   weight: 12
   cost: 190
@@ -1701,7 +1701,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 45
   weight: 1
   cost: 450
@@ -1719,14 +1719,14 @@ rooms:
   description: "You are at the entrance to a tall tower.  Lightning flashes periodically
     and\n\rit is raining.  You think it might be a good idea to turn back into the
     grove.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
   - dir: 0
     desc: "You see a large steel gate.  Beyond is the Foyer of the Tower.\n\r"
     keywords: gate steel
-    exit_flags: 15
+    exit_flags: ABCD
     key: 2231
     to_vnum: 2202
   - dir: 1
@@ -1743,7 +1743,7 @@ rooms:
   description: "This is the entrance to the Tower.  The hallway continues to the north,\n\rleading
     towards a staircase.  You notice a grim painting on the wall,  and \n\rquickly
     look away.\n\r"
-  room_flags: 12
+  room_flags: CD
   sector: 0
   owner:
   exits:
@@ -1767,7 +1767,7 @@ rooms:
   name: Hallway
   description: "This hallway seems to stretch on forever.  You notice a stairway in
     \ \n\rthe distance. \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1788,7 +1788,7 @@ rooms:
   name: Hallway
   description: "You trudge down the hallway.  You notice doors to the east and west.
     \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1801,7 +1801,7 @@ rooms:
   - dir: 1
     desc: "You see a door.  You notice a sign. \n\r"
     keywords: door
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 2205
   - dir: 2
@@ -1813,33 +1813,33 @@ rooms:
   - dir: 3
     desc: "You see an oak door.  There is an inscription on it. \n\r"
     keywords: oak
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 2206
   extra_descs:
-  - keywords: inscription
-    description: "It says \"STORAGE\"\n\r"
   - keywords: sign
     description: "The sign says \"NURSERY\" in bold letters.     \n\r"
+  - keywords: inscription
+    description: "It says \"STORAGE\"\n\r"
 - vnum: 2205
   name: Nursery
   description: "It looks like a tornado has been through here.  Toys are scattered
     everywhere,\n\rand a small group of dragon hatchlings are fighting over a bone.
     \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
   - dir: 1
     desc: "You see a large stone door.\n\r"
     keywords: door stone
-    exit_flags: 9
+    exit_flags: AD
     key: 2297
     to_vnum: 2223
   - dir: 3
     desc: "You see the hallway. \n\r"
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 2204
   extra_descs: []
@@ -1847,20 +1847,20 @@ rooms:
   name: Storage Room
   description: "This room is covered with dust, it looks as if no one has been here
     in ages.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
   - dir: 1
     desc: "You see the hallway. \n\r"
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 2204
   - dir: 5
     desc: "You see nothing special. \n\r"
     keywords: trapdoor
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 2208
   extra_descs:
@@ -1871,7 +1871,7 @@ rooms:
   name: End of the Hallway
   description: "You have finally reached the end of the hallway.  A huge staircase
     leads up.\n\rYou see a sign at the base of the staircase. \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1896,20 +1896,20 @@ rooms:
   name: Guardian's Room
   description: "You climb down the rickety stairs and find yourself face to face with
     a \n\rgargantuan hydra.  How fast can you climb UP stairs? \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
   - dir: 2
     desc: "A large grey door.\n\r"
     keywords: grey
-    exit_flags: 1
+    exit_flags: A
     key: 2234
     to_vnum: 2209
   - dir: 4
     desc: "You see the storage room. \n\r"
     keywords: door trap trapdoor
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 2206
   extra_descs: []
@@ -1918,20 +1918,20 @@ rooms:
   description: "You have made it past the hydra into the vault.  You are astounded
     by \n\rthe treasure here.  Not only are you now rich, you can probably rest here\n\rsafely.
     \ The west wall seems to have a large door made entirely of ruby.\n\r"
-  room_flags: 12
+  room_flags: CD
   sector: 1
   owner:
   exits:
   - dir: 0
     desc: "You see nothing special. \n\r"
     keywords: grey
-    exit_flags: 9
+    exit_flags: AD
     key: 2234
     to_vnum: 2208
   - dir: 3
     desc: "You see a ruby door!\n\r"
     keywords: door ruby
-    exit_flags: 15
+    exit_flags: ABCD
     key: 2232
     to_vnum: 2218
   extra_descs: []
@@ -1939,7 +1939,7 @@ rooms:
   name: The Second Floor
   description: "You have made it up to the second floor.  You hear hissing and see
     several\n\rdragon men rushing you.  You wonder how long you will be staying here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1960,7 +1960,7 @@ rooms:
   name: The Court
   description: "You have entered what seems to be a large court.  The people guarding
     it\n\rdon't seem happy to see you ...\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -1973,7 +1973,7 @@ rooms:
   - dir: 1
     desc: "You see a wooden door. \n\r"
     keywords: door wooden
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 2212
   - dir: 2
@@ -1987,7 +1987,7 @@ rooms:
   name: Hall O' Pleasure
   description: "You stop dead in your tracks as you enter this ornately decorated
     room - it\n\ris populated with the king's harem.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2015,7 +2015,7 @@ rooms:
   - dir: 1
     desc: "You see a black door.\n\r"
     keywords: door black
-    exit_flags: 1
+    exit_flags: A
     key: 2240
     to_vnum: 2214
   - dir: 2
@@ -2027,7 +2027,7 @@ rooms:
   - dir: 3
     desc: "You see a white door.\n\r"
     keywords: door white
-    exit_flags: 1
+    exit_flags: A
     key: 2233
     to_vnum: 2215
   extra_descs: []
@@ -2035,14 +2035,14 @@ rooms:
   name: The Library
   description: "You have entered a huge room, filled with books.  A peaceful man is\n\rsitting
     at a table, studying.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
   - dir: 3
     desc: "You see the court.\n\r"
     keywords: door black
-    exit_flags: 1
+    exit_flags: A
     key: 2240
     to_vnum: 2213
   extra_descs: []
@@ -2050,14 +2050,14 @@ rooms:
   name: The Sanctum
   description: "This small room is modestly decorated with small dragon icons.  Its
     sole\n\roccupant is deep in thought.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
   - dir: 1
     desc: "You see the Court.\n\r"
     keywords: door white
-    exit_flags: 1
+    exit_flags: A
     key: 2233
     to_vnum: 2213
   extra_descs: []
@@ -2066,7 +2066,7 @@ rooms:
   description: "You have reached the end of the court.  A huge Draconian is sitting
     in a\n\rchair here.  As you enter, he motions with his hand and you are rushed
     by three\n\rof his bodyguards.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2086,7 +2086,7 @@ rooms:
 - vnum: 2217
   name: bedroom
   description: "This is the personal room of the draconian king.  It is not empty.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2101,14 +2101,14 @@ rooms:
   name: Entrance to the Crypt
   description: "You have entered a large room which smells heavily of reptile.  You
     wonder\n\rwhat awaits you here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
   - dir: 1
     desc: "You see the Treasure Vault.\n\r"
     keywords: door ruby
-    exit_flags: 15
+    exit_flags: ABCD
     key: 2232
     to_vnum: 2209
   - dir: 3
@@ -2123,7 +2123,7 @@ rooms:
   description: "You are in a large room which continues to the west.  You notice many\n\rcoffins
     here.  Open coffins reveal remains of something other than man.  \n\rThe smell
     of reptile is very strong here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2144,7 +2144,7 @@ rooms:
   name: The Lair
   description: "You have entered a large room dominated by a great white dragon.  It
     growls\n\rat you before it attacks.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2159,7 +2159,7 @@ rooms:
   name: A Lair
   description: "You have entered a large room dominated by a great black dragon.  It
     looks\n\ras though it is amused by your presence.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2174,7 +2174,7 @@ rooms:
   name: The Crypt Ends
   description: "You have come to the end of the Crypt.  It seems deserted.  There
     is a \n\rstrange coffin lying against the wall.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2187,7 +2187,7 @@ rooms:
   - dir: 3
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 2232
   extra_descs:
@@ -2198,7 +2198,7 @@ rooms:
   description: "You have entered a huge hall.  It has been carefully decorated with\n\rbeautiful
     tapestries depicting a great battle between dragons and men.  The\n\rdragons appear
     to be the victors.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2211,7 +2211,7 @@ rooms:
   - dir: 3
     desc: "You see the Nursery.\n\r"
     keywords: door stone
-    exit_flags: 1
+    exit_flags: A
     key: 2297
     to_vnum: 2205
   extra_descs: []
@@ -2219,7 +2219,7 @@ rooms:
   name: The Great Hall
   description: "You are working your way down the Hall.  To the north, you notice
     a smaller\n\rpassageway, while the main hall continues to the east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2240,7 +2240,7 @@ rooms:
   name: A Narrow Passageway
   description: "This Passageway branches off from the main hall and leads somewhere
     ... where?\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2262,7 +2262,7 @@ rooms:
   description: "You have entered a large lair with bones strewn about the ground.
     \ You\n\rnotice the source of these as you come face to face with a rather large
     red\n\rdragon.  You notice a trap door in the floor.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2275,7 +2275,7 @@ rooms:
   - dir: 5
     desc: "You see a trap door.\n\r"
     keywords: door trap trapdoor
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 2227
   extra_descs: []
@@ -2283,7 +2283,7 @@ rooms:
   name: Underground Tunnel
   description: "You have entered an underground tunnel.  It is dark and dirty, and
     you find\n\ryourself wishing you were back in Midgaard.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -2296,7 +2296,7 @@ rooms:
   - dir: 4
     desc: "You see the red dragon's lair.\n\r"
     keywords: door trap trapdoor
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 2226
   extra_descs: []
@@ -2304,7 +2304,7 @@ rooms:
   name: Underground Tunnel
   description: "This tunnel has come to a dead end.  You feel nervous about being
     trapped here.\n\r"
-  room_flags: 13
+  room_flags: ACD
   sector: 2
   owner:
   exits:
@@ -2320,14 +2320,14 @@ rooms:
   description: "You have come to the end of the great hall.  You see before you a
     huge\n\rgolden door, it must be at least twenty feet tall!  It has beautiful etchings\n\rof
     dragons.  You see a sign on the door.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
   - dir: 1
     desc: "You see a great golden door.\n\r"
     keywords: door great golden
-    exit_flags: 15
+    exit_flags: ABCD
     key: 2299
     to_vnum: 2230
   - dir: 3
@@ -2344,14 +2344,14 @@ rooms:
   name: THE Lair
   description: "You have entered a huge lair.  You feel that something big lives here
     or at least did.  The golden door lies back to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
   - dir: 3
     desc: "You see a great golden door.\n\r"
     keywords: door golden great
-    exit_flags: 15
+    exit_flags: ABCD
     key: 2299
     to_vnum: 2229
   extra_descs: []
@@ -2359,14 +2359,14 @@ rooms:
   name: The End...
   description: "You have reached the final lair.  It is dominated by a huge five headed\n\rdragon.
     \ You suddenly realize that you have SERIOUS problems...\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
   - dir: 2
     desc: "You see the top of the mountain.\n\r"
     keywords:
-    exit_flags: 9
+    exit_flags: AD
     key: 2241
     to_vnum: 2243
   extra_descs: []
@@ -2375,14 +2375,14 @@ rooms:
   description: "This is an old decrepit stairwell that leads to the wine cellar.  It
     looks\n\rlike it hasn't been used for decades.  Well, at least not by anything
     living.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
   - dir: 1
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 2222
   - dir: 5
@@ -2397,7 +2397,7 @@ rooms:
   description: "This is the old wine cellar of the Dragon Tower.  The shelves are
     empty.\n\rNothing living has been in here for a long time.  You see a tunnel leading\n\roff
     to the east and boy does it smell bad.  Kinda of like rotting flesh.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 2
   owner:
   exits:
@@ -2420,7 +2420,7 @@ rooms:
     end but\n\ryour eyes soon tire from the strain.  The smell here has increased
     two fold.\n\rThe tunnel continues to go to the east.  The wine cellar lies back
     to the \n\rwest.\n\r"
-  room_flags: 257
+  room_flags: AI
   sector: 2
   owner:
   exits:
@@ -2449,7 +2449,7 @@ rooms:
     across\n\rthe room.  Some human, some indistinguishable.  It smells very bad in
     here.\n\rYou can hear movement in the cave to the north.  The tunnel goes back
     to the\n\rsouth.\n\r"
-  room_flags: 257
+  room_flags: AI
   sector: 2
   owner:
   exits:
@@ -2471,7 +2471,7 @@ rooms:
   description: "You have finally come to the end of the tunnel.  Back to the west
     lies\n\rthe miles of tunnels you have walked through.  You see the faint outline
     of\n\ra trapdoor above you.  A bride over an underground river lies to the south.\n\r"
-  room_flags: 257
+  room_flags: AI
   sector: 2
   owner:
   exits:
@@ -2499,7 +2499,7 @@ rooms:
   description: "You are walking along an old wooden bridge.  Its not that secure.
     \ You \n\rmight want to hurry along.  To the south, on the other side of the bridge,\n\rlies
     a small opening.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -2521,7 +2521,7 @@ rooms:
   description: "You are standing in a small opening.  To the north lies the old wooden\n\rbridge.
     \ To your south the you can see a clearing.  You can see sunlight\n\ragain.  What
     a welcome relief!\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -2566,14 +2566,14 @@ rooms:
     key: 0
     to_vnum: 2244
   extra_descs:
+  - keywords: well
+    description: "You peer over the side of the well.  It looks VERY, VERY deep.  It
+      appears\n\rto be ENDLESS.\n\r"
   - keywords: sign
     description: "The sign reads:\n\r         This is a bottomless pit cleverly disguised
       as a well.  People have\n\rfallen in and never been heard from again.  Trust
       me, you don't want to go \n\rdown there.\n\r                        The All
       Powerful Well Keeper\n\r"
-  - keywords: well
-    description: "You peer over the side of the well.  It looks VERY, VERY deep.  It
-      appears\n\rto be ENDLESS.\n\r"
 - vnum: 2240
   name: A path
   description: "This path leads up the side of the mountain.  A clearing lies below
@@ -2660,7 +2660,7 @@ rooms:
   - dir: 0
     desc: "The platinum door\n\r"
     keywords: door platinum
-    exit_flags: 15
+    exit_flags: ABCD
     key: 2241
     to_vnum: 2231
   - dir: 5
@@ -2678,7 +2678,7 @@ rooms:
     you!  You have fallen into the bottomless pit.  You life flashes\n\rright before
     your eyes.  Pretty pathetic isn't it?  Next time you'll know\n\rto listen to the
     God of Laughs.\n\r"
-  room_flags: 6
+  room_flags: BC
   sector: 0
   owner:
   exits: []

@@ -13,7 +13,7 @@ mobiles:
   long_desc: "A young dwarf plays with a toy axe.\n\r"
   description: "This is a young but not totally harmless creature.\n\r"
   race: Dwarf
-  act: 524356
+  act: CGT
   affected_by: 0
   affected2_by: 0
   alignment: -5
@@ -38,7 +38,7 @@ mobiles:
     bash: 6
     slash: 7
     exotic: 10
-  off_flags: 131592
+  off_flags: DJR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -57,7 +57,7 @@ mobiles:
   long_desc: "A cute and fuzzy teddy bear stands here.\n\r"
   description: "This is a tiny little bear with a heart on his chest.\n\r"
   race: doll
-  act: 68
+  act: CG
   affected_by: 0
   affected2_by: 0
   alignment: 500
@@ -82,7 +82,7 @@ mobiles:
     bash: 5
     slash: 9
     exotic: 10
-  off_flags: 139264
+  off_flags: NR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -101,7 +101,7 @@ mobiles:
   long_desc: "A raggedy anne doll is sitting here.\n\r"
   description: "You see a small little cute rag doll.\n\r"
   race: doll
-  act: 68
+  act: CG
   affected_by: 0
   affected2_by: 0
   alignment: 300
@@ -126,7 +126,7 @@ mobiles:
     bash: 4
     slash: 8
     exotic: 10
-  off_flags: 131232
+  off_flags: FHR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -145,7 +145,7 @@ mobiles:
   long_desc: "A toy soldier is standing here.\n\r"
   description: "The toy is looking for target practice.\n\r"
   race: doll
-  act: 524356
+  act: CGT
   affected_by: 0
   affected2_by: 0
   alignment: -300
@@ -170,10 +170,10 @@ mobiles:
     bash: 7
     slash: 6
     exotic: 9
-  off_flags: 131328
+  off_flags: IR
   imm_flags: 0
-  res_flags: 64
-  vuln_flags: 16
+  res_flags: G
+  vuln_flags: E
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -190,7 +190,7 @@ mobiles:
   description: "This is obviously a reject from the factory.\n\rHe snarls and growls
     at you.\n\r"
   race: doll
-  act: 36
+  act: CF
   affected_by: 0
   affected2_by: 0
   alignment: -400
@@ -215,7 +215,7 @@ mobiles:
     bash: 3
     slash: 7
     exotic: 10
-  off_flags: 139784
+  off_flags: DJNR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -235,7 +235,7 @@ mobiles:
   description: "This doll has been hugged and played with until there is almost nothing
     left.\n\r"
   race: doll
-  act: 68
+  act: CG
   affected_by: 0
   affected2_by: 0
   alignment: -2
@@ -260,7 +260,7 @@ mobiles:
     bash: 5
     slash: 9
     exotic: 10
-  off_flags: 131072
+  off_flags: R
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -280,7 +280,7 @@ mobiles:
   description: "You see an old dwarven lady who has been hunched over with age.  However,
     it\n\rappears that there is still some fight left in her.\n\r"
   race: Dwarf
-  act: 64
+  act: G
   affected_by: 0
   affected2_by: 0
   alignment: 10
@@ -305,7 +305,7 @@ mobiles:
     bash: 5
     slash: 5
     exotic: 10
-  off_flags: 131084
+  off_flags: CDR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -325,8 +325,8 @@ mobiles:
   description: "This is a big mean bully who is tired of being lost in this maze.\n\rYou
     suddenly think that you had better flee.\n\r"
   race: Dwarf
-  act: 524294
-  affected_by: 8
+  act: BCT
+  affected_by: D
   affected2_by: 0
   alignment: -800
   clan: 0
@@ -350,7 +350,7 @@ mobiles:
     bash: 2
     slash: 3
     exotic: 8
-  off_flags: 131596
+  off_flags: CDJR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -370,7 +370,7 @@ mobiles:
   description: "You see a little tyke who has always gotten what he wanted.  You have
     the\n\rbiggest urge to put him out of his misery.\n\r"
   race: Dwarf
-  act: 6
+  act: BC
   affected_by: 0
   affected2_by: 0
   alignment: -400
@@ -395,7 +395,7 @@ mobiles:
     bash: 8
     slash: 8
     exotic: 10
-  off_flags: 8960
+  off_flags: IJN
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -416,7 +416,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 0
   weight: 3
   cost: 30
@@ -436,8 +436,8 @@ objects:
   description: A pink ice ring draws your eye.
   material: none
   item_type: 8
-  extra_flags: 64
-  wear_flags: 3
+  extra_flags: G
+  wear_flags: AB
   level: 3
   weight: 1
   cost: 1200
@@ -449,12 +449,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 1
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 13
     modifier: 4
+    bitvector: 0
+  - where: O
+    location: 1
+    modifier: 1
     bitvector: 0
   extra_descs:
   - keywords: ring pink ice
@@ -466,8 +466,8 @@ objects:
   description: A linen robe is crumpled into a ball here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 1025
+  extra_flags: G
+  wear_flags: AK
   level: 3
   weight: 5
   cost: 2000
@@ -479,12 +479,12 @@ objects:
   - 1
   affects:
   - where: O
-    location: 4
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 12
     modifier: 5
+    bitvector: 0
+  - where: O
+    location: 4
+    modifier: 1
     bitvector: 0
   extra_descs:
   - keywords: robe linen
@@ -497,7 +497,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 0
   weight: 3
   cost: 50
@@ -509,11 +509,11 @@ objects:
   - 32
   affects:
   - where: O
-    location: 17
+    location: 18
     modifier: -1
     bitvector: 0
   - where: O
-    location: 18
+    location: 17
     modifier: -1
     bitvector: 0
   extra_descs:
@@ -526,7 +526,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 2
   cost: 50
@@ -545,7 +545,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 2
   cost: 14
@@ -564,7 +564,7 @@ objects:
   material: none
   item_type: 10
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 150
@@ -586,7 +586,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 0
   weight: 2
   cost: 30
@@ -610,7 +610,7 @@ rooms:
   name: The Dwarven Drop Off
   description: "This is where the dwarven mommies and daddies come to drop off their\n\rannoying
     little brats.  You have the urge to leave.  There is a sign here.\n\r"
-  room_flags: 12
+  room_flags: CD
   sector: 0
   owner:
   exits:
@@ -623,7 +623,7 @@ rooms:
   - dir: 2
     desc: "You see a large room full of noisy brats.\n\r"
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 6602
   extra_descs:
@@ -633,7 +633,7 @@ rooms:
   name: Day Care Center
   description: "You are in the north-east corner of the main part of the center.  Toys
     and\n\rtoddlers are all over the room.  There is a kitchen to the east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -666,7 +666,7 @@ rooms:
   name: Day Care Center
   description: "You are in the north-west corner of the main part of the center.  Toys
     and\n\rtoddlers are all over the room.  There is a bathroom to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -693,7 +693,7 @@ rooms:
   name: Day Care Center
   description: "You are in the south-east corner of the main part of the center.  Toys
     and\n\rtoddlers are all over the room.  There is a playground to the east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -720,7 +720,7 @@ rooms:
   name: Day Care Center
   description: "You are in the south-west corner of the main part of the center.  Toys
     and\n\rtoddlers are all over the room.  There is a staircase to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -747,7 +747,7 @@ rooms:
   name: The Messy Bathroom
   description: "You hold your nose as you realize you have made the worst mistake
     of your\n\rlife.  The air is rancid and the walls are stained.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -762,7 +762,7 @@ rooms:
   name: The Staircase
   description: "You stand on top of a staircase leading down, and wonder what mystery
     could\n\rlie down under.  Beware!\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -869,7 +869,7 @@ rooms:
   name: Entrance to the Mini-Maze
   description: "You stand in the entrance to a small, but confusing maze.  You really
     hope\n\rthat you don't get lost.\n\r"
-  room_flags: 13
+  room_flags: ACD
   sector: 2
   owner:
   exits:
@@ -889,7 +889,7 @@ rooms:
 - vnum: 6613
   name: Mini-Maze
   description: "You are in a small passage that looks just like every other one.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -915,27 +915,27 @@ rooms:
 - vnum: 6614
   name: Mini-Maze
   description: "You are in a small passage that looks just like every other one.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
-  - dir: 1
-    desc:
-    keywords:
-    exit_flags: 0
-    key: -1
-    to_vnum: 6613
-  - dir: 3
+  - dir: 2
     desc:
     keywords:
     exit_flags: 0
     key: -1
     to_vnum: 6616
+  - dir: 3
+    desc:
+    keywords:
+    exit_flags: 0
+    key: -1
+    to_vnum: 6613
   extra_descs: []
 - vnum: 6615
   name: Mini-Maze
   description: "You are in a small passage that looks just like every other one.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -944,18 +944,18 @@ rooms:
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 6616
+    to_vnum: 6613
   - dir: 3
     desc:
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 6613
+    to_vnum: 6616
   extra_descs: []
 - vnum: 6616
   name: Mini-Maze
   description: "You are in a small passage that looks just like every other one.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -970,19 +970,19 @@ rooms:
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 6614
+    to_vnum: 6615
   - dir: 3
     desc:
     keywords:
     exit_flags: 0
     key: -1
-    to_vnum: 6615
+    to_vnum: 6614
   extra_descs: []
 - vnum: 6624
   name: End of the Mini-Maze
   description: "You stand at the end of your journey.  There is a big sign here and
     you had\n\rbetter read it!\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -1006,7 +1006,7 @@ rooms:
   name: Messy Kitchen
   description: "You stand in the kitchen and eating area of the day care center.  Pots
     and\n\rpans are everywhere, while the toddlers continue to create chaos.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1021,7 +1021,7 @@ rooms:
   name: The End?
   description: "You have reached the final lair.  It is dominated by a huge five headed\n\rdragon
     (actually an overgrown brat with a Halloween mask).\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:

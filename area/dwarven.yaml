@@ -13,8 +13,8 @@ mobiles:
   long_desc: "A dwarven guard is here.\n\r"
   description: "The guard looks very tough and mean.\n\r"
   race: Dwarf
-  act: 526338
-  affected_by: 8
+  act: BLT
+  affected_by: D
   affected2_by: 0
   alignment: 500
   clan: 0
@@ -57,7 +57,7 @@ mobiles:
   long_desc: "A dwarven mining worker is here.\n\r"
   description: "He is very dirty, and looks extremely over-worked.\n\r"
   race: Dwarf
-  act: 526400
+  act: GLT
   affected_by: 0
   affected2_by: 0
   alignment: 900
@@ -101,8 +101,8 @@ mobiles:
   long_desc: "A wraith is awaiting your first move here.\n\r"
   description: "A black, almost transparent wraith.\n\r"
   race: Human
-  act: 524290
-  affected_by: 40
+  act: BT
+  affected_by: DF
   affected2_by: 0
   alignment: -900
   clan: 0
@@ -145,7 +145,7 @@ mobiles:
   long_desc: "There is the Hide & Tooth storekeeper standing here, waiting patiently.\n\r"
   description: "The storekeeper is very rotund, but looks like a sharp guy.\n\r"
   race: Human
-  act: 526338
+  act: BLT
   affected_by: 0
   affected2_by: 0
   alignment: 900
@@ -189,7 +189,7 @@ mobiles:
   long_desc: "Granite Head, the baker, is waiting for a customer here.\n\r"
   description: "Granite Head is covered with flour and grains.\n\r"
   race: Human
-  act: 526338
+  act: BLT
   affected_by: 0
   affected2_by: 0
   alignment: 900
@@ -234,8 +234,8 @@ mobiles:
   description: "This scaly creature looks like it is well adapted to it's underground\n\rhabitat.
     \ He looks very powerful.\n\r"
   race: lizard
-  act: 524352
-  affected_by: 8
+  act: GT
+  affected_by: D
   affected2_by: 0
   alignment: 100
   clan: 0
@@ -279,7 +279,7 @@ mobiles:
   description: "The giant is about 8 feet tall, with arms of steel, and looks very
     strong.\n\r"
   race: Giant
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -323,7 +323,7 @@ mobiles:
   long_desc: "A dwarven miner is here.\n\r"
   description: "The mineworker is very tired, and very dirty, and he has bulging muscles.\n\r"
   race: Dwarf
-  act: 526338
+  act: BLT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -367,7 +367,7 @@ mobiles:
   long_desc: "A dwarven mine leader is here.\n\r"
   description: "The mine leader is very big and very strong.\n\r"
   race: Dwarf
-  act: 526338
+  act: BLT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -411,8 +411,8 @@ mobiles:
   long_desc: "The dwarven doctor is here.\n\r"
   description: "He is a very skilled surgeon, with hands of steel.\n\r"
   race: Dwarf
-  act: 526338
-  affected_by: 136
+  act: BLT
+  affected_by: DH
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -455,7 +455,7 @@ mobiles:
   long_desc: "A dwarven peon is awaiting help here.\n\r"
   description:
   race: Dwarf
-  act: 526338
+  act: BLT
   affected_by: 0
   affected2_by: 0
   alignment: 500
@@ -499,7 +499,7 @@ mobiles:
   long_desc: "A grinning dwarf is here.\n\r"
   description:
   race: Dwarf
-  act: 526338
+  act: BLT
   affected_by: 0
   affected2_by: 0
   alignment: 500
@@ -543,7 +543,7 @@ mobiles:
   long_desc: "An unwanted son is here.  You feel sorry for the guy.\n\r"
   description:
   race: Dwarf
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 250
@@ -587,7 +587,7 @@ mobiles:
   long_desc: "An unwanted daughter is here.  You feel sorry for her.\n\r"
   description:
   race: Dwarf
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 250
@@ -631,7 +631,7 @@ mobiles:
   long_desc: "A barrack guard is here.\n\r"
   description:
   race: Dwarf
-  act: 526338
+  act: BLT
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -675,7 +675,7 @@ mobiles:
   long_desc: "A man in waiting is here.  He looks nervous and unsure of himself.\n\r"
   description:
   race: Human
-  act: 526338
+  act: BLT
   affected_by: 0
   affected2_by: 0
   alignment: 300
@@ -719,8 +719,8 @@ mobiles:
   long_desc: "A mazekeeper is here.\n\r"
   description: "He looks VERY tough.\n\r"
   race: Human
-  act: 526370
-  affected_by: 128
+  act: BFLT
+  affected_by: H
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -763,7 +763,7 @@ mobiles:
   long_desc: "There is a giant snake here.\n\r"
   description:
   race: snake
-  act: 524322
+  act: BFT
   affected_by: 0
   affected2_by: 0
   alignment: -1000
@@ -809,7 +809,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 19
   weight: 1
   cost: 190
@@ -828,7 +828,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 3
   cost: 600
@@ -847,7 +847,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 19
   weight: 4
   cost: 1000
@@ -866,7 +866,7 @@ objects:
   material: none
   item_type: 4
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 9
   weight: 1
   cost: 90
@@ -885,7 +885,7 @@ objects:
   material: none
   item_type: 1
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 10
   weight: 1
   cost: 100
@@ -904,7 +904,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 9
   weight: 1
   cost: 90
@@ -923,7 +923,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 17
   weight: 5
   cost: 170
@@ -935,11 +935,11 @@ objects:
   - 32
   affects:
   - where: O
-    location: 18
+    location: 1
     modifier: 2
     bitvector: 0
   - where: O
-    location: 1
+    location: 18
     modifier: 2
     bitvector: 0
   extra_descs: []
@@ -950,7 +950,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 17
+  wear_flags: AE
   level: 19
   weight: 4
   cost: 1000
@@ -968,8 +968,8 @@ objects:
   description: A pretty golden ring is here.
   material: none
   item_type: 8
-  extra_flags: 64
-  wear_flags: 3
+  extra_flags: G
+  wear_flags: AB
   level: 19
   weight: 1
   cost: 1000
@@ -981,11 +981,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
+    location: 19
     modifier: 1
     bitvector: 0
   - where: O
-    location: 19
+    location: 18
     modifier: 1
     bitvector: 0
   extra_descs: []
@@ -996,7 +996,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 129
+  wear_flags: AH
   level: 19
   weight: 2
   cost: 1000
@@ -1008,11 +1008,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 1
+    location: 2
     modifier: 1
     bitvector: 0
   - where: O
-    location: 2
+    location: 1
     modifier: 1
     bitvector: 0
   extra_descs: []
@@ -1023,7 +1023,7 @@ objects:
   material: none
   item_type: 12
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 7
   weight: 0
   cost: 70
@@ -1045,7 +1045,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 9
   weight: 0
   cost: 90
@@ -1064,7 +1064,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 14
   weight: 0
   cost: 140
@@ -1083,7 +1083,7 @@ objects:
   material: none
   item_type: 13
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 18
   weight: 100
   cost: 180
@@ -1101,8 +1101,8 @@ objects:
   description: There is a mining pick here.
   material: none
   item_type: 5
-  extra_flags: 256
-  wear_flags: 8193
+  extra_flags: I
+  wear_flags: AN
   level: 13
   weight: 1
   cost: 130
@@ -1121,7 +1121,7 @@ objects:
   material: none
   item_type: 26
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 9
   weight: 1
   cost: 90
@@ -1144,7 +1144,7 @@ objects:
   material: none
   item_type: 28
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 9
   weight: 1
   cost: 90
@@ -1288,7 +1288,7 @@ rooms:
   description: "This is a narrow path leading to the Dwarven Kingdom.  It looks less\n\rtravelled
     than the others, and it is very creepy.  The path opens up\n\rto the south, and
     continues to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1322,7 +1322,7 @@ rooms:
   - dir: 3
     desc:
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 6502
     to_vnum: 6513
   extra_descs: []
@@ -1331,7 +1331,7 @@ rooms:
   description: "This is a narrow path that bends to the east here.  The trees hang
     over\n\rthe path, and it is very overgrown.  The narrow path continues to the\n\rsouth
     and to the east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1353,7 +1353,7 @@ rooms:
 - vnum: 6507
   name: Narrow path
   description: "This path is very narrow, and it continues to the north and west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1374,7 +1374,7 @@ rooms:
   name: Narrow north-south path
   description: "This path leads to the north and south.  To the north you can see
     a\n\rdoor, and to the south the path continues.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1395,14 +1395,14 @@ rooms:
   name: Door to Kingdom
   description: "Here the path turns to the west.  You can see a door in front of you,\n\rand
     the path continues to the west and south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 6502
     to_vnum: 6510
   - dir: 2
@@ -1422,7 +1422,7 @@ rooms:
   name: Path to the Castle
   description: "You are on a path that will eventually lead to the castle.  It\n\rcontinues
     north to the castle, and there is a door on the western wall.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1435,7 +1435,7 @@ rooms:
   - dir: 3
     desc:
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 6502
     to_vnum: 6509
   extra_descs: []
@@ -1443,7 +1443,7 @@ rooms:
   name: Still on the path to the Castle
   description: "You are still on the path to the castle, or back to the Dwarven village,\n\rwhichever
     way you wish to go.  The path continues to the north and south.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1467,14 +1467,14 @@ rooms:
     end.  A sign says:\n\r\n\r              ******************************************\n\r
     \             *  WELCOME TO THE CASTLE OF STRANGELOVE  *\n\r              *      Here,
     celibacy is uninvited       *\n\r              ******************************************\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: 6514
     to_vnum: 6525
   - dir: 2
@@ -1488,7 +1488,7 @@ rooms:
   name: Inside the entrance
   description: "Everything here is covered in soot and very grimy.  The path continues\n\rto
     the east and north, and there is a door to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1501,7 +1501,7 @@ rooms:
   - dir: 1
     desc: "The path leads outside the entrance.\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 6502
     to_vnum: 6505
   - dir: 3
@@ -1515,7 +1515,7 @@ rooms:
   name: Path
   description: "You are on a path in the dwarven village which leads north to the
     shops\n\rand south to the corner of the area.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1536,7 +1536,7 @@ rooms:
   name: Turn in road
   description: "You are on a path that leads to a Hide & Tooth shop to the west, and
     the\n\rpath continues to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1557,7 +1557,7 @@ rooms:
   name: Hide & Tooth Shop
   description: "You are in the Hide & Tooth shop.  Here you may buy the finest in
     Dwarven\n\rweapons and armors. The path continues to the north and east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1578,7 +1578,7 @@ rooms:
   name: Path to the north of shop
   description: "You are on a path to the north of the Hide & Tooth shop.  The path
     continues\n\rto the north, and there is Granite Head's bakery to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1605,7 +1605,7 @@ rooms:
   name: North of Shops
   description: "Here the path bends to the east towards the barracks. To the\n\rsouth
     you can see the shops.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1626,7 +1626,7 @@ rooms:
   name: Path by Hospital
   description: "Here the path passes by the Hospital to the north.  It continues\n\rto
     the east to the barracks, and to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1652,7 +1652,7 @@ rooms:
 - vnum: 6520
   name: Path next to barracks
   description: "Here the path continues west, and east to the barracks.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1673,14 +1673,14 @@ rooms:
   name: Entrance to barracks
   description: "Here there is an entrance to the barracks to the south, and\n\rthe
     path continues to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 6523
   - dir: 3
@@ -1694,7 +1694,7 @@ rooms:
   name: Guard House
   description: "You are in the guard house to the west of the entrance\n\rto the castle.
     \ There are nude posters covering the walls.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1711,14 +1711,14 @@ rooms:
   name: First Barrack room
   description: "Here is the first of two main rooms of barracks.  The\n\rbarracks
     continue to the south, and you can leave the room\n\rto the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 6521
   - dir: 2
@@ -1732,7 +1732,7 @@ rooms:
   name: Back of Barracks
   description: "Here is the back of the dwarven barracks.  There are rows\n\rof beds
     here, and there is a stench that is unbearable.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1745,7 +1745,7 @@ rooms:
   - dir: 5
     desc:
     keywords: floorboards boards
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 2001
   extra_descs: []
@@ -1754,14 +1754,14 @@ rooms:
   description: "You are just inside the castle.  It is very tubular in shape, and
     it is\n\rvery featureless.  There is a set of stairs that lead up, and the door
     leads\n\rout of the castle to the west.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 3
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: 6514
     to_vnum: 6512
   - dir: 4
@@ -1775,7 +1775,7 @@ rooms:
   name: A store room
   description: "There is a layer of dust on the floor at least 3 inches thick!  It
     is\n\rprobable that not many people have been in here for many months.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1788,7 +1788,7 @@ rooms:
   - dir: 5
     desc:
     keywords: trapdoor
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 6527
   extra_descs:
@@ -1798,27 +1798,27 @@ rooms:
   name: Wine cellar
   description: "This room smells like wine, and you can only assume it used to be\n\ra
     wine cellar at one time.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 4
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 6526
   - dir: 5
     desc:
     keywords: floorboards boards
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 2065
   extra_descs: []
 - vnum: 6528
   name: Stairs in castle
   description: "The stairs continue to circle up and down here.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1840,7 +1840,7 @@ rooms:
   description: "You are still circling around on the stairs.  You are starting to
     get\n\rdizzy from going around and around and around and around and around.  The\n\rstairs
     continue up and down.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1861,7 +1861,7 @@ rooms:
   name: Top of stairs
   description: "You are at the top of the stairs in the castle.  There is an exit
     to the\n\reast, and the stairs lead down.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1884,14 +1884,14 @@ rooms:
     the\n\rqueen.  You've heard that the queen really likes to get to 'know' her\n\rpeople,
     in the biblical sense.  The queen's bedroom is to the north, and you\n\rcan see
     stairs to the west.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 6502
     to_vnum: 6532
   - dir: 3
@@ -1907,14 +1907,14 @@ rooms:
     a stack of dirty sheets piled in the corner.\n\r\n\rA note has been scrawled in
     lipstick on the mirror:\n\r\n\r    I'm out looking for my birth control pills.\n\r
     \   Why don't you sleep into something comfortable while you're waiting?\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 6502
     to_vnum: 6531
   extra_descs: []
@@ -1922,7 +1922,7 @@ rooms:
   name: Hospital
   description: "You are inside the Dwarven Hospital.  It smells like rubbing\n\ralcohol,
     and there is blood all over the walls.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1937,7 +1937,7 @@ rooms:
   name: Granite Head's Bakery
   description: "The aroma coming from this room is sensuous.  You can almost taste\n\rthe
     pastries dissolving in your mouth.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1952,7 +1952,7 @@ rooms:
   name: Dark path
   description: "This path is very well worn, and there is an entrance to the mines
     to the\n\reast, while the path continues to the north and west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1965,7 +1965,7 @@ rooms:
   - dir: 1
     desc:
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 6502
     to_vnum: 6541
   - dir: 3
@@ -1979,14 +1979,14 @@ rooms:
   name: Mine entrance
   description: "The little path here leads down toward the mines, while the worn path\n\rcontinues
     to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 3
     desc:
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 6502
     to_vnum: 6540
   - dir: 5
@@ -2000,7 +2000,7 @@ rooms:
   name: Inside the mine
   description: "There are holes everywhere from the places that the workers blew\n\raway
     the rock to get to whatever they were looking for.  A path leads\n\rdown and up.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2021,7 +2021,7 @@ rooms:
   name: Path in the mine
   description: "You are deep inside the mine, and you feel very uncomfortable.  The\n\rpath
     continues to the east, and leads to the mineshaft to the west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2042,14 +2042,14 @@ rooms:
   name: Mine crossroad
   description: "You are at a crossroad in the mine.  There is a door to the north,\n\rand
     the path continues to the south, east, and west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 6502
     to_vnum: 6546
   - dir: 1
@@ -2075,7 +2075,7 @@ rooms:
   name: Coal Room
   description: "You are inside the storage area for the raw materials\n\rthat are
     found down here.  The room is very unsturdy as the\n\rsupports are very rickety.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2090,7 +2090,7 @@ rooms:
   name: Mine Maze
   description: "You have entered the maze of the mines.  To the east you\n\rcan see
     some inscriptions, and you can exit to the south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2103,7 +2103,7 @@ rooms:
   - dir: 2
     desc:
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 6502
     to_vnum: 6544
   extra_descs: []
@@ -2111,7 +2111,7 @@ rooms:
   name: Maze inscription
   description: "You are inside the maze, but not far enough in that you could get
     lost.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2131,7 +2131,7 @@ rooms:
 - vnum: 6548
   name: Maze
   description: "You are in a maze.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2151,7 +2151,7 @@ rooms:
 - vnum: 6549
   name: Maze
   description: "You are in a maze.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2171,7 +2171,7 @@ rooms:
 - vnum: 6550
   name: Maze
   description: "You are in a maze.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2193,7 +2193,7 @@ rooms:
   description: "This is the storage room for equipment used by the\n\rDwarven miners.
     \ It is very small, and you can tell that\n\rnot many miners actually use any
     equipment.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2211,7 +2211,7 @@ rooms:
     desolate here.  To the south is a bleak room.\n\rTo the north, you see the maze.
     \ There is a sign above the south exit:\n\r\n\r    Those who enter, plan on a
     timely death.\n\r    Especially if you're loyal to the queen.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2233,7 +2233,7 @@ rooms:
   description: "You have entered the Mazekeeper's room.  There are pictures of\n\rthe
     Queen with darts thrown in it.  Spray-painted on the wall are\n\rthings like 'the
     queen shall suffer' and 'Catholics Rule'.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2248,7 +2248,7 @@ rooms:
   name: Bottom of mineshaft
   description: "You are at the bottom of the mineshaft.  The air here is very sooty,
     and\n\rit is very hard to breath.  The mineshaft leads up and east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:

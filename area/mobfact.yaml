@@ -14,8 +14,8 @@ mobiles:
   description: "You see a mutant beastly fido, glaring at you with green eyes!  You
     wonder if\n\rthis factory meets ASPCA guidlines....\n\r"
   race: fido
-  act: 524512
-  affected_by: 8
+  act: FGHT
+  affected_by: D
   affected2_by: 0
   alignment: -700
   clan: 0
@@ -60,8 +60,8 @@ mobiles:
     what comes\n\rof dedicated Mudding!  Rewarded for his years of dedication as a
     monster\n\rslayer, Floyd now creates the beasts for other adventurers to fight.\n\r"
   race: Human
-  act: 524354
-  affected_by: 168
+  act: BGT
+  affected_by: DFH
   affected2_by: 0
   alignment: 2
   clan: 0
@@ -105,8 +105,8 @@ mobiles:
   description: "You see a Cityguard head floating around without a care in the world.\n\rObviously,
     this one got past quality control!  Careful, those teeth look\n\rsharp...\n\r"
   race: Human
-  act: 524352
-  affected_by: 524288
+  act: GT
+  affected_by: T
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -150,7 +150,7 @@ mobiles:
   description: "You see and smell a drunk who looks much like other drunks...but he
     is spinning\n\rin place!  Someone should tell him that he is a REVOLTING drunk.\n\r"
   race: Human
-  act: 524484
+  act: CGHT
   affected_by: 0
   affected2_by: 0
   alignment: 1
@@ -195,7 +195,7 @@ mobiles:
   description: "Yick.  Looks like someone had digestion problems!  Either that, or
     the \n\rhydraulic fluid is leaking again.\n\r"
   race: Human
-  act: 524294
+  act: BCT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -241,7 +241,7 @@ mobiles:
     \"Mob\n\rFactory\" written in a bright purple starburst.  Fashion plate, he's
     not.\n\r"
   race: Human
-  act: 524480
+  act: GHT
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -286,7 +286,7 @@ mobiles:
   description: "If Floyd walks in, you can bet there'll be trouble.  Guess she shouldn't
     have\n\rworked the late shift!\n\r"
   race: Human
-  act: 524418
+  act: BHT
   affected_by: 0
   affected2_by: 0
   alignment: 150
@@ -333,7 +333,7 @@ rooms:
     be heard in the background; the grinding gears drive you\n\rcrazy! To the north
     you see the storage area, to the south the\n\rforeman's office, to the east the
     entrance hallway, and to the west the\n\rfamiliar paving of wall road.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -368,7 +368,7 @@ rooms:
     You see sacks of sawdust, cans of pink paint, a large box\n\rcontaining wigs and
     a bottle mysteriously labelled \"solution x\". Exits\n\rare more of storage to
     the east and north, and entrance to the mob\n\rfactory to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -397,7 +397,7 @@ rooms:
     You see sacks of sawdust, cans of pink paint, a large box\n\rcontaining wigs and
     a bottle mysteriously labelled \"solution X\". Exits\n\rare more of storage to
     the east and south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -420,7 +420,7 @@ rooms:
     with a metal desk, a couple of chairs, a shelf with helmets\n\rof various sizes
     and a Sports Illustrated Swimsuit calendar on the west\n\rwall. Exits lead north
     to the mob factory entrance and south to the\n\rforeman's bathroom.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -443,7 +443,7 @@ rooms:
     is very strong and reminds you of bovine excrement! There is a\n\rshower to the
     back, and a urinal to the left. On the floor you can\n\rsee stains of a very suspicious
     nature. The only exit leads north to\n\rthe foreman's office.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -460,7 +460,7 @@ rooms:
     You see sacks of sawdust, cans of pink paint, a large box\n\rcontaining wigs and
     a bottle mysteriously labelled \"solution X\". Exits\n\rare more of storage to
     the west and south, and an inspection room to\n\rthe east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -490,7 +490,7 @@ rooms:
     a bottle mysteriously labelled \"solution X\". Exits\n\rare more of storage to
     the west and north, an inspection room to the\n\reast and the entrance hallway
     to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -526,7 +526,7 @@ rooms:
     Every once in a while you get creepy feeling that a pair of\n\reyes is observing
     you...... Exits are north to the storage area, east\n\rto the entrance hallway,
     south to the cafeteria and west to the mob\n\rfactory entrance.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -562,7 +562,7 @@ rooms:
     doesn't look too appetising, but the factory workers don't\n\rseem to care. There
     are many places where food and drink have been\n\rspilled on the ground. Exits
     are north to the entrance hallway and\n\rsouth to the mob factory cafeteria.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -586,7 +586,7 @@ rooms:
     doesn't look too appetising, but the factory workers don't\n\rseem to care. There
     are many places where food and drink have been\n\rspilled on the ground. The only
     exit is north to the mob factory\n\rcafeteria.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -604,7 +604,7 @@ rooms:
     of inspectors from the Midgaard Inspections Bureau is\n\rstanding around, trying
     to look busy. Exits are south to the mob\n\rfactory inspection room, east to the
     primary assembly line and west to\n\rthe storage area.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -634,7 +634,7 @@ rooms:
     of inspectors from the Midgaard Inspections Bureau is\n\rstanding around, trying
     to look busy. Exits are south to the mob\n\rfactory inspection room, east to the
     primary assembly line and west to\n\rthe storage area.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -670,7 +670,7 @@ rooms:
     Every once in a while you get creepy feeling that a pair of\n\reyes is observing
     you...... Exits are north to the inspection room,\n\reast to the primary assembly
     line, south to the reject room and west\n\rto the entrance hallway.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -705,7 +705,7 @@ rooms:
     or have some defect are placed here before subsequent\n\rdestruction. You shudder
     at the many deformed and grotesque shapes\n\rpresent before you. Exits are south
     to the reject room and north to\n\rthe entrance hallway.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -728,7 +728,7 @@ rooms:
     or have some defect are placed here before subsequent\n\rdestruction. You shudder
     at the many deformed and grotesque shapes\n\rpresent before you. The only exit
     is north to the reject room.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -746,7 +746,7 @@ rooms:
     There is a big conveyor belt present which makes a lot\n\rof noise! It seems that
     the workers are making drunks today. Exits are\n\reast to the secondary assembly
     line, south to the primary assembly\n\rline and west to the inspection room.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -777,7 +777,7 @@ rooms:
     the workers are making drunks today. Exits are\n\reast to the secondary assembly
     line, north and south to the primary\n\rassembly line and west to the inspection
     room.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -814,7 +814,7 @@ rooms:
     the workers are making drunks today. Exits are\n\reast to the secondary assembly
     line, north and south to the primary\n\rassembly line and west to the entrance
     hallway.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -850,7 +850,7 @@ rooms:
     There is a big conveyor belt present which makes a lot\n\rof noise! It seems that
     the workers are making drunks today. Exits are\n\reast to the secondary assembly
     line, north and south to the primary\n\rassembly line.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -880,7 +880,7 @@ rooms:
     There is a big conveyor belt present which makes a lot\n\rof noise! It seems that
     the workers are making drunks today. Exits are\n\reast to the secondary assembly
     line and north to the primary\n\rassembly line.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -903,7 +903,7 @@ rooms:
     to see cityguard heads come floating on the conveyor belt!\n\rThe very sight is
     sickening, but the workers seem to be quite\n\rcheerful about their work. Exits
     are south to the secondary assembly\n\rline and west to the primary assembly line.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -927,7 +927,7 @@ rooms:
     sickening, but the workers seem to be quite\n\rcheerful about their work. Exits
     are north and south to the secondary\n\rassembly line and west to the primary
     assembly line.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -957,7 +957,7 @@ rooms:
     sickening, but the workers seem to be quite\n\rcheerful about their work. Exits
     are north and south to the secondary\n\rassembly line and west to the primary
     assembly line.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -987,7 +987,7 @@ rooms:
     sickening, but the workers seem to be quite\n\rcheerful about their work. Exits
     are north and south to the secondary\n\rassembly line and west to the primary
     assembly line.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1016,7 +1016,7 @@ rooms:
     to see cityguard heads come floating on the conveyor belt!\n\rThe very sight is
     sickening, but the workers seem to be quite\n\rcheerful about their work. Exits
     are north to the secondary\n\rassembly line and west to the primary assembly line.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:

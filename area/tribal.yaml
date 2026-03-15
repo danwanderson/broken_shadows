@@ -30,7 +30,7 @@ mobiles:
     the Cat is my name and I\n\rsay unto thee...  Say, baby, do you want to lay down
     with me?\"  \n\r"
   race: cat
-  act: 524288
+  act: T
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -58,7 +58,7 @@ mobiles:
   off_flags: 0
   imm_flags: 0
   res_flags: 0
-  vuln_flags: 128
+  vuln_flags: H
   start_pos: 8
   default_pos: 8
   sex: 1
@@ -74,7 +74,7 @@ mobiles:
   long_desc: "A punching bag is here, bobbing back and forth.\n\r"
   description: "It's a clown-faced punching bag.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -121,8 +121,8 @@ mobiles:
     plasma rifle.  He has a number of plasma grenades hanging off his\n\rbody.  In
     one hand he holds his psyonic sword, made of light and thought.  \n\r"
   race: Human
-  act: 2
-  affected_by: 552
+  act: B
+  affected_by: DFJ
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -167,8 +167,8 @@ mobiles:
     long arms and legs are thin, they seem powerful.  You don't think that\n\rit has
     ever gone hungry.  \n\r"
   race: snake
-  act: 524322
-  affected_by: 65536
+  act: BFT
+  affected_by: Q
   affected2_by: 0
   alignment: -1020
   clan: 0
@@ -192,7 +192,7 @@ mobiles:
     bash: 0
     slash: 0
     exotic: 5
-  off_flags: 4160
+  off_flags: GM
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -201,7 +201,7 @@ mobiles:
   sex: 0
   gold: 0
   form: 0
-  parts: 32768
+  parts: P
   size: M
   material: none
   spec_fun:
@@ -236,16 +236,16 @@ mobiles:
     bash: -1
     slash: 3
     exotic: 4
-  off_flags: 16396
+  off_flags: CDO
   imm_flags: 0
-  res_flags: 388
-  vuln_flags: 33280
+  res_flags: CHI
+  vuln_flags: JP
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 30
-  form: 2101377
-  parts: 2047
+  form: AHMV
+  parts: ABCDEFGHIJK
   size: G
   material: none
   spec_fun:
@@ -302,7 +302,7 @@ mobiles:
     of his\n\rpeople because he is strong and wise.  He welcomes you into his home.
     \ \n\r"
   race: Human
-  act: 2
+  act: B
   affected_by: 0
   affected2_by: 0
   alignment: 700
@@ -327,7 +327,7 @@ mobiles:
     bash: 4
     slash: 4
     exotic: 7
-  off_flags: 544
+  off_flags: FJ
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -373,15 +373,15 @@ mobiles:
     bash: 7
     slash: 7
     exotic: 8
-  off_flags: 131584
+  off_flags: JR
   imm_flags: 0
-  res_flags: 256
+  res_flags: I
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 0
-  form: 8
+  form: D
   parts: 0
   size: S
   material: none
@@ -420,7 +420,7 @@ mobiles:
     bash: 6
     slash: 6
     exotic: 8
-  off_flags: 131080
+  off_flags: DR
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -442,7 +442,7 @@ mobiles:
     hunters or warriors generally make weapons and other items that keep\n\rthe Bulu
     alive.  \n\r"
   race: Human
-  act: 524288
+  act: T
   affected_by: 0
   affected2_by: 0
   alignment: 300
@@ -467,9 +467,9 @@ mobiles:
     bash: 5
     slash: 5
     exotic: 7
-  off_flags: 131072
+  off_flags: R
   imm_flags: 0
-  res_flags: 256
+  res_flags: I
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -488,7 +488,7 @@ mobiles:
     and in\n\rhis prime.  He has the scars of being a good protector of the village.
     \ \n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 300
@@ -513,9 +513,9 @@ mobiles:
     bash: 2
     slash: 2
     exotic: 6
-  off_flags: 132128
+  off_flags: FKR
   imm_flags: 0
-  res_flags: 256
+  res_flags: I
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -534,7 +534,7 @@ mobiles:
     young,\n\rstrong, and in his prime.  He has the scars of a good warrior and protector\n\rof
     his village.  \n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 300
@@ -559,9 +559,9 @@ mobiles:
     bash: 2
     slash: 2
     exotic: 6
-  off_flags: 132128
+  off_flags: FKR
   imm_flags: 0
-  res_flags: 256
+  res_flags: I
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -578,7 +578,7 @@ mobiles:
   long_desc: "A Bulu hunter is here, hunting warg.\n\r"
   description:
   race: Human
-  act: 524288
+  act: T
   affected_by: 0
   affected2_by: 0
   alignment: 300
@@ -603,9 +603,9 @@ mobiles:
     bash: 4
     slash: 4
     exotic: 7
-  off_flags: 131104
+  off_flags: FR
   imm_flags: 0
-  res_flags: 256
+  res_flags: I
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -625,7 +625,7 @@ mobiles:
     teeth.  It's claws look like they would make nice daggers,\n\rexcept for the fact
     that they are likely to be puncturing your skin very\n\rshortly.  \n\r"
   race: dog
-  act: 36
+  act: CF
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -650,7 +650,7 @@ mobiles:
     bash: 4
     slash: 4
     exotic: 7
-  off_flags: 1048576
+  off_flags: U
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -672,7 +672,7 @@ mobiles:
     sharp teeth and isn't stingy in showing them off to you.  He seems to be\n\rlooking
     forward to eating you.  \n\r"
   race: dog
-  act: 100
+  act: CFG
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -697,7 +697,7 @@ mobiles:
     bash: 1
     slash: 1
     exotic: 6
-  off_flags: 1048576
+  off_flags: U
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -719,8 +719,8 @@ mobiles:
     specimen of eagle, and is also dissturbed by that fact that you are\n\rinterupting
     it.  \n\r"
   race: song bird
-  act: 34
-  affected_by: 2097152
+  act: BF
+  affected_by: V
   affected2_by: 0
   alignment: 100
   clan: 0
@@ -766,7 +766,7 @@ mobiles:
     to\n\rhave interupted a very important voodoo ceremony.  Be careful!  She might\n\rput
     a hex on you!  \n\r"
   race: Human
-  act: 131106
+  act: BFR
   affected_by: 0
   affected2_by: 0
   alignment: -600
@@ -813,7 +813,7 @@ mobiles:
     for\n\rmany years but that time has not made him soft.  He is as powerful as ever.
     \n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -861,7 +861,7 @@ mobiles:
     what they consider theirs, which is why there is so much\n\rconflict over the
     hunting plains.  \n\r"
   race: Human
-  act: 524288
+  act: T
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -886,9 +886,9 @@ mobiles:
     bash: 5
     slash: 5
     exotic: 7
-  off_flags: 131072
+  off_flags: R
   imm_flags: 0
-  res_flags: 256
+  res_flags: I
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -907,7 +907,7 @@ mobiles:
     not aloud to become warriors, they are trained to protect their village\n\rand
     themselves should either ever become threatend.  \n\r"
   race: Human
-  act: 524288
+  act: T
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -932,9 +932,9 @@ mobiles:
     bash: 6
     slash: 6
     exotic: 8
-  off_flags: 131080
+  off_flags: DR
   imm_flags: 0
-  res_flags: 256
+  res_flags: I
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -976,9 +976,9 @@ mobiles:
     bash: 7
     slash: 7
     exotic: 8
-  off_flags: 131584
+  off_flags: JR
   imm_flags: 0
-  res_flags: 256
+  res_flags: I
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -997,7 +997,7 @@ mobiles:
     protective of their land and dislike intruders.  They have dubbed\n\ryou an intruder.
     \ \n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -1022,9 +1022,9 @@ mobiles:
     bash: 2
     slash: 2
     exotic: 6
-  off_flags: 132128
+  off_flags: FKR
   imm_flags: 0
-  res_flags: 256
+  res_flags: I
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -1042,8 +1042,8 @@ objects:
   description: The anti-sword doesn't lie here.
   material: none
   item_type: 5
-  extra_flags: 320
-  wear_flags: 8193
+  extra_flags: GI
+  wear_flags: AN
   level: 5
   weight: -3
   cost: 0
@@ -1065,8 +1065,8 @@ objects:
   description: An orb is resting here.
   material: none
   item_type: 1
-  extra_flags: 1
-  wear_flags: 1
+  extra_flags: A
+  wear_flags: A
   level: 27
   weight: 5
   cost: 100
@@ -1085,7 +1085,7 @@ objects:
   material: none
   item_type: 3
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 1
   weight: 4
   cost: 300
@@ -1106,8 +1106,8 @@ objects:
   description: A plasma rifle is here.
   material: none
   item_type: 5
-  extra_flags: 2
-  wear_flags: 8193
+  extra_flags: B
+  wear_flags: AN
   level: 15
   weight: 9
   cost: 300
@@ -1129,8 +1129,8 @@ objects:
   description: A sword made of energy and thought is here.
   material: none
   item_type: 5
-  extra_flags: 131137
-  wear_flags: 8193
+  extra_flags: AGR
+  wear_flags: AN
   level: 0
   weight: 0
   cost: 0
@@ -1148,8 +1148,8 @@ objects:
   description: A really, really, really, REALLY big axe is here.
   material: none
   item_type: 5
-  extra_flags: 262
-  wear_flags: 8193
+  extra_flags: BCI
+  wear_flags: AN
   level: 102
   weight: 20
   cost: 600
@@ -1167,8 +1167,8 @@ objects:
   description: The Great Axe of the dwarf Durin lies here.
   material: none
   item_type: 5
-  extra_flags: 67
-  wear_flags: 8193
+  extra_flags: ABG
+  wear_flags: AN
   level: 90
   weight: 20
   cost: 10000
@@ -1180,12 +1180,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 15
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 30
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 15
     bitvector: 0
   extra_descs:
   - keywords: axe
@@ -1199,7 +1199,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 15
   weight: 4
   cost: 30
@@ -1217,8 +1217,8 @@ objects:
   description: An ugly mask of Bulu make is here.
   material: none
   item_type: 9
-  extra_flags: 8192
-  wear_flags: 17
+  extra_flags: N
+  wear_flags: AE
   level: 7
   weight: 5
   cost: 102
@@ -1237,7 +1237,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 5
+  wear_flags: AC
   level: 13
   weight: 4
   cost: 30
@@ -1255,8 +1255,8 @@ objects:
   description: An anabolic protoplaser is humming quietly to itself...
   material: none
   item_type: 3
-  extra_flags: 3
-  wear_flags: 16385
+  extra_flags: AB
+  wear_flags: AO
   level: 15
   weight: 5
   cost: 10000
@@ -1275,7 +1275,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 1
   weight: 2
   cost: 10
@@ -1294,7 +1294,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 4
   weight: 4
   cost: 5
@@ -1313,7 +1313,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 12
   weight: 7
   cost: 20
@@ -1331,8 +1331,8 @@ objects:
   description: A potion that looks anger in a bottle is here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 13
   weight: 2
   cost: 50
@@ -1351,7 +1351,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 2
   cost: 25
@@ -1363,12 +1363,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 2
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 10211
@@ -1377,8 +1377,8 @@ objects:
   description: An eagle feather necklace is here.
   material: none
   item_type: 9
-  extra_flags: 65600
-  wear_flags: 5
+  extra_flags: GQ
+  wear_flags: AC
   level: 9
   weight: 2
   cost: 102
@@ -1423,7 +1423,7 @@ objects:
   material: none
   item_type: 8
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 1
   weight: 6
   cost: 100
@@ -1445,8 +1445,8 @@ objects:
   description: A ring made of gold is here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 3
+  extra_flags: G
+  wear_flags: AB
   level: 10
   weight: 2
   cost: 70
@@ -1458,12 +1458,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 13
     modifier: 5
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 10215
@@ -1473,7 +1473,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 2
   cost: 0
@@ -1492,7 +1492,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 15
   weight: 6
   cost: 70
@@ -1515,7 +1515,7 @@ objects:
   material: none
   item_type: 13
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 4
   cost: 0
@@ -1723,14 +1723,14 @@ rooms:
   name: Entrance to the Shuli Tribe's Village
   description: "You are at the entrance to the Shuli village.  The pointed stick fence\n\rconverges
     here to form a gate that forbids entrance to the village.  \n\r"
-  room_flags: 4
+  room_flags: C
   sector: 2
   owner:
   exits:
   - dir: 0
     desc:
     keywords: gate
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 10248
   - dir: 2
@@ -1764,7 +1764,7 @@ rooms:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 10247
   - dir: 3
@@ -2339,7 +2339,7 @@ rooms:
     also some extremely well crafted metal objects, objects that seem far\n\rtoo complex
     for Bulu tribesmen to make.  There is a glow coming from the\n\reastern wall.
     \ \n\r"
-  room_flags: 12
+  room_flags: CD
   sector: 0
   owner:
   exits:
@@ -2360,7 +2360,7 @@ rooms:
   name: A portal
   description: "You are in a portal to other times and other worlds.  Images of strange,\n\rconfusing
     people and places float through your mind.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2376,7 +2376,7 @@ rooms:
   description: "You are at the bottom of the stagnant pool.  The water here is murky
     and\n\rfeels slimy.  Bones of animals and humans litter the ground here.  You
     think\n\ryou see something lurking underneath a large rock.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2391,7 +2391,7 @@ rooms:
   name: Path in the forest
   description: "You are on a path in a dark forest.  To the north the forest seems\n\rlighter.
     \ \n\r"
-  room_flags: 4
+  room_flags: C
   sector: 3
   owner:
   exits: []
@@ -2400,7 +2400,7 @@ rooms:
   name: Dotty's place
   description: "You are in Dotty's place.  I don't know what it is or anything.  It's\n\rjust
     sorta here.  Enjoy!  \n\r"
-  room_flags: 5
+  room_flags: AC
   sector: 0
   owner:
   exits: []
@@ -2411,7 +2411,7 @@ rooms:
   name: A faded path
   description: "You are on the path between the dark forest to the south and the Bulu\n\rvillage
     to the north.  \n\r"
-  room_flags: 4
+  room_flags: C
   sector: 3
   owner:
   exits:
@@ -2808,7 +2808,7 @@ rooms:
   description: "You are at the entrence to Bulu village.  The stick fence has an opening\n\rhere
     allowing friends of the Bulu to enter and leave without trouble. \n\rEnemies of
     the Bulu, however, will meet the spears of the tribe's fiercest\n\rwarriors.  \n\r"
-  room_flags: 4
+  room_flags: C
   sector: 0
   owner:
   exits:
@@ -3216,7 +3216,7 @@ rooms:
   name: Inside the caves
   description: "You are inside the caves inside the mountain.  It is a perfectly dry,\n\rcomfortable
     cave.  The sort of cave a bear would live in...  \n\rThere is a sign here.\n\r"
-  room_flags: 13
+  room_flags: ACD
   sector: 0
   owner:
   exits:

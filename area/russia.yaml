@@ -13,8 +13,8 @@ mobiles:
   long_desc: "A palace guard is standing here, guarding the gate.\n\r"
   description:
   race: Human
-  act: 524322
-  affected_by: 268435968
+  act: BFT
+  affected_by: Jc
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -38,9 +38,9 @@ mobiles:
     bash: 0
     slash: 0
     exotic: 0
-  off_flags: 526124
-  imm_flags: 1
-  res_flags: 2
+  off_flags: CDFIJKT
+  imm_flags: A
+  res_flags: B
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -246,7 +246,7 @@ rooms:
     are\n\reverywhere.  You'd love to spend some time wandering around St.  Petersburg\n\rbut
     you sense that the only place you must explore is the palace.  Many\n\rgreat things
     await you behind those palace walls.  \n\r"
-  room_flags: 4
+  room_flags: C
   sector: 1
   owner:
   exits:
@@ -335,7 +335,7 @@ rooms:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 11515
   - dir: 1
@@ -358,14 +358,14 @@ rooms:
     \ You listen to part of their conversation, they mention that the\n\rpalace has
     several secret passages.  Interesting, this information might\n\rprove to be useful.
     \ \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 11514
   extra_descs: []
@@ -373,7 +373,7 @@ rooms:
   name: The Alley
   description: "You continue your way through the alley.  Further to the west you
     can see\n\rthe spires of the palace.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
@@ -395,7 +395,7 @@ rooms:
   description: "You are nearing the walls of the palace and of course, you are\n\ranticipating
     more guards.  Better prepare yourself.  They may not take\n\rkindly to a stranger
     lurking in the shadows.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
@@ -469,7 +469,7 @@ rooms:
   description: "You decide to follow the old road, at least it will get you away from
     the\n\rdangers that await you in the city.  Although, who knows what you'll run\n\rinto
     amongst the trees.  None the less, you continue your journey.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -506,7 +506,7 @@ rooms:
   description: "You notice that the road narrows as you venture deeper into the forest,\n\rturning
     more into a trail.  The trees shelter you from the harsh Russian\n\rwinter as
     you continue your way south.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -528,7 +528,7 @@ rooms:
   description: "You wonder how much further it is to the Palace, or if you should
     maybe\n\rturn back.  It's cold, and dark in this deep forest.  No one around for\n\rmiles,
     except maybe the wolves.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -549,7 +549,7 @@ rooms:
   name: Further into the Dark, Russian Forest
   description: "It seems you have some choices to make.  Choose wisely, this is not
     the\n\rplace to get lost.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -581,7 +581,7 @@ rooms:
 - vnum: 11525
   name: Darkness
   description: "Nothing but darkness surrounds you, and there's no way out.\n\r"
-  room_flags: 5
+  room_flags: AC
   sector: 3
   owner:
   exits: []
@@ -589,7 +589,7 @@ rooms:
 - vnum: 11526
   name: Darkness
   description: "Nothing but darkness surrounds you, and there's no way out.\n\r"
-  room_flags: 5
+  room_flags: AC
   sector: 3
   owner:
   exits: []
@@ -599,7 +599,7 @@ rooms:
   description: "Wise choice!  Although, as you look around, you don't see much of
     a\n\rdifference.  You're tired, and wish this journey would end.  But you know\n\rthe
     rewards of the Palace can't be too far off.  You push yourself further. \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -621,7 +621,7 @@ rooms:
   description: "The forest isn't as dark and threatening here and you can definately
     see\n\rthe end of the trail in the distance.  Although, you're not exactly sure\n\rwhere
     the trail will end.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -643,7 +643,7 @@ rooms:
   description: "You now figure you'll end up somewhere on the north side of the town
     of\n\rTsarskoe Selo.  That means you may be closer to the palace than you thought!\n\rYou
     quicken your pace through the forest.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -835,7 +835,7 @@ rooms:
     saints\n\rcover the walls and domes.  Religious ikons rest in niches in the walls,
     and\n\rbefore you, towers a beautiful marble altar, enchantingly mysterious and\n\rholding
     many secrets.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -849,7 +849,7 @@ rooms:
 - vnum: 11538
   name: The Fyodorovsky Cathedral
   description:
-  room_flags: 12
+  room_flags: CD
   sector: 0
   owner:
   exits: []
@@ -857,7 +857,7 @@ rooms:
 - vnum: 11539
   name: The Fyodorovsky Cathedral
   description:
-  room_flags: 12
+  room_flags: CD
   sector: 0
   owner:
   exits: []
@@ -865,7 +865,7 @@ rooms:
 - vnum: 11540
   name: The Fyodorovsky Cathedral
   description:
-  room_flags: 12
+  room_flags: CD
   sector: 0
   owner:
   exits: []
@@ -913,7 +913,7 @@ rooms:
   description: "You've discovered a secret tunnel behind the altar!  Could this be
     like\n\rthe ones you've heard about in the Palace?  The altar slams shut behind
     you,\n\rguess you're stuck down here.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 0
   owner:
   exits:
@@ -928,7 +928,7 @@ rooms:
   name: An Underground Tunnel
   description: "It's damp, and dark, and cold down here.  What person could possibly
     want\n\rto use this method?  You are getting discouraged.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 0
   owner:
   exits:
@@ -949,7 +949,7 @@ rooms:
   name: An Underground Tunnel
   description: "Guck oozes from the tunnel ceiling.  You are not amused.  You can't
     see a\n\rthing.  \n\r \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 0
   owner:
   exits:
@@ -970,7 +970,7 @@ rooms:
   name: A Dead End
   description: "Nothing.  Absolutely nothing.  Now what do you do?  There MUST be
     a way\n\rout!  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 0
   owner:
   exits:
@@ -988,7 +988,7 @@ rooms:
     \n\rThe central doors of the apse open out onto a terrace overlooking the\n\rAlexander
     Gardens.  White marble fireplaces are situated on either side of\n\rthe main entrance.
     \ \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1017,7 +1017,7 @@ rooms:
     all guilded pieces covered in fine blue silk.  On the walls hang\n\rportraits
     documenting several generations of the Romanov Dynasty.  Again,\n\rthese walls
     are covered in the same white marble as the other Great Halls.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1043,7 +1043,7 @@ rooms:
     oil paintings hanging on the walls, one is of the Tsarina Aleksandra\n\rand there
     is even one of the great Queen Victoria herself.  To your north is\n\ra huge guilded
     pier mirror and it may be worth your while to take a closer\n\rlook.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1066,7 +1066,7 @@ rooms:
     \n\rThis is where the Tsar's children spent much of their time entertaining\n\rfriends.
     \ Several bird cages are hung throughout the room holding\n\rmagnificent parrots
     of all colors.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1090,7 +1090,7 @@ rooms:
     and guilded bronze lanterns hang in a row down the center of the\n\rroom.  On
     top of the cases are models of mounted cavalrymen.  Several bronze\n\rstatuettes
     and ship models are placed neatly on tables throughout the room. \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1114,7 +1114,7 @@ rooms:
     of this room and are all filled with a unique collection of rare and\n\rhistorical
     books.  In the center of the room is a chippendale style table\n\rand chairs where
     the Tsar and his family sometimes prefer to dine.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1138,7 +1138,7 @@ rooms:
     the private collection of the Royal Family.  Two mahogany desks are\n\rsituated
     in the center of the room and are used by the two full time\n\rlibrarians employed
     by the Tsar.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1157,7 +1157,7 @@ rooms:
     and\n\rcapitals are intricately carved.  Artificial marble, in an icy sea green,\n\rcover
     the columns and walls.  The wall panels are framed in a darker color\n\rmarble.
     \ \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1176,7 +1176,7 @@ rooms:
     wall.  The furniture is also dark wood and covered in a soft\n\rstudded leather.
     \ A mable-faced fireplace with a tall wooden chimney keeps\n\rthis room warm and
     cozy.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1202,7 +1202,7 @@ rooms:
     and is covered with family pictures, folders, appointment books and\n\ra clock.
     \ There is also a marble-faced fireplace in this room, similar to\n\rthe one in
     his reception room but on a smaller scale.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1221,7 +1221,7 @@ rooms:
     opposite the tub and on it are many of the Tsar's personal treasures\n\rincluding
     gifts from his children.  Above the doorway is draped a\n\rembroidered cloth with
     a double eagle.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1240,7 +1240,7 @@ rooms:
     other than that, there is no furniture at all.  The Tsar's\n\rwardrobe consists
     mainly of uniforms, but when he's dressed up in one for a\n\rformal affair he
     looks just as regal as his lovely wife.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1265,7 +1265,7 @@ rooms:
     bronze stand regally on either side of the Tsar's\n\rChippendale desk.  The Tsar
     also has a large pool table made of mahogany\n\rbehind his desk where he sometimes
     passes the time with guests.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1283,7 +1283,7 @@ rooms:
     artificial marble and topped by a beautifully molded entablature.  The\n\rstark
     whiteness of the room is set off by heavy cranberry colored curtains. \n\rTwo
     ivory screens covered in tapestry bear the Royal Monogram.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1307,7 +1307,7 @@ rooms:
     of carved plaster cabbage roses rising into a swirled pale green\n\rcircle in
     the center of the ceiling.  Bearskin rugs sprawl across the\n\rgray-green castor
     carpet.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1325,7 +1325,7 @@ rooms:
     room warm and inviting.  The furniture is of the same rosewood.  This is\n\rwhere
     the family oftens sits down for tea together.  The Tsarina keeps most\n\rof her
     personal treasures in this very room.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1343,7 +1343,7 @@ rooms:
     lemonwood furniture.  This room is the traditional family gathering\n\rroom and
     contains many interesting and personal items belonging to the\n\rImperial Royal
     Family.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1363,7 +1363,7 @@ rooms:
     ivory and covered in the same material as the\n\rwalls.  The sleeping area has
     a majestic gilt bronze bed covered in silk and\n\rlace coverlets and topped by
     piles of down-filled pillows.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1388,7 +1388,7 @@ rooms:
     these clothes in a lifetime!  The Tsarina changes her clothes\n\ran average of
     5 times daily.  Two maids make sure that her clothes are laid\n\rout and ready
     for Aleksandra in a timely manner.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1420,7 +1420,7 @@ rooms:
     Tsarina's.  One the opposite wall is a elegant\n\rmarble fireplace which is also
     lit for the Tsarina's bath every evening to\n\rensure that her Royal Highness
     doesn't catch a chill.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1455,7 +1455,7 @@ rooms:
     quite\n\rcomfortable.  The walls are decorated with a lively print and the furniture\n\ris
     light oak.  The table is covered in a beautiful antique white, lace table\n\rcloth.
     \ \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1474,7 +1474,7 @@ rooms:
     of the girls with their family and friends are placed on the tables\n\rand hang
     on the walls.  A desk is in the corner and on it is writing paper\n\rand ink for
     the Duchesses' personal correspondence.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1492,7 +1492,7 @@ rooms:
     on the west wall.  Mahogany desks are lined up facing the board\n\rin an orderly
     fashion.  There are bookshelves along the other walls\n\rcontaining the neccessary
     tools required for the children's daily studies\n\rwith their tutors.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1511,7 +1511,7 @@ rooms:
     cluttering the tables as well as jeweled hairbrushes and\n\rmatching mirrors.
     \ This room, depite it's incredible size, doesn't seem like\n\renough room for
     four girls, but then again, is any room?  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1531,7 +1531,7 @@ rooms:
     room.  There are also chairs covered in a striped green\n\rsilk.  The furniture
     is all made of maple, stained grey.  Photographs and\n\rpaintings cover the walls
     and personal mementos scatter this room as well.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1555,7 +1555,7 @@ rooms:
     the\n\rroom.  Here, Anastasia is the one who sleeps behind the screen and Maria's\n\rbed
     is placed neatly in the center of the room.  A beautiful fireplace,\n\rsurrounded
     by German tiles keeps the dampness out of the room.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1581,7 +1581,7 @@ rooms:
     dolls that the children own and each evening they place an\n\rorder for the toys
     they require for the next day and the selected toys are\n\rbrought up from the
     basement by palace servants before the children awake.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1606,7 +1606,7 @@ rooms:
     and\n\rholy convents across Russia.  These were all given to Aleksey in the hopes\n\rthat
     they will somehow aid him as he struggles against his dreadful disease.\n\rAbove
     his bed is an ikon of St.  Seraphim of Sarovskii, Aleksey's patron\n\rsaint.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1625,7 +1625,7 @@ rooms:
     well.  This is where the three oldest Grand Duchesses practice their\n\rlessons,
     a teacher is brought in every afternoon the ensure that they keep\n\rplaying magnificently.
     \ \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1640,7 +1640,7 @@ rooms:
   name: Corridor Elevator
   description: "You find yourself enclosed in a small, dark elevator.  There are only
     two\n\rbuttons, up and down.  This should be easy to figure out.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1662,7 +1662,7 @@ rooms:
   description: "This hallway is long and spacious, with many exits leading to majestic\n\rrooms.
     \ The walls are covered in a chaste, white artificial marble that is\n\rtypical
     throughout this rooms on this floor.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1690,7 +1690,7 @@ rooms:
   description: "This hallway is long and spacious, with many exits leading to majestic\n\rrooms.
     \ The walls are covered in a chaste, white artificial marble that is\n\rtypical
     throughout this rooms on this floor.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1716,7 +1716,7 @@ rooms:
 - vnum: 11583
   name: The White Room
   description:
-  room_flags: 13
+  room_flags: ACD
   sector: 0
   owner:
   exits: []
@@ -1726,7 +1726,7 @@ rooms:
   description: "This hallway is long and spacious, with many exits leading to majestic\n\rrooms.
     \ The walls are covered in a chaste, white artificial marble that is\n\rtypical
     throughout this rooms on this floor.  \n\rThere is an iron gate to your south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1760,7 +1760,7 @@ rooms:
   description: "This hallway is long and spacious, with many exits leading to majestic\n\rrooms.
     \ The walls are covered in a chaste, white artificial marble that is\n\rtypical
     throughout this rooms on this floor.  \n\rThere is an iron gate to the west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1794,7 +1794,7 @@ rooms:
   description: "This hallway is long and spacious, with many exits leading to majestic\n\rrooms.
     \ The walls are covered in a chaste, white artificial marble that is\n\rtypical
     throughout this rooms on this floor.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1822,7 +1822,7 @@ rooms:
   description: "This hallway is long and spacious, with many exits leading to majestic\n\rrooms.
     \ The walls are covered in a chaste, white artificial marble that is\n\rtypical
     throughout this rooms on this floor.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1850,7 +1850,7 @@ rooms:
   description: "This hallway is long and spacious, with many exits leading to majestic\n\rrooms.
     \ The walls are covered in a chaste, white artificial marble that is\n\rtypical
     throughout this rooms on this floor.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1878,7 +1878,7 @@ rooms:
   description: "This hallway is long and spacious, with many exits leading to majestic\n\rrooms.
     \ The walls are covered in a chaste, white artificial marble that is\n\rtypical
     throughout this rooms on this floor.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1906,7 +1906,7 @@ rooms:
   description: "This hallway is long and spacious, with many exits leading to majestic\n\rrooms.
     \ The walls are covered in a chaste, white artificial marble that is\n\rtypical
     throughout this rooms on this floor.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1934,7 +1934,7 @@ rooms:
   description: "This hallway is long and spacious, with many exits leading to majestic\n\rrooms.
     \ The walls are covered in a chaste, white artificial marble that is\n\rtypical
     throughout this rooms on this floor.  \n\rThere is an iron gate to your west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1968,7 +1968,7 @@ rooms:
   description: "This hallway is long and spacious, with many exits leading to majestic\n\rrooms.
     \ The walls are covered in a chaste, white artificial marble that is\n\rtypical
     throughout this rooms on this floor.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1996,7 +1996,7 @@ rooms:
   description: "This hallway is long and spacious, with many exits leading to majestic\n\rrooms.
     \ The walls are covered in a chaste, white artificial marble that is\n\rtypical
     throughout this rooms on this floor.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2024,7 +2024,7 @@ rooms:
   description: "This hallway is long and spacious, with many exits leading to majestic\n\rrooms.
     \ The walls are covered in a chaste, white artificial marble that is\n\rtypical
     throughout this rooms on this floor.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2058,7 +2058,7 @@ rooms:
   description: "This hallway is long and spacious, with many exits leading to majestic\n\rrooms.
     \ The walls are covered in a chaste, white artificial marble that is\n\rtypical
     throughout this rooms on this floor.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2091,7 +2091,7 @@ rooms:
   name: Corridor Elevator
   description: "You find yourself enclosed in a small, dark elevator.  There are only
     two\n\rbuttons, up and down.  This should be easy to figure out.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2118,7 +2118,7 @@ rooms:
   name: Corridor Elevator
   description: "You find yourself enclosed in a small, dark elevator.  There are only
     two\n\rbuttons, up and down.  This should be easy to figure out.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:

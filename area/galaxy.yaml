@@ -13,7 +13,7 @@ mobiles:
   long_desc: "A poor mudder, lost in this place.\n\r"
   description: "You will become him if you are not careful.\n\r"
   race: Human
-  act: 524356
+  act: CGT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -57,7 +57,7 @@ mobiles:
   long_desc: "A beautiful white star smiles at you.\n\r"
   description: "You can't tell what the star looks like, she is too bright!\n\r"
   race: Human
-  act: 524354
+  act: BGT
   affected_by: 0
   affected2_by: 0
   alignment: 500
@@ -101,7 +101,7 @@ mobiles:
   long_desc: "A young nebula, waiting to become a star.\n\r"
   description: "It hasn't got a definite shape, it is just a cloud of mist.\n\r"
   race: Human
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 200
@@ -146,7 +146,7 @@ mobiles:
   description: "You see the offspring of Halley's comet, here just to wipe everything
     out.\n\r"
   race: Human
-  act: 524388
+  act: CFGT
   affected_by: 0
   affected2_by: 0
   alignment: -500
@@ -191,7 +191,7 @@ mobiles:
   description: "You notice the giant is not as tough as his name sounds ...\n\rStill
     he can be very powerful.\n\r"
   race: Human
-  act: 524482
+  act: BGHT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -236,7 +236,7 @@ mobiles:
   description: "Like the red giant, he is also appointed to stand guard for the galaxy.\n\rBut
     somehow he manages to escape.  Though tiny, it can take a lot of hits!\n\r"
   race: Human
-  act: 524356
+  act: CGT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -281,8 +281,8 @@ mobiles:
   description: "You can only make out its shape from the darkness.  He was cursed
     to stay in\n\rhere and his face may never be seen by anyone again.\n\r"
   race: Human
-  act: 524354
-  affected_by: 98304
+  act: BGT
+  affected_by: PQ
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -326,8 +326,8 @@ mobiles:
   description: "She was once a princess of beauty.  However, her beauty has led to
     a Goddess's\n\rjealousy and she has to suffer here endlessly until Perseus comes.\n\r"
   race: Human
-  act: 524370
-  affected_by: 128
+  act: BEGT
+  affected_by: H
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -372,8 +372,8 @@ mobiles:
     Hera, the\n\rqueen goddess, who disliked him.  But he finished them all and at
     the end was\n\rgranted immortality. He is a very brave and strong fighter.\n\r"
   race: Human
-  act: 524354
-  affected_by: 128
+  act: BGT
+  affected_by: H
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -416,7 +416,7 @@ mobiles:
   long_desc: "The wild pegasus is grazing peacefully.\n\r"
   description: "It is the legendary horse with wings on its back.\n\r"
   race: Human
-  act: 524482
+  act: BGHT
   affected_by: 0
   affected2_by: 0
   alignment: 300
@@ -463,8 +463,8 @@ mobiles:
     on one side of the sky and the other the other side so they will\n\rnever meet.
     \n\r"
   race: Human
-  act: 524354
-  affected_by: 128
+  act: BGT
+  affected_by: H
   affected2_by: 0
   alignment: 300
   clan: 0
@@ -508,7 +508,7 @@ mobiles:
   description: "These are the seven sisters of the Myths, and as for why they are
     here, no\n\rone knows; even the Gods themselves have forgotten.\n\r"
   race: Human
-  act: 524354
+  act: BGT
   affected_by: 0
   affected2_by: 0
   alignment: 300
@@ -555,8 +555,8 @@ mobiles:
     guardian \n\rbefore entering the inner galaxy.  His neck is flexing in a random
     fashion so \n\rhitting the head is certainly not easy.\n\r"
   race: Human
-  act: 524386
-  affected_by: 136
+  act: BFGT
+  affected_by: DH
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -601,7 +601,7 @@ mobiles:
     body\n\rresembles a snake.  Gosh, is this a draco, you wonder, is this the thing\n\rwe
     are on now?\n\r"
   race: Human
-  act: 524484
+  act: CGHT
   affected_by: 0
   affected2_by: 0
   alignment: -700
@@ -646,8 +646,8 @@ mobiles:
   description: "You see a white goat here, the first guardian of the Zodiac,\n\ralso
     the ruler of Spring. He looks as if he is expecting you.\n\r"
   race: Human
-  act: 524354
-  affected_by: 128
+  act: BGT
+  affected_by: H
   affected2_by: 0
   alignment: 700
   clan: 0
@@ -692,8 +692,8 @@ mobiles:
     looks like \n\rhe can fight well ... indeed he has fought with Orion before and
     survived.\n\r"
   race: Human
-  act: 524386
-  affected_by: 136
+  act: BFGT
+  affected_by: DH
   affected2_by: 0
   alignment: -100
   clan: 0
@@ -737,8 +737,8 @@ mobiles:
   description: "As soon as you see him you know that he is the most perfect man you
     have seen.\n\rYou can't find any imperfections on him.\n\r"
   race: Human
-  act: 524354
-  affected_by: 128
+  act: BGT
+  affected_by: H
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -782,8 +782,8 @@ mobiles:
   description: "As soon as you see him you see the most imperfect man you have ever
     seen.\n\rHow can there be such a contrast?  You wonder ...\n\r"
   race: Human
-  act: 524518
-  affected_by: 1048712
+  act: BCFGHT
+  affected_by: DHU
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -828,8 +828,8 @@ mobiles:
     shell.\n\rLegend is that he was crushed by Hercules when he was sent by Hera to
     kill him.\n\rSo Hera made Cancer a constellation for his work. \n\r"
   race: Human
-  act: 524354
-  affected_by: 128
+  act: BGT
+  affected_by: H
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -874,8 +874,8 @@ mobiles:
     by Hercules\n\rduring his first Labour.  His skin is so weapon-proof that Hercules
     had to use\n\rhis bare hands to tear the lion into two from its mouth!\n\r"
   race: Human
-  act: 524386
-  affected_by: 136
+  act: BFGT
+  affected_by: DH
   affected2_by: 0
   alignment: -100
   clan: 0
@@ -920,8 +920,8 @@ mobiles:
     and Virgo\n\rmay not be the maid of chastity and purity at all!  But still she
     looks\n\rgorgeous and is waiting for your first move, whatever it is ...\n\r"
   race: Human
-  act: 524354
-  affected_by: 128
+  act: BGT
+  affected_by: H
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -966,8 +966,8 @@ mobiles:
   description: "He is a wise old man and can see people's thoughts through their eyes....\n\rNow
     all he can see from you is greed and bloodshed.\n\r"
   race: Human
-  act: 524354
-  affected_by: 128
+  act: BGT
+  affected_by: H
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1012,8 +1012,8 @@ mobiles:
   description: "Ever since he killed Orion in the myths, he has been punished by having
     \n\rSagittarius' arrow aimed at his heart forever.\n\r"
   race: Human
-  act: 524386
-  affected_by: 136
+  act: BFGT
+  affected_by: DH
   affected2_by: 0
   alignment: -200
   clan: 0
@@ -1057,8 +1057,8 @@ mobiles:
     ...\n\r"
   description: "He is a centaur and a well trained archer. No one can escape his arrows.\n\r"
   race: Human
-  act: 524354
-  affected_by: 128
+  act: BGT
+  affected_by: H
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1103,8 +1103,8 @@ mobiles:
     the ancient\n\rwar but now the gods have decided to put him here, to live out
     the rest of his \n\rdays in peace.\n\r"
   race: Human
-  act: 524354
-  affected_by: 128
+  act: BGT
+  affected_by: H
   affected2_by: 0
   alignment: 700
   clan: 0
@@ -1148,8 +1148,8 @@ mobiles:
   description: "The pretty Water Bearer is smiling at you, you think you'd better
     give her a \n\rhand with holding the vessel. \n\r"
   race: Human
-  act: 524354
-  affected_by: 128
+  act: BGT
+  affected_by: H
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1193,8 +1193,8 @@ mobiles:
   description: "She has been forced to serve her husband, who had been cursed to turn
     into a\n\rfish and she deserves your pity.\n\r"
   race: Human
-  act: 524354
-  affected_by: 128
+  act: BGT
+  affected_by: H
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1239,8 +1239,8 @@ mobiles:
     fish.\n\rSo he becomes jealous of any living thing which is more handsome than
     him.\n\r"
   race: Human
-  act: 524386
-  affected_by: 128
+  act: BFGT
+  affected_by: H
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -1284,8 +1284,8 @@ mobiles:
   description: "The Huge Bear which resides in the northern skies is here. \n\rYou
     think you'd better turn back.  At least you have got a chance of survival.\n\r"
   race: bear
-  act: 524386
-  affected_by: 136
+  act: BFGT
+  affected_by: DH
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -1329,8 +1329,8 @@ mobiles:
   description: "She is the Queen of Dignity; facing her you feel all your dignity
     has gone.\n\r"
   race: Human
-  act: 524354
-  affected_by: 128
+  act: BGT
+  affected_by: H
   affected2_by: 0
   alignment: 700
   clan: 0
@@ -1374,8 +1374,8 @@ mobiles:
   description: "He is the King of Might as well as of the Universe. You suddenly feel
     very\n\rweak and useless in front of him.\n\r"
   race: Human
-  act: 524354
-  affected_by: 128
+  act: BGT
+  affected_by: H
   affected2_by: 0
   alignment: 700
   clan: 0
@@ -1422,8 +1422,8 @@ mobiles:
     is \n\ractually a STAR, with dazzling bright light ... maybe you shouldn't have
     come\n\rhere at all?\n\r"
   race: Human
-  act: 524354
-  affected_by: 138
+  act: BGT
+  affected_by: BDH
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1467,8 +1467,8 @@ objects:
   description: A long, slender whip lies here.
   material: none
   item_type: 5
-  extra_flags: 3
-  wear_flags: 8193
+  extra_flags: AB
+  wear_flags: AN
   level: 11
   weight: 9
   cost: 110
@@ -1486,8 +1486,8 @@ objects:
   description: Arm plates of the Zodiac lie here.
   material: none
   item_type: 9
-  extra_flags: 1089
-  wear_flags: 257
+  extra_flags: AGK
+  wear_flags: AI
   level: 18
   weight: 10
   cost: 180
@@ -1499,12 +1499,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 1
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 2
+    bitvector: 0
+  - where: O
+    location: 1
+    modifier: 1
     bitvector: 0
   extra_descs:
   - keywords: arm
@@ -1516,8 +1516,8 @@ objects:
   description: A belt of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: 1089
-  wear_flags: 2049
+  extra_flags: AGK
+  wear_flags: AL
   level: 19
   weight: 7
   cost: 190
@@ -1542,8 +1542,8 @@ objects:
   description: A massive skull of a dead Draco lies here.
   material: none
   item_type: 4
-  extra_flags: 194
-  wear_flags: 16385
+  extra_flags: BGH
+  wear_flags: AO
   level: 25
   weight: 20
   cost: 250
@@ -1561,8 +1561,8 @@ objects:
   description: A fleece of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: 1089
-  wear_flags: 5
+  extra_flags: AGK
+  wear_flags: AC
   level: 22
   weight: 9
   cost: 220
@@ -1587,8 +1587,8 @@ objects:
   description: A hoof of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: 1089
-  wear_flags: 65
+  extra_flags: AGK
+  wear_flags: AG
   level: 21
   weight: 10
   cost: 210
@@ -1600,12 +1600,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 14
-    modifier: 50
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 14
+    modifier: 50
     bitvector: 0
   extra_descs:
   - keywords: hoof
@@ -1616,8 +1616,8 @@ objects:
   description: A mask of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: 1217
-  wear_flags: 17
+  extra_flags: AGHK
+  wear_flags: AE
   level: 21
   weight: 7
   cost: 210
@@ -1629,12 +1629,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 1
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 2
     modifier: 2
+    bitvector: 0
+  - where: O
+    location: 1
+    modifier: 1
     bitvector: 0
   extra_descs:
   - keywords: mask
@@ -1646,8 +1646,8 @@ objects:
   description: A shell of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: 1089
-  wear_flags: 9
+  extra_flags: AGK
+  wear_flags: AD
   level: 22
   weight: 15
   cost: 220
@@ -1672,8 +1672,8 @@ objects:
   description: A skin of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: 1089
-  wear_flags: 1025
+  extra_flags: AGK
+  wear_flags: AK
   level: 22
   weight: 15
   cost: 220
@@ -1694,8 +1694,8 @@ objects:
   description: A bracelet of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: 1089
-  wear_flags: 4097
+  extra_flags: AGK
+  wear_flags: AM
   level: 23
   weight: 4
   cost: 230
@@ -1719,8 +1719,8 @@ objects:
   description: A shield of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: 1089
-  wear_flags: 513
+  extra_flags: AGK
+  wear_flags: AJ
   level: 22
   weight: 15
   cost: 220
@@ -1732,12 +1732,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 17
-    modifier: -3
-    bitvector: 0
-  - where: O
     location: 13
     modifier: 5
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: -3
     bitvector: 0
   extra_descs:
   - keywords: scale
@@ -1748,8 +1748,8 @@ objects:
   description: A shield of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: 194
-  wear_flags: 513
+  extra_flags: BGH
+  wear_flags: AJ
   level: 22
   weight: 15
   cost: 220
@@ -1761,12 +1761,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 17
-    modifier: 6
-    bitvector: 0
-  - where: O
     location: 13
     modifier: -30
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: 6
     bitvector: 0
   extra_descs:
   - keywords: scale
@@ -1777,8 +1777,8 @@ objects:
   description: Sting of the Zodiac lies here.
   material: none
   item_type: 5
-  extra_flags: 1089
-  wear_flags: 8193
+  extra_flags: AGK
+  wear_flags: AN
   level: 23
   weight: 7
   cost: 230
@@ -1790,12 +1790,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 3
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 3
     bitvector: 0
   extra_descs:
   - keywords: sting
@@ -1807,8 +1807,8 @@ objects:
   description: The Arrow of Sagittarius lies here.
   material: none
   item_type: 3
-  extra_flags: 1089
-  wear_flags: 16385
+  extra_flags: AGK
+  wear_flags: AO
   level: 22
   weight: 7
   cost: 220
@@ -1828,8 +1828,8 @@ objects:
   description: The Titanic Bow of Sagittarius lies here.
   material: none
   item_type: 5
-  extra_flags: 1089
-  wear_flags: 8193
+  extra_flags: AGK
+  wear_flags: AN
   level: 22
   weight: 20
   cost: 220
@@ -1841,12 +1841,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 3
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 1
     bitvector: 0
   extra_descs:
   - keywords: bow
@@ -1857,8 +1857,8 @@ objects:
   description: A pair of horns of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: 1089
-  wear_flags: 129
+  extra_flags: AGK
+  wear_flags: AH
   level: 22
   weight: 6
   cost: 220
@@ -1870,12 +1870,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 3
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 2
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 3
     bitvector: 0
   extra_descs:
   - keywords: horn
@@ -1887,8 +1887,8 @@ objects:
   description: A vessel of the Zodiac lies here.
   material: none
   item_type: 4
-  extra_flags: 1089
-  wear_flags: 16385
+  extra_flags: AGK
+  wear_flags: AO
   level: 23
   weight: 12
   cost: 230
@@ -1909,8 +1909,8 @@ objects:
   description: A fish tail of the Zodiac lies here.
   material: none
   item_type: 9
-  extra_flags: 1089
-  wear_flags: 33
+  extra_flags: AGK
+  wear_flags: AF
   level: 23
   weight: 10
   cost: 230
@@ -1922,11 +1922,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 17
+    location: 2
     modifier: -2
     bitvector: 0
   - where: O
-    location: 2
+    location: 17
     modifier: -2
     bitvector: 0
   extra_descs:
@@ -1939,8 +1939,8 @@ objects:
   description: A ring of specialty lies here.
   material: none
   item_type: 9
-  extra_flags: 1123
-  wear_flags: 3
+  extra_flags: ABFGK
+  wear_flags: AB
   level: 26
   weight: 3
   cost: 260
@@ -1952,12 +1952,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 12
-    modifier: 25
-    bitvector: 0
-  - where: O
     location: 3
     modifier: 2
+    bitvector: 0
+  - where: O
+    location: 12
+    modifier: 25
     bitvector: 0
   extra_descs:
   - keywords: ring
@@ -1969,8 +1969,8 @@ objects:
   description: A sceptre of interest lies here.
   material: none
   item_type: 1
-  extra_flags: 1123
-  wear_flags: 16349
+  extra_flags: ABFGK
+  wear_flags: ACDEGHIJKLMN
   level: 26
   weight: 4
   cost: 260
@@ -1982,11 +1982,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
+    location: 19
     modifier: 2
     bitvector: 0
   - where: O
-    location: 19
+    location: 18
     modifier: 2
     bitvector: 0
   extra_descs:
@@ -1999,8 +1999,8 @@ objects:
   description: Here lies a fortune ... a small ring of power.
   material: none
   item_type: 9
-  extra_flags: 355
-  wear_flags: 3
+  extra_flags: ABFGI
+  wear_flags: AB
   level: 30
   weight: 3
   cost: 300
@@ -2012,12 +2012,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 12
-    modifier: 10
-    bitvector: 0
-  - where: O
     location: 13
     modifier: 30
+    bitvector: 0
+  - where: O
+    location: 12
+    modifier: 10
     bitvector: 0
   extra_descs:
   - keywords: ring
@@ -2028,8 +2028,8 @@ objects:
   description: A dazzling white object lies on the ground.
   material: none
   item_type: 5
-  extra_flags: 355
-  wear_flags: 8193
+  extra_flags: ABFGI
+  wear_flags: AN
   level: 30
   weight: 20
   cost: 300
@@ -2041,11 +2041,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
+    location: 19
     modifier: 2
     bitvector: 0
   - where: O
-    location: 19
+    location: 18
     modifier: 2
     bitvector: 0
   extra_descs: []
@@ -2055,8 +2055,8 @@ objects:
   description: A shoot grows here, covered with dew.
   material: none
   item_type: 18
-  extra_flags: 3
-  wear_flags: 1
+  extra_flags: AB
+  wear_flags: A
   level: 22
   weight: 2
   cost: 220
@@ -2074,8 +2074,8 @@ objects:
   description: A flower grows here, waiting to be picked up.
   material: none
   item_type: 18
-  extra_flags: 3
-  wear_flags: 1
+  extra_flags: AB
+  wear_flags: A
   level: 22
   weight: 2
   cost: 220
@@ -2093,8 +2093,8 @@ objects:
   description: A leaf lies here, as if just fallen from a tree.
   material: none
   item_type: 18
-  extra_flags: 3
-  wear_flags: 1
+  extra_flags: AB
+  wear_flags: A
   level: 22
   weight: 2
   cost: 220
@@ -2112,8 +2112,8 @@ objects:
   description: A branch lies here, still covered with snow.
   material: none
   item_type: 18
-  extra_flags: 3
-  wear_flags: 1
+  extra_flags: AB
+  wear_flags: A
   level: 22
   weight: 2
   cost: 220
@@ -2131,8 +2131,8 @@ objects:
   description: Some chains lie on the floor.
   material: none
   item_type: 13
-  extra_flags: 33
-  wear_flags: 1
+  extra_flags: AF
+  wear_flags: A
   level: 18
   weight: 50
   cost: 180
@@ -2153,7 +2153,7 @@ rooms:
     front of you stands a mysterious gypsy.  She whispers 'Your fate and\n\rdestiny
     lie beyond this world.'  You are still wondering what she means when\n\ryou suddenly
     notice the crystal ball ... it glows fiercely and displays the\n\rUniverse!\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2337,7 +2337,7 @@ rooms:
   description: "This bridge, like the other, was made as a memorial.  The nebulae
     had to\n\rmake one just to show that they are as capable as the stars.  North
     lies\n\ra throne room.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
@@ -2365,7 +2365,7 @@ rooms:
   description: "You can only faintly make out that it is a throne room as it is too\n\rdark
     in here.  In the middle is an empty throne.  You wonder where\n\rthe King has
     gone, maybe he is hiding from you?\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2506,7 +2506,7 @@ rooms:
   description: "You are very near to a gigantic red star.  While you are still fascinated\n\rby
     its beauty, the star keeps on growing ... suddenly you realize that you'd\n\rbetter
     leave.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 1
   owner:
   exits:
@@ -2542,7 +2542,7 @@ rooms:
     dust.\n\rYou may find yourself lucky to witness this rare event but even luckier,\n\ryou
     have finally got out of this galaxy as your body turns into dust.\n\rThat really
     HURTS!  \n\r"
-  room_flags: 6
+  room_flags: BC
   sector: 0
   owner:
   exits: []
@@ -2551,7 +2551,7 @@ rooms:
   name: The Star Cluster
   description: "You are inside the home of the stars.  All you can see around you
     are stars\n\rand nothing else.  You eyes become pretty hurt as you look at them.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2625,7 +2625,7 @@ rooms:
   name: Lost in Space
   description: "You are now lost in space.  Compasses don't work here, sorry.  What's
     more\n\ryou can sense darkness engulfing you.  You'd better get out quick.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 2
   owner:
   exits:
@@ -2652,7 +2652,7 @@ rooms:
   name: Black Hole
   description: "Well you have chosen the wrong path, sorry.  Nothing can escape from
     this\n\rmonster, not even light.\n\rPANIC!  You can't escape!\n\r"
-  room_flags: 7
+  room_flags: ABC
   sector: 0
   owner:
   exits: []
@@ -2939,7 +2939,7 @@ rooms:
   - dir: 4
     desc: "You see the forcefield of Spring.\n\r"
     keywords: forcefield
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9324
     to_vnum: 9354
   - dir: 5
@@ -3054,7 +3054,7 @@ rooms:
   description: "A peaceful feeling overtakes you.  You see a magnificent four-poster
     bed.\n\rIt's a double bed and there is only room for one more!  Well, what now
     ... ?\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -3070,7 +3070,7 @@ rooms:
   description: "You are standing inside the dock of a court.  You feel an overwhelming\n\rsense
     of guilt and you want to protest your innocence!  You fear retribution\n\rand
     feel yourself exposed, just like the trees in Autumn.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -3186,13 +3186,13 @@ rooms:
   - dir: 4
     desc: "You see the forcefield of Summer.\n\r"
     keywords: forcefield
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9325
     to_vnum: 9355
   - dir: 5
     desc: "You see the forcefield of Spring.\n\r"
     keywords:
-    exit_flags: 9
+    exit_flags: AD
     key: 9324
     to_vnum: 9339
   extra_descs: []
@@ -3200,7 +3200,7 @@ rooms:
   name: On the Draco
   description: "You realize you are standing on scaly ground.  As you wonder what
     the ground\n\ris made of, you feel the ground move.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 4
   owner:
   exits:
@@ -3213,7 +3213,7 @@ rooms:
   - dir: 5
     desc:
     keywords:
-    exit_flags: 9
+    exit_flags: AD
     key: 9325
     to_vnum: 9354
   extra_descs: []
@@ -3222,7 +3222,7 @@ rooms:
   description: "At last you realize that you are on a giant snake-like dragon called
     the\n\rDraco, the guardian of the inner galaxy.  You realize that the Draco is\n\ractually
     flying now! \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 4
   owner:
   exits:
@@ -3243,7 +3243,7 @@ rooms:
   name: Path of the Draco
   description: "As you struggle along this scaly creature you realize that the only
     way\n\ryou can reach to the inner galaxy is by going all the way to the head.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 4
   owner:
   exits:
@@ -3265,7 +3265,7 @@ rooms:
   description: "You are approaching the leg part of this creature.  You look around
     and see\n\rthat the surrounding is all dark except for some faint lights from
     the\n\rdistant stars.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 4
   owner:
   exits:
@@ -3287,14 +3287,14 @@ rooms:
   description: "At last you are half way through this long, weary journey. You can
     see\n\rthe wings are to the east but it seems that another forcefield is in the
     way.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 4
   owner:
   exits:
   - dir: 1
     desc: "You see the forcefield of Autumn.\n\r"
     keywords: forcefield
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9326
     to_vnum: 9360
   - dir: 2
@@ -3308,7 +3308,7 @@ rooms:
   name: Between the Wings of Draco
   description: "You hear some giant flapping sounds nearby.  You desperately try to
     get hold\n\rof something as the forceful gusts sweep you away.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 4
   owner:
   exits:
@@ -3321,7 +3321,7 @@ rooms:
   - dir: 3
     desc:
     keywords:
-    exit_flags: 9
+    exit_flags: AD
     key: 9326
     to_vnum: 9359
   extra_descs: []
@@ -3329,7 +3329,7 @@ rooms:
   name: Near the Arms of Draco
   description: "From above you can faintly make out the gigantic arms which extend
     far\n\rbeyond into the darkness.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 4
   owner:
   exits:
@@ -3350,7 +3350,7 @@ rooms:
   name: On the Neck of Draco
   description: "Your journey is now approaching the end.  However, this neck seems
     to be\n\rendless.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 4
   owner:
   exits:
@@ -3372,7 +3372,7 @@ rooms:
   description: "You have come to the end of Draco, but you can't find the head!\n\rYou
     see a forcefield to the south, some distance away, beyond reach.\n\rIf only the
     head were here ...\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 4
   owner:
   exits:
@@ -3385,7 +3385,7 @@ rooms:
   - dir: 2
     desc: You see the forcefield of Winter.
     keywords: forcefield
-    exit_flags: 15
+    exit_flags: ABCD
     key: 9327
     to_vnum: 9364
   extra_descs: []
@@ -3401,7 +3401,7 @@ rooms:
   - dir: 0
     desc: You see the forcefield of Winter.
     keywords: forcefield
-    exit_flags: 9
+    exit_flags: AD
     key: 9327
     to_vnum: 9363
   - dir: 2

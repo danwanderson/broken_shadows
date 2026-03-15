@@ -15,7 +15,7 @@ mobiles:
     his\n\rmates have cost city authorities many millions of creds a week in\n\rvandalism
     repairs.\n\r"
   race: Human
-  act: 524292
+  act: CT
   affected_by: 0
   affected2_by: 0
   alignment: -400
@@ -60,7 +60,7 @@ mobiles:
   description: "This punk is from one of the rowdiest, scruffiest, and definitely
     most\n\rfashionable of all gangs -- the Grunge Mongers.\n\r"
   race: Human
-  act: 524356
+  act: CGT
   affected_by: 0
   affected2_by: 0
   alignment: -500
@@ -106,8 +106,8 @@ mobiles:
     will\n\rnot be stopped by anyone who tries to deter him from revenge upon the\n\rJustice
     Department.\n\r"
   race: Human
-  act: 524322
-  affected_by: 8
+  act: BFT
+  affected_by: D
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -151,8 +151,8 @@ mobiles:
   description: "A member of a local Block's Citi-Def militia, this man is well-armed\n\rand
     undersupervised.\n\r"
   race: Human
-  act: 524356
-  affected_by: 512
+  act: CGT
+  affected_by: J
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -196,7 +196,7 @@ mobiles:
   description: "He blends into the crowd as his hand travels into another citizen's
     pocket.\n\r"
   race: Human
-  act: 524484
+  act: CGHT
   affected_by: 0
   affected2_by: 0
   alignment: -150
@@ -241,7 +241,7 @@ mobiles:
   description: "A practitioner in Mega-City One's largest growth industry, mugging,
     is\n\rlooking you over for a possible business transaction.\n\r"
   race: Human
-  act: 524356
+  act: CGT
   affected_by: 0
   affected2_by: 0
   alignment: -400
@@ -287,8 +287,8 @@ mobiles:
     what\n\rcrimes you have committed.  Being a rookie he will probably be easier
     on\n\ryou though.\n\r"
   race: Human
-  act: 524352
-  affected_by: 40
+  act: GT
+  affected_by: DF
   affected2_by: 0
   alignment: 300
   clan: 0
@@ -332,8 +332,8 @@ mobiles:
   description: "Wallaby Gleep is a heavy-set man who gives you the impression that
     he is\n\runintelligent and unimaginative, but looks can be deceiving.\n\r"
   race: Human
-  act: 524294
-  affected_by: 552
+  act: BCT
+  affected_by: DFJ
   affected2_by: 0
   alignment: -600
   clan: 0
@@ -378,8 +378,8 @@ mobiles:
     \ Indeed, the only thing guaranteed to bring a spark to his dead\n\reyes is the
     mention of money.\n\r"
   race: Human
-  act: 524326
-  affected_by: 40
+  act: BCFT
+  affected_by: DF
   affected2_by: 0
   alignment: -900
   clan: 0
@@ -423,7 +423,7 @@ mobiles:
   description: "Ramirez is a dour man who knows that he's never going to get a better\n\rdeal
     out of life.  He is content to run the bite fights for Throt and\n\rGleep.\n\r"
   race: Human
-  act: 524294
+  act: BCT
   affected_by: 0
   affected2_by: 0
   alignment: -400
@@ -468,8 +468,8 @@ mobiles:
   description: "He is a dedicated, if somewhat pessimistic Judge.  He is the Senior
     Judge\n\rof the Downtown Quadrant.\n\r"
   race: Human
-  act: 524352
-  affected_by: 168
+  act: GT
+  affected_by: DFH
   affected2_by: 0
   alignment: 300
   clan: 0
@@ -514,8 +514,8 @@ mobiles:
     is fanatically dedicated to her job and has no ambitions other than\n\rto enforce
     the LAW.\n\r"
   race: Human
-  act: 524352
-  affected_by: 40
+  act: GT
+  affected_by: DF
   affected2_by: 0
   alignment: 500
   clan: 0
@@ -558,7 +558,7 @@ mobiles:
   long_desc: "A bite fighter is here sharpening his teeth.\n\r"
   description: "A bite fighter is here with sharpened teeth and a bad attitude.\n\r"
   race: Human
-  act: 524322
+  act: BFT
   affected_by: 0
   affected2_by: 0
   alignment: -400
@@ -604,7 +604,7 @@ objects:
   material: none
   item_type: 3
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 16
   weight: 2
   cost: 160
@@ -626,7 +626,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 33
+  wear_flags: AF
   level: 4
   weight: 3
   cost: 40
@@ -648,7 +648,7 @@ objects:
   material: none
   item_type: 26
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 19
   weight: 1
   cost: 190
@@ -673,7 +673,7 @@ objects:
   material: none
   item_type: 3
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 26
   weight: 2
   cost: 260
@@ -694,7 +694,7 @@ objects:
   description: A indestructible, immobile safe is here.
   material: none
   item_type: 15
-  extra_flags: 2
+  extra_flags: B
   wear_flags: 0
   level: 19
   weight: 1000
@@ -716,8 +716,8 @@ objects:
   description: A code box of indeterminate use is here.
   material: none
   item_type: 18
-  extra_flags: 2
-  wear_flags: 16385
+  extra_flags: B
+  wear_flags: AO
   level: 26
   weight: 1
   cost: 260
@@ -738,7 +738,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 4
   weight: 3
   cost: 40
@@ -759,8 +759,8 @@ objects:
   description: The Vibroblade is here.
   material: none
   item_type: 5
-  extra_flags: 35
-  wear_flags: 8193
+  extra_flags: ABF
+  wear_flags: AN
   level: 19
   weight: 2
   cost: 190
@@ -772,20 +772,20 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 2
-    bitvector: 0
-  - where: O
-    location: 19
-    modifier: 2
+    location: 2
+    modifier: 1
     bitvector: 0
   - where: O
     location: 5
     modifier: 1
     bitvector: 0
   - where: O
-    location: 2
-    modifier: 1
+    location: 19
+    modifier: 2
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 2
     bitvector: 0
   extra_descs:
   - keywords: vibroblade
@@ -797,8 +797,8 @@ objects:
   description: A Hoover vacuum cleaner is here idling.
   material: none
   item_type: 5
-  extra_flags: 2
-  wear_flags: 8193
+  extra_flags: B
+  wear_flags: AN
   level: 17
   weight: 10
   cost: 170
@@ -820,7 +820,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 4
   weight: 3
   cost: 40
@@ -841,7 +841,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 17
   weight: 1
   cost: 170
@@ -866,7 +866,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 20
   weight: 3
   cost: 200
@@ -891,8 +891,8 @@ objects:
   description: A vault key is here.
   material: none
   item_type: 18
-  extra_flags: 2
-  wear_flags: 16385
+  extra_flags: B
+  wear_flags: AO
   level: 21
   weight: 1
   cost: 210
@@ -913,7 +913,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 19
   weight: 1
   cost: 190
@@ -1214,7 +1214,7 @@ rooms:
   description: "You are in a very dark and seedy alley.  This is just the right place
     for\n\ra bite fight.  Bite fighting is an illegal activity where both combatants\n\rcan
     only use their sharpened teeth as weapons.\n\r"
-  room_flags: 1
+  room_flags: A
   sector: 1
   owner:
   exits:
@@ -1325,7 +1325,7 @@ rooms:
   - dir: 1
     desc: "A door to the east bodes ill.\n\r"
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 8026
   - dir: 2
@@ -1431,7 +1431,7 @@ rooms:
   name: Pustule Palace Cafe
   description: "A scabrous hole.  Run by Ernie Ramirez, an ex-perp, it is a meeting
     place\n\rfor the low-life in the area.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1447,7 +1447,7 @@ rooms:
   description: "A sleazy dive and the meeting place of a lot of perps.  Shuggy is
     a\n\rtwenty-second Century version of pool, played on a hilly table, usually\n\rwith
     large side bets.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1463,7 +1463,7 @@ rooms:
   description: "This is an experimental psychiatric home.  Named after a 20th Century\n\rvid-critic,
     the home attempts, by various methods, to readjust the\n\rsocially unacceptable
     attitudes of the inmates.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1479,7 +1479,7 @@ rooms:
   description: "Opened as a direct rival to the New You Face Parlour chain to offer
     quick\n\rand cheap face-changing facilities to the general public.  However,\n\rsince
     the closure of Sump's Ugly clinics, the craze for face-changing has\n\rdied down.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1495,7 +1495,7 @@ rooms:
   description: "The only suspended animation parlour in the area.  It has a high turnover\n\rrate.
     \ It is rumored that the patrons are being used in body sharking and\n\rorgan
     legging activities.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1512,20 +1512,20 @@ rooms:
     need,\n\rwith the utmost discourtesy.  Of course, something as crazy as this was\n\rbound
     to succeed.  There is a door to the north with a slot next to it.\n\rThere is
     also a sign next to the slot.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 8013
     to_vnum: 8027
   - dir: 3
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 8016
   extra_descs:
@@ -1535,20 +1535,20 @@ rooms:
   name: Stockroom of Throt & Gleep's Megger Store
   description: "Many useless items stock the shelves of this stockroom.  A door leads\n\rsouth
     and large vault door is to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: vault door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 8012
     to_vnum: 8028
   - dir: 2
     desc:
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 8013
     to_vnum: 8026
   extra_descs:
@@ -1558,14 +1558,14 @@ rooms:
 - vnum: 8028
   name: Throt & Gleep's Vault
   description: "The vault is musty with a slight smell of ozone in the air.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: vault door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 8012
     to_vnum: 8027
   extra_descs: []

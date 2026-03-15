@@ -14,8 +14,8 @@ mobiles:
   description: "Aruncus is a tall, skinny druid with a face marked by nature.\n\rHe
     seems to be in peace with himself and his surroundings.\n\r"
   race: Human
-  act: 524480
-  affected_by: 8
+  act: GHT
+  affected_by: D
   affected2_by: 0
   alignment: -500
   clan: 0
@@ -59,7 +59,7 @@ mobiles:
   description: "Sorbus bares the marks of a long, hard life in solitude.\n\rHe is
     dressed in simple clothing and looks like he has little\n\ror nothing to say.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -104,7 +104,7 @@ mobiles:
   description: "He seems like a nice person with no interest in harming you or others.\n\rHe
     wears normal, light clothing and has an anonymous face.\n\r"
   race: Human
-  act: 524356
+  act: CGT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -149,7 +149,7 @@ mobiles:
   description: "She seems like a nice person with no interest in harming you or others.\n\rShe
     wears a minimum of clothing and has big ... eyes.\n\r"
   race: Human
-  act: 524356
+  act: CGT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -195,8 +195,8 @@ mobiles:
     worm is the protector of the treasure of G'harne and has been so\n\rfor as long
     anyone can remember.\n\r"
   race: Human
-  act: 524322
-  affected_by: 8
+  act: BFT
+  affected_by: D
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -241,7 +241,7 @@ mobiles:
     from the outskirts of Midgaard.\n\rHis life is seems to be totally occupied with
     trading.\n\rHe looks very fit and capable of protecting his goods.\n\r"
   race: Human
-  act: 524294
+  act: BCT
   affected_by: 0
   affected2_by: 0
   alignment: 400
@@ -286,7 +286,7 @@ mobiles:
   description: "The Innkeeper looks skilled in brewing different beers and mixing
     the\n\rwierdest drinks known. He also looks very big.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -330,7 +330,7 @@ mobiles:
   long_desc: "A cute rabbit is here.\n\r"
   description: "It is a small, furry creature with long ears and big feet.\n\r"
   race: rabbit
-  act: 524352
+  act: GT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -376,8 +376,8 @@ mobiles:
     small wings are eagerly trying to lift her from the ground,\n\rbut so far they
     haven't succeeded.\n\r"
   race: Human
-  act: 524418
-  affected_by: 524424
+  act: BHT
+  affected_by: DHT
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -422,7 +422,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 10
@@ -444,7 +444,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: -10
@@ -465,7 +465,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 12
   weight: 1
   cost: 120
@@ -487,7 +487,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 4
   weight: 2
   cost: 40
@@ -508,8 +508,8 @@ objects:
   description: A bunch of pretty wild flowers is here.
   material: none
   item_type: 13
-  extra_flags: 1024
-  wear_flags: 16401
+  extra_flags: K
+  wear_flags: AEO
   level: 0
   weight: 1
   cost: 0
@@ -530,8 +530,8 @@ objects:
   description: A strange looking amulet is lying here, half covered with dust.
   material: none
   item_type: 9
-  extra_flags: 192
-  wear_flags: 5
+  extra_flags: GH
+  wear_flags: AC
   level: 12
   weight: 1
   cost: 120
@@ -558,7 +558,7 @@ objects:
   material: none
   item_type: 12
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 12
   weight: 4
   cost: 120
@@ -580,7 +580,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 2
   weight: 5
   cost: 20
@@ -601,8 +601,8 @@ objects:
   description: A strange template made of an exotic green metal is placed here
   material: none
   item_type: 2
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 24
   weight: 1
   cost: 240
@@ -625,8 +625,8 @@ objects:
   description: A clear potion wrapped in leather is unnoticed placed here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 24
   weight: 2
   cost: 240
@@ -638,13 +638,13 @@ objects:
   - 0
   affects: []
   extra_descs:
+  - keywords: leather
+    description: "The leather wrapped around the potion is old and decayed, originating\n\rfrom
+      an, to you, unknown creature."
   - keywords: potion clear
     description: "As you examine the potion more, you notice the oddities of this\n\rpotion.
       When you look through it you notice strange things...\n\rThe clear potion is
       certainly not of this world.\n\r"
-  - keywords: leather
-    description: "The leather wrapped around the potion is old and decayed, originating\n\rfrom
-      an, to you, unknown creature."
 - vnum: 312
   name: scroll jhyfrdow
   short_desc: a scroll titled 'jhyfrdow'
@@ -652,7 +652,7 @@ objects:
   material: none
   item_type: 2
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 12
   weight: 1
   cost: 120
@@ -664,13 +664,13 @@ objects:
   - 0
   affects: []
   extra_descs:
-  - keywords: scroll jhyfrdow
-    description: "The scroll is titled 'jhyfrdow' and looks very old.\n\rAs you examine
-      it closer you notice primitive drawings of\n\rmen doing some kind of a ritual.\n\r"
   - keywords: ritual men drawings
     description: "The drawing pictures people gathered round giant stone formations,\n\rworshipping
       a giant worm like creature.\n\rIt seems they are sacrificing some of their own
       species.\n\r"
+  - keywords: scroll jhyfrdow
+    description: "The scroll is titled 'jhyfrdow' and looks very old.\n\rAs you examine
+      it closer you notice primitive drawings of\n\rmen doing some kind of a ritual.\n\r"
 rooms:
 - vnum: 300
   name: Path in the plains
@@ -1367,11 +1367,11 @@ rooms:
     key: -1
     to_vnum: 323
   extra_descs:
+  - keywords: pine tree trees pines
+    description: "The all too quiet trees suggest that something roams these woods.\n\r"
   - keywords: mountains
     description: "The mountains seems dark and all most alive, as they contrast against\n\rthe
       sky.\n\r"
-  - keywords: pine tree trees pines
-    description: "The all too quiet trees suggest that something roams these woods.\n\r"
 - vnum: 325
   name: The steep foothills
   description: "You are walking in the steep foothills. It is rather hard to move
@@ -1477,7 +1477,7 @@ rooms:
   - dir: 3
     desc: "You see a small crumbled hut here, must be a hermit living here.\n\r"
     keywords: door
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 331
   extra_descs: []
@@ -1486,14 +1486,14 @@ rooms:
   description: "You are inside the hermit's hut. It is rather old, but serves it purpose.\n\rIt
     keeps its habitant from the rough winds and dangerous beasts of the\n\rplains
     and foothills. There is a small fireplace here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc: "Through the door you can see the foothills.\n\r"
     keywords: door
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 330
   extra_descs:
@@ -1682,25 +1682,25 @@ rooms:
     key: -1
     to_vnum: 340
   extra_descs:
-  - keywords: stones g'harne monolith
-    description: "The stones of G'harne tower fifteen feet over you.\n\rThe giant
-      stones are made of a material you haven't seen before.\n\rIt resembles black
-      marble, but somehow feels different.\n\r"
-  - keywords: altar sacrifice
-    description: "You move closer to examine the sacrifice altar of G'harne.\n\rThe
-      altar is about 3 feet high, 10 feet long and 4 feet wide.\n\rIt has engraved
-      pictures of death rituals and horrifying worms.\n\r"
   - keywords: death rituals worms engraving picture
     description: "The pictures are depicting evil rituals.\n\rYou see druids pouring
       blood over herbs on an altar like this one.\n\rThere are people calling giant
       worms into existence with dark spells.\n\r"
+  - keywords: altar sacrifice
+    description: "You move closer to examine the sacrifice altar of G'harne.\n\rThe
+      altar is about 3 feet high, 10 feet long and 4 feet wide.\n\rIt has engraved
+      pictures of death rituals and horrifying worms.\n\r"
+  - keywords: stones g'harne monolith
+    description: "The stones of G'harne tower fifteen feet over you.\n\rThe giant
+      stones are made of a material you haven't seen before.\n\rIt resembles black
+      marble, but somehow feels different.\n\r"
 - vnum: 340
   name: Dark smelly tunnels
   description: "You are standing in a gloomy tunnel leading south and west, right
     under\n\rthe altar of G'harne.  The walls are covered with a smelly slime and
     small\n\rrotting pieces of a meat like substance, fills the air with an unbearable\n\rstench.
     \ You might be able to force your way up into fresh air from here.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 0
   owner:
   exits:
@@ -1730,7 +1730,7 @@ rooms:
   name: Dead end of tunnel
   description: "The tunnel comes to an abrupt end here. It simply looks like it\n\rhasn't
     been excavated further.  North of here the tunnel makes a turn east.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 0
   owner:
   exits:
@@ -1746,7 +1746,7 @@ rooms:
   description: "You are standing in a gloomy tunnel leading east and west.\n\rThe
     walls are covered with a smelly slime and small rotting pieces of a\n\rmeat like
     substance, fills the air with an unbearable stench.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 0
   owner:
   exits:
@@ -1771,7 +1771,7 @@ rooms:
   description: "You are standing in a small smelly tunnel under the plains.\n\rThe
     smell is growing stronger to the west, so is the density of the\n\rslime and other
     undeterminable substances ...\n\r"
-  room_flags: 256
+  room_flags: I
   sector: 0
   owner:
   exits:
@@ -1795,7 +1795,7 @@ rooms:
   description: "You stand in the hall of G'harne. The walls are dressed with strange\n\rcarving,
     symbolizing human sacrifice and people worshipping giant worms.\n\rDisgusting
     slime and gore are also very dominant in your view of this room.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 0
   owner:
   exits:
@@ -1813,7 +1813,7 @@ rooms:
   description: "You try to climb down the slope.\n\r>\n\rYou slip!\n\rYou fall and
     tumble.\n\rYou hit your head HARD.\n\rYou die.\n\r\n\rYou've fallen, and you can't
     get up!\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 2
   owner:
   exits: []

@@ -15,8 +15,8 @@ mobiles:
     \ He\n\rputs such great care into each piece that he will be known by his works,\n\reven
     long after he has died.  \n\r"
   race: Human
-  act: 65538
-  affected_by: 8360
+  act: BQ
+  affected_by: DFHN
   affected2_by: 0
   alignment: 750
   clan: 0
@@ -40,9 +40,9 @@ mobiles:
     bash: 25
     slash: 25
     exotic: 25
-  off_flags: 24608
-  imm_flags: 3
-  res_flags: 73728
+  off_flags: FNO
+  imm_flags: AB
+  res_flags: NQ
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -60,7 +60,7 @@ mobiles:
   description: "You see before you a huge dragon.  Though he appears to be clumsy,
     his\n\rweapons are very fine, and well crafted.  \n\r"
   race: Wyvern
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -85,16 +85,16 @@ mobiles:
     bash: 0
     slash: 0
     exotic: 0
-  off_flags: 1024
-  imm_flags: 3
+  off_flags: K
+  imm_flags: AB
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 5000000
-  form: 2101377
-  parts: 322
+  form: AHMV
+  parts: BGI
   size: H
   material: none
   spec_fun:
@@ -105,8 +105,8 @@ mobiles:
   description: "The woman before you reminds you of your grandmother.  She wants to
     give\n\ryou food!  \n\r"
   race: Human
-  act: 131074
-  affected_by: 8320
+  act: BR
+  affected_by: HN
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -131,8 +131,8 @@ mobiles:
     slash: -25
     exotic: -10
   off_flags: 0
-  imm_flags: 3
-  res_flags: 4
+  imm_flags: AB
+  res_flags: C
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
@@ -149,7 +149,7 @@ mobiles:
   long_desc: "The mayor of Cheshire is here, trying to look busy.\n\r"
   description:
   race: cat
-  act: 64
+  act: G
   affected_by: 0
   affected2_by: 0
   alignment: 600
@@ -175,14 +175,14 @@ mobiles:
     slash: 18
     exotic: 9
   off_flags: 0
-  imm_flags: 3
+  imm_flags: AB
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 10000
-  form: 128
+  form: H
   parts: 0
   size: M
   material: none
@@ -196,8 +196,8 @@ mobiles:
     natural territorial instincts to band together against the force\n\routside the
     walls.  \n\r"
   race: cat
-  act: 524352
-  affected_by: 33280
+  act: GT
+  affected_by: JP
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -229,7 +229,7 @@ mobiles:
   default_pos: 8
   sex: 1
   gold: 5000
-  form: 128
+  form: H
   parts: 0
   size: L
   material: none
@@ -242,8 +242,8 @@ mobiles:
     by\n\rturning their minds to other things.  Just why they are living together,\n\rsomething
     so unnatural for most cat-like races, remains a mystery.  \n\r"
   race: cat
-  act: 524352
-  affected_by: 33280
+  act: GT
+  affected_by: JP
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -288,7 +288,7 @@ mobiles:
     scene.  You get the sense that not much can get past the steely\n\rgaze of this
     guard.  \n\r"
   race: cat
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -333,7 +333,7 @@ mobiles:
   description: "It's a large, sloppy, cat-like guard.  You laugh at his obvious\n\rincompetance,
     and think you can prolly whip his tail any time.  \n\r"
   race: cat
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -380,8 +380,8 @@ mobiles:
     dedicated to him.  She waits here in this temple for him, and helps\n\rall those
     who come in.  \n\r"
   race: Human
-  act: 67174402
-  affected_by: 8324
+  act: BQa
+  affected_by: CHN
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -405,10 +405,10 @@ mobiles:
     bash: 55
     slash: 55
     exotic: 25
-  off_flags: 416
-  imm_flags: 303104
-  res_flags: 67584
-  vuln_flags: 1024
+  off_flags: FHI
+  imm_flags: NPS
+  res_flags: LQ
+  vuln_flags: K
   start_pos: 8
   default_pos: 8
   sex: 2
@@ -427,7 +427,7 @@ mobiles:
     to work at the museum, and she is the curator.  You could probably\n\rlearn alot
     from her, if you asked the right questions.  \n\r"
   race: cat
-  act: 131074
+  act: BR
   affected_by: 0
   affected2_by: 0
   alignment: 700
@@ -472,7 +472,7 @@ objects:
   description: The Mayor's desk is here, covered with papers.
   material: none
   item_type: 15
-  extra_flags: 278528
+  extra_flags: OS
   wear_flags: 0
   level: 60
   weight: 1500
@@ -496,7 +496,7 @@ objects:
   material: none
   item_type: 20
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 0
   cost: 0
@@ -514,8 +514,8 @@ objects:
   description: There is a small purple key, lying here in the dirt.
   material: none
   item_type: 18
-  extra_flags: 8192
-  wear_flags: 1
+  extra_flags: N
+  wear_flags: A
   level: 25
   weight: 1
   cost: 100
@@ -533,7 +533,7 @@ objects:
   description: '`wA large statue of `RRaptor`w is standing here.'
   material: none
   item_type: 12
-  extra_flags: 16386
+  extra_flags: BO
   wear_flags: 0
   level: 0
   weight: 500
@@ -571,8 +571,8 @@ objects:
   description: A bottle of `rDr. Pepper`g is here.  `YJOY!`w
   material: none
   item_type: 17
-  extra_flags: 8192
-  wear_flags: 1
+  extra_flags: N
+  wear_flags: A
   level: 25
   weight: 2
   cost: 100
@@ -590,8 +590,8 @@ objects:
   description: An `yorange`g pill lies here.`w
   material: none
   item_type: 26
-  extra_flags: 8192
-  wear_flags: 1
+  extra_flags: N
+  wear_flags: A
   level: 40
   weight: 3
   cost: 40000
@@ -612,8 +612,8 @@ objects:
   description: A sharp-looking feathered pen is here.
   material: none
   item_type: 5
-  extra_flags: 64
-  wear_flags: 8193
+  extra_flags: G
+  wear_flags: AN
   level: 45
   weight: 3
   cost: 265000
@@ -637,8 +637,8 @@ objects:
   description: A odd little bottle of red fluid lies here.
   material: none
   item_type: 10
-  extra_flags: 8192
-  wear_flags: 1
+  extra_flags: N
+  wear_flags: A
   level: 45
   weight: 15
   cost: 300000
@@ -657,7 +657,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 17
+  wear_flags: AE
   level: 40
   weight: 3
   cost: 20000
@@ -699,7 +699,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 40
   weight: 8
   cost: 100000
@@ -711,16 +711,16 @@ objects:
   - 0
   affects:
   - where: O
-    location: 2
-    modifier: -1
+    location: 18
+    modifier: -10
     bitvector: 0
   - where: O
     location: 19
     modifier: 30
     bitvector: 0
   - where: O
-    location: 18
-    modifier: -10
+    location: 2
+    modifier: -1
     bitvector: 0
   extra_descs: []
 - vnum: 10415
@@ -729,7 +729,7 @@ objects:
   description: An old jukebox is here, ready for your selection.
   material: none
   item_type: 31
-  extra_flags: 2
+  extra_flags: B
   wear_flags: 0
   level: 40
   weight: 100
@@ -770,8 +770,8 @@ objects:
   description: A crumpled slip of paper is here.
   material: none
   item_type: 18
-  extra_flags: 8192
-  wear_flags: 1
+  extra_flags: N
+  wear_flags: A
   level: 25
   weight: 0
   cost: 0
@@ -811,7 +811,7 @@ objects:
   description: A hollow tree stump is here, filled with leaves.
   material: none
   item_type: 15
-  extra_flags: 16384
+  extra_flags: O
   wear_flags: 0
   level: 20
   weight: 100
@@ -831,7 +831,7 @@ objects:
   material: none
   item_type: 30
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 25
   weight: 0
   cost: 25
@@ -849,8 +849,8 @@ objects:
   description: A large glowing sword lies here.
   material: none
   item_type: 5
-  extra_flags: 1
-  wear_flags: 8193
+  extra_flags: A
+  wear_flags: AN
   level: 60
   weight: 10
   cost: 750
@@ -862,12 +862,12 @@ objects:
   - 16
   affects:
   - where: O
-    location: 18
-    modifier: 8
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 14
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 8
     bitvector: 0
   extra_descs: []
 - vnum: 10497
@@ -876,8 +876,8 @@ objects:
   description: A large tooth is here.  It might make a good weapon.
   material: none
   item_type: 5
-  extra_flags: 2101248
-  wear_flags: 8193
+  extra_flags: MV
+  wear_flags: AN
   level: 60
   weight: 5
   cost: 1200
@@ -889,12 +889,12 @@ objects:
   - 4
   affects:
   - where: O
-    location: 19
-    modifier: 14
-    bitvector: 0
-  - where: O
     location: 18
     modifier: 8
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 14
     bitvector: 0
   extra_descs: []
 - vnum: 10498
@@ -904,7 +904,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: -24575
+  wear_flags: ANPQRSTUVWXYZabcdef
   level: 40
   weight: 30
   cost: 10000
@@ -916,12 +916,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: 3
-    bitvector: 0
-  - where: O
     location: 18
     modifier: 4
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 3
     bitvector: 0
   extra_descs: []
 - vnum: 10499
@@ -930,8 +930,8 @@ objects:
   description: A well-traveled scroll of poetry is here.
   material: none
   item_type: 2
-  extra_flags: 8192
-  wear_flags: 1
+  extra_flags: N
+  wear_flags: A
   level: 40
   weight: 2
   cost: 25000
@@ -956,7 +956,7 @@ rooms:
   - dir: 0
     desc:
     keywords: gate
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 10401
   extra_descs: []
@@ -965,7 +965,7 @@ rooms:
   description: "This is the south gate of Cheshire, the home town of Lewis Carroll.
     \ The\n\rlarge rock wall surrounding the town makes you wonder what it protects
     them\n\rfrom.  You then wonder if you really want to know...  \n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -978,7 +978,7 @@ rooms:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 10400
   - dir: 3
@@ -993,7 +993,7 @@ rooms:
   description: "Here is a musty guard shack, carved out of the stone of the wall.
     \ It is\n\rfilled with all kinds of police equipment, from radios to nightsticks.
     \ My,\n\rthis place could use a good cleaning!  \n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -1010,7 +1010,7 @@ rooms:
     in\n\rCheshire.  To the north is the town square, and to the south is the south\n\rgate.
     \ Off to the west is the Armorer of Legend, and to the east is the Town\n\rHall.
     \ \n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -1045,7 +1045,7 @@ rooms:
     and\n\rexits to the north and west lead outside.  On the wall is the great seal
     of\n\rthe town of Cheshire.  The citizens are really proud of their town.  \n\rThere
     is a stairway here, leading down.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -1082,7 +1082,7 @@ rooms:
 - vnum: 10405
   name: '`RThe Mayor''s Office`w'
   description: "This is the office of the Mayor of Cheshire.  I wonder where he is?\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -1098,7 +1098,7 @@ rooms:
   description: "This is the Cheshire town center, the meeting of the two roads of\n\rCheshire,
     Carroll Road and Dodgson Drive.  East and west are the residential\n\rareas of
     the town.  North and south are the gates of the city.  \n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -1133,7 +1133,7 @@ rooms:
     where\n\ryou can get a byte to eat.  To the south is the Cheshire Town Hall.  Off
     to\n\rthe east you spot what looks like a group of small buildings, a low-rent\n\rresidential
     district.  The road continues east and west.  \n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -1168,7 +1168,7 @@ rooms:
     shop,\n\rand to the south is an armor shop.  To the east is the town center.  Off
     in\n\rthe distance to the west is a residential area.  Go ahead, meet some of
     the\n\rlocals.  They'll probably read some of their poetry to you!  \n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -1202,7 +1202,7 @@ rooms:
   description: "Here you stand, in the middle of a major road.  Watch out for carts!
     \n\rAnyway, south is to the town square, and there are shops to the east and\n\rwest.
     \ Up ahead is the north gate.  Have fun!  \n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -1237,7 +1237,7 @@ rooms:
     an\n\rarmory?\"  But you must realize that poetry has weaved itself into the fabric\n\rof
     reality in this land, with many strange effects on life here. \n\rShakespeare
     offers to show you a piece he just finished this morning.  \n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -1259,7 +1259,7 @@ rooms:
   description: "Here you can find some odd, yet powerful, weapons.  However, you'd
     better\n\rexpect to pay some serious cash for them.  Just talk to Rupert, he'll
     set\n\ryou up.  \n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -1280,7 +1280,7 @@ rooms:
   name: '`RThe Lewis Diner and Caffiene Shop`w'
   description: "Here you find your basic diner.  Try the food, but you might want
     to get\n\rsome Tums!  \n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -1302,14 +1302,14 @@ rooms:
   description: "This is the north gate of Cheshire.  Maybe out here you will discover
     the\n\rsecret of this town and its immense fear of things from outside the wall.
     \n\rDare you venture outside?  \n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 10430
   - dir: 1
@@ -1331,7 +1331,7 @@ rooms:
     guards\n\rpride themseleves on being the neatest in the town, hence this room
     is\n\rspotless.  Everything has a place and is in its proper place.  Doesn't it\n\rjust
     make you sick?  \n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -1347,14 +1347,14 @@ rooms:
   description: "This is just a small house in the town of Cheshire, nothing really\n\rspecial
     about it.  A small family lives here.  \n\rThe door back out to the street is
     south.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 10416
   extra_descs: []
@@ -1362,26 +1362,26 @@ rooms:
   name: '`REast End of Dodgson`w'
   description: "This is the east end of Dodgson Drive, which ends in a small residential\n\rarea.
     \ All around you are houses, but to the west is the main part of town. \n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 10415
   - dir: 1
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 10422
   - dir: 2
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 10417
   - dir: 3
@@ -1396,14 +1396,14 @@ rooms:
   description: "Here is another copy-cat house in Cheshire.  I guess the lack of space\n\rwithin
     the walls has made them resort to a single, space-saving design.  Too\n\rbad they
     aren't too big on individuality.  \n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 10416
   extra_descs: []
@@ -1413,7 +1413,7 @@ rooms:
     of\n\rthis family, has become somewhat of a recluse, and lives in a room upstairs.\n\rMrs.
     \ Dodgson, however, is just fine, and is here to deal with the family's\n\routside
     connections, such as keeping the utilities paid, etc.  \n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -1436,7 +1436,7 @@ rooms:
     Cheshire Poetry Museum.  Here they keep all kinds of poetry, from the\n\rexciting
     to the drab, from the Great to the truely horrifying.  Why don't\n\ryou look around
     for a bit, this museum is free!  \n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -1458,7 +1458,7 @@ rooms:
   description: "This is the richer side of town.  The Mayor's mansion is to the west,
     and\n\rthere is another large house to the south.  Off to the north is the Cheshire\n\rPoetry
     Museum.  Isn't this a lovely little town?  \n\r"
-  room_flags: 262144
+  room_flags: S
   sector: 1
   owner:
   exits:
@@ -1494,7 +1494,7 @@ rooms:
     is warm and comfy, and there servants to bring you anything you\n\rwant at a gesture.
     \ There appears to be a kitchen off to the west, and to\n\rthe north is the Mayor's
     bedroom.  \n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -1502,7 +1502,7 @@ rooms:
     desc: "This door leads to the Mayor's bedroom.  I'd stay out of there if I were
       you.  His wife doesn't like unexpected visitors...\n\r"
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 10423
   - dir: 1
@@ -1523,14 +1523,14 @@ rooms:
   description: "Just another house in Cheshire, host to family of cat-like beings.
     \ There\n\rare pictures of the family on the walls, and other similar family house\n\rparaphenalia,
     but that's about it.  \n\rThe exit is to the west.\n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
   - dir: 3
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 10416
   extra_descs: []
@@ -1540,14 +1540,14 @@ rooms:
     in\n\rtown.  Why you would want to check out the Mayor's bedroom, I have no idea.
     \n\rHowever, the Mayor's wife is here, and she might be a good reason to enter,\n\rif
     you're into large female cats...  \n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 10421
   extra_descs: []
@@ -1556,7 +1556,7 @@ rooms:
   description: "You have entered the Mayor's kitchen.  There are all kinds of food\n\rpreparation
     tools lying around in here.  You better watch out, the cooks are\n\rreally territorial!
     \ \n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
@@ -1573,7 +1573,7 @@ rooms:
     a\n\rtemple built underground before.  But then you realize that this temple was\n\rbuilt
     for `RRaptor`w, and a cave would make a fitting temple for a dwarf. \n\rYou feel
     safe here, knowing that `RRaptor`w is watching over you.  \n\r"
-  room_flags: 263176
+  room_flags: DKS
   sector: 0
   owner:
   exits:
@@ -1587,14 +1587,14 @@ rooms:
 - vnum: 10426
   name: '`RAt the Top of the Stairs`w'
   description:
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 19
+    exit_flags: ABE
     key: 0
     to_vnum: 10429
   - dir: 5
@@ -1610,14 +1610,14 @@ rooms:
     \n\rEverything from Shakespeare to Dickinson, even some by unknown poets.  To\n\rthe
     north, there are guards standing before a vault door.  There is a sign\n\ron the
     door, with large warning labels on it, as well as some much smaller\n\rtext.  \n\r"
-  room_flags: 262152
+  room_flags: DS
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: vault
-    exit_flags: 15
+    exit_flags: ABCD
     key: 10429
     to_vnum: 10428
   - dir: 1
@@ -1637,36 +1637,36 @@ rooms:
     they\n\rcould have that they needed to lock up and guard with this much protection.
     \n\rThere was a guard outside, and a couple in here...  And all those warning\n\rlabels.
     \ Look, there's another one in here!  \n\r"
-  room_flags: 262153
+  room_flags: ADS
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 15
+    exit_flags: ABCD
     key: 10429
     to_vnum: 10427
   extra_descs:
-  - keywords: label
+  - keywords: warning
     description: "WARNING: The Cheshire Poetry Museum holds NO liability for what
       will\n\rhappen when you read this poetry.  \n\rCAUTION: Read this poetry at
       your own risk!\n\r"
-  - keywords: warning
+  - keywords: label
     description: "WARNING: The Cheshire Poetry Museum holds NO liability for what
       will\n\rhappen when you read this poetry.  \n\rCAUTION: Read this poetry at
       your own risk!\n\r"
 - vnum: 10429
   name: '`RCharles Dodgson''s Room`w'
   description:
-  room_flags: 262153
+  room_flags: ADS
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 19
+    exit_flags: ABE
     key: 0
     to_vnum: 10426
   extra_descs: []
@@ -1688,7 +1688,7 @@ rooms:
   - dir: 2
     desc:
     keywords: gate
-    exit_flags: 3
+    exit_flags: AB
     key: 0
     to_vnum: 10413
   extra_descs:
@@ -1701,7 +1701,7 @@ rooms:
     kinds\n\rof creepy beings could be around the next turn.  If you're smart, you'll\n\rexamine
     the light to the south a little more carefully.  It looks like an\n\rexit to this
     scary place.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -1735,7 +1735,7 @@ rooms:
   description: "You decided to walk further into the forest, and decide that that
     may not\n\rhave been the best plan of action.  Wandering through a strange forest
     has\n\rgotten you lost again.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -1769,7 +1769,7 @@ rooms:
   description: "You decided to walk further into the forest, and decide that that
     may not\n\rhave been the best plan of action.  Wandering through a strange forest
     has\n\rgotten you lost again.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -1803,7 +1803,7 @@ rooms:
   description: "You decided to walk further into the forest, and decide that that
     may not\n\rhave been the best plan of action.  Wandering through a strange forest
     has\n\rgotten you lost again.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -1837,7 +1837,7 @@ rooms:
   description: "You decided to walk further into the forest, and decide that that
     may not\n\rhave been the best plan of action.  Wandering through a strange forest
     has\n\rgotten you lost again.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -1871,7 +1871,7 @@ rooms:
   description: "You decided to walk further into the forest, and decide that that
     may not\n\rhave been the best plan of action.  Wandering through a strange forest
     has\n\rgotten you lost again.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -1906,7 +1906,7 @@ rooms:
     may not\n\rhave been the best plan of action.  Wandering through a strange forest
     has\n\rgotten you lost again.  Odd, there appears to be a small clearing to the\n\rsouth.
     \ \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -1940,7 +1940,7 @@ rooms:
   description: "You decided to walk even further into the forest, and decide that
     now you\n\rare completely lost.  The more you wander through this place, the more\n\rhopeless
     you feel.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -1974,7 +1974,7 @@ rooms:
   description: "You decided to walk further into the forest, and decide that that
     may not\n\rhave been the best plan of action.  Wandering through a strange forest
     has\n\rgotten you lost again.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2008,7 +2008,7 @@ rooms:
   description: "You decided to walk even further into the forest, and decide that
     now you\n\rare completely lost.  The more you wander through this place, the more\n\rhopeless
     you feel.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2042,7 +2042,7 @@ rooms:
   description: "You decided to walk even further into the forest, and decide that
     now you\n\rare completely lost.  The more you wander through this place, the more\n\rhopeless
     you feel.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2076,7 +2076,7 @@ rooms:
   description: "You decided to walk even further into the forest, and decide that
     now you\n\rare completely lost.  The more you wander through this place, the more\n\rhopeless
     you feel.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2110,7 +2110,7 @@ rooms:
   description: "You decided to walk even further into the forest, and decide that
     now you\n\rare completely lost.  The more you wander through this place, the more\n\rhopeless
     you feel.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2144,7 +2144,7 @@ rooms:
   description: "You decided to walk even further into the forest, and decide that
     now you\n\rare completely lost.  The more you wander through this place, the more\n\rhopeless
     you feel.  Don'tcha just hate these mazes?  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2179,7 +2179,7 @@ rooms:
     now you\n\rare completely lost.  The more you wander through this place, the more\n\rhopeless
     you feel.  It seems that you are merely walking around in circles,\n\rgoing past
     the same trees over and over.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2213,7 +2213,7 @@ rooms:
   description: "You decided to walk even further into the forest, and decide that
     now you\n\rare completely lost.  The more you wander through this place, the more\n\rhopeless
     you feel.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2247,7 +2247,7 @@ rooms:
   description: "You decided to walk even further into the forest, and decide that
     now you\n\rare completely lost.  The more you wander through this place, the more\n\rhopeless
     you feel.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2281,7 +2281,7 @@ rooms:
   description: "You decided to walk even further into the forest, and decide that
     now you\n\rare completely lost.  This forest must be HUGE!  You begin to wonder
     just\n\rhow big this forest really is.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2309,7 +2309,7 @@ rooms:
   description: "You decided to walk even further into the forest, and decide that
     now you\n\rare completely lost.  The more you wander through this place, the more\n\rhopeless
     you feel.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2343,7 +2343,7 @@ rooms:
   description: "You decided to walk even further into the forest, and decide that
     now you\n\rare completely lost.  The more you wander through this place, the more\n\rhopeless
     you feel.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2378,7 +2378,7 @@ rooms:
     of the\n\rDark Wood.  It is nice and calm, and some sunlight shines in between
     the\n\rtops of the surrounding trees.  You feel safe, as if nothing could attack\n\ryou
     here.  \n\r"
-  room_flags: 1024
+  room_flags: K
   sector: 2
   owner:
   exits:
@@ -2425,14 +2425,14 @@ rooms:
 - vnum: 10461
   name: '`RInside the Tumtum Tree`w'
   description:
-  room_flags: 8200
+  room_flags: DN
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 7
+    exit_flags: ABC
     key: 0
     to_vnum: 10466
   - dir: 4
@@ -2449,7 +2449,7 @@ rooms:
     light comes through.  You can still feel the tree, so you think\n\ryou can continue
     on around it.  Maybe there will be more light as you\n\rproceed, but you doubt
     it.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2472,7 +2472,7 @@ rooms:
     it.  You remember hearing somewhere that moss only grew on the north side\n\rof
     trees.  Apparently, this is not the case here, because the moss continues\n\raround
     the tree in both directions.  \n\r"
-  room_flags: 1
+  room_flags: A
   sector: 3
   owner:
   exits:
@@ -2545,7 +2545,7 @@ rooms:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 7
+    exit_flags: ABC
     key: 10498
     to_vnum: 10461
   - dir: 3
@@ -2605,7 +2605,7 @@ rooms:
   name: '`RWithin the Tree`w'
   description: "This is a normal description for a room in a tree.. Ya know, a laddar...\n\rAndf
     light shafting down.\n\r \n\rThere are words carved in the wall here.\n\r"
-  room_flags: 8200
+  room_flags: DN
   sector: 0
   owner:
   exits:
@@ -2639,7 +2639,7 @@ rooms:
 - vnum: 10470
   name: '`RWithin the Tree`w'
   description:
-  room_flags: 8200
+  room_flags: DN
   sector: 0
   owner:
   exits:
@@ -2653,7 +2653,7 @@ rooms:
 - vnum: 10471
   name: '`RWithin the Tree`w'
   description:
-  room_flags: 8200
+  room_flags: DN
   sector: 0
   owner:
   exits:

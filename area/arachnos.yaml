@@ -14,8 +14,8 @@ mobiles:
   description: "He looks freshly hatched and sprightly.  His young fangs are just\n\rgrowing
     in as of late.\n\r"
   race: Human
-  act: 524356
-  affected_by: 8
+  act: CGT
+  affected_by: D
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -58,8 +58,8 @@ mobiles:
   long_desc: "Yevaud the Usurper of Midgaard is here, grinning evilly at you.\n\r"
   description: "Old, scaly, but still with a lot of bite in him left.\n\r"
   race: Human
-  act: 524358
-  affected_by: 8
+  act: BCGT
+  affected_by: D
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -102,7 +102,7 @@ mobiles:
   long_desc: "The Wolf Spider is here, licking its bloody fangs.\n\r"
   description: "The Wolf Spider is hairy, very hairy.\n\r"
   race: Human
-  act: 524322
+  act: BFT
   affected_by: 0
   affected2_by: 0
   alignment: -300
@@ -146,7 +146,7 @@ mobiles:
   long_desc: "The orc is stuck in the web and he can't get out.\n\r"
   description: "You notice an evil look in his eyes.\n\r"
   race: orc
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: -400
@@ -191,7 +191,7 @@ mobiles:
     her master.\n\r"
   description: "You notice a glazed look in her eyes.\n\r"
   race: Human
-  act: 524322
+  act: BFT
   affected_by: 0
   affected2_by: 0
   alignment: -800
@@ -235,7 +235,7 @@ mobiles:
   long_desc: "The drone spider walks around doing her master's bidding.\n\r"
   description: "An ordinary drone spider.\n\r"
   race: Human
-  act: 524356
+  act: CGT
   affected_by: 0
   affected2_by: 0
   alignment: -300
@@ -279,7 +279,7 @@ mobiles:
   long_desc: "The ethereal spider strides here, traveling to different worlds.\n\r"
   description: "She winks in and out.\n\r"
   race: Human
-  act: 524356
+  act: CGT
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -323,7 +323,7 @@ mobiles:
   long_desc: "The slave works here relentlessly.\n\r"
   description: "The slave does not mind you, but will fight like a warrior if attacked.\n\r"
   race: Human
-  act: 524356
+  act: CGT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -368,8 +368,8 @@ mobiles:
   description: "Demoniac in nature, but more mischievous.  He twiddles his thumbs\n\rand
     creates a magical treasure!\n\r"
   race: Human
-  act: 524436
-  affected_by: 32778
+  act: CEHT
+  affected_by: BDP
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -412,7 +412,7 @@ mobiles:
   long_desc: "The Bird Spider snaps its powerful jaws.\n\r"
   description: "The Bird Spider has very powerful jaws.\n\r"
   race: Human
-  act: 524322
+  act: BFT
   affected_by: 0
   affected2_by: 0
   alignment: -800
@@ -457,8 +457,8 @@ mobiles:
   description: "A dishevelled veteran warrior in disguise is what he is, but he\n\rmeans
     well.\n\r"
   race: Human
-  act: 524294
-  affected_by: 8
+  act: BCT
+  affected_by: D
   affected2_by: 0
   alignment: -400
   clan: 0
@@ -501,8 +501,8 @@ mobiles:
   long_desc: "The Donjonkeeper eyes you and wonders how pure your soul is.\n\r"
   description: "He delves deeper into you as you stare at him.\n\r"
   race: Human
-  act: 524294
-  affected_by: 8
+  act: BCT
+  affected_by: D
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -545,8 +545,8 @@ mobiles:
   long_desc: "The guardian is obviously not doing his job.\n\r"
   description: "He looks like a lazy bum who sleeps half the time.\n\r"
   race: Human
-  act: 524384
-  affected_by: 32768
+  act: FGT
+  affected_by: P
   affected2_by: 0
   alignment: 250
   clan: 0
@@ -591,8 +591,8 @@ mobiles:
     being one of her many slaves.  She does not possess the venomous\n\rfangs of normal
     spiders, but then, as you realize, she does not need\n\rthem.\n\r"
   race: Human
-  act: 524322
-  affected_by: 10
+  act: BFT
+  affected_by: BD
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -636,8 +636,8 @@ mobiles:
   description: "She is the last bastion of good in this realm.  Her mission is to\n\rsomeday
     free the slaves of the Empress.\n\r"
   race: Human
-  act: 524294
-  affected_by: 8
+  act: BCT
+  affected_by: D
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -680,8 +680,8 @@ mobiles:
   long_desc: "A wormkin with no teeth plays here.\n\r"
   description: "Rather small, you almost feel sad in killing it.\n\r"
   race: Human
-  act: 524290
-  affected_by: 8
+  act: BT
+  affected_by: D
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -724,8 +724,8 @@ mobiles:
   long_desc: "A wormkin that has grown a bit stares at you inquisitively.\n\r"
   description: "A medium-sized dragon--seems it hasn't killed anything yet by itself.\n\r"
   race: Human
-  act: 524290
-  affected_by: 8
+  act: BT
+  affected_by: D
   affected2_by: 0
   alignment: 100
   clan: 0
@@ -770,7 +770,7 @@ mobiles:
     four.  It\n\rhas eight hairy legs that gives it a tremendous speed on almost any
     surface and\n\rsharp poisonous fangs to paralyze or kill its prey.\n\r"
   race: Human
-  act: 524354
+  act: BGT
   affected_by: 0
   affected2_by: 0
   alignment: -350
@@ -817,8 +817,8 @@ mobiles:
     surface\n\rif it wasn't so immensely fat.  Its large, bulbous eyes stare back
     at you.\n\r"
   race: Human
-  act: 524354
-  affected_by: 8
+  act: BGT
+  affected_by: D
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -862,8 +862,8 @@ objects:
   description: A white cone-shaped head ornament with religious symbols lies here.
   material: none
   item_type: 9
-  extra_flags: 96
-  wear_flags: 17
+  extra_flags: FG
+  wear_flags: AE
   level: 26
   weight: 5
   cost: 260
@@ -875,12 +875,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 17
-    modifier: -2
-    bitvector: 0
-  - where: O
     location: 4
     modifier: 3
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: -2
     bitvector: 0
   extra_descs: []
 - vnum: 6304
@@ -889,8 +889,8 @@ objects:
   description: A black visor sits here.
   material: none
   item_type: 9
-  extra_flags: 96
-  wear_flags: 17
+  extra_flags: FG
+  wear_flags: AE
   level: 24
   weight: 5
   cost: 240
@@ -902,12 +902,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 5
-    modifier: 2
-    bitvector: 0
-  - where: O
     location: 1
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 5
+    modifier: 2
     bitvector: 0
   extra_descs: []
 - vnum: 6308
@@ -917,7 +917,7 @@ objects:
   material: none
   item_type: 20
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 15
   weight: 0
   cost: 150
@@ -935,8 +935,8 @@ objects:
   description: A blue potion has been left here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 15
   weight: 2
   cost: 150
@@ -957,7 +957,7 @@ rooms:
     the giant\n\rweb in place.  To the south leads a strand to a cave-like structure
     made from\n\rmany layers of a spider web.  Another silky strand continues to the
     north.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -981,7 +981,7 @@ rooms:
   description: "You are balancing carefully on the giant sticky threads that holds
     the giant\n\rweb in place.  To the north leads a strand to a cave-like structure
     made from\n\rmany layers of a spider web.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -999,7 +999,7 @@ rooms:
   description: "You are balancing carefully on the giant sticky threads that holds
     the giant\n\rweb in place.  To the east leads a strand to a cave-like structure
     made from\n\rmany layers of a spider web.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1017,7 +1017,7 @@ rooms:
   description: "You are balancing carefully on the giant sticky threads that holds
     the giant\n\rweb in place. A single silky strand lead to the south, while another
     leads\n\roff into the northern direction.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1042,7 +1042,7 @@ rooms:
     of webbed crickets, beetle, rats, dogs (?), and even humans.\n\rYou begin to wonder
     about what lies ahead.  The air is damp here,\n\rand even the little light that
     shines through the canopy seems\n\rabsorbed into the webbing.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 1
   owner:
   exits:
@@ -2068,7 +2068,7 @@ rooms:
   description: "Mahatma, that silly thief, is here, and he steals everything you\n\rhave.
     \ He says, 'Here, have a quick trip to the Temple of Midgaard.'\n\rHe plunges
     a black dagger into your back ...\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 0
   owner:
   exits: []
@@ -2122,14 +2122,14 @@ rooms:
   description: "Before you you see a large, web-like door.  Various designs\n\rof
     ancient runes and names of Midgaard heroes are etched into\n\rthe webwork.  Perhaps
     lists of victims?  You can't tell.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door north
-    exit_flags: 15
+    exit_flags: ABCD
     key: 0
     to_vnum: 6399
   - dir: 2
@@ -2153,7 +2153,7 @@ rooms:
   - dir: 2
     desc:
     keywords: door south
-    exit_flags: 15
+    exit_flags: ABCD
     key: 0
     to_vnum: 6392
   extra_descs: []

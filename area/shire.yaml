@@ -16,8 +16,8 @@ mobiles:
     holding a multi-colored staff.  Although he appears to be older\n\rthan the oldest
     man, he seems to have an inner strength which most mortals\n\rcannot overcome.\n\r"
   race: Human
-  act: 524354
-  affected_by: 8
+  act: BGT
+  affected_by: D
   affected2_by: 0
   alignment: 500
   clan: 0
@@ -64,8 +64,8 @@ mobiles:
     a halfling of peace, he will fight you to the death if you attempt\n\rto take
     away that which belongs to him.\n\r"
   race: Human
-  act: 524354
-  affected_by: 10
+  act: BGT
+  affected_by: BD
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -110,7 +110,7 @@ mobiles:
     has\n\rbeen tanned from working the fields night and day.  He's quite a jolly\n\rchap,
     always ready to befriend an injured bunny rabbit.\n\r"
   race: Human
-  act: 524418
+  act: BHT
   affected_by: 0
   affected2_by: 0
   alignment: 350
@@ -156,7 +156,7 @@ mobiles:
     about\n\rfor he hasn't learned to walk yet.  He peers up at you and asks \"da
     da?\"\n\r"
   race: Human
-  act: 524418
+  act: BHT
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -202,7 +202,7 @@ mobiles:
     many\n\rtoddlers for too long has evidently taken its toll.  She looks to you
     and\n\rin her eyes you can see her longing for a better life.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -248,7 +248,7 @@ mobiles:
     she\n\ris past her prime, you see that she still has a lot of years left, and
     that\n\rif provoked, her rear kick can be quite deadly.\n\r"
   race: Human
-  act: 524608
+  act: GIT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -294,7 +294,7 @@ mobiles:
     presence\n\rand cares only for the care-free life that he leads.  It is enormously
     fat\n\rand consequently cannot move around very quickly.\n\r"
   race: pig
-  act: 524608
+  act: GIT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -338,7 +338,7 @@ mobiles:
   long_desc: "A chicken sits on her nest.\n\r"
   description: "The chicken is bright and healthy.  She has no weapons but her beak.\n\r"
   race: Human
-  act: 524608
+  act: GIT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -383,7 +383,7 @@ mobiles:
   description: "The bull is in top condition.  He looks like quite a fighter, nothing
     to be\n\rreckoned with.  With his horns and his hooves he can attack just about\n\ranything.\n\r"
   race: Human
-  act: 524322
+  act: BFT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -428,7 +428,7 @@ mobiles:
   description: "The horse looks at you and turns away.  You can tell that it is afraid
     of you.\n\r"
   race: Human
-  act: 524610
+  act: BGIT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -475,7 +475,7 @@ mobiles:
     belt is a thin dagger, and on his body he wears a suit of leather armor.\n\rThis
     is one halfling you don't want to mess with.\n\r"
   race: shiriff
-  act: 68
+  act: CG
   affected_by: 0
   affected2_by: 0
   alignment: 150
@@ -522,7 +522,7 @@ mobiles:
     belt is a thin dagger, and on his body he wears a suit of leather armor.\n\rThis
     is one halfling you don't want to mess with.\n\r"
   race: shiriff
-  act: 68
+  act: CG
   affected_by: 0
   affected2_by: 0
   alignment: 150
@@ -569,7 +569,7 @@ mobiles:
     long as he's in office, the Shire will always remain a safe haven for\n\rShire
     folk.\n\r"
   race: thain
-  act: 64
+  act: G
   affected_by: 0
   affected2_by: 0
   alignment: 400
@@ -614,7 +614,7 @@ mobiles:
   description: "The Innkeeper is a jolly old halfling who spends his days eavesdropping
     on\n\rlocal gossip.  In his younger days, he was quite a seasoned traveller.\n\r"
   race: Human
-  act: 524354
+  act: BGT
   affected_by: 0
   affected2_by: 0
   alignment: 200
@@ -660,7 +660,7 @@ mobiles:
     more\n\rrespect from his workers than he can get.  He looks like the type of person\n\rwho
     deserves a spanking but never got one.\n\r"
   race: Human
-  act: 524484
+  act: CGHT
   affected_by: 0
   affected2_by: 0
   alignment: 50
@@ -706,7 +706,7 @@ mobiles:
     at the\n\rmill.  He doesn't notice your presence, but he looks like he could break
     you\n\rin two without thinking about it.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -752,7 +752,7 @@ mobiles:
     that he wears\n\ron his countenance is solemn and tragic.  He cares not for this
     world any\n\rlonger and wearies of it.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 600
@@ -798,7 +798,7 @@ mobiles:
     for the\n\rdwarves of his land.  His glowing eyes peer out of his bushy face and
     stare\n\rbeyond your gaze.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 200
@@ -843,7 +843,7 @@ mobiles:
   description: "The shopkeeper will fight like a madman to protect his store from
     riff-raff\n\rlike you.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 600
@@ -889,7 +889,7 @@ mobiles:
     pipeweed.\n\rHowever, he also knows that it's worth protecting and so will do
     everything\n\rin his power to prevent riff-raff like you from stealing it.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 600
@@ -935,7 +935,7 @@ mobiles:
     of weapons\n\rand armour would certainly help him in any fight against riff-raff
     like you.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 600
@@ -980,7 +980,7 @@ mobiles:
   description: "The battle master is a wizened fighter, with many scars to prove his
     worth.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 350
@@ -1025,7 +1025,7 @@ mobiles:
   description: "The halfling youth is not yet quite in the prime of his youth.  He's
     knee\n\rhigh and you get the sudden urge to step on him.\n\r"
   race: Human
-  act: 524480
+  act: GHT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -1071,7 +1071,7 @@ mobiles:
     he is\n\rpast his prime, he still looks like he could put up more than his share
     of\n\ra good fight.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -1116,7 +1116,7 @@ mobiles:
   description: "The gossip is all talk and no action.  You're transfixed by her ability
     to\n\rtalk so much so quickly.\n\r"
   race: Human
-  act: 524418
+  act: BHT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -1163,7 +1163,7 @@ mobiles:
     to grovel\n\rat her feet, hoping she'll take you in like a lost puppy.  You wouldn't
     dare\n\rharm a hair on her precious little head.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -1209,7 +1209,7 @@ mobiles:
     little\n\rfresh, but his enthusiasm and desire to please more than make up for
     what\n\rhe lacks in skill.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -1255,7 +1255,7 @@ mobiles:
     are\n\rall of the latest fashions and his manners impeccable.  He offers you some\n\rcoins
     if you'd be so good as to order a drink for him.\n\r"
   race: Human
-  act: 524418
+  act: BHT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -1299,7 +1299,7 @@ mobiles:
   long_desc: "A country bumpkin dreams of pipeweed and its many uses.\n\r"
   description: "The country bumpkin snores noisily.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -1344,7 +1344,7 @@ mobiles:
   description: "The Innkeeper is a jolly old halfling who spends his days eavesdropping
     on\n\rlocal gossip.  In his younger days, he was quite a seasoned traveller.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 200
@@ -1388,7 +1388,7 @@ mobiles:
   long_desc: "The receptionist sits here, signing forms.\n\r"
   description: "He is a very professional looking type.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 200
@@ -1434,7 +1434,7 @@ mobiles:
     at you, smiles and asks you if you have seen a halfling youth\n\rsomewhere outside
     the shire.\n\r"
   race: shiriff
-  act: 2
+  act: B
   affected_by: 0
   affected2_by: 0
   alignment: 150
@@ -1479,8 +1479,8 @@ objects:
   description: The rainbow staff lies here.
   material: none
   item_type: 1
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 18
   weight: 8
   cost: 180
@@ -1502,8 +1502,8 @@ objects:
   description: Sting lies here.
   material: none
   item_type: 5
-  extra_flags: 1027
-  wear_flags: 8193
+  extra_flags: ABK
+  wear_flags: AN
   level: 20
   weight: 1
   cost: 200
@@ -1551,7 +1551,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 5
   weight: 1
   cost: 50
@@ -1569,8 +1569,8 @@ objects:
   description: A silvery cloak lies here.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 1025
+  extra_flags: GK
+  wear_flags: AK
   level: 18
   weight: 3
   cost: 180
@@ -1592,8 +1592,8 @@ objects:
   description: The One Ring is here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 16387
+  extra_flags: G
+  wear_flags: ABO
   level: 20
   weight: 3
   cost: 200
@@ -1605,12 +1605,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 17
-    modifier: 10
-    bitvector: 0
-  - where: O
     location: 12
     modifier: 20
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: 10
     bitvector: 0
   extra_descs: []
 - vnum: 1106
@@ -1619,8 +1619,8 @@ objects:
   description: An elven bow lies here.
   material: none
   item_type: 5
-  extra_flags: 1090
-  wear_flags: 8193
+  extra_flags: BGK
+  wear_flags: AN
   level: 17
   weight: 10
   cost: 170
@@ -1642,8 +1642,8 @@ objects:
   description: A mithril axe lies here.
   material: none
   item_type: 5
-  extra_flags: 28677
-  wear_flags: 8193
+  extra_flags: ACMNO
+  wear_flags: AN
   level: 17
   weight: 12
   cost: 170
@@ -1666,7 +1666,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 2049
+  wear_flags: AL
   level: 14
   weight: 4
   cost: 140
@@ -1689,7 +1689,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 9
   weight: 3
   cost: 90
@@ -1708,7 +1708,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 2
   weight: 1
   cost: 20
@@ -1727,7 +1727,7 @@ objects:
   material: none
   item_type: 15
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 5
   cost: 0
@@ -1746,7 +1746,7 @@ objects:
   material: none
   item_type: 1
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 4
   cost: 0
@@ -1765,7 +1765,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 6
   weight: 10
   cost: 60
@@ -1788,7 +1788,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 0
   weight: 8
   cost: 0
@@ -1926,7 +1926,7 @@ rooms:
     on the\n\rmany shelves.  Your local friendly shopkeeper is smiling patiently,
     waiting to \n\rserve you to the best of his abilities.  The only exit is to the
     south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1976,7 +1976,7 @@ rooms:
   description: "You are inside the finest weapons and armour shop in all of Shiredom.
     \ The\n\rshopkeeper proudly displays his fine wares and humbly offers the best
     daggers\n\rthat you have ever laid eyes on.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -1992,7 +1992,7 @@ rooms:
   description: "You are inside Kid'n Keep, the convenient one-stop nursery that maintains\n\rthe
     youth of the Shire.  Toddlers run every which way while their nursemaids\n\rsigh
     in exasperation.  The only exit lies to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2036,14 +2036,14 @@ rooms:
     shiriffs\n\rof the Eastern Shire.  As you examine the shiriffs on duty, you come
     to realize\n\rthat the halflings of the Shire are not to be reckoned with.  You
     cower with \n\rawe.  A door offers passage to the east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc: "A door offers passage to the office of the Thain.\n\r"
     keywords: door
-    exit_flags: 1
+    exit_flags: A
     key: 0
     to_vnum: 1111
   - dir: 3
@@ -2059,14 +2059,14 @@ rooms:
     of the\n\rgreat Shire.  The Thain has sworn to protect the Shire from all thieves
     and\n\rmurderers with his life, and so eyes you suspiciously.  A door to the west\n\rleads
     to the Shiriff Post.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 3
     desc: "A door offers passage to the Shiriff Post.\n\r"
     keywords: door
-    exit_flags: 1
+    exit_flags: A
     key: 0
     to_vnum: 1110
   extra_descs: []
@@ -2140,7 +2140,7 @@ rooms:
     place for halflings.  As you look around this private abode, you feel\n\ras if
     you were intruding and so quickly cover your eyes.  The only exit lies\n\rto the
     east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2157,7 +2157,7 @@ rooms:
     place for halflings.  As you look around this private abode, you feel\n\ras if
     you were intruding and so quickly cover your eyes.  The only exit lies\n\rto the
     west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2174,7 +2174,7 @@ rooms:
     Shire urbanites and seasoned travelers fill the confines of the room\n\rwith gay
     and lively talk.  A jovial innkeeper stops all that he is doing to\n\rawait your
     command.  The only exit lies to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2236,7 +2236,7 @@ rooms:
     shiriffs\n\rof the Bridge.  As you examine the shiriffs on duty, you come to realize
     that\n\rthe halflings of the Shire are not to be reckoned with.  You cower with
     awe.\n\rThe only exit is to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2289,7 +2289,7 @@ rooms:
     vitality.  You look around but find no one to take your order.  \n\rYou then peep
     over the counter and discover a friendly grocer who is too \n\rshort to be seen
     over the counter.  The only exit is to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2357,7 +2357,7 @@ rooms:
     the river\n\rto the west and get a compelling urge to grab the nearest worker
     and to toss\n\rhim into the river.  The entrance stands to the north while a door
     offers\n\rpassage to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2370,7 +2370,7 @@ rooms:
   - dir: 2
     desc: "A wooden door leads to the rear of the watermill.\n\r"
     keywords: door
-    exit_flags: 1
+    exit_flags: A
     key: 0
     to_vnum: 1125
   extra_descs: []
@@ -2379,7 +2379,7 @@ rooms:
   description: "You stand in a damp, dimly lit room.  Mildew clings to the walls and
     it\n\rappears as if you were the first person to enter the room in ages.  A barely\n\rvisible
     portal in the ground catches your eye.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2602,7 +2602,7 @@ rooms:
     desc: "A large, magnificent house meets your steady gaze.  Above the round door
       a\n\rsign reads 'Bag End'.\n\r"
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 1135
   - dir: 2
@@ -2618,14 +2618,14 @@ rooms:
     halfling\n\rstandards.  On the wall you see a banner which reads \"Home Sweet
     Home\".\n\rA solid oak door to the east leads to a pantry while you see a cozy
     bedroom\n\rto the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc: "Through the keyhole you see what looks like a well stocked pantry.\n\r"
     keywords: door
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 1137
   - dir: 2
@@ -2648,7 +2648,7 @@ rooms:
     as you gaze upon them you come to the conclusion that the owner of\n\rBag End
     comes from a long line of distinguished halflings.  A cozy fire\n\rin the fireplace
     keeps the room warm and comfortable.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2664,14 +2664,14 @@ rooms:
   description: "You are inside the pantry.  Shelves filled with food and drink surround\n\ryou
     on all sides.  You wonder why a halfling would need so much to eat.\n\rThe presence
     of something unseen chills you to your bones.  On the floor\n\ryou spy a trapdoor.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 3
     desc: "Beyond the door you see the main room of Bag End.\n\r"
     keywords: door
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 1135
   - dir: 5
@@ -2759,7 +2759,7 @@ rooms:
     \n\rthe smell reminds you of a stable.  As you look around disdainfully, you\n\rthink
     to yourself that this is more of a shack than a proper residence and\n\ryou long
     for the urban riches of the Shire proper.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2778,7 +2778,7 @@ rooms:
     \ All the warmth and good vibes remind you of the days when your\n\rmother would
     hold you in her arms and sing you to sleep.  You find yourself\n\rwanting to cradle
     all the animals.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2799,7 +2799,7 @@ rooms:
   name: A chicken coop
   description: "You stand inside a rather crowded chicken coop.  The cackle of hens
     fill\n\rthe air.  The only exit is to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2819,7 +2819,7 @@ rooms:
     that fill the inn, you hear the tales of great and\n\rseasoned adventurers as
     well as the usual gossip.  You feel as if you've\n\rfound your second home in
     the Green Dragon.  You see a stairway leading\n\rupwards.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2842,7 +2842,7 @@ rooms:
     shiriffs\n\rof Delving Lane.  As you examine the shiriffs on duty, you come to
     realize\n\rthat the halflings of the Shire are not to be reckoned with.  You cower
     with\n\rawe.  The only exit is to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2858,7 +2858,7 @@ rooms:
   description: "You stand inside a small underground tunnel.  The ceiling is so low
     that\n\ryou must crouch to avoid hitting your head.  You see light from a small\n\rhole
     in the ceiling while to the east you see nothing but darkness.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2880,7 +2880,7 @@ rooms:
   description: "You stand inside a small underground tunnel.  The ceiling is so low
     that\n\ryou must crouch to avoid hitting your head.  The tunnel continues east
     and\n\rwest.  All you can see is darkness.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2902,7 +2902,7 @@ rooms:
   description: "You stand inside a small underground tunnel.  The ceiling is so low
     that\n\ryou must crouch to avoid hitting your head.  The tunnel continues east
     and\n\rwest.  All you can see is darkness.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2923,7 +2923,7 @@ rooms:
   name: A three way intersection
   description: "You stand at an intersection.  The tunnel continues east and west
     while\n\rto the north you can barely make out a smaller trail.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2950,7 +2950,7 @@ rooms:
   name: End of a dark tunnel
   description: "You stand at the end of a dark tunnel.  The underground tunnel continues\n\rto
     the west.  From a trapdoor in the ceiling you can hear the din of\n\radventurers.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2973,7 +2973,7 @@ rooms:
     that\n\ryou must crouch to avoid hitting your head.  The tunnel continues north
     and\n\rsouth.  To the west you see a Shirriff Post while to the east lies a small\n\rhome.
     \ All you can see is darkness.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3007,7 +3007,7 @@ rooms:
   description: "You stand inside a small underground tunnel.  The ceiling is so low
     that \n\ryou must crouch to avoid hitting your head.  The tunnel continues north
     and\n\rsouth.  To the west lies a small home.  All you can see is darkness.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3036,7 +3036,7 @@ rooms:
     shiriffs \n\rof the Lower Shire.  As you examine the shiriffs on duty, you come
     to realize\n\rthat the halflings of the Shire are not to be reckoned with.  You
     cower with\n\rawe.  The only exit is to the east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3052,7 +3052,7 @@ rooms:
   description: "You stand inside a rather crudely built halfling hole.  The many passageways\n\rand
     winding paths remind you of a rodent's lair.  The air is musty and damp\n\rand
     you feel the need for fresh air.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3068,7 +3068,7 @@ rooms:
   description: "You stand inside a rather crudely built halfling hole.  The many passageways\n\rand
     winding paths remind you of a rodent's lair.  The air is musty and damp\n\rand
     you feel the need for fresh air.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3083,7 +3083,7 @@ rooms:
   name: End of a dark tunnel
   description: "You are at one end of a dark tunnel.  The tunnel continues to the
     south\n\rwhile on the ceiling you can make out a trapdoor.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3105,7 +3105,7 @@ rooms:
   description: "You are standing in the Inn of the Green dragon.  Large paintings
     of \n\rhalflings at work, and halflings at play adorn the walls.  Comfortable
     \n\rbenches and seats line the walls.  A stairway leads down.\n\r"
-  room_flags: 24
+  room_flags: DE
   sector: 0
   owner:
   exits:

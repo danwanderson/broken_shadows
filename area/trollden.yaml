@@ -16,8 +16,8 @@ mobiles:
     it is blood or\n\rsaliva dripping from the beast's jaw.  The guardian beast snarls
     again.\n\r"
   race: Human
-  act: 524390
-  affected_by: 98312
+  act: BCFGT
+  affected_by: DPQ
   affected2_by: 0
   alignment: -200
   clan: 0
@@ -61,8 +61,8 @@ mobiles:
   description: "He is a tall, wiry, furry humanoid.\n\rYour eyes lock with his.  He
     smiles, puts down his bone, and reaches for one\n\rof yours!!\n\r"
   race: Human
-  act: 524388
-  affected_by: 32768
+  act: CFGT
+  affected_by: P
   affected2_by: 0
   alignment: -500
   clan: 0
@@ -107,8 +107,8 @@ mobiles:
     off of his beast.\n\rHis eyes dart toward you, as he realizes you are one third
     his size.\n\r"
   race: Human
-  act: 524390
-  affected_by: 32768
+  act: BCFGT
+  affected_by: P
   affected2_by: 0
   alignment: -500
   clan: 0
@@ -152,8 +152,8 @@ mobiles:
   description: "He is a large, chubby, furry humanoid.\n\rHe is trying to stuff an
     arm in a hole in the wall.\n\rHe notices you and gargles \"WANNA JOIN?\".\n\r"
   race: Human
-  act: 524326
-  affected_by: 32768
+  act: BCFT
+  affected_by: P
   affected2_by: 0
   alignment: -100
   clan: 0
@@ -198,8 +198,8 @@ mobiles:
     your intrusion.\n\rYou gasp as you realize you have intruded upon his acts of
     passion!\n\r"
   race: Giant
-  act: 524390
-  affected_by: 32768
+  act: BCFGT
+  affected_by: P
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -244,8 +244,8 @@ mobiles:
     but gasps as she notices you.\n\rHer smiles turn into snarls as she screams at
     you!\n\r"
   race: Human
-  act: 524390
-  affected_by: 32768
+  act: BCFGT
+  affected_by: P
   affected2_by: 0
   alignment: -800
   clan: 0
@@ -289,8 +289,8 @@ mobiles:
   description: "It is thick and long.  You can't find a head on this thing.\n\rIt
     moves quickly, from corpse to corpse.\n\r"
   race: Human
-  act: 524452
-  affected_by: 98304
+  act: CFHT
+  affected_by: PQ
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -336,8 +336,8 @@ mobiles:
     it is blood or saliva dripping from the beast's\n\rjaw.  The roving beast snarls
     at you.\n\r"
   race: Human
-  act: 524390
-  affected_by: 32776
+  act: BCFGT
+  affected_by: DP
   affected2_by: 0
   alignment: -200
   clan: 0
@@ -381,8 +381,8 @@ mobiles:
   description: "He is a tall, lean, furry humanoid.\n\rHe notices you, and is satisfied
     to find what he is looking for.\n\rHe advances toward you.\n\r"
   race: Human
-  act: 524388
-  affected_by: 32768
+  act: CFGT
+  affected_by: P
   affected2_by: 0
   alignment: -500
   clan: 0
@@ -427,7 +427,7 @@ objects:
   material: none
   item_type: 15
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 7
   weight: 50
   cost: 70
@@ -465,7 +465,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 1025
+  wear_flags: AK
   level: 12
   weight: 50
   cost: 120
@@ -490,8 +490,8 @@ objects:
   description: A ring of black opal lies here gathering dust.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 3
+  extra_flags: G
+  wear_flags: AB
   level: 10
   weight: 1
   cost: 100
@@ -515,8 +515,8 @@ objects:
   description: An old leather belt is left on the floor.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 2049
+  extra_flags: G
+  wear_flags: AL
   level: 7
   weight: 5
   cost: 70
@@ -538,7 +538,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 6
   weight: 3
   cost: 60
@@ -550,11 +550,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
+    location: 19
     modifier: -1
     bitvector: 0
   - where: O
-    location: 19
+    location: 18
     modifier: -1
     bitvector: 0
   extra_descs:
@@ -566,7 +566,7 @@ rooms:
   name: Wastedump
   description: "This room is filled with bone shards and fragments.  Something (or
     things)\n\rvery big lives here.  A small plaque is on the wall.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -592,7 +592,7 @@ rooms:
     and other\n\rinsects crawling up them.  The resident is definitely uncivilized.
     \ Half-eaten\n\rand rotting body parts scatter the floor, each having its own
     colony of flies,\n\rworms, and maggots.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -611,7 +611,7 @@ rooms:
   name: Troll's Living Room
   description: "This small cave opens to the north, south, east, and west.  You are\n\rovercome
     by the stench and consider turning around.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -649,7 +649,7 @@ rooms:
   description: "The walls are covered with blood (and body parts!?!?).  Plastered
     on the far\n\rwall you see what looks like a human arm.  A half-eaten body lies
     here with\n\rits chest ripped out.  The predator seems disinterested in it.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -670,7 +670,7 @@ rooms:
     are piles and piles of rotten and half-eaten body parts of animals,\n\rorcs, (and
     humans?) strewn across the floor.  There is a larger, more\n\rprominent pile of
     rotten parts over in a corner.  It seems to have been\n\rflattened by something.\n\r"
-  room_flags: 13
+  room_flags: ACD
   sector: 5
   owner:
   exits:

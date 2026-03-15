@@ -16,8 +16,8 @@ mobiles:
     for \n\ryou, this guard will only use his deadly skills for the good of the citizens
     of\n\rOfcol.\n\r"
   race: Human
-  act: 524292
-  affected_by: 8192
+  act: CT
+  affected_by: N
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -63,8 +63,8 @@ mobiles:
     the\n\rweight.  The second is to show her rank of office.  The third is that platinum\n\ris
     the hardest metal she can find.  She is willing to defend Ofcol to her \n\rdeath.\n\r"
   race: Human
-  act: 524290
-  affected_by: 8328
+  act: BT
+  affected_by: DHN
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -110,8 +110,8 @@ mobiles:
     of a surviving cityguard of old Thalos.  He believes that everything\n\rhas to
     be hard won to be kept, and that laxity is for the weak.\n\r"
   race: Human
-  act: 524352
-  affected_by: 8328
+  act: GT
+  affected_by: DHN
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -158,8 +158,8 @@ mobiles:
     pale softness\n\ror her magic, no one has ever found out.  She isn't very strong
     physically, but\n\rshe need not be.\n\r"
   race: Human
-  act: 524290
-  affected_by: 8200
+  act: BT
+  affected_by: DN
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -204,8 +204,8 @@ mobiles:
     \ He is\n\rsmiling a very big smile, as he looks at your coins.  You wonder if
     he likes\n\rthe metals or the value of the coins.\n\r"
   race: Human
-  act: 524290
-  affected_by: 8192
+  act: BT
+  affected_by: N
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -249,8 +249,8 @@ mobiles:
   description: "Sam is a middle-aged workman.  He looks tired, but never too tired
     to get that\n\rlast sale from you.  He grins at you slightly.\n\r"
   race: Human
-  act: 524290
-  affected_by: 8192
+  act: BT
+  affected_by: N
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -295,8 +295,8 @@ mobiles:
     she knows\n\rthe hard ways of this world and is ready for it.  She spends her
     time at the\n\rshop, trading little things (for a wee bit of profit).\n\r"
   race: Human
-  act: 524290
-  affected_by: 8192
+  act: BT
+  affected_by: N
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -341,8 +341,8 @@ mobiles:
     he lets his\n\rson, Jim, raise and slaughter the animals for him.  Marty still
     knows how to\n\rkill, though.\n\r"
   race: Human
-  act: 524290
-  affected_by: 8192
+  act: BT
+  affected_by: N
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -388,8 +388,8 @@ mobiles:
     to her too.\n\rFarmer Elizabeth smiles at you nicely, but you bet she is doing
     that just to\n\rget a good price off of you!\n\r"
   race: Human
-  act: 524290
-  affected_by: 8192
+  act: BT
+  affected_by: N
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -435,8 +435,8 @@ mobiles:
     at herself\n\revery time she tastes her whiskey, which is quite often!\n\rGranny
     Jenkins cackles again.\n\r"
   race: Human
-  act: 524290
-  affected_by: 8192
+  act: BT
+  affected_by: N
   affected2_by: 0
   alignment: 500
   clan: 0
@@ -481,7 +481,7 @@ mobiles:
     in\n\rtheir shared affinity for slaughtering animals.)  Jack leers at you as you\n\renter.
     \ \"Came by to watch, eh?\", he asks.\n\r"
   race: Human
-  act: 524450
+  act: BFHT
   affected_by: 0
   affected2_by: 0
   alignment: 200
@@ -527,7 +527,7 @@ mobiles:
     all\n\rthat, she doesn't look that bad.  She smiles at you demurely, and goes
     back to\n\rher work.\n\r"
   race: Human
-  act: 524418
+  act: BHT
   affected_by: 0
   affected2_by: 0
   alignment: 800
@@ -572,7 +572,7 @@ mobiles:
   description: "The hen has yellow feathers and small wings.  It looks like a chicken,
     if\n\ryou've ever seen one.\n\r"
   race: Human
-  act: 524672
+  act: HIT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -617,7 +617,7 @@ mobiles:
   description: "The cow is here happily grazing.  It moos at you and goes back to
     grazing.\n\r"
   race: Human
-  act: 524544
+  act: IT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -662,7 +662,7 @@ mobiles:
   description: "The cow is just standing here.  She moos at you and otherwise ignores
     you.\n\r"
   race: Human
-  act: 524546
+  act: BIT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -707,7 +707,7 @@ mobiles:
   description: "The horse whinnies at you, then runs around you a few times, then
     just goes\n\rback to grazing.\n\r"
   race: Human
-  act: 524704
+  act: FHIT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -752,7 +752,7 @@ mobiles:
   description: "The pig looks dirty.  It snorts and sniffs at you, then goes back
     to its slop.\n\r"
   race: pig
-  act: 524546
+  act: BIT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -798,7 +798,7 @@ mobiles:
     the same\n\rfor you.  He looks at you strangely, though, wondering why you are
     so armed and\n\rarmored.\n\r"
   race: Human
-  act: 524416
+  act: HT
   affected_by: 0
   affected2_by: 0
   alignment: 500
@@ -844,7 +844,7 @@ mobiles:
     the same\n\rfor you.  She looks at you strangely, though, wondering why you are
     so armed\n\rand armored.\n\r"
   race: Human
-  act: 524416
+  act: HT
   affected_by: 0
   affected2_by: 0
   alignment: 500
@@ -889,7 +889,7 @@ mobiles:
   description: "The little boy looks up at you and says, 'Hi.  Can I have a piece
     of candy?'\n\rHe then smiles and runs away, remembering his game.\n\r"
   race: Human
-  act: 524416
+  act: HT
   affected_by: 0
   affected2_by: 0
   alignment: 500
@@ -934,7 +934,7 @@ mobiles:
   description: "The little girl looks up at you and says, 'Hi.  Can I have a pretty
     little\n\rcoin?'  She then smiles and runs away, remembering her game.\n\r"
   race: Human
-  act: 524416
+  act: HT
   affected_by: 0
   affected2_by: 0
   alignment: 500
@@ -980,7 +980,7 @@ mobiles:
     till\n\rMaster and Mistress come back.  You will get me in trouble!  Shoo!', she
     says.\n\rShe hits you with her broom.\n\r"
   race: Human
-  act: 524416
+  act: HT
   affected_by: 0
   affected2_by: 0
   alignment: 500
@@ -1026,7 +1026,7 @@ mobiles:
     fight to\n\rjoin in.  He keeps an eye on you and his glasses, making sure you
     don't steal\n\rany.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: 1000
@@ -1073,8 +1073,8 @@ mobiles:
     for \n\ryou, this guard will only use his deadly skills for the good of the citizens
     of\n\rOfcol.\n\r"
   race: Human
-  act: 524290
-  affected_by: 8192
+  act: BT
+  affected_by: N
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1119,8 +1119,8 @@ mobiles:
     stay in the\n\rpeaceful city of Ofcol, and to sing of its unmatched glories.  He
     smiles at\n\ryou, hinting toward a tip from you in ever a subtle way.\n\r"
   race: Human
-  act: 524290
-  affected_by: 8192
+  act: BT
+  affected_by: N
   affected2_by: 0
   alignment: 800
   clan: 0
@@ -1163,8 +1163,8 @@ mobiles:
   long_desc: "A servant is here, carrying the duties of the Keeper of the Golden Citadel.\n\r"
   description: "The servant smiles good-naturedly at you, then goes on his duties.\n\r"
   race: Human
-  act: 524352
-  affected_by: 8192
+  act: GT
+  affected_by: N
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1207,8 +1207,8 @@ mobiles:
   long_desc: "A squire is here, scurrying from duty to duty.\n\r"
   description: "This young man smiles at you, but is too busy to chat.\n\r"
   race: Human
-  act: 524352
-  affected_by: 8192
+  act: GT
+  affected_by: N
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1251,8 +1251,8 @@ mobiles:
   long_desc: "A page is here, sending a message to his knight.\n\r"
   description: "The page smiles for you, asking if he can do you a favor too.\n\r"
   race: Human
-  act: 524352
-  affected_by: 8192
+  act: GT
+  affected_by: N
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1297,8 +1297,8 @@ mobiles:
     and \n\rwith the world.  She devotes all her time to help teach you the ways of
     her\n\rgod, Bahamut.  The dragon symbol around her neck looks almost alive.\n\r"
   race: Human
-  act: 524290
-  affected_by: 8322
+  act: BT
+  affected_by: BHN
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1344,8 +1344,8 @@ mobiles:
     you doing just\n\rSTANDING here, young man?  Go help that other squire there!\",
     he yells.  He\n\rturns to you and with a consipatory tone, whispers, \"Kids!\"\n\r"
   race: Human
-  act: 524352
-  affected_by: 8322
+  act: GT
+  affected_by: BHN
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1390,8 +1390,8 @@ mobiles:
     gleam with\n\rpower.  He smiles at you with a vicious grin.  You're happy that
     he doesn't\n\rlook upset at your presence. \n\r"
   race: Human
-  act: 524290
-  affected_by: 8322
+  act: BT
+  affected_by: BHN
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1437,8 +1437,8 @@ mobiles:
     but\n\rrealizing that you're no danger to him, he ignores you.  He waves to one
     of\n\rhis attendants to escort you away.\n\r"
   race: Human
-  act: 524294
-  affected_by: 8834
+  act: BCT
+  affected_by: BHJN
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1482,8 +1482,8 @@ mobiles:
   description: "This elder servant to the Gold Dragon is very loyal to him, willing
     to risk\n\rhis life for his liege.\n\r"
   race: Human
-  act: 524290
-  affected_by: 8194
+  act: BT
+  affected_by: BN
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1528,8 +1528,8 @@ mobiles:
   description: "This person looks like a dragon itself.  His golden scales gleam with
     power.\n\rHe smiles at you, showing very sharp teeth.\n\r"
   race: Human
-  act: 524352
-  affected_by: 8194
+  act: GT
+  affected_by: BN
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1575,8 +1575,8 @@ mobiles:
     for \n\ryou, this guard will only use his deadly skills for the good of the citizens
     of\n\rOfcol.\n\r"
   race: Human
-  act: 524290
-  affected_by: 8192
+  act: BT
+  affected_by: N
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -1621,7 +1621,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 10
   cost: 100
@@ -1643,7 +1643,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 5
   cost: 100
@@ -1664,7 +1664,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 10
   cost: 0
@@ -1683,7 +1683,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 10
   cost: 0
@@ -1702,7 +1702,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 12
   cost: 0
@@ -1721,7 +1721,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 5
   cost: 0
@@ -1739,8 +1739,8 @@ objects:
   description: An emerald ring is on the floor, gathering dust.
   material: none
   item_type: 8
-  extra_flags: 64
-  wear_flags: 3
+  extra_flags: G
+  wear_flags: AB
   level: 15
   weight: 1
   cost: 150
@@ -1759,7 +1759,7 @@ objects:
   material: none
   item_type: 8
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 15
   weight: 1
   cost: 150
@@ -1782,7 +1782,7 @@ objects:
   material: none
   item_type: 8
   extra_flags: 0
-  wear_flags: 5
+  wear_flags: AC
   level: 15
   weight: 2
   cost: 150
@@ -1794,12 +1794,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 9
-    modifier: 10
-    bitvector: 0
-  - where: O
     location: 4
     modifier: -1
+    bitvector: 0
+  - where: O
+    location: 9
+    modifier: 10
     bitvector: 0
   extra_descs: []
 - vnum: 609
@@ -1809,7 +1809,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 2
   cost: 0
@@ -1828,7 +1828,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 2
   cost: 0
@@ -1847,7 +1847,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 4
   weight: 5
   cost: 40
@@ -1866,7 +1866,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 0
@@ -1885,7 +1885,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 0
@@ -1904,7 +1904,7 @@ objects:
   material: none
   item_type: 13
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 4
   weight: 20
   cost: 40
@@ -1923,7 +1923,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 10
   weight: 10
   cost: 100
@@ -1942,7 +1942,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 8
   weight: 10
   cost: 80
@@ -1961,7 +1961,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 257
+  wear_flags: AI
   level: 10
   weight: 5
   cost: 100
@@ -1980,7 +1980,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 33
+  wear_flags: AF
   level: 10
   weight: 5
   cost: 100
@@ -1999,7 +1999,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 65
+  wear_flags: AG
   level: 10
   weight: 5
   cost: 100
@@ -2017,8 +2017,8 @@ objects:
   description: A shiny ring of gold is in the dirt.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 3
+  extra_flags: G
+  wear_flags: AB
   level: 18
   weight: 1
   cost: 180
@@ -2030,12 +2030,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 13
-    modifier: 5
-    bitvector: 0
-  - where: O
     location: 24
     modifier: -1
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 5
     bitvector: 0
   extra_descs: []
 - vnum: 621
@@ -2044,8 +2044,8 @@ objects:
   description: A pile of brass plates is against the wall here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 9
+  extra_flags: G
+  wear_flags: AD
   level: 17
   weight: 10
   cost: 170
@@ -2057,12 +2057,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 13
-    modifier: 10
-    bitvector: 0
-  - where: O
     location: 24
     modifier: -2
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 10
     bitvector: 0
   extra_descs: []
 - vnum: 622
@@ -2071,8 +2071,8 @@ objects:
   description: A brass helm is against the wall here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 17
+  extra_flags: G
+  wear_flags: AE
   level: 17
   weight: 10
   cost: 170
@@ -2084,12 +2084,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 13
-    modifier: 5
-    bitvector: 0
-  - where: O
     location: 24
     modifier: -1
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 5
     bitvector: 0
   extra_descs: []
 - vnum: 623
@@ -2098,8 +2098,8 @@ objects:
   description: A pile of brass plates is against the wall here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 33
+  extra_flags: G
+  wear_flags: AF
   level: 19
   weight: 10
   cost: 190
@@ -2111,12 +2111,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 13
-    modifier: 5
-    bitvector: 0
-  - where: O
     location: 24
     modifier: -1
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 5
     bitvector: 0
   extra_descs: []
 - vnum: 624
@@ -2125,8 +2125,8 @@ objects:
   description: Some brass boots are against the wall here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 65
+  extra_flags: G
+  wear_flags: AG
   level: 19
   weight: 10
   cost: 190
@@ -2138,12 +2138,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 13
-    modifier: 5
-    bitvector: 0
-  - where: O
     location: 24
     modifier: -1
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 5
     bitvector: 0
   extra_descs: []
 - vnum: 625
@@ -2152,8 +2152,8 @@ objects:
   description: Some brass gauntlets are against the wall here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 129
+  extra_flags: G
+  wear_flags: AH
   level: 19
   weight: 10
   cost: 190
@@ -2165,12 +2165,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 13
-    modifier: 5
-    bitvector: 0
-  - where: O
     location: 24
     modifier: -1
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 5
     bitvector: 0
   extra_descs: []
 - vnum: 626
@@ -2179,8 +2179,8 @@ objects:
   description: A pile of brass plates is against the wall here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 257
+  extra_flags: G
+  wear_flags: AI
   level: 19
   weight: 10
   cost: 190
@@ -2192,12 +2192,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 13
-    modifier: 5
-    bitvector: 0
-  - where: O
     location: 24
     modifier: -1
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 5
     bitvector: 0
   extra_descs: []
 - vnum: 627
@@ -2206,8 +2206,8 @@ objects:
   description: A big plate of brass is against the wall here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 513
+  extra_flags: G
+  wear_flags: AJ
   level: 18
   weight: 10
   cost: 180
@@ -2219,12 +2219,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 13
-    modifier: 5
-    bitvector: 0
-  - where: O
     location: 24
     modifier: -1
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 5
     bitvector: 0
   extra_descs: []
 - vnum: 628
@@ -2233,8 +2233,8 @@ objects:
   description: A brass girth is against the wall here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 2049
+  extra_flags: G
+  wear_flags: AL
   level: 19
   weight: 10
   cost: 190
@@ -2246,12 +2246,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 13
-    modifier: 5
-    bitvector: 0
-  - where: O
     location: 24
     modifier: -1
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 5
     bitvector: 0
   extra_descs: []
 - vnum: 629
@@ -2260,8 +2260,8 @@ objects:
   description: A brass bracer is against the wall here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 4097
+  extra_flags: G
+  wear_flags: AM
   level: 19
   weight: 10
   cost: 190
@@ -2273,12 +2273,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 13
-    modifier: 5
-    bitvector: 0
-  - where: O
     location: 24
     modifier: -1
+    bitvector: 0
+  - where: O
+    location: 13
+    modifier: 5
     bitvector: 0
   extra_descs: []
 - vnum: 630
@@ -2287,8 +2287,8 @@ objects:
   description: A VERY big sword is against the wall here.
   material: none
   item_type: 5
-  extra_flags: 64
-  wear_flags: 8193
+  extra_flags: G
+  wear_flags: AN
   level: 18
   weight: 16
   cost: 180
@@ -2300,12 +2300,12 @@ objects:
   - 32
   affects:
   - where: O
-    location: 19
-    modifier: 5
-    bitvector: 0
-  - where: O
     location: 18
     modifier: -2
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 5
     bitvector: 0
   extra_descs: []
 - vnum: 631
@@ -2314,8 +2314,8 @@ objects:
   description: A pile of silver plating and chain is on the floor.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 9
+  extra_flags: GK
+  wear_flags: AD
   level: 27
   weight: 20
   cost: 270
@@ -2327,12 +2327,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 1
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 12
     modifier: 10
+    bitvector: 0
+  - where: O
+    location: 1
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 632
@@ -2341,8 +2341,8 @@ objects:
   description: A shiny helm is on the floor.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 17
+  extra_flags: GK
+  wear_flags: AE
   level: 27
   weight: 20
   cost: 270
@@ -2354,12 +2354,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 2
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 12
     modifier: 5
+    bitvector: 0
+  - where: O
+    location: 2
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 633
@@ -2368,8 +2368,8 @@ objects:
   description: Some shiny leggings are on the floor.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 33
+  extra_flags: GK
+  wear_flags: AF
   level: 27
   weight: 20
   cost: 270
@@ -2381,12 +2381,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 3
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 12
     modifier: 5
+    bitvector: 0
+  - where: O
+    location: 3
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 634
@@ -2395,8 +2395,8 @@ objects:
   description: Some shiny boots are on the floor.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 65
+  extra_flags: GK
+  wear_flags: AG
   level: 27
   weight: 20
   cost: 270
@@ -2408,12 +2408,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 4
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 12
     modifier: 5
+    bitvector: 0
+  - where: O
+    location: 4
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 635
@@ -2422,8 +2422,8 @@ objects:
   description: Some shiny gauntlets are on the floor.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 129
+  extra_flags: GK
+  wear_flags: AH
   level: 27
   weight: 20
   cost: 270
@@ -2435,12 +2435,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 5
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 12
     modifier: 5
+    bitvector: 0
+  - where: O
+    location: 5
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 636
@@ -2449,8 +2449,8 @@ objects:
   description: Some shiny sleeves are on the floor.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 257
+  extra_flags: GK
+  wear_flags: AI
   level: 28
   weight: 20
   cost: 280
@@ -2462,12 +2462,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 12
     modifier: 5
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 637
@@ -2476,8 +2476,8 @@ objects:
   description: A shiny shield is on the floor.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 513
+  extra_flags: GK
+  wear_flags: AJ
   level: 28
   weight: 20
   cost: 280
@@ -2489,12 +2489,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 17
-    modifier: -3
-    bitvector: 0
-  - where: O
     location: 12
     modifier: 5
+    bitvector: 0
+  - where: O
+    location: 17
+    modifier: -3
     bitvector: 0
   extra_descs: []
 - vnum: 638
@@ -2503,8 +2503,8 @@ objects:
   description: A shiny girth is on the floor.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 2049
+  extra_flags: GK
+  wear_flags: AL
   level: 28
   weight: 20
   cost: 280
@@ -2516,12 +2516,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 12
     modifier: 5
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 639
@@ -2530,8 +2530,8 @@ objects:
   description: A pile of silvery metal is on the floor.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 9
+  extra_flags: GK
+  wear_flags: AD
   level: 33
   weight: 50
   cost: 330
@@ -2543,12 +2543,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 5
-    modifier: 2
-    bitvector: 0
-  - where: O
     location: 13
     modifier: 15
+    bitvector: 0
+  - where: O
+    location: 5
+    modifier: 2
     bitvector: 0
   extra_descs: []
 - vnum: 640
@@ -2557,8 +2557,8 @@ objects:
   description: A silvery helmet is on the floor.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 17
+  extra_flags: GK
+  wear_flags: AE
   level: 33
   weight: 30
   cost: 330
@@ -2570,12 +2570,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 4
-    modifier: 2
-    bitvector: 0
-  - where: O
     location: 12
     modifier: 10
+    bitvector: 0
+  - where: O
+    location: 4
+    modifier: 2
     bitvector: 0
   extra_descs: []
 - vnum: 641
@@ -2584,8 +2584,8 @@ objects:
   description: Some silvery leggings are on the floor.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 33
+  extra_flags: GK
+  wear_flags: AF
   level: 33
   weight: 40
   cost: 330
@@ -2597,12 +2597,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 2
-    modifier: 2
-    bitvector: 0
-  - where: O
     location: 13
     modifier: 10
+    bitvector: 0
+  - where: O
+    location: 2
+    modifier: 2
     bitvector: 0
   extra_descs: []
 - vnum: 642
@@ -2611,8 +2611,8 @@ objects:
   description: Some silvery boots are on the floor.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 65
+  extra_flags: GK
+  wear_flags: AG
   level: 33
   weight: 40
   cost: 330
@@ -2624,12 +2624,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 14
-    modifier: 100
-    bitvector: 0
-  - where: O
     location: 13
     modifier: 10
+    bitvector: 0
+  - where: O
+    location: 14
+    modifier: 100
     bitvector: 0
   extra_descs: []
 - vnum: 643
@@ -2638,8 +2638,8 @@ objects:
   description: A pair of silvery gauntlets are on the floor.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 129
+  extra_flags: GK
+  wear_flags: AH
   level: 33
   weight: 40
   cost: 330
@@ -2651,12 +2651,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 2
-    bitvector: 0
-  - where: O
     location: 13
     modifier: 10
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 2
     bitvector: 0
   extra_descs: []
 - vnum: 644
@@ -2665,8 +2665,8 @@ objects:
   description: A pair of silvery sleeves are on the floor.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 257
+  extra_flags: GK
+  wear_flags: AI
   level: 33
   weight: 40
   cost: 330
@@ -2678,12 +2678,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 1
-    modifier: 2
-    bitvector: 0
-  - where: O
     location: 13
     modifier: 10
+    bitvector: 0
+  - where: O
+    location: 1
+    modifier: 2
     bitvector: 0
   extra_descs: []
 - vnum: 645
@@ -2692,8 +2692,8 @@ objects:
   description: A jagged, silvery shield is on the floor.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 513
+  extra_flags: GK
+  wear_flags: AJ
   level: 33
   weight: 40
   cost: 330
@@ -2705,12 +2705,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: 3
-    bitvector: 0
-  - where: O
     location: 13
     modifier: 10
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 3
     bitvector: 0
   extra_descs: []
 - vnum: 646
@@ -2719,8 +2719,8 @@ objects:
   description: A silvery girth is on the floor.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 2049
+  extra_flags: GK
+  wear_flags: AL
   level: 33
   weight: 40
   cost: 330
@@ -2732,12 +2732,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 24
-    modifier: -5
-    bitvector: 0
-  - where: O
     location: 13
     modifier: 10
+    bitvector: 0
+  - where: O
+    location: 24
+    modifier: -5
     bitvector: 0
   extra_descs: []
 - vnum: 647
@@ -2746,8 +2746,8 @@ objects:
   description: A glowing silvery sword is hovering here, ready to possess an owner.
   material: none
   item_type: 5
-  extra_flags: 1088
-  wear_flags: 8193
+  extra_flags: GK
+  wear_flags: AN
   level: 33
   weight: 25
   cost: 330
@@ -2759,12 +2759,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: 6
-    bitvector: 0
-  - where: O
     location: 18
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: 6
     bitvector: 0
   extra_descs: []
 - vnum: 648
@@ -2774,7 +2774,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 0
@@ -2793,7 +2793,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 3
   weight: 8
   cost: 30
@@ -2812,7 +2812,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 8
   cost: 0
@@ -2831,7 +2831,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 18
   weight: 1
   cost: 180
@@ -2849,8 +2849,8 @@ objects:
   description: A very shiny symbol is on the floor.
   material: none
   item_type: 9
-  extra_flags: 3392
-  wear_flags: 5
+  extra_flags: GIKL
+  wear_flags: AC
   level: 30
   weight: 5
   cost: 300
@@ -2862,12 +2862,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 4
-    modifier: 2
-    bitvector: 0
-  - where: O
     location: 12
     modifier: 10
+    bitvector: 0
+  - where: O
+    location: 4
+    modifier: 2
     bitvector: 0
   extra_descs: []
 - vnum: 653
@@ -2876,8 +2876,8 @@ objects:
   description: A heavy polearm is against the wall here, ready to inflict damage.
   material: none
   item_type: 5
-  extra_flags: 1088
-  wear_flags: 8193
+  extra_flags: GK
+  wear_flags: AN
   level: 27
   weight: 20
   cost: 270
@@ -2889,12 +2889,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: -1
-    bitvector: 0
-  - where: O
     location: 18
     modifier: 5
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: -1
     bitvector: 0
   extra_descs: []
 - vnum: 654
@@ -2903,8 +2903,8 @@ objects:
   description: A golden dragonscale torso is on the floor!
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 9
+  extra_flags: GK
+  wear_flags: AD
   level: 21
   weight: 25
   cost: 210
@@ -2916,12 +2916,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 2
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -5
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 2
     bitvector: 0
   extra_descs: []
 - vnum: 655
@@ -2930,8 +2930,8 @@ objects:
   description: A golden dragonhelm is on the floor!
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 17
+  extra_flags: GK
+  wear_flags: AE
   level: 0
   weight: 10
   cost: 0
@@ -2943,12 +2943,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -3
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 656
@@ -2957,8 +2957,8 @@ objects:
   description: Some golden dragonscale leggings are on the floor!
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 33
+  extra_flags: GK
+  wear_flags: AF
   level: 30
   weight: 10
   cost: 300
@@ -2970,12 +2970,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -3
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 657
@@ -2984,8 +2984,8 @@ objects:
   description: Some golden dragonscale boots are on the floor!
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 65
+  extra_flags: GK
+  wear_flags: AG
   level: 30
   weight: 10
   cost: 300
@@ -2997,12 +2997,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -3
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 658
@@ -3011,8 +3011,8 @@ objects:
   description: Some golden dragonscale gauntlets are on the floor!
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 129
+  extra_flags: GK
+  wear_flags: AH
   level: 30
   weight: 10
   cost: 300
@@ -3024,12 +3024,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -3
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 659
@@ -3038,8 +3038,8 @@ objects:
   description: Some golden dragonscale sleeves are on the floor!
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 257
+  extra_flags: GK
+  wear_flags: AI
   level: 30
   weight: 10
   cost: 300
@@ -3051,12 +3051,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -3
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 660
@@ -3065,8 +3065,8 @@ objects:
   description: A golden dragonscale shield is on the floor!
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 513
+  extra_flags: GK
+  wear_flags: AJ
   level: 21
   weight: 10
   cost: 210
@@ -3078,12 +3078,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -3
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 661
@@ -3092,8 +3092,8 @@ objects:
   description: A golden dragonscale girth is on the floor!
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 2049
+  extra_flags: GK
+  wear_flags: AL
   level: 30
   weight: 10
   cost: 300
@@ -3105,12 +3105,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -3
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 662
@@ -3119,8 +3119,8 @@ objects:
   description: A huge golden claw is on the floor
   material: none
   item_type: 5
-  extra_flags: 1088
-  wear_flags: 8193
+  extra_flags: GK
+  wear_flags: AN
   level: 21
   weight: 20
   cost: 210
@@ -3142,8 +3142,8 @@ objects:
   description: A very large pearl-like sphere is in the center of this room.
   material: none
   item_type: 4
-  extra_flags: 3136
-  wear_flags: 16385
+  extra_flags: GKL
+  wear_flags: AO
   level: 38
   weight: 30
   cost: 380
@@ -3155,12 +3155,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 4
-    modifier: 2
-    bitvector: 0
-  - where: O
     location: 3
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 4
+    modifier: 2
     bitvector: 0
   extra_descs: []
 - vnum: 664
@@ -3169,8 +3169,8 @@ objects:
   description: A golden robe is on the floor.
   material: none
   item_type: 9
-  extra_flags: 1088
-  wear_flags: 1025
+  extra_flags: GK
+  wear_flags: AK
   level: 20
   weight: 10
   cost: 200
@@ -3193,7 +3193,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 5
   weight: 1
   cost: 50
@@ -3212,7 +3212,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 5
   weight: 8
   cost: 50
@@ -3224,12 +3224,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
-    modifier: -3
-    bitvector: 0
-  - where: O
     location: 18
     modifier: 3
+    bitvector: 0
+  - where: O
+    location: 19
+    modifier: -3
     bitvector: 0
   extra_descs: []
 - vnum: 667
@@ -3239,7 +3239,7 @@ objects:
   material: none
   item_type: 15
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 10
   cost: 0
@@ -3258,14 +3258,14 @@ rooms:
     and\n\rthe bottles of it on the floor make your mouth water and your mind swirl.
     \ You\n\ralso see a very large still.  So THIS is why there are so many grain
     fields!\n\rThe exit is to the east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc: "You see the storage shed.\n\r"
     keywords: door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 616
   extra_descs: []
@@ -3342,7 +3342,7 @@ rooms:
     over\n\rthe floor, and a wave of heat from a big furnace hits you.  An anvil sits
     on \n\rone side of the room, and on the other side is a workbench.  The exit is
     east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3359,7 +3359,7 @@ rooms:
     all over\n\rthe floor.  The smell of burnt hide assaults your nose.  You can tell
     by the\n\rlooks that the tanning is done VERY CLOSE to here!   A table is near
     the\n\rentrance.  The exit is west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3409,7 +3409,7 @@ rooms:
   description: "You are in a little shop filled with a lot of knick knacks and semi-\n\rvaluable
     goods.  There is a display case full of little treasures that you are\n\rsure
     that you or any other little kid would like to touch!  The exit is east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3425,7 +3425,7 @@ rooms:
   description: "You are in a meat store.  Hanging on hooks are meats of many kinds
     of\n\ranimals.  In the background, you can hear the sound of blade against flesh.\n\rIt
     smells like meat here (which is not a good smell).  The exit is west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3475,7 +3475,7 @@ rooms:
   description: "This is a very busy bar, with everyone holding homemade bottles of\n\rale.
     \ You see even the more gentile persons here, laughing along with\n\rNyles, who
     offers you a quart of ale too.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3491,7 +3491,7 @@ rooms:
   description: "You see many carts filled with fruits and vegetables.  Many farmers
     are\n\rtrying to sell you their produce, each saying their's is better.  The exit\n\ris
     west.  \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3637,7 +3637,7 @@ rooms:
   description: "You are in the storage shed.  Bales of wheat, corn and hay are piled\n\ragainst
     the wall, and some vegetables are in carts.  You see a small door\n\ron the west
     door.  The main exit is south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3650,7 +3650,7 @@ rooms:
   - dir: 3
     desc: "You see the door.\n\r"
     keywords: door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 600
   extra_descs: []
@@ -3659,7 +3659,7 @@ rooms:
   description: "You are in the slaughterhouse, where all the animals are slaughtered
     so\n\rthat they can be sold or their skins be tanned.  The scream of dying animals\n\rmakes
     your stomach churn.  The exit is to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3693,7 +3693,7 @@ rooms:
   - dir: 2
     desc: "You see the chicken coop.\n\r"
     keywords: coop
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 619
   - dir: 3
@@ -3707,14 +3707,14 @@ rooms:
   name: Chicken Coop
   description: "You are in the chicken coop.  The smell of chickens and chicken droppings\n\rmakes
     you gasp.  The exit is north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc: "You can sense the fresh air.\n\r"
     keywords:
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 618
   extra_descs: []
@@ -3722,7 +3722,7 @@ rooms:
   name: Barn
   description: "You are in a barn.  There are some cows here, munching on mounds of
     hay.\n\rMilk is milked and bottled here.  You see the exit west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3829,7 +3829,7 @@ rooms:
   - dir: 1
     desc: "You see a big house.\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 665
     to_vnum: 626
   - dir: 2
@@ -3841,7 +3841,7 @@ rooms:
   - dir: 3
     desc: "You see a big house.\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 665
     to_vnum: 629
   extra_descs: []
@@ -3850,7 +3850,7 @@ rooms:
   description: "You are in a big house.  Evidently, the owners of this house are richer\n\rthan
     the average citizen, since there is more than one room to this house.  A\n\rdoor
     leads to the kitchen east, and a bedroom is upstairs.  The exit is to the\n\rwest.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3863,7 +3863,7 @@ rooms:
   - dir: 3
     desc: "You see Impy Way.\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 665
     to_vnum: 625
   - dir: 4
@@ -3877,7 +3877,7 @@ rooms:
   name: Bedroom
   description: "You are in the bedroom.  There isn't much of interest except for a
     bed and\n\ra closet.  The stairs lead back down.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3892,7 +3892,7 @@ rooms:
   name: Kitchen
   description: "You are in a kitchen.  There isn't much of interest here.  The main
     room\n\ris west of here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3908,14 +3908,14 @@ rooms:
   description: "You are in a big house.  Evidently, the owners of this house are richer\n\rthan
     the average citizen, since there is more than one room to this house.  A\n\rdoor
     leads to the kitchen west, and a bedroom is upstairs.  The exit is to the\n\reast.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc: "You see Impy Way.\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 665
     to_vnum: 625
   - dir: 3
@@ -3935,7 +3935,7 @@ rooms:
   name: Bedroom
   description: "You are in the bedroom.  There isn't much of interest except for a
     bed and\n\ra closet.  The stairs lead back down.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3950,7 +3950,7 @@ rooms:
   name: Kitchen
   description: "You are in a kitchen.  There isn't much of interest here.  The main
     room\n\ris east of here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3978,7 +3978,7 @@ rooms:
   - dir: 1
     desc: "You see a house.\n\r"
     keywords: door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 633
   - dir: 2
@@ -3990,7 +3990,7 @@ rooms:
   - dir: 3
     desc: "You see a house.\n\r"
     keywords: door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 635
   extra_descs: []
@@ -3998,7 +3998,7 @@ rooms:
   name: House
   description: "You are in a house.  The living room and kitchen are all bundled into\n\rthis
     room.  There is a bedroom south of here.  The exit is west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4011,7 +4011,7 @@ rooms:
   - dir: 3
     desc: "You see Impy Way.\n\r"
     keywords: door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 632
   extra_descs: []
@@ -4019,7 +4019,7 @@ rooms:
   name: Bedroom
   description: "You are in a bedroom.  There isn't much of interest here except for
     a bed\n\rand a dresser.  The main room of the house is north of here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4034,14 +4034,14 @@ rooms:
   name: House
   description: "You are in a house.  The living room and kitchen are all bundled into\n\rthis
     room.  There is a bedroom south of here.  The exit is east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc: "You see Impy Way.\n\r"
     keywords: door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 632
   - dir: 2
@@ -4055,7 +4055,7 @@ rooms:
   name: Bedroom
   description: "You are in a bedroom.  There isn't much of interest here except for
     a bed\n\rand a dresser.  The main room of the house is north of here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4084,7 +4084,7 @@ rooms:
   - dir: 1
     desc: "You see a house.\n\r"
     keywords: door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 638
   - dir: 2
@@ -4096,7 +4096,7 @@ rooms:
   - dir: 3
     desc: "You see a house.\n\r"
     keywords: door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 640
   extra_descs: []
@@ -4104,7 +4104,7 @@ rooms:
   name: House
   description: "You are in a house.  The living room and kitchen are all bundled into\n\rthis
     room.  There is a bedroom south of here.  The exit is west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4117,7 +4117,7 @@ rooms:
   - dir: 3
     desc: "You see Impy Way.\n\r"
     keywords: door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 637
   extra_descs: []
@@ -4125,7 +4125,7 @@ rooms:
   name: Bedroom
   description: "You are in a bedroom.  There isn't much of interest here except for
     a bed\n\rand a dresser.  The main room of the house is north of here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4140,14 +4140,14 @@ rooms:
   name: House
   description: "You are in a house.  The living room and kitchen are all bundled into\n\rthis
     room.  There is a bedroom south of here.  The exit is east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc: "You see Impy Way.\n\r"
     keywords: door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 637
   - dir: 2
@@ -4161,7 +4161,7 @@ rooms:
   name: Bedroom
   description: "You are in a bedroom.  There isn't much of interest here except for
     a bed\n\rand a dresser.  The main room of the house is north of here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4184,7 +4184,7 @@ rooms:
   - dir: 0
     desc: "You see the big house.\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 665
     to_vnum: 643
   - dir: 1
@@ -4212,7 +4212,7 @@ rooms:
     the average citizen, since there is more than one room to this house.  A\n\rdoor
     leads to the kitchen north, and a bedroom is upstairs.  The exit is to \n\rthe
     south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4225,7 +4225,7 @@ rooms:
   - dir: 2
     desc: "You see Impy Way.\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 665
     to_vnum: 642
   - dir: 4
@@ -4239,7 +4239,7 @@ rooms:
   name: Bedroom
   description: "You are in the bedroom.  There isn't much of interest except for a
     bed \n\rand a closet.  The stairs lead back down.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4254,7 +4254,7 @@ rooms:
   name: Kitchen
   description: "You are in a kitchen.  There isn't much of interest here.  The main
     room\n\ris east of here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4469,7 +4469,7 @@ rooms:
   description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
     much\n\rof value here to you, but you'd bet that the owner really cherishes the
     pile\n\rof stuff here.  The exit is to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4485,7 +4485,7 @@ rooms:
   description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
     much\n\rof value here to you, but you'd bet that the owner really cherishes the
     pile\n\rof stuff here.  The exit is to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4501,7 +4501,7 @@ rooms:
   description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
     much\n\rof value here to you, but you'd bet that the owner really cherishes the
     pile\n\rof stuff here.  The exit is to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4517,7 +4517,7 @@ rooms:
   description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
     much\n\rof value here to you, but you'd bet that the owner really cherishes the
     pile\n\rof stuff here.  The exit is to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4533,7 +4533,7 @@ rooms:
   description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
     much\n\rof value here to you, but you'd bet that the owner really cherishes the
     pile\n\rof stuff here.  The exit is to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4549,7 +4549,7 @@ rooms:
   description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
     much\n\rof value here to you, but you'd bet that the owner really cherishes the
     pile\n\rof stuff here.  The exit is to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4565,7 +4565,7 @@ rooms:
   description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
     much\n\rof value here to you, but you'd bet that the owner really cherishes the
     pile\n\rof stuff here.  The exit is to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4581,7 +4581,7 @@ rooms:
   description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
     much\n\rof value here to you, but you'd bet that the owner really cherishes the
     pile\n\rof stuff here.  The exit is to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4597,7 +4597,7 @@ rooms:
   description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
     much\n\rof value here to you, but you'd bet that the owner really cherishes the
     pile\n\rof stuff here.  The exit is to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4613,7 +4613,7 @@ rooms:
   description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
     much\n\rof value here to you, but you'd bet that the owner really cherishes the
     pile\n\rof stuff here.  The exit is to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4629,7 +4629,7 @@ rooms:
   description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
     much\n\rof value here to you, but you'd bet that the owner really cherishes the
     pile\n\rof stuff here.  The exit is to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4645,7 +4645,7 @@ rooms:
   description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
     much\n\rof value here to you, but you'd bet that the owner really cherishes the
     pile\n\rof stuff here.  The exit is to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4661,7 +4661,7 @@ rooms:
   description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
     much\n\rof value here to you, but you'd bet that the owner really cherishes the
     pile\n\rof stuff here.  The exit is to the north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4677,7 +4677,7 @@ rooms:
   description: "You are in a small house, owned by a commoner of Ofcol.  There isn't
     much\n\rof value here to you, but you'd bet that the owner really cherishes the
     pile\n\rof stuff here.  The exit is to the east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4768,7 +4768,7 @@ rooms:
     solid\n\rgold columns reach the twelve foot ceiling of this vast chamber.  Servants
     in\n\rgolden livery wander this place, making even the raggiest messenger boy
     look\n\rricher than you are.  Exits lead to the anterooms in the cardinal directions.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4802,7 +4802,7 @@ rooms:
   description: "You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the\n\rfloor,
     and servants in golden livery pass you by peaceably.  The temple is to\n\rthe
     south, and to the north is a hallway.  A stairways leads up.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4830,7 +4830,7 @@ rooms:
   description: "You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the\n\rfloor,
     and servants in golden livery pass you by peaceably.  The temple is to\n\rthe
     east, and to the west is a hallway.  A stairways leads up.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4858,7 +4858,7 @@ rooms:
   description: "You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the\n\rfloor,
     and servants in golden livery pass you by peaceably.  The temple is to\n\rthe
     west, and to the east is a hallway.  A stairways leads up.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4886,7 +4886,7 @@ rooms:
   description: "You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the\n\rfloor,
     and servants in golden livery pass you by peaceably.  The temple is to\n\rthe
     north, and to the south is a hallway.  A stairways leads up.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4914,7 +4914,7 @@ rooms:
   description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
     floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
     pass you\n\rby peaceably.  Exits lead east and south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4936,7 +4936,7 @@ rooms:
   description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
     floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
     pass you\n\rby peaceably.  Exits lead east, west, and south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4964,7 +4964,7 @@ rooms:
   description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
     floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
     pass you\n\rby peaceably.  Exits lead west and south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -4986,7 +4986,7 @@ rooms:
   description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
     floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
     pass you\n\rby peaceably.  Exits lead north and south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5008,7 +5008,7 @@ rooms:
   description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
     floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
     pass you\n\rby peaceably.  Exits lead north and south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5031,7 +5031,7 @@ rooms:
     floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
     pass you\n\rby peaceably.  Exits lead to the cardinal directions, with the east
     leading\n\rtoward the Temple of Ofcol, and west leading toward the City of Ofcol.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5065,7 +5065,7 @@ rooms:
   description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
     floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
     pass you\n\rby peaceably.  Exits lead west, north and south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5093,7 +5093,7 @@ rooms:
   description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
     floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
     pass you\n\rby peaceably.  Exits lead north and south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5115,7 +5115,7 @@ rooms:
   description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
     floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
     pass you\n\rby peaceably.  Exits lead north and south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5137,7 +5137,7 @@ rooms:
   description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
     floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
     pass you\n\rby peaceably.  Exits lead north and east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5159,7 +5159,7 @@ rooms:
   description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
     floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
     pass you\n\rby peaceably.  Exits lead east, west, and north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5187,7 +5187,7 @@ rooms:
   description: "You are in a hallway of the Golden Citadel.  Gold tiles cover the
     floors,\n\rand rich golden tapestries drape the walls.  Servants in golden livery
     pass you\n\rby peaceably.  Exits lead west and north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5211,7 +5211,7 @@ rooms:
     platinum cover the floor, walls and the ceiling.  The lights from numerous\n\rtorches
     reflect from these shimmering planes, giving the illusion that you are\n\rstanding
     in a gem.  Stairways lead up and down, and the hall leads south. \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5241,7 +5241,7 @@ rooms:
     platinum cover the floor, walls and the ceiling.  The lights from numerous\n\rtorches
     reflect from these shimmering planes, giving the illusion that you are\n\rstanding
     in a gem.  Stairways lead up and down, and the hall leads east. \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5271,7 +5271,7 @@ rooms:
     on the walls of this meeting hall.  Surrounding a solid gold table\n\rare four
     sons of the Keeper of the Golden Citadel.  They smile at you and ask \n\ryou to
     join them in lunch.  Exits lead to the cardinal directions. \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5307,7 +5307,7 @@ rooms:
     platinum cover the floor, walls and the ceiling.  The lights from numerous\n\rtorches
     reflect from these shimmering planes, giving the illusion that you are\n\rstanding
     in a gem.  Stairways lead up and down, and the hall leads west. \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5337,7 +5337,7 @@ rooms:
     platinum cover the floor, walls and the ceiling.  The lights from numerous\n\rtorches
     reflect from these shimmering planes, giving the illusion that you are\n\rstanding
     in a gem.  Stairways lead up and down, and the hall leads north. \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5367,7 +5367,7 @@ rooms:
     and gems of all types glitter from the walls, ceiling, even the floor.\n\rIt is
     obvious that this room was not meant for you to intrude upon.  A stair-\n\rcase
     leads back down, and a doorway leads south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5391,7 +5391,7 @@ rooms:
     and gems of all types glitter from the walls, ceiling, even the floor.\n\rIt is
     obvious that this room was not meant for you to intrude upon.  A stair-\n\rcase
     leads back down, and a doorway leads east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5416,7 +5416,7 @@ rooms:
     \ In the\n\rcenter of this chamber, you see a great wealth of coins, and on top
     of that\n\rpile of coins, you see a golden dragon squinting at you.  Exits lead
     to the\n\rcardinal directions to the anterooms.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5458,7 +5458,7 @@ rooms:
     and gems of all types glitter from the walls, ceiling, even the floor.\n\rIt is
     obvious that this room was not meant for you to intrude upon.  A stair-\n\rcase
     leads back down, and a doorway leads west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5482,7 +5482,7 @@ rooms:
     and gems of all types glitter from the walls, ceiling, even the floor.\n\rIt is
     obvious that this room was not meant for you to intrude upon.  A stair-\n\rcase
     leads back down, and a doorway leads north.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5504,7 +5504,7 @@ rooms:
   description: "You are above the Dragon Chamber.  You curiously note that this shaft
     that\n\rconnects the chamber to the sky is wide enough that even a dragon can
     fit\n\rthrough.  This shaft leads up and down.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5526,7 +5526,7 @@ rooms:
   description: "You are in the shaft leading from the Dragon Chamber.  Below you lies
     the\n\rDragon Chamber of the Golden Citadel.  Above you, you see the sky, but
     \n\rcurrently, the way out is sealed by a layer of diamond that looks impenetrable.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5542,7 +5542,7 @@ rooms:
   description: "You are inside the entrance to the Golden Citadel.  Rich golden tapestries\n\rline
     the walls, and golden tiles cover the floors.  The exit to this citadel is\n\rto
     the west, while the citadel itself is to the east.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -5555,7 +5555,7 @@ rooms:
   - dir: 3
     desc:
     keywords: gate
-    exit_flags: 1
+    exit_flags: A
     key: 651
     to_vnum: 699
   extra_descs: []
@@ -5571,7 +5571,7 @@ rooms:
   - dir: 1
     desc:
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: 651
     to_vnum: 698
   - dir: 3

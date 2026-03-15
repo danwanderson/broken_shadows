@@ -13,8 +13,8 @@ mobiles:
   long_desc: "A bat flaps wildly at you!\n\r"
   description: "Your typical smelly, blind flying mammal.\n\r"
   race: bat
-  act: 524322
-  affected_by: 32
+  act: BFT
+  affected_by: F
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -57,7 +57,7 @@ mobiles:
   long_desc: "A templar page in training is here looking mildly confused.\n\r"
   description: "He has lost his family and everything of his former life.\n\r"
   race: Human
-  act: 524416
+  act: HT
   affected_by: 0
   affected2_by: 0
   alignment: 200
@@ -103,8 +103,8 @@ mobiles:
     lead.\n\rHe just hopes he doesn't get killed in the process.  He carries only\n\ressential
     exploration gear; if there IS anything down here, he\n\rprobably won't last long.\n\r"
   race: Human
-  act: 524420
-  affected_by: 32
+  act: CHT
+  affected_by: F
   affected2_by: 0
   alignment: 100
   clan: 0
@@ -148,7 +148,7 @@ mobiles:
   description: "Working for an evil necromancer isn't the greatest thing in the world.\n\rThey
     seem like little more than zombie servants themselves.\n\r"
   race: Human
-  act: 524324
+  act: CFT
   affected_by: 0
   affected2_by: 0
   alignment: -500
@@ -192,8 +192,8 @@ mobiles:
   long_desc: "Some mist swirls about you here ... it seems ALIVE!\n\r"
   description: "In fact it IS alive in a magical sort of sense.\n\r"
   race: Human
-  act: 524288
-  affected_by: 1081472
+  act: T
+  affected_by: HPU
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -236,7 +236,7 @@ mobiles:
   long_desc:
   description:
   race: Human
-  act: 524320
+  act: FT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -281,7 +281,7 @@ mobiles:
   description: "Even though he has died in the physical sense of the word, the battle\n\rcontinues
     for him in his charmed state.\n\r"
   race: Human
-  act: 524324
+  act: CFT
   affected_by: 0
   affected2_by: 0
   alignment: -290
@@ -327,7 +327,7 @@ mobiles:
     at you.\n\rA templar tells you, \"You are an evil force trying to spread your
     ways!\".\n\rA templar tells you, \"You must die for your sin!\".\n\r"
   race: Human
-  act: 524324
+  act: CFT
   affected_by: 0
   affected2_by: 0
   alignment: 600
@@ -371,8 +371,8 @@ mobiles:
   long_desc: "A mysterious ghostly wraith forms before your eyes.\n\r"
   description: "Hard to tell much about the mysterious form even upon further inspection.\n\r"
   race: Human
-  act: 524324
-  affected_by: 1048608
+  act: CFT
+  affected_by: FU
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -415,8 +415,8 @@ mobiles:
   long_desc: "A templar officer keeps an eye on things here.\n\r"
   description: "A templar officer tells you \"Better move along evil one!\"\n\r"
   race: Human
-  act: 524320
-  affected_by: 8
+  act: FT
+  affected_by: D
   affected2_by: 0
   alignment: 700
   clan: 0
@@ -459,7 +459,7 @@ mobiles:
   long_desc: "A blank-faced zombie mage joins the battle.\n\r"
   description: "He seems to lack real interest in what he is doing.\n\r"
   race: Human
-  act: 524324
+  act: CFT
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -503,8 +503,8 @@ mobiles:
   long_desc: "Eerie shadows fill the room.\n\r"
   description: "Looks vaguely you-shaped.\n\r"
   race: Human
-  act: 524288
-  affected_by: 1081376
+  act: T
+  affected_by: FPU
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -547,8 +547,8 @@ mobiles:
   long_desc: "A bat flaps wildly at you!\n\r"
   description: "A rather LARGE \"bat\" ...\n\r"
   race: bat
-  act: 524322
-  affected_by: 32
+  act: BFT
+  affected_by: F
   affected2_by: 0
   alignment: -100
   clan: 0
@@ -592,7 +592,7 @@ mobiles:
   description: "Though he seems absorbed in his work, you'd bet he'd take the time
     out\n\rto kill you to get a fresh corpse!\n\r"
   race: Human
-  act: 524322
+  act: BFT
   affected_by: 0
   affected2_by: 0
   alignment: -888
@@ -637,8 +637,8 @@ mobiles:
   description: "A slight, tolerant smile comes briefly across his face.  In the blink\n\rof
     an eye he seems stern again.\n\r"
   race: Human
-  act: 524290
-  affected_by: 168
+  act: BT
+  affected_by: DFH
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -681,8 +681,8 @@ mobiles:
   long_desc: "The light shines off a beautiful but dangerous dragon lurking here.\n\r"
   description: "The spray of colored light bouncing off his scales is almost blinding.\n\r"
   race: Human
-  act: 524322
-  affected_by: 40
+  act: BFT
+  affected_by: DF
   affected2_by: 0
   alignment: -303
   clan: 0
@@ -725,7 +725,7 @@ mobiles:
   long_desc: "You hear and smell the presense of the darkenbeast.\n\r"
   description: "You see nothing more than the sense of darkness and evil.\n\r"
   race: Human
-  act: 524322
+  act: BFT
   affected_by: 0
   affected2_by: 0
   alignment: -1000
@@ -770,8 +770,8 @@ objects:
   description: A circular, glowing key radiates a bright aura around it.
   material: none
   item_type: 18
-  extra_flags: 67
-  wear_flags: 1
+  extra_flags: ABG
+  wear_flags: A
   level: 17
   weight: 1
   cost: 170
@@ -789,8 +789,8 @@ objects:
   description: A suit of platemail hewn from granite stands by itself in the corner.
   material: none
   item_type: 9
-  extra_flags: 514
-  wear_flags: 9
+  extra_flags: BJ
+  wear_flags: AD
   level: 24
   weight: 55
   cost: 240
@@ -812,8 +812,8 @@ objects:
   description: A ring with a very dark onyx stone in it has been left in the dirt.
   material: none
   item_type: 9
-  extra_flags: 512
-  wear_flags: 3
+  extra_flags: J
+  wear_flags: AB
   level: 24
   weight: 1
   cost: 240
@@ -835,8 +835,8 @@ objects:
   description: A long thin sword with a wide blade makes you wonder.
   material: none
   item_type: 5
-  extra_flags: 1538
-  wear_flags: 8193
+  extra_flags: BJK
+  wear_flags: AN
   level: 15
   weight: 9
   cost: 150
@@ -848,11 +848,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
+    location: 19
     modifier: 1
     bitvector: 0
   - where: O
-    location: 19
+    location: 18
     modifier: 1
     bitvector: 0
   extra_descs: []
@@ -862,8 +862,8 @@ objects:
   description: A sword gleams by the light of its magical silvery blade.
   material: none
   item_type: 5
-  extra_flags: 3137
-  wear_flags: 8193
+  extra_flags: AGKL
+  wear_flags: AN
   level: 22
   weight: 15
   cost: 220
@@ -875,12 +875,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 3
-    bitvector: 0
-  - where: O
     location: 1
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 3
     bitvector: 0
   extra_descs: []
 - vnum: 2006
@@ -889,8 +889,8 @@ objects:
   description: The crown of a long lost King lies forgotten here.
   material: none
   item_type: 18
-  extra_flags: 256
-  wear_flags: 17
+  extra_flags: I
+  wear_flags: AE
   level: 24
   weight: 10
   cost: 240
@@ -912,7 +912,7 @@ objects:
   description: The stone is surrounded by a bright glow, better look closer.
   material: none
   item_type: 15
-  extra_flags: 1
+  extra_flags: A
   wear_flags: 0
   level: 22
   weight: 2000
@@ -931,8 +931,8 @@ objects:
   description: A flask of holy water is here.
   material: none
   item_type: 10
-  extra_flags: 1
-  wear_flags: 16385
+  extra_flags: A
+  wear_flags: AO
   level: 17
   weight: 2
   cost: 170
@@ -950,8 +950,8 @@ objects:
   description: A nice suit of chainmail has been left behind.
   material: none
   item_type: 9
-  extra_flags: 256
-  wear_flags: 9
+  extra_flags: I
+  wear_flags: AD
   level: 11
   weight: 20
   cost: 110
@@ -969,8 +969,8 @@ objects:
   description: A blazing cape of white lies in a careful pile.
   material: none
   item_type: 9
-  extra_flags: 1
-  wear_flags: 5
+  extra_flags: A
+  wear_flags: AC
   level: 17
   weight: 3
   cost: 170
@@ -992,8 +992,8 @@ objects:
   description: A large shield lies protecting the ground.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 513
+  extra_flags: G
+  wear_flags: AJ
   level: 16
   weight: 15
   cost: 160
@@ -1005,20 +1005,20 @@ objects:
   - 0
   affects:
   - where: O
-    location: 12
-    modifier: 10
-    bitvector: 0
-  - where: O
-    location: 13
-    modifier: 10
+    location: 19
+    modifier: -1
     bitvector: 0
   - where: O
     location: 18
     modifier: -2
     bitvector: 0
   - where: O
-    location: 19
-    modifier: -1
+    location: 13
+    modifier: 10
+    bitvector: 0
+  - where: O
+    location: 12
+    modifier: 10
     bitvector: 0
   extra_descs: []
 - vnum: 2012
@@ -1028,7 +1028,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 513
+  wear_flags: AJ
   level: 19
   weight: 18
   cost: 190
@@ -1050,8 +1050,8 @@ objects:
   description: A wand made of a triangular prism twinkles in the dust.
   material: none
   item_type: 3
-  extra_flags: 65
-  wear_flags: 16385
+  extra_flags: AG
+  wear_flags: AO
   level: 19
   weight: 4
   cost: 190
@@ -1069,8 +1069,8 @@ objects:
   description: The shadows in the corner of the room seems strange ...
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 1025
+  extra_flags: G
+  wear_flags: AK
   level: 15
   weight: 1
   cost: 150
@@ -1093,7 +1093,7 @@ objects:
   material: none
   item_type: 10
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 11
   weight: 1
   cost: 110
@@ -1111,8 +1111,8 @@ objects:
   description: A sword made of wood has been left here.
   material: none
   item_type: 5
-  extra_flags: 256
-  wear_flags: 8193
+  extra_flags: I
+  wear_flags: AN
   level: 12
   weight: 6
   cost: 120
@@ -1135,7 +1135,7 @@ rooms:
     head\n\rfrom spinning.  The air is very cold here and layers of ice on the wall.\n\rThe
     sounds of metal on ice echo through the cavern. A side passage leads\n\reast and
     the main passage goes north and south.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -1162,7 +1162,7 @@ rooms:
   name: Striped tunnel
   description: "The walls of the tunnels have many brilliant colors in them from the\n\rvarious
     veins of crystals running in them.  An odd twinkling comes from\n\rthe east.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -1186,7 +1186,7 @@ rooms:
     of light everywhere.  The light from your lamp causes almost a\n\rblinding flare
     of brilliance as more light is added to the multi-colored\n\rtwinkling phenomenon
     that exists here.  This is also the lair of the\n\rfabled and feared Prism Dragon.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 5
   owner:
   exits:
@@ -1220,7 +1220,7 @@ rooms:
   description: "A monument to a famous king once stood here. Not much is left to even\n\rsignify
     that is was here at all.  A building of some sort can be entered\n\rthrough a
     basement to the east.  The southern gate of the grounds is to\n\rthe south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 4
   owner:
   exits:
@@ -1248,7 +1248,7 @@ rooms:
   description: "Its dark and it smells like. ...BATS down here!  All you see is a
     swirl\n\rof the darkness and lots of scratching bats madly flailing around. A
     set\n\rof stairs go up into the building and a broken window leads west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 4
   owner:
   exits:
@@ -1271,7 +1271,7 @@ rooms:
     and\n\rdefilement.  There are piles of fresh bodies here awaiting burial.  A\n\rstrange
     sense of evil magic from the south makes the hairs on the back\n\rof your neck
     to stand on end!\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 4
   owner:
   exits:
@@ -1293,7 +1293,7 @@ rooms:
   description: "A rusty gate here no longer keeps anyone out or in.  You see a lonely\n\rE/W
     passage to the south.  A little used trail winds east through a\n\rcrack in the
     wall.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -1321,7 +1321,7 @@ rooms:
   description: "An army of undead creatures of all types are lined up patiently. Their\n\rleader
     is an evil demonoid necromancer.  His plans to use his army of\n\rundead to take
     over the world seem about ready to get underway.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 5
   owner:
   exits:
@@ -1343,7 +1343,7 @@ rooms:
   description: "The passage bends north and east here.  To the east your not certain\n\rwhat
     lies ahead due to all the twists and turns you've made.  To the\n\rnorth is seems
     cold.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -1364,7 +1364,7 @@ rooms:
   name: Cross of caverns
   description: "A little-used cavern enters from the south. A passage twists away
     to\n\rthe west.  An odd twinkling comes from the cave to the north.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -1391,7 +1391,7 @@ rooms:
   name: Lonely tunnel
   description: "Something indescribable makes you feel lonesome and sad here. Its
     just\n\ra feeling you get from this tunnel.  The tunnel east and west.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -1413,7 +1413,7 @@ rooms:
   description: "Something indescribable makes you feel lonesome and sad here. You
     see a\n\rgate to a burial ground to the north.  This lonesome tunnel sighs along\n\rwest
     and east.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -1440,7 +1440,7 @@ rooms:
   name: Bend in the lonely tunnel
   description: "Something indescribable makes you feel lonesome and sad here. The\n\rtunnel
     bends west and south.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -1462,7 +1462,7 @@ rooms:
   description: "Something indescribable makes you feel lonesome and sad here. The
     very\n\rwalls of the tunnel seems to groan.  to the north the tunnel bends and\n\reast
     is an intersection.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -1485,7 +1485,7 @@ rooms:
     that\n\rdirection.  Also you feel an ominous sense of evil magic from there.\n\rThe
     tunnel to the west creaks and sighs as if alive.  To the south you\n\rsmell a
     hint of fresh air.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -1512,7 +1512,7 @@ rooms:
   name: Tunnel
   description: "The tunnel heads north and south.  North you see an intersection and\n\rfar
     to the south you sense light and smell a fresh breeze.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -1533,7 +1533,7 @@ rooms:
   name: Tunnel
   description: "The tunnel slopes noticeably down to the north and you sense the surface\n\rcould
     be reached to the south.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -1558,7 +1558,7 @@ rooms:
     for the weak and shallow\n\r     Treasure for the smart and lucky\n\r     Death
     for the stupid and accursed\n\rAn ancient Glyph above the entrance keeps monsters
     from wandering up\n\rfrom the catacombs.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 2
   owner:
   exits:
@@ -1571,7 +1571,7 @@ rooms:
   - dir: 4
     desc:
     keywords: floorboard board
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 6527
   extra_descs: []
@@ -1580,7 +1580,7 @@ rooms:
   description: "Oh dear you seem to have lost your way.  You look back from whence
     you\n\rcame but there's no exit there anymore.  There are exits in other\n\rdirections
     but you have a feeling that you are hopelessly lost.\n\r"
-  room_flags: 269
+  room_flags: ACDI
   sector: 2
   owner:
   exits:
@@ -1602,7 +1602,7 @@ rooms:
   description: "Oh dear you seem to have lost your way.  You look back from whence
     you\n\rcame but there's no exit there anymore.  There are exits in other\n\rdirections
     but you have a feeling that you are hopelessly lost.\n\r"
-  room_flags: 269
+  room_flags: ACDI
   sector: 2
   owner:
   exits:
@@ -1624,7 +1624,7 @@ rooms:
   description: "Oh dear you seem to have lost your way.  You look back from whence
     you\n\rcame but there's no exit there anymore.  There are exits in other\n\rdirections
     but you have a feeling that you are hopelessly lost.\n\r"
-  room_flags: 269
+  room_flags: ACDI
   sector: 2
   owner:
   exits:
@@ -1646,7 +1646,7 @@ rooms:
   description: "Oh dear you seem to have lost your way.  You look back from whence
     you\n\rcame but there's no exit there anymore.  There are exits in other\n\rdirections
     but you have a feeling that you are hopelessly lost.\n\r"
-  room_flags: 269
+  room_flags: ACDI
   sector: 2
   owner:
   exits:
@@ -1672,7 +1672,7 @@ rooms:
     for the strong yet calculating\n\r     Death for the weak and shallow\n\r     Treasure
     for the smart and lucky\n\r     Death for the stupid and accursed\n\r\n\rAn ancient
     Glyph above the entrance keeps monsters from wandering up\n\rfrom the catacombs.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 1
   owner:
   exits:
@@ -1685,7 +1685,7 @@ rooms:
   - dir: 4
     desc:
     keywords: floorboard board
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 6524
   extra_descs: []
@@ -1695,7 +1695,7 @@ rooms:
     is\n\ra large cross painted on the floor of the tunnel.To the south it seems\n\rmaybe
     a bit lighter for some odd reason.  To the north a ray of light\n\rcomes in from
     a hole in the ceiling.\n\r"
-  room_flags: 264
+  room_flags: DI
   sector: 0
   owner:
   exits:
@@ -1719,7 +1719,7 @@ rooms:
   name: Weapon training area
   description: "This is a place to keep up on there weapon skills.  Much of the\n\requipment
     looks old and worn but upon further inspection seems quite\n\rsturdy in fact.\n\r"
-  room_flags: 264
+  room_flags: DI
   sector: 0
   owner:
   exits:
@@ -1741,7 +1741,7 @@ rooms:
   description: "The templar's curious mix of religion and fighting is evident here.\n\rA
     central painting depicts a cross composed of swords.  The elders\n\rteach the
     ancient art of prayer to the young pages.\n\r"
-  room_flags: 264
+  room_flags: DI
   sector: 0
   owner:
   exits:
@@ -1763,7 +1763,7 @@ rooms:
   description: "Training facilities are evident to the west. To the south lies a hallway\n\rwhich
     has doors every couple of feet, looks like living quarters of some\n\rsort.  To
     the east the tunnel leads back into the natural catacombs.\n\r"
-  room_flags: 264
+  room_flags: DI
   sector: 0
   owner:
   exits:
@@ -1790,7 +1790,7 @@ rooms:
   name: Hallway
   description: "The hallway takes on a more indoor look to the west.  To the east
     it\n\rlooks awfully dark.\n\r"
-  room_flags: 268
+  room_flags: CDI
   sector: 0
   owner:
   exits:
@@ -1811,7 +1811,7 @@ rooms:
   name: Intersection
   description: "The tunnel continues to the north and the south, becoming less hewn
     and\n\rmore natural to the south.  A passageway lined with paneling leads west.\n\r"
-  room_flags: 264
+  room_flags: DI
   sector: 0
   owner:
   exits:
@@ -1839,7 +1839,7 @@ rooms:
   description: "Several bunk beds are lined up across the room.  It looks rather spartan\n\rand
     there is little evidence of toys or games.  Most of the desks are\n\rfilled with
     books and papers of little interest.\n\r"
-  room_flags: 264
+  room_flags: DI
   sector: 0
   owner:
   exits:
@@ -1861,7 +1861,7 @@ rooms:
   description: "This is a huge room which is filled wall to wall with beds. Apparently\n\rall
     the low level knights all sleep in this one room.  A door on the\n\rsouth wall
     is labelled \"Elders only!\".\n\r"
-  room_flags: 264
+  room_flags: DI
   sector: 0
   owner:
   exits:
@@ -1882,7 +1882,7 @@ rooms:
   name: N/S hallway
   description: "The hallway leads north an south.  A door leads to a templar's room
     to\n\rthe east.  The decoration looks rather sparse here.\n\r"
-  room_flags: 264
+  room_flags: DI
   sector: 0
   owner:
   exits:
@@ -1910,7 +1910,7 @@ rooms:
   description: "This is a room furnished in a room becoming a low level templar scribe.\n\rNo
     real amenities but better than a communal sleeping quarters. As far\n\ras you
     can tell he would be a rank equivalent to a Sargeant.\n\r"
-  room_flags: 264
+  room_flags: DI
   sector: 0
   owner:
   exits:
@@ -1926,7 +1926,7 @@ rooms:
   description: "As the tunnel leads south it gets more humid and damp.  Moss covers
     the\n\rwalls and ferns even grow in the cracks here and there.  To the north it\n\rseems
     much more sterile.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -1948,7 +1948,7 @@ rooms:
   description: "The elders gather here to discuss training strategies and count their\n\rloot.
     \ You notice papers which look like important secret documents\n\rlying around.
     An escape passage leads west.\n\r"
-  room_flags: 264
+  room_flags: DI
   sector: 0
   owner:
   exits:
@@ -1979,7 +1979,7 @@ rooms:
   name: N/S hallway
   description: "The hallway continues to become more important-looking as you wander\n\rsouth.
     \ A room to the east looks rather more pleasant that some of the\n\rothers.\n\r"
-  room_flags: 264
+  room_flags: DI
   sector: 0
   owner:
   exits:
@@ -2006,7 +2006,7 @@ rooms:
   name: Mid-level leader's room
   description: "A rather nice looking room considering the drab conditions down here.\n\rThrough
     all the signs of decoration you can still see evidence of water\n\rleaks.\n\r"
-  room_flags: 264
+  room_flags: DI
   sector: 0
   owner:
   exits:
@@ -2022,7 +2022,7 @@ rooms:
   description: "The a huge table with an immaculate white table cloth stretches way
     off\n\rto the south.  The room is kept immaculately clean by the nights\n\rthemselves.
     \ They truly belive that cleanliness is next to godliness.\n\r"
-  room_flags: 264
+  room_flags: DI
   sector: 0
   owner:
   exits:
@@ -2044,7 +2044,7 @@ rooms:
   description: "The hallway continues north and south.  A peculiar kind of glow seems\n\rto
     come from somewhere further along the hallway to the south. The room\n\rto the
     east looks like the lap of luxury.\n\r"
-  room_flags: 264
+  room_flags: DI
   sector: 0
   owner:
   exits:
@@ -2072,7 +2072,7 @@ rooms:
   description: "First thing you notice in this room is the pleasant aroma of cedar.
     \ All\n\rthe paneling in the room is made of fine cedar.  A painting of an\n\relegant
     knight hangs on the wall.\n\r"
-  room_flags: 264
+  room_flags: DI
   sector: 0
   owner:
   exits:
@@ -2092,7 +2092,7 @@ rooms:
     south. To the south it seems to get impossibly darker.  To the east\n\ryou hear...
     birds?  A small rivulet of water seeps in from the passage\n\reast.  The air is
     very humid and damp here.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -2120,7 +2120,7 @@ rooms:
   description: "A small grove of birches grow seem to grow from solid rock.  You hear\n\rbirds
     singing but try as you might you cant see any.  A strange glow\n\remanates from
     a place somewhere to the southeast in the grove.\n\r"
-  room_flags: 520
+  room_flags: DJ
   sector: 3
   owner:
   exits:
@@ -2143,7 +2143,7 @@ rooms:
     hear other small animals scampering through the light undergrowth\n\ryet you see
     nothing. The grove continues south, east and west. An out of\n\rplace passage
     way for some reason heads north.\n\r"
-  room_flags: 520
+  room_flags: DJ
   sector: 3
   owner:
   exits:
@@ -2175,7 +2175,7 @@ rooms:
 - vnum: 2022
   name: The holy grove
   description: "The grove continues west and south.  The glow is roughly to the south\n\rsomewhere.\n\r"
-  room_flags: 520
+  room_flags: DJ
   sector: 3
   owner:
   exits:
@@ -2197,7 +2197,7 @@ rooms:
   description: "\"mess\" isn't exactly the best word to describe this room.  On the\n\rcontrary,
     it is immaculately clean.  A very long table stretches way off\n\rto the north.
     A hallway is to the east.\n\r"
-  room_flags: 264
+  room_flags: DI
   sector: 0
   owner:
   exits:
@@ -2218,7 +2218,7 @@ rooms:
   name: End of a hallway
   description: "You hear voices coming from a room to the west.  the hallway goes
     north.\n\rTo the east lies a room which seems to glow with power and piety.\n\r"
-  room_flags: 264
+  room_flags: DI
   sector: 0
   owner:
   exits:
@@ -2245,7 +2245,7 @@ rooms:
   name: Grand Templar's room
   description: "All the items in this room look ancient yet strangely very powerful
     and\n\rrich.  There is an aura of great holiness about the room.\n\r"
-  room_flags: 264
+  room_flags: DI
   sector: 0
   owner:
   exits:
@@ -2261,7 +2261,7 @@ rooms:
   description: "This room is so dark that even powerful magic lights seems to barely\n\rilluminate
     the ground in front of you.  If its possible it seems even\n\rdarker to the south.
     \ The passage also leads back north.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -2282,7 +2282,7 @@ rooms:
   name: The holy grove
   description: "The grove continues north and east.  To the east a strange humming
     can\n\rbarely be heard.\n\r"
-  room_flags: 520
+  room_flags: DJ
   sector: 3
   owner:
   exits:
@@ -2304,7 +2304,7 @@ rooms:
   description: "All of a sudden all the mysterious sounds of the grove stop. Or perhaps\n\rits
     just the strange humming and glowing from a clearing to the south\n\rdrowning
     out everything else. There is a sort of magical forcefield door\n\rto the south.\n\r"
-  room_flags: 520
+  room_flags: DJ
   sector: 3
   owner:
   exits:
@@ -2317,7 +2317,7 @@ rooms:
   - dir: 2
     desc: "a glowing forcefield with a small circular hole in it.\n\r"
     keywords: glow glowing field forcefield door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 2001
     to_vnum: 2032
   - dir: 3
@@ -2332,7 +2332,7 @@ rooms:
   description: "This room is so very dark that no one is quite sure whats in it, so\n\rthere's
     nothing really to describe except maybe the powerful sense of\n\revil coming from
     the east and the almost overcoming urge to run to the\n\rwest.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -2354,7 +2354,7 @@ rooms:
   description: "It stinks like a lair in here.  A rotten smell of humanoid flesh\n\rlingers.
     \ You stumble over what you think are corpses in the utter\n\rdarkness. You sense
     a evil growl from somewhere in the room. maybe\n\reverywhere in the room. . ..\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 5
   owner:
   exits:
@@ -2381,7 +2381,7 @@ rooms:
   name: Very dark cavern
   description: "The cavern is hard to describe due to the extreme magical darkness.\n\rProbing
     with a light source seems to reveal nothing but more darkness.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 5
   owner:
   exits:
@@ -2404,14 +2404,14 @@ rooms:
     it as\n\rthe stone of the Excalibur.  The strange humming glowing makes it\n\rdifficult
     to see if the Excalibur is there or not. Might want to take a\n\rcloser look if
     possible.\n\r"
-  room_flags: 520
+  room_flags: DJ
   sector: 3
   owner:
   exits:
   - dir: 0
     desc: "a glowing forcefield with a small circular hole in it.\n\r"
     keywords: glow glowing field forcefield door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 2001
     to_vnum: 2028
   extra_descs: []
@@ -2421,7 +2421,7 @@ rooms:
     at the same time.  The swirling mist makes it tough to tell\n\rdirections quite
     clearly, but you seem to be able to go north or south.\n\rThe mist gets denser
     to the south.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -2443,7 +2443,7 @@ rooms:
   description: "Caverns head north, south and east from this peculiar spot. Medium\n\rsized
     caverns from the east and the north join to form a huge cavern\n\rheading south.
     \ The walls of the cavern are made of a bizarre mixture\n\rof many shiny crystals.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 5
   owner:
   exits:
@@ -2472,7 +2472,7 @@ rooms:
     buried their dead here.  Chills go down your spine as you feel\n\rsomething watching
     you.  You hear the random groan of a ghost, the howl\n\rof a wraith, and the dry
     clanking of bones.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 5
   owner:
   exits:
@@ -2494,7 +2494,7 @@ rooms:
   description: "Random tombs to unknown warriors were lain in rows as far as the eye\n\rcan
     see.  To your horror many of the graves are empty and desecrated.\n\rA gap in
     the rows of tombs leads south and there are more graves to the\n\reast and west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 5
   owner:
   exits:
@@ -2522,7 +2522,7 @@ rooms:
   description: "It seems as if many of the warriors could not stop fighting even in\n\rdeath.
     \ They fight amongst each other and flail at any living being\n\rthat would wander
     near.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 5
   owner:
   exits:
@@ -2543,7 +2543,7 @@ rooms:
   name: The burial grounds
   description: "Legions of skeletal warriors wander by and battle the enemy even in\n\rdeath.
     \ Old battlelines have been forgotten and new ones made. Its a\n\rgruesome scene.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 5
   owner:
   exits:
@@ -2565,7 +2565,7 @@ rooms:
   description: "The tombs in this section seem somewhat more recent.  Rotting zombie\n\rwarriors
     groan and wail with blank stares.  You hear sounds of digging\n\roff a bit to
     the south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 5
   owner:
   exits:
@@ -2587,7 +2587,7 @@ rooms:
   description: "A chilling icy mist swirl about you.  The dampness and warmth has
     become\n\rbitter cold.  The walls of the cavern are several feet thick with ice\n\rhere.
     \ An icy wind blows from the south.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -2609,7 +2609,7 @@ rooms:
   description: "The temperature is a pleasant and mild here.  This is due to a warm
     wind\n\rblowing in from the east and a chilly breeze blowing in from the west.\n\rThe
     updrafts create bizarre icy-steamy mists which dance along the\n\rwalls.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -2630,7 +2630,7 @@ rooms:
   name: Mist cavern
   description: "A warm wind blows in from the east.  The air is still stifling hot
     in\n\rhere despite the breeze.  The mist seems thick enough to be alive. . .\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -2658,7 +2658,7 @@ rooms:
   description: "River of hot mist pour down in a cascade from a hole in the cavern.
     \ It\n\rfalls like water down from the heights like a waterfall and creates\n\rbeautiful
     swirls.  It causes a hot wind to flow west.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -2675,7 +2675,7 @@ rooms:
   name: Huge multicolored tunnel
   description: "The tunnel leads north and south.  To the south there is an odd\n\rtwinkling
     phenomenon.\n\r"
-  room_flags: 265
+  room_flags: ADI
   sector: 2
   owner:
   exits:
@@ -2698,7 +2698,7 @@ rooms:
     And most have been torn down and burned by looters. Some still\n\rseem to be intact
     to the south.  To the northwest is a seeming field of\n\rtombs of soldiers, now
     a battleground for the undead.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 5
   owner:
   exits:
@@ -2714,7 +2714,7 @@ rooms:
   description: "The undertaker, the historian and the curator used to be here. Now
     they\n\rtoo have joined the legions of the undead.  From the looks of the place\n\rthey
     seem to have starved to death.  Rickety stairs head down into a\n\rsort of basement.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 4
   owner:
   exits:
@@ -2738,7 +2738,7 @@ rooms:
   description: "Graves of recent casualties lie here.  Even the most recent don't
     seem to\n\rhave been left undisturbed.  You hear sounds of digging in progress\n\rfurther
     to the south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 4
   owner:
   exits:

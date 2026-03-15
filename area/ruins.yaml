@@ -15,8 +15,8 @@ mobiles:
     feet\n\rlong.  Its 8 large tentacles reach for you as its mouth begins to open.
     \ \n\r"
   race: Human
-  act: 269418594
-  affected_by: 268435624
+  act: BFGQRSTc
+  affected_by: DFHc
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -40,15 +40,15 @@ mobiles:
     bash: -27
     slash: -27
     exotic: -9
-  off_flags: 20629
-  imm_flags: 132355
-  res_flags: 96
-  vuln_flags: 4
+  off_flags: ACEHMO
+  imm_flags: ABIKR
+  res_flags: FG
+  vuln_flags: C
   start_pos: 8
   default_pos: 8
   sex: 1
   gold: 4000
-  form: 268435520
+  form: Gc
   parts: 0
   size: H
   material: none
@@ -60,8 +60,8 @@ mobiles:
   description: "It looks just like all the other elves that you've seen except it
     has a\n\rtail much as a fish and can stay underwater almost indefinitely.  \n\r"
   race: Elf
-  act: 720960
-  affected_by: 167804928
+  act: GQRT
+  affected_by: PZb
   affected2_by: 0
   alignment: 500
   clan: 0
@@ -85,7 +85,7 @@ mobiles:
     bash: 0
     slash: 0
     exotic: 0
-  off_flags: 1180704
+  off_flags: FKRU
   imm_flags: 0
   res_flags: 0
   vuln_flags: 0
@@ -105,8 +105,8 @@ mobiles:
   description: "The fiercest of the shark family, this one looks like it missed its
     lunch\n\rtoday.  \n\r"
   race: Human
-  act: 1572960
-  affected_by: 136314920
+  act: FGTU
+  affected_by: DFVb
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -130,10 +130,10 @@ mobiles:
     bash: -10
     slash: -10
     exotic: -10
-  off_flags: 1052809
-  imm_flags: 131330
+  off_flags: ADHMU
+  imm_flags: BIR
   res_flags: 0
-  vuln_flags: 4
+  vuln_flags: C
   start_pos: 8
   default_pos: 8
   sex: 0
@@ -151,8 +151,8 @@ mobiles:
     swims\n\rtoward you.  Its eyes are filled with hate as it prepares to sting you
     with\n\rits tail.  \n\r"
   race: Human
-  act: 1572928
-  affected_by: 134250496
+  act: GTU
+  affected_by: Pb
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -176,8 +176,8 @@ mobiles:
     bash: -10
     slash: -10
     exotic: -10
-  off_flags: 1053729
-  imm_flags: 131072
+  off_flags: AFKMU
+  imm_flags: R
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -195,8 +195,8 @@ mobiles:
   long_desc: "A seahorse floats slowly by.\n\r"
   description: "A peaceful looking little animal who just wants to be left alone.\n\r"
   race: Human
-  act: 1179712
-  affected_by: 402653184
+  act: GRU
+  affected_by: bc
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -220,10 +220,10 @@ mobiles:
     bash: -40
     slash: -40
     exotic: -37
-  off_flags: 1049792
-  imm_flags: 131200
-  res_flags: 263168
-  vuln_flags: 32
+  off_flags: GHKU
+  imm_flags: HR
+  res_flags: KS
+  vuln_flags: F
   start_pos: 8
   default_pos: 8
   sex: 3
@@ -241,8 +241,8 @@ mobiles:
     happy to see you in its home.  Its tentacles write and its enormous\n\rbeak opens
     and closes in rage at seeing you.  \n\r"
   race: Human
-  act: 268959778
-  affected_by: 42
+  act: BFTc
+  affected_by: BDF
   affected2_by: 0
   alignment: -500
   clan: 0
@@ -267,7 +267,7 @@ mobiles:
     slash: 0
     exotic: 0
   off_flags: 0
-  imm_flags: 1027
+  imm_flags: ABK
   res_flags: 0
   vuln_flags: 0
   start_pos: 8
@@ -287,7 +287,7 @@ objects:
   material: none
   item_type: 8
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 10
   weight: 3
   cost: 20
@@ -306,7 +306,7 @@ objects:
   material: none
   item_type: 8
   extra_flags: 0
-  wear_flags: 5
+  wear_flags: AC
   level: 50
   weight: 3
   cost: 1000
@@ -324,8 +324,8 @@ objects:
   description: You see a glint of gold among the mud on the bottom.
   material: none
   item_type: 8
-  extra_flags: 449
-  wear_flags: 3
+  extra_flags: AGHI
+  wear_flags: AB
   level: 55
   weight: 5
   cost: 1000
@@ -337,12 +337,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 12
-    modifier: 10
-    bitvector: 0
-  - where: O
     location: 13
     modifier: 50
+    bitvector: 0
+  - where: O
+    location: 12
+    modifier: 10
     bitvector: 0
   extra_descs: []
 - vnum: 20003
@@ -352,7 +352,7 @@ objects:
   material: none
   item_type: 8
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 50
   weight: 20
   cost: 250
@@ -371,7 +371,7 @@ objects:
   material: none
   item_type: 8
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 50
   weight: 5
   cost: 250
@@ -389,8 +389,8 @@ objects:
   description: A very large shiny sword is here, hanging on the wall.
   material: none
   item_type: 5
-  extra_flags: 64
-  wear_flags: 8193
+  extra_flags: G
+  wear_flags: AN
   level: 60
   weight: 27
   cost: 2000
@@ -402,11 +402,11 @@ objects:
   - 32
   affects:
   - where: O
-    location: 18
+    location: 19
     modifier: 10
     bitvector: 0
   - where: O
-    location: 19
+    location: 18
     modifier: 10
     bitvector: 0
   extra_descs: []
@@ -417,7 +417,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 55
   weight: 10
   cost: 10000
@@ -429,12 +429,12 @@ objects:
   - 8
   affects:
   - where: O
-    location: 18
-    modifier: 10
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 10
     bitvector: 0
   extra_descs: []
 - vnum: 20007
@@ -444,7 +444,7 @@ objects:
   material: none
   item_type: 13
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 3
   cost: 50
@@ -463,7 +463,7 @@ objects:
   material: none
   item_type: 13
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 50
   weight: 3
   cost: 1000
@@ -486,7 +486,7 @@ objects:
   material: none
   item_type: 32
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 1000
@@ -505,7 +505,7 @@ objects:
   material: none
   item_type: 13
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 40
   weight: 5
   cost: 100
@@ -524,7 +524,7 @@ objects:
   material: none
   item_type: 13
   extra_flags: 0
-  wear_flags: 17
+  wear_flags: AE
   level: 50
   weight: 3
   cost: 0
@@ -543,7 +543,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 60
   weight: 20
   cost: 1000
@@ -584,7 +584,7 @@ rooms:
     but now there is no dry land to be seen for miles around.  To the\n\rsouth and
     to the east, the streets of this once magnificent city extend\n\rtowards the heart
     of the metropolis.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -614,7 +614,7 @@ rooms:
     with food.  Now, as the water slowly flows through the many hulks, you\n\rcan
     almost sense the desolation.  This once busy marketplace now abandoned\n\rand
     underwater seems to echo the feeling of the entire city - cold and\n\rempty.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -645,7 +645,7 @@ rooms:
     hear\n\rthe people inside making merry befoere a large fire, mugs of ale in their\n\rhands
     and cheer in their hearts, but after a moment you realize that is just\n\rthe
     water around you.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -677,7 +677,7 @@ rooms:
     this used to be one of the busiest parts of the city, but now, they\n\rlie much
     as the neighboring wharf does.  To the east, you can see a small\n\rmarina, servicing
     the smaller boats.  To the south is one of the trade\n\rstreets.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -708,7 +708,7 @@ rooms:
     the smaller boats did not get in the way of the larger fishing and\n\rpassenger
     boats.  To the east there is what looks like another shop, while\n\rto the west
     you can see the main part of the docks.  South of you are more\n\rbuildings.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -737,7 +737,7 @@ rooms:
     \n\rAs you look at your surroundings, you wonder why someone decided to open a\n\rbakery
     here, where the aroma of all the wonderful breads would be lost in\n\rthe smell
     of the sea and of the fish from the nearby wharf.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -766,7 +766,7 @@ rooms:
     washed away everything, leaving it just a narrow channel between\n\rbuildings
     running toward the cliff that used to mark the shoreline.  To the\n\reast is the
     bakery.  To the west is what looks like it was the general\n\rstore.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -796,7 +796,7 @@ rooms:
     are\n\rbarrels which used to contain flour, sugar, and other foodstuffs, but which\n\rhave
     dissolved or attracted the attention of sharks.  To the west is an\n\ralley and
     to the south you see a few houses.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -822,7 +822,7 @@ rooms:
     the windows at them, as all the entrances are effectively blocked. \n\rApparently
     the owner of the house was very cautious with his treasures.  The\n\rhouse is
     closed up like a fortress.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -852,7 +852,7 @@ rooms:
     looks much as you'd expect the typical middle-class home to look\n\rlike.  To
     the west you see a large and opulent house.  To the east is\n\ranother house,
     much like this one.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -889,7 +889,7 @@ rooms:
     \ To\n\rthe west you can see another house.  To the north, you can vaguely see
     where\n\rthe shore used to be.  To the south is Main Street.  East is what used
     to be\n\rthe jeweler's.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -925,7 +925,7 @@ rooms:
     not only are the cases intact, but they still have all sorts of jewelry\n\rin
     them.  To the west is a group of houses.  East is the weaponsmith's shop.\n\rTo
     the north you can see the old shoreline.  South is Main Street.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -966,7 +966,7 @@ rooms:
     \ To the west is the jeweler's shop and to\n\rthe east is the blacksmith's.  South
     is Main Street.  To the distance in the\n\rnorth, you can see the old shoreline
     and to the immediate north is the\n\rmarina.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1004,7 +1004,7 @@ rooms:
     has made in his years of work.  To the west you can see the\n\rweaponsmith's shop
     and to the east a stable.  South is Main Street and to\n\rthe north is what looks
     like another shop of some sort.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1040,7 +1040,7 @@ rooms:
     you can see an alley and, in the distance, the edge of the cliff.  To\n\rthe south
     is the main street of the city and to the west is the\n\rblacksmith's.  East of
     here you can see more homes.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1075,7 +1075,7 @@ rooms:
     of\n\rhere there is a ledge, where a large part of the city slid into the abyss\n\rwhen
     the city began flooding.  To the south is Main Street, while to the\n\rwest you
     can see more houses.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1105,7 +1105,7 @@ rooms:
     town\n\rand much of the surrounding land, the woods have disappeared and the grass\n\rhas
     died, destroying the lines where the path once lay.  To the east, Main\n\rStreet
     continues, while to the north and south, you can see houses.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1139,7 +1139,7 @@ rooms:
     library and reenter Main Street.  To the west is the city\n\rentrance and to the
     east you can see more of Main Street.  North and south\n\rof you is a cluster
     of houses.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1178,7 +1178,7 @@ rooms:
     library is just a short walk to the west, convenient for the\n\racolytes.  To
     the east you can see the city fountain.  North and south you\n\rcan see shops
     of some sort.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1215,7 +1215,7 @@ rooms:
     sea.  As you inspect it closer, you notice that the bottom is not\n\rsolid.  To
     the north lies the road to what used to be the shore.  To the\n\reast and west
     is Main Street.  To the south is the residential district.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1262,7 +1262,7 @@ rooms:
     you return to Main Street and look around.  West is the\n\rfountain, while to
     the north and south are shops of some sort.  To the east\n\ryou can see the guards'
     office.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1298,7 +1298,7 @@ rooms:
     \n\rOver the door, the large shield of the guards is prominently displayed.  To\n\rthe
     west you can see City Hall.  To the east and north you can see shops of\n\rsome
     sort.  Sout of here is what looks like houses.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1335,7 +1335,7 @@ rooms:
     \ Behind the bar is a large mural protraying the birth of the world\n\rwith depictions
     of all the major gods.  Outside, to the west, you can see\n\rthe guards' headquarters,
     while in all other directions are shops and homes.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1375,7 +1375,7 @@ rooms:
     very wealthy citizens.  To the west is a small inn.  North and\n\rsouth are shops
     and houses.  Directly to the east of you, you can see the\n\redge of the drop
     off where most of the city slid deeper into the sea.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1404,7 +1404,7 @@ rooms:
     you can see the back room, where the animals were slaughtered.  The\n\rwalls of
     this room are covered with various knives and cutting implements. \n\rThe front
     room contains a few tables where all kinds of cut meats were in\n\rdisplay.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1433,7 +1433,7 @@ rooms:
     is a\n\rspot where there was probably once a garden, providing supplimental food\n\rduring
     the summer months.  The insides of each house are rather plain,\n\rusually consisting
     of a bedroom or two, a kitchen, and a few other\n\rmiscellaneous rooms.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1468,7 +1468,7 @@ rooms:
     the\n\rsoldiers and fighters hung out and practiced.  It was here that the masters\n\rpassed
     down their knowledge to the good and the bad swordsmen and it was\n\rhere that
     many blademasters were made.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1503,7 +1503,7 @@ rooms:
     and\n\rsorceresses gathered together to teach each other and young apprentices
     the\n\rspells and other rituals that defined the way they lived and which caused\n\rresentment
     among some.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1538,7 +1538,7 @@ rooms:
     the outskirts of the city brought fruits and vegetables here to sell\n\rthem.
     \ Most of the stalls were washed away in the flood, but a few remain,\n\rbroken
     and on their sides.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1575,7 +1575,7 @@ rooms:
     are still shiny.  The flooding destroyed several of the support\n\rbeams, causing
     the ceiling to collapse.  Picking your way through the\n\rrubble, you pick up
     a few artifacts and make your way back to the door.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1611,7 +1611,7 @@ rooms:
     \ There was hardly a night when at least one person didn't get thrown\n\rout.
     \ Now, the ruins look so peaceful, water flowing slowly through giant\n\rholes
     in the walls and the roof.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1652,7 +1652,7 @@ rooms:
     food to the poor and the hungry.  For this,\n\rshe was known throughout the countryside
     and this house, or at least, what\n\ris left of it, stands a few hundred feet
     below the surface of the sea as an\n\reternal tribute to her.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1682,7 +1682,7 @@ rooms:
     for those living in the houses you see before you.  These are not\n\rspectacular
     houses.  In fact, you can see nothing special about them.  This\n\rmust have been
     a nice, quiet neighborhood.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1705,7 +1705,7 @@ rooms:
     you\n\rlook around, you realize that this must have been the home of many of the\n\rsailors,
     or at least the ones who decided to get married and have a family. \n\rOn the
     walls of a few houses, you can see harpoons and other maritime\n\requipment.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1735,7 +1735,7 @@ rooms:
     to lose hope of finding anything other than what you've\n\ralready seen.  Then,
     all of a sudden, in one of the least conspicuous\n\rhouses, you come across something
     new: A framed story of some kind.  In\n\rinterest, you stop and read it...  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1781,7 +1781,7 @@ rooms:
     however, even in the murky water, they still\n\rlook very imposing and very impressive.
     \ The gatehouse, too is formidable. \n\rAt one time it held a small squad of guards
     whose job it was to protect the\n\rcity from intruders at night.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1812,7 +1812,7 @@ rooms:
     you can clearly recognize is the wall of the city.  This is one of the\n\rlongest
     segments of the wall left intact, from the gatehouse west of there\n\rto the small
     cottages east of here, almost a quarter mile long.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1841,7 +1841,7 @@ rooms:
     of\n\rthese cottages are made like log cabins and have only a few rooms each.
     \n\rOnce, these cottages were the homes of the tavern maids, the blacksmith's\n\rapprentices,
     and others with a low income but could still provide for\n\rthemsleves.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1870,7 +1870,7 @@ rooms:
     bakery was once famous for its pastries and sweets, but now, like\n\rits sister
     in the northern part of the city, lies in ruin, its customers and\n\rits baker
     long since gone.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1903,7 +1903,7 @@ rooms:
     the\n\rremainder of the city is.  For all anyone knows, you might be crushed to\n\rdeath
     by the pressure of hundreds of feet of water before you glimpse the\n\rspire of
     the tallest building left standing there.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1925,7 +1925,7 @@ rooms:
   description: "You are now in a gigantic cavern, the ceiling of which is more than
     50\n\rfeet above you.  In the walls you can see small caves which look like they\n\rcould
     be the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1947,7 +1947,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -1975,7 +1975,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2003,7 +2003,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2031,7 +2031,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2059,7 +2059,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabov eyou.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2087,7 +2087,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2115,7 +2115,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2137,7 +2137,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2165,7 +2165,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2199,7 +2199,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2233,7 +2233,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2267,7 +2267,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2301,7 +2301,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2335,7 +2335,7 @@ rooms:
   description: "You are in a giagantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2369,7 +2369,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2397,7 +2397,7 @@ rooms:
   description: "You are in a giagantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2425,7 +2425,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2459,7 +2459,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of whihc is more than 50
     feet\n\rabove you.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2494,7 +2494,7 @@ rooms:
     look\n\rup, you can vaguely see the crack in the bottom of the fountain where
     you\n\rentered the shaft.  Below you, the water is so murky that you can't see\n\ranything
     beyond 50 feet.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2540,7 +2540,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you see small caves which look like they could
     be\n\rthe homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2574,7 +2574,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2608,7 +2608,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2642,7 +2642,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves which look like they
     could\n\rbe the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2670,7 +2670,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves that look like they could\n\rbe
     the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2698,7 +2698,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see caves that look like they could be
     the\n\rhomes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2732,7 +2732,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see caves that look like they could be
     the\n\rhomes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2766,7 +2766,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see caves that look like they could be
     the\n\rhomes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2800,7 +2800,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see caves that look like they could be
     the\n\rhomes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2834,7 +2834,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see caves that look like they could be
     the\n\rhomes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2868,7 +2868,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see caves which look like they could
     be the\n\rhomes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2902,7 +2902,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see caves that look like they could be
     the\n\rhomes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2930,7 +2930,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves that look like they could\n\rbe
     the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2952,7 +2952,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves that look like they could\n\rbe
     the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -2980,7 +2980,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves that look like they could\n\rbe
     the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -3008,7 +3008,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves that look like they could\n\rbe
     the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -3036,7 +3036,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves that look like they could\n\rbe
     the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -3064,7 +3064,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see small caves that look like they could\n\rbe
     the homes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -3092,7 +3092,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is more than 50
     feet\n\rabove you.  In the walls you can see caves that look like they could be
     the\n\rhomes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -3120,7 +3120,7 @@ rooms:
   description: "You are in a gigantic cavern, the ceiling of which is mreo than 50
     feet\n\rabove you.  In the walls you can see caves that look like they could be
     the\n\rhomes of some creature.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -3143,7 +3143,7 @@ rooms:
     bones of whales and other large sea animals that were, at one point, his\n\rdinner.
     \ On the floor of this cave, you can also see bits and pieces of many\n\rof the
     ships that the kraken has destroyed.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -3158,7 +3158,7 @@ rooms:
   name: Out to Sea
   description: "You are now well past the dock and rather far out to sea.  As you
     begin\n\rto drown, you think you can see a building below you.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:
@@ -3179,7 +3179,7 @@ rooms:
   name: Out to Sea
   description: "You push yourself away from the dock and begin swimming out to sea,\n\rhoping
     to find a spectacular wreck or some undiscovered city.  \n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 6
   owner:
   exits:

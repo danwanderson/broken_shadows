@@ -14,7 +14,7 @@ mobiles:
   description: "A cute little blue smurf with a white hat and white boots.  You have
     a sudden\n\rurge to crush him.\n\r"
   race: Human
-  act: 524480
+  act: GHT
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -59,7 +59,7 @@ mobiles:
   description: "A small smurf is quietly picking berries.  He seems to hardly notice
     you.\n\r"
   race: Human
-  act: 524418
+  act: BHT
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -104,7 +104,7 @@ mobiles:
   description: "Brainy Smurf has on his usual glasses.  Brainy Smurf isn't liked much
     by the\n\rother smurfs.  They fear his knowledge.  Knowledge is power!\n\r"
   race: Human
-  act: 524480
+  act: GHT
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -149,7 +149,7 @@ mobiles:
   description: "Handy is always building something.  He never takes a break.  Why
     don't you\n\rgive him a break, like all of his bones.\n\r"
   race: Human
-  act: 524480
+  act: GHT
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -194,7 +194,7 @@ mobiles:
   description: "Sleepy never gets enough sleep.  You would think he goes to college.
     \ I wonder\n\rif he has ever stayed up a whole night without sleeping.\n\r"
   race: Human
-  act: 524480
+  act: GHT
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -239,7 +239,7 @@ mobiles:
   description: "Hefty is a total health nut.  He lifts weights, eats right, and exercises
     all\n\rthe time.  Won't do him much good when he's DEAD.\n\r"
   race: Human
-  act: 524480
+  act: GHT
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -284,7 +284,7 @@ mobiles:
   description: "Grumpy has never been happy in his whole life.  So why don't you just
     end it?\n\r"
   race: Human
-  act: 524480
+  act: GHT
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -329,7 +329,7 @@ mobiles:
   description: "Jokey loves to give people presents.  Too bad the present explodes
     when opened.\n\rOh well, to each his own.\n\r"
   race: Human
-  act: 524480
+  act: GHT
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -374,7 +374,7 @@ mobiles:
   description: "Smurfette is the cutest little smurf you've ever seen.  If only she
     were your\n\rsize.  I wonder how much she charges the other smurfs.\n\r"
   race: Human
-  act: 524480
+  act: GHT
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -420,7 +420,7 @@ mobiles:
     white\n\rbeard.  Papa Smurf treats his fellow smurfs with dignity and respect.
     \ That\n\ris why Papa Smurf is so popular among the ladies.\n\r"
   race: Human
-  act: 524480
+  act: GHT
   affected_by: 0
   affected2_by: 0
   alignment: 100
@@ -466,7 +466,7 @@ mobiles:
     smurfs\n\rbefore but always lets them escape.  He brings true meaning to the word
     moron.\n\r"
   race: Human
-  act: 524418
+  act: BHT
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -511,7 +511,7 @@ mobiles:
   description: "Gargamel's worthless cat.  He is just about as dumb as Gargamel.  He
     should\n\rjust grab a smurf in his teeth and chew away.\n\r"
   race: Human
-  act: 524418
+  act: BHT
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -557,7 +557,7 @@ objects:
   material: none
   item_type: 26
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 1
   weight: 2
   cost: 10
@@ -575,8 +575,8 @@ objects:
   description: An odd pair of glasses has been left here.
   material: none
   item_type: 9
-  extra_flags: 1
-  wear_flags: 17
+  extra_flags: A
+  wear_flags: AE
   level: 2
   weight: 2
   cost: 20
@@ -599,7 +599,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 17
+  wear_flags: AE
   level: 1
   weight: 2
   cost: 10
@@ -618,7 +618,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 3
   weight: 2
   cost: 30
@@ -636,8 +636,8 @@ objects:
   description: A small necklace is lying on the ground.
   material: none
   item_type: 9
-  extra_flags: 1
-  wear_flags: 5
+  extra_flags: A
+  wear_flags: AC
   level: 4
   weight: 2
   cost: 40
@@ -660,7 +660,7 @@ objects:
   material: none
   item_type: 10
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 10
   weight: 2
   cost: 100
@@ -679,7 +679,7 @@ objects:
   material: none
   item_type: 3
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 10
   weight: 2
   cost: 100
@@ -698,7 +698,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 4
   weight: 2
   cost: 40
@@ -736,7 +736,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 10
   weight: 2
   cost: 100
@@ -774,7 +774,7 @@ rooms:
   name: Dimly Lit Path
   description: "This section of the road is badly worn and frequently traversed.  There
     is\n\rfaint singing to the north.  The path back to the road lies to the south.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 3
   owner:
   exits:
@@ -1098,7 +1098,7 @@ rooms:
   - dir: 2
     desc: "Papa Smurf's House\n\r"
     keywords: door
-    exit_flags: 1
+    exit_flags: A
     key: 107
     to_vnum: 125
   - dir: 3
@@ -1340,7 +1340,7 @@ rooms:
   - dir: 0
     desc: "Stone Path\n\r"
     keywords: door
-    exit_flags: 1
+    exit_flags: A
     key: 107
     to_vnum: 113
   extra_descs: []
@@ -1377,7 +1377,7 @@ rooms:
   - dir: 0
     desc: "Gargamel's Castle\n\r"
     keywords: door
-    exit_flags: 1
+    exit_flags: A
     key: 109
     to_vnum: 128
   - dir: 2
@@ -1398,7 +1398,7 @@ rooms:
   - dir: 2
     desc: "Outside Gargamel's Castle\n\r"
     keywords: door
-    exit_flags: 1
+    exit_flags: A
     key: 109
     to_vnum: 127
   extra_descs: []

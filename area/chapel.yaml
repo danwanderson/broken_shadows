@@ -14,7 +14,7 @@ mobiles:
   description: "Brown bones with tufts of clothing still hanging from them.  This\n\rskeleton
     looks very mindless but still dangerous ...\n\r"
   race: Human
-  act: 524320
+  act: FT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -59,8 +59,8 @@ mobiles:
   description: "His body is totally white and slowly rotting away.  Each Zombie looks\n\rquite
     different from the next because they were, of course, once alive and\n\rhuman.\n\r"
   race: Human
-  act: 524322
-  affected_by: 40
+  act: BFT
+  affected_by: DF
   affected2_by: 0
   alignment: -100
   clan: 0
@@ -104,8 +104,8 @@ mobiles:
   description: "The ghoul no longer resembles the adventurer he once was.  Nonetheless\n\rhe
     looks like he hasn't forgot his fighting skills.\n\r"
   race: Human
-  act: 524320
-  affected_by: 8
+  act: FT
+  affected_by: D
   affected2_by: 0
   alignment: -500
   clan: 0
@@ -149,8 +149,8 @@ mobiles:
   description: "The wraith no longer has a material form.  He is wearing a tattered\n\rblack
     robe which hides all but the darkness of his face and the glimmer\n\rin his eyes.\n\r"
   race: Human
-  act: 524322
-  affected_by: 42
+  act: BFT
+  affected_by: BDF
   affected2_by: 0
   alignment: -750
   clan: 0
@@ -194,8 +194,8 @@ mobiles:
   description: "The guardian vampire looks quite EVIL.  Just by looking at him the
     hair on your\n\rarms raises. He looks mighty tough to be just a minor minion.\n\r"
   race: Human
-  act: 524322
-  affected_by: 40
+  act: BFT
+  affected_by: DF
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -240,8 +240,8 @@ mobiles:
     this man.\n\rDressed in white, fine white hair, and a soft slightly wrinkled face
     ...\n\rthis man has a sacred beauty.  You see a halo around his head.\n\r"
   race: Human
-  act: 526338
-  affected_by: 168
+  act: BLT
+  affected_by: DFH
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -289,7 +289,7 @@ mobiles:
     be.  These\n\rbeings sometimes walk on all their legs and sometimes on the hind
     pair only.\n\r"
   race: Human
-  act: 524320
+  act: FT
   affected_by: 0
   affected2_by: 0
   alignment: -500
@@ -338,8 +338,8 @@ mobiles:
     because\n\rit has no face, only a suggestive blackness where a face ought to be
     ...\n\r"
   race: Human
-  act: 524384
-  affected_by: 98304
+  act: FGT
+  affected_by: PQ
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -386,8 +386,8 @@ mobiles:
     it is hard to look at them.  They speak in great harsh\n\rvoices.  A hunting horror
     is HUGE, normally around 40 feet long.\n\r"
   race: Human
-  act: 524320
-  affected_by: 40
+  act: FT
+  affected_by: DF
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -430,8 +430,8 @@ mobiles:
   long_desc: "Some weeds are creeping across the floor.\n\r"
   description: "Just some unpleasant looking vine-like growths ...\n\r"
   race: Human
-  act: 524324
-  affected_by: 98312
+  act: CFT
+  affected_by: DPQ
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -476,8 +476,8 @@ mobiles:
     with\n\rbright red hair. Half his face is burnt off and he has a perpetual smile.\n\rHe
     is called up from his service in hell in order to aid the Undying One.\n\r"
   race: Human
-  act: 524290
-  affected_by: 8
+  act: BT
+  affected_by: D
   affected2_by: 0
   alignment: -750
   clan: 0
@@ -524,8 +524,8 @@ mobiles:
     dog-like face except ... different.  Bright glowing eyes and a grimace\n\rlead
     you to believe that he knew that you were coming.\n\r"
   race: Human
-  act: 524322
-  affected_by: 8
+  act: BFT
+  affected_by: D
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -571,8 +571,8 @@ mobiles:
     as one other.  Free me from this misery,\n\r    anyone that can hear. The peace
     of the grave\n\r    calls me but I am blocked from its quiet.\n\r"
   race: Human
-  act: 524290
-  affected_by: 40
+  act: BT
+  affected_by: DF
   affected2_by: 0
   alignment: 350
   clan: 0
@@ -615,7 +615,7 @@ mobiles:
   long_desc: "A rock slug is slowly creeping along, leaving a slime trail behind it.\n\r"
   description: "It is a large brownish slug.  Got any salt?  Didn't think so ...\n\r"
   race: Human
-  act: 524292
+  act: CT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -667,8 +667,8 @@ mobiles:
     right down will you?\n\rWould you like hot or cold tea?  Yes the weather is ...'\n\r\n\rAnd
     on he babbles ...\n\r"
   race: Human
-  act: 524352
-  affected_by: 1
+  act: GT
+  affected_by: A
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -715,8 +715,8 @@ mobiles:
     at you thru a broken jaw and missing teeth.  One hand of hers is\n\rresting on
     the shoulder of the etcher ... her husband.\n\r"
   race: Human
-  act: 524290
-  affected_by: 65536
+  act: BT
+  affected_by: Q
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -759,7 +759,7 @@ mobiles:
   long_desc: "A half-decomposed body is lying in the corner here.\n\r"
   description: "YUK! It's ugly, disgusting ... it smells ... it also moves a bit!\n\r"
   race: Human
-  act: 524324
+  act: CFT
   affected_by: 0
   affected2_by: 0
   alignment: -350
@@ -805,7 +805,7 @@ objects:
   material: none
   item_type: 1
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 14
   weight: 5
   cost: 140
@@ -826,8 +826,8 @@ objects:
   description: A nightgaunt's tickler has been left here.
   material: none
   item_type: 5
-  extra_flags: 128
-  wear_flags: 8193
+  extra_flags: H
+  wear_flags: AN
   level: 10
   weight: 8
   cost: 100
@@ -839,12 +839,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 2
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 1
     bitvector: 0
   extra_descs:
   - keywords: tickler
@@ -856,8 +856,8 @@ objects:
   description: A pile of pink material is lying here
   material: none
   item_type: 9
-  extra_flags: 2560
-  wear_flags: 9
+  extra_flags: JL
+  wear_flags: AD
   level: 11
   weight: 10
   cost: 110
@@ -878,7 +878,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 5
   weight: 5
   cost: 50
@@ -901,7 +901,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 20
   weight: 3
   cost: 200
@@ -922,8 +922,8 @@ objects:
   description: The mummified head of Jubal the Benevolent is lolling back and forth.
   material: none
   item_type: 15
-  extra_flags: 1024
-  wear_flags: 1
+  extra_flags: K
+  wear_flags: A
   level: 16
   weight: 20
   cost: 160
@@ -945,8 +945,8 @@ objects:
   description: A black marble ring is lying here on the ground.
   material: none
   item_type: 8
-  extra_flags: 1088
-  wear_flags: 3
+  extra_flags: GK
+  wear_flags: AB
   level: 16
   weight: 2
   cost: 160
@@ -958,12 +958,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 14
-    modifier: 10
-    bitvector: 0
-  - where: O
     location: 24
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 14
+    modifier: 10
     bitvector: 0
   extra_descs:
   - keywords: black marble ring
@@ -975,8 +975,8 @@ objects:
   description: A rapier is lying here.
   material: none
   item_type: 5
-  extra_flags: 2
-  wear_flags: 8193
+  extra_flags: B
+  wear_flags: AN
   level: 16
   weight: 4
   cost: 160
@@ -988,12 +988,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 2
-    modifier: 2
-    bitvector: 0
-  - where: O
     location: 18
     modifier: 1
+    bitvector: 0
+  - where: O
+    location: 2
+    modifier: 2
     bitvector: 0
   extra_descs:
   - keywords: thin rapier
@@ -1028,7 +1028,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 20
   weight: 4
   cost: 200
@@ -1049,7 +1049,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 16385
+  wear_flags: AO
   level: 18
   weight: 5
   cost: 180
@@ -1071,7 +1071,7 @@ objects:
   material: none
   item_type: 20
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 18
   weight: 50
   cost: 180
@@ -1090,7 +1090,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 28
   weight: 3
   cost: 280
@@ -1111,7 +1111,7 @@ objects:
   description:
   material: none
   item_type: 15
-  extra_flags: 4
+  extra_flags: C
   wear_flags: 0
   level: 5
   weight: 1000
@@ -1133,7 +1133,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 2
   weight: 6
   cost: 20
@@ -1155,7 +1155,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 3
   weight: 1
   cost: 30
@@ -1176,7 +1176,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 4
   weight: 7
   cost: 40
@@ -1201,8 +1201,8 @@ objects:
   description: A yellowing tightly rolled scroll is here
   material: none
   item_type: 2
-  extra_flags: 64
-  wear_flags: 16385
+  extra_flags: G
+  wear_flags: AO
   level: 28
   weight: 5
   cost: 280
@@ -1224,8 +1224,8 @@ objects:
   description: An orb is here
   material: none
   item_type: 4
-  extra_flags: 66
-  wear_flags: 16385
+  extra_flags: BG
+  wear_flags: AO
   level: 13
   weight: 10
   cost: 130
@@ -1247,7 +1247,7 @@ objects:
   material: none
   item_type: 8
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 20
   weight: 30
   cost: 200
@@ -1268,8 +1268,8 @@ objects:
   description: A dark black cape is lying here
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 1025
+  extra_flags: G
+  wear_flags: AK
   level: 28
   weight: 10
   cost: 280
@@ -1281,11 +1281,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 13
+    location: 17
     modifier: 10
     bitvector: 0
   - where: O
-    location: 17
+    location: 13
     modifier: 10
     bitvector: 0
   extra_descs:
@@ -1298,8 +1298,8 @@ objects:
   description: A sword lies here
   material: none
   item_type: 5
-  extra_flags: 64
-  wear_flags: 8193
+  extra_flags: G
+  wear_flags: AN
   level: 28
   weight: 20
   cost: 280
@@ -1326,7 +1326,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 20
   weight: 50
   cost: 200
@@ -1347,7 +1347,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 16
   weight: 1
   cost: 160
@@ -1374,33 +1374,33 @@ rooms:
   - dir: 0
     desc: "The chapel door is made of dark wood.\n\r"
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3604
   - dir: 5
     desc:
     keywords: altar
-    exit_flags: 15
+    exit_flags: ABCD
     key: 3430
     to_vnum: 3421
   extra_descs:
+  - keywords: benches rows
+    description: "The benches are not of the comfortable kind.\n\r"
   - keywords: glass windows
     description: "The windows must be meant to be dark.  At least they are completely
       clean.\n\r"
-  - keywords: benches rows
-    description: "The benches are not of the comfortable kind.\n\r"
 - vnum: 3408
   name: Stairwell into Darkness
   description: "You sense even more danger coming from below but are urged onward
     ...\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 3
     desc:
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 3411
     to_vnum: 3449
   - dir: 5
@@ -1417,7 +1417,7 @@ rooms:
     \ It's a trap!\n\rA bloodied corpse of an acolyte is lying here ...\n\rA bloodied
     corpse of an acolyte is lying here ...\n\rA bloodied corpse of an acolyte is lying
     here ...\n\r"
-  room_flags: 13
+  room_flags: ACD
   sector: 0
   owner:
   exits: []
@@ -1429,31 +1429,31 @@ rooms:
 - vnum: 3410
   name: The Lower Chambers and Tombs of the Undead
   description: "The stench of death is heavy in these caverns.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
-  - dir: 1
-    desc:
-    keywords:
-    exit_flags: 0
-    key: 0
-    to_vnum: 3411
-  - dir: 3
+  - dir: 0
     desc:
     keywords:
     exit_flags: 0
     key: 0
     to_vnum: 3415
+  - dir: 2
+    desc:
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 3411
   extra_descs: []
 - vnum: 3411
   name: The Lower Chambers and Tombs of the Undead
   description: "The stench of death is heavy in these caverns.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
-  - dir: 1
+  - dir: 2
     desc:
     keywords:
     exit_flags: 0
@@ -1465,7 +1465,7 @@ rooms:
   description: "You are at the west end of the Grand Hall of Kings.  There is a doorway
     to the\n\rsouth with something strange written above it.  Also on the floor are
     dried\n\rblood stains, but their color seems a little wrong.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1478,15 +1478,15 @@ rooms:
   - dir: 2
     desc: "A door to the south\n\r"
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3413
   extra_descs:
-  - keywords: stain stains
-    description: "That's odd ... they seem a little GREEN.\n\r"
   - keywords: door writing
     description: "Above the door is some strange writing!  It is worn with age, but
       it refers\n\rto an ancient ruler named 'Shohan'.\n\r"
+  - keywords: stain stains
+    description: "That's odd ... they seem a little GREEN.\n\r"
 - vnum: 3413
   name: The Shrine of Shohan
   description: "BLOOD EVERYWHERE!\n\rThe walls are coated with blood, bits of bloody
@@ -1494,20 +1494,20 @@ rooms:
     disturb you in the least\n\rexcept that it is all FRESH!  What ever used to pass
     as an altar here,\n\rlies overturned and smashed.  Doors lead to the south and
     to the north.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: north
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3412
   - dir: 2
     desc:
     keywords: south
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 3414
   extra_descs: []
@@ -1518,14 +1518,14 @@ rooms:
     place looks\n\rlike the feeding grounds of beasts and monsters.  The overturned
     sarcophagus\n\rof the once powerful King Shohan lies here.  A door leads to the
     north and a\n\rdoorway has been hewn to the east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door north
-    exit_flags: 1
+    exit_flags: A
     key: 0
     to_vnum: 3413
   - dir: 1
@@ -1542,7 +1542,7 @@ rooms:
 - vnum: 3415
   name: The Lower Chambers and Tombs of the Undead
   description: "The stench of death is heavy in these caverns.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
@@ -1551,26 +1551,26 @@ rooms:
     keywords:
     exit_flags: 0
     key: 0
-    to_vnum: 3410
-  - dir: 2
+    to_vnum: 3420
+  - dir: 1
     desc:
     keywords:
     exit_flags: 0
     key: 0
-    to_vnum: 3416
+    to_vnum: 3410
   - dir: 3
     desc:
     keywords:
     exit_flags: 0
     key: 0
-    to_vnum: 3420
+    to_vnum: 3416
   extra_descs: []
 - vnum: 3416
   name: Entrance to the Lower Chambers
   description: "You can tell that this area wasn't a part of the original construction.\n\rThe
     walls have been hewn by a mighty force look as though they were CLAWED.\n\rThe
     passage slopes upward here and also continues to the north.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
@@ -1583,7 +1583,7 @@ rooms:
   - dir: 4
     desc:
     keywords: tunnel
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 3418
   extra_descs:
@@ -1594,7 +1594,7 @@ rooms:
   name: The Grand Hall of Kings
   description: "This is the western wing of the Grand Hall of Kings.  Your only exits
     are to\n\rthe east and west in this gloomy hallway.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1617,7 +1617,7 @@ rooms:
     still\n\rstands here and the walls show scenes from the life of Cristis the Kind,\n\ra
     ruler of the outlying regions west of Midgaard.  There is a stone staircase\n\rleading
     down.  The Ghost of Cristis the Kind stands here.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1630,15 +1630,10 @@ rooms:
   - dir: 5
     desc:
     keywords: staircase
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 3416
   extra_descs:
-  - keywords: altar
-    description: "It stands 2 feet high with the remnants of candle-wax on top.  There
-      is\n\ran inscription on the side:  'Praise the almighty Cristis the bringer
-      of\n\rgood and justice to the world.  He who fought the evilest finally is at\n\rpeace.
-      \ May the Gods remember him forever ...'\n\r"
   - keywords: ghost cristis
     description: "His rest has been disturbed by evil creatures who have invaded his
       domain\n\rand grave.  He holds up a parchment for you to read:\n\r\n\r     Hello
@@ -1649,11 +1644,16 @@ rooms:
       able to appear and\n\r   communicate with the mortal world.\n\r     Roch'tar,
       the reincarnate Vampire, now rules these tombs.\n\r   You must find and defeat
       him and his minions!\n\r     May God bless you on your Quest!\n\r"
+  - keywords: altar
+    description: "It stands 2 feet high with the remnants of candle-wax on top.  There
+      is\n\ran inscription on the side:  'Praise the almighty Cristis the bringer
+      of\n\rgood and justice to the world.  He who fought the evilest finally is at\n\rpeace.
+      \ May the Gods remember him forever ...'\n\r"
 - vnum: 3419
   name: The Tomb of Cristis
   description: "Everything here has simply been destroyed.   Exits lead north and
     west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1673,22 +1673,22 @@ rooms:
 - vnum: 3420
   name: The Lower Chambers and Tombs of the Undead
   description: "The stench of death is heavy in these caverns.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
-  - dir: 1
-    desc:
-    keywords:
-    exit_flags: 0
-    key: 0
-    to_vnum: 3415
-  - dir: 2
+  - dir: 0
     desc:
     keywords:
     exit_flags: 0
     key: 0
     to_vnum: 3425
+  - dir: 2
+    desc:
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 3415
   extra_descs: []
 - vnum: 3421
   name: Entrance Chamber to the Grand Hall of Kings
@@ -1698,59 +1698,59 @@ rooms:
     walls are\n\rcovered in finely crafted tapestries. You can tell that these things
     must have\n\rbeen worth much but they have not lasted well throughout the ages.
     \ Massive\n\rdoors lead off to the south and a large stone staircase leads up.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 2
     desc: "Finely polished oak doors stand to the south.\n\r"
     keywords: oak
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3422
   - dir: 4
     desc: "You see a large set of stone stairs leading upwards to a small stone door
       at\n\rthe top. \n\r"
     keywords: stone trapdoor door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 3410
     to_vnum: 3405
   extra_descs:
-  - keywords: stone door trapdoor
-    description: "It's rather small and looks quite heavy but maybe with some kind
-      of leverage\n\ryou could move it.  It has a queerly shaped hole that looks big
-      enough\n\rfor an equally queerly shaped pole to fit inside.  If only you had
-      it!\n\r"
-  - keywords: tapestry tapestries
-    description: "The tapestries were woven into beautiful and exciting scenes of
-      battles\n\rlong ago.  One on the left your shows the historic battle between
-      Jubal the\n\rBenevolent and Hroth Kragen's forces that eventually Jubal's army
-      won (of\n\rcourse).\n\r"
-  - keywords: staircase stairs
-    description: "Though quite cracked they do look very stable.\n\r"
-  - keywords: oak
-    description: "They're HUGE!  They are at least 12 feet tall and about 10 feet
-      wide.\n\rIf not for one thing they would be perfectly preserved.  There appears\n\rto
-      be some letters crudely scratched into the wood.\n\r"
   - keywords: letters graffiti
     description: "'Beware here all of man, because past here lies only death.'\n\r\n\r
       \   Insho'rkthon brsskra-lehsn Roch'tar\n\r\n\rBeneath, there are two criss-crossing
       scratchmarks in an X formation that\n\rlook like someone (or something) raked
       their claws across the wood.\n\r"
+  - keywords: oak
+    description: "They're HUGE!  They are at least 12 feet tall and about 10 feet
+      wide.\n\rIf not for one thing they would be perfectly preserved.  There appears\n\rto
+      be some letters crudely scratched into the wood.\n\r"
+  - keywords: staircase stairs
+    description: "Though quite cracked they do look very stable.\n\r"
+  - keywords: tapestry tapestries
+    description: "The tapestries were woven into beautiful and exciting scenes of
+      battles\n\rlong ago.  One on the left your shows the historic battle between
+      Jubal the\n\rBenevolent and Hroth Kragen's forces that eventually Jubal's army
+      won (of\n\rcourse).\n\r"
+  - keywords: stone door trapdoor
+    description: "It's rather small and looks quite heavy but maybe with some kind
+      of leverage\n\ryou could move it.  It has a queerly shaped hole that looks big
+      enough\n\rfor an equally queerly shaped pole to fit inside.  If only you had
+      it!\n\r"
 - vnum: 3422
   name: The Grand Hall of Kings
   description: "A long hallway stretches east and west.  On the southern side of the
     hall\n\rthere are many doors, each with the name of a king who has died and is\n\rentombed
     here.  The hallway is beautiful yet chilling.  Even though the area\n\rhas been
     kept well by acolytes, there remains a stench of the undead.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: oak
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3421
   - dir: 1
@@ -1763,7 +1763,7 @@ rooms:
     desc: "The door has written above it: 'May all the lands thank Crotus the Victor.\n\rWithout
       his guidance this kingdom would not have stood.'\n\r"
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3423
   - dir: 3
@@ -1780,14 +1780,14 @@ rooms:
     of\n\r100 years ago.  If not for him, Midgaard of course would have eventually
     been\n\rconquered as well.  Though Crotus was a goodly king, it was rumored that
     he\n\rturned to the dark ways in his dying years ... and died an evil man.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3422
   - dir: 2
@@ -1801,7 +1801,7 @@ rooms:
   name: The Tomb of Crotus
   description: "A sarcophagus lies in the middle of the room and seems undisturbed.\n\rA
     hole has been knocked into the east wall.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1821,7 +1821,7 @@ rooms:
 - vnum: 3425
   name: The Lower Chambers and Tombs of the Undead
   description: "The stench of death is heavy in these caverns.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
@@ -1830,39 +1830,39 @@ rooms:
     keywords:
     exit_flags: 0
     key: 0
-    to_vnum: 3420
+    to_vnum: 3426
   - dir: 2
     desc:
     keywords:
     exit_flags: 0
     key: 0
-    to_vnum: 3426
+    to_vnum: 3420
   extra_descs: []
 - vnum: 3426
   name: The Lower Chambers and Tombs of the Undead
   description: "The stench of death is heavy in these caverns.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
+  - dir: 0
+    desc:
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 3430
   - dir: 1
     desc:
     keywords:
     exit_flags: 0
     key: 0
     to_vnum: 3425
-  - dir: 3
-    desc:
-    keywords:
-    exit_flags: 0
-    key: 0
-    to_vnum: 3430
   extra_descs: []
 - vnum: 3427
   name: The Grand Hall of Kings
   description: "You are in the western part of the Grand Hall of Kings.  To the south
     is a\n\rdoor and to the east and west the hall continues.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1875,7 +1875,7 @@ rooms:
   - dir: 2
     desc:
     keywords: door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 3428
   - dir: 3
@@ -1891,14 +1891,14 @@ rooms:
     \ Warriors did love Mitnar, and all fighting men honored him.\n\rOn the wall is
     depicted battle after battle after battle.\n\rA small opening has been shaped
     carefully to the east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 3427
   - dir: 1
@@ -1920,7 +1920,7 @@ rooms:
     Mitnar,\n\rprisoners of war being put to the sword by Mitnar, and great heaps
     of gold\n\rand weapons under the feet of Mitnar.  Where his coffin was, there
     is now\n\ronly a rectangular blemish on the floor of the dusty room.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1940,7 +1940,7 @@ rooms:
 - vnum: 3430
   name: The Lower Chambers and Tombs of the Undead
   description: "The stench of death is heavy in these caverns.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
@@ -1950,13 +1950,13 @@ rooms:
     exit_flags: 0
     key: 0
     to_vnum: 3431
-  - dir: 1
+  - dir: 2
     desc:
     keywords:
     exit_flags: 0
     key: 0
     to_vnum: 3426
-  - dir: 2
+  - dir: 3
     desc:
     keywords:
     exit_flags: 0
@@ -1966,17 +1966,17 @@ rooms:
 - vnum: 3431
   name: The Lower Chambers and Tombs of the Undead
   description: "The stench of death is heavy in these caverns.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
-  - dir: 2
+  - dir: 0
     desc:
     keywords:
     exit_flags: 0
     key: 0
     to_vnum: 3430
-  - dir: 3
+  - dir: 1
     desc:
     keywords:
     exit_flags: 0
@@ -1986,7 +1986,7 @@ rooms:
 - vnum: 3432
   name: The Grand Hall of Kings
   description: "You are still walking through the gloomy hallway.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2008,7 +2008,7 @@ rooms:
   description: "Little chunks of dried meat are spattered throughout this room.  The
     walls\n\rare covered in gore.  Almost as if they were painted ... ICK!  You can\n\ralmost
     make out the design!\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2030,7 +2030,7 @@ rooms:
   description: "UGH!  The sarcophagus is opened up and the mummified body lies out
     in the\n\ropen, ripped to pieces.  Gnawed pieces of flesh and bone are strewn
     here.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2044,7 +2044,7 @@ rooms:
 - vnum: 3435
   name: The Lower Chambers and Tombs of the Undead
   description: "The stench of death is heavy in these caverns.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
@@ -2053,58 +2053,58 @@ rooms:
     keywords:
     exit_flags: 0
     key: 0
-    to_vnum: 3440
-  - dir: 2
-    desc:
-    keywords:
-    exit_flags: 0
-    key: 0
-    to_vnum: 3430
-  - dir: 3
-    desc:
-    keywords:
-    exit_flags: 0
-    key: 0
     to_vnum: 3436
-  extra_descs: []
-- vnum: 3436
-  name: The Lower Chambers and Tombs of the Undead
-  description: "The stench of death is heavy in these caverns.\n\r"
-  room_flags: 8201
-  sector: 0
-  owner:
-  exits:
   - dir: 1
     desc:
     keywords:
     exit_flags: 0
     key: 0
-    to_vnum: 3431
+    to_vnum: 3430
   - dir: 2
     desc:
     keywords:
     exit_flags: 0
     key: 0
-    to_vnum: 3435
-  - dir: 3
+    to_vnum: 3440
+  extra_descs: []
+- vnum: 3436
+  name: The Lower Chambers and Tombs of the Undead
+  description: "The stench of death is heavy in these caverns.\n\r"
+  room_flags: ADN
+  sector: 0
+  owner:
+  exits:
+  - dir: 0
     desc:
     keywords:
     exit_flags: 0
     key: 0
     to_vnum: 3441
+  - dir: 1
+    desc:
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 3435
+  - dir: 2
+    desc:
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 3431
   extra_descs: []
 - vnum: 3437
   name: The Grand Hall of Kings
   description: "You are at the western end of the Grand Hall of Kings.  There is a\n\rdoor
     leading north and the hallway continues west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 3409
   - dir: 3
@@ -2119,7 +2119,7 @@ rooms:
   description: "This was once beautiful.  Now the huge tapestries have been torn down
     and the\n\rcarpeting pulled up ... the paintings on the ceiling are unreadable
     and the\n\raltar is crumbled.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2141,7 +2141,7 @@ rooms:
   description: "The smell coming off of the opened sarcophagus is nauseating.  The
     floor is\n\rslightly crumpled and walls are raked ... but the worst part is the
     mummy ...\n\rJubal the Benevolent is missing his head!\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2161,16 +2161,16 @@ rooms:
 - vnum: 3440
   name: The Lower Chambers and Tombs of the Undead
   description: "The stench of death is heavy in these caverns.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
-  - dir: 1
+  - dir: 0
     desc:
     keywords:
     exit_flags: 0
     key: 0
-    to_vnum: 3435
+    to_vnum: 3441
   - dir: 2
     desc:
     keywords:
@@ -2182,27 +2182,27 @@ rooms:
     keywords:
     exit_flags: 0
     key: 0
-    to_vnum: 3441
+    to_vnum: 3435
   extra_descs: []
 - vnum: 3441
   name: The Lower Chambers and Tombs of the Undead
   description: "The stench of death is heavy in these caverns.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
-  - dir: 1
-    desc:
-    keywords:
-    exit_flags: 0
-    key: 0
-    to_vnum: 3436
-  - dir: 2
+  - dir: 0
     desc:
     keywords:
     exit_flags: 0
     key: 0
     to_vnum: 3446
+  - dir: 2
+    desc:
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 3436
   - dir: 3
     desc:
     keywords:
@@ -2213,17 +2213,17 @@ rooms:
 - vnum: 3442
   name: The Lower Chambers and Tombs of the Undead
   description: "The stench of death is heavy in these caverns.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
-  - dir: 1
+  - dir: 0
     desc:
     keywords:
     exit_flags: 0
     key: 0
     to_vnum: 3443
-  - dir: 2
+  - dir: 1
     desc:
     keywords:
     exit_flags: 0
@@ -2233,37 +2233,37 @@ rooms:
 - vnum: 3443
   name: The Lower Chambers and Tombs of the Undead
   description: "The stench of death is heavy in these caverns.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
   - dir: 0
-    desc:
-    keywords:
-    exit_flags: 0
-    key: 0
-    to_vnum: 3444
-  - dir: 1
     desc:
     keywords:
     exit_flags: 0
     key: 0
     to_vnum: 3442
+  - dir: 3
+    desc:
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 3444
   extra_descs: []
 - vnum: 3444
   name: The Lower Chambers and Tombs of the Undead
   description: "The stench of death is heavy in these caverns.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
-  - dir: 0
+  - dir: 1
     desc:
     keywords:
     exit_flags: 0
     key: 0
     to_vnum: 3449
-  - dir: 1
+  - dir: 3
     desc:
     keywords:
     exit_flags: 0
@@ -2273,27 +2273,7 @@ rooms:
 - vnum: 3445
   name: The Lower Chambers and Tombs of the Undead
   description: "The stench of death is heavy in these caverns.\n\r"
-  room_flags: 8201
-  sector: 0
-  owner:
-  exits:
-  - dir: 1
-    desc:
-    keywords:
-    exit_flags: 0
-    key: 0
-    to_vnum: 3446
-  - dir: 3
-    desc:
-    keywords:
-    exit_flags: 0
-    key: 0
-    to_vnum: 3440
-  extra_descs: []
-- vnum: 3446
-  name: The Lower Chambers and Tombs of the Undead
-  description: "The stench of death is heavy in these caverns.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
@@ -2302,14 +2282,34 @@ rooms:
     keywords:
     exit_flags: 0
     key: 0
-    to_vnum: 3447
-  - dir: 1
+    to_vnum: 3440
+  - dir: 2
+    desc:
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 3446
+  extra_descs: []
+- vnum: 3446
+  name: The Lower Chambers and Tombs of the Undead
+  description: "The stench of death is heavy in these caverns.\n\r"
+  room_flags: ADN
+  sector: 0
+  owner:
+  exits:
+  - dir: 0
     desc:
     keywords:
     exit_flags: 0
     key: 0
     to_vnum: 3445
-  - dir: 2
+  - dir: 1
+    desc:
+    keywords:
+    exit_flags: 0
+    key: 0
+    to_vnum: 3447
+  - dir: 3
     desc:
     keywords:
     exit_flags: 0
@@ -2319,7 +2319,7 @@ rooms:
 - vnum: 3447
   name: The Lower Chambers and Tombs of the Undead
   description: "The stench of death is heavy in these caverns.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
@@ -2328,19 +2328,19 @@ rooms:
     keywords:
     exit_flags: 0
     key: 0
-    to_vnum: 3448
+    to_vnum: 3442
   - dir: 2
     desc:
     keywords:
     exit_flags: 0
     key: 0
-    to_vnum: 3442
+    to_vnum: 3446
   - dir: 3
     desc:
     keywords:
     exit_flags: 0
     key: 0
-    to_vnum: 3446
+    to_vnum: 3448
   extra_descs: []
 - vnum: 3448
   name: The Lower Chambers and Tombs of the Undead
@@ -2348,7 +2348,7 @@ rooms:
     been\n\rdrilled in the center of the floor.  There are extensive gruesome paintings\n\rof
     beasts and monsters terrorizing the countryside; vampires sucking the\n\rblood
     of beasts and humans alike.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
@@ -2365,20 +2365,20 @@ rooms:
 - vnum: 3449
   name: The Lower Chambers and Tombs of the Undead
   description: "The stench of death is heavy in these caverns.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
-  - dir: 0
+  - dir: 1
     desc:
     keywords:
     exit_flags: 0
     key: 0
     to_vnum: 3444
-  - dir: 1
+  - dir: 3
     desc:
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 3411
     to_vnum: 3408
   extra_descs: []
@@ -2387,7 +2387,7 @@ rooms:
   description: "You have entered the forbidden catacombs.  This cave system must have
     been\n\rbuilt long ago.  The air is dank and smells of something dead ...  or
     maybe\n\rundead.  Enter here at your own risk ... something evil abides.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2425,7 +2425,7 @@ rooms:
 - vnum: 3451
   name: The Catacombs
   description: "Stone walls, musty air ... the earth seems to moan softly.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
@@ -2445,7 +2445,7 @@ rooms:
 - vnum: 3452
   name: The Catacombs
   description: "Stone walls, musty air ... the earth seems to moan softly.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
@@ -2465,7 +2465,7 @@ rooms:
 - vnum: 3453
   name: The Catacombs
   description: "Stone walls, musty air ... the earth seems to moan softly.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
@@ -2479,7 +2479,7 @@ rooms:
 - vnum: 3454
   name: The Catacombs
   description: "Stone walls, musty air ... the earth seems to moan softly.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
@@ -2493,7 +2493,7 @@ rooms:
 - vnum: 3455
   name: The Catacombs
   description: "Stone walls, musty air ... the earth seems to moan softly.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
@@ -2513,7 +2513,7 @@ rooms:
 - vnum: 3456
   name: The Catacombs
   description: "Stone walls, musty air ... the earth seems to moan softly.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
@@ -2533,7 +2533,7 @@ rooms:
 - vnum: 3457
   name: The Catacombs
   description: "Stone walls, musty air ... the earth seems to moan softly.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
@@ -2553,7 +2553,7 @@ rooms:
 - vnum: 3458
   name: The Catacombs
   description: "Stone walls, musty air ... the earth seems to moan softly.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
@@ -2579,7 +2579,7 @@ rooms:
 - vnum: 3459
   name: The Catacombs
   description: "Stone walls, musty air ... the earth seems to moan softly.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
@@ -2601,7 +2601,7 @@ rooms:
   description: "Your mind whirls in the hideous madness of this place.  The stench\n\ris
     horrendous and dead bodies, sucked of life, lay all over.  One coffin\n\rlies
     in the center of the room ... waiting for YOU!\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2614,14 +2614,14 @@ rooms:
   - dir: 5
     desc: "A jet black coffin ... who knows what lurks beneath.\n\r"
     keywords: coffin
-    exit_flags: 15
+    exit_flags: ABCD
     key: 3419
     to_vnum: 3475
   extra_descs: []
 - vnum: 3461
   name: The Catacombs
   description: "Stone walls, musty air ... the earth seems to moan softly.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
@@ -2641,7 +2641,7 @@ rooms:
 - vnum: 3462
   name: The Catacombs
   description: "Stone walls, musty air ... the earth seems to moan softly.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
@@ -2661,7 +2661,7 @@ rooms:
 - vnum: 3463
   name: The Catacombs
   description: "Stone walls, musty air ... the earth seems to moan softly.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
@@ -2681,14 +2681,14 @@ rooms:
 - vnum: 3464
   name: The Catacombs
   description: "Stone walls, musty air ... the earth seems to moan softly.\n\r"
-  room_flags: 8201
+  room_flags: ADN
   sector: 0
   owner:
   exits:
   - dir: 1
     desc: There is a secret door here.
     keywords: secret
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 3470
   - dir: 2
@@ -2711,7 +2711,7 @@ rooms:
     show ancient detailed etchings in gold and silver of\n\rancient rituals ... not
     all of which seem pleasant.  The hallway continues\n\rnorth into the catacombs
     and further south as long as you can see.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2735,7 +2735,7 @@ rooms:
   description: "Ancient etchings and writing in intricate gold and silver designs
     fill these\n\rwalls.  You are tempted to linger and examine them closely.  Your
     light source\n\rflickers off the walls showing you exits north and south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2759,7 +2759,7 @@ rooms:
   description: "Ancient etchings and writing in intricate gold and silver designs
     fill these\n\rwalls.  You are tempted to linger and examine them closely.  Your
     light source\n\rflickers off the walls showing you exits north and south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2783,7 +2783,7 @@ rooms:
   description: "Ancient etchings and writing in intricate gold and silver designs
     fill these\n\rwalls.  You are tempted to linger and examine them closely.  Your
     light source\n\rflickers off the walls showing you exits north and south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2807,7 +2807,7 @@ rooms:
   description: "Ancient etchings and writing in intricate gold and silver designs
     fill these\n\rwalls.  You are tempted to linger and examine them closely.  Your
     light source\n\rflickers off the walls showing you exits north.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2823,7 +2823,7 @@ rooms:
 - vnum: 3470
   name: A Secret Passageway
   description: "A secret passage!  You wonder where it may lead!\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2839,7 +2839,7 @@ rooms:
 - vnum: 3471
   name: A Secret Passageway
   description: "A secret passage!  You wonder where it may lead!\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2858,7 +2858,7 @@ rooms:
     \                                          you fall ...\n\r\n\r                 and
     fall ...\n\r\n\r                                     AND STOP!\n\r\n\rWelcome
     to HELL!\n\r\n\rBut even in Hell we give you another chance.\n\r\n\r"
-  room_flags: 12
+  room_flags: CD
   sector: 0
   owner:
   exits: []
@@ -2868,14 +2868,14 @@ rooms:
   description: "You are inside a coffin.  It seems rather cramped in here.  You can
     climb\n\rup out of the coffin, or you can wait for here the real occupant to join
     you.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 4
     desc:
     keywords: lid coffin
-    exit_flags: 15
+    exit_flags: ABCD
     key: 3419
     to_vnum: 3460
   extra_descs: []

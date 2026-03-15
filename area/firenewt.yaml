@@ -13,7 +13,7 @@ mobiles:
   long_desc: "A mountain goat is standing here.\n\r"
   description: "It looks hungry and searches for food.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -57,7 +57,7 @@ mobiles:
   long_desc: "A mountain ewe is standing here.\n\r"
   description: "The ewe is watching her young.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -101,7 +101,7 @@ mobiles:
   long_desc: "A mountain kid is standing here.\n\r"
   description: "The kid is playing with its siblings.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: -100
@@ -145,7 +145,7 @@ mobiles:
   long_desc: "A fire newt worker is standing here.\n\r"
   description: "The fire newt worker looks hot and sweaty.\n\r"
   race: Human
-  act: 524388
+  act: CFGT
   affected_by: 0
   affected2_by: 0
   alignment: -400
@@ -189,7 +189,7 @@ mobiles:
   long_desc: "A fire newt guard is standing here.\n\r"
   description: "The fire newt guard thinks you would be better dead.\n\r"
   race: Human
-  act: 524322
+  act: BFT
   affected_by: 0
   affected2_by: 0
   alignment: -450
@@ -233,8 +233,8 @@ mobiles:
   long_desc: "A fire newt worker is standing here.\n\r"
   description: "The fire newt worker looks hot and sweaty.\n\r"
   race: Human
-  act: 524290
-  affected_by: 8
+  act: BT
+  affected_by: D
   affected2_by: 0
   alignment: -400
   clan: 0
@@ -277,7 +277,7 @@ mobiles:
   long_desc: "A fire newt guard is standing here.\n\r"
   description: "The fire newt guard wants to kill you!\n\r"
   race: Human
-  act: 524384
+  act: FGT
   affected_by: 0
   affected2_by: 0
   alignment: -450
@@ -321,7 +321,7 @@ mobiles:
   long_desc: "A fire newt mother is standing here.\n\r"
   description: "The fire newt mother is watching her kids.\n\r"
   race: Human
-  act: 524290
+  act: BT
   affected_by: 0
   affected2_by: 0
   alignment: -355
@@ -365,7 +365,7 @@ mobiles:
   long_desc: "A fire newt baby is crawling here.\n\r"
   description: "The fire newt baby is crawling and drooling here.\n\r"
   race: Human
-  act: 524294
+  act: BCT
   affected_by: 0
   affected2_by: 0
   alignment: -350
@@ -409,7 +409,7 @@ mobiles:
   long_desc: "A fire newt sergeant patrols this area.\n\r"
   description: "He's just found something that doesn't belong here!\n\r"
   race: Human
-  act: 524322
+  act: BFT
   affected_by: 0
   affected2_by: 0
   alignment: -500
@@ -453,7 +453,7 @@ mobiles:
   long_desc: "A fire newt general is standing here.\n\r"
   description: "The fire newt general grins evilly at you.\n\r"
   race: Human
-  act: 524322
+  act: BFT
   affected_by: 0
   affected2_by: 0
   alignment: -700
@@ -497,8 +497,8 @@ mobiles:
   long_desc: "A fire newt leader is standing here.\n\r"
   description: "The fire newt leader screams, 'I'm going to hose you!'\n\r"
   race: Human
-  act: 524322
-  affected_by: 136
+  act: BFT
+  affected_by: DH
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -541,8 +541,8 @@ mobiles:
   long_desc: "A fire newt priest is standing here.\n\r"
   description: "The fire newt priest is preparing for worship.\n\r"
   race: Human
-  act: 524322
-  affected_by: 8
+  act: BFT
+  affected_by: D
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -585,8 +585,8 @@ mobiles:
   long_desc: "A fire lizard is crawling here.\n\r"
   description: "The fire lizard flicks its tongue at you.\n\r"
   race: Human
-  act: 524322
-  affected_by: 8
+  act: BFT
+  affected_by: D
   affected2_by: 0
   alignment: -100
   clan: 0
@@ -631,7 +631,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 1
   weight: 2
   cost: 10
@@ -650,7 +650,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 2
   weight: 1
   cost: 20
@@ -669,7 +669,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 2
   weight: 2
   cost: 20
@@ -688,7 +688,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 2
   weight: 3
   cost: 20
@@ -707,7 +707,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 2
   weight: 3
   cost: 20
@@ -726,7 +726,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 5
   weight: 10
   cost: 50
@@ -745,7 +745,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 5
   weight: 2
   cost: 50
@@ -763,8 +763,8 @@ objects:
   description: A broad axe lies here.
   material: none
   item_type: 5
-  extra_flags: 576
-  wear_flags: 8193
+  extra_flags: GJ
+  wear_flags: AN
   level: 14
   weight: 15
   cost: 140
@@ -776,12 +776,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 19
     modifier: 2
+    bitvector: 0
+  - where: O
+    location: 18
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 2912
@@ -790,8 +790,8 @@ objects:
   description: A leather suit lies here.
   material: none
   item_type: 9
-  extra_flags: 65
-  wear_flags: 9
+  extra_flags: AG
+  wear_flags: AD
   level: 14
   weight: 3
   cost: 140
@@ -813,8 +813,8 @@ objects:
   description: A mace lies here.
   material: none
   item_type: 5
-  extra_flags: 66
-  wear_flags: 8193
+  extra_flags: BG
+  wear_flags: AN
   level: 11
   weight: 10
   cost: 110
@@ -826,11 +826,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 18
+    location: 19
     modifier: 2
     bitvector: 0
   - where: O
-    location: 19
+    location: 18
     modifier: 2
     bitvector: 0
   extra_descs: []
@@ -840,8 +840,8 @@ objects:
   description: An orange potion lies here.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 11
   weight: 1
   cost: 110
@@ -860,7 +860,7 @@ objects:
   material: none
   item_type: 19
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 9
   weight: 1
   cost: 90
@@ -877,7 +877,7 @@ rooms:
   name: Obsidian hills
   description: "You see before you some shiny black hills. There is very little vegetation\n\rhere.
     The hills appear to lead to a high mountain to the south east\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 3
   owner:
   exits:
@@ -900,7 +900,7 @@ rooms:
   name: Obsidian hills
   description: "You see before you some shiny black hills. There is very little vegetation\n\rhere.
     The hills appear to lead to a high mountain to the south east\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 3
   owner:
   exits:
@@ -923,7 +923,7 @@ rooms:
   name: Obsidian hills
   description: "You see before you some shiny black hills. There is very little vegetation\n\rhere.
     The hills appear to lead to a high mountain to the south east\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 3
   owner:
   exits:
@@ -993,7 +993,7 @@ rooms:
   name: Mountain top
   description: "You've reached the top of the mountain. You can see more smoke from
     up here.\n\rThe smoke seems to come from a hole to the south.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 4
   owner:
   exits:
@@ -1010,15 +1010,15 @@ rooms:
     key: 0
     to_vnum: 2906
   extra_descs:
-  - keywords: top of mountain
-    description: "The top of the mountain is a large area with a hole in the middle.\n\r"
   - keywords: smoke
     description: "The smoke is grey and is coming from the hole.\n\r"
+  - keywords: top of mountain
+    description: "The top of the mountain is a large area with a hole in the middle.\n\r"
 - vnum: 2906
   name: Entrance to the mountain
   description: "The smoke comes from inside the hole.  It also looks like there is
     a path\n\rthat leads down.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 4
   owner:
   exits:
@@ -1057,7 +1057,7 @@ rooms:
   name: Mountain top
   description: "You are standing at the top of the mountain. The mountain looks like
     it has\n\rbeen ravaged by something.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 4
   owner:
   exits:
@@ -1072,7 +1072,7 @@ rooms:
   name: Mountain top
   description: "You are standing at the top of the mountain. There are several cracks
     in the\n\rground and you don't feel safe!\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 4
   owner:
   exits:
@@ -1087,7 +1087,7 @@ rooms:
   name: Mountain top
   description: "You are standing on the top of the mountain and think you should move
     north.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 4
   owner:
   exits:
@@ -1101,7 +1101,7 @@ rooms:
 - vnum: 2910
   name: Inside the mountain
   description: "You are standing inside the mountain.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -1134,7 +1134,7 @@ rooms:
   name: Guard room
   description: "You are standing in a room with beds, tables, and fire newts!\n\rThere
     are paintings on the wall.  They show battle scenes.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -1145,18 +1145,18 @@ rooms:
     key: 0
     to_vnum: 2910
   extra_descs:
-  - keywords: beds
-    description: "The beds are made of metal and rock.\n\r"
-  - keywords: chairs
-    description: "The chairs are made of stone and look very heavy.\n\r"
   - keywords: tables
     description: "The tables are long and wide.  They are made of stone and obviously
       too heavy\n\rto move.\n\r"
+  - keywords: chairs
+    description: "The chairs are made of stone and look very heavy.\n\r"
+  - keywords: beds
+    description: "The beds are made of metal and rock.\n\r"
 - vnum: 2912
   name: Guard room
   description: "You are standing in a room with beds, chairs, tables, and fire newts!\n\rThere
     are paintings on the wall that show great leaders.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -1167,17 +1167,17 @@ rooms:
     key: 0
     to_vnum: 2910
   extra_descs:
-  - keywords: beds
-    description: "The beds are made of metal and rock.\n\r"
-  - keywords: chairs
-    description: "The chairs are made of stone and look very heavy.\n\r"
   - keywords: tables
     description: "The tables are long and wide.  They are made of stone and are obviously
       to\n\rheavy to move.\n\r"
+  - keywords: chairs
+    description: "The chairs are made of stone and look very heavy.\n\r"
+  - keywords: beds
+    description: "The beds are made of metal and rock.\n\r"
 - vnum: 2913
   name: Inside the mountain
   description: "You are standing inside the mountain.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -1210,7 +1210,7 @@ rooms:
   name: Store room
   description: "You see nothing special in this room.  There are some boxes and fire
     newt\n\rworkers here.  There is also some trash piled up in the room.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -1226,7 +1226,7 @@ rooms:
   description: "You are standing in the workers' quarters.  There are several workers
     here.  \n\rThe room is messy and has nothing of value in it.  The party the night
     before\n\rmust have destroyed everything.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -1240,7 +1240,7 @@ rooms:
 - vnum: 2916
   name: Bottom of the mountain
   description: "You are standing at the bottom of the shaft.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -1260,7 +1260,7 @@ rooms:
 - vnum: 2917
   name: The tunnel
   description: "You are standing in a dry, dark tunnel.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -1280,7 +1280,7 @@ rooms:
 - vnum: 2918
   name: Bend in the tunnel
   description: "You are standing in a dark tunnel.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -1300,7 +1300,7 @@ rooms:
 - vnum: 2919
   name: The tunnel
   description: "You are standing in a dark tunnel.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -1327,7 +1327,7 @@ rooms:
   name: Fire Newt House
   description: "You are standing in a fire newt house.  There is a mother fire newt
     here\n\rplaying with her children.  The room is full of newt toys- they look very\n\rboring.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -1341,7 +1341,7 @@ rooms:
 - vnum: 2921
   name: The tunnel
   description: "You are standing in a dark tunnel.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -1369,7 +1369,7 @@ rooms:
   description: "You are standing in a fire newt house.  There is a fire newt mother
     here\n\rplaying with her children.  The room has several torn baby newt diapers
     here\n\r... how disgusting!\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -1383,7 +1383,7 @@ rooms:
 - vnum: 2923
   name: The tunnel
   description: "You are standing in the dark tunnel.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -1410,7 +1410,7 @@ rooms:
   name: Entrance to the town hall
   description: "You are standing in the entrance to the town hall.  The room is large
     and\n\rornate.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -1431,7 +1431,7 @@ rooms:
   name: The Waiting Room
   description: "You are standing in the waiting room of the town hall.  There is a
     big door\n\rto the west.  The room has pictures of the villages history.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -1451,7 +1451,7 @@ rooms:
 - vnum: 2926
   name: The Leader's Office
   description: "You are standing in the fire newt leader's office.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -1466,7 +1466,7 @@ rooms:
   name: Outside the temple
   description: "You are standing outside the fire newt temple.  The temple has some
     very\n\rlarge arches and towers.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -1487,14 +1487,14 @@ rooms:
   name: Entrance to the temple
   description: "You are standing at the entrance to the temple.  The temple is very
     neat. \n\rThe sates are set in straight rows and the alter is very large.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
   - dir: 1
     desc: "You see the door, that leads to the inside of the temple.\n\r"
     keywords: door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 2929
   - dir: 3
@@ -1507,14 +1507,14 @@ rooms:
 - vnum: 2929
   name: Inside the Temple
   description: "You are standing inside the fire newt temple.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
   - dir: 3
     desc: "You see the door that leads to the temple entrance.\n\r"
     keywords: door
-    exit_flags: 7
+    exit_flags: ABC
     key: -1
     to_vnum: 2928
   - dir: 5
@@ -1527,14 +1527,14 @@ rooms:
 - vnum: 2930
   name: The room before the doors
   description: "You are standing before a pair of huge doors.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
   - dir: 1
     desc: "You see two large doors.\n\r"
     keywords: doors
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 2931
   - dir: 4
@@ -1548,14 +1548,14 @@ rooms:
   name: The Egg Room
   description: "You are standing in a room that has several dozen piles of eggs.  There
     is\n\ra chest on the floor also.\n\r"
-  room_flags: 13
+  room_flags: ACD
   sector: 2
   owner:
   exits:
   - dir: 3
     desc: "You see two large doors.\n\r"
     keywords: doors
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 2930
   extra_descs: []

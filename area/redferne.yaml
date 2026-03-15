@@ -15,8 +15,8 @@ mobiles:
     blue and silver. He looks VERY strong, as he stands here, ready to\n\rhelp the
     innocent.\n\r"
   race: Human
-  act: 524352
-  affected_by: 136
+  act: GT
+  affected_by: DH
   affected2_by: 0
   alignment: 1000
   clan: 0
@@ -61,7 +61,7 @@ objects:
   material: none
   item_type: 20
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 27
   weight: 0
   cost: 270
@@ -73,11 +73,11 @@ objects:
   - 0
   affects: []
   extra_descs:
+  - keywords: treasure
+    description: "Looks like a LOT of coins.  One of them has writing on it.\n\r"
   - keywords: writing letters
     description: "It reads: \"Hi Conan.  No more coins from here, pal. :) Signed,
       Redferne\".\n\r"
-  - keywords: treasure
-    description: "Looks like a LOT of coins.  One of them has writing on it.\n\r"
 - vnum: 7910
   name: chest
   short_desc: a wooden chest
@@ -85,7 +85,7 @@ objects:
   material: none
   item_type: 15
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 27
   weight: 400
   cost: 270
@@ -107,7 +107,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 29
   weight: 1
   cost: 290
@@ -130,14 +130,14 @@ rooms:
     under the\n\rcloud you can hear the faint sounds of Midgaard. Right before you
     to the\n\rnorth lies the grand Mansion of Naris, the residence of the Greater
     God\n\rRedferne.\n\r"
-  room_flags: 516
+  room_flags: CJ
   sector: 0
   owner:
   exits:
   - dir: 0
     desc: "You see a HUGE arched gate leading into this magnificent building.\n\r"
     keywords: gate door huge arched
-    exit_flags: 15
+    exit_flags: ABCD
     key: 7911
     to_vnum: 7901
   - dir: 2
@@ -163,7 +163,7 @@ rooms:
     enormous hall extends further\n\rnorth from here. To the south you can see a huge,
     and VERY heavy-\n\rlooking iron-wrought door. It looks like this is the only exit
     from\n\rthis magnificent old house. To the west you can see a large ashen door.\n\r"
-  room_flags: 524
+  room_flags: CDJ
   sector: 0
   owner:
   exits:
@@ -178,7 +178,7 @@ rooms:
     desc: "You see there a tall oak door. It looks quite tightly closed to you.\n\rOn
       it little runes are chiselled into the wood.\n\r"
     keywords: oak tall east oakdoor talldoor eastdoor
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7910
   - dir: 2
@@ -186,7 +186,7 @@ rooms:
       rather than a \"door\". It's really HUGE! On it hangs a large\n\rsign with very
       large letters spelling : \"EMERGENCY EXIT\".\n\r"
     keywords: gate
-    exit_flags: 15
+    exit_flags: ABCD
     key: 7911
     to_vnum: 7900
   - dir: 3
@@ -194,7 +194,7 @@ rooms:
       painted in a peculiar yellow colour. Small letters are written\n\rwith black
       on it.\n\r"
     keywords: ashen ash door west yellow
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7902
   - dir: 4
@@ -205,12 +205,12 @@ rooms:
     key: -1
     to_vnum: 7909
   extra_descs:
-  - keywords: letters
-    description: "They read \"LIBRARY\".\n\r"
   - keywords: runes
     description: "These runes are utterly strange to you, but you are in luck today:
       Under\n\rthe runes you can just make out a sentence in Common. It goes : \"
       Stay out,\n\rif you treasure your life. That is if you are mortal.\".\n\r"
+  - keywords: letters
+    description: "They read \"LIBRARY\".\n\r"
 - vnum: 7902
   name: Redferne's Library
   description: "This is truly a magnificent place! Books and scrolls lie together
@@ -220,50 +220,50 @@ rooms:
     desk. Dim light radiates from an enormous crystal chandelier\n\rhanging down from
     the ceiling approximately 10 feet off the floor. To the\n\reast there is a great
     old ashen door. A large glass window is set in the\n\rwest wall.\n\r"
-  room_flags: 524
+  room_flags: CDJ
   sector: 0
   owner:
   exits:
   - dir: 1
     desc: "You can see an old ashen door, painted in a peculiar yellow colour.\n\r"
     keywords: door ash ashen east
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7901
   extra_descs:
-  - keywords: river
-    description: "You see a large and winding river cut through the landscape, starting
-      at an\n\renormous inland lake, it seeps through Midgaard and finally ends up
-      in the\n\rGrand Sea on the West-coast of the land.\n\r"
-  - keywords: out outside beyond
-    description: "The clouds muster and form the ground on which this entire building
-      is set.\n\rThrough the thinnest of the clouds you can just make out MIDGAARD
-      with all\n\rit's magnificent activity.\n\r"
-  - keywords: window glass
-    description: "These windows are really BIG! They reach from about 20 inches above
-      the\n\rfloor to approximately 10 inches under the ceiling. If you try and\n\r\"look
-      out\", you might see what might lie beyond these windows.\n\r"
-  - keywords: chairs leather arm-chairs
-    description: "These two chair are exactly alike one another. They look incredibly\n\rcomfortable.
-      They're both made from old leather, and yet they seem so worn\n\rthat they can
-      be nothing but a perfect place for a long needed rest.\n\r"
-  - keywords: midgaard town city
-    description: "You see a small speck with woods on the west from it, plains to
-      the east\n\rfrom it and mountains to the north from it. To the south from it
-      you can\n\rsee a thin trail lead to a large castle. Finally you notice a rather
-      large\n\rriver pour in from the east and go through Midgaard in the middle.\n\r"
   - keywords: globe world map
     description: "You see a large world map stretch out on the enormous globe. It
       has towns\n\rdrawn in every spot available for such. In the middle of the map
       you can\n\rspot a large town with the name 'MIDGAARD' written over it. The rest
       is\n\rmountains, woods, plains and water.\n\r"
+  - keywords: midgaard town city
+    description: "You see a small speck with woods on the west from it, plains to
+      the east\n\rfrom it and mountains to the north from it. To the south from it
+      you can\n\rsee a thin trail lead to a large castle. Finally you notice a rather
+      large\n\rriver pour in from the east and go through Midgaard in the middle.\n\r"
+  - keywords: chairs leather arm-chairs
+    description: "These two chair are exactly alike one another. They look incredibly\n\rcomfortable.
+      They're both made from old leather, and yet they seem so worn\n\rthat they can
+      be nothing but a perfect place for a long needed rest.\n\r"
+  - keywords: window glass
+    description: "These windows are really BIG! They reach from about 20 inches above
+      the\n\rfloor to approximately 10 inches under the ceiling. If you try and\n\r\"look
+      out\", you might see what might lie beyond these windows.\n\r"
+  - keywords: out outside beyond
+    description: "The clouds muster and form the ground on which this entire building
+      is set.\n\rThrough the thinnest of the clouds you can just make out MIDGAARD
+      with all\n\rit's magnificent activity.\n\r"
+  - keywords: river
+    description: "You see a large and winding river cut through the landscape, starting
+      at an\n\renormous inland lake, it seeps through Midgaard and finally ends up
+      in the\n\rGrand Sea on the West-coast of the land.\n\r"
 - vnum: 7903
   name: The Artifact room of Naris
   description: "This is gloomy and dark room with only a faint light radiating from
     the\n\rwalls. A bunch of funny-looking items fill the center of the room. There
     are\n\rno furniture here what-so-ever. The only way out seems to be west, through\n\rthe
     low steel door.\n\r"
-  room_flags: 524
+  room_flags: CDJ
   sector: 0
   owner:
   exits: []
@@ -275,7 +275,7 @@ rooms:
     this doesn't bother your sight at all. To the north lies the kitchen.\n\rTo the
     south lies the Southern end of the hall. To the east there is a huge\n\rmetal
     door. To the west there is a large aspenwood door.\n\r"
-  room_flags: 524
+  room_flags: CDJ
   sector: 0
   owner:
   exits:
@@ -291,7 +291,7 @@ rooms:
       stench and into your mind : \"Monsters\", you feel BAD about opening\n\rthat
       door.\n\r"
     keywords: steel metal huge
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7913
   - dir: 2
@@ -304,7 +304,7 @@ rooms:
     desc: "The door has \"SITTING ROOM\" written on it. It is made from Aspenwood
       and\n\ris beautifully carven with small elves as main issue of sculpture.\n\r"
     keywords: aspen asp
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7905
   extra_descs: []
@@ -314,7 +314,7 @@ rooms:
     walls are\n\rdecorated with paintings of smiling Kings and Queens. The most attractive\n\rpicture
     is one of a Prince in shiny armour. By one of the walls there is an\n\rold arm-chair.
     The only exit is through the aspenwood door to the east.\n\r"
-  room_flags: 524
+  room_flags: CDJ
   sector: 0
   owner:
   exits:
@@ -322,7 +322,7 @@ rooms:
     desc: "The door seems to be a very HEAVY door, carved completely from the trunk
       of\n\ran Aspen tree.\n\r"
     keywords: asp aspen door heavy
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7904
   extra_descs:
@@ -334,20 +334,20 @@ rooms:
     of \n\rrats feasting on meat and bread from somewhere undeterminable. The sound\n\rmakes
     you feel the agony of HUNGER. The only visible exit is south to the\n\rNorthern
     end of the hall. To the north there is a larder, and to the east\n\rstands a fridge.\n\r"
-  room_flags: 524
+  room_flags: CDJ
   sector: 0
   owner:
   exits:
   - dir: 0
     desc: "It's dark in there,  but the sounds from there are unmistakably from rats.\n\r"
     keywords: larder wooden cupboard
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7907
   - dir: 1
     desc: "You can see the fridge from here. In it are drinks all over.\n\r"
     keywords: fridge
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7908
   - dir: 2
@@ -361,28 +361,28 @@ rooms:
   name: The Larder
   description: "You can see food all over. Among the heaps of food you notice HUGE
     rats\n\rscuttering around, nibbling pieces off the heaps here and there.\n\r"
-  room_flags: 524
+  room_flags: CDJ
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords: door wooden larder exit
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7906
   extra_descs: []
 - vnum: 7908
   name: The Fridge
   description: "This place is LOADED with drink, water and booze.\n\r"
-  room_flags: 524
+  room_flags: CDJ
   sector: 0
   owner:
   exits:
   - dir: 3
     desc:
     keywords: door exit fridge
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7906
   extra_descs: []
@@ -391,7 +391,7 @@ rooms:
   description: "You can see up and down the stairway. It seems to take forever, either
     going\n\rup OR down. It's just a seemingly insurmountable climb, either way. Up
     is the \n\rbedroom of Redferne, and Down leads to the Southern end of the hall.\n\r"
-  room_flags: 524
+  room_flags: CDJ
   sector: 0
   owner:
   exits:
@@ -412,14 +412,14 @@ rooms:
   name: The Treasure room
   description: "This place is gloomy.  The only visible exit is west, through the
     oak door.\n\r"
-  room_flags: 524
+  room_flags: CDJ
   sector: 0
   owner:
   exits:
   - dir: 3
     desc: "You see a tall oak door.\n\r"
     keywords: door oak tall
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7901
   extra_descs: []
@@ -431,14 +431,14 @@ rooms:
     great\n\rroom.  This stretches at least 300 square feet, so can you imagine the
     BED?\n\rA large staircase leads down to the hall.  A couple of doors open up to
     a\n\rbroad balcony to the south. \n\r"
-  room_flags: 524
+  room_flags: CDJ
   sector: 0
   owner:
   exits:
   - dir: 2
     desc: "The sun seems to shine out there, warmly and comforting.\n\r"
     keywords: doors
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7912
   - dir: 5
@@ -454,14 +454,14 @@ rooms:
     as far as\n\rthe eye reaches to the south from here. Down below you can see the
     entrance\n\rof this magnificent building. To the north are the doors to Redferne's
     Bedroom.\n\r"
-  room_flags: 516
+  room_flags: CJ
   sector: 0
   owner:
   exits:
   - dir: 0
     desc: "You see the comfortable bedroom of Naris, the mansion of Redferne the Greater\n\rGod.\n\r"
     keywords: doors
-    exit_flags: 15
+    exit_flags: ABCD
     key: -1
     to_vnum: 7911
   extra_descs: []
@@ -471,14 +471,14 @@ rooms:
     Judging by\n\rthe state the walls are in, this could very well be a large AGGRESSIVE
     animal. \n\rThis makes you pretty insecure, this stating your feeling about the
     place, \n\rquite mildly.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 3
     desc: "This looks like the only exit from here.\n\r"
     keywords: door cage metal pen
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7904
   extra_descs: []
@@ -488,7 +488,7 @@ rooms:
     of movement\n\rseems to extend only to up and down. Unless you want to let go
     of the secure\n\rand seemingly unmoveable chain, then those are the directions
     you should take\n\rfrom here.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 5
   owner:
   exits:
@@ -511,7 +511,7 @@ rooms:
     false step\n\rand death will come and collect you quickly. The chain leads upwards
     and down.\n\rNo way are you going to descend now ... you've only just begun your
     climb.\n\rBesides it could cost you your life.  Look down and you'll see why.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 5
   owner:
   exits:
@@ -529,7 +529,7 @@ rooms:
     now see the Mansion of Naris, Residence of the Greater God Redferne.\n\rThe chain
     beneath you seems to evaporate in the mustering clouds that\n\rsurround you by
     now.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 5
   owner:
   exits:

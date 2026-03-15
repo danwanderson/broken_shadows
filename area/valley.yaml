@@ -15,8 +15,8 @@ mobiles:
     coat with\n\rbrown spots.  Its shape, along with its colors, make this cooshee
     almost\n\rundetectable as it moves.\n\r"
   race: dog
-  act: 524480
-  affected_by: 32768
+  act: GHT
+  affected_by: P
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -62,8 +62,8 @@ mobiles:
     looks ready\n\rto spring upon you, like a mountain lion stalking its prey.  He
     sees you\n\rnoticing him, and quietly disappears.\n\r"
   race: Elf
-  act: 524516
-  affected_by: 32768
+  act: CFGHT
+  affected_by: P
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -107,8 +107,8 @@ mobiles:
   description: "This elf is almost as tall as you are, but much slimmer and more agile.\n\rShe
     glares at you, then quickly disappears before you see more of her.\n\r"
   race: Elf
-  act: 524516
-  affected_by: 32768
+  act: CFGHT
+  affected_by: P
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -152,8 +152,8 @@ mobiles:
   description: "This elf is almost as tall as you are, but much slimmer and more agile.\n\rHe
     glares at your intrusion and attacks with menace.\n\r"
   race: Elf
-  act: 524322
-  affected_by: 32768
+  act: BFT
+  affected_by: P
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -197,8 +197,8 @@ mobiles:
   description: "This elf is almost as tall as you are, but much slimmer and more agile.\n\rShe
     glares at your intrusion and attacks with menace.\n\r"
   race: Elf
-  act: 524322
-  affected_by: 32768
+  act: BFT
+  affected_by: P
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -242,8 +242,8 @@ mobiles:
     you!\n\r"
   description: "The elf notices your intrusion and attacks with determination.\n\r"
   race: Elf
-  act: 524388
-  affected_by: 32768
+  act: CFGT
+  affected_by: P
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -287,8 +287,8 @@ mobiles:
   description: "She is currently doing some menial chores, and ignores your intrusion
     except\n\rwhen you are in her way.\n\r"
   race: Elf
-  act: 524480
-  affected_by: 32768
+  act: GHT
+  affected_by: P
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -333,8 +333,8 @@ mobiles:
   description: "This elf looks quite old, probably twenty or more times your age.
     \ He looks\n\rquite potent, though.\n\r"
   race: Elf
-  act: 524326
-  affected_by: 8320
+  act: BCFT
+  affected_by: HN
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -379,8 +379,8 @@ mobiles:
   description: "This elf looks quite old, probably twenty or more times your age.
     \ She looks\n\rquite potent, though.\n\r"
   race: Elf
-  act: 524326
-  affected_by: 8192
+  act: BCFT
+  affected_by: N
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -425,7 +425,7 @@ mobiles:
   description: "This big beast looks like a small red dragon, but has many more heads
     than a\n\rregular dragon, too.  It doesn't look happy.\n\r"
   race: Human
-  act: 524322
+  act: BFT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -469,7 +469,7 @@ mobiles:
   long_desc: "An old hermit sits here, smoking a pipe.\n\r"
   description: "He looks old and feeble.\n\r"
   race: Human
-  act: 524422
+  act: BCHT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -513,7 +513,7 @@ mobiles:
   long_desc: "An old mage busies himself with some chemicals.\n\r"
   description: "Talemon looks harmless, but the fireballs he throws at you don't.\n\r"
   race: Human
-  act: 524326
+  act: BCFT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -558,7 +558,7 @@ mobiles:
   description: "This daemon is unhappy with its summoned job, and is willing to take
     out it's\n\ranger at you!\n\r"
   race: Human
-  act: 524322
+  act: BFT
   affected_by: 0
   affected2_by: 0
   alignment: -500
@@ -602,7 +602,7 @@ mobiles:
   long_desc: "A wolf is here, looking for small prey.\n\r"
   description: "The wolf is covered with brown hair.  It looks at you with fright.\n\r"
   race: Wolf
-  act: 524448
+  act: FHT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -647,7 +647,7 @@ mobiles:
   description: "With horns and spots over coarse, brown hair, this beast is the spit
     and\n\rimage of ... an antelope.\n\r"
   race: Human
-  act: 524416
+  act: HT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -693,7 +693,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 9
+  wear_flags: AD
   level: 7
   weight: 3
   cost: 70
@@ -712,7 +712,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 65
+  wear_flags: AG
   level: 6
   weight: 3
   cost: 60
@@ -734,8 +734,8 @@ objects:
   description: A shiny blade is on the floor.
   material: none
   item_type: 5
-  extra_flags: 64
-  wear_flags: 8193
+  extra_flags: G
+  wear_flags: AN
   level: 10
   weight: 3
   cost: 100
@@ -757,8 +757,8 @@ objects:
   description: A pile of brown cloth is on the floor.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 5
+  extra_flags: G
+  wear_flags: AC
   level: 6
   weight: 3
   cost: 60
@@ -781,7 +781,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 14
   weight: 1
   cost: 140
@@ -800,7 +800,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 21
   weight: 1
   cost: 210
@@ -818,8 +818,8 @@ objects:
   description: A shiny ring is on the floor.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 3
+  extra_flags: G
+  wear_flags: AB
   level: 14
   weight: 1
   cost: 140
@@ -841,8 +841,8 @@ objects:
   description: A quarterstaff is on the floor.
   material: none
   item_type: 5
-  extra_flags: 64
-  wear_flags: 8193
+  extra_flags: G
+  wear_flags: AN
   level: 14
   weight: 5
   cost: 140
@@ -864,8 +864,8 @@ objects:
   description: A potion is on the floor.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 23
   weight: 1
   cost: 230
@@ -883,8 +883,8 @@ objects:
   description: A potion is on the floor.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 13
   weight: 1
   cost: 130
@@ -902,8 +902,8 @@ objects:
   description: A potion is on the floor.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 23
   weight: 1
   cost: 230
@@ -921,8 +921,8 @@ objects:
   description: A potion is on the floor.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 23
   weight: 1
   cost: 230
@@ -940,8 +940,8 @@ objects:
   description: A potion is on the floor.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 23
   weight: 1
   cost: 230
@@ -959,8 +959,8 @@ objects:
   description: A potion is on the floor.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 23
   weight: 1
   cost: 230
@@ -978,8 +978,8 @@ objects:
   description: A potion is on the floor.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 23
   weight: 1
   cost: 230
@@ -997,8 +997,8 @@ objects:
   description: A potion is on the floor.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 13
   weight: 1
   cost: 130
@@ -1016,8 +1016,8 @@ objects:
   description: A potion is on the floor.
   material: none
   item_type: 10
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 13
   weight: 1
   cost: 130
@@ -1035,8 +1035,8 @@ objects:
   description: A scroll is on the floor.
   material: none
   item_type: 2
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 13
   weight: 1
   cost: 130
@@ -1054,8 +1054,8 @@ objects:
   description: A scroll is on the floor.
   material: none
   item_type: 2
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 23
   weight: 1
   cost: 230
@@ -1073,8 +1073,8 @@ objects:
   description: A scroll is on the floor.
   material: none
   item_type: 2
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 13
   weight: 1
   cost: 130
@@ -1092,8 +1092,8 @@ objects:
   description: A scroll is on the floor.
   material: none
   item_type: 2
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 13
   weight: 1
   cost: 130
@@ -1111,8 +1111,8 @@ objects:
   description: A scroll is on the floor.
   material: none
   item_type: 2
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 23
   weight: 1
   cost: 230
@@ -1130,8 +1130,8 @@ objects:
   description: A scroll is on the floor.
   material: none
   item_type: 2
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 23
   weight: 1
   cost: 230
@@ -1149,8 +1149,8 @@ objects:
   description: A scroll is on the floor.
   material: none
   item_type: 2
-  extra_flags: 64
-  wear_flags: 1
+  extra_flags: G
+  wear_flags: A
   level: 13
   weight: 1
   cost: 130
@@ -1168,8 +1168,8 @@ objects:
   description: A dull iron shaft is on the floor.
   material: none
   item_type: 1
-  extra_flags: 1600
-  wear_flags: 1
+  extra_flags: GJK
+  wear_flags: A
   level: 25
   weight: 1
   cost: 250
@@ -1991,7 +1991,7 @@ rooms:
   - dir: 0
     desc: "You see the building.\n\r"
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7834
   - dir: 1
@@ -2101,7 +2101,7 @@ rooms:
   name: The Elf Home
   description: "You are in the home of the valley elves.  The building continues to
     the north\n\rand the east, and the exit is to the south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2120,7 +2120,7 @@ rooms:
   - dir: 2
     desc: "The exit is to the south.\n\r"
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7829
   extra_descs: []
@@ -2130,7 +2130,7 @@ rooms:
     pans line\n\rthe walls, along with shelves filled with many foodstuffs.  A big
     oven is to one\n\rside, and you can smell elfcakes being baked.\n\rThere is a
     doorway to the north and one to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2194,7 +2194,7 @@ rooms:
   description: "You are in the living room of the elven home.  Mats cover the floor,
     and a\n\ron a table is a bowl full of fruits.  Through the window you can see
     the\n\rvalley, with its wild flowers and tall, green grasses.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2216,7 +2216,7 @@ rooms:
   description: "You are in the storage room of the elven home.  Sacks of flour cover
     one side,\n\rand cleaning accessories cover the other side.  You find nothing
     of use here.\n\rA staircase leads up.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2349,20 +2349,20 @@ rooms:
   description: "You are in the room of the valley elf elders.  Books written in strange\n\rlanguages
     line the numerous shelves, and scrolls cover a table.  There is a\n\rsmooth spheric
     object in the center of the room.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc: "You see another room.\n\r"
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7847
   - dir: 1
     desc: "You see another room.\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 7804
     to_vnum: 7846
   extra_descs: []
@@ -2370,20 +2370,20 @@ rooms:
   name: The Storage Room
   description: "You are in a storage room.  Many useless (to you) items fill this
     room.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 0
     desc: "You see another room.\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 7804
     to_vnum: 7848
   - dir: 3
     desc: "You see another room.\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 7804
     to_vnum: 7845
   extra_descs: []
@@ -2392,20 +2392,20 @@ rooms:
   description: "You are in the sleeping quarters of the valley elves.  Cots line the
     floor,\n\rwith two windows showing a view of the valley.  Books in strange languages\n\rline
     the shelves, but nothing of interest is here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc: "You see another room.\n\r"
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7848
   - dir: 2
     desc: "You see another room.\n\r"
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7845
   extra_descs: []
@@ -2415,20 +2415,20 @@ rooms:
     on the\n\rfloor, and musical instruments are neatly stacked on shelves.  Books
     in\n\rstrange languages line some other elves.  A stairway leads down to the\n\rfirst
     floor.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 2
     desc: "You see another room.\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 7804
     to_vnum: 7846
   - dir: 3
     desc: "You see another room.\n\r"
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7847
   - dir: 5
@@ -3029,7 +3029,7 @@ rooms:
   - dir: 3
     desc: "You see the small shack.\n\r"
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7878
   extra_descs: []
@@ -3189,20 +3189,20 @@ rooms:
   name: Inside the Small Shack
   description: "You are inside the small shack.  A small stove is on the side, with
     soup\n\rcooking over it.  You see nothing valuable.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc: "You see the valley outside.\n\r"
     keywords: door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7870
   - dir: 5
     desc: "You see a trap door!\n\r"
     keywords: trap door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7879
   extra_descs: []
@@ -3210,7 +3210,7 @@ rooms:
   name: Beneath the Small Shack
   description: "You are beneath the small shack, in a tunnel that leads south.  It
     feels\n\rquite warm down here.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3223,7 +3223,7 @@ rooms:
   - dir: 4
     desc: "Back to known territory!\n\r"
     keywords: trap door
-    exit_flags: 3
+    exit_flags: AB
     key: -1
     to_vnum: 7878
   extra_descs: []
@@ -3231,7 +3231,7 @@ rooms:
   name: The Den of the Pyrohydra
   description: "You are in the den of the pyrohydra.  All the walls are charred, and
     this\n\rroom is filled with a smell close to that of burning tar.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -3244,13 +3244,13 @@ rooms:
   - dir: 1
     desc: "You see breaks in the charred rock to the east.\n\r"
     keywords: secret
-    exit_flags: 15
+    exit_flags: ABCD
     key: 7805
     to_vnum: 7882
   - dir: 3
     desc: "You see a door to the west.\n\r"
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 7805
     to_vnum: 7881
   extra_descs: []
@@ -3260,14 +3260,14 @@ rooms:
     over\n\rburners, and the whole room spells of herbs and dead animal flesh.  A
     furnace\n\rto the side casts a bright light in this room.  The whole room radiates
     with\n\ra magical aura.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 1
     desc:
     keywords: door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 7805
     to_vnum: 7880
   extra_descs: []
@@ -3275,14 +3275,14 @@ rooms:
   name: The Storage Room
   description: "This room is used to store scrolls, potions, and other magical items.
     \ The\n\rwhole room radiates with a magical aura.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
   - dir: 3
     desc:
     keywords: secret door
-    exit_flags: 15
+    exit_flags: ABCD
     key: 7805
     to_vnum: 7880
   extra_descs: []
@@ -3290,7 +3290,7 @@ rooms:
   name: WAY Far Down into the Valley
   description: "You have fallen trying to go down this steep hill.  Maybe that wasn't
     that\n\rgood an idea, huh?\n\r\n\r\n\rYou've fallen, and you can't get up!\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 0
   owner:
   exits: []

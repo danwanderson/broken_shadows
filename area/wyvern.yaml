@@ -13,7 +13,7 @@ mobiles:
   long_desc: "A killer frog rises up out of the water.\n\r"
   description: "The killer frog looks ravenous.\n\r"
   race: Human
-  act: 524386
+  act: BFGT
   affected_by: 0
   affected2_by: 0
   alignment: -300
@@ -57,7 +57,7 @@ mobiles:
   long_desc: "A stone gargoyle looms over you.\n\r"
   description: "As you look, the figure seems to shift and move ...\n\r"
   race: Human
-  act: 524514
+  act: BFGHT
   affected_by: 0
   affected2_by: 0
   alignment: -400
@@ -101,7 +101,7 @@ mobiles:
   long_desc: "An angry gargoyle glares at you.\n\r"
   description: "He looks ready to attack!\n\r"
   race: Human
-  act: 524388
+  act: CFGT
   affected_by: 0
   affected2_by: 0
   alignment: -600
@@ -145,7 +145,7 @@ mobiles:
   long_desc: "An elite gargoyle guards this room against intrusion.\n\r"
   description: "He snarls at you and says LEAVE OR DIE!\n\r"
   race: Human
-  act: 524294
+  act: BCT
   affected_by: 0
   affected2_by: 0
   alignment: -600
@@ -189,8 +189,8 @@ mobiles:
   long_desc: "The gargoyle shaman is here, preparing to do battle.\n\r"
   description: "She says 'I can SEE you! I have been waiting ...'.\n\r"
   race: Human
-  act: 524358
-  affected_by: 40
+  act: BCGT
+  affected_by: DF
   affected2_by: 0
   alignment: -900
   clan: 0
@@ -234,7 +234,7 @@ mobiles:
     you!\n\r"
   description: "The plant looks something like a Venus fly-trap, only MUCH larger.\n\r"
   race: Human
-  act: 524386
+  act: BFGT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -278,7 +278,7 @@ mobiles:
   long_desc: "A huge, gruesome ogre is sprawled here, gnawing some strange meat.\n\r"
   description: "It thinks that perhaps you would make a better meal.\n\r"
   race: Human
-  act: 524390
+  act: BCFGT
   affected_by: 0
   affected2_by: 0
   alignment: -200
@@ -322,8 +322,8 @@ mobiles:
   long_desc: "A dark shadow moves about the room.\n\r"
   description: "The Shadow is vaguely humanoid. Two glowing pinpoints look at you.\n\r"
   race: Human
-  act: 524388
-  affected_by: 42
+  act: CFGT
+  affected_by: BDF
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -366,8 +366,8 @@ mobiles:
   long_desc: "An evil wight lurks in the shadows!\n\r"
   description: "He glares at you savagely and charges!\n\r"
   race: Human
-  act: 524390
-  affected_by: 40
+  act: BCFGT
+  affected_by: DF
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -410,8 +410,8 @@ mobiles:
   long_desc: "A burly minotaur watches you solemnly.\n\r"
   description: "This powerful creature wonders whether to kill you or not ...\n\r"
   race: Human
-  act: 524356
-  affected_by: 8
+  act: CGT
+  affected_by: D
   affected2_by: 0
   alignment: -600
   clan: 0
@@ -454,8 +454,8 @@ mobiles:
   long_desc: "A bloodthirsty minotaur slowly counts his loot\n\r"
   description: "He looks up at you and screams 'SO! Coming to steal my hoard!'\n\r"
   race: Human
-  act: 524390
-  affected_by: 8
+  act: BCFGT
+  affected_by: D
   affected2_by: 0
   alignment: -600
   clan: 0
@@ -498,8 +498,8 @@ mobiles:
   long_desc: "Sitting here in this room is the Minotaur Captain.\n\r"
   description: "He looks at you, and a sinister grin slowly spreads on his face ...\n\r"
   race: Human
-  act: 524390
-  affected_by: 8
+  act: BCFGT
+  affected_by: D
   affected2_by: 0
   alignment: -900
   clan: 0
@@ -543,7 +543,7 @@ mobiles:
   description: "It is a huge black blob that oozes about the room. Its heading toward
     YOU!\n\r"
   race: Human
-  act: 524388
+  act: CFGT
   affected_by: 0
   affected2_by: 0
   alignment: -1000
@@ -588,8 +588,8 @@ mobiles:
   description: "The golem appears to be made of some kind of clay, enchanted to come
     to life!\n\r"
   race: Human
-  act: 524354
-  affected_by: 8
+  act: BGT
+  affected_by: D
   affected2_by: 0
   alignment: 0
   clan: 0
@@ -632,8 +632,8 @@ mobiles:
   long_desc: "An enormous, ancient wyvern stares down at your tiny form...\n\r"
   description: "It thunders loudly 'I must protect my Master's wealth!'\n\r"
   race: Human
-  act: 524388
-  affected_by: 40
+  act: CFGT
+  affected_by: DF
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -676,8 +676,8 @@ mobiles:
   long_desc: "A spectre has begun to materialize in front of you!\n\r"
   description: "Terror fills your heart as you view this master of the undead.\n\r"
   race: Human
-  act: 524388
-  affected_by: 138
+  act: CFGT
+  affected_by: BDH
   affected2_by: 0
   alignment: -1000
   clan: 0
@@ -720,7 +720,7 @@ mobiles:
   long_desc: "A trapper stands here, bartering his pelts.\n\r"
   description: "The trapper is clad mostly in the fur of various animals he's caught.\n\r"
   race: Human
-  act: 524292
+  act: CT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -764,7 +764,7 @@ mobiles:
   long_desc: "A hunter rests in here, carrying a fresh kill.\n\r"
   description: "The hunter is rugged and sturdy from his occupation.\n\r"
   race: Human
-  act: 524292
+  act: CT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -808,8 +808,8 @@ mobiles:
   long_desc: "A grim ranger reclines at a table.\n\r"
   description: "The years of wanderings have left the ranger hardened and strong.\n\r"
   race: Human
-  act: 524356
-  affected_by: 8
+  act: CGT
+  affected_by: D
   affected2_by: 0
   alignment: 200
   clan: 0
@@ -852,8 +852,8 @@ mobiles:
   long_desc: "A leader of the Rangers is watching you solemnly.\n\r"
   description: "This individual has quite a reputation at the local trading posts!\n\r"
   race: Human
-  act: 524294
-  affected_by: 8
+  act: BCT
+  affected_by: D
   affected2_by: 0
   alignment: 300
   clan: 0
@@ -896,8 +896,8 @@ mobiles:
   long_desc: "The Lord of the Rangers catches your eye.\n\r"
   description:
   race: Human
-  act: 524294
-  affected_by: 8
+  act: BCT
+  affected_by: D
   affected2_by: 0
   alignment: 400
   clan: 0
@@ -940,7 +940,7 @@ mobiles:
   long_desc: "A male centaur wanders about this area.\n\r"
   description: "The centaur has the upper torso of a man and lower body of a horse.\n\r"
   race: Human
-  act: 524292
+  act: CT
   affected_by: 0
   affected2_by: 0
   alignment: 200
@@ -984,7 +984,7 @@ mobiles:
   long_desc: "A female centaur wanders about this area.\n\r"
   description: "The centaur has the upper torso of a woman and lower body of a horse.\n\r"
   race: Human
-  act: 524292
+  act: CT
   affected_by: 0
   affected2_by: 0
   alignment: 200
@@ -1028,7 +1028,7 @@ mobiles:
   long_desc: "An old centaur is resting in a corner.\n\r"
   description: "This centaur has lived a full life.\n\r"
   race: Human
-  act: 524292
+  act: CT
   affected_by: 0
   affected2_by: 0
   alignment: 200
@@ -1072,8 +1072,8 @@ mobiles:
   long_desc: "One of the centaur elders is here, watching you.\n\r"
   description: "The elders act as counselors and advisors to the chief.\n\r"
   race: Human
-  act: 524294
-  affected_by: 2
+  act: BCT
+  affected_by: B
   affected2_by: 0
   alignment: 200
   clan: 0
@@ -1116,8 +1116,8 @@ mobiles:
   long_desc: "A strong centaur is standing guard here.\n\r"
   description: "He appears to be blocking entrance to the next room.\n\r"
   race: Human
-  act: 524290
-  affected_by: 2
+  act: BT
+  affected_by: B
   affected2_by: 0
   alignment: 200
   clan: 0
@@ -1161,8 +1161,8 @@ mobiles:
   description: "He has been the leader of this tribe for many years, and has acquired
     much\n\rwisdom.\n\r"
   race: Human
-  act: 524294
-  affected_by: 2
+  act: BCT
+  affected_by: B
   affected2_by: 0
   alignment: 200
   clan: 0
@@ -1206,7 +1206,7 @@ mobiles:
   description: "As you watch this strange creature, its position seems to flicker
     and shift.\n\r"
   race: Human
-  act: 524416
+  act: HT
   affected_by: 0
   affected2_by: 0
   alignment: 0
@@ -1252,7 +1252,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 8
   weight: 2
   cost: 80
@@ -1270,8 +1270,8 @@ objects:
   description: There is a large mace of fine quality here.
   material: none
   item_type: 5
-  extra_flags: 64
-  wear_flags: 8193
+  extra_flags: G
+  wear_flags: AN
   level: 13
   weight: 11
   cost: 130
@@ -1293,8 +1293,8 @@ objects:
   description: A long elven dagger made of adamantite is here.
   material: none
   item_type: 5
-  extra_flags: 65
-  wear_flags: 8193
+  extra_flags: AG
+  wear_flags: AN
   level: 8
   weight: 2
   cost: 80
@@ -1316,8 +1316,8 @@ objects:
   description: A fine steel broad sword is lying on the ground.
   material: none
   item_type: 5
-  extra_flags: 65
-  wear_flags: 8193
+  extra_flags: AG
+  wear_flags: AN
   level: 9
   weight: 12
   cost: 90
@@ -1329,11 +1329,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
+    location: 18
     modifier: 1
     bitvector: 0
   - where: O
-    location: 18
+    location: 19
     modifier: 1
     bitvector: 0
   extra_descs: []
@@ -1343,8 +1343,8 @@ objects:
   description: A Rod of Might is lying here.
   material: none
   item_type: 5
-  extra_flags: 66
-  wear_flags: 8193
+  extra_flags: BG
+  wear_flags: AN
   level: 16
   weight: 13
   cost: 160
@@ -1356,12 +1356,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 1
-    modifier: 1
-    bitvector: 0
-  - where: O
     location: 18
     modifier: 2
+    bitvector: 0
+  - where: O
+    location: 1
+    modifier: 1
     bitvector: 0
   extra_descs: []
 - vnum: 1612
@@ -1370,8 +1370,8 @@ objects:
   description: There is a large black kite shield lying here.
   material: none
   item_type: 9
-  extra_flags: 65
-  wear_flags: 513
+  extra_flags: AG
+  wear_flags: AJ
   level: 14
   weight: 6
   cost: 140
@@ -1393,8 +1393,8 @@ objects:
   description: A commander's helm rests on a table here.
   material: none
   item_type: 9
-  extra_flags: 65
-  wear_flags: 17
+  extra_flags: AG
+  wear_flags: AE
   level: 18
   weight: 4
   cost: 180
@@ -1418,8 +1418,8 @@ objects:
   description: A magical bracer made from mithril lies on the ground!
   material: none
   item_type: 9
-  extra_flags: 66
-  wear_flags: 4097
+  extra_flags: BG
+  wear_flags: AM
   level: 18
   weight: 2
   cost: 180
@@ -1441,8 +1441,8 @@ objects:
   description: A valuable cloak of dark blue cloth lies on the floor.
   material: none
   item_type: 9
-  extra_flags: 65
-  wear_flags: 5
+  extra_flags: AG
+  wear_flags: AC
   level: 20
   weight: 2
   cost: 200
@@ -1454,12 +1454,12 @@ objects:
   - 0
   affects:
   - where: O
-    location: 12
-    modifier: 5
-    bitvector: 0
-  - where: O
     location: 17
     modifier: -6
+    bitvector: 0
+  - where: O
+    location: 12
+    modifier: 5
     bitvector: 0
   extra_descs: []
 - vnum: 1621
@@ -1468,8 +1468,8 @@ objects:
   description: A dark red potion rests on the ground.
   material: none
   item_type: 10
-  extra_flags: 65
-  wear_flags: 16385
+  extra_flags: AG
+  wear_flags: AO
   level: 11
   weight: 1
   cost: 110
@@ -1488,7 +1488,7 @@ objects:
   material: none
   item_type: 15
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 8
   weight: 10
   cost: 80
@@ -1507,7 +1507,7 @@ objects:
   material: none
   item_type: 17
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 3
   weight: 8
   cost: 30
@@ -1526,7 +1526,7 @@ objects:
   material: none
   item_type: 18
   extra_flags: 0
-  wear_flags: 1
+  wear_flags: A
   level: 0
   weight: 1
   cost: 0
@@ -1544,8 +1544,8 @@ objects:
   description: There is a very strange-looking key on the ground here.
   material: none
   item_type: 18
-  extra_flags: 65
-  wear_flags: 16385
+  extra_flags: AG
+  wear_flags: AO
   level: 12
   weight: 1
   cost: 120
@@ -1570,7 +1570,7 @@ objects:
   material: none
   item_type: 5
   extra_flags: 0
-  wear_flags: 8193
+  wear_flags: AN
   level: 7
   weight: 5
   cost: 70
@@ -1590,8 +1590,8 @@ objects:
   description: A long bow has been foolishly abandoned here.
   material: none
   item_type: 5
-  extra_flags: 65
-  wear_flags: 8193
+  extra_flags: AG
+  wear_flags: AN
   level: 11
   weight: 8
   cost: 110
@@ -1615,8 +1615,8 @@ objects:
   description: A gnarled looking staff lies on the ground.
   material: none
   item_type: 5
-  extra_flags: 65
-  wear_flags: 8193
+  extra_flags: AG
+  wear_flags: AN
   level: 0
   weight: 7
   cost: 0
@@ -1638,8 +1638,8 @@ objects:
   description: An ancient long sword has been left here.
   material: none
   item_type: 5
-  extra_flags: 66
-  wear_flags: 8193
+  extra_flags: BG
+  wear_flags: AN
   level: 0
   weight: 10
   cost: 0
@@ -1651,11 +1651,11 @@ objects:
   - 0
   affects:
   - where: O
-    location: 19
+    location: 18
     modifier: 3
     bitvector: 0
   - where: O
-    location: 18
+    location: 19
     modifier: 3
     bitvector: 0
   extra_descs: []
@@ -1666,7 +1666,7 @@ objects:
   material: none
   item_type: 9
   extra_flags: 0
-  wear_flags: 17
+  wear_flags: AE
   level: 5
   weight: 1
   cost: 50
@@ -1684,8 +1684,8 @@ objects:
   description: A sturdy pair of travelling boots lies here.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 65
+  extra_flags: G
+  wear_flags: AG
   level: 0
   weight: 2
   cost: 0
@@ -1707,8 +1707,8 @@ objects:
   description: A ring of etched bronze gleams dimly on the ground.
   material: none
   item_type: 9
-  extra_flags: 64
-  wear_flags: 3
+  extra_flags: G
+  wear_flags: AB
   level: 11
   weight: 1
   cost: 110
@@ -1877,7 +1877,7 @@ rooms:
   name: House of Pancakes
   description: "The moment you enter this room, the ceiling descends and crushes you\n\rinto
     a pancake.  Don't you hate it when that happens?\n\r"
-  room_flags: 6
+  room_flags: BC
   sector: 0
   owner:
   exits: []
@@ -1886,7 +1886,7 @@ rooms:
   name: Old Store Room
   description: "You have entered what appears to be an old storeroom. Most of the
     items\n\rthat were in here appear to have been ruined long ago.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1901,7 +1901,7 @@ rooms:
   name: Empty Room
   description: "This room appears to be completely empty. The only exit seems to be
     the\n\rway you came.  There are some scratches around the floor.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -1922,7 +1922,7 @@ rooms:
   name: Minotaur's Room
   description: "You have entered a secret chamber under the empty room. In this room
     is\n\rthe worn but cared-for gear and trappings of some large humanoid.\n\r"
-  room_flags: 13
+  room_flags: ACD
   sector: 0
   owner:
   exits:
@@ -2004,7 +2004,7 @@ rooms:
   description: "You are on a foyer on the west side of the structure. The moat is
     west of \n\rhere. There is also a large door eastward into the structure.  You
     notice that\n\rthe walls are ornately decorated with very life-like stone gargoyles.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2028,7 +2028,7 @@ rooms:
     balcony surrounds the lobby. To the east, below the balcony, is an\n\ropening.
     The door leading out is west.  You notice that the balcony is\n\rcovered in highly
     ornate and life-like stone gargoyles.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2050,7 +2050,7 @@ rooms:
   description: "You stand in the center of the Western tower's base. Torch brackets
     occupy\n\rthe four corners of this huge room. Above each torch is a lifelike ornate\n\rstone
     gargoyle.  There are doors north and south, and passages east and west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2083,7 +2083,7 @@ rooms:
   name: The Musty Corridor
   description: "You are walking along a musty east-west corridor joining the two towers.\n\rThere
     are room on each side of the corridor, and openings at each end.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2117,7 +2117,7 @@ rooms:
   description: "You have entered what must once have been a kitchen. The rusting remains
     of\n\rvarious utensils lie on countertops. There is also an old wash basin and
     a\n\rpot-belly stove.  There is a door south, and a serving hatch east.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2133,7 +2133,7 @@ rooms:
   description: "You are in the tower's private conservatory. However, through years
     of neglect,\n\rthe plants have grown into a hideous jungle.  The only exit is
     north.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2150,7 +2150,7 @@ rooms:
     long table\n\rdominate the room. A horrible odor pervades the room, like some
     foul-smelling\n\rbeast has been eating and shitting in here.  There is a serving
     hatch west and\n\ra door south.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2165,7 +2165,7 @@ rooms:
   name: Art Gallery
   description: "You are in the ruined remains of an art gallery. Everything appears
     to\n\rhave been stolen long ago, however.  The only exit is north.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -2183,7 +2183,7 @@ rooms:
     stone gargoyle.  There are are open doors to the north and south, and\n\ra passage
     west.  In addition, a spiral staircase leads up to the next level\n\rof this tower.
     \ \n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2217,7 +2217,7 @@ rooms:
   description: "You are in what must once have been a common room for all residents
     of the\n\rtower. There is a huge fire pit with a chimney in the center, and the
     smashed\n\rremains of a great many table and chairs.  The exit is south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2231,7 +2231,7 @@ rooms:
     desc: "You notice a grate in the bottom of the fire pit.  Maybe it's an opening
       ...\n\r"
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 1634
   extra_descs: []
@@ -2240,7 +2240,7 @@ rooms:
   description: "You are in what once was the servant's quarters, as evidenced by the
     shabby\n\rbelongings and decor. What little remains is rotting and of little value\n\ranyway.
     \ The only exit is north.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2256,14 +2256,14 @@ rooms:
   description: "You are in a large, murky cellar. An almost tangible air of horror
     pervades\n\rthe room.  A thin layer of nitre covers the walls and ceiling.  Rotting\n\rfurniture
     looms obliquely about the room.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
   - dir: 4
     desc:
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 1632
   extra_descs: []
@@ -2271,7 +2271,7 @@ rooms:
   name: On the First Staircase
   description: "You are on a Spiral staircase connecting the first and second levels
     of\n\rthe eastern tower. You can go up or down.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 2
   owner:
   exits:
@@ -2293,7 +2293,7 @@ rooms:
   description: "You are in the center of the second level of the Eastern tower. This
     large\n\rroom appears quite empty, except for the candle abras firmly fixed to
     the\n\rwalls.  An opening leads westward, and a spiral staircase leads down.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 1
   owner:
   exits:
@@ -2316,7 +2316,7 @@ rooms:
     now.\n\rThe rotted remains of a plush carpet covers the floor, while several moldy\n\rtapestries
     adorn the each side of the hall.  There are door north and south,\n\rand openings
     east and west.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2351,7 +2351,7 @@ rooms:
     in use!\n\rCostly paintings and pieces of furniture are tastefully situated.  On
     the\n\rnorth wall is an altar to Knar, the ghastly patron of Gargoyles.  The only\n\rexit
     is south.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2366,7 +2366,7 @@ rooms:
   name: The Library
   description: "This room appears to have been a library.  Empty book shelves line
     each wall.\n\rThe only exit is north.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2383,7 +2383,7 @@ rooms:
     spiral \n\rstaircase of 29 steps connects this level with the third.  There are
     doors\n\rto the east and west.  Except for a torch bracket in each corner, the
     \n\rroom is barren.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
@@ -2410,7 +2410,7 @@ rooms:
   name: On the Balcony
   description: "You are on the balcony overlooking the Grand lobby.  You have a fabulous\n\rview
     of the entire room.  The only exit is the way you came in.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -2425,7 +2425,7 @@ rooms:
   name: The Spiral Stairs
   description: "You are on a large spiral staircase of 29 steps, leading between the
     \n\rsecond and third floors.  You can go up or down.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 2
   owner:
   exits:
@@ -2447,14 +2447,14 @@ rooms:
   description: "You stand in the center of the western tower's third floor.  This
     large room\n\rglows mysteriously with a strange light all its own.  From a door
     to the east\n\rcomes a strange inky blackness.  A spiral staircase leads down.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
   - dir: 1
     desc:
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 1644
   - dir: 5
@@ -2467,32 +2467,32 @@ rooms:
 - vnum: 1644
   name: It's too dark to see anything!
   description:
-  room_flags: 9
+  room_flags: AD
   sector: 3
   owner:
   exits:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 1645
   - dir: 1
     desc:
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 1647
   - dir: 2
     desc:
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 1646
   - dir: 3
     desc:
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 1643
   extra_descs: []
@@ -2502,14 +2502,14 @@ rooms:
     stored\n\rracks of common weapons.  They appear to be quite ordinary; however,
     a chest\n\rin one corner catches your eye.  The only exit is the way you came
     in.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 2
     desc:
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 1644
   extra_descs: []
@@ -2520,14 +2520,14 @@ rooms:
     snake-like reptiles with poisonous tails fight humans and dwarves.\n\rVarious
     objects in the room give evidence that it is occupied by individuals\n\rof authority.
     \ The only door is north.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
   - dir: 0
     desc:
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 1644
   extra_descs: []
@@ -2537,20 +2537,20 @@ rooms:
     you are in\n\rglows with a mysterious light that has no source.  In the center
     of the room a\n\rladder climbs up to a hatchway in the ceiling.  The hatchway
     is a strange\n\rlooking keyhole.  There is also a door to the west.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 1
   owner:
   exits:
   - dir: 3
     desc:
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 1644
   - dir: 4
     desc: "The hatchway appears securely fastened.  In it is a strange keyhole.\n\r"
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 1648
   extra_descs: []
@@ -2573,7 +2573,7 @@ rooms:
   - dir: 5
     desc:
     keywords:
-    exit_flags: 1
+    exit_flags: A
     key: -1
     to_vnum: 1647
   extra_descs: []
@@ -2608,7 +2608,7 @@ rooms:
     here.\n\rScattered about this room are a great many coins and valuable articles.\n\rYet
     you can't get rid of a feeling of dread!  A mirror-like portal is in the\n\rwestern
     wall.\n\r"
-  room_flags: 9
+  room_flags: AD
   sector: 0
   owner:
   exits:
@@ -2669,7 +2669,7 @@ rooms:
   description: "You are on the old Eastern Road.  The crossroads to the east joins
     ANOTHER\n\rnorthern route to this road, which continues east.  South of the crossroads
     is\n\ran old building.  The area around here is lightly timbered.\n\r"
-  room_flags: 4
+  room_flags: C
   sector: 3
   owner:
   exits:
@@ -2726,7 +2726,7 @@ rooms:
   name: Trading Post
   description: "You are in a trading post just south of the crossroads, where rangers,\n\rtrappers
     and hunters from the surrounding area come to buy, sell, and\n\rbarter goods.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2946,7 +2946,7 @@ rooms:
   name: A Centaur's Hut
   description: "You are inside a smallish hut, the home of a family of Centaurs.  The
     hut\n\ris sparsely furnished, mostly the trappings of survival.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2961,7 +2961,7 @@ rooms:
   name: A Centaur's Hut
   description: "You are inside a smallish hut, the home of a family of Centaurs.  The
     hut\n\ris sparsely furnished, mostly the trappings of survival.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2976,7 +2976,7 @@ rooms:
   name: A Centaur's Hut
   description: "You are inside a smallish hut, the home of a family of Centaurs.  The
     hut\n\ris sparsely furnished, mostly the trappings of survival.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -2991,7 +2991,7 @@ rooms:
   name: A Centaur's Hut
   description: "You are inside a smallish hut, the home of a family of Centaurs.  The
     hut\n\ris sparsely furnished, mostly the trappings of survival.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3007,7 +3007,7 @@ rooms:
   description: "You are in the entry foyer of a large hut.  A curtain separates this
     section\n\rof the hut from the next section to the west.  To the east is an opening
     out\n\ronto the clearing.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
@@ -3029,7 +3029,7 @@ rooms:
   description: "You are in the back of a large hut.  A curtain separates this section
     from\n\rthe front of the hut to the east.  This room is finely decorated, if\n\rsomewhat
     primitive.  The decor suggests someone of authority lives here.\n\r"
-  room_flags: 8
+  room_flags: D
   sector: 0
   owner:
   exits:
