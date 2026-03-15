@@ -1111,12 +1111,6 @@ load_yaml_area_resets_shops( const char *filename )
 /* save_yaml_area: serialise an area to a .yaml file                   */
 /* ------------------------------------------------------------------ */
 
-/*
- * Emitter helper macros.
- */
-#define YE(call) \
-    if ( !(call) ) { bug( "save_yaml_area: emit error.", 0 ); goto cleanup; }
-
 static void
 emit_scalar( yaml_emitter_t *em, const char *value )
 {
@@ -1558,11 +1552,6 @@ save_yaml_area( AREA_DATA *pArea )
     yaml_emitter_delete( &em );
     fclose( fp );
     return TRUE;
-
-cleanup:
-    yaml_emitter_delete( &em );
-    fclose( fp );
-    return FALSE;
 }
 
 /* ------------------------------------------------------------------ */
